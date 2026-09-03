@@ -1,0 +1,76 @@
+services:
+  collector:
+    build: .
+    container_name: ai-news-collector
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      RSSHUB_URL: http://rsshub:1200
+      DATABASE_URL: sqlite:///data/collector.db
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    depends_on:
+      - rsshub
+    command: ["python", "-m", "collector", "run"]
+
+  api:
+    build: .
+    container_name: ai-news-api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      RSSHUB_URL: http://rsshub:1200
+      DATABASE_URL: sqlite:///data/collector.db
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    ports:
+      - "8000:8000"
+    command: ["python", "-m", "collector", "api"]
+
+  rsshub:
+    image: diygod/rsshub:chromium-bundled
+    container_name: rsshub
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: redis
+      REDIS_URL: redis://redis:6379/
+      CACHE_EXPIRE: "300"
+      # Routes that hit blocked sites (github/twitter) go through the same proxy.
+      # Remove if your proxy is not reachable from inside Docker (use host.docker.internal).
+      PROXY_URI: ${PROXY_URL:-}
+      # For X/Twitter routes, uncomment and fill in:
+      # TWITTER_USERNAME: ""
+      # TWITTER_PASSWORD: ""
+    ports:
+      - "1200:1200"
+    depends_on:
+      - redis
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  redis:
+    image: redis:7-alpine
+    container_name: rsshub-redis
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+
+  # Uncomment when you outgrow SQLite. Then set
+  # DATABASE_URL=postgresql+psycopg://collector:collector@postgres:5432/collector
+  # and add `psycopg[binary]` to requirements.txt.
+  # postgres:
+  #   image: postgres:16-alpine
+  #   restart: unless-stopped
+  #   environment:
+  #     POSTGRES_USER: collector
+  #     POSTGRES_PASSWORD: collector
+  #     POSTGRES_DB: collector
+  #   volumes:
+  #     - pg-data:/var/lib/postgresql/data
+
+volumes:
+  redis-data:
+  # pg-data:
