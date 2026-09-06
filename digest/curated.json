@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-06T18:44:02.391361+00:00",
+ "generated_at": "2026-09-06T21:30:39.493900+00:00",
  "stats": {
-  "items": 1240,
-  "clusters": 1138,
-  "noise": 700,
+  "items": 1301,
+  "clusters": 1196,
+  "noise": 756,
   "dup": 0,
   "history_days": 3
  },
@@ -264,23 +264,6 @@
   },
   {
    "rank": 14,
-   "title": "国内首款 AI 辅助创新药艾普司韦获批上市",
-   "lang": null,
-   "url": "https://www.ithome.com/0/998/936.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "国内首款 AI 辅助创新药艾普司韦获批上市",
-    "国内首款AI辅助创新药获批上市"
-   ],
-   "published_at": "2026-09-06T07:14:03.000000+00:00",
-   "summary": "IT之家 9 月 6 日消息，据西湖大学微信公众号消息，由西湖大学、西湖实验室、西湖制药联合研发的创新药 —— 盐酸伊司特韦片（商品名：艾普司韦）近期正式获得国家药品监督管理局附条件批准上市。 据IT之家了解，这是西湖大学首款完全自主研发的 1 类创新药，用于成人轻型、中型新型冠状病毒感染的治疗。1 类创新药是中国药品注册分类中的最高级别，代表从 0 到 1 的源头创新，其核心在于拥有全新的化学结构、全新的作用机制，且具备明确的临床价值..."
-  },
-  {
-   "rank": 15,
    "title": "Give Your Coding Agents a Memory You Own",
    "lang": null,
    "url": "https://huggingface.co/blog/funes",
@@ -300,7 +283,7 @@
    "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
   },
   {
-   "rank": 16,
+   "rank": 15,
    "title": "李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界",
    "lang": null,
    "url": "https://www.oschina.net/news/502277/worldlabs-ai-atlas",
@@ -317,7 +300,7 @@
    "summary": "李飞飞创立的 World Labs 发布了 Atlas，一个从零预训练的多模态空间智能大模型。你可以给它几张照片，它能生成从任意角度观看的连续视频；给它一段手机拍摄的视频，它能重建出完整的 3D 场景，让机器人在里面模拟导航。 核心架构是「multimodal autoregressive diffusion transformer」——这个术语拆开来看，autoregre..."
   },
   {
-   "rank": 17,
+   "rank": 16,
    "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
    "lang": null,
    "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
@@ -334,7 +317,7 @@
    "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This..."
   },
   {
-   "rank": 18,
+   "rank": 17,
    "title": "GPT‑6 Astra",
    "lang": null,
    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
@@ -352,7 +335,7 @@
    "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API a..."
   },
   {
-   "rank": 19,
+   "rank": 18,
    "title": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
    "lang": null,
    "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/",
@@ -367,6 +350,23 @@
    ],
    "published_at": "2026-09-03T21:16:11.000000+00:00",
    "summary": "Today, OpenAI released GPT-6 Astra . The company calls it its most intelligent and aligned model, and positions it primarily as a computer-use system rather than a chat model. The pitch is that Astra operates software th..."
+  },
+  {
+   "rank": 19,
+   "title": "GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代",
+   "lang": null,
+   "url": "https://www.oschina.net/news/502307/openai-gpt-6-astra",
+   "score": 5.5,
+   "sources": [
+    "oschina",
+    "baai-hub"
+   ],
+   "titles": [
+    "GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代",
+    "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代"
+   ],
+   "published_at": "2026-09-04T01:39:37.000000+00:00",
+   "summary": "凌晨三点三十三分，GPT-6 Astra 发布了。 OpenAI 在博客里说这是「世界上最智能、最对齐的模型」。Sam Altman 在 X 上说「我们花了额外的时间确保安全和对齐标准，但你们会等得值得」。Greg Brockman 直接表示「欢迎来到 AGI 时代」。 GPT-6 Astra 但整场发布里，真正让人停下来的，是 ARC-AGI-3 上的一个数字：99.9%。 ..."
   },
   {
    "rank": 20,

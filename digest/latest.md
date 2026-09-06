@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-07 02:44 CST
+生成时间：2026-09-07 05:30 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -489,25 +489,25 @@
 - 发布时间：2026-09-04 05:09 CST
 - 链接：https://www.latent.space/p/astra
 
-## MarkTechPost（marktechpost，en，本窗口共 10 条）
+## MarkTechPost（marktechpost，en，本窗口共 11 条）
 
-### 1. UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents
+### 1. Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours
+- 摘要：AI research agents can already propose, implement and score their own machine learning experiments. Idea generation is cheap; verification is not. Training one candidate can consume hours to days of GPU time, so an agent proposes far more candidates than it can afford to run. Which ones get run is t...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-07 04:25 CST
+- 链接：https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/
+
+### 2. UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents
 - 摘要：A team of researchers from UC Berkeley have released CUA-Lite , an open platform for computer-use agents (CUAs). The argument behind it is infrastructural rather than model-centric: training and benchmarking a CUA requires four pieces: agents, environments, traces, and a framework to evaluate and tr...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-06 14:11 CST
 - 链接：https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/
 
-### 2. Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed
+### 3. Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed
 - 摘要：Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs , an under-the-hood account of the second — the serving infrastructure behind...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-06 11:20 CST
 - 链接：https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/
-
-### 3. GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI
-- 摘要：GitHub has released Project HydraFusion , a research preview that stops treating model choice as a one-time setting. Instead of routing your prompt to a single model, HydraFusion builds an execution plan per request. It can draft with one model, have a second model critique the draft, or escalate to...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-06 03:40 CST
-- 链接：https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/
 
 ## MIT Technology Review — AI（mit-tech-review，en，本窗口共 4 条）
 
@@ -605,25 +605,25 @@
 - 发布时间：2026-09-06 07:27 CST
 - 链接：https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 20 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 21 条）
 
-### 1. Travis Kalanick’s Atoms might be getting into the robotaxi business
+### 1. Authors push back as publishers and agents make claims on Anthropic settlement
+- 摘要：Authors say publishers seem to be claiming more than their fair share of settlement payments.
+- 作者：Anthony Ha
+- 发布时间：2026-09-07 04:47 CST
+- 链接：https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/
+
+### 2. Travis Kalanick’s Atoms might be getting into the robotaxi business
 - 摘要：The Uber founder has said that Atoms will allow him to complete "unfinished business."
 - 作者：Anthony Ha
 - 发布时间：2026-09-07 00:45 CST
 - 链接：https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/
 
-### 2. Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft
+### 3. Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft
 - 摘要：Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.
 - 作者：Anthony Ha
 - 发布时间：2026-09-06 06:49 CST
 - 链接：https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/
-
-### 3. Hikers rescued after using Google Gemini for planning
-- 摘要：The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required."
-- 作者：Anthony Ha
-- 发布时间：2026-09-06 03:35 CST
-- 链接：https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
 
 ## The Decoder（the-decoder，en，本窗口共 10 条）
 
@@ -960,25 +960,25 @@
 - 发布时间：2026-09-06 22:25 CST
 - 链接：https://github.com/DietrichGebert/ponytail
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 348 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 365 条）
 
-### 1. Following legal advice, the Nitter project will continue
-- 摘要：Alternative Twitter front-end. Contribute to zedeus/nitter development by creating an account on GitHub.
-- 作者：Cider9986
-- 发布时间：2026-09-07 01:51 CST
-- 链接：https://github.com/zedeus/nitter
+### 1. Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple
+- 摘要：Make Any DOM Reactive. Contribute to marsbos/mador development by creating an account on GitHub.
+- 作者：bosmarcel
+- 发布时间：2026-09-07 04:45 CST
+- 链接：https://github.com/marsbos/mador
 
-### 2. Nitter is unarchived and will continue
-- 摘要：Alternative Twitter front-end. Contribute to zedeus/nitter development by creating an account on GitHub.
-- 作者：zImPatrick
-- 发布时间：2026-09-07 01:49 CST
-- 链接：https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3
+### 2. XCancel is available again
+- 摘要：XCancel is an instance of Nitter. Nitter is a free and open source alternative Twitter front-end focused on privacy and performance. The source is available on GitHub at https://github.com/zedeus/nitter - No JavaScript or ads - All requests go through the backend, client never talks to Twitter - Pre...
+- 作者：1matin
+- 发布时间：2026-09-07 04:44 CST
+- 链接：https://xcancel.com/about
 
-### 3. OpenAI: We monitor internal coding agents for misalignment
-- 摘要：How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.
-- 作者：lukaspetersson
-- 发布时间：2026-09-07 00:37 CST
-- 链接：https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
+### 3. Human archive: They were only human
+- 摘要：A speculative museum seen through the eyes of future AIs. Five galleries about human feeling, ritual, contradiction, and the making of intelligence.
+- 作者：jonwinstanley
+- 发布时间：2026-09-07 04:17 CST
+- 链接：https://sayyss.github.io/human-archive/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 35 条）
 
@@ -1019,25 +1019,24 @@
 - 发布时间：2026-09-06 14:17 CST
 - 链接：https://v.redd.it/y3x61q2eeunh1
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 171 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 213 条）
 
-### 1. Proposed architecture for inferencing sparse MOE models increasing Active parameters using layered + linear decay. Succinct reasoning without any model training or fine tune. [p]
-- 摘要：I ported MoE expert expansion to llama.cpp 🚀 Run MoE models with MORE routed experts than the native top-K (8->x), adaptive threshold, 99→50% influence decay, layer range. Runtime-only, all backends. Tested on Qwen 3.6 35B A4B+ https://github.com/vagrillo/llama.cpp/blob/moe-expansion/docs/moe-expans...
-- 作者：Specific-Tax-6700
-- 发布时间：2026-09-07 02:41 CST
-- 链接：https://www.reddit.com/r/MachineLearning/comments/1w94dtn/proposed_architecture_for_inferencing_sparse_moe/
+### 1. Will Anthropic bring back the thinking-chain feature?
+- 摘要：Pretty much the title. I am a graduate student and I use AI sparingly so I never really know what is going on with updates, etc. I use Claude because of the feature that shows it's reasoning so I can improve my prompting and have noticed that it is now gone. I have seen some fuss about this change o...
+- 作者：Roaexx
+- 发布时间：2026-09-07 05:25 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w98qsj/will_anthropic_bring_back_the_thinkingchain/
 
-### 2. Best model + setup for remote deployment.
-- 摘要：Hi everybody, I am in a tricky situation. My grandfather + grandmother live in a remote village in asia, and were visiting us in the city. My grandfather has absolutely fallen in love with AI, and it is completely new for him. He loves how he can talk to it, and get information from it. The caveat i...
-- 作者：Potential_Low_1183
-- 发布时间：2026-09-07 02:40 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1w94cj4/best_model_setup_for_remote_deployment/
+### 2. Jem: Holographic Pop Star - MiniMax H3
+- 作者：darthfurbyyoutube
+- 发布时间：2026-09-07 05:25 CST
+- 链接：https://v.redd.it/657ddlf7wynh1
 
-### 3. Astra amazing at organizing your MyDrive
-- 摘要：My MyDrive was an utter mess. Photos, files, videos all mix together where they shouldn’t be, an organization that was good to begin but fell apart after a while. Had Astra light go through and organize everything. Now my photos and videos are organized by date and my files are organized by type and...
-- 作者：Apollo18Teslaa
-- 发布时间：2026-09-07 02:37 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1w949hc/astra_amazing_at_organizing_your_mydrive/
+### 3. What is the correct way to vibe-code Machine Learning projects?
+- 摘要：I'm currently learning Machine Learning through a course, and I want to start building projects alongside it. My main goal right now is simply to build several good ML projects and get familiar with the complete project development process . I want to use AI coding tools such as Cursor, Claude Code,...
+- 作者：TusharKharade_
+- 发布时间：2026-09-07 05:18 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w98k62/what_is_the_correct_way_to_vibecode_machine/
 
 ## 智源社区（baai-hub，zh，本窗口共 6 条）
 
@@ -1060,7 +1059,7 @@
 - 链接：https://hub.baai.ac.cn/view/57716
 
 ---
-共列出 161 条（窗口内采集总数 1261 条，来自 59 个信源）
+共列出 161 条（窗口内采集总数 1322 条，来自 59 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

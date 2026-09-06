@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（已去重排序，共 20 条）
-生成时间：2026-09-07 02:44 CST
-数据窗口：最近 24 小时，1240 条原始条目 → 1138 个事件；过滤噪音 700 个，排除前 3 天已推送的 0 个。
+生成时间：2026-09-07 05:30 CST
+数据窗口：最近 24 小时，1301 条原始条目 → 1196 个事件；过滤噪音 756 个，排除前 3 天已推送的 0 个。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
 > 按 skill daily-ai-news 只做翻译与排版。「来源」里有几家就是几家同时报道，可作为重要程度的依据。
@@ -105,14 +105,7 @@
 - 链接：https://www.ithome.com/0/998/922.htm
 - 同事件报道：“国家反诈AI”APP上线（36氪 快讯）
 
-## 14. 国内首款 AI 辅助创新药艾普司韦获批上市
-- 语言：? ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.0
-- 摘要：IT之家 9 月 6 日消息，据西湖大学微信公众号消息，由西湖大学、西湖实验室、西湖制药联合研发的创新药 —— 盐酸伊司特韦片（商品名：艾普司韦）近期正式获得国家药品监督管理局附条件批准上市。 据IT之家了解，这是西湖大学首款完全自主研发的 1 类创新药，用于成人轻型、中型新型冠状病毒感染的治疗。1 类创新药是中国药品注册分类中的最高级别，代表从 0 到 1 的源头创新，其核心在于拥有全新的化学结构、全新的作用机制，且具备明确的临床价值...
-- 发布时间：2026-09-06 15:14 CST
-- 链接：https://www.ithome.com/0/998/936.htm
-- 同事件报道：国内首款AI辅助创新药获批上市（36氪 快讯）
-
-## 15. Give Your Coding Agents a Memory You Own
+## 14. Give Your Coding Agents a Memory You Own
 - 语言：? ｜ 来源：Hugging Face Blog、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
 - 摘要：We’re on a journey to advance and democratize artificial intelligence through open source and open science.
 - 发布时间：2026-09-03 08:00 CST
@@ -120,21 +113,21 @@
 - 同事件报道：Show HN: Decispher – persistent engineering context and memory for coding agents（Hacker News (AI stories)）
 - 同事件报道：Show HN: A Context Registry for AI coding agents（Hacker News (AI stories)）
 
-## 16. 李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界
+## 15. 李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界
 - 语言：? ｜ 来源：开源中国、Product Hunt — AI（2 个来源） ｜ 热度：5.5
 - 摘要：李飞飞创立的 World Labs 发布了 Atlas，一个从零预训练的多模态空间智能大模型。你可以给它几张照片，它能生成从任意角度观看的连续视频；给它一段手机拍摄的视频，它能重建出完整的 3D 场景，让机器人在里面模拟导航。 核心架构是「multimodal autoregressive diffusion transformer」——这个术语拆开来看，autoregre...
 - 发布时间：2026-09-02 19:24 CST
 - 链接：https://www.oschina.net/news/502277/worldlabs-ai-atlas
 - 同事件报道：Atlas by World Labs（Product Hunt — AI）
 
-## 17. Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment
+## 16. Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment
 - 语言：? ｜ 来源：MarkTechPost、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
 - 摘要：Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This...
 - 发布时间：2026-09-04 03:46 CST
 - 链接：https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/
 - 同事件报道：Claude for Commerce Agents（Hacker News (AI stories)）
 
-## 18. GPT‑6 Astra
+## 17. GPT‑6 Astra
 - 语言：? ｜ 来源：Simon Willison's Weblog、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
 - 摘要：GPT‑6 Astra GPT-6 Astra is "rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API a...
 - 发布时间：2026-09-04 04:18 CST
@@ -142,12 +135,19 @@
 - 同事件报道：OpenAI Releases GPT Astra（Hacker News (AI stories)）
 - 同事件报道：GPT 6 Astra（Hacker News (AI stories)）
 
-## 19. OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold
+## 18. OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold
 - 语言：? ｜ 来源：MarkTechPost、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
 - 摘要：Today, OpenAI released GPT-6 Astra . The company calls it its most intelligent and aligned model, and positions it primarily as a computer-use system rather than a chat model. The pitch is that Astra operates software th...
 - 发布时间：2026-09-04 05:16 CST
 - 链接：https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/
 - 同事件报道：OpenAI to Restrict Astra Model After Rating It 'Critical' Cyber Risk（Hacker News (AI stories)）
+
+## 19. GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代
+- 语言：? ｜ 来源：开源中国、智源社区（2 个来源） ｜ 热度：5.5
+- 摘要：凌晨三点三十三分，GPT-6 Astra 发布了。 OpenAI 在博客里说这是「世界上最智能、最对齐的模型」。Sam Altman 在 X 上说「我们花了额外的时间确保安全和对齐标准，但你们会等得值得」。Greg Brockman 直接表示「欢迎来到 AGI 时代」。 GPT-6 Astra 但整场发布里，真正让人停下来的，是 ARC-AGI-3 上的一个数字：99.9%。 ...
+- 发布时间：2026-09-04 09:39 CST
+- 链接：https://www.oschina.net/news/502307/openai-gpt-6-astra
+- 同事件报道：刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代（智源社区）
 
 ## 20. 诡异又倒胃口：AI 食物图片攻占餐厅菜单，让消费者食欲全无
 - 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
