@@ -4,54 +4,87 @@ AI 方向（国内外）新闻**采集层**：从 RSS / 官方 API 拉取原文�
 
 本项目**只做采集**，不做翻译、聚类、摘要、LLM 处理。输出是原文 + 元数据。不需要任何账号、凭据或代理。
 
-## 运行方式：两边抓、GitHub 合并，下游从 `data` 分支拉
+## 运行方式：两边抓、GitHub 合并，全文进私有归档仓、摘要发公开 `data` 分支
 
 每个信源在 `sources.yaml` 里标了 `runner`：国外源和所有 RSSHub 路由走 GitHub Actions（美国 runner，HF / Reddit / Google 直连），
 直连的国内媒体和对数据中心 IP 设防的站点（VentureBeat 限流、MarkTechPost 返回反爬页）走国内服务器（`runner: server`，
 快、不会被海外 IP 拒绝）。两边各写各的文件，Actions 生成摘要时合并。
 
+本仓库是**公开**的（Actions 分钟数不限），但采集到的是第三方文章**全文**，不能公开再分发，所以全文只进私有仓库
+[xbbwa/ai-news-archive](https://github.com/xbbwa/ai-news-archive)，公开分支上只有标题 + 短摘要 + 链接的摘要文件；
+两边工作库（SQLite）存在 `state` Release 里，用 `STATE_KEY` 加密后才上传。
+
 ```
-GitHub Actions（每小时 :30，.github/workflows/collect.yml）          prod-ubuntu（国内，systemd 用户服务常驻）
-   │ 1. 从 state Release 取回 SQLite 工作库 + 游标                        │ python -m collector run（COLLECTOR_RUNNER=server，11 个源）
+GitHub Actions（每小时 :30，.github/workflows/collect.yml）          国内服务器（systemd 用户服务常驻）
+   │ 1. 从 state Release 取回加密的 SQLite 工作库 + 游标，解密            │ python -m collector run（COLLECTOR_RUNNER=server，12 个源）
    │ 2. collector once（runner=github，63 源；RSSHub 作 service 容器）      │ cron :15  scripts/server_publish.sh
-   │ 3. export_daily.py → items/YYYY-MM-DD.jsonl                         │   export_daily.py → archive/items/YYYY-MM-DD.cn.jsonl
-   │    daily_digest.py（合并 *.cn.jsonl，按 URL 去重）→ digest/latest.md │   publish_archive.py → 用 GitHub Contents API 上传
-   │ 4. 提交 data 分支；库 + 游标传回 state Release                        │   （api.github.com 可达；git/SSH 协议在国内都不通）
+   │ 3. export_daily.py → 私有归档仓 items/YYYY-MM-DD.jsonl（deploy key）  │   export_daily.py → ~/ai-news-archive/items/YYYY-MM-DD.cn.jsonl
+   │    daily_digest.py / curate_digest.py（合并 *.cn.jsonl，按 URL 去重） │   git push → 私有归档仓（SSH 走 443 端口 + deploy key）
+   │    → 公开 data 分支 digest/latest.md、curated.md、curated.json        │
+   │ 4. 库加密后 + 游标传回 state Release                                  │
    ▼                                                                    ▼
-data 分支 ── items/YYYY-MM-DD.jsonl（GitHub 侧） + items/YYYY-MM-DD.cn.jsonl（服务器侧） + digest/latest.md
+xbbwa/ai-news-archive（私有）── items/YYYY-MM-DD.jsonl（GitHub 侧） + items/YYYY-MM-DD.cn.jsonl（服务器侧），含正文
+xbbwa/ai-news-collector data 分支（公开）── digest/latest.md、curated.md、curated.json、pushed-history.jsonl
    │
    ▼  纯 HTTPS 下载（raw.githubusercontent.com）
-prod-ubuntu ── cron 07:01：~/scripts/sync_ai_news_digest.sh 把 latest.md 放到 OpenClaw 读的位置
+国内服务器 ── cron 07:01：scripts/sync_digest.sh 把摘要放到 OpenClaw 读的位置，并回传 pushed-history.jsonl
 ```
 
-两侧文件名不同所以永不冲突；Actions 推送前会 `git pull --rebase`。两侧各自去重，同一篇文章被两边不同信源抓到时归档里会各有一条
+两侧文件名不同所以永不冲突；推送前都会 `git pull --rebase`。两侧各自去重，同一篇文章被两边不同信源抓到时归档里会各有一条
 （摘要里按 URL 去重）。`id` 是各自数据库的自增号，跨文件不唯一，下游按 `fetched_at` 或文件内顺序取增量。
 
-想在别处消费数据（仓库是私有的，请求要带 PAT：`-H "Authorization: Bearer $GITHUB_TOKEN"`）：
+消费数据：
 
 ```
+公开（匿名可下）：
 https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/digest/latest.md
-https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/items/2026-09-06.jsonl
+https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/digest/curated.md
 备用：https://api.github.com/repos/xbbwa/ai-news-collector/contents/digest/latest.md?ref=data  （Accept: application/vnd.github.raw）
+
+全文（私有仓，需要有该仓库读权限的 PAT 或 deploy key）：
+https://raw.githubusercontent.com/xbbwa/ai-news-archive/main/items/2026-09-06.jsonl   -H "Authorization: Bearer $TOKEN"
 ```
 
-手动触发一次：`gh workflow run collect`；看运行：`gh run list --workflow collect`。仓库是私有的，Actions 受账号每月免费分钟数限制
-（Free 套餐 2000 分钟；每轮 1–3 分钟、每小时一轮约 720–2160 分钟/月，在 Settings → Billing 留意用量）；
+手动触发一次：`gh workflow run collect`；看运行：`gh run list --workflow collect`。仓库公开，Actions 分钟数不限；
 定时任务实际触发会比 cron 晚 5–15 分钟，`30 * * * *` 的 22:30 UTC 那一轮正好落在 07:01 北京时间的拉取之前。
 
-### 服务器侧（prod-ubuntu，yino）
+工作流需要的两个 secret：`ARCHIVE_DEPLOY_KEY`（归档仓的写权限 deploy key 私钥，只加在 ai-news-archive 上）和 `STATE_KEY`
+（工作库的加密口令，随机 32 字节 base64；丢了只会丢失工作库，下一轮从空库重新采集，归档不受影响）。
+
+### 服务器侧
 
 ```
-~/ai-news-collector/            代码（无 git：用 scripts/server_update.sh 带 .env 里的 PAT 经 api.github.com 拉 tarball 覆盖，保留 data/ archive/ .env）
+~/ai-news-collector/            代码（无 git：用 scripts/server_update.sh 经 api.github.com 拉 tarball 覆盖，保留 data/ archive/ .env）
+~/ai-news-archive/              私有归档仓的 git 克隆，server_publish.sh 往里追加 items/*.cn.jsonl 并 push
 ~/venvs/ai-news-collector/      venv（pip 走阿里云镜像）
 ~/ai-news-collector/.env        COLLECTOR_RUNNER=server  DATABASE_URL=sqlite:///data/collector.db  PROXY_URL=  GITHUB_TOKEN=<fine-grained PAT>
                                 （server 侧 12 个源：量子位、智东西、InfoQ、钛媒体、爱范儿、极客公园、IT之家、少数派、雷峰网、开源中国、VentureBeat、MarkTechPost）
+~/.ssh/ai-news-archive_ed25519  归档仓的 deploy key（写权限，私钥不离开服务器）；~/.ssh/config 里的别名 github-ai-news-archive 指向 ssh.github.com:443
 ~/.config/systemd/user/ai-news-collector.service   来自 deploy/systemd/，systemctl --user status ai-news-collector
 crontab: 15 * * * * ~/ai-news-collector/scripts/server_publish.sh >> ~/logs/ai-news-publish.log 2>&1
+         01 7 * * * ~/ai-news-collector/scripts/sync_digest.sh    >> ~/logs/ai-news-digest.log  2>&1
 ```
 
-`GITHUB_TOKEN` 是唯一需要人配的东西：GitHub → Settings → Developer settings → Fine-grained tokens，只选这个仓库，
-权限只给 Contents: Read and write。没配之前采集照常进行、条目攒在本地，配好后下一次 cron 由游标一次补传。
+首次安装归档克隆（git 协议在这台机器上只有 SSH 走 443 端口能通）：
+
+```bash
+ssh-keygen -t ed25519 -N "" -f ~/.ssh/ai-news-archive_ed25519 -C "ai-news-collector server"
+cat >> ~/.ssh/config <<'EOF'
+Host github-ai-news-archive
+    HostName ssh.github.com
+    Port 443
+    User git
+    IdentityFile ~/.ssh/ai-news-archive_ed25519
+    IdentitiesOnly yes
+EOF
+# 把 ~/.ssh/ai-news-archive_ed25519.pub 加到 ai-news-archive → Settings → Deploy keys（勾 Allow write access）
+git clone github-ai-news-archive:xbbwa/ai-news-archive.git ~/ai-news-archive
+git -C ~/ai-news-archive config user.name "ai-news-collector server"
+git -C ~/ai-news-archive config user.email "ai-news-collector-server@users.noreply.github.com"
+```
+
+`GITHUB_TOKEN`（细粒度 PAT，只选 ai-news-collector 这一个仓库、Contents: Read and write）现在只用于 07:01 回传 pushed-history.jsonl
+和 server_update.sh 拉 tarball 时提高限额；没配也不影响采集和全文归档。
 体检：`~/venvs/ai-news-collector/bin/python scripts/check_sources.py`（自动只查 server 侧的源）。
 
 ## 采集器内部
@@ -97,7 +130,7 @@ python scripts/probe.py <url> --feed # 排查某个 feed：状态码、内容预
 
 feed 会悄悄失效（本次审计就发现 3 个坏路由），建议每月跑一次 `check_sources.py`。
 
-## 给 OpenClaw 的每日推送（prod-ubuntu 上的接法）
+## 给 OpenClaw 的每日推送（国内服务器上的接法）
 
 OpenClaw 用的是不开思考的 DeepSeek V4，让它读 90KB 原文、自己去重合并再翻译，效果差。所以把它不擅长的活全部放进脚本，
 它只做翻译和排版：
@@ -118,7 +151,7 @@ OpenClaw 08:20 cron 任务 daily-push-healthcheck：history 日期不是今天�
 
 - skill 文件：`deploy/openclaw/skills/daily-ai-news/SKILL.md`，部署到 `/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md`
 - 两个 cron 任务的提示词：`deploy/openclaw/cron/*.txt`（用 `openclaw cron edit <id> --message` 写入）
-- 服务器 crontab：`01 7 * * * /home/yino/ai-news-collector/scripts/sync_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1`
+- 服务器 crontab：`01 7 * * * ~/ai-news-collector/scripts/sync_digest.sh >> ~/logs/ai-news-digest.log 2>&1`
 
 OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录里的 `summary` 就是发出去的内容）。所以 skill 强制的顺序是：
 静默读候选 → 静默写历史文件 → 最后一步才输出正文，且正文第一个字符必须是 📰（补推是 ⚠️）；任何"存档完成""以下是第二条"都会替代正文。
@@ -148,8 +181,9 @@ python3 scripts/daily_digest.py --api http://localhost:8000 --out digest.md
 
 ## 下游对接
 
-**GitHub 模式（默认）**：读 `data` 分支。`items/YYYY-MM-DD.jsonl` 每行一条，字段见下表，按 `id` 单调递增，按天取增量
-（跨天用 `fetched_at` 或记住上次读到的 `id`）；`digest/latest.md` 是给 LLM 推送用的短摘要。文件都是纯 HTTPS 可下载。
+**GitHub 模式（默认）**：全文读私有仓 `xbbwa/ai-news-archive` 的 `items/YYYY-MM-DD.jsonl`（每行一条，字段见下表，按 `id` 单调递增，
+按天取增量，跨天用 `fetched_at` 或记住上次读到的 `id`；需要对该仓库有读权限的凭据）；摘要读本仓库公开 `data` 分支的 `digest/latest.md`
+和 `digest/curated.md`，匿名 HTTPS 即可下载。
 
 **自建 API 模式**：下游按游标增量拉取，`id` 单调递增，记住上次的 `next_since_id` 即可：
 
@@ -193,9 +227,10 @@ GET /health
 
 关键词过滤只用于泛科技源。英文关键词按整词匹配（`AI` 能命中 `AI芯片`、`AI-powered`、`AIGC`，不会命中 `said`、`Airbnb`、`aims`），中文关键词按子串匹配；`芯片`/`算力` 是刻意放宽的，会带进少量消费电子/半导体新闻，交给下游清洗。
 
-实测（2026-09-06）：GitHub Actions 首轮 71 个源、1144 条、3 分钟跑完，Reddit 两路 130 条、HF 模型发布国内 41 / 国外 72 条、HF 每日论文 28 条全部正常；只有 3 个源在美国 runner 上失败——VentureBeat（对数据中心 IP 返回 429）、Import AI（substack.com 对数据中心 IP 返回 403）、36氪 AI 频道（从海外访问 36kr 超时，快讯正常）；开源中国的 feed 能拉但正文页拒绝海外 IP。对比：国内 prod-ubuntu 无代理时 73 个源里 18 个失败（Hugging Face、Reddit、Google Research / Cloud、Mistral、NYT、FT、Bloomberg、Guardian、Axios 全被墙），这是把采集搬到 GitHub 的直接原因。
+实测（2026-09-06）：GitHub Actions 首轮 71 个源、1144 条、3 分钟跑完，Reddit 两路 130 条、HF 模型发布国内 41 / 国外 72 条、HF 每日论文 28 条全部正常；只有 3 个源在美国 runner 上失败——VentureBeat（对数据中心 IP 返回 429）、Import AI（substack.com 对数据中心 IP 返回 403）、36氪 AI 频道（从海外访问 36kr 超时，快讯正常）；开源中国的 feed 能拉但正文页拒绝海外 IP。对比：国内服务器无代理时 73 个源里 18 个失败（Hugging Face、Reddit、Google Research / Cloud、Mistral、NYT、FT、Bloomberg、Guardian、Axios 全被墙），这是把采集搬到 GitHub 的直接原因。
 
-整个项目**不需要任何账号或凭据**：所有信源都走公开接口，HTTP API 也不做鉴权。
+采集本身**不需要任何账号或凭据**：所有信源都走公开接口，HTTP API 也不做鉴权。仅有的凭据都是往 GitHub 写东西用的：
+归档仓的两把 deploy key（Actions 一把、服务器一把）、工作库加密口令 `STATE_KEY`，以及服务器回传 pushed-history 用的细粒度 PAT。
 
 ### 已知限制
 
