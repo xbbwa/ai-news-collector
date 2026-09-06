@@ -1,32 +1,51 @@
 #!/usr/bin/env bash
-# Pull the latest digest from GitHub (data branch) into the file a downstream reader (OpenClaw)
-# consumes. The collector itself runs on GitHub Actions; the consuming box only downloads.
-# Plain HTTPS file downloads work from mainland China even where the git protocol does not.
+# Daily pull on the China box (cron 07:01): fetch the digests the collect workflow wrote to the
+# `data` branch and place them where OpenClaw reads, then tell GitHub which stories were pulled
+# (pushed-history.jsonl) so tomorrow's curated list excludes them.
 #
-# Deployed on prod-ubuntu as ~/scripts/sync_ai_news_digest.sh, run by cron at 07:01:
-#   01 7 * * * /home/yino/scripts/sync_ai_news_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1
+#   01 7 * * * /home/yino/ai-news-collector/scripts/sync_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1
+#
+# Files:
+#   digest/curated.md  -> $KB/daily-ai-news-curated.md   (<=20 ranked stories; what OpenClaw pushes)
+#   digest/latest.md   -> $KB/daily-ai-news-summary.md   (full 24h list, ~160 stories; reference only)
+#   digest/curated.json -> data/curated.json              (machine-readable copy for mark_pushed.py)
 set -u
-OUT="${1:-/mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md}"
 REPO="xbbwa/ai-news-collector"
-URLS=(
-  "https://raw.githubusercontent.com/$REPO/data/digest/latest.md"
-  "https://api.github.com/repos/$REPO/contents/digest/latest.md?ref=data"
-)
-mkdir -p "$(dirname "$OUT")"
-TMP="$(mktemp "$(dirname "$OUT")/.digest-XXXXXX")"
-trap 'rm -f "$TMP"' EXIT
+KB="${KB:-/mnt/data/openclaw-kb/openclawdata}"
+cd "$(dirname "$0")/.." || exit 1
+set -a; [ -f .env ] && . ./.env; set +a
+mkdir -p "$KB" data archive/digest
 
-for url in "${URLS[@]}"; do
-  if curl -fsSL -m 90 --retry 2 -H "Accept: application/vnd.github.raw" -o "$TMP" "$url" \
-     && head -c 200 "$TMP" | grep -q "^# Daily AI News" \
-     && [ "$(wc -c < "$TMP")" -gt 1000 ]; then
-    chmod 644 "$TMP"
-    mv "$TMP" "$OUT"
-    trap - EXIT
-    echo "$(date '+%F %T') OK  $(wc -c < "$OUT")B via $url"
-    exit 0
+fetch() {  # fetch <remote path> <local path> <expected first bytes regex>
+  local remote="$1" local="$2" expect="$3" tmp url
+  tmp="$(mktemp "$(dirname "$local")/.sync-XXXXXX")"
+  for url in "https://raw.githubusercontent.com/$REPO/data/$remote" \
+             "https://api.github.com/repos/$REPO/contents/$remote?ref=data"; do
+    if curl -fsSL -m 90 --retry 2 -H "Accept: application/vnd.github.raw" -o "$tmp" "$url" \
+       && head -c 300 "$tmp" | grep -qE "$expect"; then
+      chmod 644 "$tmp"; mv "$tmp" "$local"
+      echo "$(date '+%F %T') OK   $remote -> $local ($(wc -c < "$local") B)"
+      return 0
+    fi
+  done
+  rm -f "$tmp"
+  echo "$(date '+%F %T') FAIL $remote (kept previous $local)" >&2
+  return 1
+}
+
+fetch digest/curated.md   "$KB/daily-ai-news-curated.md" "^# Daily AI News" ; rc_curated=$?
+fetch digest/latest.md    "$KB/daily-ai-news-summary.md" "^# Daily AI News" || true
+fetch digest/curated.json "data/curated.json"            '"generated_at"'  || true
+
+# Mark what we just pulled as pushed and send that list back to GitHub.
+if [ "$rc_curated" -eq 0 ] && [ -s data/curated.json ]; then
+  python3 scripts/mark_pushed.py --curated data/curated.json --history archive/digest/pushed-history.jsonl
+  if [ -n "${GITHUB_TOKEN:-}" ]; then
+    "${PYTHON:-$HOME/venvs/ai-news-collector/bin/python}" scripts/publish_archive.py --dir archive/digest \
+      --pattern 'pushed-history.jsonl' --remote-dir digest --repo "$REPO" --branch data \
+      --state data/publish_state_digest.json
+  else
+    echo "$(date '+%F %T') GITHUB_TOKEN not set: pushed-history not uploaded" >&2
   fi
-  echo "$(date '+%F %T') WARN download failed: $url" >&2
-done
-echo "$(date '+%F %T') FAIL all sources; kept previous $OUT" >&2
-exit 1
+fi
+exit $rc_curated

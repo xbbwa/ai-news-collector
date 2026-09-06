@@ -96,21 +96,31 @@ python scripts/probe.py <url> --feed # 排查某个 feed：状态码、内容预
 
 feed 会悄悄失效（本次审计就发现 3 个坏路由），建议每月跑一次 `check_sources.py`。
 
-## 给 OpenClaw 的每日 Markdown（prod-ubuntu 上的接法）
+## 给 OpenClaw 的每日推送（prod-ubuntu 上的接法）
 
-服务器上原来是 cron 每天 07:01 跑 `~/scripts/daily_ai_news.py`，把 4 个 RSS 各 5 条写成
-`/mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md`，OpenClaw 读这个文件做中文推送。
-现在这个文件由 Actions 里的 `scripts/daily_digest.py` 生成（最近 24 小时，按 Tier / 信源分组，每源 3 条，摘要 300 字，
-原文节选不翻译不清洗，文件头尾保留给 OpenClaw 的提示），服务器只负责下载：
+OpenClaw 用的是不开思考的 DeepSeek V4，让它读 90KB 原文、自己去重合并再翻译，效果差。所以把它不擅长的活全部放进脚本，
+它只做翻译和排版：
 
-```bash
-# crontab（yino）。旧的 daily_ai_news.py 那行已注释保留，旧脚本和 venv 未删
-01 7 * * * /home/yino/scripts/sync_ai_news_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1
+```
+Actions 每小时                         scripts/curate_digest.py → data 分支 digest/curated.md（≤20 条，~15KB）+ curated.json
+   ├ 标题分词（英文词 / 中文二字词）做跨来源聚类：一件事被 5 家报道 = 1 条，"N 个来源"直接写在条目里
+   ├ 打分排序：来源数 × 层级权重 + HN 分数 + HF likes + 发布类关键词 + 12h 内新鲜度
+   ├ 过滤噪音：Reddit 自发帖、只有 Reddit/Product Hunt 单源的链接、没人点赞的 HF 上传、<80 分的 HN、TLDR 日报、GitHub Trending
+   ├ 跨天去重：排除与 digest/pushed-history.jsonl（服务器回传的"已推送"）近 3 天相似的事件
+   └ 多样性：每源最多 3 条，至少 4 条中文源
+服务器 07:01   scripts/sync_digest.sh：下载 curated.md → daily-ai-news-curated.md，latest.md → daily-ai-news-summary.md（完整版留档）；
+               mark_pushed.py 把这 20 条记为已推送，publish_archive.py 上传 pushed-history.jsonl 回 data 分支
+OpenClaw 08:15 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 拆分消息 + 写 daily-push-history.md
+OpenClaw 08:30 cron 任务 daily-push-healthcheck：history 日期不是今天就按 skill 补推
 ```
 
-`~/scripts/sync_ai_news_digest.sh` 就是仓库里的 `scripts/sync_digest.sh`：先试 raw.githubusercontent.com，失败再走
-api.github.com，校验文件头和大小后原子覆盖，失败时保留上一份。实测一天约 1100 条采集、58 个信源有更新，摘要约 160 条 / 90KB；
-嫌多改 workflow 里 `daily_digest.py` 的 `--max-per-source` / `--hours`。下游要完整原文读 `items/YYYY-MM-DD.jsonl`。
+- skill 文件：`deploy/openclaw/skills/daily-ai-news/SKILL.md`，部署到 `/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md`
+- 两个 cron 任务的提示词：`deploy/openclaw/cron/*.txt`（用 `openclaw cron edit <id> --message` 写入）
+- 服务器 crontab：`01 7 * * * /home/yino/ai-news-collector/scripts/sync_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1`
+
+调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --min-zh 4 --per-source-cap 3 --summary-chars 220 --exclude-source`。
+实测一天 1232 条原始条目 → 1133 个事件 → 过滤 476 个噪音 → 20 条候选；排在前面的是 Claude 上 AWS、Gemini 视频理解、
+NVIDIA 收购 HF、GPT-6 Astra 这类 3–4 家同时报道的事件。同一事件的英文公告和中文转载目前还是两条（不做跨语言聚类），skill 里让模型合并。
 
 ## 自建部署（可选，Docker）
 

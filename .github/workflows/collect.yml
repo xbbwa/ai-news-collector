@@ -87,6 +87,12 @@ jobs:
           python scripts/daily_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
             --jsonl 'archive/items/*.cn.jsonl' \
             --out archive/digest/latest.md --hours 24 --max-per-source 3 --summary-chars 300
+          # Short ranked list for the LLM pusher: clustered across sources, noise dropped, stories the
+          # server already pushed (digest/pushed-history.jsonl, uploaded by sync_digest.sh) excluded.
+          python scripts/curate_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
+            --jsonl 'archive/items/*.cn.jsonl' --history archive/digest/pushed-history.jsonl \
+            --out-md archive/digest/curated.md --out-json archive/digest/curated.json \
+            --max-items 20 --min-zh 4
 
       - name: Commit to data branch
         working-directory: archive
