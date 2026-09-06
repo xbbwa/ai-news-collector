@@ -1,15 +1,42 @@
 # AI News Collector
 
-AI 方向（国内外）新闻**采集层**：从 RSS / 官方 API 拉取原文，去重，抽取正文，存库，通过 HTTP API 增量输出给下游处理系统。
+AI 方向（国内外）新闻**采集层**：从 RSS / 官方 API 拉取原文，去重，抽取正文，按天归档成 JSONL 提交到 GitHub，下游从 GitHub 取。
 
-本项目**只做采集**，不做翻译、聚类、摘要、LLM 处理。输出是原文 + 元数据。
+本项目**只做采集**，不做翻译、聚类、摘要、LLM 处理。输出是原文 + 元数据。不需要任何账号、凭据或代理。
 
-## 架构
+## 运行方式：GitHub Actions 采集，下游从 `data` 分支拉
+
+```
+GitHub Actions（每小时，.github/workflows/collect.yml，美国 runner，HF / Reddit / Google 直连）
+   │  1. 从名为 state 的 Release 下载上次的 SQLite 工作库 + 导出游标
+   │  2. python -m collector once   （RSSHub 作为 service 容器一起起）
+   │  3. scripts/export_daily.py    → 新条目全文追加到 items/YYYY-MM-DD.jsonl
+   │     scripts/daily_digest.py    → digest/latest.md（最近 24h，每源 3 条）
+   │  4. 提交到 data 分支；工作库 + 游标传回 state Release（库只保留 14 天用于去重）
+   ▼
+data 分支  ── items/YYYY-MM-DD.jsonl（永久归档，字段同 API /items） + digest/latest.md
+   │
+   ▼  纯 HTTPS 下载（raw.githubusercontent.com，国内服务器可直连；git 协议在国内不通）
+prod-ubuntu  ── cron 07:01：~/scripts/sync_ai_news_digest.sh 把 latest.md 放到 OpenClaw 读的位置
+```
+
+服务器上不再跑任何采集服务。想在别处消费数据：
+
+```
+https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/digest/latest.md
+https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/items/2026-09-06.jsonl
+备用：https://api.github.com/repos/xbbwa/ai-news-collector/contents/digest/latest.md?ref=data  （Accept: application/vnd.github.raw）
+```
+
+手动触发一次：`gh workflow run collect`；看运行：`gh run list --workflow collect`。仓库是公开的，Actions 分钟数不限；
+定时任务实际触发会比 cron 晚 5–15 分钟，`30 * * * *` 的 22:30 UTC 那一轮正好落在 07:01 北京时间的拉取之前。
+
+## 采集器内部
 
 ```
 config/sources.yaml  ── 信源清单（分层、轮询间隔、是否走代理、关键词过滤）
         │
-scheduler ── 每个信源一个独立协程，按各自间隔轮询，失败指数退避
+scheduler ── run 模式：每个信源一个独立协程，按各自间隔轮询，失败指数退避；once 模式：全部拉一遍（Actions 用这个）
         │
 fetchers ── rss（ETag / If-Modified-Since 条件请求）
          ── hackernews（Algolia 搜索 API）
@@ -19,9 +46,9 @@ fetchers ── rss（ETag / If-Modified-Since 条件请求）
 pipeline ── 关键词/时效过滤 → URL 归一化 + sha256 去重 → 入库 → 并发抓正文（trafilatura，favor_recall 尽量保留原文）
          ── 正文下载遇到 403/503（Cloudflare）自动切换 Chrome 指纹客户端（curl_cffi），再失败切代理
         │
-SQLite / PostgreSQL  ── items 表，自增 id 即消费游标
+SQLite  ── items 表，自增 id 即消费游标；export_daily.py 按游标增量导出
         │
-api ── GET /items?since_id=N  供下游增量拉取
+api ── GET /items?since_id=N&fetched_after=...  自建部署时供下游增量拉取（Actions 模式下不需要）
 ```
 
 ## 快速开始（本机）
@@ -47,57 +74,48 @@ python scripts/probe.py <url> --feed # 排查某个 feed：状态码、内容预
 
 feed 会悄悄失效（本次审计就发现 3 个坏路由），建议每月跑一次 `check_sources.py`。
 
-## 部署到 Ubuntu 服务器（Docker）
-
-```bash
-git clone https://github.com/xbbwa/ai-news-collector.git ~/ai-news-collector && cd ~/ai-news-collector
-cp .env.example .env
-# 编辑 .env：PROXY_URL 填服务器上可用的代理（如 http://host.docker.internal:7890）；没有代理就留空
-docker compose up -d --build
-docker compose logs -f collector
-curl localhost:8000/health
-docker compose exec api python scripts/check_sources.py    # 在容器里体检所有源（含 RSSHub 路由）
-```
-
-更新：`git pull && docker compose up -d --build`。数据库在 `./data/collector.db`（SQLite + WAL），**必须放本地磁盘，不能放 NFS**。
-
-国内服务器的三个坑（prod-ubuntu 上实际踩过）：
-
-- `git clone` GitHub 会卡死（网页能开、git 协议不通）。从本机推：`git archive --format=tar <commit> | ssh yino@192.168.110.111 "mkdir -p ~/ai-news-collector && tar -x -C ~/ai-news-collector"`，再把 commit 写进 `DEPLOYED_COMMIT`。
-- Docker Hub 不通、镜像源列表里有死站时，`compose up` 会卡在拉镜像上毫无输出。先手动指定可用镜像源拉好再起：`docker pull docker.1panel.live/diygod/rsshub:latest && docker tag docker.1panel.live/diygod/rsshub:latest diygod/rsshub:latest`。
-- pypi.org 一个请求 7 秒。`.env` 里设 `PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/` 再 build。
-
-Compose 里包含四个服务：
-
-| 服务 | 作用 |
-| --- | --- |
-| `collector` | 常驻调度采集 |
-| `api` | HTTP API，端口 8000 |
-| `rsshub` | 自建 RSSHub，把没有 RSS 的站点（Anthropic、DeepSeek、36氪、虎嗅、智源社区、HF Daily Papers）转成 RSS，端口 1200 |
-| `redis` | RSSHub 缓存 |
-
-### 给 OpenClaw 的每日 Markdown（prod-ubuntu 上的接法）
+## 给 OpenClaw 的每日 Markdown（prod-ubuntu 上的接法）
 
 服务器上原来是 cron 每天 07:01 跑 `~/scripts/daily_ai_news.py`，把 4 个 RSS 各 5 条写成
 `/mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md`，OpenClaw 读这个文件做中文推送。
-现在由 `scripts/daily_digest.py` 生成同一个文件：只依赖标准库，通过 API 取最近 24 小时的条目，按
-Tier / 信源分组，每源最多 N 条，摘要截若干字（原文节选，不翻译不清洗），文件头尾保留给 OpenClaw 的提示。
+现在这个文件由 Actions 里的 `scripts/daily_digest.py` 生成（最近 24 小时，按 Tier / 信源分组，每源 3 条，摘要 300 字，
+原文节选不翻译不清洗，文件头尾保留给 OpenClaw 的提示），服务器只负责下载：
 
 ```bash
-# crontab -e（yino），已于 2026-09-06 替换原来的 daily_ai_news.py 那一行（旧行注释保留，旧脚本和 venv 未删）
-01 7 * * * /usr/bin/python3 /home/yino/ai-news-collector/scripts/daily_digest.py --out /mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md --max-per-source 3 --summary-chars 300 >> /home/yino/logs/ai-news-digest.log 2>&1
+# crontab（yino）。旧的 daily_ai_news.py 那行已注释保留，旧脚本和 venv 未删
+01 7 * * * /home/yino/scripts/sync_ai_news_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1
 ```
 
-实测一天约 850 条采集、48 个信源有更新：默认每源 8 条会生成 280 条 / 200KB，对原来只读 20 条的推送提示太大，所以
-cron 里收到每源 3 条（约 120 条 / 80KB）。嫌多再降 `--max-per-source` 或 `--hours`；下游要完整原文走
-`GET /items?fetched_after=...`。首日的窗口会带进各 feed 最近 7 天的存量，第二天起只有增量。
+`~/scripts/sync_ai_news_digest.sh` 就是仓库里的 `scripts/sync_digest.sh`：先试 raw.githubusercontent.com，失败再走
+api.github.com，校验文件头和大小后原子覆盖，失败时保留上一份。实测一天约 1100 条采集、58 个信源有更新，摘要约 160 条 / 90KB；
+嫌多改 workflow 里 `daily_digest.py` 的 `--max-per-source` / `--hours`。下游要完整原文读 `items/YYYY-MM-DD.jsonl`。
+
+## 自建部署（可选，Docker）
+
+不想依赖 GitHub Actions 时可以在自己的机器上常驻跑，compose 里有 `collector`（常驻调度）、`api`（:8000）、`rsshub`（:1200）、`redis` 四个服务：
+
+```bash
+cp .env.example .env      # PROXY_URL 填代理（如 http://host.docker.internal:7890），国内机器没有代理会有 13 个源被墙
+docker compose up -d --build
+docker compose exec api python scripts/check_sources.py    # 在容器里体检所有源（含 RSSHub 路由）
+python3 scripts/daily_digest.py --api http://localhost:8000 --out digest.md
+```
+
+数据库 `./data/collector.db`（SQLite + WAL）必须放本地磁盘，不能放 NFS。国内服务器实际踩过的坑：`git clone` GitHub 会卡死
+（改用 `git archive | ssh tar -x` 推过去）；Docker Hub 不通、镜像源列表里有死站时 `compose up` 会卡在拉镜像上毫无输出
+（先 `docker pull docker.1panel.live/diygod/rsshub:latest` 再 `docker tag`）；pypi.org 一个请求 7 秒（`.env` 里设
+`PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/`）；compose 调 buildx 会在写镜像时报 EOF（直接 `docker build -t ai-news-collector:latest .`）。
 
 ## 下游对接
 
-下游系统按游标增量拉取，`id` 单调递增，记住上次的 `next_since_id` 即可：
+**GitHub 模式（默认）**：读 `data` 分支。`items/YYYY-MM-DD.jsonl` 每行一条，字段见下表，按 `id` 单调递增，按天取增量
+（跨天用 `fetched_at` 或记住上次读到的 `id`）；`digest/latest.md` 是给 LLM 推送用的短摘要。文件都是纯 HTTPS 可下载。
+
+**自建 API 模式**：下游按游标增量拉取，`id` 单调递增，记住上次的 `next_since_id` 即可：
 
 ```
 GET /items?since_id=0&limit=500
+GET /items?since_id=0&fetched_after=2026-09-06T00:00:00Z   # 按抓取时间取一段
 GET /items?since_id=0&tier=1                 # 只要一手来源
 GET /items?since_id=0&extract_status=ok      # 只要正文抽取成功的
 GET /items?since_id=0&include_content=false  # 不带正文，只要元数据
@@ -135,7 +153,7 @@ GET /health
 
 关键词过滤只用于泛科技源。英文关键词按整词匹配（`AI` 能命中 `AI芯片`、`AI-powered`、`AIGC`，不会命中 `said`、`Airbnb`、`aims`），中文关键词按子串匹配；`芯片`/`算力` 是刻意放宽的，会带进少量消费电子/半导体新闻，交给下游清洗。
 
-实测（2026-09-06，`scripts/check_sources.py`）：本机直连 61 个源全部正常；HF 模型源一轮返回国内 429 / 国外 487 个模型，7 天内新增或更新的分别 41 / 72 个。prod-ubuntu（无代理）上 73 个启用源中 55 个正常，失败的全部是被墙站点：Hugging Face 三个源、Reddit 两个、Google Research / Cloud、Mistral、Import AI（substack.com 主域被墙，自定义域名的 Substack 都能通）、NYT、FT、Bloomberg、Guardian、Axios。**配上 `PROXY_URL` 这 13 个源就能恢复**，其中 HF 模型发布是国内厂商唯一的一手渠道，值得配。
+实测（2026-09-06）：GitHub Actions 首轮 71 个源、1144 条、3 分钟跑完，Reddit 两路 130 条、HF 模型发布国内 41 / 国外 72 条、HF 每日论文 28 条全部正常；只有 3 个源在美国 runner 上失败——VentureBeat（对数据中心 IP 返回 429）、Import AI（substack.com 对数据中心 IP 返回 403）、36氪 AI 频道（从海外访问 36kr 超时，快讯正常）；开源中国的 feed 能拉但正文页拒绝海外 IP。对比：国内 prod-ubuntu 无代理时 73 个源里 18 个失败（Hugging Face、Reddit、Google Research / Cloud、Mistral、NYT、FT、Bloomberg、Guardian、Axios 全被墙），这是把采集搬到 GitHub 的直接原因。
 
 整个项目**不需要任何账号或凭据**：所有信源都走公开接口，HTTP API 也不做鉴权。
 
