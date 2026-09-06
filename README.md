@@ -111,8 +111,9 @@ Actions 每小时                         scripts/curate_digest.py → data 分�
    └ 多样性：每源最多 3 条，至少 4 条中文源
 服务器 07:01   scripts/sync_digest.sh：下载 curated.md → daily-ai-news-curated.md，latest.md → daily-ai-news-summary.md（完整版留档）；
                mark_pushed.py 把这 20 条记为已推送，publish_archive.py 上传 pushed-history.jsonl 回 data 分支
-OpenClaw 08:15 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 拆分消息 + 写 daily-push-history.md
-OpenClaw 08:30 cron 任务 daily-push-healthcheck：history 日期不是今天就按 skill 补推
+OpenClaw 08:00 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 写 daily-push-history.md
+OpenClaw 08:20 cron 任务 daily-push-healthcheck：history 日期不是今天就按 skill 补推
+（两个任务的时间用 `openclaw cron edit <id> --cron "0 8 * * *" --tz Asia/Shanghai` 改；只给 --cron 会把 tz 字段清掉，要一起传）
 ```
 
 - skill 文件：`deploy/openclaw/skills/daily-ai-news/SKILL.md`，部署到 `/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md`

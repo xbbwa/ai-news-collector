@@ -3,7 +3,7 @@
 # `data` branch and place them where OpenClaw reads, then tell GitHub which stories were pulled
 # (pushed-history.jsonl) so tomorrow's curated list excludes them.
 #
-#   01 7 * * * /home/yino/ai-news-collector/scripts/sync_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1
+#   01 7 * * * ~/ai-news-collector/scripts/sync_digest.sh >> ~/logs/ai-news-digest.log 2>&1
 #
 # Files:
 #   digest/curated.md  -> $KB/daily-ai-news-curated.md   (<=20 ranked stories; what OpenClaw pushes)
@@ -15,7 +15,8 @@ KB="${KB:-/mnt/data/openclaw-kb/openclawdata}"
 cd "$(dirname "$0")/.." || exit 1
 set -a; [ -f .env ] && . ./.env; set +a
 mkdir -p "$KB" data archive/digest
-# The repo is private: raw.githubusercontent.com and the contents API both need the PAT from .env.
+# The repo is public, so the downloads work anonymously; the PAT (if set) just lifts the rate limit
+# and is required for the pushed-history upload below.
 auth=(); [ -n "${GITHUB_TOKEN:-}" ] && auth=(-H "Authorization: Bearer $GITHUB_TOKEN")
 
 fetch() {  # fetch <remote path> <local path> <expected first bytes regex>

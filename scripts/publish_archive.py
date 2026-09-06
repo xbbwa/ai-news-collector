@@ -1,12 +1,14 @@
-"""Upload changed archive files to the repo's `data` branch through the GitHub Contents API.
+"""Upload changed files to a branch of the public collector repo through the GitHub Contents API.
 
-For machines that can reach api.github.com but not the git protocol (the box in mainland
-China: both git-over-HTTPS and SSH stall there). Each changed file is PUT whole; a state file
-remembers what was already uploaded so unchanged files cost nothing. Stdlib only.
+Used by scripts/sync_digest.sh to send digest/pushed-history.jsonl back to the `data` branch.
+Works from machines that reach api.github.com but where git-over-HTTPS stalls (the China box).
+Each changed file is PUT whole; a state file remembers what was already uploaded so unchanged
+files cost nothing. Stdlib only. (Full-text items no longer go through here: they are pushed to
+the private archive repo with git + a deploy key, see scripts/server_publish.sh.)
 
 usage:
-  GITHUB_TOKEN=... python3 scripts/publish_archive.py --dir archive/items --pattern '*.cn.jsonl' \
-      --repo xbbwa/ai-news-collector --branch data --state data/publish_state.json
+  GITHUB_TOKEN=... python3 scripts/publish_archive.py --dir archive/digest --pattern 'pushed-history.jsonl' \
+      --remote-dir digest --repo xbbwa/ai-news-collector --branch data --state data/publish_state_digest.json
 
 The token needs "Contents: read and write" on that one repository (fine-grained PAT).
 """

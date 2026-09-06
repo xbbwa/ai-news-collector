@@ -26,7 +26,7 @@ OpenClaw 只会把你**最后一段文字**原样发到飞书，所以：
 1. 用读文件工具读取 `/mnt/data/openclaw-kb/openclawdata/daily-ai-news-curated.md`。
    - 第 2 行是「生成时间」。如果距现在超过 30 小时、文件不存在、或条目为 0：跳到第 3 步，正文只写一行
      `⚠️ Daily AI News 今日无可用数据（原因：xxx）`，不要编造内容。
-2. 用写文件工具**覆盖**写入 `/mnt/data/openclaw-kb/openclawdata/daily-push-history.md`（08:30 的健康检查靠它判断今天是否推送成功）。
+2. 用写文件工具**覆盖**写入 `/mnt/data/openclaw-kb/openclawdata/daily-push-history.md`（08:20 的健康检查靠它判断今天是否推送成功）。
    内容是候选文件里全部条目的**原文标题**（不翻译、不改），格式：
    ```
    # Daily Push History — YYYY-MM-DD

@@ -2,8 +2,8 @@
 # Update the code on the China box from GitHub without git: the tarball is a plain HTTPS download
 # that works there, while git-over-HTTPS and SSH both stall. Keeps data/, archive/ and .env,
 # reinstalls requirements, restarts the collector service.
-# The repo is private, so the tarball is fetched through api.github.com with the PAT from .env
-# (it answers with a signed codeload URL that curl follows).
+# The tarball is fetched through api.github.com (it answers with a signed codeload URL that curl
+# follows); the PAT from .env is optional now that the repo is public, it only lifts the rate limit.
 set -eu
 REPO=xbbwa/ai-news-collector
 BRANCH="${1:-main}"

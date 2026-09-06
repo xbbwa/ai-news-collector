@@ -2,13 +2,15 @@ name: collect
 
 # Runs the collector on GitHub's hosted runners (US-based: no proxy needed for Hugging Face,
 # Reddit, Google, ...). Each run:
-#   1. restores the SQLite working DB + export cursor from the "state" release,
+#   1. restores the SQLite working DB + export cursor from the "state" release (DB is encrypted:
+#      this repo is public and the DB holds third-party article text),
 #   2. polls every `runner: github` source once (RSSHub runs alongside as a service container),
-#   3. appends the new items (full text) to items/<date>.jsonl on the `data` branch and
-#      rebuilds digest/latest.md there, merging in items/<date>.cn.jsonl that the China box
-#      uploads for its `runner: server` sources (scripts/server_publish.sh),
-#   4. saves the DB + cursor back to the "state" release.
-# Consumers only ever need the `data` branch (plain HTTPS file downloads work from mainland China).
+#   3. appends the new items (full text) to items/<date>.jsonl in the PRIVATE archive repo
+#      (xbbwa/ai-news-archive, pushed with a deploy key), merging in items/<date>.cn.jsonl that the
+#      China box pushes there for its `runner: server` sources (scripts/server_publish.sh),
+#   4. rebuilds digest/*.md on this repo's public `data` branch (titles, short summaries, links),
+#   5. saves the encrypted DB + cursor back to the "state" release.
+# Public consumers only need the `data` branch; full text lives in the private archive.
 
 on:
   schedule:
@@ -30,6 +32,7 @@ jobs:
       TZ: Asia/Shanghai           # digest timestamps for Chinese readers
     services:
       rsshub:
+        # Deliberately not pinned: RSSHub routes track upstream site changes; a stale image breaks feeds.
         image: ghcr.io/diygod/rsshub:latest
         ports:
           - 1200:1200
@@ -40,15 +43,22 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - name: Check out data branch
-        uses: actions/checkout@v4
+      - name: Check out public data branch (digests)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           ref: data
+          path: public
+
+      - name: Check out private archive (full text)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          repository: xbbwa/ai-news-archive
+          ssh-key: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
           path: archive
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
           cache: pip
@@ -59,9 +69,12 @@ jobs:
       - name: Restore state from the "state" release
         env:
           GH_TOKEN: ${{ github.token }}
+          STATE_KEY: ${{ secrets.STATE_KEY }}
         run: |
           mkdir -p data
-          if gh release download state --dir data --clobber 2>/dev/null; then
+          if gh release download state --dir data --clobber 2>/dev/null && [ -f data/collector.db.enc ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -in data/collector.db.enc -out data/collector.db -pass env:STATE_KEY
+            rm -f data/collector.db.enc
             echo "state restored:"; ls -la data
           else
             echo "no saved state yet - starting with an empty database"
@@ -86,33 +99,51 @@ jobs:
             --cursor data/export_cursor --prune-days 14
           python scripts/daily_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
             --jsonl 'archive/items/*.cn.jsonl' \
-            --out archive/digest/latest.md --hours 24 --max-per-source 3 --summary-chars 300
+            --out public/digest/latest.md --hours 24 --max-per-source 3 --summary-chars 300
           # Short ranked list for the LLM pusher: clustered across sources, noise dropped, stories the
           # server already pushed (digest/pushed-history.jsonl, uploaded by sync_digest.sh) excluded.
           python scripts/curate_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
-            --jsonl 'archive/items/*.cn.jsonl' --history archive/digest/pushed-history.jsonl \
-            --out-md archive/digest/curated.md --out-json archive/digest/curated.json \
+            --jsonl 'archive/items/*.cn.jsonl' --history public/digest/pushed-history.jsonl \
+            --out-md public/digest/curated.md --out-json public/digest/curated.json \
             --max-items 20 --min-zh 4
 
-      - name: Commit to data branch
+      - name: Push full-text items to the private archive
         working-directory: archive
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git add -A items
+          if git diff --cached --quiet; then echo "no new items"; exit 0; fi
           git commit -qm "collect $(date -u '+%Y-%m-%d %H:%M UTC'): +${{ steps.export.outputs.exported }} items"
-          # The China box may have uploaded its *.cn.jsonl meanwhile; different files, so a rebase never conflicts.
+          # The China box may have pushed its *.cn.jsonl meanwhile; different files, so a rebase never conflicts.
           for attempt in 1 2 3; do
-            git pull --rebase -q origin data && git push && break
+            git pull --rebase -q origin main && git push -q origin HEAD:main && break
+            echo "push attempt $attempt failed, retrying"; sleep 5
+          done
+
+      - name: Commit digests to the public data branch
+        working-directory: public
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A digest
+          if git diff --cached --quiet; then echo "digest unchanged"; exit 0; fi
+          git commit -qm "digest $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # The China box uploads digest/pushed-history.jsonl here after its morning pull; rebase over it.
+          for attempt in 1 2 3; do
+            git pull --rebase -q origin data && git push -q origin HEAD:data && break
             echo "push attempt $attempt failed, retrying"; sleep 5
           done
 
       - name: Save state to the "state" release
         env:
           GH_TOKEN: ${{ github.token }}
+          STATE_KEY: ${{ secrets.STATE_KEY }}
         run: |
           gh release view state >/dev/null 2>&1 || gh release create state --prerelease \
             --title "collector state (auto-updated)" \
-            --notes "SQLite working database and export cursor carried between runs of the collect workflow. Managed automatically; do not edit."
-          gh release upload state data/collector.db data/export_cursor --clobber
+            --notes "Encrypted SQLite working database and export cursor carried between runs of the collect workflow. Managed automatically; do not edit."
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in data/collector.db -out data/collector.db.enc -pass env:STATE_KEY
+          gh release upload state data/collector.db.enc data/export_cursor --clobber
+          # Legacy plaintext asset from before the archive split; harmless if already gone.
+          gh release delete-asset state collector.db -y 2>/dev/null || true
