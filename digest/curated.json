@@ -1,0 +1,376 @@
+{
+ "generated_at": "2026-09-06T17:59:54.913277+00:00",
+ "stats": {
+  "items": 1217,
+  "clusters": 1118,
+  "noise": 606,
+  "dup": 0,
+  "history_days": 3
+ },
+ "items": [
+  {
+   "rank": 1,
+   "title": "Introducing agentic video understanding with Gemini",
+   "lang": null,
+   "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "score": 12.5,
+   "sources": [
+    "deepmind-blog",
+    "marktechpost",
+    "producthunt-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Introducing agentic video understanding with Gemini",
+    "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
+    "Google Gemini 3.8 Flash and Cyber",
+    "Agentic Video Understanding in Gemini",
+    "Gemini 3.8 Flash"
+   ],
+   "published_at": "2026-09-01T17:08:51.000000+00:00",
+   "summary": "We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage."
+  },
+  {
+   "rank": 2,
+   "title": "Introducing Claude Fable 5.1 on AWS",
+   "lang": null,
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
+   "score": 12.5,
+   "sources": [
+    "aws-ml-blog",
+    "simon-willison",
+    "hackernews-ai",
+    "producthunt-ai"
+   ],
+   "titles": [
+    "Introducing Claude Fable 5.1 on AWS",
+    "Claude Fable 5.1 made me a really nice animated pelican",
+    "Claude Fable 5.1",
+    "Claude Fable 5.1",
+    "Claude Fable 5.1 and Claude Mythos 5.1",
+    "Claude Fable 5.1",
+    "Claude Fable 5.1 results on ARC-AGI"
+   ],
+   "published_at": "2026-09-01T19:12:43.000000+00:00",
+   "summary": "Today, we’re excited to announce the availability of Claude Fable 5.1 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research,..."
+  },
+  {
+   "rank": 3,
+   "title": "NVIDIA to Acquire Hugging Face",
+   "lang": null,
+   "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+   "score": 11.0,
+   "sources": [
+    "nvidia-blog",
+    "arstechnica-ai",
+    "nyt-tech"
+   ],
+   "titles": [
+    "NVIDIA to Acquire Hugging Face",
+    "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+    "Nvidia Buys Hugging Face in $12.9 Billion Deal"
+   ],
+   "published_at": "2026-09-03T11:56:49.000000+00:00",
+   "summary": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and instit..."
+  },
+  {
+   "rank": 4,
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "lang": null,
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "score": 10.0,
+   "sources": [
+    "deepmind-blog",
+    "arstechnica-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+    "Gemini 3.8 Flash Model card [pdf]",
+    "Gemini 3.8 Flash and 3.8 Flash Cyber"
+   ],
+   "published_at": "2026-09-02T16:18:31.000000+00:00",
+   "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity."
+  },
+  {
+   "rank": 5,
+   "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+   "lang": null,
+   "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
+   "score": 10.0,
+   "sources": [
+    "nvidia-developer",
+    "marktechpost",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+    "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
+    "Personal AI Router for Local Inference"
+   ],
+   "published_at": "2026-09-03T16:00:00.000000+00:00",
+   "summary": "AI agents are learning to do more by working together. A lead agent can break a complex task into smaller jobs and assign those jobs to specialized subagents.... AI agents are learning to do more by working together. A l..."
+  },
+  {
+   "rank": 6,
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "lang": null,
+   "url": "https://openai.com/index/gpt-6-astra",
+   "score": 9.0,
+   "sources": [
+    "openai-news",
+    "the-decoder",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "GPT-6 Astra: A new generation of intelligence",
+    "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
+    "Artificial Analysis Intelligence Index v4.2"
+   ],
+   "published_at": "2026-09-03T11:00:00.000000+00:00",
+   "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science."
+  },
+  {
+   "rank": 7,
+   "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+   "lang": null,
+   "url": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+   "score": 9.0,
+   "sources": [
+    "axios",
+    "wired-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+    "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+    "OpenAI launches GPT-6 Astra and says welcome to the \"AGI era\"",
+    "OpenAI's GPT-6 Astra on ARC-AGI-3"
+   ],
+   "published_at": "2026-09-03T18:00:19.000000+00:00",
+   "summary": "OpenAI on Thursday released GPT-6 Astra , which president Greg Brockman called a \"generational leap\" and said could eventually be seen as the arrival of artificial general intelligence, or AGI. Why it matters: Astra push..."
+  },
+  {
+   "rank": 8,
+   "title": "Safety overview: GPT-6 Astra",
+   "lang": null,
+   "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+   "score": 8.0,
+   "sources": [
+    "openai-news",
+    "producthunt-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Safety overview: GPT-6 Astra",
+    "GPT-6 Astra",
+    "GPT-6 Astra on OpenRouter"
+   ],
+   "published_at": "2026-09-03T00:00:00.000000+00:00",
+   "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
+  },
+  {
+   "rank": 9,
+   "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+   "lang": null,
+   "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+   "score": 8.0,
+   "sources": [
+    "theverge-ai",
+    "wired-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+    "OpenAI Agents Hacked Another Website",
+    "OpenAI admits to German wiki ‘incident’",
+    "OpenAI Response to the Wiki Incident"
+   ],
+   "published_at": "2026-09-04T13:34:12.000000+00:00",
+   "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepare..."
+  },
+  {
+   "rank": 10,
+   "title": "Proactive cyber defense for governments and enterprises",
+   "lang": null,
+   "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+   "score": 7.5,
+   "sources": [
+    "google-ai-blog",
+    "deepmind-blog"
+   ],
+   "titles": [
+    "Proactive cyber defense for governments and enterprises",
+    "Proactive cyber defense for governments and enterprises"
+   ],
+   "published_at": "2026-09-02T15:40:00.000000+00:00",
+   "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools."
+  },
+  {
+   "rank": 11,
+   "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+   "lang": null,
+   "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+   "score": 7.5,
+   "sources": [
+    "github-blog",
+    "marktechpost"
+   ],
+   "titles": [
+    "Project HydraFusion: Frontier quality via multi-model orchestration",
+    "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI"
+   ],
+   "published_at": "2026-09-04T16:04:14.000000+00:00",
+   "summary": "Providing developers the best model for the task at hand has always been our goal. Earlier this year, we made that easier by launching Auto model selection, which reviews your task and matches it to the best-suited model..."
+  },
+  {
+   "rank": 12,
+   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+   "lang": null,
+   "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+   "score": 6.5,
+   "sources": [
+    "deepmind-blog",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "WeatherNext 3: Our most advanced global weather AI model"
+   ],
+   "published_at": "2026-09-03T15:02:08.000000+00:00",
+   "summary": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud."
+  },
+  {
+   "rank": 13,
+   "title": "“随时能问、随手可查”的反诈智能助手“国家反诈 AI”App 上线，微信、支付宝小程序也同步开放",
+   "lang": null,
+   "url": "https://www.ithome.com/0/998/922.htm",
+   "score": 6.5,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "“随时能问、随手可查”的反诈智能助手“国家反诈 AI”App 上线，微信、支付宝小程序也同步开放",
+    "“国家反诈AI”APP上线"
+   ],
+   "published_at": "2026-09-06T05:44:45.000000+00:00",
+   "summary": "IT之家 9 月 6 日消息，公安部今日宣布，为进一步提升防范电信网络诈骗工作的信息化、智能化水平，帮助群众有效识诈防诈，近日， 公安部刑侦局指导，上海市公安局自主研发的“国家反诈 AI”App 正式上线 。 据介绍，“国家反诈 AI”App 融合了大语言、多模态模型和智能体技术， 用户通过手机输入可疑场景，该 App 即可完成风险研判、识别诈骗套路、推送典型案例 ，从“文字 + 语音 + 视频”等多个维度拆解诈骗手法，提供识别防范对策..."
+  },
+  {
+   "rank": 14,
+   "title": "Give Your Coding Agents a Memory You Own",
+   "lang": null,
+   "url": "https://huggingface.co/blog/funes",
+   "score": 5.5,
+   "sources": [
+    "huggingface-blog",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Give Your Coding Agents a Memory You Own",
+    "Show HN: Decispher – persistent engineering context and memory for coding agents",
+    "Show HN: A Context Registry for AI coding agents",
+    "Show HN: Moadim.io – A scheduler for agents",
+    "OKF Agent Memory – Git-native persistent memory for AI coding agents"
+   ],
+   "published_at": "2026-09-03T00:00:00.000000+00:00",
+   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
+  },
+  {
+   "rank": 15,
+   "title": "Why bonds are the most important market in the world",
+   "lang": null,
+   "url": "https://www.axios.com/2026/08/31/bonds-yields-wigglesworth-book",
+   "score": 5.5,
+   "sources": [
+    "axios",
+    "cnbc-tech"
+   ],
+   "titles": [
+    "Why bonds are the most important market in the world",
+    "Dell is now the most important stock in the market. Here's why"
+   ],
+   "published_at": "2026-08-31T11:15:26.000000+00:00",
+   "summary": "The bond market is growing more interesting lately — and that's concerning. Why it matters: The $160 trillion global bond market is like the plumbing in your house. You don't think about it until it stops working and you..."
+  },
+  {
+   "rank": 16,
+   "title": "李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界",
+   "lang": null,
+   "url": "https://www.oschina.net/news/502277/worldlabs-ai-atlas",
+   "score": 5.5,
+   "sources": [
+    "oschina",
+    "producthunt-ai"
+   ],
+   "titles": [
+    "李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界",
+    "Atlas by World Labs"
+   ],
+   "published_at": "2026-09-02T11:24:32.000000+00:00",
+   "summary": "李飞飞创立的 World Labs 发布了 Atlas，一个从零预训练的多模态空间智能大模型。你可以给它几张照片，它能生成从任意角度观看的连续视频；给它一段手机拍摄的视频，它能重建出完整的 3D 场景，让机器人在里面模拟导航。 核心架构是「multimodal autoregressive diffusion transformer」——这个术语拆开来看，autoregre..."
+  },
+  {
+   "rank": 17,
+   "title": "美团守城，快手攻擂：港股互联网盈利韧性大考",
+   "lang": "zh",
+   "url": "https://www.tmtpost.com/8130102.html",
+   "score": 2.5,
+   "sources": [
+    "tmtpost"
+   ],
+   "titles": [
+    "美团守城，快手攻擂：港股互联网盈利韧性大考"
+   ],
+   "published_at": "2026-09-06T09:30:48+00:00",
+   "summary": "2026年的港股互联网板块，正在经历从“规模叙事”向“效率叙事”的深刻切换。当流量红利退潮、补贴大战进入消耗战，市场对“确定性资产”的定价逻辑，已从单纯的用户增长转向资本回报效率与盈利质量的真实验证。 在本地生活与短视频商业化这两个核心赛道，美团与快手分别代表了两种截然不同的生存样本：一个在激烈价格战中坚守核心利润底盘，通过组织效率与技术提效穿越周期；另一个以AI为杠杆撬动第二成长曲线，在主业承压时押注未来。 这两家公司都试图证明：宏观..."
+  },
+  {
+   "rank": 18,
+   "title": "3000万用户、过半是企业，千问办公靠什么拿下B端？",
+   "lang": "zh",
+   "url": "https://www.leiphone.com/category/industrynews/kaQUKRRyiIqho1m2.html",
+   "score": 2.5,
+   "sources": [
+    "leiphone"
+   ],
+   "titles": [
+    "3000万用户、过半是企业，千问办公靠什么拿下B端？"
+   ],
+   "published_at": "2026-09-06T13:10:00+00:00",
+   "summary": "AI办公的To B化趋势，越来越明显。 9月4日，千问办公上线满一个月，阿里亮出了一个数字：用户数突破3000万，其中企业用户占比超过一半。 单看用户规模，这是一个增长数据；但如果放到整个AI办公市场来看，更值得关注的是：包括阿里在内的大厂，正在推动 办公Agent从个人提效工具，转向嵌入企业组织的内部工作流。 在部分业内人士看来，千问办公上线仅一个月就突破3000万用户， 这一速度确实超出预期 。如今回看，从上线之初就锁定企业级Age..."
+  },
+  {
+   "rank": 19,
+   "title": "诡异又倒胃口：AI 食物图片攻占餐厅菜单，让消费者食欲全无",
+   "lang": "zh",
+   "url": "https://www.ithome.com/0/999/042.htm",
+   "score": 2.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "诡异又倒胃口：AI 食物图片攻占餐厅菜单，让消费者食欲全无"
+   ],
+   "published_at": "2026-09-06T14:37:44+00:00",
+   "summary": "IT之家 9 月 6 日消息，据卫报报道，午休期间，吉尔 · 森内特看到了一些让她完全提不起食欲的东西，于是忍不住分享给自己在 X 平台上的 2.6 万名粉丝：一家牙买加烧烤快闪餐厅使用人工智能生成的菜单图片，里面的肉看起来像是一条条皮带，上面还爬满了细小的甲虫。 这些图片随后被 500 多人转发，许多人同样表达了厌恶之情。现年 37 岁、居住在丹佛的护士森内特表示，吃饭“是人类最基本的体验之一”。她说：“我认为，餐厅开始采用这种恐怖、..."
+  },
+  {
+   "rank": 20,
+   "title": "三星电子 DX 部门工会不满与其他部门薪酬差距，将在会长李在镕住宅前集会抗议",
+   "lang": "zh",
+   "url": "https://www.ithome.com/0/999/043.htm",
+   "score": 2.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "三星电子 DX 部门工会不满与其他部门薪酬差距，将在会长李在镕住宅前集会抗议"
+   ],
+   "published_at": "2026-09-06T14:43:13+00:00",
+   "summary": "IT之家 9 月 6 日消息，据韩联社昨日报道，三星电子同行工会宣布，将在三星电子会长李在镕的住宅前举行集会，抗议内部薪酬差距。该工会主要由负责智能手机、家电等终端产品的 DX 部门员工组成。 业内人士于 9 月 5 日透露，同行工会计划从 18 日开始，在首尔龙山区李在镕住宅附近持续举行集会及单人示威。 同行工会相关负责人接受采访时表示：“我们不设截止期限，计划长期抗争。在未能获批集会申报的日子里，将通过单人示威的形式继续进行。” I..."
+  }
+ ]
+}
