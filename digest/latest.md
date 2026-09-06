@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-07 05:30 CST
+生成时间：2026-09-07 07:00 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -489,25 +489,25 @@
 - 发布时间：2026-09-04 05:09 CST
 - 链接：https://www.latent.space/p/astra
 
-## MarkTechPost（marktechpost，en，本窗口共 11 条）
+## MarkTechPost（marktechpost，en，本窗口共 12 条）
 
-### 1. Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours
+### 1. H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder
+- 摘要：Most visual document retrievers in production today are hand-me-downs. ColPali and the models that followed it take a generative vision-language model and repurpose it as an encoder. The result still carries a separately pretrained vision tower and a causal decoder that never generates a token. That...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-07 05:06 CST
+- 链接：https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/
+
+### 2. Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours
 - 摘要：AI research agents can already propose, implement and score their own machine learning experiments. Idea generation is cheap; verification is not. Training one candidate can consume hours to days of GPU time, so an agent proposes far more candidates than it can afford to run. Which ones get run is t...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-07 04:25 CST
 - 链接：https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/
 
-### 2. UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents
+### 3. UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents
 - 摘要：A team of researchers from UC Berkeley have released CUA-Lite , an open platform for computer-use agents (CUAs). The argument behind it is infrastructural rather than model-centric: training and benchmarking a CUA requires four pieces: agents, environments, traces, and a framework to evaluate and tr...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-06 14:11 CST
 - 链接：https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/
-
-### 3. Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed
-- 摘要：Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs , an under-the-hood account of the second — the serving infrastructure behind...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-06 11:20 CST
-- 链接：https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/
 
 ## MIT Technology Review — AI（mit-tech-review，en，本窗口共 4 条）
 
@@ -685,23 +685,23 @@
 - 发布时间：2026-09-02 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-02
 
-## VentureBeat（venturebeat，en，本窗口共 7 条）
+## VentureBeat（venturebeat，en，本窗口共 8 条）
 
-### 1. MCP's new spec turns a planted prompt into a stolen credential
+### 1. Most pipeline monitoring checks if the job ran. This one didn't check if the numbers were right.
+- 摘要：Eleven days. That's how long our pipeline ran perfectly with zero errors, green Directed Acyclic Graphs (DAGs), clean Snowflake loads while producing audience counts that were 40% wrong. A data pipeline is like a translation chain: If a word changes meaning at the source and nobody updates the dicti...
+- 发布时间：2026-09-07 05:00 CST
+- 链接：https://venturebeat.com/orchestration/most-pipeline-monitoring-checks-if-the-job-ran-this-one-didnt-check-if-the-numbers-were-right
+
+### 2. MCP's new spec turns a planted prompt into a stolen credential
 - 摘要：The Model Context Protocol's (MCP)'s largest revision since its initial launch shipped on July 28 . By the end of the first day, all four Tier 1 SDKs were already speaking the new version, and Cloudflare's Agents SDK had support in place from day zero, with customers such as Sentry and Linear pickin...
 - 发布时间：2026-09-06 02:00 CST
 - 链接：https://venturebeat.com/security/mcps-new-spec-turns-a-planted-prompt-into-a-stolen-credential
 
-### 2. My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion.
+### 3. My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion.
 - 摘要：Today is my last day as Editorial Director at VentureBeat. When I try to make sense of the last three years, my mind keeps returning to my first weeks on the job. It's a writer's instinct to look for narrative symmetry, but sometimes the universe just hands you the perfect bookend. Three years ago,...
 - 作者：michael.nunez@venturebeat.com (Michael Nuñez)
 - 发布时间：2026-09-05 06:15 CST
 - 链接：https://venturebeat.com/technology/my-first-venturebeat-story-was-the-woodstock-of-ai-my-last-is-nvidia-buying-hugging-face-for-12-9-billion
-
-### 3. GitHub’s HydraFusion cuts AI coding costs in every benchmark. It only matches quality in one.
-- 摘要：It is painfully obvious at this point in the AI adoption lifecycle that there is no one model that is ideal for all tasks. That’s why model routing has become table stakes. Vendors across the model-routing market are now marketing multi-model orchestration as a quality upgrade, and the benchmark dat...
-- 发布时间：2026-09-05 05:14 CST
-- 链接：https://venturebeat.com/orchestration/githubs-hydrafusion-cuts-ai-coding-costs-in-every-benchmark-it-only-matches-quality-in-one
 
 ## WIRED — AI（wired-ai，en，本窗口共 10 条）
 
@@ -722,6 +722,26 @@
 - 作者：Lily Hay Newman, Matt Burgess, Dhruv Mehrotra
 - 发布时间：2026-09-05 18:30 CST
 - 链接：https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/
+
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 30 条）
+
+### 1. 果蝇版黑客帝国来了：谷歌十年画出果蝇大脑，硕士生用GPT-6两天让它沙盒起飞
+- 摘要：一只果蝇，在Minecraft里飞。 在一个用玻璃方块搭出的密室里，四壁全透明，灰色石砖铺地，墙外是Minecraft标志性的蓝天。 一只红褐色的小果蝇悬在半空，扇动翅膀，飞几格，拐个弯，翻个身，一会儿头朝左，一会儿肚子朝上，像一只刚被放进罐子里还没搞清状况的真实果蝇。 推动它飞的不是游戏脚本，而是一整套雄性果蝇中枢神经系统的连接组。 166700个神经元在模拟中放电，神经活动直接决定了这只虚拟果蝇的每一次转向。 这份代号为MaleCNS v1.0的脑图谱来头极大： HHMI Janelia、剑桥大学和Google Research做了十年，光人工校对就花了44人年，9月3日刚刚登上《Cell...
+- 作者：新智元
+- 发布时间：2026-09-06 16:50 CST
+- 链接：https://www.36kr.com/p/3971642393686535
+
+### 2. AI科学家冲出屏幕！MIT教授扔4张照片，3个Grok一小时造出零件
+- 摘要：四张照片，彼此毫无关联。 MIT的工程系教授Markus Buehler，把这四张照片，连同一个硬核的力学问题，一起扔给了3个AI。 一个多小时后，他桌上那台3D打印机吐出两个塑料件，一共19.48克。 从照片到零件，中间这段路，3个AI接力走完： 看懂图，抽出结构规律，写出一个能跑的物理模拟器，做47次实验，导出模型文件，切片，送进打印机。 过去所有「AI科学家」的演示，都停在同一个地方：一份报告，一段代码，一张仿真图。 真想动手，你还得有一间造价百万美元起步的自动化实验室。 这一次，AI绕开了百万美元的门槛，直接把东西造了出来。 Buehler直接在帖子里感慨：我们是不是已经活在未来了？...
+- 作者：新智元
+- 发布时间：2026-09-06 16:48 CST
+- 链接：https://www.36kr.com/p/3971642425372930
+
+### 3. 盖茨的AI警告说对了一半
+- 摘要：2026年8月26日，比尔·盖茨在他创办的Gates Notes上发了一篇5784字的长文，标题叫《动荡的AI时代已经到来，我们现在所做的选择至关重要》。 其核心判断是：AI要么成为有史以来最强大的均衡器，要么成为最严重的不公之源，解决AI带来的社会问题，美国和中国需要进行合作。这是他三年来第一次就人工智能发表系统性论述。 这位曾经对技术革命“兴奋程度不亚于互联网和个人电脑普及”的微软创始人，说出了从业以来最沉重的一句话：“这是我第一次面对一种新技术，希望它发展得慢一点。” 文章发布后迅速刷屏。但冷静下来看，盖茨指出的问题足够深刻，可他开出的药方——对AI征税、设立“人类保留”岗位、指望中美像...
+- 作者：思策智库
+- 发布时间：2026-09-06 15:20 CST
+- 链接：https://www.36kr.com/p/3971565038458496
 
 ## 36氪 快讯（36kr-newsflash，zh，本窗口共 4 条）
 
@@ -960,7 +980,7 @@
 - 发布时间：2026-09-06 22:25 CST
 - 链接：https://github.com/DietrichGebert/ponytail
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 365 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 368 条）
 
 ### 1. Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple
 - 摘要：Make Any DOM Reactive. Contribute to marsbos/mador development by creating an account on GitHub.
@@ -974,11 +994,11 @@
 - 发布时间：2026-09-07 04:44 CST
 - 链接：https://xcancel.com/about
 
-### 3. Human archive: They were only human
-- 摘要：A speculative museum seen through the eyes of future AIs. Five galleries about human feeling, ritual, contradiction, and the making of intelligence.
-- 作者：jonwinstanley
-- 发布时间：2026-09-07 04:17 CST
-- 链接：https://sayyss.github.io/human-archive/
+### 3. Show HN: Sol, my macOS music player and jukebox app, is now free and open source
+- 摘要：Native macOS music player for local libraries and Subsonic/Navidrome servers, with bit-perfect output, podcasts and a metadata editor. - FulltimeFeline/Sol
+- 作者：fulltimefeline
+- 发布时间：2026-09-07 04:24 CST
+- 链接：https://github.com/FulltimeFeline/Sol
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 35 条）
 
@@ -1019,24 +1039,24 @@
 - 发布时间：2026-09-06 14:17 CST
 - 链接：https://v.redd.it/y3x61q2eeunh1
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 213 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 236 条）
 
-### 1. Will Anthropic bring back the thinking-chain feature?
-- 摘要：Pretty much the title. I am a graduate student and I use AI sparingly so I never really know what is going on with updates, etc. I use Claude because of the feature that shows it's reasoning so I can improve my prompting and have noticed that it is now gone. I have seen some fuss about this change o...
-- 作者：Roaexx
-- 发布时间：2026-09-07 05:25 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w98qsj/will_anthropic_bring_back_the_thinkingchain/
+### 1. Well even Claude know that iam pasted from chatgpt💀
+- 摘要：So I was learning Python coding with Claude. When I had a good grasp of 3Sum, Claude asked me to create an example, and I was too lazy to do it. So I asked Chatgpt to create one. then I don't know how Claude could detect that this is chatgpt
+- 作者：SatirrHeree
+- 发布时间：2026-09-07 06:57 CST
+- 链接：https://i.redd.it/aflx00otcznh1.jpeg
 
-### 2. Jem: Holographic Pop Star - MiniMax H3
-- 作者：darthfurbyyoutube
-- 发布时间：2026-09-07 05:25 CST
-- 链接：https://v.redd.it/657ddlf7wynh1
+### 2. OpenAI employee predicts serious improvements for Blender x Astra by mid-2027
+- 作者：Distinct-Question-16
+- 发布时间：2026-09-07 06:50 CST
+- 链接：https://i.redd.it/1oprayakbznh1.jpeg
 
-### 3. What is the correct way to vibe-code Machine Learning projects?
-- 摘要：I'm currently learning Machine Learning through a course, and I want to start building projects alongside it. My main goal right now is simply to build several good ML projects and get familiar with the complete project development process . I want to use AI coding tools such as Cursor, Claude Code,...
-- 作者：TusharKharade_
-- 发布时间：2026-09-07 05:18 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w98k62/what_is_the_correct_way_to_vibecode_machine/
+### 3. Krea 2 + qwen 3.8 promter is a bomb
+- 摘要：I updated our promter with qwen 3.8 and i gotta say not bad not bad, is it worth compared to the old qwen uncensored? Hmhmhm i aint sure to be honest but definitely a capable model
+- 作者：Gold-Safe6796
+- 发布时间：2026-09-07 06:49 CST
+- 链接：https://www.reddit.com/gallery/1w9asde
 
 ## 智源社区（baai-hub，zh，本窗口共 6 条）
 
@@ -1059,7 +1079,7 @@
 - 链接：https://hub.baai.ac.cn/view/57716
 
 ---
-共列出 161 条（窗口内采集总数 1322 条，来自 59 个信源）
+共列出 164 条（窗口内采集总数 1380 条，来自 60 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
