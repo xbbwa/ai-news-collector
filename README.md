@@ -7,8 +7,8 @@ AI 方向（国内外）新闻**采集层**：从 RSS / 官方 API 拉取原文�
 ## 运行方式：两边抓、GitHub 合并，下游从 `data` 分支拉
 
 每个信源在 `sources.yaml` 里标了 `runner`：国外源和所有 RSSHub 路由走 GitHub Actions（美国 runner，HF / Reddit / Google 直连），
-直连的国内媒体和对数据中心 IP 限流的站点（VentureBeat）走国内服务器（`runner: server`，快、不会被海外 IP 拒绝）。
-两边各写各的文件，Actions 生成摘要时合并。
+直连的国内媒体和对数据中心 IP 设防的站点（VentureBeat 限流、MarkTechPost 返回反爬页）走国内服务器（`runner: server`，
+快、不会被海外 IP 拒绝）。两边各写各的文件，Actions 生成摘要时合并。
 
 ```
 GitHub Actions（每小时 :30，.github/workflows/collect.yml）          prod-ubuntu（国内，systemd 用户服务常驻）
@@ -44,6 +44,7 @@ https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/items/2026-09-06.
 ~/ai-news-collector/            代码（无 git：用 scripts/server_update.sh 从 codeload 拉 tarball 覆盖，保留 data/ archive/ .env）
 ~/venvs/ai-news-collector/      venv（pip 走阿里云镜像）
 ~/ai-news-collector/.env        COLLECTOR_RUNNER=server  DATABASE_URL=sqlite:///data/collector.db  PROXY_URL=  GITHUB_TOKEN=<fine-grained PAT>
+                                （server 侧 12 个源：量子位、智东西、InfoQ、钛媒体、爱范儿、极客公园、IT之家、少数派、雷峰网、开源中国、VentureBeat、MarkTechPost）
 ~/.config/systemd/user/ai-news-collector.service   来自 deploy/systemd/，systemctl --user status ai-news-collector
 crontab: 15 * * * * ~/ai-news-collector/scripts/server_publish.sh >> ~/logs/ai-news-publish.log 2>&1
 ```

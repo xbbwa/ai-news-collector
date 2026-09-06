@@ -465,12 +465,14 @@ sources:
     tier: 2
     interval: 300
 
+  # Serves a bot-challenge HTML page instead of XML to GitHub's datacenter IPs; fine from China.
   - id: marktechpost
     name: MarkTechPost
     type: rss
     url: https://www.marktechpost.com/feed/
     tier: 2
     interval: 600
+    runner: server
 
   - id: axios
     name: Axios
