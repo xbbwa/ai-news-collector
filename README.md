@@ -61,6 +61,12 @@ docker compose exec api python scripts/check_sources.py    # 在容器里体检�
 
 更新：`git pull && docker compose up -d --build`。数据库在 `./data/collector.db`（SQLite + WAL），**必须放本地磁盘，不能放 NFS**。
 
+国内服务器的三个坑（prod-ubuntu 上实际踩过）：
+
+- `git clone` GitHub 会卡死（网页能开、git 协议不通）。从本机推：`git archive --format=tar <commit> | ssh yino@192.168.110.111 "mkdir -p ~/ai-news-collector && tar -x -C ~/ai-news-collector"`，再把 commit 写进 `DEPLOYED_COMMIT`。
+- Docker Hub 不通、镜像源列表里有死站时，`compose up` 会卡在拉镜像上毫无输出。先手动指定可用镜像源拉好再起：`docker pull docker.1panel.live/diygod/rsshub:latest && docker tag docker.1panel.live/diygod/rsshub:latest diygod/rsshub:latest`。
+- pypi.org 一个请求 7 秒。`.env` 里设 `PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/` 再 build。
+
 Compose 里包含四个服务：
 
 | 服务 | 作用 |

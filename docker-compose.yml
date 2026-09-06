@@ -1,6 +1,12 @@
 services:
   collector:
-    build: .
+    build:
+      context: .
+      args:
+        # Set PIP_INDEX_URL in .env to a nearby mirror (e.g. https://mirrors.aliyun.com/pypi/simple/)
+        # when pypi.org is slow from the server.
+        PIP_INDEX_URL: ${PIP_INDEX_URL:-https://pypi.org/simple}
+    image: ai-news-collector:latest
     container_name: ai-news-collector
     restart: unless-stopped
     env_file: .env
@@ -15,7 +21,8 @@ services:
     command: ["python", "-m", "collector", "run"]
 
   api:
-    build: .
+    # Same image as collector; built once.
+    image: ai-news-collector:latest
     container_name: ai-news-api
     restart: unless-stopped
     env_file: .env
@@ -30,7 +37,9 @@ services:
     command: ["python", "-m", "collector", "api"]
 
   rsshub:
-    image: diygod/rsshub:chromium-bundled
+    # Plain image (~600MB). None of the routes in sources.yaml needs puppeteer; switch to
+    # diygod/rsshub:chromium-bundled (~2GB) only if you add a route that does.
+    image: diygod/rsshub:latest
     container_name: rsshub
     restart: unless-stopped
     environment:
