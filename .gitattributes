@@ -1,0 +1,4 @@
+# Everything is consumed on Linux (Actions runners, the server); keep LF in the repo and on
+# every checkout so shell scripts do not break with "bash\r: No such file".
+* text=auto eol=lf
+*.db binary
