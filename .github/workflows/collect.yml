@@ -1,0 +1,105 @@
+name: collect
+
+# Runs the collector on GitHub's hosted runners (US-based: no proxy needed for Hugging Face,
+# Reddit, Google, ...). Each run:
+#   1. restores the SQLite working DB + export cursor from the "state" release,
+#   2. polls every source once (RSSHub runs alongside as a service container),
+#   3. appends the new items (full text) to items/<date>.jsonl on the `data` branch and
+#      rebuilds digest/latest.md there,
+#   4. saves the DB + cursor back to the "state" release.
+# Consumers only ever need the `data` branch (plain HTTPS file downloads work from mainland China).
+
+on:
+  schedule:
+    - cron: "30 * * * *"   # hourly; the 22:30 UTC run lands right before the 07:01 Beijing pull
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Asia/Shanghai           # digest timestamps for Chinese readers
+    services:
+      rsshub:
+        image: ghcr.io/diygod/rsshub:latest
+        ports:
+          - 1200:1200
+        env:
+          NODE_ENV: production
+          CACHE_TYPE: memory
+          CACHE_EXPIRE: "300"
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Check out data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: archive
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore state from the "state" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p data
+          if gh release download state --dir data --clobber 2>/dev/null; then
+            echo "state restored:"; ls -la data
+          else
+            echo "no saved state yet - starting with an empty database"
+          fi
+
+      - name: Wait for RSSHub
+        run: curl -fsS --retry 30 --retry-delay 3 --retry-all-errors -o /dev/null http://localhost:1200/ && echo "rsshub is up"
+
+      - name: Collect
+        env:
+          RSSHUB_URL: http://localhost:1200
+          DATABASE_URL: sqlite:///data/collector.db
+        run: |
+          python -m collector once
+          python -m collector retry-extract --limit 50
+
+      - name: Export new items and build the digest
+        id: export
+        run: |
+          python scripts/export_daily.py --db data/collector.db --out-dir archive/items \
+            --cursor data/export_cursor --prune-days 14
+          python scripts/daily_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
+            --out archive/digest/latest.md --hours 24 --max-per-source 3 --summary-chars 300
+
+      - name: Commit to data branch
+        working-directory: archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -qm "collect $(date -u '+%Y-%m-%d %H:%M UTC'): +${{ steps.export.outputs.exported }} items"
+          git push
+
+      - name: Save state to the "state" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view state >/dev/null 2>&1 || gh release create state --prerelease \
+            --title "collector state (auto-updated)" \
+            --notes "SQLite working database and export cursor carried between runs of the collect workflow. Managed automatically; do not edit."
+          gh release upload state data/collector.db data/export_cursor --clobber

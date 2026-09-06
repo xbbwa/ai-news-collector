@@ -1,19 +1,22 @@
 """Write a Markdown digest of recently collected items for a downstream reader (OpenClaw).
 
-This is the drop-in replacement for the old ~/scripts/daily_ai_news.py on the server: same
-output file, same role (a file the pusher reads instead of going online), but fed by the
-collector's HTTP API instead of four hard-coded RSS feeds. Stdlib only, so it runs with the
-host's system python3 straight from cron - no venv, no docker exec.
+Same output file and role as the old ~/scripts/daily_ai_news.py on the server (a file the
+pusher reads instead of going online), fed by the collector instead of four hard-coded feeds.
+Stdlib only. Two data sources:
+
+  --api URL   running collector API (self-hosted Docker setup)
+  --db PATH   the SQLite file directly (GitHub Actions run, where no API is up)
 
 usage:
-  python3 scripts/daily_digest.py --out /mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md
-      [--api http://localhost:8000] [--hours 24] [--max-per-source 8] [--summary-chars 400]
+  python3 scripts/daily_digest.py --out digest/latest.md --db data/collector.db --sources-yaml config/sources.yaml
+      [--hours 24] [--max-per-source 8] [--summary-chars 400]
 """
 from __future__ import annotations
 
 import argparse
 import json
 import os
+import sqlite3
 import sys
 import tempfile
 from collections import defaultdict
@@ -31,7 +34,7 @@ def get_json(url: str) -> object:
         return json.load(resp)
 
 
-def fetch_items(api: str, since: datetime) -> list[dict]:
+def fetch_items_api(api: str, since: datetime) -> list[dict]:
     items: list[dict] = []
     since_id = 0
     while True:
@@ -43,6 +46,38 @@ def fetch_items(api: str, since: datetime) -> list[dict]:
         if page["count"] < 1000:
             return items
         since_id = page["next_since_id"]
+
+
+def fetch_items_db(db_path: Path, since: datetime) -> list[dict]:
+    """Read straight from the collector's SQLite file (datetimes are stored naive UTC)."""
+    conn = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+    conn.row_factory = sqlite3.Row
+    try:
+        rows = conn.execute(
+            "select id, source_id, source_tier, url, title, author, summary, content, published_at, fetched_at "
+            "from items where fetched_at >= ? order by id",
+            (since.astimezone(timezone.utc).replace(tzinfo=None).isoformat(sep=" "),),
+        ).fetchall()
+    finally:
+        conn.close()
+
+    def iso(value: str | None) -> str | None:
+        return f"{value.replace(' ', 'T')}+00:00" if value else None
+
+    return [
+        {**dict(r), "published_at": iso(r["published_at"]), "fetched_at": iso(r["fetched_at"])} for r in rows
+    ]
+
+
+def load_sources_yaml(path: Path) -> list[dict]:
+    """Source names/langs for headings. PyYAML is optional; without it ids are shown."""
+    try:
+        import yaml  # type: ignore[import-not-found]
+    except ImportError:
+        return []
+    doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    # Mirror SourceConfig's default for entries that leave lang unset.
+    return [{"lang": "en", **s} for s in doc.get("sources") or [] if isinstance(s, dict) and "id" in s]
 
 
 def parse_ts(value: str | None) -> datetime | None:
@@ -76,7 +111,7 @@ def build_markdown(items: list[dict], sources: list[dict], hours: int, max_per_s
         f"生成时间：{now.strftime('%Y-%m-%d %H:%M %Z')}",
         f"时间窗口：最近 {hours} 小时内采集到的条目；每个信源最多列 {max_per_source} 条，按发布时间倒序。",
         "",
-        "> 本文件由 ai-news-collector 从 HTTP API 导出生成，每天覆盖更新。",
+        "> 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。",
         "> OpenClaw 推送时只应读取本文件，不要联网、不抓全文、不扩展搜索。",
         "> 摘要为原文节选（未翻译、未清洗）；英文条目请在推送时翻译成中文。",
         "",
@@ -127,7 +162,10 @@ def build_markdown(items: list[dict], sources: list[dict], hours: int, max_per_s
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", required=True, type=Path, help="markdown file to (over)write")
-    ap.add_argument("--api", default=os.environ.get("COLLECTOR_API", "http://localhost:8000"))
+    src = ap.add_mutually_exclusive_group()
+    src.add_argument("--api", help="collector API base URL (default: $COLLECTOR_API or http://localhost:8000)")
+    src.add_argument("--db", type=Path, help="read the SQLite file directly instead of the API")
+    ap.add_argument("--sources-yaml", type=Path, help="with --db: sources.yaml for names/langs (needs PyYAML)")
     ap.add_argument("--hours", type=int, default=24)
     ap.add_argument("--max-per-source", type=int, default=8)
     ap.add_argument("--summary-chars", type=int, default=400)
@@ -135,10 +173,15 @@ def main() -> int:
 
     since = datetime.now(timezone.utc) - timedelta(hours=args.hours)
     try:
-        items = fetch_items(args.api, since)
-        sources = get_json(f"{args.api}/sources")
-    except (URLError, OSError, KeyError, ValueError) as exc:
-        print(f"ERROR: cannot read collector API at {args.api}: {exc}", file=sys.stderr)
+        if args.db:
+            items = fetch_items_db(args.db, since)
+            sources = load_sources_yaml(args.sources_yaml) if args.sources_yaml else []
+        else:
+            api = args.api or os.environ.get("COLLECTOR_API", "http://localhost:8000")
+            items = fetch_items_api(api, since)
+            sources = get_json(f"{api}/sources")
+    except (URLError, OSError, KeyError, ValueError, sqlite3.Error) as exc:
+        print(f"ERROR: cannot read collector data: {exc}", file=sys.stderr)
         return 1
 
     text = build_markdown(items, sources, args.hours, args.max_per_source, args.summary_chars)
