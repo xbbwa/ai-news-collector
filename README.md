@@ -81,14 +81,16 @@ Compose 里包含四个服务：
 服务器上原来是 cron 每天 07:01 跑 `~/scripts/daily_ai_news.py`，把 4 个 RSS 各 5 条写成
 `/mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md`，OpenClaw 读这个文件做中文推送。
 现在由 `scripts/daily_digest.py` 生成同一个文件：只依赖标准库，通过 API 取最近 24 小时的条目，按
-Tier / 信源分组，每源最多 8 条，摘要截 400 字（原文节选，不翻译不清洗），文件头尾保留给 OpenClaw 的提示。
+Tier / 信源分组，每源最多 N 条，摘要截若干字（原文节选，不翻译不清洗），文件头尾保留给 OpenClaw 的提示。
 
 ```bash
-# crontab -e（yino），替换原来的 daily_ai_news.py 那一行
-01 7 * * * /usr/bin/python3 /home/yino/ai-news-collector/scripts/daily_digest.py --out /mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md >> /home/yino/ai-news-collector/data/digest.log 2>&1
+# crontab -e（yino），已于 2026-09-06 替换原来的 daily_ai_news.py 那一行（旧行注释保留，旧脚本和 venv 未删）
+01 7 * * * /usr/bin/python3 /home/yino/ai-news-collector/scripts/daily_digest.py --out /mnt/data/openclaw-kb/openclawdata/daily-ai-news-summary.md --max-per-source 3 --summary-chars 300 >> /home/yino/logs/ai-news-digest.log 2>&1
 ```
 
-条目太多影响推送质量时调 `--max-per-source` / `--hours`；下游要完整原文走 `GET /items?fetched_after=...`。
+实测一天约 850 条采集、48 个信源有更新：默认每源 8 条会生成 280 条 / 200KB，对原来只读 20 条的推送提示太大，所以
+cron 里收到每源 3 条（约 120 条 / 80KB）。嫌多再降 `--max-per-source` 或 `--hours`；下游要完整原文走
+`GET /items?fetched_after=...`。首日的窗口会带进各 feed 最近 7 天的存量，第二天起只有增量。
 
 ## 下游对接
 

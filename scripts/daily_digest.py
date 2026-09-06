@@ -148,6 +148,7 @@ def main() -> int:
     fd, tmp = tempfile.mkstemp(dir=args.out.parent, prefix=".digest-", suffix=".md")
     with os.fdopen(fd, "w", encoding="utf-8") as fh:
         fh.write(text)
+    os.chmod(tmp, 0o644)  # mkstemp creates 0600; the reader may run as another user
     os.replace(tmp, args.out)
     print(f"OK: wrote {args.out} ({len(items)} items in the last {args.hours}h)")
     return 0
