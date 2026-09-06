@@ -33,6 +33,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from daily_digest import (  # noqa: E402
     fetch_items_db,
     fetch_items_jsonl,
@@ -42,6 +43,11 @@ from daily_digest import (  # noqa: E402
     one_line,
     parse_ts,
 )
+
+try:  # same matcher the collector uses; absent when the repo is not checked out (stdlib-only mode)
+    from collector.pipeline import _keyword_pattern
+except ImportError:  # pragma: no cover
+    _keyword_pattern = None
 
 TIER_WEIGHT = {1: 3.0, 2: 2.0, 3: 1.0}
 RELEASE_RE = re.compile(
@@ -127,6 +133,19 @@ def raw_number(item: dict, key: str) -> float:
         return float(raw.get(key) or 0)
     except (TypeError, ValueError):
         return 0.0
+
+
+def off_topic(c: Cluster, keywords_by_source: dict[str, list[str]]) -> bool:
+    """General-purpose feeds pass the collector's filter when the *summary* mentions AI; for the
+    push we want the story itself to be about AI, so the title must match when every source in
+    the cluster is a keyword-filtered feed (a bond-market explainer from Axios + CNBC is not news here)."""
+    if _keyword_pattern is None:
+        return False
+    if any(not keywords_by_source.get(it["source_id"]) for it in c.items):
+        return False  # at least one AI-vertical source carried it
+    return not any(
+        _keyword_pattern(tuple(keywords_by_source[it["source_id"]])).search(it["title"]) for it in c.items
+    )
 
 
 def is_noise(c: Cluster) -> bool:
@@ -275,10 +294,12 @@ def main() -> int:
     items = [
         it for it in items if (it.get("title") or "").strip() and it.get("url") and it["source_id"] not in excluded
     ]
-    names = {s["id"]: s.get("name", s["id"]) for s in (load_sources_yaml(args.sources_yaml) if args.sources_yaml else [])}
+    sources = load_sources_yaml(args.sources_yaml) if args.sources_yaml else []
+    names = {s["id"]: s.get("name", s["id"]) for s in sources}
+    keywords_by_source = {s["id"]: list(s.get("keywords") or []) for s in sources}
 
     clusters = cluster_items(items)
-    kept = [c for c in clusters if not is_noise(c)]
+    kept = [c for c in clusters if not is_noise(c) and not off_topic(c, keywords_by_source)]
     noise = len(clusters) - len(kept)
     history = load_history(args.history, args.history_days)
     fresh = [c for c in kept if not any(similar(c.tokens, h) for h in history)]

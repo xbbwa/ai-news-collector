@@ -1,8 +1,6 @@
-执行 Daily AI News 推送。
+执行 Daily AI News 推送。先用读文件工具读取并严格遵守 skill：/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md
 
-1. 先读取并严格遵守 skill 文件：/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md
-2. 然后只读取候选清单：/mnt/data/openclaw-kb/openclawdata/daily-ai-news-curated.md
-3. 按 skill 规定的模板输出中文推送正文（OpenClaw 会把你的回复推送到目标群）。
-4. 按 skill 把原文标题写入 /mnt/data/openclaw-kb/openclawdata/daily-push-history.md。
-
-不要读其他文件，不要联网，不要筛选或排序（候选清单已经排好），结尾不要输出任何收尾语。
+要点（skill 里有完整规则）：
+- 只读候选清单 /mnt/data/openclaw-kb/openclawdata/daily-ai-news-curated.md，不读其他文件，不联网，不筛选不排序。
+- 先用写文件工具覆盖 /mnt/data/openclaw-kb/openclawdata/daily-push-history.md（原文标题），再输出正文。
+- OpenClaw 只把你最后一段文字发到群里：整个回复只能有一段文字，就是推送正文。读写文件时不要说话，正文后不要有任何收尾语。

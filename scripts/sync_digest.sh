@@ -15,13 +15,15 @@ KB="${KB:-/mnt/data/openclaw-kb/openclawdata}"
 cd "$(dirname "$0")/.." || exit 1
 set -a; [ -f .env ] && . ./.env; set +a
 mkdir -p "$KB" data archive/digest
+# The repo is private: raw.githubusercontent.com and the contents API both need the PAT from .env.
+auth=(); [ -n "${GITHUB_TOKEN:-}" ] && auth=(-H "Authorization: Bearer $GITHUB_TOKEN")
 
 fetch() {  # fetch <remote path> <local path> <expected first bytes regex>
   local remote="$1" local="$2" expect="$3" tmp url
   tmp="$(mktemp "$(dirname "$local")/.sync-XXXXXX")"
   for url in "https://raw.githubusercontent.com/$REPO/data/$remote" \
              "https://api.github.com/repos/$REPO/contents/$remote?ref=data"; do
-    if curl -fsSL -m 90 --retry 2 -H "Accept: application/vnd.github.raw" -o "$tmp" "$url" \
+    if curl -fsSL -m 90 --retry 2 ${auth[@]+"${auth[@]}"} -H "Accept: application/vnd.github.raw" -o "$tmp" "$url" \
        && head -c 300 "$tmp" | grep -qE "$expect"; then
       chmod 644 "$tmp"; mv "$tmp" "$local"
       echo "$(date '+%F %T') OK   $remote -> $local ($(wc -c < "$local") B)"

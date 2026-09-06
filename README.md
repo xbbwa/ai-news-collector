@@ -27,7 +27,7 @@ prod-ubuntu ── cron 07:01：~/scripts/sync_ai_news_digest.sh 把 latest.md �
 两侧文件名不同所以永不冲突；Actions 推送前会 `git pull --rebase`。两侧各自去重，同一篇文章被两边不同信源抓到时归档里会各有一条
 （摘要里按 URL 去重）。`id` 是各自数据库的自增号，跨文件不唯一，下游按 `fetched_at` 或文件内顺序取增量。
 
-想在别处消费数据：
+想在别处消费数据（仓库是私有的，请求要带 PAT：`-H "Authorization: Bearer $GITHUB_TOKEN"`）：
 
 ```
 https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/digest/latest.md
@@ -35,13 +35,14 @@ https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/items/2026-09-06.
 备用：https://api.github.com/repos/xbbwa/ai-news-collector/contents/digest/latest.md?ref=data  （Accept: application/vnd.github.raw）
 ```
 
-手动触发一次：`gh workflow run collect`；看运行：`gh run list --workflow collect`。仓库是公开的，Actions 分钟数不限；
+手动触发一次：`gh workflow run collect`；看运行：`gh run list --workflow collect`。仓库是私有的，Actions 受账号每月免费分钟数限制
+（Free 套餐 2000 分钟；每轮 1–3 分钟、每小时一轮约 720–2160 分钟/月，在 Settings → Billing 留意用量）；
 定时任务实际触发会比 cron 晚 5–15 分钟，`30 * * * *` 的 22:30 UTC 那一轮正好落在 07:01 北京时间的拉取之前。
 
 ### 服务器侧（prod-ubuntu，yino）
 
 ```
-~/ai-news-collector/            代码（无 git：用 scripts/server_update.sh 从 codeload 拉 tarball 覆盖，保留 data/ archive/ .env）
+~/ai-news-collector/            代码（无 git：用 scripts/server_update.sh 带 .env 里的 PAT 经 api.github.com 拉 tarball 覆盖，保留 data/ archive/ .env）
 ~/venvs/ai-news-collector/      venv（pip 走阿里云镜像）
 ~/ai-news-collector/.env        COLLECTOR_RUNNER=server  DATABASE_URL=sqlite:///data/collector.db  PROXY_URL=  GITHUB_TOKEN=<fine-grained PAT>
                                 （server 侧 12 个源：量子位、智东西、InfoQ、钛媒体、爱范儿、极客公园、IT之家、少数派、雷峰网、开源中国、VentureBeat、MarkTechPost）
