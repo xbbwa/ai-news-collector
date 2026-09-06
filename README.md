@@ -119,7 +119,13 @@ OpenClaw 08:30 cron 任务 daily-push-healthcheck：history 日期不是今天�
 - 两个 cron 任务的提示词：`deploy/openclaw/cron/*.txt`（用 `openclaw cron edit <id> --message` 写入）
 - 服务器 crontab：`01 7 * * * /home/yino/ai-news-collector/scripts/sync_digest.sh >> /home/yino/logs/ai-news-digest.log 2>&1`
 
+OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录里的 `summary` 就是发出去的内容）。所以 skill 强制的顺序是：
+静默读候选 → 静默写历史文件 → 最后一步才输出正文，且正文第一个字符必须是 📰（补推是 ⚠️）；任何"存档完成""以下是第二条"都会替代正文。
+用 DeepSeek V4 Flash 实测：第一版 skill 发出去的是"存档完成。"，改成这个顺序后发出去的是完整正文（18 条、15 秒、1.9k 输出 token）。
+测试补推的办法：把 `daily-push-history.md` 第一行日期改成昨天，`openclaw cron run <healthcheck-id>`，它会投递到用户私聊而不是群。
+
 调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --min-zh 4 --per-source-cap 3 --summary-chars 220 --exclude-source`。
+泛科技源（带 `keywords` 的）的条目还要求**标题**本身命中 AI 关键词才进候选，否则 Axios/CNBC 的债券解读这类靠摘要过筛的会混进来。
 实测一天 1232 条原始条目 → 1133 个事件 → 过滤 476 个噪音 → 20 条候选；排在前面的是 Claude 上 AWS、Gemini 视频理解、
 NVIDIA 收购 HF、GPT-6 Astra 这类 3–4 家同时报道的事件。同一事件的英文公告和中文转载目前还是两条（不做跨语言聚类），skill 里让模型合并。
 
