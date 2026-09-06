@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-07 01:59 CST
+生成时间：2026-09-07 02:44 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -685,6 +685,24 @@
 - 发布时间：2026-09-02 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-02
 
+## VentureBeat（venturebeat，en，本窗口共 7 条）
+
+### 1. MCP's new spec turns a planted prompt into a stolen credential
+- 摘要：The Model Context Protocol's (MCP)'s largest revision since its initial launch shipped on July 28 . By the end of the first day, all four Tier 1 SDKs were already speaking the new version, and Cloudflare's Agents SDK had support in place from day zero, with customers such as Sentry and Linear pickin...
+- 发布时间：2026-09-06 02:00 CST
+- 链接：https://venturebeat.com/security/mcps-new-spec-turns-a-planted-prompt-into-a-stolen-credential
+
+### 2. My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion.
+- 摘要：Today is my last day as Editorial Director at VentureBeat. When I try to make sense of the last three years, my mind keeps returning to my first weeks on the job. It's a writer's instinct to look for narrative symmetry, but sometimes the universe just hands you the perfect bookend. Three years ago,...
+- 作者：michael.nunez@venturebeat.com (Michael Nuñez)
+- 发布时间：2026-09-05 06:15 CST
+- 链接：https://venturebeat.com/technology/my-first-venturebeat-story-was-the-woodstock-of-ai-my-last-is-nvidia-buying-hugging-face-for-12-9-billion
+
+### 3. GitHub’s HydraFusion cuts AI coding costs in every benchmark. It only matches quality in one.
+- 摘要：It is painfully obvious at this point in the AI adoption lifecycle that there is no one model that is ideal for all tasks. That’s why model routing has become table stakes. Vendors across the model-routing market are now marketing multi-model orchestration as a quality upgrade, and the benchmark dat...
+- 发布时间：2026-09-05 05:14 CST
+- 链接：https://venturebeat.com/orchestration/githubs-hydrafusion-cuts-ai-coding-costs-in-every-benchmark-it-only-matches-quality-in-one
+
 ## WIRED — AI（wired-ai，en，本窗口共 10 条）
 
 ### 1. My Brief Summer Fling With Siri AI
@@ -942,25 +960,25 @@
 - 发布时间：2026-09-06 22:25 CST
 - 链接：https://github.com/DietrichGebert/ponytail
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 345 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 348 条）
 
-### 1. OpenAI: We monitor internal coding agents for misalignment
+### 1. Following legal advice, the Nitter project will continue
+- 摘要：Alternative Twitter front-end. Contribute to zedeus/nitter development by creating an account on GitHub.
+- 作者：Cider9986
+- 发布时间：2026-09-07 01:51 CST
+- 链接：https://github.com/zedeus/nitter
+
+### 2. Nitter is unarchived and will continue
+- 摘要：Alternative Twitter front-end. Contribute to zedeus/nitter development by creating an account on GitHub.
+- 作者：zImPatrick
+- 发布时间：2026-09-07 01:49 CST
+- 链接：https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3
+
+### 3. OpenAI: We monitor internal coding agents for misalignment
 - 摘要：How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.
 - 作者：lukaspetersson
 - 发布时间：2026-09-07 00:37 CST
 - 链接：https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
-
-### 2. Cultivating Trust
-- 摘要：Part of “Conquering Entropy” Most of the issues I have with AI-generated code are related to trust. Do I trust the person who wrote this ticket? Do
-- 作者：kaeruct
-- 发布时间：2026-09-07 00:02 CST
-- 链接：https://kaeruct.github.io/posts/2026/09/06/conquering-entropy-cultivating-trust/
-
-### 3. Alberta (Canada) slaps punitive tax on solar panels
-- 摘要：Never let it be said that the Alberta’s United Conservative Party government isn’t in favour of recycling stuff – at least as long as that can be used to create higher costs and more red tape to help strangle the development of renewable energy. Yesterday, the UCP opened a new front in its War on […...
-- 作者：cmrdporcupine
-- 发布时间：2026-09-06 23:14 CST
-- 链接：https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-opening-new-front-in-its-war-on-renewable-energy/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 35 条）
 
@@ -1001,25 +1019,25 @@
 - 发布时间：2026-09-06 14:17 CST
 - 链接：https://v.redd.it/y3x61q2eeunh1
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 158 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 171 条）
 
-### 1. I open-sourced the Claude Code skill I use to edit my own videos
-- 摘要：I make short videos about dev tools. Recording takes twenty minutes. Editing took me about two hours every time, and I hate editing. So I built a Claude Code skill for it. Raw takes go in a folder, I say "edit these", and I get back a finished vertical video. The ffmpeg part was easy. Taste was not....
-- 作者：ustype
-- 发布时间：2026-09-07 01:56 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w935ob/i_opensourced_the_claude_code_skill_i_use_to_edit/
+### 1. Proposed architecture for inferencing sparse MOE models increasing Active parameters using layered + linear decay. Succinct reasoning without any model training or fine tune. [p]
+- 摘要：I ported MoE expert expansion to llama.cpp 🚀 Run MoE models with MORE routed experts than the native top-K (8->x), adaptive threshold, 99→50% influence decay, layer range. Runtime-only, all backends. Tested on Qwen 3.6 35B A4B+ https://github.com/vagrillo/llama.cpp/blob/moe-expansion/docs/moe-expans...
+- 作者：Specific-Tax-6700
+- 发布时间：2026-09-07 02:41 CST
+- 链接：https://www.reddit.com/r/MachineLearning/comments/1w94dtn/proposed_architecture_for_inferencing_sparse_moe/
 
-### 2. Point density, not architecture, was the bottleneck for a 5-class radar-only object [P]
-- 摘要：Body: Hello all, TL;DR: point density, not model architecture, was the real bottleneck for a 5-class radar-only classifier on RadarScenes. Going from 1 to 5 points per instance roughly doubles macro F1 (0.381 → 0.764), while a whole set of architecture and feature changes all landed inside a measure...
-- 作者：bruno_pinto90
-- 发布时间：2026-09-07 01:55 CST
-- 链接：https://www.reddit.com/gallery/1w934ew
+### 2. Best model + setup for remote deployment.
+- 摘要：Hi everybody, I am in a tricky situation. My grandfather + grandmother live in a remote village in asia, and were visiting us in the city. My grandfather has absolutely fallen in love with AI, and it is completely new for him. He loves how he can talk to it, and get information from it. The caveat i...
+- 作者：Potential_Low_1183
+- 发布时间：2026-09-07 02:40 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1w94cj4/best_model_setup_for_remote_deployment/
 
-### 3. 2x R9700, 64 GB DDR5 is an absolute beast machine with vLLM Radiance / R9V and Qwen 3.8 27b and Flash next
-- 摘要：I've been tinkering with local LLMs since the beginning of the year when I had an Intel Arc B580 and 32 GB of DDR5. Curiosity got the best of me and I bought the first R9700 about half a year ago, also because I wanted to upgrade my gaming graphics for 4k. As the 5090 was about 3 times as expensive,...
-- 作者：smallDeltaBigEffect
-- 发布时间：2026-09-07 01:48 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1w92x3j/2x_r9700_64_gb_ddr5_is_an_absolute_beast_machine/
+### 3. Astra amazing at organizing your MyDrive
+- 摘要：My MyDrive was an utter mess. Photos, files, videos all mix together where they shouldn’t be, an organization that was good to begin but fell apart after a while. Had Astra light go through and organize everything. Now my photos and videos are organized by date and my files are organized by type and...
+- 作者：Apollo18Teslaa
+- 发布时间：2026-09-07 02:37 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1w949hc/astra_amazing_at_organizing_your_mydrive/
 
 ## 智源社区（baai-hub，zh，本窗口共 6 条）
 
@@ -1042,7 +1060,7 @@
 - 链接：https://hub.baai.ac.cn/view/57716
 
 ---
-共列出 158 条（窗口内采集总数 1238 条，来自 58 个信源）
+共列出 161 条（窗口内采集总数 1261 条，来自 59 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
