@@ -158,6 +158,11 @@ OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录�
 用 DeepSeek V4 Flash 实测：第一版 skill 发出去的是"存档完成。"，改成这个顺序后发出去的是完整正文（18 条、15 秒、1.9k 输出 token）。
 测试补推的办法：把 `daily-push-history.md` 第一行日期改成昨天，`openclaw cron run <healthcheck-id>`，它会投递到用户私聊而不是群。
 
+两个踩过的坑：工作区记忆里有一条用户偏好"长内容拆分多条"，OpenClaw 每次会话都会加载它，模型看到 18 条正文就往里插
+（1/2）（2/2）把列表切断——skill 里必须显式声明这条偏好对定时推送不适用。`cron edit --light-context`（轻量启动上下文）
+能去掉这类干扰，但实测 Flash 在轻量上下文下反而把推演文字写进最终回复、还跳过写文件步骤，所以两个任务都保持完整上下文；
+健康检查任务的模型改成和正式推送相同的 `deepseek-v4-pro`（补推质量一致，正常时静默几乎不花钱）。
+
 调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --min-zh 4 --per-source-cap 3 --summary-chars 220 --exclude-source`。
 泛科技源（带 `keywords` 的）的条目还要求**标题**本身命中 AI 关键词才进候选，否则 Axios/CNBC 的债券解读这类靠摘要过筛的会混进来。
 实测一天 1232 条原始条目 → 1133 个事件 → 过滤 476 个噪音 → 20 条候选；排在前面的是 Claude 上 AWS、Gemini 视频理解、
