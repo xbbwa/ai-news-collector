@@ -38,12 +38,9 @@ services:
       CACHE_TYPE: redis
       REDIS_URL: redis://redis:6379/
       CACHE_EXPIRE: "300"
-      # Routes that hit blocked sites (github/twitter) go through the same proxy.
+      # Routes that hit blocked sites (github etc.) go through the same proxy.
       # Remove if your proxy is not reachable from inside Docker (use host.docker.internal).
       PROXY_URI: ${PROXY_URL:-}
-      # For X/Twitter routes, uncomment and fill in:
-      # TWITTER_USERNAME: ""
-      # TWITTER_PASSWORD: ""
     ports:
       - "1200:1200"
     depends_on:

@@ -3,8 +3,10 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import logging
+import re
 from dataclasses import dataclass
 from datetime import timedelta
+from functools import lru_cache
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from sqlalchemy import select
@@ -38,11 +40,31 @@ def url_hash(url: str) -> str:
     return hashlib.sha256(normalize_url(url).encode("utf-8")).hexdigest()
 
 
+@lru_cache(maxsize=256)
+def _keyword_pattern(keywords: tuple[str, ...]) -> re.Pattern[str]:
+    """One alternation regex for a keyword list.
+
+    Pure-ASCII words are matched as whole tokens (optionally plural), so "AI" hits
+    "AI芯片", "AI-powered", "(AI)" and "AIGC" but not "said", "aim", "Airbnb" or "OpenAI".
+    Everything else (CJK terms, phrases, "A.I.") is a plain case-insensitive substring.
+    """
+    parts = []
+    for kw in keywords:
+        kw = kw.strip()
+        if not kw:
+            continue
+        if re.fullmatch(r"[A-Za-z]+", kw):
+            parts.append(rf"(?<![A-Za-z])(?i:{re.escape(kw)}s?)(?![a-z])")
+        else:
+            parts.append(rf"(?i:{re.escape(kw)})")
+    return re.compile("|".join(parts) or r"(?!x)x")
+
+
 def matches_keywords(entry: RawEntry, keywords: list[str]) -> bool:
     if not keywords:
         return True
-    haystack = f"{entry.title}\n{entry.summary or ''}".lower()
-    return any(k.lower() in haystack for k in keywords)
+    haystack = f"{entry.title}\n{entry.summary or ''}"
+    return _keyword_pattern(tuple(keywords)).search(haystack) is not None
 
 
 def is_fresh(entry: RawEntry, max_age_days: int | None) -> bool:
@@ -83,7 +105,7 @@ class Collector:
 
         client = self.clients.for_source(source)
         try:
-            result = await fetch(source, client, self.settings, etag, last_modified)
+            result = await fetch(source, client, etag, last_modified)
         except Exception as exc:
             self._record_failure(source, exc)
             raise
@@ -91,6 +113,12 @@ class Collector:
         if result.not_modified:
             self._record_success(source, etag, last_modified, added=0)
             return 0
+
+        if source.time_offset_hours:
+            shift = timedelta(hours=source.time_offset_hours)
+            for e in result.entries:
+                if e.published_at is not None:
+                    e.published_at += shift
 
         entries = [
             e

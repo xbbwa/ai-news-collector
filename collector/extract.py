@@ -17,6 +17,8 @@ class ExtractError(Exception):
 
 
 def _extract_sync(html: str, url: str) -> dict[str, Any] | None:
+    # favor_recall: keep as much of the original article as possible (captions, asides,
+    # short paragraphs); downstream tooling does the cleaning, we must not lose text.
     out = trafilatura.extract(
         html,
         url=url,
@@ -25,7 +27,7 @@ def _extract_sync(html: str, url: str) -> dict[str, Any] | None:
         include_comments=False,
         include_tables=True,
         include_images=False,
-        favor_precision=True,
+        favor_recall=True,
     )
     return json.loads(out) if out else None
 

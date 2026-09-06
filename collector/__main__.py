@@ -86,7 +86,7 @@ def cmd_sources(settings: Settings) -> None:
     for s in load_sources(settings):
         flag = " " if s.enabled else "x"
         proxy = "proxy" if s.proxy else "     "
-        print(f"[{flag}] T{s.tier} {s.type:<10} {proxy} {s.interval:>5}s  {s.id:<28} {s.name}")
+        print(f"[{flag}] T{s.tier} {s.type:<11} {proxy} {s.interval:>5}s  {s.id:<28} {s.name}")
 
 
 def cmd_export(settings: Settings, since_id: int, out: Path | None) -> None:

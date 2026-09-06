@@ -25,11 +25,6 @@ class Settings:
     api_host: str = "0.0.0.0"
     api_port: int = 8000
     log_level: str = "INFO"
-    # Reddit requires OAuth for API access; create a "script" app at
-    # https://www.reddit.com/prefs/apps and fill these in.
-    reddit_client_id: str | None = None
-    reddit_client_secret: str | None = None
-    reddit_user_agent: str = "linux:ai-news-collector:v0.1 (by /u/ainewscollector)"
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -51,9 +46,6 @@ class Settings:
             api_host=env.get("API_HOST", cls.api_host),
             api_port=int(env.get("API_PORT", cls.api_port)),
             log_level=env.get("LOG_LEVEL", cls.log_level).upper(),
-            reddit_client_id=env.get("REDDIT_CLIENT_ID") or None,
-            reddit_client_secret=env.get("REDDIT_CLIENT_SECRET") or None,
-            reddit_user_agent=env.get("REDDIT_USER_AGENT", cls.reddit_user_agent),
         )
 
 
@@ -61,7 +53,7 @@ class Settings:
 class SourceConfig:
     id: str
     name: str
-    type: str  # rss | hackernews | reddit
+    type: str  # rss | hackernews | reddit | huggingface
     url: str | None = None
     tier: int = 2  # 1 = first-party, 2 = professional media, 3 = social/aggregator
     lang: str = "en"
@@ -71,6 +63,9 @@ class SourceConfig:
     max_age_days: int | None = 7  # drop entries published earlier than this; None = keep all
     keywords: list[str] = field(default_factory=list)  # if set, keep only matching entries
     params: dict[str, Any] = field(default_factory=dict)  # fetcher-specific options
+    # Added to every published_at. For feeds that stamp local time as GMT (infoq.cn is
+    # Beijing time labelled "GMT"), -8 turns it back into real UTC.
+    time_offset_hours: float = 0
     enabled: bool = True
 
 

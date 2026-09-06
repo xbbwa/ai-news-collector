@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import timezone
+from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import Depends, FastAPI, HTTPException, Query
@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 
 from .config import Settings, load_sources
 from .db import init_db, make_engine, make_session_factory
-from .models import Item, SourceState
+from .models import Item, SourceState, to_utc_naive
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -66,6 +66,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         source: str | None = None,
         tier: int | None = Query(None, ge=1, le=3),
         extract_status: str | None = Query(None, pattern="^(pending|ok|failed|skipped)$"),
+        fetched_after: datetime | None = Query(
+            None, description="Only items fetched at/after this ISO-8601 time (UTC if no offset)"
+        ),
         include_content: bool = True,
         s: Session = Depends(get_session),
     ) -> dict[str, Any]:
@@ -76,6 +79,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             stmt = stmt.where(Item.source_tier == tier)
         if extract_status:
             stmt = stmt.where(Item.extract_status == extract_status)
+        if fetched_after is not None:
+            stmt = stmt.where(Item.fetched_at >= to_utc_naive(fetched_after))
         rows = s.scalars(stmt).all()
         items = [r.to_dict() for r in rows]
         if not include_content:

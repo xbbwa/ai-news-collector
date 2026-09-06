@@ -2,17 +2,23 @@
 #
 # Fields (see collector/config.py SourceConfig):
 #   id            unique slug
-#   type          rss | hackernews | reddit
+#   type          rss | hackernews | reddit | huggingface
 #   tier          1 = first-party (labs/companies/arXiv), 2 = professional media, 3 = social/aggregator
 #   interval      poll interval in seconds
-#   proxy         true = route through PROXY_URL (domains commonly unreachable from mainland China)
-#   keywords      optional; only keep entries whose title/summary contains one of these (case-insensitive)
+#   proxy         true = route through PROXY_URL (domains commonly unreachable from mainland China).
+#                 Must stay false for ${RSSHUB_URL} sources: the RSSHub container does its own
+#                 proxying (PROXY_URI in docker-compose.yml) and is reached over the local network.
+#   keywords      optional; only keep entries whose title/summary matches. ASCII words match as whole
+#                 tokens ("AI" hits "AI芯片" / "AI-powered", not "said" / "Airbnb"); CJK terms as substrings.
 #   fetch_fulltext  download the article page and extract main text (default true)
 #   max_age_days  ignore entries published earlier than N days ago (null = keep everything)
+#   time_offset_hours  added to published_at; fixes feeds that stamp local time as GMT
 #   ${RSSHUB_URL} is replaced with the RSSHUB_URL env var (default http://localhost:1200)
 #
 # Full-text download automatically falls back to a Chrome-fingerprint client for sites behind
 # Cloudflare (openai.com etc.), so no per-source flag is needed for that.
+#
+# Health check: python scripts/check_sources.py   (fetches every source once without writing to the DB)
 
 defaults:
   interval: 300
@@ -22,28 +28,48 @@ defaults:
   max_age_days: 7
 
 # Shared keyword list for general-purpose feeds (tech media that cover more than AI).
-# YAML anchors keep it in one place.
+# YAML anchors keep it in one place. Do NOT add keywords to AI-vertical sources.
 x-ai-keywords: &ai_keywords
-  - " AI"
-  - "AI "
+  - "AI"
   - "A.I."
+  - "AIGC"
+  - "GenAI"
+  - "AGI"
   - "人工智能"
   - "大模型"
   - "LLM"
   - "GPT"
+  - "ChatGPT"
   - "OpenAI"
   - "Anthropic"
   - "Claude"
   - "Gemini"
   - "DeepMind"
   - "DeepSeek"
+  - "xAI"
+  - "Grok"
+  - "Copilot"
+  - "Sora"
+  - "Midjourney"
+  - "Stable Diffusion"
+  - "Perplexity"
   - "通义"
   - "Qwen"
   - "Kimi"
+  - "月之暗面"
   - "智谱"
   - "GLM"
+  - "ChatGLM"
   - "豆包"
   - "文心"
+  - "MiniMax"
+  - "阶跃"
+  - "百川"
+  - "商汤"
+  - "讯飞"
+  - "星火"
+  - "混元"
+  - "盘古"
   - "Llama"
   - "Mistral"
   - "Hugging Face"
@@ -55,16 +81,19 @@ x-ai-keywords: &ai_keywords
   - "diffusion"
   - "transformer"
   - "agent"
+  - "agentic"
   - "智能体"
   - "多模态"
   - "multimodal"
-  - "AGI"
+  - "具身智能"
+  - "推理模型"
+  - "开源模型"
   - "算力"
   - "芯片"
 
 sources:
   # ============================================================================
-  # Tier 1 — first-party: labs, companies, arXiv
+  # Tier 1 — first-party: labs, companies, arXiv (international)
   # ============================================================================
   - id: openai-news
     name: OpenAI News
@@ -73,6 +102,28 @@ sources:
     tier: 1
     interval: 120
     proxy: true
+
+  # Anthropic has no RSS; RSSHub scrapes the three sections of anthropic.com.
+  - id: anthropic-news
+    name: Anthropic News
+    type: rss
+    url: ${RSSHUB_URL}/anthropic/news
+    tier: 1
+    interval: 180
+
+  - id: anthropic-research
+    name: Anthropic Research
+    type: rss
+    url: ${RSSHUB_URL}/anthropic/research
+    tier: 1
+    interval: 900
+
+  - id: anthropic-engineering
+    name: Anthropic Engineering
+    type: rss
+    url: ${RSSHUB_URL}/anthropic/engineering
+    tier: 1
+    interval: 900
 
   - id: deepmind-blog
     name: Google DeepMind Blog
@@ -90,12 +141,37 @@ sources:
     interval: 180
     proxy: true
 
-  # ai.meta.com no longer serves an RSS feed (returns 400). Engineering blog is the
-  # closest first-party feed; AI-specific posts are filtered by keyword.
+  - id: google-research
+    name: Google Research Blog
+    type: rss
+    url: https://research.google/blog/rss/
+    tier: 1
+    interval: 600
+    proxy: true
+
+  - id: google-cloud-ai
+    name: Google Cloud Blog — AI & ML
+    type: rss
+    url: https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/
+    tier: 1
+    interval: 900
+    proxy: true
+
+  # ai.meta.com no longer serves an RSS feed (returns 400). Engineering blog + the newsroom
+  # (where Llama launches are announced) are the closest first-party feeds; filtered by keyword.
   - id: meta-engineering
     name: Engineering at Meta
     type: rss
     url: https://engineering.fb.com/feed/
+    tier: 1
+    interval: 600
+    proxy: true
+    keywords: *ai_keywords
+
+  - id: meta-newsroom
+    name: Meta Newsroom
+    type: rss
+    url: https://about.fb.com/news/feed/
     tier: 1
     interval: 600
     proxy: true
@@ -124,12 +200,34 @@ sources:
     interval: 600
     keywords: *ai_keywords
 
+  - id: nvidia-developer
+    name: NVIDIA Technical Blog
+    type: rss
+    url: https://developer.nvidia.com/blog/feed
+    tier: 1
+    interval: 600
+    keywords: *ai_keywords
+
   - id: aws-ml-blog
     name: AWS Machine Learning Blog
     type: rss
     url: https://aws.amazon.com/blogs/machine-learning/feed/
     tier: 1
     interval: 900
+
+  - id: amazon-science
+    name: Amazon Science
+    type: rss
+    url: https://www.amazon.science/index.rss
+    tier: 1
+    interval: 900
+
+  - id: apple-ml
+    name: Apple Machine Learning Research
+    type: rss
+    url: https://machinelearning.apple.com/rss.xml
+    tier: 1
+    interval: 1800
 
   - id: mistral-news
     name: Mistral AI News
@@ -139,17 +237,69 @@ sources:
     interval: 600
     proxy: true
 
-  # Anthropic has no RSS feed. Use RSSHub if a route exists in your instance, or a
-  # page-diff route; otherwise Anthropic news arrives via tier-2/3 sources within minutes.
-  # - id: anthropic-news
-  #   name: Anthropic News
-  #   type: rss
-  #   url: ${RSSHUB_URL}/anthropic/news
-  #   tier: 1
-  #   interval: 180
-  #   proxy: true
+  - id: github-blog
+    name: GitHub Blog
+    type: rss
+    url: https://github.blog/feed/
+    tier: 1
+    interval: 600
+    keywords: *ai_keywords
 
-  # --- arXiv (daily batch, announced ~00:00 UTC on weekdays) ---
+  - id: databricks-blog
+    name: Databricks Blog
+    type: rss
+    url: https://www.databricks.com/feed
+    tier: 1
+    interval: 1800
+    keywords: *ai_keywords
+
+  - id: eleuther-blog
+    name: EleutherAI Blog
+    type: rss
+    url: https://blog.eleuther.ai/index.xml
+    tier: 1
+    interval: 1800
+
+  # Model releases on the Hugging Face Hub, per organisation. Weights usually land here hours
+  # before (or as) the announcement goes out, and for most Chinese labs this is the only
+  # machine-readable first-party channel. Full text = the model card.
+  - id: hf-models-intl
+    name: Hugging Face — model releases (international labs)
+    type: huggingface
+    tier: 1
+    interval: 600
+    proxy: true
+    params:
+      limit: 20
+      authors:
+        - openai
+        - meta-llama
+        - facebook
+        - google
+        - microsoft
+        - nvidia
+        - mistralai
+        - CohereLabs
+        - allenai
+        - stabilityai
+        - black-forest-labs
+        - apple
+        - ibm-granite
+        - xai-org
+        - LiquidAI
+        - HuggingFaceTB
+        - amazon
+        - Salesforce
+        - ServiceNow-AI
+        - NousResearch
+        - PrimeIntellect
+        - perplexity-ai
+        - ai21labs
+        - arcee-ai
+        - Lightricks
+        - togethercomputer
+
+  # --- arXiv (daily batch, announced ~00:00 UTC Sun-Thu; the feeds are EMPTY on Fri/Sat) ---
   - id: arxiv-cs-ai
     name: arXiv cs.AI
     type: rss
@@ -183,6 +333,61 @@ sources:
     interval: 1800
     fetch_fulltext: false
 
+  # Community-curated daily paper picks (a few dozen a day vs. hundreds on raw arXiv).
+  - id: hf-daily-papers
+    name: Hugging Face Daily Papers
+    type: rss
+    url: ${RSSHUB_URL}/huggingface/daily-papers
+    tier: 1
+    interval: 1800
+    fetch_fulltext: false   # description carries the abstract
+
+  # ============================================================================
+  # Tier 1 — first-party (China)
+  # ============================================================================
+  # DeepSeek publishes release notes at api-docs.deepseek.com/news (no RSS); RSSHub scrapes it.
+  - id: deepseek-news
+    name: DeepSeek News
+    type: rss
+    url: ${RSSHUB_URL}/deepseek/news
+    tier: 1
+    lang: zh
+    interval: 600
+
+  # Qwen / GLM / Kimi / MiniMax / Step / Hunyuan / Seed / ERNIE / MiMo / Ling / InternLM ...
+  # none of these labs has an RSS feed; their Hub organisations are the first-party signal.
+  - id: hf-models-cn
+    name: Hugging Face — model releases (Chinese labs)
+    type: huggingface
+    tier: 1
+    interval: 600
+    proxy: true
+    params:
+      limit: 20
+      authors:
+        - deepseek-ai
+        - Qwen
+        - Wan-AI
+        - Alibaba-NLP
+        - FunAudioLLM
+        - zai-org
+        - moonshotai
+        - MiniMaxAI
+        - stepfun-ai
+        - baichuan-inc
+        - openbmb
+        - internlm
+        - OpenGVLab
+        - tencent
+        - ByteDance-Seed
+        - baidu
+        - XiaomiMiMo
+        - inclusionAI
+        - Skywork
+        - meituan-longcat
+        - Kwai-Kolors
+        - BAAI
+
   # ============================================================================
   # Tier 2 — professional media (international)
   # ============================================================================
@@ -209,13 +414,13 @@ sources:
     interval: 300
     keywords: *ai_keywords
 
+  # AI topic feed (10 AI stories) instead of the general feed + keywords (10 stories of everything).
   - id: mit-tech-review
-    name: MIT Technology Review
+    name: MIT Technology Review — AI
     type: rss
-    url: https://www.technologyreview.com/feed/
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
     tier: 2
     interval: 600
-    keywords: *ai_keywords
 
   - id: arstechnica-ai
     name: Ars Technica — AI
@@ -231,6 +436,20 @@ sources:
     tier: 2
     interval: 600
 
+  - id: guardian-ai
+    name: The Guardian — AI
+    type: rss
+    url: https://www.theguardian.com/technology/artificialintelligenceai/rss
+    tier: 2
+    interval: 600
+
+  - id: ieee-spectrum-ai
+    name: IEEE Spectrum — AI
+    type: rss
+    url: https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss
+    tier: 2
+    interval: 900
+
   - id: the-decoder
     name: The Decoder
     type: rss
@@ -238,10 +457,111 @@ sources:
     tier: 2
     interval: 300
 
+  - id: marktechpost
+    name: MarkTechPost
+    type: rss
+    url: https://www.marktechpost.com/feed/
+    tier: 2
+    interval: 600
+
+  - id: axios
+    name: Axios
+    type: rss
+    url: https://api.axios.com/feed/
+    tier: 2
+    interval: 600
+    keywords: *ai_keywords
+
+  - id: cnbc-tech
+    name: CNBC Technology
+    type: rss
+    url: https://www.cnbc.com/id/19854910/device/rss/rss.html
+    tier: 2
+    interval: 600
+    keywords: *ai_keywords
+
+  # Paywalled: headline + summary only.
+  - id: bloomberg-tech
+    name: Bloomberg Technology
+    type: rss
+    url: https://feeds.bloomberg.com/technology/news.rss
+    tier: 2
+    interval: 300
+    keywords: *ai_keywords
+    fetch_fulltext: false
+
+  - id: nyt-tech
+    name: New York Times — Technology
+    type: rss
+    url: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+    tier: 2
+    interval: 600
+    proxy: true
+    keywords: *ai_keywords
+    fetch_fulltext: false
+
+  - id: ft-tech
+    name: Financial Times — Technology
+    type: rss
+    url: https://www.ft.com/technology?format=rss
+    tier: 2
+    interval: 600
+    keywords: *ai_keywords
+    fetch_fulltext: false
+
+  # --- newsletters / analysts (Substack is unreachable from mainland China) ---
+  # One issue a day, each a digest of a dozen stories; full text is the issue page.
+  - id: tldr-ai
+    name: TLDR AI
+    type: rss
+    url: https://tldr.tech/api/rss/ai
+    tier: 2
+    interval: 1800
+
   - id: import-ai
     name: Import AI (Jack Clark)
     type: rss
     url: https://importai.substack.com/feed
+    tier: 2
+    interval: 1800
+    proxy: true
+
+  - id: semianalysis
+    name: SemiAnalysis
+    type: rss
+    url: https://newsletter.semianalysis.com/feed
+    tier: 2
+    interval: 1800
+    proxy: true
+
+  - id: latent-space
+    name: Latent Space
+    type: rss
+    url: https://www.latent.space/feed
+    tier: 2
+    interval: 1800
+    proxy: true
+
+  - id: interconnects
+    name: Interconnects (Nathan Lambert)
+    type: rss
+    url: https://www.interconnects.ai/feed
+    tier: 2
+    interval: 1800
+    proxy: true
+
+  - id: one-useful-thing
+    name: One Useful Thing (Ethan Mollick)
+    type: rss
+    url: https://www.oneusefulthing.org/feed
+    tier: 2
+    interval: 1800
+    proxy: true
+
+  - id: ahead-of-ai
+    name: Ahead of AI (Sebastian Raschka)
+    type: rss
+    url: https://magazine.sebastianraschka.com/feed
     tier: 2
     interval: 1800
     proxy: true
@@ -253,27 +573,28 @@ sources:
     tier: 2
     interval: 600
 
-  - id: bloomberg-tech
-    name: Bloomberg Technology
+  - id: nature-ml
+    name: Nature — Machine Learning
     type: rss
-    url: https://feeds.bloomberg.com/technology/news.rss
+    url: https://www.nature.com/subjects/machine-learning.rss
     tier: 2
-    interval: 300
-    keywords: *ai_keywords
-    fetch_fulltext: false   # paywalled; keep headline + summary only
+    interval: 1800
+    fetch_fulltext: false   # mostly paywalled
 
   # ============================================================================
   # Tier 2 — professional media (China)
   # ============================================================================
-  # jiqizhixin.com/rss was shut down (now redirects to a marketing page); go through RSSHub.
-  # Verify the route exists on your RSSHub instance: curl $RSSHUB_URL/jiqizhixin
+  # 机器之心: jiqizhixin.com/rss is dead, the site is a JS app with no public API, and RSSHub
+  # has no route for it. Kept for the record; its stories are re-reported by the sources below
+  # within the hour. Re-enable if a feed appears.
   - id: jiqizhixin
     name: 机器之心
     type: rss
-    url: ${RSSHUB_URL}/jiqizhixin
+    url: https://www.jiqizhixin.com/rss
     tier: 2
     lang: zh
     interval: 180
+    enabled: false
 
   - id: qbitai
     name: 量子位
@@ -283,6 +604,15 @@ sources:
     lang: zh
     interval: 180
 
+  - id: zhidx
+    name: 智东西
+    type: rss
+    url: https://zhidx.com/rss
+    tier: 2
+    lang: zh
+    interval: 300
+
+  # infoq.cn stamps Beijing time as "GMT"; shift back 8h to get real UTC.
   - id: infoq-cn
     name: InfoQ 中文
     type: rss
@@ -291,7 +621,9 @@ sources:
     lang: zh
     interval: 600
     keywords: *ai_keywords
+    time_offset_hours: -8
 
+  # 36kr.com/feed is dead (returns HTML); both channels go through RSSHub.
   - id: 36kr-newsflash
     name: 36氪 快讯
     type: rss
@@ -302,10 +634,11 @@ sources:
     keywords: *ai_keywords
     fetch_fulltext: false   # newsflashes are already full text in the feed
 
+  # Channel slug is case-sensitive on 36kr.com: /information/AI exists, /information/ai is a 404.
   - id: 36kr-ai
     name: 36氪 AI 频道
     type: rss
-    url: ${RSSHUB_URL}/36kr/information/ai
+    url: ${RSSHUB_URL}/36kr/information/AI
     tier: 2
     lang: zh
     interval: 300
@@ -315,6 +648,24 @@ sources:
     name: 虎嗅
     type: rss
     url: ${RSSHUB_URL}/huxiu/article
+    tier: 2
+    lang: zh
+    interval: 600
+    keywords: *ai_keywords
+
+  - id: latepost
+    name: 晚点 LatePost
+    type: rss
+    url: ${RSSHUB_URL}/latepost
+    tier: 2
+    lang: zh
+    interval: 900
+    keywords: *ai_keywords
+
+  - id: tmtpost
+    name: 钛媒体
+    type: rss
+    url: https://www.tmtpost.com/feed
     tier: 2
     lang: zh
     interval: 600
@@ -332,10 +683,19 @@ sources:
   - id: geekpark
     name: 极客公园
     type: rss
-    url: ${RSSHUB_URL}/geekpark
+    url: https://www.geekpark.net/rss
     tier: 2
     lang: zh
     interval: 600
+    keywords: *ai_keywords
+
+  - id: ithome
+    name: IT之家
+    type: rss
+    url: https://www.ithome.com/rss/
+    tier: 2
+    lang: zh
+    interval: 300
     keywords: *ai_keywords
 
   - id: sspai
@@ -356,16 +716,17 @@ sources:
     interval: 600
     keywords: *ai_keywords
 
-  # WeChat official accounts (新智元 / 量子位 / 机器之心 / 硅星人 / 智东西 ...) have no RSS.
-  # Recommended: self-host WeWe RSS (https://github.com/cooderl/wewe-rss) on the Ubuntu box,
-  # then add each account's feed below. Example:
-  # - id: wechat-xinzhiyuan
-  #   name: 新智元 (公众号)
-  #   type: rss
-  #   url: http://localhost:4000/feeds/<mp_id>.atom
-  #   tier: 2
-  #   lang: zh
-  #   interval: 300
+  - id: oschina
+    name: 开源中国
+    type: rss
+    url: https://www.oschina.net/news/rss
+    tier: 2
+    lang: zh
+    interval: 900
+    keywords: *ai_keywords
+
+  # WeChat official accounts (新智元 / 硅星人 / 智东西 / 甲子光年 ...) have no RSS and every bridge
+  # (WeWe RSS etc.) needs a logged-in WeChat account, so they are out of scope for this collector.
 
   # ============================================================================
   # Tier 3 — social / aggregators (fastest signal, noisiest; discovery only)
@@ -387,43 +748,44 @@ sources:
         - Gemini
         - DeepSeek
         - Qwen
+        - Kimi
         - Llama
         - Mistral
+        - xAI
+        - Grok
+        - AGI
+        - Copilot
         - "AI model"
         - "open source model"
+        - "machine learning"
+        - "neural network"
+        - "diffusion model"
         - Hugging Face
         - Nvidia
 
-  - id: reddit-machinelearning
-    name: r/MachineLearning
-    type: reddit
-    tier: 3
-    interval: 300
-    proxy: true
-    params:
-      subreddit: MachineLearning
-      listing: new
-      limit: 50
-
-  - id: reddit-localllama
-    name: r/LocalLLaMA
+  # Reddit is read from the public Atom feed (/r/<subreddit>/<listing>/.rss); no account needed.
+  # Reddit allows anonymous clients one request per minute per IP, so the fetcher spaces reddit
+  # requests 61s apart process-wide. A multireddit ("a+b+c") fetches several subreddits in one
+  # request; raw.subreddit still records each post's own subreddit. No score / comment count.
+  - id: reddit-ai-new
+    name: Reddit AI subreddits (new)
     type: reddit
     tier: 3
     interval: 180
     proxy: true
     params:
-      subreddit: LocalLLaMA
+      subreddit: MachineLearning+LocalLLaMA+artificial+singularity+OpenAI+ClaudeAI+StableDiffusion
       listing: new
-      limit: 50
+      limit: 100
 
-  - id: reddit-artificial
-    name: r/artificial
+  - id: reddit-ai-hot
+    name: Reddit AI subreddits (hot)
     type: reddit
     tier: 3
-    interval: 600
+    interval: 900
     proxy: true
     params:
-      subreddit: artificial
+      subreddit: MachineLearning+LocalLLaMA+artificial+singularity+OpenAI+ClaudeAI+StableDiffusion
       listing: hot
       limit: 50
 
@@ -433,16 +795,23 @@ sources:
     url: ${RSSHUB_URL}/github/trending/daily/any/en
     tier: 3
     interval: 1800
-    proxy: true
     fetch_fulltext: false
 
-  # X/Twitter via RSSHub requires the instance to be configured with account cookies
-  # (TWITTER_USERNAME / TWITTER_PASSWORD or TWITTER_COOKIE). Once set, enable e.g.:
-  # - id: x-openai
-  #   name: X @OpenAI
-  #   type: rss
-  #   url: ${RSSHUB_URL}/twitter/user/OpenAI
-  #   tier: 1
-  #   interval: 120
-  #   proxy: true
-  #   fetch_fulltext: false
+  - id: producthunt-ai
+    name: Product Hunt — AI
+    type: rss
+    url: https://www.producthunt.com/feed?category=artificial-intelligence
+    tier: 3
+    interval: 1800
+    fetch_fulltext: false   # launch pages are JS apps; the feed text is all there is
+
+  - id: baai-hub
+    name: 智源社区
+    type: rss
+    url: ${RSSHUB_URL}/baai/hub
+    tier: 3
+    lang: zh
+    interval: 1800
+
+  # X/Twitter is deliberately not included: every available route (RSSHub, Nitter) needs a
+  # logged-in account, and this collector runs without any credentials.

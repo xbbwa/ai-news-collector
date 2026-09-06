@@ -11,6 +11,7 @@ RUN pip install -r requirements.txt
 
 COPY collector ./collector
 COPY config ./config
+COPY scripts ./scripts
 
 RUN mkdir -p /app/data
 VOLUME ["/app/data"]

@@ -1,24 +1,13 @@
 from __future__ import annotations
 
 import asyncio
-import calendar
-from datetime import datetime, timezone
 from typing import Any
 
 import feedparser
 import httpx
 
 from ..config import SourceConfig
-from .base import FetchResult, RawEntry, strip_html
-
-
-def _struct_to_datetime(t: Any) -> datetime | None:
-    if not t:
-        return None
-    try:
-        return datetime.fromtimestamp(calendar.timegm(t), tz=timezone.utc)
-    except (TypeError, ValueError, OverflowError):
-        return None
+from .base import FetchResult, RawEntry, strip_html, struct_to_datetime
 
 
 def _entry_from_feed(entry: Any, source: SourceConfig) -> RawEntry | None:
@@ -35,7 +24,7 @@ def _entry_from_feed(entry: Any, source: SourceConfig) -> RawEntry | None:
     elif entry.get("summary"):
         summary_html = entry["summary"]
 
-    published = _struct_to_datetime(entry.get("published_parsed")) or _struct_to_datetime(
+    published = struct_to_datetime(entry.get("published_parsed")) or struct_to_datetime(
         entry.get("updated_parsed")
     )
 
@@ -53,6 +42,7 @@ def _entry_from_feed(entry: Any, source: SourceConfig) -> RawEntry | None:
         lang=source.lang,
         raw={
             "summary_html": summary_html,
+            "published_raw": entry.get("published") or entry.get("updated"),
             "tags": tags,
             "enclosures": enclosures,
             "media": media,
