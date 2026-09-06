@@ -111,12 +111,15 @@ sources:
     tier: 1
     interval: 180
 
+  # RSSHub's /anthropic/research currently returns "route is empty" (page redesign); News and
+  # Engineering work. Re-enable after an RSSHub update fixes it.
   - id: anthropic-research
     name: Anthropic Research
     type: rss
     url: ${RSSHUB_URL}/anthropic/research
     tier: 1
     interval: 900
+    enabled: false
 
   - id: anthropic-engineering
     name: Anthropic Engineering
@@ -653,6 +656,8 @@ sources:
     interval: 600
     keywords: *ai_keywords
 
+  # latepost.com serves its Let's Encrypt cert without the intermediate, so RSSHub (Node) fails
+  # TLS verification ("unable to get local issuer certificate"). Disabled until the site fixes it.
   - id: latepost
     name: 晚点 LatePost
     type: rss
@@ -661,6 +666,7 @@ sources:
     lang: zh
     interval: 900
     keywords: *ai_keywords
+    enabled: false
 
   - id: tmtpost
     name: 钛媒体
@@ -789,10 +795,12 @@ sources:
       listing: hot
       limit: 50
 
+  # RSSHub's github/trending route refuses to run without a GITHUB_ACCESS_TOKEN; this public
+  # GitHub Pages feed (mshibanami/GitHubTrendingRSS, rebuilt daily) needs nothing.
   - id: github-trending
     name: GitHub Trending (daily)
     type: rss
-    url: ${RSSHUB_URL}/github/trending/daily/any/en
+    url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml
     tier: 3
     interval: 1800
     fetch_fulltext: false
