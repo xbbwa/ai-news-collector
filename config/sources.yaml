@@ -413,13 +413,15 @@ sources:
     interval: 180
 
   # The /category/ai/ feed updates only a few times a week; the main feed is much fresher.
+  # Behind Vercel's bot challenge (429 + x-vercel-mitigated: challenge to every plain client, from
+  # anywhere). The Chrome-fingerprint fallback in the rss fetcher gets through; poll gently.
   - id: venturebeat
     name: VentureBeat
     type: rss
     url: https://venturebeat.com/feed/
     tier: 2
-    interval: 300
-    runner: server          # answers 429 to GitHub's datacenter IPs
+    interval: 1800
+    runner: server
     keywords: *ai_keywords
 
   # AI topic feed (10 AI stories) instead of the general feed + keywords (10 stories of everything).

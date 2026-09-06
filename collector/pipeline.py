@@ -103,9 +103,8 @@ class Collector:
                 s.commit()
             etag, last_modified = state.etag, state.last_modified
 
-        client = self.clients.for_source(source)
         try:
-            result = await fetch(source, client, etag, last_modified)
+            result = await fetch(source, self.clients, etag, last_modified)
         except Exception as exc:
             self._record_failure(source, exc)
             raise

@@ -51,16 +51,20 @@ class HttpClients:
         limits = httpx.Limits(max_connections=64, max_keepalive_connections=20)
         # HTTP/2 disabled on purpose: httpx+h2 connection reuse under high concurrency
         # produced ConnectionState.CLOSED protocol errors in testing.
+        # transport retries=2: re-attempt connection-level failures only (DNS hiccups, resets);
+        # HTTP error statuses are never retried here.
         self.direct = httpx.AsyncClient(
-            headers=headers, timeout=timeout, limits=limits, follow_redirects=True
+            headers=headers,
+            timeout=timeout,
+            follow_redirects=True,
+            transport=httpx.AsyncHTTPTransport(retries=2, limits=limits),
         )
         if settings.proxy_url:
             self.proxied = httpx.AsyncClient(
                 headers=headers,
                 timeout=timeout,
-                limits=limits,
                 follow_redirects=True,
-                proxy=settings.proxy_url,
+                transport=httpx.AsyncHTTPTransport(retries=2, limits=limits, proxy=settings.proxy_url),
             )
         else:
             self.proxied = self.direct
@@ -110,7 +114,7 @@ class HttpClients:
                 last_exc = exc
 
             try:
-                page = await self._fetch_impersonated(url, via_proxy)
+                page = await self.fetch_impersonated(url, via_proxy)
                 if page.status_code < 400 or page.status_code not in _IMPERSONATE_ON:
                     return page
                 last_page = page
@@ -122,7 +126,10 @@ class HttpClients:
         assert last_exc is not None
         raise last_exc
 
-    async def _fetch_impersonated(self, url: str, via_proxy: bool) -> Page:
+    async def fetch_impersonated(self, url: str, via_proxy: bool) -> Page:
+        """One request with a Chrome TLS fingerprint (curl_cffi). Gets past TLS-fingerprint
+        bot gates such as Vercel's challenge mode and Cloudflare's basic checks; JS challenges
+        still fail. Used by fetch_page and as the feed fetcher's fallback."""
         from curl_cffi.requests import AsyncSession
 
         proxy = self.settings.proxy_url if via_proxy else None

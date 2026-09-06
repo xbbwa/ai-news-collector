@@ -39,7 +39,7 @@ async def check_one(
     async with sem:
         t0 = time.monotonic()
         try:
-            result = await fetch(source, clients.for_source(source))
+            result = await fetch(source, clients)
         except Exception as exc:  # report, don't abort the run
             return source, None, f"{type(exc).__name__}: {exc}"[:110], time.monotonic() - t0
         return source, result, None, time.monotonic() - t0
