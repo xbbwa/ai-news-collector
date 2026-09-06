@@ -25,6 +25,9 @@ class Settings:
     api_host: str = "0.0.0.0"
     api_port: int = 8000
     log_level: str = "INFO"
+    # Only poll sources whose `runner` matches (COLLECTOR_RUNNER). None = all sources.
+    # Lets two machines split the list: GitHub Actions takes `github`, the China box `server`.
+    runner: str | None = None
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -46,6 +49,7 @@ class Settings:
             api_host=env.get("API_HOST", cls.api_host),
             api_port=int(env.get("API_PORT", cls.api_port)),
             log_level=env.get("LOG_LEVEL", cls.log_level).upper(),
+            runner=env.get("COLLECTOR_RUNNER") or None,
         )
 
 
@@ -66,6 +70,10 @@ class SourceConfig:
     # Added to every published_at. For feeds that stamp local time as GMT (infoq.cn is
     # Beijing time labelled "GMT"), -8 turns it back into real UTC.
     time_offset_hours: float = 0
+    # Which machine polls this source: "github" (Actions runner in the US; default) or
+    # "server" (the box in mainland China, for domestic media and sites that block
+    # datacenter IPs). See Settings.runner.
+    runner: str = "github"
     enabled: bool = True
 
 
@@ -95,3 +103,8 @@ def load_sources(settings: Settings) -> list[SourceConfig]:
         seen_ids.add(src.id)
         sources.append(src)
     return sources
+
+
+def for_runner(sources: list[SourceConfig], runner: str | None) -> list[SourceConfig]:
+    """Sources assigned to this machine; None means everything (single-machine setup)."""
+    return sources if runner is None else [s for s in sources if s.runner == runner]

@@ -34,6 +34,11 @@ def main() -> int:
     ap.add_argument("--out-dir", type=Path, required=True, help="directory receiving <date>.jsonl files")
     ap.add_argument("--cursor", type=Path, required=True, help="file holding the last exported item id")
     ap.add_argument("--prune-days", type=int, default=0, help="delete items fetched more than N days ago (0 = keep)")
+    ap.add_argument(
+        "--file-suffix",
+        default="",
+        help='inserted before ".jsonl", e.g. ".cn" -> 2026-09-06.cn.jsonl, so two collectors never write the same file',
+    )
     args = ap.parse_args()
 
     cursor = int(args.cursor.read_text().strip() or 0) if args.cursor.exists() else 0
@@ -50,7 +55,9 @@ def main() -> int:
             day = row.fetched_at.strftime("%Y-%m-%d")
             fh = handles.get(day)
             if fh is None:
-                fh = handles[day] = open(args.out_dir / f"{day}.jsonl", "a", encoding="utf-8")  # noqa: SIM115
+                fh = handles[day] = open(  # noqa: SIM115
+                    args.out_dir / f"{day}{args.file_suffix}.jsonl", "a", encoding="utf-8"
+                )
             fh.write(json.dumps(row.to_dict(), ensure_ascii=False) + "\n")
             exported += 1
             last_id = row.id
@@ -74,7 +81,8 @@ def main() -> int:
     engine.dispose()
 
     span = f"ids {cursor + 1}..{last_id}" if exported else "nothing new"
-    print(f"exported {exported} items ({span}) into {sorted(handles)}; pruned {pruned} old rows")
+    files = [f"{day}{args.file_suffix}.jsonl" for day in sorted(handles)]
+    print(f"exported {exported} items ({span}) into {files}; pruned {pruned} old rows")
     if gh_out := os.environ.get("GITHUB_OUTPUT"):
         with open(gh_out, "a", encoding="utf-8") as fh:
             fh.write(f"exported={exported}\n")

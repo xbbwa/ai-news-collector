@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import httpx  # noqa: E402
 
-from collector.config import Settings, SourceConfig, load_sources  # noqa: E402
+from collector.config import Settings, SourceConfig, for_runner, load_sources  # noqa: E402
 from collector.fetchers import FetchResult, fetch  # noqa: E402
 from collector.http import HttpClients  # noqa: E402
 from collector.models import to_utc_naive, utcnow  # noqa: E402
@@ -67,7 +67,9 @@ def describe(source: SourceConfig, result: FetchResult) -> tuple[int, int, str]:
 
 async def main(only: list[str]) -> int:
     settings = Settings.from_env()
-    sources = [s for s in load_sources(settings) if s.enabled]
+    sources = [s for s in for_runner(load_sources(settings), settings.runner) if s.enabled]
+    if settings.runner:
+        print(f"COLLECTOR_RUNNER={settings.runner}: checking only that side's {len(sources)} sources\n")
     if only:
         sources = [s for s in sources if s.id in set(only)]
     rsshub_ok = await rsshub_reachable(settings)

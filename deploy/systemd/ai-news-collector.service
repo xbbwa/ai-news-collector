@@ -1,0 +1,20 @@
+# systemd *user* unit for the China box: resident collector for the sources marked
+# `runner: server` in config/sources.yaml. Install with:
+#   mkdir -p ~/.config/systemd/user && cp deploy/systemd/ai-news-collector.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload && systemctl --user enable --now ai-news-collector.service
+#   journalctl --user -u ai-news-collector -f
+# .env must contain COLLECTOR_RUNNER=server (and GITHUB_TOKEN for scripts/server_publish.sh).
+[Unit]
+Description=AI news collector (runner=server: domestic sources)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=%h/ai-news-collector
+EnvironmentFile=%h/ai-news-collector/.env
+ExecStart=%h/venvs/ai-news-collector/bin/python -m collector run
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target

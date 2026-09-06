@@ -4,23 +4,30 @@ AI 方向（国内外）新闻**采集层**：从 RSS / 官方 API 拉取原文�
 
 本项目**只做采集**，不做翻译、聚类、摘要、LLM 处理。输出是原文 + 元数据。不需要任何账号、凭据或代理。
 
-## 运行方式：GitHub Actions 采集，下游从 `data` 分支拉
+## 运行方式：两边抓、GitHub 合并，下游从 `data` 分支拉
+
+每个信源在 `sources.yaml` 里标了 `runner`：国外源和所有 RSSHub 路由走 GitHub Actions（美国 runner，HF / Reddit / Google 直连），
+直连的国内媒体和对数据中心 IP 限流的站点（VentureBeat）走国内服务器（`runner: server`，快、不会被海外 IP 拒绝）。
+两边各写各的文件，Actions 生成摘要时合并。
 
 ```
-GitHub Actions（每小时，.github/workflows/collect.yml，美国 runner，HF / Reddit / Google 直连）
-   │  1. 从名为 state 的 Release 下载上次的 SQLite 工作库 + 导出游标
-   │  2. python -m collector once   （RSSHub 作为 service 容器一起起）
-   │  3. scripts/export_daily.py    → 新条目全文追加到 items/YYYY-MM-DD.jsonl
-   │     scripts/daily_digest.py    → digest/latest.md（最近 24h，每源 3 条）
-   │  4. 提交到 data 分支；工作库 + 游标传回 state Release（库只保留 14 天用于去重）
-   ▼
-data 分支  ── items/YYYY-MM-DD.jsonl（永久归档，字段同 API /items） + digest/latest.md
+GitHub Actions（每小时 :30，.github/workflows/collect.yml）          prod-ubuntu（国内，systemd 用户服务常驻）
+   │ 1. 从 state Release 取回 SQLite 工作库 + 游标                        │ python -m collector run（COLLECTOR_RUNNER=server，11 个源）
+   │ 2. collector once（runner=github，63 源；RSSHub 作 service 容器）      │ cron :15  scripts/server_publish.sh
+   │ 3. export_daily.py → items/YYYY-MM-DD.jsonl                         │   export_daily.py → archive/items/YYYY-MM-DD.cn.jsonl
+   │    daily_digest.py（合并 *.cn.jsonl，按 URL 去重）→ digest/latest.md │   publish_archive.py → 用 GitHub Contents API 上传
+   │ 4. 提交 data 分支；库 + 游标传回 state Release                        │   （api.github.com 可达；git/SSH 协议在国内都不通）
+   ▼                                                                    ▼
+data 分支 ── items/YYYY-MM-DD.jsonl（GitHub 侧） + items/YYYY-MM-DD.cn.jsonl（服务器侧） + digest/latest.md
    │
-   ▼  纯 HTTPS 下载（raw.githubusercontent.com，国内服务器可直连；git 协议在国内不通）
-prod-ubuntu  ── cron 07:01：~/scripts/sync_ai_news_digest.sh 把 latest.md 放到 OpenClaw 读的位置
+   ▼  纯 HTTPS 下载（raw.githubusercontent.com）
+prod-ubuntu ── cron 07:01：~/scripts/sync_ai_news_digest.sh 把 latest.md 放到 OpenClaw 读的位置
 ```
 
-服务器上不再跑任何采集服务。想在别处消费数据：
+两侧文件名不同所以永不冲突；Actions 推送前会 `git pull --rebase`。两侧各自去重，同一篇文章被两边不同信源抓到时归档里会各有一条
+（摘要里按 URL 去重）。`id` 是各自数据库的自增号，跨文件不唯一，下游按 `fetched_at` 或文件内顺序取增量。
+
+想在别处消费数据：
 
 ```
 https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/digest/latest.md
@@ -30,6 +37,20 @@ https://raw.githubusercontent.com/xbbwa/ai-news-collector/data/items/2026-09-06.
 
 手动触发一次：`gh workflow run collect`；看运行：`gh run list --workflow collect`。仓库是公开的，Actions 分钟数不限；
 定时任务实际触发会比 cron 晚 5–15 分钟，`30 * * * *` 的 22:30 UTC 那一轮正好落在 07:01 北京时间的拉取之前。
+
+### 服务器侧（prod-ubuntu，yino）
+
+```
+~/ai-news-collector/            代码（无 git：用 scripts/server_update.sh 从 codeload 拉 tarball 覆盖，保留 data/ archive/ .env）
+~/venvs/ai-news-collector/      venv（pip 走阿里云镜像）
+~/ai-news-collector/.env        COLLECTOR_RUNNER=server  DATABASE_URL=sqlite:///data/collector.db  PROXY_URL=  GITHUB_TOKEN=<fine-grained PAT>
+~/.config/systemd/user/ai-news-collector.service   来自 deploy/systemd/，systemctl --user status ai-news-collector
+crontab: 15 * * * * ~/ai-news-collector/scripts/server_publish.sh >> ~/logs/ai-news-publish.log 2>&1
+```
+
+`GITHUB_TOKEN` 是唯一需要人配的东西：GitHub → Settings → Developer settings → Fine-grained tokens，只选这个仓库，
+权限只给 Contents: Read and write。没配之前采集照常进行、条目攒在本地，配好后下一次 cron 由游标一次补传。
+体检：`~/venvs/ai-news-collector/bin/python scripts/check_sources.py`（自动只查 server 侧的源）。
 
 ## 采集器内部
 

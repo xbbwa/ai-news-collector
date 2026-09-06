@@ -5,11 +5,12 @@ import asyncio
 import json
 import logging
 import sys
+from dataclasses import replace
 from pathlib import Path
 
 from sqlalchemy import select
 
-from .config import Settings, load_sources
+from .config import Settings, for_runner, load_sources
 from .db import init_db, make_engine, make_session_factory
 from .http import HttpClients
 from .models import Item
@@ -36,7 +37,7 @@ def _build(settings: Settings) -> tuple[Collector, HttpClients]:
 
 
 async def cmd_run(settings: Settings) -> None:
-    sources = load_sources(settings)
+    sources = for_runner(load_sources(settings), settings.runner)
     collector, clients = _build(settings)
     try:
         await run_forever(collector, sources)
@@ -45,7 +46,7 @@ async def cmd_run(settings: Settings) -> None:
 
 
 async def cmd_once(settings: Settings, only: list[str] | None) -> None:
-    sources = [s for s in load_sources(settings) if s.enabled]
+    sources = [s for s in for_runner(load_sources(settings), settings.runner) if s.enabled]
     if only:
         wanted = set(only)
         sources = [s for s in sources if s.id in wanted]
@@ -83,10 +84,10 @@ async def cmd_retry_extract(settings: Settings, limit: int) -> None:
 
 
 def cmd_sources(settings: Settings) -> None:
-    for s in load_sources(settings):
+    for s in for_runner(load_sources(settings), settings.runner):
         flag = " " if s.enabled else "x"
         proxy = "proxy" if s.proxy else "     "
-        print(f"[{flag}] T{s.tier} {s.type:<11} {proxy} {s.interval:>5}s  {s.id:<28} {s.name}")
+        print(f"[{flag}] T{s.tier} {s.type:<11} {s.runner:<6} {proxy} {s.interval:>5}s  {s.id:<28} {s.name}")
 
 
 def cmd_export(settings: Settings, since_id: int, out: Path | None) -> None:
@@ -118,6 +119,10 @@ def cmd_api(settings: Settings, host: str | None, port: int | None) -> None:
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(prog="collector", description="AI news collector")
+    parser.add_argument(
+        "--runner",
+        help="only sources with this `runner` (github|server); default $COLLECTOR_RUNNER, unset = all",
+    )
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("run", help="run the scheduler forever")
@@ -140,6 +145,8 @@ def main(argv: list[str] | None = None) -> None:
 
     args = parser.parse_args(argv)
     settings = Settings.from_env()
+    if args.runner:
+        settings = replace(settings, runner=args.runner)
     _setup_logging(settings.log_level)
 
     if args.cmd == "run":

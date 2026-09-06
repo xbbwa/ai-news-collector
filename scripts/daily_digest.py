@@ -2,18 +2,21 @@
 
 Same output file and role as the old ~/scripts/daily_ai_news.py on the server (a file the
 pusher reads instead of going online), fed by the collector instead of four hard-coded feeds.
-Stdlib only. Two data sources:
+Stdlib only. Data sources (combinable):
 
-  --api URL   running collector API (self-hosted Docker setup)
-  --db PATH   the SQLite file directly (GitHub Actions run, where no API is up)
+  --api URL      running collector API (self-hosted Docker setup)
+  --db PATH      the SQLite file directly (GitHub Actions run, where no API is up)
+  --jsonl GLOB   archive files from another collector (e.g. the China box's items/*.cn.jsonl);
+                 repeatable; items are merged with the above and deduplicated by URL
 
 usage:
-  python3 scripts/daily_digest.py --out digest/latest.md --db data/collector.db --sources-yaml config/sources.yaml
-      [--hours 24] [--max-per-source 8] [--summary-chars 400]
+  python3 scripts/daily_digest.py --out digest/latest.md --db data/collector.db --sources-yaml config/sources.yaml \
+      --jsonl 'archive/items/*.cn.jsonl' [--hours 24] [--max-per-source 8] [--summary-chars 400]
 """
 from __future__ import annotations
 
 import argparse
+import glob
 import json
 import os
 import sqlite3
@@ -67,6 +70,39 @@ def fetch_items_db(db_path: Path, since: datetime) -> list[dict]:
     return [
         {**dict(r), "published_at": iso(r["published_at"]), "fetched_at": iso(r["fetched_at"])} for r in rows
     ]
+
+
+def fetch_items_jsonl(patterns: list[str], since: datetime) -> list[dict]:
+    """Items from per-day archive files. Only files whose date could hold items in the window are read."""
+    earliest = (since - timedelta(days=1)).date().isoformat()
+    items: list[dict] = []
+    for pattern in patterns:
+        for path in sorted(glob.glob(pattern)):
+            if Path(path).name[:10] < earliest:  # names start with YYYY-MM-DD
+                continue
+            with open(path, encoding="utf-8") as fh:
+                for line in fh:
+                    if not line.strip():
+                        continue
+                    item = json.loads(line)
+                    fetched = parse_ts(item.get("fetched_at"))
+                    if fetched is not None and fetched >= since:
+                        items.append(item)
+    return items
+
+
+def merge_by_url(*groups: list[dict]) -> list[dict]:
+    """Two collectors may store the same article (an HN link to a 量子位 story); keep the first seen."""
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for group in groups:
+        for item in group:
+            key = (item.get("url") or "").rstrip("/")
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(item)
+    return merged
 
 
 def load_sources_yaml(path: Path) -> list[dict]:
@@ -165,6 +201,7 @@ def main() -> int:
     src = ap.add_mutually_exclusive_group()
     src.add_argument("--api", help="collector API base URL (default: $COLLECTOR_API or http://localhost:8000)")
     src.add_argument("--db", type=Path, help="read the SQLite file directly instead of the API")
+    ap.add_argument("--jsonl", action="append", default=[], metavar="GLOB", help="archive files to merge in (repeatable)")
     ap.add_argument("--sources-yaml", type=Path, help="with --db: sources.yaml for names/langs (needs PyYAML)")
     ap.add_argument("--hours", type=int, default=24)
     ap.add_argument("--max-per-source", type=int, default=8)
@@ -180,6 +217,8 @@ def main() -> int:
             api = args.api or os.environ.get("COLLECTOR_API", "http://localhost:8000")
             items = fetch_items_api(api, since)
             sources = get_json(f"{api}/sources")
+        if args.jsonl:
+            items = merge_by_url(items, fetch_items_jsonl(args.jsonl, since))
     except (URLError, OSError, KeyError, ValueError, sqlite3.Error) as exc:
         print(f"ERROR: cannot read collector data: {exc}", file=sys.stderr)
         return 1

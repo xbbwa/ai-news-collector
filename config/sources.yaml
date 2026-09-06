@@ -13,6 +13,10 @@
 #   fetch_fulltext  download the article page and extract main text (default true)
 #   max_age_days  ignore entries published earlier than N days ago (null = keep everything)
 #   time_offset_hours  added to published_at; fixes feeds that stamp local time as GMT
+#   runner        which machine polls it: github (Actions runner in the US, default) or server (the
+#                 box in mainland China). Direct-feed domestic media and sites that throttle datacenter
+#                 IPs go to `server`; everything blocked in China, plus all ${RSSHUB_URL} routes
+#                 (RSSHub only runs on the Actions side), stays on `github`.
 #   ${RSSHUB_URL} is replaced with the RSSHUB_URL env var (default http://localhost:1200)
 #
 # Full-text download automatically falls back to a Chrome-fingerprint client for sites behind
@@ -415,6 +419,7 @@ sources:
     url: https://venturebeat.com/feed/
     tier: 2
     interval: 300
+    runner: server          # answers 429 to GitHub's datacenter IPs
     keywords: *ai_keywords
 
   # AI topic feed (10 AI stories) instead of the general feed + keywords (10 stories of everything).
@@ -599,6 +604,8 @@ sources:
     interval: 180
     enabled: false
 
+  # Direct-feed domestic media run on the China box (runner: server): fast there, and some of
+  # them refuse or throttle overseas IPs for the article pages.
   - id: qbitai
     name: 量子位
     type: rss
@@ -606,6 +613,7 @@ sources:
     tier: 2
     lang: zh
     interval: 180
+    runner: server
 
   - id: zhidx
     name: 智东西
@@ -614,6 +622,7 @@ sources:
     tier: 2
     lang: zh
     interval: 300
+    runner: server
 
   # infoq.cn stamps Beijing time as "GMT"; shift back 8h to get real UTC.
   - id: infoq-cn
@@ -623,6 +632,7 @@ sources:
     tier: 2
     lang: zh
     interval: 600
+    runner: server
     keywords: *ai_keywords
     time_offset_hours: -8
 
@@ -675,6 +685,7 @@ sources:
     tier: 2
     lang: zh
     interval: 600
+    runner: server
     keywords: *ai_keywords
 
   - id: ifanr
@@ -684,6 +695,7 @@ sources:
     tier: 2
     lang: zh
     interval: 600
+    runner: server
     keywords: *ai_keywords
 
   - id: geekpark
@@ -693,6 +705,7 @@ sources:
     tier: 2
     lang: zh
     interval: 600
+    runner: server
     keywords: *ai_keywords
 
   - id: ithome
@@ -702,6 +715,7 @@ sources:
     tier: 2
     lang: zh
     interval: 300
+    runner: server
     keywords: *ai_keywords
 
   - id: sspai
@@ -711,6 +725,7 @@ sources:
     tier: 2
     lang: zh
     interval: 900
+    runner: server
     keywords: *ai_keywords
 
   - id: leiphone
@@ -720,8 +735,10 @@ sources:
     tier: 2
     lang: zh
     interval: 600
+    runner: server
     keywords: *ai_keywords
 
+  # Article pages reject overseas IPs (full text failed for every item from the US runner).
   - id: oschina
     name: 开源中国
     type: rss
@@ -729,6 +746,7 @@ sources:
     tier: 2
     lang: zh
     interval: 900
+    runner: server
     keywords: *ai_keywords
 
   # WeChat official accounts (新智元 / 硅星人 / 智东西 / 甲子光年 ...) have no RSS and every bridge

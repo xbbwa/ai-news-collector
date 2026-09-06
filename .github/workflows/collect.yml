@@ -3,9 +3,10 @@ name: collect
 # Runs the collector on GitHub's hosted runners (US-based: no proxy needed for Hugging Face,
 # Reddit, Google, ...). Each run:
 #   1. restores the SQLite working DB + export cursor from the "state" release,
-#   2. polls every source once (RSSHub runs alongside as a service container),
+#   2. polls every `runner: github` source once (RSSHub runs alongside as a service container),
 #   3. appends the new items (full text) to items/<date>.jsonl on the `data` branch and
-#      rebuilds digest/latest.md there,
+#      rebuilds digest/latest.md there, merging in items/<date>.cn.jsonl that the China box
+#      uploads for its `runner: server` sources (scripts/server_publish.sh),
 #   4. saves the DB + cursor back to the "state" release.
 # Consumers only ever need the `data` branch (plain HTTPS file downloads work from mainland China).
 
@@ -73,6 +74,7 @@ jobs:
         env:
           RSSHUB_URL: http://localhost:1200
           DATABASE_URL: sqlite:///data/collector.db
+          COLLECTOR_RUNNER: github
         run: |
           python -m collector once
           python -m collector retry-extract --limit 50
@@ -83,6 +85,7 @@ jobs:
           python scripts/export_daily.py --db data/collector.db --out-dir archive/items \
             --cursor data/export_cursor --prune-days 14
           python scripts/daily_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
+            --jsonl 'archive/items/*.cn.jsonl' \
             --out archive/digest/latest.md --hours 24 --max-per-source 3 --summary-chars 300
 
       - name: Commit to data branch
@@ -93,7 +96,11 @@ jobs:
           git add -A
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -qm "collect $(date -u '+%Y-%m-%d %H:%M UTC'): +${{ steps.export.outputs.exported }} items"
-          git push
+          # The China box may have uploaded its *.cn.jsonl meanwhile; different files, so a rebase never conflicts.
+          for attempt in 1 2 3; do
+            git pull --rebase -q origin data && git push && break
+            echo "push attempt $attempt failed, retrying"; sleep 5
+          done
 
       - name: Save state to the "state" release
         env:
