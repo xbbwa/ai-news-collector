@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-08 02:19 CST
+生成时间：2026-09-08 05:38 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -237,27 +237,35 @@
 - 发布时间：2026-09-07 22:42 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/07/architect-uk-ai-policy-quits-anthropic-conflict-of-interest-concerns
 
+## Latent Space（latent-space，en，本窗口共 1 条）
+
+### 1. The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)
+- 摘要：Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses , and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines,...
+- 作者：Latent Space
+- 发布时间：2026-09-08 05:32 CST
+- 链接：https://www.latent.space/p/aeo
+
 ## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
-### 1. IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B
+### 1. OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device
+- 摘要：OpenBMB has released MiniCPM5-2B , the second checkpoint in the MiniCPM5 series and the follow-up to MiniCPM5-1B . It is a dense causal language model with 2,516,756,480 parameters, of which 1,981,982,720 sit outside the embeddings. It uses 42 layers, grouped-query attention with 16 query heads and...
+- 作者：Sana Hassan
+- 发布时间：2026-09-08 03:18 CST
+- 链接：https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/
+
+### 2. Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories
+- 摘要：Robot manipulation datasets have grown far slower than the models trained on them, mostly because collection stays closed and centralized. Expert operators gather demonstrations on lab hardware, process them offline, and ship a fixed benchmark that never grows again. A research team from Axis Roboti...
+- 作者：Michal Sutter
+- 发布时间：2026-09-08 02:38 CST
+- 链接：https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/
+
+### 3. IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B
 - 摘要：Most open model launches release one checkpoint and a benchmark table. The Institute of Foundation Models (IFM) released something wider last week. IFM is the frontier lab launched by MBZUAI in May 2025. K2 Horizon is a fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3.7B and 0.9B. Shipping alongs...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-07 13:00 CST
 - 链接：https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b/
 
-### 2. H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder
-- 摘要：Most visual document retrievers in production today are hand-me-downs. ColPali and the models that followed it take a generative vision-language model and repurpose it as an encoder. The result still carries a separately pretrained vision tower and a causal decoder that never generates a token. That...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-07 05:06 CST
-- 链接：https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/
-
-### 3. Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours
-- 摘要：AI research agents can already propose, implement and score their own machine learning experiments. Idea generation is cheap; verification is not. Training one candidate can consume hours to days of GPU time, so an agent proposes far more candidates than it can afford to run. Which ones get run is t...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-07 04:25 CST
-- 链接：https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/
-
-## Nature — Machine Learning（nature-ml，en，本窗口共 2 条）
+## Nature — Machine Learning（nature-ml，en，本窗口共 3 条）
 
 ### 1. AI-supported extraction of functional tissue unit properties for Human Reference Atlas construction
 - 发布时间：2026-09-07 08:00 CST
@@ -267,6 +275,10 @@
 - 发布时间：2026-09-07 08:00 CST
 - 链接：https://www.nature.com/articles/s41467-026-77498-w
 
+### 3. Anthropic AI ‘formalizes’ proof of Fermat’s last theorem in just 11 days
+- 发布时间：2026-09-07 08:00 CST
+- 链接：https://www.nature.com/articles/d41586-026-02822-9
+
 ## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
 ### 1. Early Data Indicates an A.I.-Generated Drug Could Slow Aging
@@ -275,15 +287,29 @@
 - 发布时间：2026-09-07 17:04 CST
 - 链接：https://www.nytimes.com/2026/09/07/science/ai-generated-drug-longevity.html
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 2 条）
+## SemiAnalysis（semianalysis，en，本窗口共 1 条）
 
-### 1. Research acceleration: The view inside OpenAI
+### 1. TPU Inference Externalization Full Steam Ahead - InferenceX
+- 摘要：For more than a decade, the industry has watched Google build an empire on its own silicon. Search, Ads, YouTube, and every generation of Gemini run on TPUs. Few accelerators have attracted as much architectural scrutiny or as much debate about what their performance and economics would look like ou...
+- 作者：Alec Ibarra
+- 发布时间：2026-09-08 04:00 CST
+- 链接：https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam
+
+## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
+
+### 1. Mercator ↔ Equal Earth
+- 摘要：Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra
+- 作者：Simon Willison
+- 发布时间：2026-09-08 00:24 CST
+- 链接：https://simonwillison.net/2026/Sep/7/equal-earth/
+
+### 2. Research acceleration: The view inside OpenAI
 - 摘要：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym....
 - 作者：Simon Willison
 - 发布时间：2026-09-07 07:57 CST
 - 链接：https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/
 
-### 2. There's No Limit to How Bad Code Can Get
+### 3. There's No Limit to How Bad Code Can Get
 - 摘要：My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin...
 - 作者：Simon Willison
 - 发布时间：2026-09-06 17:08 CST
@@ -291,11 +317,11 @@
 
 ## TechCrunch — AI（techcrunch-ai，en，本窗口共 1 条）
 
-### 1. Authors push back as publishers and agents make claims on Anthropic settlement
-- 摘要：Authors say publishers seem to be claiming more than their fair share of settlement payments.
-- 作者：Anthony Ha
-- 发布时间：2026-09-07 04:47 CST
-- 链接：https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/
+### 1. Opaque recurrence, and other AI terms that you should probably know
+- 摘要：The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.
+- 作者：Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek
+- 发布时间：2026-09-08 03:24 CST
+- 链接：https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/
 
 ## The Decoder（the-decoder，en，本窗口共 9 条）
 
@@ -333,23 +359,13 @@
 - 发布时间：2026-09-07 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-07
 
-## VentureBeat（venturebeat，en，本窗口共 9 条）
+## VentureBeat（venturebeat，en，本窗口共 1 条）
 
 ### 1. Companies are spending millions rewiring how AI gets used. Almost none can prove it's working.
 - 摘要：In December 2025, Uber gave its engineers Claude Code and set up internal leaderboards tracking token consumption and ranking teams by how much they used it. By April, the entire AI coding budget for 2026 was gone . That budget crisis made major headlines, but the real surprise came when Uber Presid...
 - 作者：shubham.sharma@venturebeat.com (Shubham Sharma)
 - 发布时间：2026-09-07 21:00 CST
 - 链接：https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working
-
-### 2. Most pipeline monitoring checks if the job ran. This one didn't check if the numbers were right.
-- 摘要：Eleven days. That's how long our pipeline ran perfectly with zero errors, green Directed Acyclic Graphs (DAGs), clean Snowflake loads while producing audience counts that were 40% wrong. A data pipeline is like a translation chain: If a word changes meaning at the source and nobody updates the dicti...
-- 发布时间：2026-09-07 05:00 CST
-- 链接：https://venturebeat.com/orchestration/most-pipeline-monitoring-checks-if-the-job-ran-this-one-didnt-check-if-the-numbers-were-right
-
-### 3. MCP's new spec turns a planted prompt into a stolen credential
-- 摘要：The Model Context Protocol's (MCP)'s largest revision since its initial launch shipped on July 28 . By the end of the first day, all four Tier 1 SDKs were already speaking the new version, and Cloudflare's Agents SDK had support in place from day zero, with customers such as Sentry and Linear pickin...
-- 发布时间：2026-09-06 02:00 CST
-- 链接：https://venturebeat.com/security/mcps-new-spec-turns-a-planted-prompt-into-a-stolen-credential
 
 ## WIRED — AI（wired-ai，en，本窗口共 1 条）
 
@@ -616,25 +632,25 @@
 - 发布时间：2026-09-07 14:15 CST
 - 链接：https://github.com/coreyhaines31/marketingskills
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 87 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 78 条）
 
-### 1. We are giving Big Tech what they want: the blunder of under-16 social media bans
-- 摘要：Under-16 social media bans may seem like a reasonable response that forestalls consequences, but, in ways we have yet to appreciate, they may prove a strategic blunder, serving the best interests of the very tech companies they seek to counter.
-- 作者：DeepLogin
-- 发布时间：2026-09-08 01:55 CST
-- 链接：https://policyreview.info/articles/news/we-are-giving-big-tech-what-they-want-strategic-blunder-under-16-social-media-bans
+### 1. AI Cold Showers
+- 摘要：A short list of articles that temper my enthusiasm around AI, and drawing a few lines in the sand along the way.
+- 作者：mooreds
+- 发布时间：2026-09-08 03:05 CST
+- 链接：https://allan.reyes.sh/posts/ai-cold-showers/
 
-### 2. Show HN: Isle – managed application environments for computer-use agents
-- 摘要：Managed application environments for computer-use agents, with built-in guardrails, artifact checkpoints, and automatic recovery.
-- 作者：sxhivs
-- 发布时间：2026-09-08 01:02 CST
-- 链接：https://www.tryisle.com
+### 2. Watch Los Angeles get built, one building at a time (1880–2026)
+- 摘要：Every building standing in the City of Los Angeles today, one box per structure, appearing in the year it was built. The surviving city, 1880 to now.
+- 作者：rustywasm
+- 发布时间：2026-09-08 02:52 CST
+- 链接：https://lax-skyline.parcelscope.net/
 
-### 3. Tell HN: OpenAI brings back 5 hour limit for plus and business standard users
-- 摘要：In case you're wondering why the limits behave so very different from last week. Also: this makes limit resets kind woth significantly less.
-- 作者：spwa4
-- 发布时间：2026-09-08 00:40 CST
-- 链接：https://news.ycombinator.com/item?id=49600233
+### 3. Hail, Orchestrator
+- 摘要：How to build a digital company today, AI-first.
+- 作者：bendtheblock
+- 发布时间：2026-09-08 02:33 CST
+- 链接：https://webtwoboomer.com/hail-orchestrator-655001b91bc2
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 4 条）
 
@@ -676,25 +692,25 @@
 - 发布时间：2026-09-07 21:27 CST
 - 链接：https://www.reddit.com/r/ClaudeAI/comments/1w9s6jr/why_applying_anthropics_modellevel_watermark_to/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 362 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 389 条）
 
-### 1. Trying to tame QWEN 3.8 27B pathological over-reasoning and misbehaviors
-- 摘要：Today I finally hit a wall with QWEN 3.8 dense 27B, Q6_X_L with KV cache q8_0 temp 0.85 with medium reasoning effort, producing over thinking, failing to follow precise instructions, re evaluation in loops data already seen, "Actually…/Wait…/Hmm…", meta-reasoning, theorizing about user intent and yo...
-- 作者：ea_man
-- 发布时间：2026-09-08 02:12 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1w9zrpg/trying_to_tame_qwen_38_27b_pathological/
+### 1. Claude's responses are just word vomit
+- 摘要：So I pay for both claude and GPT $200/mo plans. So I get my fair use out of both to say the least. What I cannot figure out is how to get Claude to CONSISTENTLY respond in a manner that is concise and not wordy. I mostly use Opus 4.8, Opus 5, Fable 5.1 I've tried the ELI5 trick, i've tried adjusting...
+- 作者：Far_Designer2131
+- 发布时间：2026-09-08 05:31 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wa544p/claudes_responses_are_just_word_vomit/
 
-### 2. AI flagged 20 problems in a legal doc. None of them were real problems.
-- 摘要：So legal team updated one clause in an existing doc, small change, already reviewed and approved, nothing new. Then a senior exec who wasn't in the loop on any of this decides to run the whole doc through claude, just to "check it." No context, didn't know it was just a minor update to something tha...
-- 作者：pavanidiotic
-- 发布时间：2026-09-08 02:10 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w9zp2m/ai_flagged_20_problems_in_a_legal_doc_none_of/
+### 2. Trying to understand yall's perspectives.
+- 摘要：I'm someone who is and has been on the fence about AI for quite some time. I'm tempted to be optimistic about the possibilities and convenience that AI can bring us, and with the new GPT-6 Astra now released to the public, and its massive capabilities being demonstrated regularly on these subreddits...
+- 作者：Coconutiesssss
+- 发布时间：2026-09-08 05:29 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wa52jc/trying_to_understand_yalls_perspectives/
 
-### 3. MiniMax H3 on 4GB VRAM: Stuck between blurry hands (fast) and a 6+ hour render (good). Anyone found a setup that's both?
-- 摘要：Running MiniMax H3 (Ref2VA, multi-reference) locally on a 4GB card, RTX 3050 Laptop, WSL2, ComfyUI. Been chasing a hand/finger rendering defect for days and have a pretty well documented before/after at this point, but I've hit a wall on making the fix fast enough to actually be usable. Hoping someo...
-- 作者：unbenannt1
-- 发布时间：2026-09-08 02:02 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1w9zhbx/minimax_h3_on_4gb_vram_stuck_between_blurry_hands/
+### 3. Qwen2512 vs LLaDA-Turbo (image edit comparison)
+- 摘要：I wanted to see how good LLaDA is, and I think it is pretty good for its size. But at least for now, Qwen seems to remain on top, even though I was a little disappointed with the "partial style transfer test" and the fact that it basically did nothing when asked to add two obelisks. There were also...
+- 作者：DiagramAwesome
+- 发布时间：2026-09-08 05:27 CST
+- 链接：https://www.reddit.com/gallery/1wa50d7
 
 ## 智源社区（baai-hub，zh，本窗口共 9 条）
 
@@ -717,7 +733,7 @@
 - 链接：https://hub.baai.ac.cn/view/57767
 
 ---
-共列出 107 条（窗口内采集总数 1548 条，来自 43 个信源）
+共列出 109 条（窗口内采集总数 1562 条，来自 45 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
