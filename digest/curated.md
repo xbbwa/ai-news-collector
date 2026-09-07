@@ -1,156 +1,143 @@
 # Daily AI News 候选清单（已去重排序，共 20 条）
-生成时间：2026-09-07 07:00 CST
-数据窗口：最近 24 小时，1359 条原始条目 → 1249 个事件；过滤噪音 781 个，排除前 3 天已推送的 0 个。
+生成时间：2026-09-07 09:10 CST
+数据窗口：最近 24 小时，1431 条原始条目 → 1314 个事件；过滤噪音 831 个，排除前 3 天已推送的 21 个。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
 > 按 skill daily-ai-news 只做翻译与排版。「来源」里有几家就是几家同时报道，可作为重要程度的依据。
 
-## 1. NVIDIA to Acquire Hugging Face
-- 语言：? ｜ 来源：NVIDIA Blog、Ars Technica — AI、New York Times — Technology、VentureBeat（4 个来源） ｜ 热度：14.5
-- 摘要：I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and instit...
-- 发布时间：2026-09-03 19:56 CST
-- 链接：https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
-- 同事件报道：Nvidia buys Hugging Face, the GitHub of AI, for $13 billion（Ars Technica — AI）
-- 同事件报道：Nvidia Buys Hugging Face in $12.9 Billion Deal（New York Times — Technology）
+## 1. Research acceleration: The view inside OpenAI
+- 语言：? ｜ 来源：OpenAI News、Simon Willison's Weblog（2 个来源） ｜ 热度：6.5
+- 摘要：Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.
+- 发布时间：2026-09-06 16:00 CST
+- 链接：https://openai.com/index/research-acceleration-view-inside-openai
+- 同事件报道：Research acceleration: The view inside OpenAI（Simon Willison's Weblog）
 
-## 2. Introducing agentic video understanding with Gemini
-- 语言：? ｜ 来源：Google DeepMind Blog、MarkTechPost、Product Hunt — AI、Hacker News (AI stories)（4 个来源） ｜ 热度：12.5
-- 摘要：We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.
-- 发布时间：2026-09-02 01:08 CST
-- 链接：https://deepmind.google/blog/introducing-agentic-video-in-gemini/
-- 同事件报道：Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%（MarkTechPost）
-- 同事件报道：Google Gemini 3.8 Flash and Cyber（Product Hunt — AI）
+## 2. Anthropic’s $2tn IPO puts powerful external trustees in spotlight
+- 语言：? ｜ 来源：Financial Times — Technology、Ars Technica — AI（2 个来源） ｜ 热度：5.5
+- 摘要：Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose
+- 发布时间：2026-09-04 12:00 CST
+- 链接：https://www.ft.com/content/9536c7b9-c600-48ec-8fe2-453b0ca187e9?syn-25a6b1a6=1
+- 同事件报道：Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight（Ars Technica — AI）
 
-## 3. Introducing Claude Fable 5.1 on AWS
-- 语言：? ｜ 来源：AWS Machine Learning Blog、Simon Willison's Weblog、Hacker News (AI stories)、Product Hunt — AI（4 个来源） ｜ 热度：12.5
-- 摘要：Today, we’re excited to announce the availability of Claude Fable 5.1 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research,...
-- 发布时间：2026-09-02 03:12 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/
-- 同事件报道：Claude Fable 5.1 made me a really nice animated pelican（Simon Willison's Weblog）
-- 同事件报道：Claude Fable 5.1（Hacker News (AI stories)）
+## 3. 互联网最古老的恐惧，被 AI 复活了
+- 语言：? ｜ 来源：36氪 AI 频道、极客公园（2 个来源） ｜ 热度：5.5
+- 摘要：2006 年底，一只熊猫毁了数百万人的电脑。 那只熊猫手捧三支香，面带微笑，出现在每一个被感染文件的图标上。「熊猫烧香」蠕虫在两个月内席卷全国，可执行文件全部变成那只诡异的熊猫图案，硬盘数据被破坏，局域网整段瘫痪，杀毒软件被病毒反杀。 那个年代的互联网老冲浪客大概都记得，打开网页心惊肉跳，插个 U 盘如临大敌，同事的电脑中了毒，你的也跟着遭殃。 再往前还有 CIH，直接烧主板 BIOS，硬件报废；有冲击波蠕虫，不需要你做任何操作，连上网...
+- 发布时间：2026-09-05 11:22 CST
+- 链接：https://www.36kr.com/p/3969943690064136
+- 同事件报道：互联网最古老的恐惧，被 AI 复活了（极客公园）
 
-## 4. 'Welcome to the AGI era': OpenAI launches GPT-6 Astra
-- 语言：en ｜ 来源：VentureBeat、Axios、WIRED — AI、Hacker News (AI stories)（4 个来源） ｜ 热度：12.5
-- 摘要：The rumors were true, all of them (and then some): OpenAI today is releasing GPT-6 Astra , a new frontier model that the company says likely marks the onset of artificial generalized intelligence (AGI), its long sought g...
-- 发布时间：2026-09-04 02:00 CST
-- 链接：https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra
-- 同事件报道："Welcome to the AGI era," OpenAI says as GPT-6 Astra debuts（Axios）
-- 同事件报道：GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era（WIRED — AI）
+## 4. 这个世界模型训练完就“退场”，机器人反而更能干了
+- 语言：? ｜ 来源：36氪 AI 频道、量子位（2 个来源） ｜ 热度：5.5
+- 摘要：这个 世界模型 ，着实是有点 “反骨” 在身上—— 上岗前花了大把时间陪机器人训练，等机器人真要开始干活了，它却先从部署链路里退了出去。 要知道，以前的世界模型对机器人来说，就像是一个随身携带的“脑内沙盘”，机器人先借助它预测未来会发生什么，再据此决定下一步怎么动。模型想得越多，推理链路往往也越长。 但这个“反骨”世界模型，却把思路给换了一下。 它只停留在训练场里，专门检查机器人自己提出的动作会造成什么后果，再把这种检查变成策略优化的反...
+- 发布时间：2026-09-05 11:43 CST
+- 链接：https://www.36kr.com/p/3969940251209993
+- 同事件报道：这个世界模型训练完就“退场”，机器人反而更能干了（量子位）
 
-## 5. Introducing Gemini 3.8 Flash and 3.8 Flash Cyber
-- 语言：? ｜ 来源：Google DeepMind Blog、Ars Technica — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：10.0
-- 摘要：Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.
-- 发布时间：2026-09-03 00:18 CST
-- 链接：https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/
-- 同事件报道：Google releases Gemini 3.8 Flash, its third Flash model in six weeks（Ars Technica — AI）
-- 同事件报道：Gemini 3.8 Flash Model card [pdf]（Hacker News (AI stories)）
+## 5. Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft
+- 语言：? ｜ 来源：TechCrunch — AI、The Verge — AI（2 个来源） ｜ 热度：5.5
+- 摘要：Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.
+- 发布时间：2026-09-06 06:49 CST
+- 链接：https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/
+- 同事件报道：Seattle Times and Newsday sue OpenAI and Microsoft for infringement（The Verge — AI）
 
-## 6. NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network
-- 语言：? ｜ 来源：NVIDIA Technical Blog、MarkTechPost、Hacker News (AI stories)（3 个来源） ｜ 热度：10.0
-- 摘要：AI agents are learning to do more by working together. A lead agent can break a complex task into smaller jobs and assign those jobs to specialized subagents.... AI agents are learning to do more by working together. A l...
-- 发布时间：2026-09-04 00:00 CST
-- 链接：https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/
-- 同事件报道：NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Ac...（MarkTechPost）
-- 同事件报道：Personal AI Router for Local Inference（Hacker News (AI stories)）
+## 6. Introducing GPT-6 Astra for developers
+- 语言：? ｜ 来源：Simon Willison's Weblog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
+- 摘要：Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build m...
+- 发布时间：2026-09-06 07:27 CST
+- 链接：https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+- 同事件报道：GPT-6 (Astra), not up to the mark（Reddit AI subreddits (new)）
 
-## 7. GPT-6 Astra: A new generation of intelligence
-- 语言：? ｜ 来源：OpenAI News、The Decoder、Hacker News (AI stories)（3 个来源） ｜ 热度：9.0
-- 摘要：Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.
-- 发布时间：2026-09-03 19:00 CST
-- 链接：https://openai.com/index/gpt-6-astra
-- 同事件报道：Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism（The Decoder）
-- 同事件报道：Artificial Analysis Intelligence Index v4.2（Hacker News (AI stories)）
-
-## 8. Safety overview: GPT-6 Astra
-- 语言：? ｜ 来源：OpenAI News、Product Hunt — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：8.0
-- 摘要：GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.
-- 发布时间：2026-09-03 08:00 CST
-- 链接：https://openai.com/index/safety-overview-gpt-6-astra
-- 同事件报道：GPT-6 Astra（Product Hunt — AI）
-- 同事件报道：GPT-6 Astra on OpenRouter（Hacker News (AI stories)）
-
-## 9. Rogue OpenAI agents appear to have organized another attack using a German wiki
-- 语言：? ｜ 来源：The Verge — AI、WIRED — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：8.0
-- 摘要：A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepare...
-- 发布时间：2026-09-04 21:34 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki
-- 同事件报道：OpenAI Agents Hacked Another Website（WIRED — AI）
-- 同事件报道：OpenAI admits to German wiki ‘incident’（The Verge — AI）
-
-## 10. Proactive cyber defense for governments and enterprises
-- 语言：? ｜ 来源：Google — The Keyword (AI)、Google DeepMind Blog（2 个来源） ｜ 热度：7.5
-- 摘要：The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.
-- 发布时间：2026-09-02 23:40 CST
-- 链接：https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/
-- 同事件报道：Proactive cyber defense for governments and enterprises（Google DeepMind Blog）
-
-## 11. Project HydraFusion: Frontier quality via multi-model orchestration
-- 语言：? ｜ 来源：GitHub Blog、MarkTechPost（2 个来源） ｜ 热度：7.5
-- 摘要：Providing developers the best model for the task at hand has always been our goal. Earlier this year, we made that easier by launching Auto model selection, which reviews your task and matches it to the best-suited model...
-- 发布时间：2026-09-05 00:04 CST
-- 链接：https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/
-- 同事件报道：GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copil...（MarkTechPost）
-
-## 12. Introducing WeatherNext 3, our most advanced and accurate global weather AI model
-- 语言：? ｜ 来源：Google DeepMind Blog、Hacker News (AI stories)（2 个来源） ｜ 热度：6.5
-- 摘要：WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.
-- 发布时间：2026-09-03 23:02 CST
-- 链接：https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/
-- 同事件报道：WeatherNext 3: Our most advanced global weather AI model（Hacker News (AI stories)）
-
-## 13. “随时能问、随手可查”的反诈智能助手“国家反诈 AI”App 上线，微信、支付宝小程序也同步开放
-- 语言：? ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.5
-- 摘要：IT之家 9 月 6 日消息，公安部今日宣布，为进一步提升防范电信网络诈骗工作的信息化、智能化水平，帮助群众有效识诈防诈，近日， 公安部刑侦局指导，上海市公安局自主研发的“国家反诈 AI”App 正式上线 。 据介绍，“国家反诈 AI”App 融合了大语言、多模态模型和智能体技术， 用户通过手机输入可疑场景，该 App 即可完成风险研判、识别诈骗套路、推送典型案例 ，从“文字 + 语音 + 视频”等多个维度拆解诈骗手法，提供识别防范对策...
+## 7. AI短剧制作价格大跳水
+- 语言：? ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：5.5
+- 摘要：今年以来，AI短剧迎来一轮爆发：技术门槛下降，大量从业者涌入，产能快速扩张，制作价格随之“跳水”。同样制作AI短剧，每分钟报价从5000元跌至几百元，逼近成本线；但定制短剧业务依旧可以达到每分钟1万‑2万元。当“会制作”不再是稀缺能力，AI短剧行业竞争正从拼产量、拼价格，转向拼内容、拼市场。数据显示，预计2026年国内AI剧漫剧市场规模有望超400亿元，同比增速138%。海外市场表现同样亮眼，规模预计突破40亿美元，占海外微短剧整体规模...
 - 发布时间：2026-09-06 13:44 CST
-- 链接：https://www.ithome.com/0/998/922.htm
-- 同事件报道：“国家反诈AI”APP上线（36氪 快讯）
+- 链接：https://www.36kr.com/newsflashes/3971505282413060
+- 同事件报道：AI 短剧制作价格大跳水：部分报价逼近成本线，行业竞争转向拼内容、拼市场（IT之家）
 
-## 14. Give Your Coding Agents a Memory You Own
-- 语言：? ｜ 来源：Hugging Face Blog、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
-- 摘要：We’re on a journey to advance and democratize artificial intelligence through open source and open science.
-- 发布时间：2026-09-03 08:00 CST
-- 链接：https://huggingface.co/blog/funes
-- 同事件报道：Show HN: Decispher – persistent engineering context and memory for coding agents（Hacker News (AI stories)）
-- 同事件报道：Show HN: A Context Registry for AI coding agents（Hacker News (AI stories)）
+## 8. Bland new world: is AI making us all think the same?
+- 语言：? ｜ 来源：Nature — Machine Learning、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 发布时间：2026-09-01 08:00 CST
+- 链接：https://www.nature.com/articles/d41586-026-02682-3
+- 同事件报道：AI Is Making Us Less Human（Hacker News (AI stories)）
 
-## 15. 李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界
-- 语言：? ｜ 来源：开源中国、Product Hunt — AI（2 个来源） ｜ 热度：5.5
-- 摘要：李飞飞创立的 World Labs 发布了 Atlas，一个从零预训练的多模态空间智能大模型。你可以给它几张照片，它能生成从任意角度观看的连续视频；给它一段手机拍摄的视频，它能重建出完整的 3D 场景，让机器人在里面模拟导航。 核心架构是「multimodal autoregressive diffusion transformer」——这个术语拆开来看，autoregre...
-- 发布时间：2026-09-02 19:24 CST
-- 链接：https://www.oschina.net/news/502277/worldlabs-ai-atlas
-- 同事件报道：Atlas by World Labs（Product Hunt — AI）
+## 9. [AINews] Fal’s H3 Max Live breaks the infinite videogen barrier
+- 语言：? ｜ 来源：Latent Space、Product Hunt — AI（2 个来源） ｜ 热度：4.5
+- 摘要：For the entirety of the history of Generative Media , you basically had to design around the inconvenient fact that generating images and video takes time — even if you used consistency models to get a 30 second generati...
+- 发布时间：2026-09-01 12:36 CST
+- 链接：https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the
+- 同事件报道：H3 Max by fal（Product Hunt — AI）
 
-## 16. Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment
-- 语言：? ｜ 来源：MarkTechPost、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
-- 摘要：Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This...
-- 发布时间：2026-09-04 03:46 CST
-- 链接：https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/
-- 同事件报道：Claude for Commerce Agents（Hacker News (AI stories)）
+## 10. [AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training
+- 语言：? ｜ 来源：Latent Space、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 摘要：Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck’s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now th...
+- 发布时间：2026-09-03 12:38 CST
+- 链接：https://www.latent.space/p/ainews-muse-spark-13-matches-gpt
+- 同事件报道：Muse Spark 1.3（Hacker News (AI stories)）
+- 同事件报道：Muse Spark 1.3（Hacker News (AI stories)）
 
-## 17. GPT‑6 Astra
-- 语言：? ｜ 来源：Simon Willison's Weblog、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
-- 摘要：GPT‑6 Astra GPT-6 Astra is "rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API a...
-- 发布时间：2026-09-04 04:18 CST
-- 链接：https://simonwillison.net/2026/Sep/3/gpt6-astra/
-- 同事件报道：OpenAI Releases GPT Astra（Hacker News (AI stories)）
-- 同事件报道：GPT 6 Astra（Hacker News (AI stories)）
+## 11. Top Pentagon official reaffirms Anthropic blacklist despite Lutnick comments
+- 语言：? ｜ 来源：Axios、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
+- 摘要：Pentagon official Emil Michael on Thursday said that Anthropic is still considered a " supply chain risk ," a day after Commerce Secretary Howard Lutnick said the company is "back on the right side." Why it matters: The...
+- 发布时间：2026-09-03 23:48 CST
+- 链接：https://www.axios.com/2026/09/03/pentagon-reaffirms-anthropic-blacklist
+- 同事件报道：Pentagon Says Its Anthropic Ban Is On, Despite Lutnick Remarks（Reddit AI subreddits (new)）
 
-## 18. OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold
-- 语言：? ｜ 来源：MarkTechPost、Hacker News (AI stories)（2 个来源） ｜ 热度：5.5
-- 摘要：Today, OpenAI released GPT-6 Astra . The company calls it its most intelligent and aligned model, and positions it primarily as a computer-use system rather than a chat model. The pitch is that Astra operates software th...
-- 发布时间：2026-09-04 05:16 CST
-- 链接：https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/
-- 同事件报道：OpenAI to Restrict Astra Model After Rating It 'Critical' Cyber Risk（Hacker News (AI stories)）
+## 12. OpenAI says it has overtaken Anthropic with its latest AI model
+- 语言：? ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 摘要：ChatGPT maker claims its ‘Astra’ could be considered ‘artificial general intelligence’
+- 发布时间：2026-09-04 02:00 CST
+- 链接：https://www.ft.com/content/55ab40c0-59e2-4c0b-97c9-4f4f5a71a8bb?syn-25a6b1a6=1
+- 同事件报道：OpenAI says it has overtaken Anthropic with its latest AI model（Hacker News (AI stories)）
 
-## 19. GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代
-- 语言：? ｜ 来源：开源中国、智源社区（2 个来源） ｜ 热度：5.5
-- 摘要：凌晨三点三十三分，GPT-6 Astra 发布了。 OpenAI 在博客里说这是「世界上最智能、最对齐的模型」。Sam Altman 在 X 上说「我们花了额外的时间确保安全和对齐标准，但你们会等得值得」。Greg Brockman 直接表示「欢迎来到 AGI 时代」。 GPT-6 Astra 但整场发布里，真正让人停下来的，是 ARC-AGI-3 上的一个数字：99.9%。 ...
-- 发布时间：2026-09-04 09:39 CST
-- 链接：https://www.oschina.net/news/502307/openai-gpt-6-astra
-- 同事件报道：刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代（智源社区）
+## 13. ChatGPT、Claude、Grok 同时宕机，没人解释为什么
+- 语言：? ｜ 来源：开源中国、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 摘要：9 月 3 日，ChatGPT、Claude 和 Grok 同时宕机了。 不是先后，是几乎完全重叠。Grok 在美东时间上午 9:30 开始出问题。ChatGPT 在上午 11 点左右开始返回错误。Claude 在同一时间窗口内发生了一次持续 3 小时 6 分钟的部分中断。 三家公司的官方说法各自不同。OpenAI 给 The Register 的说法是「路由错误」——从太平洋时...
+- 发布时间：2026-09-04 11:56 CST
+- 链接：https://www.oschina.net/news/502312/chatgpt-grok-claude-outage-down
+- 同事件报道：ChatGPT, Claude, and Grok Are Down（Hacker News (AI stories)）
 
-## 20. 诡异又倒胃口：AI 食物图片攻占餐厅菜单，让消费者食欲全无
+## 14. 黎曼猜想推至理论边界99.55%，元代理架构AI：在思考中重塑大脑
+- 语言：? ｜ 来源：36氪 AI 频道、智源社区（2 个来源） ｜ 热度：4.5
+- 摘要：当我们惊叹于大语言模型能写诗、会编程时，科学家们正面临一个更棘手的问题：如何让AI像真正的科研工作者一样，去解决那些需要数月甚至数年持续思考、且充满未知的科学难题？ 传统的做法是，给AI一个预设好的「大脑结构」（即固定架构），然后让它去处理各种任务。这就像让一个数学家、物理学家和工程师共用同一个大脑，虽然很全能，但处理特定复杂问题时，总是显得不够「顺手」。 近日，由广东工业大学、华南师范大学、上海交通大学、杜克大学等国内外高校联合成立的...
+- 发布时间：2026-09-04 21:15 CST
+- 链接：https://www.36kr.com/p/3968833866002688
+- 同事件报道：黎曼猜想推至理论边界99.55%！元代理架构AI：在思考中重塑大脑（智源社区）
+
+## 15. How OpenAI Limited the Probe of Its Bots’ Hack of Hugging Face
+- 语言：? ｜ 来源：New York Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 摘要：Hjalmar Wijk, METR chief scientist, left, and Ajeya Cotra, METR researcher, at their research center in Berkeley, Calif.
+- 发布时间：2026-09-04 23:15 CST
+- 链接：https://www.nytimes.com/2026/09/03/technology/openai-hugging-face-hack.html
+- 同事件报道：OpenAI delayed its new model's development after the Hugging Face hack（Hacker News (AI stories)）
+
+## 16. Tumbler Ridge Shooting Survivors File 30 Lawsuits Against OpenAI
+- 语言：? ｜ 来源：New York Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 摘要：A memorial for the victims of a deadly mass shooting at a school in Tumbler Ridge, British Columbia, in February.
+- 发布时间：2026-09-05 01:19 CST
+- 链接：https://www.nytimes.com/2026/09/04/world/canada/openai-lawsuits-tumbler-ridge-shooting.html
+- 同事件报道：Teachers, students file new lawsuits against OpenAI over Tumbler Ridge shooting（Hacker News (AI stories)）
+
+## 17. Using Blender with coding agents on macOS
+- 语言：? ｜ 来源：Simon Willison's Weblog、Hacker News (AI stories)（2 个来源） ｜ 热度：4.5
+- 摘要：TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.or...
+- 发布时间：2026-09-05 23:51 CST
+- 链接：https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/
+- 同事件报道：Using Blender with coding agents on macOS（Hacker News (AI stories)）
+
+## 18. Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片
+- 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
+- 摘要：IT之家 9 月 7 日消息，Asahi Linux 系统昨日起正式开始支持苹果 M3、M3 Pro 和 M3 Max 芯片，使用上述三款芯片的 Mac 电脑现可运行这款 Linux 系统。 Asahi Linux 官方表示， 当前阶段他们还没有支持 M3 Ultra 芯片 ，因此部分 Mac Studio 用户暂时还无法加入 Linux 阵营。 开发者透露，M3 芯片现已支持 M1 和 M2 版本的几乎所有功能，其中包括摄像头、内置麦...
+- 发布时间：2026-09-07 06:47 CST
+- 链接：https://www.ithome.com/0/999/050.htm
+
+## 19. Anthropic 15 亿美元 AI 版权和解金开始陆续发放，但出版社和作者分配补偿争议不断
 - 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
-- 摘要：IT之家 9 月 6 日消息，据卫报报道，午休期间，吉尔 · 森内特看到了一些让她完全提不起食欲的东西，于是忍不住分享给自己在 X 平台上的 2.6 万名粉丝：一家牙买加烧烤快闪餐厅使用人工智能生成的菜单图片，里面的肉看起来像是一条条皮带，上面还爬满了细小的甲虫。 这些图片随后被 500 多人转发，许多人同样表达了厌恶之情。现年 37 岁、居住在丹佛的护士森内特表示，吃饭“是人类最基本的体验之一”。她说：“我认为，餐厅开始采用这种恐怖、...
-- 发布时间：2026-09-06 22:37 CST
-- 链接：https://www.ithome.com/0/999/042.htm
+- 摘要：IT之家 9 月 7 日消息，Anthropic 去年就版权集体诉讼案达成和解。法院裁定，Anthropic 使用受版权保护的材料训练 AI 模型符合“合理使用”（Fair Use）原则，属于合法行为，但通过盗版方式获取这些材料则不受合理使用保护，因此 Anthropic 将为训练模型时使用的近 50 万部盗版作品原作者提供赔偿，补偿标准为每部盗版作品 3,000 美元 （IT之家注：现汇率约合 20,203 元人民币） ，和解金合计为...
+- 发布时间：2026-09-07 06:43 CST
+- 链接：https://www.ithome.com/0/999/049.htm
+
+## 20. 《神鬼寓言》游戏总监称本作所有 NPC 均为人工设计，未使用 AI 及随机生成器
+- 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
+- 摘要：IT之家 9 月 7 日消息，《神鬼寓言》游戏总监 Ralph Fulton 在接受外媒 GamesRadar+ 采访时，透露《神鬼寓言（Fable）》中的每一名 NPC 均为单独设计的，开发团队希望每个角色的职业、外貌和性格能够相互匹配，让整个世界更加真实可信。 与许多游戏开发商直接使用 AI / 随机生成器不同，《神鬼寓言》开发团队放弃使用此类方式，希望通过人工设计，让 Albion 世界中的每个角色都更加独特，也更具生命力。 Fu...
+- 发布时间：2026-09-07 06:53 CST
+- 链接：https://www.ithome.com/0/999/052.htm

@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-07 07:00 CST
+生成时间：2026-09-07 09:10 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -398,6 +398,14 @@
 - 发布时间：2026-09-04 17:20 CST
 - 链接：https://www.axios.com/2026/09/04/astra-openai-how-ai-models-think
 
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 1 条）
+
+### 1. Japanese Stocks Advance as Tech, Chip Shares Follow US Peers
+- 摘要：Japanese stocks rose, driven by tech and chip shares, following a surge in AI and semiconductor-related names in the US on Friday. Signs of stabilizing interest rates also helped assure investors.
+- 作者：Momoka Yokoyama
+- 发布时间：2026-09-07 08:48 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-07/japanese-stocks-advance-as-tech-chip-shares-follow-us-peers
+
 ## CNBC Technology（cnbc-tech，en，本窗口共 20 条）
 
 ### 1. ‘Model fatigue’ sets in as AI labs race to roll out new versions at frenetic pace
@@ -585,25 +593,25 @@
 - 发布时间：2026-08-30 23:46 CST
 - 链接：https://newsletter.semianalysis.com/p/most-neoclouds-suck-at-security
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 20 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 22 条）
 
-### 1. The purpose of DNS is to spread scams
+### 1. Research acceleration: The view inside OpenAI
+- 摘要：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym....
+- 作者：Simon Willison
+- 发布时间：2026-09-07 07:57 CST
+- 链接：https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/
+
+### 2. The purpose of DNS is to spread scams
 - 摘要：The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that "the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate". On this Interisle report ( via Andrew Campling ), Terence says: It...
 - 作者：Simon Willison
 - 发布时间：2026-09-06 22:40 CST
 - 链接：https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/
 
-### 2. Quoting Zach Kehs
-- 摘要：If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt
+### 3. There's No Limit to How Bad Code Can Get
+- 摘要：My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin...
 - 作者：Simon Willison
-- 发布时间：2026-09-06 16:42 CST
-- 链接：https://simonwillison.net/2026/Sep/6/zach-kehs/
-
-### 3. Introducing GPT-6 Astra for developers
-- 摘要：Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've...
-- 作者：Simon Willison
-- 发布时间：2026-09-06 07:27 CST
-- 链接：https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+- 发布时间：2026-09-06 17:08 CST
+- 链接：https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
 
 ## TechCrunch — AI（techcrunch-ai，en，本窗口共 21 条）
 
@@ -645,25 +653,25 @@
 - 发布时间：2026-09-06 18:15 CST
 - 链接：https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/
 
-## The Verge — AI（theverge-ai，en，本窗口共 10 条）
+## The Verge — AI（theverge-ai，en，本窗口共 11 条）
 
-### 1. OpenAI admits to German wiki ‘incident’
+### 1. Seattle Times and Newsday sue OpenAI and Microsoft for infringement
+- 摘要：The OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhot...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-07 07:36 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft
+
+### 2. OpenAI admits to German wiki ‘incident’
 - 摘要：OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site . Regarding the "'wiki incident,' where our ag...
 - 作者：Robert Hart
 - 发布时间：2026-09-05 19:15 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
 
-### 2. Roland is getting into generative AI music with Melody Flip
+### 3. Roland is getting into generative AI music with Melody Flip
 - 摘要：It's not quite the "push button; get song" of Suno , but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 "Palettes," which are essentially themed collections of musical id...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-05 01:51 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip
-
-### 3. Microsoft says virtually nobody was grabbing NYT articles through its chatbot
-- 摘要：Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors . As part of...
-- 作者：Lauren Feiner
-- 发布时间：2026-09-05 00:05 CST
-- 链接：https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit
 
 ## TLDR AI（tldr-ai，en，本窗口共 5 条）
 
@@ -723,42 +731,41 @@
 - 发布时间：2026-09-05 18:30 CST
 - 链接：https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 30 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 34 条）
 
-### 1. 果蝇版黑客帝国来了：谷歌十年画出果蝇大脑，硕士生用GPT-6两天让它沙盒起飞
-- 摘要：一只果蝇，在Minecraft里飞。 在一个用玻璃方块搭出的密室里，四壁全透明，灰色石砖铺地，墙外是Minecraft标志性的蓝天。 一只红褐色的小果蝇悬在半空，扇动翅膀，飞几格，拐个弯，翻个身，一会儿头朝左，一会儿肚子朝上，像一只刚被放进罐子里还没搞清状况的真实果蝇。 推动它飞的不是游戏脚本，而是一整套雄性果蝇中枢神经系统的连接组。 166700个神经元在模拟中放电，神经活动直接决定了这只虚拟果蝇的每一次转向。 这份代号为MaleCNS v1.0的脑图谱来头极大： HHMI Janelia、剑桥大学和Google Research做了十年，光人工校对就花了44人年，9月3日刚刚登上《Cell...
+### 1. AMD想让人人“Token自由”？
+- 摘要：“AI PC是个人计算的基础设施，而非云端AI的替代品。” 1月份，苏姿丰在CES展上说要押注AI个人计算，当时AMD拿出的解决方案是128GB的Ryzen AI Halo。 8个月之后，AMD决定为个人计算基础设施的配置进一步加码，正式拿出新一代Gorgon Halo芯片，把统一内存从128GB拉到192GB，允许用户在本地部署3000亿参数模型。 AMD的升级策略直指英伟达，后者针对个人AI计算推出的DGX Spark芯片，统一内存为128GB，本地部署的模型也仅能支持到2000亿参数规模。 今年9月初的IFA（柏林国际消费电子展），AMD高级副总裁、计算与图形总经理Jack Huynh在...
+- 发布时间：2026-09-07 08:54 CST
+- 链接：https://www.36kr.com/p/3972462870114823
+
+### 2. 谷歌让AI互怼几天，小模型竟复现3道博士级难题
+- 摘要：如果不看名字，你肯定会以为这又是一个强大到不能公开发行的顶级模型，甩出的一份「开挂」战绩： 做科研：一口气解开7道顶尖数学和计算机难题，交出的40页长篇证明连最严苛的机器审核都挑不出错； 干工程：从零手写了一个极度逼真的CPU模拟器，不仅成功启动系统，运行误差0.71%； 写代码：顺手把Eigen和ParlayHash两个主流开源库的核心代码给优化了，改动直接被上游维护者合并。 这是谷歌Antigravity团队8月27日刚亮出的一张成绩单。 在Teamwork技术长文中，谷歌Antigravity团队集中公布数学、系统与开源三类成果。 让人意外的是，这次扛大梁的不是什么算力吞金兽，而是主打「...
 - 作者：新智元
-- 发布时间：2026-09-06 16:50 CST
-- 链接：https://www.36kr.com/p/3971642393686535
+- 发布时间：2026-09-07 08:42 CST
+- 链接：https://www.36kr.com/p/3972479883866377
 
-### 2. AI科学家冲出屏幕！MIT教授扔4张照片，3个Grok一小时造出零件
-- 摘要：四张照片，彼此毫无关联。 MIT的工程系教授Markus Buehler，把这四张照片，连同一个硬核的力学问题，一起扔给了3个AI。 一个多小时后，他桌上那台3D打印机吐出两个塑料件，一共19.48克。 从照片到零件，中间这段路，3个AI接力走完： 看懂图，抽出结构规律，写出一个能跑的物理模拟器，做47次实验，导出模型文件，切片，送进打印机。 过去所有「AI科学家」的演示，都停在同一个地方：一份报告，一段代码，一张仿真图。 真想动手，你还得有一间造价百万美元起步的自动化实验室。 这一次，AI绕开了百万美元的门槛，直接把东西造了出来。 Buehler直接在帖子里感慨：我们是不是已经活在未来了？...
+### 3. OpenAI产品负责人：你熬夜写的50页文档，已经不值钱了
+- 摘要：不管你愿不愿意，你熬夜写的那份50页文档，正在急速贬值。 这不是你的锅，只怪现在的AI太能干了——几分钟就能吐出一份字数相当、同样工整、几乎挑不出什么毛病的替代品。 所有打工人都撞上这样一个残酷现实： 在今天，能写出长文档，已经证明不了你认真思考过。 说这话的，是OpenAI Codex与ChatGPT Work的产品负责人Tara Seshan。 Tara Seshan 在Lenny's Podcast上长达81分钟的访谈中，她还抛出了一句更狠的断言： 为当下的模型做产品，会失败；为你以为的一年后的模型做产品，同样会失败。 当每个人手里都拿着顶级工具，当AI正在演变为「持久在线的Agent同...
 - 作者：新智元
-- 发布时间：2026-09-06 16:48 CST
-- 链接：https://www.36kr.com/p/3971642425372930
+- 发布时间：2026-09-07 08:28 CST
+- 链接：https://www.36kr.com/p/3972487987523844
 
-### 3. 盖茨的AI警告说对了一半
-- 摘要：2026年8月26日，比尔·盖茨在他创办的Gates Notes上发了一篇5784字的长文，标题叫《动荡的AI时代已经到来，我们现在所做的选择至关重要》。 其核心判断是：AI要么成为有史以来最强大的均衡器，要么成为最严重的不公之源，解决AI带来的社会问题，美国和中国需要进行合作。这是他三年来第一次就人工智能发表系统性论述。 这位曾经对技术革命“兴奋程度不亚于互联网和个人电脑普及”的微软创始人，说出了从业以来最沉重的一句话：“这是我第一次面对一种新技术，希望它发展得慢一点。” 文章发布后迅速刷屏。但冷静下来看，盖茨指出的问题足够深刻，可他开出的药方——对AI征税、设立“人类保留”岗位、指望中美像...
-- 作者：思策智库
-- 发布时间：2026-09-06 15:20 CST
-- 链接：https://www.36kr.com/p/3971565038458496
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 10 条）
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 4 条）
+### 1. 市场认购情绪火热，首批创业板算力基础设施ETF发行
+- 摘要：距离获批仅一周，市场迎来首批算力主题ETF。9月4日，8只跟踪创业板算力基础设施指数的ETF同步启动发行，为投资者捕捉算力产业机遇提供了全面、高弹性的配置工具。市场认购情绪火热，已有产品在发售当日即宣告结束募集。8月28日，这批创业板算力ETF正式拿到批文，从获批到启动发行间隔仅7天，落地节奏显著快于普通主题ETF，体现出监管层引导社会资本投向硬科技赛道的导向，也折射出基金机构抢占算力赛道的迫切意愿。（证券时报）
+- 发布时间：2026-09-07 09:06 CST
+- 链接：https://www.36kr.com/newsflashes/3972641701720321
 
-### 1. 国内首款AI辅助创新药获批上市
-- 摘要：据西湖大学消息，由西湖大学、西湖实验室、西湖制药联合研发的创新药——盐酸伊司特韦片（商品名：艾普司韦）近期正式获得国家药品监督管理局附条件批准上市。这是西湖大学首款完全自主研发的1类创新药，用于成人轻型、中型新型冠状病毒感染的治疗。1类创新药是中国药品注册分类中的最高级别，代表从0到1的源头创新，其核心在于拥有全新的化学结构、全新的作用机制，且具备明确的临床价值。（财联社）
-- 发布时间：2026-09-06 15:19 CST
-- 链接：https://www.36kr.com/newsflashes/3971599447650822
+### 2. 韩国选定得州223亿美元天然气电厂作为首个美国投资项目
+- 摘要：韩国经济日报援引不愿具名的政府消息人士报道，韩国已选定美国得克萨斯州一项约223亿美元燃气发电厂项目，作为其3500亿美元对美投资计划下的首个落地项目。韩美双方敲定项目最终造价约223亿美元；美方最初要求投资250亿美元，韩国方面最初考量金额为198亿美元。该项目选址于得克萨斯州恩西纳尔，总装机容量6.3吉瓦，用于满足人工智能数据中心的电力需求。项目先建设1.4吉瓦燃气轮机发电机组，后续再新增4.9吉瓦联合循环发电产能。韩国政府计划于周一向国会汇报该项目，完成国会报备与审批流程后，于本月正式公布这一首个对美投资项目。（新浪财经）
+- 发布时间：2026-09-07 09:04 CST
+- 链接：https://www.36kr.com/newsflashes/3972645755941379
 
-### 2. “国家反诈AI”APP上线
-- 摘要：为进一步提升防范电信网络诈骗工作的信息化、智能化水平，帮助群众有效识诈防诈，近日，公安部刑侦局指导，上海市公安局自主研发的“国家反诈AI”APP正式上线。 “国家反诈AI”APP融合了大语言、多模态模型和智能体技术，用户通过手机输入可疑场景，该APP即可完成风险研判、识别诈骗套路、推送典型案例，从“文字+语音+视频”等多个维度拆解诈骗手法，提供识别防范对策。（新华社）
-- 发布时间：2026-09-06 14:32 CST
-- 链接：https://www.36kr.com/newsflashes/3971552542683393
-
-### 3. AI短剧制作价格大跳水
-- 摘要：今年以来，AI短剧迎来一轮爆发：技术门槛下降，大量从业者涌入，产能快速扩张，制作价格随之“跳水”。同样制作AI短剧，每分钟报价从5000元跌至几百元，逼近成本线；但定制短剧业务依旧可以达到每分钟1万‑2万元。当“会制作”不再是稀缺能力，AI短剧行业竞争正从拼产量、拼价格，转向拼内容、拼市场。数据显示，预计2026年国内AI剧漫剧市场规模有望超400亿元，同比增速138%。海外市场表现同样亮眼，规模预计突破40亿美元，占海外微短剧整体规模近70%。（央视财经）
-- 发布时间：2026-09-06 13:44 CST
-- 链接：https://www.36kr.com/newsflashes/3971505282413060
+### 3. 六部门：支持建设一批未来茶厂、智慧药房、智能窑厂、数智酒厂
+- 摘要：36氪获悉，工业和信息化部等六部门近日联合印发《关于推动历史经典产业高质量发展的意见》。意见提出，加快产业智能化升级。编制人工智能赋能历史经典产业实施指南，支持优势产区探索建设产业大脑，构建涵盖配方、纹样、工艺等参数的高质量数据集。加快应用人工智能大模型解析传统工艺原理，深化动态控制、质量追溯、柔性生产等智能场景应用，支持建设一批未来茶厂、智慧药房、智能窑厂、数智酒厂。建立产业工艺知识图谱，支持创意设计快速转化，通过众包众筹实现个性化生产。
+- 发布时间：2026-09-07 08:58 CST
+- 链接：https://www.36kr.com/newsflashes/3972640360542468
 
 ## 极客公园（geekpark，zh，本窗口共 24 条）
 
@@ -779,25 +786,25 @@
 - 发布时间：2026-09-05 08:24 CST
 - 链接：http://www.geekpark.net/news/369871
 
-## 虎嗅（huxiu，zh，本窗口共 11 条）
+## 虎嗅（huxiu，zh，本窗口共 21 条）
 
-### 1. 富豪为什么要亲手写万字小作文：孙宇晨这次玩砸的，是他吃了十年的老本
-- 摘要：孙宇晨和景甜这事，热闹了快两个星期了。时间线、聊天记录、各路大佬下场站队、一次又一次的反转，该被扒的细节早被扒烂了，该站的队大家也都站过了。这个点上再来复盘一遍谁对谁错、谁又爆了什么料，说实话没什么意思，网上已经有几百篇了，不缺我这一篇。所以这篇不打算再加一盘瓜。我更好奇的是另一件事：一个身价以亿计的加密富豪...... 本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 孙宇晨和景甜这事，热闹了快两个星期了。 时间线、聊天记录、各路大佬下场站队、一次又一次的反转，该被扒的细节早被扒烂了，该站的队大家也都站过了。这个点上再来复盘一遍谁对谁错、谁又爆了什么料，说实话没什么意思，网...
-- 作者：Linda产业笔记
-- 发布时间：2026-09-07 01:11 CST
-- 链接：https://www.huxiu.com/article/4888978.html
+### 1. 摩尔、沐曦、壁仞、天数，谁过得最好？
+- 摘要：国产GPU四小龙，集体交卷。定焦One（dingjiaoone）原创过去几年，国产GPU公司最不缺的，是融资、估值和“国产替代”的故事。如今，到了交卷环节。最近，摩尔线程、沐曦股份、壁仞科技、天数智芯四家已经上市的国产GPU公司相继发布财报，2026年上半年，摩尔线程营收规模最高，达到17.36亿元；壁仞科技...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 国产GPU四小龙，集体交卷。 定焦One（dingjiaoone）原创 过去几年，国产GPU公司最不缺的，是融资、估值和“国产替代”的故事。如今，到了交卷环节。 最近，摩尔线程、沐曦股份、壁仞科技、天数智芯...
+- 作者：定焦One
+- 发布时间：2026-09-07 09:00 CST
+- 链接：https://www.huxiu.com/article/4888999.html
 
-### 2. 生成式AI 的中局范式：从Harness 到Experience Loop
-- 摘要：过去几年，生成式AI行业一直在寻找下一个足以改写叙事的大词。有人说是更大的模型，有人说是推理，有人说是Agent，有人说是世界模型，也有人已经把目光投向“自我改进”“递归自我提升”。但如果把这些概念拆开，会发现：2026年的行业未必已经出现了“Transformer 2.0”式的新底座；真正逐渐收敛的，是一套...... 本文来自微信公众号： AIGC从0到1 ，作者：王零壹，原文标题：《生成式 AI 的中局范式：从 Harness 到 Experience Loop》 过去几年，生成式AI行业一直在寻找下一个足以改写叙事的大词。 有人说是更大的模型，有人说是推理，有人说是Agent，有人说是...
-- 作者：AIGC从0到1
-- 发布时间：2026-09-07 00:06 CST
-- 链接：https://www.huxiu.com/article/4888974.html
+### 2. 用神经科学的原理来讨论中国画
+- 摘要：本世纪以来，西方多位神经科学家，如英国伦敦大学学院的S.Zeki等，采用近、现代脑科学里的新发现和相应的实验手段，分析、解读了在许多西方名画里蕴含的科学原理，令广大的科学、艺术爱好者耳目一新，并创立了“神经美学”新学科。笔者在学习之余、觉得与西方绘画技法迥异的中国画法，是否也可以从中找...... 本文来自微信公众号： 知识分子 ，作者：林凤生（上海大学退休教授，退休后喜欢跨学科研究科学与绘画，著有《名画在左 科学在右》1、2，作品入选“中国好书”，获文津图书奖等。），题图来自：视觉中国 本世纪以来，西方多位神经科学家，如英国伦敦大学学院的S.Zeki等，采用近、现代脑科学里的新发现和相应的实...
+- 作者：知识分子zsfz
+- 发布时间：2026-09-07 09:00 CST
+- 链接：https://www.huxiu.com/article/4888992.html
 
-### 3. 最值得关注的一个动画暑期档，不止因为《八仙！》的爆火
-- 摘要：经过多年培育，国产动画已经跳出圈层，成为院线重要的内容支柱。C端消费市场的成熟，以及AI对内容生产的持续渗透下，中国文娱行业真正走到IP化的临界点。被视为打造IP的最佳内容媒介，动画在各大公司的战略版图中的权重稳步提升，对动画电影的认知也从一种垂直类型，变为放大IP价值的关键节点。根据国家电影局统计，2026...... 本文来自微信公众号： 叁拾代 ，作者：叁拾代，原文标题：《最值得关注的一个动画暑期档，不止因为《八仙！》的爆火》 经过多年培育，国产动画已经跳出圈层，成为院线重要的内容支柱。C端消费市场的成熟，以及AI对内容生产的持续渗透下，中国文娱行业真正走到IP化的临界点。被视为打造IP...
-- 作者：叁拾代
-- 发布时间：2026-09-06 23:33 CST
-- 链接：https://www.huxiu.com/article/4888971.html
+### 3. 学硕消亡史：当就业的风，吹向了象牙塔顶端
+- 摘要：暑假对于许多考研人而言，是一道关键分水岭。多数考生会利用这两个月推进核心复习，也有人在此遭遇当头一击：埋头备考许久，目标专业突然缩招，或是直接宣布不再招收统考考生。这些停招、缩招的专业，大多集中在学术型硕士赛道。曾几何时，学硕被视作硕士体系里的“正统”：三年学制、学费低廉、享有国家补贴，在申博环节认可度更高，...... 本文来自微信公众号： 显微故事 ，编辑：卓然，作者：显微故事编辑部 暑假对于许多考研人而言，是一道关键分水岭。 多数考生会利用这两个月推进核心复习，也有人在此遭遇当头一击：埋头备考许久，目标专业突然缩招，或是直接宣布不再招收统考考生。 这些停招、缩招的专业，大多集中在学术型硕...
+- 作者：显微故事
+- 发布时间：2026-09-07 08:47 CST
+- 链接：https://www.huxiu.com/article/4888995.html
 
 ## 爱范儿（ifanr，zh，本窗口共 19 条）
 
@@ -839,25 +846,24 @@
 - 发布时间：2026-09-04 13:00 CST
 - 链接：https://www.infoq.cn/article/mKGb7ZiPRlAiFDZCWK0v?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 31 条）
+## IT之家（ithome，zh，本窗口共 41 条）
 
-### 1. 古尔曼：苹果考虑调整 App Store 以提高收入和利润率
-- 摘要：IT之家 9 月 6 日消息，据彭博社记者马克 · 古尔曼最新一期《Power On》时事通讯透露，苹果据称正在考虑对 App Store 进行一些调整，目标是进一步提高这一平台带来的收入。 目前还不清楚苹果究竟计划对 App Store 做出哪些改变。古尔曼表示，苹果希望“想办法提高利润率，并从这一平台榨取更多持续性收入”，而这项工作主要由苹果新任 CEO 约翰 · 特努斯和现任服务业务高级副总裁埃迪 · 库伊推动。 据称，这项计划也是苹果长期高管菲尔 · 席勒上周离职的原因之一。席勒在 2020 年卸任苹果全球营销高级副总裁一职后，转任苹果 Fellow（苹果院士），其职责之一就是负责 A...
-- 作者：作者： 远洋
-- 发布时间：2026-09-06 23:03 CST
-- 链接：https://www.ithome.com/0/999/044.htm
+### 1. Xplora Go Pad 平板曝光：HMD Global 代工、搭高通骁龙 685 处理器
+- 摘要：IT之家 9 月 7 日消息，消息源 smashx_60 现已曝光了一款由 HMD Global 代工的 Xplora Go Pad 平板电脑，该机主要用于教育市场，在 2026 年今天仍采用高通骁龙 685 处理器。 该机提供了 IP65 认证，可承受最高 100 厘米高度跌落，平板电脑正面搭载一块 8.7 英寸 IPS LCD 面板，软件方面提供了成人内容屏蔽、家在控制、教育 AI、联网控制等功能。平板电脑支持 18W 充电。 ▲ HMD 现款 T21 平板电脑 该机搭载高通骁龙 685 处理器，这是一款采用台积电 6nm 工艺制造的老款芯片，由 4 颗 Cortex-A73 性能核心和...
+- 作者：作者： 漾仔
+- 发布时间：2026-09-07 07:58 CST
+- 链接：https://www.ithome.com/0/999/067.htm
 
-### 2. 三星电子 DX 部门工会不满与其他部门薪酬差距，将在会长李在镕住宅前集会抗议
-- 摘要：IT之家 9 月 6 日消息，据韩联社昨日报道，三星电子同行工会宣布，将在三星电子会长李在镕的住宅前举行集会，抗议内部薪酬差距。该工会主要由负责智能手机、家电等终端产品的 DX 部门员工组成。 业内人士于 9 月 5 日透露，同行工会计划从 18 日开始，在首尔龙山区李在镕住宅附近持续举行集会及单人示威。 同行工会相关负责人接受采访时表示：“我们不设截止期限，计划长期抗争。在未能获批集会申报的日子里，将通过单人示威的形式继续进行。” IT之家注意到，同行工会指出，在今年 5 月三星电子劳资双方达成的薪资协议中， DX 部门被边缘化，其薪酬水平与负责半导体业务的 DS 部门存在过大差距 。基于此...
-- 作者：作者： 沁沧（实习
-- 发布时间：2026-09-06 22:43 CST
-- 链接：https://www.ithome.com/0/999/043.htm
+### 2. IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...
+- 摘要：“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。目前我国工业回收金属综合回收率超 98%，>> 查看详情 2. 比亚迪：今年受电池产能制约，闪充太受欢迎 比亚迪于 9 月 4 日发布投资者关系活动记录表，其中指出，今年受电池产能制约，闪充太受欢迎。>> 查看详情 3. “随时能问、随手可查”的反诈智能助手“国家反诈 AI”App 上线，微信、支付宝小程序也同步开放 据介绍...
+- 发布时间：2026-09-07 07:50 CST
+- 链接：https://www.ithome.com/0/999/065.htm
 
-### 3. 诡异又倒胃口：AI 食物图片攻占餐厅菜单，让消费者食欲全无
-- 摘要：IT之家 9 月 6 日消息，据卫报报道，午休期间，吉尔 · 森内特看到了一些让她完全提不起食欲的东西，于是忍不住分享给自己在 X 平台上的 2.6 万名粉丝：一家牙买加烧烤快闪餐厅使用人工智能生成的菜单图片，里面的肉看起来像是一条条皮带，上面还爬满了细小的甲虫。 这些图片随后被 500 多人转发，许多人同样表达了厌恶之情。现年 37 岁、居住在丹佛的护士森内特表示，吃饭“是人类最基本的体验之一”。她说：“我认为，餐厅开始采用这种恐怖、诡异又让人毫无食欲的食物图片，是一种不好的文化现象。” 不过，森内特最终还是点了鸡肉和芝士通心粉。这家餐厅是她午餐时为数不多的选择之一，而且她以前也在那里吃过饭...
-- 作者：作者： 远洋
-- 发布时间：2026-09-06 22:37 CST
-- 链接：https://www.ithome.com/0/999/042.htm
+### 3. 三防手机也要有背屏 + 增距镜？Blackview Xplore 6 亮相
+- 摘要：IT之家 9 月 7 日消息，据科技媒体 Notebookcheck 昨天报道，Blackview 在 IFA 2026 展会期间推出了 Xplore 6 三防手机，这款产品专为户外探险爱好者设计，拥有同类产品罕见的背屏，支持安装长焦增距镜头。 据介绍，这款手机的整体设计比较厚重，其厚度达到 18.2mm，重量 428g。该机正面配备 6.73 英寸 AMOLED 屏幕，分辨率达 3200*1440，支持 120Hz 高刷。 背面带有一块 1.47 英寸的副屏 ，分辨率为 368*194，可用于显示时间日期、控制音乐播放等，还能够当作相机取景器使用。 配置方面， 这款手机搭载天玑 9400+...
+- 作者：作者： 潞源
+- 发布时间：2026-09-07 07:34 CST
+- 链接：https://www.ithome.com/0/999/062.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 16 条）
 
@@ -921,25 +927,25 @@
 - 发布时间：2026-09-04 08:47 CST
 - 链接：https://sspai.com/post/114164
 
-## 钛媒体（tmtpost，zh，本窗口共 16 条）
+## 钛媒体（tmtpost，zh，本窗口共 17 条）
 
-### 1. 从精密技术到行业与机器人，爱普生正在重新给技术“定价”
+### 1. 【钛晨报】共增资3600亿元！8家中央金融企业拟补充资本，财政部将发行特别国债支持；紫金矿业就财报出错致歉；耐克首次遭标普100“开除”
+- 摘要：【钛媒体综合】据新华社9月6日消息，财政部将于近期发行3000亿元特别国债，支持8家中央金融企业补充核心一级资本。当日，工商银行、农业银行、进出口银行、中国信保、中国人保、中国人寿集团、中国太平、中国再保等8家中央金融企业分别发布了增资计划。统计显示，8家中央金融企业计划共增资3600亿元，有助于进一步增强稳健经营能力、抵御风险能力和服务实体经济能力。 具体来看，中国工商银行、中国农业银行两家大型国有商业银行拟向特定对象财政部、中国烟草总公司及相关子公司发行A股股票，计划募集资金分别不超过1000亿元、1600亿元。另外，财政部将向中国进出口银行、中国出口信用保险公司两家政策性金融机构分别注资...
+- 作者：钛媒体官方账号
+- 发布时间：2026-09-07 07:20 CST
+- 链接：https://www.tmtpost.com/8130184.html
+
+### 2. 从精密技术到行业与机器人，爱普生正在重新给技术“定价”
 - 摘要：当下，一个越来越清晰的共识是，无论是消费市场、还是制造业，都正在进入一个寻找增长动能的新阶段。企业过去赖以增长的产品逻辑和制造方式，都在被重新改写。 位于日本长野县和山形县的爱普生工厂依然保持着一种典型日本制造企业的节奏：安静、高效、精密。这里诞生过改变打印行业的喷墨技术，也制造过影响全球工业自动化的机器人产品。但在多数的大众消费者眼里，爱普生仍然是一家生产“打印机和投影机公司”。 在人工智能、新能源、智能制造正在重新定义产业竞争规则的今天，爱普生正在试图重新回答一个问题：一家拥有84年历史的制造企业，如何在下一个技术周期里找到新的增长空间？ 在与爱普生的多位高管深聊之后， 我们发现爱普生给出...
 - 作者：志读科技
 - 发布时间：2026-09-06 18:50 CST
 - 链接：https://www.tmtpost.com/8129869.html
 
-### 2. 美团守城，快手攻擂：港股互联网盈利韧性大考
+### 3. 美团守城，快手攻擂：港股互联网盈利韧性大考
 - 摘要：2026年的港股互联网板块，正在经历从“规模叙事”向“效率叙事”的深刻切换。当流量红利退潮、补贴大战进入消耗战，市场对“确定性资产”的定价逻辑，已从单纯的用户增长转向资本回报效率与盈利质量的真实验证。 在本地生活与短视频商业化这两个核心赛道，美团与快手分别代表了两种截然不同的生存样本：一个在激烈价格战中坚守核心利润底盘，通过组织效率与技术提效穿越周期；另一个以AI为杠杆撬动第二成长曲线，在主业承压时押注未来。 这两家公司都试图证明：宏观波动与竞争加剧的叠加期，港股互联网平台仍能凭借差异化资产壁垒，构建具备长期价值的ROIC护城河。 美团的“防御韧性”：外卖价格战下的利润保卫战 美团正在经历上市...
 - 作者：Barrons巴伦
 - 发布时间：2026-09-06 17:30 CST
 - 链接：https://www.tmtpost.com/8130102.html
-
-### 3. 计划-执行-反馈的闭环：我如何在千亿级制造企业打造物理AI
-- 摘要：文 | GritMeng 2004 年，我把一本 ERP 原理书翻到散架。那时候我还不知道，自己会用 22 年去回答一个问题：计划，到底该怎么做。 2007 年，我加入联想。2020 年，我离开。2026 年年初，我提炼出八大物理定律，建立《价值链物理学》。这条路，我走了 22 年。联想和它的 ODM 制造网络，对我而言从来不是"雇主"——它们是一批实践场，是我花了 22 年才看清的"定律提炼厂"。 如果要用一个物理场景概括这 22 年，那就是—— 一张工单在车间地板上改变了，系统在人还没反应过来之前，已经重新算完了齐套、重排了产线、发出了 Call 料指令、更新了交期、通知了库房发货准备。...
-- 作者：GritMeng
-- 发布时间：2026-09-06 16:35 CST
-- 链接：https://www.tmtpost.com/8129811.html
 
 ## 智东西（zhidx，zh，本窗口共 20 条）
 
@@ -980,25 +986,24 @@
 - 发布时间：2026-09-06 22:25 CST
 - 链接：https://github.com/DietrichGebert/ponytail
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 368 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 373 条）
 
-### 1. Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple
-- 摘要：Make Any DOM Reactive. Contribute to marsbos/mador development by creating an account on GitHub.
-- 作者：bosmarcel
-- 发布时间：2026-09-07 04:45 CST
-- 链接：https://github.com/marsbos/mador
+### 1. Four Weeks of a Vegan Diet Alter Signs of Inflammation and Aging
+- 摘要：Four Weeks of a Vegan Diet Alter Signs of Inflammation and Aging Nutrition study involving 48 healthy adults / Researchers analyze more than 800,000 genetic loci / Evidence of changes in inflammatory processes, metabolism, and biological aging Just four weeks of dietary changes can already be reflec...
+- 作者：marvinborner
+- 发布时间：2026-09-07 07:44 CST
+- 链接：https://www.uniklinik-freiburg.de/en/press/press-releases/detailed-view/6938-vier-wochen-vegane-ernaehrung-veraendern-entzuendungs-und-alterungssignale.html
 
-### 2. XCancel is available again
-- 摘要：XCancel is an instance of Nitter. Nitter is a free and open source alternative Twitter front-end focused on privacy and performance. The source is available on GitHub at https://github.com/zedeus/nitter - No JavaScript or ads - All requests go through the backend, client never talks to Twitter - Pre...
-- 作者：1matin
-- 发布时间：2026-09-07 04:44 CST
-- 链接：https://xcancel.com/about
+### 2. Pivot to AI safety, I beg you
+- 作者：doitLP
+- 发布时间：2026-09-07 07:37 CST
+- 链接：https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you
 
-### 3. Show HN: Sol, my macOS music player and jukebox app, is now free and open source
-- 摘要：Native macOS music player for local libraries and Subsonic/Navidrome servers, with bit-perfect output, podcasts and a metadata editor. - FulltimeFeline/Sol
-- 作者：fulltimefeline
-- 发布时间：2026-09-07 04:24 CST
-- 链接：https://github.com/FulltimeFeline/Sol
+### 3. One Hundred Authors Against Einstein
+- 摘要：Author: Hans Israel; Erich Ruckhaber; Rudolf Weinmann Publisher: Leipzig, R. Voigtländer, 1931. Edition/Format: ...
+- 作者：tzury
+- 发布时间：2026-09-07 07:10 CST
+- 链接：https://archive.org/details/HundertAutorenGegenEinstein
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 35 条）
 
@@ -1039,24 +1044,24 @@
 - 发布时间：2026-09-06 14:17 CST
 - 链接：https://v.redd.it/y3x61q2eeunh1
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 236 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 268 条）
 
-### 1. Well even Claude know that iam pasted from chatgpt💀
-- 摘要：So I was learning Python coding with Claude. When I had a good grasp of 3Sum, Claude asked me to create an example, and I was too lazy to do it. So I asked Chatgpt to create one. then I don't know how Claude could detect that this is chatgpt
-- 作者：SatirrHeree
-- 发布时间：2026-09-07 06:57 CST
-- 链接：https://i.redd.it/aflx00otcznh1.jpeg
+### 1. Kitty's got Hands
+- 摘要：First time have access to H3 and did this as a slop/meme test for fun, hope you enjoy
+- 作者：Due-Aardvark-1141
+- 发布时间：2026-09-07 09:03 CST
+- 链接：https://v.redd.it/m3rl763czznh1
 
-### 2. OpenAI employee predicts serious improvements for Blender x Astra by mid-2027
-- 作者：Distinct-Question-16
-- 发布时间：2026-09-07 06:50 CST
-- 链接：https://i.redd.it/1oprayakbznh1.jpeg
+### 2. The man who invented the term 'AGI' declares that AGI is here
+- 作者：Cagnazzo82
+- 发布时间：2026-09-07 08:56 CST
+- 链接：https://i.redd.it/xebx5pb0yznh1.png
 
-### 3. Krea 2 + qwen 3.8 promter is a bomb
-- 摘要：I updated our promter with qwen 3.8 and i gotta say not bad not bad, is it worth compared to the old qwen uncensored? Hmhmhm i aint sure to be honest but definitely a capable model
-- 作者：Gold-Safe6796
-- 发布时间：2026-09-07 06:49 CST
-- 链接：https://www.reddit.com/gallery/1w9asde
+### 3. On male impotence, and Fable Astraing so you can Astra while waiting for Claude 5h limit.
+- 摘要：Henlo frens, first in this sub, and it is bourne out of frustration and sadness for my previous achievements with Claude that Opus just decimated, especially my second brain wiki-llm setup. So here I am, mildly tipsy, and cause of Anthropics just absolute shit releases lately (that's a technical ter...
+- 作者：ennsta
+- 发布时间：2026-09-07 08:56 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1w9dm9p/on_male_impotence_and_fable_astraing_so_you_can/
 
 ## 智源社区（baai-hub，zh，本窗口共 6 条）
 
@@ -1079,7 +1084,7 @@
 - 链接：https://hub.baai.ac.cn/view/57716
 
 ---
-共列出 164 条（窗口内采集总数 1380 条，来自 60 个信源）
+共列出 165 条（窗口内采集总数 1452 条，来自 61 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
