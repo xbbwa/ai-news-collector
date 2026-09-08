@@ -57,7 +57,8 @@ def fetch_items_db(db_path: Path, since: datetime) -> list[dict]:
     conn.row_factory = sqlite3.Row
     try:
         rows = conn.execute(
-            "select id, source_id, source_tier, url, title, author, summary, content, published_at, fetched_at "
+            "select id, source_id, source_tier, url, title, author, lang, summary, content, raw, "
+            "published_at, fetched_at "
             "from items where fetched_at >= ? order by id",
             (since.astimezone(timezone.utc).replace(tzinfo=None).isoformat(sep=" "),),
         ).fetchall()
@@ -67,9 +68,18 @@ def fetch_items_db(db_path: Path, since: datetime) -> list[dict]:
     def iso(value: str | None) -> str | None:
         return f"{value.replace(' ', 'T')}+00:00" if value else None
 
-    return [
-        {**dict(r), "published_at": iso(r["published_at"]), "fetched_at": iso(r["fetched_at"])} for r in rows
-    ]
+    items = []
+    for row in rows:
+        item = dict(row)
+        if isinstance(item.get("raw"), str):
+            try:
+                item["raw"] = json.loads(item["raw"])
+            except ValueError:
+                item["raw"] = {}
+        item["published_at"] = iso(row["published_at"])
+        item["fetched_at"] = iso(row["fetched_at"])
+        items.append(item)
+    return items
 
 
 def fetch_items_jsonl(patterns: list[str], since: datetime) -> list[dict]:
@@ -112,8 +122,12 @@ def load_sources_yaml(path: Path) -> list[dict]:
     except ImportError:
         return []
     doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    # Mirror SourceConfig's default for entries that leave lang unset.
-    return [{"lang": "en", **s} for s in doc.get("sources") or [] if isinstance(s, dict) and "id" in s]
+    # Mirror SourceConfig defaults for entries that leave these fields unset.
+    return [
+        {"lang": "en", "region": "intl", **s}
+        for s in doc.get("sources") or []
+        if isinstance(s, dict) and "id" in s
+    ]
 
 
 def parse_ts(value: str | None) -> datetime | None:

@@ -1,6 +1,6 @@
 执行 Daily AI News 推送。先用读文件工具读取并严格遵守 skill：/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md
 
 要点（skill 里有完整规则）：
-- 只读候选清单 /mnt/data/openclaw-kb/openclawdata/daily-ai-news-curated.md，不读其他文件，不联网，不筛选不排序。
+- 只读候选清单 /mnt/data/openclaw-kb/openclawdata/daily-ai-news-curated.md，不读其他文件，不联网。清单已强制国内/国外各 50%，逐条翻译，不能合并、删除、重排或改地区。
 - 先用写文件工具覆盖 daily-push-history.md（原文标题），再输出正文。
 - OpenClaw 只把你最后一段文字发到群里：整个回复只能有一段文字，就是推送正文，第一个字符是 📰。合并方案等过程文字不能进回复。读写文件时不要说话，正文后不要有任何收尾语。记忆里"长内容拆分多条"的偏好对这个推送不适用，不拆分、不写（1/2）（2/2）。

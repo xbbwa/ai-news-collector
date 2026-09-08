@@ -105,7 +105,7 @@ jobs:
           python scripts/curate_digest.py --db data/collector.db --sources-yaml config/sources.yaml \
             --jsonl 'archive/items/*.cn.jsonl' --history public/digest/pushed-history.jsonl \
             --out-md public/digest/curated.md --out-json public/digest/curated.json \
-            --max-items 20 --min-zh 4
+            --max-items 20 --cn-items 10
 
       - name: Push full-text items to the private archive
         working-directory: archive

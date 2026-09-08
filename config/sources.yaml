@@ -4,6 +4,7 @@
 #   id            unique slug
 #   type          rss | hackernews | reddit | huggingface
 #   tier          1 = first-party (labs/companies/arXiv), 2 = professional media, 3 = social/aggregator
+#   region        source origin: intl (default) | cn; digest selection enforces a 50/50 split
 #   interval      poll interval in seconds
 #   proxy         true = route through PROXY_URL (domains commonly unreachable from mainland China).
 #                 Must stay false for ${RSSHUB_URL} sources: the RSSHub container does its own
@@ -355,6 +356,7 @@ sources:
   # DeepSeek publishes release notes at api-docs.deepseek.com/news (no RSS); RSSHub scrapes it.
   - id: deepseek-news
     name: DeepSeek News
+    region: cn
     type: rss
     url: ${RSSHUB_URL}/deepseek/news
     tier: 1
@@ -365,6 +367,7 @@ sources:
   # none of these labs has an RSS feed; their Hub organisations are the first-party signal.
   - id: hf-models-cn
     name: Hugging Face — model releases (Chinese labs)
+    region: cn
     type: huggingface
     tier: 1
     interval: 600
@@ -601,6 +604,7 @@ sources:
   # within the hour. Re-enable if a feed appears.
   - id: jiqizhixin
     name: 机器之心
+    region: cn
     type: rss
     url: https://www.jiqizhixin.com/rss
     tier: 2
@@ -612,6 +616,7 @@ sources:
   # them refuse or throttle overseas IPs for the article pages.
   - id: qbitai
     name: 量子位
+    region: cn
     type: rss
     url: https://www.qbitai.com/feed
     tier: 2
@@ -621,6 +626,7 @@ sources:
 
   - id: zhidx
     name: 智东西
+    region: cn
     type: rss
     url: https://zhidx.com/rss
     tier: 2
@@ -631,6 +637,7 @@ sources:
   # infoq.cn stamps Beijing time as "GMT"; shift back 8h to get real UTC.
   - id: infoq-cn
     name: InfoQ 中文
+    region: cn
     type: rss
     url: https://www.infoq.cn/feed
     tier: 2
@@ -643,6 +650,7 @@ sources:
   # 36kr.com/feed is dead (returns HTML); both channels go through RSSHub.
   - id: 36kr-newsflash
     name: 36氪 快讯
+    region: cn
     type: rss
     url: ${RSSHUB_URL}/36kr/newsflashes
     tier: 2
@@ -654,6 +662,7 @@ sources:
   # Channel slug is case-sensitive on 36kr.com: /information/AI exists, /information/ai is a 404.
   - id: 36kr-ai
     name: 36氪 AI 频道
+    region: cn
     type: rss
     url: ${RSSHUB_URL}/36kr/information/AI
     tier: 2
@@ -663,6 +672,7 @@ sources:
   # huxiu.com/rss/0.xml hangs for 60s+ per request; RSSHub route is reliable.
   - id: huxiu
     name: 虎嗅
+    region: cn
     type: rss
     url: ${RSSHUB_URL}/huxiu/article
     tier: 2
@@ -674,6 +684,7 @@ sources:
   # TLS verification ("unable to get local issuer certificate"). Disabled until the site fixes it.
   - id: latepost
     name: 晚点 LatePost
+    region: cn
     type: rss
     url: ${RSSHUB_URL}/latepost
     tier: 2
@@ -684,6 +695,7 @@ sources:
 
   - id: tmtpost
     name: 钛媒体
+    region: cn
     type: rss
     url: https://www.tmtpost.com/feed
     tier: 2
@@ -694,6 +706,7 @@ sources:
 
   - id: ifanr
     name: 爱范儿
+    region: cn
     type: rss
     url: https://www.ifanr.com/feed
     tier: 2
@@ -704,6 +717,7 @@ sources:
 
   - id: geekpark
     name: 极客公园
+    region: cn
     type: rss
     url: https://www.geekpark.net/rss
     tier: 2
@@ -714,6 +728,7 @@ sources:
 
   - id: ithome
     name: IT之家
+    region: cn
     type: rss
     url: https://www.ithome.com/rss/
     tier: 2
@@ -724,6 +739,7 @@ sources:
 
   - id: sspai
     name: 少数派
+    region: cn
     type: rss
     url: https://sspai.com/feed
     tier: 2
@@ -734,6 +750,7 @@ sources:
 
   - id: leiphone
     name: 雷峰网
+    region: cn
     type: rss
     url: https://www.leiphone.com/feed
     tier: 2
@@ -745,6 +762,7 @@ sources:
   # Article pages reject overseas IPs (full text failed for every item from the US runner).
   - id: oschina
     name: 开源中国
+    region: cn
     type: rss
     url: https://www.oschina.net/news/rss
     tier: 2
@@ -837,6 +855,7 @@ sources:
 
   - id: baai-hub
     name: 智源社区
+    region: cn
     type: rss
     url: ${RSSHUB_URL}/baai/hub
     tier: 3

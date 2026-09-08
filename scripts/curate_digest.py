@@ -10,7 +10,8 @@ has to translate and format:
   liked, items without a title
 - cross-day dedupe: stories similar to anything in the pushed-history file (what the server
   actually pulled and pushed on previous days) are dropped
-- diversity: at most N entries per source, a minimum quota of Chinese-language entries
+- diversity: at most N entries per source, an exact source-origin quota (10 China / 10 international
+  for the default 20); the two sides are interleaved so the visible list never looks one-sided
 
 Stdlib only; reuses the loaders in daily_digest.py.
 
@@ -198,36 +199,62 @@ def load_history(path: Path | None, days: int) -> list[frozenset[str]]:
     return out
 
 
-def select(clusters: list[Cluster], now: datetime, max_items: int, min_zh: int, per_source_cap: int) -> list[Cluster]:
+def cluster_region(c: Cluster, regions: dict[str, str]) -> str:
+    """Quota follows the representative/most authoritative source, not title language."""
+    return regions.get(c.rep["source_id"], "intl")
+
+
+def select(
+    clusters: list[Cluster],
+    now: datetime,
+    max_items: int,
+    cn_items: int,
+    per_source_cap: int,
+    regions: dict[str, str],
+) -> list[Cluster]:
     ranked = sorted(clusters, key=lambda c: score(c, now), reverse=True)
+    targets = {"cn": cn_items, "intl": max_items - cn_items}
+    selected: dict[str, list[Cluster]] = {"cn": [], "intl": []}
+    used: dict[tuple[str, str], int] = defaultdict(int)
+
+    for region in ("intl", "cn"):
+        for c in ranked:
+            if len(selected[region]) >= targets[region]:
+                break
+            if cluster_region(c, regions) != region:
+                continue
+            source = c.rep["source_id"]
+            if used[(region, source)] >= per_source_cap:
+                continue
+            selected[region].append(c)
+            used[(region, source)] += 1
+
+    # Interleave rather than grouping by region: every adjacent pair visibly stays 50/50.
     chosen: list[Cluster] = []
-    used: dict[str, int] = defaultdict(int)
-
-    def take(c: Cluster) -> None:
-        chosen.append(c)
-        used[c.rep["source_id"]] += 1
-
-    # Chinese-language quota first so domestic coverage is never crowded out.
-    for c in ranked:
-        if len(chosen) >= min_zh:
-            break
-        if (c.rep.get("lang") or "").startswith("zh") and used[c.rep["source_id"]] < per_source_cap:
-            take(c)
-    for c in ranked:
-        if len(chosen) >= max_items:
-            break
-        if c in chosen or used[c.rep["source_id"]] >= per_source_cap:
-            continue
-        take(c)
-    return sorted(chosen, key=lambda c: score(c, now), reverse=True)
+    for index in range(max(len(selected["intl"]), len(selected["cn"]))):
+        if index < len(selected["intl"]):
+            chosen.append(selected["intl"][index])
+        if index < len(selected["cn"]):
+            chosen.append(selected["cn"][index])
+    return chosen
 
 
-def build_markdown(chosen: list[Cluster], names: dict[str, str], now: datetime, stats: dict, summary_chars: int) -> str:
+def build_markdown(
+    chosen: list[Cluster],
+    names: dict[str, str],
+    langs: dict[str, str],
+    regions: dict[str, str],
+    now: datetime,
+    stats: dict,
+    summary_chars: int,
+) -> str:
     lines = [
-        f"# Daily AI News 候选清单（已去重排序，共 {len(chosen)} 条）",
+        f"# Daily AI News 候选清单（国内 {stats['selected_cn']}｜国外 {stats['selected_intl']}）",
         f"生成时间：{now.astimezone().strftime('%Y-%m-%d %H:%M %Z')}",
         f"数据窗口：最近 24 小时，{stats['items']} 条原始条目 → {stats['clusters']} 个事件；"
         f"过滤噪音 {stats['noise']} 个，排除前 {stats['history_days']} 天已推送的 {stats['dup']} 个。",
+        f"强制配额：国内源 {stats['selected_cn']}/{stats['target_cn']}，"
+        f"国外源 {stats['selected_intl']}/{stats['target_intl']}；按国外/国内交替排列。",
         "",
         "> 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，",
         "> 按 skill daily-ai-news 只做翻译与排版。「来源」里有几家就是几家同时报道，可作为重要程度的依据。",
@@ -236,9 +263,12 @@ def build_markdown(chosen: list[Cluster], names: dict[str, str], now: datetime, 
     for i, c in enumerate(chosen, 1):
         rep = c.rep
         src_names = [names.get(s, s) for s in c.sources]
+        region = cluster_region(c, regions)
+        region_label = "国内源" if region == "cn" else "国外源"
+        lang = rep.get("lang") or langs.get(rep["source_id"], "en")
         lines.append(f"## {i}. {one_line(rep['title'], 200)}")
         lines.append(
-            f"- 语言：{rep.get('lang') or '?'} ｜ 来源：{'、'.join(src_names[:5])}"
+            f"- 地区：{region_label} ｜ 语言：{lang} ｜ 来源：{'、'.join(src_names[:5])}"
             f"（{len(c.sources)} 个来源） ｜ 热度：{score(c, now)}"
         )
         summary = one_line(rep.get("summary") or rep.get("content"), summary_chars)
@@ -271,7 +301,11 @@ def main() -> int:
     ap.add_argument("--history-days", type=int, default=3)
     ap.add_argument("--hours", type=int, default=24)
     ap.add_argument("--max-items", type=int, default=20)
-    ap.add_argument("--min-zh", type=int, default=4)
+    ap.add_argument(
+        "--cn-items",
+        type=int,
+        help="exact number selected from region=cn (default: half of --max-items)",
+    )
     ap.add_argument("--per-source-cap", type=int, default=3)
     ap.add_argument("--summary-chars", type=int, default=220)
     ap.add_argument(
@@ -284,6 +318,9 @@ def main() -> int:
     ap.add_argument("--out-md", type=Path, required=True)
     ap.add_argument("--out-json", type=Path, required=True)
     args = ap.parse_args()
+    cn_items = args.max_items // 2 if args.cn_items is None else args.cn_items
+    if not 0 <= cn_items <= args.max_items:
+        ap.error("--cn-items must be between 0 and --max-items")
     excluded = set(args.exclude_source or ["tldr-ai", "github-trending"])
 
     now = datetime.now(timezone.utc)
@@ -296,6 +333,8 @@ def main() -> int:
     ]
     sources = load_sources_yaml(args.sources_yaml) if args.sources_yaml else []
     names = {s["id"]: s.get("name", s["id"]) for s in sources}
+    langs = {s["id"]: s.get("lang", "en") for s in sources}
+    regions = {s["id"]: s.get("region", "intl") for s in sources}
     keywords_by_source = {s["id"]: list(s.get("keywords") or []) for s in sources}
 
     clusters = cluster_items(items)
@@ -305,14 +344,30 @@ def main() -> int:
     fresh = [c for c in kept if not any(similar(c.tokens, h) for h in history)]
     dup = len(kept) - len(fresh)
 
-    chosen = select(fresh, now, args.max_items, args.min_zh, args.per_source_cap)
-    stats = {"items": len(items), "clusters": len(clusters), "noise": noise, "dup": dup, "history_days": args.history_days}
-    write_atomic(args.out_md, build_markdown(chosen, names, now, stats, args.summary_chars))
+    chosen = select(fresh, now, args.max_items, cn_items, args.per_source_cap, regions)
+    stats = {
+        "items": len(items),
+        "clusters": len(clusters),
+        "noise": noise,
+        "dup": dup,
+        "history_days": args.history_days,
+        "available_cn": sum(cluster_region(c, regions) == "cn" for c in fresh),
+        "available_intl": sum(cluster_region(c, regions) == "intl" for c in fresh),
+        "target_cn": cn_items,
+        "target_intl": args.max_items - cn_items,
+        "selected_cn": sum(cluster_region(c, regions) == "cn" for c in chosen),
+        "selected_intl": sum(cluster_region(c, regions) == "intl" for c in chosen),
+    }
+    write_atomic(
+        args.out_md,
+        build_markdown(chosen, names, langs, regions, now, stats, args.summary_chars),
+    )
     payload = [
         {
             "rank": i,
             "title": c.rep["title"],
-            "lang": c.rep.get("lang"),
+            "lang": c.rep.get("lang") or langs.get(c.rep["source_id"], "en"),
+            "region": cluster_region(c, regions),
             "url": c.rep["url"],
             "score": score(c, now),
             "sources": c.sources,
@@ -325,7 +380,9 @@ def main() -> int:
     write_atomic(args.out_json, json.dumps({"generated_at": now.isoformat(), "stats": stats, "items": payload}, ensure_ascii=False, indent=1))
     print(
         f"curated {len(chosen)} of {len(clusters)} clusters from {len(items)} items "
-        f"(noise {noise}, already pushed {dup}) -> {args.out_md}"
+        f"(noise {noise}, already pushed {dup}, "
+        f"cn {stats['selected_cn']}/{stats['target_cn']}, "
+        f"intl {stats['selected_intl']}/{stats['target_intl']}) -> {args.out_md}"
     )
     return 0
 

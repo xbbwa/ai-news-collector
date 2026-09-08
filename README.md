@@ -141,7 +141,7 @@ Actions 每小时                         scripts/curate_digest.py → data 分�
    ├ 打分排序：来源数 × 层级权重 + HN 分数 + HF likes + 发布类关键词 + 12h 内新鲜度
    ├ 过滤噪音：Reddit 自发帖、只有 Reddit/Product Hunt 单源的链接、没人点赞的 HF 上传、<80 分的 HN、TLDR 日报、GitHub Trending
    ├ 跨天去重：排除与 digest/pushed-history.jsonl（服务器回传的"已推送"）近 3 天相似的事件
-   └ 多样性：每源最多 3 条，至少 4 条中文源
+   └ 强制平衡：每源最多 3 条，按 `region` 严格取国外 10 条 + 国内 10 条，逐对交替排列；一侧不足不由另一侧补位
 服务器 07:01   scripts/sync_digest.sh：下载 curated.md → daily-ai-news-curated.md，latest.md → daily-ai-news-summary.md（完整版留档）；
                mark_pushed.py 把这 20 条记为已推送，publish_archive.py 上传 pushed-history.jsonl 回 data 分支
 OpenClaw 08:00 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 写 daily-push-history.md
@@ -163,10 +163,13 @@ OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录�
 能去掉这类干扰，但实测 Flash 在轻量上下文下反而把推演文字写进最终回复、还跳过写文件步骤，所以两个任务都保持完整上下文；
 健康检查任务的模型改成和正式推送相同的 `deepseek-v4-pro`（补推质量一致，正常时静默几乎不花钱）。
 
-调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --min-zh 4 --per-source-cap 3 --summary-chars 220 --exclude-source`。
+调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --cn-items 10 --per-source-cap 3 --summary-chars 220 --exclude-source`。
+`region` 表示**来源归属**而非标题语言：国内厂商/媒体显式标 `cn`，其余默认 `intl`。OpenClaw 必须逐条翻译，不得再合并、
+删除、重排或改地区，否则会破坏 50/50 配额。
 泛科技源（带 `keywords` 的）的条目还要求**标题**本身命中 AI 关键词才进候选，否则 Axios/CNBC 的债券解读这类靠摘要过筛的会混进来。
-实测一天 1232 条原始条目 → 1133 个事件 → 过滤 476 个噪音 → 20 条候选；排在前面的是 Claude 上 AWS、Gemini 视频理解、
-NVIDIA 收购 HF、GPT-6 Astra 这类 3–4 家同时报道的事件。同一事件的英文公告和中文转载目前还是两条（不做跨语言聚类），skill 里让模型合并。
+2026-09-08 用私有归档的真实 24 小时数据复测：891 条原始条目 → 851 个事件 → 过滤 594 个噪音、排除 9 个已推送事件；
+可选池国内 181 / 国外 67，最终严格选中国内 10 / 国外 10，排列为「国外、国内」重复 10 次。
+同一事件的英文公告和中文转载目前仍可能各占一个名额（不做跨语言聚类），但不再交给弱模型合并，以保证最终比例稳定。
 
 ## 自建部署（可选，Docker）
 

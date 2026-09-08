@@ -61,6 +61,7 @@ class SourceConfig:
     url: str | None = None
     tier: int = 2  # 1 = first-party, 2 = professional media, 3 = social/aggregator
     lang: str = "en"
+    region: str = "intl"  # source origin: intl | cn (used for 50/50 digest quotas)
     interval: int = 300  # seconds between polls
     proxy: bool = False  # route through PROXY_URL (for sources blocked in China)
     fetch_fulltext: bool = True
@@ -100,6 +101,8 @@ def load_sources(settings: Settings) -> list[SourceConfig]:
             raise ValueError(f"duplicate source id {src.id!r}")
         if src.type == "rss" and not src.url:
             raise ValueError(f"source {src.id!r}: rss source requires url")
+        if src.region not in {"intl", "cn"}:
+            raise ValueError(f"source {src.id!r}: region must be 'intl' or 'cn'")
         seen_ids.add(src.id)
         sources.append(src)
     return sources
