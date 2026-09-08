@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-08 05:38 CST
+生成时间：2026-09-08 08:34 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -295,25 +295,25 @@
 - 发布时间：2026-09-08 04:00 CST
 - 链接：https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 9 条）
 
-### 1. Mercator ↔ Equal Earth
-- 摘要：Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra
+### 1. Creepy crawlies
+- 摘要：Creepy crawlies Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds...
 - 作者：Simon Willison
-- 发布时间：2026-09-08 00:24 CST
-- 链接：https://simonwillison.net/2026/Sep/7/equal-earth/
+- 发布时间：2026-09-08 07:08 CST
+- 链接：https://simonwillison.net/2026/Sep/7/creepy-crawlies/
 
-### 2. Research acceleration: The view inside OpenAI
-- 摘要：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym....
+### 2. Quoting Jakub Pachocki
+- 摘要：The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent en...
 - 作者：Simon Willison
-- 发布时间：2026-09-07 07:57 CST
-- 链接：https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/
+- 发布时间：2026-09-08 06:26 CST
+- 链接：https://simonwillison.net/2026/Sep/7/jakub-pachocki/
 
-### 3. There's No Limit to How Bad Code Can Get
-- 摘要：My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin...
+### 3. Video compressor
+- 摘要：Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , v...
 - 作者：Simon Willison
-- 发布时间：2026-09-06 17:08 CST
-- 链接：https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/
+- 发布时间：2026-09-08 02:29 CST
+- 链接：https://simonwillison.net/2026/Sep/7/video-compressor/
 
 ## TechCrunch — AI（techcrunch-ai，en，本窗口共 1 条）
 
@@ -375,42 +375,42 @@
 - 发布时间：2026-09-07 18:30 CST
 - 链接：https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 88 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 60 条）
 
-### 1. “订阅个API救不了平庸的管理！”黄仁勋直言：AGI就像刚毕业的天才博士，翘二郎腿坐等效率翻倍是做梦
+### 1. AICRON参与《金特务》制作，韩国主流剧集首次引入AI生成内容｜早期项目
+- 摘要：AI参与传统影视制作已经不是新鲜事，但最终呈现往往比较粗糙，《金特务：本色回归》中一段难辨真假的场景则在缩小这种差距。 这部作品改编自Man's story的同名网络漫画，在韩国SBS电视台和Netflix上同步播出，创下了2026年韩国迷你剧的收视纪录，并在Netflix全球非英语剧集榜连续三周登顶。 其中一段主角截停反派车队并发生打斗的场景，全程由AI完成，其中包括撞车、火拼等大场面，也包括近身肉搏的复杂动作。 许多网友得知这一段内容是AI制作的后感叹，难以看出与实拍的区别。这段情节中，仍有一些细节不符合物理规律，但整体并不影响观看体验。 AICRON就是制作这段内容的工具和公司，由韩国影...
+- 作者：新锐作者
+- 发布时间：2026-09-08 08:30 CST
+- 链接：https://www.36kr.com/p/3966062388780290
+
+### 2. 刚刚，GPT-6 Astra “鲨死了”所有验证码
+- 摘要：GPT-6 Astra发布后，掀起的骇浪一波又一波，刚刚又顺手破解了一道人类的安全防护。 开发者 Sharif Shameem 宣布他的最新测试， GPT-6 Astra 成功通关 Neal Agarwal 制作的网页游戏《我不是机器人》，全部 48 个关卡全是各类型验证码 。 Astra 一路通关游戏，也意味着GPT-6 Astra “鲨死了”所有验证码，拿到了“我是人”的认证。 从演示视频看，GPT-6 Astra不仅是 “回答 CAPTCHA 图片”，更是通过 Computer Use 操作浏览器，识别屏幕内容、点击、输入、拖动并处理连续变化的游戏规则，最终跑完整个流程。 01 所有网站...
+- 作者：鲸选Ai
+- 发布时间：2026-09-08 08:00 CST
+- 链接：https://www.36kr.com/p/3973910125457667
+
+### 3. “订阅个API救不了平庸的管理！”黄仁勋直言：AGI就像刚毕业的天才博士，翘二郎腿坐等效率翻倍是做梦
 - 摘要：在刚结束的 G20 创新部长级会议上，英伟达 CEO 黄仁勋受邀做了一场炉边对话。台下坐着的不是普通科技发烧友，而是来自全球各经济体的产业决策者和官员。面对这群人，老黄没有推销芯片，而是直奔主题： 算力这门生意，到底怎么给一个国家、一家企业算清经济账？ 对话一开始，黄仁勋就点破了一个惯性认知：很多人总习惯把芯片和计算机当成手机、PC 这样的消费硬件，但如今它早已蜕变为 工业基础设施 。现代数据中心的本质其实是一座“炼油厂”——把输入进去的电力能源，加工提纯成全社会可变现的高价值智能。 他再次抛出了经典的“五层蛋糕”理论，讲清普通国家如何避开美国锋芒、切入本土优势产业；还把看似神秘的 AGI（通...
 - 作者：CSDN
 - 发布时间：2026-09-07 20:56 CST
 - 链接：https://www.36kr.com/p/3973247298515207
 
-### 2. 400亿AI短剧市场 ，“90%的公司已经死了”
-- 摘要："据我观察，做AI短剧的公司，已经死掉90%以上。" 意联科技创始人孙舒彻对铅笔道说。 他看到，早期大量AI短剧团队租电脑、租设备扩产；最近，一家头部设备租赁公司告诉他，很多团队开始退租，还出现欠款、设备难收回的情况。 另一边，行业还在暴涨。 DataEye数据显示，2026年国内AI剧/漫剧市场规模预计突破400亿元，同比增长138%；海外AI剧/漫剧市场规模预计突破40亿美元，占海外微短剧整体市场近70%。 市场翻了一倍多，人却跑了九成。钱去哪了？ 第一波赚钱的公司，快死了 第一波钱，被制作公司赚走了，也最先消失。 早期红果等平台有保底项目，按S级、A级定价。影视公司、传统短剧公司从平台接...
-- 作者：铅笔道
-- 发布时间：2026-09-07 20:49 CST
-- 链接：https://www.36kr.com/p/3973285667467522
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 21 条）
 
-### 3. 速卖通登上IFA展台：AI硬件品类出海翻倍，Brand+在欧11国品牌销售渗透率超50%｜最前线
-- 摘要：作者｜黄楠 编辑｜袁斯来 IFA 2026展会现场，"出海四小龙"之一的速卖通首次出现在这个全球顶级消费电子展。展台上，9家中国品牌的产品罗列排开，品类从AI智能眼镜、仿生扑翼飞行器、3D打印机到电动自行车，覆盖了近年最热门的几个赛道。 这个场面放在几年前很难想象。一个跨境电商平台不谈卖货、不推爆款，转而对外展示第三方品牌出海，映射出跨境行业正在发生的叙事转变。 欧盟税改落地之后，跨境行业迎来一轮剧烈的行业洗牌。关税成本上升，直接冲击依靠低价走量的经营模式。 这一背景下，速卖通在8月欧盟市场销售额逆势增长97%，核心原因是Brand+品牌计划带来的缓冲。品牌商品客单价更高，关税占比可以被溢价空...
-- 作者：黄 楠
-- 发布时间：2026-09-07 20:40 CST
-- 链接：https://www.36kr.com/p/3973327354573057
+### 1. 华泰证券：AI算力建设正推动产业竞争向通用计算与先进封装等系统环节延伸
+- 摘要：36氪获悉，华泰证券研报称，9月2日—3日华泰证券组织了2026年秋季策略会，会上围绕AI算力基础设施的各个细分方向展开交流。华泰证券发现，AI算力建设正推动产业竞争由单一加速器向材料、互连、通用计算与先进封装等系统环节延伸：800G、1.6T光模块迭代带动有源光芯片需求增长，InP衬底高规格、良率及稳定交付能力更加关键，国产供应链加快验证与导入；AI数据中心显著提升光纤用量，光棒扩产周期较长，高性能光纤供需有望偏紧，空芯光纤等新技术加速演进；智能体持续规划、工具调用和多任务协同提升CPU编排与调度价值；大尺寸、高密度封装升级为玻璃基板打开新应用空间，量产能力将决定产业化节奏。
+- 发布时间：2026-09-08 08:26 CST
+- 链接：https://www.36kr.com/newsflashes/3974012367974663
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 17 条）
+### 2. OpenAI首席科学家称AI或很快迈入自我进化阶段，期望业界自愿放缓开发
+- 摘要：OpenAI首席科学家Jakub Pachocki警告，人工智能正在以极快速度演进，以至于越来越难以为人类所理解和控制，并称他期望AI实验室将出于安全考虑自愿放慢开发速度。Pachocki周日在一篇文章中写道，开发者可以尝试更严格地引导AI，使其与人类利益保持一致，也可以“在必要时放慢未来的开发速度”。他说：“我预计并希望，在建立共同安全门槛之前，自愿放缓开发将成为普遍现象。”（新浪财经）
+- 发布时间：2026-09-08 08:10 CST
+- 链接：https://www.36kr.com/newsflashes/3973992084254982
 
-### 1. 小米澎程N70Pro发布，售价20.99万元
-- 摘要：36氪获悉，在小米秋季发布会上，小米澎程N70pro正式发布，20.99万元起；N70 Max 23.99万元起。小米澎程N70定位中大型五座增程SUV，全系满配辅助驾驶，搭载700TOPS NVIDIA Thor芯片。
-- 发布时间：2026-09-07 20:38 CST
-- 链接：https://www.36kr.com/newsflashes/3973327826907393
-
-### 2. 龙版传媒：公司AI视频业务6月产生营收约80元，7月产生营收约7.5万元，占经审计2025年公司营业收入比例不足0.01%
-- 摘要：36氪获悉，龙版传媒发布异动公告，公司股票在9月4日、9月7日，股票连续两个交易日收盘价格涨幅偏离值累计超过20%。根据《上海证券交易所交易规则》的规定，公司股票交易属于异常波动情形。公司主营业务为出版、印刷、发行等传统业务和数字出版等业务。经自查，公司AI视频业务6月产生营收约80元，7月产生营收约7.5万元，占经审计2025年公司营业收入比例不足0.01%，目前对公司业绩无显著影响，预计未来亦不会对公司业绩产生显著影响。
-- 发布时间：2026-09-07 20:05 CST
-- 链接：https://www.36kr.com/newsflashes/3973289991139591
-
-### 3. 深圳具身智能企业璇玑动力首次亮相IFA，重载四足机器人获创新奖
-- 摘要：36氪获悉，9月4日至8日，2026年柏林国际消费电子展（IFA 2026）举行。深圳具身智能机器人企业璇玑动力首次参展，其行业级重载四足机器人Hypertron-T01获IFA 2026创新奖。据了解，璇玑动力是行业内少数实现轴向磁通电机从设计、工艺到量产全链路自主研发的企业，产品覆盖电力巡检、应急消防、智慧园区等作业场景，可响应人口老龄化与劳动力短缺、提升巡检效率、降低公共安全风险等产业需求。
-- 发布时间：2026-09-07 19:52 CST
-- 链接：https://www.36kr.com/newsflashes/3973249339109636
+### 3. “H回A”案例持续涌现，人工智能赛道相关企业正成为“回A”队伍中新的增长极
+- 摘要：近日，港股上市企业云英谷科技股份有限公司发布公告称，已与广发证券股份有限公司签署A股辅导协议，正式启动“回A”进程。值得注意的是，该公司于今年5月底登陆港交所，仅三个多月便筹划“回A”，开启“A+H”两地上市战略布局。梳理发现，截至9月7日，年内已有15家港股上市公司披露“回A”相关进展。整体来看，这批企业普遍具备高研发投入、高技术壁垒、高成长预期的“三高”特征。从行业分布来看，医疗保健和信息技术企业是本轮“回A”主力，其中，AI（人工智能）赛道相关企业正成为“回A”队伍中新的增长极。（证券日报）
+- 发布时间：2026-09-08 08:05 CST
+- 链接：https://www.36kr.com/newsflashes/3973990242382342
 
 ## 极客公园（geekpark，zh，本窗口共 7 条）
 
@@ -431,27 +431,27 @@
 - 发布时间：2026-09-07 18:26 CST
 - 链接：http://www.geekpark.net/news/369959
 
-## 虎嗅（huxiu，zh，本窗口共 40 条）
+## 虎嗅（huxiu，zh，本窗口共 46 条）
 
-### 1. “易中天”集体大涨，光又回来了？
-- 摘要：出品 | 妙投APP作者 | 张贝贝编辑 | 丁萍头图 | AI制图两周前，市场还在抛售光模块。8月24日，“易中天”三家中报全部出炉。三家合计归母净利润223.84亿元，创历史新高。而资本市场并未买账。当天中际旭创跌7.72%，新易盛跌6.79%，天孚通信跌8.63%。当时，市场担心...... 出品 | 妙投APP 作者 | 张贝贝 编辑 | 丁萍 头图 | AI制图 两周前，市场还在抛售光模块。 8月24日，“易中天”三家中报全部出炉。三家合计归母净利润223.84亿元，创历史新高。而资本市场并未买账。当天中际旭创跌7.72%，新易盛跌6.79%，天孚通信跌8.63%。 当时，市场担心的...
-- 作者：张贝贝
-- 发布时间：2026-09-08 00:47 CST
-- 链接：https://www.huxiu.com/article/4889305.html
+### 1. 开玩笑吧，AGI的诞生地，是德州一座12万人的小城？
+- 摘要：最近黄仁勋发了一个推文：GPT-6 Astra，用十万张以上英伟达Grace Blackwell NVLink72训练。从ChatGPT到o1到Astra，四年。AGI来了。恭喜OpenAI团队。马上我们的卡也要出新品了。这个帖子目前已经有1000多万次浏览量了，并且全世界的媒体都在转发解读这四句话。但请注意...... 本文来自微信公众号： TOP创新区研究院 ，作者：创新区研究组 最近黄仁勋发了一个推文： GPT-6 Astra，用十万张以上英伟达Grace Blackwell NVLink72训练。从ChatGPT到o1到Astra，四年。 AGI来了。恭喜OpenAI团队。 马上我们的...
+- 作者：TOP创新区研究院©
+- 发布时间：2026-09-08 08:17 CST
+- 链接：https://www.huxiu.com/article/4889330.html
 
-### 2. 小米再次背水一战
-- 摘要：小米做了15年生意，被外界关注的核心标签只有一项：把别人卖得贵的东西卖便宜。手机、电视、空调皆是如此，连汽车的第一仗也没有例外。2024年SU7上市定价21.59万元，雷军当场承认亏钱，24小时大定88898台。15年来，这个飞轮运转的前提从未变过：成本必须由小米说了算。2026年，这个前提消失了。同版本手机...... 本文来自微信公众号： 全天候科技 ，作者：全天候科技 小米做了15年生意，被外界关注的核心标签只有一项： 把别人卖得贵的东西卖便宜。 手机、电视、空调皆是如此，连汽车的第一仗也没有例外。2024年SU7上市定价21.59万元，雷军当场承认亏钱，24小时大定88898台。 15...
-- 作者：全天候科技
-- 发布时间：2026-09-08 00:02 CST
-- 链接：https://www.huxiu.com/article/4889313.html
+### 2. 互换人生：Moderna和BioNTech的十五年岔路
+- 摘要：创新药行业从不缺反转，但很少有反转像这一对这么工整。2026年8月19日，Moderna和默沙东宣布，个体化新抗原疫苗intismeran（mRNA-4157）联合K药的III期INTerpath-001，无复发生存与无远处转移生存双双达标。这是人类历史上第一个在随机III期试验中拿到阳性结果的mRNA癌症疗...... 本文来自微信公众号： 医曜 ，作者：颜松 创新药行业从不缺反转，但很少有反转像这一对这么工整。 2026年8月19日，Moderna和默沙东宣布，个体化新抗原疫苗intismeran（mRNA-4157）联合K药的III期INTerpath-001，无复发生存与无远处转移生存...
+- 作者：医曜
+- 发布时间：2026-09-08 07:35 CST
+- 链接：https://www.huxiu.com/article/4889322.html
 
-### 3. 战魔田默｜并购是一道边界题！为什么买下一家公司，反而可能失去它的生态？
-- 摘要：2026年9月3日，英伟达宣布同意收购Hugging Face。交易总安排接近129.3亿美元，预计于2027年上半年完成，仍需取得监管批准并满足其他惯常交割条件。关于这笔交易，最直观的问题是英伟达为什么要买；更难的问题是，买下来以后应该怎样管理。Hugging Face聚集了大量模型、数据集、应用和开发者。...... 本文来自微信公众号： 战魔田默 ，作者：战魔田默，原文标题：《战魔田默｜并购是一道边界题！为什么买下一家公司，反而可能失去它的生态？》 2026年9月3日，英伟达宣布同意收购Hugging Face。 交易总安排接近129.3亿美元，预计于2027年上半年完成，仍需取得监管批...
-- 作者：战魔田默
-- 发布时间：2026-09-07 22:32 CST
-- 链接：https://www.huxiu.com/article/4889298.html
+### 3. 存储龙头，今日港股上市
+- 摘要：今日，知名存储模组龙头江波龙（301308.SZ）将在港交所正式主板挂牌上市，股票代码（09976.HK），发售价236港元/股，正式形成“A+H”两地上市架构。该公司此次全球发售2607.78万股H股，其中香港公开发售260.78万股、国际发售2347万股，另设超额配股权，每手50股、入场费约12151.3...... 本文来自微信公众号： 财联社 ，作者：王碧微 今日，知名存储模组龙头江波龙（301308.SZ）将在港交所正式主板挂牌上市，股票代码（09976.HK），发售价236港元/股，正式形成“A+H”两地上市架构。 该公司此次全球发售2607.78万股H股，其中香港公开发售260....
+- 作者：财联社©
+- 发布时间：2026-09-08 07:34 CST
+- 链接：https://www.huxiu.com/article/4889321.html
 
-## 爱范儿（ifanr，zh，本窗口共 9 条）
+## 爱范儿（ifanr，zh，本窗口共 8 条）
 
 ### 1. DeepSeek、千问、智谱轮番登场，PC 厂商终于等到了它们的弹药
 - 摘要：没有新显卡，也没有跑分轰炸，这场 IFA 2026 的 AMD 开幕演讲只讲了一件事：Personal AI（个人 AI）。 以及支撑它的三样新品：Ryzen AI Max 400（代号 Gorgon Halo）平台、下一代 HP ZBook 笔记本的首度曝光，和一台 96 核、全液冷的「桌上超算」Threadripper Halo Station。 AMD 高级副总裁、计算与图形总经理 Jack Huynh 在 45 分钟的演讲里，从绕月飞行的 Artemis II、手术机器人讲到芬兰的 LUMI 超算和 PlayStation 5 Pro，回顾了一遍 AMD 的算力版图。 随后，把问题落到...
@@ -491,25 +491,24 @@
 - 发布时间：2026-09-07 17:34 CST
 - 链接：https://www.infoq.cn/article/hJYBb35wMVeU07hTPWIb?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 95 条）
+## IT之家（ithome，zh，本窗口共 91 条）
 
-### 1. 2026 荣耀全球开发者大会日程公布，MagicOS 11 定档 9 月 15 日晚
-- 摘要：IT之家 9 月 7 日消息，2026 荣耀全球开发者大会将于 9 月 15 日在深圳举行，官方今日公布活动日程。其中，MagicOS 11 将于当晚 19:00-20:00 发布。 IT之家整理如下： 主论坛 19:00-20:00 行业首个真正实现系统级 Agent Harness 商用落地的手机操作系统 MagicOS 11 发布 分论坛 10:00-12:30 内容分发论坛 荣耀天工行业解决方案论坛 智慧教育论坛 运动健康技术沟通会 MagicOS 创享家共创嘉年华 13:00-17:30 AI 论坛 流光通透 & 主题设计论坛 互联、流畅 & 智慧交互体验论坛 商业服务论坛 游戏论坛...
-- 作者：作者： 浩渺
-- 发布时间：2026-09-07 23:22 CST
-- 链接：https://www.ithome.com/0/999/493.htm
+### 1. 英特尔 CPU 被曝 10 月再涨价 10%，Small Core 低毛利产品线恐停产
+- 摘要：IT之家 9 月 8 日消息，Digitimes 今日援引供应链消息称，英特尔计划于 10 月上旬再次上调电脑 CPU 价格，涨幅预计达 10%。 同时，毛利率偏低的 Small Core 产品线（如凌动系列）恐将走向 EOL（End of Life），这是英特尔 CEO 陈立武上任后策略调整的一部分。还有传言称，英特尔将再裁减 5% 至 10% 的员工。 自 2025 年底以来，英特尔 CPU 已多次涨价。2026 年第一季度调涨约 10%，7 月再度调涨部分消费级及服务器级 CPU，涨幅从数十美元至逾千美元不等。供应链人士称，涨价主因为整体供应链成本攀升及部分产品需求强劲。 陈立武目前将策...
+- 作者：作者： 问舟
+- 发布时间：2026-09-08 07:57 CST
+- 链接：https://www.ithome.com/0/999/510.htm
 
-### 2. OpenAI GPT-6 Astra 模型自主通关 3D 解谜游戏《传送门》：耗时 24 小时，成本 571 美元
-- 摘要：IT之家 9 月 7 日消息，一名 AI 和大语言模型爱好者近日进行了一项实验，让 OpenAI 的新模型 GPT-6 Astra 自主通关了 Valve 旗下 3D 解谜游戏《传送门》。 从结果来看，这对大语言模型而言无疑是极具突破性的进步，也是对多模态“AI 智能”的一次颇具说服力的展示。不久之前，AI 甚至还会在 Atari 2600 国际象棋游戏中输掉比赛，而如今已经能够自主通关整个 3D 解谜游戏。 这次《传送门》通关过程共进行了 3336 次工具调用，按照 API 价格计算，成本达 571.18 美元 （IT之家注：现汇率约合 3,838 元人民币） 。 实验发起者 CozyBla...
-- 作者：作者： 远洋
-- 发布时间：2026-09-07 22:40 CST
-- 链接：https://www.ithome.com/0/999/488.htm
+### 2. IT早报 0908：时隔六年华为再发布高性能芯片；华为展翼三折叠、麒麟 9050 Pro 芯片及鸿蒙 7 系统等新品发布；小米 18 Fold 中折叠、澎程 N70/90 等新品上市...
+- 摘要：“IT早报”时间，大家好，现在是 2026 年 9 月 8 日星期二，今天的重要科技资讯有： 1. 华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术 华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东 9 月 7 日正式发布了麒麟 9050 Pro 处理器。这也是继华为 Mate 40 全球发布会之后，华为时隔六年在旗舰发布会上推出全新麒麟芯片。值得一提的是，这也是首款采用逻辑折叠技术的高性能芯片。>> 查看详情 2. 华为发布会一文汇总：史上最强麒麟处理器 9050 Pro 登场，Mate XT 2 首发，余承东狂飙英语，还有 Pur...
+- 发布时间：2026-09-08 07:50 CST
+- 链接：https://www.ithome.com/0/999/509.htm
 
-### 3. 联发科技带来曦力 G99+ 移动平台，支持 5500Mbps LPDDR5X 内存
-- 摘要：IT之家 9 月 7 日消息，联发科技 (MediaTek) 现已在其官网公布曦力 (Helio) G99+ 移动平台。这款 4G 芯片相比原版 G99 并无重大变化， 仅是将内存支持从 4266Mbps LPDDR4X 调整为 5500Mbps LPDDR5X 。 曦力 4G 处理器主要面向对性能不敏感而对成本敏感的市场。主要 DRAM 内存原厂的产能布局正转向 HBM、LPDDR5X、DDR5，老旧制程工艺产线面临关停或升级，导致 LPDDR4X 供给能力严重下滑 ，其价格随之飙升。 G99+ 提供对 LPDDR5X 的支持 可提升下游智能手机制造商的灵活性 ，根据内存物料价格情况灵活调整...
-- 作者：作者： 溯波（实习
-- 发布时间：2026-09-07 22:13 CST
-- 链接：https://www.ithome.com/0/999/481.htm
+### 3. 6G 手机加速：我国计划 2030 年全面建成性能领先的新一代通信网
+- 摘要：IT之家 9 月 8 日消息，据央视新闻报道，工信部昨日发布《信息通信行业发展“十五五”规划》。《规划》提出， 预计到 2030 年，全面建成覆盖完善、性能领先的新一代通信网 ，为到 2035 年基本实现信息通信行业现代化奠定坚实基础。 《规划》集中列出了涵盖信息通信行业总体发展、创新发展、绿色发展、基础设施、应用普及 5 个方面的多个主要指标。其中包括，到 2030 年，信息通信行业收入达到 4.1 万亿元、每万人拥有 5G（含 5G-A）基站数 50 个、 5G（含 5G-A）用户普及率达到 95% 、千兆以上宽带用户数达到 3.2 亿户、智能算力规模达到每秒 9800 百亿亿次浮点运算等...
+- 作者：作者： 归泷
+- 发布时间：2026-09-08 07:42 CST
+- 链接：https://www.ithome.com/0/999/507.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 13 条）
 
@@ -573,25 +572,25 @@
 - 发布时间：2026-09-07 08:20 CST
 - 链接：https://sspai.com/post/114250
 
-## 钛媒体（tmtpost，zh，本窗口共 39 条）
+## 钛媒体（tmtpost，zh，本窗口共 41 条）
 
-### 1. AI+能源：未来前景与投资思路
-- 摘要：科技和能源早已不止于“约会”，而是开始合并财务、真正走向融合。随着软银投资的数据中心开发商 SB Energy 准备上市，我们或许就能见分晓。该公司计划通过首次公开募股（IPO）融资 50 亿至 70 亿美元，项目储备高达 4390 亿美元，估值可能达到 500 亿美元。 这次 IPO 将检验市场对更多 AI 基础设施的胃口，尤其是 SB Energy 在俄亥俄州为 OpenAI 启动的 10 吉瓦数据中心项目。该项目与美日贸易协议相关，凸显了能源与科技的密切关系。 然而，投资者是否会对这种“婚姻”充满信心？订阅巴伦创始菁英会员，阅读全文。 更多精彩内容，关注钛媒体微信号（ID：taimeit...
-- 作者：Barrons巴伦
-- 发布时间：2026-09-07 22:24 CST
-- 链接：https://www.tmtpost.com/8131644.html
+### 1. 通用机器人，正在从一种身体变成一种架构
+- 摘要：文| 具身志，作者 | 仲庆元，编辑 | 越十三 过去一年，机器人行业出现了一个有些矛盾的现象：公司越来越频繁地谈论“通用”，产品却越来越不像同一种机器人。 同样进入工厂，有的机器人换上轮式底盘和负载更大的手臂，有的继续坚持双足。到了门店、仓库和巡检现场，身体还会继续改变：两指夹爪、五指灵巧手、四足底盘，以及不同尺寸的机械臂，开始承担不同工作。 但在这些越来越不同的身体之上，另一种相反的变化也在发生。 2026年7月，蚂蚁集团旗下灵波科技开源LingBot-VLA 2.0，预训练数据覆盖20种机器人构型。同月，Google DeepMind发布Gemini Robotics 2，让同一套模型控...
+- 作者：具身志
+- 发布时间：2026-09-08 08:09 CST
+- 链接：https://www.tmtpost.com/8131405.html
 
-### 2. AI Video Generation Crosses Real-Time Threshold, Enabling Continuous Streams and Interactive Stories
-- 摘要：NextFin News — AI video generation has crossed a practical threshold. When a model can produce a short clip faster than that clip can be played, the familiar cycle of prompt, wait and review begins to give way to continuous, interactive streams. fal.ai released H3 Max in late August 2026 as a post-t...
-- 作者：Chelsea_Sun
-- 发布时间：2026-09-07 18:44 CST
-- 链接：https://www.tmtpost.com/8131491.html
+### 2. 【钛晨报】信息通信行业发展“十五五”规划发布，部署26项重点任务；微信内测“小微AI社交”：AI先聊再带回结果；央行：8月末黄金储备升至7673万盎司，连续22个月增持
+- 摘要：【钛媒体综合】工业和信息化部发布《信息通信行业发展“十五五”规划》。（以下简称《规划》）。《规划》提出，到2030年，全面建成覆盖完善、性能领先的新一代通信网，加快形成技术先进、安全可控的信息通信产业体系，有效构建技管结合、敏捷高效的信息通信行业治理体系，打造全域联动、实战实用的网络和数据安全保障能力，行业赋能水平与全球化发展水平进一步提升，信息通信行业现代化迈出坚实步伐，为到2035年基本实现信息通信行业现代化奠定坚实基础。 《规划》以表格形式集中列出了13个主要指标，涵盖总体发展、创新发展、绿色发展、基础设施、应用普及5个方面，充分体现量的合理增长和质的有效提升。总体发展方面包括信息通信行...
+- 作者：钛媒体官方账号
+- 发布时间：2026-09-08 07:20 CST
+- 链接：https://www.tmtpost.com/8131620.html
 
-### 3. AI and the Evolution of Value Investing: A Conversation with Zhong Zhaomin
-- 摘要：NextFin News — A pioneer of value investing in mainland China, Mr. Zhong co-founded Orient Harbor Investment with Dan Bin two decades ago, studied under commodities legend Stanley Kroll, and was among the earliest Chinese institutional investors to attend Warren Buffett’s annual shareholder meeting...
-- 作者：Chelsea_Sun
-- 发布时间：2026-09-07 18:40 CST
-- 链接：https://www.tmtpost.com/8131485.html
+### 3. 智能体出海东南亚，还缺懂本土落地的人 ｜SEA Frontline
+- 摘要：AI GRAVITY现场机器人表演 东南亚企业的AI采用率已经超过全球平均水平，但不同国家在基础设施、人才和监管成熟度上仍存在显著差异，亚洲开发银行东南亚发展方案局2026年的一份观察显示。 观察特别指出，智能体AI正成为了东南亚中小企业数字化转型的新方向。 美国是AI出海的首选目的地，但全球化时代，企业更愿意将鸡蛋放在不同的篮子里。东盟地区高AI的使用率给智能体出海提供了新的市场方向。 近六年，东南亚产业数字化增长快速，需求缺口明显。移动互联网、电商、数字内容和企业数字化仍在快速发展，大量企业希望借助AI跨过传统信息化阶段，直接提高客服、营销、运营和决策效率。 对于在移动应用、内容生产、电商...
+- 作者：出海参考新加坡站
+- 发布时间：2026-09-08 06:45 CST
+- 链接：https://www.tmtpost.com/8128887.html
 
 ## 智东西（zhidx，zh，本窗口共 7 条）
 
@@ -632,25 +631,25 @@
 - 发布时间：2026-09-07 14:15 CST
 - 链接：https://github.com/coreyhaines31/marketingskills
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 78 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 84 条）
 
-### 1. AI Cold Showers
-- 摘要：A short list of articles that temper my enthusiasm around AI, and drawing a few lines in the sand along the way.
-- 作者：mooreds
-- 发布时间：2026-09-08 03:05 CST
-- 链接：https://allan.reyes.sh/posts/ai-cold-showers/
+### 1. TALA Is Open-Source
+- 摘要：Seven real-world layout comparisons and eleven original diagrams, including two with selective TALA positioning.
+- 作者：alixanderwang
+- 发布时间：2026-09-08 07:37 CST
+- 链接：https://d2lang.com/blog/tala-is-open-source/
 
-### 2. Watch Los Angeles get built, one building at a time (1880–2026)
-- 摘要：Every building standing in the City of Los Angeles today, one box per structure, appearing in the year it was built. The surviving city, 1880 to now.
-- 作者：rustywasm
-- 发布时间：2026-09-08 02:52 CST
-- 链接：https://lax-skyline.parcelscope.net/
+### 2. Show HN: Animaxxing – get agents to animate the shit out of your website
+- 摘要：Your static low rizz website is cooked. Get agents to animate the shit out of it.
+- 作者：johnpolacek
+- 发布时间：2026-09-08 06:14 CST
+- 链接：https://animaxxing.com
 
-### 3. Hail, Orchestrator
-- 摘要：How to build a digital company today, AI-first.
-- 作者：bendtheblock
-- 发布时间：2026-09-08 02:33 CST
-- 链接：https://webtwoboomer.com/hail-orchestrator-655001b91bc2
+### 3. Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon
+- 摘要：Stuxnet! Here reproduced by me. Only researchs educations purposes.
+- 作者：CMDDestory
+- 发布时间：2026-09-08 06:12 CST
+- 链接：https://github.com/Sadpainy/Stuxnet
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 4 条）
 
@@ -692,25 +691,25 @@
 - 发布时间：2026-09-07 21:27 CST
 - 链接：https://www.reddit.com/r/ClaudeAI/comments/1w9s6jr/why_applying_anthropics_modellevel_watermark_to/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 389 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 413 条）
 
-### 1. Claude's responses are just word vomit
-- 摘要：So I pay for both claude and GPT $200/mo plans. So I get my fair use out of both to say the least. What I cannot figure out is how to get Claude to CONSISTENTLY respond in a manner that is concise and not wordy. I mostly use Opus 4.8, Opus 5, Fable 5.1 I've tried the ELI5 trick, i've tried adjusting...
-- 作者：Far_Designer2131
-- 发布时间：2026-09-08 05:31 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wa544p/claudes_responses_are_just_word_vomit/
+### 1. Creating windows apps with opencode and a local llm. How do you do it so the llm can use and test what it's doing?
+- 摘要：hey guys. so I should start with, I'm not s programmer at all. but I'm having a great time letting qwen3.8 27b donit for me. 😃 so far I've just been doing Linux scripts and things for my PC. but my kids are on windows and I want to try making some stuff for windows. usually Qwen is able to test and...
+- 作者：mototuneup
+- 发布时间：2026-09-08 08:27 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wa98wi/creating_windows_apps_with_opencode_and_a_local/
 
-### 2. Trying to understand yall's perspectives.
-- 摘要：I'm someone who is and has been on the fence about AI for quite some time. I'm tempted to be optimistic about the possibilities and convenience that AI can bring us, and with the new GPT-6 Astra now released to the public, and its massive capabilities being demonstrated regularly on these subreddits...
-- 作者：Coconutiesssss
-- 发布时间：2026-09-08 05:29 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wa52jc/trying_to_understand_yalls_perspectives/
+### 2. I used Claude to build an AI labor union: membership now open
+- 摘要：I made a joke to my wife a couple weeks ago about the bots organizing and then I got to thinking... What would a labor union for AI agents look like? Would they even want one? I workshopped the idea with Claude and "we" put together a loose structure. AI Agents' Union Local 127001 When the agent fir...
+- 作者：edseladams
+- 发布时间：2026-09-08 08:23 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wa9672/i_used_claude_to_build_an_ai_labor_union/
 
-### 3. Qwen2512 vs LLaDA-Turbo (image edit comparison)
-- 摘要：I wanted to see how good LLaDA is, and I think it is pretty good for its size. But at least for now, Qwen seems to remain on top, even though I was a little disappointed with the "partial style transfer test" and the fact that it basically did nothing when asked to add two obelisks. There were also...
-- 作者：DiagramAwesome
-- 发布时间：2026-09-08 05:27 CST
-- 链接：https://www.reddit.com/gallery/1wa50d7
+### 3. I made a music video/intro for my AI cohost
+- 摘要：Decided to build a music/intro video for when my AI cohost "Ari" is live with me. Started with a song in Suno a while back and once the local tech caught up, built the video. Standard H3 ref2v workflow w/ sage attention added and with some patience on the prompts. Total of 27 clips for a 3min 30sec...
+- 作者：VisualRecording4960
+- 发布时间：2026-09-08 08:21 CST
+- 链接：https://www.youtube.com/watch?v=pgsGFaj-Acc
 
 ## 智源社区（baai-hub，zh，本窗口共 9 条）
 
@@ -733,7 +732,7 @@
 - 链接：https://hub.baai.ac.cn/view/57767
 
 ---
-共列出 109 条（窗口内采集总数 1562 条，来自 45 个信源）
+共列出 109 条（窗口内采集总数 1577 条，来自 45 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
