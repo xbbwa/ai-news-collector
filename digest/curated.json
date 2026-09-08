@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-08T20:00:34.648119+00:00",
+ "generated_at": "2026-09-08T22:49:25.794236+00:00",
  "stats": {
-  "items": 1015,
-  "clusters": 955,
-  "noise": 657,
+  "items": 1021,
+  "clusters": 959,
+  "noise": 650,
   "dup": 0,
   "history_days": 3,
   "available_cn": 182,
-  "available_intl": 116,
+  "available_intl": 127,
   "target_cn": 10,
   "target_intl": 10,
   "selected_cn": 10,
@@ -16,21 +16,25 @@
  "items": [
   {
    "rank": 1,
-   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+   "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
    "lang": "en",
    "region": "intl",
-   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-   "score": 8.0,
+   "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+   "score": 13.76,
    "sources": [
-    "mistral-news",
-    "techcrunch-ai"
+    "techcrunch-ai",
+    "theverge-ai",
+    "wired-ai",
+    "hackernews-ai"
    ],
    "titles": [
-    "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-    "Mistral raises €3B as sovereign AI becomes big business"
+    "Meta debuts its Muse AI agent. Will consumers trust it?",
+    "Meta bets on AI agent Muse to catch up in AI race",
+    "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
+    "Muse: Meta's personal AI agent, features and capabilities"
    ],
-   "published_at": "2026-09-08T12:00:22.000000+00:00",
-   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+   "published_at": "2026-09-08T19:00:00.000000+00:00",
+   "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their..."
   },
   {
    "rank": 2,
@@ -54,21 +58,21 @@
   },
   {
    "rank": 3,
-   "title": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
+   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
    "lang": "en",
    "region": "intl",
-   "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-   "score": 7.06,
+   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+   "score": 8.0,
    "sources": [
-    "meta-newsroom",
-    "hackernews-ai"
+    "mistral-news",
+    "techcrunch-ai"
    ],
    "titles": [
-    "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
-    "Muse, your personal AI agent."
+    "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+    "Mistral raises €3B as sovereign AI becomes big business"
    ],
-   "published_at": "2026-09-08T19:00:51.000000+00:00",
-   "summary": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM..."
+   "published_at": "2026-09-08T12:00:22.000000+00:00",
+   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
   },
   {
    "rank": 4,
@@ -92,21 +96,21 @@
   },
   {
    "rank": 5,
-   "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+   "title": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-   "score": 7.0,
+   "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+   "score": 7.06,
    "sources": [
-    "techcrunch-ai",
-    "theverge-ai"
+    "meta-newsroom",
+    "hackernews-ai"
    ],
    "titles": [
-    "Meta debuts its Muse AI agent. Will consumers trust it?",
-    "Meta bets on AI agent Muse to catch up in AI race"
+    "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
+    "Muse, your personal AI agent."
    ],
-   "published_at": "2026-09-08T19:00:00.000000+00:00",
-   "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their..."
+   "published_at": "2026-09-08T19:00:51.000000+00:00",
+   "summary": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM..."
   },
   {
    "rank": 6,
@@ -130,21 +134,21 @@
   },
   {
    "rank": 7,
-   "title": "Meta Announces Muse AI Agent for Personal Tasks and Organization",
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-announces-muse-ai-agent-for-personal-tasks-and-organization",
-   "score": 6.76,
+   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "score": 6.0,
    "sources": [
-    "bloomberg-tech",
-    "hackernews-ai"
+    "deepmind-blog",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Meta Announces Muse AI Agent for Personal Tasks and Organization",
-    "Muse: Meta's personal AI agent, features and capabilities"
+    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "AlphaGenome Atlas: a high-resolution map of human DNA"
    ],
-   "published_at": "2026-09-08T19:00:00.000000+00:00",
-   "summary": "Meta Platforms Inc. unveiled a new artificial intelligence agent designed to carry out tasks on a user’s behalf, advancing Mark Zuckerberg’s vision of a future where people each have a personalized AI assistant."
+   "published_at": "2026-09-08T14:00:15.000000+00:00",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
   },
   {
    "rank": 8,
@@ -172,7 +176,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://openai.com/index/navier-stokes-solution",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "openai-news",
     "reddit-ai-new"
@@ -187,42 +191,6 @@
   },
   {
    "rank": 10,
-   "title": "234亿！“欧洲版OpenAI”融资了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://zhidx.com/p/591997.html",
-   "score": 7.0,
-   "sources": [
-    "zhidx",
-    "36kr-ai"
-   ],
-   "titles": [
-    "234亿！“欧洲版OpenAI”融资了",
-    "234亿，“欧洲版OpenAI”融资了"
-   ],
-   "published_at": "2026-09-08T10:30:57+00:00",
-   "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西9月8日消息，今日，法国AI公司Mistral宣布完成 30亿欧元（约合人民币234亿元） D轮融资，投后估值超过 210亿欧元（约合人民币1636亿元） 。Mistral称，这是 欧洲科技公司迄今完成的最大单轮股权融资 ，距离该公司成立仅三年。 ▲Mistral宣布完成30亿欧元D轮融资（图源：Mistral） 本轮融资由 三星电子 领投，EQT管理的Scaleup Europe Fu..."
-  },
-  {
-   "rank": 11,
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "score": 6.0,
-   "sources": [
-    "deepmind-blog",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-    "AlphaGenome Atlas: a high-resolution map of human DNA"
-   ],
-   "published_at": "2026-09-08T14:00:15.000000+00:00",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
-  },
-  {
-   "rank": 12,
    "title": "王云鹤创业后交出首个模型",
    "lang": "zh",
    "region": "cn",
@@ -240,7 +208,7 @@
    "summary": "把多模型执行经验用到了模型训练"
   },
   {
-   "rank": 13,
+   "rank": 11,
    "title": "CohereLabs/North-Micro-Vision-Instruct",
    "lang": "en",
    "region": "intl",
@@ -256,7 +224,7 @@
    "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
   },
   {
-   "rank": 14,
+   "rank": 12,
    "title": "Mistral完成30亿欧元D轮融资，投后估值超210亿欧元",
    "lang": "zh",
    "region": "cn",
@@ -272,6 +240,42 @@
    ],
    "published_at": "2026-09-08T05:24:02.000000+00:00",
    "summary": "9月8日，法国人工智能公司Mistral宣布完成30亿欧元D轮融资，投后估值超过210亿欧元。这是欧洲科技企业迄今规模最大的股权融资。三星电子领投本轮融资，EQT旗下Scaleup Europe Fund和现有投资者PSG Equity联合领投。Mistral表示，新资金将用于扩大算力和基础设施投入，加强前沿AI模型研发，并推动商业化和国际扩张。（界面）"
+  },
+  {
+   "rank": 13,
+   "title": "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says",
+   "score": 5.28,
+   "sources": [
+    "bloomberg-tech",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+    "Meta Failed to Catch Hundreds of AI Child Abuse Ads"
+   ],
+   "published_at": "2026-09-08T12:00:00.000000+00:00",
+   "summary": "Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project."
+  },
+  {
+   "rank": 14,
+   "title": "234亿！“欧洲版OpenAI”融资了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/591997.html",
+   "score": 6.5,
+   "sources": [
+    "zhidx",
+    "36kr-ai"
+   ],
+   "titles": [
+    "234亿！“欧洲版OpenAI”融资了",
+    "234亿，“欧洲版OpenAI”融资了"
+   ],
+   "published_at": "2026-09-08T10:30:57+00:00",
+   "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西9月8日消息，今日，法国AI公司Mistral宣布完成 30亿欧元（约合人民币234亿元） D轮融资，投后估值超过 210亿欧元（约合人民币1636亿元） 。Mistral称，这是 欧洲科技公司迄今完成的最大单轮股权融资 ，距离该公司成立仅三年。 ▲Mistral宣布完成30亿欧元D轮融资（图源：Mistral） 本轮融资由 三星电子 领投，EQT管理的Scaleup Europe Fu..."
   },
   {
    "rank": 15,
@@ -291,21 +295,21 @@
   },
   {
    "rank": 16,
-   "title": "DeepSeek V4.1 Flash 中间版本内测：新模型结构，更快更强、成本更低",
+   "title": "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/0/999/795.htm",
-   "score": 6.0,
+   "url": "https://www.qbitai.com/2026/09/485630.html",
+   "score": 5.5,
    "sources": [
-    "ithome",
-    "oschina"
+    "qbitai",
+    "36kr-ai"
    ],
    "titles": [
-    "DeepSeek V4.1 Flash 中间版本内测：新模型结构，更快更强、成本更低",
-    "DeepSeek V4.1 Flash 中间版本开启内测"
+    "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
+    "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递"
    ],
-   "published_at": "2026-09-08T08:05:18+00:00",
-   "summary": "IT之家 9 月 8 日消息，据IT之家小伙伴反馈，DeepSeek 今日在官方交流群内发布通知， DeepSeek V4.1 Flash 的中间版本内测 ，采用了新的模型结构，原生多模态支持、能力更强、速度更快、成本更低。 内测用户可保持 base_url 不变，将模型名设置为 deepseek-v4.1-flash-expires-on-0910 即可调用，当前计费与 deepseek-v4-flash 相同，每账号限流 20 并发..."
+   "published_at": "2026-09-08T02:42:24+00:00",
+   "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。"
   },
   {
    "rank": 17,
@@ -325,21 +329,21 @@
   },
   {
    "rank": 18,
-   "title": "踩着Astra的肩膀，傅盛都敢复刻王者荣耀了",
+   "title": "最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8133010.html",
-   "score": 6.0,
+   "url": "https://www.36kr.com/p/3974171247253377",
+   "score": 5.5,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
-    "踩着Astra的肩膀，傅盛都敢复刻王者荣耀了",
-    "踩着Astra的肩膀，傅盛都敢复刻王者荣耀了"
+    "最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何",
+    "最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何"
    ],
-   "published_at": "2026-09-08T09:41:58+00:00",
-   "summary": "文 | 字母AI 在Axios最新的采访中，奥特曼又一次谈起了“点子哥（idea guy）的复仇”。 所谓“点子哥”，指的是那类懂用户、有想法，却缺少技术执行力的人。在很长一段时间里，这个词都带点调侃的意思：不会写代码、没有工程团队，再好的想法也很难真正变成产品。 奥特曼认为AI正在改变这件事，他说：“任何想开公司的人，都像拥有了各个专业领域的天才级员工。” GPT-6 Astra上线之后，这句话有了一个非常具体的表现：有人开始下载自己..."
+   "published_at": "2026-09-08T03:55:23.000000+00:00",
+   "summary": "一张图进去，一个3D模型出来。 这件事，AI已经做了两年。速度越来越快，几何越来越准。但你把生成的模型丢进Blender里转一圈，大概率会皱眉。金属不像金属，陶瓷不像陶瓷，所有表面都像被人刷了一层哑光油漆。 群核科技刚发布的3D生成模型Lux3D，想解决的就是这个问题。模型分为标准版和极速版两档，输入一张图或一段文字，输出3D高斯、Mesh网格和带PBR材质的完整资产。 单模型定价最低约0.07元、全平台SDK、MCP接口，这在3D生成..."
   },
   {
    "rank": 19,
@@ -361,19 +365,21 @@
   },
   {
    "rank": 20,
-   "title": "tencent/Hy-MT2-1.8B-GGUF",
-   "lang": "en",
+   "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+   "lang": "zh",
    "region": "cn",
-   "url": "https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF",
+   "url": "https://www.qbitai.com/2026/09/485854.html",
    "score": 5.5,
    "sources": [
-    "hf-models-cn"
+    "qbitai",
+    "36kr-ai"
    ],
    "titles": [
-    "tencent/Hy-MT2-1.8B-GGUF"
+    "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+    "感谢用GPT-6搓3D的，燃烧自己的token换来一次全体重置"
    ],
-   "published_at": "2026-09-08T08:22:21.000000+00:00",
-   "summary": "gguf, arxiv:2605.22064, base_model:tencent/Hy-MT2-1.8B, base_model:quantized:tencent/Hy-MT2-1.8B, license:apache-2.0, endpoints_compatible, region:us, conversational"
+   "published_at": "2026-09-08T06:05:30+00:00",
+   "summary": "Blender也不用学了"
   }
  ]
 }
