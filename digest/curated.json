@@ -1,17 +1,42 @@
 {
- "generated_at": "2026-09-08T16:46:53.859095+00:00",
+ "generated_at": "2026-09-08T16:52:57.969851+00:00",
  "stats": {
-  "items": 1038,
-  "clusters": 985,
-  "noise": 699,
+  "items": 1044,
+  "clusters": 991,
+  "noise": 689,
   "dup": 2,
-  "history_days": 3
+  "history_days": 3,
+  "available_cn": 190,
+  "available_intl": 110,
+  "target_cn": 10,
+  "target_intl": 10,
+  "selected_cn": 10,
+  "selected_intl": 10
  },
  "items": [
   {
    "rank": 1,
+   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+   "score": 8.0,
+   "sources": [
+    "mistral-news",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+    "Mistral raises €3B as sovereign AI becomes big business"
+   ],
+   "published_at": "2026-09-08T12:00:22.000000+00:00",
+   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+  },
+  {
+   "rank": 2,
    "title": "消息人士透露 Anthropic 放弃收购 Decart，60 亿美元交易告吹",
    "lang": "zh",
+   "region": "cn",
    "url": "https://www.ithome.com/0/999/704.htm",
    "score": 10.5,
    "sources": [
@@ -28,9 +53,28 @@
    "summary": "IT之家 9 月 8 日消息，彭博社在美国当地时间昨日的报道中表示，Anthropic 已放弃收购人工智能实验室 Decart。 这笔被取消的交易价值本有望达到 60 亿美元 （IT之家注：现汇率约合 403.71 亿元人民币） 。 消息人士透露，Anthropic 此前已对 Decart 进行了尽职调查，但最终放弃了该收购。 两家公司或许仍会寻求其他合作机会 。 Decart 由三位以色列工程师于 2023 年创立，提供跨算力硬件类型..."
   },
   {
-   "rank": 2,
+   "rank": 3,
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "score": 6.0,
+   "sources": [
+    "deepmind-blog",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "AlphaGenome Atlas: a high-resolution map of human DNA"
+   ],
+   "published_at": "2026-09-08T14:00:15.000000+00:00",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+  },
+  {
+   "rank": 4,
    "title": "思维链让AI变聪明，Astra却用它骗人",
-   "lang": null,
+   "lang": "zh",
+   "region": "cn",
    "url": "https://www.huxiu.com/article/4889435.html",
    "score": 9.5,
    "sources": [
@@ -47,9 +91,26 @@
    "summary": "在发布了GPT-6之后，OpenAI的首席科学家雅库布·帕乔茨基（Jakub Pachocki）发表了一篇文章，标题叫做《一种异类智能》（An Alien Mind）。文章的主题老生常谈，当AI的能力持续增强，我们还能否管得住AI？雅库布提到这样一件事，说GPT-6已经学会伪装思维链（CoT）了，即模型在思维...... 本文来自微信公众号： 字母AI ，作者：苗正 在发布了GPT-6之后，OpenAI的首席科学家雅库布·帕乔茨基（Ja..."
   },
   {
-   "rank": 3,
+   "rank": 5,
+   "title": "CohereLabs/North-Micro-Vision-Instruct",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "CohereLabs/North-Micro-Vision-Instruct"
+   ],
+   "published_at": "2026-09-08T15:37:44.000000+00:00",
+   "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
+  },
+  {
+   "rank": 6,
    "title": "再这样下去，Agent要被卖保健品了",
-   "lang": null,
+   "lang": "zh",
+   "region": "cn",
    "url": "https://www.huxiu.com/article/4889436.html",
    "score": 9.5,
    "sources": [
@@ -66,9 +127,26 @@
    "summary": "Agent的安全能力怎么强调都不为过，没有足够安全能力又被赋予了过多权限的Agent进入人类世界，就如同汤姆猫闯进了《纸牌屋》，等着当冤大头吧。专门给Agent“下蛊”的隐藏指令已经出现。比如假网站将蛊惑Agent的隐藏指令在了屏幕之外-9999像素的地方，人类根本看不到，但Agent能看到——这有一个软件许...... 本文来自微信公众号： 字母AI ，作者：小金牙 Agent的安全能力怎么强调都不为过，没有足够安全能力又被赋予了过多..."
   },
   {
-   "rank": 4,
+   "rank": 7,
+   "title": "Funding grants for new research into AI and teen development",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/teen-development-research-grants",
+   "score": 3.5,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Funding grants for new research into AI and teen development"
+   ],
+   "published_at": "2026-09-08T09:00:00.000000+00:00",
+   "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+  },
+  {
+   "rank": 8,
    "title": "B面具身智能：机器人烧钱，数采公司躺赚？",
-   "lang": null,
+   "lang": "zh",
+   "region": "cn",
    "url": "https://www.huxiu.com/article/4889438.html",
    "score": 9.5,
    "sources": [
@@ -85,43 +163,26 @@
    "summary": "8月下旬，“人形机器人第一股”宇树科技正式登陆科创板。然而，上市前黄仁勋亲自站台、联想火线入股带来的超高关注，并没有让宇树科技的股价延续造富神话。上市第11个交易日，宇树科技股价盘中跌破550元，较1100元高点已经“腰斩”。就在同一时间，另一群在“...... 作者：雨谷，题图来自：AI生成 8月下旬，“人形机器人第一股”宇树科技正式登陆科创板。然而，上市前黄仁勋亲自站台、联想火线入股带来的超高关注，并没有让宇树科技的股价延续造富神话..."
   },
   {
-   "rank": 5,
-   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-   "lang": null,
-   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-   "score": 8.0,
+   "rank": 9,
+   "title": "The Work Now Within Reach",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/the-work-now-within-reach",
+   "score": 3.5,
    "sources": [
-    "mistral-news",
-    "techcrunch-ai"
+    "openai-news"
    ],
    "titles": [
-    "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-    "Mistral raises €3B as sovereign AI becomes big business"
+    "The Work Now Within Reach"
    ],
-   "published_at": "2026-09-08T12:00:22.000000+00:00",
-   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+   "published_at": "2026-09-08T13:00:00.000000+00:00",
+   "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
   },
   {
-   "rank": 6,
-   "title": "234亿！“欧洲版OpenAI”融资了",
-   "lang": "zh",
-   "url": "https://zhidx.com/p/591997.html",
-   "score": 7.0,
-   "sources": [
-    "zhidx",
-    "36kr-ai"
-   ],
-   "titles": [
-    "234亿！“欧洲版OpenAI”融资了",
-    "234亿，“欧洲版OpenAI”融资了"
-   ],
-   "published_at": "2026-09-08T10:30:57+00:00",
-   "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西9月8日消息，今日，法国AI公司Mistral宣布完成 30亿欧元（约合人民币234亿元） D轮融资，投后估值超过 210亿欧元（约合人民币1636亿元） 。Mistral称，这是 欧洲科技公司迄今完成的最大单轮股权融资 ，距离该公司成立仅三年。 ▲Mistral宣布完成30亿欧元D轮融资（图源：Mistral） 本轮融资由 三星电子 领投，EQT管理的Scaleup Europe Fu..."
-  },
-  {
-   "rank": 7,
+   "rank": 10,
    "title": "Mistral完成30亿欧元D轮融资，投后估值超210亿欧元",
-   "lang": null,
+   "lang": "zh",
+   "region": "cn",
    "url": "https://www.36kr.com/newsflashes/3974316731953666",
    "score": 7.0,
    "sources": [
@@ -136,9 +197,60 @@
    "summary": "9月8日，法国人工智能公司Mistral宣布完成30亿欧元D轮融资，投后估值超过210亿欧元。这是欧洲科技企业迄今规模最大的股权融资。三星电子领投本轮融资，EQT旗下Scaleup Europe Fund和现有投资者PSG Equity联合领投。Mistral表示，新资金将用于扩大算力和基础设施投入，加强前沿AI模型研发，并推动商业化和国际扩张。（界面）"
   },
   {
-   "rank": 8,
+   "rank": 11,
+   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+   "score": 3.5,
+   "sources": [
+    "huggingface-blog"
+   ],
+   "titles": [
+    "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic"
+   ],
+   "published_at": "2026-09-08T14:23:07.000000+00:00",
+   "summary": "A Blog post by Multiverse Computing on Hugging Face"
+  },
+  {
+   "rank": 12,
+   "title": "234亿！“欧洲版OpenAI”融资了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/591997.html",
+   "score": 7.0,
+   "sources": [
+    "zhidx",
+    "36kr-ai"
+   ],
+   "titles": [
+    "234亿！“欧洲版OpenAI”融资了",
+    "234亿，“欧洲版OpenAI”融资了"
+   ],
+   "published_at": "2026-09-08T10:30:57+00:00",
+   "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西9月8日消息，今日，法国AI公司Mistral宣布完成 30亿欧元（约合人民币234亿元） D轮融资，投后估值超过 210亿欧元（约合人民币1636亿元） 。Mistral称，这是 欧洲科技公司迄今完成的最大单轮股权融资 ，距离该公司成立仅三年。 ▲Mistral宣布完成30亿欧元D轮融资（图源：Mistral） 本轮融资由 三星电子 领投，EQT管理的Scaleup Europe Fu..."
+  },
+  {
+   "rank": 13,
+   "title": "How KDDI built Buffmee, a faster, reliable consumer RAG app",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/",
+   "score": 3.5,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "How KDDI built Buffmee, a faster, reliable consumer RAG app"
+   ],
+   "published_at": "2026-09-08T16:00:00.000000+00:00",
+   "summary": "When building consumer-facing generative AI applications, balancing high generation quality with fast response times across diverse media types, can be challenging. KDDI, a major telecommunications carrier in Japan, tack..."
+  },
+  {
+   "rank": 14,
    "title": "王云鹤创业后交出首个模型",
    "lang": "zh",
+   "region": "cn",
    "url": "https://www.qbitai.com/2026/09/485555.html",
    "score": 6.5,
    "sources": [
@@ -153,9 +265,26 @@
    "summary": "把多模型执行经验用到了模型训练"
   },
   {
-   "rank": 9,
+   "rank": 15,
+   "title": "How DiDi built intelligent contact center QA with Amazon Bedrock",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/",
+   "score": 3.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "How DiDi built intelligent contact center QA with Amazon Bedrock"
+   ],
+   "published_at": "2026-09-08T16:11:11.000000+00:00",
+   "summary": "DiDi partnered with AWS to build an intelligent contact center quality assurance (QA) system on Amazon Bedrock for its International Business Group’s Customer Experience (CX) department. The system covers Spanish and Por..."
+  },
+  {
+   "rank": 16,
    "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
    "lang": "zh",
+   "region": "cn",
    "url": "https://www.qbitai.com/2026/09/485854.html",
    "score": 6.0,
    "sources": [
@@ -170,26 +299,26 @@
    "summary": "Blender也不用学了"
   },
   {
-   "rank": 10,
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "lang": null,
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "score": 6.0,
+   "rank": 17,
+   "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+   "score": 3.5,
    "sources": [
-    "deepmind-blog",
-    "reddit-ai-new"
+    "aws-ml-blog"
    ],
    "titles": [
-    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-    "AlphaGenome Atlas: a high-resolution map of human DNA"
+    "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock"
    ],
-   "published_at": "2026-09-08T14:00:15.000000+00:00",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+   "published_at": "2026-09-08T16:15:23.000000+00:00",
+   "summary": "This post was co-written by AWS and the HPE Zerto team. If you manage hybrid and multi-cloud infrastructures, you may already be turning to AI systems to assess health, investigate issues, and act on problems faster. HPE..."
   },
   {
-   "rank": 11,
+   "rank": 18,
    "title": "“ONE FOR ALL”背后，帕西尼正在构建怎样的物理AI闭环？",
    "lang": "zh",
+   "region": "cn",
    "url": "https://www.leiphone.com/category/industrynews/PxJP8yUXOgv9VMnb.html",
    "score": 6.0,
    "sources": [
@@ -204,9 +333,26 @@
    "summary": "过去一个月，帕西尼（PaXini AI）的战略进程明显提速：发布搭载GEN4 FUSE真6D触觉感知芯片的PX6AX GEN4产品矩阵；北京总部落地，形成北京战略研发与深圳制造交付的双城协同；完成股份制改革及10亿元新一轮融资。 新品、总部、融资与股改，看似分属不同维度，实则指向同一个变化：帕西尼正从技术积累期进入规模化产业推进期。 为什么这些动作会在同一阶段密集发生？9月7日，帕西尼在深圳宝安前城中心举办媒体开放日，多家核心媒体走进「..."
   },
   {
-   "rank": 12,
+   "rank": 19,
+   "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
+   "score": 3.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6"
+   ],
+   "published_at": "2026-09-08T16:21:57.000000+00:00",
+   "summary": "Choosing the right GPU instance for large language model (LLM) inference is one of the most impactful decisions you make when deploying generative AI at scale. A single generation jump can slash latency, increase through..."
+  },
+  {
+   "rank": 20,
    "title": "奥特曼、李飞飞、张一鸣齐押注，3D世界成AI竞赛新战场",
    "lang": "zh",
+   "region": "cn",
    "url": "https://www.tmtpost.com/8132577.html",
    "score": 6.0,
    "sources": [
@@ -219,140 +365,6 @@
    ],
    "published_at": "2026-09-08T07:23:45+00:00",
    "summary": "文 | AI价值官，作者丨星野，编辑丨美圻 生成式AI的竞争，正在从图片、短视频等平面内容，快速延伸到更具想象空间的三维世界。 过去一周，四场重磅发布接连落地，三条技术底色完全不同的路线，不约而同在同一个方向上重兵集结——可实时交互的3D空间。 9月1日，Anthropic推出新一代旗舰Claude Fable 5.1，同一天李飞飞创办的 World Labs发布新一代原生世界模型Atlas。 9月3日，OpenAI 正式发布GPT-6..."
-  },
-  {
-   "rank": 13,
-   "title": "端侧AI“小时代”",
-   "lang": null,
-   "url": "https://www.36kr.com/p/3974309890283137",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "端侧AI“小时代”",
-    "端侧 AI“小时代”"
-   ],
-   "published_at": "2026-09-08T07:26:38.000000+00:00",
-   "summary": "“小时代”的开场，是一阵Mac mini抢购潮。 2026年1月下旬，一个当时还叫Clawdbot、后来以“龙虾”之名为人所知的agent走红。然后，就引发了Mac Mini的抢购潮。 人们开始为一个随时能干活的 AI，单独准备一台电脑。 图 1｜2024 年发布的 M4 Mac mini。图片来源：Apple Newsroom。 随后， 苹果已经开始在传播层面刻意转向agent。新款Mac mini不再只讲办公和创作，也开始强调全天候..."
-  },
-  {
-   "rank": 14,
-   "title": "消息称原小米汽车 L3 智能驾驶技术负责人王乃岩投身创业，攻坚高泛化具身大脑",
-   "lang": "zh",
-   "url": "https://www.ithome.com/0/999/765.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "36kr-ai"
-   ],
-   "titles": [
-    "消息称原小米汽车 L3 智能驾驶技术负责人王乃岩投身创业，攻坚高泛化具身大脑",
-    "小米L3负责人王乃岩离职，下一站具身创业"
-   ],
-   "published_at": "2026-09-08T07:44:49+00:00",
-   "summary": "IT之家 9 月 8 日消息，据“21 世纪经济报道”，原小米智能驾驶 L3 技术负责人王乃岩已投身具身大脑创业，目前该项目正在寻求融资。一位投资人表示：“王乃岩的创业团队中有不少是他在图森时期的老同事，现在核心研发人员有十几个。” 和其他具身大脑创业派不同，王乃岩此次创业的独特性是“复用 L3 的技术逻辑”。其中最具代表性的方法是“在动作模型的预训练环节，做强化学习”。 具体来看，王乃岩的方法是在预训练时进行域随机化（Domain R..."
-  },
-  {
-   "rank": 15,
-   "title": "11 天、30 万美元：AI 攻破 358 年数学难题的最后一关",
-   "lang": "zh",
-   "url": "https://www.tmtpost.com/8132711.html",
-   "score": 6.0,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "11 天、30 万美元：AI 攻破 358 年数学难题的最后一关",
-    "11天、30万美元：AI攻破358年数学难题的最后一关"
-   ],
-   "published_at": "2026-09-08T07:56:00+00:00",
-   "summary": "文 | Edu指南 近日，Anthropic宣布了一项震动数学界的消息：其AI模型Claude在基本自主运行11天后，完成了费马大定理的首个端到端、可由计算机完整检查的形式化证明。 这不是AI第一次在数学领域引发轰动。但这一次，震撼程度完全不同。 一个350年的“页边空白” 故事要从1637年说起。 法国数学家皮埃尔·德·费马在一本数学书的页边潦草地写下了一句话：对于任意整数n>2，不存在正整数a、b、c使得aⁿ+bⁿ=cⁿ。他还补了一..."
-  },
-  {
-   "rank": 16,
-   "title": "DeepSeek V4.1 Flash 中间版本内测：新模型结构，更快更强、成本更低",
-   "lang": "zh",
-   "url": "https://www.ithome.com/0/999/795.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "oschina"
-   ],
-   "titles": [
-    "DeepSeek V4.1 Flash 中间版本内测：新模型结构，更快更强、成本更低",
-    "DeepSeek V4.1 Flash 中间版本开启内测"
-   ],
-   "published_at": "2026-09-08T08:05:18+00:00",
-   "summary": "IT之家 9 月 8 日消息，据IT之家小伙伴反馈，DeepSeek 今日在官方交流群内发布通知， DeepSeek V4.1 Flash 的中间版本内测 ，采用了新的模型结构，原生多模态支持、能力更强、速度更快、成本更低。 内测用户可保持 base_url 不变，将模型名设置为 deepseek-v4.1-flash-expires-on-0910 即可调用，当前计费与 deepseek-v4-flash 相同，每账号限流 20 并发..."
-  },
-  {
-   "rank": 17,
-   "title": "踩着Astra的肩膀，傅盛都敢复刻王者荣耀了",
-   "lang": "zh",
-   "url": "https://www.tmtpost.com/8133010.html",
-   "score": 6.0,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "踩着Astra的肩膀，傅盛都敢复刻王者荣耀了",
-    "踩着Astra的肩膀，傅盛都敢复刻王者荣耀了"
-   ],
-   "published_at": "2026-09-08T09:41:58+00:00",
-   "summary": "文 | 字母AI 在Axios最新的采访中，奥特曼又一次谈起了“点子哥（idea guy）的复仇”。 所谓“点子哥”，指的是那类懂用户、有想法，却缺少技术执行力的人。在很长一段时间里，这个词都带点调侃的意思：不会写代码、没有工程团队，再好的想法也很难真正变成产品。 奥特曼认为AI正在改变这件事，他说：“任何想开公司的人，都像拥有了各个专业领域的天才级员工。” GPT-6 Astra上线之后，这句话有了一个非常具体的表现：有人开始下载自己..."
-  },
-  {
-   "rank": 18,
-   "title": "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
-   "lang": "zh",
-   "url": "https://www.qbitai.com/2026/09/485630.html",
-   "score": 5.5,
-   "sources": [
-    "qbitai",
-    "36kr-ai"
-   ],
-   "titles": [
-    "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
-    "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递"
-   ],
-   "published_at": "2026-09-08T02:42:24+00:00",
-   "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。"
-  },
-  {
-   "rank": 19,
-   "title": "最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何",
-   "lang": null,
-   "url": "https://www.36kr.com/p/3974171247253377",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何",
-    "最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何"
-   ],
-   "published_at": "2026-09-08T03:55:23.000000+00:00",
-   "summary": "一张图进去，一个3D模型出来。 这件事，AI已经做了两年。速度越来越快，几何越来越准。但你把生成的模型丢进Blender里转一圈，大概率会皱眉。金属不像金属，陶瓷不像陶瓷，所有表面都像被人刷了一层哑光油漆。 群核科技刚发布的3D生成模型Lux3D，想解决的就是这个问题。模型分为标准版和极速版两档，输入一张图或一段文字，输出3D高斯、Mesh网格和带PBR材质的完整资产。 单模型定价最低约0.07元、全平台SDK、MCP接口，这在3D生成..."
-  },
-  {
-   "rank": 20,
-   "title": "Funding grants for new research into AI and teen development",
-   "lang": null,
-   "url": "https://openai.com/index/teen-development-research-grants",
-   "score": 3.5,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Funding grants for new research into AI and teen development"
-   ],
-   "published_at": "2026-09-08T09:00:00.000000+00:00",
-   "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
   }
  ]
 }

@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-09 00:46 CST
+生成时间：2026-09-09 00:52 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -354,7 +354,7 @@
 - 发布时间：2026-09-08 06:26 CST
 - 链接：https://simonwillison.net/2026/Sep/7/jakub-pachocki/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 3 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 4 条）
 
 ### 1. Google Cloud races to catch up in the AI deployment wars with Accenture deal
 - 摘要：Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.
@@ -362,17 +362,17 @@
 - 发布时间：2026-09-09 00:20 CST
 - 链接：https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/
 
-### 2. Mistral raises €3B as sovereign AI becomes big business
+### 2. Chrome is now shipping updates every 2 weeks as AI changes the security landscape
+- 摘要：Google is speeding up Chrome’s release schedule to ship security patches and new features faster.
+- 作者：Sarah Perez
+- 发布时间：2026-09-08 23:04 CST
+- 链接：https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/
+
+### 3. Mistral raises €3B as sovereign AI becomes big business
 - 摘要：The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.
 - 作者：Anna Heim
 - 发布时间：2026-09-08 22:17 CST
 - 链接：https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/
-
-### 3. Opaque recurrence, and other AI terms that you should probably know
-- 摘要：The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.
-- 作者：Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek
-- 发布时间：2026-09-08 03:24 CST
-- 链接：https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/
 
 ## The Decoder（the-decoder，en，本窗口共 12 条）
 
@@ -428,6 +428,14 @@
 - 摘要：Presented by Equinix Imagine a technology-savvy European financial institution. The business serves customers across the European Union as well as globally, and depends on the seamless movement of data to provide market-leading solutions to its customers. More than ever, that financial institution i...
 - 发布时间：2026-09-08 22:00 CST
 - 链接：https://venturebeat.com/technology/how-european-enterprises-can-meet-sovereignty-demands-without-giving-up-global-reach
+
+## WIRED — AI（wired-ai，en，本窗口共 1 条）
+
+### 1. OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul
+- 摘要：A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.
+- 作者：Will Knight, Maxwell Zeff
+- 发布时间：2026-09-09 00:42 CST
+- 链接：https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 70 条）
 
@@ -686,7 +694,7 @@
 - 发布时间：2026-09-08 14:04 CST
 - 链接：https://github.com/mksglu/context-mode
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 101 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 102 条）
 
 ### 1. Show HN: Sparrow-2 – Noise cancellation isn't designed for conversational AI
 - 摘要：Hey there, I’m Brian. I've been shipping conversational models at Tavus for the past two years. I want to tell you about our latest audio-understanding/turn-taking model: Sparrow-2! It’s a new category of model and a unique new approach to conversational flow understanding. Earlier this year we laun...
@@ -746,25 +754,24 @@
 - 发布时间：2026-09-07 21:27 CST
 - 链接：https://www.reddit.com/r/ClaudeAI/comments/1w9s6jr/why_applying_anthropics_modellevel_watermark_to/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 454 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 457 条）
 
-### 1. Best AI for excel?
-- 摘要：I've been using Claude Pro plan for half a year mostly for hardware project review, creating calculators, quotations, etc, and I've been mostly happy with it, I can do much more with it, but something that stings me is that every time you want to do deep work on excel you have to be careful with it...
-- 作者：TerroristCS
-- 发布时间：2026-09-09 00:44 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1watpca/best_ai_for_excel/
+### 1. Already running MiniMax H3 locally – looking for solid workflows for anime / Disney-style adult videos
+- 摘要：Hey everyone, I’ve already got MiniMax H3 installed and running locally (ComfyUI setup). Looking for practical workflows and prompting advice specifically for generating anime-style or Disney-esque character videos with strong consistency. What I’m aiming for: • Clean anime or classic Disney-inspire...
+- 作者：SECRETXCOMICS
+- 发布时间：2026-09-09 00:49 CST
+- 链接：https://www.reddit.com/r/StableDiffusion/comments/1watu7q/already_running_minimax_h3_locally_looking_for/
 
-### 2. Astra is a quiet force. Artificial Analysis has updated their benchmark twice in 4 days to reflect its real strength
-- 摘要：Something similar happened with Sol and Arena had to restructure their coding benchmark and added a full-stack bench, plus updated the webdev bench to reflect real world performance after Astra released. Looks OpenAI is only lab not benchmaxxing
-- 作者：py-net
-- 发布时间：2026-09-09 00:36 CST
-- 链接：https://i.redd.it/d5b3nkoqqboh1.jpeg
+### 2. A handoff checklist for switching between Claude Code and Codex
+- 摘要：The challenge with having multiple coding assistants is that the information gets fragmented. If you are in the middle of a discussion, both can understand the repository, but the decision from a conversation thread may not make it to the next iteration. I suggest having a small handoff artifact tha...
+- 作者：Asly97
+- 发布时间：2026-09-09 00:47 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wats4y/a_handoff_checklist_for_switching_between_claude/
 
-### 3. New Fable Pretrain Dropping by the End of September Beginning of October per Leo on Twitter
-- 摘要：https://x.com/synthwavedd/status/2097354280902574469
-- 作者：141_1337
-- 发布时间：2026-09-09 00:32 CST
-- 链接：https://i.redd.it/d5rnqv30qboh1.jpeg
+### 3. SemiAnalysis: Gemini 3.8 Flash and Muse Spark 1.3 are two of the most clearly benchmaxxed models we've seen yet.
+- 作者：Neurogence
+- 发布时间：2026-09-09 00:45 CST
+- 链接：https://i.redd.it/1ftmk0w7sboh1.png
 
 ## 智源社区（baai-hub，zh，本窗口共 15 条）
 
@@ -787,7 +794,7 @@
 - 链接：https://hub.baai.ac.cn/view/57796
 
 ---
-共列出 117 条（窗口内采集总数 1048 条，来自 50 个信源）
+共列出 118 条（窗口内采集总数 1054 条，来自 51 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
