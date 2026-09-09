@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-09T13:25:38.703354+00:00",
+ "generated_at": "2026-09-09T16:48:58.625305+00:00",
  "stats": {
-  "items": 3014,
-  "clusters": 2268,
-  "noise": 423,
-  "dup": 37,
+  "items": 2973,
+  "clusters": 2261,
+  "noise": 432,
+  "dup": 35,
   "history_days": 0,
-  "available_cn": 164,
-  "available_intl": 1644,
+  "available_cn": 151,
+  "available_intl": 1643,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,87 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.08798",
-   "score": 24.5,
-   "sources": [
-    "hf-daily-papers",
-    "arxiv-cs-cv",
-    "arxiv-cs-cl",
-    "arxiv-cs-lg",
-    "arxiv-cs-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
-    "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
-    "Flow3D-OPD: Multi-Teacher On-Policy Distillation for 3D Geometry Generation with Flow-Matching Diffusion Transformer",
-    "Solution for UCF UrbanTwin LUMPI Track: Sim-to-Real Urban LiDAR 3D Object Detection",
-    "Solution for UCF UrbanTwin V2X-Real Track: Sim-to-Real Urban LiDAR 3D Object Detection",
-    "ECHO: Dyadic 3D Facial Motion Generation with Asymmetric Deterministic Articulation and Stochastic Reaction",
-    "MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting",
-    "AstraMoE-SR: Trajectory-Guided Diffusion for Blind Satellite Jitter Deblurring and Super-Resolution",
-    "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure",
-    "BoundarySeg:Boundary-Aware Multi-Task Learning for Semi-Supervised 3D Medical Image Segmentation with Limited Unlabeled Data",
-    "Remove360: Benchmarking Residuals After Object Removal in 3D Gaussian Splatting",
-    "ComplicitSplat: Downstream Models are Vulnerable to Blackbox Attacks by 3D Gaussian Splat Camouflages",
-    "Flow-Matching Guided Deep Unfolding for Hyperspectral Image Reconstruction",
-    "Uni-Inter: Unifying 3D Human Motion Synthesis Across Diverse Interaction Contexts",
-    "FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction",
-    "NOUS: Video-Driven 3D Human Reaction Generation via Observation-Reaction Mutual Steering",
-    "UniQueR: Unified Query-based Feedforward 3D Reconstruction",
-    "HGGT: Robust and Flexible 3D Hand Mesh Reconstruction from Uncalibrated Images",
-    "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
-    "Aes3D: Aesthetic Assessment in 3D Gaussian Splatting",
-    "AdaptSplat: Adapting Vision Foundation Models for Feed-Forward 3D Gaussian Splatting",
-    "EPC-3D-Diff: Equivariant Physics Consistent Conditional 3D Latent Diffusion for CBCT to CT Synthesis",
-    "Adaptive Densification for High-Fidelity and Efficient Sparse Gaussian Splatting in Arbitrary-Scale Super-Resolution",
-    "Resonant Brane Splatting for Arbitrary-Scale Super-Resolution",
-    "PlanCraft: Sketch, Refine, and Furnish for Architect-Inspired Progressive 3D Residential Scene Generation",
-    "CA-OPD: Confidence-Aware On-Policy Distillation for Structured Visual Prediction",
-    "SEGA: Drivable 3D Gaussian Head Avatar from a Single Image",
-    "MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping",
-    "SymTRELLIS: Symmetry-Enforced Voxel Latents for 3D Generation",
-    "Hierarchical Wasserstein Merging for Multi-Domain Multi-Task Learning: From Specialists to a Generalist",
-    "One Step, One Lead: Mitigating Higher-Order Interference in Multi-Domain Reinforcement Learning via Cross-Step Control",
-    "Distillation as Probability Transport: Routed On-Policy Distillation",
-    "Streaming Hierarchical Inference with Tabular Foundation Models",
-    "Semi-Supervised Learning under Spatially Biased Sampling",
-    "TV-Regulated OPD: Direction Matters in On-Policy Distillation",
-    "Multi-Task Learning for Sparsely-Labeled Time Series: A Case Study on Cold-Hardiness Modeling",
-    "RAFM-SER++: A Lightweight Multimodal Emotion Recognition Framework for Real-Time Behavioral Monitoring in Surveillance Systems",
-    "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
-    "Fixed-Dimensional Latent Flow for Generating Variable-Size 3D Molecules",
-    "The Dynamics of Generalization in Deep Learning",
-    "From Human Labels to Literature: Semi-Supervised Learning of NMR Chemical Shifts at Scale",
-    "Real-Time Driver Safety Scoring Through Inverse Crash Probability Modeling",
-    "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
-    "DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology",
-    "D-TAIA: Domain-Aware LLM Adaptation for Multi-Task Predictive Process Monitoring",
-    "PathGuide: Dynamic Classifier-Free Guidance via On-Policy Transport Alignment",
-    "Efficient and Microphone-Fault-Tolerant 3D Sound Source Localization",
-    "Multi-Task Learning with Covariate-Overlap Regularization",
-    "A robust and adaptive MPC formulation for Gaussian process models",
-    "EmoMed: An Emotionally-Aware Agent for Multimodal Medical Support with Real-Time Information Retrieval",
-    "Distance-Aware Attention and Wall-Distance Expert Routing for Transformer-Based 3D Flow Prediction",
-    "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
-    "XAI-SDN: An Explainable Entropy-Guided Machine Learning Framework for Real-Time DDoS Detection in Software Defined Networks",
-    "3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints",
-    "To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models",
-    "Evidential-Based Higher-Order Set Argumentation Framework",
-    "Benchmarking Language Models for Statistical Problem Formulation",
-    "Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
-    "Anyone tried self-hosting 3D object generation?",
-    "3D modeling fails",
-    "Best vision models under 6B?"
-   ],
-   "published_at": "2026-09-07T20:00:00.000000+00:00",
-   "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, wher..."
-  },
-  {
-   "rank": 2,
    "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
    "lang": "en",
    "region": "intl",
@@ -125,12 +44,34 @@
    "summary": "Large Language Models demonstrate remarkable proficiency in static reasoning, yet training them as autonomous agents through Reinforcement Learning (RL) for long-horizon tasks is often hindered by severe reward sparsity...."
   },
   {
+   "rank": 2,
+   "title": "Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.06373",
+   "score": 16.5,
+   "sources": [
+    "hf-daily-papers",
+    "arxiv-cs-cv",
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation",
+    "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+    "FrankenReport: Early Exiting in Long-Form Generation Using Expected Value of Computation",
+    "Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation"
+   ],
+   "published_at": "2026-09-05T20:00:00.000000+00:00",
+   "summary": "Generating long-form multi-shot videos requires coherent within-shot motion and visually consistent narratives across shots. Existing video generators favor continuous motion and struggle to present complete shot sets wh..."
+  },
+  {
    "rank": 3,
    "title": "Infrastructure-based Monocular 3D Vehicle Localization Framework with Experimental Validation",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.05523",
-   "score": 17.0,
+   "score": 16.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-cl",
@@ -177,7 +118,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.05539",
-   "score": 17.0,
+   "score": 16.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-cl",
@@ -206,6 +147,26 @@
   },
   {
    "rank": 5,
+   "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
+   "score": 8.05,
+   "sources": [
+    "marktechpost",
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+    "Show HN: CUDA/graphics in QEMU-KVM VMs without passing the Nvidia card to them",
+    "SOTA ImageGen Locally NVIDIA Cosmos3(64B) INT4 quants CUDA/MLX"
+   ],
+   "published_at": "2026-09-08T19:51:54+00:00",
+   "summary": "NVIDIA has announced CUDA Rust , a push to make Rust a first-class language for writing GPU kernels. Rust code could already launch CUDA kernels, but the kernel body usually had to be written elsewhere. CUDA Rust closes..."
+  },
+  {
+   "rank": 6,
    "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
    "lang": "en",
    "region": "intl",
@@ -223,207 +184,218 @@
    "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
   },
   {
-   "rank": 6,
-   "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
-   "score": 5.55,
-   "sources": [
-    "marktechpost",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-    "Show HN: CUDA/graphics in QEMU-KVM VMs without passing the Nvidia card to them"
-   ],
-   "published_at": "2026-09-08T19:51:54+00:00",
-   "summary": "NVIDIA has announced CUDA Rust , a push to make Rust a first-class language for writing GPU kernels. Rust code could already launch CUDA kernels, but the kernel body usually had to be written elsewhere. CUDA Rust closes..."
-  },
-  {
    "rank": 7,
-   "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+   "title": "nvidia/RE-USE",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+   "url": "https://huggingface.co/nvidia/RE-USE",
    "score": 5.5,
-   "sources": [
-    "openai-news",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-    "OpenAI Support for failed Payment"
-   ],
-   "published_at": "2026-09-08T00:00:00.000000+00:00",
-   "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
-  },
-  {
-   "rank": 8,
-   "title": "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "arstechnica-ai"
-   ],
-   "titles": [
-    "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
-    "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens"
-   ],
-   "published_at": "2026-09-08T12:00:00.000000+00:00",
-   "summary": "Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project."
-  },
-  {
-   "rank": 9,
-   "title": "CohereLabs/North-Micro-Vision-Instruct",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct",
-   "score": 5.0,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "CohereLabs/North-Micro-Vision-Instruct"
+    "nvidia/RE-USE"
    ],
-   "published_at": "2026-09-08T15:37:44.000000+00:00",
-   "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
+   "published_at": "2026-09-09T15:15:00.000000+00:00",
+   "summary": "audio-to-audio, mamba-ssm, safetensors, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, license:other, region:us"
+  },
+  {
+   "rank": 8,
+   "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+   "score": 4.5,
+   "sources": [
+    "huggingface-blog"
+   ],
+   "titles": [
+    "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license"
+   ],
+   "published_at": "2026-09-09T15:36:24.000000+00:00",
+   "summary": "A Blog post by IBM Research on Hugging Face"
+  },
+  {
+   "rank": 9,
+   "title": "Why Amazon Is Diversifying Its AI Chip Supply",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-08/why-amazon-is-diversifying-its-ai-chip-supply-video",
+   "score": 4.5,
+   "sources": [
+    "bloomberg-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Why Amazon Is Diversifying Its AI Chip Supply",
+    "Amazon, Qualcomm Deal Broadens the AI Chip Race | Bloomberg Tech 9/08/2026",
+    "Qualcomm CFO on Amazon AI Chip Deal, Data Center Strategy",
+    "Performance and Bugs Discussion Hub updated on 9 September 2026 - Sort by New!"
+   ],
+   "published_at": "2026-09-08T18:01:13.000000+00:00",
+   "summary": "Amazon’s expanded relationship with Qualcomm is reigniting debate over “circular financing” in the AI boom. Advisors Capital Management Partner and Portfolio Manager JoAnne Feeney discusses how the deal gives Amazon anot..."
   },
   {
    "rank": 10,
-   "title": "Codex on GPT6 Astra Low launched a rocket into space in Factorio Space Age 2.1",
+   "title": "Claude, change the \"Add to Cart\" button to blue",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/codex/comments/1wakicq/codex_on_gpt6_astra_low_tonight_launched_a_rocket/",
-   "score": 4.73,
+   "url": "https://opusfived.dev/",
+   "score": 4.07,
    "sources": [
     "hackernews-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "Codex on GPT6 Astra Low launched a rocket into space in Factorio Space Age 2.1",
-    "I don't see y'all glazing GPT6 Astra"
+    "Claude, change the \"Add to Cart\" button to blue",
+    "Claude remote control issue: no “Allow” button"
    ],
-   "published_at": "2026-09-08T11:35:08.000000+00:00",
-   "summary": ""
+   "published_at": "2026-09-09T09:39:46.000000+00:00",
+   "summary": "Make one button blue. Change nothing else. A short interactive comedy about agentic AI assistants that can never just do the thing."
   },
   {
    "rank": 11,
-   "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
+   "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
+   "score": 4.0,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+    "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
+    "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
+    "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod"
+   ],
+   "published_at": "2026-09-08T17:03:20.000000+00:00",
+   "summary": "Automating model registration between MLflow and a model registry solves a gap that opens the moment a candidate model leaves experimentation. Data scientists track dozens of candidate runs in MLflow, while governance of..."
+  },
+  {
+   "rank": 12,
+   "title": "Peer-to-peer LLM inference in browser tabs, Qwen 3.8 27B",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://github.com/Nehanth/swarmllm",
+   "score": 3.55,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Peer-to-peer LLM inference in browser tabs, Qwen 3.8 27B",
+    "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits - locally",
+    "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits",
+    "Is there a dummies guide for setting up qwen 27B with dflash2 and n-gram?"
+   ],
+   "published_at": "2026-09-07T20:08:22.000000+00:00",
+   "summary": "Every device brings a slice. Together they run the whole model. Peer-to-peer LLM inference across browser tabs: a from-scratch WebGPU engine and a WebRTC runtime that split a 27B model over the dev..."
+  },
+  {
+   "rank": 13,
+   "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
    "score": 3.5,
    "sources": [
     "databricks-blog"
    ],
    "titles": [
-    "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow"
+    "Beyond embedding: How to secure AI/BI Dashboards for every viewer"
    ],
-   "published_at": "2026-09-09T03:00:00.000000+00:00",
-   "summary": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing..."
-  },
-  {
-   "rank": 12,
-   "title": "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/09/gradium-launches-voice-design-write-a-prompt-get-a-brand-new-synthetic-voice-in-seconds/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds"
-   ],
-   "published_at": "2026-09-09T07:29:13+00:00",
-   "summary": "Voice agent teams keep hitting the same wall. The catalog holds 400 voices and the brief asks for the one that is not in it: a Quebecoise receptionist for a Montreal dealership, a narrator in his sixties with lecture hal..."
-  },
-  {
-   "rank": 13,
-   "title": "AI Music Startup Suno Launches New Models That Pay Labels",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-09/ai-music-startup-suno-launches-new-models-that-pay-labels",
-   "score": 3.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "AI Music Startup Suno Launches New Models That Pay Labels"
-   ],
-   "published_at": "2026-09-09T09:00:00.000000+00:00",
-   "summary": "Suno Inc. is rolling out its long-awaited artificial intelligence models trained and made in cooperation with major music industry players, such as Warner Music Group Corp."
+   "published_at": "2026-09-09T14:04:44.000000+00:00",
+   "summary": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward..."
   },
   {
    "rank": 14,
-   "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+   "title": "Automate user-level custom permissions for Amazon Quick",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+   "url": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/",
    "score": 3.5,
    "sources": [
-    "techcrunch-ai"
+    "aws-ml-blog"
    ],
    "titles": [
-    "Instacart launches an AI grocery shopping assistant called Clementine"
+    "Automate user-level custom permissions for Amazon Quick"
    ],
-   "published_at": "2026-09-09T13:00:00.000000+00:00",
-   "summary": "Instacart is the latest app to bake a conversational AI assistant into its platform."
+   "published_at": "2026-09-09T15:45:24.000000+00:00",
+   "summary": "As Amazon Quick environments scale and new AI-powered capabilities expand what users can do, automating user-level custom permissions becomes critical to maintaining the principle of least privilege. To address this, wit..."
   },
   {
    "rank": 15,
+   "title": "Suno 发布 v6 系列 AI 音乐模型，新增多项能力",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/000/351.htm",
+   "score": 9.5,
+   "sources": [
+    "ithome",
+    "the-decoder",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Suno 发布 v6 系列 AI 音乐模型，新增多项能力",
+    "Suno launches v6 music models built with Warner, BMG, and Believe",
+    "Suno v6 is here"
+   ],
+   "published_at": "2026-09-09T09:33:34+00:00",
+   "summary": "IT之家 9 月 9 日消息，据科技媒体 Engadget 今天报道，Suno 现已推出 v6 系列 AI 音乐模型，同时与华纳音乐、BMG 等唱片公司达成合作。 IT之家了解到，v6 系列一共包含三款模型：v6、v6-wild 和 v6-mini。其中 v6 主打旗舰，可生成各种风格的音乐；v6-wild 可生成实验性音乐；v6-mini 是唯一向免费用户开放的模型，另外两款需要 Pro 或 Premier 订阅才能使用。 该系列模型..."
+  },
+  {
+   "rank": 16,
+   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
+   "score": 9.0,
+   "sources": [
+    "leiphone",
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
+    "物理 AI 奔赴广域，追觅户外庭院 IFA 2026交出从核心硬件到商用落地完整答卷",
+    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
+    "去掉「AI」滤镜，IFA 2026还有哪些真亮点？",
+    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
+    "CV论文 | arXiv 2026 | 计算机视觉中的常识推理：基础、最新进展及未来发展方向"
+   ],
+   "published_at": "2026-09-09T02:17:00+00:00",
+   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
+  },
+  {
+   "rank": 17,
    "title": "腾讯混元、清华、南洋理工联手，「以小博大」破解空间智能算力与记忆断裂难题 | ECCV 2026",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.leiphone.com/category/private/E4MuSWaCQaYTfWfy.html",
-   "score": 11.0,
+   "score": 8.0,
    "sources": [
     "leiphone",
     "ithome",
-    "baai-hub",
     "reddit-ai-new"
    ],
    "titles": [
     "腾讯混元、清华、南洋理工联手，「以小博大」破解空间智能算力与记忆断裂难题 | ECCV 2026",
     "ECCV 2026 专访：让大模型「忘掉XYZ」，RoboTracer 用 3D 空间感知与度量推理重塑机器人轨迹追踪",
     "北京：打造下一代新型智能终端，推动 8K 超高清、裸眼 3D 等技术规模化应用",
-    "AI+医学博士论文 | Yale 2026 | 面向医学图像分析的深度学习推理阶段不确定性估计",
     "ECCV 2026 Social Groups [D]"
    ],
    "published_at": "2026-09-09T02:26:00+00:00",
    "summary": "Spatial-TTT 给 2B 模型装上“流式空间记忆” ，在空间基准上超越 GPT-5。 作者丨 张 璐 编辑丨 幸丽娟 单纯拉长上下文，可以解决“能塞进多少信息”的问题。但面对状态变化、时序关联这类长程任务时，注意力还是容易被稀释，关键证据也容易找不回来。 当场景扩展到具身机器人、自动驾驶和智能硬件这些需要与三维物理世界实时交互的领域时，这一矛盾被进一步放大。 与纯文本或静态图文不同，真实物理世界的输入天然是持续涌入、没有明确边界..."
   },
   {
-   "rank": 16,
-   "title": "消息称Anthropic放弃60亿美元收购Decart的交易",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3974749026939136",
-   "score": 10.0,
-   "sources": [
-    "36kr-newsflash",
-    "bloomberg-tech",
-    "36kr-ai"
-   ],
-   "titles": [
-    "消息称Anthropic放弃60亿美元收购Decart的交易",
-    "Anthropic abandonaría compra de Decart AI por US$6.000 millones",
-    "2 万亿美元的 Anthropic 值不值得买？"
-   ],
-   "published_at": "2026-09-08T12:58:38.000000+00:00",
-   "summary": "消息人士透露，Anthropic PBC已决定放弃收购人工智能初创企业Decart AI。据不愿具名的知情人士称，Anthropic此前一直在推进这笔交易，并且完成了对Decart的尽职调查，但最终选择退出。其中一名知情人士表示，两家企业仍有可能探索其他业务合作机会。Anthropic与Decart的代表均拒绝置评。（新浪财经）"
-  },
-  {
-   "rank": 17,
+   "rank": 18,
    "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
    "lang": "zh",
    "region": "cn",
    "url": "https://zhidx.com/p/592250.html",
-   "score": 8.5,
+   "score": 8.0,
    "sources": [
     "zhidx",
     "qbitai",
@@ -432,71 +404,51 @@
    "titles": [
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
-    "Minimax H3 realism loss",
-    "ComfyUI REF Fast VSA for MiniMax H3",
-    "Minimax H3,two step workflow,less time than one step workflow at the same size,and keep good quality"
+    "Already running MiniMax H3 locally – looking for solid workflows for anime / Disney-style adult videos",
+    "Made this Coraline dialogue meme with MiniMax H3",
+    "Thundercats: Mumm-Ra Reacts to Your Comments - MiniMax H3",
+    "Minimax H3: lots of artifacts, weird faces. What's wrong with my workflow?",
+    "GTA VI pixel art animation | Minimax H3 ref2vid",
+    "Anyone having this issue where videos look super compressed with Minimax H3 ?"
    ],
    "published_at": "2026-09-09T02:37:06+00:00",
    "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动，时长反响热烈。无论是Wan 3.0的30s视频指出、多模态参考、精准修改能力，还是SkyProduction（天工工作台）的资产管理、无限画布、团队协作，都广受用户好评。 而今天，SkyProduction的限免活动迎来了第二弹： Minimax H3模型，也要在SkyProduction产品上限时免费、无限使用了！..."
   },
   {
-   "rank": 18,
-   "title": "两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云",
+   "rank": 19,
+   "title": "头部智能眼镜品牌完成近10亿C轮融资，已正式启动上市筹备工作｜硬氪首发",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3974241618784520",
-   "score": 8.05,
+   "url": "https://www.36kr.com/p/3974730056757511",
+   "score": 6.5,
    "sources": [
     "36kr-ai",
-    "ieee-spectrum-ai",
-    "hackernews-ai"
+    "zhidx"
    ],
    "titles": [
-    "两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云",
-    "Google DeepMind Maps 9 Billion Possible DNA Variants",
-    "全公司狂用Claude半年，一年要烧掉3亿美元，Salesforce终于开始给AI“算账”了：得想想怎么“抠Token”……",
-    "Salesforce blames its Claude addiction for denting profit margin guidance"
+    "头部智能眼镜品牌完成近10亿C轮融资，已正式启动上市筹备工作｜硬氪首发",
+    "近10亿！四川智能眼镜创企拿下新融资，筹备上市"
    ],
-   "published_at": "2026-09-08T12:34:11.000000+00:00",
-   "summary": "前沿 AI 模型在回答前会先“思考”，再把加密后的思考过程像密封信封一样交还给用户。前 Google DeepMind 研究员 Ilia Shumailov 和 ELLIS Institute Tübingen、MPI-IS 博士生 Alexander Panfilov 却发现，这个封条几乎没什么用。这些数据块可以跨用户、跨会话，甚至在同系列模型之间重放。把强模型的加密推理塞给同一家族的小模型，就能套出 GPT-5、Claude 等前沿..."
-  },
-  {
-   "rank": 19,
-   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
-   "score": 7.0,
-   "sources": [
-    "leiphone",
-    "qbitai"
-   ],
-   "titles": [
-    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
-    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
-    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
-    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力"
-   ],
-   "published_at": "2026-09-09T02:17:00+00:00",
-   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
+   "published_at": "2026-09-09T01:00:00.000000+00:00",
+   "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，全球智能眼镜品牌「影目科技」近日完成C3轮融资，由四川振兴科创基金领投，静安资本、市北高新、广州产投、四川中试、眉山中试及东坡国投跟投。继年初完成C1、C2轮融资后，公司C轮融资累计金额近10亿元。 本轮资金将主要用于新一代空间智能硬件产品线的研发落地，及INMO AIOS 系统的持续迭代升级，加强硬件与软件底层核心能力构建；同时，加大品牌建设与全渠道布局，完善商业化能力，推动产品破圈，实现业务加速增..."
   },
   {
    "rank": 20,
-   "title": "蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin",
+   "title": "欧洲版OpenAI，融资235亿：1年估值涨80%",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3975687709864449",
-   "score": 7.0,
+   "url": "https://www.36kr.com/p/3975555257725184",
+   "score": 6.5,
    "sources": [
-    "36kr-newsflash",
-    "qbitai"
+    "36kr-ai",
+    "ithome"
    ],
    "titles": [
-    "蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin",
-    "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流"
+    "欧洲版OpenAI，融资235亿：1年估值涨80%",
+    "软银将提前偿还 259 亿美元过桥贷款，拟通过发债等方式为 OpenAI 投资再融资"
    ],
-   "published_at": "2026-09-09T04:46:31.000000+00:00",
-   "summary": "外滩大会前夕，蚂蚁百灵发布首个金融增强开放模型Ling-3.0-flash-Fin。与传统金融大模型主要解决问答、摘要等单点任务不同，Ling-3.0-flash-Fin进一步瞄准真实金融工作流，尝试让AI从“回答一个问题”走向“完成一项工作”。目前，该模型已经正式开源。与此同时，蚂蚁百灵还同步开放金融搜索Agent评测基准FinFIRST，逐步开放模型、工具和评测体系。模型目前重点切入投资研究场景，覆盖信息检索、研究推理、估值建模、研..."
+   "published_at": "2026-09-09T02:56:45.000000+00:00",
+   "summary": "欧洲AI，又砸下了一笔大钱。 法国AI公司Mistral宣布完成30亿欧元D轮融资，约合人民币234亿元，投后估值超过210亿欧元，约合人民币1636亿元。 三星电子领投，EQT管理的Scaleup Europe Fund和老股东PSG Equity共同领投，新投资方还包括Advent、贝莱德管理的基金及账户，以及卢森堡大公国。Mistral称，这是欧洲科技公司迄今完成的最大单轮股权融资。 更夸张的是速度。 Mistral 2023年4..."
   }
  ]
 }
