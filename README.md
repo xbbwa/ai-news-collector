@@ -27,7 +27,7 @@ xbbwa/ai-news-archive（私有）── items/YYYY-MM-DD.jsonl（GitHub 侧） +
 xbbwa/ai-news-collector data 分支（公开）── digest/latest.md、curated.md、curated.json、pushed-history.jsonl
    │
    ▼  纯 HTTPS 下载（raw.githubusercontent.com）
-国内服务器 ── cron 07:01：scripts/sync_digest.sh 把摘要放到 OpenClaw 读的位置，并回传 pushed-history.jsonl
+国内服务器 ── cron 07:01：scripts/sync_digest.sh 只下载摘要；08:20 确认真实送达后才回传 pushed-history.jsonl
 ```
 
 两侧文件名不同所以永不冲突；推送前都会 `git pull --rebase`。两侧各自去重，同一篇文章被两边不同信源抓到时归档里会各有一条
@@ -83,7 +83,7 @@ git -C ~/ai-news-archive config user.name "ai-news-collector server"
 git -C ~/ai-news-archive config user.email "ai-news-collector-server@users.noreply.github.com"
 ```
 
-`GITHUB_TOKEN`（细粒度 PAT，只选 ai-news-collector 这一个仓库、Contents: Read and write）现在只用于 07:01 回传 pushed-history.jsonl
+`GITHUB_TOKEN`（细粒度 PAT，只选 ai-news-collector 这一个仓库、Contents: Read and write）用于 08:20 在确认真实送达后回传 pushed-history.jsonl
 和 server_update.sh 拉 tarball 时提高限额；没配也不影响采集和全文归档。
 体检：`~/venvs/ai-news-collector/bin/python scripts/check_sources.py`（自动只查 server 侧的源）。
 
@@ -140,10 +140,10 @@ Actions 每小时                         scripts/curate_digest.py → data 分�
    ├ 标题分词（英文词 / 中文二字词）做跨来源聚类：一件事被 5 家报道 = 1 条，"N 个来源"直接写在条目里
    ├ 打分排序：来源数 × 层级权重 + HN 分数 + HF likes + 发布类关键词 + 12h 内新鲜度
    ├ 过滤噪音：Reddit 自发帖、只有 Reddit/Product Hunt 单源的链接、没人点赞的 HF 上传、<80 分的 HN、TLDR 日报、GitHub Trending
-   ├ 跨天去重：排除与 digest/pushed-history.jsonl（服务器回传的"已推送"）近 3 天相似的事件
-   └ 强制平衡：每源最多 3 条，按 `region` 严格取国外 10 条 + 国内 10 条，逐对交替排列；一侧不足不由另一侧补位
+   ├ 跨天去重：相同 URL 永久排除；标题相似、或共享模型/公司名 + 同类事件（融资/收购/安全/政策）也与全部历史比较
+   └ 强制平衡：每源最多 3 条，按 `region` 严格取国外 14 条 + 国内 6 条；国外全部在前、国内全部在后
 服务器 07:01   scripts/sync_digest.sh：下载 curated.md → daily-ai-news-curated.md，latest.md → daily-ai-news-summary.md（完整版留档）；
-               mark_pushed.py 把这 20 条记为已推送，publish_archive.py 上传 pushed-history.jsonl 回 data 分支
+服务器 08:20   check_openclaw_delivery.py 验证群推真实回执；成功后才由 mark_pushed.py 永久记录并上传历史
 OpenClaw 08:00 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 写 daily-push-history.md
 服务器 08:20 crontab：scripts/check_openclaw_delivery.py 读取 08:00 任务的真实 status/delivered/deliveryStatus；
                    失败则自动重跑群推、等待真实回执并私聊通知运维者
@@ -164,12 +164,12 @@ OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录�
 （1/2）（2/2）把列表切断——skill 里必须显式声明这条偏好对定时推送不适用。`cron edit --light-context`（轻量启动上下文）
 能去掉这类干扰，但实测 Flash 在轻量上下文下反而把推演文字写进最终回复、还跳过写文件步骤，所以推送任务保持完整上下文。
 
-调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --cn-items 10 --per-source-cap 3 --summary-chars 220 --exclude-source`。
+调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --cn-items 6 --history-days 0 --per-source-cap 3 --summary-chars 220 --exclude-source`。
 `region` 表示**来源归属**而非标题语言：国内厂商/媒体显式标 `cn`，其余默认 `intl`。OpenClaw 必须逐条翻译，不得再合并、
-删除、重排或改地区，否则会破坏 50/50 配额。
+删除、重排或改地区，否则会破坏 70/30 配额。输出固定为 `国外：`14 条在前、`国内：`6 条在后。
 泛科技源（带 `keywords` 的）的条目还要求**标题**本身命中 AI 关键词才进候选，否则 Axios/CNBC 的债券解读这类靠摘要过筛的会混进来。
 2026-09-08 用私有归档的真实 24 小时数据复测：891 条原始条目 → 851 个事件 → 过滤 594 个噪音、排除 9 个已推送事件；
-可选池国内 181 / 国外 67，最终严格选中国内 10 / 国外 10，排列为「国外、国内」重复 10 次。
+可选池国内 181 / 国外 67；按新要求最终严格选择国外 14 / 国内 6，一侧不足时宁可少发，也不由另一侧补位。
 同一事件的英文公告和中文转载目前仍可能各占一个名额（不做跨语言聚类），但不再交给弱模型合并，以保证最终比例稳定。
 
 ## 自建部署（可选，Docker）

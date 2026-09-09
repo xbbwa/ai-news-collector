@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -29,6 +30,19 @@ PUSH_JOB_ID = "1b09cdd9-25f9-45fc-9fed-ff98074f8eef"
 OPERATOR = "user:ou_6b013033efa0b30f20cbbf41fbebb5da"
 TZ = ZoneInfo("Asia/Shanghai")
 OPENCLAW = str(Path.home() / ".npm-global/bin/openclaw")
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def load_env() -> None:
+    path = ROOT / ".env"
+    if not path.exists():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
 def run(*args: str, timeout: int = 60) -> subprocess.CompletedProcess[str]:
@@ -91,12 +105,60 @@ def notify(text: str) -> None:
         print(f"operator notification failed: {(proc.stderr or proc.stdout).strip()}", file=sys.stderr)
 
 
+def record_delivered_history() -> bool:
+    """Persist only content that has an actual successful group delivery receipt."""
+    curated = ROOT / "data/curated.json"
+    history_dir = ROOT / "archive/digest"
+    history = history_dir / "pushed-history.jsonl"
+    if not curated.exists():
+        print(f"cannot mark delivery: {curated} is missing", file=sys.stderr)
+        return False
+    history_dir.mkdir(parents=True, exist_ok=True)
+    commands = [
+        [
+            sys.executable,
+            str(ROOT / "scripts/mark_pushed.py"),
+            "--curated",
+            str(curated),
+            "--history",
+            str(history),
+            "--keep-days",
+            "0",
+        ],
+        [
+            sys.executable,
+            str(ROOT / "scripts/publish_archive.py"),
+            "--dir",
+            str(history_dir),
+            "--pattern",
+            "pushed-history.jsonl",
+            "--remote-dir",
+            "digest",
+            "--repo",
+            "xbbwa/ai-news-collector",
+            "--branch",
+            "data",
+            "--state",
+            str(ROOT / "data/publish_state_digest.json"),
+        ],
+    ]
+    for command in commands:
+        proc = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, timeout=180)
+        if proc.stdout.strip():
+            print(proc.stdout.strip())
+        if proc.returncode != 0:
+            print((proc.stderr or "history command failed").strip(), file=sys.stderr)
+            return False
+    return True
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--job-id", default=PUSH_JOB_ID)
     parser.add_argument("--wait-seconds", type=int, default=900)
     parser.add_argument("--poll-seconds", type=int, default=10)
     args = parser.parse_args()
+    load_env()
 
     lock_path = Path.home() / ".openclaw/ai-news-delivery-check.lock"
     lock_path.parent.mkdir(parents=True, exist_ok=True)
@@ -111,8 +173,11 @@ def main() -> int:
         today = datetime.now(TZ).date().isoformat()
         before = latest_run(args.job_id)
         if delivered(before, today):
-            print(f"{today}: push receipt verified ({summarize(before)})")
-            return 0
+            if record_delivered_history():
+                print(f"{today}: push receipt verified and recorded ({summarize(before)})")
+                return 0
+            notify("⚠️ Daily AI News 已送达群，但去重历史写回 GitHub 失败，请检查服务器日志。")
+            return 1
 
         print(f"{today}: push missing/failed ({summarize(before)}); retrying")
         notify(f"⚠️ Daily AI News 08:00 群推未成功，08:20 正在自动补推。\n{summarize(before)}")
@@ -136,8 +201,11 @@ def main() -> int:
             break
 
         if delivered(latest, today):
+            if not record_delivered_history():
+                notify("⚠️ Daily AI News 已补推到群，但去重历史写回 GitHub 失败，请检查服务器日志。")
+                return 1
             notify("✅ Daily AI News 已自动补推到群，真实投递回执为 delivered。")
-            print(f"{today}: retry delivered ({summarize(latest)})")
+            print(f"{today}: retry delivered and recorded ({summarize(latest)})")
             return 0
 
         notify(f"❌ Daily AI News 自动补推仍失败，请人工处理。\n{summarize(latest)}")

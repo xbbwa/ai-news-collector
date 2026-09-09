@@ -12,7 +12,17 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from curate_digest import Cluster, cluster_region, select  # noqa: E402
+from curate_digest import (  # noqa: E402
+    Cluster,
+    action_tokens,
+    cluster_region,
+    entity_tokens,
+    load_history,
+    same_event,
+    select,
+    tokens,
+    was_pushed,
+)
 from daily_digest import fetch_items_db  # noqa: E402
 
 
@@ -31,25 +41,25 @@ def make_cluster(source: str, title: str) -> Cluster:
 
 
 class RegionQuotaTests(unittest.TestCase):
-    def test_exact_half_and_interleaved(self) -> None:
+    def test_exact_70_30_with_international_first(self) -> None:
         clusters = [
-            *(make_cluster(f"cn-{i}", f"中国新闻{i}") for i in range(12)),
-            *(make_cluster(f"intl-{i}", f"International story {i}") for i in range(12)),
+            *(make_cluster(f"cn-{i}", f"中国新闻{i}") for i in range(16)),
+            *(make_cluster(f"intl-{i}", f"International story {i}") for i in range(16)),
         ]
         regions = {
-            **{f"cn-{i}": "cn" for i in range(12)},
-            **{f"intl-{i}": "intl" for i in range(12)},
+            **{f"cn-{i}": "cn" for i in range(16)},
+            **{f"intl-{i}": "intl" for i in range(16)},
         }
         chosen = select(
             clusters,
             datetime.now(timezone.utc),
             max_items=20,
-            cn_items=10,
+            cn_items=6,
             per_source_cap=3,
             regions=regions,
         )
         actual = [cluster_region(c, regions) for c in chosen]
-        self.assertEqual(actual, ["intl", "cn"] * 10)
+        self.assertEqual(actual, ["intl"] * 14 + ["cn"] * 6)
 
     def test_short_side_is_not_filled_from_other_region(self) -> None:
         clusters = [
@@ -72,6 +82,52 @@ class RegionQuotaTests(unittest.TestCase):
         self.assertEqual(actual.count("cn"), 3)
         self.assertEqual(actual.count("intl"), 5)
         self.assertEqual(len(actual), 8)
+
+
+class CrossDayDedupeTests(unittest.TestCase):
+    def test_cross_language_company_funding_is_same_event(self) -> None:
+        english = "Mistral raises €3B in Samsung-led funding round"
+        chinese = "Mistral 完成 30 亿欧元融资，三星领投"
+        self.assertTrue(
+            same_event(
+                tokens(english),
+                tokens(chinese),
+                entity_tokens(english),
+                entity_tokens(chinese),
+                action_tokens(english),
+                action_tokens(chinese),
+            )
+        )
+
+    def test_exact_url_is_permanently_deduped(self) -> None:
+        cluster = make_cluster("intl-1", "A completely rewritten title")
+        cluster.items[0]["url"] = "https://example.com/same"
+        history = [
+            {
+                "url": "https://example.com/same",
+                "tokens": frozenset(),
+                "entities": frozenset(),
+                "actions": frozenset(),
+            }
+        ]
+        self.assertTrue(was_pushed(cluster, history))
+
+    def test_history_days_zero_loads_old_entries(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "history.jsonl"
+            path.write_text(
+                json.dumps(
+                    {
+                        "pushed_on": "2020-01-01",
+                        "url": "https://example.com/old",
+                        "titles": ["Old story"],
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(len(load_history(path, days=0)), 1)
+            self.assertEqual(len(load_history(path, days=1)), 0)
 
 
 class DatabaseLoaderTests(unittest.TestCase):

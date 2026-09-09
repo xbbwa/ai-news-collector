@@ -10,8 +10,8 @@ has to translate and format:
   liked, items without a title
 - cross-day dedupe: stories similar to anything in the pushed-history file (what the server
   actually pulled and pushed on previous days) are dropped
-- diversity: at most N entries per source, an exact source-origin quota (10 China / 10 international
-  for the default 20); the two sides are interleaved so the visible list never looks one-sided
+- diversity: at most N entries per source, an exact source-origin quota (6 China / 14 international
+  for the default 20); all international stories are listed first, then all China stories
 
 Stdlib only; reuses the loaders in daily_digest.py.
 
@@ -65,6 +65,24 @@ STOP = {
 }
 BRACKET_TAG_RE = re.compile(r"\[(?:[a-z]{1,2}|news|research|discussion|project)\]", re.I)
 WORD_RE = re.compile(r"[a-z0-9][a-z0-9_.+-]*|[\u4e00-\u9fff]+")
+ENTITY_STOP = STOP | {
+    "ai", "model", "models", "agent", "agents", "news", "report", "research",
+    "company", "companies", "technology", "tech", "open", "source", "system",
+    "data", "using", "based", "latest", "today", "announces", "announced",
+}
+KNOWN_ENTITIES = {
+    "openai", "chatgpt", "anthropic", "claude", "gemini", "deepmind", "deepseek",
+    "qwen", "kimi", "mistral", "llama", "nvidia", "huggingface", "meta", "microsoft",
+    "google", "apple", "amazon", "aws", "alibaba", "tencent", "bytedance", "seedance",
+    "grok", "xai", "copilot", "minimax", "moonshot", "cohere", "stability",
+}
+ACTION_PATTERNS = {
+    "funding": re.compile(r"融资|募资|估值|投资|funding|fundraise|raises?|valuation|series [a-z]", re.I),
+    "acquisition": re.compile(r"收购|并购|acquir|merger|takeover", re.I),
+    "release": re.compile(r"发布|推出|上线|开源|release|launch|introduc|unveil|rolls? out|open[- ]?weight", re.I),
+    "security": re.compile(r"安全|攻击|漏洞|security|attack|hack|vulnerab", re.I),
+    "policy": re.compile(r"监管|法案|政策|禁令|regulat|policy|law|ban", re.I),
+}
 
 
 def tokens(title: str) -> frozenset[str]:
@@ -82,6 +100,47 @@ def tokens(title: str) -> frozenset[str]:
     return frozenset(out)
 
 
+def entity_tokens(title: str) -> frozenset[str]:
+    """Cross-language anchors: model/company names survive in both English and Chinese titles."""
+    out = set()
+    for raw in re.findall(r"[A-Za-z0-9][A-Za-z0-9_.+-]*", title):
+        value = raw.lower().strip("._+-")
+        if not value or value in ENTITY_STOP:
+            continue
+        if value in KNOWN_ENTITIES or any(ch.isdigit() for ch in value):
+            out.add(value)
+    # Normalize the common two-word brand spelling to the same anchor as "HuggingFace".
+    low = title.lower()
+    if "hugging face" in low or "huggingface" in low:
+        out.add("huggingface")
+        out.discard("hugging")
+        out.discard("face")
+    return frozenset(out)
+
+
+def action_tokens(title: str) -> frozenset[str]:
+    return frozenset(name for name, pattern in ACTION_PATTERNS.items() if pattern.search(title))
+
+
+def same_event(
+    left_tokens: frozenset[str],
+    right_tokens: frozenset[str],
+    left_entities: frozenset[str],
+    right_entities: frozenset[str],
+    left_actions: frozenset[str],
+    right_actions: frozenset[str],
+) -> bool:
+    if similar(left_tokens, right_tokens):
+        return True
+    common_entities = left_entities & right_entities
+    if len(common_entities) >= 2:
+        return True
+    # One shared company plus an unambiguous corporate event catches cross-language headlines
+    # such as "Mistral raises €3B" / "Mistral 完成 30 亿欧元融资" without merging every release.
+    strong_actions = {"funding", "acquisition", "security", "policy"}
+    return bool(common_entities and left_actions & right_actions & strong_actions)
+
+
 def similar(a: frozenset[str], b: frozenset[str]) -> bool:
     if not a or not b:
         return False
@@ -97,10 +156,14 @@ class Cluster:
     def __init__(self, item: dict) -> None:
         self.items: list[dict] = [item]
         self.tokens: frozenset[str] = tokens(item["title"])
+        self.entities: frozenset[str] = entity_tokens(item["title"])
+        self.actions: frozenset[str] = action_tokens(item["title"])
 
     def add(self, item: dict) -> None:
         self.items.append(item)
         self.tokens = self.tokens | tokens(item["title"])
+        self.entities = self.entities | entity_tokens(item["title"])
+        self.actions = self.actions | action_tokens(item["title"])
 
     @property
     def rep(self) -> dict:
@@ -119,8 +182,10 @@ def cluster_items(items: list[dict]) -> list[Cluster]:
     clusters: list[Cluster] = []
     for item in sorted(items, key=lambda it: (it["source_tier"], it.get("published_at") or "9")):
         tk = tokens(item["title"])
+        entities = entity_tokens(item["title"])
+        actions = action_tokens(item["title"])
         for c in clusters:
-            if similar(tk, c.tokens):
+            if same_event(tk, c.tokens, entities, c.entities, actions, c.actions):
                 c.add(item)
                 break
         else:
@@ -179,24 +244,56 @@ def score(c: Cluster, now: datetime) -> float:
     return round(s, 2)
 
 
-def load_history(path: Path | None, days: int) -> list[frozenset[str]]:
+def load_history(path: Path | None, days: int) -> list[dict]:
     if not path or not path.exists():
         return []
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).date().isoformat()
-    out: list[frozenset[str]] = []
+    cutoff = (
+        (datetime.now(timezone.utc) - timedelta(days=days)).date().isoformat()
+        if days > 0
+        else None
+    )
+    out: list[dict] = []
     with open(path, encoding="utf-8") as fh:
         for line in fh:
             if not line.strip():
                 continue
             entry = json.loads(line)
-            if entry.get("pushed_on", "") < cutoff:
+            if cutoff is not None and entry.get("pushed_on", "") < cutoff:
                 continue
+            history_titles = entry.get("titles") or [entry.get("title", "")]
             tk: set[str] = set()
-            for t in entry.get("titles") or [entry.get("title", "")]:
-                tk |= tokens(t)
-            if tk:
-                out.append(frozenset(tk))
+            entities: set[str] = set()
+            actions: set[str] = set()
+            for title in history_titles:
+                tk |= tokens(title)
+                entities |= entity_tokens(title)
+                actions |= action_tokens(title)
+            out.append(
+                {
+                    "url": (entry.get("url") or "").rstrip("/"),
+                    "tokens": frozenset(tk),
+                    "entities": frozenset(entities),
+                    "actions": frozenset(actions),
+                }
+            )
     return out
+
+
+def was_pushed(c: Cluster, history: list[dict]) -> bool:
+    urls = {(item.get("url") or "").rstrip("/") for item in c.items}
+    for old in history:
+        if old["url"] and old["url"] in urls:
+            return True  # permanent exact-URL dedupe
+        if same_event(
+            c.tokens,
+            old["tokens"],
+            c.entities,
+            old["entities"],
+            c.actions,
+            old["actions"],
+        ):
+            return True
+    return False
 
 
 def cluster_region(c: Cluster, regions: dict[str, str]) -> str:
@@ -229,14 +326,8 @@ def select(
             selected[region].append(c)
             used[(region, source)] += 1
 
-    # Interleave rather than grouping by region: every adjacent pair visibly stays 50/50.
-    chosen: list[Cluster] = []
-    for index in range(max(len(selected["intl"]), len(selected["cn"]))):
-        if index < len(selected["intl"]):
-            chosen.append(selected["intl"][index])
-        if index < len(selected["cn"]):
-            chosen.append(selected["cn"][index])
-    return chosen
+    # User-facing order is deliberate: all international stories first, China stories last.
+    return selected["intl"] + selected["cn"]
 
 
 def build_markdown(
@@ -248,25 +339,34 @@ def build_markdown(
     stats: dict,
     summary_chars: int,
 ) -> str:
+    history_scope = "全部历史" if stats["history_days"] == 0 else f"前 {stats['history_days']} 天"
     lines = [
-        f"# Daily AI News 候选清单（国内 {stats['selected_cn']}｜国外 {stats['selected_intl']}）",
+        f"# Daily AI News 候选清单（国外 {stats['selected_intl']}｜国内 {stats['selected_cn']}）",
         f"生成时间：{now.astimezone().strftime('%Y-%m-%d %H:%M %Z')}",
         f"数据窗口：最近 24 小时，{stats['items']} 条原始条目 → {stats['clusters']} 个事件；"
-        f"过滤噪音 {stats['noise']} 个，排除前 {stats['history_days']} 天已推送的 {stats['dup']} 个。",
-        f"强制配额：国内源 {stats['selected_cn']}/{stats['target_cn']}，"
-        f"国外源 {stats['selected_intl']}/{stats['target_intl']}；按国外/国内交替排列。",
+        f"过滤噪音 {stats['noise']} 个，排除{history_scope}已推送的 {stats['dup']} 个。",
+        f"强制配额：国外源 {stats['selected_intl']}/{stats['target_intl']}，"
+        f"国内源 {stats['selected_cn']}/{stats['target_cn']}；国外全部在前，国内全部在后。",
         "",
         "> 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，",
         "> 按 skill daily-ai-news 只做翻译与排版。「来源」里有几家就是几家同时报道，可作为重要程度的依据。",
         "",
     ]
-    for i, c in enumerate(chosen, 1):
+    current_region = None
+    section_index = 0
+    for c in chosen:
         rep = c.rep
         src_names = [names.get(s, s) for s in c.sources]
         region = cluster_region(c, regions)
         region_label = "国内源" if region == "cn" else "国外源"
         lang = rep.get("lang") or langs.get(rep["source_id"], "en")
-        lines.append(f"## {i}. {one_line(rep['title'], 200)}")
+        if region != current_region:
+            current_region = region
+            section_index = 0
+            lines.append("国内：" if region == "cn" else "国外：")
+            lines.append("")
+        section_index += 1
+        lines.append(f"## {section_index}. {one_line(rep['title'], 200)}")
         lines.append(
             f"- 地区：{region_label} ｜ 语言：{lang} ｜ 来源：{'、'.join(src_names[:5])}"
             f"（{len(c.sources)} 个来源） ｜ 热度：{score(c, now)}"
@@ -298,13 +398,18 @@ def main() -> int:
     ap.add_argument("--jsonl", action="append", default=[], metavar="GLOB", help="archive files to merge (server side)")
     ap.add_argument("--sources-yaml", type=Path)
     ap.add_argument("--history", type=Path, help="pushed-history.jsonl written by the server after each pull")
-    ap.add_argument("--history-days", type=int, default=3)
+    ap.add_argument(
+        "--history-days",
+        type=int,
+        default=0,
+        help="fuzzy history window in days; 0 compares all retained history (default)",
+    )
     ap.add_argument("--hours", type=int, default=24)
     ap.add_argument("--max-items", type=int, default=20)
     ap.add_argument(
         "--cn-items",
         type=int,
-        help="exact number selected from region=cn (default: half of --max-items)",
+        help="exact number selected from region=cn (default: 30%% of --max-items)",
     )
     ap.add_argument("--per-source-cap", type=int, default=3)
     ap.add_argument("--summary-chars", type=int, default=220)
@@ -318,7 +423,7 @@ def main() -> int:
     ap.add_argument("--out-md", type=Path, required=True)
     ap.add_argument("--out-json", type=Path, required=True)
     args = ap.parse_args()
-    cn_items = args.max_items // 2 if args.cn_items is None else args.cn_items
+    cn_items = round(args.max_items * 0.3) if args.cn_items is None else args.cn_items
     if not 0 <= cn_items <= args.max_items:
         ap.error("--cn-items must be between 0 and --max-items")
     excluded = set(args.exclude_source or ["tldr-ai", "github-trending"])
@@ -341,7 +446,7 @@ def main() -> int:
     kept = [c for c in clusters if not is_noise(c) and not off_topic(c, keywords_by_source)]
     noise = len(clusters) - len(kept)
     history = load_history(args.history, args.history_days)
-    fresh = [c for c in kept if not any(similar(c.tokens, h) for h in history)]
+    fresh = [c for c in kept if not was_pushed(c, history)]
     dup = len(kept) - len(fresh)
 
     chosen = select(fresh, now, args.max_items, cn_items, args.per_source_cap, regions)
