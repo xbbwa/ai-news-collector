@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-09 21:18 CST
+生成时间：2026-09-09 21:25 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -716,7 +716,7 @@
 - 发布时间：2026-09-09 16:30 CST
 - 链接：https://www.infoq.cn/article/WlJkEfJxMgaK9o91ow2Z?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 111 条）
+## IT之家（ithome，zh，本窗口共 110 条）
 
 ### 1. 全球首个千亿级参数气象服务垂域模型：“风和”V1.0 实现业务准入
 - 摘要：IT之家 9 月 9 日消息，中国气象局官方公众号今天（9 日）晚间发文宣布，生成式人工智能气象服务系统“风和”模型 V1.0 通过中国气象局组织的专家评审，实现业务准入 。 作为首个千亿级参数的气象服务垂域模型，“风和”具备 气象服务需求理解、气象服务内容生成、气象推理与决策、气象工具调用 等能力，可为气象服务业务提供基座模型能力支撑。 模型能力评估结果表明，“风和”在服务需求理解、服务内容生成、气象推理与决策等方面优于通用模型。模型通过中央网信办备案，试运行稳定，达到业务准入要求。 “风和”不仅能够为全国气象服务业务提供基础支撑，为国内公众提供个性化、智能化气象信息查询、气象服务建议和气象...
@@ -849,7 +849,7 @@
 - 发布时间：2026-09-09 14:09 CST
 - 链接：https://github.com/browser-use/browser-use
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 137 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 138 条）
 
 ### 1. Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs
 - 摘要：LLM-ready reasoning surface over logs. Contribute to ctrlb-hq/ctrlb-decompose development by creating an account on GitHub.
@@ -889,25 +889,24 @@
 - 发布时间：2026-09-09 06:03 CST
 - 链接：https://www.producthunt.com/products/frigade
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 453 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 456 条）
 
-### 1. If an AI searches with Google, and reads the AI summary
-- 摘要：is that considered A2A?
-- 作者：JobOdd7262
-- 发布时间：2026-09-09 21:13 CST
-- 链接：https://www.reddit.com/r/artificial/comments/1wbl91b/if_an_ai_searches_with_google_and_reads_the_ai/
+### 1. Seeing a lot of content online mocking what can be built with AI and dismissing it as unusable. I’m right here busting that myth with a live project I’ve actually built and modernised with AI. If I ca...
+- 作者：Astrokanu
+- 发布时间：2026-09-09 21:22 CST
+- 链接：https://www.reddit.com/gallery/1wblh5r
 
-### 2. GPT-Image 2.5 + (Local) Minimax H3 to convert a 40 year old anime into a modern one.
-- 摘要：source: https://x.com/iurimatias/status/2097670596725178533 note: quality on reddit is lower for some reason making the difference less clear
-- 作者：heliumcraft
-- 发布时间：2026-09-09 21:11 CST
-- 链接：https://v.redd.it/tsnrm5zuuhoh1
+### 2. AGI is solved. Just asked Astra to make me GTA VI
+- 摘要：So i was messing around in my game engine (made to be natively used by AI, in this case gpt-6 astra on high effort) and wanted to see what I could come up with today... Asked to make GTA VI for the playstation 1 and after it made the playable version, saw a post about Astra remaking Rick roll in ble...
+- 作者：wannabestraight
+- 发布时间：2026-09-09 21:19 CST
+- 链接：https://v.redd.it/98fgrc2iwhoh1
 
-### 3. Building a local-first desktop app for long-form AI video on MiniMax H3, runs through ComfyUI
-- 摘要：Been building this tool and I'm looking for people to actually try it. Quick rundown of what's in it: Storyboard & bible system: characters, locations, and props get their own reference sheets (face, full body, turnaround). The turnaround is one continuous MiniMax H3 render rather than six separate...
-- 作者：mnm9678
-- 发布时间：2026-09-09 21:11 CST
-- 链接：https://v.redd.it/6h9d8jzqyeoh1
+### 3. Why the hell is LM Studio making LM Studio so difficult to download?
+- 摘要：Who is the marketing genius at LM Studio that decided that going ALL IN on pushing their new Bionic Agent product meant they are going to make it a giant pain in the ass to find and download actual LM Studio. This is the dumbest marketing decision I’ve ever seen. I used to love LM Studio, it was the...
+- 作者：Porespellar
+- 发布时间：2026-09-09 21:19 CST
+- 链接：https://i.redd.it/gfr7gaxhwhoh1.jpeg
 
 ## 智源社区（baai-hub，zh，本窗口共 23 条）
 
@@ -930,7 +929,7 @@
 - 链接：https://hub.baai.ac.cn/view/57821
 
 ---
-共列出 139 条（窗口内采集总数 3017 条，来自 54 个信源）
+共列出 139 条（窗口内采集总数 3020 条，来自 54 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

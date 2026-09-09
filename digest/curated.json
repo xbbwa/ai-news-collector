@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-09T13:18:52.962400+00:00",
+ "generated_at": "2026-09-09T13:25:38.703354+00:00",
  "stats": {
-  "items": 3011,
-  "clusters": 2823,
-  "noise": 608,
-  "dup": 24,
+  "items": 3014,
+  "clusters": 2268,
+  "noise": 423,
+  "dup": 37,
   "history_days": 0,
-  "available_cn": 215,
-  "available_intl": 1976,
+  "available_cn": 164,
+  "available_intl": 1644,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,135 +16,196 @@
  "items": [
   {
    "rank": 1,
-   "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+   "title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-   "score": 8.67,
-   "sources": [
-    "theverge-ai",
-    "axios",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Worried Anthropic researchers warn that AI ‘could kill all humans’",
-    "Anthropic insiders warn AI could kill all humans",
-    "Anthropic researcher believes more than 10% chance AI 'could kill all humans'"
-   ],
-   "published_at": "2026-09-09T09:56:28.000000+00:00",
-   "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab a..."
-  },
-  {
-   "rank": 2,
-   "title": "The Dynamics of Generalization in Deep Learning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2504.16450",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "The Dynamics of Generalization in Deep Learning",
-    "Explainable Deep Learning for Price-Trade Dynamics: From Black-Box Forecasts to Effective Parametric Models"
-   ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2504.16450v4 Announce Type: replace Abstract: We derive a differential equation that governs the evolution of the generalization gap when a model is trained by gradient descent-based methods. This differential equa..."
-  },
-  {
-   "rank": 3,
-   "title": "Learning to Construct Practical Agentic Systems",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2606.00189",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Learning to Construct Practical Agentic Systems",
-    "Learning to Configure Agentic AI Systems"
-   ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2606.00189v2 Announce Type: replace Abstract: Automated design and optimization of agentic LLM-based systems leads to sophisticated systems that substantially improve result quality over off-the-shelf agentic patte..."
-  },
-  {
-   "rank": 4,
-   "title": "Causal Foundation Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.03003",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.08798",
+   "score": 24.5,
    "sources": [
     "hf-daily-papers",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Causal Foundation Models",
-    "Compiling VGDL into Causal Models"
-   ],
-   "published_at": "2026-09-01T20:00:00.000000+00:00",
-   "summary": "Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally requires a bespoke pipeline for every new problem: first proposing a causal mechanism, selecting a comp..."
-  },
-  {
-   "rank": 5,
-   "title": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-   "score": 6.56,
-   "sources": [
-    "meta-newsroom",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
-    "Muse, your personal AI agent."
-   ],
-   "published_at": "2026-09-08T19:00:51.000000+00:00",
-   "summary": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM..."
-  },
-  {
-   "rank": 6,
-   "title": "Meta Announces Muse AI Agent for Personal Tasks and Organization",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-announces-muse-ai-agent-for-personal-tasks-and-organization",
-   "score": 6.5,
-   "sources": [
-    "bloomberg-tech",
-    "marktechpost"
-   ],
-   "titles": [
-    "Meta Announces Muse AI Agent for Personal Tasks and Organization",
-    "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
-    "Meta Unveils AI Assistant for Personal Tasks"
-   ],
-   "published_at": "2026-09-08T19:00:00.000000+00:00",
-   "summary": "Meta Platforms Inc. unveiled a new artificial intelligence agent designed to carry out tasks on a user’s behalf, advancing Mark Zuckerberg’s vision of a future where people each have a personalized AI assistant."
-  },
-  {
-   "rank": 7,
-   "title": "The Emerging AI Paper-Review Arms Race: Adversarial Co-Evolution in Scholarly Publishing",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.07713",
-   "score": 6.0,
-   "sources": [
+    "arxiv-cs-cv",
     "arxiv-cs-cl",
+    "arxiv-cs-lg",
+    "arxiv-cs-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "The Emerging AI Paper-Review Arms Race: Adversarial Co-Evolution in Scholarly Publishing",
-    "The AI cybersecurity arms race is on"
+    "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+    "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
+    "Flow3D-OPD: Multi-Teacher On-Policy Distillation for 3D Geometry Generation with Flow-Matching Diffusion Transformer",
+    "Solution for UCF UrbanTwin LUMPI Track: Sim-to-Real Urban LiDAR 3D Object Detection",
+    "Solution for UCF UrbanTwin V2X-Real Track: Sim-to-Real Urban LiDAR 3D Object Detection",
+    "ECHO: Dyadic 3D Facial Motion Generation with Asymmetric Deterministic Articulation and Stochastic Reaction",
+    "MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting",
+    "AstraMoE-SR: Trajectory-Guided Diffusion for Blind Satellite Jitter Deblurring and Super-Resolution",
+    "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure",
+    "BoundarySeg:Boundary-Aware Multi-Task Learning for Semi-Supervised 3D Medical Image Segmentation with Limited Unlabeled Data",
+    "Remove360: Benchmarking Residuals After Object Removal in 3D Gaussian Splatting",
+    "ComplicitSplat: Downstream Models are Vulnerable to Blackbox Attacks by 3D Gaussian Splat Camouflages",
+    "Flow-Matching Guided Deep Unfolding for Hyperspectral Image Reconstruction",
+    "Uni-Inter: Unifying 3D Human Motion Synthesis Across Diverse Interaction Contexts",
+    "FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction",
+    "NOUS: Video-Driven 3D Human Reaction Generation via Observation-Reaction Mutual Steering",
+    "UniQueR: Unified Query-based Feedforward 3D Reconstruction",
+    "HGGT: Robust and Flexible 3D Hand Mesh Reconstruction from Uncalibrated Images",
+    "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+    "Aes3D: Aesthetic Assessment in 3D Gaussian Splatting",
+    "AdaptSplat: Adapting Vision Foundation Models for Feed-Forward 3D Gaussian Splatting",
+    "EPC-3D-Diff: Equivariant Physics Consistent Conditional 3D Latent Diffusion for CBCT to CT Synthesis",
+    "Adaptive Densification for High-Fidelity and Efficient Sparse Gaussian Splatting in Arbitrary-Scale Super-Resolution",
+    "Resonant Brane Splatting for Arbitrary-Scale Super-Resolution",
+    "PlanCraft: Sketch, Refine, and Furnish for Architect-Inspired Progressive 3D Residential Scene Generation",
+    "CA-OPD: Confidence-Aware On-Policy Distillation for Structured Visual Prediction",
+    "SEGA: Drivable 3D Gaussian Head Avatar from a Single Image",
+    "MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping",
+    "SymTRELLIS: Symmetry-Enforced Voxel Latents for 3D Generation",
+    "Hierarchical Wasserstein Merging for Multi-Domain Multi-Task Learning: From Specialists to a Generalist",
+    "One Step, One Lead: Mitigating Higher-Order Interference in Multi-Domain Reinforcement Learning via Cross-Step Control",
+    "Distillation as Probability Transport: Routed On-Policy Distillation",
+    "Streaming Hierarchical Inference with Tabular Foundation Models",
+    "Semi-Supervised Learning under Spatially Biased Sampling",
+    "TV-Regulated OPD: Direction Matters in On-Policy Distillation",
+    "Multi-Task Learning for Sparsely-Labeled Time Series: A Case Study on Cold-Hardiness Modeling",
+    "RAFM-SER++: A Lightweight Multimodal Emotion Recognition Framework for Real-Time Behavioral Monitoring in Surveillance Systems",
+    "Explainable Temporal Attention-based Defect Detection For Fillet Joints in Real-Time Gas Metal Arc Welding Based on Multi-modal Data",
+    "Fixed-Dimensional Latent Flow for Generating Variable-Size 3D Molecules",
+    "The Dynamics of Generalization in Deep Learning",
+    "From Human Labels to Literature: Semi-Supervised Learning of NMR Chemical Shifts at Scale",
+    "Real-Time Driver Safety Scoring Through Inverse Crash Probability Modeling",
+    "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
+    "DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology",
+    "D-TAIA: Domain-Aware LLM Adaptation for Multi-Task Predictive Process Monitoring",
+    "PathGuide: Dynamic Classifier-Free Guidance via On-Policy Transport Alignment",
+    "Efficient and Microphone-Fault-Tolerant 3D Sound Source Localization",
+    "Multi-Task Learning with Covariate-Overlap Regularization",
+    "A robust and adaptive MPC formulation for Gaussian process models",
+    "EmoMed: An Emotionally-Aware Agent for Multimodal Medical Support with Real-Time Information Retrieval",
+    "Distance-Aware Attention and Wall-Distance Expert Routing for Transformer-Based 3D Flow Prediction",
+    "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+    "XAI-SDN: An Explainable Entropy-Guided Machine Learning Framework for Real-Time DDoS Detection in Software Defined Networks",
+    "3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints",
+    "To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models",
+    "Evidential-Based Higher-Order Set Argumentation Framework",
+    "Benchmarking Language Models for Statistical Problem Formulation",
+    "Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+    "Anyone tried self-hosting 3D object generation?",
+    "3D modeling fails",
+    "Best vision models under 6B?"
    ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.07713v1 Announce Type: cross Abstract: Generative and agentic AI are reshaping both the production and evaluation of scientific research. These developments are often studied separately, as questions of how AI..."
+   "published_at": "2026-09-07T20:00:00.000000+00:00",
+   "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This question is particularly important for successive model generations and multi-domain consolidation, wher..."
   },
   {
-   "rank": 8,
+   "rank": 2,
+   "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.08404",
+   "score": 21.0,
+   "sources": [
+    "hf-daily-papers",
+    "arxiv-cs-cv",
+    "arxiv-cs-cl",
+    "arxiv-cs-lg",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+    "Dreaming in Flow: Generative Grounding Feedback for Self-Evolving Unified Multimodal Models",
+    "MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents",
+    "Structurally Close, Temporally Distant: Measuring Security Exposure in Long-Horizon LLM Agents",
+    "SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale",
+    "Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense",
+    "VICT: Verifier-Instrumented Credit Tracing for Long-Horizon LLM Agent Reinforcement Learning",
+    "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+    "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
+    "FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness"
+   ],
+   "published_at": "2026-09-07T20:00:00.000000+00:00",
+   "summary": "Large Language Models demonstrate remarkable proficiency in static reasoning, yet training them as autonomous agents through Reinforcement Learning (RL) for long-horizon tasks is often hindered by severe reward sparsity...."
+  },
+  {
+   "rank": 3,
+   "title": "Infrastructure-based Monocular 3D Vehicle Localization Framework with Experimental Validation",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.05523",
+   "score": 17.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-cl",
+    "arxiv-cs-lg",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Infrastructure-based Monocular 3D Vehicle Localization Framework with Experimental Validation",
+    "Efficient and Robust Camera-independent Multiview 3D Geometric Reconstruction from Noisy Monocular Depth Estimation and Multiple Point Matching",
+    "Adapting Vision Foundation Models to Acoustics for Pose-Free 3D Sonar Reconstruction",
+    "MSSP: Multi-Scale Spatially-Constrained Partition for Unsupervised Semantic Segmentation of 3D Point Clouds",
+    "Self-Supervised Multi-View 3D Gaze Target Estimation via Probabilistic Ray Marching",
+    "When Semantically Consistent Encoding Meets View-Label Heterogeneity Modeling: A Unified Framework for Incomplete Multi-View Multi-Label Learning",
+    "Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs",
+    "TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking",
+    "MARS-CLIP: Multi-Resolution and Attention Refined Zero-Shot Image Segmentation",
+    "CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs",
+    "Layer Selection in VLMs for Zero-Shot OOD Detection via Multi-Resolution Entropy Estimation",
+    "CVT-GS: Learning to Simplify 3D Gaussian Splatting with Centroidal Voronoi Tessellation",
+    "FIRE3D: Feed-forward Interactive 3D Scene Reconstruction Within A Minute",
+    "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild",
+    "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
+    "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
+    "MCANet: A Multi-Scale Class-Specific Attention Network for Multi-Label Post-Hurricane Damage Assessment Using UAV Imagery",
+    "PruneGround: Plug-and-play Spatial Pruning for 3D Visual Grounding",
+    "An AI4AI Framework for Visual Token Pruning",
+    "Comparing Self-Supervised and Domain-Invariant Features for Cross-Domain Voice Phishing Detection",
+    "DrugReason: Dynamic Multi-View Reasoning over Knowledge Graph and Language Evidence for Drug Repurposing",
+    "HypLTSF: A Hyperbolic Geometric View of Multi-Scale Hierarchies for Long-Term Time Series Forecasting",
+    "PatchFormer: A Patch-Based Time Series Foundation Model with Hierarchical Masked Reconstruction and Cross-Domain Transfer Learning for Zero-Shot Multi-Horizon Forecasting",
+    "Token Encoding for Semantic Recovery",
+    "Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning",
+    "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+    "MVFA: A Multi-View Text-Guided Multimodal Fusion LLM Adapter for Sentiment Analysis and Emotion Recognition",
+    "LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation",
+    "TC-Next: Zero-Shot Multimodal Cyclone Forecasting"
+   ],
+   "published_at": "2026-09-09T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.05523v1 Announce Type: new Abstract: This paper presents a one-stage learning framework that maps monocular roadside-camera images directly to vehicle states in a ground-fixed coordinate frame. Unlike conventi..."
+  },
+  {
+   "rank": 4,
+   "title": "Dual-Latent Memory Routing for Vision-Language Reasoning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.05539",
+   "score": 17.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-cl",
+    "arxiv-cs-lg",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Dual-Latent Memory Routing for Vision-Language Reasoning",
+    "Contextual Observer Grounding: Evaluating Situated Spatial Reasoning in Vision-Language Models",
+    "MedGround: Bridging the Evidence Gap in Medical Vision-Language Models with Verified Grounding Data",
+    "Evaluating Vision-Language Models for Image Quality Assessment using Psychophysical Data",
+    "Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models",
+    "Real Images, Worse Judgments: Evaluating Vision-Language Models on Concreteness and Imagery",
+    "Data Quality Rule Generation with LLMs",
+    "Do LLMs Hold Their Values? MANTA: A Multi-Turn Adversarial Benchmark for Animal Welfare Reasoning",
+    "More Than Mimicking Reviewers: Evaluating LLMs for Pre-Submission Peer Review",
+    "SCRIPTIOC-BENCH: A Benchmark for Recognizing Actionable Threat Intelligence from Script-Based Malware using LLMs",
+    "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
+    "From the Fluency Fallacy to the Micro-to-Macro Validity Gap: Opportunities and Pitfalls of LLMs in Social Simulation",
+    "When Agents Say One Thing and Do Another: Validating Elicited Beliefs from LLMs",
+    "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
+    "Spatial-Omni: Spatial Audio Understanding Integration in Multimodal LLMs via FOA Encoding"
+   ],
+   "published_at": "2026-09-09T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.05539v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) have recently made strong progress in vision-language reasoning, yet their performance often degrades as generations grow longer. A..."
+  },
+  {
+   "rank": 5,
    "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
    "lang": "en",
    "region": "intl",
@@ -162,43 +223,61 @@
    "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
   },
   {
+   "rank": 6,
+   "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
+   "score": 5.55,
+   "sources": [
+    "marktechpost",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+    "Show HN: CUDA/graphics in QEMU-KVM VMs without passing the Nvidia card to them"
+   ],
+   "published_at": "2026-09-08T19:51:54+00:00",
+   "summary": "NVIDIA has announced CUDA Rust , a push to make Rust a first-class language for writing GPU kernels. Rust code could already launch CUDA kernels, but the kernel body usually had to be written elsewhere. CUDA Rust closes..."
+  },
+  {
+   "rank": 7,
+   "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+   "score": 5.5,
+   "sources": [
+    "openai-news",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "OpenAI Support for failed Payment"
+   ],
+   "published_at": "2026-09-08T00:00:00.000000+00:00",
+   "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+  },
+  {
+   "rank": 8,
+   "title": "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says",
+   "score": 5.5,
+   "sources": [
+    "bloomberg-tech",
+    "arstechnica-ai"
+   ],
+   "titles": [
+    "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+    "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens"
+   ],
+   "published_at": "2026-09-08T12:00:00.000000+00:00",
+   "summary": "Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project."
+  },
+  {
    "rank": 9,
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "score": 5.5,
-   "sources": [
-    "deepmind-blog",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-    "AlphaGenome Atlas: a high-resolution map of human DNA"
-   ],
-   "published_at": "2026-09-08T14:00:15.000000+00:00",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
-  },
-  {
-   "rank": 10,
-   "title": "Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
-   "score": 5.5,
-   "sources": [
-    "cnbc-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
-    "Teaser trailer for Luca Guadagnino’s 'Artificial' which was dropped by Amazon MGM Studios because of its critical, unflattering portrayal of OpenAI CEO Sam Altman and the tech industry. The rights were later acquired by Neon."
-   ],
-   "published_at": "2026-09-08T15:56:46.000000+00:00",
-   "summary": "Qualcomm is trying to move into the data center business, where Nvidia has been the dominant player in the AI boom."
-  },
-  {
-   "rank": 11,
    "title": "CohereLabs/North-Micro-Vision-Instruct",
    "lang": "en",
    "region": "intl",
@@ -214,90 +293,137 @@
    "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
   },
   {
-   "rank": 12,
-   "title": "Anthropic researcher says AI has more than 10% chance of 'killing all humans' after colleague quits",
+   "rank": 10,
+   "title": "Codex on GPT6 Astra Low launched a rocket into space in Factorio Space Age 2.1",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html",
-   "score": 5.0,
+   "url": "https://www.reddit.com/r/codex/comments/1wakicq/codex_on_gpt6_astra_low_tonight_launched_a_rocket/",
+   "score": 4.73,
    "sources": [
-    "cnbc-tech",
+    "hackernews-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "Anthropic researcher says AI has more than 10% chance of 'killing all humans' after colleague quits",
-    "[Alignment Science lead at Anthropic] Evan Hubinger : \"....we really do earnestly believe AI could kill all humans! I personally think it is >10% within the next decade ...... we do not yet have a plan to solve alignment for superintelligence and are not clearly on track to.\"",
-    "\"The people building AI earnestly believe that it could kill us all by the end of the decade\"",
-    "Anthropic Alignment Lead Warns There’s ‘>10% Chance’ AI Could ‘Kill All Humans’ By Next Decade"
+    "Codex on GPT6 Astra Low launched a rocket into space in Factorio Space Age 2.1",
+    "I don't see y'all glazing GPT6 Astra"
    ],
-   "published_at": "2026-09-09T11:32:01.000000+00:00",
-   "summary": "An Anthropic safety researcher said there is a greater than 10% chance AI could \"kill all humans\" after a former colleague quits over safety concerns."
+   "published_at": "2026-09-08T11:35:08.000000+00:00",
+   "summary": ""
+  },
+  {
+   "rank": 11,
+   "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+   "score": 3.5,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow"
+   ],
+   "published_at": "2026-09-09T03:00:00.000000+00:00",
+   "summary": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing..."
+  },
+  {
+   "rank": 12,
+   "title": "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/09/gradium-launches-voice-design-write-a-prompt-get-a-brand-new-synthetic-voice-in-seconds/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds"
+   ],
+   "published_at": "2026-09-09T07:29:13+00:00",
+   "summary": "Voice agent teams keep hitting the same wall. The catalog holds 400 voices and the brief asks for the one that is not in it: a Quebecoise receptionist for a Montreal dealership, a narrator in his sixties with lecture hal..."
   },
   {
    "rank": 13,
-   "title": "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+   "title": "AI Music Startup Suno Launches New Models That Pay Labels",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says",
-   "score": 4.78,
+   "url": "https://www.bloomberg.com/news/articles/2026-09-09/ai-music-startup-suno-launches-new-models-that-pay-labels",
+   "score": 3.5,
    "sources": [
-    "bloomberg-tech",
-    "hackernews-ai"
+    "bloomberg-tech"
    ],
    "titles": [
-    "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
-    "Meta Failed to Catch Hundreds of AI Child Abuse Ads"
+    "AI Music Startup Suno Launches New Models That Pay Labels"
    ],
-   "published_at": "2026-09-08T12:00:00.000000+00:00",
-   "summary": "Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project."
+   "published_at": "2026-09-09T09:00:00.000000+00:00",
+   "summary": "Suno Inc. is rolling out its long-awaited artificial intelligence models trained and made in cooperation with major music industry players, such as Warner Music Group Corp."
   },
   {
    "rank": 14,
-   "title": "SEGA: Drivable 3D Gaussian Head Avatar from a Single Image",
+   "title": "Instacart launches an AI grocery shopping assistant called Clementine",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2504.14373",
-   "score": 4.5,
+   "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+   "score": 3.5,
    "sources": [
-    "arxiv-cs-cv"
+    "techcrunch-ai"
    ],
    "titles": [
-    "SEGA: Drivable 3D Gaussian Head Avatar from a Single Image"
+    "Instacart launches an AI grocery shopping assistant called Clementine"
    ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2504.14373v4 Announce Type: replace-cross Abstract: Creating photorealistic 3D head avatars from limited input has become increasingly important for applications in virtual reality, telepresence, and digital entert..."
+   "published_at": "2026-09-09T13:00:00.000000+00:00",
+   "summary": "Instacart is the latest app to bake a conversational AI assistant into its platform."
   },
   {
    "rank": 15,
-   "title": "两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云",
+   "title": "腾讯混元、清华、南洋理工联手，「以小博大」破解空间智能算力与记忆断裂难题 | ECCV 2026",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3974241618784520",
-   "score": 16.0,
+   "url": "https://www.leiphone.com/category/private/E4MuSWaCQaYTfWfy.html",
+   "score": 11.0,
    "sources": [
-    "36kr-ai",
-    "ieee-spectrum-ai",
-    "marktechpost",
-    "bloomberg-tech",
+    "leiphone",
+    "ithome",
+    "baai-hub",
     "reddit-ai-new"
    ],
    "titles": [
-    "两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云",
-    "Google DeepMind Maps 9 Billion Possible DNA Variants",
-    "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
-    "Google DeepMind Uses AI to Predict 9 Billion DNA Changes",
-    "Built and released an Android guitar amp app with Claude — now live on Google Play"
+    "腾讯混元、清华、南洋理工联手，「以小博大」破解空间智能算力与记忆断裂难题 | ECCV 2026",
+    "ECCV 2026 专访：让大模型「忘掉XYZ」，RoboTracer 用 3D 空间感知与度量推理重塑机器人轨迹追踪",
+    "北京：打造下一代新型智能终端，推动 8K 超高清、裸眼 3D 等技术规模化应用",
+    "AI+医学博士论文 | Yale 2026 | 面向医学图像分析的深度学习推理阶段不确定性估计",
+    "ECCV 2026 Social Groups [D]"
    ],
-   "published_at": "2026-09-08T12:34:11.000000+00:00",
-   "summary": "前沿 AI 模型在回答前会先“思考”，再把加密后的思考过程像密封信封一样交还给用户。前 Google DeepMind 研究员 Ilia Shumailov 和 ELLIS Institute Tübingen、MPI-IS 博士生 Alexander Panfilov 却发现，这个封条几乎没什么用。这些数据块可以跨用户、跨会话，甚至在同系列模型之间重放。把强模型的加密推理塞给同一家族的小模型，就能套出 GPT-5、Claude 等前沿..."
+   "published_at": "2026-09-09T02:26:00+00:00",
+   "summary": "Spatial-TTT 给 2B 模型装上“流式空间记忆” ，在空间基准上超越 GPT-5。 作者丨 张 璐 编辑丨 幸丽娟 单纯拉长上下文，可以解决“能塞进多少信息”的问题。但面对状态变化、时序关联这类长程任务时，注意力还是容易被稀释，关键证据也容易找不回来。 当场景扩展到具身机器人、自动驾驶和智能硬件这些需要与三维物理世界实时交互的领域时，这一矛盾被进一步放大。 与纯文本或静态图文不同，真实物理世界的输入天然是持续涌入、没有明确边界..."
   },
   {
    "rank": 16,
+   "title": "消息称Anthropic放弃60亿美元收购Decart的交易",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3974749026939136",
+   "score": 10.0,
+   "sources": [
+    "36kr-newsflash",
+    "bloomberg-tech",
+    "36kr-ai"
+   ],
+   "titles": [
+    "消息称Anthropic放弃60亿美元收购Decart的交易",
+    "Anthropic abandonaría compra de Decart AI por US$6.000 millones",
+    "2 万亿美元的 Anthropic 值不值得买？"
+   ],
+   "published_at": "2026-09-08T12:58:38.000000+00:00",
+   "summary": "消息人士透露，Anthropic PBC已决定放弃收购人工智能初创企业Decart AI。据不愿具名的知情人士称，Anthropic此前一直在推进这笔交易，并且完成了对Decart的尽职调查，但最终选择退出。其中一名知情人士表示，两家企业仍有可能探索其他业务合作机会。Anthropic与Decart的代表均拒绝置评。（新浪财经）"
+  },
+  {
+   "rank": 17,
    "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
    "lang": "zh",
    "region": "cn",
    "url": "https://zhidx.com/p/592250.html",
-   "score": 9.5,
+   "score": 8.5,
    "sources": [
     "zhidx",
     "qbitai",
@@ -308,46 +434,54 @@
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
     "Minimax H3 realism loss",
     "ComfyUI REF Fast VSA for MiniMax H3",
-    "Minimax H3,two step workflow,less time than one step workflow at the same size,and keep good quality",
-    "Minimax H3 Singing and dancing from image ref and audio",
-    "Minimax H3 3d animation preview to a realistic video?",
-    "Chonky's food cart, NYC Times Square [minimax H3]",
-    "Already running MiniMax H3 locally – looking for solid workflows for anime / Disney-style adult videos",
-    "Made this Coraline dialogue meme with MiniMax H3",
-    "Thundercats: Mumm-Ra Reacts to Your Comments - MiniMax H3",
-    "Minimax H3: lots of artifacts, weird faces. What's wrong with my workflow?",
-    "GTA VI pixel art animation | Minimax H3 ref2vid",
-    "Anyone having this issue where videos look super compressed with Minimax H3 ?",
-    "Has anyone tried using DLSS 5 with MiniMax H3/HRL3 for realism?",
-    "are we getting close to good fighting scenes with minimax h3?",
-    "Ghostbusters: Venkman Ghosted - MiniMax H3",
-    "Comfyui H3 Audio Separator",
-    "Building a local-first desktop app for long-form AI video on MiniMax H3, runs through ComfyUI",
-    "GPT-Image 2.5 + (Local) Minimax H3 to convert a 40 year old anime into a modern one."
+    "Minimax H3,two step workflow,less time than one step workflow at the same size,and keep good quality"
    ],
    "published_at": "2026-09-09T02:37:06+00:00",
    "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动，时长反响热烈。无论是Wan 3.0的30s视频指出、多模态参考、精准修改能力，还是SkyProduction（天工工作台）的资产管理、无限画布、团队协作，都广受用户好评。 而今天，SkyProduction的限免活动迎来了第二弹： Minimax H3模型，也要在SkyProduction产品上限时免费、无限使用了！..."
   },
   {
-   "rank": 17,
-   "title": "GPT Images 2.5 突发上线，网友的「灵魂画作」一个比一个离谱",
+   "rank": 18,
+   "title": "两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3975491521458433",
-   "score": 7.0,
+   "url": "https://www.36kr.com/p/3974241618784520",
+   "score": 8.05,
    "sources": [
     "36kr-ai",
-    "ifanr"
+    "ieee-spectrum-ai",
+    "hackernews-ai"
    ],
    "titles": [
-    "GPT Images 2.5 突发上线，网友的「灵魂画作」一个比一个离谱",
-    "GPT Images 2.5 突发上线！网友的「灵魂画作」一个比一个离谱"
+    "两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云",
+    "Google DeepMind Maps 9 Billion Possible DNA Variants",
+    "全公司狂用Claude半年，一年要烧掉3亿美元，Salesforce终于开始给AI“算账”了：得想想怎么“抠Token”……",
+    "Salesforce blames its Claude addiction for denting profit margin guidance"
    ],
-   "published_at": "2026-09-09T01:41:53.000000+00:00",
-   "summary": "就在刚刚，OpenAI 发布新一代图像生成模型 ChatGPT Images 2.5。 官方表示，新模型重点提升了图片细节质量、生成速度、编辑精度以及多轮修改过程中的一致性，并新增 Sketch 手绘参考、创作模板、图片评论编辑等功能，让用户能够更接近专业设计流程完成 AI 创作。 OpenAI 称，目前用户每周通过 ChatGPT Images 和 API 中的 GPT Image 系列模型生成 超过 30 亿张图片。 Images..."
+   "published_at": "2026-09-08T12:34:11.000000+00:00",
+   "summary": "前沿 AI 模型在回答前会先“思考”，再把加密后的思考过程像密封信封一样交还给用户。前 Google DeepMind 研究员 Ilia Shumailov 和 ELLIS Institute Tübingen、MPI-IS 博士生 Alexander Panfilov 却发现，这个封条几乎没什么用。这些数据块可以跨用户、跨会话，甚至在同系列模型之间重放。把强模型的加密推理塞给同一家族的小模型，就能套出 GPT-5、Claude 等前沿..."
   },
   {
-   "rank": 18,
+   "rank": 19,
+   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
+   "score": 7.0,
+   "sources": [
+    "leiphone",
+    "qbitai"
+   ],
+   "titles": [
+    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
+    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
+    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力"
+   ],
+   "published_at": "2026-09-09T02:17:00+00:00",
+   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
+  },
+  {
+   "rank": 20,
    "title": "蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin",
    "lang": "zh",
    "region": "cn",
@@ -363,42 +497,6 @@
    ],
    "published_at": "2026-09-09T04:46:31.000000+00:00",
    "summary": "外滩大会前夕，蚂蚁百灵发布首个金融增强开放模型Ling-3.0-flash-Fin。与传统金融大模型主要解决问答、摘要等单点任务不同，Ling-3.0-flash-Fin进一步瞄准真实金融工作流，尝试让AI从“回答一个问题”走向“完成一项工作”。目前，该模型已经正式开源。与此同时，蚂蚁百灵还同步开放金融搜索Agent评测基准FinFIRST，逐步开放模型、工具和评测体系。模型目前重点切入投资研究场景，覆盖信息检索、研究推理、估值建模、研..."
-  },
-  {
-   "rank": 19,
-   "title": "曝 DeepSeek 已聘请中信证券筹备 IPO 事宜",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/000/188.htm",
-   "score": 7.0,
-   "sources": [
-    "ithome",
-    "tmtpost"
-   ],
-   "titles": [
-    "曝 DeepSeek 已聘请中信证券筹备 IPO 事宜",
-    "DeepSeek已聘中信证券筹备科创板IPO，年内正式启动 | 钛快讯"
-   ],
-   "published_at": "2026-09-09T06:41:51+00:00",
-   "summary": "IT之家 9 月 9 日消息，路透社今日报道称，深度求索 DeepSeek 已聘请中信证券筹备科创板上市事宜，计划于年内启动 IPO 进程。目前具体募资规模与目标估值尚未确定。 深度求索希望通过 IPO 募集资金，扩大算力基础设施建设、加大模型研发与芯片自研投入，并强化核心人才激励。据此前报道，DeepSeek 目标是在今年递交 IPO 申请、明年正式挂牌上市。2026 年前 7 个月，公司实现营收约 4.75 亿元人民币，约为 202..."
-  },
-  {
-   "rank": 20,
-   "title": "谷歌 DeepMind 推出 AlphaGenome Atlas，覆盖人类基因组全部 90 亿种单核苷酸变异预测",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/0/999/937.htm",
-   "score": 6.5,
-   "sources": [
-    "ithome",
-    "36kr-ai"
-   ],
-   "titles": [
-    "谷歌 DeepMind 推出 AlphaGenome Atlas，覆盖人类基因组全部 90 亿种单核苷酸变异预测",
-    "刚刚，谷歌DeepMind破解人类生命天书，90亿种基因突变全部算穿"
-   ],
-   "published_at": "2026-09-08T14:20:07+00:00",
-   "summary": "IT之家 9 月 8 日消息，谷歌今日推出 AlphaGenome Atlas ，这一平台包含了人类基因组中 90 亿种单核苷酸变异 （所有可能的单字母 DNA 改变）的功能预测，是目前涵盖基因突变对分子生物学影响最全面的目录，学术界可通过免费门户网站免费使用。 DNA 是生命的语言，掌握其密码能够改变人类理解生物学和治疗疾病的能力，但解读基因变异对分子层面的影响长期存在瓶颈：人类基因组有约 90 亿种可能的单字母突变，在实验室逐一测试..."
   }
  ]
 }
