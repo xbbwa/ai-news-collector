@@ -83,6 +83,24 @@ class RegionQuotaTests(unittest.TestCase):
         self.assertEqual(actual.count("intl"), 5)
         self.assertEqual(len(actual), 8)
 
+    def test_academic_family_is_capped_across_source_ids(self) -> None:
+        clusters = [
+            *(make_cluster(f"arxiv-cs-{i}", f"Paper {i}") for i in range(12)),
+            *(make_cluster(f"media-{i}", f"Industry story {i}") for i in range(14)),
+        ]
+        regions = {c.rep["source_id"]: "intl" for c in clusters}
+        chosen = select(
+            clusters,
+            datetime.now(timezone.utc),
+            max_items=14,
+            cn_items=0,
+            per_source_cap=3,
+            regions=regions,
+        )
+        papers = [c for c in chosen if c.rep["source_id"].startswith("arxiv-")]
+        self.assertEqual(len(chosen), 14)
+        self.assertEqual(len(papers), 4)
+
 
 class CrossDayDedupeTests(unittest.TestCase):
     def test_cross_language_company_funding_is_same_event(self) -> None:
@@ -96,6 +114,34 @@ class CrossDayDedupeTests(unittest.TestCase):
                 entity_tokens(chinese),
                 action_tokens(english),
                 action_tokens(chinese),
+            )
+        )
+
+    def test_cross_language_camelcase_product_is_same_event(self) -> None:
+        english = "AlphaGenome Atlas: A predictive map of every possible DNA change"
+        chinese = "谷歌 DeepMind 推出 AlphaGenome Atlas，覆盖人类基因组变异预测"
+        self.assertTrue(
+            same_event(
+                tokens(english),
+                tokens(chinese),
+                entity_tokens(english),
+                entity_tokens(chinese),
+                action_tokens(english),
+                action_tokens(chinese),
+            )
+        )
+
+    def test_same_product_announcement_titles_merge(self) -> None:
+        first = "Introducing Muse: The World's First Personal AI Agent Built for Everyone"
+        second = "Meta Announces Muse AI Agent for Personal Tasks and Organization"
+        self.assertTrue(
+            same_event(
+                tokens(first),
+                tokens(second),
+                entity_tokens(first),
+                entity_tokens(second),
+                action_tokens(first),
+                action_tokens(second),
             )
         )
 

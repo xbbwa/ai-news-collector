@@ -17,7 +17,7 @@ import os
 import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -77,6 +77,29 @@ def delivered(entry: dict | None, today: str) -> bool:
         and entry.get("delivered") is True
         and entry.get("deliveryStatus") == "delivered"
     )
+
+
+def curated_fresh(
+    path: Path,
+    today: str,
+    *,
+    now: datetime | None = None,
+    max_age_hours: float = 12,
+) -> tuple[bool, str]:
+    if not path.exists():
+        return False, "curated.json missing"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        generated = datetime.fromisoformat(str(data["generated_at"]).replace("Z", "+00:00"))
+        if generated.tzinfo is None:
+            generated = generated.replace(tzinfo=timezone.utc)
+    except (OSError, ValueError, KeyError) as exc:
+        return False, f"curated.json invalid: {type(exc).__name__}"
+    current = now or datetime.now(timezone.utc)
+    age_hours = (current.astimezone(timezone.utc) - generated.astimezone(timezone.utc)).total_seconds() / 3600
+    local_date = generated.astimezone(TZ).date().isoformat()
+    ok = local_date == today and -0.25 <= age_hours <= max_age_hours
+    return ok, f"generated={local_date} age={age_hours:.1f}h"
 
 
 def summarize(entry: dict | None) -> str:
@@ -172,14 +195,32 @@ def main() -> int:
 
         today = datetime.now(TZ).date().isoformat()
         before = latest_run(args.job_id)
-        if delivered(before, today):
+        fresh, freshness = curated_fresh(ROOT / "data/curated.json", today)
+        if delivered(before, today) and fresh:
             if record_delivered_history():
-                print(f"{today}: push receipt verified and recorded ({summarize(before)})")
+                print(f"{today}: push receipt verified and recorded ({summarize(before)}; {freshness})")
                 return 0
             notify("⚠️ Daily AI News 已送达群，但去重历史写回 GitHub 失败，请检查服务器日志。")
             return 1
 
-        print(f"{today}: push missing/failed ({summarize(before)}); retrying")
+        if not fresh:
+            print(f"{today}: stale candidate ({freshness}); syncing before retry")
+            proc = subprocess.run(
+                ["bash", str(ROOT / "scripts/sync_digest.sh")],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+                timeout=600,
+            )
+            if proc.stdout.strip():
+                print(proc.stdout.strip())
+            fresh, freshness = curated_fresh(ROOT / "data/curated.json", today)
+            if proc.returncode != 0 or not fresh:
+                error = (proc.stderr or freshness).strip()
+                notify(f"❌ Daily AI News 候选同步失败，未使用旧内容补推：{error[:300]}")
+                return 1
+
+        print(f"{today}: push missing/failed ({summarize(before)}; {freshness}); retrying")
         notify(f"⚠️ Daily AI News 08:00 群推未成功，08:20 正在自动补推。\n{summarize(before)}")
 
         previous_at = int((before or {}).get("runAtMs") or 0)

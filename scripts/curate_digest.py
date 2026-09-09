@@ -75,13 +75,19 @@ KNOWN_ENTITIES = {
     "qwen", "kimi", "mistral", "llama", "nvidia", "huggingface", "meta", "microsoft",
     "google", "apple", "amazon", "aws", "alibaba", "tencent", "bytedance", "seedance",
     "grok", "xai", "copilot", "minimax", "moonshot", "cohere", "stability",
+    "muse",
 }
 ACTION_PATTERNS = {
     "funding": re.compile(r"融资|募资|估值|投资|funding|fundraise|raises?|valuation|series [a-z]", re.I),
     "acquisition": re.compile(r"收购|并购|acquir|merger|takeover", re.I),
-    "release": re.compile(r"发布|推出|上线|开源|release|launch|introduc|unveil|rolls? out|open[- ]?weight", re.I),
-    "security": re.compile(r"安全|攻击|漏洞|security|attack|hack|vulnerab", re.I),
+    "release": re.compile(r"发布|推出|上线|开源|release|launch|introduc|announc|unveil|rolls? out|open[- ]?weight", re.I),
+    "security": re.compile(r"安全|攻击|漏洞|风险|警告|security|attack|hack|vulnerab|kill|risk|warn|threat", re.I),
     "policy": re.compile(r"监管|法案|政策|禁令|regulat|policy|law|ban", re.I),
+}
+FAMILY_CAPS = {
+    "academic-papers": 4,
+    "model-releases": 2,
+    "social-discovery": 2,
 }
 
 
@@ -105,9 +111,10 @@ def entity_tokens(title: str) -> frozenset[str]:
     out = set()
     for raw in re.findall(r"[A-Za-z0-9][A-Za-z0-9_.+-]*", title):
         value = raw.lower().strip("._+-")
+        is_camel = any(ch.islower() for ch in raw) and any(ch.isupper() for ch in raw[1:])
         if not value or value in ENTITY_STOP:
             continue
-        if value in KNOWN_ENTITIES or any(ch.isdigit() for ch in value):
+        if value in KNOWN_ENTITIES or any(ch.isdigit() for ch in value) or is_camel:
             out.add(value)
     # Normalize the common two-word brand spelling to the same anchor as "HuggingFace".
     low = title.lower()
@@ -134,6 +141,9 @@ def same_event(
         return True
     common_entities = left_entities & right_entities
     if len(common_entities) >= 2:
+        return True
+    meaningful_common = (left_tokens & right_tokens) - ENTITY_STOP
+    if common_entities and len(meaningful_common) >= 2:
         return True
     # One shared company plus an unambiguous corporate event catches cross-language headlines
     # such as "Mistral raises €3B" / "Mistral 完成 30 亿欧元融资" without merging every release.
@@ -301,6 +311,16 @@ def cluster_region(c: Cluster, regions: dict[str, str]) -> str:
     return regions.get(c.rep["source_id"], "intl")
 
 
+def source_family(source_id: str) -> str:
+    if source_id.startswith("arxiv-") or source_id in {"hf-daily-papers", "nature-ml"}:
+        return "academic-papers"
+    if source_id.startswith("hf-models"):
+        return "model-releases"
+    if source_id.startswith(("reddit-", "hackernews-", "producthunt-")):
+        return "social-discovery"
+    return source_id
+
+
 def select(
     clusters: list[Cluster],
     now: datetime,
@@ -313,6 +333,7 @@ def select(
     targets = {"cn": cn_items, "intl": max_items - cn_items}
     selected: dict[str, list[Cluster]] = {"cn": [], "intl": []}
     used: dict[tuple[str, str], int] = defaultdict(int)
+    family_used: dict[tuple[str, str], int] = defaultdict(int)
 
     for region in ("intl", "cn"):
         for c in ranked:
@@ -323,8 +344,13 @@ def select(
             source = c.rep["source_id"]
             if used[(region, source)] >= per_source_cap:
                 continue
+            family = source_family(source)
+            family_cap = FAMILY_CAPS.get(family)
+            if family_cap is not None and family_used[(region, family)] >= family_cap:
+                continue
             selected[region].append(c)
             used[(region, source)] += 1
+            family_used[(region, family)] += 1
 
     # User-facing order is deliberate: all international stories first, China stories last.
     return selected["intl"] + selected["cn"]

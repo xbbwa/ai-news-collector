@@ -141,7 +141,8 @@ Actions 每小时                         scripts/curate_digest.py → data 分�
    ├ 打分排序：来源数 × 层级权重 + HN 分数 + HF likes + 发布类关键词 + 12h 内新鲜度
    ├ 过滤噪音：Reddit 自发帖、只有 Reddit/Product Hunt 单源的链接、没人点赞的 HF 上传、<80 分的 HN、TLDR 日报、GitHub Trending
    ├ 跨天去重：相同 URL 永久排除；标题相似、或共享模型/公司名 + 同类事件（融资/收购/安全/政策）也与全部历史比较
-   └ 强制平衡：每源最多 3 条，按 `region` 严格取国外 14 条 + 国内 6 条；国外全部在前、国内全部在后
+   └ 强制平衡：每源最多 3 条，按 `region` 严格取国外 14 条 + 国内 6 条；国外全部在前、国内全部在后；
+                论文族（arXiv/HF Daily/Nature）最多 4 条、HF 模型上传最多 2 条、社交发现最多 2 条
 服务器 07:01   scripts/sync_digest.sh：下载 curated.md → daily-ai-news-curated.md，latest.md → daily-ai-news-summary.md（完整版留档）；
 服务器 08:20   check_openclaw_delivery.py 验证群推真实回执；成功后才由 mark_pushed.py 永久记录并上传历史
 OpenClaw 08:00 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 写 daily-push-history.md
@@ -158,7 +159,8 @@ OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录�
 静默读候选 → 静默写历史文件 → 最后一步才输出正文，且正文第一个字符必须是 📰（补推是 ⚠️）；任何"存档完成""以下是第二条"都会替代正文。
 用 DeepSeek V4 Flash 实测：第一版 skill 发出去的是"存档完成。"，改成这个顺序后发出去的是完整正文（18 条、15 秒、1.9k 输出 token）。
 交付健康检查绝不能只看 `daily-push-history.md`：模型在最终回复失败前可能已经写了文件，造成“日期正确但群里没消息”的假阳性。
-`check_openclaw_delivery.py` 只认可当天 `status=ok + delivered=true + deliveryStatus=delivered` 的 cron 回执。
+`check_openclaw_delivery.py` 只认可当天 `status=ok + delivered=true + deliveryStatus=delivered` 的 cron 回执，并要求
+`curated.json` 是今天生成且不超过 12 小时；候选过期时先重新同步，绝不把旧日报当作成功补推。
 
 两个踩过的坑：工作区记忆里有一条用户偏好"长内容拆分多条"，OpenClaw 每次会话都会加载它，模型看到 18 条正文就往里插
 （1/2）（2/2）把列表切断——skill 里必须显式声明这条偏好对定时推送不适用。`cron edit --light-context`（轻量启动上下文）
