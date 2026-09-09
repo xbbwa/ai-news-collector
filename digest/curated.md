@@ -1,145 +1,154 @@
-# Daily AI News 候选清单（国内 10｜国外 10）
-生成时间：2026-09-09 19:37 CST
-数据窗口：最近 24 小时，2745 条原始条目 → 2665 个事件；过滤噪音 559 个，排除前 3 天已推送的 0 个。
-强制配额：国内源 10/10，国外源 10/10；按国外/国内交替排列。
+# Daily AI News 候选清单（国外 14｜国内 6）
+生成时间：2026-09-09 21:18 CST
+数据窗口：最近 24 小时，3011 条原始条目 → 2823 个事件；过滤噪音 608 个，排除全部历史已推送的 24 个。
+强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
 > 按 skill daily-ai-news 只做翻译与排版。「来源」里有几家就是几家同时报道，可作为重要程度的依据。
 
-## 1. Meta debuts its Muse AI agent. Will consumers trust it?
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、The Verge — AI、WIRED — AI、Hacker News (AI stories)（4 个来源） ｜ 热度：13.26
-- 摘要：Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their...
-- 发布时间：2026-09-09 03:00 CST
-- 链接：https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/
-- 同事件报道：Meta bets on AI agent Muse to catch up in AI race（The Verge — AI）
-- 同事件报道：Muse, Meta’s New Personal AI Agent, Needs You to Trust It（WIRED — AI）
+国外：
 
-## 2. 手机电脑一起涨价，年轻人交上“AI税”
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：手机电脑，越等越贵。定焦One（dingjiaoone）原创习惯等降价、等补贴的“等等党”，今年等来的却是涨价。手机涨价从去年10月就已开始。真我（realme）GT8、iQOO 15、OPPO Find X9等新机的标准版较上一代上涨200至300元。今年3月，OPPO、一加在售老机型涨价。9月1日，华为、...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：金玙璠 手机电脑，越等越贵。 定焦One（dingj...
-- 发布时间：2026-09-09 08:52 CST
-- 链接：https://www.huxiu.com/article/4889673.html
-- 同事件报道：手机电脑一起涨价，年轻人交上“AI税”（36氪 AI 频道）
+## 1. Worried Anthropic researchers warn that AI ‘could kill all humans’
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、Axios、Hacker News (AI stories)（3 个来源） ｜ 热度：8.67
+- 摘要：A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence "could kill all humans" by the end of the decade, just hours after a colleague resigned over fears the AI lab a...
+- 发布时间：2026-09-09 17:56 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans
+- 同事件报道：Anthropic insiders warn AI could kill all humans（Axios）
+- 同事件报道：Anthropic researcher believes more than 10% chance AI 'could kill all humans'（Hacker News (AI stories)）
 
-## 3. Introducing ChatGPT Images 2.5
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News、Simon Willison's Weblog、36氪 快讯（3 个来源） ｜ 热度：11.0
-- 摘要：ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
-- 发布时间：2026-09-08 19:30 CST
-- 链接：https://openai.com/index/introducing-chatgpt-images-2-5
-- 同事件报道：Introducing ChatGPT Images 2.5（Simon Willison's Weblog）
-- 同事件报道：OpenAI推出图像生成模型ChatGPT Images 2.5（36氪 快讯）
-
-## 4. “崩老头”屹立在AI 风口之上
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：一个好久没联系的亲友突然管你借钱，你怎么判断是不是本人？通话？视频？以前也许行，但如今，最保险应对只有拒绝。2500美元的致富之路来自404media的Joseph Cox花了几个星期，混进了一个销售电诈工具的Telegram群。卖家称，这款叫“昊天AI”的软件可以在WhatsApp、Microsoft Te...... 本文来自微信公众号： 果壳 ，作者：Sandy，编辑：马文，原文标题：《“崩老头”屹立在 AI 风口之上》 一个好久...
-- 发布时间：2026-09-09 12:09 CST
-- 链接：https://www.huxiu.com/article/4889744.html
-- 同事件报道：“崩老头”屹立在AI风口之上（36氪 AI 频道）
-
-## 5. On the Navier–Stokes Millennium Prize Problem
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News、Simon Willison's Weblog、Reddit AI subreddits (new)（3 个来源） ｜ 热度：9.0
-- 摘要：We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.
-- 发布时间：2026-09-08 18:00 CST
-- 链接：https://openai.com/index/navier-stokes-solution
-- 同事件报道：On the Navier–Stokes Millennium Prize Problem（Simon Willison's Weblog）
-- 同事件报道：OpenAI captures another Millennium Prize Problem（Reddit AI subreddits (new)）
-
-## 6. OpenAI抄袭、威胁数学家？“AI攻克千禧难题”秀，终成 OpenAI 和 Anthropic 的大战
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、Hacker News (AI stories)（2 个来源） ｜ 热度：5.73
-- 摘要：OpenAI 今日宣布，称其已经找到纳维 - 斯托克斯问题（Navier-Stokes problem）的一个解法。这是数学界长期悬而未决的重大难题之一，如果相关证明最终成立，则无疑是一项重大成果。 然而，就在外界准备庆祝时，这一消息很快陷入争议：有人质疑 OpenAI 是否利用了其他研究者尚未公开的研究成果；此外，OpenAI 还被指曾试图影响最终论文中该由谁获得这项成果的署名和贡献认定。 争议的一方，是纽约大学数学家 Tristan...
-- 发布时间：2026-09-09 12:22 CST
-- 链接：https://www.36kr.com/p/3975645923340808
-- 同事件报道：AI Responsibility – OpenAI and Anthropic（Hacker News (AI stories)）
-
-## 7. ReBeCA: Unveiling Interpretable Behavior Hierarchy behind the Iterative Self-Reflection of Language Models with Causal Analysis
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.LG（2 个来源） ｜ 热度：9.0
-- 摘要：arXiv:2602.06373v2 Announce Type: replace Abstract: While self-reflection can enhance language model reliability, its underlying mechanisms remain opaque, with existing analyses often yielding correlation-based insights...
-- 发布时间：2026-09-09 12:00 CST
-- 链接：https://arxiv.org/abs/2602.06373
-- 同事件报道：Beliefs and Behavior in Language Models（arXiv cs.LG）
-
-## 8. openbmb/BitCPM-CANN-8B
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.5
-- 摘要：text-generation, transformers, pytorch, minicpm, conversational, custom_code, zh, en, base_model:openbmb/MiniCPM4-8B, base_model:finetune:openbmb/MiniCPM4-8B, license:apache-2.0, region:us
-- 发布时间：2026-09-09 11:03 CST
-- 链接：https://huggingface.co/openbmb/BitCPM-CANN-8B
-
-## 9. Fine-grained Distributed Backdoor Attacks in Federated Learning
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：9.0
-- 摘要：arXiv:2609.07147v1 Announce Type: new Abstract: Federated learning, as a privacy-preserving distributed machine learning paradigm, faces significant threats from backdoor attacks. Compared to centralized attacks, distrib...
-- 发布时间：2026-09-09 12:00 CST
-- 链接：https://arxiv.org/abs/2609.07147
-- 同事件报道：Unveiling Hidden Threats: Using Fractal Triggers to Boost Stealthiness of Distributed Backdoor Attacks in Federated Lear...（arXiv cs.AI）
-
-## 10. AGI 怎样才算真的来了？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：9月3日，OpenAI总裁格雷格·布罗克曼在发布新模型GPT-6 Astra后，抛出了一句话：“欢迎来到AGI时代。”三天后，黄仁勋在社交平台上把话说得更直接：“从ChatGPT到o1，再到GPT-6 Astra，只用了四年。AGI已经到来。”众所期待的AGI，就这么突然被宣布实现了？显然，事情没这么简单。G...... 本文来自微信公众号： 深流研究所 ，作者：吴绛枫 9月3日，OpenAI总裁格雷格·布罗克曼在发布新模型GPT-6...
-- 发布时间：2026-09-08 20:30 CST
-- 链接：https://www.huxiu.com/article/4889598.html
-- 同事件报道：AGI怎样才算真的来了？（36氪 AI 频道）
-
-## 11. Anthropic researcher quits over AI labs ‘gambling with our lives’
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Reddit AI subreddits (new)、Hacker News (AI stories)（3 个来源） ｜ 热度：8.14
-- 摘要：Latest departure highlights mounting unease inside Silicon Valley companies racing to build ever more powerful systems
-- 发布时间：2026-09-09 17:31 CST
-- 链接：https://www.ft.com/content/20c07191-8da6-440f-b04b-8ea0ebdd9153?syn-25a6b1a6=1
-- 同事件报道：Anthropic researcher quits over AI fears（Reddit AI subreddits (new)）
-- 同事件报道：AI researcher who worked at OpenAI and Anthropic resigns, says both companies are “gambling with our lives” in race to s...（Reddit AI subreddits (new)）
-
-## 12. 刚刚，GPT-Image-2.5发布
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道（1 个来源） ｜ 热度：3.5
-- 摘要：刚刚，OpenAI 发布了 GPT-Images-2.5： 生成延迟最多减半，编辑精度提升，新增 Sketch 手绘输入功能，API 端首次拆出快慢两档模型。 https://x.com/OpenAI/status/2097394956457623964 面向 ChatGPT、ChatGPT Work 和 Codex 全线用户开放，含免费版。 按这个数字换算，日均约 4.3 亿张图片经过这套系统，生成提速的体感变化覆盖面远超一般功能迭代...
-- 发布时间：2026-09-09 08:11 CST
-- 链接：https://www.36kr.com/p/3975317790273801
-
-## 13. Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：8.0
-- 摘要：arXiv:2609.06011v1 Announce Type: cross Abstract: Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored. Existing bench...
-- 发布时间：2026-09-09 12:00 CST
-- 链接：https://arxiv.org/abs/2609.06011
-- 同事件报道：Risk-Conditioned Fine-Tuning of Large Language Models（arXiv cs.LG）
-
-## 14. 硬氪首发丨无问智科完成数亿元A轮融资，具身智能业务订单已达数亿元
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道（1 个来源） ｜ 热度：3.5
-- 摘要：硬氪获悉，近日，无问智科宣布完成数亿元A轮融资。本轮融资由洪泰基金领投，洪山资本、中电数融、狮城资本跟投，架桥资本、力合金融、力合中科、澄凯灵澄未来基金等老股东超额追投。 本轮融资完成后，无问智科将继续围绕Physical AI基础设施加大研发和规模化投入。 一是加大世界模型研发投入，进一步提升对空间、时间、物体交互、运动及物理规律的理解与因果推理能力，为数据生成、世界重建、RL环境和世界生成提供统一的技术底座。 二是进一步扩大高质量真...
-- 发布时间：2026-09-09 08:30 CST
-- 链接：https://www.36kr.com/p/3974793522344197
-
-## 15. Mapping the Emerging Social Science of Large Language Models
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.0
-- 摘要：arXiv:2609.07598v1 Announce Type: cross Abstract: Large language models (LLMs) increasingly shape communication, learning, work, creativity, and decision-making, yet social-science research on these developments remains...
-- 发布时间：2026-09-09 12:00 CST
-- 链接：https://arxiv.org/abs/2609.07598
-- 同事件报道：The Emergence of Social Science of Large Language Models（arXiv cs.AI）
-
-## 16. 超衍智能发布自动化AI研究系统首批评估成果，刷新三项SOTA记录
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.5
-- 摘要：36氪获悉，近日，超衍智能（Apex Intelligence）发布其自动化AI研究系统的首次评估结果：AI全程自主完成发现改进点、实验验证、从证据中学习、强化下一轮循环的科研闭环，刷新三项基准测试的SOTA纪录，并在多项正面对比中超越斯坦福、NVIDIA、Recursive等机构的自动化系统。超衍智能成立于2026年6月，由清华人工智能学院助理教授陈勇超创办，专注做自主进化基础模型。
-- 发布时间：2026-09-09 12:57 CST
-- 链接：https://www.36kr.com/newsflashes/3975691377504516
-
-## 17. Kronecker Factorization Improves Efficiency and Interpretability of Sparse Autoencoders
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.LG（2 个来源） ｜ 热度：8.0
-- 摘要：arXiv:2505.22255v5 Announce Type: replace-cross Abstract: Sparse Autoencoders (SAEs) decompose language-model activations into sparse, interpretable features, but standard encoders usually treat the latent dictionary as...
-- 发布时间：2026-09-09 12:00 CST
-- 链接：https://arxiv.org/abs/2505.22255
-- 同事件报道：PhysSAE: Mechanistic Interpretability with Sparse Autoencoders（arXiv cs.LG）
-
-## 18. GPT-6 Astra正式登陆亚马逊云科技Amazon Bedrock
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.5
-- 摘要：OpenAI最新旗舰模型GPT-6 Astra现已在Amazon Bedrock正式可用——这意味着全球企业可以在亚马逊云科技的管控体系下，直接调用该模型。据了解，Astra覆盖财务分析、合同审查、代码治理及浏览器操作等场景。在安全层面，Amazon Bedrock为每次模型调用提供芯片级零运维人员访问、全流程加密、PrivateLink网络隔离CloudTrail合规审计，推理数据不用于模型训练，无需与OpenAI共享数据。
-- 发布时间：2026-09-09 13:56 CST
-- 链接：https://www.36kr.com/newsflashes/3975764093645063
-
-## 19. Smoothed Picard Hamiltonian Monte Carlo
+## 2. The Dynamics of Generalization in Deep Learning
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：8.0
-- 摘要：arXiv:2609.06906v1 Announce Type: cross Abstract: We develop a new low-accuracy sampler, called \emph{smoothed Picard Hamiltonian Monte Carlo}, which combines Gaussian smoothing, Picard iteration, and higher-order discre...
+- 摘要：arXiv:2504.16450v4 Announce Type: replace Abstract: We derive a differential equation that governs the evolution of the generalization gap when a model is trained by gradient descent-based methods. This differential equa...
 - 发布时间：2026-09-09 12:00 CST
-- 链接：https://arxiv.org/abs/2609.06906
-- 同事件报道：Microcanonical Hamiltonian Monte Carlo and the Helmholtz Theorem（arXiv cs.AI）
+- 链接：https://arxiv.org/abs/2504.16450
+- 同事件报道：Explainable Deep Learning for Price-Trade Dynamics: From Black-Box Forecasts to Effective Parametric Models（arXiv cs.AI）
 
-## 20. 网易首个AI原生语音Agent“网易叭哥说”正式上线
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.0
-- 摘要：36氪获悉，网易有道正式推出首款AI原生语音Agent“网易叭哥说”，语音输入效率达键盘5倍，能自动润色并理解口语意图。同时支持124种语言实时翻译，专业领域精准度98%。
-- 发布时间：2026-09-08 19:42 CST
-- 链接：https://www.36kr.com/newsflashes/3974665286889987
+## 3. Learning to Construct Practical Agentic Systems
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2606.00189v2 Announce Type: replace Abstract: Automated design and optimization of agentic LLM-based systems leads to sophisticated systems that substantially improve result quality over off-the-shelf agentic patte...
+- 发布时间：2026-09-09 12:00 CST
+- 链接：https://arxiv.org/abs/2606.00189
+- 同事件报道：Learning to Configure Agentic AI Systems（arXiv cs.AI）
+
+## 4. Causal Foundation Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers、arXiv cs.AI（2 个来源） ｜ 热度：7.5
+- 摘要：Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally requires a bespoke pipeline for every new problem: first proposing a causal mechanism, selecting a comp...
+- 发布时间：2026-09-02 04:00 CST
+- 链接：https://arxiv.org/abs/2609.03003
+- 同事件报道：Compiling VGDL into Causal Models（arXiv cs.AI）
+
+## 5. Introducing Muse: The World’s First Personal AI Agent Built for Everyone
+- 地区：国外源 ｜ 语言：en ｜ 来源：Meta Newsroom、Hacker News (AI stories)（2 个来源） ｜ 热度：6.56
+- 摘要：Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM...
+- 发布时间：2026-09-09 03:00 CST
+- 链接：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+- 同事件报道：Muse, your personal AI agent.（Hacker News (AI stories)）
+
+## 6. Meta Announces Muse AI Agent for Personal Tasks and Organization
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、MarkTechPost（2 个来源） ｜ 热度：6.5
+- 摘要：Meta Platforms Inc. unveiled a new artificial intelligence agent designed to carry out tasks on a user’s behalf, advancing Mark Zuckerberg’s vision of a future where people each have a personalized AI assistant.
+- 发布时间：2026-09-09 03:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-08/meta-announces-muse-ai-agent-for-personal-tasks-and-organization
+- 同事件报道：Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer（MarkTechPost）
+- 同事件报道：Meta Unveils AI Assistant for Personal Tasks（Bloomberg Technology）
+
+## 7. The Emerging AI Paper-Review Arms Race: Adversarial Co-Evolution in Scholarly Publishing
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
+- 摘要：arXiv:2609.07713v1 Announce Type: cross Abstract: Generative and agentic AI are reshaping both the production and evaluation of scientific research. These developments are often studied separately, as questions of how AI...
+- 发布时间：2026-09-09 12:00 CST
+- 链接：https://arxiv.org/abs/2609.07713
+- 同事件报道：The AI cybersecurity arms race is on（Reddit AI subreddits (new)）
+
+## 8. Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.58
+- 摘要：Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.
+- 发布时间：2026-09-09 05:04 CST
+- 链接：https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/
+- 同事件报道：Cognition (Devin) raises $2B at $48B valuation（Hacker News (AI stories)）
+
+## 9. AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome
+- 地区：国外源 ｜ 语言：en ｜ 来源：Google DeepMind Blog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
+- 摘要：AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.
+- 发布时间：2026-09-08 22:00 CST
+- 链接：https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
+- 同事件报道：AlphaGenome Atlas: a high-resolution map of human DNA（Reddit AI subreddits (new)）
+
+## 10. Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal
+- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
+- 摘要：Qualcomm is trying to move into the data center business, where Nvidia has been the dominant player in the AI boom.
+- 发布时间：2026-09-08 23:56 CST
+- 链接：https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html
+- 同事件报道：Teaser trailer for Luca Guadagnino’s 'Artificial' which was dropped by Amazon MGM Studios because of its critical, unfla...（Reddit AI subreddits (new)）
+
+## 11. CohereLabs/North-Micro-Vision-Instruct
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
+- 摘要：image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re...
+- 发布时间：2026-09-08 23:37 CST
+- 链接：https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct
+
+## 12. Anthropic researcher says AI has more than 10% chance of 'killing all humans' after colleague quits
+- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 摘要：An Anthropic safety researcher said there is a greater than 10% chance AI could "kill all humans" after a former colleague quits over safety concerns.
+- 发布时间：2026-09-09 19:32 CST
+- 链接：https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html
+- 同事件报道：[Alignment Science lead at Anthropic] Evan Hubinger : "....we really do earnestly believe AI could kill all humans! I pe...（Reddit AI subreddits (new)）
+- 同事件报道："The people building AI earnestly believe that it could kill us all by the end of the decade"（Reddit AI subreddits (new)）
+
+## 13. Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.78
+- 摘要：Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project.
+- 发布时间：2026-09-08 20:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says
+- 同事件报道：Meta Failed to Catch Hundreds of AI Child Abuse Ads（Hacker News (AI stories)）
+
+## 14. SEGA: Drivable 3D Gaussian Head Avatar from a Single Image
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV（1 个来源） ｜ 热度：4.5
+- 摘要：arXiv:2504.14373v4 Announce Type: replace-cross Abstract: Creating photorealistic 3D head avatars from limited input has become increasingly important for applications in virtual reality, telepresence, and digital entert...
+- 发布时间：2026-09-09 12:00 CST
+- 链接：https://arxiv.org/abs/2504.14373
+
+国内：
+
+## 1. 两个Token就让Kimi“变成”Claude？前Google DeepMind研究员意外撞上中国大模型的蒸馏疑云
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、IEEE Spectrum — AI、MarkTechPost、Bloomberg Technology、Reddit AI subreddits (new)（5 个来源） ｜ 热度：16.0
+- 摘要：前沿 AI 模型在回答前会先“思考”，再把加密后的思考过程像密封信封一样交还给用户。前 Google DeepMind 研究员 Ilia Shumailov 和 ELLIS Institute Tübingen、MPI-IS 博士生 Alexander Panfilov 却发现，这个封条几乎没什么用。这些数据块可以跨用户、跨会话，甚至在同系列模型之间重放。把强模型的加密推理塞给同一家族的小模型，就能套出 GPT-5、Claude 等前沿...
+- 发布时间：2026-09-08 20:34 CST
+- 链接：https://www.36kr.com/p/3974241618784520
+- 同事件报道：Google DeepMind Maps 9 Billion Possible DNA Variants（IEEE Spectrum — AI）
+- 同事件报道：Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Hu...（MarkTechPost）
+
+## 2. SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！
+- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、量子位、Reddit AI subreddits (new)（3 个来源） ｜ 热度：9.5
+- 摘要：8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动，时长反响热烈。无论是Wan 3.0的30s视频指出、多模态参考、精准修改能力，还是SkyProduction（天工工作台）的资产管理、无限画布、团队协作，都广受用户好评。 而今天，SkyProduction的限免活动迎来了第二弹： Minimax H3模型，也要在SkyProduction产品上限时免费、无限使用了！...
+- 发布时间：2026-09-09 10:37 CST
+- 链接：https://zhidx.com/p/592250.html
+- 同事件报道：SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！（量子位）
+- 同事件报道：Minimax H3 realism loss（Reddit AI subreddits (new)）
+
+## 3. GPT Images 2.5 突发上线，网友的「灵魂画作」一个比一个离谱
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、爱范儿（2 个来源） ｜ 热度：7.0
+- 摘要：就在刚刚，OpenAI 发布新一代图像生成模型 ChatGPT Images 2.5。 官方表示，新模型重点提升了图片细节质量、生成速度、编辑精度以及多轮修改过程中的一致性，并新增 Sketch 手绘参考、创作模板、图片评论编辑等功能，让用户能够更接近专业设计流程完成 AI 创作。 OpenAI 称，目前用户每周通过 ChatGPT Images 和 API 中的 GPT Image 系列模型生成 超过 30 亿张图片。 Images...
+- 发布时间：2026-09-09 09:41 CST
+- 链接：https://www.36kr.com/p/3975491521458433
+- 同事件报道：GPT Images 2.5 突发上线！网友的「灵魂画作」一个比一个离谱（爱范儿）
+
+## 4. 蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、量子位（2 个来源） ｜ 热度：7.0
+- 摘要：外滩大会前夕，蚂蚁百灵发布首个金融增强开放模型Ling-3.0-flash-Fin。与传统金融大模型主要解决问答、摘要等单点任务不同，Ling-3.0-flash-Fin进一步瞄准真实金融工作流，尝试让AI从“回答一个问题”走向“完成一项工作”。目前，该模型已经正式开源。与此同时，蚂蚁百灵还同步开放金融搜索Agent评测基准FinFIRST，逐步开放模型、工具和评测体系。模型目前重点切入投资研究场景，覆盖信息检索、研究推理、估值建模、研...
+- 发布时间：2026-09-09 12:46 CST
+- 链接：https://www.36kr.com/newsflashes/3975687709864449
+- 同事件报道：蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流（量子位）
+
+## 5. 曝 DeepSeek 已聘请中信证券筹备 IPO 事宜
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、钛媒体（2 个来源） ｜ 热度：7.0
+- 摘要：IT之家 9 月 9 日消息，路透社今日报道称，深度求索 DeepSeek 已聘请中信证券筹备科创板上市事宜，计划于年内启动 IPO 进程。目前具体募资规模与目标估值尚未确定。 深度求索希望通过 IPO 募集资金，扩大算力基础设施建设、加大模型研发与芯片自研投入，并强化核心人才激励。据此前报道，DeepSeek 目标是在今年递交 IPO 申请、明年正式挂牌上市。2026 年前 7 个月，公司实现营收约 4.75 亿元人民币，约为 202...
+- 发布时间：2026-09-09 14:41 CST
+- 链接：https://www.ithome.com/1/000/188.htm
+- 同事件报道：DeepSeek已聘中信证券筹备科创板IPO，年内正式启动 | 钛快讯（钛媒体）
+
+## 6. 谷歌 DeepMind 推出 AlphaGenome Atlas，覆盖人类基因组全部 90 亿种单核苷酸变异预测
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 AI 频道（2 个来源） ｜ 热度：6.5
+- 摘要：IT之家 9 月 8 日消息，谷歌今日推出 AlphaGenome Atlas ，这一平台包含了人类基因组中 90 亿种单核苷酸变异 （所有可能的单字母 DNA 改变）的功能预测，是目前涵盖基因突变对分子生物学影响最全面的目录，学术界可通过免费门户网站免费使用。 DNA 是生命的语言，掌握其密码能够改变人类理解生物学和治疗疾病的能力，但解读基因变异对分子层面的影响长期存在瓶颈：人类基因组有约 90 亿种可能的单字母突变，在实验室逐一测试...
+- 发布时间：2026-09-08 22:20 CST
+- 链接：https://www.ithome.com/0/999/937.htm
+- 同事件报道：刚刚，谷歌DeepMind破解人类生命天书，90亿种基因突变全部算穿（36氪 AI 频道）
