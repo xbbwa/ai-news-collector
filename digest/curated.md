@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国内 10｜国外 10）
-生成时间：2026-09-09 06:49 CST
-数据窗口：最近 24 小时，1021 条原始条目 → 959 个事件；过滤噪音 650 个，排除前 3 天已推送的 0 个。
+生成时间：2026-09-09 09:20 CST
+数据窗口：最近 24 小时，987 条原始条目 → 924 个事件；过滤噪音 618 个，排除前 3 天已推送的 1 个。
 强制配额：国内源 10/10，国外源 10/10；按国外/国内交替排列。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -22,12 +22,13 @@
 - 同事件报道：Anthropic 放弃 60 亿美元收购 Decart 交易（钛媒体）
 - 同事件报道：消息称Anthropic放弃60亿美元收购Decart的交易（36氪 快讯）
 
-## 3. Mistral raises €3B to make sovereign, open-weight AI the technology frontier
-- 地区：国外源 ｜ 语言：en ｜ 来源：Mistral AI News、TechCrunch — AI（2 个来源） ｜ 热度：8.0
-- 摘要：Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.
-- 发布时间：2026-09-08 20:00 CST
-- 链接：https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/
-- 同事件报道：Mistral raises €3B as sovereign AI becomes big business（TechCrunch — AI）
+## 3. Introducing ChatGPT Images 2.5
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News、Simon Willison's Weblog、36氪 快讯（3 个来源） ｜ 热度：11.0
+- 摘要：ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
+- 发布时间：2026-09-08 19:30 CST
+- 链接：https://openai.com/index/introducing-chatgpt-images-2-5
+- 同事件报道：Introducing ChatGPT Images 2.5（Simon Willison's Weblog）
+- 同事件报道：OpenAI推出图像生成模型ChatGPT Images 2.5（36氪 快讯）
 
 ## 4. 思维链让AI变聪明，Astra却用它骗人
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体、36氪 AI 频道（3 个来源） ｜ 热度：9.0
@@ -37,12 +38,13 @@
 - 同事件报道：思维链让AI变聪明，Astra却用它骗人（钛媒体）
 - 同事件报道：思维链让AI变聪明，Astra却用它骗人（36氪 AI 频道）
 
-## 5. Introducing Muse: The World’s First Personal AI Agent Built for Everyone
-- 地区：国外源 ｜ 语言：en ｜ 来源：Meta Newsroom、Hacker News (AI stories)（2 个来源） ｜ 热度：7.06
-- 摘要：Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM...
-- 发布时间：2026-09-09 03:00 CST
-- 链接：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-- 同事件报道：Muse, your personal AI agent.（Hacker News (AI stories)）
+## 5. On the Navier–Stokes Millennium Prize Problem
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News、Simon Willison's Weblog、Reddit AI subreddits (new)（3 个来源） ｜ 热度：9.0
+- 摘要：We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.
+- 发布时间：2026-09-08 18:00 CST
+- 链接：https://openai.com/index/navier-stokes-solution
+- 同事件报道：On the Navier–Stokes Millennium Prize Problem（Simon Willison's Weblog）
+- 同事件报道：OpenAI captures another Millennium Prize Problem（Reddit AI subreddits (new)）
 
 ## 6. 再这样下去，Agent要被卖保健品了
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体、36氪 AI 频道（3 个来源） ｜ 热度：9.0
@@ -52,12 +54,12 @@
 - 同事件报道：再这样下去，Agent要被卖保健品了（钛媒体）
 - 同事件报道：再这样下去，Agent要被卖保健品了（36氪 AI 频道）
 
-## 7. AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google DeepMind Blog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
-- 摘要：AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.
-- 发布时间：2026-09-08 22:00 CST
-- 链接：https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
-- 同事件报道：AlphaGenome Atlas: a high-resolution map of human DNA（Reddit AI subreddits (new)）
+## 7. Mistral raises €3B to make sovereign, open-weight AI the technology frontier
+- 地区：国外源 ｜ 语言：en ｜ 来源：Mistral AI News、TechCrunch — AI（2 个来源） ｜ 热度：7.5
+- 摘要：Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.
+- 发布时间：2026-09-08 20:00 CST
+- 链接：https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/
+- 同事件报道：Mistral raises €3B as sovereign AI becomes big business（TechCrunch — AI）
 
 ## 8. B面具身智能：机器人烧钱，数采公司躺赚？
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体、36氪 AI 频道（3 个来源） ｜ 热度：9.0
@@ -67,13 +69,12 @@
 - 同事件报道：B面具身智能：机器人烧钱，数采公司躺赚？（钛媒体）
 - 同事件报道：B面具身智能 ：机器人烧钱，数采公司躺赚？（36氪 AI 频道）
 
-## 9. On the Navier–Stokes Millennium Prize Problem
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
-- 摘要：We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.
-- 发布时间：2026-09-08 18:00 CST
-- 链接：https://openai.com/index/navier-stokes-solution
-- 同事件报道：OpenAI captures another Millennium Prize Problem（Reddit AI subreddits (new)）
-- 同事件报道：OpenAI stole the Navier Stokes solution（Reddit AI subreddits (new)）
+## 9. Introducing Muse: The World’s First Personal AI Agent Built for Everyone
+- 地区：国外源 ｜ 语言：en ｜ 来源：Meta Newsroom、Hacker News (AI stories)（2 个来源） ｜ 热度：7.06
+- 摘要：Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM...
+- 发布时间：2026-09-09 03:00 CST
+- 链接：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+- 同事件报道：Muse, your personal AI agent.（Hacker News (AI stories)）
 
 ## 10. 王云鹤创业后交出首个模型
 - 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、36氪 AI 频道（2 个来源） ｜ 热度：6.5
@@ -82,11 +83,12 @@
 - 链接：https://www.qbitai.com/2026/09/485555.html
 - 同事件报道：王云鹤创业后交出首个模型（36氪 AI 频道）
 
-## 11. CohereLabs/North-Micro-Vision-Instruct
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
-- 摘要：image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re...
-- 发布时间：2026-09-08 23:37 CST
-- 链接：https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct
+## 11. AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome
+- 地区：国外源 ｜ 语言：en ｜ 来源：Google DeepMind Blog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
+- 摘要：AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.
+- 发布时间：2026-09-08 22:00 CST
+- 链接：https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
+- 同事件报道：AlphaGenome Atlas: a high-resolution map of human DNA（Reddit AI subreddits (new)）
 
 ## 12. Mistral完成30亿欧元D轮融资，投后估值超210亿欧元
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：6.5
@@ -95,12 +97,11 @@
 - 链接：https://www.36kr.com/newsflashes/3974316731953666
 - 同事件报道：Mistral AI 完成 30 亿欧元 D 轮融资：投后估值超 210 亿欧元，三星电子领投（IT之家）
 
-## 13. Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.28
-- 摘要：Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project.
-- 发布时间：2026-09-08 20:00 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says
-- 同事件报道：Meta Failed to Catch Hundreds of AI Child Abuse Ads（Hacker News (AI stories)）
+## 13. CohereLabs/North-Micro-Vision-Instruct
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re...
+- 发布时间：2026-09-08 23:37 CST
+- 链接：https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct
 
 ## 14. 234亿！“欧洲版OpenAI”融资了
 - 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、36氪 AI 频道（2 个来源） ｜ 热度：6.5
@@ -109,11 +110,12 @@
 - 链接：https://zhidx.com/p/591997.html
 - 同事件报道：234亿，“欧洲版OpenAI”融资了（36氪 AI 频道）
 
-## 15. Introducing ChatGPT Images 2.5
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.5
-- 摘要：ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
-- 发布时间：2026-09-08 19:30 CST
-- 链接：https://openai.com/index/introducing-chatgpt-images-2-5
+## 15. Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.78
+- 摘要：Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project.
+- 发布时间：2026-09-08 20:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says
+- 同事件报道：Meta Failed to Catch Hundreds of AI Child Abuse Ads（Hacker News (AI stories)）
 
 ## 16. 深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递
 - 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、36氪 AI 频道（2 个来源） ｜ 热度：5.5

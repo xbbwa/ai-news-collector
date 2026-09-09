@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-08T22:49:25.794236+00:00",
+ "generated_at": "2026-09-09T01:20:42.501157+00:00",
  "stats": {
-  "items": 1021,
-  "clusters": 959,
-  "noise": 650,
-  "dup": 0,
+  "items": 987,
+  "clusters": 924,
+  "noise": 618,
+  "dup": 1,
   "history_days": 3,
   "available_cn": 182,
-  "available_intl": 127,
+  "available_intl": 123,
   "target_cn": 10,
   "target_intl": 10,
   "selected_cn": 10,
@@ -58,21 +58,23 @@
   },
   {
    "rank": 3,
-   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+   "title": "Introducing ChatGPT Images 2.5",
    "lang": "en",
    "region": "intl",
-   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-   "score": 8.0,
+   "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+   "score": 11.0,
    "sources": [
-    "mistral-news",
-    "techcrunch-ai"
+    "openai-news",
+    "simon-willison",
+    "36kr-newsflash"
    ],
    "titles": [
-    "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-    "Mistral raises €3B as sovereign AI becomes big business"
+    "Introducing ChatGPT Images 2.5",
+    "Introducing ChatGPT Images 2.5",
+    "OpenAI推出图像生成模型ChatGPT Images 2.5"
    ],
-   "published_at": "2026-09-08T12:00:22.000000+00:00",
-   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+   "published_at": "2026-09-08T11:30:00.000000+00:00",
+   "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
   },
   {
    "rank": 4,
@@ -96,21 +98,24 @@
   },
   {
    "rank": 5,
-   "title": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
+   "title": "On the Navier–Stokes Millennium Prize Problem",
    "lang": "en",
    "region": "intl",
-   "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-   "score": 7.06,
+   "url": "https://openai.com/index/navier-stokes-solution",
+   "score": 9.0,
    "sources": [
-    "meta-newsroom",
-    "hackernews-ai"
+    "openai-news",
+    "simon-willison",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
-    "Muse, your personal AI agent."
+    "On the Navier–Stokes Millennium Prize Problem",
+    "On the Navier–Stokes Millennium Prize Problem",
+    "OpenAI captures another Millennium Prize Problem",
+    "OpenAI stole the Navier Stokes solution"
    ],
-   "published_at": "2026-09-08T19:00:51.000000+00:00",
-   "summary": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM..."
+   "published_at": "2026-09-08T10:00:00.000000+00:00",
+   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
   },
   {
    "rank": 6,
@@ -134,21 +139,21 @@
   },
   {
    "rank": 7,
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
    "lang": "en",
    "region": "intl",
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "score": 6.0,
+   "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+   "score": 7.5,
    "sources": [
-    "deepmind-blog",
-    "reddit-ai-new"
+    "mistral-news",
+    "techcrunch-ai"
    ],
    "titles": [
-    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-    "AlphaGenome Atlas: a high-resolution map of human DNA"
+    "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+    "Mistral raises €3B as sovereign AI becomes big business"
    ],
-   "published_at": "2026-09-08T14:00:15.000000+00:00",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+   "published_at": "2026-09-08T12:00:22.000000+00:00",
+   "summary": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
   },
   {
    "rank": 8,
@@ -172,22 +177,21 @@
   },
   {
    "rank": 9,
-   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "title": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/navier-stokes-solution",
-   "score": 5.5,
+   "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+   "score": 7.06,
    "sources": [
-    "openai-news",
-    "reddit-ai-new"
+    "meta-newsroom",
+    "hackernews-ai"
    ],
    "titles": [
-    "On the Navier–Stokes Millennium Prize Problem",
-    "OpenAI captures another Millennium Prize Problem",
-    "OpenAI stole the Navier Stokes solution"
+    "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
+    "Muse, your personal AI agent."
    ],
-   "published_at": "2026-09-08T10:00:00.000000+00:00",
-   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+   "published_at": "2026-09-08T19:00:51.000000+00:00",
+   "summary": "Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM..."
   },
   {
    "rank": 10,
@@ -209,19 +213,21 @@
   },
   {
    "rank": 11,
-   "title": "CohereLabs/North-Micro-Vision-Instruct",
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct",
-   "score": 5.5,
+   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "score": 6.0,
    "sources": [
-    "hf-models-intl"
+    "deepmind-blog",
+    "reddit-ai-new"
    ],
    "titles": [
-    "CohereLabs/North-Micro-Vision-Instruct"
+    "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "AlphaGenome Atlas: a high-resolution map of human DNA"
    ],
-   "published_at": "2026-09-08T15:37:44.000000+00:00",
-   "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
+   "published_at": "2026-09-08T14:00:15.000000+00:00",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
   },
   {
    "rank": 12,
@@ -243,21 +249,19 @@
   },
   {
    "rank": 13,
-   "title": "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+   "title": "CohereLabs/North-Micro-Vision-Instruct",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says",
-   "score": 5.28,
+   "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct",
+   "score": 5.5,
    "sources": [
-    "bloomberg-tech",
-    "hackernews-ai"
+    "hf-models-intl"
    ],
    "titles": [
-    "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
-    "Meta Failed to Catch Hundreds of AI Child Abuse Ads"
+    "CohereLabs/North-Micro-Vision-Instruct"
    ],
-   "published_at": "2026-09-08T12:00:00.000000+00:00",
-   "summary": "Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project."
+   "published_at": "2026-09-08T15:37:44.000000+00:00",
+   "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
   },
   {
    "rank": 14,
@@ -279,19 +283,21 @@
   },
   {
    "rank": 15,
-   "title": "Introducing ChatGPT Images 2.5",
+   "title": "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-   "score": 4.5,
+   "url": "https://www.bloomberg.com/news/articles/2026-09-08/meta-ran-hundreds-of-ads-showing-ai-child-sexual-abuse-ngo-says",
+   "score": 4.78,
    "sources": [
-    "openai-news"
+    "bloomberg-tech",
+    "hackernews-ai"
    ],
    "titles": [
-    "Introducing ChatGPT Images 2.5"
+    "Meta Ran Hundreds of Ads Showing AI Child Sexual Abuse, NGO Says",
+    "Meta Failed to Catch Hundreds of AI Child Abuse Ads"
    ],
-   "published_at": "2026-09-08T11:30:00.000000+00:00",
-   "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
+   "published_at": "2026-09-08T12:00:00.000000+00:00",
+   "summary": "Meta Platforms Inc. has run more than 300 advertisements on Instagram and Facebook containing suspected child sexual abuse material this year, according to a report Tuesday by the nonprofit Tech Transparency Project."
   },
   {
    "rank": 16,
