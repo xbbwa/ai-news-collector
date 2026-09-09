@@ -145,23 +145,24 @@ Actions 每小时                         scripts/curate_digest.py → data 分�
 服务器 07:01   scripts/sync_digest.sh：下载 curated.md → daily-ai-news-curated.md，latest.md → daily-ai-news-summary.md（完整版留档）；
                mark_pushed.py 把这 20 条记为已推送，publish_archive.py 上传 pushed-history.jsonl 回 data 分支
 OpenClaw 08:00 cron 任务 daily-ai-news-push：加载 skill daily-ai-news，只读 curated.md，翻译 + 固定模板 + 写 daily-push-history.md
-OpenClaw 08:20 cron 任务 daily-push-healthcheck：history 日期不是今天就按 skill 补推
-（两个任务的时间用 `openclaw cron edit <id> --cron "0 8 * * *" --tz Asia/Shanghai` 改；只给 --cron 会把 tz 字段清掉，要一起传）
+服务器 08:20 crontab：scripts/check_openclaw_delivery.py 读取 08:00 任务的真实 status/delivered/deliveryStatus；
+                   失败则自动重跑群推、等待真实回执并私聊通知运维者
 ```
 
 - skill 文件：`deploy/openclaw/skills/daily-ai-news/SKILL.md`，部署到 `/mnt/data/openclaw-kb/openclawdata/skills/daily-ai-news/SKILL.md`
-- 两个 cron 任务的提示词：`deploy/openclaw/cron/*.txt`（用 `openclaw cron edit <id> --message` 写入）
-- 服务器 crontab：`01 7 * * * ~/ai-news-collector/scripts/sync_digest.sh >> ~/logs/ai-news-digest.log 2>&1`
+- 群推 cron 提示词：`deploy/openclaw/cron/daily-ai-news-push.txt`（推送任务显式锁定 `deepseek/deepseek-v4-pro`）
+- 服务器 crontab：`01 7 * * * bash ~/ai-news-collector/scripts/sync_digest.sh ...`；`20 8 * * * python3 ~/ai-news-collector/scripts/check_openclaw_delivery.py ...`。
+  显式写 `bash` 是双保险：即使某次 tar 部署丢了执行位，07:01 也不会因 `Permission denied` 跳过同步。
 
 OpenClaw 的 announce 投递**只发 agent 最后一段文字**（运行记录里的 `summary` 就是发出去的内容）。所以 skill 强制的顺序是：
 静默读候选 → 静默写历史文件 → 最后一步才输出正文，且正文第一个字符必须是 📰（补推是 ⚠️）；任何"存档完成""以下是第二条"都会替代正文。
 用 DeepSeek V4 Flash 实测：第一版 skill 发出去的是"存档完成。"，改成这个顺序后发出去的是完整正文（18 条、15 秒、1.9k 输出 token）。
-测试补推的办法：把 `daily-push-history.md` 第一行日期改成昨天，`openclaw cron run <healthcheck-id>`，它会投递到用户私聊而不是群。
+交付健康检查绝不能只看 `daily-push-history.md`：模型在最终回复失败前可能已经写了文件，造成“日期正确但群里没消息”的假阳性。
+`check_openclaw_delivery.py` 只认可当天 `status=ok + delivered=true + deliveryStatus=delivered` 的 cron 回执。
 
 两个踩过的坑：工作区记忆里有一条用户偏好"长内容拆分多条"，OpenClaw 每次会话都会加载它，模型看到 18 条正文就往里插
 （1/2）（2/2）把列表切断——skill 里必须显式声明这条偏好对定时推送不适用。`cron edit --light-context`（轻量启动上下文）
-能去掉这类干扰，但实测 Flash 在轻量上下文下反而把推演文字写进最终回复、还跳过写文件步骤，所以两个任务都保持完整上下文；
-健康检查任务的模型改成和正式推送相同的 `deepseek-v4-pro`（补推质量一致，正常时静默几乎不花钱）。
+能去掉这类干扰，但实测 Flash 在轻量上下文下反而把推演文字写进最终回复、还跳过写文件步骤，所以推送任务保持完整上下文。
 
 调参都在 workflow 里 `curate_digest.py` 的参数：`--max-items 20 --cn-items 10 --per-source-cap 3 --summary-chars 220 --exclude-source`。
 `region` 表示**来源归属**而非标题语言：国内厂商/媒体显式标 `cn`，其余默认 `intl`。OpenClaw 必须逐条翻译，不得再合并、
