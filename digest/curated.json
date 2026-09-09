@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-09T16:48:58.625305+00:00",
+ "generated_at": "2026-09-09T19:55:52.468802+00:00",
  "stats": {
-  "items": 2973,
-  "clusters": 2261,
-  "noise": 432,
-  "dup": 35,
+  "items": 3112,
+  "clusters": 2318,
+  "noise": 475,
+  "dup": 34,
   "history_days": 0,
-  "available_cn": 151,
-  "available_intl": 1643,
+  "available_cn": 154,
+  "available_intl": 1655,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,13 +20,14 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.08404",
-   "score": 21.0,
+   "score": 23.73,
    "sources": [
     "hf-daily-papers",
     "arxiv-cs-cv",
     "arxiv-cs-cl",
     "arxiv-cs-lg",
-    "arxiv-cs-ai"
+    "arxiv-cs-ai",
+    "hackernews-ai"
    ],
    "titles": [
     "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
@@ -38,13 +39,41 @@
     "VICT: Verifier-Instrumented Credit Tracing for Long-Horizon LLM Agent Reinforcement Learning",
     "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
     "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
-    "FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness"
+    "FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness",
+    "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents"
    ],
    "published_at": "2026-09-07T20:00:00.000000+00:00",
    "summary": "Large Language Models demonstrate remarkable proficiency in static reasoning, yet training them as autonomous agents through Reinforcement Learning (RL) for long-horizon tasks is often hindered by severe reward sparsity...."
   },
   {
    "rank": 2,
+   "title": "Google Picks Chilly Finland for €13 Billion European AI Buildout",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-09/google-plans-13-billion-ai-infrastructure-investment-in-finland",
+   "score": 17.57,
+   "sources": [
+    "bloomberg-tech",
+    "cnbc-tech",
+    "the-decoder",
+    "arstechnica-ai",
+    "producthunt-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Google Picks Chilly Finland for €13 Billion European AI Buildout",
+    "Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'",
+    "Google DeepMind Uses AI to Predict 9 Billion DNA Changes",
+    "Deepmind's AlphaGenome Atlas maps every possible DNA change in the human genome",
+    "Google's AI genome system evaluates every possible one-base change",
+    "AlphaGenome Atlas",
+    "Google to invest $15B in AI datacenters and buy nuclear power in Finland"
+   ],
+   "published_at": "2026-09-09T07:00:00.000000+00:00",
+   "summary": "Alphabet Inc.’s Google is spending €13 billion ($15.1 billion) on artificial intelligence infrastructure in Finland, its biggest European investment, as the Nordic country’s cold climate and carbon-free power make it a m..."
+  },
+  {
+   "rank": 3,
    "title": "Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation",
    "lang": "en",
    "region": "intl",
@@ -66,7 +95,7 @@
    "summary": "Generating long-form multi-shot videos requires coherent within-shot motion and visually consistent narratives across shots. Existing video generators favor continuous motion and struggle to present complete shot sets wh..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Infrastructure-based Monocular 3D Vehicle Localization Framework with Experimental Validation",
    "lang": "en",
    "region": "intl",
@@ -113,7 +142,7 @@
    "summary": "arXiv:2609.05523v1 Announce Type: new Abstract: This paper presents a one-stage learning framework that maps monocular roadside-camera images directly to vehicle states in a ground-fixed coordinate frame. Unlike conventi..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Dual-Latent Memory Routing for Vision-Language Reasoning",
    "lang": "en",
    "region": "intl",
@@ -146,7 +175,7 @@
    "summary": "arXiv:2609.05539v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) have recently made strong progress in vision-language reasoning, yet their performance often degrades as generations grow longer. A..."
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
    "lang": "en",
    "region": "intl",
@@ -166,7 +195,7 @@
    "summary": "NVIDIA has announced CUDA Rust , a push to make Rust a first-class language for writing GPU kernels. Rust code could already launch CUDA kernels, but the kernel body usually had to be written elsewhere. CUDA Rust closes..."
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
    "lang": "en",
    "region": "intl",
@@ -184,7 +213,7 @@
    "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "nvidia/RE-USE",
    "lang": "en",
    "region": "intl",
@@ -200,7 +229,7 @@
    "summary": "audio-to-audio, mamba-ssm, safetensors, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, license:other, region:us"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
    "lang": "en",
    "region": "intl",
@@ -214,26 +243,6 @@
    ],
    "published_at": "2026-09-09T15:36:24.000000+00:00",
    "summary": "A Blog post by IBM Research on Hugging Face"
-  },
-  {
-   "rank": 9,
-   "title": "Why Amazon Is Diversifying Its AI Chip Supply",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-08/why-amazon-is-diversifying-its-ai-chip-supply-video",
-   "score": 4.5,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Why Amazon Is Diversifying Its AI Chip Supply",
-    "Amazon, Qualcomm Deal Broadens the AI Chip Race | Bloomberg Tech 9/08/2026",
-    "Qualcomm CFO on Amazon AI Chip Deal, Data Center Strategy",
-    "Performance and Bugs Discussion Hub updated on 9 September 2026 - Sort by New!"
-   ],
-   "published_at": "2026-09-08T18:01:13.000000+00:00",
-   "summary": "Amazon’s expanded relationship with Qualcomm is reigniting debate over “circular financing” in the AI boom. Advisors Capital Management Partner and Portfolio Manager JoAnne Feeney discusses how the deal gives Amazon anot..."
   },
   {
    "rank": 10,
@@ -294,6 +303,22 @@
   },
   {
    "rank": 13,
+   "title": "Modernizing complex legacy code with AI agents.",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://mistral.ai/news/legacy-code-modernization/",
+   "score": 3.5,
+   "sources": [
+    "mistral-news"
+   ],
+   "titles": [
+    "Modernizing complex legacy code with AI agents."
+   ],
+   "published_at": "2026-09-09T12:00:46.000000+00:00",
+   "summary": "Mistral helped a European energy operator migrate 40,000 lines of Fortran 77 to C++. Learn how it was done, and the lessons to carry forward."
+  },
+  {
+   "rank": 14,
    "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
    "lang": "en",
    "region": "intl",
@@ -307,22 +332,6 @@
    ],
    "published_at": "2026-09-09T14:04:44.000000+00:00",
    "summary": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward..."
-  },
-  {
-   "rank": 14,
-   "title": "Automate user-level custom permissions for Amazon Quick",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/",
-   "score": 3.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Automate user-level custom permissions for Amazon Quick"
-   ],
-   "published_at": "2026-09-09T15:45:24.000000+00:00",
-   "summary": "As Amazon Quick environments scale and new AI-powered capabilities expand what users can do, automating user-level custom permissions becomes critical to maintaining the principle of least privilege. To address this, wit..."
   },
   {
    "rank": 15,
@@ -346,30 +355,6 @@
   },
   {
    "rank": 16,
-   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
-   "score": 9.0,
-   "sources": [
-    "leiphone",
-    "qbitai",
-    "baai-hub"
-   ],
-   "titles": [
-    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
-    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
-    "物理 AI 奔赴广域，追觅户外庭院 IFA 2026交出从核心硬件到商用落地完整答卷",
-    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
-    "去掉「AI」滤镜，IFA 2026还有哪些真亮点？",
-    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
-    "CV论文 | arXiv 2026 | 计算机视觉中的常识推理：基础、最新进展及未来发展方向"
-   ],
-   "published_at": "2026-09-09T02:17:00+00:00",
-   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
-  },
-  {
-   "rank": 17,
    "title": "腾讯混元、清华、南洋理工联手，「以小博大」破解空间智能算力与记忆断裂难题 | ECCV 2026",
    "lang": "zh",
    "region": "cn",
@@ -390,7 +375,7 @@
    "summary": "Spatial-TTT 给 2B 模型装上“流式空间记忆” ，在空间基准上超越 GPT-5。 作者丨 张 璐 编辑丨 幸丽娟 单纯拉长上下文，可以解决“能塞进多少信息”的问题。但面对状态变化、时序关联这类长程任务时，注意力还是容易被稀释，关键证据也容易找不回来。 当场景扩展到具身机器人、自动驾驶和智能硬件这些需要与三维物理世界实时交互的领域时，这一矛盾被进一步放大。 与纯文本或静态图文不同，真实物理世界的输入天然是持续涌入、没有明确边界..."
   },
   {
-   "rank": 18,
+   "rank": 17,
    "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
    "lang": "zh",
    "region": "cn",
@@ -404,7 +389,6 @@
    "titles": [
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
-    "Already running MiniMax H3 locally – looking for solid workflows for anime / Disney-style adult videos",
     "Made this Coraline dialogue meme with MiniMax H3",
     "Thundercats: Mumm-Ra Reacts to Your Comments - MiniMax H3",
     "Minimax H3: lots of artifacts, weird faces. What's wrong with my workflow?",
@@ -415,7 +399,7 @@
    "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动，时长反响热烈。无论是Wan 3.0的30s视频指出、多模态参考、精准修改能力，还是SkyProduction（天工工作台）的资产管理、无限画布、团队协作，都广受用户好评。 而今天，SkyProduction的限免活动迎来了第二弹： Minimax H3模型，也要在SkyProduction产品上限时免费、无限使用了！..."
   },
   {
-   "rank": 19,
+   "rank": 18,
    "title": "头部智能眼镜品牌完成近10亿C轮融资，已正式启动上市筹备工作｜硬氪首发",
    "lang": "zh",
    "region": "cn",
@@ -431,6 +415,28 @@
    ],
    "published_at": "2026-09-09T01:00:00.000000+00:00",
    "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，全球智能眼镜品牌「影目科技」近日完成C3轮融资，由四川振兴科创基金领投，静安资本、市北高新、广州产投、四川中试、眉山中试及东坡国投跟投。继年初完成C1、C2轮融资后，公司C轮融资累计金额近10亿元。 本轮资金将主要用于新一代空间智能硬件产品线的研发落地，及INMO AIOS 系统的持续迭代升级，加强硬件与软件底层核心能力构建；同时，加大品牌建设与全渠道布局，完善商业化能力，推动产品破圈，实现业务加速增..."
+  },
+  {
+   "rank": 19,
+   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
+   "score": 6.5,
+   "sources": [
+    "leiphone",
+    "qbitai"
+   ],
+   "titles": [
+    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
+    "物理 AI 奔赴广域，追觅户外庭院 IFA 2026交出从核心硬件到商用落地完整答卷",
+    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
+    "去掉「AI」滤镜，IFA 2026还有哪些真亮点？",
+    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力"
+   ],
+   "published_at": "2026-09-09T02:17:00+00:00",
+   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
   },
   {
    "rank": 20,
