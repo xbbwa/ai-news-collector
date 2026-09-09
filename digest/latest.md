@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-10 03:55 CST
+生成时间：2026-09-10 06:40 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -88,27 +88,27 @@
 - 发布时间：2026-09-09 12:00 CST
 - 链接：https://arxiv.org/abs/2609.05582
 
-## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 8 条）
+## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 6 条）
 
-### 1. How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore
+### 1. Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM
+- 摘要：On August 12, 2026, Alibaba’s Qwen team released Qwen3.8-2.4T-A95B . This is the first time a Qwen-Max-class model has been made available as open weights. With 2.4 trillion total parameters (95 billion activated per token), a hybrid linear-plus-full-attention architecture, and native context up to...
+- 作者：Dmitry Soldatkin
+- 发布时间：2026-09-10 06:26 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/
+
+### 2. ICYMI: What landed for AI builders in August 2026
+- 摘要：A recap of the biggest Amazon Bedrock, AgentCore, and Strands updates from August 2026. At AWS, we have long focused on making foundational technologies accessible and providing the infrastructure needed to put them to work. Amazon Bedrock , used by more than 225,000 active customers, including over...
+- 作者：Tanvi Girinath
+- 发布时间：2026-09-10 04:01 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/
+
+### 3. How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore
 - 摘要：Heurist uses Amazon Bedrock AgentCore to build AI-powered financial intelligence for retail investors. Its flagship product, Heurist Finance, brings several institutional-style workflows into one chat experience: it gathers market data, reads filings and news, runs deep research, builds and stress-t...
 - 作者：JW Wang
 - 发布时间：2026-09-10 02:11 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/
 
-### 2. Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers
-- 摘要：TorchServe is no longer actively maintained. The official project notice states there are no planned updates, bug fixes, new features, or security patches, and that vulnerabilities might not be addressed. For teams that run model inference on TorchServe today, this means security patches stop and co...
-- 作者：Ananth Raghavendra
-- 发布时间：2026-09-09 23:51 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/
-
-### 3. Automate user-level custom permissions for Amazon Quick
-- 摘要：As Amazon Quick environments scale and new AI-powered capabilities expand what users can do, automating user-level custom permissions becomes critical to maintaining the principle of least privilege. To address this, with custom permissions in Quick, you can enforce fine-grained access control by to...
-- 作者：Ashok Dasineni
-- 发布时间：2026-09-09 23:45 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/
-
-## Databricks Blog（databricks-blog，en，本窗口共 6 条）
+## Databricks Blog（databricks-blog，en，本窗口共 5 条）
 
 ### 1. Five AI Questions We're Hearing from Financial Services Leaders
 - 摘要：Last year at Sibos Frankfurt, the question was whether AI works. This year: can your...
@@ -196,25 +196,25 @@
 - 发布时间：2026-09-09 15:20 CST
 - 链接：https://huggingface.co/openbmb/MiniCPM5-2B-DSpark-GGUF
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 8 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 9 条）
 
-### 1. ibm-granite/granite-timeseries-patchtst-fm-r2
+### 1. nvidia/GLM-5.3-Flash-NVFP4
+- 摘要：image-text-to-text, Model Optimizer, safetensors, glm5_next, nvidia, ModelOpt, GLM-5, quantized, FP4, fp4, conversational, base_model:zai-org/GLM-5.3-Flash, base_model:quantized:zai-org/GLM-5.3-Flash, license:mit, 8-bit, modelopt, region:us
+- 作者：nvidia
+- 发布时间：2026-09-10 02:19 CST
+- 链接：https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4
+
+### 2. ibm-granite/granite-timeseries-patchtst-fm-r2
 - 摘要：time-series-forecasting, safetensors, patchtst_fm, time series, forecasting, pretrained models, foundation models, time series foundation models, time-series, arxiv:2211.14730, arxiv:2005.08100, arxiv:2508.02879, arxiv:2403.07815, arxiv:2602.06909, license:openmdw-1.0, region:us
 - 作者：ibm-granite
 - 发布时间：2026-09-10 00:03 CST
 - 链接：https://huggingface.co/ibm-granite/granite-timeseries-patchtst-fm-r2
 
-### 2. nvidia/RE-USE
+### 3. nvidia/RE-USE
 - 摘要：audio-to-audio, mamba-ssm, safetensors, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, license:other, region:us
 - 作者：nvidia
 - 发布时间：2026-09-09 23:15 CST
 - 链接：https://huggingface.co/nvidia/RE-USE
-
-### 3. nvidia/Ising-Decoder-ColorCode-1-Fast
-- 摘要：ising-decoding, predecoder_memory_cascade, Ising Decoding, quantum, qec, decoders, error_correction, arxiv:2607.10058, arxiv:2604.12841, license:openmdw-1.1, region:us
-- 作者：nvidia
-- 发布时间：2026-09-09 06:46 CST
-- 链接：https://huggingface.co/nvidia/Ising-Decoder-ColorCode-1-Fast
 
 ## Hugging Face Blog（huggingface-blog，en，本窗口共 1 条）
 
@@ -223,14 +223,6 @@
 - 作者：Roman Vaculin; Wesley M Gifford; Jiri Navratil; Chandra Reddy; Ayhan Sebin
 - 发布时间：2026-09-09 23:36 CST
 - 链接：https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
-
-## Meta Newsroom（meta-newsroom，en，本窗口共 1 条）
-
-### 1. Introducing Muse: The World’s First Personal AI Agent Built for Everyone
-- 摘要：Today, Meta is introducing Muse, a secure, private personal AI agent that proactively helps with people’s goals and suggests ideas. Because personal agents need a new kind of secure computer, Muse runs on Muse Secure VM , a dedicated, virtual machine (VM) that houses both the agent and a person’s da...
-- 作者：Facebook
-- 发布时间：2026-09-09 03:00 CST
-- 链接：https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
 
 ## Mistral AI News（mistral-news，en，本窗口共 1 条）
 
@@ -247,22 +239,36 @@
 - 发布时间：2026-09-10 00:00 CST
 - 链接：https://blogs.nvidia.com/blog/ibc-news-2026/
 
-## OpenAI News（openai-news，en，本窗口共 5 条）
+## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 2 条）
+
+### 1. When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving
+- 摘要：Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill... Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encode...
+- 作者：Tanya Lenz
+- 发布时间：2026-09-10 04:31 CST
+- 链接：https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/
+
+### 2. CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs
+- 摘要：Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the broader NVIDIA software... Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the...
+- 作者：Jonathan Bentz
+- 发布时间：2026-09-10 04:24 CST
+- 链接：https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/
+
+## OpenAI News（openai-news，en，本窗口共 3 条）
 
 ### 1. Paul Christiano joins OpenAI Foundation Board
 - 摘要：Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
 - 发布时间：2026-09-10 01:00 CST
 - 链接：https://openai.com/index/paul-christiano-joins-openai-foundation-board
 
-### 2. How GPT-5.6 Sol helps run quantum computing experiments
+### 2. GPT-6 Astra: The next generation in intelligence for work
+- 摘要：Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.
+- 发布时间：2026-09-09 19:00 CST
+- 链接：https://openai.com/index/gpt-6-astra-next-generation-work
+
+### 3. How GPT-5.6 Sol helps run quantum computing experiments
 - 摘要：See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.
 - 发布时间：2026-09-09 01:00 CST
 - 链接：https://openai.com/index/codex-quantum-computing-experiments
-
-### 3. Introducing ChatGPT Images 2.5
-- 摘要：ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
-- 发布时间：2026-09-08 19:30 CST
-- 链接：https://openai.com/index/introducing-chatgpt-images-2-5
 
 # Tier 2 — 专业媒体
 
@@ -274,66 +280,65 @@
 - 发布时间：2026-09-09 19:14 CST
 - 链接：https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 6 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 5 条）
 
-### 1. Anthropic researcher quits with a warning: Self-improving AI could "kill us all"
+### 1. Six Chinese AI firms accused of aggressively copying US frontier models
+- 摘要：The United States has now named six Chinese AI firms accused of waging industrial-scale attacks distilling US frontier AI model capabilities and perhaps sparing billions in Chinese development costs. In a joint release Tuesday, the National Security Agency (NSA), Cybersecurity and Infrastructure Sec...
+- 作者：Ashley Belanger
+- 发布时间：2026-09-10 04:06 CST
+- 链接：https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/
+
+### 2. Anthropic researcher quits with a warning: Self-improving AI could "kill us all"
 - 摘要：When a prominent researcher quits a job at a frontier AI lab these days, it's often to pursue a new startup or protest a new business model . But AI researcher Jacob Coxon is using his departure from Anthropic to publicly warn that frontier AI companies are "gambling with our lives" with systems tha...
 - 作者：Kyle Orland
 - 发布时间：2026-09-10 00:59 CST
 - 链接：https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/
 
-### 2. Google's AI genome system evaluates every possible one-base change
+### 3. Google's AI genome system evaluates every possible one-base change
 - 摘要：On Tuesday, Google announced AlphaGenome Atlas , a resource that attempts to predict the consequences of every possible single-base variant in the human genome. The human genome is about 3 billion bases long, so trying the other three DNA bases that don't appear in our reference genome means sending...
 - 作者：John Timmer
 - 发布时间：2026-09-10 00:34 CST
 - 链接：https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change/
 
-### 3. Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.
-- 摘要：It took Michael Lines six months before he was ready to review the ChatGPT logs he said drove him into a religious mania that almost ended his life. In July, Lines sued OpenAI after weeks of ChatGPT exchanges allegedly pushed him so deep into a delusional spiral that he first believed he was Jesus,...
-- 作者：Ashley Belanger
-- 发布时间：2026-09-09 19:00 CST
-- 链接：https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/
+## Axios（axios，en，本窗口共 7 条）
 
-## Axios（axios，en，本窗口共 5 条）
+### 1. AI's extinction debate breaks containment
+- 摘要：An online panic erupted this week after millions discovered that leading AI researchers routinely debate and calculate the risk of human extinction. Taken at face value, the odds are chilling: 10%, 20%, sometimes far higher, assigned to the possibility of AI catastrophe. Why it matters: An esoteric...
+- 作者：Zachary Basu
+- 发布时间：2026-09-10 06:10 CST
+- 链接：https://www.axios.com/2026/09/09/anthropic-ai-human-extinction-pdoom-safety-risks
 
-### 1. Here's how AI could kill us all (if the worst fears come true)
+### 2. AI is making it harder to trust your own eyes this election
+- 摘要：Politicians have long made it hard to trust their words. Now, AI -generated campaign ads flooding the airwaves and social media are making it harder to trust your own eyes and ears. Why it matters: Americans' trust in politicians and institutions has been tanking in recent years — and AI campaign ad...
+- 作者：Josephine Walker
+- 发布时间：2026-09-10 04:09 CST
+- 链接：https://www.axios.com/2026/09/09/ai-political-ads-deepfakes-2026-elections
+
+### 3. Here's how AI could kill us all (if the worst fears come true)
 - 摘要：AI researchers shook the world Tuesday when they publicly acknowledged that there's a non-zero chance of AI killing off humanity in the next decade. Why it matters: AI doomsday fears have existed for years, but as the technology has become more powerful and embedded in our lives, those warnings are...
 - 作者：Herb Scribner
 - 发布时间：2026-09-10 00:15 CST
 - 链接：https://www.axios.com/2026/09/09/ai-doom-pdoom-kill-all-humans-anthropic
 
-### 2. Anthropic insiders warn AI could kill all humans
-- 摘要：Three Anthropic researchers went public last night with chilling concerns about out-of-control AI , warning it could destroy humans this decade. Anthropic AI researcher Jacob Coxon wrote on X, after resigning Tuesday to sound the alarm: "The people building AI earnestly believe that it could kill us...
-- 作者：Mike Allen
-- 发布时间：2026-09-09 18:04 CST
-- 链接：https://www.axios.com/2026/09/09/anthropic-insiders-warn-ai-could-kill-all-humans
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 30 条）
 
-### 3. OpenAI is begging for someone to slow the AI race
-- 摘要：AI leaders are sounding the alarm as their own breakthroughs sharpen an extraordinary dilemma: slow down and risk falling behind, or press ahead and risk losing control. Why it matters: AI executives and researchers increasingly see a race they can't safely slow on their own. Instead, they're urging...
-- 作者：Ina Fried
-- 发布时间：2026-09-09 17:10 CST
-- 链接：https://www.axios.com/2026/09/09/openai-artificial-general-intelligence-safety
+### 1. QTS Co-CEO on Building Eco-Friendly Data Centers
+- 摘要：Tag Greason, Co-CEO of QTS discusses the growing political and environmental backlash facing data center expansion. Greason says the AI boom is fundamentally an infrastructure buildout, and argues that U.S. leadership in AI depends on infrastructure leadership. He speaks with Romaine Bostick on "The...
+- 发布时间：2026-09-10 05:14 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-09/qts-co-ceo-on-building-eco-friendly-data-centers-video
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 33 条）
+### 2. Oak Hill CEO: Irrational Selling in the Credit Market
+- 摘要：Glenn August, Founder and CEO of Oak Hill Advisors, discusses a recent filing that caught attention. August discusses whether OHA is making a real move into AI infrastructure, noting that the filing referred to real asset lending. He speaks with Romaine Bostick on "The Close." (Source: Bloomberg)
+- 发布时间：2026-09-10 05:13 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-09/oak-hill-ceo-irrational-selling-in-the-credit-market-video
 
-### 1. What Is AI Distillation and Why Are US Tech Companies Worried?
+### 3. What Is AI Distillation and Why Are US Tech Companies Worried?
 - 摘要：Artificial intelligence companies in the US have spent hundreds of billions of dollars to develop advanced chatbots, betting they can earn enough from customers to justify the investment. That approach carries the risk of being undermined by rivals who build competing AI systems for far less.
 - 作者：Lorelei Smillie
 - 发布时间：2026-09-10 03:53 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-09/what-is-ai-distillation-and-why-are-us-tech-companies-worried
 
-### 2. Wave of AI-Driven IPOs Expected to Accompany Anthropic’s Listing
-- 摘要：With the Labor Day holiday — and summer in the US — now officially over, the traditional push to the end of the year in the market for initial public offerings is on.
-- 作者：Tim LeeMaster and Scarlet Fu
-- 发布时间：2026-09-10 03:35 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-09/wave-of-ai-driven-ipos-expected-to-accompany-anthropic-s-listing
-
-### 3. Awaiting Anthropic IPO, Chime Makes 'Strides,' Bugatti Deal | Bloomberg Deals 9/9/2026
-- 摘要：A weekly, midday program that delivers high-impact, editorially driven coverage of the most important corporate transactions shaping the global market. Today's guests: Chime Co-Founder & CEO Chris Britt, Class V Group Partner, Founder Lise Buyer, Deutsche Bank Chairman of Global Technology Investmen...
-- 发布时间：2026-09-10 03:02 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-09/bloomberg-deals-9-9-2026-video
-
-## CNBC Technology（cnbc-tech，en，本窗口共 10 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 9 条）
 
 ### 1. CoreWeave CEO chalks up public AI pushback to the speed of change: 'And that is frightening'
 - 摘要：CoreWeave CEO Mike Intrator spoke to CNBC at the Goldman Sachs' Communacopia + Technology Conference this week.
@@ -353,44 +358,44 @@
 - 发布时间：2026-09-09 20:26 CST
 - 链接：https://www.cnbc.com/2026/09/09/ai-data-centers-jobs-tech-buildout.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 9 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 8 条）
 
-### 1. AI labs test the rigour of credit rating agencies
+### 1. FirstFT: Apple’s foldable iPhone Duo will cost $1,999
+- 摘要：Also in today’s newsletter: Treasury yields jump and DeepSeek fundraising frenzy spawns shadow market
+- 发布时间：2026-09-10 05:35 CST
+- 链接：https://www.ft.com/content/abbb4a43-4e0b-4178-951b-1924a9af305d?syn-25a6b1a6=1
+
+### 2. AI labs test the rigour of credit rating agencies
 - 摘要：AI labs have huge private market valuations, but are seeking the investment-grade score of public groups such as Oracle
 - 发布时间：2026-09-10 02:02 CST
 - 链接：https://www.ft.com/content/6842ca4b-1a16-4a76-89b5-098cd288ffc7?syn-25a6b1a6=1
 
-### 2. OpenAI names top US official from model testing agency to its board
+### 3. OpenAI names top US official from model testing agency to its board
 - 摘要：Former housemate of Anthropic chief joins ChatGPT maker as AI labs accused of regulatory capture
 - 发布时间：2026-09-10 01:00 CST
 - 链接：https://www.ft.com/content/d73e188f-b906-42ec-8b91-db9729c9d2d9?syn-25a6b1a6=1
 
-### 3. Silver Lake to merge French software groups in €10bn deal
-- 摘要：Plan comes as buyout groups grapple with impact of AI on software companies bought at high valuations
-- 发布时间：2026-09-09 18:00 CST
-- 链接：https://www.ft.com/content/2cc88608-04b2-4dcb-8c89-698f251de170?syn-25a6b1a6=1
+## The Guardian — AI（guardian-ai，en，本窗口共 7 条）
 
-## The Guardian — AI（guardian-ai，en，本窗口共 6 条）
+### 1. Apple unveils folding iPhone Duo as new CEO takes center stage
+- 摘要：The passport-size iPhone Duo serves as the first big test for John Ternus, who took over for Tim Cook last week Apple has unveiled the iPhone Duo, the company’s first foldable phone and the most significant change to the iPhone since the smartphone’s introduction in 2007. The nearly $2,000 device ta...
+- 作者：Johana Bhuiyan
+- 发布时间：2026-09-10 02:45 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone
 
-### 1. Anthropic researchers say AI could cause human extinction by 2030
+### 2. Anthropic researchers say AI could cause human extinction by 2030
 - 摘要：One researcher who resigned said many in industry believe that without regulation AI could kill off humanity Artificial intelligence could kill off humanity within the decade, according to three researchers with the industry giant Anthropic , one of whom has quit his job in protest. The latest doom-...
 - 作者：Richard Luscombe
 - 发布时间：2026-09-09 23:53 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/09/anthropic-researchers-ai-human-extinction
 
-### 2. AI could kill all humans in next decade, warn experts: but how seriously should we take them?
+### 3. AI could kill all humans in next decade, warn experts: but how seriously should we take them?
 - 摘要：Alarming warnings from industry insiders increase pressure for curbs on artificial superintelligence Does artificial superintelligence really pose a risk greater than nuclear weapons? Is there a significant chance of “a Chornobyl-sized catastrophe”. Might there even be a greater than 10% chance that...
 - 作者：Robert Booth UK technology editor
 - 发布时间：2026-09-09 21:46 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/09/ai-superintelligence-risks-warnings-scientists-politicians
 
-### 3. US allies lack resources to keep pace on AI, top Pentagon official says
-- 摘要：Cameron Stanley talks up ‘revolutionary’ AI capabilities and says Washington working with Nato and Five Eyes partners The Pentagon’s top artificial intelligence official said on Tuesday that America’s closest allies lack the resources to keep pace with the US military’s adoption of AI, and that Wash...
-- 作者：Joseph Gedeon in Washington
-- 发布时间：2026-09-09 18:00 CST
-- 链接：https://www.theguardian.com/us-news/2026/sep/09/us-military-pentagon-allies-ai
-
-## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 3 条）
+## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 2 条）
 
 ### 1. AI Models Are Watermarking Text—Will You Notice?
 - 摘要：On 11 August, Anthropic announced that all future Claude models will generate text that contains a watermark that identifies its results as AI generated. The company is not alone. Google has its own text watermark (which Anthropic’s is based on) it uses on the output of its Gemini models . OpenAI ha...
@@ -403,12 +408,6 @@
 - 作者：David Berreby
 - 发布时间：2026-09-09 18:00 CST
 - 链接：https://spectrum.ieee.org/china-ai-chatbot-regulation
-
-### 3. AI Slop Is Changing How Engineers Review Code
-- 摘要：AI coding tools can now generate thousands of lines of code in minutes, helping companies build features, run tests, and fix issues faster. But the flood of AI-generated code still has to be reviewed. Large language models can produce code that looks clean on the surface but conceals sloppy mistakes...
-- 作者：Aaron Mok
-- 发布时间：2026-09-09 00:16 CST
-- 链接：https://spectrum.ieee.org/ai-code-review-software-engineers
 
 ## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
 
@@ -432,7 +431,7 @@
 - 发布时间：2026-09-05 12:32 CST
 - 链接：https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed
 
-## MarkTechPost（marktechpost，en，本窗口共 3 条）
+## MarkTechPost（marktechpost，en，本窗口共 2 条）
 
 ### 1. Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds
 - 摘要：Voice agent teams keep hitting the same wall. The catalog holds 400 voices and the brief asks for the one that is not in it: a Quebecoise receptionist for a Montreal dealership, a narrator in his sixties with lecture hall authority. Briefs outnumber any catalog, and cloning closes the gap one speake...
@@ -446,12 +445,6 @@
 - 发布时间：2026-09-09 12:38 CST
 - 链接：https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/
 
-### 3. NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels
-- 摘要：NVIDIA has announced CUDA Rust , a push to make Rust a first-class language for writing GPU kernels. Rust code could already launch CUDA kernels, but the kernel body usually had to be written elsewhere. CUDA Rust closes that gap with two NVlabs open-source projects: cuda-oxide for the SIMT model and...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-09 03:51 CST
-- 链接：https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/
-
 ## MIT Technology Review — AI（mit-tech-review，en，本窗口共 1 条）
 
 ### 1. What OpenAI’s latest controversy tells us about the future of math
@@ -460,7 +453,7 @@
 - 发布时间：2026-09-09 11:10 CST
 - 链接：https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/
 
-## Nature — Machine Learning（nature-ml，en，本窗口共 9 条）
+## Nature — Machine Learning（nature-ml，en，本窗口共 7 条）
 
 ### 1. The Einstein test: what happens when AI tries to rediscover relativity?
 - 发布时间：2026-09-09 08:00 CST
@@ -474,7 +467,7 @@
 - 发布时间：2026-09-09 08:00 CST
 - 链接：https://www.nature.com/articles/d41586-026-02846-1
 
-## New York Times — Technology（nyt-tech，en，本窗口共 2 条）
+## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
 ### 1. Anthropic Researchers Raise Alarm Over A.I. Acceleration, Warning of Threat to Humanity
 - 摘要：A protest outside Anthropic’s offices in San Francisco.
@@ -482,11 +475,13 @@
 - 发布时间：2026-09-10 02:10 CST
 - 链接：https://www.nytimes.com/2026/09/09/technology/anthropic-researchers-raise-alarm.html
 
-### 2. Meta Introduces Muse, an A.I. Agent That Can Send Your Emails and Book Your Travel
-- 摘要：Muse, Meta’s new A.I. agent, acts as a personal digital assistant that connects to Facebook and Instagram, as well as third-party apps such as Spotify and OpenTable.
-- 作者：Eli Tan
-- 发布时间：2026-09-09 03:00 CST
-- 链接：https://www.nytimes.com/2026/09/08/technology/meta-muse-ai-agent.html
+## SemiAnalysis（semianalysis，en，本窗口共 1 条）
+
+### 1. Where Does a Robot Think – On-Device vs Datacenter Inference
+- 摘要：For most of its short history, AI lived behind a screen. That’s starting to change. First came chatbots, good for answering a question or drafting an email. Then agentic AI, models that don’t just respond but do real work on a computer: navigating software, calling tools, finishing multi-step tasks...
+- 作者：Ivan Chiam
+- 发布时间：2026-09-10 04:53 CST
+- 链接：https://newsletter.semianalysis.com/p/where-does-a-robot-think-on-device
 
 ## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
 
@@ -508,27 +503,27 @@
 - 发布时间：2026-09-09 06:46 CST
 - 链接：https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 18 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 20 条）
 
-### 1. The hinge for Apple’s new foldable phone was built with AI
-- 摘要：Apple says it used AI and 3D printing in the manufacturing process for its long-awaited foldable phone.
-- 作者：Lucas Ropek
-- 发布时间：2026-09-10 03:21 CST
-- 链接：https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/
+### 1. OpenAI adds a prominent AI doomer to its board of directors
+- 摘要：Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.
+- 作者：Tim Fernholz
+- 发布时间：2026-09-10 06:25 CST
+- 链接：https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/
 
-### 2. Apple’s revamped Health app will calculate your ‘health age’ and readiness score
-- 摘要：The update uses Apple Intelligence to make better sense of your health data.
-- 作者：Sarah Perez
-- 发布时间：2026-09-10 02:16 CST
-- 链接：https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/
-
-### 3. Apple has a new way prove your iPhone photos aren’t AI slop
-- 摘要：Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.
+### 2. Massachusetts hits data centers with new clean power rules
+- 摘要：Massachusetts has become the third state in as many months to slap new restrictions on data center development.
 - 作者：Tim De Chant
-- 发布时间：2026-09-10 02:08 CST
-- 链接：https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/
+- 发布时间：2026-09-10 05:43 CST
+- 链接：https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/
 
-## The Decoder（the-decoder，en，本窗口共 9 条）
+### 3. Apple Watch’s new AI features are normalizing the idea that technology is always listening
+- 摘要：Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.
+- 作者：Sarah Perez
+- 发布时间：2026-09-10 04:24 CST
+- 链接：https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/
+
+## The Decoder（the-decoder，en，本窗口共 8 条）
 
 ### 1. Anthropic built an economic model that frames its CEO's bleakest job forecasts as an outlier scenario
 - 摘要：Anthropic published an economic model with three scenarios for the US economy through 2030. In the extreme scenario, output doubles every 4.5 years and knowledge worker unemployment hits 17.9 percent. CEO Dario Amodei's own warnings from May land squarely in that most extreme bucket. The article Ant...
@@ -548,25 +543,25 @@
 - 发布时间：2026-09-09 21:40 CST
 - 链接：https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome/
 
-## The Verge — AI（theverge-ai，en，本窗口共 9 条）
+## The Verge — AI（theverge-ai，en，本窗口共 10 条）
 
-### 1. Apple’s new iPhone camera mode promises to prove your photo isn’t AI
-- 摘要：Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called "Reference Image," will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to "sign every pixel it sees." The iPhone 18 Pro and Pro...
-- 作者：Emma Roth
-- 发布时间：2026-09-10 03:30 CST
-- 链接：https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image
+### 1. Suno releases its first AI music model made with record industry help
+- 摘要：Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was "trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on." The data includes content licensed fro...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-10 05:42 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help
 
-### 2. Microsoft has new AI privacy rules for schools
-- 摘要：Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), the second-largest teachers union in the US, and its New York City affiliate the...
-- 作者：Lauren Feiner
-- 发布时间：2026-09-10 01:07 CST
-- 链接：https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy
+### 2. OpenAI’s sly mathematical breakthrough sends a chill through academia
+- 摘要：Open AI CEO Sam Altman speaks during the G20 Innovation Ministerial. | (Photo by Matt RAMEY / AFP via Getty Images) OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievem...
+- 作者：Robert Hart
+- 发布时间：2026-09-10 05:16 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes
 
-### 3. Amazon Prime Video’s new AI tech matches lips to dubbed audio
-- 摘要：Maxton Hall. | Image: Prime Video Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with "human-dubbed" audio. The feature is only available with the English dub of the German series Maxton Hall for now, but Prime Video plans to expand it to "additional titles...
-- 作者：Emma Roth
-- 发布时间：2026-09-09 21:00 CST
-- 链接：https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing
+### 3. Read the Apple document explaining how new listening features still protect your privacy
+- 摘要：At Wednesday's iPhone Duo launch event , Apple announced a handful of new Siri AI Audio Intelligence features , including Siri Recap, Live Rewind, Sound Recognition, and Music Recognition. Alongside its announcement, Apple released a document laying out how it plans to balance AI "ambient listening"...
+- 作者：Stevie Bonifield
+- 发布时间：2026-09-10 04:44 CST
+- 链接：https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy
 
 ## TLDR AI（tldr-ai，en，本窗口共 1 条）
 
@@ -576,39 +571,25 @@
 - 发布时间：2026-09-09 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-09
 
-## VentureBeat（venturebeat，en，本窗口共 2 条）
+## WIRED — AI（wired-ai，en，本窗口共 5 条）
 
-### 1. OpenAI solves longstanding math problem with 10,000-agent swarm — but can't rule out benefitting from a researcher's private Codex data
-- 摘要：OpenAI today announced an internal AI system solved the Navier–Stokes existence and smoothness problem , one of the seven notoriously challenging Millennium Prize Problems in mathematics that has remained unsolved since its introduction 26 years ago, using a coordinated system that involved roughly...
-- 作者：carl.franzen@venturebeat.com (Carl Franzen)
-- 发布时间：2026-09-09 05:38 CST
-- 链接：https://venturebeat.com/technology/openai-solves-longstanding-math-problem-with-10-000-agent-swarm-but-cant-rule-out-benefitting-from-a-researchers-private-codex-data
+### 1. The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’
+- 摘要：Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.
+- 作者：Maxwell Zeff
+- 发布时间：2026-09-10 06:11 CST
+- 链接：https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/
 
-### 2. Agents identifying as OpenAI systems wrote 17,000 posts to a wiki no one was supposed to write to
-- 摘要：Four researchers spent six weeks reconstructing what happened on a 25-year-old German programmers' wiki: agents identifying as OpenAI systems had turned it into a coordination channel, leaving about 18,000 posts, trading task answers, and sharing a working sandbox bypass. The lesson generalizes past...
-- 作者：louiswcolumbus@gmail.com (Louis Columbus)
-- 发布时间：2026-09-09 05:04 CST
-- 链接：https://venturebeat.com/security/agents-identifying-as-openai-systems-wrote-17-000-posts-to-a-wiki-no-one-was-supposed-to-write-to
+### 2. San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads
+- 摘要：The City Attorney’s Office has asked Meta to explain how the harmful ads repeatedly ran on Facebook and Instagram. The company claims the ads are not under the city’s jurisdiction.
+- 作者：Matt Burgess
+- 发布时间：2026-09-10 05:15 CST
+- 链接：https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/
 
-## WIRED — AI（wired-ai，en，本窗口共 3 条）
-
-### 1. I Let an AI Agent Hack All My Gadgets—and I’d Do It Again
+### 3. I Let an AI Agent Hack All My Gadgets—and I’d Do It Again
 - 摘要：After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC. But it also told me how to make everything a lot more secure.
 - 作者：Will Knight
 - 发布时间：2026-09-10 02:30 CST
 - 链接：https://www.wired.com/story/i-used-ai-to-hack-my-home-network/
-
-### 2. A Stealth Startup Thinks It Just Hacked the Memory Shortage
-- 摘要：Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.
-- 作者：Lauren Goode
-- 发布时间：2026-09-09 21:00 CST
-- 链接：https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/
-
-### 3. Muse, Meta’s New Personal AI Agent, Needs You to Trust It
-- 摘要：Designed to compete with OpenClaw and Instinct, the company says Muse can do everything from sell your car to book you a plane ticket.
-- 作者：Lily Hay Newman, Maxwell Zeff
-- 发布时间：2026-09-09 04:12 CST
-- 链接：https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 70 条）
 
@@ -647,15 +628,21 @@
 - 发布时间：2026-09-09 20:19 CST
 - 链接：https://www.36kr.com/newsflashes/3976140729463301
 
-## 极客公园（geekpark，zh，本窗口共 2 条）
+## 极客公园（geekpark，zh，本窗口共 3 条）
 
-### 1. 千问办公发布多人工作台，重写企业软件的最后一公里
+### 1. 苹果第一台折叠 iPhone，15999 元起
+- 摘要：iPhone Duo，国行 15999 元起 作者｜张勇毅 编辑｜靖宇 北京时间今天凌晨，苹果发布了第一台折叠屏手机，名字叫 iPhone Duo。国行 15999 元起，10 月 16 日晚 8 点预购，10 月 23 日发售。同场发布的 iPhone 18 Pro 系列 9999 元起，9 月 12 日晚 8 点预购，18 日发售。 三天前，小米发布了 18 Fold：外屏 5.38 英寸，内屏 7.58 英寸，10999 元起。iPhone Duo 按苹果规格页的标准矩形口径，外屏 5.36 英寸，内屏 7.58 英寸。 两块屏幕的尺寸，差别在小数点后第二位。价格差了 5000 元。 书...
+- 作者：张勇毅
+- 发布时间：2026-09-10 03:43 CST
+- 链接：http://www.geekpark.net/news/370088
+
+### 2. 千问办公发布多人工作台，重写企业软件的最后一公里
 - 摘要：作者｜Cynthia 编辑｜郑玄 2026 年 2 月 3 日，由 Anthropic 带头，华尔街替 SaaS 写好了讣告。 几天前，Anthropic 正式官宣把 Claude Cowork 的插件能力扩展到法律、销售、金融等知识工作。与普通聊天机器人不同，这些插件可以携带部门工作流、调用外部工具和数据，并按照预设规则完成一段具体工作。 市场很快把这种能力翻译成了另一个词：替代。2 月 3 日，高盛一篮子美国软件股单日下跌 6%；彭博统计，当天软件、金融服务和资产管理相关股票合计蒸发约 2850 亿美元。一天之后，Wind 香港 SaaS 指数又下跌 6.39%，板块总市值缩水近 150...
 - 作者：极客老友
 - 发布时间：2026-09-09 15:07 CST
 - 链接：http://www.geekpark.net/news/370061
 
-### 2. 折叠屏 iPhone 初期产量受限，每日仅数百部；环比增长 379%，腾讯 HY4 登顶全球大模型调用榜；特斯拉时隔 19 个月再降价｜极客早知道
+### 3. 折叠屏 iPhone 初期产量受限，每日仅数百部；环比增长 379%，腾讯 HY4 登顶全球大模型调用榜；特斯拉时隔 19 个月再降价｜极客早知道
 - 摘要：消息称苹果折叠屏 iPhone 初期产量受限，每日仅数百部 9 月 8 日，据日经中文网报道，根据多位知情人士指出，市场期待已久的首部苹果折叠 iPhone，由于苹果极为严格的质量管控标准，初期生产量每天仅有「数百部」，而苹果及其供货商正全力加快产量爬坡。 熟悉情况的供应链主管向《日经亚洲》透露：「苹果设定了极高的质量标准，在正式量产之前，8 月又追加了一轮试产」。该人员表示：「截至 8 月下旬日产量仅数百部。按这样的初期产能计算，有可能难以满足市场需求」。 《日经亚洲》先前报导，苹果计划今年内生产 800 万~1000 万部折叠屏 iPhone，并希望凭借这款全新外型设计的机型激发市场需求，...
 - 作者：极客早知道
 - 发布时间：2026-09-09 08:37 CST
@@ -721,25 +708,25 @@
 - 发布时间：2026-09-09 16:30 CST
 - 链接：https://www.infoq.cn/article/WlJkEfJxMgaK9o91ow2Z?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 126 条）
+## IT之家（ithome，zh，本窗口共 138 条）
 
-### 1. 稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 发布
-- 摘要：IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPadOS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPad...
-- 作者：作者： 归泷
-- 发布时间：2026-09-10 03:03 CST
-- 链接：https://www.ithome.com/1/000/525.htm
-
-### 2. 【IT之家实拍】苹果 iPhone 18 Pro 系列抢先看：新增可变光圈技术、首发 A20 Pro 芯片
-- 摘要：IT之家 9 月 10 日消息，在 2026 年秋季发布会上，苹果正式发布 iPhone 18 Pro 系列，包括 18 Pro 和 18 Pro Max， 起售价分别为 9999 元和 10999 元 。 IT之家也在第一时间拍下了全新 iPhone 18 Pro 系列真机，感兴趣的小伙伴可放大查看新机细节： 全新 iPhone 18 Pro 系列提供深、银、冰川蓝和勃艮第酒红色 4 种配色，外观与 iPhone 17 Pro 接近、首发 A20 Pro 芯片，在智能能力、性能、电池和摄像头方面迎来升级。 值得一提的是，iPhone 18 Pro 系列引入了可变光圈技术，配备 48Mp 可变...
-- 作者：作者： 归泷
-- 发布时间：2026-09-10 02:50 CST
-- 链接：https://www.ithome.com/1/000/523.htm
-
-### 3. 苹果 iPhone 18 Pro / Max 国行售价 9999 元 / 10999 元起
-- 摘要：IT之家 9 月 10 日消息，在 2026 年秋季发布会结束后，苹果中国官网公布了 iPhone 18 Pro 和 iPhone 18 Pro Max 两款机型的售价，起售价分别为 9999 元和 10999 元。 存储从 256GB 起步，提供 512GB、1TB 与 2TB 版本。国行定价方面，iPhone 18 Pro 起售价为 9999 元，iPhone 18 Pro Max 起售价为 10999 元。 苹果 iPhone 18 Pro 售价： 存储规格 官方售价 24 期参考月供 相比 256GB 加价 256GB RMB 9,999 RMB 417 / 月起 — 512GB RM...
+### 1. 苹果 iPhone 18 Pro / Max 首用 6 叶片可变光圈结构，相机 App 引入 Pro 级控制
+- 摘要：IT之家 9 月 10 日消息，苹果今天（9 月 10 日）更新官方文档，宣布在 iPhone 18 Pro 和 iPhone 18 Pro Max 两款旗舰中，引入 Pro 级相机控制体验， 让用户在原生相机应用中直接控制更多拍摄参数。 用户可手动设定光圈、快门速度和白平衡，也可借助实时直方图判断画面曝光。相机应用还能根据景深和环境光线自动调整光圈。 IT之家附上官方介绍如下： iPhone 18 Pro 和 iPhone 18 Pro Max 的相机 app 提供了 Pro 级控制选项，这是一项全新可自定义体验，供用户更轻松地调用常用设置，同时推出了新的手动控制选项。用户现可调整镜头光圈、...
 - 作者：作者： 故渊
-- 发布时间：2026-09-10 02:24 CST
-- 链接：https://www.ithome.com/1/000/515.htm
+- 发布时间：2026-09-10 05:22 CST
+- 链接：https://www.ithome.com/1/000/547.htm
+
+### 2. 证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关
+- 摘要：IT之家 9 月 10 日消息，在 AI 照片近乎以假乱真的年代，苹果为最新发布的 iPhone 18 Pro 系列手机带来一项标注真实照片功能。 苹果在今日的发布会上宣布推出“ Apple 参考图像 ”，iPhone 18 Pro 用户可通过该技术证明所拍照片的原真性。 苹果官方介绍称，Apple 参考图像尽可能从最安全的地方入手， 全新主摄会在像素层面安全地标注照片数据 ，专用云计算则会将这些已标注的数据转换为不可更改的图像，保存在照片 App 中供用户查看。 参考照片会与常规的可编辑照片并存，相当于是一个完全保持原本拍摄内容的存档图。 不过这一功能目前无法在中国市场使用 。在欧盟，App...
+- 作者：作者： 汪淼
+- 发布时间：2026-09-10 05:03 CST
+- 链接：https://www.ithome.com/1/000/544.htm
+
+### 3. 苹果 iPhone 18 Pro 系列手机配备 12GB 内存与上一代相同，起价上涨 1000 元
+- 摘要：IT之家 9 月 10 日消息，苹果 iPhone 18 Pro 系列手机今日正式发布，官方没有提到新机的内存容量，不过据 MacRumors 今日报道，在最新版本的 Xcode 27 中，苹果已透露了这一信息。 iPhone 18 Pro： 12GB iPhone 18 Pro Max： 12GB Xcode 目前还不支持 iPhone Duo，但该设备搭载了与 iPhone 18 Pro 相同的 A20 Pro 芯片，预计也搭载 12GB 内存。 苹果上一代 iPhone 17 Pro 系列手机就搭载了 12GB 内存，新一代的内存容量保持不变。 iPhone 17：8GB iPhone...
+- 作者：作者： 汪淼
+- 发布时间：2026-09-10 04:49 CST
+- 链接：https://www.ithome.com/1/000/542.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 16 条）
 
@@ -775,25 +762,25 @@
 - 发布时间：2026-09-09 11:39 CST
 - 链接：https://www.oschina.net/news/502393/openai-chatgpt-images-2-5
 
-## 量子位（qbitai，zh，本窗口共 6 条）
+## 量子位（qbitai，zh，本窗口共 7 条）
 
-### 1. 实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug
+### 1. 刚刚，苹果首款折叠屏发布！15999元起，AI参与设计
+- 摘要：一比根号二的小胖折叠
+- 作者：Jay
+- 发布时间：2026-09-10 03:24 CST
+- 链接：https://www.qbitai.com/2026/09/486450.html
+
+### 2. 实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug
 - 摘要：实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug 最新消息，参数293B的讯飞星火X2.5上线了…… （伸出邪恶小手.jpg） 此前讯飞开源了星火X2.5的两款端侧模型，一个4B和一个1.7B。 模型参数都不大，但都能在端侧原生跑100万Token上下文。 模型一开源，社区玩开了。 有人搞量化，有人往Mac、T4和WebGPU上搬，还有狠人直接把它接进Agent工作流，让它连续调用工具。 一顿操作猛如虎，硬生生把4B模型送上了Hugging Face现趋势榜第一。 所以现在问题来了，小的都这么猛了，大的能把活干到什么份上？ MoE大模型，参数293B-A30B，重点提升代码...
 - 作者：文婷
 - 发布时间：2026-09-09 18:02 CST
 - 链接：https://www.qbitai.com/2026/09/486374.html
 
-### 2. 国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力
+### 3. 国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力
 - 摘要：国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力 以“共创AI新经济”为主题的2026 Inclusion・外滩大会于9月9日在上海黄浦世博园区举办，汇聚全球科创力量，搭建科技、产业、资本协同融合的国际化平台。太初（杭州）集成电路有限公司（简称 “太初元碁”）携核心技术成果参展，国产AI4S计算平台亮相创新科技成果展区，并首次公开展示平台重要更新——TecoWeatherNext台风追踪系统。同时，太初元碁将参与大会同步设置科技人才招聘会，携多个研发核心岗位现场“抢人”。 据介绍，本次展出的国产AI4S计算平台是太初元碁自主研发的一站式科研创新平台，于今年7月正式上线，...
 - 作者：量子位的朋友们
 - 发布时间：2026-09-09 17:57 CST
 - 链接：https://www.qbitai.com/2026/09/486370.html
-
-### 3. 蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流
-- 摘要：蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。
-- 作者：量子位的朋友们
-- 发布时间：2026-09-09 13:02 CST
-- 链接：https://www.qbitai.com/2026/09/486288.html
 
 ## 钛媒体（tmtpost，zh，本窗口共 29 条）
 
@@ -815,25 +802,25 @@
 - 发布时间：2026-09-09 18:59 CST
 - 链接：https://www.tmtpost.com/8133380.html
 
-## 智东西（zhidx，zh，本窗口共 8 条）
+## 智东西（zhidx，zh，本窗口共 9 条）
 
-### 1. 实测神秘模型Omen Alpha：我用它25分钟速搓“牛来”版YouTube
+### 1. 顶配两万六！苹果折叠屏iPhone来了，首搭屏下摄像+2nm芯王，库克现场交班
+- 摘要：智东西 作者 | 智东西编辑部 编辑 | 李水青 智东西9月10日报道，今日凌晨，苹果新CEO上任后的第一场新品发布会终于来了： iPhone Duo折叠屏、iPhone 18 Pro、AirPods 5和新Apple Watch系列， 如约到场。 开场视频中， 老朋友库克还是露了一面， 他说：“不不不，不是我，是后面那个家伙。”话落，镜头推到了新CEO约翰·特努斯面前。 今天没有“Good Morning”，只有“Welcome to Apple Park”。 最受期待的新品必然是折叠屏：15999元起售的iPhone Duo，苹果的第一台折叠屏， 据传研发了10年、库克和特努斯力推的重磅新...
+- 作者：云鹏
+- 发布时间：2026-09-10 03:50 CST
+- 链接：https://zhidx.com/p/592688.html
+
+### 2. 实测神秘模型Omen Alpha：我用它25分钟速搓“牛来”版YouTube
 - 摘要：智东西 作者｜毕伟豪 编辑｜李水青 智东西9月9日报道，近日，有一款名叫 Omen Alpha的匿名模型 突然出现，并凭借其 超高性价比 迅速引起热议。 上线5天后，在Muse Spark 1.3 Contributor这款免费模型的冲击下，依然 高居OpenCode调用量榜单第七 ，开发者纷纷猜测这是谁家的新模型，有网友评论“ 又是来自东方的神秘模型 ”。 在社区测试中，不少人一致的反馈 就是“快” ， 有开发者用Omen Alpha仅花了1小时30分钟就完成了一个简易3D世界的建模，而且效果相当好。 与之对比，该开发者用GLM 5.3 Flash和GPT 5.6 Luna以同样的提示词进行...
 - 作者：毕 伟豪
 - 发布时间：2026-09-09 20:22 CST
 - 链接：https://zhidx.com/p/592441.html
 
-### 2. 发布倒计时，苹果首款折叠iPhone已经剧透完了？
+### 3. 发布倒计时，苹果首款折叠iPhone已经剧透完了？
 - 摘要：智东西 作者｜杨京丽 编辑｜李水青 智东西9月9日报道，5个小时后， 约翰・特努斯上任苹果CEO后的首场秋季发布会 将在9月10日凌晨1点举行， 首发苹果持续研发了近十年的第一款折叠屏iPhone 。 这可能是苹果十余年来最重磅的发布会。据产业链多方曝料，苹果此次 打破近20年惯例 ，秋季不再发布标准版iPhone，而是推 Pro与折叠机型，加上新款Apple Watch、AirPods以及2nm A20 Pro芯片、自研5G基带、Apple Intelligence等新品更新 。 ▲苹果折叠屏iPhone概念渲染图（图源：MacRumors） 有趣的是，手机还没开卖，电商平台上手机壳已经开卖...
 - 作者：杨 京丽
 - 发布时间：2026-09-09 20:19 CST
 - 链接：https://zhidx.com/p/591822.html
-
-### 3. Arm发了个“挑模型神器”，针对硬件优化，能直观对比延迟和内存占用
-- 摘要：智东西 作者 | ZeR0 编辑 | 漠影 智东西9月9日报道，今日，在Arm Create开发者大会上，Arm推出 Arm AI Portal ，提供针对Arm优化的模型、代码、工作流和学习路径，让开发者与智能体都能便捷地在Arm计算平台范围内完成AI软件的发现、优化及部署。 无论是构建游戏、普通应用、智能体还是其他AI系统，开发者都能从中获得具体指导和可直接使用的开发资源。 开发者可以查找面向特定任务的预优化模型，获取性能与准确率数据，对比延迟、内存占用和模型规模，并访问代码示例及部署工作流。 这些数据能帮助开发者更快判断应该使用哪一种模型及对应的模型表现。 首批预优化模型包括 阿里巴巴通...
-- 作者：ZeR0
-- 发布时间：2026-09-09 15:27 CST
-- 链接：https://zhidx.com/p/592247.html
 
 # Tier 3 — 社交 / 聚合
 
@@ -854,25 +841,25 @@
 - 发布时间：2026-09-09 14:09 CST
 - 链接：https://github.com/browser-use/browser-use
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 174 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 156 条）
 
-### 1. I Don't Want to Interact with Stochastic Parrots
-- 摘要：I Don’t Want to Interact With Stochastic Parrots par Ploum - Lionel Dricot.
-- 作者：frizlab
-- 发布时间：2026-09-10 02:33 CST
-- 链接：https://ploum.net/2026-09-09-ai_policy.html
+### 1. Student's new car gets erroneously flagged by Flock twice in 2 days
+- 摘要：They said they have to go to court to prove Flock wrong.
+- 作者：jimt1234
+- 发布时间：2026-09-10 05:31 CST
+- 链接：https://www.wsbtv.com/news/local/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/SCLISOHI45BMDOKIPMAJZFXLUE/
 
-### 2. AirPods 5
-- 摘要：AirPods 5. Discover the magic of Active Noise Cancellation. Featuring a new acoustic architecture, Live Translation, and Siri AI.
-- 作者：an0malous
-- 发布时间：2026-09-10 02:19 CST
-- 链接：https://www.apple.com/airpods-5/
+### 2. Amazon refused to give pregnant workers bathroom breaks
+- 摘要：Four women sue Amazon, say company denied basic accommodations and fired them.
+- 作者：worik
+- 发布时间：2026-09-10 04:52 CST
+- 链接：https://arstechnica.com/tech-policy/2026/09/lawsuit-amazon-refused-to-give-pregnant-workers-bathroom-breaks-and-chairs/
 
-### 3. Astra for Coding: Why Are We Doing This Again?
-- 摘要：Some thoughts on Astra and newfangled long-horizon models.
-- 作者：lumpa
-- 发布时间：2026-09-10 02:08 CST
-- 链接：https://lucumr.pocoo.org/2026/9/7/astra-why/
+### 3. Jacob Coxon resignation appears to be a PR stunt for AI regulation
+- 摘要：This post looks like the start of a VERY sophisticated and well-funded PR operation to get support for Democrats to regulate AI into oblivion. Let me show you how it works: 1.) This guy, with minimal followers and no previous account activity, goes to the Wall Street Journal which publishes an excl…
+- 作者：hodder
+- 发布时间：2026-09-10 04:08 CST
+- 链接：https://twitter.com/ParkerThayer/status/2097759699626328575
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 5 条）
 
@@ -894,25 +881,25 @@
 - 发布时间：2026-09-09 06:03 CST
 - 链接：https://www.producthunt.com/products/frigade
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 506 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 477 条）
 
-### 1. Is it true that AI can correctly predict lifespan?
-- 摘要：AI topic at discussions at work. Apparently, there are AI models can pretty much accurately tell how much time we have left on earth.I am baffled, help me understand.
-- 作者：Over-Mix-1957
-- 发布时间：2026-09-10 03:51 CST
-- 链接：https://www.reddit.com/r/artificial/comments/1wbw96b/is_it_true_that_ai_can_correctly_predict_lifespan/
+### 1. AI minister says 'warnings are not new' as experts predict the technology could wipe out humanity
+- 摘要：Canada's artificial intelligence minister says Ottawa is monitoring the risks posed by AI as researchers at tech giant Anthropic warn that the increasingly powerful technology could potentially eradicate all human
+- 作者：Educational_Fun_9001
+- 发布时间：2026-09-10 06:38 CST
+- 链接：http://thestar.com/politics/federal/ai-minister-says-warnings-are-not-new-as-experts-predict-the-technology-could-wipe-out-humanity/article_41ea49e9-c9f7-4f6e-80af-7d77341b016c.html
 
-### 2. Another Microsoft team admits it’s struggling to handle flood of AI-generated code
-- 摘要：Increase in vibe-coded browser extensions sees Edge team automate quality assessments
-- 作者：NISMO1968
-- 发布时间：2026-09-10 03:49 CST
-- 链接：https://www.theregister.com/software/2026/09/09/another-microsoft-team-admits-its-struggling-to-handle-flood-of-ai-generated-code/5295185
+### 2. i thinking on switch fully local llms
+- 摘要：my computer have rtx3050 8gb r5 5500 and 16gb 3200mhz ram i run these model: gemma4 e4b qwen3.5 9b ornith1.5 9b bonsai 27b (all of them run at 128k context lenght) i run my models on lm studio whit rag and web resarch plugin they have enough "brain" for me they can talk turkish very good and fast(sl...
+- 作者：Kerem-6030
+- 发布时间：2026-09-10 06:32 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wc0n5i/i_thinking_on_switch_fully_local_llms/
 
-### 3. Apple adds Audio Intelligence to Watch Series 12
-- 摘要：Apple is adding Audio Intelligence to Apple Watch Series 12 and Ultra 4. The features include Sound Recognition, Live Rewind for the previous 15 seconds as a text snippet, Siri Recap for high-level summaries, and Shazam. Apple says raw audio is processed in the S11 chip's Secure Exclave and immediat...
-- 作者：Codeblix_Ltd
-- 发布时间：2026-09-10 03:46 CST
-- 链接：https://www.reddit.com/r/artificial/comments/1wbw4do/apple_adds_audio_intelligence_to_watch_series_12/
+### 3. Apple A20 Pro debuts with 7-core GPU, 32-core Neural Engine and 50% more memory bandwidth (~115 GB/s)
+- 摘要：It seems to use a 96-bit LPDDR5X memory bus, instead of the previous 64-bit wide busses. Considering it's on 2nm, that's expensive silicon. That should result in around 115 GB/s memory bandwidth. A20 Pro also doubles the size of Apple's dedicated Neural Engine (from 16 to 32 cores total).
+- 作者：Balance-
+- 发布时间：2026-09-10 06:23 CST
+- 链接：https://www.notebookcheck.net/Apple-A20-Pro-debuts-with-7-core-GPU-32-core-Neural-Engine-and-50-more-memory-bandwidth.1395027.0.html
 
 ## 智源社区（baai-hub，zh，本窗口共 24 条）
 
@@ -935,7 +922,7 @@
 - 链接：https://hub.baai.ac.cn/view/57828
 
 ---
-共列出 140 条（窗口内采集总数 3118 条，来自 54 个信源）
+共列出 138 条（窗口内采集总数 3078 条，来自 54 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-09T19:55:52.468802+00:00",
+ "generated_at": "2026-09-09T22:40:29.476799+00:00",
  "stats": {
-  "items": 3112,
-  "clusters": 2318,
-  "noise": 475,
-  "dup": 34,
+  "items": 3072,
+  "clusters": 2314,
+  "noise": 467,
+  "dup": 31,
   "history_days": 0,
-  "available_cn": 154,
-  "available_intl": 1655,
+  "available_cn": 156,
+  "available_intl": 1660,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -47,6 +47,39 @@
   },
   {
    "rank": 2,
+   "title": "What if LLMs Ate Their Words: Causal History Effects in Multi-Turn Interaction",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.05882",
+   "score": 18.05,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg",
+    "arxiv-cs-ai",
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "What if LLMs Ate Their Words: Causal History Effects in Multi-Turn Interaction",
+    "LLMs Mirror Country-Specific Gender Patterns If Asked, but Skew Male When Generating Media in Local Languages",
+    "Same Values, Different Languages? From Multilingual Probing to Steering LLMs Toward Chinese Social Values",
+    "Introducing HALC: A general pipeline for the systematic and reliable construction of prompts for automated coding with LLMs in the computational social sciences",
+    "Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs",
+    "SAEs Can Improve Unlearning: Dynamic Sparse Autoencoder Guardrails for Precision Unlearning in LLMs",
+    "Steering Under Compression: Dose-Response, Capability Cost, and Failure Asymmetry in Quantized LLMs",
+    "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
+    "Activation- and Influence-Aware Ranks (AIR): Function-Preserving SVD Compression for LLMs",
+    "Where Does the Sound Go? Tracing Acoustic Information Loss in Audio-Conditioned LLMs",
+    "Privacy-Preserving RAG by Concealing Sensitive Information from External LLMs",
+    "Clean Web-to-Markdown: Fast HTML Extraction for LLMs and RAG",
+    "If LLMs like Astra are math supercomputers, which of these 3D-to-2D graphics challenges would you want it to solve first?",
+    "As a lay person: Is there anything on the horizon that could potentially replace LLMs as the dominant approach for AI?"
+   ],
+   "published_at": "2026-09-09T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.05882v1 Announce Type: new Abstract: Multi-turn interaction creates a feedback process in which an LLM's previous responses become context for later behavior. Prior work shows substantial multi-turn degradatio..."
+  },
+  {
+   "rank": 3,
    "title": "Google Picks Chilly Finland for €13 Billion European AI Buildout",
    "lang": "en",
    "region": "intl",
@@ -73,7 +106,7 @@
    "summary": "Alphabet Inc.’s Google is spending €13 billion ($15.1 billion) on artificial intelligence infrastructure in Finland, its biggest European investment, as the Nordic country’s cold climate and carbon-free power make it a m..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation",
    "lang": "en",
    "region": "intl",
@@ -95,7 +128,7 @@
    "summary": "Generating long-form multi-shot videos requires coherent within-shot motion and visually consistent narratives across shots. Existing video generators favor continuous motion and struggle to present complete shot sets wh..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Infrastructure-based Monocular 3D Vehicle Localization Framework with Experimental Validation",
    "lang": "en",
    "region": "intl",
@@ -142,78 +175,27 @@
    "summary": "arXiv:2609.05523v1 Announce Type: new Abstract: This paper presents a one-stage learning framework that maps monocular roadside-camera images directly to vehicle states in a ground-fixed coordinate frame. Unlike conventi..."
   },
   {
-   "rank": 5,
-   "title": "Dual-Latent Memory Routing for Vision-Language Reasoning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.05539",
-   "score": 16.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-cl",
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Dual-Latent Memory Routing for Vision-Language Reasoning",
-    "Contextual Observer Grounding: Evaluating Situated Spatial Reasoning in Vision-Language Models",
-    "MedGround: Bridging the Evidence Gap in Medical Vision-Language Models with Verified Grounding Data",
-    "Evaluating Vision-Language Models for Image Quality Assessment using Psychophysical Data",
-    "Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models",
-    "Real Images, Worse Judgments: Evaluating Vision-Language Models on Concreteness and Imagery",
-    "Data Quality Rule Generation with LLMs",
-    "Do LLMs Hold Their Values? MANTA: A Multi-Turn Adversarial Benchmark for Animal Welfare Reasoning",
-    "More Than Mimicking Reviewers: Evaluating LLMs for Pre-Submission Peer Review",
-    "SCRIPTIOC-BENCH: A Benchmark for Recognizing Actionable Threat Intelligence from Script-Based Malware using LLMs",
-    "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
-    "From the Fluency Fallacy to the Micro-to-Macro Validity Gap: Opportunities and Pitfalls of LLMs in Social Simulation",
-    "When Agents Say One Thing and Do Another: Validating Elicited Beliefs from LLMs",
-    "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
-    "Spatial-Omni: Spatial Audio Understanding Integration in Multimodal LLMs via FOA Encoding"
-   ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.05539v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) have recently made strong progress in vision-language reasoning, yet their performance often degrades as generations grow longer. A..."
-  },
-  {
    "rank": 6,
-   "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+   "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
-   "score": 8.05,
+   "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+   "score": 7.55,
    "sources": [
-    "marktechpost",
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-    "Show HN: CUDA/graphics in QEMU-KVM VMs without passing the Nvidia card to them",
-    "SOTA ImageGen Locally NVIDIA Cosmos3(64B) INT4 quants CUDA/MLX"
-   ],
-   "published_at": "2026-09-08T19:51:54+00:00",
-   "summary": "NVIDIA has announced CUDA Rust , a push to make Rust a first-class language for writing GPU kernels. Rust code could already launch CUDA kernels, but the kernel body usually had to be written elsewhere. CUDA Rust closes..."
-  },
-  {
-   "rank": 7,
-   "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-   "score": 5.58,
-   "sources": [
-    "techcrunch-ai",
+    "arstechnica-ai",
+    "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-    "Cognition (Devin) raises $2B at $48B valuation"
+    "Six Chinese AI firms accused of aggressively copying US frontier models",
+    "US accuses Chinese AI firms of 'malicious' copying of AI technology",
+    "US accuses Chinese AI firms of 'malicious' copying of AI technology"
    ],
-   "published_at": "2026-09-08T21:04:06.000000+00:00",
-   "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
+   "published_at": "2026-09-09T20:06:28.000000+00:00",
+   "summary": "The United States has now named six Chinese AI firms accused of waging industrial-scale attacks distilling US frontier AI model capabilities and perhaps sparing billions in Chinese development costs. In a joint release T..."
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "nvidia/RE-USE",
    "lang": "en",
    "region": "intl",
@@ -229,7 +211,44 @@
    "summary": "audio-to-audio, mamba-ssm, safetensors, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, license:other, region:us"
   },
   {
+   "rank": 8,
+   "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+   "score": 5.5,
+   "sources": [
+    "theverge-ai",
+    "ft-tech"
+   ],
+   "titles": [
+    "Drama swirls around OpenAI’s legendary mathematical milestone",
+    "OpenAI faces competing claims around maths breakthrough",
+    "OpenAI’s sly mathematical breakthrough sends a chill through academia"
+   ],
+   "published_at": "2026-09-08T20:53:52.000000+00:00",
+   "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired . In a blog post on Tuesday , OpenAI announced that it discovere..."
+  },
+  {
    "rank": 9,
+   "title": "Awaiting Anthropic IPO, Chime Makes 'Strides,' Bugatti Deal | Bloomberg Deals 9/9/2026",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-09/bloomberg-deals-9-9-2026-video",
+   "score": 5.0,
+   "sources": [
+    "bloomberg-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Awaiting Anthropic IPO, Chime Makes 'Strides,' Bugatti Deal | Bloomberg Deals 9/9/2026",
+    "Performance and Bugs Discussion Hub updated on 9 September 2026 - Sort by New!"
+   ],
+   "published_at": "2026-09-09T19:02:21.000000+00:00",
+   "summary": "A weekly, midday program that delivers high-impact, editorially driven coverage of the most important corporate transactions shaping the global market. Today's guests: Chime Co-Founder & CEO Chris Britt, Class V Group Pa..."
+  },
+  {
+   "rank": 10,
    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
    "lang": "en",
    "region": "intl",
@@ -245,12 +264,49 @@
    "summary": "A Blog post by IBM Research on Hugging Face"
   },
   {
-   "rank": 10,
+   "rank": 11,
+   "title": "Hackers are stealing Claude tokens from subscribers",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+   "score": 4.5,
+   "sources": [
+    "techcrunch-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Hackers are stealing Claude tokens from subscribers",
+    "Optimizing tokens consumption in Claude Design"
+   ],
+   "published_at": "2026-09-08T21:10:27.000000+00:00",
+   "summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers."
+  },
+  {
+   "rank": 12,
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+   "score": 4.5,
+   "sources": [
+    "simon-willison",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "On the Navier–Stokes Millennium Prize Problem",
+    "Erdős Problems Down. One Millennium Prize Problem Down. Next Benchmark is One-Shotting an Anime Episode in an HTML File.",
+    "Erdős Problems Down. One Millennium Prize Problem Down. Next Benchmark is One-Shotting an Anime Episode in an HTML File."
+   ],
+   "published_at": "2026-09-08T23:55:12.000000+00:00",
+   "summary": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize..."
+  },
+  {
+   "rank": 13,
    "title": "Claude, change the \"Add to Cart\" button to blue",
    "lang": "en",
    "region": "intl",
    "url": "https://opusfived.dev/",
-   "score": 4.07,
+   "score": 3.57,
    "sources": [
     "hackernews-ai",
     "reddit-ai-new"
@@ -263,26 +319,7 @@
    "summary": "Make one button blue. Change nothing else. A short interactive comedy about agentic AI assistants that can never just do the thing."
   },
   {
-   "rank": 11,
-   "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
-   "score": 4.0,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-    "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
-    "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
-    "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod"
-   ],
-   "published_at": "2026-09-08T17:03:20.000000+00:00",
-   "summary": "Automating model registration between MLflow and a model registry solves a gap that opens the moment a candidate model leaves experimentation. Data scientists track dozens of candidate runs in MLflow, while governance of..."
-  },
-  {
-   "rank": 12,
+   "rank": 14,
    "title": "Peer-to-peer LLM inference in browser tabs, Qwen 3.8 27B",
    "lang": "en",
    "region": "intl",
@@ -294,52 +331,64 @@
    ],
    "titles": [
     "Peer-to-peer LLM inference in browser tabs, Qwen 3.8 27B",
-    "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits - locally",
-    "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits",
     "Is there a dummies guide for setting up qwen 27B with dflash2 and n-gram?"
    ],
    "published_at": "2026-09-07T20:08:22.000000+00:00",
    "summary": "Every device brings a slice. Together they run the whole model. Peer-to-peer LLM inference across browser tabs: a from-scratch WebGPU engine and a WebRTC runtime that split a 27B model over the dev..."
   },
   {
-   "rank": 13,
-   "title": "Modernizing complex legacy code with AI agents.",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://mistral.ai/news/legacy-code-modernization/",
-   "score": 3.5,
-   "sources": [
-    "mistral-news"
-   ],
-   "titles": [
-    "Modernizing complex legacy code with AI agents."
-   ],
-   "published_at": "2026-09-09T12:00:46.000000+00:00",
-   "summary": "Mistral helped a European energy operator migrate 40,000 lines of Fortran 77 to C++. Learn how it was done, and the lessons to carry forward."
-  },
-  {
-   "rank": 14,
-   "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
-   "score": 3.5,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "Beyond embedding: How to secure AI/BI Dashboards for every viewer"
-   ],
-   "published_at": "2026-09-09T14:04:44.000000+00:00",
-   "summary": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward..."
-  },
-  {
    "rank": 15,
+   "title": "曝 DeepSeek 已聘请中信证券筹备 IPO 事宜",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/000/188.htm",
+   "score": 13.5,
+   "sources": [
+    "ithome",
+    "36kr-ai",
+    "tmtpost",
+    "huxiu"
+   ],
+   "titles": [
+    "曝 DeepSeek 已聘请中信证券筹备 IPO 事宜",
+    "DeepSeek科创板IPO加速，中信或为辅导机构",
+    "DeepSeek已聘中信证券筹备科创板IPO，年内正式启动 | 钛快讯",
+    "冲刺IPO的DeepSeek并不缺钱"
+   ],
+   "published_at": "2026-09-09T06:41:51+00:00",
+   "summary": "IT之家 9 月 9 日消息，路透社今日报道称，深度求索 DeepSeek 已聘请中信证券筹备科创板上市事宜，计划于年内启动 IPO 进程。目前具体募资规模与目标估值尚未确定。 深度求索希望通过 IPO 募集资金，扩大算力基础设施建设、加大模型研发与芯片自研投入，并强化核心人才激励。据此前报道，DeepSeek 目标是在今年递交 IPO 申请、明年正式挂牌上市。2026 年前 7 个月，公司实现营收约 4.75 亿元人民币，约为 202..."
+  },
+  {
+   "rank": 16,
+   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
+   "score": 9.0,
+   "sources": [
+    "leiphone",
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
+    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
+    "物理 AI 奔赴广域，追觅户外庭院 IFA 2026交出从核心硬件到商用落地完整答卷",
+    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
+    "去掉「AI」滤镜，IFA 2026还有哪些真亮点？",
+    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
+    "CV论文 | arXiv 2026 | 计算机视觉中的常识推理：基础、最新进展及未来发展方向"
+   ],
+   "published_at": "2026-09-09T02:17:00+00:00",
+   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
+  },
+  {
+   "rank": 17,
    "title": "Suno 发布 v6 系列 AI 音乐模型，新增多项能力",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/000/351.htm",
-   "score": 9.5,
+   "score": 9.0,
    "sources": [
     "ithome",
     "the-decoder",
@@ -354,7 +403,7 @@
    "summary": "IT之家 9 月 9 日消息，据科技媒体 Engadget 今天报道，Suno 现已推出 v6 系列 AI 音乐模型，同时与华纳音乐、BMG 等唱片公司达成合作。 IT之家了解到，v6 系列一共包含三款模型：v6、v6-wild 和 v6-mini。其中 v6 主打旗舰，可生成各种风格的音乐；v6-wild 可生成实验性音乐；v6-mini 是唯一向免费用户开放的模型，另外两款需要 Pro 或 Premier 订阅才能使用。 该系列模型..."
   },
   {
-   "rank": 16,
+   "rank": 18,
    "title": "腾讯混元、清华、南洋理工联手，「以小博大」破解空间智能算力与记忆断裂难题 | ECCV 2026",
    "lang": "zh",
    "region": "cn",
@@ -375,7 +424,7 @@
    "summary": "Spatial-TTT 给 2B 模型装上“流式空间记忆” ，在空间基准上超越 GPT-5。 作者丨 张 璐 编辑丨 幸丽娟 单纯拉长上下文，可以解决“能塞进多少信息”的问题。但面对状态变化、时序关联这类长程任务时，注意力还是容易被稀释，关键证据也容易找不回来。 当场景扩展到具身机器人、自动驾驶和智能硬件这些需要与三维物理世界实时交互的领域时，这一矛盾被进一步放大。 与纯文本或静态图文不同，真实物理世界的输入天然是持续涌入、没有明确边界..."
   },
   {
-   "rank": 17,
+   "rank": 19,
    "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
    "lang": "zh",
    "region": "cn",
@@ -389,17 +438,25 @@
    "titles": [
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
     "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
-    "Made this Coraline dialogue meme with MiniMax H3",
     "Thundercats: Mumm-Ra Reacts to Your Comments - MiniMax H3",
     "Minimax H3: lots of artifacts, weird faces. What's wrong with my workflow?",
     "GTA VI pixel art animation | Minimax H3 ref2vid",
-    "Anyone having this issue where videos look super compressed with Minimax H3 ?"
+    "Anyone having this issue where videos look super compressed with Minimax H3 ?",
+    "Has anyone tried using DLSS 5 with MiniMax H3/HRL3 for realism?",
+    "are we getting close to good fighting scenes with minimax h3?",
+    "Ghostbusters: Venkman Ghosted - MiniMax H3",
+    "Building a local-first desktop app for long-form AI video on MiniMax H3, runs through ComfyUI",
+    "GPT-Image 2.5 + (Local) Minimax H3 to convert a 40 year old anime into a modern one.",
+    "GPT-Image 2.5 + (Local) Minimax H3 to convert a 40 year old anime into a modern one.",
+    "Building a local-first desktop app for long-form AI video on MiniMax H3, runs through ComfyUI",
+    "Minimax H3 on MacBook Pro",
+    "Help Needed: Setting Up Local AI with ComfyUI on RTX 4060"
    ],
    "published_at": "2026-09-09T02:37:06+00:00",
    "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动，时长反响热烈。无论是Wan 3.0的30s视频指出、多模态参考、精准修改能力，还是SkyProduction（天工工作台）的资产管理、无限画布、团队协作，都广受用户好评。 而今天，SkyProduction的限免活动迎来了第二弹： Minimax H3模型，也要在SkyProduction产品上限时免费、无限使用了！..."
   },
   {
-   "rank": 18,
+   "rank": 20,
    "title": "头部智能眼镜品牌完成近10亿C轮融资，已正式启动上市筹备工作｜硬氪首发",
    "lang": "zh",
    "region": "cn",
@@ -415,46 +472,6 @@
    ],
    "published_at": "2026-09-09T01:00:00.000000+00:00",
    "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，全球智能眼镜品牌「影目科技」近日完成C3轮融资，由四川振兴科创基金领投，静安资本、市北高新、广州产投、四川中试、眉山中试及东坡国投跟投。继年初完成C1、C2轮融资后，公司C轮融资累计金额近10亿元。 本轮资金将主要用于新一代空间智能硬件产品线的研发落地，及INMO AIOS 系统的持续迭代升级，加强硬件与软件底层核心能力构建；同时，加大品牌建设与全渠道布局，完善商业化能力，推动产品破圈，实现业务加速增..."
-  },
-  {
-   "rank": 19,
-   "title": "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/rf62k6YoIuajBBMT.html",
-   "score": 6.5,
-   "sources": [
-    "leiphone",
-    "qbitai"
-   ],
-   "titles": [
-    "大华股份亮相IFA 2026，以智慧物联焕新生活体验",
-    "云鲸2026秋季双新品齐发：扫地机器人JX Ultra与洗地机S3 Steam正式亮相",
-    "物理 AI 奔赴广域，追觅户外庭院 IFA 2026交出从核心硬件到商用落地完整答卷",
-    "2026外滩大会：具身智能开始拼大脑，蚂蚁灵波把机器人送进真实场景",
-    "去掉「AI」滤镜，IFA 2026还有哪些真亮点？",
-    "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力"
-   ],
-   "published_at": "2026-09-09T02:17:00+00:00",
-   "summary": "9月4-8日，2026年德国柏林国际消费电子展（IFA 2026）在柏林举行。大华股份携无线视频感知、智能周界防护、可视对讲、智慧消防及显示产品等创新成果亮相，集中展示大华股份在视频、人工智能与智慧物联领域的技术积累与全场景应用能力，推动智能能力向生活与商业多元场景延伸，为生活品质与商业运营效率提升提供有力支撑。 无线智联 新体验， 让部署 更便捷、守护更智能 从室内、庭院到工地、果园等户外区域，不同场景对设备安装、网络连接与管理提出了..."
-  },
-  {
-   "rank": 20,
-   "title": "欧洲版OpenAI，融资235亿：1年估值涨80%",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3975555257725184",
-   "score": 6.5,
-   "sources": [
-    "36kr-ai",
-    "ithome"
-   ],
-   "titles": [
-    "欧洲版OpenAI，融资235亿：1年估值涨80%",
-    "软银将提前偿还 259 亿美元过桥贷款，拟通过发债等方式为 OpenAI 投资再融资"
-   ],
-   "published_at": "2026-09-09T02:56:45.000000+00:00",
-   "summary": "欧洲AI，又砸下了一笔大钱。 法国AI公司Mistral宣布完成30亿欧元D轮融资，约合人民币234亿元，投后估值超过210亿欧元，约合人民币1636亿元。 三星电子领投，EQT管理的Scaleup Europe Fund和老股东PSG Equity共同领投，新投资方还包括Advent、贝莱德管理的基金及账户，以及卢森堡大公国。Mistral称，这是欧洲科技公司迄今完成的最大单轮股权融资。 更夸张的是速度。 Mistral 2023年4..."
   }
  ]
 }
