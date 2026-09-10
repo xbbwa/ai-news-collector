@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-10T01:14:14.242524+00:00",
+ "generated_at": "2026-09-10T06:10:09.778876+00:00",
  "stats": {
-  "items": 3042,
-  "clusters": 2302,
-  "noise": 453,
-  "dup": 91,
+  "items": 1654,
+  "clusters": 1230,
+  "noise": 450,
+  "dup": 57,
   "history_days": 0,
-  "available_cn": 156,
-  "available_intl": 1602,
+  "available_cn": 135,
+  "available_intl": 588,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,91 +16,164 @@
  "items": [
   {
    "rank": 1,
-   "title": "CAR-MIL: Counterfactual Attention Regularization for Multiple Instance Learning",
+   "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.08419",
-   "score": 16.5,
+   "url": "https://arxiv.org/abs/2609.10321",
+   "score": 17.0,
    "sources": [
-    "arxiv-cs-cv",
     "arxiv-cs-cl",
+    "arxiv-cs-cv",
     "arxiv-cs-lg",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "CAR-MIL: Counterfactual Attention Regularization for Multiple Instance Learning",
-    "In-Context Multiple Instance Learning",
-    "Structural Jailbreaks Generalize but Do Not Compound: A cross-provider and multilingual study of Involuntary In-Context Learning",
-    "Data Efficient Sample Selection for In-Context Learning",
-    "LoGIC: Budgeted Context Construction for Node-Level Graph In-Context Learning with Tabular Foundation Models",
-    "AAS-RAIL: Improving Information Extraction for Asset Administration Shells through Retrieval-Augmented In-Context Learning"
+    "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
+    "Video-MOPD: Multi-Teacher On-Policy Distillation for Video Understanding",
+    "Where to Look Matters: On-Policy Self-Distillation for Long-Video Understanding",
+    "CompassOPD: Cross-Family On-Policy Distillation via Within-Family Likelihood Shifts",
+    "Decision Shifts, Lost Label Functionality, and an Inconclusive Grounding Audit in Correctness-Gated Multi-Teacher Distillation",
+    "ViSR-KGC: Visual Subgraph Reasoning with Vision-Language Models for Multimodal Knowledge Graph Completion"
    ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.08419v1 Announce Type: new Abstract: Multiple Instance Learning (MIL) is widely used for weakly supervised learning, particularly in digital pathology, where fine-grained annotations are costly. Most MIL metho..."
+   "published_at": "2026-09-10T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10321v1 Announce Type: new Abstract: Knowledge distillation offers an efficient route to transfer a task-adapted vision-language teacher to a compact student. The training target in current vision-language dis..."
   },
   {
    "rank": 2,
-   "title": "What Did I Just Say? Self-Listening for Full-Duplex Speech Models",
+   "title": "LatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.05592",
-   "score": 12.0,
+   "url": "https://arxiv.org/abs/2606.13945",
+   "score": 12.5,
    "sources": [
-    "hf-daily-papers",
     "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "What Did I Just Say? Self-Listening for Full-Duplex Speech Models",
-    "ConversationalVoice: Full-Duplex Speech Data from Real Conversations through Source-Faithful Reconstruction and Conversation-Grounded Expansion",
-    "Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models"
-   ],
-   "published_at": "2026-09-03T20:00:00.000000+00:00",
-   "summary": "Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed..."
-  },
-  {
-   "rank": 3,
-   "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.07108",
-   "score": 12.0,
-   "sources": [
-    "hf-daily-papers",
     "arxiv-cs-lg",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
-    "Apriel-Reasoner: RL Post-Training for General-Purpose and Efficient Reasoning",
-    "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding"
+    "LatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis",
+    "Non-Stationarity Breaks Permutation Surrogates in Multi-Agent Reinforcement Learning: Diagnosis and Remedies",
+    "Multi-Agent Agentic Graph Learning via Structural Signatures"
    ],
-   "published_at": "2026-09-06T20:00:00.000000+00:00",
-   "summary": "Speculative decoding accelerates rollout generation, which dominates the cost of reinforcement learning (RL) post-training. Online co-training can further increase the draft's accuracy, yielding greater speedups. However..."
+   "published_at": "2026-09-10T04:00:00.000000+00:00",
+   "summary": "arXiv:2606.13945v2 Announce Type: replace Abstract: Rare diseases affect over $300$ million patients across more than $7{,}000$ conditions, yet no single hospital encounters enough cases of any one condition for reliable..."
+  },
+  {
+   "rank": 3,
+   "title": "Demystifying Entropy-based Selection for Chain-of-Thought Compression in Large Reasoning Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2607.28707",
+   "score": 12.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Demystifying Entropy-based Selection for Chain-of-Thought Compression in Large Reasoning Models",
+    "Verify to Amplify: Improving Reasoning via Learned Chain-of-Thought Verification",
+    "Structural Process Supervision for Latent Chain-of-Thought Reasoning",
+    "CT-SAFR: Safe and Interpretable Chain-of-Thought Reasoning for Autonomous Robots: A Multi-Layered Verification Framework for Trustworthy AI-Driven Robotic Decision Making"
+   ],
+   "published_at": "2026-09-10T04:00:00.000000+00:00",
+   "summary": "arXiv:2607.28707v3 Announce Type: replace Abstract: Entropy-based pruning has been proposed as an effective method for compressing Chain-of-Thought (CoT) reasoning with negligible accuracy loss. We test the robustness of..."
   },
   {
    "rank": 4,
-   "title": "Geometry-Aware Test-Time Learning for Quantitative Spatial Reasoning",
+   "title": "ICYMI: What landed for AI builders in August 2026",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.06004",
-   "score": 12.0,
+   "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
+   "score": 8.0,
    "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-cl",
-    "arxiv-cs-lg"
+    "aws-ml-blog",
+    "github-blog"
    ],
    "titles": [
-    "Geometry-Aware Test-Time Learning for Quantitative Spatial Reasoning",
-    "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
-    "Subspace Optimization for Backpropagation-Free Continual Test-Time Adaptation",
-    "Temporal Memory-Aware Online Test-Time Adaptation on Dynamic Graphs"
+    "ICYMI: What landed for AI builders in August 2026",
+    "GitHub availability report: August 2026"
    ],
-   "published_at": "2026-09-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.06004v1 Announce Type: new Abstract: Quantitative spatial reasoning in visual-language models (VLMs) aims to infer spatial distances and directional relationships among objects in 3D space from a 2D image and..."
+   "published_at": "2026-09-09T20:01:03.000000+00:00",
+   "summary": "A recap of the biggest Amazon Bedrock, AgentCore, and Strands updates from August 2026. At AWS, we have long focused on making foundational technologies accessible and providing the infrastructure needed to put them to w..."
   },
   {
    "rank": 5,
+   "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.10346",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+    "Beyond Frame Selection: Rethinking Long-Video Understanding with MLLMs",
+    "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Pruning",
+    "Beyond One-Size-Fits-All: Neural Networks for Differentially Private Tabular Data Synthesis"
+   ],
+   "published_at": "2026-09-10T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10346v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token prunin..."
+  },
+  {
+   "rank": 6,
+   "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/",
+   "score": 7.0,
+   "sources": [
+    "nvidia-developer",
+    "ithome"
+   ],
+   "titles": [
+    "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
+    "英伟达 CUDA Toolkit 13.4 首次原生支持 Windows on Arm64，铺路 RTX Spark"
+   ],
+   "published_at": "2026-09-09T20:24:12.000000+00:00",
+   "summary": "Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the broader NVIDIA software... Every NVIDIA CUDA Toolkit release adds functionality and..."
+  },
+  {
+   "rank": 7,
+   "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
+   "score": 6.11,
+   "sources": [
+    "marktechpost",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
+    "Google: Attackers are using prompt injection against coding agents"
+   ],
+   "published_at": "2026-09-09T22:58:29+00:00",
+   "summary": "Google has open-sourced Mantis , a stack-agnostic toolkit of security review skills that lets an AI coding agent run the whole vulnerability lifecycle. It finds a suspected flaw, strips the false positives, reproduces th..."
+  },
+  {
+   "rank": 8,
+   "title": "Meta & Lyft Move Higher, Apple's Foldable iPhone | Stock Movers",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-09/meta-lyft-gain-apple-s-foldable-iphone-stock-movers-video",
+   "score": 5.5,
+   "sources": [
+    "bloomberg-tech",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Meta & Lyft Move Higher, Apple's Foldable iPhone | Stock Movers",
+    "Apple CEO John Ternus says the best AI device is still the iPhone",
+    "The hinge for Apple’s new foldable phone was built with AI"
+   ],
+   "published_at": "2026-09-09T14:34:46.000000+00:00",
+   "summary": "On this episode of Stock Movers: - Meta (META) shares are gaining with analysts positive on the Facebook parent after it debuted Muse, an AI assistant. Firms wrote that Meta is well positioned to succeed with the product..."
+  },
+  {
+   "rank": 9,
    "title": "Show HN: CUDA/graphics in QEMU-KVM VMs without passing the Nvidia card to them",
    "lang": "en",
    "region": "intl",
@@ -118,187 +191,111 @@
    "summary": "Hi HN. I built this because I wanted a VM with a real GeForce GPU without losing the card on my desktop. It allows you to run CUDA and graphics in VMs without VFIO/vGPU by forwarding the NVIDIA driver's own ioctl surface..."
   },
   {
-   "rank": 6,
-   "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
-   "score": 3.5,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "Beyond embedding: How to secure AI/BI Dashboards for every viewer"
-   ],
-   "published_at": "2026-09-09T14:04:44.000000+00:00",
-   "summary": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward..."
-  },
-  {
-   "rank": 7,
-   "title": "Automate user-level custom permissions for Amazon Quick",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/",
-   "score": 3.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Automate user-level custom permissions for Amazon Quick"
-   ],
-   "published_at": "2026-09-09T15:45:24.000000+00:00",
-   "summary": "As Amazon Quick environments scale and new AI-powered capabilities expand what users can do, automating user-level custom permissions becomes critical to maintaining the principle of least privilege. To address this, wit..."
-  },
-  {
-   "rank": 8,
-   "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/",
-   "score": 3.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers"
-   ],
-   "published_at": "2026-09-09T15:51:29.000000+00:00",
-   "summary": "TorchServe is no longer actively maintained. The official project notice states there are no planned updates, bug fixes, new features, or security patches, and that vulnerabilities might not be addressed. For teams that..."
-  },
-  {
-   "rank": 9,
-   "title": "Get ready for the game with new football features in Search",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-   "score": 3.5,
-   "sources": [
-    "google-ai-blog"
-   ],
-   "titles": [
-    "Get ready for the game with new football features in Search"
-   ],
-   "published_at": "2026-09-09T16:00:00.000000+00:00",
-   "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season."
-  },
-  {
    "rank": 10,
-   "title": "Recreating a 70-year love story frame by frame",
+   "title": "Claude spent 25% of my session quota on a simple recap question",
    "lang": "en",
    "region": "intl",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-   "score": 3.5,
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbi410/claude_spent_25_of_my_session_quota_on_a_simple/",
+   "score": 3.55,
    "sources": [
-    "google-ai-blog"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "Recreating a 70-year love story frame by frame"
+    "Claude spent 25% of my session quota on a simple recap question",
+    "I gave the Claude phone app read/write access to my Obsidian vault. No laptop, no API key, no plugin. A Raspberry Pi, Obsidian Sync and a 100-line MCP server",
+    "Why no Google Sheets MCP in claude?",
+    "Google Decided to Index My Blog Again"
    ],
-   "published_at": "2026-09-09T16:00:00.000000+00:00",
-   "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\""
+   "published_at": "2026-09-09T10:47:27.000000+00:00",
+   "summary": "In a Cowork task where I had previously asked for some complex processing (transcribing handwritten notes, commenting on the texts, creating files with notes...), I picked up the next day asking what appeared to be a sim..."
   },
   {
    "rank": 11,
-   "title": "Paul Christiano joins OpenAI Foundation Board",
+   "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+   "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/",
    "score": 3.5,
    "sources": [
-    "openai-news"
+    "nvidia-developer"
    ],
    "titles": [
-    "Paul Christiano joins OpenAI Foundation Board"
+    "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving"
    ],
-   "published_at": "2026-09-09T17:00:00.000000+00:00",
-   "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards."
+   "published_at": "2026-09-09T20:31:04.000000+00:00",
+   "summary": "Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill... Encode-prefill-decode (EPD) disaggregation is an inferen..."
   },
   {
    "rank": 12,
-   "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Assistants",
+   "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
    "lang": "en",
    "region": "intl",
-   "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants/",
-   "score": 3.5,
-   "sources": [
-    "google-cloud-ai"
-   ],
-   "titles": [
-    "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Assistants"
-   ],
-   "published_at": "2026-09-09T18:00:00.000000+00:00",
-   "summary": "We are excited to share that Gartner has named Google a Leader in its inaugural 2026 Magic Quadrant for Enterprise AI Assistants . In this comprehensive evaluation of top enterprise AI assistant vendors, Gartner placed G..."
-  },
-  {
-   "rank": 13,
-   "title": "Five AI Questions We're Hearing from Financial Services Leaders",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
-   "score": 3.5,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "Five AI Questions We're Hearing from Financial Services Leaders"
-   ],
-   "published_at": "2026-09-09T18:09:29.000000+00:00",
-   "summary": "Last year at Sibos Frankfurt, the question was whether AI works. This year: can your..."
-  },
-  {
-   "rank": 14,
-   "title": "ICYMI: What landed for AI builders in August 2026",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
+   "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
    "score": 3.5,
    "sources": [
     "aws-ml-blog"
    ],
    "titles": [
-    "ICYMI: What landed for AI builders in August 2026"
+    "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM"
    ],
-   "published_at": "2026-09-09T20:01:03.000000+00:00",
-   "summary": "A recap of the biggest Amazon Bedrock, AgentCore, and Strands updates from August 2026. At AWS, we have long focused on making foundational technologies accessible and providing the infrastructure needed to put them to w..."
+   "published_at": "2026-09-09T22:26:29.000000+00:00",
+   "summary": "On August 12, 2026, Alibaba’s Qwen team released Qwen3.8-2.4T-A95B . This is the first time a Qwen-Max-class model has been made available as open weights. With 2.4 trillion total parameters (95 billion activated per tok..."
+  },
+  {
+   "rank": 13,
+   "title": "Suno releases its first AI music model made with record industry help",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+   "score": 3.5,
+   "sources": [
+    "theverge-ai"
+   ],
+   "titles": [
+    "Suno releases its first AI music model made with record industry help"
+   ],
+   "published_at": "2026-09-09T21:42:19.000000+00:00",
+   "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data t..."
+  },
+  {
+   "rank": 14,
+   "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity"
+   ],
+   "published_at": "2026-09-10T02:13:12+00:00",
+   "summary": "LandingAI has shipped Agentic Document Extraction (ADE) Gen2 , a rebuild of its document intelligence stack around a new model family called DPT-3. Gen1 treated a document as a flat list of chunks. Gen2 treats it as a tr..."
   },
   {
    "rank": 15,
-   "title": "欧洲版OpenAI，融资235亿：1年估值涨80%",
+   "title": "实测神秘模型Omen Alpha：我用它25分钟速搓“牛来”版YouTube",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3975555257725184",
-   "score": 6.5,
+   "url": "https://zhidx.com/p/592441.html",
+   "score": 9.0,
    "sources": [
-    "36kr-ai",
-    "ithome"
+    "zhidx",
+    "huxiu",
+    "36kr-ai"
    ],
    "titles": [
-    "欧洲版OpenAI，融资235亿：1年估值涨80%",
-    "软银将提前偿还 259 亿美元过桥贷款，拟通过发债等方式为 OpenAI 投资再融资"
+    "实测神秘模型Omen Alpha：我用它25分钟速搓“牛来”版YouTube",
+    "实测神秘模型Omen Alpha：我用它25分钟速搓“牛来”版YouTube",
+    "实测神秘模型Omen Alpha：我用它25分钟速搓“牛来”版YouTube"
    ],
-   "published_at": "2026-09-09T02:56:45.000000+00:00",
-   "summary": "欧洲AI，又砸下了一笔大钱。 法国AI公司Mistral宣布完成30亿欧元D轮融资，约合人民币234亿元，投后估值超过210亿欧元，约合人民币1636亿元。 三星电子领投，EQT管理的Scaleup Europe Fund和老股东PSG Equity共同领投，新投资方还包括Advent、贝莱德管理的基金及账户，以及卢森堡大公国。Mistral称，这是欧洲科技公司迄今完成的最大单轮股权融资。 更夸张的是速度。 Mistral 2023年4..."
+   "published_at": "2026-09-09T12:22:55+00:00",
+   "summary": "智东西 作者｜毕伟豪 编辑｜李水青 智东西9月9日报道，近日，有一款名叫 Omen Alpha的匿名模型 突然出现，并凭借其 超高性价比 迅速引起热议。 上线5天后，在Muse Spark 1.3 Contributor这款免费模型的冲击下，依然 高居OpenCode调用量榜单第七 ，开发者纷纷猜测这是谁家的新模型，有网友评论“ 又是来自东方的神秘模型 ”。 在社区测试中，不少人一致的反馈 就是“快” ， 有开发者用Omen Alpha..."
   },
   {
    "rank": 16,
-   "title": "蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3975687709864449",
-   "score": 6.5,
-   "sources": [
-    "36kr-newsflash",
-    "qbitai"
-   ],
-   "titles": [
-    "蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin",
-    "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流"
-   ],
-   "published_at": "2026-09-09T04:46:31.000000+00:00",
-   "summary": "外滩大会前夕，蚂蚁百灵发布首个金融增强开放模型Ling-3.0-flash-Fin。与传统金融大模型主要解决问答、摘要等单点任务不同，Ling-3.0-flash-Fin进一步瞄准真实金融工作流，尝试让AI从“回答一个问题”走向“完成一项工作”。目前，该模型已经正式开源。与此同时，蚂蚁百灵还同步开放金融搜索Agent评测基准FinFIRST，逐步开放模型、工具和评测体系。模型目前重点切入投资研究场景，覆盖信息检索、研究推理、估值建模、研..."
-  },
-  {
-   "rank": 17,
    "title": "从Demo到1000万次真实作业，万勋发布NOVA2.0柔性具身大脑",
    "lang": "zh",
    "region": "cn",
@@ -316,58 +313,76 @@
    "summary": "作为柔性具身智能的全球领航者，万勋科技于日前正式发布其第二代柔性具身大脑NOVA2.0（Neuromorphic Omniversal Versatile Architecture，神经元智能开放世界通用架构），同时也是行业首个开放世界全天候商业交付级具身智能架构——该架构脱胎并服务于40+真实行业场景超1000万次多维度极限工况作业，跨行业场景迁移、落地能力与应用价值已赢得全球客户广泛认可，并从中构建起极为稀缺的真实场景数据飞轮，为行..."
   },
   {
-   "rank": 18,
-   "title": "V4.1 Flash 内测，梁文锋又当回了梁圣",
+   "rank": 17,
+   "title": "MiniMax靠什么实现AGI？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3974719807231617",
-   "score": 5.5,
+   "url": "https://www.huxiu.com/article/4889977.html",
+   "score": 6.0,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "V4.1 Flash 内测，梁文锋又当回了梁圣",
-    "V4.1 Flash内测，梁文锋又当回了梁圣"
-   ],
-   "published_at": "2026-09-09T00:23:43.000000+00:00",
-   "summary": "没有任何预告，DeepSeek V4.1 Flash的中间版本deepseek-v4.1-flash-expires-on-0910开始内测了。 DeepSeek官方表示，“DeepSeek V4.1 Flash采用了新的模型结构，原生多模态支持、能力更强、速度更快、且成本更低。” 没有技术报告，也没有性能参数表，可是官方给出的信息已经挺让人震惊的了。 V4.1 Flash是DeepSeek第一款原生多模态模型，V4 Flash Vis..."
-  },
-  {
-   "rank": 19,
-   "title": "A股人形机器人中报：估值打到哪一年了？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3975408367857926",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "A股人形机器人中报：估值打到哪一年了？",
-    "A股人形机器人中报：估值打到哪一年了？"
-   ],
-   "published_at": "2026-09-09T00:37:14.000000+00:00",
-   "summary": "2026年中报收官。人形机器人板块作为A股近两年年最拥挤的叙事赛道之一，我们将60余家概念股的中报数据逐环拆解后，得出一个与板块热度显著错位的结论： 概念纯度最高的本体环节，恰恰是盈利能力最弱的环节；而真正赚钱的公司，几乎都不靠人形机器人赚钱。 这是一个三张报表相互印证下的事实：抛开8月刚刚登陆A股的新贵宇树科技不计，传统本体四家龙头合计归母净利润 -0.96亿元 ；核心执行部件（减速器）三家龙头合计营收不足汇川技术单季度的二分之一；板..."
-  },
-  {
-   "rank": 20,
-   "title": "办公 Agent 大乱战，新势力TeleAgent 凭什么坐上牌桌",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ifanr.com/1679152?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "score": 5.5,
-   "sources": [
-    "ifanr",
+    "huxiu",
     "36kr-ai"
    ],
    "titles": [
-    "办公 Agent 大乱战，新势力TeleAgent 凭什么坐上牌桌",
-    "办公 Agent 大乱战，新势力 TeleAgent 凭什么坐上牌桌"
+    "MiniMax靠什么实现AGI？",
+    "MiniMax靠什么实现AGI？"
    ],
-   "published_at": "2026-09-09T04:00:01+00:00",
-   "summary": "办公 Agent 下半年开启了大乱战模式。 打开这类产品，左侧栏里的东西大多很眼熟：文件、搜索、技能、定时任务、PPT、网页生成。AI 已经开始离开聊天框，进入电脑处理具体工作。 不过在日常工作中我们最关心的往往是这些问题： 它能不能读懂几个格式不同的文件？中途改需求，前面的背景还记不记得？交付物可以直接打开吗？数字有没有对上？跑一次任务又要花多少积分？ 这些具体环节正在改变办公 Agent 的竞争。一次生成可以吸引用户试用，长期使用还..."
+   "published_at": "2026-09-10T00:26:14.000000+00:00",
+   "summary": "技术水准才是硬通货。AI大模型领域热度被不断推高。近来海外玩家更新AI大模型的速度尤为惊人。9月1日，Anthropic发布Claude Fable 5.1，该模型号称“全球最先进的编程和知识工作模型”；9月2日，Meta发布Muse Spark 1.3，称之为“模型史上最大性能跳跃之一”，谷歌则发布了Gem...... 本文来自微信公众号： 海克财经 ，作者：范东成 技术水准才是硬通货。 AI大模型领域热度被不断推高。 近来海外玩家更..."
+  },
+  {
+   "rank": 18,
+   "title": "浙江大学博导研究“AI读心术”，这个赛道凭啥价值百亿",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4889991.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "浙江大学博导研究“AI读心术”，这个赛道凭啥价值百亿",
+    "浙江大学博导研究“AI读心术”，这个赛道凭啥价值百亿"
+   ],
+   "published_at": "2026-09-10T01:03:09.000000+00:00",
+   "summary": "今年5月，山东威海市城里中学，一群学生正对着摄像头静坐。30秒后，系统屏幕上弹出了压力、焦虑、抑郁等14项核心情绪指标的评估报告。这个名为“AI心理健康进校园公益筛查活动”的项目，由威海市立医院、浙江大学徐欣教授团队，以及杭州一家高科技企业共同发起。产业界正在密切关注，当“AI读懂情绪”从实验室走进社会实景，...... 本文来自微信公众号： 木禾商业财经 ，作者：龚正 今年5月，山东威海市城里中学，一群学生正对着摄像头静坐。30秒后，..."
+  },
+  {
+   "rank": 19,
+   "title": "抱上亚马逊大腿，高通AI第二曲线“稳了”？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4889892.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "抱上亚马逊大腿，高通AI第二曲线“稳了”？",
+    "抱上亚马逊大腿，高通AI第二曲线“稳了”？"
+   ],
+   "published_at": "2026-09-09T11:15:44.000000+00:00",
+   "summary": "高通公司在9月8日宣布与亚马逊达成一项跨多代产品的合作，双方将共同为大规模AI数据中心提供可规模化部署的定制芯片，并围绕AI推理展开合作。此外，两家公司还将共同开发最高支持1.6T速率的光互连解决方案，以及面向未来的下一代相关技术。高通此前在6月24日投资者日中披露了在定制ASIC芯片和连接领域都收获了超大规...... 本文来自微信公众号： 海豚研究 ，作者：海豚君 高通公司在9月8日宣布与亚马逊达成一项跨多代产品的合作，双方将共同为..."
+  },
+  {
+   "rank": 20,
+   "title": "对话中国首部AI长剧导演：三年后，99%影视内容都要用上AIGC",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3976054521197058",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "huxiu"
+   ],
+   "titles": [
+    "对话中国首部AI长剧导演：三年后，99%影视内容都要用上AIGC",
+    "对话导演李东珅：三年后，99%影视内容都要用上AIGC"
+   ],
+   "published_at": "2026-09-09T12:15:29.000000+00:00",
+   "summary": "图源：《后西游记》剧中截图 9月6日晚间，我在北京朝阳一个文创园里见到了导演李东珅。从早到晚，他一天都在采访中，而我们也不是他当天见的最后一波媒体。他给我们泡茶，招呼吃披萨——看得出疲惫，但更显眼的是兴奋——这位过去“曲高和寡”的纪录片导演，第一次被如此密集的流量包围。 “从来没想过，这么多关注，股价涨了那么多。” 李东珅是国内首部AI长剧《后西游记》的导演。2026 年8月31日，这部规划为30集、每集约40分钟，画面和人物演绎均由A..."
   }
  ]
 }
