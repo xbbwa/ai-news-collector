@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-10T06:10:09.778876+00:00",
+ "generated_at": "2026-09-10T11:35:42.301795+00:00",
  "stats": {
-  "items": 1654,
-  "clusters": 1230,
-  "noise": 450,
-  "dup": 57,
+  "items": 1837,
+  "clusters": 1302,
+  "noise": 488,
+  "dup": 54,
   "history_days": 0,
-  "available_cn": 135,
-  "available_intl": 588,
+  "available_cn": 149,
+  "available_intl": 611,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -81,24 +81,6 @@
   },
   {
    "rank": 4,
-   "title": "ICYMI: What landed for AI builders in August 2026",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
-   "score": 8.0,
-   "sources": [
-    "aws-ml-blog",
-    "github-blog"
-   ],
-   "titles": [
-    "ICYMI: What landed for AI builders in August 2026",
-    "GitHub availability report: August 2026"
-   ],
-   "published_at": "2026-09-09T20:01:03.000000+00:00",
-   "summary": "A recap of the biggest Amazon Bedrock, AgentCore, and Strands updates from August 2026. At AWS, we have long focused on making foundational technologies accessible and providing the infrastructure needed to put them to w..."
-  },
-  {
-   "rank": 5,
    "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
    "lang": "en",
    "region": "intl",
@@ -118,12 +100,48 @@
    "summary": "arXiv:2609.10346v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token prunin..."
   },
   {
+   "rank": 5,
+   "title": "ICYMI: What landed for AI builders in August 2026",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
+   "score": 7.5,
+   "sources": [
+    "aws-ml-blog",
+    "github-blog"
+   ],
+   "titles": [
+    "ICYMI: What landed for AI builders in August 2026",
+    "GitHub availability report: August 2026"
+   ],
+   "published_at": "2026-09-09T20:01:03.000000+00:00",
+   "summary": "A recap of the biggest Amazon Bedrock, AgentCore, and Strands updates from August 2026. At AWS, we have long focused on making foundational technologies accessible and providing the infrastructure needed to put them to w..."
+  },
+  {
    "rank": 6,
+   "title": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
+   "score": 7.0,
+   "sources": [
+    "marktechpost",
+    "infoq-cn"
+   ],
+   "titles": [
+    "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+    "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache"
+   ],
+   "published_at": "2026-09-10T07:31:01+00:00",
+   "summary": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release ar..."
+  },
+  {
+   "rank": 7,
    "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
    "lang": "en",
    "region": "intl",
    "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "nvidia-developer",
     "ithome"
@@ -136,12 +154,12 @@
    "summary": "Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the broader NVIDIA software... Every NVIDIA CUDA Toolkit release adds functionality and..."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
    "lang": "en",
    "region": "intl",
    "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
-   "score": 6.11,
+   "score": 5.61,
    "sources": [
     "marktechpost",
     "hackernews-ai"
@@ -154,7 +172,25 @@
    "summary": "Google has open-sourced Mantis , a stack-agnostic toolkit of security review skills that lets an AI coding agent run the whole vulnerability lifecycle. It finds a suspected flaw, strips the false positives, reproduces th..."
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "title": "Powering AI is an architecture problem",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+   "score": 5.6,
+   "sources": [
+    "mit-tech-review",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Powering AI is an architecture problem",
+    "AI Has a Discovery Problem"
+   ],
+   "published_at": "2026-09-10T11:00:00.000000+00:00",
+   "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years..."
+  },
+  {
+   "rank": 10,
    "title": "Meta & Lyft Move Higher, Apple's Foldable iPhone | Stock Movers",
    "lang": "en",
    "region": "intl",
@@ -167,13 +203,32 @@
    "titles": [
     "Meta & Lyft Move Higher, Apple's Foldable iPhone | Stock Movers",
     "Apple CEO John Ternus says the best AI device is still the iPhone",
+    "Apple has a new way prove your iPhone photos aren’t AI slop",
     "The hinge for Apple’s new foldable phone was built with AI"
    ],
    "published_at": "2026-09-09T14:34:46.000000+00:00",
    "summary": "On this episode of Stock Movers: - Meta (META) shares are gaining with analysts positive on the Facebook parent after it debuted Muse, an AI assistant. Firms wrote that Meta is well positioned to succeed with the product..."
   },
   {
-   "rank": 9,
+   "rank": 11,
+   "title": "We have started losing control of AI. It’s time to shut it down | Garrison Lovely",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/10/ai-control-sci-fi",
+   "score": 5.07,
+   "sources": [
+    "guardian-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "We have started losing control of AI. It’s time to shut it down | Garrison Lovely",
+    "Losing control of AI is the plan"
+   ],
+   "published_at": "2026-09-10T11:00:23.000000+00:00",
+   "summary": "What sounds like the overwrought penultimate episode in a sci-fi series about AI doom is now our reality On Tuesday, a former OpenAI researcher quit his job at Anthropic, warning that “neither company is acting responsib..."
+  },
+  {
+   "rank": 12,
    "title": "Show HN: CUDA/graphics in QEMU-KVM VMs without passing the Nvidia card to them",
    "lang": "en",
    "region": "intl",
@@ -191,7 +246,7 @@
    "summary": "Hi HN. I built this because I wanted a VM with a real GeForce GPU without losing the card on my desktop. It allows you to run CUDA and graphics in VMs without VFIO/vGPU by forwarding the NVIDIA driver's own ioctl surface..."
   },
   {
-   "rank": 10,
+   "rank": 13,
    "title": "Claude spent 25% of my session quota on a simple recap question",
    "lang": "en",
    "region": "intl",
@@ -211,68 +266,20 @@
    "summary": "In a Cowork task where I had previously asked for some complex processing (transcribing handwritten notes, commenting on the texts, creating files with notes...), I picked up the next day asking what appeared to be a sim..."
   },
   {
-   "rank": 11,
-   "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving"
-   ],
-   "published_at": "2026-09-09T20:31:04.000000+00:00",
-   "summary": "Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill... Encode-prefill-decode (EPD) disaggregation is an inferen..."
-  },
-  {
-   "rank": 12,
-   "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
-   "score": 3.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM"
-   ],
-   "published_at": "2026-09-09T22:26:29.000000+00:00",
-   "summary": "On August 12, 2026, Alibaba’s Qwen team released Qwen3.8-2.4T-A95B . This is the first time a Qwen-Max-class model has been made available as open weights. With 2.4 trillion total parameters (95 billion activated per tok..."
-  },
-  {
-   "rank": 13,
-   "title": "Suno releases its first AI music model made with record industry help",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-   "score": 3.5,
-   "sources": [
-    "theverge-ai"
-   ],
-   "titles": [
-    "Suno releases its first AI music model made with record industry help"
-   ],
-   "published_at": "2026-09-09T21:42:19.000000+00:00",
-   "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data t..."
-  },
-  {
    "rank": 14,
-   "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
+   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/",
+   "url": "https://huggingface.co/blog/gradio-workflow-1111",
    "score": 3.5,
    "sources": [
-    "marktechpost"
+    "huggingface-blog"
    ],
    "titles": [
-    "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity"
+    "Rebuilding AUTOMATIC1111 with Gradio Workflow"
    ],
-   "published_at": "2026-09-10T02:13:12+00:00",
-   "summary": "LandingAI has shipped Agentic Document Extraction (ADE) Gen2 , a rebuild of its document intelligence stack around a new model family called DPT-3. Gen1 treated a document as a flat list of chunks. Gen2 treats it as a tr..."
+   "published_at": "2026-09-10T00:00:00.000000+00:00",
+   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
   },
   {
    "rank": 15,
@@ -296,24 +303,6 @@
   },
   {
    "rank": 16,
-   "title": "从Demo到1000万次真实作业，万勋发布NOVA2.0柔性具身大脑",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.leiphone.com/category/robot/tEzDlRIgiHsXV8B0.html",
-   "score": 6.5,
-   "sources": [
-    "leiphone",
-    "ithome"
-   ],
-   "titles": [
-    "从Demo到1000万次真实作业，万勋发布NOVA2.0柔性具身大脑",
-    "行业首个开放世界全天候商业交付级具身智能架构，万勋科技发布 NOVA2.0 柔性具身大脑"
-   ],
-   "published_at": "2026-09-09T07:32:00+00:00",
-   "summary": "作为柔性具身智能的全球领航者，万勋科技于日前正式发布其第二代柔性具身大脑NOVA2.0（Neuromorphic Omniversal Versatile Architecture，神经元智能开放世界通用架构），同时也是行业首个开放世界全天候商业交付级具身智能架构——该架构脱胎并服务于40+真实行业场景超1000万次多维度极限工况作业，跨行业场景迁移、落地能力与应用价值已赢得全球客户广泛认可，并从中构建起极为稀缺的真实场景数据飞轮，为行..."
-  },
-  {
-   "rank": 17,
    "title": "MiniMax靠什么实现AGI？",
    "lang": "zh",
    "region": "cn",
@@ -331,7 +320,7 @@
    "summary": "技术水准才是硬通货。AI大模型领域热度被不断推高。近来海外玩家更新AI大模型的速度尤为惊人。9月1日，Anthropic发布Claude Fable 5.1，该模型号称“全球最先进的编程和知识工作模型”；9月2日，Meta发布Muse Spark 1.3，称之为“模型史上最大性能跳跃之一”，谷歌则发布了Gem...... 本文来自微信公众号： 海克财经 ，作者：范东成 技术水准才是硬通货。 AI大模型领域热度被不断推高。 近来海外玩家更..."
   },
   {
-   "rank": 18,
+   "rank": 17,
    "title": "浙江大学博导研究“AI读心术”，这个赛道凭啥价值百亿",
    "lang": "zh",
    "region": "cn",
@@ -349,40 +338,58 @@
    "summary": "今年5月，山东威海市城里中学，一群学生正对着摄像头静坐。30秒后，系统屏幕上弹出了压力、焦虑、抑郁等14项核心情绪指标的评估报告。这个名为“AI心理健康进校园公益筛查活动”的项目，由威海市立医院、浙江大学徐欣教授团队，以及杭州一家高科技企业共同发起。产业界正在密切关注，当“AI读懂情绪”从实验室走进社会实景，...... 本文来自微信公众号： 木禾商业财经 ，作者：龚正 今年5月，山东威海市城里中学，一群学生正对着摄像头静坐。30秒后，..."
   },
   {
-   "rank": 19,
-   "title": "抱上亚马逊大腿，高通AI第二曲线“稳了”？",
+   "rank": 18,
+   "title": "新Siri终于开始理解用户“个人上下文”了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4889892.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/p/3976864487053192",
+   "score": 6.0,
    "sources": [
-    "huxiu",
-    "36kr-ai"
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
-    "抱上亚马逊大腿，高通AI第二曲线“稳了”？",
-    "抱上亚马逊大腿，高通AI第二曲线“稳了”？"
+    "新Siri终于开始理解用户“个人上下文”了",
+    "新Siri终于开始理解用户“个人上下文”了"
    ],
-   "published_at": "2026-09-09T11:15:44.000000+00:00",
-   "summary": "高通公司在9月8日宣布与亚马逊达成一项跨多代产品的合作，双方将共同为大规模AI数据中心提供可规模化部署的定制芯片，并围绕AI推理展开合作。此外，两家公司还将共同开发最高支持1.6T速率的光互连解决方案，以及面向未来的下一代相关技术。高通此前在6月24日投资者日中披露了在定制ASIC芯片和连接领域都收获了超大规...... 本文来自微信公众号： 海豚研究 ，作者：海豚君 高通公司在9月8日宣布与亚马逊达成一项跨多代产品的合作，双方将共同为..."
+   "published_at": "2026-09-10T01:22:02.000000+00:00",
+   "summary": "北京时间9月10日凌晨1点，加州库比蒂诺还是上午10点，苹果一年一度的秋季发布会在Apple Park拉开帷幕。 熟悉的库克这次只在开头短暂露面，随后便把舞台交给了约翰·特努斯。这是特努斯接任苹果CEO之后的首场秋季发布会，也是他真正意义上的一次“首秀”。 这场首秀里，激进和稳扎稳打同时出现。硬件上，苹果拿出了等待多年的首款折叠屏iPhone Duo，自然抢走了最多目光。但如果把视线从那块可以对折的屏幕上移开，苹果在AI上的变化同样值得..."
+  },
+  {
+   "rank": 19,
+   "title": "营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 达成深度合作，让品牌更高效连接全球 500 万创作者",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.leiphone.com/category/industrynews/SryBDMCG0EzBrvqk.html",
+   "score": 6.0,
+   "sources": [
+    "leiphone",
+    "qbitai"
+   ],
+   "titles": [
+    "营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 达成深度合作，让品牌更高效连接全球 500 万创作者",
+    "营销科技巨头蓝色光标与全球达人营销AI平台AhaCreator达成深度合作，让品牌更高效连接全球500万创作者"
+   ],
+   "published_at": "2026-09-10T01:55:00+00:00",
+   "summary": "【北京，2026年9月10日】 —— 营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 正式宣布达成深度合作。 蓝色光标将结合其全球营销服务能力、客户资源与品牌增长经验，向有境外达人营销需求的广告主提供AhaCreator 平台达人资源，为品牌全球化增长提供 AI 驱动的达人营销能力；AhaCreator 则提供覆盖 500 万名全球优质达人的资源网络（其中包括 15 万名在该平台有成交记录的入驻活跃达人），以及由十..."
   },
   {
    "rank": 20,
-   "title": "对话中国首部AI长剧导演：三年后，99%影视内容都要用上AIGC",
+   "title": "阿里国际站9月采购节首周开门红：买驱GMV同比增长近20%",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3976054521197058",
+   "url": "https://www.leiphone.com/category/industrynews/mMUTuLmEVPxWmBVW.html",
    "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "huxiu"
+    "leiphone",
+    "infoq-cn"
    ],
    "titles": [
-    "对话中国首部AI长剧导演：三年后，99%影视内容都要用上AIGC",
-    "对话导演李东珅：三年后，99%影视内容都要用上AIGC"
+    "阿里国际站9月采购节首周开门红：买驱GMV同比增长近20%",
+    "9 月 20 日杭州，FDE 现场解码：企业 AI 真正卡在技术，还是组织？"
    ],
-   "published_at": "2026-09-09T12:15:29.000000+00:00",
-   "summary": "图源：《后西游记》剧中截图 9月6日晚间，我在北京朝阳一个文创园里见到了导演李东珅。从早到晚，他一天都在采访中，而我们也不是他当天见的最后一波媒体。他给我们泡茶，招呼吃披萨——看得出疲惫，但更显眼的是兴奋——这位过去“曲高和寡”的纪录片导演，第一次被如此密集的流量包围。 “从来没想过，这么多关注，股价涨了那么多。” 李东珅是国内首部AI长剧《后西游记》的导演。2026 年8月31日，这部规划为30集、每集约40分钟，画面和人物演绎均由A..."
+   "published_at": "2026-09-09T09:48:00+00:00",
+   "summary": "全球采购旺季来袭，阿里国际站9月采购节首周开局强劲，买驱GMV同比增长近20%，高质量商机同比增长25.4%，近90%的行业实现正增长，覆盖消费电子、美妆个护、机械、新能源、包装印刷等多个类目。 相比单一市场或品类的短期爆发，本届采购节需求多级释放，美国、加拿大、西班牙、英国等市场均保持高增长，美国更是领跑，订单量同比增长31.6%。 以美国为例，安防与门禁类目整体订单同比增长超过两倍，反映出当地中小企业和家庭对智能安防升级的采购需求；..."
   }
  ]
 }
