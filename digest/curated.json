@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-10T19:54:19.204446+00:00",
+ "generated_at": "2026-09-10T22:42:25.792261+00:00",
  "stats": {
-  "items": 1748,
-  "clusters": 1252,
-  "noise": 461,
-  "dup": 56,
+  "items": 1643,
+  "clusters": 1240,
+  "noise": 459,
+  "dup": 53,
   "history_days": 0,
-  "available_cn": 135,
-  "available_intl": 600,
+  "available_cn": 138,
+  "available_intl": 590,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -101,24 +101,6 @@
   },
   {
    "rank": 5,
-   "title": "ICYMI: What landed for AI builders in August 2026",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
-   "score": 7.5,
-   "sources": [
-    "aws-ml-blog",
-    "github-blog"
-   ],
-   "titles": [
-    "ICYMI: What landed for AI builders in August 2026",
-    "GitHub availability report: August 2026"
-   ],
-   "published_at": "2026-09-09T20:01:03.000000+00:00",
-   "summary": "A recap of the biggest Amazon Bedrock, AgentCore, and Strands updates from August 2026. At AWS, we have long focused on making foundational technologies accessible and providing the infrastructure needed to put them to w..."
-  },
-  {
-   "rank": 6,
    "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
    "lang": "en",
    "region": "intl",
@@ -138,25 +120,25 @@
    "summary": "arXiv:2609.10346v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token prunin..."
   },
   {
-   "rank": 7,
-   "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
+   "rank": 6,
+   "title": "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/",
-   "score": 6.5,
+   "url": "https://www.bloomberg.com/news/articles/2026-09-10/nvidia-s-huang-touts-cybersecurity-as-next-big-market-for-ai",
+   "score": 6.0,
    "sources": [
-    "nvidia-developer",
-    "ithome"
+    "bloomberg-tech",
+    "techcrunch-ai"
    ],
    "titles": [
-    "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
-    "英伟达 CUDA Toolkit 13.4 首次原生支持 Windows on Arm64，铺路 RTX Spark"
+    "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
+    "Jensen Huang explains why Nvidia will grow an astounding 70% next year"
    ],
-   "published_at": "2026-09-09T20:24:12.000000+00:00",
-   "summary": "Every NVIDIA CUDA Toolkit release adds functionality and performance improvements that help developers get more from NVIDIA GPUs and the broader NVIDIA software... Every NVIDIA CUDA Toolkit release adds functionality and..."
+   "published_at": "2026-09-10T17:08:33.000000+00:00",
+   "summary": "Cybersecurity is the next big market for artificial intelligence, with advances in the technology set to disrupt an industry geared to defending computer systems, said Nvidia Corp. co-founder and Chief Executive Officer..."
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
    "lang": "en",
    "region": "intl",
@@ -172,7 +154,7 @@
    "summary": "text-generation, transformers, safetensors, nemotron_h, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de, it, ja, license:other, eval-results, endpoints_compatible, 8-bit, modelopt, deploy:azure, deploy:sage..."
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "nvidia/nemotron-3.5-asr-streaming-0.6b",
    "lang": "en",
    "region": "intl",
@@ -186,6 +168,24 @@
    ],
    "published_at": "2026-09-10T16:49:07.000000+00:00",
    "summary": "automatic-speech-recognition, nemo, safetensors, gguf, nemotron3_5_asr, feature-extraction, transformers, speech-recognition, cache-aware ASR, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, AS..."
+  },
+  {
+   "rank": 9,
+   "title": "Microsoft Reaches Pact With Teachers Union to Keep AI in the Classroom",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-09-10/microsoft-reaches-pact-with-teachers-union-to-keep-ai-in-the-classroom",
+   "score": 5.0,
+   "sources": [
+    "bloomberg-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Microsoft Reaches Pact With Teachers Union to Keep AI in the Classroom",
+    "A teachers union and Microsoft just made an AI safety deal. Compliance is an open question."
+   ],
+   "published_at": "2026-09-10T11:02:01.000000+00:00",
+   "summary": "The software maker agrees to principles to protect student privacy with the use of AI"
   },
   {
    "rank": 10,
@@ -289,42 +289,6 @@
   },
   {
    "rank": 16,
-   "title": "顶配两万六！苹果折叠屏iPhone来了，首搭屏下摄像+2nm芯王，库克现场交班",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://zhidx.com/p/592688.html",
-   "score": 6.5,
-   "sources": [
-    "zhidx",
-    "36kr-ai"
-   ],
-   "titles": [
-    "顶配两万六！苹果折叠屏iPhone来了，首搭屏下摄像+2nm芯王，库克现场交班",
-    "苹果首款2nm手机芯片发布，引入全新封装"
-   ],
-   "published_at": "2026-09-09T19:50:08+00:00",
-   "summary": "智东西 作者 | 智东西编辑部 编辑 | 李水青 智东西9月10日报道，今日凌晨，苹果新CEO上任后的第一场新品发布会终于来了： iPhone Duo折叠屏、iPhone 18 Pro、AirPods 5和新Apple Watch系列， 如约到场。 开场视频中， 老朋友库克还是露了一面， 他说：“不不不，不是我，是后面那个家伙。”话落，镜头推到了新CEO约翰·特努斯面前。 今天没有“Good Morning”，只有“Welcome to..."
-  },
-  {
-   "rank": 17,
-   "title": "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4890179.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段",
-    "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段"
-   ],
-   "published_at": "2026-09-10T10:42:22.000000+00:00",
-   "summary": "最近，梅卡曼德创始人邵天兰在朋友圈连续发了两段话。他说，很多具身智能企业正在利用所谓“数采中心”，以及与地方政府、投资方、供应商之间的关联交易，制造虚假、不可持续的收入。接着他继续解释：如果一家企业今年做出这样的收入，明年不仅要继续做，还要做得更多，企业就会进入持续作假和失血的泥潭。他还提到了此前“四小龙”身...... 本文来自微信公众号： 数智奔流 ，作者：艾题 最近，梅卡曼德创始人邵天兰在朋友圈连续发了两段话。 他说，很多具身智能..."
-  },
-  {
-   "rank": 18,
    "title": "“最怕AI”的小红书，是怎么搞AI的？",
    "lang": "zh",
    "region": "cn",
@@ -342,7 +306,7 @@
    "summary": "AI搜索必须做，AI违规内容必须防。AIX财经（AIXcaiijng）原创近日，小红书在AI方面动作频频。9月3日，有媒体曝出，小红书完成AI搜索业务的内部整合，将原先并行的“问一问”（搜索结果增强）与“点点”（对话式生活助手）两大AI产品合并，统一升级为“点点”。这是过去一年小红书AI动作里最新的一步，在更...... 本文来自微信公众号： AIX财经 ，作者：AIX财经团队，编辑：魏佳 AI搜索必须做，AI违规内容必须防。 AIX财..."
   },
   {
-   "rank": 19,
+   "rank": 17,
    "title": "知情人士回应“月之暗面拟赴香港、上海双重上市”：消息不实",
    "lang": "zh",
    "region": "cn",
@@ -360,7 +324,23 @@
    "summary": "IT之家 9 月 10 日消息，今日，有报道称，国内头部大模型企业月之暗面正考虑在香港和上海两地上市，以借此获得更多资金。对此，知情人士独家对《科创板日报》记者称， 该消息不实 。 IT之家注意到，《南华早报》今天援引两名知情人士消息称， 中国 AI 初创公司月之暗面可能考虑在香港和上海两地上市 ，争取更多融资并提升市场知名度。 据此前报道，一名知情人士称，月之暗面 7 月与投资方商谈赴港首次公开募股（IPO）的具体安排后，又透露出赴港..."
   },
   {
-   "rank": 20,
+   "rank": 18,
+   "title": "BAAI/RoboBrain2.0-7B",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/BAAI/RoboBrain2.0-7B",
+   "score": 5.5,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "BAAI/RoboBrain2.0-7B"
+   ],
+   "published_at": "2026-09-10T21:45:40.000000+00:00",
+   "summary": "robotics, transformers, safetensors, qwen2_5_vl, image-text-to-text, arxiv:2507.02029, arxiv:2502.21257, arxiv:2505.03673, arxiv:2506.04308, arxiv:2503.20752, arxiv:2412.04455, license:apache-2.0, text-generation-inferen..."
+  },
+  {
+   "rank": 19,
    "title": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。",
    "lang": "zh",
    "region": "cn",
@@ -376,6 +356,24 @@
    ],
    "published_at": "2026-09-10T00:19:30.000000+00:00",
    "summary": "昨天呢，我在X上看到了一条流量已经过了1亿的帖子。讲道理，我在X上已经很久很久没有见过这种流量的帖子了。发帖的人叫Jacob Coxon。刚刚从Anthropic辞职。他说，过去三年，他先后在OpenAI和Anthropic做大模型预训练。然后现在，他不干了。原因也非常离谱。因为，他觉得OpenAI和Anth...... 本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克 昨天呢，我在X上看到了一条流量已经过了1亿的帖子。 讲..."
+  },
+  {
+   "rank": 20,
+   "title": "MiniMax靠什么实现AGI？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4889977.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "MiniMax靠什么实现AGI？",
+    "MiniMax靠什么实现AGI？"
+   ],
+   "published_at": "2026-09-10T00:26:14.000000+00:00",
+   "summary": "技术水准才是硬通货。AI大模型领域热度被不断推高。近来海外玩家更新AI大模型的速度尤为惊人。9月1日，Anthropic发布Claude Fable 5.1，该模型号称“全球最先进的编程和知识工作模型”；9月2日，Meta发布Muse Spark 1.3，称之为“模型史上最大性能跳跃之一”，谷歌则发布了Gem...... 本文来自微信公众号： 海克财经 ，作者：范东成 技术水准才是硬通货。 AI大模型领域热度被不断推高。 近来海外玩家更..."
   }
  ]
 }
