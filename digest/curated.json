@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-10T16:35:09.277086+00:00",
+ "generated_at": "2026-09-10T19:54:19.204446+00:00",
  "stats": {
-  "items": 1779,
-  "clusters": 1266,
-  "noise": 460,
-  "dup": 61,
+  "items": 1748,
+  "clusters": 1252,
+  "noise": 461,
+  "dup": 56,
   "history_days": 0,
-  "available_cn": 137,
-  "available_intl": 608,
+  "available_cn": 135,
+  "available_intl": 600,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -85,7 +85,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
-   "score": 10.5,
+   "score": 10.0,
    "sources": [
     "marktechpost",
     "infoq-cn",
@@ -157,24 +157,6 @@
   },
   {
    "rank": 8,
-   "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
-   "score": 5.61,
-   "sources": [
-    "marktechpost",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
-    "Google: Attackers are using prompt injection against coding agents"
-   ],
-   "published_at": "2026-09-09T22:58:29+00:00",
-   "summary": "Google has open-sourced Mantis , a stack-agnostic toolkit of security review skills that lets an AI coding agent run the whole vulnerability lifecycle. It finds a suspected flaw, strips the false positives, reproduces th..."
-  },
-  {
-   "rank": 9,
    "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
    "lang": "en",
    "region": "intl",
@@ -190,27 +172,57 @@
    "summary": "text-generation, transformers, safetensors, nemotron_h, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de, it, ja, license:other, eval-results, endpoints_compatible, 8-bit, modelopt, deploy:azure, deploy:sage..."
   },
   {
-   "rank": 10,
-   "title": "Meta & Lyft Move Higher, Apple's Foldable iPhone | Stock Movers",
+   "rank": 9,
+   "title": "nvidia/nemotron-3.5-asr-streaming-0.6b",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-09/meta-lyft-gain-apple-s-foldable-iphone-stock-movers-video",
+   "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
    "score": 5.5,
    "sources": [
-    "bloomberg-tech",
-    "techcrunch-ai"
+    "hf-models-intl"
    ],
    "titles": [
-    "Meta & Lyft Move Higher, Apple's Foldable iPhone | Stock Movers",
-    "Apple CEO John Ternus says the best AI device is still the iPhone",
-    "Apple has a new way prove your iPhone photos aren’t AI slop",
-    "The hinge for Apple’s new foldable phone was built with AI"
+    "nvidia/nemotron-3.5-asr-streaming-0.6b"
    ],
-   "published_at": "2026-09-09T14:34:46.000000+00:00",
-   "summary": "On this episode of Stock Movers: - Meta (META) shares are gaining with analysts positive on the Facebook parent after it debuted Muse, an AI assistant. Firms wrote that Meta is well positioned to succeed with the product..."
+   "published_at": "2026-09-10T16:49:07.000000+00:00",
+   "summary": "automatic-speech-recognition, nemo, safetensors, gguf, nemotron3_5_asr, feature-extraction, transformers, speech-recognition, cache-aware ASR, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, AS..."
+  },
+  {
+   "rank": 10,
+   "title": "LoudKit: local TTS with voice cloning, 10 languages, and SDKs for Python, Swift, Go, Rust and TypeScript",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcm68v/loudkit_local_tts_with_voice_cloning_10_languages/",
+   "score": 4.05,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "LoudKit: local TTS with voice cloning, 10 languages, and SDKs for Python, Swift, Go, Rust and TypeScript",
+    "Native Python and TypeScript Drivers for ArcadeDB, from OpenAPI and Protobuf"
+   ],
+   "published_at": "2026-09-10T15:19:14.000000+00:00",
+   "summary": "hey guys, I've been working on a reading app for several months now and had problems with getting good quality TTS, the options were kokoro, kitten, pocket but all of them even though they were sounding natural had some..."
   },
   {
    "rank": 11,
+   "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
+   "score": 4.0,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth"
+   ],
+   "published_at": "2026-09-10T15:29:30.000000+00:00",
+   "summary": ""
+  },
+  {
+   "rank": 12,
    "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
    "lang": "en",
    "region": "intl",
@@ -224,22 +236,6 @@
    ],
    "published_at": "2026-09-10T10:42:55.000000+00:00",
    "summary": "Cloudera and Mistral join forces to bring specialized, sovereign AI intelligence to enterprise data, helping regulated industries innovate on their own terms."
-  },
-  {
-   "rank": 12,
-   "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment"
-   ],
-   "published_at": "2026-09-10T13:00:21.000000+00:00",
-   "summary": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By conn..."
   },
   {
    "rank": 13,
@@ -293,6 +289,24 @@
   },
   {
    "rank": 16,
+   "title": "顶配两万六！苹果折叠屏iPhone来了，首搭屏下摄像+2nm芯王，库克现场交班",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/592688.html",
+   "score": 6.5,
+   "sources": [
+    "zhidx",
+    "36kr-ai"
+   ],
+   "titles": [
+    "顶配两万六！苹果折叠屏iPhone来了，首搭屏下摄像+2nm芯王，库克现场交班",
+    "苹果首款2nm手机芯片发布，引入全新封装"
+   ],
+   "published_at": "2026-09-09T19:50:08+00:00",
+   "summary": "智东西 作者 | 智东西编辑部 编辑 | 李水青 智东西9月10日报道，今日凌晨，苹果新CEO上任后的第一场新品发布会终于来了： iPhone Duo折叠屏、iPhone 18 Pro、AirPods 5和新Apple Watch系列， 如约到场。 开场视频中， 老朋友库克还是露了一面， 他说：“不不不，不是我，是后面那个家伙。”话落，镜头推到了新CEO约翰·特努斯面前。 今天没有“Good Morning”，只有“Welcome to..."
+  },
+  {
+   "rank": 17,
    "title": "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段",
    "lang": "zh",
    "region": "cn",
@@ -310,7 +324,7 @@
    "summary": "最近，梅卡曼德创始人邵天兰在朋友圈连续发了两段话。他说，很多具身智能企业正在利用所谓“数采中心”，以及与地方政府、投资方、供应商之间的关联交易，制造虚假、不可持续的收入。接着他继续解释：如果一家企业今年做出这样的收入，明年不仅要继续做，还要做得更多，企业就会进入持续作假和失血的泥潭。他还提到了此前“四小龙”身...... 本文来自微信公众号： 数智奔流 ，作者：艾题 最近，梅卡曼德创始人邵天兰在朋友圈连续发了两段话。 他说，很多具身智能..."
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "“最怕AI”的小红书，是怎么搞AI的？",
    "lang": "zh",
    "region": "cn",
@@ -328,7 +342,7 @@
    "summary": "AI搜索必须做，AI违规内容必须防。AIX财经（AIXcaiijng）原创近日，小红书在AI方面动作频频。9月3日，有媒体曝出，小红书完成AI搜索业务的内部整合，将原先并行的“问一问”（搜索结果增强）与“点点”（对话式生活助手）两大AI产品合并，统一升级为“点点”。这是过去一年小红书AI动作里最新的一步，在更...... 本文来自微信公众号： AIX财经 ，作者：AIX财经团队，编辑：魏佳 AI搜索必须做，AI违规内容必须防。 AIX财..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "知情人士回应“月之暗面拟赴香港、上海双重上市”：消息不实",
    "lang": "zh",
    "region": "cn",
@@ -346,40 +360,22 @@
    "summary": "IT之家 9 月 10 日消息，今日，有报道称，国内头部大模型企业月之暗面正考虑在香港和上海两地上市，以借此获得更多资金。对此，知情人士独家对《科创板日报》记者称， 该消息不实 。 IT之家注意到，《南华早报》今天援引两名知情人士消息称， 中国 AI 初创公司月之暗面可能考虑在香港和上海两地上市 ，争取更多融资并提升市场知名度。 据此前报道，一名知情人士称，月之暗面 7 月与投资方商谈赴港首次公开募股（IPO）的具体安排后，又透露出赴港..."
   },
   {
-   "rank": 19,
-   "title": "MiniMax靠什么实现AGI？",
+   "rank": 20,
+   "title": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4889977.html",
+   "url": "https://www.huxiu.com/article/4889975.html",
    "score": 5.5,
    "sources": [
     "huxiu",
     "36kr-ai"
    ],
    "titles": [
-    "MiniMax靠什么实现AGI？",
-    "MiniMax靠什么实现AGI？"
+    "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。",
+    "AI十年内会杀死全人类？Anthropic 研究员发出最严重警报"
    ],
-   "published_at": "2026-09-10T00:26:14.000000+00:00",
-   "summary": "技术水准才是硬通货。AI大模型领域热度被不断推高。近来海外玩家更新AI大模型的速度尤为惊人。9月1日，Anthropic发布Claude Fable 5.1，该模型号称“全球最先进的编程和知识工作模型”；9月2日，Meta发布Muse Spark 1.3，称之为“模型史上最大性能跳跃之一”，谷歌则发布了Gem...... 本文来自微信公众号： 海克财经 ，作者：范东成 技术水准才是硬通货。 AI大模型领域热度被不断推高。 近来海外玩家更..."
-  },
-  {
-   "rank": 20,
-   "title": "新Siri终于开始理解用户“个人上下文”了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3976864487053192",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "新Siri终于开始理解用户“个人上下文”了",
-    "新Siri终于开始理解用户“个人上下文”了"
-   ],
-   "published_at": "2026-09-10T01:22:02.000000+00:00",
-   "summary": "北京时间9月10日凌晨1点，加州库比蒂诺还是上午10点，苹果一年一度的秋季发布会在Apple Park拉开帷幕。 熟悉的库克这次只在开头短暂露面，随后便把舞台交给了约翰·特努斯。这是特努斯接任苹果CEO之后的首场秋季发布会，也是他真正意义上的一次“首秀”。 这场首秀里，激进和稳扎稳打同时出现。硬件上，苹果拿出了等待多年的首款折叠屏iPhone Duo，自然抢走了最多目光。但如果把视线从那块可以对折的屏幕上移开，苹果在AI上的变化同样值得..."
+   "published_at": "2026-09-10T00:19:30.000000+00:00",
+   "summary": "昨天呢，我在X上看到了一条流量已经过了1亿的帖子。讲道理，我在X上已经很久很久没有见过这种流量的帖子了。发帖的人叫Jacob Coxon。刚刚从Anthropic辞职。他说，过去三年，他先后在OpenAI和Anthropic做大模型预训练。然后现在，他不干了。原因也非常离谱。因为，他觉得OpenAI和Anth...... 本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克 昨天呢，我在X上看到了一条流量已经过了1亿的帖子。 讲..."
   }
  ]
 }
