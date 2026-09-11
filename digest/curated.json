@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-11T16:41:32.925703+00:00",
+ "generated_at": "2026-09-11T22:43:54.812296+00:00",
  "stats": {
-  "items": 1522,
-  "clusters": 1186,
-  "noise": 488,
-  "dup": 70,
+  "items": 1437,
+  "clusters": 1123,
+  "noise": 428,
+  "dup": 57,
   "history_days": 0,
-  "available_cn": 146,
-  "available_intl": 482,
+  "available_cn": 148,
+  "available_intl": 490,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -52,11 +52,47 @@
   },
   {
    "rank": 3,
+   "title": "Feeling sad about AI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+   "score": 6.63,
+   "sources": [
+    "simon-willison",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Feeling sad about AI",
+    "Feeling Sad about AI"
+   ],
+   "published_at": "2026-09-11T17:28:37.000000+00:00",
+   "summary": "My comment on Feeling sad about AI — Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come..."
+  },
+  {
+   "rank": 4,
+   "title": "Fidji Simo Joins Data Center Startup Nscale’s Board Ahead of IPO",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-11/fidji-simo-joins-data-center-startup-nscale-s-board-ahead-of-ipo",
+   "score": 6.0,
+   "sources": [
+    "bloomberg-tech",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Fidji Simo Joins Data Center Startup Nscale’s Board Ahead of IPO",
+    "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO"
+   ],
+   "published_at": "2026-09-11T15:15:00.000000+00:00",
+   "summary": "Nscale Global Holdings appointed former OpenAI and Meta Platforms Inc. executive Fidji Simo to its board as the data center startup bolsters its ranks of directors ahead of an initial public offering."
+  },
+  {
+   "rank": 5,
    "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
    "lang": "en",
    "region": "intl",
    "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
-   "score": 6.05,
+   "score": 5.55,
    "sources": [
     "marktechpost",
     "hackernews-ai"
@@ -67,42 +103,6 @@
    ],
    "published_at": "2026-09-11T06:34:39+00:00",
    "summary": "Sakana AI has released Fugu Max and Fugu Ultra v2 , 2 new models in its Sakana Fugu family. Fugu is not a single foundation model. It is a learned orchestrator that routes work across a pool of other models behind 1 API...."
-  },
-  {
-   "rank": 4,
-   "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
-   "score": 6.0,
-   "sources": [
-    "guardian-ai",
-    "ft-tech"
-   ],
-   "titles": [
-    "UK economy unexpectedly grows 0.4% in July boosted by AI",
-    "UK economy unexpectedly grew 0.4% in July boosted by AI surge"
-   ],
-   "published_at": "2026-09-11T08:10:36.000000+00:00",
-   "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic..."
-  },
-  {
-   "rank": 5,
-   "title": "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11141",
-   "score": 5.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
-    "i built a benchmark to test whether LLMs can understand and create jokes"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11141v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used to generate structured outputs, but their reliability remains unclear when those outputs must satisfy database-level cons..."
   },
   {
    "rank": 6,
@@ -122,59 +122,94 @@
   },
   {
    "rank": 7,
-   "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+   "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+   "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
    "score": 5.5,
    "sources": [
-    "nyt-tech",
+    "guardian-ai",
     "ft-tech"
    ],
    "titles": [
-    "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
-    "Houthis used Anthropic AI to try to build ballistic missiles",
-    "Houthis used Anthropic AI to try to build ballistic missiles"
+    "UK economy unexpectedly grows 0.4% in July boosted by AI",
+    "UK economy unexpectedly grew 0.4% in July boosted by AI surge"
    ],
-   "published_at": "2026-09-10T17:00:06.000000+00:00",
-   "summary": "The report Anthropic published on Thursday cataloged a litany of misuses of its A.I. models, including the chatbot Claude, over the past eight months."
+   "published_at": "2026-09-11T08:10:36.000000+00:00",
+   "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic..."
   },
   {
    "rank": 8,
-   "title": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+   "title": "How AI makes biological research more dangerous",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
-   "score": 5.31,
+   "url": "https://www.axios.com/2026/09/11/ai-warnings-biological-research-dangerous",
+   "score": 5.5,
+   "sources": [
+    "axios",
+    "the-decoder"
+   ],
+   "titles": [
+    "How AI makes biological research more dangerous",
+    "Deep learning pioneer Bengio argues the training process itself makes AI dangerous"
+   ],
+   "published_at": "2026-09-11T09:30:05.000000+00:00",
+   "summary": "This week's dire warnings about unchecked artificial intelligence destroying humanity are refocusing attention on how models already are being used in dangerous bioscience experiments — and the lack of safeguards. Why it..."
+  },
+  {
+   "rank": 9,
+   "title": "New Mexico lawyer fined for using AI-generated brief containing fabricated testimony",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/2026/sep/11/new-mexico-lawyer-ai-chatgpt-testimony",
+   "score": 5.06,
+   "sources": [
+    "guardian-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "New Mexico lawyer fined for using AI-generated brief containing fabricated testimony",
+    "Judges mock lawyer who filed appeal full of AI-generated 'witnesses'"
+   ],
+   "published_at": "2026-09-11T18:04:05.000000+00:00",
+   "summary": "Stephen Aarons said he tried to use ChatGPT to create a ‘bulletproof summary’ during a murder conviction appeal A defense lawyer appealing his client’s murder conviction submitted a legal brief containing ⁠made-up police..."
+  },
+  {
+   "rank": 10,
+   "title": "LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF",
+   "score": 5.01,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4"
+    "LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF"
    ],
-   "published_at": "2026-09-11T08:37:56.000000+00:00",
-   "summary": "vllm, mistral-common, compressed-tensors, en, fr, es, de, it, pt, nl, zh, ja, ko, ar, base_model:mistralai/Mistral-Large-3-675B-Base-2512, base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512, license:apache-2.0,..."
+   "published_at": "2026-09-11T14:37:12.000000+00:00",
+   "summary": "audio-to-audio, llama.cpp, gguf, liquid, lfm2.5, edge, audio, speech, speech-to-speech, liquid-audio, ja, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-Audio-1.5B-JP, base_model:quantized:LiquidAI/LFM2.5-Audio-1.5B-JP, li..."
   },
   {
-   "rank": 9,
-   "title": "Is AI Actually Going to Kill Us All?",
+   "rank": 11,
+   "title": "Oracle jumps 6% after reporting 30% revenue growth fueled by AI cloud demand",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/",
-   "score": 4.5,
+   "url": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
+   "score": 5.0,
    "sources": [
-    "wired-ai",
+    "cnbc-tech",
     "reddit-ai-new"
    ],
    "titles": [
-    "Is AI Actually Going to Kill Us All?",
-    "The 'AI Will Kill Us' Claim is Just a Wienie"
+    "Oracle jumps 6% after reporting 30% revenue growth fueled by AI cloud demand",
+    "I let an agent price 30 destinations. Cheapest was $65, 6 beat Google's own floor."
    ],
-   "published_at": "2026-09-10T20:30:37.000000+00:00",
-   "summary": "This week on “Uncanny Valley,” we dig into a former Anthropic researcher’s AI doomsday warning, the latest upgrades from Apple’s event, and the census report that claimed Trump won the 2020 election."
+   "published_at": "2026-09-11T11:22:05.000000+00:00",
+   "summary": "Oracle's cloud infrastructure revenue jumped 121% since last year, reflecting demand for its AI cloud services."
   },
   {
-   "rank": 10,
+   "rank": 12,
    "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
    "lang": "en",
    "region": "intl",
@@ -190,73 +225,64 @@
    "summary": "arXiv:2609.10715v1 Announce Type: new Abstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model lea..."
   },
   {
-   "rank": 11,
-   "title": "YuE2 · Frontier Music with Symbolic Planning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://map-yue2.github.io/",
-   "score": 3.61,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "YuE2 · Frontier Music with Symbolic Planning",
-    "ComfyUI-Olm-YuE2 - staged YuE2 music generation with editable score/ABC workflow"
-   ],
-   "published_at": "2026-09-11T00:33:26.000000+00:00",
-   "summary": "YuE2 unifies symbolic and audio music generation at frontier quality. Symbolic planning turns lyrics and style into an editable score, then a full song with vocals and accompaniment."
-  },
-  {
-   "rank": 12,
-   "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages"
-   ],
-   "published_at": "2026-09-11T06:57:22+00:00",
-   "summary": "Cohere has released North Small Translate , an open-weight machine translation model from Cohere and Cohere Labs. It is a sparse Mixture-of-Experts (MoE) model with 218B total and 25B active parameters. It covers 50 lang..."
-  },
-  {
    "rank": 13,
-   "title": "Open-Source AI & Open Models Reading List",
+   "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-   "score": 3.5,
+   "url": "https://arxiv.org/abs/2607.18116",
+   "score": 4.0,
    "sources": [
-    "interconnects"
+    "arxiv-cs-cv"
    ],
    "titles": [
-    "Open-Source AI & Open Models Reading List"
+    "SGA: Plug&Play Geometric Verification for Educational Video Synthesis"
    ],
-   "published_at": "2026-09-11T12:36:25.000000+00:00",
-   "summary": "List last updated: 11 Sep. 2026 This is my list of the best writing on open models in the last few years. If someone decides they want to get up to speed on the area, reading this will be a comprehensive overview of the..."
+   "published_at": "2026-09-11T04:00:00.000000+00:00",
+   "summary": "arXiv:2607.18116v2 Announce Type: replace-cross Abstract: Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial..."
   },
   {
    "rank": 14,
-   "title": "Ask HN: Can we please limit the AI news flood?",
+   "title": "GrapheneOS' rewritten Messages app is released",
    "lang": "en",
    "region": "intl",
-   "url": "https://news.ycombinator.com/item?id=49657850",
-   "score": 3.5,
+   "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+   "score": 4.0,
    "sources": [
     "hackernews-ai"
    ],
    "titles": [
-    "Ask HN: Can we please limit the AI news flood?"
+    "GrapheneOS' rewritten Messages app is released"
    ],
-   "published_at": "2026-09-11T13:11:04.000000+00:00",
-   "summary": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part. I noticed that because the things I find genu..."
+   "published_at": "2026-09-11T18:50:36.000000+00:00",
+   "summary": "Notable changes in version 13: Version 13 replaces the legacy interface with Jetpack Compose and Material 3. It rebuilds every screen, adds new conversation controls and large-screen support, and f..."
   },
   {
    "rank": 15,
+   "title": "早报｜iPhone Duo提前开炒，最高有人挂到9.9万/人人影视回归约10天再次下架/高德上线「避雷指南1.0」",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ifanr.com/1679695?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "score": 13.5,
+   "sources": [
+    "ifanr",
+    "36kr-ai",
+    "tmtpost",
+    "leiphone"
+   ],
+   "titles": [
+    "早报｜iPhone Duo提前开炒，最高有人挂到9.9万/人人影视回归约10天再次下架/高德上线「避雷指南1.0」",
+    "iPhone新机选购最全指南：买Duo/Pro/Pro Max，还是等标准版？",
+    "iPhone Duo 不是苹果唯一的答案",
+    "30万件iPhone Duo新配件已在速卖通上架，全球开售",
+    "iPhone Duo 最惊艳的一秒，让我重新理解液态玻璃",
+    "制糖工厂发布「硬糖小魔头 Max60」：60W AVS 动态快充，15 分钟让 iPhone 18 Pro 充至 50%",
+    "高德回应“扫雷榜”传闻：推出“避雷指南 1.0”"
+   ],
+   "published_at": "2026-09-11T00:41:54+00:00",
+   "summary": "iPhone Duo 提前开炒，最高有人挂到 9.9 万 三星借 iPhone Duo 发布调侃苹果「热剩饭」 OpenAI 暂停 ChatGPT Pro 20X 订阅，称 Astra 需求前所未有 王腾创业后的首款产品来了，ISHO App 开启内测 HSG 收购徕卡控股权的谈判终止 黑客窃取 Claude 会话密钥，部分订阅用户额度异常消耗 OpenAI 限制图像和音频生成竞品在 ChatGPT 投放广告 曝奥迪在华重划双品牌：一汽..."
+  },
+  {
+   "rank": 16,
    "title": "法国投资者以300亿美元估值入股月之暗面：Kimi IPO前获欧洲资本押注",
    "lang": "zh",
    "region": "cn",
@@ -278,12 +304,12 @@
    "summary": "随着月之暗面（Moonshot AI）即将上市，一群以法国投资者为主的投资者入股了Kimi模型家族背后的这家公司。资金通过一个特殊目的载体（SPV）汇集，向IPO前最后一轮融资投入约1000万欧元。参与者之一是Pyratz Corp.（MLPTZ），这是一家在巴黎泛欧交易所Access板块上市的投资公司。其CEO比拉尔·埃拉米（Bilal El Alamy）向Trending Topics解释了这一架构如何运作，以及为什么这笔钱投向了北..."
   },
   {
-   "rank": 16,
+   "rank": 17,
    "title": "支付宝将推出AI钱包智能体",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.36kr.com/newsflashes/3978562345515781",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "36kr-newsflash",
     "ithome"
@@ -296,12 +322,12 @@
    "summary": "36氪获悉，据支付宝消息，支付宝将推出AI钱包智能体。"
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "小米开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/001/260.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "oschina"
@@ -314,59 +340,41 @@
    "summary": "IT之家 9 月 11 日消息，小米技术今日发文宣布，小米正式发布并开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1。 官方表示，Xiaomi-CocktailASR-1 旨在解决“鸡尾酒会”难题 （IT之家注：当前语音识别技术已经可以以较高精度识别一个人所讲的话，但是当说话的人数为两人或者多人时，语音识别率就会极大地降低，这一难题被称为鸡尾酒会问题）。 该模型采用端到端 LLM 架构，以目标说话人的一段参考..."
   },
   {
-   "rank": 18,
-   "title": "AI找到一种肺药，吃4周“年轻”3岁",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8136514.html",
-   "score": 6.0,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "AI找到一种肺药，吃4周“年轻”3岁",
-    "AI找到一种肺药，吃4周“年轻”3岁"
-   ],
-   "published_at": "2026-09-11T05:58:00+00:00",
-   "summary": "文 | 字母AI 一款原本用来治疗肺纤维化的药，患者吃了4周之后，“年轻”了3岁。 而这颗药从一开始就和AI绑在一起：先由AI判断肺纤维化到底该打哪个靶点，再由生成式AI把对应的药物分子设计出来。 故事离我们并不遥远。 做出它的英矽智能（Insilico）在香港设有主要办公地点，负责新药发现和研发的重要团队则长期扎在上海浦东张江。几年前AI从海量疾病数据里挑中了一个叫TNIK的靶点，如今这个判断已经被做成一颗真正的药，走到了临床后半程。..."
-  },
-  {
    "rank": 19,
-   "title": "Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程",
+   "title": "中转站数据流入黑市，6TB攻入26家知名校企系统：00后安全员实测揭底",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3978529869527809",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "infoq-cn"
-   ],
-   "titles": [
-    "Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程",
-    "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮"
-   ],
-   "published_at": "2026-09-11T08:56:39.000000+00:00",
-   "summary": "在软件行业普遍押注 AI 的当下，公开表示“坚决不用 AI 编程”，几乎等于主动缩小自己的职业选择。 但 Jake Wharton 还是这样做了。 这位被国内开发者称为“J 神”的 Android 与 Kotlin 开源大神，在寻找新工作时列出了九项择业标准，其中第一项就是：不加入 AI 公司，不参与以 AI 为核心的产品，也不接受公司强制工程师使用 AI。按照他的估算，这项要求直接排除了约 80% 的潜在雇主。 Wharton 并非没..."
-  },
-  {
-   "rank": 20,
-   "title": "智谱在卖Token，MiniMax在找身份",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3978573980515333",
+   "url": "https://www.36kr.com/p/3978727264697352",
    "score": 6.0,
    "sources": [
     "36kr-ai",
     "huxiu"
    ],
    "titles": [
-    "智谱在卖Token，MiniMax在找身份",
-    "智谱和MiniMax，进入“低价增长”时代",
-    "智谱和MiniMax，进入“低价增长”时代"
+    "中转站数据流入黑市，6TB攻入26家知名校企系统：00后安全员实测揭底",
+    "“中转站6TB”泄露：AI 安全的边界，正在从数据迁到Context"
    ],
-   "published_at": "2026-09-11T09:12:50.000000+00:00",
-   "summary": "2026年6月22日，智谱盘中冲高至2980港元，市值一度触及1.33万亿港元，成为国内首家市值破万亿的AI公司。同一天，MiniMax的股价还在300港元附近徘徊。 两家公司半年前几乎同一天上市，2026年上半年的收入规模相差不到20%，亏损规模几乎完全相同——但资本市场给它们的定价，差了将近7倍。截至9月10日，智谱总市值 3813.5亿，而MiniMax约1019.8亿港元。前者是后者的近4倍。 然而，2026年上半年，智谱和Mi..."
+   "published_at": "2026-09-11T13:11:51.000000+00:00",
+   "summary": "一份售价过万的数据包，就能撬开国内 26 家知名校企单位的内部系统。 9 月 11 日消息，00 后安全研究员寿超璠（Chaofan Shou）在社交平台上披露，他花五位数美元，就从一家国内 头部大模型中转站服务商 处购得了一份 6TB Fable 模型调用数据集 。 这份未脱敏的请求历史里，包含大量核心系统的通行凭证： GitLab 访问令牌、主机 SSH 密钥、VPN 配置文件、公有云最高权限密钥等 。仅凭这批凭证，就足以接管包括华..."
+  },
+  {
+   "rank": 20,
+   "title": "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/001/081.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+    "苹果详解 Apple Watch 的 Siri Recap：全天谈话划重点、AI 摘要 7 天自动删除",
+    "Apple’s Always-Listening Watch AI Tool Could Pose Legal Risks for Users"
+   ],
+   "published_at": "2026-09-10T23:56:27+00:00",
+   "summary": "IT之家 9 月 11 日消息，科技媒体 MacRumors 昨日（9 月 10 日）发布博文，报道称在 Apple Watch Series 12 和 Apple Watch Ultra 4 两款智能手表上， 苹果计划引入“实时回放”（Live Rewind）功能。 体验方面，该功能主要基于苹果 S11 芯片，用户双击数码表冠后，手表会显示此前 15 秒语音的文本片段。苹果称，该功能用于补回错过或不熟悉的信息。 图源：苹果 隐私方面，..."
   }
  ]
 }
