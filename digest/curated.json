@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-10T22:42:25.792261+00:00",
+ "generated_at": "2026-09-11T01:16:43.166771+00:00",
  "stats": {
-  "items": 1643,
-  "clusters": 1240,
-  "noise": 459,
-  "dup": 53,
+  "items": 1641,
+  "clusters": 1262,
+  "noise": 479,
+  "dup": 78,
   "history_days": 0,
-  "available_cn": 138,
-  "available_intl": 590,
+  "available_cn": 137,
+  "available_intl": 568,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,364 +16,354 @@
  "items": [
   {
    "rank": 1,
-   "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
+   "title": "MUCnoHARM@GermEval Shared Task 2026: Retrieval-based In-Context Learning for Defamatory Offences, and Where It Falls Short",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10321",
-   "score": 16.5,
+   "url": "https://arxiv.org/abs/2609.09791",
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
-    "arxiv-cs-cv",
-    "arxiv-cs-lg",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
-    "Video-MOPD: Multi-Teacher On-Policy Distillation for Video Understanding",
-    "Where to Look Matters: On-Policy Self-Distillation for Long-Video Understanding",
-    "CompassOPD: Cross-Family On-Policy Distillation via Within-Family Likelihood Shifts",
-    "Decision Shifts, Lost Label Functionality, and an Inconclusive Grounding Audit in Correctness-Gated Multi-Teacher Distillation",
-    "ViSR-KGC: Visual Subgraph Reasoning with Vision-Language Models for Multimodal Knowledge Graph Completion"
+    "MUCnoHARM@GermEval Shared Task 2026: Retrieval-based In-Context Learning for Defamatory Offences, and Where It Falls Short",
+    "SalamandraTA at WMT 2026 Terminology Shared Task: Hard Examples Are Better Teachers",
+    "Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning"
    ],
    "published_at": "2026-09-10T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10321v1 Announce Type: new Abstract: Knowledge distillation offers an efficient route to transfer a task-adapted vision-language teacher to a compact student. The training target in current vision-language dis..."
+   "summary": "arXiv:2609.09791v1 Announce Type: new Abstract: With hate speech being ubiquitous online, automatic detection is crucial, in particular when it comes to criminally relevant social media posts. We study a variety of retri..."
   },
   {
    "rank": 2,
-   "title": "LatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis",
+   "title": "Vague2Detect: Handling Ambiguous Prompts in Knowledge-Based Open-World Detection",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2606.13945",
-   "score": 12.0,
+   "url": "https://arxiv.org/abs/2609.09949",
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
+    "arxiv-cs-cv"
    ],
    "titles": [
-    "LatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis",
-    "Non-Stationarity Breaks Permutation Surrogates in Multi-Agent Reinforcement Learning: Diagnosis and Remedies",
-    "Multi-Agent Agentic Graph Learning via Structural Signatures"
+    "Vague2Detect: Handling Ambiguous Prompts in Knowledge-Based Open-World Detection",
+    "Hyperbolic Geometry for Open-World Object Detection in Remote Sensing Imagery"
    ],
    "published_at": "2026-09-10T04:00:00.000000+00:00",
-   "summary": "arXiv:2606.13945v2 Announce Type: replace Abstract: Rare diseases affect over $300$ million patients across more than $7{,}000$ conditions, yet no single hospital encounters enough cases of any one condition for reliable..."
+   "summary": "arXiv:2609.09949v1 Announce Type: cross Abstract: Real-world detectors must often interpret functional or ambiguous prompts, yet conventional models such as YOLO remain restricted to fixed class lists. Even open-vocabula..."
   },
   {
    "rank": 3,
-   "title": "Demystifying Entropy-based Selection for Chain-of-Thought Compression in Large Reasoning Models",
+   "title": "Bringing Value Models Back: Generative Critics for Value Modeling in LLM Reinforcement Learning",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2607.28707",
-   "score": 12.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Demystifying Entropy-based Selection for Chain-of-Thought Compression in Large Reasoning Models",
-    "Verify to Amplify: Improving Reasoning via Learned Chain-of-Thought Verification",
-    "Structural Process Supervision for Latent Chain-of-Thought Reasoning",
-    "CT-SAFR: Safe and Interpretable Chain-of-Thought Reasoning for Autonomous Robots: A Multi-Layered Verification Framework for Trustworthy AI-Driven Robotic Decision Making"
-   ],
-   "published_at": "2026-09-10T04:00:00.000000+00:00",
-   "summary": "arXiv:2607.28707v3 Announce Type: replace Abstract: Entropy-based pruning has been proposed as an effective method for compressing Chain-of-Thought (CoT) reasoning with negligible accuracy loss. We test the robustness of..."
-  },
-  {
-   "rank": 4,
-   "title": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
-   "score": 10.0,
-   "sources": [
-    "marktechpost",
-    "infoq-cn",
-    "the-decoder"
-   ],
-   "titles": [
-    "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
-    "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
-    "New Deepseek model V4.1-Flash cuts memory needs for AI agents"
-   ],
-   "published_at": "2026-09-10T07:31:01+00:00",
-   "summary": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release ar..."
-  },
-  {
-   "rank": 5,
-   "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10346",
+   "url": "https://arxiv.org/abs/2604.10701",
    "score": 7.5,
    "sources": [
-    "arxiv-cs-cv",
+    "arxiv-cs-cl",
     "arxiv-cs-lg"
    ],
    "titles": [
-    "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
-    "Beyond Frame Selection: Rethinking Long-Video Understanding with MLLMs",
-    "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Pruning",
-    "Beyond One-Size-Fits-All: Neural Networks for Differentially Private Tabular Data Synthesis"
+    "Bringing Value Models Back: Generative Critics for Value Modeling in LLM Reinforcement Learning",
+    "Optimal Value Inference for Reinforcement Learning"
    ],
    "published_at": "2026-09-10T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10346v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token prunin..."
+   "summary": "arXiv:2604.10701v2 Announce Type: replace-cross Abstract: Credit assignment is a central challenge in reinforcement learning (RL). Classical actor-critic methods address this challenge through fine-grained advantage esti..."
+  },
+  {
+   "rank": 4,
+   "title": "Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.09757",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis",
+    "Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation",
+    "RelayS2S: A Dual-Path Speculative Generation for Real-Time Dialogue"
+   ],
+   "published_at": "2026-09-10T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.09757v1 Announce Type: cross Abstract: Real-time MRI (rtMRI) captures the dynamics of the entire vocal tract during speech, but labeled data are scarce and the modality - single-slice, grayscale, low-resolutio..."
+  },
+  {
+   "rank": 5,
+   "title": "Anthropic Gives EU Access to Mythos Months After Model’s Release",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-10/anthropic-gives-eu-access-to-mythos-months-after-model-s-release",
+   "score": 6.5,
+   "sources": [
+    "bloomberg-tech",
+    "ithome"
+   ],
+   "titles": [
+    "Anthropic Gives EU Access to Mythos Months After Model’s Release",
+    "历时数月谈判，Anthropic 向欧盟开放 Mythos 5 访问权限"
+   ],
+   "published_at": "2026-09-10T08:04:51.000000+00:00",
+   "summary": "Anthropic PBC has handed the European Union’s cybersecurity agency access to its powerful Mythos artificial intelligence model, more than three months after first signaling the bloc would be given access."
   },
   {
    "rank": 6,
-   "title": "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
+   "title": "We just solved a Millennium Prize problem/s using 2025/2026-era compute. Imagine what 2027/2028/2029 looks like.",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-10/nvidia-s-huang-touts-cybersecurity-as-next-big-market-for-ai",
-   "score": 6.0,
-   "sources": [
-    "bloomberg-tech",
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
-    "Jensen Huang explains why Nvidia will grow an astounding 70% next year"
-   ],
-   "published_at": "2026-09-10T17:08:33.000000+00:00",
-   "summary": "Cybersecurity is the next big market for artificial intelligence, with advances in the technology set to disrupt an industry geared to defending computer systems, said Nvidia Corp. co-founder and Chief Executive Officer..."
-  },
-  {
-   "rank": 7,
-   "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-   "score": 5.5,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
-   ],
-   "published_at": "2026-09-10T14:41:52.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, nemotron_h, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de, it, ja, license:other, eval-results, endpoints_compatible, 8-bit, modelopt, deploy:azure, deploy:sage..."
-  },
-  {
-   "rank": 8,
-   "title": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
-   "score": 5.5,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/nemotron-3.5-asr-streaming-0.6b"
-   ],
-   "published_at": "2026-09-10T16:49:07.000000+00:00",
-   "summary": "automatic-speech-recognition, nemo, safetensors, gguf, nemotron3_5_asr, feature-extraction, transformers, speech-recognition, cache-aware ASR, streaming-asr, multilingual, speech, audio, FastConformer, RNNT, Parakeet, AS..."
-  },
-  {
-   "rank": 9,
-   "title": "Microsoft Reaches Pact With Teachers Union to Keep AI in the Classroom",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-09-10/microsoft-reaches-pact-with-teachers-union-to-keep-ai-in-the-classroom",
-   "score": 5.0,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Microsoft Reaches Pact With Teachers Union to Keep AI in the Classroom",
-    "A teachers union and Microsoft just made an AI safety deal. Compliance is an open question."
-   ],
-   "published_at": "2026-09-10T11:02:01.000000+00:00",
-   "summary": "The software maker agrees to principles to protect student privacy with the use of AI"
-  },
-  {
-   "rank": 10,
-   "title": "LoudKit: local TTS with voice cloning, 10 languages, and SDKs for Python, Swift, Go, Rust and TypeScript",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcm68v/loudkit_local_tts_with_voice_cloning_10_languages/",
-   "score": 4.05,
+   "url": "https://www.reddit.com/r/singularity/comments/1wc4hpa/we_just_solved_a_millennium_prize_problems_using/",
+   "score": 3.88,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "LoudKit: local TTS with voice cloning, 10 languages, and SDKs for Python, Swift, Go, Rust and TypeScript",
-    "Native Python and TypeScript Drivers for ArcadeDB, from OpenAPI and Protobuf"
+    "We just solved a Millennium Prize problem/s using 2025/2026-era compute. Imagine what 2027/2028/2029 looks like.",
+    "AI 2027 (2025)"
    ],
-   "published_at": "2026-09-10T15:19:14.000000+00:00",
-   "summary": "hey guys, I've been working on a reading app for several months now and had problems with getting good quality TTS, the options were kokoro, kitten, pocket but all of them even though they were sounding natural had some..."
+   "published_at": "2026-09-10T01:14:17.000000+00:00",
+   "summary": "2025 - Blackwell We had the Blackwell chips. Most frontier labs/models are using these chips, with the latest internal models using a combination of Blackwell + the new Rubin chips. 2026 - Blackwell + Rubin Rubin is only..."
   },
   {
-   "rank": 11,
-   "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+   "rank": 7,
+   "title": "Agent Evaluation Metric for multi-turn conversations",
    "lang": "en",
    "region": "intl",
-   "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844",
-   "score": 4.0,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth"
-   ],
-   "published_at": "2026-09-10T15:29:30.000000+00:00",
-   "summary": ""
-  },
-  {
-   "rank": 12,
-   "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://mistral.ai/news/mistral-x-cloudera/",
+   "url": "https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/",
    "score": 3.5,
    "sources": [
-    "mistral-news"
+    "aws-ml-blog"
    ],
    "titles": [
-    "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data"
+    "Agent Evaluation Metric for multi-turn conversations"
    ],
-   "published_at": "2026-09-10T10:42:55.000000+00:00",
-   "summary": "Cloudera and Mistral join forces to bring specialized, sovereign AI intelligence to enterprise data, helping regulated industries innovate on their own terms."
+   "published_at": "2026-09-10T15:55:41.000000+00:00",
+   "summary": "Multi-turn agents fail in ways that single-turn evaluation misses: one early mistake quietly corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure ag..."
   },
   {
-   "rank": 13,
-   "title": "Now everyone can put data to work",
+   "rank": 8,
+   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/put-data-to-work",
+   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
    "score": 3.5,
    "sources": [
     "openai-news"
    ],
    "titles": [
-    "Now everyone can put data to work"
+    "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
    ],
-   "published_at": "2026-09-10T15:00:00.000000+00:00",
-   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
+   "published_at": "2026-09-10T16:00:00.000000+00:00",
+   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
+  },
+  {
+   "rank": 9,
+   "title": "3 ways to prep for your next big race with Search",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+   "score": 3.5,
+   "sources": [
+    "google-ai-blog"
+   ],
+   "titles": [
+    "3 ways to prep for your next big race with Search"
+   ],
+   "published_at": "2026-09-10T16:00:00.000000+00:00",
+   "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more."
+  },
+  {
+   "rank": 10,
+   "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+    "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video"
+   ],
+   "published_at": "2026-09-10T16:00:04.000000+00:00",
+   "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035 , with over 6 million commercial vehicles in operation as driverless fleets are already moving people..."
+  },
+  {
+   "rank": 11,
+   "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/",
+   "score": 3.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
+    "Amazon Quick is now generally available on desktop"
+   ],
+   "published_at": "2026-09-10T16:08:57.000000+00:00",
+   "summary": "Build an end-to-end Request for Information (RFI) questionnaire workflow using Amazon Quick Automate to solve a challenge organizations face at every scale. A typical enterprise might handle hundreds of RFI questionnaire..."
+  },
+  {
+   "rank": 12,
+   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+   "score": 3.5,
+   "sources": [
+    "google-research"
+   ],
+   "titles": [
+    "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\""
+   ],
+   "published_at": "2026-09-10T22:50:22.000000+00:00",
+   "summary": "Machine Intelligence"
+  },
+  {
+   "rank": 13,
+   "title": "Universal Music is launching an AI music platform with ElevenLabs",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+   "score": 3.5,
+   "sources": [
+    "theverge-ai"
+   ],
+   "titles": [
+    "Universal Music is launching an AI music platform with ElevenLabs"
+   ],
+   "published_at": "2026-09-10T15:38:19.000000+00:00",
+   "summary": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thur..."
   },
   {
    "rank": 14,
-   "title": "Why don’t machine learning research agents overfit?",
+   "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-   "score": 3.5,
+   "url": "https://aws.amazon.com/blogs/machine-learning/pathway-s-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
+   "score": 3.0,
    "sources": [
-    "amazon-science"
+    "aws-ml-blog"
    ],
    "titles": [
-    "Why don’t machine learning research agents overfit?"
+    "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+    "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+    "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference"
    ],
-   "published_at": "2026-09-10T15:03:39.000000+00:00",
-   "summary": "Machine learning, at its core, is about generalization, not memorization. You hand your learning algorithm a pile of training examples and use them to fit a model. But the goal is not to perform well on the training exam..."
+   "published_at": "2026-09-08T19:12:51.000000+00:00",
+   "summary": "As AI systems take on more complex tasks, much of the industry’s progress has come from increasing model scale, training data, context length, and inference-time computation. Instead of externalizing reasoning work as a..."
   },
   {
    "rank": 15,
-   "title": "吉利银河 TT 正式上市：定位 C 级 AI 纯电运动轿车，12.99 万-18.59 万元",
+   "title": "首个生活场景智能体大奖：支付宝每年1000万激励开发者",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/001/003.htm",
-   "score": 7.0,
+   "url": "https://www.leiphone.com/category/industrynews/osi55rJJYCUZuY7h.html",
+   "score": 6.5,
    "sources": [
-    "ithome",
-    "ifanr"
+    "leiphone",
+    "ithome"
    ],
    "titles": [
-    "吉利银河 TT 正式上市：定位 C 级 AI 纯电运动轿车，12.99 万-18.59 万元",
-    "补贴后 12.99 万元起，银河 TT 上市：全系 800V+宁德时代定制电池"
+    "首个生活场景智能体大奖：支付宝每年1000万激励开发者",
+    "支付宝设立“智能体涌现奖”：每年投入 1000 万，不会写代码也能参与"
    ],
-   "published_at": "2026-09-10T13:21:47+00:00",
-   "summary": "IT之家 9 月 10 日消息，吉利银河旗下全新 C 级 AI 纯电运动轿车 —— 吉利银河 TT 今天（10 日）晚间正式上市，共推出五大版型，上市限时先享价为 12.99 万元-18.59 万元。 640 后驱尊享版：12.99 万元 640 后驱尊贵版：13.99 万元 640 后驱旗舰版：14.99 万元 725 后驱旗舰版：15.99 万元 Ultra：18.59 万元 吉利银河 TT 整车尺寸为 4999/1919/1479..."
+   "published_at": "2026-09-10T08:00:00+00:00",
+   "summary": "在2026 Inclusion外滩大会上，为加快智能服务生态发展，支付宝宣布设立“智能体涌现奖”，每年投入1000万，寻找有用、有趣的生活智能服务，年度大奖奖金100万元。9月10日起，在支付宝内右滑对阿宝说“智能体涌现奖”，即可了解赛事、报名参赛。 开发者无须编写代码，通过自然语言即可搭建，入围或获奖后，除获得现金奖励，适合面向市场的成熟作品还可接入阿宝，为10亿用户提供服务，开展持续经营。 蚂蚁集团CEO韩歆毅认为，8小时之外的智能..."
   },
   {
    "rank": 16,
-   "title": "“最怕AI”的小红书，是怎么搞AI的？",
+   "title": "苹果部分功能不随 iOS 27 及新硬件首发：Siri AI 下月拓展更多语言支持，Apple Watch 新功能年底推出",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4890190.html",
-   "score": 6.0,
+   "url": "https://www.ithome.com/1/000/576.htm",
+   "score": 5.56,
+   "sources": [
+    "ithome",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "苹果部分功能不随 iOS 27 及新硬件首发：Siri AI 下月拓展更多语言支持，Apple Watch 新功能年底推出",
+    "商汤科技 AI 办公智能体“小浣熊”移动端 App 上线，提供苹果 iOS / 安卓版本",
+    "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+    "Apple's Siri Recap Will Remember Your Conversations for You",
+    "Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27"
+   ],
+   "published_at": "2026-09-10T01:11:29+00:00",
+   "summary": "IT之家 9 月 10 日消息，苹果在发布会上及发布会后公布的部分软件功能并不会与 iOS 27 及新硬件同步上线，部分功能仍需等待未来更新，甚至要等到 2026 年底。 硬件方面，Apple Watch Series 12、Apple Watch Ultra 4 将于 9 月 11 日早 9 点接受预购、9 月 18 日起陆续发货； AirPods 5 现已开放预购，同样 9 月 18 日起陆续发货。 苹果 iPhone 18 Pro..."
+  },
+  {
+   "rank": 17,
+   "title": "新Siri终于开始理解用户“个人上下文”了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3976864487053192",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "新Siri终于开始理解用户“个人上下文”了",
+    "新Siri终于开始理解用户“个人上下文”了"
+   ],
+   "published_at": "2026-09-10T01:22:02.000000+00:00",
+   "summary": "北京时间9月10日凌晨1点，加州库比蒂诺还是上午10点，苹果一年一度的秋季发布会在Apple Park拉开帷幕。 熟悉的库克这次只在开头短暂露面，随后便把舞台交给了约翰·特努斯。这是特努斯接任苹果CEO之后的首场秋季发布会，也是他真正意义上的一次“首秀”。 这场首秀里，激进和稳扎稳打同时出现。硬件上，苹果拿出了等待多年的首款折叠屏iPhone Duo，自然抢走了最多目光。但如果把视线从那块可以对折的屏幕上移开，苹果在AI上的变化同样值得..."
+  },
+  {
+   "rank": 18,
+   "title": "营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 达成深度合作，让品牌更高效连接全球 500 万创作者",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.leiphone.com/category/industrynews/SryBDMCG0EzBrvqk.html",
+   "score": 5.5,
+   "sources": [
+    "leiphone",
+    "qbitai"
+   ],
+   "titles": [
+    "营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 达成深度合作，让品牌更高效连接全球 500 万创作者",
+    "营销科技巨头蓝色光标与全球达人营销AI平台AhaCreator达成深度合作，让品牌更高效连接全球500万创作者"
+   ],
+   "published_at": "2026-09-10T01:55:00+00:00",
+   "summary": "【北京，2026年9月10日】 —— 营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 正式宣布达成深度合作。 蓝色光标将结合其全球营销服务能力、客户资源与品牌增长经验，向有境外达人营销需求的广告主提供AhaCreator 平台达人资源，为品牌全球化增长提供 AI 驱动的达人营销能力；AhaCreator 则提供覆盖 500 万名全球优质达人的资源网络（其中包括 15 万名在该平台有成交记录的入驻活跃达人），以及由十..."
+  },
+  {
+   "rank": 19,
+   "title": "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4890179.html",
+   "score": 5.5,
    "sources": [
     "huxiu",
     "36kr-ai"
    ],
    "titles": [
-    "“最怕AI”的小红书，是怎么搞AI的？",
-    "“最怕AI”的小红书，是怎么搞AI的？"
+    "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段",
+    "梅卡曼德创始人点名银河通用，机器人IPO进入算账阶段"
    ],
-   "published_at": "2026-09-10T11:03:12.000000+00:00",
-   "summary": "AI搜索必须做，AI违规内容必须防。AIX财经（AIXcaiijng）原创近日，小红书在AI方面动作频频。9月3日，有媒体曝出，小红书完成AI搜索业务的内部整合，将原先并行的“问一问”（搜索结果增强）与“点点”（对话式生活助手）两大AI产品合并，统一升级为“点点”。这是过去一年小红书AI动作里最新的一步，在更...... 本文来自微信公众号： AIX财经 ，作者：AIX财经团队，编辑：魏佳 AI搜索必须做，AI违规内容必须防。 AIX财..."
+   "published_at": "2026-09-10T10:42:22.000000+00:00",
+   "summary": "最近，梅卡曼德创始人邵天兰在朋友圈连续发了两段话。他说，很多具身智能企业正在利用所谓“数采中心”，以及与地方政府、投资方、供应商之间的关联交易，制造虚假、不可持续的收入。接着他继续解释：如果一家企业今年做出这样的收入，明年不仅要继续做，还要做得更多，企业就会进入持续作假和失血的泥潭。他还提到了此前“四小龙”身...... 本文来自微信公众号： 数智奔流 ，作者：艾题 最近，梅卡曼德创始人邵天兰在朋友圈连续发了两段话。 他说，很多具身智能..."
   },
   {
-   "rank": 17,
-   "title": "知情人士回应“月之暗面拟赴香港、上海双重上市”：消息不实",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/000/973.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "知情人士回应“月之暗面拟赴香港、上海双重上市”：消息不实",
-    "传月之暗面拟赴香港、上海双重上市，知情人士：消息不实"
-   ],
-   "published_at": "2026-09-10T11:32:52+00:00",
-   "summary": "IT之家 9 月 10 日消息，今日，有报道称，国内头部大模型企业月之暗面正考虑在香港和上海两地上市，以借此获得更多资金。对此，知情人士独家对《科创板日报》记者称， 该消息不实 。 IT之家注意到，《南华早报》今天援引两名知情人士消息称， 中国 AI 初创公司月之暗面可能考虑在香港和上海两地上市 ，争取更多融资并提升市场知名度。 据此前报道，一名知情人士称，月之暗面 7 月与投资方商谈赴港首次公开募股（IPO）的具体安排后，又透露出赴港..."
-  },
-  {
-   "rank": 18,
-   "title": "BAAI/RoboBrain2.0-7B",
+   "rank": 20,
+   "title": "BAAI/RoboBrain2.0-32B",
    "lang": "en",
    "region": "cn",
-   "url": "https://huggingface.co/BAAI/RoboBrain2.0-7B",
-   "score": 5.5,
+   "url": "https://huggingface.co/BAAI/RoboBrain2.0-32B",
+   "score": 5.15,
    "sources": [
     "hf-models-cn"
    ],
    "titles": [
-    "BAAI/RoboBrain2.0-7B"
+    "BAAI/RoboBrain2.0-32B"
    ],
-   "published_at": "2026-09-10T21:45:40.000000+00:00",
+   "published_at": "2026-09-10T21:46:01.000000+00:00",
    "summary": "robotics, transformers, safetensors, qwen2_5_vl, image-text-to-text, arxiv:2507.02029, arxiv:2502.21257, arxiv:2505.03673, arxiv:2506.04308, arxiv:2503.20752, arxiv:2412.04455, license:apache-2.0, text-generation-inferen..."
-  },
-  {
-   "rank": 19,
-   "title": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4889975.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。",
-    "AI十年内会杀死全人类？Anthropic 研究员发出最严重警报"
-   ],
-   "published_at": "2026-09-10T00:19:30.000000+00:00",
-   "summary": "昨天呢，我在X上看到了一条流量已经过了1亿的帖子。讲道理，我在X上已经很久很久没有见过这种流量的帖子了。发帖的人叫Jacob Coxon。刚刚从Anthropic辞职。他说，过去三年，他先后在OpenAI和Anthropic做大模型预训练。然后现在，他不干了。原因也非常离谱。因为，他觉得OpenAI和Anth...... 本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克 昨天呢，我在X上看到了一条流量已经过了1亿的帖子。 讲..."
-  },
-  {
-   "rank": 20,
-   "title": "MiniMax靠什么实现AGI？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4889977.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "MiniMax靠什么实现AGI？",
-    "MiniMax靠什么实现AGI？"
-   ],
-   "published_at": "2026-09-10T00:26:14.000000+00:00",
-   "summary": "技术水准才是硬通货。AI大模型领域热度被不断推高。近来海外玩家更新AI大模型的速度尤为惊人。9月1日，Anthropic发布Claude Fable 5.1，该模型号称“全球最先进的编程和知识工作模型”；9月2日，Meta发布Muse Spark 1.3，称之为“模型史上最大性能跳跃之一”，谷歌则发布了Gem...... 本文来自微信公众号： 海克财经 ，作者：范东成 技术水准才是硬通货。 AI大模型领域热度被不断推高。 近来海外玩家更..."
   }
  ]
 }
