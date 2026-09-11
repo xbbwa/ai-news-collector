@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-11T06:13:04.516133+00:00",
+ "generated_at": "2026-09-11T11:38:20.374062+00:00",
  "stats": {
-  "items": 1547,
-  "clusters": 1151,
-  "noise": 446,
-  "dup": 81,
+  "items": 1535,
+  "clusters": 1179,
+  "noise": 475,
+  "dup": 76,
   "history_days": 0,
-  "available_cn": 140,
-  "available_intl": 484,
+  "available_cn": 149,
+  "available_intl": 479,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,27 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Overview of the NLPCC 2026 Shared Task 11: Agent-Based Experiment Reproduction from Scientific Papers",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11117",
-   "score": 11.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "Overview of the NLPCC 2026 Shared Task 11: Agent-Based Experiment Reproduction from Scientific Papers",
-    "The Eloquence submission for Task 2 of the Interspeech 2026 MLC-SLM challenge",
-    "HALDETECT at ImageEval 2026 Shared Tasks: Answer-First Contrastive Grounding with QLoRA",
-    "2026年亚太经合组织（APEC）工商领导人峰会将于11月17日至18日在深圳举办"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11117v1 Announce Type: new Abstract: Reproducibility is essential to scientific progress, yet the growing volume and complexity of scientific publications make exhaustive manual verification increasingly impra..."
-  },
-  {
-   "rank": 2,
    "title": "Probing for Knowledge Attribution in Large Language Models",
    "lang": "en",
    "region": "intl",
@@ -54,7 +33,7 @@
    "summary": "arXiv:2602.22787v3 Announce Type: replace Abstract: Large language model (LLM) hallucinations, meaning fluent but factually incorrect generations, fall into two types: faithfulness violations, where the model misuses pro..."
   },
   {
-   "rank": 3,
+   "rank": 2,
    "title": "SPECTRA: Band-Routed Embedding and Stage-Wise LoRA for Cross-Sensor Fine-Tuning of Geospatial Foundation Models",
    "lang": "en",
    "region": "intl",
@@ -72,7 +51,45 @@
    "summary": "arXiv:2608.01751v2 Announce Type: replace Abstract: Geospatial foundation models (GeoFMs), pretrained on large-scale geospatial data such as Earth observation (EO), climate, and weather data, have shown promising perform..."
   },
   {
+   "rank": 3,
+   "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+   "score": 8.0,
+   "sources": [
+    "nyt-tech",
+    "ft-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+    "Houthis used Anthropic AI to try to build ballistic missiles",
+    "NYT - Anthropic Says It Blocked Possible Efforts to Build Biological Weapons"
+   ],
+   "published_at": "2026-09-10T17:00:06.000000+00:00",
+   "summary": "The report Anthropic published on Thursday cataloged a litany of misuses of its A.I. models, including the chatbot Claude, over the past eight months."
+  },
+  {
    "rank": 4,
+   "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
+   "score": 6.05,
+   "sources": [
+    "marktechpost",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
+    "Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier"
+   ],
+   "published_at": "2026-09-11T06:34:39+00:00",
+   "summary": "Sakana AI has released Fugu Max and Fugu Ultra v2 , 2 new models in its Sakana Fugu family. Fugu is not a single foundation model. It is a learned orchestrator that routes work across a pool of other models behind 1 API...."
+  },
+  {
+   "rank": 5,
    "title": "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
    "lang": "en",
    "region": "intl",
@@ -90,23 +107,73 @@
    "summary": "arXiv:2609.11141v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used to generate structured outputs, but their reliability remains unclear when those outputs must satisfy database-level cons..."
   },
   {
-   "rank": 5,
-   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+   "rank": 6,
+   "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
    "lang": "en",
    "region": "intl",
-   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-   "score": 3.5,
+   "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
+   "score": 6.0,
    "sources": [
-    "google-research"
+    "guardian-ai",
+    "ft-tech"
    ],
    "titles": [
-    "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\""
+    "UK economy unexpectedly grows 0.4% in July boosted by AI",
+    "UK economy unexpectedly grew 0.4% in July boosted by AI surge"
    ],
-   "published_at": "2026-09-10T22:50:22.000000+00:00",
-   "summary": "Machine Intelligence"
+   "published_at": "2026-09-11T08:10:36.000000+00:00",
+   "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic..."
   },
   {
-   "rank": 6,
+   "rank": 7,
+   "title": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+   "score": 5.31,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4"
+   ],
+   "published_at": "2026-09-11T08:37:56.000000+00:00",
+   "summary": "vllm, mistral-common, compressed-tensors, en, fr, es, de, it, pt, nl, zh, ja, ko, ar, base_model:mistralai/Mistral-Large-3-675B-Base-2512, base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512, license:apache-2.0,..."
+  },
+  {
+   "rank": 8,
+   "title": "nvidia/DeepSeek-V4-Flash-nvfp4-DSpark",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-nvfp4-DSpark",
+   "score": 4.93,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/DeepSeek-V4-Flash-nvfp4-DSpark"
+   ],
+   "published_at": "2026-09-11T07:39:08.000000+00:00",
+   "summary": "text-generation, Model Optimizer, safetensors, deepseek_v4, nvidia, ModelOpt, DeepSeekV4, quantized, NVFP4, nvfp4, speculative-decoding, DSpark, arxiv:2606.19348, base_model:deepseek-ai/DeepSeek-V4-Flash, base_model:quan..."
+  },
+  {
+   "rank": 9,
+   "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.10715",
+   "score": 4.5,
+   "sources": [
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction"
+   ],
+   "published_at": "2026-09-11T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10715v1 Announce Type: new Abstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model lea..."
+  },
+  {
+   "rank": 10,
    "title": "Datasette 1.0a39 and 0.65.4 security releases",
    "lang": "en",
    "region": "intl",
@@ -122,7 +189,23 @@
    "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are secur..."
   },
   {
-   "rank": 7,
+   "rank": 11,
+   "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages"
+   ],
+   "published_at": "2026-09-11T06:57:22+00:00",
+   "summary": "Cohere has released North Small Translate , an open-weight machine translation model from Cohere and Cohere Labs. It is a sparse Mixture-of-Experts (MoE) model with 218B total and 25B active parameters. It covers 50 lang..."
+  },
+  {
+   "rank": 12,
    "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
    "lang": "en",
    "region": "intl",
@@ -140,23 +223,7 @@
    "summary": "As AI systems take on more complex tasks, much of the industry’s progress has come from increasing model scale, training data, context length, and inference-time computation. Instead of externalizing reasoning work as a..."
   },
   {
-   "rank": 8,
-   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/gradio-workflow-1111",
-   "score": 3.0,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Rebuilding AUTOMATIC1111 with Gradio Workflow"
-   ],
-   "published_at": "2026-09-10T00:00:00.000000+00:00",
-   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
-  },
-  {
-   "rank": 9,
+   "rank": 13,
    "title": "Agent Evaluation Metric for multi-turn conversations",
    "lang": "en",
    "region": "intl",
@@ -172,7 +239,7 @@
    "summary": "Multi-turn agents fail in ways that single-turn evaluation misses: one early mistake quietly corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure ag..."
   },
   {
-   "rank": 10,
+   "rank": 14,
    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
    "lang": "en",
    "region": "intl",
@@ -188,109 +255,117 @@
    "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
   },
   {
-   "rank": 11,
-   "title": "3 ways to prep for your next big race with Search",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-   "score": 3.0,
-   "sources": [
-    "google-ai-blog"
-   ],
-   "titles": [
-    "3 ways to prep for your next big race with Search"
-   ],
-   "published_at": "2026-09-10T16:00:00.000000+00:00",
-   "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more."
-  },
-  {
-   "rank": 12,
-   "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-   "score": 3.0,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-    "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video"
-   ],
-   "published_at": "2026-09-10T16:00:04.000000+00:00",
-   "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035 , with over 6 million commercial vehicles in operation as driverless fleets are already moving people..."
-  },
-  {
-   "rank": 13,
-   "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/",
-   "score": 3.0,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
-    "Amazon Quick is now generally available on desktop"
-   ],
-   "published_at": "2026-09-10T16:08:57.000000+00:00",
-   "summary": "Build an end-to-end Request for Information (RFI) questionnaire workflow using Amazon Quick Automate to solve a challenge organizations face at every scale. A typical enterprise might handle hundreds of RFI questionnaire..."
-  },
-  {
-   "rank": 14,
-   "title": "Universal Music is launching an AI music platform with ElevenLabs",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
-   "score": 3.0,
-   "sources": [
-    "theverge-ai"
-   ],
-   "titles": [
-    "Universal Music is launching an AI music platform with ElevenLabs"
-   ],
-   "published_at": "2026-09-10T15:38:19.000000+00:00",
-   "summary": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thur..."
-  },
-  {
    "rank": 15,
-   "title": "首个生活场景智能体大奖：支付宝每年1000万激励开发者",
+   "title": "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/osi55rJJYCUZuY7h.html",
-   "score": 6.5,
+   "url": "https://www.ithome.com/1/000/978.htm",
+   "score": 35.09,
    "sources": [
+    "ithome",
+    "huxiu",
+    "bloomberg-tech",
+    "ft-tech",
+    "ifanr",
+    "tmtpost",
+    "36kr-ai",
     "leiphone",
-    "ithome"
+    "hackernews-ai",
+    "reddit-ai-new",
+    "baai-hub"
    ],
    "titles": [
-    "首个生活场景智能体大奖：支付宝每年1000万激励开发者",
-    "支付宝设立“智能体涌现奖”：每年投入 1000 万，不会写代码也能参与"
+    "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
+    "iPhone Duo卖的不是折叠屏，是涨价的理由",
+    "Everything You Need to Know About Apple's iPhone Duo",
+    "Apple’s big goal after foldable iPhone",
+    "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+    "早报｜iPhone Duo提前开炒，最高有人挂到9.9万/人人影视回归约10天再次下架/高德上线「避雷指南1.0」",
+    "折叠屏“DUO”起来了",
+    "iPhone新机选购最全指南：买Duo/Pro/Pro Max，还是等标准版？",
+    "iPhone Duo 不是苹果唯一的答案",
+    "苹果详解 Apple Watch 的 Siri Recap：全天谈话划重点、AI 摘要 7 天自动删除",
+    "30万件iPhone Duo新配件已在速卖通上架，全球开售",
+    "iPhone Duo 最惊艳的一秒，让我重新理解液态玻璃",
+    "复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份",
+    "Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27",
+    "Galaxy Z Fold 8 get the same folding animation as iPhone Duo",
+    "Apple wants to give me $1175 for a Mac Mini M4 Pro? And would you sell for a DGX Spark or M5-based Studio (which?)",
+    "刚刚，第一台折叠iPhone来了！苹果AI要给25亿设备换脑，支持中文"
    ],
-   "published_at": "2026-09-10T08:00:00+00:00",
-   "summary": "在2026 Inclusion外滩大会上，为加快智能服务生态发展，支付宝宣布设立“智能体涌现奖”，每年投入1000万，寻找有用、有趣的生活智能服务，年度大奖奖金100万元。9月10日起，在支付宝内右滑对阿宝说“智能体涌现奖”，即可了解赛事、报名参赛。 开发者无须编写代码，通过自然语言即可搭建，入围或获奖后，除获得现金奖励，适合面向市场的成熟作品还可接入阿宝，为10亿用户提供服务，开展持续经营。 蚂蚁集团CEO韩歆毅认为，8小时之外的智能..."
+   "published_at": "2026-09-10T11:54:28+00:00",
+   "summary": "IT之家 9 月 10 日消息，据路透社报道，苹果在发布新款 iPhone 数小时后，便上调了印度市场在售旧款 iPhone 的售价，最高涨幅达 41%。这与该公司通常为旧款产品降价的惯例背道而驰，也是今年苹果在所有调价市场中涨幅最高的一次。 苹果也对中国和美国市场的旧款机型进行了调价，美国市场涨幅在 10% 至 21% 之间。此次价格调整紧随苹果秋季新品发布会，新任首席执行官约翰 · 特努斯在会上正式推出了苹果首款折叠屏手机 iPho..."
   },
   {
    "rank": 16,
-   "title": "刚刚，DeepSeek新模型上线，长文本缓存硬盘占用暴降88%！",
+   "title": "智象未来 vivago R1 全球上线，国内版本「够搭」全新升级发布：从 15 秒到5 分钟，AI 视频创作进入单反级交付时代",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/592881.html",
-   "score": 6.5,
+   "url": "https://www.leiphone.com/category/industrynews/7VtjXHgiuTlhpNkU.html",
+   "score": 18.63,
    "sources": [
-    "zhidx",
-    "36kr-ai"
+    "leiphone",
+    "ithome",
+    "geekpark",
+    "tmtpost",
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "刚刚，DeepSeek新模型上线，长文本缓存硬盘占用暴降88%！",
-    "刚刚，DeepSeek新模型上线，长文本缓存硬盘占用暴降88%"
+    "智象未来 vivago R1 全球上线，国内版本「够搭」全新升级发布：从 15 秒到5 分钟，AI 视频创作进入单反级交付时代",
+    "IT早报 0911：雷军称小米未来 5 年投 2000 亿元研发；启境回应媒体群误发小米澎程攻防内容；DeepSeek V4.1 Flash 发布；美的回应洗衣机 19 小时耗 411MB 流量...",
+    "DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道",
+    "苹果折叠苹果",
+    "DeepSeek V4.1 - GPU poor inference kernels?",
+    "DeepSeek V4.1 Flash is available in HuggingChat",
+    "Livebench added Deepseek v4.1 flash",
+    "Deepseek 4.1 Flash AA scores a a bit disappointing, I was hoping for Kimi level performance. It's cheap though.",
+    "CPU Only Experimental Sloppy Deepseek V4.1 Flash",
+    "GPT6-Astra Light + 2xSpeed Codex vs Deepseek Flash + Own Harness",
+    "deepseek 4.1 flash output tokens are kind of wild (in one benchmark)",
+    "DeepSeek 4.1 Flash"
    ],
-   "published_at": "2026-09-10T08:07:41+00:00",
-   "summary": "智东西 作者｜毕伟豪 编辑｜李水青 智东西9月10日报道，刚刚， DeepSeek正式发布DeepSeek V4.1 Flash ，该模型采用全新架构，是一款552B参数的MoE模型，为DeepSeek全新模型架构系列中尺寸最小的成员，在性能上 超越了包括DeepSeek V4 Pro在内的一众旗舰模型 。 模型开源地址： https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash 论文..."
+   "published_at": "2026-09-10T10:43:00+00:00",
+   "summary": "2026年9月8日，智象未来（HiDream.ai）旗下内容创作智能体 vivago R1 全球上线，国内版本 「够搭」 全新升级发布。（雷峰网） 今年7月，vivago R1 于 WAIC 2026 首次亮相。作为全球首个无限时长内容创作智能体，R1 引起 AI 视频领域广泛关注。今天，R1正式面向全球用户开放。 vivago R1 的核心突破，在于实现了从一句成片时代的 “生成片段” 到 “完全交付作品” 的范式跃迁。它依托智象“基..."
   },
   {
    "rank": 17,
+   "title": "支付宝将推出AI钱包智能体",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3978562345515781",
+   "score": 7.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "支付宝将推出AI钱包智能体",
+    "支付宝将推 AI 钱包智能体"
+   ],
+   "published_at": "2026-09-11T05:22:54.000000+00:00",
+   "summary": "36氪获悉，据支付宝消息，支付宝将推出AI钱包智能体。"
+  },
+  {
+   "rank": 18,
+   "title": "小米开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/001/260.htm",
+   "score": 7.0,
+   "sources": [
+    "ithome",
+    "oschina"
+   ],
+   "titles": [
+    "小米开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1",
+    "小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题"
+   ],
+   "published_at": "2026-09-11T06:51:39+00:00",
+   "summary": "IT之家 9 月 11 日消息，小米技术今日发文宣布，小米正式发布并开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1。 官方表示，Xiaomi-CocktailASR-1 旨在解决“鸡尾酒会”难题 （IT之家注：当前语音识别技术已经可以以较高精度识别一个人所讲的话，但是当说话的人数为两人或者多人时，语音识别率就会极大地降低，这一难题被称为鸡尾酒会问题）。 该模型采用端到端 LLM 架构，以目标说话人的一段参考..."
+  },
+  {
+   "rank": 19,
    "title": "蚂蚁数科推出 Agentar 金融版 助力金融机构打造智能体超级工厂",
    "lang": "zh",
    "region": "cn",
@@ -308,7 +383,7 @@
    "summary": "9月10日，在2026 Inclusion·外滩大会见解论坛上，蚂蚁数科AI业务总裁余滨表示，蚂蚁数科推出Agentar 金融版，提供开箱即用的金融智能体专家团、行业 Skill、MCP、智能体评测工具及治理能力，为金融机构打造覆盖智能体开发、部署、协作、评测与管理的智能体超级工厂，加快AI智能体在金融真实业务场景中的落地应用。 AI在金融业的应用已经从问答检索、报告生成等通用能力，走向更复杂的业务场景。但金融机构要把已有的数据资产、业..."
   },
   {
-   "rank": 18,
+   "rank": 20,
    "title": "工信部印发《“人工智能+软件”专项行动实施方案》",
    "lang": "zh",
    "region": "cn",
@@ -324,42 +399,6 @@
    ],
    "published_at": "2026-09-11T00:43:07.000000+00:00",
    "summary": "36氪获悉，据工信微报，工业和信息化部近日印发《“人工智能+软件”专项行动实施方案》。《方案》提出，到2028年，软件和信息技术服务业智能化水平显著提升，培育一批高水平智能编程工具和智能开发平台，推广应用覆盖2万家规模以上软件企业，关键软件智能化升级取得显著成效，累计组织实施100项软件企业智能化技改项目，以智能体软件为代表的软件新形态加速涌现，在重点行业打造100个智能体软件标杆应用，信息技术服务向智能化、价值化跃升，形成一批行业深度..."
-  },
-  {
-   "rank": 19,
-   "title": "英特尔挥刀：巨头的艰难取舍",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8135988.html",
-   "score": 6.0,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "英特尔挥刀：巨头的艰难取舍",
-    "英特尔挥刀：巨头的艰难取舍"
-   ],
-   "published_at": "2026-09-11T02:18:26+00:00",
-   "summary": "文 | 硅碳变量，作者 | 关偃月 受供应链成本抬升影响，自2025年底开始，英特尔PC端CPU开启一轮持续涨价周期。2026 年一季度产品调涨幅度约10%；到7月，部分消费级与服务器CPU再度调价，单颗芯片涨幅区间跨度较大，从数十美元到千美元以上均有覆盖。 据台湾《电子时报》，供应链人士透露，2026年10月5日，英特尔PC CPU预计将再度涨价10%。与此同时，毛利率偏低的小核产品线或将启动停产退市（EOL）。 长久以来，英特尔依靠..."
-  },
-  {
-   "rank": 20,
-   "title": "9 月 20 日杭州，FDE 现场解码：企业 AI 真正卡在技术，还是组织？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.infoq.cn/article/QIIYxNtMINFNh4sCM3vu?utm_source=rss&utm_medium=article",
-   "score": 5.5,
-   "sources": [
-    "infoq-cn",
-    "ithome"
-   ],
-   "titles": [
-    "9 月 20 日杭州，FDE 现场解码：企业 AI 真正卡在技术，还是组织？",
-    "一汽-大众 ID. AURA T6 将于 9 月 20 日上市，预售价 13.59 万元起"
-   ],
-   "published_at": "2026-09-09T10:39:47+00:00",
-   "summary": "点击查看原文>"
   }
  ]
 }
