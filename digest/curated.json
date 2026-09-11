@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-11T11:38:20.374062+00:00",
+ "generated_at": "2026-09-11T16:41:32.925703+00:00",
  "stats": {
-  "items": 1535,
-  "clusters": 1179,
-  "noise": 475,
-  "dup": 76,
+  "items": 1522,
+  "clusters": 1186,
+  "noise": 488,
+  "dup": 70,
   "history_days": 0,
-  "available_cn": 149,
-  "available_intl": 479,
+  "available_cn": 146,
+  "available_intl": 482,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,7 +20,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2602.22787",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-lg"
@@ -38,7 +38,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2608.01751",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-lg"
@@ -52,26 +52,6 @@
   },
   {
    "rank": 3,
-   "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
-   "score": 8.0,
-   "sources": [
-    "nyt-tech",
-    "ft-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
-    "Houthis used Anthropic AI to try to build ballistic missiles",
-    "NYT - Anthropic Says It Blocked Possible Efforts to Build Biological Weapons"
-   ],
-   "published_at": "2026-09-10T17:00:06.000000+00:00",
-   "summary": "The report Anthropic published on Thursday cataloged a litany of misuses of its A.I. models, including the chatbot Claude, over the past eight months."
-  },
-  {
-   "rank": 4,
    "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
    "lang": "en",
    "region": "intl",
@@ -89,25 +69,7 @@
    "summary": "Sakana AI has released Fugu Max and Fugu Ultra v2 , 2 new models in its Sakana Fugu family. Fugu is not a single foundation model. It is a learned orchestrator that routes work across a pool of other models behind 1 API...."
   },
   {
-   "rank": 5,
-   "title": "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11141",
-   "score": 6.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
-    "i built a benchmark to test whether LLMs can understand and create jokes"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11141v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used to generate structured outputs, but their reliability remains unclear when those outputs must satisfy database-level cons..."
-  },
-  {
-   "rank": 6,
+   "rank": 4,
    "title": "UK economy unexpectedly grows 0.4% in July boosted by AI",
    "lang": "en",
    "region": "intl",
@@ -125,7 +87,60 @@
    "summary": "Welcome boost for chancellor with unexpected rise put down to rapid growth of AI in services sector outweighing Iran war fallout The UK economy grew in July as the rapid expansion of AI appeared to outweigh the economic..."
   },
   {
+   "rank": 5,
+   "title": "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.11141",
+   "score": 5.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization",
+    "i built a benchmark to test whether LLMs can understand and create jokes"
+   ],
+   "published_at": "2026-09-11T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.11141v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used to generate structured outputs, but their reliability remains unclear when those outputs must satisfy database-level cons..."
+  },
+  {
+   "rank": 6,
+   "title": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B"
+   ],
+   "published_at": "2026-09-11T11:50:19.000000+00:00",
+   "summary": "safetensors, en, arxiv:2410.17196, arxiv:2503.04721, arxiv:2604.04847, arxiv:2505.15670, arxiv:2507.08128, base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2, base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2, license:open..."
+  },
+  {
    "rank": 7,
+   "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+   "score": 5.5,
+   "sources": [
+    "nyt-tech",
+    "ft-tech"
+   ],
+   "titles": [
+    "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+    "Houthis used Anthropic AI to try to build ballistic missiles",
+    "Houthis used Anthropic AI to try to build ballistic missiles"
+   ],
+   "published_at": "2026-09-10T17:00:06.000000+00:00",
+   "summary": "The report Anthropic published on Thursday cataloged a litany of misuses of its A.I. models, including the chatbot Claude, over the past eight months."
+  },
+  {
+   "rank": 8,
    "title": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
    "lang": "en",
    "region": "intl",
@@ -141,28 +156,30 @@
    "summary": "vllm, mistral-common, compressed-tensors, en, fr, es, de, it, pt, nl, zh, ja, ko, ar, base_model:mistralai/Mistral-Large-3-675B-Base-2512, base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512, license:apache-2.0,..."
   },
   {
-   "rank": 8,
-   "title": "nvidia/DeepSeek-V4-Flash-nvfp4-DSpark",
+   "rank": 9,
+   "title": "Is AI Actually Going to Kill Us All?",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-nvfp4-DSpark",
-   "score": 4.93,
+   "url": "https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/",
+   "score": 4.5,
    "sources": [
-    "hf-models-intl"
+    "wired-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "nvidia/DeepSeek-V4-Flash-nvfp4-DSpark"
+    "Is AI Actually Going to Kill Us All?",
+    "The 'AI Will Kill Us' Claim is Just a Wienie"
    ],
-   "published_at": "2026-09-11T07:39:08.000000+00:00",
-   "summary": "text-generation, Model Optimizer, safetensors, deepseek_v4, nvidia, ModelOpt, DeepSeekV4, quantized, NVFP4, nvfp4, speculative-decoding, DSpark, arxiv:2606.19348, base_model:deepseek-ai/DeepSeek-V4-Flash, base_model:quan..."
+   "published_at": "2026-09-10T20:30:37.000000+00:00",
+   "summary": "This week on “Uncanny Valley,” we dig into a former Anthropic researcher’s AI doomsday warning, the latest upgrades from Apple’s event, and the census report that claimed Trump won the 2020 election."
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.10715",
-   "score": 4.5,
+   "score": 4.0,
    "sources": [
     "arxiv-cs-cl"
    ],
@@ -173,23 +190,25 @@
    "summary": "arXiv:2609.10715v1 Announce Type: new Abstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model lea..."
   },
   {
-   "rank": 10,
-   "title": "Datasette 1.0a39 and 0.65.4 security releases",
+   "rank": 11,
+   "title": "YuE2 · Frontier Music with Symbolic Planning",
    "lang": "en",
    "region": "intl",
-   "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
-   "score": 3.5,
+   "url": "https://map-yue2.github.io/",
+   "score": 3.61,
    "sources": [
-    "simon-willison"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Datasette 1.0a39 and 0.65.4 security releases"
+    "YuE2 · Frontier Music with Symbolic Planning",
+    "ComfyUI-Olm-YuE2 - staged YuE2 music generation with editable score/ABC workflow"
    ],
-   "published_at": "2026-09-11T03:27:16.000000+00:00",
-   "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are secur..."
+   "published_at": "2026-09-11T00:33:26.000000+00:00",
+   "summary": "YuE2 unifies symbolic and audio music generation at frontier quality. Symbolic planning turns lyrics and style into an editable score, then a full song with vocals and accompaniment."
   },
   {
-   "rank": 11,
+   "rank": 12,
    "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
    "lang": "en",
    "region": "intl",
@@ -205,131 +224,61 @@
    "summary": "Cohere has released North Small Translate , an open-weight machine translation model from Cohere and Cohere Labs. It is a sparse Mixture-of-Experts (MoE) model with 218B total and 25B active parameters. It covers 50 lang..."
   },
   {
-   "rank": 12,
-   "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/pathway-s-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
-   "score": 3.0,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
-    "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
-    "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference"
-   ],
-   "published_at": "2026-09-08T19:12:51.000000+00:00",
-   "summary": "As AI systems take on more complex tasks, much of the industry’s progress has come from increasing model scale, training data, context length, and inference-time computation. Instead of externalizing reasoning work as a..."
-  },
-  {
    "rank": 13,
-   "title": "Agent Evaluation Metric for multi-turn conversations",
+   "title": "Open-Source AI & Open Models Reading List",
    "lang": "en",
    "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/",
-   "score": 3.0,
+   "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+   "score": 3.5,
    "sources": [
-    "aws-ml-blog"
+    "interconnects"
    ],
    "titles": [
-    "Agent Evaluation Metric for multi-turn conversations"
+    "Open-Source AI & Open Models Reading List"
    ],
-   "published_at": "2026-09-10T15:55:41.000000+00:00",
-   "summary": "Multi-turn agents fail in ways that single-turn evaluation misses: one early mistake quietly corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure ag..."
+   "published_at": "2026-09-11T12:36:25.000000+00:00",
+   "summary": "List last updated: 11 Sep. 2026 This is my list of the best writing on open models in the last few years. If someone decides they want to get up to speed on the area, reading this will be a comprehensive overview of the..."
   },
   {
    "rank": 14,
-   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+   "title": "Ask HN: Can we please limit the AI news flood?",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-   "score": 3.0,
+   "url": "https://news.ycombinator.com/item?id=49657850",
+   "score": 3.5,
    "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
-   ],
-   "published_at": "2026-09-10T16:00:00.000000+00:00",
-   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
-  },
-  {
-   "rank": 15,
-   "title": "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/000/978.htm",
-   "score": 35.09,
-   "sources": [
-    "ithome",
-    "huxiu",
-    "bloomberg-tech",
-    "ft-tech",
-    "ifanr",
-    "tmtpost",
-    "36kr-ai",
-    "leiphone",
-    "hackernews-ai",
-    "reddit-ai-new",
-    "baai-hub"
-   ],
-   "titles": [
-    "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
-    "iPhone Duo卖的不是折叠屏，是涨价的理由",
-    "Everything You Need to Know About Apple's iPhone Duo",
-    "Apple’s big goal after foldable iPhone",
-    "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
-    "早报｜iPhone Duo提前开炒，最高有人挂到9.9万/人人影视回归约10天再次下架/高德上线「避雷指南1.0」",
-    "折叠屏“DUO”起来了",
-    "iPhone新机选购最全指南：买Duo/Pro/Pro Max，还是等标准版？",
-    "iPhone Duo 不是苹果唯一的答案",
-    "苹果详解 Apple Watch 的 Siri Recap：全天谈话划重点、AI 摘要 7 天自动删除",
-    "30万件iPhone Duo新配件已在速卖通上架，全球开售",
-    "iPhone Duo 最惊艳的一秒，让我重新理解液态玻璃",
-    "复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份",
-    "Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27",
-    "Galaxy Z Fold 8 get the same folding animation as iPhone Duo",
-    "Apple wants to give me $1175 for a Mac Mini M4 Pro? And would you sell for a DGX Spark or M5-based Studio (which?)",
-    "刚刚，第一台折叠iPhone来了！苹果AI要给25亿设备换脑，支持中文"
-   ],
-   "published_at": "2026-09-10T11:54:28+00:00",
-   "summary": "IT之家 9 月 10 日消息，据路透社报道，苹果在发布新款 iPhone 数小时后，便上调了印度市场在售旧款 iPhone 的售价，最高涨幅达 41%。这与该公司通常为旧款产品降价的惯例背道而驰，也是今年苹果在所有调价市场中涨幅最高的一次。 苹果也对中国和美国市场的旧款机型进行了调价，美国市场涨幅在 10% 至 21% 之间。此次价格调整紧随苹果秋季新品发布会，新任首席执行官约翰 · 特努斯在会上正式推出了苹果首款折叠屏手机 iPho..."
-  },
-  {
-   "rank": 16,
-   "title": "智象未来 vivago R1 全球上线，国内版本「够搭」全新升级发布：从 15 秒到5 分钟，AI 视频创作进入单反级交付时代",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/7VtjXHgiuTlhpNkU.html",
-   "score": 18.63,
-   "sources": [
-    "leiphone",
-    "ithome",
-    "geekpark",
-    "tmtpost",
-    "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "智象未来 vivago R1 全球上线，国内版本「够搭」全新升级发布：从 15 秒到5 分钟，AI 视频创作进入单反级交付时代",
-    "IT早报 0911：雷军称小米未来 5 年投 2000 亿元研发；启境回应媒体群误发小米澎程攻防内容；DeepSeek V4.1 Flash 发布；美的回应洗衣机 19 小时耗 411MB 流量...",
-    "DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道",
-    "苹果折叠苹果",
-    "DeepSeek V4.1 - GPU poor inference kernels?",
-    "DeepSeek V4.1 Flash is available in HuggingChat",
-    "Livebench added Deepseek v4.1 flash",
-    "Deepseek 4.1 Flash AA scores a a bit disappointing, I was hoping for Kimi level performance. It's cheap though.",
-    "CPU Only Experimental Sloppy Deepseek V4.1 Flash",
-    "GPT6-Astra Light + 2xSpeed Codex vs Deepseek Flash + Own Harness",
-    "deepseek 4.1 flash output tokens are kind of wild (in one benchmark)",
-    "DeepSeek 4.1 Flash"
+    "Ask HN: Can we please limit the AI news flood?"
    ],
-   "published_at": "2026-09-10T10:43:00+00:00",
-   "summary": "2026年9月8日，智象未来（HiDream.ai）旗下内容创作智能体 vivago R1 全球上线，国内版本 「够搭」 全新升级发布。（雷峰网） 今年7月，vivago R1 于 WAIC 2026 首次亮相。作为全球首个无限时长内容创作智能体，R1 引起 AI 视频领域广泛关注。今天，R1正式面向全球用户开放。 vivago R1 的核心突破，在于实现了从一句成片时代的 “生成片段” 到 “完全交付作品” 的范式跃迁。它依托智象“基..."
+   "published_at": "2026-09-11T13:11:04.000000+00:00",
+   "summary": "Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part. I noticed that because the things I find genu..."
   },
   {
-   "rank": 17,
+   "rank": 15,
+   "title": "法国投资者以300亿美元估值入股月之暗面：Kimi IPO前获欧洲资本押注",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3978308009564034",
+   "score": 10.0,
+   "sources": [
+    "36kr-ai",
+    "tmtpost",
+    "ithome"
+   ],
+   "titles": [
+    "法国投资者以300亿美元估值入股月之暗面：Kimi IPO前获欧洲资本押注",
+    "诺华一日蒸发近300亿美元：原研药的\"时间权\"正在贬值",
+    "月之暗面 Kimi K2.8 Preview 模型全量上线 Kimi Code，综合性能接近 K3",
+    "Kimi K3 模型“突破性”成功，消息称月之暗面瞄准今年年底 20 亿美元年化收入",
+    "法国投资者以300亿美元估值入股月之暗面：Kimi IPO前获欧洲资本押注"
+   ],
+   "published_at": "2026-09-11T01:49:32.000000+00:00",
+   "summary": "随着月之暗面（Moonshot AI）即将上市，一群以法国投资者为主的投资者入股了Kimi模型家族背后的这家公司。资金通过一个特殊目的载体（SPV）汇集，向IPO前最后一轮融资投入约1000万欧元。参与者之一是Pyratz Corp.（MLPTZ），这是一家在巴黎泛欧交易所Access板块上市的投资公司。其CEO比拉尔·埃拉米（Bilal El Alamy）向Trending Topics解释了这一架构如何运作，以及为什么这笔钱投向了北..."
+  },
+  {
+   "rank": 16,
    "title": "支付宝将推出AI钱包智能体",
    "lang": "zh",
    "region": "cn",
@@ -347,7 +296,7 @@
    "summary": "36氪获悉，据支付宝消息，支付宝将推出AI钱包智能体。"
   },
   {
-   "rank": 18,
+   "rank": 17,
    "title": "小米开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1",
    "lang": "zh",
    "region": "cn",
@@ -365,40 +314,59 @@
    "summary": "IT之家 9 月 11 日消息，小米技术今日发文宣布，小米正式发布并开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1。 官方表示，Xiaomi-CocktailASR-1 旨在解决“鸡尾酒会”难题 （IT之家注：当前语音识别技术已经可以以较高精度识别一个人所讲的话，但是当说话的人数为两人或者多人时，语音识别率就会极大地降低，这一难题被称为鸡尾酒会问题）。 该模型采用端到端 LLM 架构，以目标说话人的一段参考..."
   },
   {
-   "rank": 19,
-   "title": "蚂蚁数科推出 Agentar 金融版 助力金融机构打造智能体超级工厂",
+   "rank": 18,
+   "title": "AI找到一种肺药，吃4周“年轻”3岁",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/HoBDVtC0QpjjwVfv.html",
-   "score": 6.5,
+   "url": "https://www.tmtpost.com/8136514.html",
+   "score": 6.0,
    "sources": [
-    "leiphone",
-    "36kr-newsflash"
+    "tmtpost",
+    "36kr-ai"
    ],
    "titles": [
-    "蚂蚁数科推出 Agentar 金融版 助力金融机构打造智能体超级工厂",
-    "蚂蚁数科发布Agentar金融版"
+    "AI找到一种肺药，吃4周“年轻”3岁",
+    "AI找到一种肺药，吃4周“年轻”3岁"
    ],
-   "published_at": "2026-09-10T10:49:00+00:00",
-   "summary": "9月10日，在2026 Inclusion·外滩大会见解论坛上，蚂蚁数科AI业务总裁余滨表示，蚂蚁数科推出Agentar 金融版，提供开箱即用的金融智能体专家团、行业 Skill、MCP、智能体评测工具及治理能力，为金融机构打造覆盖智能体开发、部署、协作、评测与管理的智能体超级工厂，加快AI智能体在金融真实业务场景中的落地应用。 AI在金融业的应用已经从问答检索、报告生成等通用能力，走向更复杂的业务场景。但金融机构要把已有的数据资产、业..."
+   "published_at": "2026-09-11T05:58:00+00:00",
+   "summary": "文 | 字母AI 一款原本用来治疗肺纤维化的药，患者吃了4周之后，“年轻”了3岁。 而这颗药从一开始就和AI绑在一起：先由AI判断肺纤维化到底该打哪个靶点，再由生成式AI把对应的药物分子设计出来。 故事离我们并不遥远。 做出它的英矽智能（Insilico）在香港设有主要办公地点，负责新药发现和研发的重要团队则长期扎在上海浦东张江。几年前AI从海量疾病数据里挑中了一个叫TNIK的靶点，如今这个判断已经被做成一颗真正的药，走到了临床后半程。..."
+  },
+  {
+   "rank": 19,
+   "title": "Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3978529869527809",
+   "score": 6.0,
+   "sources": [
+    "36kr-ai",
+    "infoq-cn"
+   ],
+   "titles": [
+    "Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程",
+    "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮"
+   ],
+   "published_at": "2026-09-11T08:56:39.000000+00:00",
+   "summary": "在软件行业普遍押注 AI 的当下，公开表示“坚决不用 AI 编程”，几乎等于主动缩小自己的职业选择。 但 Jake Wharton 还是这样做了。 这位被国内开发者称为“J 神”的 Android 与 Kotlin 开源大神，在寻找新工作时列出了九项择业标准，其中第一项就是：不加入 AI 公司，不参与以 AI 为核心的产品，也不接受公司强制工程师使用 AI。按照他的估算，这项要求直接排除了约 80% 的潜在雇主。 Wharton 并非没..."
   },
   {
    "rank": 20,
-   "title": "工信部印发《“人工智能+软件”专项行动实施方案》",
+   "title": "智谱在卖Token，MiniMax在找身份",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3978287306718211",
+   "url": "https://www.36kr.com/p/3978573980515333",
    "score": 6.0,
    "sources": [
-    "36kr-newsflash",
-    "ithome"
+    "36kr-ai",
+    "huxiu"
    ],
    "titles": [
-    "工信部印发《“人工智能+软件”专项行动实施方案》",
-    "工信部印发“AI + 软件”专项行动实施方案：支持软件企业与智能手机、智能家居、智能网联汽车等终端厂商联合创新"
+    "智谱在卖Token，MiniMax在找身份",
+    "智谱和MiniMax，进入“低价增长”时代",
+    "智谱和MiniMax，进入“低价增长”时代"
    ],
-   "published_at": "2026-09-11T00:43:07.000000+00:00",
-   "summary": "36氪获悉，据工信微报，工业和信息化部近日印发《“人工智能+软件”专项行动实施方案》。《方案》提出，到2028年，软件和信息技术服务业智能化水平显著提升，培育一批高水平智能编程工具和智能开发平台，推广应用覆盖2万家规模以上软件企业，关键软件智能化升级取得显著成效，累计组织实施100项软件企业智能化技改项目，以智能体软件为代表的软件新形态加速涌现，在重点行业打造100个智能体软件标杆应用，信息技术服务向智能化、价值化跃升，形成一批行业深度..."
+   "published_at": "2026-09-11T09:12:50.000000+00:00",
+   "summary": "2026年6月22日，智谱盘中冲高至2980港元，市值一度触及1.33万亿港元，成为国内首家市值破万亿的AI公司。同一天，MiniMax的股价还在300港元附近徘徊。 两家公司半年前几乎同一天上市，2026年上半年的收入规模相差不到20%，亏损规模几乎完全相同——但资本市场给它们的定价，差了将近7倍。截至9月10日，智谱总市值 3813.5亿，而MiniMax约1019.8亿港元。前者是后者的近4倍。 然而，2026年上半年，智谱和Mi..."
   }
  ]
 }
