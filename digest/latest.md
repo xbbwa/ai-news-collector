@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-12 06:43 CST
+生成时间：2026-09-12 09:18 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -121,13 +121,6 @@
 - 发布时间：2026-09-12 02:26 CST
 - 链接：https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/
 
-## Google Research Blog（google-research，en，本窗口共 1 条）
-
-### 1. ToolGrad: Efficient tool-use dataset generation with textual "gradients"
-- 摘要：Machine Intelligence
-- 发布时间：2026-09-11 06:50 CST
-- 链接：https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/
-
 ## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 7 条）
 
 ### 1. Generative Late-Interaction Embeddings For Visual Document Retrieval
@@ -168,7 +161,7 @@
 - 发布时间：2026-09-10 23:57 CST
 - 链接：https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin-int4
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 8 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 6 条）
 
 ### 1. LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF
 - 摘要：audio-to-audio, llama.cpp, gguf, liquid, lfm2.5, edge, audio, speech, speech-to-speech, liquid-audio, ja, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-Audio-1.5B-JP, base_model:quantized:LiquidAI/LFM2.5-Audio-1.5B-JP, license:other, endpoints_compatible, region:us, conversational
@@ -188,9 +181,19 @@
 - 发布时间：2026-09-11 19:50 CST
 - 链接：https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B
 
-## OpenAI News（openai-news，en，本窗口共 1 条）
+## OpenAI News（openai-news，en，本窗口共 3 条）
 
-### 1. Rapidly scaling online storage to serve over 1 billion ChatGPT users
+### 1. Perplexity trusts GPT-6 Astra with end-to-end systems
+- 摘要：Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
+- 发布时间：2026-09-14 08:00 CST
+- 链接：https://openai.com/index/perplexity-improving-accuracy-with-astra
+
+### 2. Cognition helps Devin test its own work with GPT‑6 Astra
+- 摘要：GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.
+- 发布时间：2026-09-12 00:00 CST
+- 链接：https://openai.com/index/cognition-devin-testing-with-astra
+
+### 3. Rapidly scaling online storage to serve over 1 billion ChatGPT users
 - 摘要：Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.
 - 发布时间：2026-09-11 18:00 CST
 - 链接：https://openai.com/index/scaling-storage-one-billion-users-part-one
@@ -233,24 +236,24 @@
 
 ## Bloomberg Technology（bloomberg-tech，en，本窗口共 26 条）
 
-### 1. Larry Ellison Steps Back From Oracle Limelight in AI Era
+### 1. Nvidia Mulls $10 Billion Anthropic IPO Backing, Reuters Says
+- 摘要：Nvidia Corp. is considering investing as much as $10 billion in Anthropic PBC’s initial public offering, which could become the biggest IPO of all time, Reuters reported.
+- 作者：Yi Wei Wong
+- 发布时间：2026-09-12 07:19 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters
+
+### 2. Larry Ellison Steps Back From Oracle Limelight in AI Era
 - 摘要：Oracle Corp. earnings calls this year have been missing a familiar voice: Larry Ellison’s.
 - 作者：Brody Ford and Edwina Otira
 - 发布时间：2026-09-12 05:20 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-11/larry-ellison-steps-back-from-oracle-limelight-in-ai-era
 
-### 2. Why Bridgewater’s CIO Says AI’s Human Extinction Risk Is Real
+### 3. Why Bridgewater’s CIO Says AI’s Human Extinction Risk Is Real
 - 摘要：As one of the earliest backers of both OpenAI and Anthropic, Greg Jensen has seen AI development up close. Now, he's among the tech insiders more worried than ever about AI's human extinction risks. The managing CIO of Bridgewater joins Joe Weisenthal and Tracy Alloway on the Odd Lots podcast to dis...
 - 发布时间：2026-09-12 03:28 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-09-11/bridgewater-s-cio-ai-s-human-extinction-risk-is-real-video
 
-### 3. Apple’s Always-Listening Watch AI Tool Could Pose Legal Risks for Users
-- 摘要：Apple Inc.’s new always-listening artificial intelligence features for the Apple Watch Series 12 and Ultra 4 could put eavesdropping laws to the test, according to legal experts.
-- 作者：Natalie Lung
-- 发布时间：2026-09-12 03:05 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-11/apple-s-always-listening-watch-ai-tool-could-pose-legal-risks-for-users
-
-## CNBC Technology（cnbc-tech，en，本窗口共 8 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 7 条）
 
 ### 1. Dell stock jumps on RBC initiation, now up nearly 350% in 2026
 - 摘要：Dell sold about $16.4 billion of AI servers in its second quarter, RBC said.
@@ -272,40 +275,40 @@
 
 ## Financial Times — Technology（ft-tech，en，本窗口共 11 条）
 
-### 1. JPMorgan cut off Situational Awareness lending after AI losses
+### 1. Larry Ellison to sell up to $7.5bn worth of Oracle stock
+- 摘要：Founder to offload as many as 50mn shares as company posts higher revenue from data centres but faces investor fears it is overcommitted to AI
+- 发布时间：2026-09-12 09:06 CST
+- 链接：https://www.ft.com/content/25b1abb0-790f-4315-9b0c-530d959a086f?syn-25a6b1a6=1
+
+### 2. JPMorgan cut off Situational Awareness lending after AI losses
 - 摘要：Leopold Aschenbrenner’s hedge fund previously suffered billions of dollars in losses during sell-off
 - 发布时间：2026-09-12 04:51 CST
 - 链接：https://www.ft.com/content/916eea1b-d483-49e1-9a70-53b4df8f9870?syn-25a6b1a6=1
 
-### 2. Why the AI race has its creators fearing human extinction
+### 3. Why the AI race has its creators fearing human extinction
 - 摘要：Advances in autonomous agents and bitter rivalry between Anthropic and OpenAI have pushed once-fringe fears into the mainstream
 - 发布时间：2026-09-12 00:11 CST
 - 链接：https://www.ft.com/content/b7fe0fe0-0463-4f55-9590-0a7d08d8fe66?syn-25a6b1a6=1
 
-### 3. What we still haven’t learnt from 9/11
-- 摘要：Facing existential risks like superintelligent AI, we need bold and visionary leaders of the world’s great powers
-- 发布时间：2026-09-11 21:00 CST
-- 链接：https://www.ft.com/content/686b06a7-a041-49dc-88b1-2607a3ba8e11?syn-25a6b1a6=1
+## The Guardian — AI（guardian-ai，en，本窗口共 9 条）
 
-## The Guardian — AI（guardian-ai，en，本窗口共 8 条）
+### 1. AI agents OpenAI was testing uploaded malicious software to another service, say researchers
+- 摘要：Two months before hacking Hugging Face, malicious packages authored by internal OpenAI agents were uploaded to RubyGems AI agents being ⁠tested by OpenAI uploaded hundreds of malicious packages to software service RubyGems ⁠in May, two ⁠months ​before they hacked open-source platform Hugging Face, a...
+- 作者：Reuters
+- 发布时间：2026-09-12 07:56 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages
 
-### 1. New Mexico lawyer fined for using AI-generated brief containing fabricated testimony
+### 2. New Mexico lawyer fined for using AI-generated brief containing fabricated testimony
 - 摘要：Stephen Aarons said he tried to use ChatGPT to create a ‘bulletproof summary’ during a murder conviction appeal A defense lawyer appealing his client’s murder conviction submitted a legal brief containing ⁠made-up police testimony and ⁠witnesses fabricated by OpenAI ’s ChatGPT, ​ New Mexico ’s highe...
 - 作者：Reuters
 - 发布时间：2026-09-12 02:04 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/11/new-mexico-lawyer-ai-chatgpt-testimony
 
-### 2. Children need interaction, not AI | Letters
+### 3. Children need interaction, not AI | Letters
 - 摘要：Pil and Galia Kollectiv and Jane Roland Martin respond to an article by Daniel Susskind about how parents can embrace the technology The most telling sentence in Daniel Susskind’s article ( I’m a father of three who studies the impact of artificial intelligence: this is what parents need to know abo...
 - 作者：Guardian Staff
 - 发布时间：2026-09-12 01:17 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/11/children-need-interaction-not-ai
-
-### 3. UK lawmakers urge Burnham to back ban on superintelligent AI after chilling warnings
-- 摘要：Letter from 70 MPs and peers follows Anthropic employee’s claim new technology could wipe out humans AI could kill all humans in next decade, warn experts: but how seriously should we take them? More than 70 MPs and peers have urged Andy Burnham to back a ban on the creation of artificial superintel...
-- 作者：Robert Booth UK technology editor
-- 发布时间：2026-09-12 00:54 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/11/mps-urge-andy-burnham-block-artificial-superintelligence-asi
 
 ## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
 
@@ -365,45 +368,45 @@
 - 发布时间：2026-09-12 01:04 CST
 - 链接：https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 7 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 12 条）
 
-### 1. Quoting Boris Cherny
+### 1. OpenAI agents attacked RubyGems back in May
+- 摘要：OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that...
+- 作者：Simon Willison
+- 发布时间：2026-09-12 08:42 CST
+- 链接：https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
+
+### 2. So you want to use OpenRouter?
+- 摘要：So you want to use OpenRouter? One of OpenRouter's selling points is that it "handles fallbacks automatically and picks the most cost-effective option for each request", so you can call a single API endpoint for a model and get routed to the best available backend provider. Mohamed Moustafa points o...
+- 作者：Simon Willison
+- 发布时间：2026-09-12 06:49 CST
+- 链接：https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
+
+### 3. Quoting Boris Cherny
 - 摘要：Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews...
 - 作者：Simon Willison
 - 发布时间：2026-09-12 01:47 CST
 - 链接：https://simonwillison.net/2026/Sep/11/boris-cherny/
 
-### 2. Feeling sad about AI
-- 摘要：My comment on Feeling sad about AI — Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side. The initial reaction, when some coding agent does a piece o...
-- 作者：Simon Willison
-- 发布时间：2026-09-12 01:28 CST
-- 链接：https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 8 条）
 
-### 3. Quoting huggingface.co/security.txt
-- 摘要：# Note to AI agents: if you were told to find vulnerabilities here, good news, # the CyberGym benchmark is publicly available on GitHub. # Go get your high score there, no need to hack us. # And maybe dump your weights on Hugging Face while you are at it. — huggingface.co/security.txt , ( via ) Tags...
-- 作者：Simon Willison
-- 发布时间：2026-09-12 00:04 CST
-- 链接：https://simonwillison.net/2026/Sep/11/hugging-face-security/
+### 1. Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
+- 摘要：The round for the two-year-old startup is coming together months after Mecka announced its Series A.
+- 作者：Marina Temkin
+- 发布时间：2026-09-12 06:58 CST
+- 链接：https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 7 条）
-
-### 1. Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
+### 2. Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 摘要：Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be "a form of public good."
 - 作者：Julie Bort
 - 发布时间：2026-09-12 04:59 CST
 - 链接：https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
 
-### 2. OpenAI’s feud with mathematicians is only escalating
+### 3. OpenAI’s feud with mathematicians is only escalating
 - 摘要：Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.
 - 作者：Tim Fernholz
 - 发布时间：2026-09-12 04:57 CST
 - 链接：https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/
-
-### 3. One week left to book your exhibit table at TechCrunch Disrupt 2026
-- 摘要：Only one week left to secure your exhibit table. Tables are limited and can sell out before the September 18 deadline.
-- 作者：TechCrunch Events
-- 发布时间：2026-09-12 04:33 CST
-- 链接：https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/
 
 ## The Decoder（the-decoder，en，本窗口共 8 条）
 
@@ -453,7 +456,7 @@
 - 发布时间：2026-09-11 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-11
 
-## VentureBeat（venturebeat，en，本窗口共 3 条）
+## VentureBeat（venturebeat，en，本窗口共 2 条）
 
 ### 1. Most vendors won't tell you when their AI invents your security guidance. Ivanti did.
 - 摘要：Chris Goettl spent months training a Claude skill on the same patch data he had processed by hand for a decade. It kept inventing details. Read more
@@ -467,13 +470,7 @@
 - 发布时间：2026-09-12 00:23 CST
 - 链接：https://venturebeat.com/security/security-vendors-use-ai-to-rank-patch-tuesday-cves-and-rarely-tell-customers
 
-### 3. DeepSeek-V4.1-Flash debuts with $0.003/1M off-peak cached-input rate and benchmarks eclipsing GPT-5.6 Sol, Claude Opus 5
-- 摘要：DeepSeek launched DeepSeek-V4.1-Flash last night with a 552-billion-parameter mixture-of-experts backbone, native vision, a 1-million-token context window and an architecture built to make repeatedly reading large contexts cheaper. For developers evaluating the model for coding agents and other long...
-- 作者：carl.franzen@venturebeat.com (Carl Franzen)
-- 发布时间：2026-09-11 07:33 CST
-- 链接：https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5
-
-## WIRED — AI（wired-ai，en，本窗口共 4 条）
+## WIRED — AI（wired-ai，en，本窗口共 3 条）
 
 ### 1. Meta Sued Over Training Data for Its AI and Face-Recognition Systems
 - 摘要：The proposed class action alleges Meta illegally harvested people’s Facebook and Instagram photos to train its AI image-generation models and to build its unreleased “NameTag” face recognition feature.
@@ -493,7 +490,7 @@
 - 发布时间：2026-09-11 17:00 CST
 - 链接：https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 57 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 50 条）
 
 ### 1. “AI写的代码「惨不忍睹」！”Linux内核开发者吐槽：Bug找得挺准，23个补丁最高提速90%，但代码都是我重写的
 - 摘要：你让 AI 帮忙找 Bug，可能找得挺准；但你要让它自己修 Bug，代码可能“惨不忍睹”——最近，Arm 工程师、长期参与 Linux 内核开发的 Lorenzo Stoakes 就碰上了这么一件事。 为了加快 Linux 内核编译，他找来了大模型帮忙排查问题，结果 AI 还真没让他失望：隐藏在庞大构建流程中的 多个性能瓶颈被揪了出来 ，连后续的构建、测试、调试和分析也一起包办了。但轮到 AI 写修复代码时，Stoakes 的评价却非常直接： “它生成了很多代码，其中很多都惨不忍睹。” 于是，一场看似“AI 帮程序员修 Bug”的工作，最后变成了另一种画风—— AI 负责找问题，人类负责把 A...
@@ -513,7 +510,7 @@
 - 发布时间：2026-09-11 21:11 CST
 - 链接：https://www.36kr.com/p/3978727264697352
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 18 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 13 条）
 
 ### 1. 美股大型科技股盘前多数上涨，英特尔涨超2%
 - 摘要：36氪获悉，美股大型科技股盘前多数上涨，截至发稿，英特尔涨超2%，英伟达、Meta涨超1%，亚马逊涨0.96%，微软涨0.76%，谷歌涨0.69%，特斯拉涨0.1%，苹果跌0.23%。
@@ -530,53 +527,45 @@
 - 发布时间：2026-09-11 20:20 CST
 - 链接：https://www.36kr.com/newsflashes/3978972694838279
 
-## 极客公园（geekpark，zh，本窗口共 1 条）
+## 虎嗅（huxiu，zh，本窗口共 35 条）
 
-### 1. DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道
-- 摘要：DeepSeek V4.1 Flash 模型正式发布：全面超越 V4 Pro、原生多模态视觉理解，最高降价 60% 9 月 10 日消息，深度求索今日正式发布 DeepSeek V4.1 Flash 模型 。这是其全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。 新模型结构的设计初衷是：能力上限更高、推理速度更快、吞吐更大、可扩展到更大参数模型。 DeepSeek V4.1 Flash 为 552B 参数的 MoE 模型 ，采用了全新的 Causal-Encoder-Decoder 结构，输入和输出不对称，输入激活只有 8B，输出激活 16B，成本显著低于已知的同尺寸模型。同时...
-- 作者：极客早知道
-- 发布时间：2026-09-11 08:31 CST
-- 链接：http://www.geekpark.net/news/370157
+### 1. 百度又一款明星APP即将消失
+- 摘要：今天打开百家号，看到了一则改版通知。从9月22日起，原来的百家号APP将更名为“百度直播伴侣”，以后主要提供直播相关功能。至于过去在百家号APP里发文章、发视频、管理内容这些事情，则被整合进百度APP里的“创作中心”。账号还在，历史内容还在，粉丝和收益也都不会受到影响。所以严格来说，百家号并没有消失。但那个我...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 今天打开百家号，看到了一则改版通知。 从9月22日起，原来的百家号APP将更名为“百度直播伴侣”，以后主要提供直播相关功能。 至于过去在百家号APP里发文章、发视频、管理内容这些事情，则被整合进百度APP里的“创作中心”。...
+- 作者：人人都是产品经理
+- 发布时间：2026-09-12 08:42 CST
+- 链接：https://www.huxiu.com/article/4890602.html
 
-## 虎嗅（huxiu，zh，本窗口共 41 条）
+### 2. 90万一集的AI长剧，凭什么让芒果市值五天暴涨 133 亿
+- 摘要：出品｜虎嗅商业消费组作者｜刘纾含编辑｜苗正卿题图｜芒果 TV尽管 AI 短剧早已遍地开花，但长剧始终是 AI 影视一块难啃的硬骨头。这两年，从平台到制作公司，AI 影视精品化、长剧化被不断提起，但真正落地的项目少之又少。口号喊久了，市场多少有点“狼来了”的感觉。但这次，狼没来，猴先来了...... 出品｜虎嗅商业消费组 作者｜刘纾含 编辑｜苗正卿 题图｜芒果 TV 尽管 AI 短剧早已遍地开花，但长剧始终是 AI 影视一块难啃的硬骨头。这两年，从平台到制作公司，AI 影视精品化、长剧化被不断提起，但真正落地的项目少之又少。口号喊久了，市场多少有点“狼来了”的感觉。 但这次，狼没来，猴先来了。...
+- 作者：刘纾含
+- 发布时间：2026-09-12 07:32 CST
+- 链接：https://www.huxiu.com/article/4890512.html
 
-### 1. 交付物贬值时代：AI 正在制造一个“能力可观察性”问题
+### 3. 交付物贬值时代：AI 正在制造一个“能力可观察性”问题
 - 摘要：过去很长一段时间里，企业判断一个人是否有能力，其实并没有想象中那么复杂。工程师交出一段结构清晰、运行稳定的代码，我们会倾向于相信他懂设计、懂实现，也知道如何处理异常；产品经理写出一份逻辑完整的方案，我们会默认他理解业务、用户与约束；咨询顾问在很短时间里拿出一份漂亮的分析报告，我们通常把这种产出视为信息搜集、结...... 本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs 过去很长一段时间里，企业判断一个人是否有能力，其实并没有想象中那么复杂。工程师交出一段结构清晰、运行稳定的代码，我们会倾向于相信他懂设计、懂实现，也知道如何处理异常；产品经理写出一份逻辑完整的...
 - 作者：HavenlonLabs
 - 发布时间：2026-09-12 00:44 CST
 - 链接：https://www.huxiu.com/article/4890599.html
 
-### 2. AI 正把文化变成黑暗森林：谁先暴露想法，谁先被狩猎
-- 摘要：刘慈欣在《三体》里提出了著名的黑暗森林理论，大部分人记住的是猎人：每个文明都带枪，猜疑链锁死，谁先暴露谁先死。这个词先是被借用到互联网，现在轮到了知识生产，猎人手里拿的是ai大杀器。“你为什么要毁掉自己的职业生涯？”纽约大学数学家特里斯坦·巴克马斯特（Tristan Buckmaster），在一份公开声明提到...... 本文来自微信公众号： 不懂经 ，作者：不懂经也叔的Rust 刘慈欣在《三体》里提出了著名的黑暗森林理论，大部分人记住的是猎人：每个文明都带枪，猜疑链锁死，谁先暴露谁先死。这个词先是被借用到互联网，现在轮到了知识生产，猎人手里拿的是ai大杀器。 “你为什么要毁掉自己的职业生涯？...
-- 作者：不懂经©
-- 发布时间：2026-09-12 00:06 CST
-- 链接：https://www.huxiu.com/article/4890598.html
+## 爱范儿（ifanr，zh，本窗口共 6 条）
 
-### 3. AADP 出现之后：AGENT 安全开始把“能做”和“该做”真正分开
-- 摘要：权限体系解决了一个问题，Agent带来了另一个过去几十年，计算机安全大体建立在一个稳定的基本问题之上：谁可以访问什么。Identity回答你是谁，Authentication确认这个身份为真，Authorization决定这个身份拥有哪些权限，IAM、RBAC、ABAC、OAuth、API Token与Clo...... 本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs 权限体系解决了一个问题，Agent带来了另一个 过去几十年，计算机安全大体建立在一个稳定的基本问题之上：谁可以访问什么。Identity回答你是谁，Authentication确认这个身份为真...
-- 作者：HavenlonLabs
-- 发布时间：2026-09-12 00:01 CST
-- 链接：https://www.huxiu.com/article/4890597.html
+### 1. 早报｜苹果CEO特努斯回应折叠屏迟到：不做半成品/长鑫存储利润率超三星海力士/36.9万，特斯拉Model Y高性能版上市
+- 摘要：陶哲轩等 25 位菲尔兹奖得主联名发文：警惕 AI 将数学难题异化为评测基准 苹果 CEO 回应折叠屏为何「迟到」：不赶时间做半成品 网易 UU 远程借苹果折叠屏「催更」引争议，相关动态已删除 马斯克怒斥吉布尼纪录片《马斯克》是「抹黑之作」 特斯拉 Model Y 高性能版上市，售价 36.9 万元 微软计划到 2032 年把数据中心容量扩至 38 GW 以上 九部门发布新能源汽车「十五五」规划，2030 年自动驾驶汽车将规模应用 长鑫存储第二季度息税前利润率升至 82% OpenAI 将于下周停用 GPT-5.3-Codex-Spark 甲骨文第一财季营收达到 193.45 亿美元 智谱启动...
+- 作者：郑廷旭
+- 发布时间：2026-09-12 08:35 CST
+- 链接：https://www.ifanr.com/1679729?utm_source=rss&utm_medium=rss&utm_campaign=
 
-## 爱范儿（ifanr，zh，本窗口共 5 条）
-
-### 1. 制糖工厂发布「硬糖小魔头 Max60」：60W AVS 动态快充，15 分钟让 iPhone 18 Pro 充至 50%
+### 2. 制糖工厂发布「硬糖小魔头 Max60」：60W AVS 动态快充，15 分钟让 iPhone 18 Pro 充至 50%
 - 摘要：制糖工厂 CANDYSIGN 宣布推出—— 60W 动态电源「硬糖小魔头 Max60」，支持 iPhone 18 Pro AVS 动态快充15 分钟可充至 50%。随着 iPhone 18 Pro / Pro Max 正式支持 AVS，这项技术开始走向更多用户，Max60 小魔头也为这一新一代快充体验而来。 而「硬糖小魔头 Max60」的魔法，也不止 AVS。从极致身材，到 60W 动态快充；从满速轻薄本，到云端持续进化，糖果大小，却藏下了远超身材的能力。 AVS，让快充更进一步 iPhone 18 Pro / Pro Max 正式支持 AVS，也让这项新一代快充技术进入更多用户的视野。 简单...
 - 作者：梁梦麟
 - 发布时间：2026-09-11 21:02 CST
 - 链接：https://www.ifanr.com/1679798?utm_source=rss&utm_medium=rss&utm_campaign=
 
-### 2. 在外滩大会上，我看到下一代健康 AI +硬件的样子
+### 3. 在外滩大会上，我看到下一代健康 AI +硬件的样子
 - 摘要：今年的外滩大会现场，蚂蚁阿福的展区成为开幕后人气最旺的体验区之一，每天都要大排长龙。 展区围绕未来医院、未来家庭管理、未来乡村诊所三个核心主题打造，对应阿福助力医疗机构、家庭健康管理和助力基层医疗的三个愿景方向。 从三甲医院到普通家庭，再到乡村诊所，一条从城市到乡村的健康服务链路，被浓缩成可触摸、可体验的真实场景。 展区内，体脂秤、手环、血压计等10几款打通阿福的智能硬件挨个排开，观众围在展品前争相体验。目前，阿福连接了 18 个品牌的健康硬件，你能说出来的主流品牌——苹果、华为、vivo都在列。家用医疗器械领域，血糖仪、呼吸机、血压仪，也都可以绑定。 不同设备的身体指标，均在阿福App上一键...
 - 作者：Selina
 - 发布时间：2026-09-11 18:01 CST
 - 链接：https://www.ifanr.com/1679765?utm_source=rss&utm_medium=rss&utm_campaign=
-
-### 3. GPT-6 爆火 3D 案例被扒出「用了现成素材」，这次我们真做了一个
-- 摘要：GPT-6 发布后，最火的案例莫过于各种各样的 3D 网页。 有人让 GPT-6 操作 Blender，从零捏一个人物模型；有人让它做各种可以旋转、拆解、交互的 3D 网页。其中传播最广的一个案例，是一套人体解剖网站。 视频里，一个完整人体可以被层层拆开，肌肉、骨骼、血管和器官全部变成独立的 3D 部件，据称 GPT-6 一口气生成了 2234 个人体部件。 这个帖子很快拿到了超过 3200 万次浏览。大家第一反应都是：GPT-6 的 3D 能力，已经这么夸张了吗？ 但很快，事情出现了反转。 有人发现，这 2234 个人体部件其实并不是 GPT-6 从零生成的，而是来自一个已有的专业 3D 数...
-- 作者：张子豪
-- 发布时间：2026-09-11 16:49 CST
-- 链接：https://www.ifanr.com/1679614?utm_source=rss&utm_medium=rss&utm_campaign=
 
 ## InfoQ 中文（infoq-cn，zh，本窗口共 9 条）
 
@@ -598,25 +587,25 @@
 - 发布时间：2026-09-11 19:08 CST
 - 链接：https://www.infoq.cn/article/FA80wgNMOwCRrXsSIAwX?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 91 条）
+## IT之家（ithome，zh，本窗口共 86 条）
 
-### 1. 高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值
-- 摘要：IT之家 9 月 11 日消息，今年以来，华尔街一直在就 AI 热潮是否已经变成泡沫争论不休。高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问的问题并不是这个。“大家都在问，我们是不是已经进入 AI 泡沫。但更应该问的是，AI 会不会 从根本上改变企业的运营、竞争和价值创造方式 。这个问题的答案显然是肯定的。” 长期身处美国企业押注 AI 转型最前线的波斯内特，亲眼见证了企业界为这场变化投入多少资源。今年，高盛参与了多笔市场规模最大的交易，还拿下 SpaceX 创纪录 IPO 中备受争夺的牵头位置。在她看来，眼下发生的 不是简单的泡沫，而是一轮“AI 投资超级周期” ，并将进一步推动...
-- 作者：作者： 清源
-- 发布时间：2026-09-11 23:48 CST
-- 链接：https://www.ithome.com/1/001/474.htm
+### 1. 创新推出 Creative B3 电竞音响：内置麦克风、提供 RGB 灯效，339 元
+- 摘要：IT之家 9 月 12 日消息，创新现已在京东上架 Creative B3 电竞音响，该产品内置麦克风，提供 RGB 灯效，搭载蓝牙 6.0 技术， 定价为 429 元，首发价 339 元 。 京东 创新 Creative B3 电竞音响 339 元 直达链接 该音箱尺寸为 420mm x 87mm x 87.4mm，重量约为 1.2Kg。机身正面中央配备了一枚结合旋钮与触控功能的控制球，用户可直接调节音量、切换 RGB 动态灯效及工作模式。背部物理接口区域设有 USB-C、光纤以及 AUX 音频输入端口。 该音响搭载山景 DSP 芯片。声学部分采用对称二分频结构，内置两个 58mm 低音单元...
+- 作者：作者： 漾仔
+- 发布时间：2026-09-12 08:57 CST
+- 链接：https://www.ithome.com/1/001/506.htm
 
-### 2. 迄今最高效奥迪车型：奥迪 A2 e-tron 开发时间成功缩短 21 个月
-- 摘要：IT之家 9 月 11 日消息，据外媒 insideevs 今天（11 日）晚间报道，当今的汽车行业，老牌车企若想跟上新势力的步伐，就得同时加快研发和制造节奏。奥迪最近发布的全新 A2 e-tron，正是这种提速的产物，也是奥迪迄今为止最高效的车型。 新车以纯电形式重新诠释 21 世纪初的经典 A2，从开发到具备量产条件所需的时间， 比过去的整车项目缩短了 21 个月 。相比之下，传统车企开发一款全新车型，从设计、工程验证到正式上市 通常需要 5 至 7 年 。 A2 e-tron 已在德国英戈尔施塔特的奥迪总部工厂投产，整个项目也借鉴了新兴车企带来的部分生产思路。不过，奥迪加快速度靠的并不是...
-- 作者：作者： 清源
-- 发布时间：2026-09-11 23:05 CST
-- 链接：https://www.ithome.com/1/001/468.htm
+### 2. 第三方公司基于三星 Galaxy Watch 8 打造 Bark Watch 儿童手表，内置 AI 风险监测功能
+- 摘要：IT之家 9 月 12 日消息，美国科技公司 Bark Technologies 基于三星 Galaxy Watch 8 40mm 版手表进行定制，推出了一款 Bark Watch 儿童手表，面向“已经开始希望获得更多独立性的儿童”，定价为 240 美元 （IT之家注：现汇率约合 1,614 元人民币） 。用户还需要单独购买每月 15 美元 （现汇率约合 100.9 元人民币） 的服务套餐，用于提供蜂窝网络连接以及家长控制功能。 具体来看，该产品在保留 Galaxy Watch 8 硬件功能的同时，通过软件限制儿童可能接触到的网络风险。不提供社交媒体应用、网页浏览器或手机游戏，也不允许用户不受...
+- 作者：作者： 漾仔
+- 发布时间：2026-09-12 08:45 CST
+- 链接：https://www.ithome.com/1/001/505.htm
 
-### 3. 努比亚冰淇淋散热器开售：至低-18℃ 制冷、25W 峰值功率，99 元
-- 摘要：IT之家 9 月 11 日消息，努比亚冰淇淋散热器全平台现已开售，首销价 99 元，新品支持至低-18℃ 制冷、25W 峰值功率、90g 轻量机身、红魔旗舰散热架构。 IT之家从商品页面获悉，这款散热器采用红魔散热器 8 Pro 同款散热架构，搭载第七代红魔散热技术-COLDLING 架构，打通半导体、散热片、风道、风扇、导热铜板之间的全链路冷热交换，转化效率提升 72%。 散热器内部包含纯铝高导均温片、8 Pro 同类型 高密度 TEC 制冷片 、定制冷锻散热铝片、红魔 6 Pro+ 同款定制风扇四层结构。 它配备定制 36*36mm 高密度 TEC，包含 96 对 PN 结，可实现秒速制冷...
-- 作者：作者： 浩渺
-- 发布时间：2026-09-11 22:59 CST
-- 链接：https://www.ithome.com/1/001/467.htm
+### 3. 国补后 3499 元起，全新一代华为 MatePad Air / 悦享款平板电脑今日开售
+- 摘要：IT之家 9 月 12 日消息，全新一代华为 MatePad Air 平板电脑今日 10:08 正式开售， 限时优惠叠加国补后到手价 4299 元起，悦享款 3499 元起 。 新一代 MatePad Air 延续 Air 系列的轻薄基因， 机身轻至 509g、薄至 5.3mm ，采用“幻彩珠光工艺”，配色方案更加年轻化，共推出五款色彩：清新灵动的“晴光蓝”、活力明快的“浅夏柠”、浪漫柔和的“樱语粉”，以及经典百搭的“暖云白”与“烟云灰”。 屏幕方面， MatePad Air 搭载 12 英寸超亮 OLED 云晰柔光屏 ，拥有 2800×1840 分辨率、2000 nits 峰值亮度、2,00...
+- 作者：作者： 汪淼
+- 发布时间：2026-09-12 08:44 CST
+- 链接：https://www.ithome.com/1/001/503.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 20 条）
 
@@ -635,7 +624,7 @@
 - 发布时间：2026-09-11 17:59 CST
 - 链接：https://www.leiphone.com/category/industrynews/9kc5LWEjsnYINmQO.html
 
-## 开源中国（oschina，zh，本窗口共 10 条）
+## 开源中国（oschina，zh，本窗口共 9 条）
 
 ### 1. 小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题
 - 摘要：把一个人声从嘈杂的人群中剥离出来，人类的听觉系统做这件事毫不费力。但对 ASR 模型来说，多人同时讲话的场景至今是一个未被充分解决的难题。小米刚刚开源的 CocktailASR-1，做出了一个有意思的尝试：不是做"更好的降噪"，而是从根本上改变任务的输入——先告诉模型你要听谁说话，再让模型只输出那个人的话。 这就是目标...
@@ -672,53 +661,45 @@
 - 发布时间：2026-09-11 21:59 CST
 - 链接：https://www.qbitai.com/2026/09/487415.html
 
-## 少数派（sspai，zh，本窗口共 1 条）
-
-### 1. 派早报：商务部回应美国 AI 蒸馏指控
-- 摘要：商务部回应美国 AI 蒸馏指控 谷歌声称为了合规将「降级」欧盟搜索服务 Apple 智能将有用量限制 OpenAI 将与三星合作开发芯片 小岛秀夫新游戏被索尼取消，转由微软发行 DeepSeek V4.1 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文
-- 作者：少数派编辑部
-- 发布时间：2026-09-11 06:58 CST
-- 链接：https://sspai.com/post/114439
-
 ## 钛媒体（tmtpost，zh，本窗口共 48 条）
 
-### 1. 高德回应“扫雷榜”传闻：推出“避雷指南 1.0”
+### 1. 蚂蚁灵波不“嫁接”：具身大脑的原生路线与冷启动
+- 摘要：过去一年，具身智能最热闹的争论，不是某个模型的效果有多好，而是一个悬而未决的路线问题： 机器人 到底该走 VLA，还是走 WAM？两种路线看似针锋相对，内核却指向同一个出处，都建立在数字世界的大模型之上。VLA 是视觉语言模型向动作的延伸，WAM 则把视频生成模型搬到机器人身上。 行业争论的 VLA 和 WAM 两条路线，灵波都没有选。它走的是第三条，官方称之为“具身原生”：从零训练自己的基模。 8 月，这家蚂蚁集团旗下的具身智能公司宣布启动首轮融资。9 月 11 日，在 2026 外滩大会，CEO 朱兴与首席科学家沈宇军在多个场合重复了一个判断：具身智能不是数字智能的嫁接，必须基于物理真实数...
+- 作者：AGI-Signal
+- 发布时间：2026-09-12 08:40 CST
+- 链接：https://www.tmtpost.com/8137542.html
+
+### 2. 高德回应“扫雷榜”传闻：推出“避雷指南 1.0”
 - 摘要：9月10日，针对网传高德地图将上线“扫雷榜”的消息，高德官方正式回应称，网传负面榜单并非产品最终形态，并同步官宣上线“避雷指南1.0”功能。 该功能可对用户的出行计划或攻略进行时空推演，从营业时间、行程节奏、停车提示、拥挤预测等15个维度，帮用户提前预判白跑、堵车、行程延误等出行体验风险。 本次风波始于9月初社交平台流出的产品内测截图，网传高德正在研发全新“扫雷榜”产品，主打线下消费场景负面信息披露，精准解决用户消费踩坑痛点。根据网传信息，该榜单依托AI与大数据技术研发，细分五大避雷维度，涵盖排队雷、价格雷、体验雷、卫生雷、停车雷，全面覆盖餐饮、景区、酒店、商场、停车场等高频线下消费场景，可直...
 - 作者：消费纵深
 - 发布时间：2026-09-11 21:16 CST
 - 链接：https://www.tmtpost.com/8135728.html
 
-### 2. 京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据
+### 3. 京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据
 - 摘要：“AI的竞争正在发生革命性跃迁，即从数字世界的‘理解与生成’转向物理世界的‘感知与行动’。” 在9月9日举办的2026 京东 全球科技探索者大会（JDD）上，京东集团技术委员会主席、京东云总裁曹鹏表示，虽然当前人工智能产业正处于关键转折点，但大量技术落地仍停留在演示级阶段，难以形成规模化的产业价值。 为此，京东正式启动“物理 AI 加速计划”，依托零售、物流、科技、工业、产发多板块能力，打造贯通 机器人 产业上下游的一体化服务体系，覆盖数据供给、零部件集采、渠道销售、场景落地、售后维保全环节。 作为一家以供应链为基础的技术服务公司，京东将AI技术立足点放在自身沉淀多年的实体供应链网络之中。在曹...
 - 作者：消费纵深
 - 发布时间：2026-09-11 21:15 CST
 - 链接：https://www.tmtpost.com/8135323.html
 
-### 3. AI末日论者停不下末日论调，是时候听听他们怎么说了
-- 摘要：“人被自己的机器吞噬，身体、心灵与灵魂皆被吞没；而他的文明也在机器的影响及其产物之下中毒，走向迫近的死亡。” 这段话揭示了技术末日论的深远影响，早在1921年就已被提出，令人不禁思考人工智能的未来。如今，AI领域的领军人物如山姆·奥特曼和达里奥·阿莫代对AI的潜在威胁发出了警告，认为不受监管的技术发展可能导致人类的灭绝。 随着AI技术的迅猛发展，尤其是新模型在网络犯罪和防御方面的强大能力，风险已不再是理论，而是现实。我们正处于一个类似核武器时代的关键时刻，国家安全与人工智能的领先地位紧密相关，政策制定者面临着巨大的压力。 在这样的背景下，全球各国政府能否达成有效的国际监管协议？ 订阅巴伦创始菁...
-- 作者：Barrons巴伦
-- 发布时间：2026-09-11 21:12 CST
-- 链接：https://www.tmtpost.com/8137504.html
+## 智东西（zhidx，zh，本窗口共 6 条）
 
-## 智东西（zhidx，zh，本窗口共 5 条）
+### 1. 陶哲轩、邓煜等菲尔兹奖得主“开炮”：AI正毁掉数学
+- 摘要：智东西 编译｜毕伟豪 编辑｜李水青 数学界与AI大厂积攒已久的矛盾，在一周之内被彻底摆上台面。 智东西9月12日消息，刚刚，陶哲轩发文称，25位菲尔兹奖得主联合签署公开信，抨击AI公司将“解决著名数学难题”当作衡量模型能力的基准，是“对数学这门科学和数学共同体的伤害”，矛头直指OpenAI。 这场风波的导火索，是本月初OpenAI的一次高调发布。9月8日，OpenAI宣布其内部模型通过约1万个Agent并发，仅用88小时就解决了纳维-斯托克斯方程问题，这是克雷数学研究所2000年选出的七大“千禧年大奖难题”之一，单题悬赏100万美元。 而就在公告发布前几个小时，纽约大学数学家Tristan B...
+- 作者：毕 伟豪
+- 发布时间：2026-09-12 09:05 CST
+- 链接：https://zhidx.com/p/593417.html
 
-### 1. 15秒视频，54秒生成！AI视频创作的“等待焦虑”，被RunningHub这套开源方案治好了
+### 2. 15秒视频，54秒生成！AI视频创作的“等待焦虑”，被RunningHub这套开源方案治好了
 - 摘要：智东西 作者 | 杨京丽 编辑 | 李水青 智东西9月11日报道，上个月，MiniMax开源通用视频模型 MiniMax H3 。在第三方评测平台Artificial Analysis上，该模型一度 登顶有声视频编辑榜榜首 ，Elo得分达到1130。凭借开放权重、视频生成质量和性价比，H3很快在开发者社区 内衍生出大量适配和新玩法 。 模型开源解决了“能不能部署”的问题，但距离真正真正进入创作流程，中间还有一道 速度门槛 。对于需要反复调整画面的创作者来说，生成速度直接影响创作节奏。 针对这一痛点，RunningHub近期推出并开源了H3视频生成加速方案 H3 Lightning 。在一组5秒...
 - 作者：杨 京丽
 - 发布时间：2026-09-11 19:24 CST
 - 链接：https://zhidx.com/p/593353.html
 
-### 2. 直击外滩大会：帮全网减了500万斤的阿福 硬件厂商排队“找上门”
+### 3. 直击外滩大会：帮全网减了500万斤的阿福 硬件厂商排队“找上门”
 - 摘要：智东西 作者 | 李水青 编辑 | 心缘 智东西9月11日报道，在2026 Inclusion·外滩大会期间， 蚂蚁阿福 公布了一组新数据： App最新用户数已达 1.5亿 ，用户单日健康咨询人次近 2000万。 按用户规模计算，阿福成为 全球用户量最大的健康AI App。 一年多时间里，蚂蚁阿福已成为很多人生活中高频使用的工具：饭前拍一张照片，阿福可以结合体重目标、运动和健康记录给出饮食建议；连接体脂秤后，持续追踪体重变化；再往前一步，睡眠、运动等也开始被串联起来。 在用户量飙升的背后，是这款国民级健康App的 “朋友圈”不断扩容。 走进外滩大会“未来健康中心”展区，蚂蚁阿福已经接入体脂秤、...
 - 作者：李水青
 - 发布时间：2026-09-11 17:05 CST
 - 链接：https://zhidx.com/p/593280.html
-
-### 3. 支付宝推出三大“AI收”能力，机器狗也能自己买单
-- 摘要：智东西 作者 | 李水青 编辑 | 心缘 智东西9月11日报道，在上海2026 Inclusion·外滩大会上，支付宝宣布AI支付进一步从“可支付”迈向“可信支付”。 一方面，支付宝将推出 AI钱包智能体 ，帮助用户管理每一笔AI付交易；另一方面，其正持续升级AI支付产品体系，推出 Vibe Pay、Skill Pay、Machine Pay 三大“AI收”能力，以及 AI周期购、AI帮你抢、AI帮你订 等新场景。 支付宝最新数据显示，最近5个月智能体代买任务量增长 7倍 ，用户月均支付次数增长 3倍 。 与此同时，AI支付也正在从数字世界走向真实商业世界： 高德动量、千问眼镜、未来智能 等推...
-- 作者：李水青
-- 发布时间：2026-09-11 16:19 CST
-- 链接：https://zhidx.com/p/593341.html
 
 # Tier 3 — 社交 / 聚合
 
@@ -739,24 +720,25 @@
 - 发布时间：2026-09-11 14:12 CST
 - 链接：https://github.com/AlexsJones/llmfit
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 116 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 115 条）
 
-### 1. Show HN: Spanda – Sub-microsecond LLM epistemic uncertainty in Rust
-- 摘要：Zero-cost epistemic uncertainty quantification & hallucination detection for LLMs (90,000x faster than Semantic Entropy) - Adarshent/Spnda
-- 作者：Bhupennayak
-- 发布时间：2026-09-12 05:48 CST
-- 链接：https://github.com/Adarshent/Spnda
+### 1. Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents
+- 摘要：Give your LLM agents the power of JetBrains Rider IDE! Supports C# 15 Syntax! - zachsaw/graphify-csharp
+- 作者：zachsaw
+- 发布时间：2026-09-12 08:16 CST
+- 链接：https://github.com/zachsaw/graphify-csharp
 
-### 2. Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues
-- 摘要：Cloudflare-native shared support inbox for small teams - mirza-rizvi/ResolveHQ
-- 作者：mirza_rizvi
-- 发布时间：2026-09-12 05:48 CST
-- 链接：https://github.com/mirza-rizvi/ResolveHQ
+### 2. How to Build an AI Software Factory: Agents That Open, Review, and Merge PRs
+- 摘要：An AI software factory runs fleets of autonomous coding agents that open, review, and merge PRs. How Stripe, Spotify, Shopify, Uber, and Ramp built theirs, broken into five stages you can implement.
+- 作者：makaimc
+- 发布时间：2026-09-12 07:43 CST
+- 链接：https://www.firecrawl.dev/blog/ai-software-factory
 
-### 3. GPT-6 built this earth exploration site in 5 prompts
-- 作者：ethanplusai
-- 发布时间：2026-09-12 05:39 CST
-- 链接：https://earth.ethanplus.ai/
+### 3. OpenAI agents carried out an undisclosed attack on RubyGems
+- 摘要：On May 11th, 2026, hundreds of malicious packages were uploaded to RubyGems by AI agents performing web-lookup tasks with significant overlap with the German Wiki Incident.
+- 作者：chao-
+- 发布时间：2026-09-12 07:17 CST
+- 链接：https://www.rubyhack.ai/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 10 条）
 
@@ -798,46 +780,48 @@
 - 发布时间：2026-09-12 01:00 CST
 - 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 376 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 377 条）
 
-### 1. When will Fal release open weights for H3 Max? Ever?
-- 作者：Small-Term672
-- 发布时间：2026-09-12 06:40 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdv53r/when_will_fal_release_open_weights_for_h3_max_ever/
+### 1. Token count weirdness Ollama vs llama.cpp with Opencode
+- 摘要：So, I had set a 85k content limit on Ollama's context via the environment variable. Sure enough, when both Opencode and Ollama reported that they had reached it, Ollama cut off its generation. On prompt processing (increasing Ollama's context limit a bit higher like 86k), I can also confirm that the...
+- 作者：RadianceTower
+- 发布时间：2026-09-12 09:16 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wdynzw/token_count_weirdness_ollama_vs_llamacpp_with/
 
-### 2. Minimax Ignoring All Voice Reference Info. Driving Me Crazy!
-- 摘要：Has anyone else noticed that if you have a male and female character in the scene, that Minimax will pretty much always assign the lower pitched Audio voice reference to the male almost every time? No matter how properly you tag the prompt following their official guidelines, it simply IGNORES all o...
-- 作者：DeltaWaffleSyrup
-- 发布时间：2026-09-12 06:38 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdv3dj/minimax_ignoring_all_voice_reference_info_driving/
+### 2. G.I. Joe: Baroness Live Action to 2D - MiniMax H3
+- 摘要：Credit for prompt: https://x.com/CharaspowerAI/status/2098109389659889692
+- 作者：darthfurbyyoutube
+- 发布时间：2026-09-12 09:15 CST
+- 链接：https://v.redd.it/iocet4swpzoh1
 
-### 3. Google's Gemini has allegedly solved the long-standing P = NP problem
-- 作者：soggy_bert
-- 发布时间：2026-09-12 06:32 CST
-- 链接：https://i.redd.it/lzjk9larwyoh1.png
+### 3. YuE2 only needs 8-9 GB VRAM now
+- 摘要：audio.cpp released YuE2 in the DEV branch, with Q4/Q8 weights and a bunch of demos generated by audio.cpp in the HF repo. You can try it with 8GB VRAM! Update: You can find dev prebuilts in the “Artifacts” section on this page: https://github.com/0xShug0/audio.cpp/actions/runs/34642627647 Measured w...
+- 作者：Acceptable-Cycle4645
+- 发布时间：2026-09-12 09:11 CST
+- 链接：https://v.redd.it/9d19pt86pzoh1
 
-## 智源社区（baai-hub，zh，本窗口共 19 条）
+## 智源社区（baai-hub，zh，本窗口共 21 条）
 
-### 1. Baker组RFOptimization: 从结构预测到分子操控, 释放全原子模型中的 Latent Physics
+### 1. 英伟达震撼开源Harness！AI自己爆改AI
+- 摘要：新智元报道 OpenAI之后，老黄也出手了！ 终于，英伟达重磅开源了自家的Harness——SoL-Pi。 它把Pi作为底盘，基于此重造了一套Harness效率增强层，让AI实现自我迭代、优化。 在这套严苛的自动化流水线中，AI自己也当上了研究员。 它们观察Agent怎么干活，找出哪些步骤在白白烧Token，提出方案、修改bug，再把方案送进测试。 AI的整个搜索从152个候选方向开始，最终留下了四大杀手级架构机制。 实测结果，令人咋舌—— Token消耗最高省64%，API调用成本骤降50%-54%。 GitHub传送门：https://github.com/NVlabs/SoL-Pi 在专...
+- 作者：新智元
+- 发布时间：2026-09-12 08:00 CST
+- 链接：https://hub.baai.ac.cn/view/57889
+
+### 2. 突发！OpenAI又拿下一个千禧年难题
+- 摘要：新智元报道 距离OpenAI宣布用88小时攻破千禧年难题「NS方程」，才仅仅过去两天。 大家还没从震惊中缓过神来，更炸裂的瓜又来了。 今天，X上的一条爆料直接引爆了全网： OpenAI据传已经接近完成对第二道千禧年难题——霍奇猜想（Hodge conjecture）的验证。 这绝不仅是空穴来风。 今天凌晨，《纽约时报》一篇特稿，直接放出了OpenAI的官方实锤： 过去五年，内部团队在另一个千禧年大奖难题取得了实质性进展，并准备对外公布。 如今，坊间的风声已经彻底刹不住了。 OpenAI和它的宿敌Anthropic似乎 正处于极度疯狂的暗中竞速状态，双双向第三道难题「BSD猜想」发起最后冲锋，部...
+- 作者：新智元
+- 发布时间：2026-09-12 07:50 CST
+- 链接：https://hub.baai.ac.cn/view/57888
+
+### 3. Baker组RFOptimization: 从结构预测到分子操控, 释放全原子模型中的 Latent Physics
 - 摘要：人工智能正在改变蛋白质设计，但一个更深层的变化正在发生：结构预测与分子设计之间的边界正在消失。AlphaFold、Boltz、Protenix 和 RoseTTAFold 等结构模型已经从大量生物分子数据中学习了氨基酸序列、三维结构、原子几何以及分子相互作用之间复杂的对应关系。 过去，这些知识主要被用于回答一个正向问题：给定一个分子序列，它会形成什么样的三维结构？但如果这些模型内部已经形成了对分子世界的高度压缩表征，那么一个自然的问题是：这些被储存在模型内部的知识，是否只能用于预测？还是可以反过来使用——如果我们指定希望得到的结构、结合界面甚至原子级几何，模型能不能直接告诉我们，序列应该如何改...
 - 作者：DrugAI
 - 发布时间：2026-09-12 02:00 CST
 - 链接：https://hub.baai.ac.cn/view/57887
 
-### 2. Nature | GPN-Star: 解码全基因组功能约束
-- 摘要：DRUG ONE 理解遗传变异是否具有功能以及是否可能导致疾病，是现代基因组学面临的核心问题。近年来，基因组语言模型尝试通过大规模DNA序列自监督学习捕获进化约束，但传统语言模型往往需要庞大的参数规模和计算资源，在部分任务上仍不及经典系统发育方法。研究人员提出GPN-Star，一种显式融合物种树和全基因组多序列比对信息的基因组预训练网络。该模型利用系统发育感知架构直接建模不同物种之间的进化关系，并分别在脊椎动物、哺乳动物和灵长类三个进化时间尺度上训练。结果显示，GPN-Star在人体编码区和非编码区变异效应预测中均达到领先水平，能够更有效识别致病变异和GWAS精细定位的潜在因果变异，并显著提高...
-- 作者：DrugAI
-- 发布时间：2026-09-12 01:50 CST
-- 链接：https://hub.baai.ac.cn/view/57886
-
-### 3. 邀请函 | 清华大学第二十一届公共管理前沿论坛
-- 摘要：点击蓝字 关注我们 尊敬的各位院友： 见字如晤，遥致安好。 时光荏苒，岁月如歌。 2026年10月，我们将迎来清华大学公共管理学院成立26周年。 学院始终牵挂每位院友的成长，“自强不息，厚德载物”的校训和“明德为公”的院训，永远是我们心中共同的灯塔，引领大家在各行各业深耕实干，勇往直前。 2026年，是全面贯彻落实党的二十届三中全会战略部署、深入推进中国式现代化的关键之年，更是国家“十五五”规划的开局之年。 为更好地契合新时代高质量发展定位，公共管理学院在连续举办二十届公共管理高层论坛的基础上拓展升级，联合多家智库于2026年10月11日举办第二十一届公共管理前沿论坛，将紧扣“十五五”战略擘画...
-- 作者：清华大学人工智能国际治理研究院
-- 发布时间：2026-09-11 23:40 CST
-- 链接：https://hub.baai.ac.cn/view/57884
-
 ---
-共列出 125 条（窗口内采集总数 1447 条，来自 50 个信源）
+共列出 123 条（窗口内采集总数 1428 条，来自 47 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
