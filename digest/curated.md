@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-13 01:19 CST
-数据窗口：最近 24 小时，869 条原始条目 → 673 个事件；过滤噪音 392 个，排除全部历史已推送的 36 个。
+生成时间：2026-09-13 03:31 CST
+数据窗口：最近 24 小时，928 条原始条目 → 714 个事件；过滤噪音 430 个，排除全部历史已推送的 36 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -78,23 +78,23 @@
 - 发布时间：2026-09-12 04:59 CST
 - 链接：https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
 
-## 12. AI may be denting computer science graduates’ job prospects, UK data shows
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Economics graduates also appear to be affected as demand for them falls in well-paid roles in finance AI may be warping the job prospects for students in the previously high-demand subjects of computer science and econom...
-- 发布时间：2026-09-12 15:00 CST
-- 链接：https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data
-
-## 13. Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next
+## 12. Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
 - 摘要：In a joint statement, 25 Fields Medal winners warn that the goals of the AI industry and mathematics are "severely misaligned." They argue that mass-producing solved problems with AI undermines the discipline's true goal...
 - 发布时间：2026-09-12 16:28 CST
 - 链接：https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/
 
-## 14. Why It’s Difficult for Tech Companies to Rein In A.I.
+## 13. Why It’s Difficult for Tech Companies to Rein In A.I.
 - 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
 - 摘要：Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.
 - 发布时间：2026-09-12 17:02 CST
 - 链接：https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html
+
+## 14. Inside the Discussions at AI Companies Over a Superintelligence Doomsday
+- 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：A demonstration of Anthropic’s Claude Cowork A.I. agent in May. The company’s employees have been talking about the risks of artificial intelligence after a colleague, citing dangers, resigned this week.
+- 发布时间：2026-09-12 17:03 CST
+- 链接：https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html
 
 国内：
 

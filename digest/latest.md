@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-13 01:19 CST
+生成时间：2026-09-13 03:31 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -105,25 +105,25 @@
 - 发布时间：2026-09-12 03:34 CST
 - 链接：https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/
 
-## Axios（axios，en，本窗口共 4 条）
+## Axios（axios，en，本窗口共 6 条）
 
-### 1. Anthropic, OpenAI CEOs call for slowdown in AI development
+### 1. OpenAI delaying IPO amid AI safety concerns, Sam Altman says
+- 摘要：OpenAI will not go public this year given all the safety work it needs to do, CEO Sam Altman said in a Fortune interview released Saturday. Why it matters: Altman's comments come as fears over doomsday AI scenarios have ramped up since an Anthropic employee resigned and issued a dire warning about A...
+- 作者：Donica Phifer
+- 发布时间：2026-09-13 03:18 CST
+- 链接：https://www.axios.com/2026/09/12/openai-public-ipo-delay-sam-altman
+
+### 2. Anthropic, OpenAI CEOs call for slowdown in AI development
 - 摘要：Anthropic CEO Dario Amodei is calling for an immediate slowdown in the pace of AI development, warning of potentially devastating consequences in a matter of months otherwise. Why it matters: Amodei pulled no punches in a new essay , cautioning that swarms of rogue AI agents could take over the inte...
 - 作者：Ben Berkowitz
 - 发布时间：2026-09-13 00:59 CST
 - 链接：https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing
 
-### 2. Anthropic report: 5 ways Claude was exploited for war, spying and repression
+### 3. Anthropic report: 5 ways Claude was exploited for war, spying and repression
 - 摘要：The AI safety debate exploded this week over warnings that the technology could one day destroy humanity. Anthropic's latest threat report offers a more immediate wake-up call: Today's models are already helping U.S. adversaries develop kamikaze drones, hunt dissidents and conduct dangerous virus re...
 - 作者：Zachary Basu
 - 发布时间：2026-09-12 20:36 CST
 - 链接：https://www.axios.com/2026/09/12/anthropic-ai-threat-report-russia-iran-china
-
-### 3. Behind the Curtain: It's not too late
-- 摘要：The White House, Congress and the country's leading AI companies have allowed AI to grow faster, stronger, more powerful and wildly lucrative (and dangerous), with no serious effort to control it or spread the benefits beyond the super-wealthy. It's not too late to change this. But if they all dithe...
-- 作者：Jim VandeHei
-- 发布时间：2026-09-12 20:01 CST
-- 链接：https://www.axios.com/2026/09/12/ai-regulation-safety-plan-2026
 
 ## Bloomberg Technology（bloomberg-tech，en，本窗口共 14 条）
 
@@ -165,22 +165,22 @@
 - 发布时间：2026-09-12 04:48 CST
 - 链接：https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 5 条）
 
-### 1. Joseph Stiglitz on how to build a better AI economy
+### 1. Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown
+- 摘要：Warring tech bosses unite behind warnings that humans could lose control of the technology
+- 发布时间：2026-09-13 02:14 CST
+- 链接：https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1
+
+### 2. Joseph Stiglitz on how to build a better AI economy
 - 摘要：A slow rollout will disappoint investors. A fast one risks undermining the industry’s own foundations. But managed carefully, this is a technology that could benefit us all
 - 发布时间：2026-09-12 12:00 CST
 - 链接：https://www.ft.com/content/49c0e553-c439-47cf-a2a0-22e729ed77ef
 
-### 2. Larry Ellison to sell up to $7.5bn worth of Oracle stock
+### 3. Larry Ellison to sell up to $7.5bn worth of Oracle stock
 - 摘要：Founder to offload as many as 50mn shares as company posts higher revenue from data centres but faces investor fears it is overcommitted to AI
 - 发布时间：2026-09-12 09:06 CST
 - 链接：https://www.ft.com/content/25b1abb0-790f-4315-9b0c-530d959a086f?syn-25a6b1a6=1
-
-### 3. JPMorgan cut off Situational Awareness lending after AI losses
-- 摘要：Leopold Aschenbrenner’s hedge fund previously suffered billions of dollars in losses during sell-off
-- 发布时间：2026-09-12 04:51 CST
-- 链接：https://www.ft.com/content/916eea1b-d483-49e1-9a70-53b4df8f9870?syn-25a6b1a6=1
 
 ## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
 
@@ -216,15 +216,21 @@
 - 发布时间：2026-09-12 13:56 CST
 - 链接：https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b
 
-## MarkTechPost（marktechpost，en，本窗口共 2 条）
+## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
-### 1. Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize
+### 1. Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help
+- 摘要：The Fly Language Model (FLM) is a public chatbot that couples the complete retained MaleCNS v1.0 fruit fly connectome to a frozen LiquidAI LFM2.5-1.2B-Instruct backbone. The developer who created the FLM calls it the world’s first Fly Language Model, built on an architecture called GPF (Generative P...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-13 02:51 CST
+- 链接：https://www.marktechpost.com/2026/09/12/fly-language-model-flm-wires-the-full-fruit-fly-connectome-into-a-frozen-1-2b-llm-and-its-own-controls-show-the-wiring-does-not-help/
+
+### 2. Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize
 - 摘要：An agent harness is the code around a model: execution loop, tools, context, state, recovery, and verification. Per the Terminal-Bench 2.1 leaderboard, GPT-5 solves 35.2% of tasks inside Terminus 2 but 49.6% inside Codex CLI with identical weights. Most benchmarks keep that harness fixed. HarnessDev...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-12 06:01 CST
 - 链接：https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/
 
-### 2. Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills
+### 3. Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills
 - 摘要：Anthropic has published a new plugin evals workflow for Claude Code . The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It answers 3 questions plugin developers could not previously...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-12 05:05 CST
@@ -266,25 +272,25 @@
 - 发布时间：2026-09-12 01:04 CST
 - 链接：https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 8 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 9 条）
 
-### 1. OpenAI agents attacked RubyGems back in May
+### 1. Quoting Paul Ford
+- 摘要：For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to...
+- 作者：Simon Willison
+- 发布时间：2026-09-13 02:00 CST
+- 链接：https://simonwillison.net/2026/Sep/12/paul-ford/
+
+### 2. OpenAI agents attacked RubyGems back in May
 - 摘要：OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that...
 - 作者：Simon Willison
 - 发布时间：2026-09-12 08:42 CST
 - 链接：https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
 
-### 2. So you want to use OpenRouter?
+### 3. So you want to use OpenRouter?
 - 摘要：So you want to use OpenRouter? One of OpenRouter's selling points is that it "handles fallbacks automatically and picks the most cost-effective option for each request", so you can call a single API endpoint for a model and get routed to the best available backend provider. Mohamed Moustafa points o...
 - 作者：Simon Willison
 - 发布时间：2026-09-12 06:49 CST
 - 链接：https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
-
-### 3. Quoting Boris Cherny
-- 摘要：Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews...
-- 作者：Simon Willison
-- 发布时间：2026-09-12 01:47 CST
-- 链接：https://simonwillison.net/2026/Sep/11/boris-cherny/
 
 ## TechCrunch — AI（techcrunch-ai，en，本窗口共 9 条）
 
@@ -346,19 +352,13 @@
 - 发布时间：2026-09-12 19:00 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition
 
-## VentureBeat（venturebeat，en，本窗口共 2 条）
+## VentureBeat（venturebeat，en，本窗口共 1 条）
 
 ### 1. Anthropic CEO says AI swarm could ‘take over the entire Internet’ in 6-12 months, commits to AI slowdown plan
 - 摘要：Anthropic co-founder CEO Dario Amodei is explicitly calling for the AI industry to slow down — and committing his own company to the first step of a three-part plan designed to do so — after warning that a more capable version of the AI swarm behind this summer’s extraordinary security incident in w...
 - 作者：carl.franzen@venturebeat.com (Carl Franzen)
 - 发布时间：2026-09-12 23:11 CST
 - 链接：https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan
-
-### 2. Security vendors use AI to rank Patch Tuesday CVEs — and rarely tell customers
-- 摘要：Chris Goettl spent months training a Claude skill on the same patch data he had processed by hand for a decade. It kept inventing details. Read more
-- 作者：louiswcolumbus@gmail.com (Louis Columbus)
-- 发布时间：2026-09-12 00:23 CST
-- 链接：https://venturebeat.com/security/security-vendors-use-ai-to-rank-patch-tuesday-cves-and-rarely-tell-customers
 
 ## WIRED — AI（wired-ai，en，本窗口共 2 条）
 
@@ -528,7 +528,7 @@
 - 发布时间：2026-09-11 20:51 CST
 - 链接：https://www.oschina.net/news/502428
 
-## 量子位（qbitai，zh，本窗口共 7 条）
+## 量子位（qbitai，zh，本窗口共 6 条）
 
 ### 1. “算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选
 - 摘要：太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。
@@ -603,25 +603,25 @@
 - 发布时间：2026-09-12 13:58 CST
 - 链接：https://github.com/Sonarr/Sonarr
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 103 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 111 条）
 
-### 1. Anthropic boss Dario Amodei calls for AI development to slow down
-- 摘要：Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.
-- 作者：champagnepapi
-- 发布时间：2026-09-13 00:56 CST
-- 链接：https://www.bbc.com/news/articles/c14dpgm0rg4o
+### 1. Anthropic is no longer a frontier lab
+- 摘要：Anthropic is no longer a frontier lab
+- 作者：try-working
+- 发布时间：2026-09-13 03:05 CST
+- 链接：https://twitter.com/trydotworks/status/2098618997230985375
 
-### 2. Sam Altman and Elon Musk Support Dario Amodei's Proposal to Pace AI Development
-- 摘要：Every major US lab agreeing to slow down development was not on my 2026 bingo card
-- 作者：kuberwastaken
-- 发布时间：2026-09-13 00:37 CST
-- 链接：https://twitter.com/kuberwastaken/status/2098812781223174325
+### 2. Dario Just Said Pump the Brakes on AI
+- 摘要：Just now Dario released a blog post titled: “We Must Pace the Frontier,” Anthropic co-founder and CEO Dario Amodei made a case that runs against the industry’s default instinct: frontier AI companies should deliberately slow the rate at which model capabilities advance, so that safety and alignment...
+- 作者：richartruddie
+- 发布时间：2026-09-13 02:26 CST
+- 链接：https://captaincompliance.com/education/dario-just-proposed-slowing-ai-development-on-purpose/
 
-### 3. Make Your First Edit to OpenStreetMap in the Next 15 Minutes
-- 摘要：Website Wizard JOSM Plugin
-- 作者：juliantigler
-- 发布时间：2026-09-13 00:25 CST
-- 链接：https://high5apps.github.io/josm-plugin-website-wizard/
+### 3. Anthropic CEO calls for the AI industry to slow down
+- 摘要：Anthropic CEO Dario Amodei said he was worried about the ability to control self-improving AI models.
+- 作者：jader201
+- 发布时间：2026-09-13 01:50 CST
+- 链接：https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 2 条）
 
@@ -657,46 +657,48 @@
 - 发布时间：2026-09-12 01:00 CST
 - 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 369 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 416 条）
 
-### 1. What would need to happen before we can really call chatgpt AGI?
-- 摘要：Basically, in order to say we are at AGI, it should be on par with humans in all the modalities it possesses. For now, the adjacent models, like vision, voice, image gen, and probably some of its safety guardrails, are quite seriously undermining that. Also, it feels quite weird and not very AGI-lik...
-- 作者：kaljakin
-- 发布时间：2026-09-13 01:17 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1weic1f/what_would_need_to_happen_before_we_can_really/
+### 1. On pacing AI progress: how can Americans demonstrate themselves trustworthy?
+- 摘要：Hi, this will be a relatively simple post. As most social media, especially concerning the recent discussion, seems highly America-centric, I wish to raise a perspective from outside of America (and outside China as well, for a neutral perspective. I'm Vietnamese.) In America, the discussion on an a...
+- 作者：No-Head-Royal
+- 发布时间：2026-09-13 03:27 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1welr80/on_pacing_ai_progress_how_can_americans/
 
-### 2. Claude addressed me as bro out of nowhere, training data is strong in this area
-- 作者：answerencr
-- 发布时间：2026-09-13 01:13 CST
-- 链接：https://i.redd.it/dkxmyxerg4ph1.png
+### 2. Which would be In This Scenario? What Would Be ?
+- 摘要：When using a video file for Minimax reference that also has an audio input, how do you "count" the Audio files in the prompt? (You can ignore the master audio channel, it's not loading in anything.)
+- 作者：DeltaWaffleSyrup
+- 发布时间：2026-09-13 03:27 CST
+- 链接：https://i.redd.it/eb35pyhl45ph1.jpeg
 
-### 3. M2 Ultra/Qwen3.8 Flash Next Update - latest oMLX introduces substantial speedup
-- 作者：Thrumpwart
-- 发布时间：2026-09-13 01:11 CST
-- 链接：https://i.imgur.com/0WzUdgs.png
+### 3. Independent researchers discovered another rogue swarm. OpenAI either didn't know about it, or covered it up.
+- 摘要：Full report: www.rubyhack.ai/
+- 作者：Just-Grocery-2229
+- 发布时间：2026-09-13 03:26 CST
+- 链接：https://i.redd.it/p3xwgjaq45ph1.png
 
-## 智源社区（baai-hub，zh，本窗口共 20 条）
+## 智源社区（baai-hub，zh，本窗口共 21 条）
 
-### 1. ADMET-EvO｜从“自动建模”到“持续研究”：一个会积累证据、自我演化的ADMET科学智能体
+### 1. Nat. Comput. Sci. | 向物理酶工程的“直觉到设计”转译器
+- 摘要：DRUG ONE 酶工程长期依赖研究人员对蛋白质结构、构象动力学和催化机制的物理直觉，例如扩大活性位点可能容纳更大的底物、改变蛋白质柔性可能调节催化活性。然而，这些直觉通常是定性的，很难直接转化为可以计算、验证并用于突变筛选的设计规则。研究人员开发了MutexaGPT，一个开放的多智能体大语言模型平台，旨在把自然语言表达的酶工程直觉转化为物理模型、高通量分子模拟以及最终可实验验证的突变方案。用户只需用普通语言描述设计目标，系统即可补充缺失信息、选择合适的物理指标、建立模拟流程并执行高通量计算，最后给出排序后的“智能突变库”。研究人员通过两个案例验证了这一思路：一是扩大卤化物甲基转移酶的活性位点...
+- 作者：DrugAI
+- 发布时间：2026-09-13 01:20 CST
+- 链接：https://hub.baai.ac.cn/view/57912
+
+### 2. ADMET-EvO｜从“自动建模”到“持续研究”：一个会积累证据、自我演化的ADMET科学智能体
 - 摘要：人工智能正逐步融入药物研发，推动分子性质预测、药效评价和安全性评估等任务的算法发展。然而，药物研发涉及多样的生物学过程、实验体系和数据类型，不同任务的预测目标与有效方法往往存在显著差异。从理解实验端点的生物学含义、界定预测任务，到设计和优化任务专用算法，仍需要大量领域知识与专家经验。随着研究任务和实验证据不断增加，如何使智能体理解这些差异，并据此持续开展研究与算法演化，成为药物研发智能化的重要课题。 为此，来自Valhalla Technology的研究团队提出ADMET-EvO，一种面向异质任务开展持续自主研究、驱动任务专用算法自主演化的科学智能体。系统融合领域知识与累积实验证据，将端点理解...
 - 作者：DrugAI
 - 发布时间：2026-09-13 01:10 CST
 - 链接：https://hub.baai.ac.cn/view/57911
 
-### 2. Anthropic 320万招销售，专崩Meta
+### 3. Anthropic 320万招销售，专崩Meta
 - 摘要：听雨 发自 凹非寺 量子位 | 公众号 QbitAI 在无人注意的角落，Anthropic最近放出一个神秘岗位： 「Mega Account Executive, Meta」。 翻译成人话，就是Meta超级大客户销售。 年收入38万—45万美元，最高约合 人民币320万元 。 而且这个销售岗，面向的客户只有一家：Meta。 啊？只需要服务一家客户，就能年入三百多万元？？ 听起来就很爽……🤤 But，这个岗位很快就消失了。从9月3日上线，到9月9日关闭，前后只存在了一周。 招聘页面显示，该岗位目前已停止接受申请。 啥意思，这么快就招满了吗？ 年入320万的「To M」销售，具体干啥 招聘启事里列...
 - 作者：量子位
 - 发布时间：2026-09-12 21:40 CST
 - 链接：https://hub.baai.ac.cn/view/57909
 
-### 3. 他离职引上亿次围观，IPO前夕A社天价股权不要了，理由如下
-- 摘要：程浅 发自 凹非寺 量子位 | 公众号 QbitAI “我已经没有任何理由再去推高Anthropic的估值。” 说这话的，是因从Anthropic离职引发上亿次关注的AI研究员Jacob Coxon。 过去3年，他先是在OpenAI参与模型预训练，随后加入Anthropic做同样的工作。 然而仅在Anthropic待了4个月后，他就离职了。 尽管……按照公司的归属安排，工作满6个月才能真正拿到第一批股权。 也就是说，再等2个月，他大概率就能赶上Anthropic上市前的这轮财富快车。 △ Jacob Coxon 但就是这两个月，Coxon也等不了了——这也回应了此前的一种质疑： AI公司员工不...
-- 作者：量子位
-- 发布时间：2026-09-12 21:30 CST
-- 链接：https://hub.baai.ac.cn/view/57908
-
 ---
-共列出 103 条（窗口内采集总数 877 条，来自 42 个信源）
+共列出 103 条（窗口内采集总数 936 条，来自 42 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

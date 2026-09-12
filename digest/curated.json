@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-12T17:19:43.658791+00:00",
+ "generated_at": "2026-09-12T19:31:02.337699+00:00",
  "stats": {
-  "items": 869,
-  "clusters": 673,
-  "noise": 392,
+  "items": 928,
+  "clusters": 714,
+  "noise": 430,
   "dup": 36,
   "history_days": 0,
-  "available_cn": 76,
-  "available_intl": 169,
+  "available_cn": 77,
+  "available_intl": 171,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -199,22 +199,6 @@
   },
   {
    "rank": 12,
-   "title": "AI may be denting computer science graduates’ job prospects, UK data shows",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "AI may be denting computer science graduates’ job prospects, UK data shows"
-   ],
-   "published_at": "2026-09-12T07:00:30.000000+00:00",
-   "summary": "Economics graduates also appear to be affected as demand for them falls in well-paid roles in finance AI may be warping the job prospects for students in the previously high-demand subjects of computer science and econom..."
-  },
-  {
-   "rank": 13,
    "title": "Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next",
    "lang": "en",
    "region": "intl",
@@ -230,7 +214,7 @@
    "summary": "In a joint statement, 25 Fields Medal winners warn that the goals of the AI industry and mathematics are \"severely misaligned.\" They argue that mass-producing solved problems with AI undermines the discipline's true goal..."
   },
   {
-   "rank": 14,
+   "rank": 13,
    "title": "Why It’s Difficult for Tech Companies to Rein In A.I.",
    "lang": "en",
    "region": "intl",
@@ -244,6 +228,22 @@
    ],
    "published_at": "2026-09-12T09:02:53.000000+00:00",
    "summary": "Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it."
+  },
+  {
+   "rank": 14,
+   "title": "Inside the Discussions at AI Companies Over a Superintelligence Doomsday",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html",
+   "score": 2.5,
+   "sources": [
+    "nyt-tech"
+   ],
+   "titles": [
+    "Inside the Discussions at AI Companies Over a Superintelligence Doomsday"
+   ],
+   "published_at": "2026-09-12T09:03:01.000000+00:00",
+   "summary": "A demonstration of Anthropic’s Claude Cowork A.I. agent in May. The company’s employees have been talking about the risks of artificial intelligence after a colleague, citing dangers, resigned this week."
   },
   {
    "rank": 15,
@@ -283,7 +283,8 @@
     "Antirez Deepseek 4.1 flash gguf on HF",
     "DeepSeek V4.1 Flash at 41 tok/s on 8× A40 on TensorSharp",
     "DeepSeek v4.1 Flash 2 bit with DwarfStar (ENG)",
-    "DeepSeek v4.1 Flash on DS4 (M3U 32/80c)"
+    "DeepSeek v4.1 Flash on DS4 (M3U 32/80c)",
+    "If anyone wants to try the DeepSeek v4.1 flash with ZDR…(free)"
    ],
    "published_at": "2026-09-12T02:08:50+00:00",
    "summary": "点击查看原文>"
