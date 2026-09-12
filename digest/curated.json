@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-12T06:00:43.149622+00:00",
+ "generated_at": "2026-09-12T11:00:46.540853+00:00",
  "stats": {
-  "items": 1607,
-  "clusters": 1299,
-  "noise": 484,
-  "dup": 94,
+  "items": 1059,
+  "clusters": 810,
+  "noise": 457,
+  "dup": 54,
   "history_days": 0,
-  "available_cn": 141,
-  "available_intl": 580,
+  "available_cn": 108,
+  "available_intl": 191,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,87 +16,11 @@
  "items": [
   {
    "rank": 1,
-   "title": "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11244",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
-    "Domain-Specific Hallucination Detection in Large Language Models",
-    "Exploring Diffusion Transformers for Cross-Modal Augmentation in Multimodal Brain State Decoding",
-    "Exploring Multimodal Prompt for Visualization Authoring with Large Language Models",
-    "Natural Language Access to Domain-Specific Metadata: A Reusable Framework for LLM Query Generation"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11244v1 Announce Type: new Abstract: While Multimodal Large Language Models (MLLMs) have achieved remarkable progress across diverse tasks, they suffer from hallucinations where generated outputs contradict or..."
-  },
-  {
-   "rank": 2,
-   "title": "When is Test-Time Adaptation Identifiable From Unlabeled Evidence?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11235",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "When is Test-Time Adaptation Identifiable From Unlabeled Evidence?",
-    "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11235v1 Announce Type: new Abstract: Test-time adaptation (TTA) offers many ways to update a deployed model without labels, but choosing the wrong update can make a strong source model worse. Recent methods th..."
-  },
-  {
-   "rank": 3,
-   "title": "Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11135",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Bidirectional Multimodal Fusion of Sky Images and Time-Series for Solar Forecasting with Large Language Models",
-    "Evaluating Time-Series Foundation Models and Multimodal Dietary Context for CGM Forecasting",
-    "When Does Text Inform? Benchmarking Information-Theoretic Metrics for Multimodal Time-Series Forecasting"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11135v1 Announce Type: new Abstract: Short-term photovoltaic (PV) power and global horizontal irradiance (GHI) forecasts are essential for effective dispatch, reserve scheduling, and grid operations. At these..."
-  },
-  {
-   "rank": 4,
-   "title": "DeFiFlowBench: Benchmarking and Improving Safe Executability in Natural-Language DeFi Workflow Synthesis",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.11504",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "DeFiFlowBench: Benchmarking and Improving Safe Executability in Natural-Language DeFi Workflow Synthesis",
-    "Improving Natural-Language Combinatorial-Optimization Accuracy in Resource-Constrained Language Models via Formal Abstractions"
-   ],
-   "published_at": "2026-09-11T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.11504v1 Announce Type: new Abstract: A structurally valid DeFi workflow can still authorize a costly trade. We introduce DeFiFlowBench, a benchmark of 207 team-authored prompts for natural-language DeFi workfl..."
-  },
-  {
-   "rank": 5,
    "title": "AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says",
    "lang": "en",
    "region": "intl",
    "url": "https://www.bloomberg.com/news/articles/2026-09-11/ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-says",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "bloomberg-tech",
     "tmtpost"
@@ -109,7 +33,25 @@
    "summary": "Artificial intelligence startup Cohere Inc. is in advanced talks to raise between $2 billion and $3 billion, including financing from the Canadian government and existing backers, according to a report from the Globe & M..."
   },
   {
-   "rank": 6,
+   "rank": 2,
+   "title": "OpenAI’s feud with mathematicians is only escalating",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+   "score": 5.5,
+   "sources": [
+    "techcrunch-ai",
+    "guardian-ai"
+   ],
+   "titles": [
+    "OpenAI’s feud with mathematicians is only escalating",
+    "‘Immature playground boasting’: Mathematicians uneasy at OpenAI’s latest scalp"
+   ],
+   "published_at": "2026-09-11T20:57:36.000000+00:00",
+   "summary": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work."
+  },
+  {
+   "rank": 3,
    "title": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
    "lang": "en",
    "region": "intl",
@@ -125,7 +67,23 @@
    "summary": "vllm, mistral-common, compressed-tensors, en, fr, es, de, it, pt, nl, zh, ja, ko, ar, base_model:mistralai/Mistral-Large-3-675B-Base-2512, base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512, license:apache-2.0,..."
   },
   {
-   "rank": 7,
+   "rank": 4,
+   "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.10964",
+   "score": 4.5,
+   "sources": [
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows"
+   ],
+   "published_at": "2026-09-12T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10964v1 Announce Type: new Abstract: Agentic LLM workflows consist of sequences of model turns interleaved with tool interactions, so their end-to-end completion time depends not only on inference speed but al..."
+  },
+  {
+   "rank": 5,
    "title": "LiquidAI/LFM2.5-1.2B-JP-202606-GGUF",
    "lang": "en",
    "region": "intl",
@@ -141,12 +99,12 @@
    "summary": "text-generation, gguf, liquid, lfm2, edge, llama.cpp, en, ja, base_model:LiquidAI/LFM2.5-1.2B-JP-202606, base_model:quantized:LiquidAI/LFM2.5-1.2B-JP-202606, license:other, endpoints_compatible, region:us, conversational"
   },
   {
-   "rank": 8,
+   "rank": 6,
    "title": "Stop AI bill crafted by politicians and anti-AI advocates proposes criminalizing superintelligence and jailing researchers for 20 years",
    "lang": "en",
    "region": "intl",
    "url": "https://i.redd.it/ljokod9ckxoh1.png",
-   "score": 4.39,
+   "score": 3.89,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
@@ -159,73 +117,73 @@
    "summary": ""
   },
   {
-   "rank": 9,
-   "title": "Developer created an app to detect nearby Meta glasses",
+   "rank": 7,
+   "title": "Scan the MCP servers you're giving shell access to. 100% local scanner, zero telemetry [OC, Apache-2.0]",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.businessinsider.com/zuckoff-app-detects-meta-ai-smart-glasses-recording-privacy-2026-9",
-   "score": 3.58,
+   "url": "https://i.redd.it/qn9nl59r4uoh1.gif",
+   "score": 3.55,
    "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "Developer created an app to detect nearby Meta glasses",
-    "Polish developer builds app that detects nearby Meta smart glasses"
+    "Scan the MCP servers you're giving shell access to. 100% local scanner, zero telemetry [OC, Apache-2.0]",
+    "Show HN: Free Online Bates Numbering Tool for PDFs – 100% Private and Local"
    ],
-   "published_at": "2026-09-11T01:16:21.000000+00:00",
-   "summary": "The Zuckoff app detects nearby smart glasses using Bluetooth signals. Its creator says Meta needs to do more to address privacy concerns."
+   "published_at": "2026-09-11T06:27:21.000000+00:00",
+   "summary": "If you're running agents locally, you're probably installing MCP servers the same way I was: quickly, and without reading them. I built OpenTrustBench to fix my own habit. 8 OWASP mapped static rules, permission manifest..."
+  },
+  {
+   "rank": 8,
+   "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.10584",
+   "score": 3.5,
+   "sources": [
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement"
+   ],
+   "published_at": "2026-09-12T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier..."
+  },
+  {
+   "rank": 9,
+   "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.10629",
+   "score": 3.5,
+   "sources": [
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language"
+   ],
+   "published_at": "2026-09-12T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with..."
   },
   {
    "rank": 10,
-   "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+   "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
    "lang": "en",
    "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
-   "score": 3.5,
+   "url": "https://arxiv.org/abs/2608.15380",
+   "score": 3.0,
    "sources": [
-    "aws-ml-blog"
+    "hf-daily-papers"
    ],
    "titles": [
-    "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations"
+    "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2"
    ],
-   "published_at": "2026-09-11T18:26:38.000000+00:00",
-   "summary": "Multi-agent systems in production experience issues in ways that traditional monitoring misses. For example, the agent can’t invoke its foundation model (FM) and returns an empty response. This could be because of a miss..."
+   "published_at": "2026-09-05T20:00:00.000000+00:00",
+   "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and la..."
   },
   {
    "rank": 11,
-   "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
-   "score": 3.5,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?"
-   ],
-   "published_at": "2026-09-11T18:26:59.000000+00:00",
-   "summary": "A health plan CFO closes the month after the usual round of extracts, spreadsheets,..."
-  },
-  {
-   "rank": 12,
-   "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-   "score": 3.5,
-   "sources": [
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too"
-   ],
-   "published_at": "2026-09-11T20:59:47.000000+00:00",
-   "summary": "Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be \"a form of public good.\""
-  },
-  {
-   "rank": 13,
    "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
    "lang": "en",
    "region": "intl",
@@ -241,7 +199,7 @@
    "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for d..."
   },
   {
-   "rank": 14,
+   "rank": 12,
    "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
    "lang": "en",
    "region": "intl",
@@ -255,6 +213,38 @@
    ],
    "published_at": "2026-09-11T00:00:00.000000+00:00",
    "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth references. This paradigm suffers from th..."
+  },
+  {
+   "rank": 13,
+   "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign"
+   ],
+   "published_at": "2026-09-11T00:00:00.000000+00:00",
+   "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of under..."
+  },
+  {
+   "rank": 14,
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Rapidly scaling online storage to serve over 1 billion ChatGPT users"
+   ],
+   "published_at": "2026-09-11T10:00:00.000000+00:00",
+   "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
   },
   {
    "rank": 15,
@@ -279,6 +269,24 @@
   },
   {
    "rank": 16,
+   "title": "浪潮信息：拟定增募资不超90亿元投建AI基础设施等项目",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3978913441889281",
+   "score": 6.5,
+   "sources": [
+    "36kr-newsflash",
+    "huxiu"
+   ],
+   "titles": [
+    "浪潮信息：拟定增募资不超90亿元投建AI基础设施等项目",
+    "半年融资超去年1.7倍，AI有没有泡沫？投资人：5年后超90%资本投向AI"
+   ],
+   "published_at": "2026-09-11T11:39:38.000000+00:00",
+   "summary": "36氪获悉，浪潮信息公告，公司拟向特定对象发行A股股票，募集资金总额不超过90亿元，扣除发行费用后拟用于面向智能体规模化应用的新一代AI基础设施研发及产业化项目、面向绿色智算集群的液冷原生算力基础设施研发及产业化项目、多智能体协同存算融合算力基础设施关键技术研发项目、高密度算力装备智造与交付能力升级工程及补充流动资金。"
+  },
+  {
+   "rank": 17,
    "title": "DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色",
    "lang": "zh",
    "region": "cn",
@@ -296,7 +304,7 @@
    "summary": "IT之家 9 月 12 日消息，据IT之家小伙伴反馈， DeepSeek 灰度测试语音对话 ，测试到的用户在 App 右上角会有一个小喇叭按钮。 此外，DeepSeek 的设置页面会出现一个“ 朗读音色 ”选项，用户可以选择四种音色： 贝壳：百变活泼 白浪：明朗坚定 海星：俏皮甜美 暗潮：低沉浑厚"
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "陶哲轩、邓煜等菲尔兹奖得主“开炮”：AI正毁掉数学",
    "lang": "zh",
    "region": "cn",
@@ -314,7 +322,7 @@
    "summary": "智东西 编译｜毕伟豪 编辑｜李水青 数学界与AI大厂积攒已久的矛盾，在一周之内被彻底摆上台面。 智东西9月12日消息，刚刚，陶哲轩发文称，25位菲尔兹奖得主联合签署公开信，抨击AI公司将“解决著名数学难题”当作衡量模型能力的基准，是“对数学这门科学和数学共同体的伤害”，矛头直指OpenAI。 这场风波的导火索，是本月初OpenAI的一次高调发布。9月8日，OpenAI宣布其内部模型通过约1万个Agent并发，仅用88小时就解决了纳维-斯..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "具身新贵，3个月成为独角兽",
    "lang": "zh",
    "region": "cn",
@@ -332,40 +340,22 @@
    "summary": "明星机构押下重注。就在国内一级市场对具身智能的投资逐渐收紧之时，海外一家做机器人数据训练的公司，三个月融两轮，已经跻身百亿独角兽行列。不久前，机器人数据公司XDOF传出新一轮融资消息，估值约12亿美元，折合人民币超过百亿元。距离公司今年6月宣布完成7000万美元A轮融资，仅仅过去约三个月。XDOF成立于202...... 本文来自微信公众号： 东四十条资本 ，作者：韦香惠 明星机构押下重注。 就在国内一级市场对具身智能的投资逐渐收紧之时..."
   },
   {
-   "rank": 19,
-   "title": "阿里云Token Plan个人版升级：加量不加价，新增12类Agent Harness工具",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.leiphone.com/category/industrynews/IbRxUXgE35rsi98b.html",
-   "score": 5.5,
-   "sources": [
-    "leiphone",
-    "ithome"
-   ],
-   "titles": [
-    "阿里云Token Plan个人版升级：加量不加价，新增12类Agent Harness工具",
-    "阿里云 Token Plan 个人版升级：Standard、Pro 套餐新增 12 类 Agent Harness 工具"
-   ],
-   "published_at": "2026-09-11T04:28:00+00:00",
-   "summary": "9月11日，阿里云Token Plan个人版升级，原有价格及Credit 额度保持不变，Standard和Pro套餐新增 Agent Harness工具权益与用量，覆盖搜索、网页解析、图像生成、语音处理、代码执行等12项Agent开发常用能力。上述工具均通过MCP标准协议开放，可直接接入到自有Agent应用，无需逐项单独购买。 Token Plan个人版主要面向个人开发者和中小团队。Lite套餐价格为39元/月，每7天提供2500 Cr..."
-  },
-  {
    "rank": 20,
-   "title": "AI找到一种肺药，吃4周“年轻”3岁",
+   "title": "Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8136514.html",
+   "url": "https://www.36kr.com/p/3978529869527809",
    "score": 5.5,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "36kr-ai",
+    "infoq-cn"
    ],
    "titles": [
-    "AI找到一种肺药，吃4周“年轻”3岁",
-    "AI找到一种肺药，吃4周“年轻”3岁"
+    "Kotlin“J神”两小时争议访谈：我宁愿失去80%的工作机会，也坚决不用AI编程",
+    "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮"
    ],
-   "published_at": "2026-09-11T05:58:00+00:00",
-   "summary": "文 | 字母AI 一款原本用来治疗肺纤维化的药，患者吃了4周之后，“年轻”了3岁。 而这颗药从一开始就和AI绑在一起：先由AI判断肺纤维化到底该打哪个靶点，再由生成式AI把对应的药物分子设计出来。 故事离我们并不遥远。 做出它的英矽智能（Insilico）在香港设有主要办公地点，负责新药发现和研发的重要团队则长期扎在上海浦东张江。几年前AI从海量疾病数据里挑中了一个叫TNIK的靶点，如今这个判断已经被做成一颗真正的药，走到了临床后半程。..."
+   "published_at": "2026-09-11T08:56:39.000000+00:00",
+   "summary": "在软件行业普遍押注 AI 的当下，公开表示“坚决不用 AI 编程”，几乎等于主动缩小自己的职业选择。 但 Jake Wharton 还是这样做了。 这位被国内开发者称为“J 神”的 Android 与 Kotlin 开源大神，在寻找新工作时列出了九项择业标准，其中第一项就是：不加入 AI 公司，不参与以 AI 为核心的产品，也不接受公司强制工程师使用 AI。按照他的估算，这项要求直接排除了约 80% 的潜在雇主。 Wharton 并非没..."
   }
  ]
 }
