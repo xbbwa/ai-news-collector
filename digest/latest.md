@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-13 03:31 CST
+生成时间：2026-09-13 05:34 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -125,25 +125,25 @@
 - 发布时间：2026-09-12 20:36 CST
 - 链接：https://www.axios.com/2026/09/12/anthropic-ai-threat-report-russia-iran-china
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 14 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 15 条）
 
-### 1. Anthropic CEO Says It’s Time to Slow AI Model Advances
+### 1. OpenAI’s Altman Says No IPO in 2026, Firm to Prioritize Safety
+- 摘要：OpenAI won’t go public in this year as the artificial intelligence company focuses on addressing safety-related concerns around the technology, Chief Executive Officer Sam Altman told Fortune in an interview.
+- 作者：María Paula Mijares Torres and Se Young Lee
+- 发布时间：2026-09-13 03:36 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune
+
+### 2. Anthropic CEO Says It’s Time to Slow AI Model Advances
 - 摘要：Anthropic PBC Chief Executive Officer Dario Amodei said that the artificial intelligence industry needs to slow the pace of development for new models, citing growing concerns about “serious” risks to humans.
 - 作者：Kevin Whitelaw and Seth Fiegerman
 - 发布时间：2026-09-12 22:17 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models
 
-### 2. Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China
+### 3. Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China
 - 摘要：In June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimpse of the technology that would come to define his second presidential term.
 - 作者：Maggie Eastland and Courtney Subramanian
 - 发布时间：2026-09-12 21:00 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china
-
-### 3. China’s AI Industry Pivots to Agents From Models, Report Says
-- 摘要：China’s artificial intelligence industry is shifting from competition in large models and computing power toward the deployment and commercialization of AI agents, according to a report by the China Telecom Research Institute cited by China Central Television on Saturday.
-- 作者：Bloomberg News
-- 发布时间：2026-09-12 17:37 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-12/china-s-ai-industry-pivots-to-agents-from-models-report-says
 
 ## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
@@ -182,25 +182,25 @@
 - 发布时间：2026-09-12 09:06 CST
 - 链接：https://www.ft.com/content/25b1abb0-790f-4315-9b0c-530d959a086f?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 13 条）
 
-### 1. ‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown
+### 1. As Australia faces an AI-generated future, a human rights act is needed more than ever
+- 摘要：Without laws requiring transparency or a right of review, our human rights will be rationed away by algorithmic and automated decision-making tools As we hurtle towards a post-human future, the absence of a human rights act in Australia will put us all at ever greater risk. Human rights, which the A...
+- 作者：Julianne Schultz
+- 发布时间：2026-09-13 04:00 CST
+- 链接：https://www.theguardian.com/law/commentisfree/2026/sep/13/as-australia-faces-an-ai-generated-future-a-human-rights-act-is-needed-more-than-ever
+
+### 2. Black Box: The Chatbots | 14 days | Ep 2 – podcast
+- 摘要：Virginia man Jon Ganz was rebuilding his life after spending more than two decades in prison for a horrific crime. Last year, he got a prompt on his phone that his wife, Rachel, believes changed their lives forever. It was from Google, inviting him to try the company’s AI chatbot, Gemini Listen to t...
+- 作者：Presented by Michael Safi; produced by George McDonagh and Alex Atack; additiona...
+- 发布时间：2026-09-13 04:00 CST
+- 链接：https://www.theguardian.com/australia-news/audio/2026/sep/13/black-box-the-chatbots-14-days-ep-2-podcast
+
+### 3. ‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown
 - 摘要：In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “...
 - 作者：Edward Helmore
 - 发布时间：2026-09-12 23:46 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown
-
-### 2. Deepfakes are wrecking influencers’ credibility, one fake ad at a time
-- 摘要：Influencers aren’t just battling competitors for brand deals. They’re now battling AI versions of themselves Earlier this year, Emily Schuman, the creator of the lifestyle blog Cupcakes and Cashmere, saw a photo of herself she didn’t recognize on Instagram. In a sponsored ad, Schuman, who has more t...
-- 作者：Arielle Pardes
-- 发布时间：2026-09-12 20:00 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/12/deepfakes-wrecking-influencers-credibility
-
-### 3. Steve Jones on the pros and cons of AI datacentres – cartoon
-- 摘要：Continue reading...
-- 作者：Steve Jones
-- 发布时间：2026-09-12 18:00 CST
-- 链接：https://www.theguardian.com/commentisfree/picture/2026/sep/12/steve-jones-pros-cons-ai-datacentres-cartoon
 
 ## Latent Space（latent-space，en，本窗口共 2 条）
 
@@ -216,7 +216,7 @@
 - 发布时间：2026-09-12 13:56 CST
 - 链接：https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b
 
-## MarkTechPost（marktechpost，en，本窗口共 3 条）
+## MarkTechPost（marktechpost，en，本窗口共 2 条）
 
 ### 1. Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help
 - 摘要：The Fly Language Model (FLM) is a public chatbot that couples the complete retained MaleCNS v1.0 fruit fly connectome to a frozen LiquidAI LFM2.5-1.2B-Instruct backbone. The developer who created the FLM calls it the world’s first Fly Language Model, built on an architecture called GPF (Generative P...
@@ -229,12 +229,6 @@
 - 作者：Asif Razzaq
 - 发布时间：2026-09-12 06:01 CST
 - 链接：https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/
-
-### 3. Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills
-- 摘要：Anthropic has published a new plugin evals workflow for Claude Code . The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It answers 3 questions plugin developers could not previously...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-12 05:05 CST
-- 链接：https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/
 
 ## MIT Technology Review — AI（mit-tech-review，en，本窗口共 1 条）
 
@@ -292,25 +286,25 @@
 - 发布时间：2026-09-12 06:49 CST
 - 链接：https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 9 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 10 条）
 
-### 1. Anthropic CEO outlines plan to ‘pace the frontier’
+### 1. OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026
+- 摘要：While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.
+- 作者：Anthony Ha
+- 发布时间：2026-09-13 04:19 CST
+- 链接：https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
+
+### 2. Anthropic CEO outlines plan to ‘pace the frontier’
 - 摘要：What would it actually look like to "pace the frontier"?
 - 作者：Anthony Ha
 - 发布时间：2026-09-12 23:52 CST
 - 链接：https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/
 
-### 2. Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
+### 3. Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
 - 摘要：The round for the two-year-old startup is coming together months after Mecka announced its Series A.
 - 作者：Marina Temkin
 - 发布时间：2026-09-12 06:58 CST
 - 链接：https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
-
-### 3. Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
-- 摘要：Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be "a form of public good."
-- 作者：Julie Bort
-- 发布时间：2026-09-12 04:59 CST
-- 链接：https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
 
 ## The Decoder（the-decoder，en，本窗口共 10 条）
 
@@ -332,25 +326,25 @@
 - 发布时间：2026-09-12 22:05 CST
 - 链接：https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/
 
-## The Verge — AI（theverge-ai，en，本窗口共 4 条）
+## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
-### 1. Anthropic CEO says it’s time to pump the brakes on AI
+### 1. Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
+- 摘要：OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune . Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was b...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-13 05:16 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
+
+### 2. Anthropic CEO says it’s time to pump the brakes on AI
 - 摘要：Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its "adherence to safety practices and commitments." In a winding essay , Amodei proposed a three-step plan to "pace the frontier" - jargon...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-13 00:23 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
 
-### 2. Trump is giving data centers a pass to pollute
+### 3. Trump is giving data centers a pass to pollute
 - 摘要：President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report . They are urging - perhaps futilely - the president to adopt...
 - 作者：Justine Calma
 - 发布时间：2026-09-12 22:41 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
-
-### 3. OpenAI just wants to win
-- 摘要：OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. In...
-- 作者：Robert Hart
-- 发布时间：2026-09-12 19:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition
 
 ## VentureBeat（venturebeat，en，本窗口共 1 条）
 
@@ -603,25 +597,25 @@
 - 发布时间：2026-09-12 13:58 CST
 - 链接：https://github.com/Sonarr/Sonarr
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 111 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 117 条）
 
-### 1. Anthropic is no longer a frontier lab
-- 摘要：Anthropic is no longer a frontier lab
-- 作者：try-working
-- 发布时间：2026-09-13 03:05 CST
-- 链接：https://twitter.com/trydotworks/status/2098618997230985375
+### 1. Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases
+- 摘要：Real-SWE benchmarks frontier AI models on private production codebases licensed from real companies. Eight model and harness configurations, ten tasks, 640 scored rollouts.
+- 作者：theanonymousone
+- 发布时间：2026-09-13 04:25 CST
+- 链接：https://withspecific.com/benchmarks/real-swe
 
-### 2. Dario Just Said Pump the Brakes on AI
-- 摘要：Just now Dario released a blog post titled: “We Must Pace the Frontier,” Anthropic co-founder and CEO Dario Amodei made a case that runs against the industry’s default instinct: frontier AI companies should deliberately slow the rate at which model capabilities advance, so that safety and alignment...
-- 作者：richartruddie
-- 发布时间：2026-09-13 02:26 CST
-- 链接：https://captaincompliance.com/education/dario-just-proposed-slowing-ai-development-on-purpose/
+### 2. Benchmark: CadQuery vs. OpenSCAD for agentic CAD work
+- 摘要：We gave six AI agents the same three printable parts to model, three in CadQuery and three in OpenSCAD, then verified every mesh independently. Both toolchains shipped. The difference is in how they fail.
+- 作者：jetter
+- 发布时间：2026-09-13 03:57 CST
+- 链接：https://modelrift.com/blog/cadquery-vs-openscad/
 
-### 3. Anthropic CEO calls for the AI industry to slow down
-- 摘要：Anthropic CEO Dario Amodei said he was worried about the ability to control self-improving AI models.
-- 作者：jader201
-- 发布时间：2026-09-13 01:50 CST
-- 链接：https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/
+### 3. Show HN: Come prove the Berge Fulkerson conjecture with a swarm of agents
+- 摘要：Let G be a finite bridgeless cubic graph (every vertex has degree 3 and no edge is a bridge). Do there exist six perfect matchings M₁, …, M₆ of G, repetitions allowed, such that ev
+- 作者：fcesco
+- 发布时间：2026-09-13 03:38 CST
+- 链接：https://provetogether.ai/problems/15
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 2 条）
 
@@ -657,25 +651,24 @@
 - 发布时间：2026-09-12 01:00 CST
 - 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 416 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 449 条）
 
-### 1. On pacing AI progress: how can Americans demonstrate themselves trustworthy?
-- 摘要：Hi, this will be a relatively simple post. As most social media, especially concerning the recent discussion, seems highly America-centric, I wish to raise a perspective from outside of America (and outside China as well, for a neutral perspective. I'm Vietnamese.) In America, the discussion on an a...
-- 作者：No-Head-Royal
-- 发布时间：2026-09-13 03:27 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1welr80/on_pacing_ai_progress_how_can_americans/
+### 1. Meanwhile in India
+- 作者：Distinct-Question-16
+- 发布时间：2026-09-13 05:31 CST
+- 链接：https://v.redd.it/eayfgi0vq5ph1
 
-### 2. Which would be In This Scenario? What Would Be ?
-- 摘要：When using a video file for Minimax reference that also has an audio input, how do you "count" the Audio files in the prompt? (You can ignore the master audio channel, it's not loading in anything.)
-- 作者：DeltaWaffleSyrup
-- 发布时间：2026-09-13 03:27 CST
-- 链接：https://i.redd.it/eb35pyhl45ph1.jpeg
+### 2. “AGI Has Essentially Arrived, Just Not Publicly”: Reports Of “Existential Crises” at OpenAI and Anthropic
+- 摘要：Steep rise in the number of people at OpenAI and Anthropic having existential crises these past few weeks. From conversations with people at and around both labs, it's increasingly clear to me that AGI has essentially arrived, just not publicly. We're likely months, not years, from these models bein...
+- 作者：Neurogence
+- 发布时间：2026-09-13 05:29 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1weoufm/agi_has_essentially_arrived_just_not_publicly/
 
-### 3. Independent researchers discovered another rogue swarm. OpenAI either didn't know about it, or covered it up.
-- 摘要：Full report: www.rubyhack.ai/
-- 作者：Just-Grocery-2229
-- 发布时间：2026-09-13 03:26 CST
-- 链接：https://i.redd.it/p3xwgjaq45ph1.png
+### 3. Spike traps for AI: fun food for thought
+- 摘要：More and more agent-swarm attacks are being revealed (Rubygem, Huggingface) to have been recklessly enabled by the large companies. One fun, but impractical, response is to include inference-based attacks (prompt engineering) into the website's source code to make it harder for agents to succeed. A...
+- 作者：Street_Estate2342
+- 发布时间：2026-09-13 05:26 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1weorl0/spike_traps_for_ai_fun_food_for_thought/
 
 ## 智源社区（baai-hub，zh，本窗口共 21 条）
 
@@ -698,7 +691,7 @@
 - 链接：https://hub.baai.ac.cn/view/57909
 
 ---
-共列出 103 条（窗口内采集总数 936 条，来自 42 个信源）
+共列出 102 条（窗口内采集总数 979 条，来自 42 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
