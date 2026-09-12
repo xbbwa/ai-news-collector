@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-12 22:16 CST
+生成时间：2026-09-13 01:19 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -7,23 +7,6 @@
 > 摘要为原文节选（未翻译、未清洗）；英文条目请在推送时翻译成中文。
 
 # Tier 1 — 一手来源（实验室 / 公司 / 论文）
-
-## Apple Machine Learning Research（apple-ml，en，本窗口共 3 条）
-
-### 1. DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation
-- 摘要：Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for discourse-aware text to sign language gloss translation grounded in linguistic re...
-- 发布时间：2026-09-11 08:00 CST
-- 链接：https://machinelearning.apple.com/research/discosign-gloss-translation
-
-### 2. Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering
-- 摘要：Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth references. This paradigm suffers from the “one-to-many” nature of video description, where high-quality captions are oft...
-- 发布时间：2026-09-11 08:00 CST
-- 链接：https://machinelearning.apple.com/research/video-caption-quality
-
-### 3. SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign
-- 摘要：Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of understanding this intrinsically multi-modal relationship is crucial for fields like...
-- 发布时间：2026-09-11 08:00 CST
-- 链接：https://machinelearning.apple.com/research/simpledesign-protein-codesign
 
 ## arXiv cs.AI（arxiv-cs-ai，en，本窗口共 121 条）
 
@@ -81,59 +64,13 @@
 - 发布时间：2026-09-12 02:26 CST
 - 链接：https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/
 
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 2 条）
+## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 1 条）
 
-### 1. Memory as Plans: World-Action Modeling with Memory-Grounded Planning
-- 摘要：Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their co...
-- 作者：Sizhe Zhao, Haozhe Xie, Weiyu Zhao, Chenchu Zhang, Huan Wang, Chenyang Wang, Qin...
-- 发布时间：2026-09-10 04:00 CST
-- 链接：https://arxiv.org/abs/2609.11561
-
-### 2. Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2
+### 1. Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2
 - 摘要：In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publ...
 - 作者：Kaushalraj Puwar, B. Thangaraju
 - 发布时间：2026-09-06 04:00 CST
 - 链接：https://arxiv.org/abs/2608.15380
-
-## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 3 条）
-
-### 1. inclusionAI/Ling-3.0-flash-Fin-fp8
-- 摘要：text-generation, safetensors, bailing_hybrid, finance, financial-research, agents, tool-use, long-context, mixture-of-experts, conversational, custom_code, base_model:inclusionAI/Ling-3.0-flash, base_model:quantized:inclusionAI/Ling-3.0-flash, license:mit, fp8, region:us
-- 作者：inclusionAI
-- 发布时间：2026-09-10 23:57 CST
-- 链接：https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin-fp8
-
-### 2. inclusionAI/Ling-3.0-flash-Fin-int4
-- 摘要：text-generation, safetensors, bailing_hybrid, finance, financial-research, agents, tool-use, long-context, mixture-of-experts, conversational, custom_code, base_model:inclusionAI/Ling-3.0-flash, base_model:quantized:inclusionAI/Ling-3.0-flash, license:mit, compressed-tensors, region:us
-- 作者：inclusionAI
-- 发布时间：2026-09-10 23:57 CST
-- 链接：https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin-int4
-
-### 3. inclusionAI/Ling-3.0-flash-Fin-fp4
-- 摘要：text-generation, safetensors, bailing_hybrid, finance, financial-research, agents, tool-use, long-context, mixture-of-experts, conversational, custom_code, base_model:inclusionAI/Ling-3.0-flash, base_model:quantized:inclusionAI/Ling-3.0-flash, license:mit, 8-bit, fp8, region:us
-- 作者：inclusionAI
-- 发布时间：2026-09-10 23:56 CST
-- 链接：https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin-fp4
-
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 3 条）
-
-### 1. LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF
-- 摘要：audio-to-audio, llama.cpp, gguf, liquid, lfm2.5, edge, audio, speech, speech-to-speech, liquid-audio, ja, arxiv:2511.23404, base_model:LiquidAI/LFM2.5-Audio-1.5B-JP, base_model:quantized:LiquidAI/LFM2.5-Audio-1.5B-JP, license:other, endpoints_compatible, region:us, conversational
-- 作者：LiquidAI
-- 发布时间：2026-09-11 22:37 CST
-- 链接：https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF
-
-### 2. LiquidAI/LFM2.5-1.2B-JP-202606-GGUF
-- 摘要：text-generation, gguf, liquid, lfm2, edge, llama.cpp, en, ja, base_model:LiquidAI/LFM2.5-1.2B-JP-202606, base_model:quantized:LiquidAI/LFM2.5-1.2B-JP-202606, license:other, endpoints_compatible, region:us, conversational
-- 作者：LiquidAI
-- 发布时间：2026-09-11 22:29 CST
-- 链接：https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF
-
-### 3. nvidia/NVIDIA-NemotronLabs-VoiceChat-11B
-- 摘要：safetensors, en, arxiv:2410.17196, arxiv:2503.04721, arxiv:2604.04847, arxiv:2505.15670, arxiv:2507.08128, base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2, base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2, license:openmdw-1.1, region:us
-- 作者：nvidia
-- 发布时间：2026-09-11 19:50 CST
-- 链接：https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B
 
 ## OpenAI News（openai-news，en，本窗口共 3 条）
 
@@ -154,7 +91,7 @@
 
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 3 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 2 条）
 
 ### 1. I spent $4,000 on a robot dog from China
 - 摘要：On a sunny morning in June, I walked to work with a quadruped robot beside me. I’ve never gotten more attention from strangers. A bunch of people snapped pictures of my robot dog. Several people asked me questions. Was it mine? (Yes.) Did I build it? (No.) Was it being used for surveillance? (No.) B...
@@ -168,67 +105,67 @@
 - 发布时间：2026-09-12 03:34 CST
 - 链接：https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/
 
-### 3. Claude users found ways around safeguards for bioweapons research
-- 摘要：Anthropic said it stopped multiple attempts by scientists this year to use its technology for research that could help develop biological weapons, as experts increasingly fear the threat that AI poses to public safety. The startup gave five examples of times actors “circumvented controls” and made o...
-- 作者：Zehra Munir, Financial Times
-- 发布时间：2026-09-11 21:02 CST
-- 链接：https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/
+## Axios（axios，en，本窗口共 4 条）
 
-## Axios（axios，en，本窗口共 2 条）
+### 1. Anthropic, OpenAI CEOs call for slowdown in AI development
+- 摘要：Anthropic CEO Dario Amodei is calling for an immediate slowdown in the pace of AI development, warning of potentially devastating consequences in a matter of months otherwise. Why it matters: Amodei pulled no punches in a new essay , cautioning that swarms of rogue AI agents could take over the inte...
+- 作者：Ben Berkowitz
+- 发布时间：2026-09-13 00:59 CST
+- 链接：https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing
 
-### 1. Anthropic report: 5 ways Claude was exploited for war, spying and repression
+### 2. Anthropic report: 5 ways Claude was exploited for war, spying and repression
 - 摘要：The AI safety debate exploded this week over warnings that the technology could one day destroy humanity. Anthropic's latest threat report offers a more immediate wake-up call: Today's models are already helping U.S. adversaries develop kamikaze drones, hunt dissidents and conduct dangerous virus re...
 - 作者：Zachary Basu
 - 发布时间：2026-09-12 20:36 CST
 - 链接：https://www.axios.com/2026/09/12/anthropic-ai-threat-report-russia-iran-china
 
-### 2. Scoop: Mike Johnson urged to cancel House recess over AI warnings
-- 摘要：A letter is circulating among House members urging Speaker Mike Johnson (R-La.) to bring back the House "immediately" and keep it in session until Congress passes AI safeguards , Axios has learned. Why it matters: Such drastic action has been proposed by members of both parties this week after curre...
-- 作者：Andrew Solender
-- 发布时间：2026-09-12 03:33 CST
-- 链接：https://www.axios.com/2026/09/11/mike-johnson-house-recess-ai-doom-warnings
+### 3. Behind the Curtain: It's not too late
+- 摘要：The White House, Congress and the country's leading AI companies have allowed AI to grow faster, stronger, more powerful and wildly lucrative (and dangerous), with no serious effort to control it or spread the benefits beyond the super-wealthy. It's not too late to change this. But if they all dithe...
+- 作者：Jim VandeHei
+- 发布时间：2026-09-12 20:01 CST
+- 链接：https://www.axios.com/2026/09/12/ai-regulation-safety-plan-2026
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 19 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 14 条）
 
-### 1. Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China
+### 1. Anthropic CEO Says It’s Time to Slow AI Model Advances
+- 摘要：Anthropic PBC Chief Executive Officer Dario Amodei said that the artificial intelligence industry needs to slow the pace of development for new models, citing growing concerns about “serious” risks to humans.
+- 作者：Kevin Whitelaw and Seth Fiegerman
+- 发布时间：2026-09-12 22:17 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models
+
+### 2. Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China
 - 摘要：In June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimpse of the technology that would come to define his second presidential term.
 - 作者：Maggie Eastland and Courtney Subramanian
 - 发布时间：2026-09-12 21:00 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china
 
-### 2. China’s AI Industry Pivots to Agents From Models, Report Says
+### 3. China’s AI Industry Pivots to Agents From Models, Report Says
 - 摘要：China’s artificial intelligence industry is shifting from competition in large models and computing power toward the deployment and commercialization of AI agents, according to a report by the China Telecom Research Institute cited by China Central Television on Saturday.
 - 作者：Bloomberg News
 - 发布时间：2026-09-12 17:37 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-12/china-s-ai-industry-pivots-to-agents-from-models-report-says
 
-### 3. Nvidia Mulls $10 Billion Anthropic IPO Backing, Reuters Says
-- 摘要：Nvidia Corp. is considering investing as much as $10 billion in Anthropic PBC’s initial public offering, which could become the biggest IPO of all time, Reuters reported.
-- 作者：Yi Wei Wong
-- 发布时间：2026-09-12 07:19 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters
-
 ## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
-### 1. AI is helping managers prepare for one of work's hardest tasks: Difficult employee conversations
+### 1. Anthropic's Amodei proposes plan to 'slow the pace' of advancing AI capabilities
+- 摘要：Amodei's essay landed after an Anthropic researcher set off a firestorm on social media this week by announcing he quit his job at the company.
+- 作者：Ashley Capoot
+- 发布时间：2026-09-13 01:00 CST
+- 链接：https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html
+
+### 2. AI is helping managers prepare for one of work's hardest tasks: Difficult employee conversations
 - 摘要：AI tools let managers rehearse difficult conversations about performance, pay and layoffs, but experts say privacy safeguards and human judgment are essential.
 - 作者：Cheryl Winokur Munk
 - 发布时间：2026-09-12 22:00 CST
 - 链接：https://www.cnbc.com/2026/09/12/ai-manager-coaching-employee-feedback-performanc-review.html
 
-### 2. Dell stock jumps on RBC initiation, now up nearly 350% in 2026
+### 3. Dell stock jumps on RBC initiation, now up nearly 350% in 2026
 - 摘要：Dell sold about $16.4 billion of AI servers in its second quarter, RBC said.
 - 作者：Kif Leswing
 - 发布时间：2026-09-12 04:48 CST
 - 链接：https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html
 
-### 3. Altimeter's Gerstner blasts researchers voicing AI extinction warnings, questions 'political agenda'
-- 摘要：Brad Gerstner responded to the flurry of AI stories this week after a researcher quit his job at Anthropic, accusing AI companies of "gambling with our lives."
-- 作者：CJ Haddad
-- 发布时间：2026-09-12 02:48 CST
-- 链接：https://www.cnbc.com/2026/09/11/altimeters-gerstner-blasts-researchers-voicing-ai-extinction-warnings.html
-
-## Financial Times — Technology（ft-tech，en，本窗口共 7 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
 
 ### 1. Joseph Stiglitz on how to build a better AI economy
 - 摘要：A slow rollout will disappoint investors. A fast one risks undermining the industry’s own foundations. But managed carefully, this is a technology that could benefit us all
@@ -245,37 +182,35 @@
 - 发布时间：2026-09-12 04:51 CST
 - 链接：https://www.ft.com/content/916eea1b-d483-49e1-9a70-53b4df8f9870?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 13 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
 
-### 1. Deepfakes are wrecking influencers’ credibility, one fake ad at a time
+### 1. ‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown
+- 摘要：In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “...
+- 作者：Edward Helmore
+- 发布时间：2026-09-12 23:46 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown
+
+### 2. Deepfakes are wrecking influencers’ credibility, one fake ad at a time
 - 摘要：Influencers aren’t just battling competitors for brand deals. They’re now battling AI versions of themselves Earlier this year, Emily Schuman, the creator of the lifestyle blog Cupcakes and Cashmere, saw a photo of herself she didn’t recognize on Instagram. In a sponsored ad, Schuman, who has more t...
 - 作者：Arielle Pardes
 - 发布时间：2026-09-12 20:00 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/12/deepfakes-wrecking-influencers-credibility
 
-### 2. Steve Jones on the pros and cons of AI datacentres – cartoon
+### 3. Steve Jones on the pros and cons of AI datacentres – cartoon
 - 摘要：Continue reading...
 - 作者：Steve Jones
 - 发布时间：2026-09-12 18:00 CST
 - 链接：https://www.theguardian.com/commentisfree/picture/2026/sep/12/steve-jones-pros-cons-ai-datacentres-cartoon
 
-### 3. ‘Immature playground boasting’: Mathematicians uneasy at OpenAI’s latest scalp
-- 摘要：As OpenAI model cracks Millennium Prize Problem that puzzled experts for decades, many feel shocked at pace of change It was a week that left mathematicians reeling. Hot on the heels of a flurry of cases of artificial intelligence furthering the field , OpenAI declared a major scalp: its latest AI m...
-- 作者：Ian Sample Science editor
-- 发布时间：2026-09-12 16:00 CST
-- 链接：https://www.theguardian.com/science/2026/sep/12/openai-mathematicians-millennium-prize-problem
+## Latent Space（latent-space，en，本窗口共 2 条）
 
-## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
+### 1. The Rise of the Forward Deployed Engineer — and How To Do the Job Right
+- 摘要：The difference between FDE and consulting; diagram by Vinoo Ganesh FDEs have the hottest job in AI. Labs, startups and PE firms are all hiring engineers to sit inside their customers’ operations and solve their problems . Almost none of them agree on what those engineers are supposed to accomplish,...
+- 作者：Vinoo Ganesh
+- 发布时间：2026-09-12 23:01 CST
+- 链接：https://www.latent.space/p/forward-deployed-engineer-best-practices
 
-### 1. Open-Source AI & Open Models Reading List
-- 摘要：List last updated: 11 Sep. 2026 This is my list of the best writing on open models in the last few years. If someone decides they want to get up to speed on the area, reading this will be a comprehensive overview of the state of affairs. Please comment pieces to consider adding below, and I’ll updat...
-- 作者：Nathan Lambert
-- 发布时间：2026-09-11 20:36 CST
-- 链接：https://www.interconnects.ai/p/open-source-ai-reading-list
-
-## Latent Space（latent-space，en，本窗口共 1 条）
-
-### 1. [AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale
+### 2. [AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale
 - 摘要：We are late to this but better than never. Have been busy finalizing the second AIE NYC , which is happening in one month. Get your tix before prices go up - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wel...
 - 作者：Latent Space
 - 发布时间：2026-09-12 13:56 CST
@@ -303,21 +238,21 @@
 - 发布时间：2026-09-12 04:05 CST
 - 链接：https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/
 
-## Nature — Machine Learning（nature-ml，en，本窗口共 1 条）
+## New York Times — Technology（nyt-tech，en，本窗口共 3 条）
 
-### 1. Briefing Chat: The Bunsen burner myth that turns out to be just hot air
-- 发布时间：2026-09-11 08:00 CST
-- 链接：https://www.nature.com/articles/d41586-026-02893-8
+### 1. Anthropic C.E.O. Dario Amodei Calls for A.I. Slowdown
+- 摘要：Dario Amodei, Anthropic’s chief executive, in February. “Over the last few months, I have become convinced that fully addressing the risks requires even more prudence,” he wrote in an essay.
+- 作者：Mike Isaac
+- 发布时间：2026-09-13 00:03 CST
+- 链接：https://www.nytimes.com/2026/09/12/technology/anthropic-dario-amodei-ai-slowdown.html
 
-## New York Times — Technology（nyt-tech，en，本窗口共 2 条）
-
-### 1. Inside the Discussions at AI Companies Over a Superintelligence Doomsday
+### 2. Inside the Discussions at AI Companies Over a Superintelligence Doomsday
 - 摘要：A demonstration of Anthropic’s Claude Cowork A.I. agent in May. The company’s employees have been talking about the risks of artificial intelligence after a colleague, citing dangers, resigned this week.
 - 作者：Mike Isaac and Kate Conger
 - 发布时间：2026-09-12 17:03 CST
 - 链接：https://www.nytimes.com/2026/09/12/technology/doomsday-discussions-ai-companies.html
 
-### 2. Why It’s Difficult for Tech Companies to Rein In A.I.
+### 3. Why It’s Difficult for Tech Companies to Rein In A.I.
 - 摘要：Researchers say artificial intelligence is developing faster than the systems put in place to monitor and control it.
 - 作者：Sheera Frenkel and Dylan Freedman
 - 发布时间：2026-09-12 17:02 CST
@@ -331,7 +266,7 @@
 - 发布时间：2026-09-12 01:04 CST
 - 链接：https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 11 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 8 条）
 
 ### 1. OpenAI agents attacked RubyGems back in May
 - 摘要：OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that...
@@ -351,81 +286,73 @@
 - 发布时间：2026-09-12 01:47 CST
 - 链接：https://simonwillison.net/2026/Sep/11/boris-cherny/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 8 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 9 条）
 
-### 1. Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
+### 1. Anthropic CEO outlines plan to ‘pace the frontier’
+- 摘要：What would it actually look like to "pace the frontier"?
+- 作者：Anthony Ha
+- 发布时间：2026-09-12 23:52 CST
+- 链接：https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/
+
+### 2. Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data
 - 摘要：The round for the two-year-old startup is coming together months after Mecka announced its Series A.
 - 作者：Marina Temkin
 - 发布时间：2026-09-12 06:58 CST
 - 链接：https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
 
-### 2. Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
+### 3. Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
 - 摘要：Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be "a form of public good."
 - 作者：Julie Bort
 - 发布时间：2026-09-12 04:59 CST
 - 链接：https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
 
-### 3. OpenAI’s feud with mathematicians is only escalating
-- 摘要：Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.
-- 作者：Tim Fernholz
-- 发布时间：2026-09-12 04:57 CST
-- 链接：https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/
-
 ## The Decoder（the-decoder，en，本窗口共 10 条）
 
-### 1. Nvidia wants to pour up to $10 billion into Anthropic's record-breaking IPO
+### 1. Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control
+- 摘要：Anthropic CEO Dario Amodei is calling for a controlled slowdown in AI development. He warns that recursive self-improvement could threaten the entire internet within six to twelve months and proposes embedded auditors at AI companies, shared safety standards, and global agreements modeled after the...
+- 作者：Matthias Bastian
+- 发布时间：2026-09-12 23:03 CST
+- 链接：https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/
+
+### 2. GPT-6 Astra appears to show a "step change" in spatial reasoning based on early benchmarks
+- 摘要：In a new robotics benchmark, GPT-6 Astra shows major gains in spatial understanding. On StationeryBench, the model completed 7 out of 100 tasks with dual-arm robots, while competitor MolmoAct2 couldn't finish a single one. A researcher calls it a "step change in spatial reasoning." The article GPT-6...
+- 作者：Matthias Bastian
+- 发布时间：2026-09-12 22:26 CST
+- 链接：https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/
+
+### 3. Nvidia wants to pour up to $10 billion into Anthropic's record-breaking IPO
 - 摘要：Nvidia is in talks to invest up to $10 billion in Anthropic's planned IPO, Reuters reports. At a target valuation of $2 trillion, it would be the largest IPO in history. Most of that money will likely end up right back at Nvidia in chip orders. The article Nvidia wants to pour up to $10 billion into...
 - 作者：Matthias Bastian
 - 发布时间：2026-09-12 22:05 CST
 - 链接：https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/
 
-### 2. AI models' written reasoning steps correspond to distinct internal patterns, a new study finds
-- 摘要：Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their visible chain of thought reveals. The article AI models' written reasoning steps...
-- 作者：Jonathan Kemper
-- 发布时间：2026-09-12 21:39 CST
-- 链接：https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/
-
-### 3. GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends
-- 摘要：Overly long skill descriptions, blanket reading requirements, and rigid approval rules can get in GPT-6 Astra's way, warns OpenAI's Eric Provencher. More capable models need less hand-holding, so developers should tie instructions to specific tasks and spell out when the job is done. The article GPT...
-- 作者：Matthias Bastian
-- 发布时间：2026-09-12 21:10 CST
-- 链接：https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/
-
 ## The Verge — AI（theverge-ai，en，本窗口共 4 条）
 
-### 1. OpenAI just wants to win
+### 1. Anthropic CEO says it’s time to pump the brakes on AI
+- 摘要：Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its "adherence to safety practices and commitments." In a winding essay , Amodei proposed a three-step plan to "pace the frontier" - jargon...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-13 00:23 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
+
+### 2. Trump is giving data centers a pass to pollute
+- 摘要：President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report . They are urging - perhaps futilely - the president to adopt...
+- 作者：Justine Calma
+- 发布时间：2026-09-12 22:41 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
+
+### 3. OpenAI just wants to win
 - 摘要：OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. In...
 - 作者：Robert Hart
 - 发布时间：2026-09-12 19:00 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition
 
-### 2. Lawyer fined $5K over AI-hallucinated witnesses in a murder case
-- 摘要：New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters . In a filing on Wednesday , the court fined Stephen Aarons $5,000 and held him in contempt for failing...
-- 作者：Emma Roth
-- 发布时间：2026-09-12 04:44 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal
-
-### 3. Anthropic spent this week in hot water over cybersecurity
-- 摘要：After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded "recklessness" - and will...
-- 作者：Hayden Field
-- 发布时间：2026-09-12 00:09 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity
-
-## TLDR AI（tldr-ai，en，本窗口共 1 条）
-
-### 1. Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑
-- 摘要：Agents API 🤖, Cognition SWE-2 👨💻, Muse Shared Agents 🧑🤝🧑
-- 作者：TLDR
-- 发布时间：2026-09-11 08:00 CST
-- 链接：https://tldr.tech/ai/2026-09-11
-
 ## VentureBeat（venturebeat，en，本窗口共 2 条）
 
-### 1. Most vendors won't tell you when their AI invents your security guidance. Ivanti did.
-- 摘要：Chris Goettl spent months training a Claude skill on the same patch data he had processed by hand for a decade. It kept inventing details. Read more
-- 作者：louiswcolumbus@gmail.com (Louis Columbus)
-- 发布时间：2026-09-12 00:23 CST
-- 链接：https://venturebeat.com/security/most-vendors-wont-tell-you-when-their-ai-invents-your-security-guidance-ivanti-did
+### 1. Anthropic CEO says AI swarm could ‘take over the entire Internet’ in 6-12 months, commits to AI slowdown plan
+- 摘要：Anthropic co-founder CEO Dario Amodei is explicitly calling for the AI industry to slow down — and committing his own company to the first step of a three-part plan designed to do so — after warning that a more capable version of the AI swarm behind this summer’s extraordinary security incident in w...
+- 作者：carl.franzen@venturebeat.com (Carl Franzen)
+- 发布时间：2026-09-12 23:11 CST
+- 链接：https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan
 
 ### 2. Security vendors use AI to rank Patch Tuesday CVEs — and rarely tell customers
 - 摘要：Chris Goettl spent months training a Claude skill on the same patch data he had processed by hand for a decade. It kept inventing details. Read more
@@ -433,7 +360,7 @@
 - 发布时间：2026-09-12 00:23 CST
 - 链接：https://venturebeat.com/security/security-vendors-use-ai-to-rank-patch-tuesday-cves-and-rarely-tell-customers
 
-## WIRED — AI（wired-ai，en，本窗口共 3 条）
+## WIRED — AI（wired-ai，en，本窗口共 2 条）
 
 ### 1. From Hacks to Bioweapons, Claude Misuse Is Now Everywhere
 - 摘要：Plus: The US disrupts the internet’s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.
@@ -447,13 +374,7 @@
 - 发布时间：2026-09-12 02:59 CST
 - 链接：https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/
 
-### 3. One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’
-- 摘要：Timnit Gebru argues that AI companies are stoking fears of extinction to avoid discussing actual harms, like autonomous weapons.
-- 作者：Lauren Goode
-- 发布时间：2026-09-11 23:00 CST
-- 链接：https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/
-
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 22 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 9 条）
 
 ### 1. 我让豆包工作统计了466次融资，顺便告诉我哪家具身智能不能投
 - 摘要：最近，豆包工作刷屏了。 8月底，豆包正式发布面向生产力场景的“豆包工作”。 官方给它的定义，是围绕用户目标自主拆解任务、调用工具、持续推进复杂工作流程。 而在“民间”，讨论声量最高、出现得最频繁的说法，是“豆包有Agent了”。 坦白说，我最开始其实没太大感觉。过去一年，Agent已经快被AI行业说烂了：能联网搜索叫Agent；能操作浏览器也叫Agent。很多Demo都很惊艳，可一旦塞进真实工作流，体验是真不行：任务只要稍微复杂一点，人还是得一直盯着。 所以这次，我们没有从“帮我写份周报”“总结一下这个PDF”这种入门级任务开始，而是直接把手里三个最麻烦、最容易“翻车”的真实市场研究项目，直接...
@@ -473,7 +394,7 @@
 - 发布时间：2026-09-12 17:24 CST
 - 链接：https://www.36kr.com/p/3980179218699912
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 13 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 8 条）
 
 ### 1. 中国银行启动“一网三融”算力金融生态共建行动
 - 摘要：据中国银行消息，9月12日，在2026中国算力大会开幕式上，中国银行在工业和信息化部、中国人民银行指导支持下，会同中国电信、中国移动、中国联通、中国人民保险集团、中国东方资产管理股份有限公司、国银金融租赁股份有限公司等生态伙伴，共同启动“一网三融”算力金融生态共建行动。“十五五”时期，中国银行将携手保险、产业投资、资产管理和金融租赁等算力生态伙伴，共建“算力+”产业金融生态，为算力产业链上下游企业提供不少于3000亿元综合金融支持，支持不少于100个重点智算中心项目，为国家算力互联互通区域节点提供跨区域、一体化协同金融服务，赋能3000家以上用算企业。
@@ -498,25 +419,25 @@
 - 发布时间：2026-09-12 21:03 CST
 - 链接：http://www.geekpark.net/news/370227
 
-## 虎嗅（huxiu，zh，本窗口共 41 条）
+## 虎嗅（huxiu，zh，本窗口共 32 条）
 
-### 1. 估值狂飙至500亿美元，月之暗面突然遭遇暗剑
+### 1. 中国大模型创始人在政治上很愚蠢
+- 摘要：#Anthropic#蒸馏攻击#议程陷阱#大模型周末了，整个大活。从7个角度聊聊Anthropic指控中国大模型蒸馏，并泄露敏感数据和信息。一共11000字多个字，稍后面有个指引，可以跳到感兴趣的地方，有时间的可以全文浏览。事件经过就不细说了，详见我前一篇《Anthropic终于找对攻击中国大模型的路子了》。...... 本文来自微信公众号： 野生编辑部 ，作者：野生编辑部 #Anthropic#蒸馏攻击#议程陷阱#大模型 周末了，整个大活。 从7个角度聊聊Anthropic指控中国大模型蒸馏，并泄露敏感数据和信息。 一共11000字多个字，稍后面有个指引，可以跳到感兴趣的地方，有时间的可以全...
+- 作者：野生编辑部
+- 发布时间：2026-09-12 23:32 CST
+- 链接：https://www.huxiu.com/article/4890721.html
+
+### 2. 腾讯可能要给WorkBuddy改名了？
+- 摘要：最近我一直在想一个问题：WorkBuddy会不会改名？这个问题其实是从一个很小的细节开始的。WorkBuddy这款产品我用得比较多，属于铁粉了。产品本身越做越完善，但它在国内推广有一个很现实的问题：这个名字对普通用户并不友好。WorkBuddy。会英语的人知道，大概是“工作伙伴”的意思。但真正面向大众市场的时...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 最近我一直在想一个问题： WorkBuddy会不会改名？ 这个问题其实是从一个很小的细节开始的。 WorkBuddy这款产品我用得比较多，属于铁粉了。产品本身越做越完善，但它在国内推广有一个很现实的问题：这个名字对普通用户...
+- 作者：人人都是产品经理
+- 发布时间：2026-09-12 22:54 CST
+- 链接：https://www.huxiu.com/article/4890718.html
+
+### 3. 估值狂飙至500亿美元，月之暗面突然遭遇暗剑
 - 摘要：9月11日深夜，一张没有信源、仅有几句文字的微信群聊截图，在国内创投圈、AI从业者社群飞速扩散。一夜之间，消息从封闭的投资人群聊溢出，全网刷屏，引发外界猜测。接近12日中午时分，月之暗面官方微博发布法务声明：“网传关于创始人及员工的信息纯属虚构，系恶意造谣，公司已第一时间向公安机关报案，将依法追究相关造谣者的...... 本文来自微信公众号： 凤凰网财经 ，作者：凤凰AI研究院 9月11日深夜，一张没有信源、仅有几句文字的微信群聊截图，在国内创投圈、AI从业者社群飞速扩散。 一夜之间，消息从封闭的投资人群聊溢出，全网刷屏，引发外界猜测。接近12日中午时分，月之暗面官方微博发布法务声明：“网传关...
 - 作者：凤凰网财经
 - 发布时间：2026-09-12 21:06 CST
 - 链接：https://www.huxiu.com/article/4890711.html
-
-### 2. 智谱上市后募资，大模型战场变了
-- 摘要：智谱又开始募资了。最近，从DeepSeek到Kimi再到智谱，大模型战场硝烟四起。Kimi正在谋求上市，DeepSeek开始把注意力放在上游的算力基础设施，已经上市的智谱则再次从资本市场拿钱。海外，OpenAI和Anthropic也在奔向IPO。这些多重信号都在说明一个问题，虽然现在留在牌桌上的公司少了，但这...... 出品｜虎嗅科技组 作者｜宋思杭 编辑｜苗正卿 头图｜视觉中国 智谱又开始募资了。 最近，从DeepSeek到Kimi再到智谱，大模型战场硝烟四起。Kimi正在谋求上市，DeepSeek开始把注意力放在上游的算力基础设施，已经上市的智谱则再次从资本市场拿钱。海外，OpenAI和...
-- 作者：宋思杭
-- 发布时间：2026-09-12 21:00 CST
-- 链接：https://www.huxiu.com/article/4890703.html
-
-### 3. 全面排除中国？美国前经济高官：要重振工业，就无法将中国拒之门外
-- 摘要：导语：9月8日，美国交通部公开了一封由部长肖恩·达菲（Sean Duffy）致福特首席执行官吉姆·法利（Jim Farley）的信。在信中，达菲批评福特正将自身未来与中国企业“过度关联”，点名其使用宁德时代电池技术、与吉利在欧洲合作等安排，要求福特减少对中国技术和制造能力的依赖。福特随即反驳称，密歇根州电池工...... 本文来自微信公众号： IPP评论 ，作者：IPP编译，原文标题：《全面排除中国？美国前经济高官：要重振工业，就无法将中国拒之门外｜IPP编译》 导语：9月8日，美国交通部公开了一封由部长肖恩·达菲（Sean Duffy）致福特首席执行官吉姆·法利（Jim Farley）的信。...
-- 作者：IPP评论©
-- 发布时间：2026-09-12 19:40 CST
-- 链接：https://www.huxiu.com/article/4890701.html
 
 ## 爱范儿（ifanr，zh，本窗口共 4 条）
 
@@ -558,42 +479,42 @@
 - 发布时间：2026-09-12 10:13 CST
 - 链接：https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 57 条）
+## IT之家（ithome，zh，本窗口共 60 条）
 
-### 1. 英伟达发起《NBA 2K27》DLSS 5 截图挑战，将送出 4 张 RTX 5090 显卡
-- 摘要：IT之家 9 月 12 日消息，英伟达宣布推出《NBA 2K27》DLSS 5“海报挑战赛”，奖品是 4 张定制 RTX 5090 显卡。 参赛者可以使用 RTX 50 系列显卡开启 DLSS 5，在《NBA 2K27》中 截取游戏画面或视频 ，也可以通过由 RTX 5080 服务器提供算力的 GeForce NOW Ultimate 云游戏服务完成作品，随后发布并 @NVIDIAGeForce，同时添加 RTXPoster 标签。 活动持续至 12 月 31 日，获奖名单将在 2027 年 1 月底前公布。英伟达将每张奖品显卡的价值定为 2,599 美元 （IT之家注：现汇率约合 17,47...
+### 1. LG 再次回应“电视待机状态会录音”：不会持续记录或传输用户对话
+- 摘要：IT之家 9 月 12 日消息，本周早些时候，Gamers Nexus、Level1Techs 和多名独立安全研究人员称，LG 电视会记录并上传用户数据。北京时间 12 日（今天），LG 出面再次反驳这些指控。 LG 通过声明回应称，近期部分媒体报道可能让外界对 LG 智能电视的工作方式产生了误解，旗下电视 不会持续记录或传输用户的对话 ，唤醒词识别也全部在设备本地完成。然而，Gamers Nexus 的测试显示，即使在人们通常认为 AI 助手早就停止监听之后，一台 LG 电视 仍保存了大量环境对话日志 。 LG 还称，自动内容识别（ACR）、语音识别和基于兴趣的广告等功能 均可由用户选择启用...
 - 作者：作者： 清源
-- 发布时间：2026-09-12 21:05 CST
-- 链接：https://www.ithome.com/1/001/641.htm
+- 发布时间：2026-09-12 23:38 CST
+- 链接：https://www.ithome.com/1/001/659.htm
 
-### 2. 创维数字：与谷歌签署智能家居合作协议，首批产品覆盖欧洲 14 国
-- 摘要：IT之家 9 月 12 日消息，创维数字 9 月 11 日在业绩说明会上表示，近日，公司与 Google Asia PacificPte. Ltd 正式签署《智能家居合作协议》。 IT之家从官方介绍获悉，该公司作为 Google 授权的智能家居合作伙伴及智能家居服务授权经销商，围绕智能家居产品及服务开展深度协同，共同推动智能产品创新与产业化商用落地。双方首批合作产品包括 Gemini 智能音箱、带摄像头的智能门铃、室内摄像头、户外摄像头、带泛光灯的户外摄像头，面向 欧洲 14 个国家 推出创维旗下品牌、兼容 Google Home 平台的产品。 创维数字表示，2026 年上半年，公司实现营业收...
+### 2. 算力词元贷加速全国推广，支持机房建设、GPU 服务器集群采购
+- 摘要：IT之家 9 月 12 日消息，据央视财经今日报道，今年服贸会首次推出“金融 + 科创”的联展模式，让金融机构联合他们所赋能的科创企业同台参展。展台上除了金融产品，还有智能机械臂、运载火箭模型、人形机器人等硬科技，背后是 算力贷、算力保、投贷联动 等新型金融工具的支持。 针对 AI 企业的“算力词元贷”自 8 月落地后，正加速向全国推广。服贸会上，多家银行发布相关产品。中国工商银行公司金融业务部副总经理胡贤文介绍， “算力基建贷”支持算力机房建设、GPU 服务器集群采购等新型算力基础设施建设 ，“算力研发贷”解决企业研发投入大、转化周期长的痛点。 中邮金融资产投资有限公司投资业务一部副总经理闫...
 - 作者：作者： 浩渺
-- 发布时间：2026-09-12 20:27 CST
-- 链接：https://www.ithome.com/1/001/636.htm
+- 发布时间：2026-09-12 23:10 CST
+- 链接：https://www.ithome.com/1/001/656.htm
 
-### 3. 全球首个适配万台级产能，柳州优必选万台级工业人形机器人超级智慧工厂投产
-- 摘要：IT之家 9 月 12 日消息，据柳州市融媒体中心“柳州 1 号”公众号，9 月 12 日，柳州优必选万台级工业人形机器人超级智慧工厂投产仪式在北部生态新区举行。 该超级智慧工厂是优必选打造的 全球首个适配万台级产能 的工业人形机器人智能制造标杆工厂，依托工业仿真系统智能规划、数字化“智慧大脑”全域调度，真正落地“用机器人造机器人”新质生产力智造模式，按照产线设计节拍， 每 10 分钟可下线 1 台机器人、年规划产能超万台 。 同时，优必选联合西门子量身打造人形机器人 专属数字化智造底座 ，破解了人形机器人零部件繁多、转运频次高、装配精度高、产品迭代快的量产痛点。 据IT之家了解，Walker...
+### 3. 谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板
+- 摘要：IT之家 9 月 12 日消息，据《商业内幕》今天（12 日）凌晨报道，谷歌完成了对旧金山 AI 编程初创企业 Mechanize 的人才收购。 Mechanize 联合创始人塔迈 · 贝西罗格鲁的 LinkedIn 资料显示，他自 8 月起加入了谷歌 DeepMind 部门，另有报道称，Mechanize 十多名工程师也一同转投 DeepMind。 交易财务条款现已公开，据信谷歌此前曾洽谈一笔价值 15 亿美元 （IT之家注：现汇率约合 100.88 亿元人民币） 的交易，以获得 Mechanize 的技术和人才。Mechanize 今年早些时候 曾以 5 亿美元 （现汇率约合 33.63...
 - 作者：作者： 清源
-- 发布时间：2026-09-12 20:22 CST
-- 链接：https://www.ithome.com/1/001/635.htm
+- 发布时间：2026-09-12 22:53 CST
+- 链接：https://www.ithome.com/1/001/653.htm
 
-## 雷峰网（leiphone，zh，本窗口共 9 条）
+## 雷峰网（leiphone，zh，本窗口共 11 条）
 
-### 1. 从“GPASS”到“灵影”，蚂蚁为AI终端铺设Agent基础设施
+### 1. 2026外滩大会闭幕：50余项科技成果首发首展， 80多个产业合作达成意向
+- 摘要：9月12日，2026 Inclusion·外滩大会在上海黄浦世博园区闭幕。围绕“共创AI新经济”主题，来自研究一线、产业一线、投资界的670余位嘉宾深入探讨了人工智能对生产、消费、商业及社会形态的深刻影响。300余家企业集中展示了AI技术在医疗健康、支付、金融、零售、生活服务等真实场景中的最新应用成果。 大会组委会披露，四天时间，50余项技术、产品和应用在大会首发首展，覆盖智能体、具身智能、AI终端、量子科技、金融科技等多个方向。大会共吸引来自50多个国家和地区的嘉宾和观众，超过7.8万人次现场参会，其中“00后”观众占比达到20%，2300万人次在线观看论坛直播。 当AI开始替人办事，它能为...
+- 发布时间：2026-09-12 20:14 CST
+- 链接：https://www.leiphone.com/category/industrynews/2AopCWDkpGmBAL9L.html
+
+### 2. 0团队、1台电脑、全球70国用户，外滩大会见证个人造风者登场
+- 摘要：科技圈从来不缺“按资排辈”的舞台，但这个9月，在上海黄浦江畔举行的2026 Inclusion·外滩大会，正在打破常规。 穿行于大会现场，记者感受到了一种强烈的叙事转向：在全新的技术周期里，资历的壁垒正在坍缩，未来正被第一批AI原住民重新执笔。这主要体现在，主论坛和见解论坛的聚光灯不再仅仅留给功成名就的行业巨擘，而是对准了一批二三十岁的“造风者”；超级个体日让“不被定义的我”得到多面且鲜活的呈现；AI Coding黑客松大赛更是打破年龄和背景限制，上万名参赛者中近七成是未成年人，最小的选手才6岁。 当00后独角兽掌门人与20后极客同台造风 在见解论坛的舞台，22岁的创业领袖陈博远，从强化学习、...
+- 发布时间：2026-09-12 19:57 CST
+- 链接：https://www.leiphone.com/category/industrynews/Elgap4KyV9VEWLce.html
+
+### 3. 从“GPASS”到“灵影”，蚂蚁为AI终端铺设Agent基础设施
 - 摘要：9月11日，在2026 Inclusion·外滩大会“AI驱动新终端新服务”论坛上，蚂蚁集团宣布，GPASS智能终端可信连接技术框架正式升级为“灵影”。 灵影定位于面向AI眼镜等新终端的Agent原生操作系统及开放平台，围绕自然交互、智能体运行、多端协同和安全可信提供底层能力，并向芯片伙伴、硬件厂商和开发者开放。 蚂蚁集团资深副总裁周志峰表示，AI终端正在推动人机关系发生变化，设备开始从等待用户操作，转向理解用户意图并协同服务。“蚂蚁不做硬件，但愿意做那个‘铺路’的人。我们希望把身份、安全、支付和端云协同能力沉淀为基础设施，让厂商和开发者更专注于产品与场景创新。” AI终端正在从“设备”变成“...
 - 发布时间：2026-09-12 17:13 CST
 - 链接：https://www.leiphone.com/category/industrynews/XOOL34t59O0TvCAQ.html
-
-### 2. 师生激辩外滩大会：云谷学校论坛给出一份“教育AI使用说明书”
-- 摘要：9月12日上午，由杭州云谷学校与《三联生活周刊》联合推出的2026 Inclusion·外滩大会见解论坛教育专场，在上海黄浦世博园区举行。论坛以“认知增强，还是认知外包？——AI时代的教育选择”为主题，从人文、艺术到技术视角，从一线课堂到未来职场，各位嘉宾围绕“人是什么”的哲学思考、“什么能交出去、什么必须留下来”的边界之辩等议题，追问AI时代的教育与生活，究竟该是什么样。 图注：现场金句不断观众频频记录精彩瞬间 AI时代，“人是什么”？ “AI会加速‘后人类’进程吗？”《三联生活周刊》副主编吴琪提到一位AI专家的预测：到2035年智能体总数可能超过人类，“你以为你跟一个人线上交了很久的朋友，...
-- 发布时间：2026-09-12 17:01 CST
-- 链接：https://www.leiphone.com/category/industrynews/0i0LRe3Ohg0FXYk1.html
-
-### 3. 从完成任务到自主发现，Agent后训练寻找下一个Scaling Law
-- 摘要：当大模型开始调用工具、执行复杂任务，衡量其能力的标准也在发生变化：不仅要看能否给出正确答案，更要看能否在真实环境中持续行动、检查结果，并根据反馈调整策略。从模型能力到任务价值，这一转变需要怎样的训练方法与基础设施？智能体能否在工作中积累经验、不断进化，进而打开新的能力增长空间？ 9月12日上午2026 Inclusion·外滩大会上，以“Agent Post-Training：智能本质与下一个 Scaling Law”为主题的见解论坛正式举行。 论坛围绕智能体后训练的算法、环境、基础设施及自我进化等议题展开交流，邀请到模型研发与Agent领域的研究者、产业实践者，共同探讨智能体能力发展的关键问...
-- 发布时间：2026-09-12 16:40 CST
-- 链接：https://www.leiphone.com/category/industrynews/e7IcZ05CQ6HtNZZ2.html
 
 ## 开源中国（oschina，zh，本窗口共 2 条）
 
@@ -607,7 +528,7 @@
 - 发布时间：2026-09-11 20:51 CST
 - 链接：https://www.oschina.net/news/502428
 
-## 量子位（qbitai，zh，本窗口共 9 条）
+## 量子位（qbitai，zh，本窗口共 7 条）
 
 ### 1. “算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选
 - 摘要：太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。
@@ -682,24 +603,25 @@
 - 发布时间：2026-09-12 13:58 CST
 - 链接：https://github.com/Sonarr/Sonarr
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 115 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 103 条）
 
-### 1. Coding Is Over. Get over It
-- 摘要：I’m a software engineer at JPMorgan Chase. I have more than 15 years of experience in building software and I used to love it. These are my own observations, not the firm’s position. JPMC is a very large company, and what I observe from my vantage point not be true at all. AI is pervasive company wi...
-- 作者：pitermarx
-- 发布时间：2026-09-12 21:16 CST
-- 链接：https://blog.pitermarx.com/2026/09/coding-is-over.-get-over-it./
+### 1. Anthropic boss Dario Amodei calls for AI development to slow down
+- 摘要：Amodei's call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.
+- 作者：champagnepapi
+- 发布时间：2026-09-13 00:56 CST
+- 链接：https://www.bbc.com/news/articles/c14dpgm0rg4o
 
-### 2. Show HN: Liniora – Ever thought about replacing your project manager?
-- 摘要：Hi HN, the title could be a little bit aggressive sorry for that... Basically i am Computer engineer graduated recently but i was and still working remotely for approx. 3 years with the same foreign company in EU. and i noticed that we are always somehow lose the context of a ticket -- even though w...
-- 作者：omarammura
-- 发布时间：2026-09-12 20:15 CST
-- 链接：https://liniora.com
+### 2. Sam Altman and Elon Musk Support Dario Amodei's Proposal to Pace AI Development
+- 摘要：Every major US lab agreeing to slow down development was not on my 2026 bingo card
+- 作者：kuberwastaken
+- 发布时间：2026-09-13 00:37 CST
+- 链接：https://twitter.com/kuberwastaken/status/2098812781223174325
 
-### 3. Altman tells staff OpenAI is open to slowing AI development
-- 作者：signa11
-- 发布时间：2026-09-12 19:33 CST
-- 链接：https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/
+### 3. Make Your First Edit to OpenStreetMap in the Next 15 Minutes
+- 摘要：Website Wizard JOSM Plugin
+- 作者：juliantigler
+- 发布时间：2026-09-13 00:25 CST
+- 链接：https://high5apps.github.io/josm-plugin-website-wizard/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 2 条）
 
@@ -735,47 +657,46 @@
 - 发布时间：2026-09-12 01:00 CST
 - 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 400 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 369 条）
 
-### 1. Model Regulation
-- 作者：nfox01
-- 发布时间：2026-09-12 22:12 CST
-- 链接：https://i.redd.it/e8odqejfk3ph1.png
+### 1. What would need to happen before we can really call chatgpt AGI?
+- 摘要：Basically, in order to say we are at AGI, it should be on par with humans in all the modalities it possesses. For now, the adjacent models, like vision, voice, image gen, and probably some of its safety guardrails, are quite seriously undermining that. Also, it feels quite weird and not very AGI-lik...
+- 作者：kaljakin
+- 发布时间：2026-09-13 01:17 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1weic1f/what_would_need_to_happen_before_we_can_really/
 
-### 2. Dario Amodei demands and suggest a plan for unified slow-down
-- 摘要：https://darioamodei.com/post/we-must-pace-the-frontier
-- 作者：TorturedPoet30
-- 发布时间：2026-09-12 22:12 CST
-- 链接：https://www.reddit.com/gallery/1wedp8j
+### 2. Claude addressed me as bro out of nowhere, training data is strong in this area
+- 作者：answerencr
+- 发布时间：2026-09-13 01:13 CST
+- 链接：https://i.redd.it/dkxmyxerg4ph1.png
 
-### 3. How I stopped fighting long documents and started feeding them in the right order
-- 摘要：For a while I would dump a 40 page report into one message, ask for a summary, and get something bland that missed the parts I actually cared about. The fix was embarrassingly simple: stop asking for a summary first. Now the first message is just context. I paste the doc and say "don't summarize yet...
-- 作者：Cold_Mud2650
-- 发布时间：2026-09-12 22:11 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wedoag/how_i_stopped_fighting_long_documents_and_started/
+### 3. M2 Ultra/Qwen3.8 Flash Next Update - latest oMLX introduces substantial speedup
+- 作者：Thrumpwart
+- 发布时间：2026-09-13 01:11 CST
+- 链接：https://i.imgur.com/0WzUdgs.png
 
-## 智源社区（baai-hub，zh，本窗口共 25 条）
+## 智源社区（baai-hub，zh，本窗口共 20 条）
 
-### 1. Anthropic 320万招销售，专崩Meta
+### 1. ADMET-EvO｜从“自动建模”到“持续研究”：一个会积累证据、自我演化的ADMET科学智能体
+- 摘要：人工智能正逐步融入药物研发，推动分子性质预测、药效评价和安全性评估等任务的算法发展。然而，药物研发涉及多样的生物学过程、实验体系和数据类型，不同任务的预测目标与有效方法往往存在显著差异。从理解实验端点的生物学含义、界定预测任务，到设计和优化任务专用算法，仍需要大量领域知识与专家经验。随着研究任务和实验证据不断增加，如何使智能体理解这些差异，并据此持续开展研究与算法演化，成为药物研发智能化的重要课题。 为此，来自Valhalla Technology的研究团队提出ADMET-EvO，一种面向异质任务开展持续自主研究、驱动任务专用算法自主演化的科学智能体。系统融合领域知识与累积实验证据，将端点理解...
+- 作者：DrugAI
+- 发布时间：2026-09-13 01:10 CST
+- 链接：https://hub.baai.ac.cn/view/57911
+
+### 2. Anthropic 320万招销售，专崩Meta
 - 摘要：听雨 发自 凹非寺 量子位 | 公众号 QbitAI 在无人注意的角落，Anthropic最近放出一个神秘岗位： 「Mega Account Executive, Meta」。 翻译成人话，就是Meta超级大客户销售。 年收入38万—45万美元，最高约合 人民币320万元 。 而且这个销售岗，面向的客户只有一家：Meta。 啊？只需要服务一家客户，就能年入三百多万元？？ 听起来就很爽……🤤 But，这个岗位很快就消失了。从9月3日上线，到9月9日关闭，前后只存在了一周。 招聘页面显示，该岗位目前已停止接受申请。 啥意思，这么快就招满了吗？ 年入320万的「To M」销售，具体干啥 招聘启事里列...
 - 作者：量子位
 - 发布时间：2026-09-12 21:40 CST
 - 链接：https://hub.baai.ac.cn/view/57909
 
-### 2. 他离职引上亿次围观，IPO前夕A社天价股权不要了，理由如下
+### 3. 他离职引上亿次围观，IPO前夕A社天价股权不要了，理由如下
 - 摘要：程浅 发自 凹非寺 量子位 | 公众号 QbitAI “我已经没有任何理由再去推高Anthropic的估值。” 说这话的，是因从Anthropic离职引发上亿次关注的AI研究员Jacob Coxon。 过去3年，他先是在OpenAI参与模型预训练，随后加入Anthropic做同样的工作。 然而仅在Anthropic待了4个月后，他就离职了。 尽管……按照公司的归属安排，工作满6个月才能真正拿到第一批股权。 也就是说，再等2个月，他大概率就能赶上Anthropic上市前的这轮财富快车。 △ Jacob Coxon 但就是这两个月，Coxon也等不了了——这也回应了此前的一种质疑： AI公司员工不...
 - 作者：量子位
 - 发布时间：2026-09-12 21:30 CST
 - 链接：https://hub.baai.ac.cn/view/57908
 
-### 3. 百度秒哒再升级！让最懂业务的人，亲手造自己的系统
-- 摘要：听雨 发自 凹非寺 量子位 | 公众号 QbitAI 秒哒的最新动作，已经不只是「一句话生成应用」这么简单了！ 它开始被真正嵌进企业的业务系统里。两家小公司几乎没有技术人力，却直接用它跑通了核心业务。 辽丝锦 是一家近30人的小众服装品牌，没有IT部门，也没有预算请外包。 他们用秒哒搭起了商品企划、供应链跟单、付款、库存这一整条链路，数据错漏明显减少。 福建蓝海黑石 是一家新材料企业，同样没有专职研发团队。 他们用秒哒做出了「全序智管」办公系统，接入企业微信后，几百名员工可以直接在里面处理项目、差旅审批和邮件，不用来回切换窗口。 这两套系统都不是程序员写出来的，搭建者是公司创始人和一线业务团队...
-- 作者：量子位
-- 发布时间：2026-09-12 21:20 CST
-- 链接：https://hub.baai.ac.cn/view/57907
-
 ---
-共列出 115 条（窗口内采集总数 972 条，来自 48 个信源）
+共列出 103 条（窗口内采集总数 877 条，来自 42 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
