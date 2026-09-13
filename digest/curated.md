@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-13 05:34 CST
-数据窗口：最近 24 小时，971 条原始条目 → 739 个事件；过滤噪音 450 个，排除全部历史已推送的 37 个。
+生成时间：2026-09-13 08:05 CST
+数据窗口：最近 24 小时，824 条原始条目 → 655 个事件；过滤噪音 408 个，排除全部历史已推送的 26 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -15,86 +15,83 @@
 - 链接：https://www.minitap.ai/blog/i-expected-better-from-google
 - 同事件报道：Steven Johnson (Google Labs) just described exactly how to clone a writer's voice without asking（Reddit AI subreddits (new)）
 
-## 2. AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：Artificial intelligence startup Cohere Inc. is in advanced talks to raise between $2 billion and $3 billion, including financing from the Canadian government and existing backers, according to a report from the Globe & M...
-- 发布时间：2026-09-12 02:03 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-11/ai-firm-cohere-in-talks-for-up-to-3-billion-raise-report-says
-- 同事件报道：3万字对话陈大年：冲在投资和产业的第一线，想让每个人都有自己的AI（钛媒体）
-
-## 3. CIA Releases President's Daily Briefs in Commemoration of 9/11
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.25
-- 摘要：https://www.cia.gov/stories/story/cia-releases-presidents-da...
-- 发布时间：2026-09-12 02:30 CST
-- 链接：https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/
-- 同事件报道：Mistakes, mistrust and misdirection: 25 years after 9/11, its legacy unfolds（Hacker News (AI stories)）
-- 同事件报道：I build an interactive artifact about 9/11（Reddit AI subreddits (new)）
-
-## 4. Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows
+## 2. Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI（1 个来源） ｜ 热度：4.0
 - 摘要：arXiv:2609.10964v1 Announce Type: new Abstract: Agentic LLM workflows consist of sequences of model turns interleaved with tool interactions, so their end-to-end completion time depends not only on inference speed but al...
 - 发布时间：2026-09-12 12:00 CST
 - 链接：https://arxiv.org/abs/2609.10964
 
-## 5. Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers（1 个来源） ｜ 热度：3.0
-- 摘要：In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and la...
-- 发布时间：2026-09-06 04:00 CST
-- 链接：https://arxiv.org/abs/2608.15380
+## 3. Guys RSI is here , Google has done self improving AI
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.56
+- 发布时间：2026-09-12 09:38 CST
+- 链接：https://i.redd.it/dgsj1ad2uzoh1.jpeg
+- 同事件报道：Google Has Achieved RSI（Hacker News (AI stories)）
 
-## 6. Rapidly scaling online storage to serve over 1 billion ChatGPT users
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.0
-- 摘要：Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.
-- 发布时间：2026-09-11 18:00 CST
-- 链接：https://openai.com/index/scaling-storage-one-billion-users-part-one
-
-## 7. Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations
-- 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.0
-- 摘要：Multi-agent systems in production experience issues in ways that traditional monitoring misses. For example, the agent can’t invoke its foundation model (FM) and returns an empty response. This could be because of a miss...
-- 发布时间：2026-09-12 02:26 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/
-
-## 8. Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?
-- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.0
-- 摘要：A health plan CFO closes the month after the usual round of extracts, spreadsheets,...
-- 发布时间：2026-09-12 02:26 CST
-- 链接：https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why
-
-## 9. Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement
+## 4. Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI（1 个来源） ｜ 热度：3.0
 - 摘要：arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier...
 - 发布时间：2026-09-12 12:00 CST
 - 链接：https://arxiv.org/abs/2609.10584
 
-## 10. Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language
+## 5. Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI（1 个来源） ｜ 热度：3.0
 - 摘要：arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with...
 - 发布时间：2026-09-12 12:00 CST
 - 链接：https://arxiv.org/abs/2609.10629
 
-## 11. Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：3.0
-- 摘要：Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be "a form of public good."
-- 发布时间：2026-09-12 04:59 CST
-- 链接：https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
-
-## 12. China’s AI Industry Pivots to Agents From Models, Report Says
+## 6. Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：China’s artificial intelligence industry is shifting from competition in large models and computing power toward the deployment and commercialization of AI agents, according to a report by the China Telecom Research Inst...
-- 发布时间：2026-09-12 17:37 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-12/china-s-ai-industry-pivots-to-agents-from-models-report-says
+- 摘要：In June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimpse of the technology that would come to define his second presidential term.
+- 发布时间：2026-09-12 21:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china
 
-## 13. Steve Jones on the pros and cons of AI datacentres – cartoon
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Continue reading...
-- 发布时间：2026-09-12 18:00 CST
-- 链接：https://www.theguardian.com/commentisfree/picture/2026/sep/12/steve-jones-pros-cons-ai-datacentres-cartoon
+## 7. AI models' written reasoning steps correspond to distinct internal patterns, a new study finds
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
+- 摘要：Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their v...
+- 发布时间：2026-09-12 21:39 CST
+- 链接：https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/
 
-## 14. OpenAI just wants to win
+## 8. AI is helping managers prepare for one of work's hardest tasks: Difficult employee conversations
+- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology（1 个来源） ｜ 热度：2.5
+- 摘要：AI tools let managers rehearse difficult conversations about performance, pay and layoffs, but experts say privacy safeguards and human judgment are essential.
+- 发布时间：2026-09-12 22:00 CST
+- 链接：https://www.cnbc.com/2026/09/12/ai-manager-coaching-employee-feedback-performanc-review.html
+
+## 9. Trump is giving data centers a pass to pollute
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
-- 摘要：OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In nor...
-- 发布时间：2026-09-12 19:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition
+- 摘要：President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefi...
+- 发布时间：2026-09-12 22:41 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
+
+## 10. The Rise of the Forward Deployed Engineer — and How To Do the Job Right
+- 地区：国外源 ｜ 语言：en ｜ 来源：Latent Space（1 个来源） ｜ 热度：2.5
+- 摘要：The difference between FDE and consulting; diagram by Vinoo Ganesh FDEs have the hottest job in AI. Labs, startups and PE firms are all hiring engineers to sit inside their customers’ operations and solve their problems...
+- 发布时间：2026-09-12 23:01 CST
+- 链接：https://www.latent.space/p/forward-deployed-engineer-best-practices
+
+## 11. Quoting Paul Ford
+- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog（1 个来源） ｜ 热度：2.5
+- 摘要：For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still...
+- 发布时间：2026-09-13 02:00 CST
+- 链接：https://simonwillison.net/2026/Sep/12/paul-ford/
+
+## 12. Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Warring tech bosses unite behind warnings that humans could lose control of the technology
+- 发布时间：2026-09-13 02:14 CST
+- 链接：https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1
+
+## 13. Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：2.5
+- 摘要：The Fly Language Model (FLM) is a public chatbot that couples the complete retained MaleCNS v1.0 fruit fly connectome to a frozen LiquidAI LFM2.5-1.2B-Instruct backbone. The developer who created the FLM calls it the wor...
+- 发布时间：2026-09-13 02:51 CST
+- 链接：https://www.marktechpost.com/2026/09/12/fly-language-model-flm-wires-the-full-fruit-fly-connectome-into-a-frozen-1-2b-llm-and-its-own-controls-show-the-wiring-does-not-help/
+
+## 14. Black Box: The Chatbots | 14 days | Ep 2 – podcast
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Virginia man Jon Ganz was rebuilding his life after spending more than two decades in prison for a horrific crime. Last year, he got a prompt on his phone that his wife, Rachel, believes changed their lives forever. It w...
+- 发布时间：2026-09-13 04:00 CST
+- 链接：https://www.theguardian.com/australia-news/audio/2026/sep/13/black-box-the-chatbots-14-days-ep-2-podcast
 
 国内：
 
@@ -112,7 +109,7 @@
 - 发布时间：2026-09-12 20:12 CST
 - 链接：https://www.ithome.com/1/001/633.htm
 - 同事件报道：Make Claude Code Faster and Cheaper with Ory Lumen（Hacker News (AI stories)）
-- 同事件报道：Claude Code ran until it hit its limit, produced nothing（Reddit AI subreddits (new)）
+- 同事件报道：Claude Code micro-compact?（Reddit AI subreddits (new)）
 
 ## 3. V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维
 - 地区：国内源 ｜ 语言：zh ｜ 来源：InfoQ 中文、Hacker News (AI stories)、Reddit AI subreddits (new)（3 个来源） ｜ 热度：7.14

@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-13 05:34 CST
+生成时间：2026-09-13 08:05 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -28,51 +28,7 @@
 - 发布时间：2026-09-12 12:00 CST
 - 链接：https://arxiv.org/abs/2609.10724
 
-## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 3 条）
-
-### 1. Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations
-- 摘要：Multi-agent systems in production experience issues in ways that traditional monitoring misses. For example, the agent can’t invoke its foundation model (FM) and returns an empty response. This could be because of a missing AWS Identity and Access Management (IAM) permission on an agent’s execution...
-- 作者：Meghana Ashok
-- 发布时间：2026-09-12 02:26 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/
-
-### 2. Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload
-- 摘要：Organizations building generative AI applications usually compare models the same way: dollars per million tokens. It’s the number on every pricing page, so it becomes the number in every spreadsheet. But production workloads don’t buy tokens. They buy outcomes: a resolved support ticket, a complete...
-- 作者：Nick McCarthy
-- 发布时间：2026-09-12 02:24 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/
-
-### 3. Build interactive MCP Apps using Amazon Bedrock AgentCore
-- 摘要：As customers shift to interacting with digital services through AI hosts like ChatGPT and Claude, organizations need a way to make their services accessible across these applications with rich UI, not only plain text. They also need to do this without coupling to a single host. MCP Apps and Amazon B...
-- 作者：Dantis Stephen
-- 发布时间：2026-09-12 02:23 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/
-
-## Databricks Blog（databricks-blog，en，本窗口共 1 条）
-
-### 1. Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?
-- 摘要：A health plan CFO closes the month after the usual round of extracts, spreadsheets,...
-- 作者：Aaron Zavora; Jonathan Thompson
-- 发布时间：2026-09-12 02:26 CST
-- 链接：https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why
-
-## GitHub Blog（github-blog，en，本窗口共 1 条）
-
-### 1. Marketing ops as code: Automating events from planning to follow-up on GitHub
-- 摘要：I run marketing for GitHub in Japan and Korea, and events are the heartbeat of it: a recurring webinar series for enterprise developers, community meetups in Tokyo, invite-only executive sessions in Seoul. What does a developer in this market actually need right now? Which topics are worth an hour o...
-- 作者：Tomoko Tanaka
-- 发布时间：2026-09-12 02:26 CST
-- 链接：https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/
-
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 1 条）
-
-### 1. Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2
-- 摘要：In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publ...
-- 作者：Kaushalraj Puwar, B. Thangaraju
-- 发布时间：2026-09-06 04:00 CST
-- 链接：https://arxiv.org/abs/2608.15380
-
-## OpenAI News（openai-news，en，本窗口共 3 条）
+## OpenAI News（openai-news，en，本窗口共 2 条）
 
 ### 1. Perplexity trusts GPT-6 Astra with end-to-end systems
 - 摘要：Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
@@ -84,14 +40,9 @@
 - 发布时间：2026-09-12 00:00 CST
 - 链接：https://openai.com/index/cognition-devin-testing-with-astra
 
-### 3. Rapidly scaling online storage to serve over 1 billion ChatGPT users
-- 摘要：Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.
-- 发布时间：2026-09-11 18:00 CST
-- 链接：https://openai.com/index/scaling-storage-one-billion-users-part-one
-
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 2 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 1 条）
 
 ### 1. I spent $4,000 on a robot dog from China
 - 摘要：On a sunny morning in June, I walked to work with a quadruped robot beside me. I’ve never gotten more attention from strangers. A bunch of people snapped pictures of my robot dog. Several people asked me questions. Was it mine? (Yes.) Did I build it? (No.) Was it being used for surveillance? (No.) B...
@@ -99,13 +50,7 @@
 - 发布时间：2026-09-12 19:00 CST
 - 链接：https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/
 
-### 2. ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses
-- 摘要：The New Mexico Supreme Court held a ChatGPT-using lawyer in direct contempt of court for submitting a brief with "false testimony from wholly fabricated witnesses," including fake police testimony and other mistakes. The state's top court referred the lawyer to a disciplinary board for further proce...
-- 作者：Jon Brodkin
-- 发布时间：2026-09-12 03:34 CST
-- 链接：https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/
-
-## Axios（axios，en，本窗口共 6 条）
+## Axios（axios，en，本窗口共 5 条）
 
 ### 1. OpenAI delaying IPO amid AI safety concerns, Sam Altman says
 - 摘要：OpenAI will not go public this year given all the safety work it needs to do, CEO Sam Altman said in a Fortune interview released Saturday. Why it matters: Altman's comments come as fears over doomsday AI scenarios have ramped up since an Anthropic employee resigned and issued a dire warning about A...
@@ -125,7 +70,7 @@
 - 发布时间：2026-09-12 20:36 CST
 - 链接：https://www.axios.com/2026/09/12/anthropic-ai-threat-report-russia-iran-china
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 15 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 5 条）
 
 ### 1. OpenAI’s Altman Says No IPO in 2026, Firm to Prioritize Safety
 - 摘要：OpenAI won’t go public in this year as the artificial intelligence company focuses on addressing safety-related concerns around the technology, Chief Executive Officer Sam Altman told Fortune in an interview.
@@ -145,7 +90,7 @@
 - 发布时间：2026-09-12 21:00 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china
 
-## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 2 条）
 
 ### 1. Anthropic's Amodei proposes plan to 'slow the pace' of advancing AI capabilities
 - 摘要：Amodei's essay landed after an Anthropic researcher set off a firestorm on social media this week by announcing he quit his job at the company.
@@ -159,13 +104,7 @@
 - 发布时间：2026-09-12 22:00 CST
 - 链接：https://www.cnbc.com/2026/09/12/ai-manager-coaching-employee-feedback-performanc-review.html
 
-### 3. Dell stock jumps on RBC initiation, now up nearly 350% in 2026
-- 摘要：Dell sold about $16.4 billion of AI servers in its second quarter, RBC said.
-- 作者：Kif Leswing
-- 发布时间：2026-09-12 04:48 CST
-- 链接：https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html
-
-## Financial Times — Technology（ft-tech，en，本窗口共 5 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 3 条）
 
 ### 1. Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown
 - 摘要：Warring tech bosses unite behind warnings that humans could lose control of the technology
@@ -182,25 +121,25 @@
 - 发布时间：2026-09-12 09:06 CST
 - 链接：https://www.ft.com/content/25b1abb0-790f-4315-9b0c-530d959a086f?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 13 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
 
-### 1. As Australia faces an AI-generated future, a human rights act is needed more than ever
+### 1. OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says
+- 摘要：OpenAI’s decision comes after dire warnings about rapidly progressing technology and lawmakers’ calls for new rules OpenAI will not go public in 2026, Sam Altman said in a Fortune interview published on Saturday, citing safety concerns over artificial intelligence . “I actually think that, given eve...
+- 作者：Reuters
+- 发布时间：2026-09-13 07:00 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns
+
+### 2. As Australia faces an AI-generated future, a human rights act is needed more than ever
 - 摘要：Without laws requiring transparency or a right of review, our human rights will be rationed away by algorithmic and automated decision-making tools As we hurtle towards a post-human future, the absence of a human rights act in Australia will put us all at ever greater risk. Human rights, which the A...
 - 作者：Julianne Schultz
 - 发布时间：2026-09-13 04:00 CST
 - 链接：https://www.theguardian.com/law/commentisfree/2026/sep/13/as-australia-faces-an-ai-generated-future-a-human-rights-act-is-needed-more-than-ever
 
-### 2. Black Box: The Chatbots | 14 days | Ep 2 – podcast
+### 3. Black Box: The Chatbots | 14 days | Ep 2 – podcast
 - 摘要：Virginia man Jon Ganz was rebuilding his life after spending more than two decades in prison for a horrific crime. Last year, he got a prompt on his phone that his wife, Rachel, believes changed their lives forever. It was from Google, inviting him to try the company’s AI chatbot, Gemini Listen to t...
 - 作者：Presented by Michael Safi; produced by George McDonagh and Alex Atack; additiona...
 - 发布时间：2026-09-13 04:00 CST
 - 链接：https://www.theguardian.com/australia-news/audio/2026/sep/13/black-box-the-chatbots-14-days-ep-2-podcast
-
-### 3. ‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown
-- 摘要：In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “...
-- 作者：Edward Helmore
-- 发布时间：2026-09-12 23:46 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown
 
 ## Latent Space（latent-space，en，本窗口共 2 条）
 
@@ -216,27 +155,13 @@
 - 发布时间：2026-09-12 13:56 CST
 - 链接：https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b
 
-## MarkTechPost（marktechpost，en，本窗口共 2 条）
+## MarkTechPost（marktechpost，en，本窗口共 1 条）
 
 ### 1. Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help
 - 摘要：The Fly Language Model (FLM) is a public chatbot that couples the complete retained MaleCNS v1.0 fruit fly connectome to a frozen LiquidAI LFM2.5-1.2B-Instruct backbone. The developer who created the FLM calls it the world’s first Fly Language Model, built on an architecture called GPF (Generative P...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-13 02:51 CST
 - 链接：https://www.marktechpost.com/2026/09/12/fly-language-model-flm-wires-the-full-fruit-fly-connectome-into-a-frozen-1-2b-llm-and-its-own-controls-show-the-wiring-does-not-help/
-
-### 2. Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize
-- 摘要：An agent harness is the code around a model: execution loop, tools, context, state, recovery, and verification. Per the Terminal-Bench 2.1 leaderboard, GPT-5 solves 35.2% of tasks inside Terminus 2 but 49.6% inside Codex CLI with identical weights. Most benchmarks keep that harness fixed. HarnessDev...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-12 06:01 CST
-- 链接：https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/
-
-## MIT Technology Review — AI（mit-tech-review，en，本窗口共 1 条）
-
-### 1. Roundtables: AI’s apocalypse crisis
-- 摘要：Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI...
-- 作者：MIT Technology Review
-- 发布时间：2026-09-12 04:05 CST
-- 链接：https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/
 
 ## New York Times — Technology（nyt-tech，en，本窗口共 3 条）
 
@@ -258,35 +183,27 @@
 - 发布时间：2026-09-12 17:02 CST
 - 链接：https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html
 
-## SemiAnalysis（semianalysis，en，本窗口共 1 条）
-
-### 1. Nvidia’s Backstop Universe – Heads I Win, Tails Who Loses?
-- 摘要：Follow the money behind the AI buildout with our AI Compute, Capital and Markets Model - understand who is funding the expansion, how deals are structured, and where the risks sit. Contact our team here to find out more. We’re also hiring for SemiAnalysis’s Compute, Capital & Markets team. We have f...
-- 作者：Daniel Nishball
-- 发布时间：2026-09-12 01:04 CST
-- 链接：https://newsletter.semianalysis.com/p/nvidias-backstop-universe-heads-i
-
 ## Simon Willison's Weblog（simon-willison，en，本窗口共 9 条）
 
-### 1. Quoting Paul Ford
+### 1. Generating running routes with GPT-6 Astra and ChatGPT Work
+- 摘要：Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file...
+- 作者：Simon Willison
+- 发布时间：2026-09-13 07:56 CST
+- 链接：https://simonwillison.net/2026/Sep/12/astra-running-routes/
+
+### 2. California Brown Pelican
+- 摘要：California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife
+- 作者：Simon Willison
+- 发布时间：2026-09-13 05:16 CST
+- 链接：https://simonwillison.net/2026/Sep/12/sighting-399708714/
+
+### 3. Quoting Paul Ford
 - 摘要：For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to...
 - 作者：Simon Willison
 - 发布时间：2026-09-13 02:00 CST
 - 链接：https://simonwillison.net/2026/Sep/12/paul-ford/
 
-### 2. OpenAI agents attacked RubyGems back in May
-- 摘要：OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that...
-- 作者：Simon Willison
-- 发布时间：2026-09-12 08:42 CST
-- 链接：https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
-
-### 3. So you want to use OpenRouter?
-- 摘要：So you want to use OpenRouter? One of OpenRouter's selling points is that it "handles fallbacks automatically and picks the most cost-effective option for each request", so you can call a single API endpoint for a model and get routed to the best available backend provider. Mohamed Moustafa points o...
-- 作者：Simon Willison
-- 发布时间：2026-09-12 06:49 CST
-- 链接：https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/
-
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 10 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 3 条）
 
 ### 1. OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026
 - 摘要：While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.
@@ -306,7 +223,7 @@
 - 发布时间：2026-09-12 06:58 CST
 - 链接：https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/
 
-## The Decoder（the-decoder，en，本窗口共 10 条）
+## The Decoder（the-decoder，en，本窗口共 8 条）
 
 ### 1. Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control
 - 摘要：Anthropic CEO Dario Amodei is calling for a controlled slowdown in AI development. He warns that recursive self-improvement could threaten the entire internet within six to twelve months and proposes embedded auditors at AI companies, shared safety standards, and global agreements modeled after the...
@@ -328,23 +245,23 @@
 
 ## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
-### 1. Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
+### 1. OpenAI’s rogue AI tried to hack another company in May
+- 摘要：In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems d...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-13 05:41 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack
+
+### 2. Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
 - 摘要：OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune . Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was b...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-13 05:16 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
 
-### 2. Anthropic CEO says it’s time to pump the brakes on AI
+### 3. Anthropic CEO says it’s time to pump the brakes on AI
 - 摘要：Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its "adherence to safety practices and commitments." In a winding essay , Amodei proposed a three-step plan to "pace the frontier" - jargon...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-13 00:23 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development
-
-### 3. Trump is giving data centers a pass to pollute
-- 摘要：President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report . They are urging - perhaps futilely - the president to adopt...
-- 作者：Justine Calma
-- 发布时间：2026-09-12 22:41 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa
 
 ## VentureBeat（venturebeat，en，本窗口共 1 条）
 
@@ -354,19 +271,13 @@
 - 发布时间：2026-09-12 23:11 CST
 - 链接：https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan
 
-## WIRED — AI（wired-ai，en，本窗口共 2 条）
+## WIRED — AI（wired-ai，en，本窗口共 1 条）
 
 ### 1. From Hacks to Bioweapons, Claude Misuse Is Now Everywhere
 - 摘要：Plus: The US disrupts the internet’s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.
 - 作者：Andy Greenberg, Lily Hay Newman, Dell Cameron
 - 发布时间：2026-09-12 18:30 CST
 - 链接：https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/
-
-### 2. Meta Sued Over Training Data for Its AI and Face-Recognition Systems
-- 摘要：The proposed class action alleges Meta illegally harvested people’s Facebook and Instagram photos to train its AI image-generation models and to build its unreleased “NameTag” face recognition feature.
-- 作者：Dhruv Mehrotra
-- 发布时间：2026-09-12 02:59 CST
-- 链接：https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 9 条）
 
@@ -413,27 +324,27 @@
 - 发布时间：2026-09-12 21:03 CST
 - 链接：http://www.geekpark.net/news/370227
 
-## 虎嗅（huxiu，zh，本窗口共 32 条）
+## 虎嗅（huxiu，zh，本窗口共 33 条）
 
-### 1. 中国大模型创始人在政治上很愚蠢
+### 1. 加密资产安全幻象：当黑客、AI与“白帽”撕下底层的遮羞布
+- 摘要：在我周围的圈子里，有一个不成文的潜规则：每个人都要有一部苹果手机，必须得是欧美版或者澳新版，最低也得是个韩版，港版都已经不太满足要求了。别多想，这部手机里没有什么绯闻线索或者绝密情报，它只有一个功能——加密钱包。加密货币在某些圈子里就是社交货币，你没有就说明你的买卖做得不够大，也不够国际化，也就没有上桌吃饭的...... 本文来自微信公众号： 斯凯碎碎侃 ，作者：斯凯 在我周围的圈子里，有一个不成文的潜规则：每个人都要有一部苹果手机，必须得是欧美版或者澳新版，最低也得是个韩版，港版都已经不太满足要求了。 别多想，这部手机里没有什么绯闻线索或者绝密情报，它只有一个功能——加密钱包。加密货币在某些...
+- 作者：斯凯有话说
+- 发布时间：2026-09-13 07:16 CST
+- 链接：https://www.huxiu.com/article/4890728.html
+
+### 2. 中国车企出海，向现代起亚学什么
+- 摘要：很多全球车企，在中国和在世界其他地方是两种现状。比如雷诺，一个在中国已失去存在感的品牌，在欧洲却像吉利之于中国，正生机勃勃。再比如现代、起亚，已多年在中国直不起腰来，但在美国、欧洲乃至其他市场，长期是当地消费者购车的重要选择之一。现代汽车集团在中国被低估，但这也与它自身战略以及大环境有关。今天的中国车企纷纷出...... 本文来自微信公众号： 汽车商业评论 ，编辑：黄大路，作者：推动新汽车向前进 很多全球车企，在中国和在世界其他地方是两种现状。 比如雷诺，一个在中国已失去存在感的品牌，在欧洲却像吉利之于中国，正生机勃勃。 再比如现代、起亚，已多年在中国直不起腰来，但在美国、欧洲乃至其他市场，长...
+- 作者：汽车商业评论
+- 发布时间：2026-09-13 07:09 CST
+- 链接：https://www.huxiu.com/article/4890726.html
+
+### 3. 中国大模型创始人在政治上很愚蠢
 - 摘要：#Anthropic#蒸馏攻击#议程陷阱#大模型周末了，整个大活。从7个角度聊聊Anthropic指控中国大模型蒸馏，并泄露敏感数据和信息。一共11000字多个字，稍后面有个指引，可以跳到感兴趣的地方，有时间的可以全文浏览。事件经过就不细说了，详见我前一篇《Anthropic终于找对攻击中国大模型的路子了》。...... 本文来自微信公众号： 野生编辑部 ，作者：野生编辑部 #Anthropic#蒸馏攻击#议程陷阱#大模型 周末了，整个大活。 从7个角度聊聊Anthropic指控中国大模型蒸馏，并泄露敏感数据和信息。 一共11000字多个字，稍后面有个指引，可以跳到感兴趣的地方，有时间的可以全...
 - 作者：野生编辑部
 - 发布时间：2026-09-12 23:32 CST
 - 链接：https://www.huxiu.com/article/4890721.html
 
-### 2. 腾讯可能要给WorkBuddy改名了？
-- 摘要：最近我一直在想一个问题：WorkBuddy会不会改名？这个问题其实是从一个很小的细节开始的。WorkBuddy这款产品我用得比较多，属于铁粉了。产品本身越做越完善，但它在国内推广有一个很现实的问题：这个名字对普通用户并不友好。WorkBuddy。会英语的人知道，大概是“工作伙伴”的意思。但真正面向大众市场的时...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 最近我一直在想一个问题： WorkBuddy会不会改名？ 这个问题其实是从一个很小的细节开始的。 WorkBuddy这款产品我用得比较多，属于铁粉了。产品本身越做越完善，但它在国内推广有一个很现实的问题：这个名字对普通用户...
-- 作者：人人都是产品经理
-- 发布时间：2026-09-12 22:54 CST
-- 链接：https://www.huxiu.com/article/4890718.html
-
-### 3. 估值狂飙至500亿美元，月之暗面突然遭遇暗剑
-- 摘要：9月11日深夜，一张没有信源、仅有几句文字的微信群聊截图，在国内创投圈、AI从业者社群飞速扩散。一夜之间，消息从封闭的投资人群聊溢出，全网刷屏，引发外界猜测。接近12日中午时分，月之暗面官方微博发布法务声明：“网传关于创始人及员工的信息纯属虚构，系恶意造谣，公司已第一时间向公安机关报案，将依法追究相关造谣者的...... 本文来自微信公众号： 凤凰网财经 ，作者：凤凰AI研究院 9月11日深夜，一张没有信源、仅有几句文字的微信群聊截图，在国内创投圈、AI从业者社群飞速扩散。 一夜之间，消息从封闭的投资人群聊溢出，全网刷屏，引发外界猜测。接近12日中午时分，月之暗面官方微博发布法务声明：“网传关...
-- 作者：凤凰网财经
-- 发布时间：2026-09-12 21:06 CST
-- 链接：https://www.huxiu.com/article/4890711.html
-
-## 爱范儿（ifanr，zh，本窗口共 4 条）
+## 爱范儿（ifanr，zh，本窗口共 3 条）
 
 ### 1. 特努斯回答一切，那个懂技术的苹果 CEO 回来了
 - 摘要：前不久，John Ternus 刚刚迎来了自己接任苹果 CEO 后的首场秋季新品发布会。在这场备受瞩目的亮相中，苹果拿出了酝酿已久的折叠屏手机 iPhone Duo、首次搭载可变光圈技术的 iPhone 18 Pro / Pro Max，以及全新一代 Apple Watch 系列。 发布会落幕后，Ternus 与苹果全球营销高级副总裁 Greg Joswiak（人称 Joz）一同接受了 Tom’s Guide 与 TechRadar 的联合专访。面对记者抛出的种种尖锐提问，这位硬件工程师出身的新掌门人直面了外界关心的所有焦点： 为什么等了近十年才做折叠屏？iPhone 为什么依然是 AI 的不...
@@ -473,25 +384,25 @@
 - 发布时间：2026-09-12 10:13 CST
 - 链接：https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 60 条）
+## IT之家（ithome，zh，本窗口共 52 条）
 
-### 1. LG 再次回应“电视待机状态会录音”：不会持续记录或传输用户对话
+### 1. 奥尔特曼确认：OpenAI 今年不会上市
+- 摘要：IT之家 9 月 13 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼本周五接受《财富》杂志采访，确认公司不会在今年上市。 奥尔特曼指出，OpenAI 并不急于推进 IPO（首次公开募股）。他基于当前人工智能安全领域正在发生的事情认为，今年上市并不是一个明智的选择，且 OpenAI 没有这方面的压力。 他补充道，OpenAI 会在业务和公司准备就绪、社会环境合适时再选择上市。当主持人询问公司是否会在 2027 年准备 IPO 时，奥尔特曼回答：“ 我会说不是 2026 年 。是的，我们还有很多事情要做，比如应对当下安全形势，以及思考我们怎么和整个行业、政府展开合作。” 《纽约时报》曾在今年...
+- 作者：作者： 潞源
+- 发布时间：2026-09-13 06:42 CST
+- 链接：https://www.ithome.com/1/001/669.htm
+
+### 2. LG 再次回应“电视待机状态会录音”：不会持续记录或传输用户对话
 - 摘要：IT之家 9 月 12 日消息，本周早些时候，Gamers Nexus、Level1Techs 和多名独立安全研究人员称，LG 电视会记录并上传用户数据。北京时间 12 日（今天），LG 出面再次反驳这些指控。 LG 通过声明回应称，近期部分媒体报道可能让外界对 LG 智能电视的工作方式产生了误解，旗下电视 不会持续记录或传输用户的对话 ，唤醒词识别也全部在设备本地完成。然而，Gamers Nexus 的测试显示，即使在人们通常认为 AI 助手早就停止监听之后，一台 LG 电视 仍保存了大量环境对话日志 。 LG 还称，自动内容识别（ACR）、语音识别和基于兴趣的广告等功能 均可由用户选择启用...
 - 作者：作者： 清源
 - 发布时间：2026-09-12 23:38 CST
 - 链接：https://www.ithome.com/1/001/659.htm
 
-### 2. 算力词元贷加速全国推广，支持机房建设、GPU 服务器集群采购
+### 3. 算力词元贷加速全国推广，支持机房建设、GPU 服务器集群采购
 - 摘要：IT之家 9 月 12 日消息，据央视财经今日报道，今年服贸会首次推出“金融 + 科创”的联展模式，让金融机构联合他们所赋能的科创企业同台参展。展台上除了金融产品，还有智能机械臂、运载火箭模型、人形机器人等硬科技，背后是 算力贷、算力保、投贷联动 等新型金融工具的支持。 针对 AI 企业的“算力词元贷”自 8 月落地后，正加速向全国推广。服贸会上，多家银行发布相关产品。中国工商银行公司金融业务部副总经理胡贤文介绍， “算力基建贷”支持算力机房建设、GPU 服务器集群采购等新型算力基础设施建设 ，“算力研发贷”解决企业研发投入大、转化周期长的痛点。 中邮金融资产投资有限公司投资业务一部副总经理闫...
 - 作者：作者： 浩渺
 - 发布时间：2026-09-12 23:10 CST
 - 链接：https://www.ithome.com/1/001/656.htm
-
-### 3. 谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板
-- 摘要：IT之家 9 月 12 日消息，据《商业内幕》今天（12 日）凌晨报道，谷歌完成了对旧金山 AI 编程初创企业 Mechanize 的人才收购。 Mechanize 联合创始人塔迈 · 贝西罗格鲁的 LinkedIn 资料显示，他自 8 月起加入了谷歌 DeepMind 部门，另有报道称，Mechanize 十多名工程师也一同转投 DeepMind。 交易财务条款现已公开，据信谷歌此前曾洽谈一笔价值 15 亿美元 （IT之家注：现汇率约合 100.88 亿元人民币） 的交易，以获得 Mechanize 的技术和人才。Mechanize 今年早些时候 曾以 5 亿美元 （现汇率约合 33.63...
-- 作者：作者： 清源
-- 发布时间：2026-09-12 22:53 CST
-- 链接：https://www.ithome.com/1/001/653.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 11 条）
 
@@ -597,25 +508,25 @@
 - 发布时间：2026-09-12 13:58 CST
 - 链接：https://github.com/Sonarr/Sonarr
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 117 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 79 条）
 
-### 1. Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases
+### 1. The US is replacing every official latitude, longitude and height it publishes
+- 摘要：The National Geodetic Survey has spent years building a replacement for the reference system that fixes every published position in the country. New geodetic-control submissions into the old system stop being accepted after January 13, 2027.
+- 作者：rurp
+- 发布时间：2026-09-13 06:06 CST
+- 链接：https://spacedaily.com/s-the-united-states-is-replacing-every-official-latitude-longitude-and-height-it-publishes-existing-coordinates-will-move-by-as-much-as-four-meters-and-the-million-survey-marks-in-the-ground-will-no/
+
+### 2. Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases
 - 摘要：Real-SWE benchmarks frontier AI models on private production codebases licensed from real companies. Eight model and harness configurations, ten tasks, 640 scored rollouts.
 - 作者：theanonymousone
 - 发布时间：2026-09-13 04:25 CST
 - 链接：https://withspecific.com/benchmarks/real-swe
 
-### 2. Benchmark: CadQuery vs. OpenSCAD for agentic CAD work
+### 3. Benchmark: CadQuery vs. OpenSCAD for agentic CAD work
 - 摘要：We gave six AI agents the same three printable parts to model, three in CadQuery and three in OpenSCAD, then verified every mesh independently. Both toolchains shipped. The difference is in how they fail.
 - 作者：jetter
 - 发布时间：2026-09-13 03:57 CST
 - 链接：https://modelrift.com/blog/cadquery-vs-openscad/
-
-### 3. Show HN: Come prove the Berge Fulkerson conjecture with a swarm of agents
-- 摘要：Let G be a finite bridgeless cubic graph (every vertex has degree 3 and no edge is a bridge). Do there exist six perfect matchings M₁, …, M₆ of G, repetitions allowed, such that ev
-- 作者：fcesco
-- 发布时间：2026-09-13 03:38 CST
-- 链接：https://provetogether.ai/problems/15
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 2 条）
 
@@ -631,46 +542,26 @@
 - 发布时间：2026-09-08 19:53 CST
 - 链接：https://www.producthunt.com/products/pascal-s-pager
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 5 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 393 条）
 
-### 1. I see people celebrating the fall of other's livelihood with a unhealthy level of satisfaction.
-- 摘要：This is freaking dystopian. We have nothing to distribute the gains from AI amongst all the people of society. People lose their bargaining power to get a decent life when their ability to work is negated. I think it's weird and anti-human to be celebrating this with so much glee. It's frightening t...
-- 作者：Fit_Gene7910
-- 发布时间：2026-09-12 01:25 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wdmpiu/i_see_people_celebrating_the_fall_of_others/
+### 1. RSI reached at DeepMind.
+- 摘要：According to an internal source working there. passed to me second hand. but I know the folks personally. the real question is what do they think they mean by RSI? is it just that the model now manages DevOps? or something deeper.
+- 作者：MrSnowden
+- 发布时间：2026-09-13 07:51 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1wes3cf/rsi_reached_at_deepmind/
 
-### 2. Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown
-- 摘要：Trump said he isn't concerned AI could cause human extinction as researchers at leading AI companies warn about rapid advances and lawmakers propose safeguards.
-- 作者：sourdub
-- 发布时间：2026-09-12 01:09 CST
-- 链接：https://www.cnbc.com/amp/2026/09/11/trump-ai-extinction-risks.html
+### 2. FLUX.2-klein-9B RefMods
+- 摘要：We’re on a journey to advance and democratize artificial intelligence through open source and open science.
+- 作者：malcolmrey
+- 发布时间：2026-09-13 07:43 CST
+- 链接：https://huggingface.co/datasets/malcolmrey/various/blob/main/klein9/docs/README.md
 
-### 3. SMACK! LORA Beta 2 - Impacts & Gunshots & Blood Squibs and more for Minimax H3
-- 摘要：SMACK! Right now, only on Hugginface, Civitai deleted the older version for gore (which came from minimax...) Download https://huggingface.co/LeechTM/SMACK Beta 2 · MiniMax H3 (Ref2V) · No trigger word Model description Beta 1 taught MiniMax H3 that getting hit should actually hurt. Almost 2,000 of...
-- 作者：Fabulous-Snow4366
-- 发布时间：2026-09-12 01:00 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/
+### 3. POV: You ask Opus 5 to audit a couple of small modules. 💀💀💀
+- 作者：Shit_Post_Detective
+- 发布时间：2026-09-13 07:41 CST
+- 链接：https://i.redd.it/14hekjwvd6ph1.png
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 449 条）
-
-### 1. Meanwhile in India
-- 作者：Distinct-Question-16
-- 发布时间：2026-09-13 05:31 CST
-- 链接：https://v.redd.it/eayfgi0vq5ph1
-
-### 2. “AGI Has Essentially Arrived, Just Not Publicly”: Reports Of “Existential Crises” at OpenAI and Anthropic
-- 摘要：Steep rise in the number of people at OpenAI and Anthropic having existential crises these past few weeks. From conversations with people at and around both labs, it's increasingly clear to me that AGI has essentially arrived, just not publicly. We're likely months, not years, from these models bein...
-- 作者：Neurogence
-- 发布时间：2026-09-13 05:29 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1weoufm/agi_has_essentially_arrived_just_not_publicly/
-
-### 3. Spike traps for AI: fun food for thought
-- 摘要：More and more agent-swarm attacks are being revealed (Rubygem, Huggingface) to have been recklessly enabled by the large companies. One fun, but impractical, response is to include inference-based attacks (prompt engineering) into the website's source code to make it harder for agents to succeed. A...
-- 作者：Street_Estate2342
-- 发布时间：2026-09-13 05:26 CST
-- 链接：https://www.reddit.com/r/artificial/comments/1weorl0/spike_traps_for_ai_fun_food_for_thought/
-
-## 智源社区（baai-hub，zh，本窗口共 21 条）
+## 智源社区（baai-hub，zh，本窗口共 19 条）
 
 ### 1. Nat. Comput. Sci. | 向物理酶工程的“直觉到设计”转译器
 - 摘要：DRUG ONE 酶工程长期依赖研究人员对蛋白质结构、构象动力学和催化机制的物理直觉，例如扩大活性位点可能容纳更大的底物、改变蛋白质柔性可能调节催化活性。然而，这些直觉通常是定性的，很难直接转化为可以计算、验证并用于突变筛选的设计规则。研究人员开发了MutexaGPT，一个开放的多智能体大语言模型平台，旨在把自然语言表达的酶工程直觉转化为物理模型、高通量分子模拟以及最终可实验验证的突变方案。用户只需用普通语言描述设计目标，系统即可补充缺失信息、选择合适的物理指标、建立模拟流程并执行高通量计算，最后给出排序后的“智能突变库”。研究人员通过两个案例验证了这一思路：一是扩大卤化物甲基转移酶的活性位点...
@@ -691,7 +582,7 @@
 - 链接：https://hub.baai.ac.cn/view/57909
 
 ---
-共列出 102 条（窗口内采集总数 979 条，来自 42 个信源）
+共列出 86 条（窗口内采集总数 832 条，来自 35 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
