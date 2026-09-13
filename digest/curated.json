@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-13T05:03:21.453697+00:00",
+ "generated_at": "2026-09-13T10:25:58.872696+00:00",
  "stats": {
-  "items": 855,
-  "clusters": 676,
-  "noise": 432,
-  "dup": 35,
+  "items": 756,
+  "clusters": 591,
+  "noise": 464,
+  "dup": 19,
   "history_days": 0,
-  "available_cn": 74,
-  "available_intl": 135,
+  "available_cn": 76,
+  "available_intl": 32,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,186 +16,56 @@
  "items": [
   {
    "rank": 1,
-   "title": "Sam Altman agrees with Dario!",
+   "title": "Anthropic CEO Says It’s Time to Slow AI Model Advances",
    "lang": "en",
    "region": "intl",
-   "url": "https://i.redd.it/nyf3uddy94ph1.png",
-   "score": 3.57,
+   "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+   "score": 5.5,
    "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
+    "bloomberg-tech",
+    "ithome"
    ],
    "titles": [
-    "Sam Altman agrees with Dario!",
-    "Sam Altman and Elon Musk Support Dario Amodei's Proposal to Pace AI Development"
+    "Anthropic CEO Says It’s Time to Slow AI Model Advances",
+    "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度"
    ],
-   "published_at": "2026-09-12T16:34:37.000000+00:00",
-   "summary": ""
+   "published_at": "2026-09-12T14:17:56.000000+00:00",
+   "summary": "Anthropic PBC Chief Executive Officer Dario Amodei said that the artificial intelligence industry needs to slow the pace of development for new models, citing growing concerns about “serious” risks to humans."
   },
   {
    "rank": 2,
-   "title": "Guys RSI is here , Google has done self improving AI",
+   "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
    "lang": "en",
    "region": "intl",
-   "url": "https://i.redd.it/dgsj1ad2uzoh1.jpeg",
-   "score": 3.56,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Guys RSI is here , Google has done self improving AI",
-    "Google Has Achieved RSI"
-   ],
-   "published_at": "2026-09-12T01:38:06.000000+00:00",
-   "summary": ""
-  },
-  {
-   "rank": 3,
-   "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10724",
-   "score": 3.0,
-   "sources": [
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge"
-   ],
-   "published_at": "2026-09-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and depe..."
-  },
-  {
-   "rank": 4,
-   "title": "Towards a Deterministic Math Solver for Clinical Language Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10728",
-   "score": 3.0,
-   "sources": [
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Towards a Deterministic Math Solver for Clinical Language Models"
-   ],
-   "published_at": "2026-09-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard resp..."
-  },
-  {
-   "rank": 5,
-   "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10873",
-   "score": 3.0,
-   "sources": [
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents"
-   ],
-   "published_at": "2026-09-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error cont..."
-  },
-  {
-   "rank": 6,
-   "title": "Quoting Paul Ford",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
-   "score": 2.5,
-   "sources": [
-    "simon-willison"
-   ],
-   "titles": [
-    "Quoting Paul Ford"
-   ],
-   "published_at": "2026-09-12T18:00:21.000000+00:00",
-   "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still..."
-  },
-  {
-   "rank": 7,
-   "title": "Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown"
-   ],
-   "published_at": "2026-09-12T18:14:06.000000+00:00",
-   "summary": "Warring tech bosses unite behind warnings that humans could lose control of the technology"
-  },
-  {
-   "rank": 8,
-   "title": "Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/12/fly-language-model-flm-wires-the-full-fruit-fly-connectome-into-a-frozen-1-2b-llm-and-its-own-controls-show-the-wiring-does-not-help/",
-   "score": 2.5,
+   "url": "https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/",
+   "score": 3.5,
    "sources": [
     "marktechpost"
    ],
    "titles": [
-    "Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help"
+    "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents"
    ],
-   "published_at": "2026-09-12T18:51:24+00:00",
-   "summary": "The Fly Language Model (FLM) is a public chatbot that couples the complete retained MaleCNS v1.0 fruit fly connectome to a frozen LiquidAI LFM2.5-1.2B-Instruct backbone. The developer who created the FLM calls it the wor..."
+   "published_at": "2026-09-13T08:10:51+00:00",
+   "summary": "AWS introduced Pizza Bot , as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more..."
   },
   {
-   "rank": 9,
-   "title": "Black Box: The Chatbots | 14 days | Ep 2 – podcast",
+   "rank": 3,
+   "title": "Everyone should slow down AI development except for me",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/audio/2026/sep/13/black-box-the-chatbots-14-days-ep-2-podcast",
-   "score": 2.5,
+   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+   "score": 3.5,
    "sources": [
-    "guardian-ai"
+    "hackernews-ai"
    ],
    "titles": [
-    "Black Box: The Chatbots | 14 days | Ep 2 – podcast"
+    "Everyone should slow down AI development except for me"
    ],
-   "published_at": "2026-09-12T20:00:44.000000+00:00",
-   "summary": "Virginia man Jon Ganz was rebuilding his life after spending more than two decades in prison for a horrific crime. Last year, he got a prompt on his phone that his wife, Rachel, believes changed their lives forever. It w..."
+   "published_at": "2026-09-13T00:30:44.000000+00:00",
+   "summary": "Making sure you're not a bot! Loading... Please wait a moment while we ensure the security of your connection."
   },
   {
-   "rank": 10,
-   "title": "As Australia faces an AI-generated future, a human rights act is needed more than ever",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/law/commentisfree/2026/sep/13/as-australia-faces-an-ai-generated-future-a-human-rights-act-is-needed-more-than-ever",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "As Australia faces an AI-generated future, a human rights act is needed more than ever"
-   ],
-   "published_at": "2026-09-12T20:00:45.000000+00:00",
-   "summary": "Without laws requiring transparency or a right of review, our human rights will be rationed away by algorithmic and automated decision-making tools As we hurtle towards a post-human future, the absence of a human rights..."
-  },
-  {
-   "rank": 11,
-   "title": "California Brown Pelican",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-   "score": 2.5,
-   "sources": [
-    "simon-willison"
-   ],
-   "titles": [
-    "California Brown Pelican"
-   ],
-   "published_at": "2026-09-12T21:16:09.000000+00:00",
-   "summary": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelica..."
-  },
-  {
-   "rank": 12,
+   "rank": 4,
    "title": "China’s Data Regulator Plans Standards Push for Embodied AI",
    "lang": "en",
    "region": "intl",
@@ -211,7 +81,7 @@
    "summary": "China’s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow."
   },
   {
-   "rank": 13,
+   "rank": 5,
    "title": "The anti-AI portfolio: fountain pens, Warhammer and film cameras",
    "lang": "en",
    "region": "intl",
@@ -227,7 +97,7 @@
    "summary": "Journaling, sudoku, puzzle books and other non-digital pursuits are staging a comeback"
   },
   {
-   "rank": 14,
+   "rank": 6,
    "title": "Live episode: how AI is reshaping our minds – podcast",
    "lang": "en",
    "region": "intl",
@@ -243,22 +113,151 @@
    "summary": "In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial int..."
   },
   {
-   "rank": 15,
-   "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/487653.html",
-   "score": 4.5,
+   "rank": 7,
+   "title": "Altman, Musk, and Hassabis back Amodei's call to add independent oversight",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight/",
+   "score": 2.5,
    "sources": [
-    "qbitai",
-    "baai-hub"
+    "the-decoder"
    ],
    "titles": [
-    "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
-    "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神"
+    "Altman, Musk, and Hassabis back Amodei's call to add independent oversight"
    ],
-   "published_at": "2026-09-12T04:53:58+00:00",
-   "summary": "25位菲尔兹奖得主联名吹哨"
+   "published_at": "2026-09-13T08:53:00.000000+00:00",
+   "summary": "Sam Altman, Elon Musk, and Demis Hassabis back Dario Amodei's call to slow down AI development, at least in part. Altman says OpenAI is pushing its IPO to 2027 over safety concerns. The article Altman, Musk, and Hassabis..."
+  },
+  {
+   "rank": 8,
+   "title": "‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/2026/sep/13/ai-bootcamps-uk-youth-unemployment-neets-preston",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "‘Really helpful’: the AI bootcamps aimed at addressing UK youth unemployment"
+   ],
+   "published_at": "2026-09-13T09:00:04.000000+00:00",
+   "summary": "Pilot project in Preston comes with apprenticeship offer for Neets at end of three-week course In a youth centre opposite Preston bus station , the UK government is trying to address two of the greatest challenges facing..."
+  },
+  {
+   "rank": 9,
+   "title": "Xi Pitches His AI Vision at BRICS Summit as China Duels With US",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-13/xi-pitches-his-ai-vision-at-brics-summit-as-china-duels-with-us",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Xi Pitches His AI Vision at BRICS Summit as China Duels With US"
+   ],
+   "published_at": "2026-09-13T09:10:57.000000+00:00",
+   "summary": "Chinese President Xi Jinping has sought to turn the annual BRICS summit into another platform for championing Beijing’s vision for artificial intelligence, as it vies for global influence over the technology with the US."
+  },
+  {
+   "rank": 10,
+   "title": "Two-year university study finds banning AI from classrooms leaves students worse off",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Two-year university study finds banning AI from classrooms leaves students worse off"
+   ],
+   "published_at": "2026-09-13T09:27:01.000000+00:00",
+   "summary": "A law professor spent two years testing how an AI ban, unguided AI use, and structured training affect student performance. The group without AI finished last both years. \"I was wrong,\" the researcher writes, who had ass..."
+  },
+  {
+   "rank": 11,
+   "title": "AI Agents Are Thirsty for Power",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+   "score": 2.5,
+   "sources": [
+    "wired-ai"
+   ],
+   "titles": [
+    "AI Agents Are Thirsty for Power"
+   ],
+   "published_at": "2026-09-13T10:00:00.000000+00:00",
+   "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout."
+  },
+  {
+   "rank": 12,
+   "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://eiln.github.io/posts/ane-dma.html",
+   "score": 2.48,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Getting 50 GB/S Back from the Apple Neural Engine",
+    "Retrospectively Reverse-Engineering Apple's Neural Engine"
+   ],
+   "published_at": "2026-09-10T00:16:10.000000+00:00",
+   "summary": "RTL performance erratum in the Apple M3 Neural Engine throttles DRAM weight streaming throughput down to 17–19 GB/s from the nominal 45–60 GB/s. Avoiding the problematic path in the kernel DMA engine's speculative prefet..."
+  },
+  {
+   "rank": 13,
+   "title": "AI may be denting computer science graduates’ job prospects, UK data shows",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data",
+   "score": 2.0,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "AI may be denting computer science graduates’ job prospects, UK data shows"
+   ],
+   "published_at": "2026-09-12T07:00:30.000000+00:00",
+   "summary": "Economics graduates also appear to be affected as demand for them falls in well-paid roles in finance AI may be warping the job prospects for students in the previously high-demand subjects of computer science and econom..."
+  },
+  {
+   "rank": 14,
+   "title": "Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/",
+   "score": 2.0,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next"
+   ],
+   "published_at": "2026-09-12T08:28:53.000000+00:00",
+   "summary": "In a joint statement, 25 Fields Medal winners warn that the goals of the AI industry and mathematics are \"severely misaligned.\" They argue that mass-producing solved problems with AI undermines the discipline's true goal..."
+  },
+  {
+   "rank": 15,
+   "title": "我国实现一体化算力统筹监测",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3981161748954115",
+   "score": 6.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "我国实现一体化算力统筹监测",
+    "我国实现一体化算力统筹监测，有序推动全国 31 个省区市对接入网"
+   ],
+   "published_at": "2026-09-13T01:48:05.000000+00:00",
+   "summary": "记者从工业和信息化部了解到，中国算力平台已实现全国一体化算力统筹监测，我国算力“一张网、一盘棋、一体化”发展格局基本形成。中国算力平台是国家级综合性算力服务平台，目前已经汇聚了超万家注册企业用户，上架2000多项优质算力产品，接入各类大模型超300个，为广大开发者提供算力调用服务，累计沉淀数十亿条算力监测大数据。工业和信息化部总工程师钟志红透露，截至今年6月底，我国智算规模达到2185百亿亿次浮点运算（EFLOPS），同比增长了177%..."
   },
   {
    "rank": 16,
@@ -273,7 +272,8 @@
    ],
    "titles": [
     "谷歌Meta被锤刷榜",
-    "论文汇总丨Agent Harness新进展：阿里/Meta/谷歌等探索长程执行、自演化与评估"
+    "论文汇总丨Agent Harness新进展：阿里/Meta/谷歌等探索长程执行、自演化与评估",
+    "谷歌Meta被锤刷榜！Gemini暴跌70分，Top 2秒变倒数第三"
    ],
    "published_at": "2026-09-12T08:17:57.000000+00:00",
    "summary": "跑分这事儿，最近有点不太对劲。 9月8日，分析机构SemiAnalysis连甩五条推文，直接点名谷歌和Meta两家万亿巨头—— Gemini 3.8 Flash和Muse Spark 1.3是「刷榜痕迹最明显的两个模型」。 证据，非常清晰。 在测Agent干活能力的Terminal-Bench 2.1榜单上，Gemini 3.8 Flash考了89.4分，在182个模型里高居第2，把GPT-6 Astra都压在了身下。 结果换到8月29..."
@@ -328,19 +328,19 @@
   },
   {
    "rank": 20,
-   "title": "情感智能珠宝硬件公司完成天使轮融资，荣耀AI Connect生态企业等押注｜硬氪首发",
+   "title": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3977590035119112",
-   "score": 3.0,
+   "url": "https://www.ithome.com/1/001/793.htm",
+   "score": 3.5,
    "sources": [
-    "36kr-ai"
+    "ithome"
    ],
    "titles": [
-    "情感智能珠宝硬件公司完成天使轮融资，荣耀AI Connect生态企业等押注｜硬氪首发"
+    "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上"
    ],
-   "published_at": "2026-09-12T02:30:00.000000+00:00",
-   "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，情感智能珠宝硬件企业SHAKESPEARE莎士比亚近日完成数千万元天使轮融资，由荣耀AI Connect生态企业极选智能、国内头部珠宝DP服务商瑞钰控股共同出资。势能资本长期担任公司独家财务顾问。融资资金将主要用于核心算法迭代、多模态情感交互模型开发、新品类的珠宝工艺研发及全球化渠道拓展。 莎士比亚2025年成立于杭州，公司定位“情感智能珠宝”品牌，致力于将传统珠宝工艺与智能穿戴技术深度融合，为提供具..."
+   "published_at": "2026-09-13T07:32:12+00:00",
+   "summary": "IT之家 9 月 13 日消息，9 月 11 日至 13 日，2026 中国算力大会在河北廊坊举行。 由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统正式发布 。 IT之家获悉，经 Deepseek V4 实测， 系统相较同类国产 GPU 算力集群性价比提升一倍以上 、业务运营成本降低 40% 以上。 据介绍，成果可广泛适配 Tok..."
   }
  ]
 }
