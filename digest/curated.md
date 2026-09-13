@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-13 22:31 CST
-数据窗口：最近 24 小时，668 条原始条目 → 536 个事件；过滤噪音 424 个，排除全部历史已推送的 14 个。
+生成时间：2026-09-14 01:34 CST
+数据窗口：最近 24 小时，667 条原始条目 → 552 个事件；过滤噪音 431 个，排除全部历史已推送的 16 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,41 +8,45 @@
 
 国外：
 
-## 1. AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents
+## 1. Obama reportedly urges Democrats to prioritize safety plan for AI
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI、TechCrunch — AI（2 个来源） ｜ 热度：6.0
+- 摘要：Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in...
+- 发布时间：2026-09-13 23:47 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety
+- 同事件报道：Obama urges Democrats to have a ‘clear plan’ for AI safeguards（TechCrunch — AI）
+
+## 2. What are the top AI Models that are still relevant today from 2024 and 2025?
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：5.77
+- 摘要：We are in 2026 and it has been a crazy year. The evolution of the technology has been staggering to say the least. Pretty much we are on the MoE period and dense models are almost in the way of the dodo except for a few....
+- 发布时间：2026-09-13 20:23 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wf69ug/what_are_the_top_ai_models_that_are_still/
+- 同事件报道：Astra and Fable still hack on simple variants of alignment evals from 2025（Hacker News (AI stories)）
+
+## 3. A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost、Hacker News (AI stories)（2 个来源） ｜ 热度：5.14
+- 摘要：In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher’s ( Yifan Zhan...
+- 发布时间：2026-09-14 01:02 CST
+- 链接：https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/
+- 同事件报道：Recurrent Looped Transformer（Hacker News (AI stories)）
+
+## 4. Why are so many people, including AI researchers and CEOs, so terrified that AI will kill us all?
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.13
+- 摘要：I don't really understand this. AI does what you tell it. When it goes off and does stupid things like wiping out a hard drive, it's because you didn't tell it not to and limit it enough. Can they not just tell AI plainl...
+- 发布时间：2026-09-13 18:17 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wf3v8p/why_are_so_many_people_including_ai_researchers/
+- 同事件报道：AI models don't kill people – people kill people（Hacker News (AI stories)）
+
+## 5. AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents
 - 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
 - 摘要：AWS introduced Pizza Bot , as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more...
 - 发布时间：2026-09-13 16:10 CST
 - 链接：https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/
 
-## 2. Iris-mini and Iris-pro are the strongest open-weight search agents in their class
+## 6. Iris-mini and Iris-pro are the strongest open-weight search agents in their class
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：3.5
 - 摘要：The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and...
 - 发布时间：2026-09-13 20:58 CST
 - 链接：https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/
-
-## 3. Everyone should slow down AI development except for me
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.0
-- 摘要：Making sure you're not a bot! Loading... Please wait a moment while we ensure the security of your connection.
-- 发布时间：2026-09-13 08:30 CST
-- 链接：https://xeiaso.net/notes/2026/everyone-slowdown-but-me/
-
-## 4. China’s Data Regulator Plans Standards Push for Embodied AI
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：China’s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow.
-- 发布时间：2026-09-13 11:29 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai
-
-## 5. The anti-AI portfolio: fountain pens, Warhammer and film cameras
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Journaling, sudoku, puzzle books and other non-digital pursuits are staging a comeback
-- 发布时间：2026-09-13 12:00 CST
-- 链接：https://www.ft.com/content/4ffff2a7-b2aa-42aa-a68b-037f9a3fd603?syn-25a6b1a6=1
-
-## 6. Live episode: how AI is reshaping our minds – podcast
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial int...
-- 发布时间：2026-09-13 12:00 CST
-- 链接：https://www.theguardian.com/science/audio/2026/sep/13/live-episode-how-ai-is-reshaping-our-minds-podcast
 
 ## 7. Altman, Musk, and Hassabis back Amodei's call to add independent oversight
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
@@ -115,20 +119,20 @@
 - 链接：https://www.36kr.com/newsflashes/3981161748954115
 - 同事件报道：我国实现一体化算力统筹监测，有序推动全国 31 个省区市对接入网（IT之家）
 
-## 4. 甘肃电力投资集团发布“紫金驭能”电力垂类大模型
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.5
-- 摘要：甘肃电力投资集团在2026算力中国展览会首发首秀活动中，发布“紫金驭能”电力垂类大模型，系甘肃省属国企首款电力行业专用大模型。（财联社）
-- 发布时间：2026-09-13 12:08 CST
-- 链接：https://www.36kr.com/newsflashes/3981271108926209
-
-## 5. 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上
+## 4. 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
 - 摘要：IT之家 9 月 13 日消息，9 月 11 日至 13 日，2026 中国算力大会在河北廊坊举行。 由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统正式发布 。 IT之家获悉，经 Deepseek V4 实测， 系统相较同类国产 GPU 算力集群性价比提升一倍以上 、业务运营成本降低 40% 以上。 据介绍，成果可广泛适配 Tok...
 - 发布时间：2026-09-13 15:32 CST
 - 链接：https://www.ithome.com/1/001/793.htm
 
-## 6. 谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板
+## 5. 335亿！智谱拿下新融资，押注RSI
+- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西（1 个来源） ｜ 热度：3.5
+- 摘要：智东西 作者 | 陈骏达 编辑 | 李水青 智东西9月13日报道，今晚，智谱宣布完成 约50亿美元（约合人民币335.4亿元） 融资，包括约20亿美元（约合人民币134.16亿元）股份配售及约30亿美元（约合人民币201.2亿元）可转债发行。这轮融资将主要用于 下一代GLM基础模型及完全自训练体系的研发，同时支撑其 算力基础设施建设。 智谱今天早些时候在港交所披露了这笔募资计划，公告显示，本轮融资的可转债部分采用零息结构，以本金的100...
+- 发布时间：2026-09-13 20:41 CST
+- 链接：https://zhidx.com/p/593557.html
+
+## 6. 消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
-- 摘要：IT之家 9 月 12 日消息，据《商业内幕》今天（12 日）凌晨报道，谷歌完成了对旧金山 AI 编程初创企业 Mechanize 的人才收购。 Mechanize 联合创始人塔迈 · 贝西罗格鲁的 LinkedIn 资料显示，他自 8 月起加入了谷歌 DeepMind 部门，另有报道称，Mechanize 十多名工程师也一同转投 DeepMind。 交易财务条款现已公开，据信谷歌此前曾洽谈一笔价值 15 亿美元 （IT之家注：现汇率约...
-- 发布时间：2026-09-12 22:53 CST
-- 链接：https://www.ithome.com/1/001/653.htm
+- 摘要：IT之家 9 月 13 日消息，X 平台消息人士 Evan Blass 今日发文，暗示三星 Galaxy Tab S12 系列平板将于 10 月 17 日发布。 IT之家了解到，三星本次推出的平板产品预计包含 Galaxy Tab S12+ 和 Galaxy Tab S12 Ultra 两个版本。 这两款产品或搭载联发科天玑 9500 芯片 ，采用 3nm 制程工艺、8 核心设计，主频最高可达 4.21GHz。 规格方面，Galaxy...
+- 发布时间：2026-09-13 09:25 CST
+- 链接：https://www.ithome.com/1/001/705.htm

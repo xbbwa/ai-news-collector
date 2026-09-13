@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-13T14:31:24.481629+00:00",
+ "generated_at": "2026-09-13T17:34:00.294088+00:00",
  "stats": {
-  "items": 668,
-  "clusters": 536,
-  "noise": 424,
-  "dup": 14,
+  "items": 667,
+  "clusters": 552,
+  "noise": 431,
+  "dup": 16,
   "history_days": 0,
   "available_cn": 68,
-  "available_intl": 30,
+  "available_intl": 37,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,78 @@
  "items": [
   {
    "rank": 1,
+   "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety",
+   "score": 6.0,
+   "sources": [
+    "guardian-ai",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Obama reportedly urges Democrats to prioritize safety plan for AI",
+    "Obama urges Democrats to have a ‘clear plan’ for AI safeguards"
+   ],
+   "published_at": "2026-09-13T15:47:37.000000+00:00",
+   "summary": "Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in..."
+  },
+  {
+   "rank": 2,
+   "title": "What are the top AI Models that are still relevant today from 2024 and 2025?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf69ug/what_are_the_top_ai_models_that_are_still/",
+   "score": 5.77,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "What are the top AI Models that are still relevant today from 2024 and 2025?",
+    "Astra and Fable still hack on simple variants of alignment evals from 2025"
+   ],
+   "published_at": "2026-09-13T12:23:42.000000+00:00",
+   "summary": "We are in 2026 and it has been a crazy year. The evolution of the technology has been staggering to say the least. Pretty much we are on the MoE period and dense models are almost in the way of the dodo except for a few...."
+  },
+  {
+   "rank": 3,
+   "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/",
+   "score": 5.14,
+   "sources": [
+    "marktechpost",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
+    "Recurrent Looped Transformer"
+   ],
+   "published_at": "2026-09-13T17:02:26+00:00",
+   "summary": "In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher’s ( Yifan Zhan..."
+  },
+  {
+   "rank": 4,
+   "title": "Why are so many people, including AI researchers and CEOs, so terrified that AI will kill us all?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/singularity/comments/1wf3v8p/why_are_so_many_people_including_ai_researchers/",
+   "score": 4.13,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Why are so many people, including AI researchers and CEOs, so terrified that AI will kill us all?",
+    "AI models don't kill people – people kill people"
+   ],
+   "published_at": "2026-09-13T10:17:20.000000+00:00",
+   "summary": "I don't really understand this. AI does what you tell it. When it goes off and does stupid things like wiping out a hard drive, it's because you didn't tell it not to and limit it enough. Can they not just tell AI plainl..."
+  },
+  {
+   "rank": 5,
    "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
    "lang": "en",
    "region": "intl",
@@ -31,7 +103,7 @@
    "summary": "AWS introduced Pizza Bot , as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more..."
   },
   {
-   "rank": 2,
+   "rank": 6,
    "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
    "lang": "en",
    "region": "intl",
@@ -45,70 +117,6 @@
    ],
    "published_at": "2026-09-13T12:58:18.000000+00:00",
    "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and..."
-  },
-  {
-   "rank": 3,
-   "title": "Everyone should slow down AI development except for me",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-   "score": 3.0,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Everyone should slow down AI development except for me"
-   ],
-   "published_at": "2026-09-13T00:30:44.000000+00:00",
-   "summary": "Making sure you're not a bot! Loading... Please wait a moment while we ensure the security of your connection."
-  },
-  {
-   "rank": 4,
-   "title": "China’s Data Regulator Plans Standards Push for Embodied AI",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "China’s Data Regulator Plans Standards Push for Embodied AI"
-   ],
-   "published_at": "2026-09-13T03:29:51.000000+00:00",
-   "summary": "China’s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow."
-  },
-  {
-   "rank": 5,
-   "title": "The anti-AI portfolio: fountain pens, Warhammer and film cameras",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/4ffff2a7-b2aa-42aa-a68b-037f9a3fd603?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "The anti-AI portfolio: fountain pens, Warhammer and film cameras"
-   ],
-   "published_at": "2026-09-13T04:00:03.000000+00:00",
-   "summary": "Journaling, sudoku, puzzle books and other non-digital pursuits are staging a comeback"
-  },
-  {
-   "rank": 6,
-   "title": "Live episode: how AI is reshaping our minds – podcast",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/science/audio/2026/sep/13/live-episode-how-ai-is-reshaping-our-minds-podcast",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Live episode: how AI is reshaping our minds – podcast"
-   ],
-   "published_at": "2026-09-13T04:00:53.000000+00:00",
-   "summary": "In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial int..."
   },
   {
    "rank": 7,
@@ -294,22 +302,6 @@
   },
   {
    "rank": 18,
-   "title": "甘肃电力投资集团发布“紫金驭能”电力垂类大模型",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3981271108926209",
-   "score": 3.5,
-   "sources": [
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "甘肃电力投资集团发布“紫金驭能”电力垂类大模型"
-   ],
-   "published_at": "2026-09-13T04:08:59.000000+00:00",
-   "summary": "甘肃电力投资集团在2026算力中国展览会首发首秀活动中，发布“紫金驭能”电力垂类大模型，系甘肃省属国企首款电力行业专用大模型。（财联社）"
-  },
-  {
-   "rank": 19,
    "title": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上",
    "lang": "zh",
    "region": "cn",
@@ -325,20 +317,36 @@
    "summary": "IT之家 9 月 13 日消息，9 月 11 日至 13 日，2026 中国算力大会在河北廊坊举行。 由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统正式发布 。 IT之家获悉，经 Deepseek V4 实测， 系统相较同类国产 GPU 算力集群性价比提升一倍以上 、业务运营成本降低 40% 以上。 据介绍，成果可广泛适配 Tok..."
   },
   {
-   "rank": 20,
-   "title": "谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板",
+   "rank": 19,
+   "title": "335亿！智谱拿下新融资，押注RSI",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/001/653.htm",
+   "url": "https://zhidx.com/p/593557.html",
+   "score": 3.5,
+   "sources": [
+    "zhidx"
+   ],
+   "titles": [
+    "335亿！智谱拿下新融资，押注RSI"
+   ],
+   "published_at": "2026-09-13T12:41:57+00:00",
+   "summary": "智东西 作者 | 陈骏达 编辑 | 李水青 智东西9月13日报道，今晚，智谱宣布完成 约50亿美元（约合人民币335.4亿元） 融资，包括约20亿美元（约合人民币134.16亿元）股份配售及约30亿美元（约合人民币201.2亿元）可转债发行。这轮融资将主要用于 下一代GLM基础模型及完全自训练体系的研发，同时支撑其 算力基础设施建设。 智谱今天早些时候在港交所披露了这笔募资计划，公告显示，本轮融资的可转债部分采用零息结构，以本金的100..."
+  },
+  {
+   "rank": 20,
+   "title": "消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/001/705.htm",
    "score": 3.0,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板"
+    "消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片"
    ],
-   "published_at": "2026-09-12T14:53:32+00:00",
-   "summary": "IT之家 9 月 12 日消息，据《商业内幕》今天（12 日）凌晨报道，谷歌完成了对旧金山 AI 编程初创企业 Mechanize 的人才收购。 Mechanize 联合创始人塔迈 · 贝西罗格鲁的 LinkedIn 资料显示，他自 8 月起加入了谷歌 DeepMind 部门，另有报道称，Mechanize 十多名工程师也一同转投 DeepMind。 交易财务条款现已公开，据信谷歌此前曾洽谈一笔价值 15 亿美元 （IT之家注：现汇率约..."
+   "published_at": "2026-09-13T01:25:48+00:00",
+   "summary": "IT之家 9 月 13 日消息，X 平台消息人士 Evan Blass 今日发文，暗示三星 Galaxy Tab S12 系列平板将于 10 月 17 日发布。 IT之家了解到，三星本次推出的平板产品预计包含 Galaxy Tab S12+ 和 Galaxy Tab S12 Ultra 两个版本。 这两款产品或搭载联发科天玑 9500 芯片 ，采用 3nm 制程工艺、8 核心设计，主频最高可达 4.21GHz。 规格方面，Galaxy..."
   }
  ]
 }
