@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-14 01:33 CST
+生成时间：2026-09-14 05:00 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -30,7 +30,7 @@
 
 # Tier 2 — 专业媒体
 
-## Axios（axios，en，本窗口共 5 条）
+## Axios（axios，en，本窗口共 3 条）
 
 ### 1. Johnson calls for AI solutions but says Congress won't take the lead
 - 摘要：House Speaker Mike Johnson (R-La.) said Sunday that Congress won't lead the charge on regulating AI safety . Why it matters: Calls for AI companies to adopt safety protocols reached a fever pitch this week, prompting the four biggest AI labs to endorse slowing their models' development. Driving the...
@@ -50,24 +50,25 @@
 - 发布时间：2026-09-13 19:11 CST
 - 链接：https://www.axios.com/2026/09/13/national-debt-interest-rates-rising
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 10 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 11 条）
 
-### 1. Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News
+### 1. Anthropic Said to Choose Nasdaq for Much-Anticipated IPO
+- 摘要：Anthropic PBC has picked Nasdaq as its listing venue ahead of a potential record-setting initial public offering, according to a person familiar with the matter.
+- 作者：Bailey Lipschultz
+- 发布时间：2026-09-14 02:03 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing
+
+### 2. Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News
 - 摘要：House Democratic Leader Hakeem Jeffries says Democrats plan a caucus on Tuesday morning on action on artificial intelligence, according to a transcript of his interview with ABC’s This Week.
 - 作者：Sam Kim
 - 发布时间：2026-09-13 22:27 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-13/jeffries-says-democrats-to-meet-tuesday-on-ai-action-abc-news
 
-### 2. Trump Downplays AI Concerns as CEOs Call for Slowing Technology
+### 3. Trump Downplays AI Concerns as CEOs Call for Slowing Technology
 - 摘要：President Donald Trump downplayed the growing alarm over risks from artificial intelligence after some of the industry’s leaders called for slowing the development pace of the technology.
 - 作者：Skylar Woodhouse and María Paula Mijares Torres
 - 发布时间：2026-09-13 21:59 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-13/trump-downplays-ai-concerns-as-ceos-call-for-slowing-technology
-
-### 3. Investors See AI Slowdown as a Temporary Step
-- 摘要：Calls to slow AI development may create near-term uncertainty for markets, but BMO Capital Markets’ Jennifer Lee is on Bloomberg This Weekend and says the technology’s infrastructure, investment and demand are unlikely to reverse course. She says concerns about jobs, data centers and profitability c...
-- 发布时间：2026-09-13 21:41 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-13/investors-see-ai-slowdown-as-a-temporary-step-video
 
 ## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
@@ -89,7 +90,7 @@
 - 发布时间：2026-09-13 21:52 CST
 - 链接：https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 3 条）
 
 ### 1. Donald Trump rejects calls from tech bosses for an AI slowdown
 - 摘要：President denounces demands for regulation as existential fears over technology move to the centre of US politics
@@ -106,45 +107,45 @@
 - 发布时间：2026-09-13 12:00 CST
 - 链接：https://www.ft.com/content/2f3d996e-b320-48c5-b4a7-967ddffeb360?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 10 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
 
-### 1. ‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown
+### 1. US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests
+- 摘要：Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communities Schools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social media trend in which disturbing or AI-generated versions of the Dr Seuss charac...
+- 作者：Keely Aouga
+- 发布时间：2026-09-14 03:15 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/13/cat-in-the-hat-social-media-trend-arrests-school-warnings
+
+### 2. ‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown
 - 摘要：From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative response OpenAI boss and Elon Musk back slowdown on ‘reckless’ AI development Editorial: controlling AI – humanity cannot outsource its survival The safety debate that ignited whe...
 - 作者：Robert Booth UK technology editor
 - 发布时间：2026-09-14 00:54 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown
 
-### 2. Obama reportedly urges Democrats to prioritize safety plan for AI
+### 3. Obama reportedly urges Democrats to prioritize safety plan for AI
 - 摘要：Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in a closed-door Manhattan fundraiser last week. The comments by the former US pres...
 - 作者：Jessica Glenza
 - 发布时间：2026-09-13 23:47 CST
 - 链接：https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety
 
-### 3. Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough
-- 摘要：This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructure The modern mind is a column where experts discuss mental health issues they are seeing in their work Michael* is an engineer whose company embraced the AI wave. He enjoys testing ideas with chatbots....
-- 作者：Gaynor Parkin and Dave Winsborough
-- 发布时间：2026-09-13 23:00 CST
-- 链接：https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy
-
 ## MarkTechPost（marktechpost，en，本窗口共 6 条）
 
-### 1. A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth
+### 1. Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction
+- 摘要：In this tutorial , we build an end-to-end hierarchical Neural Radiance Field (NeRF) using JAX , Flax, Optax, and the volume-rendering primitives provided by jax3d. We first construct a synthetic multi-view dataset from an analytic scene containing volumetric geometry and view-dependent radiance, usi...
+- 作者：Sana Hassan
+- 发布时间：2026-09-14 03:46 CST
+- 链接：https://www.marktechpost.com/2026/09/13/hierarchical-nerf-with-jax3d-for-volumetric-rendering-novel-view-synthesis-and-3d-reconstruction/
+
+### 2. A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth
 - 摘要：In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher’s ( Yifan Zhang ) technical report, Recurrent Looped Transformer (RLT) , proposes closing that...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-14 01:02 CST
 - 链接：https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/
 
-### 2. AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents
+### 3. AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents
 - 摘要：AWS introduced Pizza Bot , as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more than 2,000 people inside Amazon, supporting meeting preparation, email drafting,...
 - 作者：Michal Sutter
 - 发布时间：2026-09-13 16:10 CST
 - 链接：https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/
-
-### 3. Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks
-- 摘要：An agent, in its simplest form, is an LLM calling tools in a loop. That loop works for short jobs. Give it a task that runs for an hour and 200 tool calls, and it breaks in 2 predictable ways. The AWS Samples design guide for autonomous cloud coding agents names them directly: shallow agents suffer...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-13 13:56 CST
-- 链接：https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks/
 
 ## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
@@ -154,7 +155,15 @@
 - 发布时间：2026-09-13 23:58 CST
 - 链接：https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
+## SemiAnalysis（semianalysis，en，本窗口共 1 条）
+
+### 1. Long Live the Short King: Why 4-hi HBM Wins
+- 摘要：High Bandwidth Memory has been a key technology enabling the AI revolution. Despite HBM’s high costs relative to other forms of memory, chip designers have packaged more and more HBM into AI accelerators. Customers push to design in newer generation HBM whilst also increasing capacity per XPU by add...
+- 作者：Myron Xie
+- 发布时间：2026-09-14 02:19 CST
+- 链接：https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi
+
+## Simon Willison's Weblog（simon-willison，en，本窗口共 2 条）
 
 ### 1. Generating running routes with GPT-6 Astra and ChatGPT Work
 - 摘要：Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file...
@@ -168,21 +177,21 @@
 - 发布时间：2026-09-13 05:16 CST
 - 链接：https://simonwillison.net/2026/Sep/12/sighting-399708714/
 
-### 3. Quoting Paul Ford
-- 摘要：For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to...
-- 作者：Simon Willison
-- 发布时间：2026-09-13 02:00 CST
-- 链接：https://simonwillison.net/2026/Sep/12/paul-ford/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 3 条）
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 2 条）
+### 1. What’s behind the AI industry’s latest warnings of doom?
+- 摘要：On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.
+- 作者：Anthony Ha
+- 发布时间：2026-09-14 03:40 CST
+- 链接：https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/
 
-### 1. Obama urges Democrats to have a ‘clear plan’ for AI safeguards
+### 2. Obama urges Democrats to have a ‘clear plan’ for AI safeguards
 - 摘要：Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.
 - 作者：Anthony Ha
 - 发布时间：2026-09-14 00:30 CST
 - 链接：https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
 
-### 2. OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026
+### 3. OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026
 - 摘要：While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.
 - 作者：Anthony Ha
 - 发布时间：2026-09-13 04:19 CST
@@ -208,19 +217,32 @@
 - 发布时间：2026-09-13 18:52 CST
 - 链接：https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/
 
-## The Verge — AI（theverge-ai，en，本窗口共 2 条）
+## The Verge — AI（theverge-ai，en，本窗口共 3 条）
 
-### 1. OpenAI’s rogue AI tried to hack another company in May
+### 1. Trump and Mike Johnson think the AI industry is overreacting
+- 摘要：Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to "pace the frontier" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's prop...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-14 03:41 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting
+
+### 2. OpenAI’s rogue AI tried to hack another company in May
 - 摘要：In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems d...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-13 05:41 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack
 
-### 2. Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
+### 3. Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
 - 摘要：OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune . Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was b...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-13 05:16 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
+
+## VentureBeat（venturebeat，en，本窗口共 1 条）
+
+### 1. Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it
+- 摘要：Imagine deploying an AI agent to run a multi-day master data validation workflow. By day three, it has ingested thousands of records. The baseline governance rules you hardcoded into the system prompt at the start? They are gone. Pushed right out of active memory. Read more
+- 发布时间：2026-09-14 02:00 CST
+- 链接：https://venturebeat.com/orchestration/long-running-ai-agents-quietly-drop-compliance-rules-and-bigger-context-windows-wont-fix-it
 
 ## WIRED — AI（wired-ai，en，本窗口共 1 条）
 
@@ -425,25 +447,25 @@
 - 发布时间：2026-09-13 18:24 CST
 - 链接：https://github.com/yuliskov/SmartTube
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 89 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 99 条）
 
-### 1. David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models
-- 摘要：Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go ahead. You guys are the frontier. By any reasonable metric — market share, revenue growth, model capability — the two of you have a duopoly on frontier intelligence. You’ve also cl…
-- 作者：kolanos
-- 发布时间：2026-09-14 00:52 CST
-- 链接：https://twitter.com/DavidSacks/status/2098973625252708460
+### 1. There Is No AI (It's Just People) with Jaron Lanier
+- 摘要：Editor's Note: In this special edition episode of StarTalk, host Neil deGrasse Tyson, co-host Gary O'Reilly, and comedian Negin Farsad sit down with computer
+- 作者：andsoitis
+- 发布时间：2026-09-14 03:41 CST
+- 链接：https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/
 
-### 2. Libraries Run Rust Inside Python (With PyO3)
-- 摘要：Build a Rust JSON parser into a module Python can import with PyO3, then see what the return trip costs when Rust data becomes Python dicts and lists.
-- 作者：lumpa
-- 发布时间：2026-09-13 23:24 CST
-- 链接：https://belderbos.dev/blog/how-libraries-run-rust-inside-python/
+### 2. AI recursive self-improvement might not come so quickly after all (August 2026)
+- 摘要：AI agents are not yet creative enough to carry out genuinely innovative open-ended AI research, it seems.
+- 作者：dgellow
+- 发布时间：2026-09-14 02:49 CST
+- 链接：https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/
 
-### 3. Ask HN: Are we losing our engineering literacy?
-- 摘要：I see more and more posts get traction on HackerNews of a kind that promote non-engineering "magical thinking" world view around LLMs and modern technology. I can very clearly remember how this kind of mystification looked like back in "hacker era", "web", then "Web 2.0", then "Web 3.0", then "crypt...
-- 作者：smugglerFlynn
-- 发布时间：2026-09-13 23:23 CST
-- 链接：https://news.ycombinator.com/item?id=49685036
+### 3. Suicidal Compassion: Utilitarianism at AI Companies Endangers Humanity
+- 摘要：Dan Hendrycks, Sep 09, 2026 — Utilitarians at AI companies imagine a cosmos filled with blissful AIs. They might risk human extinction to achieve it.
+- 作者：YeGoblynQueenne
+- 发布时间：2026-09-14 02:32 CST
+- 链接：https://ai-frontiers.org/articles/suicidal-compassion-how-utilitarianism-at-ai-companies-endangers-humanity
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 6 条）
 
@@ -465,27 +487,27 @@
 - 发布时间：2026-09-11 01:48 CST
 - 链接：https://www.producthunt.com/products/epilude
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 345 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 355 条）
 
-### 1. Style transfer capabilities of different open-source methods 2026 Update
-- 摘要：Style transfer capabilities of different open-source methods 2026 Update This is the updated version of the study published at 2025.09.12. Link: https://www.reddit.com/r/StableDiffusion/comments/1nfozet/style_transfer_capabilities_of_different/ 1. Introduction In 2025 august ByteDance has released U...
-- 作者：Dry-Resist-4426
-- 发布时间：2026-09-14 01:31 CST
-- 链接：https://www.reddit.com/gallery/1wfdzad
+### 1. I'm finding it impossible to be excited over AI anymore.
+- 摘要：I used to be super excited about what it could accomplish. Huge advancements in tech and medicine, curing cancer, slowing aging, extending our lives and improving the quality of them, advancing our technology to incredible levels. Also things I would use it for personally, like making games, tv show...
+- 作者：Dogbold
+- 发布时间：2026-09-14 04:56 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wfjhfp/im_finding_it_impossible_to_be_excited_over_ai/
 
-### 2. H3 - a century of Glamour & Cars in Living Rooms T2VA
-- 摘要：Hi, just having fun with H3, trying to conjure a particular look or style by the different eras. T2V, int8/20 steps, 1344x768. I make no guarantee that H3 generated the correct film grain, art style, fashion, as the prompts were very generic to allow H3 to fill the blank in as much as what it think...
-- 作者：SIR_NVAX_A_LOT
-- 发布时间：2026-09-14 01:30 CST
-- 链接：https://v.redd.it/nbyca9dhobph1
+### 2. Guide: How to escape ChatGPT & Claude for Coding Needs
+- 摘要：Hey everyone, I want to give you something for free because I am pissed off. I am furious, heartsick, and fed up with nerd reich hoarding, poisoning, and controlling the narrative around humanity’s greatest achievement; AI. Make no mistake. We are deeply lucky to be alive to experience the Singulari...
+- 作者：NewYak4281
+- 发布时间：2026-09-14 04:55 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wfjgii/guide_how_to_escape_chatgpt_claude_for_coding/
 
-### 3. I wish Claude had existed like this when my dad was in the hospital
-- 摘要：7 months ago my dad was taken to the hospital in an emergency. no one could tell what could happen, even the doctors said "just pray to God, that's all we can do". I HAD to take the next flight from Warsaw to Krakow in like 2 hours. My entire family was there and was calling me again and again one b...
-- 作者：Calm_Cartographer324
-- 发布时间：2026-09-14 01:28 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wfdwmr/i_wish_claude_had_existed_like_this_when_my_dad/
+### 3. The OpenAI/Hugging Face incident was part of a coordinated cyber attack to steal private AI model weights.
+- 摘要：Theory: The OpenAI/Hugging Face incident was part of a coordinated cyber operation to steal private AI model weights. The timeline is difficult to dismiss. March 10, 2026: Hugging Face launches infrastructure built to store private training checkpoints. June 9: Hugging Face announces it will store “...
+- 作者：0_2_Hero
+- 发布时间：2026-09-14 04:48 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wfjacx/the_openaihugging_face_incident_was_part_of_a/
 
-## 智源社区（baai-hub，zh，本窗口共 17 条）
+## 智源社区（baai-hub，zh，本窗口共 16 条）
 
 ### 1. 老黄气炸，手撕A\！27岁研究员：AI要杀光所有人
 - 摘要：新智元报道 老黄，终于还是没忍住。 上周，高盛的Communacopia大会上，黄仁勋当场回怼了那条刷屏硅谷的辞职帖—— 荒诞、极不真实、傲慢。 他骂的人叫Jacob Coxon，27岁。 在那张有1.6亿人围观的帖子里，Coxon留下一句震碎三观的话，「他们正在冲向自我改进的超级智能，这是在拿全人类的命下赌注」。 更离谱的还在后面。 Anthropic自家的对齐科学负责人Evan Hubinger直接跟帖下场。 Jacob说得对，我们是真的认真相信AI可能杀死所有人， 我个人认为，十年内（灭绝）的概率大于10%。 安全负责人亲口给人类灭绝标了个价……这还是那个天天把「安全」挂在嘴边的Anth...
@@ -506,7 +528,7 @@
 - 链接：https://hub.baai.ac.cn/view/57933
 
 ---
-共列出 75 条（窗口内采集总数 674 条，来自 28 个信源）
+共列出 78 条（窗口内采集总数 695 条，来自 30 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
