@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-14 05:00 CST
+生成时间：2026-09-14 07:17 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -28,6 +28,26 @@
 - 发布时间：2026-09-12 12:54 CST
 - 链接：https://huggingface.co/internlm/Intern-S2-397B-FP8
 
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 3 条）
+
+### 1. perplexity-ai/pplx-pii-masking-MLX
+- 摘要：token-classification, mlx, pii, privacy, qwen3, apple-silicon, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:finetune:perplexity-ai/pplx-pii-masking, license:mit, region:us
+- 作者：perplexity-ai
+- 发布时间：2026-09-14 06:44 CST
+- 链接：https://huggingface.co/perplexity-ai/pplx-pii-masking-MLX
+
+### 2. perplexity-ai/pplx-pii-masking-GGUF
+- 摘要：token-classification, llama.cpp, gguf, pii, privacy, qwen3, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:quantized:perplexity-ai/pplx-pii-masking, license:mit, endpoints_compatible, region:us, feature-extraction
+- 作者：perplexity-ai
+- 发布时间：2026-09-14 06:44 CST
+- 链接：https://huggingface.co/perplexity-ai/pplx-pii-masking-GGUF
+
+### 3. perplexity-ai/pplx-pii-masking-vllm
+- 摘要：token-classification, safetensors, qwen3, pii, privacy, vllm, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:finetune:perplexity-ai/pplx-pii-masking, license:mit, region:us
+- 作者：perplexity-ai
+- 发布时间：2026-09-14 06:30 CST
+- 链接：https://huggingface.co/perplexity-ai/pplx-pii-masking-vllm
+
 # Tier 2 — 专业媒体
 
 ## Axios（axios，en，本窗口共 3 条）
@@ -50,7 +70,7 @@
 - 发布时间：2026-09-13 19:11 CST
 - 链接：https://www.axios.com/2026/09/13/national-debt-interest-rates-rising
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 11 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 10 条）
 
 ### 1. Anthropic Said to Choose Nasdaq for Much-Anticipated IPO
 - 摘要：Anthropic PBC has picked Nasdaq as its listing venue ahead of a potential record-setting initial public offering, according to a person familiar with the matter.
@@ -90,24 +110,24 @@
 - 发布时间：2026-09-13 21:52 CST
 - 链接：https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 3 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
 
-### 1. Donald Trump rejects calls from tech bosses for an AI slowdown
+### 1. FirstFT: Donald Trump rejects calls from tech leaders for an AI slowdown
+- 摘要：Also in today’s newsletter: India’s central bank tells Tata Sons to go public and South Korea arms itself to protect chip secrets from spies
+- 发布时间：2026-09-14 05:36 CST
+- 链接：https://www.ft.com/content/e9d90dd1-0f3c-4771-8cc7-341b3c050d8f?syn-25a6b1a6=1
+
+### 2. Donald Trump rejects calls from tech bosses for an AI slowdown
 - 摘要：President denounces demands for regulation as existential fears over technology move to the centre of US politics
 - 发布时间：2026-09-13 23:42 CST
 - 链接：https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1
 
-### 2. The anti-AI portfolio: fountain pens, Warhammer and film cameras
+### 3. The anti-AI portfolio: fountain pens, Warhammer and film cameras
 - 摘要：Journaling, sudoku, puzzle books and other non-digital pursuits are staging a comeback
 - 发布时间：2026-09-13 12:00 CST
 - 链接：https://www.ft.com/content/4ffff2a7-b2aa-42aa-a68b-037f9a3fd603?syn-25a6b1a6=1
 
-### 3. US-listed Equinix faces challenge over South African hyperscale data centre
-- 摘要：Campaigners want project approval overturned as rapid AI infrastructure build-out puts focus on power and water supplies
-- 发布时间：2026-09-13 12:00 CST
-- 链接：https://www.ft.com/content/2f3d996e-b320-48c5-b4a7-967ddffeb360?syn-25a6b1a6=1
-
-## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 9 条）
 
 ### 1. US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests
 - 摘要：Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communities Schools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social media trend in which disturbing or AI-generated versions of the Dr Seuss charac...
@@ -177,7 +197,7 @@
 - 发布时间：2026-09-13 05:16 CST
 - 链接：https://simonwillison.net/2026/Sep/12/sighting-399708714/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 3 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 2 条）
 
 ### 1. What’s behind the AI industry’s latest warnings of doom?
 - 摘要：On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.
@@ -190,12 +210,6 @@
 - 作者：Anthony Ha
 - 发布时间：2026-09-14 00:30 CST
 - 链接：https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/
-
-### 3. OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026
-- 摘要：While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.
-- 作者：Anthony Ha
-- 发布时间：2026-09-13 04:19 CST
-- 链接：https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
 
 ## The Decoder（the-decoder，en，本窗口共 5 条）
 
@@ -217,7 +231,7 @@
 - 发布时间：2026-09-13 18:52 CST
 - 链接：https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/
 
-## The Verge — AI（theverge-ai，en，本窗口共 3 条）
+## The Verge — AI（theverge-ai，en，本窗口共 2 条）
 
 ### 1. Trump and Mike Johnson think the AI industry is overreacting
 - 摘要：Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to "pace the frontier" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's prop...
@@ -231,15 +245,14 @@
 - 发布时间：2026-09-13 05:41 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack
 
-### 3. Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
-- 摘要：OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune . Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was b...
-- 作者：Terrence O’Brien
-- 发布时间：2026-09-13 05:16 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised
+## VentureBeat（venturebeat，en，本窗口共 2 条）
 
-## VentureBeat（venturebeat，en，本窗口共 1 条）
+### 1. Why AI shouldn't be the one repairing your data pipelines
+- 摘要：When a microservice fails in a cloud-native architecture, circuit breakers trigger, traffic reroutes, and Kubernetes spins up replacement pods within seconds. The system heals before end users even notice a blip. Read more
+- 发布时间：2026-09-14 06:00 CST
+- 链接：https://venturebeat.com/security/why-ai-shouldnt-be-the-one-repairing-your-data-pipelines
 
-### 1. Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it
+### 2. Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it
 - 摘要：Imagine deploying an AI agent to run a multi-day master data validation workflow. By day three, it has ingested thousands of records. The baseline governance rules you hardcoded into the system prompt at the start? They are gone. Pushed right out of active memory. Read more
 - 发布时间：2026-09-14 02:00 CST
 - 链接：https://venturebeat.com/orchestration/long-running-ai-agents-quietly-drop-compliance-rules-and-bigger-context-windows-wont-fix-it
@@ -252,42 +265,42 @@
 - 发布时间：2026-09-13 18:00 CST
 - 链接：https://www.wired.com/story/ai-agents-are-thirsty-for-power/
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 7 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 8 条）
 
-### 1. 邵天兰掀桌，银河通用报警
+### 1. 一年后agent可能组建僵尸网络，四巨头齐呼刹车
+- 摘要：阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识：AI可能跑得太快了。 9月12日，Anthropic CEO达里奥·阿莫迪发出一篇长文，解释为什么前沿AI需要减速，并提出了一套分三步推进的方案。 两个半小时以后，山姆·奥特曼转发并配文：我同意达里奥的观点。OpenAI也会向独立评测人员提供类似员工的访问权限。 马斯克则直接配了一句：Dario is right. Google DeepMind主席哈萨比斯也转发并表示：阿莫迪的文章指明了正确的方向。 这不只是几家前沿AI实验室领头人“互相点赞”，就在阿莫迪发文的前一天，奥特曼在接受《财富》直接采访时明确表示，考虑到安全和对...
+- 作者：字母Ai
+- 发布时间：2026-09-14 07:06 CST
+- 链接：https://www.36kr.com/p/3981590571128457
+
+### 2. 邵天兰掀桌，银河通用报警
 - 摘要：这世界有些魔幻。 一家刚上市的机器人公司，向机器人行业开了一枪。 近日，刚在港股上市10天的梅卡曼德创始人邵天兰，在其朋友圈无差别扫射，直指行业里有很多“攒局型”具身智能企业，利用关联交易制造虚假收入。其中不乏名气很大、估值很高、上过春晚的公司。 在回复评论中，邵天兰更是直接 点名了正在推进IPO的银河通用 。 银河通用先是发布一份声明，称自己不参与口水战，专注做好自己的事。随着事件发酵，两天后， 银河通用发声辟谣，并称已报案。 机器人行业迎来了多事之秋。已经上市的宇树，股价连连下跌，市值从4449亿元的高点，跌破2000亿元；而一批正在冲刺上市的企业，也面临被砸饭碗的危机。 A 其实，这些年...
 - 作者：字母榜
 - 发布时间：2026-09-13 14:30 CST
 - 链接：https://www.36kr.com/p/3981389873838855
 
-### 2. 突发，OpenAI今年不上市了
+### 3. 突发，OpenAI今年不上市了
 - 摘要：猝不及防！ 就在昨天，奥特曼在接受《财富》长达45分钟的独家专访时，亲手浇灭了华尔街的欲火： OpenAI在2026年，绝对不会上市。 他抛出的真正理由，让整个行业感到不寒而栗—— 人类可能会造出完全失控的AI ，在这个节点强行上市，时机「极不明智」。 甚至，他当场撂下狠话，「OpenAI会不惜一切代价踩下刹车，哪怕必须暂停模型训练」。 这是奥特曼首次，在一次访谈中，把三件极具破坏力的事情串联在一起： 推迟IPO、暂停模型训练、AI绝对可能脱离人类控制 几乎同一时间，Anthropic CEO达里奥发表长文——我们必须控制前沿AI发展速度。 两记重锤同日落下，都在宣告着： RSI已经开始了，A...
 - 作者：新智元
 - 发布时间：2026-09-13 11:50 CST
 - 链接：https://www.36kr.com/p/3981250979036163
 
-### 3. 暴涨98.7%，智能眼镜加速分化：AR狂飙，音频和拍摄没落了？
-- 摘要：据洛图科技报道，今年上半年国内智能眼镜线上+线下渠道累计销量达90.9万台，同比暴增85.5%，销售额达18.8亿元，同比增长98.7%，整个行业呈现出一片欣欣向荣的景象。 然而到了7月，受618大促透支消费的影响，洛图监测京东、天猫、抖音三大主流电商平台的智能眼镜零售量仅7.4万台，同比下降15.3%。 智能眼镜整体销量的波动与市场变化有关，但不同品类的此消彼长，却表明部分类型智能眼镜，有被市场淘汰的风险。 AR眼镜高歌猛进，音频、拍摄眼镜陷入泥潭 洛图科技将智能眼镜分为AR眼镜（有显示+有音频）、音频眼镜（无显示+有音频）、拍摄眼镜（无显示+有摄像头）三大品类，其中表现最好的是AR眼镜，今...
-- 作者：雷科技
-- 发布时间：2026-09-13 11:47 CST
-- 链接：https://www.36kr.com/p/3980198644242305
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 15 条）
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 14 条）
+### 1. Anthropic目标估值约2万亿美元
+- 摘要：路透社12日援引消息人士的话报道称，英伟达公司目前正考虑最高出资100亿美元、参与美国人工智能公司Anthropic首次公开募股。这引发了业内对AI产业循环投资的担忧。据悉，Anthropic 本次IPO最高拟募资1000亿美元，有望超过SpaceX今年6月上市时750亿美元的募资规模。公司目标估值约2万亿美元。如果这一估值得以兑现，Anthropic的估值将超过SpaceX上市时1.77万亿美元的水平，创下全球拟上市企业估值新高。（央视财经）
+- 发布时间：2026-09-14 07:00 CST
+- 链接：https://www.36kr.com/newsflashes/3981965881048064
 
-### 1. 三家具身智能头部企业被同行举报？涉及企业回应
+### 2. 三家具身智能头部企业被同行举报？涉及企业回应
 - 摘要：有网传消息称，具身智能头部企业千寻智能、星海图、星动纪元或在本月迎来关键大考，近期还遭遇某同行向“主考官”举报，具体举报内容尚未公开。9月13日，千寻智能方面回复称，网传信息不实；星海图媒体对接人表示，暂不清楚相关情况；星动纪元方面表示，暂不作官方回应。（第一财经）
 - 发布时间：2026-09-13 19:15 CST
 - 链接：https://www.36kr.com/newsflashes/3981592407620352
 
-### 2. 上海“明珠星座计划”正式启动，目标建设吉瓦级天基计算星座
+### 3. 上海“明珠星座计划”正式启动，目标建设吉瓦级天基计算星座
 - 摘要：9月13日，2026浦江创新论坛“太空算力产业生态论坛”在上海举行。从现场获悉，“明珠星座计划”正式启动。该计划长期目标是建设吉瓦级天基计算星座，围绕国产算力载荷、光计算载荷、新型能源系统等方向开展在轨验证，随后逐步进入首批卫星部署和规模组网阶段，计划到2030年逐步建成全球覆盖、天地协同、自主可控的太空智能算力基础设施和服务网络。（界面）
 - 发布时间：2026-09-13 19:00 CST
 - 链接：https://www.36kr.com/newsflashes/3981587849657344
-
-### 3. 金安国纪：截至目前公司未与英伟达、华为有过接触
-- 摘要：36氪获悉，9月13日，金安国纪公告称，公司股票于9月10日、11日连续两个交易日收盘价格涨幅偏离值累计达20%，属于股票交易异常波动。公司澄清，近期网上传播关于公司产品纳入英伟达、华为供应链体系认证等信息均为不实信息，截至目前公司未与英伟达、华为有过接触，也未与其开展任何形式的业务合作。
-- 发布时间：2026-09-13 16:25 CST
-- 链接：https://www.36kr.com/newsflashes/3981558356359943
 
 ## 极客公园（geekpark，zh，本窗口共 1 条）
 
@@ -297,25 +310,25 @@
 - 发布时间：2026-09-13 08:22 CST
 - 链接：http://www.geekpark.net/news/370228
 
-## 虎嗅（huxiu，zh，本窗口共 47 条）
+## 虎嗅（huxiu，zh，本窗口共 48 条）
 
-### 1. 秦朔：消费这件事，不用太悲观|| 大视野
+### 1. 谁还在意B站？
+- 摘要：出品｜虎嗅黄青春频道作者｜商业消费主笔黄青春题图｜视觉中国AI 浪潮席卷之下，一众老登互联网企业挤破头拥抱新时代，角落里的 B 站却始终贴着二次元、鬼畜、小众的标签。尤其这两年，相比抖音、小红书甚至红果，B 站似乎正在年轻群体中“失宠”，过气论调开始在社交平台冒头。但细看最新财报数据会...... 出品｜虎嗅黄青春频道 作者｜商业消费主笔 黄青春 题图｜视觉中国 AI 浪潮席卷之下，一众老登互联网企业挤破头拥抱新时代，角落里的 B 站却始终贴着二次元、鬼畜、小众的标签。尤其这两年，相比抖音、小红书甚至红果，B 站似乎正在年轻群体中“失宠”，过气论调开始在社交平台冒头。 但细看最新财报数据会发现...
+- 作者：黄青春
+- 发布时间：2026-09-14 07:08 CST
+- 链接：https://www.huxiu.com/article/4889441.html
+
+### 2. 秦朔：消费这件事，不用太悲观|| 大视野
 - 摘要：前一段写了《弄清中国的消费数据》，有两点结论：一是从实物消费量和服务消费水平看，中国的消费并不差，和发达国家的差距不像人均消费金额显示的差距那么大。二是中国的居民消费率确实比较低，这个问题不解决，中国的经济增长会被困住。提振消费是当下热词，但面临的约束不少：房地产滑坡，就业和居民增收压力较大，民生保障有不少短...... 本文来自微信公众号： 秦朔朋友圈 ，作者：秦朔，原文标题：《秦朔：消费这件事，不用太悲观 || 大视野》 前一段写了《弄清中国的消费数据》，有两点结论： 一是从实物消费量和服务消费水平看，中国的消费并不差，和发达国家的差距不像人均消费金额显示的差距那么大。 二是中国的居民消费...
 - 作者：秦朔朋友圈
 - 发布时间：2026-09-14 00:09 CST
 - 链接：https://www.huxiu.com/article/4890846.html
 
-### 2. 王坚：不完美是完美不可分割的一部分
+### 3. 王坚：不完美是完美不可分割的一部分
 - 摘要：编者按：2026年9月10日下午，外滩大会广场的露天舞台被围得水泄不通。之江实验室主任、阿里云创始人王坚在此做了题为《以青年人的方式思考人工智能》的分享。以下是主编通过演讲原文提炼的精华观点部分供读者参考了解。这是人类历史上年青人最多的时候我们天天讲老龄化、人口减少，但不管你信不信，这是人类历史上年青人最多的...... 本文来自微信公众号： 秦朔朋友圈 ，作者：王坚 编者按：2026年9月10日下午，外滩大会广场的露天舞台被围得水泄不通。之江实验室主任、阿里云创始人王坚在此做了题为《以青年人的方式思考人工智能》的分享。以下是主编通过演讲原文提炼的精华观点部分供读者参考了解。 这是人类历史上年...
 - 作者：秦朔朋友圈
 - 发布时间：2026-09-14 00:06 CST
 - 链接：https://www.huxiu.com/article/4890845.html
-
-### 3. 仅仅半年，6亿人“中毒”AI短剧
-- 摘要：3人核心团队，10万注册资金，手搓半年，连出十二季，保守估计利润600万，乐观2000万……AI短剧《万妖图录传》的“爽文人生”，就如同其所在的行业一样，越冲越猛。年初，红果APP才设立AI剧独立入口，如今热播榜前99名里，AI短剧已独占77席，必看榜、热搜榜、收藏榜也统统被“血洗”，真人剧被按在地上摩擦。爆...... 本文来自微信公众号： 表外表里 ，编辑：曹宾玲，作者：洞见数据研究院 3人核心团队，10万注册资金，手搓半年，连出十二季，保守估计利润600万，乐观2000万……AI短剧《万妖图录传》的“爽文人生”，就如同其所在的行业一样，越冲越猛。 年初，红果APP才设立AI剧独立入口，如...
-- 作者：表外表里
-- 发布时间：2026-09-13 23:50 CST
-- 链接：https://www.huxiu.com/article/4890844.html
 
 ## InfoQ 中文（infoq-cn，zh，本窗口共 2 条）
 
@@ -331,25 +344,25 @@
 - 发布时间：2026-09-13 10:00 CST
 - 链接：https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 48 条）
+## IT之家（ithome，zh，本窗口共 50 条）
 
-### 1. 创全球最低传输损耗新纪录，长飞反谐振空芯光纤衰减突破至 0.032dB / km
-- 摘要：IT之家 9 月 13 日消息，2026 中国算力大会于 9 月 11 日至 13 日在河北省廊坊市举行，在大会“2026 算力首创首发”环节，长飞公司正式发布， 反谐振空芯光纤衰减突破至 0.032dB/ km，创下全球最低传输损耗新纪录 。 据介绍，长飞空芯光纤算力互联技术已在国内外完成超过 13 个商用及试点项目，公司联合国内三大运营商完成城域网、智算互联及海洋传输等多场景应用。 截至目前，长飞空芯光纤累计交付超 10000 芯公里，创下最长商用线路 100 公里等多项纪录， 成为全球商用部署最广的空芯光纤供应商 。 IT之家附 长飞光纤 2026 年半年度（2026 年 1 月～202...
-- 作者：作者： 沁沧（实习
-- 发布时间：2026-09-13 22:48 CST
-- 链接：https://www.ithome.com/1/001/867.htm
+### 1. 微软 CEO 纳德拉：支持 AI 审慎发展与独立审计，AI 行为准则明日公布
+- 摘要：IT之家 9 月 14 日消息，微软首席执行官萨蒂亚 · 纳德拉今天在 X 平台发文，谈及微软的前沿 AI 发展理念。 纳德拉表示，任何对超级智能的探索都必须在核心原则约束下运行：如果人们构建的 AI 无法帮助人类，且无法被人类控制，那么它就不值得发展。他认为 AI 需要加速发展，使其成果能够得到广泛传播，惠及不同国家、社区和企业。这显然需要建立前沿生态，让开源和闭源模型都能蓬勃发展。 对企业来说，这意味着他们必须完全掌握自身独有的隐性知识。每家公司都应该可以构建属于自己的、持续学习闭环、不断迭代的系统，而不必依赖于单一模型供应商，还应当将自身知识融入模型之中。 因此，微软欢迎那些真正的 AI...
+- 作者：作者： 潞源
+- 发布时间：2026-09-14 07:00 CST
+- 链接：https://www.ithome.com/1/001/876.htm
 
-### 2. 消息称富士通最早 2027 年开始向海外销售 FUJITSU-MONAKA 处理器
-- 摘要：IT之家 9 月 13 日消息，《日经亚洲》当地时间今日报道称，富士通 (Fujitsu) 将最早从 2027 年开始向日本以外的亚洲、美洲市场出口其 2nm 工艺 Arm 指令集处理器 FUJITSU-MONAKA。 IT之家注意到，富士通早在 2024 年就为 FUJITSU-MONAKA 平台的开发与推广同 Supermicro（超微）达成合作。这意味着 富士通将 FUJITSU-MONAKA 视为一种可对外销售的商业化产品 ，而不是“富岳”超算上的 A64FX 那样的纯粹内部芯片。 富士通正在与 40 多家公司洽谈基于 FUJITSU-MONAKA 的 AI 服务器合同，已有 24 家...
-- 作者：作者： 溯波（实习
-- 发布时间：2026-09-13 22:47 CST
-- 链接：https://www.ithome.com/1/001/866.htm
+### 2. 微软宣布将 xAI 旗下 Grok 模型整合进 Office 三件套，为用户提供 OpenAI 以外模型选择
+- 摘要：IT之家 9 月 14 日消息，微软去年开始逐步放弃 Microsoft 365 Copilot 仅使用 OpenAI 模型的策略，先后将 Anthropic 的 Claude 模型引入 Researcher、Copilot Studio 等产品。 如今，微软进一步扩大 Microsoft 365 Copilot 可使用的 AI 模型范围，引入 SpaceX 旗下 xAI 的 Grok 模型。目前，Grok 已经开始陆续登陆 Word、Excel 和 PowerPoint 中的 Copilot，为用户提供 OpenAI 和 Anthropic 之外的另一种模型选择。 不过，Grok 在预览阶段...
+- 作者：作者： 漾仔
+- 发布时间：2026-09-14 06:59 CST
+- 链接：https://www.ithome.com/1/001/875.htm
 
-### 3. 小米手表 5 推送 OS 3.0.196.0 固件更新，优化微信消息接收
-- 摘要：IT之家 9 月 13 日消息，今日，小米手表 5 推送新版系统更新，固件版本号为 OS 3.0.196.0，主要针对微信消息提醒、系统稳定性以及已知问题进行优化。 IT之家整理更新日志如下： 优化微信消息接收，消息提醒更稳定； 提升系统运行稳定性，修复卡包卡片显示异常等问题，日常使用更流畅安心； 修复其他已知问题，提升用户体验。 小米手表 5 于去年 12 月正式发布，标准版定价 1999 元，eSIM 版定价 2299 元。该产品采用双面人工蓝宝石玻璃，不锈钢表壳一体锻造，配备一块 1.54 英寸 AMOLED 面板（全局亮度 1500 尼特），匹配 2.6mm 超窄边框。使用触点充电。可...
-- 作者：作者： 浩渺
-- 发布时间：2026-09-13 22:36 CST
-- 链接：https://www.ithome.com/1/001/864.htm
+### 3. 冲击全球最大 IPO：曝 Anthropic 选定纳斯达克上市，目标估值约 2 万亿美元
+- 摘要：IT之家 9 月 14 日消息，科技媒体 Business Insider 今天（9 月 14 日）发布博文，报道称人工智能公司 Anthropic 已选定纳斯达克作为潜在首次公开募股（IPO）地点，预计 2026 年 10 月启动路演，目标估值约 2 万亿美元 （IT之家注：现汇率约合 13.46 万亿元人民币） 。 IT之家查询公开资料，基于此前曝光的信息，除了纳斯达克外，纽约证券交易所（New York Stock Exchange，NYSE）也是 Anthropic 实现 IPO 的备选地点。 该消息（选定纳斯达克作为 IPO 上市地点）最早由 Business Insider 援引知...
+- 作者：作者： 故渊
+- 发布时间：2026-09-14 06:41 CST
+- 链接：https://www.ithome.com/1/001/871.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 5 条）
 
@@ -447,25 +460,25 @@
 - 发布时间：2026-09-13 18:24 CST
 - 链接：https://github.com/yuliskov/SmartTube
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 99 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 103 条）
 
-### 1. There Is No AI (It's Just People) with Jaron Lanier
-- 摘要：Editor's Note: In this special edition episode of StarTalk, host Neil deGrasse Tyson, co-host Gary O'Reilly, and comedian Negin Farsad sit down with computer
-- 作者：andsoitis
-- 发布时间：2026-09-14 03:41 CST
-- 链接：https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/
+### 1. Donald Trump rejects calls from tech bosses for AI slowdown
+- 摘要：President denounces demands for regulation as existential fears over technology move to the centre of US politics
+- 作者：higginsniggins
+- 发布时间：2026-09-14 06:32 CST
+- 链接：https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed
 
-### 2. AI recursive self-improvement might not come so quickly after all (August 2026)
-- 摘要：AI agents are not yet creative enough to carry out genuinely innovative open-ended AI research, it seems.
-- 作者：dgellow
-- 发布时间：2026-09-14 02:49 CST
-- 链接：https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/
+### 2. AI extinction is only one way the future is frightening
+- 摘要：Analysis - Over the weekend the CEO of Anthropic, Dario Amodei, published an essay with the headline We Must Pace the Frontier.
+- 作者：billybuckwheat
+- 发布时间：2026-09-14 06:14 CST
+- 链接：https://www.rnz.co.nz/news/world/1362349/ai-extinction-is-only-one-way-the-future-is-frightening
 
-### 3. Suicidal Compassion: Utilitarianism at AI Companies Endangers Humanity
-- 摘要：Dan Hendrycks, Sep 09, 2026 — Utilitarians at AI companies imagine a cosmos filled with blissful AIs. They might risk human extinction to achieve it.
-- 作者：YeGoblynQueenne
-- 发布时间：2026-09-14 02:32 CST
-- 链接：https://ai-frontiers.org/articles/suicidal-compassion-how-utilitarianism-at-ai-companies-endangers-humanity
+### 3. The Hidden Software Variable in UAS Performance
+- 摘要：Mantis Technologies' CTO argues UAS differentiation now lives in the software stack, and proposes normalization over standardization.
+- 作者：agrantic
+- 发布时间：2026-09-14 05:38 CST
+- 链接：https://foxandlion.pub/analysis/the-hidden-software-variable-in-uas-performance
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 6 条）
 
@@ -487,25 +500,25 @@
 - 发布时间：2026-09-11 01:48 CST
 - 链接：https://www.producthunt.com/products/epilude
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 355 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 357 条）
 
-### 1. I'm finding it impossible to be excited over AI anymore.
-- 摘要：I used to be super excited about what it could accomplish. Huge advancements in tech and medicine, curing cancer, slowing aging, extending our lives and improving the quality of them, advancing our technology to incredible levels. Also things I would use it for personally, like making games, tv show...
-- 作者：Dogbold
-- 发布时间：2026-09-14 04:56 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wfjhfp/im_finding_it_impossible_to_be_excited_over_ai/
+### 1. What?
+- 摘要：Hi everyone, I wanted to report something. A little while ago, I was talking to the "Grok" AI and asking about the OpenAI incident—specifically regarding agent communication and their messages. It generated a massive message; the only thing I managed to catch was a repetitive string of "What What Wh...
+- 作者：Alternative-Use-3874
+- 发布时间：2026-09-14 07:14 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1wfmsj7/what/
 
-### 2. Guide: How to escape ChatGPT & Claude for Coding Needs
-- 摘要：Hey everyone, I want to give you something for free because I am pissed off. I am furious, heartsick, and fed up with nerd reich hoarding, poisoning, and controlling the narrative around humanity’s greatest achievement; AI. Make no mistake. We are deeply lucky to be alive to experience the Singulari...
-- 作者：NewYak4281
-- 发布时间：2026-09-14 04:55 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wfjgii/guide_how_to_escape_chatgpt_claude_for_coding/
+### 2. So yeah I made yet another menu bar app to keep track of Claude Code and Codex usage
+- 摘要：I call it Delta-V, a small macOS app that shows your Claude Code and Codex subscription usage in the menu bar. You can show either provider or both side by side, choose which windows to display, and switch between percentages remaining or used. It also shows when each window resets. It reads your ex...
+- 作者：vauvva
+- 发布时间：2026-09-14 07:11 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wfmpr2/so_yeah_i_made_yet_another_menu_bar_app_to_keep/
 
-### 3. The OpenAI/Hugging Face incident was part of a coordinated cyber attack to steal private AI model weights.
-- 摘要：Theory: The OpenAI/Hugging Face incident was part of a coordinated cyber operation to steal private AI model weights. The timeline is difficult to dismiss. March 10, 2026: Hugging Face launches infrastructure built to store private training checkpoints. June 9: Hugging Face announces it will store “...
-- 作者：0_2_Hero
-- 发布时间：2026-09-14 04:48 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wfjacx/the_openaihugging_face_incident_was_part_of_a/
+### 3. What's your opinion on AI
+- 摘要：The head of one of the world’s leading artificial intelligence companies is calling for developers to slow the advancement of increasingly powerful AI system...
+- 作者：scottt828
+- 发布时间：2026-09-14 07:09 CST
+- 链接：https://youtube.com/shorts/TgxFilxUzoM?is=oLfo8a1yS5lYTXZC
 
 ## 智源社区（baai-hub，zh，本窗口共 16 条）
 
@@ -528,7 +541,7 @@
 - 链接：https://hub.baai.ac.cn/view/57933
 
 ---
-共列出 78 条（窗口内采集总数 695 条，来自 30 个信源）
+共列出 80 条（窗口内采集总数 706 条，来自 31 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

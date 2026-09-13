@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-13T21:00:27.617051+00:00",
+ "generated_at": "2026-09-13T23:17:32.553445+00:00",
  "stats": {
-  "items": 688,
-  "clusters": 559,
-  "noise": 435,
+  "items": 699,
+  "clusters": 578,
+  "noise": 454,
   "dup": 17,
   "history_days": 0,
   "available_cn": 67,
@@ -16,6 +16,27 @@
  "items": [
   {
    "rank": 1,
+   "title": "Donald Trump rejects calls from tech bosses for an AI slowdown",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
+   "score": 7.57,
+   "sources": [
+    "ft-tech",
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Donald Trump rejects calls from tech bosses for an AI slowdown",
+    "FirstFT: Donald Trump rejects calls from tech leaders for an AI slowdown",
+    "Trump rejects Silicon Valley’s calls for AI slowdown",
+    "Donald Trump rejects calls from tech bosses for AI slowdown"
+   ],
+   "published_at": "2026-09-13T15:42:41.000000+00:00",
+   "summary": "President denounces demands for regulation as existential fears over technology move to the centre of US politics"
+  },
+  {
+   "rank": 2,
    "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
    "lang": "en",
    "region": "intl",
@@ -33,7 +54,7 @@
    "summary": "Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "What are the top AI Models that are still relevant today from 2024 and 2025?",
    "lang": "en",
    "region": "intl",
@@ -51,7 +72,7 @@
    "summary": "We are in 2026 and it has been a crazy year. The evolution of the technology has been staggering to say the least. Pretty much we are on the MoE period and dense models are almost in the way of the dodo except for a few...."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
    "lang": "en",
    "region": "intl",
@@ -67,24 +88,6 @@
    ],
    "published_at": "2026-09-13T17:02:26+00:00",
    "summary": "In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher’s ( Yifan Zhan..."
-  },
-  {
-   "rank": 4,
-   "title": "Donald Trump rejects calls from tech bosses for an AI slowdown",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
-   "score": 5.0,
-   "sources": [
-    "ft-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Donald Trump rejects calls from tech bosses for an AI slowdown",
-    "Trump rejects Silicon Valley’s calls for AI slowdown"
-   ],
-   "published_at": "2026-09-13T15:42:41.000000+00:00",
-   "summary": "President denounces demands for regulation as existential fears over technology move to the centre of US politics"
   },
   {
    "rank": 5,
@@ -106,11 +109,27 @@
   },
   {
    "rank": 6,
+   "title": "perplexity-ai/pplx-pii-masking-MLX",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/perplexity-ai/pplx-pii-masking-MLX",
+   "score": 4.1,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "perplexity-ai/pplx-pii-masking-MLX"
+   ],
+   "published_at": "2026-09-13T22:44:09.000000+00:00",
+   "summary": "token-classification, mlx, pii, privacy, qwen3, apple-silicon, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:finetune:perplexity-ai/pplx-pii-masking, license:mit, region:us"
+  },
+  {
+   "rank": 7,
    "title": "Why are so many people, including AI researchers and CEOs, so terrified that AI will kill us all?",
    "lang": "en",
    "region": "intl",
    "url": "https://www.reddit.com/r/singularity/comments/1wf3v8p/why_are_so_many_people_including_ai_researchers/",
-   "score": 4.13,
+   "score": 3.63,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
@@ -123,7 +142,7 @@
    "summary": "I don't really understand this. AI does what you tell it. When it goes off and does stupid things like wiping out a hard drive, it's because you didn't tell it not to and limit it enough. Can they not just tell AI plainl..."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
    "lang": "en",
    "region": "intl",
@@ -139,7 +158,7 @@
    "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and..."
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
    "lang": "en",
    "region": "intl",
@@ -155,87 +174,7 @@
    "summary": "AWS introduced Pizza Bot , as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more..."
   },
   {
-   "rank": 9,
-   "title": "Xi Pitches His AI Vision at BRICS Summit as China Duels With US",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-13/xi-pitches-his-ai-vision-at-brics-summit-as-china-duels-with-us",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Xi Pitches His AI Vision at BRICS Summit as China Duels With US"
-   ],
-   "published_at": "2026-09-13T09:10:57.000000+00:00",
-   "summary": "Chinese President Xi Jinping has sought to turn the annual BRICS summit into another platform for championing Beijing’s vision for artificial intelligence, as it vies for global influence over the technology with the US."
-  },
-  {
    "rank": 10,
-   "title": "Two-year university study finds banning AI from classrooms leaves students worse off",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Two-year university study finds banning AI from classrooms leaves students worse off"
-   ],
-   "published_at": "2026-09-13T09:27:01.000000+00:00",
-   "summary": "A law professor spent two years testing how an AI ban, unguided AI use, and structured training affect student performance. The group without AI finished last both years. \"I was wrong,\" the researcher writes, who had ass..."
-  },
-  {
-   "rank": 11,
-   "title": "AI Agents Are Thirsty for Power",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
-   "score": 2.5,
-   "sources": [
-    "wired-ai"
-   ],
-   "titles": [
-    "AI Agents Are Thirsty for Power"
-   ],
-   "published_at": "2026-09-13T10:00:00.000000+00:00",
-   "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout."
-  },
-  {
-   "rank": 12,
-   "title": "AI will transform capitalism – but how?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/technology/2026/sep/13/ai-will-transform-capitalism-but-how",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "AI will transform capitalism – but how?"
-   ],
-   "published_at": "2026-09-13T11:00:02.000000+00:00",
-   "summary": "Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks like The idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as ol..."
-  },
-  {
-   "rank": 13,
-   "title": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
-   "score": 2.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "Xi says China will take lead to foster AI, tech cooperation among BRICS countries"
-   ],
-   "published_at": "2026-09-13T11:17:12.000000+00:00",
-   "summary": "China will take the lead to help foster artificial-intelligence collaboration and development among developing-economy countries, President Xi Jinping said."
-  },
-  {
-   "rank": 14,
    "title": "AI Industry Faces Pressure to Slow the Race",
    "lang": "en",
    "region": "intl",
@@ -251,12 +190,96 @@
    "summary": "The AI industry is confronting a growing tension between racing to build more powerful systems and concerns that those systems could become harder to understand and control. Joining David Gura and Christina Ruffini on Bl..."
   },
   {
+   "rank": 11,
+   "title": "AI's most powerful CEOs hit the brakes",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.axios.com/2026/09/13/ai-labs-regulation-safety",
+   "score": 2.5,
+   "sources": [
+    "axios"
+   ],
+   "titles": [
+    "AI's most powerful CEOs hit the brakes"
+   ],
+   "published_at": "2026-09-13T12:56:34.000000+00:00",
+   "summary": "In nine startling hours on Saturday, the four biggest AI labs — which rarely agree on anything — set aside years of feuds and competition to endorse a slower development pace for their models. Their new stance: Prioritiz..."
+  },
+  {
+   "rank": 12,
+   "title": "Johnson Calls for Meeting With AI Leaders Before Any Legislation",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-13/johnson-calls-for-meeting-with-ai-leaders-before-any-legislation",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Johnson Calls for Meeting With AI Leaders Before Any Legislation"
+   ],
+   "published_at": "2026-09-13T12:57:04.000000+00:00",
+   "summary": "House Speaker Mike Johnson says any federal legislation on artificial intelligence shouldn’t be rushed and “we need to summon” AI industry leaders to “one big meeting” first."
+  },
+  {
+   "rank": 13,
+   "title": "Rogue AI Breakouts Raise Pressure for New Rules",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-13/rogue-ai-breakouts-raise-pressure-for-new-rules",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Rogue AI Breakouts Raise Pressure for New Rules"
+   ],
+   "published_at": "2026-09-13T13:13:46.000000+00:00",
+   "summary": "Rapid advances in AI and incidents involving autonomous AI agents are intensifying concerns that safeguards and government oversight are failing to keep pace with the technology. Bloomberg Opinion Columnist Gautam Mukund..."
+  },
+  {
+   "rank": 14,
+   "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options"
+   ],
+   "published_at": "2026-09-13T13:40:36.000000+00:00",
+   "summary": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on..."
+  },
+  {
    "rank": 15,
+   "title": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4890787.html",
+   "score": 9.0,
+   "sources": [
+    "huxiu",
+    "tmtpost",
+    "36kr-ai"
+   ],
+   "titles": [
+    "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
+    "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
+    "一年后agent可能组建僵尸网络，四巨头齐呼刹车"
+   ],
+   "published_at": "2026-09-13T08:48:44.000000+00:00",
+   "summary": "阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识：AI可能跑得太快了。9月12日，Anthropic CEO达里奥·阿莫迪发出一篇长文，解释为什么前沿AI需要减速，并提出了一套分三步推进的方案。两个半小时以后，山姆·奥特曼转发并配文：我同意达里奥的观点。OpenAI也会向独立评测人员提供类...... 本文来自微信公众号： 字母AI ，作者：袁心玥 阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识..."
+  },
+  {
+   "rank": 16,
    "title": "智谱宣布完成约 50 亿美元融资，用于下一代 GLM 基础模型研发等",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/001/833.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "tmtpost"
@@ -269,7 +292,7 @@
    "summary": "IT之家 9 月 13 日消息，智谱今日宣布完成 约 50 亿美元 （IT之家注：现汇率约合 336.54 亿元人民币） 融资，包括约 20 亿美元 （约 156.8 亿港币） 股份配售及约 30 亿美元 （约 201.4 亿人民币） 可转债发行。 此次融资主要将用于 下一代 GLM 基础模型 及完全自训练 （Fully Self Training） 体系的研发 ，以及大规模训练、生产推理、算力资源及相关技术基础设施的部署及升级。 在公..."
   },
   {
-   "rank": 16,
+   "rank": 17,
    "title": "我国实现一体化算力统筹监测",
    "lang": "zh",
    "region": "cn",
@@ -285,24 +308,6 @@
    ],
    "published_at": "2026-09-13T01:48:05.000000+00:00",
    "summary": "记者从工业和信息化部了解到，中国算力平台已实现全国一体化算力统筹监测，我国算力“一张网、一盘棋、一体化”发展格局基本形成。中国算力平台是国家级综合性算力服务平台，目前已经汇聚了超万家注册企业用户，上架2000多项优质算力产品，接入各类大模型超300个，为广大开发者提供算力调用服务，累计沉淀数十亿条算力监测大数据。工业和信息化部总工程师钟志红透露，截至今年6月底，我国智算规模达到2185百亿亿次浮点运算（EFLOPS），同比增长了177%..."
-  },
-  {
-   "rank": 17,
-   "title": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4890787.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
-    "一年后agent可能组建僵尸网络，四巨头齐呼刹车"
-   ],
-   "published_at": "2026-09-13T08:48:44.000000+00:00",
-   "summary": "阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识：AI可能跑得太快了。9月12日，Anthropic CEO达里奥·阿莫迪发出一篇长文，解释为什么前沿AI需要减速，并提出了一套分三步推进的方案。两个半小时以后，山姆·奥特曼转发并配文：我同意达里奥的观点。OpenAI也会向独立评测人员提供类...... 本文来自微信公众号： 字母AI ，作者：袁心玥 阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识..."
   },
   {
    "rank": 18,
