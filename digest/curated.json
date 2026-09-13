@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-13T00:05:50.730037+00:00",
+ "generated_at": "2026-09-13T05:03:21.453697+00:00",
  "stats": {
-  "items": 824,
-  "clusters": 655,
-  "noise": 408,
-  "dup": 26,
+  "items": 855,
+  "clusters": 676,
+  "noise": 432,
+  "dup": 35,
   "history_days": 0,
-  "available_cn": 77,
-  "available_intl": 144,
+  "available_cn": 74,
+  "available_intl": 135,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,40 +16,24 @@
  "items": [
   {
    "rank": 1,
-   "title": "Google stole open source code without crediting the authors (Artemis/Minitap)",
+   "title": "Sam Altman agrees with Dario!",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-   "score": 5.52,
+   "url": "https://i.redd.it/nyf3uddy94ph1.png",
+   "score": 3.57,
    "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "Google stole open source code without crediting the authors (Artemis/Minitap)",
-    "Steven Johnson (Google Labs) just described exactly how to clone a writer's voice without asking"
+    "Sam Altman agrees with Dario!",
+    "Sam Altman and Elon Musk Support Dario Amodei's Proposal to Pace AI Development"
    ],
-   "published_at": "2026-09-12T02:39:39.000000+00:00",
-   "summary": "Nico, Minitap’s CEO, shares what the team found in Google’s Artemis repository and why attribution matters for the open-source community."
+   "published_at": "2026-09-12T16:34:37.000000+00:00",
+   "summary": ""
   },
   {
    "rank": 2,
-   "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10964",
-   "score": 4.0,
-   "sources": [
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows"
-   ],
-   "published_at": "2026-09-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10964v1 Announce Type: new Abstract: Agentic LLM workflows consist of sequences of model turns interleaved with tool interactions, so their end-to-end completion time depends not only on inference speed but al..."
-  },
-  {
-   "rank": 3,
    "title": "Guys RSI is here , Google has done self improving AI",
    "lang": "en",
    "region": "intl",
@@ -67,119 +51,55 @@
    "summary": ""
   },
   {
-   "rank": 4,
-   "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+   "rank": 3,
+   "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10584",
+   "url": "https://arxiv.org/abs/2609.10724",
    "score": 3.0,
    "sources": [
     "arxiv-cs-ai"
    ],
    "titles": [
-    "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement"
+    "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge"
    ],
    "published_at": "2026-09-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier..."
+   "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and depe..."
+  },
+  {
+   "rank": 4,
+   "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.10728",
+   "score": 3.0,
+   "sources": [
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Towards a Deterministic Math Solver for Clinical Language Models"
+   ],
+   "published_at": "2026-09-12T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard resp..."
   },
   {
    "rank": 5,
-   "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+   "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.10629",
+   "url": "https://arxiv.org/abs/2609.10873",
    "score": 3.0,
    "sources": [
     "arxiv-cs-ai"
    ],
    "titles": [
-    "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language"
+    "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents"
    ],
    "published_at": "2026-09-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with..."
+   "summary": "arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error cont..."
   },
   {
    "rank": 6,
-   "title": "Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Trump Brushes Off AI Doomsaying to Safeguard US Lead Over China"
-   ],
-   "published_at": "2026-09-12T13:00:00.000000+00:00",
-   "summary": "In June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimpse of the technology that would come to define his second presidential term."
-  },
-  {
-   "rank": 7,
-   "title": "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds"
-   ],
-   "published_at": "2026-09-12T13:39:43.000000+00:00",
-   "summary": "Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their v..."
-  },
-  {
-   "rank": 8,
-   "title": "AI is helping managers prepare for one of work's hardest tasks: Difficult employee conversations",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/12/ai-manager-coaching-employee-feedback-performanc-review.html",
-   "score": 2.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "AI is helping managers prepare for one of work's hardest tasks: Difficult employee conversations"
-   ],
-   "published_at": "2026-09-12T14:00:01.000000+00:00",
-   "summary": "AI tools let managers rehearse difficult conversations about performance, pay and layoffs, but experts say privacy safeguards and human judgment are essential."
-  },
-  {
-   "rank": 9,
-   "title": "Trump is giving data centers a pass to pollute",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
-   "score": 2.5,
-   "sources": [
-    "theverge-ai"
-   ],
-   "titles": [
-    "Trump is giving data centers a pass to pollute"
-   ],
-   "published_at": "2026-09-12T14:41:27.000000+00:00",
-   "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefi..."
-  },
-  {
-   "rank": 10,
-   "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
-   "score": 2.5,
-   "sources": [
-    "latent-space"
-   ],
-   "titles": [
-    "The Rise of the Forward Deployed Engineer — and How To Do the Job Right"
-   ],
-   "published_at": "2026-09-12T15:01:19.000000+00:00",
-   "summary": "The difference between FDE and consulting; diagram by Vinoo Ganesh FDEs have the hottest job in AI. Labs, startups and PE firms are all hiring engineers to sit inside their customers’ operations and solve their problems..."
-  },
-  {
-   "rank": 11,
    "title": "Quoting Paul Ford",
    "lang": "en",
    "region": "intl",
@@ -195,7 +115,7 @@
    "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still..."
   },
   {
-   "rank": 12,
+   "rank": 7,
    "title": "Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown",
    "lang": "en",
    "region": "intl",
@@ -211,7 +131,7 @@
    "summary": "Warring tech bosses unite behind warnings that humans could lose control of the technology"
   },
   {
-   "rank": 13,
+   "rank": 8,
    "title": "Fly Language Model (FLM) Wires the Full Fruit Fly Connectome Into a Frozen 1.2B LLM, and Its Own Controls Show the Wiring Does Not Help",
    "lang": "en",
    "region": "intl",
@@ -227,7 +147,7 @@
    "summary": "The Fly Language Model (FLM) is a public chatbot that couples the complete retained MaleCNS v1.0 fruit fly connectome to a frozen LiquidAI LFM2.5-1.2B-Instruct backbone. The developer who created the FLM calls it the wor..."
   },
   {
-   "rank": 14,
+   "rank": 9,
    "title": "Black Box: The Chatbots | 14 days | Ep 2 – podcast",
    "lang": "en",
    "region": "intl",
@@ -243,124 +163,184 @@
    "summary": "Virginia man Jon Ganz was rebuilding his life after spending more than two decades in prison for a horrific crime. Last year, he got a prompt on his phone that his wife, Rachel, believes changed their lives forever. It w..."
   },
   {
-   "rank": 15,
-   "title": "日薪千元的AI实习生，在焦虑什么？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4890679.html",
-   "score": 9.0,
+   "rank": 10,
+   "title": "As Australia faces an AI-generated future, a human rights act is needed more than ever",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/law/commentisfree/2026/sep/13/as-australia-faces-an-ai-generated-future-a-human-rights-act-is-needed-more-than-ever",
+   "score": 2.5,
    "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
+    "guardian-ai"
    ],
    "titles": [
-    "日薪千元的AI实习生，在焦虑什么？",
-    "日薪千元的AI实习生，在焦虑什么？",
-    "日薪千元的AI实习生，在焦虑什么？"
+    "As Australia faces an AI-generated future, a human rights act is needed more than ever"
    ],
-   "published_at": "2026-09-12T08:50:13.000000+00:00",
-   "summary": "AI抢人大战烧到了实习生。AIX财经（AIXcaijing）原创一名00后研究生还没走出校园，就以实习生身份领着5000元的日薪，这个数字，比不少普通白领的月薪还高。如果毕业转正，年薪甚至可以给到300万。这是AI抢人大战下的真实现状。据多家媒体披露，字节、腾讯、阿里等大厂的AI核心业务，博士生实习日薪500...... 本文来自微信公众号： AIX财经 ，编辑：王璐，作者：AIX财经团队 AI抢人大战烧到了实习生。 AIX财经（AIX..."
+   "published_at": "2026-09-12T20:00:45.000000+00:00",
+   "summary": "Without laws requiring transparency or a right of review, our human rights will be rationed away by algorithmic and automated decision-making tools As we hurtle towards a post-human future, the absence of a human rights..."
+  },
+  {
+   "rank": 11,
+   "title": "California Brown Pelican",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "California Brown Pelican"
+   ],
+   "published_at": "2026-09-12T21:16:09.000000+00:00",
+   "summary": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelica..."
+  },
+  {
+   "rank": 12,
+   "title": "China’s Data Regulator Plans Standards Push for Embodied AI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-13/china-s-data-regulator-plans-standards-push-for-embodied-ai",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "China’s Data Regulator Plans Standards Push for Embodied AI"
+   ],
+   "published_at": "2026-09-13T03:29:51.000000+00:00",
+   "summary": "China’s data regulator said it plans to develop standards for embodied artificial intelligence and guide local authorities in related work, as demand for high-quality, diverse and large-scale datasets continues to grow."
+  },
+  {
+   "rank": 13,
+   "title": "The anti-AI portfolio: fountain pens, Warhammer and film cameras",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/4ffff2a7-b2aa-42aa-a68b-037f9a3fd603?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "The anti-AI portfolio: fountain pens, Warhammer and film cameras"
+   ],
+   "published_at": "2026-09-13T04:00:03.000000+00:00",
+   "summary": "Journaling, sudoku, puzzle books and other non-digital pursuits are staging a comeback"
+  },
+  {
+   "rank": 14,
+   "title": "Live episode: how AI is reshaping our minds – podcast",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/science/audio/2026/sep/13/live-episode-how-ai-is-reshaping-our-minds-podcast",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Live episode: how AI is reshaping our minds – podcast"
+   ],
+   "published_at": "2026-09-13T04:00:53.000000+00:00",
+   "summary": "In this episode of Science Weekly, recorded in front of an audience at the London podcast festival on 3 September, Ian Sample hears from Michael Safi, the host of the Guardian’s chart-topping podcast about artificial int..."
+  },
+  {
+   "rank": 15,
+   "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/487653.html",
+   "score": 4.5,
+   "sources": [
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+    "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神"
+   ],
+   "published_at": "2026-09-12T04:53:58+00:00",
+   "summary": "25位菲尔兹奖得主联名吹哨"
   },
   {
    "rank": 16,
-   "title": "“Claude Code 之父”切尔尼谈 AI 编程：开发者核心职责是守住代码质量",
+   "title": "谷歌Meta被锤刷榜",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/001/633.htm",
-   "score": 7.55,
+   "url": "https://www.36kr.com/p/3980148869184514",
+   "score": 4.5,
    "sources": [
-    "ithome",
-    "hackernews-ai",
-    "reddit-ai-new"
+    "36kr-ai",
+    "baai-hub"
    ],
    "titles": [
-    "“Claude Code 之父”切尔尼谈 AI 编程：开发者核心职责是守住代码质量",
-    "Make Claude Code Faster and Cheaper with Ory Lumen",
-    "Claude Code micro-compact?",
-    "What's the thing about \"the thing\" in Claude Code Opus?!!",
-    "Developed this learning tool with Claude Code"
+    "谷歌Meta被锤刷榜",
+    "论文汇总丨Agent Harness新进展：阿里/Meta/谷歌等探索长程执行、自演化与评估"
    ],
-   "published_at": "2026-09-12T12:12:14+00:00",
-   "summary": "IT之家 9 月 12 日消息，据《商业内幕》报道，随着 AI 彻底改变软件开发，Anthropic Claude Code 创作者鲍里斯 · 切尔尼认为，开发者真正需要守住的不是亲手写下每一行代码，而是代码质量本身。 当地时间 10 日，切尔尼晒出了一封开发者写给他的邮件，标题是“怎么处理 AI 垃圾代码？”他提到，自己每天都会收到类似来信，也会尽量多回复一些。 AI 改变了编程工作的分工，工程师越来越多地从亲自写代码转向审查 AI..."
+   "published_at": "2026-09-12T08:17:57.000000+00:00",
+   "summary": "跑分这事儿，最近有点不太对劲。 9月8日，分析机构SemiAnalysis连甩五条推文，直接点名谷歌和Meta两家万亿巨头—— Gemini 3.8 Flash和Muse Spark 1.3是「刷榜痕迹最明显的两个模型」。 证据，非常清晰。 在测Agent干活能力的Terminal-Bench 2.1榜单上，Gemini 3.8 Flash考了89.4分，在182个模型里高居第2，把GPT-6 Astra都压在了身下。 结果换到8月29..."
   },
   {
    "rank": 17,
-   "title": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+   "title": "消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&utm_medium=article",
-   "score": 7.14,
+   "url": "https://www.ithome.com/1/001/705.htm",
+   "score": 3.5,
    "sources": [
-    "infoq-cn",
-    "hackernews-ai",
-    "reddit-ai-new"
+    "ithome"
    ],
    "titles": [
-    "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
-    "DeepSeek v4.1 flash runs 23 seconds/token on a 2020 16gb M1 Mac Mini",
-    "Antirez Deepseek 4.1 flash gguf on HF",
-    "DeepSeek V4.1 Flash at 41 tok/s on 8× A40 on TensorSharp",
-    "DeepSeek v4.1 Flash 2 bit with DwarfStar (ENG)",
-    "DeepSeek v4.1 Flash on DS4 (M3U 32/80c)",
-    "If anyone wants to try the DeepSeek v4.1 flash with ZDR…(free)"
+    "消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片"
    ],
-   "published_at": "2026-09-12T02:08:50+00:00",
-   "summary": "点击查看原文>"
+   "published_at": "2026-09-13T01:25:48+00:00",
+   "summary": "IT之家 9 月 13 日消息，X 平台消息人士 Evan Blass 今日发文，暗示三星 Galaxy Tab S12 系列平板将于 10 月 17 日发布。 IT之家了解到，三星本次推出的平板产品预计包含 Galaxy Tab S12+ 和 Galaxy Tab S12 Ultra 两个版本。 这两款产品或搭载联发科天玑 9500 芯片 ，采用 3nm 制程工艺、8 核心设计，主频最高可达 4.21GHz。 规格方面，Galaxy..."
   },
   {
    "rank": 18,
-   "title": "DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色",
+   "title": "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/001/498.htm",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/001/715.htm",
+   "score": 3.5,
    "sources": [
-    "ithome",
-    "36kr-newsflash"
+    "ithome"
    ],
    "titles": [
-    "DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色",
-    "DeepSeek灰度测试 AI 语音对话，支持四种音色"
+    "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置"
    ],
-   "published_at": "2026-09-12T00:17:46+00:00",
-   "summary": "IT之家 9 月 12 日消息，据IT之家小伙伴反馈， DeepSeek 灰度测试语音对话 ，测试到的用户在 App 右上角会有一个小喇叭按钮。 此外，DeepSeek 的设置页面会出现一个“ 朗读音色 ”选项，用户可以选择四种音色： 贝壳：百变活泼 白浪：明朗坚定 海星：俏皮甜美 暗潮：低沉浑厚"
+   "published_at": "2026-09-13T02:10:13+00:00",
+   "summary": "IT之家 9 月 13 日消息，曜越 (Thermaltake) 近日宣布推出 AI 工作站机箱 AX1000。这一系列采用左右双系统设计， 两侧均支持到 XL-ATX / SSI-EEB 主板 ，也都提供了 10 条扩展槽。 AX1000 系列机箱右侧统一为 MESH 面板，左侧则可选玻璃与 MESH。其前方左侧设有分别对应双系统的 I/O 面板，支持加装 3.9\" LCD 扩充屏幕。 这款机箱左侧系统为正常布局，右侧则是倒置结构。其..."
   },
   {
    "rank": 19,
-   "title": "陶哲轩、邓煜等菲尔兹奖得主“开炮”：AI正毁掉数学",
+   "title": "甘肃电力投资集团发布“紫金驭能”电力垂类大模型",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/593417.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/newsflashes/3981271108926209",
+   "score": 3.5,
    "sources": [
-    "zhidx",
-    "36kr-ai"
+    "36kr-newsflash"
    ],
    "titles": [
-    "陶哲轩、邓煜等菲尔兹奖得主“开炮”：AI正毁掉数学",
-    "陶哲轩、邓煜等菲尔兹奖得主“开炮”：AI正毁掉数学"
+    "甘肃电力投资集团发布“紫金驭能”电力垂类大模型"
    ],
-   "published_at": "2026-09-12T01:05:20+00:00",
-   "summary": "智东西 编译｜毕伟豪 编辑｜李水青 数学界与AI大厂积攒已久的矛盾，在一周之内被彻底摆上台面。 智东西9月12日消息，刚刚，陶哲轩发文称，25位菲尔兹奖得主联合签署公开信，抨击AI公司将“解决著名数学难题”当作衡量模型能力的基准，是“对数学这门科学和数学共同体的伤害”，矛头直指OpenAI。 这场风波的导火索，是本月初OpenAI的一次高调发布。9月8日，OpenAI宣布其内部模型通过约1万个Agent并发，仅用88小时就解决了纳维-斯..."
+   "published_at": "2026-09-13T04:08:59.000000+00:00",
+   "summary": "甘肃电力投资集团在2026算力中国展览会首发首秀活动中，发布“紫金驭能”电力垂类大模型，系甘肃省属国企首款电力行业专用大模型。（财联社）"
   },
   {
    "rank": 20,
-   "title": "具身新贵，3个月成为独角兽",
+   "title": "情感智能珠宝硬件公司完成天使轮融资，荣耀AI Connect生态企业等押注｜硬氪首发",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4890616.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/p/3977590035119112",
+   "score": 3.0,
    "sources": [
-    "huxiu",
     "36kr-ai"
    ],
    "titles": [
-    "具身新贵，3个月成为独角兽",
-    "具身新贵，3个月成为独角兽"
+    "情感智能珠宝硬件公司完成天使轮融资，荣耀AI Connect生态企业等押注｜硬氪首发"
    ],
-   "published_at": "2026-09-12T01:56:34.000000+00:00",
-   "summary": "明星机构押下重注。就在国内一级市场对具身智能的投资逐渐收紧之时，海外一家做机器人数据训练的公司，三个月融两轮，已经跻身百亿独角兽行列。不久前，机器人数据公司XDOF传出新一轮融资消息，估值约12亿美元，折合人民币超过百亿元。距离公司今年6月宣布完成7000万美元A轮融资，仅仅过去约三个月。XDOF成立于202...... 本文来自微信公众号： 东四十条资本 ，作者：韦香惠 明星机构押下重注。 就在国内一级市场对具身智能的投资逐渐收紧之时..."
+   "published_at": "2026-09-12T02:30:00.000000+00:00",
+   "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，情感智能珠宝硬件企业SHAKESPEARE莎士比亚近日完成数千万元天使轮融资，由荣耀AI Connect生态企业极选智能、国内头部珠宝DP服务商瑞钰控股共同出资。势能资本长期担任公司独家财务顾问。融资资金将主要用于核心算法迭代、多模态情感交互模型开发、新品类的珠宝工艺研发及全球化渠道拓展。 莎士比亚2025年成立于杭州，公司定位“情感智能珠宝”品牌，致力于将传统珠宝工艺与智能穿戴技术深度融合，为提供具..."
   }
  ]
 }
