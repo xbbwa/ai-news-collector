@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-14T19:31:51.558894+00:00",
+ "generated_at": "2026-09-14T22:41:10.304644+00:00",
  "stats": {
-  "items": 1545,
-  "clusters": 1283,
-  "noise": 505,
-  "dup": 56,
+  "items": 1556,
+  "clusters": 1281,
+  "noise": 490,
+  "dup": 57,
   "history_days": 0,
   "available_cn": 133,
-  "available_intl": 589,
+  "available_intl": 601,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -126,21 +126,21 @@
   },
   {
    "rank": 7,
-   "title": "MOST probably i am wrong but assuming AI will revolutionise whole job market or replace 80 percent of jobs ( as mentioned by my stupi proff ) is senseless",
+   "title": "AI CEOs say they need to slow the pace of development. But will they?",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/OpenAI/comments/1wfhvb2/most_probably_i_am_wrong_but_assuming_ai_will/",
-   "score": 4.13,
+   "url": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
+   "score": 4.5,
    "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
+    "guardian-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "MOST probably i am wrong but assuming AI will revolutionise whole job market or replace 80 percent of jobs ( as mentioned by my stupi proff ) is senseless",
-    "The AI job market in 2026"
+    "AI CEOs say they need to slow the pace of development. But will they?",
+    "Three frontier AI CEOs agreed to slow down. Someone made them dance about it. 😂"
    ],
-   "published_at": "2026-09-13T19:54:42.000000+00:00",
-   "summary": "i am telling early that i am not any PHD or related to tech . i am related to finance and have bachlors in business management . am writing this whole on the basis of my understanging of AI . plz read full before comment..."
+   "published_at": "2026-09-14T05:00:26.000000+00:00",
+   "summary": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated war..."
   },
   {
    "rank": 8,
@@ -287,7 +287,8 @@
    ],
    "titles": [
     "苹果 iOS 27 正式版前瞻：升级 Siri AI、优化液态玻璃设计、隔空投送提速 80%",
-    "With iOS 27, I’m actually using Siri again"
+    "With iOS 27, I’m actually using Siri again",
+    "苹果 iOS / iPadOS 27.0 正式版发布"
    ],
    "published_at": "2026-09-14T01:29:40+00:00",
    "summary": "IT之家 9 月 14 日消息，苹果公司官网显示， 将于北京时间 9 月 15 日周二凌晨 1 点推送 iOS 27、iPadOS 27、macOS 27 和 watchOS 27 等正式版 ， 用户届时可在“设置”应用中的“通用” → “软件更新”下查看。 IT之家援引科技媒体 MacRumors 报道，汇总梳理下 iOS 27 将会带来的 8 项主要改进： 一、Siri AI 本次更新的核心是“智能 Siri”（Siri AI），类..."

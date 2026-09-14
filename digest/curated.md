@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-15 03:31 CST
-数据窗口：最近 24 小时，1545 条原始条目 → 1283 个事件；过滤噪音 505 个，排除全部历史已推送的 56 个。
+生成时间：2026-09-15 06:41 CST
+数据窗口：最近 24 小时，1556 条原始条目 → 1281 个事件；过滤噪音 490 个，排除全部历史已推送的 57 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -51,12 +51,12 @@
 - 链接：https://www.theguardian.com/world/2026/sep/14/china-dismisses-ai-fearmongering-as-spy-chief-warns-of-threat-to-communist-party-rule
 - 同事件报道：China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule (Gift Article)（Reddit AI subreddits (new)）
 
-## 7. MOST probably i am wrong but assuming AI will revolutionise whole job market or replace 80 percent of jobs ( as mentioned by my stupi proff ) is senseless
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.13
-- 摘要：i am telling early that i am not any PHD or related to tech . i am related to finance and have bachlors in business management . am writing this whole on the basis of my understanging of AI . plz read full before comment...
-- 发布时间：2026-09-14 03:54 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1wfhvb2/most_probably_i_am_wrong_but_assuming_ai_will/
-- 同事件报道：The AI job market in 2026（Hacker News (AI stories)）
+## 7. AI CEOs say they need to slow the pace of development. But will they?
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
+- 摘要：After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated war...
+- 发布时间：2026-09-14 13:00 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown
+- 同事件报道：Three frontier AI CEOs agreed to slow down. Someone made them dance about it. 😂（Reddit AI subreddits (new)）
 
 ## 8. AI Robots – When will they be in our homes
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.68
@@ -116,6 +116,7 @@
 - 发布时间：2026-09-14 09:29 CST
 - 链接：https://www.ithome.com/1/001/921.htm
 - 同事件报道：With iOS 27, I’m actually using Siri again（TechCrunch — AI）
+- 同事件报道：苹果 iOS / iPadOS 27.0 正式版发布（IT之家）
 
 ## 3. 豆包手机助手消费者版发布：GUI 合作协议同步推出，三方 App 可允许 / 拒绝 AI 自动化操作
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、开源中国（2 个来源） ｜ 热度：6.5
