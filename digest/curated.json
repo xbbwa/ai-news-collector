@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-14T01:18:38.555161+00:00",
+ "generated_at": "2026-09-14T06:33:50.175918+00:00",
  "stats": {
-  "items": 726,
-  "clusters": 593,
-  "noise": 456,
-  "dup": 37,
+  "items": 1343,
+  "clusters": 1160,
+  "noise": 460,
+  "dup": 69,
   "history_days": 0,
-  "available_cn": 72,
-  "available_intl": 28,
+  "available_cn": 106,
+  "available_intl": 525,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,96 @@
  "items": [
   {
    "rank": 1,
+   "title": "GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.12191",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents",
+    "Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation"
+   ],
+   "published_at": "2026-09-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.12191v1 Announce Type: new Abstract: Comparing and selecting task-oriented LLM agents increasingly relies on a low-cost offline evaluation gate: persona-driven LLM user-simulators converse with each candidate,..."
+  },
+  {
+   "rank": 2,
+   "title": "EAR: Entity-Aware Partitioning Approach for Retrieval-Augmented Generation Development",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.12268",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "EAR: Entity-Aware Partitioning Approach for Retrieval-Augmented Generation Development",
+    "Retrieval-Augmented Generation for Scientific Code Understanding"
+   ],
+   "published_at": "2026-09-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.12268v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) can improve knowledge-intensive question answering, but the first design choice is easy to overlook: how should the source corpus be pa..."
+  },
+  {
+   "rank": 3,
+   "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.13058",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-cv"
+   ],
+   "titles": [
+    "Expert-Space Exploration in MoE Reinforcement Learning",
+    "PAVXploreRL: Physical-Action-Visual World Model Reinforcement Learning with Action Exploration"
+   ],
+   "published_at": "2026-09-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.13058v1 Announce Type: new Abstract: Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mixture-of-Experts (MoE) models have primarily focused o..."
+  },
+  {
+   "rank": 4,
+   "title": "ExpertHTR: Unified Handwritten Text Recognition with Multi-Task Learning and Sparse Mixture-of-Experts",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.12705",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "ExpertHTR: Unified Handwritten Text Recognition with Multi-Task Learning and Sparse Mixture-of-Experts",
+    "SIMS: Scale-Invariant Merit-Function-Based Scalarization for Multi-Task Learning"
+   ],
+   "published_at": "2026-09-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.12705v1 Announce Type: new Abstract: Handwritten text recognition resources are often small and distributed across collections that differ in language, script, document structure, and annotation format, making..."
+  },
+  {
+   "rank": 5,
+   "title": "What Anthropic CEO Dario Amodei Argued in His Call for AI Slowdown",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.nytimes.com/2026/09/13/technology/anthropic-ceo-slower-ai-development.html",
+   "score": 5.5,
+   "sources": [
+    "nyt-tech",
+    "cnbc-tech"
+   ],
+   "titles": [
+    "What Anthropic CEO Dario Amodei Argued in His Call for AI Slowdown",
+    "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown"
+   ],
+   "published_at": "2026-09-13T15:58:51.000000+00:00",
+   "summary": "Dario Amodei, the chief executive of Anthropic, at a summit this year. His letter also called for cooperation from A.I. companies from other democratic countries."
+  },
+  {
+   "rank": 6,
    "title": "perplexity-ai/pplx-pii-masking-MLX",
    "lang": "en",
    "region": "intl",
@@ -31,183 +121,39 @@
    "summary": "token-classification, mlx, pii, privacy, qwen3, apple-silicon, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:finetune:perplexity-ai/pplx-pii-masking, license:mit, region:us"
   },
   {
-   "rank": 2,
-   "title": "Everyone should slow down AI development except for me",
+   "rank": 7,
+   "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
    "lang": "en",
    "region": "intl",
-   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-   "score": 3.0,
+   "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+   "score": 3.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn"
+   ],
+   "published_at": "2026-09-14T06:00:26.000000+00:00",
+   "summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campa..."
+  },
+  {
+   "rank": 8,
+   "title": "The case against JPEG XL",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+   "score": 2.55,
    "sources": [
     "hackernews-ai"
    ],
    "titles": [
-    "Everyone should slow down AI development except for me"
+    "The case against JPEG XL"
    ],
-   "published_at": "2026-09-13T00:30:44.000000+00:00",
-   "summary": "Making sure you're not a bot! Loading... Please wait a moment while we ensure the security of your connection."
-  },
-  {
-   "rank": 3,
-   "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options"
-   ],
-   "published_at": "2026-09-13T13:40:36.000000+00:00",
-   "summary": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on..."
-  },
-  {
-   "rank": 4,
-   "title": "Investors See AI Slowdown as a Temporary Step",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-13/investors-see-ai-slowdown-as-a-temporary-step-video",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Investors See AI Slowdown as a Temporary Step"
-   ],
-   "published_at": "2026-09-13T13:41:01.000000+00:00",
-   "summary": "Calls to slow AI development may create near-term uncertainty for markets, but BMO Capital Markets’ Jennifer Lee is on Bloomberg This Weekend and says the technology’s infrastructure, investment and demand are unlikely t..."
-  },
-  {
-   "rank": 5,
-   "title": "The wages of American workers are under pressure. AI's potential role is drawing more attention",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html",
-   "score": 2.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "The wages of American workers are under pressure. AI's potential role is drawing more attention"
-   ],
-   "published_at": "2026-09-13T13:52:58.000000+00:00",
-   "summary": "Wage growth for workers has slowed and is struggling to keep up with inflation, drawing attention to AI's potential role even as evidence remains incomplete."
-  },
-  {
-   "rank": 6,
-   "title": "Johnson calls for AI solutions but says Congress won't take the lead",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.axios.com/2026/09/13/ai-safety-congress-law-mike-johnson",
-   "score": 2.5,
-   "sources": [
-    "axios"
-   ],
-   "titles": [
-    "Johnson calls for AI solutions but says Congress won't take the lead"
-   ],
-   "published_at": "2026-09-13T13:59:48.000000+00:00",
-   "summary": "House Speaker Mike Johnson (R-La.) said Sunday that Congress won't lead the charge on regulating AI safety . Why it matters: Calls for AI companies to adopt safety protocols reached a fever pitch this week, prompting the..."
-  },
-  {
-   "rank": 7,
-   "title": "Trump Downplays AI Concerns as CEOs Call for Slowing Technology",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-downplays-ai-concerns-as-ceos-call-for-slowing-technology",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Trump Downplays AI Concerns as CEOs Call for Slowing Technology"
-   ],
-   "published_at": "2026-09-13T13:59:48.000000+00:00",
-   "summary": "President Donald Trump downplayed the growing alarm over risks from artificial intelligence after some of the industry’s leaders called for slowing the development pace of the technology."
-  },
-  {
-   "rank": 8,
-   "title": "Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-13/jeffries-says-democrats-to-meet-tuesday-on-ai-action-abc-news",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News"
-   ],
-   "published_at": "2026-09-13T14:27:31.000000+00:00",
-   "summary": "House Democratic Leader Hakeem Jeffries says Democrats plan a caucus on Tuesday morning on action on artificial intelligence, according to a transcript of his interview with ABC’s This Week."
+   "published_at": "2026-09-14T01:02:37.000000+00:00",
+   "summary": "Investigating JPEG XL's place as a Web image codec."
   },
   {
    "rank": 9,
-   "title": "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough"
-   ],
-   "published_at": "2026-09-13T15:00:09.000000+00:00",
-   "summary": "This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructure The modern mind is a column where experts discuss mental health issues they are seeing in their work Michael* is an eng..."
-  },
-  {
-   "rank": 10,
-   "title": "‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown"
-   ],
-   "published_at": "2026-09-13T16:54:58.000000+00:00",
-   "summary": "From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative response OpenAI boss and Elon Musk back slowdown on ‘reckless’ AI development Editorial: controllin..."
-  },
-  {
-   "rank": 11,
-   "title": "Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://venturebeat.com/orchestration/long-running-ai-agents-quietly-drop-compliance-rules-and-bigger-context-windows-wont-fix-it",
-   "score": 2.5,
-   "sources": [
-    "venturebeat"
-   ],
-   "titles": [
-    "Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it"
-   ],
-   "published_at": "2026-09-13T18:00:00+00:00",
-   "summary": "Imagine deploying an AI agent to run a multi-day master data validation workflow. By day three, it has ingested thousands of records. The baseline governance rules you hardcoded into the system prompt at the start? They..."
-  },
-  {
-   "rank": 12,
-   "title": "Long Live the Short King: Why 4-hi HBM Wins",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
-   "score": 2.5,
-   "sources": [
-    "semianalysis"
-   ],
-   "titles": [
-    "Long Live the Short King: Why 4-hi HBM Wins"
-   ],
-   "published_at": "2026-09-13T18:19:39.000000+00:00",
-   "summary": "High Bandwidth Memory has been a key technology enabling the AI revolution. Despite HBM’s high costs relative to other forms of memory, chip designers have packaged more and more HBM into AI accelerators. Customers push..."
-  },
-  {
-   "rank": 13,
    "title": "US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests",
    "lang": "en",
    "region": "intl",
@@ -223,7 +169,7 @@
    "summary": "Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communities Schools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social..."
   },
   {
-   "rank": 14,
+   "rank": 10,
    "title": "What’s behind the AI industry’s latest warnings of doom?",
    "lang": "en",
    "region": "intl",
@@ -239,17 +185,83 @@
    "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity."
   },
   {
+   "rank": 11,
+   "title": "Trump and Mike Johnson think the AI industry is overreacting",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+   "score": 2.5,
+   "sources": [
+    "theverge-ai"
+   ],
+   "titles": [
+    "Trump and Mike Johnson think the AI industry is overreacting"
+   ],
+   "published_at": "2026-09-13T19:41:48.000000+00:00",
+   "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support..."
+  },
+  {
+   "rank": 12,
+   "title": "Why AI shouldn't be the one repairing your data pipelines",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://venturebeat.com/security/why-ai-shouldnt-be-the-one-repairing-your-data-pipelines",
+   "score": 2.5,
+   "sources": [
+    "venturebeat"
+   ],
+   "titles": [
+    "Why AI shouldn't be the one repairing your data pipelines"
+   ],
+   "published_at": "2026-09-13T22:00:00+00:00",
+   "summary": "When a microservice fails in a cloud-native architecture, circuit breakers trigger, traffic reroutes, and Kubernetes spins up replacement pods within seconds. The system heals before end users even notice a blip. Read mo..."
+  },
+  {
+   "rank": 13,
+   "title": "shot-scraper 1.12",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "shot-scraper 1.12"
+   ],
+   "published_at": "2026-09-13T23:58:14.000000+00:00",
+   "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --qu..."
+  },
+  {
+   "rank": 14,
+   "title": "commit-rewriter 0.1",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "commit-rewriter 0.1"
+   ],
+   "published_at": "2026-09-14T00:28:10.000000+00:00",
+   "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue ID..."
+  },
+  {
    "rank": 15,
    "title": "仅仅半年，6亿人“中毒”AI短剧",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.huxiu.com/article/4890844.html",
-   "score": 6.0,
+   "score": 9.0,
    "sources": [
     "huxiu",
-    "36kr-ai"
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
+    "仅仅半年，6亿人“中毒”AI短剧",
     "仅仅半年，6亿人“中毒”AI短剧",
     "仅仅半年，6亿人“中毒”AI短剧"
    ],
@@ -258,57 +270,57 @@
   },
   {
    "rank": 16,
-   "title": "突发，A社创始人呼吁AI圈踩刹车，奥特曼马斯克罕见力挺",
+   "title": "豆包手机助手消费者版发布：GUI 合作协议同步推出，三方 App 可允许 / 拒绝 AI 自动化操作",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3981130388929280",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/001/971.htm",
+   "score": 7.0,
    "sources": [
-    "36kr-ai",
-    "huxiu"
+    "ithome",
+    "oschina"
    ],
    "titles": [
-    "突发，A社创始人呼吁AI圈踩刹车，奥特曼马斯克罕见力挺",
-    "阿尔特曼、马斯克，同时给AI踩刹车"
+    "豆包手机助手消费者版发布：GUI 合作协议同步推出，三方 App 可允许 / 拒绝 AI 自动化操作",
+    "“豆包手机助手”消费者版本正式发布"
    ],
-   "published_at": "2026-09-13T01:00:39.000000+00:00",
-   "summary": "本周，Anthropic 研究员 Jacob Coxon 离职，警告 AI 可能会在会在 10 年内灭绝人类，引起了巨大争议。 今天凌晨，Anthropic CEO Dario Amodei突然发布了一篇标题为「我们必须为前沿 AI 限速」的文章，再一次呼吁暂停前沿 AI 研究的脚步，他给出了一套围绕「可核验性」展开的制度设计 在这篇文章发布后，一向和 Amodei 不太对付的 OpenAI CEO 奥特曼，也罕见转发支持，连马斯克也认..."
+   "published_at": "2026-09-14T02:54:39+00:00",
+   "summary": "IT之家 9 月 14 日消息，豆包手机助手消费者版本今日正式发布。本次消费者版相比预览版更强调稳定性、日常可用性，并主打交互体验。 IT之家从官方新闻稿了解到，豆包手机助手支持语音、AI 键等多种唤醒方式，适配不同场景。其中专属 AI 键带有指纹鉴权能力，完成本人验证后无需二次解锁，即可调用助手执行相关任务。语音唤醒方面，豆包手机助手也针对远场、内噪和嘈杂环境等场景进行了优化。 本次豆包手机助手还新增了屏幕问答能力，用户无需额外截图或..."
   },
   {
    "rank": 17,
-   "title": "AI基建让建筑产业链再度“复生”？",
+   "title": "AI制药的基建大赛开始了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8138103.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/p/3981789068065544",
+   "score": 6.0,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
-    "AI基建让建筑产业链再度“复生”？",
-    "AI基建让建筑产业链再度“复生”？"
+    "AI制药的基建大赛开始了",
+    "AI制药的基建大赛开始了"
    ],
-   "published_at": "2026-09-13T01:50:17+00:00",
-   "summary": "文 | 硅碳变量，作者 | 胡一刀 9月份，黄仁勋公开敦促各国加快AI应用，扩大数据中心等基础设施建设。据悉，一直大力支持AI时代到来的黄仁勋在2026年将AI比作水、电之类的基础设施，未来全世界范围内，AI似乎将成为现代生活“刚需”。 有意思的是，差不多同一时期，中国建筑发布上半年财报。 数据中心及算力中心新签合同额873亿元，同比上升328.3%。 一前一后，在相互呼应的同时，也再度引出一个关注点：沉寂许久的建筑赛道是否会被工业地产..."
+   "published_at": "2026-09-14T00:24:48.000000+00:00",
+   "summary": "当AI把药物设计推向“分钟级”，同样稀缺的是验证它的实验室。 这股趋势正在全球同步发生。大洋彼岸的Chai Discovery成立不到两年半、估值冲到38亿美元，其CEO有个反直觉判断——AI不会让湿实验变少，反而可能变多，正如程序员效率提升后需求反而上涨。 瑞士初创Adaptyv Bio为Anthropic的Claude完成1320条蛋白序列的湿实验验证，过去一年收入增长近10倍、刚完成4000万美元A轮。这更是向外界宣告着，模型越聪..."
   },
   {
    "rank": 18,
-   "title": "大众拥有的第一个机器人，可能是只“鸭子”",
+   "title": "拟招1000人团队，半年触达超1亿人，印度最大短剧公司押注AI内容",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8138116.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/p/3982592420681348",
+   "score": 6.0,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "36kr-ai",
+    "36kr-newsflash"
    ],
    "titles": [
-    "大众拥有的第一个机器人，可能是只“鸭子”",
-    "大众拥有的第一个机器人，可能是只“鸭子”"
+    "拟招1000人团队，半年触达超1亿人，印度最大短剧公司押注AI内容",
+    "科大讯飞在佛山成立新科技公司，注册资本1000万"
    ],
-   "published_at": "2026-09-13T02:15:00+00:00",
-   "summary": "文 |硅碳变量，作者 | 沈浪 最近，机器人赛道似乎跌宕起伏。 备受瞩目的宇树，上市首日股价最高涨逾6倍，总市值一度突破4400亿元；此后却连续5个交易日下跌，股价近乎腰斩，市值蒸发超过2000亿元。这一波“过山车”行情，引发了各种议论，外界对人形机器人的落地及商业化前景再次提出质疑。 而就在机器人产业迎来一盆“冷水”的时候，一只体型迷你、造型呆萌的“小鸭子”在大洋彼岸爆火，再次点燃了具身智能赛道。 它叫 Microduck，售价 39..."
+   "published_at": "2026-09-14T02:52:41.000000+00:00",
+   "summary": "近日，外媒报道称印度最大微短剧平台Kuku TV所属公司Kuku Technologies正扩大其AI原生制作部门的规模，计划在本财年结束前招聘 1000人 ，旨在以远低于传统成本的费用加快内容制作速度。 （注：印度财年周期为每年4月1日至次年3月31日） 一、押注AI，计划6个月触达超1亿人 招聘情况方面， 报道指出，Kuku Technologies位于孟买的团队已招募近200人，汇集创意、技术及AI领域的精英人才，内容制作成本、时..."
   },
   {
    "rank": 19,
@@ -330,21 +342,21 @@
   },
   {
    "rank": 20,
-   "title": "突发，Dario提全球AI限速三步计划，奥特曼马斯克第一时间支持",
+   "title": "用了AI，大厂牛马更累更卷了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3981056866597638",
-   "score": 5.0,
+   "url": "https://www.huxiu.com/article/4890812.html",
+   "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "baai-hub"
+    "huxiu",
+    "tmtpost"
    ],
    "titles": [
-    "突发，Dario提全球AI限速三步计划，奥特曼马斯克第一时间支持",
-    "突发，Dario提全球AI限速三步计划！奥特曼马斯克第一时间支持"
+    "用了AI，大厂牛马更累更卷了",
+    "用了AI，大厂牛马更累更卷了"
    ],
-   "published_at": "2026-09-14T00:24:36.000000+00:00",
-   "summary": "13日，Anthropic CEO Dario Amodei发布了一篇罕见长文—— We Must Pace the Frontier（我们必须控制前沿AI的发展节奏） 这一次，他直接把矛头对准了前沿模型的研发速度，核心观点就一句话： 最顶尖的AI，真得主动踩刹车了。 这篇长文中，Dario亲口承认，「递归自我改进（RSI）已经在全行业出现了」。 更让人后背发凉的是，他预测未来6—12个月，AI Agent集群可能会接管整个互联网。 面..."
+   "published_at": "2026-09-13T12:37:38.000000+00:00",
+   "summary": "“都说AI让我们效率更高了，为什么我们反而更累了?”“我每天教AI怎么工作，是在亲手训练自己的替代者吗？”外滩大会这两个扎心的AI追问，戳中了不少大厂牛马。以前卷加班卷KPI，现在要卷Token的投产比；有人每月消耗公司数千元的 Token 额度，一天烧掉上百万...... 作者：桃晏昭，编辑：陈纪英，题图来自：AI生成 “都说AI让我们效率更高了，为什么我们反而更累了?” “我每天教AI怎么工作，是在亲手训练自己的替代者吗？” 外滩大..."
   }
  ]
 }
