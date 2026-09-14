@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-13T23:17:32.553445+00:00",
+ "generated_at": "2026-09-14T01:18:38.555161+00:00",
  "stats": {
-  "items": 699,
-  "clusters": 578,
-  "noise": 454,
-  "dup": 17,
+  "items": 726,
+  "clusters": 593,
+  "noise": 456,
+  "dup": 37,
   "history_days": 0,
-  "available_cn": 67,
-  "available_intl": 40,
+  "available_cn": 72,
+  "available_intl": 28,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,99 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Donald Trump rejects calls from tech bosses for an AI slowdown",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed?syn-25a6b1a6=1",
-   "score": 7.57,
-   "sources": [
-    "ft-tech",
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Donald Trump rejects calls from tech bosses for an AI slowdown",
-    "FirstFT: Donald Trump rejects calls from tech leaders for an AI slowdown",
-    "Trump rejects Silicon Valley’s calls for AI slowdown",
-    "Donald Trump rejects calls from tech bosses for AI slowdown"
-   ],
-   "published_at": "2026-09-13T15:42:41.000000+00:00",
-   "summary": "President denounces demands for regulation as existential fears over technology move to the centre of US politics"
-  },
-  {
-   "rank": 2,
-   "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety",
-   "score": 6.0,
-   "sources": [
-    "guardian-ai",
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Obama reportedly urges Democrats to prioritize safety plan for AI",
-    "Obama urges Democrats to have a ‘clear plan’ for AI safeguards"
-   ],
-   "published_at": "2026-09-13T15:47:37.000000+00:00",
-   "summary": "Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job losses Barack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in..."
-  },
-  {
-   "rank": 3,
-   "title": "What are the top AI Models that are still relevant today from 2024 and 2025?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf69ug/what_are_the_top_ai_models_that_are_still/",
-   "score": 5.77,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "What are the top AI Models that are still relevant today from 2024 and 2025?",
-    "Astra and Fable still hack on simple variants of alignment evals from 2025"
-   ],
-   "published_at": "2026-09-13T12:23:42.000000+00:00",
-   "summary": "We are in 2026 and it has been a crazy year. The evolution of the technology has been staggering to say the least. Pretty much we are on the MoE period and dense models are almost in the way of the dodo except for a few...."
-  },
-  {
-   "rank": 4,
-   "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/",
-   "score": 5.14,
-   "sources": [
-    "marktechpost",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
-    "Recurrent Looped Transformer"
-   ],
-   "published_at": "2026-09-13T17:02:26+00:00",
-   "summary": "In most decoder-only LLMs, nothing computed at the last layer of token t feeds the first layer of token t+1; positions communicate only through attention over cached keys and values. A Princeton researcher’s ( Yifan Zhan..."
-  },
-  {
-   "rank": 5,
-   "title": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
-   "score": 5.0,
-   "sources": [
-    "cnbc-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Washington scrambles to meet calls for AI guardrails while the window to act closes",
-    "Washington scrambles to meet calls for AI guardrails while the window to act closes"
-   ],
-   "published_at": "2026-09-13T16:56:17.000000+00:00",
-   "summary": "The House is scheduled to be sent home in the coming days until after November's midterm elections, leaving a narrow window to pass any form of AI regulation."
-  },
-  {
-   "rank": 6,
    "title": "perplexity-ai/pplx-pii-masking-MLX",
    "lang": "en",
    "region": "intl",
@@ -124,121 +31,23 @@
    "summary": "token-classification, mlx, pii, privacy, qwen3, apple-silicon, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:finetune:perplexity-ai/pplx-pii-masking, license:mit, region:us"
   },
   {
-   "rank": 7,
-   "title": "Why are so many people, including AI researchers and CEOs, so terrified that AI will kill us all?",
+   "rank": 2,
+   "title": "Everyone should slow down AI development except for me",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/singularity/comments/1wf3v8p/why_are_so_many_people_including_ai_researchers/",
-   "score": 3.63,
+   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+   "score": 3.0,
    "sources": [
-    "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "Why are so many people, including AI researchers and CEOs, so terrified that AI will kill us all?",
-    "AI models don't kill people – people kill people"
+    "Everyone should slow down AI development except for me"
    ],
-   "published_at": "2026-09-13T10:17:20.000000+00:00",
-   "summary": "I don't really understand this. AI does what you tell it. When it goes off and does stupid things like wiping out a hard drive, it's because you didn't tell it not to and limit it enough. Can they not just tell AI plainl..."
+   "published_at": "2026-09-13T00:30:44.000000+00:00",
+   "summary": "Making sure you're not a bot! Loading... Please wait a moment while we ensure the security of your connection."
   },
   {
-   "rank": 8,
-   "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
-   "score": 3.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Iris-mini and Iris-pro are the strongest open-weight search agents in their class"
-   ],
-   "published_at": "2026-09-13T12:58:18.000000+00:00",
-   "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and..."
-  },
-  {
-   "rank": 9,
-   "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/13/aws-introduces-pizza-bot-an-open-source-inbox-for-background-ai-agents/",
-   "score": 3.0,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents"
-   ],
-   "published_at": "2026-09-13T08:10:51+00:00",
-   "summary": "AWS introduced Pizza Bot , as a self-hosted application for AI tasks that continue while users work elsewhere. It organizes completed results and pending decisions into an email-style inbox. Earlier versions served more..."
-  },
-  {
-   "rank": 10,
-   "title": "AI Industry Faces Pressure to Slow the Race",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-13/ai-industry-faces-pressure-to-slow-the-race-video",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "AI Industry Faces Pressure to Slow the Race"
-   ],
-   "published_at": "2026-09-13T12:05:01.000000+00:00",
-   "summary": "The AI industry is confronting a growing tension between racing to build more powerful systems and concerns that those systems could become harder to understand and control. Joining David Gura and Christina Ruffini on Bl..."
-  },
-  {
-   "rank": 11,
-   "title": "AI's most powerful CEOs hit the brakes",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.axios.com/2026/09/13/ai-labs-regulation-safety",
-   "score": 2.5,
-   "sources": [
-    "axios"
-   ],
-   "titles": [
-    "AI's most powerful CEOs hit the brakes"
-   ],
-   "published_at": "2026-09-13T12:56:34.000000+00:00",
-   "summary": "In nine startling hours on Saturday, the four biggest AI labs — which rarely agree on anything — set aside years of feuds and competition to endorse a slower development pace for their models. Their new stance: Prioritiz..."
-  },
-  {
-   "rank": 12,
-   "title": "Johnson Calls for Meeting With AI Leaders Before Any Legislation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-13/johnson-calls-for-meeting-with-ai-leaders-before-any-legislation",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Johnson Calls for Meeting With AI Leaders Before Any Legislation"
-   ],
-   "published_at": "2026-09-13T12:57:04.000000+00:00",
-   "summary": "House Speaker Mike Johnson says any federal legislation on artificial intelligence shouldn’t be rushed and “we need to summon” AI industry leaders to “one big meeting” first."
-  },
-  {
-   "rank": 13,
-   "title": "Rogue AI Breakouts Raise Pressure for New Rules",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-13/rogue-ai-breakouts-raise-pressure-for-new-rules",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Rogue AI Breakouts Raise Pressure for New Rules"
-   ],
-   "published_at": "2026-09-13T13:13:46.000000+00:00",
-   "summary": "Rapid advances in AI and incidents involving autonomous AI agents are intensifying concerns that safeguards and government oversight are failing to keep pace with the technology. Bloomberg Opinion Columnist Gautam Mukund..."
-  },
-  {
-   "rank": 14,
+   "rank": 3,
    "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
    "lang": "en",
    "region": "intl",
@@ -254,108 +63,288 @@
    "summary": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on..."
   },
   {
+   "rank": 4,
+   "title": "Investors See AI Slowdown as a Temporary Step",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-13/investors-see-ai-slowdown-as-a-temporary-step-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Investors See AI Slowdown as a Temporary Step"
+   ],
+   "published_at": "2026-09-13T13:41:01.000000+00:00",
+   "summary": "Calls to slow AI development may create near-term uncertainty for markets, but BMO Capital Markets’ Jennifer Lee is on Bloomberg This Weekend and says the technology’s infrastructure, investment and demand are unlikely t..."
+  },
+  {
+   "rank": 5,
+   "title": "The wages of American workers are under pressure. AI's potential role is drawing more attention",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/09/13/ai-jobs-pay-inflation.html",
+   "score": 2.5,
+   "sources": [
+    "cnbc-tech"
+   ],
+   "titles": [
+    "The wages of American workers are under pressure. AI's potential role is drawing more attention"
+   ],
+   "published_at": "2026-09-13T13:52:58.000000+00:00",
+   "summary": "Wage growth for workers has slowed and is struggling to keep up with inflation, drawing attention to AI's potential role even as evidence remains incomplete."
+  },
+  {
+   "rank": 6,
+   "title": "Johnson calls for AI solutions but says Congress won't take the lead",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.axios.com/2026/09/13/ai-safety-congress-law-mike-johnson",
+   "score": 2.5,
+   "sources": [
+    "axios"
+   ],
+   "titles": [
+    "Johnson calls for AI solutions but says Congress won't take the lead"
+   ],
+   "published_at": "2026-09-13T13:59:48.000000+00:00",
+   "summary": "House Speaker Mike Johnson (R-La.) said Sunday that Congress won't lead the charge on regulating AI safety . Why it matters: Calls for AI companies to adopt safety protocols reached a fever pitch this week, prompting the..."
+  },
+  {
+   "rank": 7,
+   "title": "Trump Downplays AI Concerns as CEOs Call for Slowing Technology",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-downplays-ai-concerns-as-ceos-call-for-slowing-technology",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Trump Downplays AI Concerns as CEOs Call for Slowing Technology"
+   ],
+   "published_at": "2026-09-13T13:59:48.000000+00:00",
+   "summary": "President Donald Trump downplayed the growing alarm over risks from artificial intelligence after some of the industry’s leaders called for slowing the development pace of the technology."
+  },
+  {
+   "rank": 8,
+   "title": "Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-13/jeffries-says-democrats-to-meet-tuesday-on-ai-action-abc-news",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News"
+   ],
+   "published_at": "2026-09-13T14:27:31.000000+00:00",
+   "summary": "House Democratic Leader Hakeem Jeffries says Democrats plan a caucus on Tuesday morning on action on artificial intelligence, according to a transcript of his interview with ABC’s This Week."
+  },
+  {
+   "rank": 9,
+   "title": "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/14/how-to-have-healthier-relationship-with-ai-chatbots-human-intimacy",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Chatbots can exploit our most basic human drive for attachment. Here’s how to have healthier relationship with AI | Gaynor Parkin and Dave Winsborough"
+   ],
+   "published_at": "2026-09-13T15:00:09.000000+00:00",
+   "summary": "This intimacy economy is tapping into the deepest parts of our intimate psychological infrastructure The modern mind is a column where experts discuss mental health issues they are seeing in their work Michael* is an eng..."
+  },
+  {
+   "rank": 10,
+   "title": "‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/2026/sep/13/too-little-too-late-critics-perplexed-and-suspicious-of-ai-leaders-call-for-a-slowdown",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "‘Too little, too late’: critics perplexed and suspicious of AI leaders’ call for a slowdown"
+   ],
+   "published_at": "2026-09-13T16:54:58.000000+00:00",
+   "summary": "From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative response OpenAI boss and Elon Musk back slowdown on ‘reckless’ AI development Editorial: controllin..."
+  },
+  {
+   "rank": 11,
+   "title": "Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://venturebeat.com/orchestration/long-running-ai-agents-quietly-drop-compliance-rules-and-bigger-context-windows-wont-fix-it",
+   "score": 2.5,
+   "sources": [
+    "venturebeat"
+   ],
+   "titles": [
+    "Long-running AI agents quietly drop compliance rules, and bigger context windows won't fix it"
+   ],
+   "published_at": "2026-09-13T18:00:00+00:00",
+   "summary": "Imagine deploying an AI agent to run a multi-day master data validation workflow. By day three, it has ingested thousands of records. The baseline governance rules you hardcoded into the system prompt at the start? They..."
+  },
+  {
+   "rank": 12,
+   "title": "Long Live the Short King: Why 4-hi HBM Wins",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+   "score": 2.5,
+   "sources": [
+    "semianalysis"
+   ],
+   "titles": [
+    "Long Live the Short King: Why 4-hi HBM Wins"
+   ],
+   "published_at": "2026-09-13T18:19:39.000000+00:00",
+   "summary": "High Bandwidth Memory has been a key technology enabling the AI revolution. Despite HBM’s high costs relative to other forms of memory, chip designers have packaged more and more HBM into AI accelerators. Customers push..."
+  },
+  {
+   "rank": 13,
+   "title": "US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/us-news/2026/sep/13/cat-in-the-hat-social-media-trend-arrests-school-warnings",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests"
+   ],
+   "published_at": "2026-09-13T19:15:57.000000+00:00",
+   "summary": "Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communities Schools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social..."
+  },
+  {
+   "rank": 14,
+   "title": "What’s behind the AI industry’s latest warnings of doom?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+   "score": 2.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "What’s behind the AI industry’s latest warnings of doom?"
+   ],
+   "published_at": "2026-09-13T19:40:15.000000+00:00",
+   "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity."
+  },
+  {
    "rank": 15,
-   "title": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
+   "title": "仅仅半年，6亿人“中毒”AI短剧",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4890787.html",
-   "score": 9.0,
+   "url": "https://www.huxiu.com/article/4890844.html",
+   "score": 6.0,
    "sources": [
     "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "仅仅半年，6亿人“中毒”AI短剧",
+    "仅仅半年，6亿人“中毒”AI短剧"
+   ],
+   "published_at": "2026-09-13T15:50:20.000000+00:00",
+   "summary": "3人核心团队，10万注册资金，手搓半年，连出十二季，保守估计利润600万，乐观2000万……AI短剧《万妖图录传》的“爽文人生”，就如同其所在的行业一样，越冲越猛。年初，红果APP才设立AI剧独立入口，如今热播榜前99名里，AI短剧已独占77席，必看榜、热搜榜、收藏榜也统统被“血洗”，真人剧被按在地上摩擦。爆...... 本文来自微信公众号： 表外表里 ，编辑：曹宾玲，作者：洞见数据研究院 3人核心团队，10万注册资金，手搓半年，连出十..."
+  },
+  {
+   "rank": 16,
+   "title": "突发，A社创始人呼吁AI圈踩刹车，奥特曼马斯克罕见力挺",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3981130388929280",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "huxiu"
+   ],
+   "titles": [
+    "突发，A社创始人呼吁AI圈踩刹车，奥特曼马斯克罕见力挺",
+    "阿尔特曼、马斯克，同时给AI踩刹车"
+   ],
+   "published_at": "2026-09-13T01:00:39.000000+00:00",
+   "summary": "本周，Anthropic 研究员 Jacob Coxon 离职，警告 AI 可能会在会在 10 年内灭绝人类，引起了巨大争议。 今天凌晨，Anthropic CEO Dario Amodei突然发布了一篇标题为「我们必须为前沿 AI 限速」的文章，再一次呼吁暂停前沿 AI 研究的脚步，他给出了一套围绕「可核验性」展开的制度设计 在这篇文章发布后，一向和 Amodei 不太对付的 OpenAI CEO 奥特曼，也罕见转发支持，连马斯克也认..."
+  },
+  {
+   "rank": 17,
+   "title": "AI基建让建筑产业链再度“复生”？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8138103.html",
+   "score": 5.5,
+   "sources": [
     "tmtpost",
     "36kr-ai"
    ],
    "titles": [
-    "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
-    "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
-    "一年后agent可能组建僵尸网络，四巨头齐呼刹车"
+    "AI基建让建筑产业链再度“复生”？",
+    "AI基建让建筑产业链再度“复生”？"
    ],
-   "published_at": "2026-09-13T08:48:44.000000+00:00",
-   "summary": "阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识：AI可能跑得太快了。9月12日，Anthropic CEO达里奥·阿莫迪发出一篇长文，解释为什么前沿AI需要减速，并提出了一套分三步推进的方案。两个半小时以后，山姆·奥特曼转发并配文：我同意达里奥的观点。OpenAI也会向独立评测人员提供类...... 本文来自微信公众号： 字母AI ，作者：袁心玥 阿莫迪、奥特曼、马斯克和哈萨比斯，四家前沿AI实验室的领头人达成共识..."
-  },
-  {
-   "rank": 16,
-   "title": "智谱宣布完成约 50 亿美元融资，用于下一代 GLM 基础模型研发等",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/001/833.htm",
-   "score": 6.5,
-   "sources": [
-    "ithome",
-    "tmtpost"
-   ],
-   "titles": [
-    "智谱宣布完成约 50 亿美元融资，用于下一代 GLM 基础模型研发等",
-    "50亿美元融资背后，智谱在赌一个怎样的未来？丨钛快讯"
-   ],
-   "published_at": "2026-09-13T10:50:49+00:00",
-   "summary": "IT之家 9 月 13 日消息，智谱今日宣布完成 约 50 亿美元 （IT之家注：现汇率约合 336.54 亿元人民币） 融资，包括约 20 亿美元 （约 156.8 亿港币） 股份配售及约 30 亿美元 （约 201.4 亿人民币） 可转债发行。 此次融资主要将用于 下一代 GLM 基础模型 及完全自训练 （Fully Self Training） 体系的研发 ，以及大规模训练、生产推理、算力资源及相关技术基础设施的部署及升级。 在公..."
-  },
-  {
-   "rank": 17,
-   "title": "我国实现一体化算力统筹监测",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3981161748954115",
-   "score": 5.5,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "我国实现一体化算力统筹监测",
-    "我国实现一体化算力统筹监测，有序推动全国 31 个省区市对接入网"
-   ],
-   "published_at": "2026-09-13T01:48:05.000000+00:00",
-   "summary": "记者从工业和信息化部了解到，中国算力平台已实现全国一体化算力统筹监测，我国算力“一张网、一盘棋、一体化”发展格局基本形成。中国算力平台是国家级综合性算力服务平台，目前已经汇聚了超万家注册企业用户，上架2000多项优质算力产品，接入各类大模型超300个，为广大开发者提供算力调用服务，累计沉淀数十亿条算力监测大数据。工业和信息化部总工程师钟志红透露，截至今年6月底，我国智算规模达到2185百亿亿次浮点运算（EFLOPS），同比增长了177%..."
+   "published_at": "2026-09-13T01:50:17+00:00",
+   "summary": "文 | 硅碳变量，作者 | 胡一刀 9月份，黄仁勋公开敦促各国加快AI应用，扩大数据中心等基础设施建设。据悉，一直大力支持AI时代到来的黄仁勋在2026年将AI比作水、电之类的基础设施，未来全世界范围内，AI似乎将成为现代生活“刚需”。 有意思的是，差不多同一时期，中国建筑发布上半年财报。 数据中心及算力中心新签合同额873亿元，同比上升328.3%。 一前一后，在相互呼应的同时，也再度引出一个关注点：沉寂许久的建筑赛道是否会被工业地产..."
   },
   {
    "rank": 18,
-   "title": "335亿！智谱拿下新融资，押注RSI",
+   "title": "大众拥有的第一个机器人，可能是只“鸭子”",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/593557.html",
-   "score": 3.5,
+   "url": "https://www.tmtpost.com/8138116.html",
+   "score": 5.5,
    "sources": [
-    "zhidx"
+    "tmtpost",
+    "36kr-ai"
    ],
    "titles": [
-    "335亿！智谱拿下新融资，押注RSI"
+    "大众拥有的第一个机器人，可能是只“鸭子”",
+    "大众拥有的第一个机器人，可能是只“鸭子”"
    ],
-   "published_at": "2026-09-13T12:41:57+00:00",
-   "summary": "智东西 作者 | 陈骏达 编辑 | 李水青 智东西9月13日报道，今晚，智谱宣布完成 约50亿美元（约合人民币335.4亿元） 融资，包括约20亿美元（约合人民币134.16亿元）股份配售及约30亿美元（约合人民币201.2亿元）可转债发行。这轮融资将主要用于 下一代GLM基础模型及完全自训练体系的研发，同时支撑其 算力基础设施建设。 智谱今天早些时候在港交所披露了这笔募资计划，公告显示，本轮融资的可转债部分采用零息结构，以本金的100..."
+   "published_at": "2026-09-13T02:15:00+00:00",
+   "summary": "文 |硅碳变量，作者 | 沈浪 最近，机器人赛道似乎跌宕起伏。 备受瞩目的宇树，上市首日股价最高涨逾6倍，总市值一度突破4400亿元；此后却连续5个交易日下跌，股价近乎腰斩，市值蒸发超过2000亿元。这一波“过山车”行情，引发了各种议论，外界对人形机器人的落地及商业化前景再次提出质疑。 而就在机器人产业迎来一盆“冷水”的时候，一只体型迷你、造型呆萌的“小鸭子”在大洋彼岸爆火，再次点燃了具身智能赛道。 它叫 Microduck，售价 39..."
   },
   {
    "rank": 19,
-   "title": "消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片",
+   "title": "谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/001/705.htm",
-   "score": 3.0,
+   "url": "https://www.ithome.com/1/001/843.htm",
+   "score": 5.5,
    "sources": [
-    "ithome"
+    "ithome",
+    "36kr-ai"
    ],
    "titles": [
-    "消息称三星 Galaxy Tab S12 系列平板下月发布，天玑 9500 芯片"
+    "谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人",
+    "谷歌DeepMind，已经破解RSI?"
    ],
-   "published_at": "2026-09-13T01:25:48+00:00",
-   "summary": "IT之家 9 月 13 日消息，X 平台消息人士 Evan Blass 今日发文，暗示三星 Galaxy Tab S12 系列平板将于 10 月 17 日发布。 IT之家了解到，三星本次推出的平板产品预计包含 Galaxy Tab S12+ 和 Galaxy Tab S12 Ultra 两个版本。 这两款产品或搭载联发科天玑 9500 芯片 ，采用 3nm 制程工艺、8 核心设计，主频最高可达 4.21GHz。 规格方面，Galaxy..."
+   "published_at": "2026-09-13T12:21:32+00:00",
+   "summary": "IT之家 9 月 13 日消息，谷歌 DeepMind 研究员乔希 · 恩格尔斯（Josh Engels）已离开公司的通用人工智能安全团队，加入独立 AI 评估机构 METR。他表示，自己认为未来五年内 AI 系统造成巨大危害的概率“高得吓人”。此事进一步加剧了外界对 AI 研发速度的担忧。 恩格尔斯在 X 平台发文称，尽管他很喜欢在 DeepMind 的工作，并且拒绝了 Anthropic 和 OpenAI 的邀约，但他还是在三周前离..."
   },
   {
    "rank": 20,
-   "title": "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置",
+   "title": "突发，Dario提全球AI限速三步计划，奥特曼马斯克第一时间支持",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/001/715.htm",
-   "score": 3.0,
+   "url": "https://www.36kr.com/p/3981056866597638",
+   "score": 5.0,
    "sources": [
-    "ithome"
+    "36kr-ai",
+    "baai-hub"
    ],
    "titles": [
-    "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置"
+    "突发，Dario提全球AI限速三步计划，奥特曼马斯克第一时间支持",
+    "突发，Dario提全球AI限速三步计划！奥特曼马斯克第一时间支持"
    ],
-   "published_at": "2026-09-13T02:10:13+00:00",
-   "summary": "IT之家 9 月 13 日消息，曜越 (Thermaltake) 近日宣布推出 AI 工作站机箱 AX1000。这一系列采用左右双系统设计， 两侧均支持到 XL-ATX / SSI-EEB 主板 ，也都提供了 10 条扩展槽。 AX1000 系列机箱右侧统一为 MESH 面板，左侧则可选玻璃与 MESH。其前方左侧设有分别对应双系统的 I/O 面板，支持加装 3.9\" LCD 扩充屏幕。 这款机箱左侧系统为正常布局，右侧则是倒置结构。其..."
+   "published_at": "2026-09-14T00:24:36.000000+00:00",
+   "summary": "13日，Anthropic CEO Dario Amodei发布了一篇罕见长文—— We Must Pace the Frontier（我们必须控制前沿AI的发展节奏） 这一次，他直接把矛头对准了前沿模型的研发速度，核心观点就一句话： 最顶尖的AI，真得主动踩刹车了。 这篇长文中，Dario亲口承认，「递归自我改进（RSI）已经在全行业出现了」。 更让人后背发凉的是，他预测未来6—12个月，AI Agent集群可能会接管整个互联网。 面..."
   }
  ]
 }
