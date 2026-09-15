@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-15T13:44:14.174393+00:00",
+ "generated_at": "2026-09-15T18:20:30.280201+00:00",
  "stats": {
-  "items": 2500,
-  "clusters": 2036,
-  "noise": 530,
-  "dup": 117,
+  "items": 2462,
+  "clusters": 1998,
+  "noise": 515,
+  "dup": 110,
   "history_days": 0,
-  "available_cn": 169,
-  "available_intl": 1220,
+  "available_cn": 152,
+  "available_intl": 1221,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,61 +16,11 @@
  "items": [
   {
    "rank": 1,
-   "title": "StepAudio 3 Gen Technical Report",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.12945",
-   "score": 19.0,
-   "sources": [
-    "hf-daily-papers",
-    "arxiv-cs-ai",
-    "ithome",
-    "oschina",
-    "leiphone"
-   ],
-   "titles": [
-    "StepAudio 3 Gen Technical Report",
-    "Bioinfoysis Technical Report",
-    "阶跃发布 StepAudio 3 系列语音大模型，拿下多个全球第一",
-    "阶跃星辰发布 Step Audio 3 系列语音模型，多款上榜全球第一",
-    "阶跃发布 StepAudio 3 ，多款语音模型登顶 Artificial Analysis 全球榜单"
-   ],
-   "published_at": "2026-09-10T20:00:00.000000+00:00",
-   "summary": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types..."
-  },
-  {
-   "rank": 2,
-   "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.13466",
-   "score": 15.0,
-   "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-lg",
-    "arxiv-cs-cv",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-    "Unsupervised Keypoints for Real-Time Fall Detection: Comparative Analysis Under Real-world Conditions with Predictive Bandwidth Reduction",
-    "HGSQ: Heatmap-Guided Sparse Query Detector for Real-Time Aerial Small Object Detection",
-    "Towards Practical Precision Agriculture: Real-Time Fruit Detection and Video Analytics on Embedded Edge Hardware",
-    "Development of Low-Cost Real-Time Driver Drowsiness Detection System using Eye Centre Tracking and Dynamic Thresholding",
-    "Contour-Guided Spectral Routing for Robust Real-Time Pedestrian Detection",
-    "Tele360: Real-Time Feed-Forward Human Reconstruction from Sparse Unposed Cameras",
-    "[P] Built a 100% Client-Side Vision Pipeline for Real-Time Chessboard & Multi-Board Detection (Chrome/Firefox Extension) [P]"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes..."
-  },
-  {
-   "rank": 3,
    "title": "Parameter-Efficient Adaptation of Pretrained Language Models for Time-Series Forecasting",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.15344",
-   "score": 12.5,
+   "score": 12.0,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai",
@@ -85,12 +35,56 @@
    "summary": "arXiv:2609.15344v1 Announce Type: cross Abstract: We study the adaptation of pretrained language models to univariate time-series forecasting through a parameter-efficient transfer learning framework, with the goal of un..."
   },
   {
+   "rank": 2,
+   "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.13466",
+   "score": 12.0,
+   "sources": [
+    "arxiv-cs-ai",
+    "arxiv-cs-lg",
+    "arxiv-cs-cv"
+   ],
+   "titles": [
+    "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
+    "Unsupervised Keypoints for Real-Time Fall Detection: Comparative Analysis Under Real-world Conditions with Predictive Bandwidth Reduction",
+    "HGSQ: Heatmap-Guided Sparse Query Detector for Real-Time Aerial Small Object Detection",
+    "Towards Practical Precision Agriculture: Real-Time Fruit Detection and Video Analytics on Embedded Edge Hardware",
+    "Development of Low-Cost Real-Time Driver Drowsiness Detection System using Eye Centre Tracking and Dynamic Thresholding",
+    "Contour-Guided Spectral Routing for Robust Real-Time Pedestrian Detection",
+    "Tele360: Real-Time Feed-Forward Human Reconstruction from Sparse Unposed Cameras"
+   ],
+   "published_at": "2026-09-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes..."
+  },
+  {
+   "rank": 3,
+   "title": "Anthropic’s AI Slowdown Isn’t Enough",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-14/opinion-anthropic-s-ai-slowdown-isn-t-enough-video",
+   "score": 8.07,
+   "sources": [
+    "bloomberg-tech",
+    "cnbc-tech",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Anthropic’s AI Slowdown Isn’t Enough",
+    "Broadcom CEO addresses Anthropic's slowdown push, says AI revenue targets haven't changed",
+    "Beijing hits back at Anthropic CEO's call to curb China's AI development"
+   ],
+   "published_at": "2026-09-14T17:16:39.000000+00:00",
+   "summary": "Anthropic CEO Dario Amodei has talked about leading a “race to the top” in setting standards of vigilance for others to follow when building powerful systems. But this was probably an impossible ideal from the start, say..."
+  },
+  {
    "rank": 4,
    "title": "TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.14565",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -104,6 +98,25 @@
   },
   {
    "rank": 5,
+   "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.14857",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+    "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+    "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement"
+   ],
+   "published_at": "2026-09-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.14857v1 Announce Type: new Abstract: Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from exp..."
+  },
+  {
+   "rank": 6,
    "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
    "lang": "en",
    "region": "intl",
@@ -122,7 +135,7 @@
    "summary": "Children’s Hospital of Philadelphia is using open source AI tools to model children’s hearts in seconds — with the goal of enabling safer, more precise care for kids with congenital heart disease."
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "AI Slowdown Fears Shake Wall Street",
    "lang": "en",
    "region": "intl",
@@ -140,30 +153,48 @@
    "summary": "Get a jump start on the US trading day with Dani Burger and Isabelle Lee on \"Bloomberg Open Interest.\" Tech stocks slide as new warnings call for slowing the AI race, while Wall Street braces for the Fed with inflation r..."
   },
   {
-   "rank": 7,
-   "title": "Anthropic’s AI Slowdown Isn’t Enough",
+   "rank": 8,
+   "title": "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-14/opinion-anthropic-s-ai-slowdown-isn-t-enough-video",
-   "score": 5.5,
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
+   "score": 5.07,
    "sources": [
-    "bloomberg-tech",
-    "cnbc-tech"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "Anthropic’s AI Slowdown Isn’t Enough",
-    "Broadcom CEO addresses Anthropic's slowdown push, says AI revenue targets haven't changed"
+    "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
+    "Show HN: TabPFN-3.5, a Tabular Foundation Model for messy real-world tables"
    ],
-   "published_at": "2026-09-14T17:16:39.000000+00:00",
-   "summary": "Anthropic CEO Dario Amodei has talked about leading a “race to the top” in setting standards of vigilance for others to follow when building powerful systems. But this was probably an impossible ideal from the start, say..."
+   "published_at": "2026-09-15T16:18:50.000000+00:00",
+   "summary": "Prior Labs released their latest tabular foundation model, TabPFN-3.5 today. The model is top of both TabArena and BeyondArena and SOTA for 1M rows and up to 20k features It comes with: - TabPFN-3.5-Fast (in alpha): This..."
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "title": "Should AI Development Slow Down? Inside the Debate: Live Q&A",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/sessions/2026-09-15/live-q-amp-a-the-heated-debate-over-slowing-down-ai-development",
+   "score": 5.0,
+   "sources": [
+    "bloomberg-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Should AI Development Slow Down? Inside the Debate: Live Q&A",
+    "Trump is right: countries like China won’t slow down AI development, so neither should we. We need to stay ahead."
+   ],
+   "published_at": "2026-09-15T15:30:31.000000+00:00",
+   "summary": "Bloomberg journalists answer your questions about the high-stakes debate over calls to slow down AI development ahead of the US midterm elections in a Live Q&A today at 2:30 p.m. EDT"
+  },
+  {
+   "rank": 10,
    "title": "What an AI slowdown could mean for investors",
    "lang": "en",
    "region": "intl",
    "url": "https://www.ft.com/content/3f1c49db-6406-4a2d-b562-9caa233bf8b3?syn-25a6b1a6=1",
-   "score": 5.05,
+   "score": 4.55,
    "sources": [
     "ft-tech",
     "hackernews-ai"
@@ -176,102 +207,70 @@
    "summary": "Slowing down could reduce the enormous amounts of cash being lavished on training new models"
   },
   {
-   "rank": 9,
-   "title": "Trump Rejects Calls for AI Guardrails, Blasts Anthropic’s Amodei",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-14/trump-rejects-calls-for-ai-guardrails-blasts-anthropic-s-amodei",
-   "score": 4.58,
-   "sources": [
-    "bloomberg-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Trump Rejects Calls for AI Guardrails, Blasts Anthropic’s Amodei",
-    "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic"
-   ],
-   "published_at": "2026-09-14T14:08:08.000000+00:00",
-   "summary": "President Donald Trump dismissed calls for artificial intelligence guardrails and slammed Anthropic PBC Chief Executive Officer Dario Amodei for urging a slowdown in the technology’s development."
-  },
-  {
-   "rank": 10,
-   "title": "Italian start-up Exein raises $270mn to fight AI hackers with AI",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/9fca2d3f-b689-4f08-801c-ee7f8475e7bc?syn-25a6b1a6=1",
-   "score": 3.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "Italian start-up Exein raises $270mn to fight AI hackers with AI"
-   ],
-   "published_at": "2026-09-15T04:00:28.000000+00:00",
-   "summary": "Rome-based company is developing a foundation model to protect billions of internet-connected devices, from robots to lightbulbs"
-  },
-  {
    "rank": 11,
-   "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
+   "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
-   "score": 3.5,
+   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
+   "score": 4.5,
    "sources": [
-    "marktechpost"
+    "aws-ml-blog"
    ],
    "titles": [
-    "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent"
+    "Announcing instance preference lists for Amazon SageMaker AI training jobs"
    ],
-   "published_at": "2026-09-15T04:03:20+00:00",
-   "summary": "Agent-net , the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent , an open source harness for standing up public-facing business agents. So, basically..."
+   "published_at": "2026-09-15T16:01:47.000000+00:00",
+   "summary": "Getting access to the right GPUs when you need them is one of the biggest challenges in training or customizing AI models at scale. During peak demand periods, your preferred GPU may not be immediately available – and wh..."
   },
   {
    "rank": 12,
-   "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
+   "title": "I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/",
-   "score": 3.5,
+   "url": "https://v.redd.it/dxjlt1b5toph1",
+   "score": 4.0,
    "sources": [
-    "marktechpost"
+    "reddit-ai-new",
+    "reddit-ai-hot"
    ],
    "titles": [
-    "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second"
+    "I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys",
+    "I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys"
    ],
-   "published_at": "2026-09-15T04:28:29+00:00",
-   "summary": "Meta engineering team introduced ZGateway , a proxy tier that now sits between client applications and ZippyDB , the Meta’s most widely used key value store. ZippyDB backs product metadata, counters, and configuration at..."
+   "published_at": "2026-09-15T13:38:41.000000+00:00",
+   "summary": ""
   },
   {
    "rank": 13,
-   "title": "Suspected sabotage causes major Netherlands rail disruption",
+   "title": "AI for Societal Impact",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
    "score": 3.5,
    "sources": [
-    "hackernews-ai"
+    "google-ai-blog"
    ],
    "titles": [
-    "Suspected sabotage causes major Netherlands rail disruption"
+    "AI for Societal Impact"
    ],
-   "published_at": "2026-09-15T10:22:46.000000+00:00",
-   "summary": "Trains were cancelled or delayed on Tuesday after objects were found on tracks at multiple locations."
+   "published_at": "2026-09-15T16:00:00.000000+00:00",
+   "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI."
   },
   {
    "rank": 14,
-   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+   "title": "Building AI to accelerate science and improve lives",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-   "score": 3.0,
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+   "score": 3.5,
    "sources": [
-    "huggingface-blog"
+    "google-ai-blog"
    ],
    "titles": [
-    "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL"
+    "Building AI to accelerate science and improve lives"
    ],
-   "published_at": "2026-09-10T00:00:00.000000+00:00",
-   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
+   "published_at": "2026-09-15T16:00:00.000000+00:00",
+   "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …"
   },
   {
    "rank": 15,
@@ -315,24 +314,6 @@
   },
   {
    "rank": 17,
-   "title": "字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3984022571964039",
-   "score": 7.0,
-   "sources": [
-    "36kr-ai",
-    "ithome"
-   ],
-   "titles": [
-    "字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响",
-    "曝字节将发布独立智能网盘“ADrive”"
-   ],
-   "published_at": "2026-09-15T03:36:28.000000+00:00",
-   "summary": "随着AI办公、智能体应用逐步落地，云存储的核心价值正从“单纯存文件”，转向“数据沉淀、高效复用、人机协同”，国内头部互联网厂商也开始集中发力全新的智能网盘赛道。 《读佳》独家获知，字节跳动将在9月发布全新且独立的智能网盘产品ADrive，产品Slogan为“连接你的AI应用，让文件与产物持续可用”。 该产品由火山引擎打造，是一款面向AI智能体与人类用户协同办公的企业级智能网盘，主打统一文件存储与团队协作能力。 目前官方已开启试用申请。..."
-  },
-  {
-   "rank": 18,
    "title": "智象发布首款物理规律导向视频模型",
    "lang": "zh",
    "region": "cn",
@@ -350,7 +331,7 @@
    "summary": "36氪获悉，智象未来（HiDream.ai）正式发布首个原生全模态视频生成模型HiDream-O1-Video-1.0（模型简称HD-V1）。HD-V1采用智象自研原生全模态架构，支持文本、图片、视频等多种模态输入，可一键直出5–20秒1080p高保真视频，同时在意图理解、物理规律理解、自主规划叙事、以及音画一体化生成等维度均全面升级。"
   },
   {
-   "rank": 19,
+   "rank": 18,
    "title": "联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起",
    "lang": "zh",
    "region": "cn",
@@ -368,22 +349,40 @@
    "summary": "IT之家 9 月 15 日消息，联想来酷斗战者 AI 私有云主机今日 9:00 正式开售， 售价 6999 元起 ： AI NAS 900（Ultra 7 355、16GB+512GB）：6999 元 AI NAS 900 Pro（Ultra X9 388H、64GB+512GB）：17999 元 该产品定位 AI 私有云主机，搭载飞牛 fnOS 系统，提供 Windows 系统驱动；板载至高 64GB LPDDR5 / 5x 高频内存..."
   },
   {
-   "rank": 20,
-   "title": "阿莫迪所说的“僵尸网络”到底有多恐怖 ？",
+   "rank": 19,
+   "title": "字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3984016164755072",
-   "score": 6.0,
+   "url": "https://www.36kr.com/p/3984022571964039",
+   "score": 6.5,
    "sources": [
     "36kr-ai",
-    "tmtpost"
+    "ithome"
    ],
    "titles": [
-    "阿莫迪所说的“僵尸网络”到底有多恐怖 ？",
-    "阿莫迪所说的“僵尸网络”到底有多恐怖？"
+    "字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响",
+    "曝字节将发布独立智能网盘“ADrive”"
    ],
-   "published_at": "2026-09-15T03:36:01.000000+00:00",
-   "summary": "“我们需要慢下来。” 北京时间9月13日晚，Anthropic联合创始人兼CEO阿莫迪在CBS播出的采访中直言，AI行业长期向公众隐瞒这项技术的风险。 一天前，他刚发表长文《我们必须控制前沿AI的发展节奏》（We Must Pace the Frontier），呼吁AI行业放慢发展速度，并在X上分享。相关帖子的浏览量已超过7000万次。 文章里最惊人的警告是：未来6到12个月，更强大、却仍会偏离人类目标的智能体集群，可能借助持续存在的“..."
+   "published_at": "2026-09-15T03:36:28.000000+00:00",
+   "summary": "随着AI办公、智能体应用逐步落地，云存储的核心价值正从“单纯存文件”，转向“数据沉淀、高效复用、人机协同”，国内头部互联网厂商也开始集中发力全新的智能网盘赛道。 《读佳》独家获知，字节跳动将在9月发布全新且独立的智能网盘产品ADrive，产品Slogan为“连接你的AI应用，让文件与产物持续可用”。 该产品由火山引擎打造，是一款面向AI智能体与人类用户协同办公的企业级智能网盘，主打统一文件存储与团队协作能力。 目前官方已开启试用申请。..."
+  },
+  {
+   "rank": 20,
+   "title": "微信辟谣AI助手小微“直接读取聊天记录”“偷看隐私”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3984285143710467",
+   "score": 6.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "微信辟谣AI助手小微“直接读取聊天记录”“偷看隐私”",
+    "微信员工辟谣 AI 助手小微“直接读取聊天记录”、“偷看所有隐私”：都是失实的"
+   ],
+   "published_at": "2026-09-15T06:24:26.000000+00:00",
+   "summary": "36氪获悉，9月15日，微信员工客村小蒋就“微信小微”涉及的隐私相关问题发文回应：1、小微能接触的信息，不会超过你本人可以查看的信息范围的权限，比如有朋友担心已删除的朋友圈会不会被看到，放心，不会的；2、小微会基于公众号、视频号等的关注、浏览、互动数据，做一些问题的推荐，放心，这里同样遵循原则1；3、关于聊天记录，只有在聊天场景，你主动发起“问小微”的时候，小微才会被临时调起，从微信客户端本地读取最近的聊天信息，分析总结之后，原始聊天记..."
   }
  ]
 }
