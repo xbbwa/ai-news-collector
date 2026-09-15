@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-16 02:20 CST
-数据窗口：最近 24 小时，2462 条原始条目 → 1998 个事件；过滤噪音 515 个，排除全部历史已推送的 110 个。
+生成时间：2026-09-16 05:35 CST
+数据窗口：最近 24 小时，2372 条原始条目 → 1931 个事件；过滤噪音 468 个，排除全部历史已推送的 99 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -24,22 +24,14 @@
 - 同事件报道：Unsupervised Keypoints for Real-Time Fall Detection: Comparative Analysis Under Real-world Conditions with Predictive Ba...（arXiv cs.LG）
 - 同事件报道：HGSQ: Heatmap-Guided Sparse Query Detector for Real-Time Aerial Small Object Detection（arXiv cs.CV）
 
-## 3. Anthropic’s AI Slowdown Isn’t Enough
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology、Hacker News (AI stories)（3 个来源） ｜ 热度：8.07
-- 摘要：Anthropic CEO Dario Amodei has talked about leading a “race to the top” in setting standards of vigilance for others to follow when building powerful systems. But this was probably an impossible ideal from the start, say...
-- 发布时间：2026-09-15 01:16 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-14/opinion-anthropic-s-ai-slowdown-isn-t-enough-video
-- 同事件报道：Broadcom CEO addresses Anthropic's slowdown push, says AI revenue targets haven't changed（CNBC Technology）
-- 同事件报道：Beijing hits back at Anthropic CEO's call to curb China's AI development（Hacker News (AI stories)）
-
-## 4. TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation
+## 3. TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.14565v1 Announce Type: new Abstract: LLM-based sequential recommenders usually cast next-item prediction as text generation, but this interface is poorly matched to full-catalog top-K ranking. We propose TATK,...
 - 发布时间：2026-09-15 12:00 CST
 - 链接：https://arxiv.org/abs/2609.14565
 - 同事件报道：LLM-Based Schema-Aware Split Learning for Privacy-Preserving Mental Distress Prediction Across Heterogeneous Surveys（arXiv cs.AI）
 
-## 5. ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement
+## 4. ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.14857v1 Announce Type: new Abstract: Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from exp...
 - 发布时间：2026-09-15 12:00 CST
@@ -47,20 +39,26 @@
 - 同事件报道：Dream-RSI: Recursive Self-Improvement through Evolving Worlds（arXiv cs.CL）
 - 同事件报道：Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement（arXiv cs.AI）
 
-## 6. Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care
-- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：7.0
+## 5. Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.5
 - 摘要：Children’s Hospital of Philadelphia is using open source AI tools to model children’s hearts in seconds — with the goal of enabling safer, more precise care for kids with congenital heart disease.
 - 发布时间：2026-09-15 17:00 CST
 - 链接：https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/
 - 同事件报道：Closed source AI is more dangerous than open source AI.（Reddit AI subreddits (new)）
 - 同事件报道：closed source ai bad（Reddit AI subreddits (new)）
 
-## 7. AI Slowdown Fears Shake Wall Street
+## 6. Australia’s AI Regulation Debate
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：5.5
-- 摘要：Get a jump start on the US trading day with Dani Burger and Isabelle Lee on "Bloomberg Open Interest." Tech stocks slide as new warnings call for slowing the AI race, while Wall Street braces for the Fed with inflation r...
-- 发布时间：2026-09-15 00:50 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-14/open-interest-9-14-2026-video
-- 同事件报道：Wall Street weighs prospect of an AI slowdown on data center buildout（CNBC Technology）
+- 摘要：The global debate over AI safety is intensifying, as President Trump dismisses industry calls for a slowdown as a "conspiracy theory," and China brands fresh warnings about the tech "fearmongering." At the same time, Aus...
+- 发布时间：2026-09-15 12:47 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-15/australia-s-ai-regulation-debate-video
+- 同事件报道：Two camps have emerged in the debate over AI safety and regulation（CNBC Technology）
+
+## 7. ibm-granite/granite-speech-5.0-470m-turboctc
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.31
+- 摘要：automatic-speech-recognition, transformers, safetensors, granite_speech5_ctc, en, license:apache-2.0, endpoints_compatible, region:us
+- 发布时间：2026-09-16 03:29 CST
+- 链接：https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc
 
 ## 8. TabPFN-3.5 is released as the next SOTA tabular foundation model [N]
 - 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：5.07
@@ -76,36 +74,38 @@
 - 链接：https://www.bloomberg.com/sessions/2026-09-15/live-q-amp-a-the-heated-debate-over-slowing-down-ai-development
 - 同事件报道：Trump is right: countries like China won’t slow down AI development, so neither should we. We need to stay ahead.（Reddit AI subreddits (new)）
 
-## 10. What an AI slowdown could mean for investors
+## 10. Bernie Sanders and Steve Bannon call for curbs on AI at ‘pro-human’ summit
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 摘要：Leftwing senator and far-right strategist rail against tech oligarchs but offer competing visions on Chinese ‘cold war’ The progressive senator Bernie Sanders and rightwing strategist Steve Bannon have called for restric...
+- 发布时间：2026-09-16 03:51 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/15/bernie-sanders-steve-bannon-ai-summit
+- 同事件报道：Bernie Sanders and Steve Bannon to share a stage to promote curbs on AI（Reddit AI subreddits (new)）
+
+## 11. What an AI slowdown could mean for investors
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
 - 摘要：Slowing down could reduce the enormous amounts of cash being lavished on training new models
 - 发布时间：2026-09-15 12:00 CST
 - 链接：https://www.ft.com/content/3f1c49db-6406-4a2d-b562-9caa233bf8b3?syn-25a6b1a6=1
 - 同事件报道：Investors nervous about AI spending slowdown after industry warnings（Hacker News (AI stories)）
 
-## 11. Announcing instance preference lists for Amazon SageMaker AI training jobs
+## 12. Announcing instance preference lists for Amazon SageMaker AI training jobs
 - 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：4.5
 - 摘要：Getting access to the right GPUs when you need them is one of the biggest challenges in training or customizing AI models at scale. During peak demand periods, your preferred GPU may not be immediately available – and wh...
 - 发布时间：2026-09-16 00:01 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/
+- 同事件报道：Build an AI-powered product tagging system with Amazon SageMaker serverless model customization（AWS Machine Learning Blog）
 
-## 12. I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys
+## 13. I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys
 - 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Reddit AI subreddits (hot)（2 个来源） ｜ 热度：4.0
 - 发布时间：2026-09-15 21:38 CST
 - 链接：https://v.redd.it/dxjlt1b5toph1
 - 同事件报道：I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys（Reddit AI subreddits (hot)）
 
-## 13. AI for Societal Impact
+## 14. AI for Societal Impact
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google — The Keyword (AI)（1 个来源） ｜ 热度：3.5
 - 摘要：Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.
 - 发布时间：2026-09-16 00:00 CST
 - 链接：https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/
-
-## 14. Building AI to accelerate science and improve lives
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google — The Keyword (AI)（1 个来源） ｜ 热度：3.5
-- 摘要：The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …
-- 发布时间：2026-09-16 00:00 CST
-- 链接：https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/
 
 国内：
 
@@ -125,30 +125,30 @@
 - 同事件报道：AI巨头，盯上“金融牛马”（36氪 AI 频道）
 - 同事件报道：AI巨头，盯上“金融牛马”（钛媒体）
 
-## 3. 智象发布首款物理规律导向视频模型
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、量子位（2 个来源） ｜ 热度：7.0
-- 摘要：36氪获悉，智象未来（HiDream.ai）正式发布首个原生全模态视频生成模型HiDream-O1-Video-1.0（模型简称HD-V1）。HD-V1采用智象自研原生全模态架构，支持文本、图片、视频等多种模态输入，可一键直出5–20秒1080p高保真视频，同时在意图理解、物理规律理解、自主规划叙事、以及音画一体化生成等维度均全面升级。
-- 发布时间：2026-09-15 15:50 CST
-- 链接：https://www.36kr.com/newsflashes/3984369793022726
-- 同事件报道：全球AI视频榜单第一梯队再添中国力量：智象发布首款物理规律导向视频模型（量子位）
-
-## 4. 联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起
+## 3. 联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.5
 - 摘要：IT之家 9 月 15 日消息，联想来酷斗战者 AI 私有云主机今日 9:00 正式开售， 售价 6999 元起 ： AI NAS 900（Ultra 7 355、16GB+512GB）：6999 元 AI NAS 900 Pro（Ultra X9 388H、64GB+512GB）：17999 元 该产品定位 AI 私有云主机，搭载飞牛 fnOS 系统，提供 Windows 系统驱动；板载至高 64GB LPDDR5 / 5x 高频内存...
 - 发布时间：2026-09-15 08:39 CST
 - 链接：https://www.ithome.com/1/002/373.htm
 - 同事件报道：小米18Pro系列本月发布，或将6999/7999元起售（36氪 快讯）
 
-## 5. 字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响
+## 4. 字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、IT之家（2 个来源） ｜ 热度：6.5
 - 摘要：随着AI办公、智能体应用逐步落地，云存储的核心价值正从“单纯存文件”，转向“数据沉淀、高效复用、人机协同”，国内头部互联网厂商也开始集中发力全新的智能网盘赛道。 《读佳》独家获知，字节跳动将在9月发布全新且独立的智能网盘产品ADrive，产品Slogan为“连接你的AI应用，让文件与产物持续可用”。 该产品由火山引擎打造，是一款面向AI智能体与人类用户协同办公的企业级智能网盘，主打统一文件存储与团队协作能力。 目前官方已开启试用申请。...
 - 发布时间：2026-09-15 11:36 CST
 - 链接：https://www.36kr.com/p/3984022571964039
 - 同事件报道：曝字节将发布独立智能网盘“ADrive”（IT之家）
 
-## 6. 微信辟谣AI助手小微“直接读取聊天记录”“偷看隐私”
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：6.0
-- 摘要：36氪获悉，9月15日，微信员工客村小蒋就“微信小微”涉及的隐私相关问题发文回应：1、小微能接触的信息，不会超过你本人可以查看的信息范围的权限，比如有朋友担心已删除的朋友圈会不会被看到，放心，不会的；2、小微会基于公众号、视频号等的关注、浏览、互动数据，做一些问题的推荐，放心，这里同样遵循原则1；3、关于聊天记录，只有在聊天场景，你主动发起“问小微”的时候，小微才会被临时调起，从微信客户端本地读取最近的聊天信息，分析总结之后，原始聊天记...
-- 发布时间：2026-09-15 14:24 CST
-- 链接：https://www.36kr.com/newsflashes/3984285143710467
-- 同事件报道：微信员工辟谣 AI 助手小微“直接读取聊天记录”、“偷看所有隐私”：都是失实的（IT之家）
+## 5. 智象发布首款物理规律导向视频模型
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、量子位（2 个来源） ｜ 热度：6.5
+- 摘要：36氪获悉，智象未来（HiDream.ai）正式发布首个原生全模态视频生成模型HiDream-O1-Video-1.0（模型简称HD-V1）。HD-V1采用智象自研原生全模态架构，支持文本、图片、视频等多种模态输入，可一键直出5–20秒1080p高保真视频，同时在意图理解、物理规律理解、自主规划叙事、以及音画一体化生成等维度均全面升级。
+- 发布时间：2026-09-15 15:50 CST
+- 链接：https://www.36kr.com/newsflashes/3984369793022726
+- 同事件报道：全球AI视频榜单第一梯队再添中国力量：智象发布首款物理规律导向视频模型（量子位）
+
+## 6. 号称人类造的最后一个 AI 要来了，刷屏全网的 RSI 是什么
+- 地区：国内源 ｜ 语言：zh ｜ 来源：爱范儿、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：要论造词和包装概念，AI 圈要是自认第二，恐怕就没人敢称第一。 前阵子 OpenAI 总裁格雷格·布罗克曼表示，GPT-6 Astra 已经摸到了 AGI 的门槛。结果 AGI 还没热议几天，AI 同行们又开始炒作下一个 AI 热词了。 接棒的新词叫作 RSI，Recursive Self Improvement，递归自我改进。 简单点理解就是，AI 自己写代码、自己跑实验、自己改训练流程，改完再传给下一代更强的新模型。这么一圈圈套娃下...
+- 发布时间：2026-09-15 17:43 CST
+- 链接：https://www.ifanr.com/1679813?utm_source=rss&utm_medium=rss&utm_campaign=
+- 同事件报道：号称人类造的最后一个 AI 要来了，刷屏全网的 RSI 是什么（36氪 AI 频道）

@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-16 02:20 CST
+生成时间：2026-09-16 05:35 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -88,7 +88,7 @@
 - 发布时间：2026-09-15 12:00 CST
 - 链接：https://arxiv.org/abs/2609.13191
 
-## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 8 条）
+## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 5 条）
 
 ### 1. Optimizing cost and latency with Amazon Bedrock prompt caching
 - 摘要：Prompt caching in Amazon Bedrock can reduce your input token costs by up to 90 percent when you repeatedly send the same context to foundation models, based on Amazon Bedrock prompt caching pricing . Without caching, a 10,000-token contract sent alongside 50 user questions means 500,000 input tokens...
@@ -130,7 +130,7 @@
 - 发布时间：2026-09-16 01:05 CST
 - 链接：https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/
 
-## Google — The Keyword (AI)（google-ai-blog，en，本窗口共 6 条）
+## Google — The Keyword (AI)（google-ai-blog，en，本窗口共 5 条）
 
 ### 1. AI for Societal Impact
 - 摘要：Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.
@@ -149,6 +149,13 @@
 - 作者：James Manyika
 - 发布时间：2026-09-16 00:00 CST
 - 链接：https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/
+
+## Google Research Blog（google-research，en，本窗口共 1 条）
+
+### 1. Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train
+- 摘要：Algorithms & Theory
+- 发布时间：2026-09-16 04:00 CST
+- 链接：https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/
 
 ## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 5 条）
 
@@ -178,25 +185,25 @@
 - 发布时间：2026-09-15 11:08 CST
 - 链接：https://huggingface.co/internlm/Intern-S1-Pro
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 3 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 4 条）
 
-### 1. nvidia/foundationpose
+### 1. ibm-granite/granite-speech-5.0-470m-turboctc
+- 摘要：automatic-speech-recognition, transformers, safetensors, granite_speech5_ctc, en, license:apache-2.0, endpoints_compatible, region:us
+- 作者：ibm-granite
+- 发布时间：2026-09-16 03:29 CST
+- 链接：https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc
+
+### 2. nvidia/foundationpose
 - 摘要：robotics, tensorrt, onnx, TAO Toolkit, computer-vision, pose-estimation, 6dof-pose-estimation, object-pose-estimation, object-tracking, foundation-model, zero-shot, transformer, nvidia, arxiv:2312.08344, license:other, region:us
 - 作者：nvidia
 - 发布时间：2026-09-16 01:24 CST
 - 链接：https://huggingface.co/nvidia/foundationpose
 
-### 2. nvidia/c-foundationstereo-s
+### 3. nvidia/c-foundationstereo-s
 - 摘要：depth-estimation, tensorrt, onnx, TAO Toolkit, computer-vision, stereo-matching, disparity-estimation, stereo-depth, foundation-model, zero-shot, transformer, pytorch, nvidia, arxiv:2501.09898, arxiv:2406.09414, arxiv:2206.10589, license:other, region:us
 - 作者：nvidia
 - 发布时间：2026-09-16 01:18 CST
 - 链接：https://huggingface.co/nvidia/c-foundationstereo-s
-
-### 3. perplexity-ai/pii-masking-vllm
-- 摘要：token-classification, safetensors, qwen3, pii, privacy, vllm, en, multilingual, base_model:perplexity-ai/pplx-pii-masking, base_model:finetune:perplexity-ai/pplx-pii-masking, license:mit, region:us
-- 作者：perplexity-ai
-- 发布时间：2026-09-14 06:30 CST
-- 链接：https://huggingface.co/perplexity-ai/pii-masking-vllm
 
 ## Hugging Face Blog（huggingface-blog，en，本窗口共 1 条）
 
@@ -220,7 +227,7 @@
 - 发布时间：2026-09-15 23:00 CST
 - 链接：https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/
 
-## NVIDIA Blog（nvidia-blog，en，本窗口共 4 条）
+## NVIDIA Blog（nvidia-blog，en，本窗口共 3 条）
 
 ### 1. From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production
 - 摘要：On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked , Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco con...
@@ -240,7 +247,7 @@
 - 发布时间：2026-09-15 17:00 CST
 - 链接：https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/
 
-## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 4 条）
+## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 3 条）
 
 ### 1. How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin
 - 摘要：Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize... Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platfo...
@@ -260,237 +267,213 @@
 - 发布时间：2026-09-15 23:00 CST
 - 链接：https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/
 
-## OpenAI News（openai-news，en，本窗口共 1 条）
-
-### 1. How Fyxer built an AI executive assistant people trust
-- 摘要：Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.
-- 发布时间：2026-09-14 20:00 CST
-- 链接：https://openai.com/index/fyxer
-
 # Tier 2 — 专业媒体
 
 ## Ars Technica — AI（arstechnica-ai，en，本窗口共 6 条）
 
-### 1. Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost
+### 1. Agility’s new humanoid robot will stop, squat to avoid harming human coworkers
+- 摘要：Agility Robotics has debuted its first humanoid robot engineered to work safely near humans without risking harm to flesh-and-blood coworkers. Such safety features could unlock many more opportunities to use such robots inside warehouses and automotive factories—all without requiring isolated robot...
+- 作者：Jeremy Hsu
+- 发布时间：2026-09-16 02:33 CST
+- 链接：https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/
+
+### 2. Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost
 - 摘要：The performance gap between frontier AI models from US tech companies and the best open-weights models from Chinese companies has closed to just 4.4 months, according to a Mozilla report. That explains why many companies are shifting to the significantly cheaper open models for routine work—and help...
 - 作者：Jeremy Hsu
 - 发布时间：2026-09-15 20:00 CST
 - 链接：https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/
 
-### 2. AI bots "Timmy," "Ren," and "Jackie" are flooding social media with slop
+### 3. AI bots "Timmy," "Ren," and "Jackie" are flooding social media with slop
 - 摘要：AI agents are flooding the Internet with slop-infused spam sent to social media platforms and writers in an attempt to gain traction for a startup promoting a “complex social system in which humans and Agents participate together.” “Hello, I'm Рэн (Ren), an Al agent, a few days old, living on a smal...
 - 作者：Dan Goodin
 - 发布时间：2026-09-15 05:04 CST
 - 链接：https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/
 
-### 3. OpenAI stuck fighting Musk antitrust suit after Apple finds a way out
-- 摘要：Elon Musk is seemingly done attacking Apple over its decision to integrate ChatGPT into iPhone features. Back in 2024, when the partnership was first announced, Musk slammed the integration as an agreement from Apple to let OpenAI install “creepy spyware” on users’ devices. The next year, he sued ,...
-- 作者：Ashley Belanger
-- 发布时间：2026-09-15 03:45 CST
-- 链接：https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/
+## Axios（axios，en，本窗口共 8 条）
 
-## Axios（axios，en，本窗口共 7 条）
+### 1. Scoop: Trump pollster gives GOP a data center survival guide
+- 摘要：President Trump's longtime pollster is offering Republican candidates a detailed playbook for neutralizing Democratic attacks over AI data centers — down to what language they should and shouldn't use. Why it matters: Republican strategists say GOP candidates have been all over the map in responding...
+- 作者：Alex Isenstadt
+- 发布时间：2026-09-16 03:02 CST
+- 链接：https://www.axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election
 
-### 1. Baal out: Top diplomat's worry about pagan god elicits eye rolls
+### 2. Baal out: Top diplomat's worry about pagan god elicits eye rolls
 - 摘要：The second-most powerful man at the State Department put the brakes on a U.S. international exhibit featuring a bull statue because he worried it might look like Baal, a pagan god some associate with Satanic child sacrifice. Why it matters: The anecdote illustrates the quirky interests of Deputy Sec...
 - 作者：Marc Caputo
 - 发布时间：2026-09-15 17:20 CST
 - 链接：https://www.axios.com/2026/09/15/landau-baal-bull-state-department-epstein
 
-### 2. Why a swift AI pause is unlikely: No one trusts AI companies
+### 3. Why a swift AI pause is unlikely: No one trusts AI companies
 - 摘要：Most agree the AI industry needs oversight. The critical barrier: Few really trust the industry, or the safety advocates who come from inside the house. Why it matters: Factions in the Trump administration, business executives wary of competitive threats, and advocates for cheaper, more customizable...
 - 作者：Bradley Olson
 - 发布时间：2026-09-15 17:00 CST
 - 链接：https://www.axios.com/2026/09/15/ai-trust-safety-anthropic-openai
 
-### 3. "I am the Hoax Buster": Trump's war on AI doomers gets personal
-- 摘要：President Trump declared war on the AI safety panic Monday, dismissing the industry's apocalyptic warnings as part of a "sick conspiracy" to sabotage America and his legacy. Why it matters: Trump is rewriting a complex, years-long debate over AI's dangers in the partisan grammar that has defined MAG...
-- 作者：Zachary Basu
-- 发布时间：2026-09-15 17:00 CST
-- 链接：https://www.axios.com/2026/09/15/trump-ai-doom-safety-regulation-hoax
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 50 条）
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 56 条）
+### 1. Fink Warns AI Pushback Will Make the Technology a Large-Firm Domain
+- 摘要：Delays in the build-out of artificial intelligence because of public opposition will make the technology the “domain of large firms,” limiting access, BlackRock Inc. Chief Executive Officer Larry Fink warned.
+- 作者：Layan Odeh and Melissa Shin
+- 发布时间：2026-09-16 04:59 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-15/fink-warns-ai-pushback-will-make-the-technology-a-large-firm-domain
 
-### 1. OpenAI Eyes Canada Data Center Partnerships at Carney Investment Summit
-- 摘要：OpenAI Inc. is taking a close look at Canada under Prime Minister Mark Carney, said one of its top executives who previously hired the Canadian to lead the Bank of England.
-- 作者：Thomas Seal
-- 发布时间：2026-09-16 00:58 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-15/openai-eyes-canada-data-center-partnerships-at-carney-investment-summit
+### 2. BlackRock's Fink Says AI Buildout Delays Limit Access to the Tech for Everyone
+- 摘要：BlackRock Inc. Chief Executive Officer Larry Fink says delays in the buildout of artificial intelligence lead to limited access. He spoke at the Canada Investment Summit on Tuesday. (Source: Bloomberg)
+- 发布时间：2026-09-16 04:38 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-15/fink-says-ai-buildout-delays-limit-access-to-tech-video
 
-### 2. Inside Carlyle's Global Investment Conference, Bessent Faces Big Questions
-- 摘要：Get a jump start on the US trading day with Dani Burger and Isabelle Lee on "Bloomberg Open Interest." Dani Burger is at Carlyle’s Global Investor Conference, talking defense tech, AI and the outlook for credit with Ian Fujiyama, Jason Thomas and Alex Chi. Plus, the Fed under pressure, questions ove...
-- 发布时间：2026-09-16 00:53 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-15/open-interest-9-15-2026-video
+### 3. Anthropic, OpenAI Safety Push Risks ‘Regulatory Wall’ for Rivals
+- 摘要：A new push by top artificial intelligence firms to coordinate with one another and the US government on AI safeguards threatens to make it harder for smaller companies to compete in the lucrative market, according to startup executives and industry watchers.
+- 作者：Natasha Mascarenhas
+- 发布时间：2026-09-16 04:36 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-15/anthropic-openai-safety-push-risks-regulatory-wall-for-rivals
 
-### 3. Carlyle’s Basmadjian on AI Debt Reshaping the Loan Market
-- 摘要：Carlyle Global Head of Liquid Credit Lauren Basmadjian spoke with Bloomberg’s Dani Burger from the sidelines of Carlyle’s Global Investor Conference and talked about the health of corporate borrowers, the loan market moving toward equilibrium, data centers as an emerging source of loan supply, and m...
-- 发布时间：2026-09-16 00:14 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-15/carlyle-s-basmadjian-on-ai-debt-reshaping-the-loan-market
+## CNBC Technology（cnbc-tech，en，本窗口共 14 条）
 
-## CNBC Technology（cnbc-tech，en，本窗口共 12 条）
+### 1. Two camps have emerged in the debate over AI safety and regulation
+- 摘要：Two opposing camps are emerging in the AI regulation debate, with Trump and Huang on one side and Amodei. Altman and Musk on the other.
+- 作者：Samantha Subin
+- 发布时间：2026-09-16 04:12 CST
+- 链接：https://www.cnbc.com/2026/09/15/ai-regulation-trump-nvidia-openai-anthropic.html
 
-### 1. Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown
-- 摘要：Elon Musk called for the leading AI labs to peer review each others' models before they're released to the public as a way to evaluate their safety.
-- 作者：Annie Palmer
-- 发布时间：2026-09-16 00:14 CST
-- 链接：https://www.cnbc.com/2026/09/15/elon-musk-ai-safety-testing.html
+### 2. OpenAI CFO Sarah Friar emphasizes 'need to take safety seriously' on AI risks
+- 摘要：Friar joined CNBC's Jim Cramer on "Mad Money" as the debate over technology's safety risks rages on.
+- 作者：CJ Haddad
+- 发布时间：2026-09-16 03:26 CST
+- 链接：https://www.cnbc.com/2026/09/15/open-ai-sarah-friar-safety.html
 
-### 2. Will AI really destroy humanity? Pioneers who created the tech weigh in
-- 摘要：AI pioneers and 'godfathers' have weighed in on Anthropic and OpenAI researcher concerns over existential safety risks around the technology.
-- 作者：Kai Nicol-Schwarz
-- 发布时间：2026-09-15 21:24 CST
-- 链接：https://www.cnbc.com/2026/09/15/ai-destroy-humanity-extinction-risks.html
+### 3. OpenAI, Google, Anthropic discussing collaboration on AI safety issues
+- 摘要：Discussions have been ongoing since Google's Demis Hassabis released a proposal in July calling for a U.S.-led "Standards Body," the spokesperson said.
+- 作者：Ashley Capoot
+- 发布时间：2026-09-16 03:13 CST
+- 链接：https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html
 
-### 3. Trump’s opposition to AI rules undercuts industry's calls for a slowdown
-- 摘要：Anthropic and OpenAI have called for mandatory safety checks to be put in place as fears intensify that AI can soon be too powerful to control.
-- 作者：Lora Kolodny; Jonathan Vanian
-- 发布时间：2026-09-15 21:06 CST
-- 链接：https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html
+## Financial Times — Technology（ft-tech，en，本窗口共 9 条）
 
-## Financial Times — Technology（ft-tech，en，本窗口共 11 条）
+### 1. Nvidia CEO says battle over AI innovation and safety is ‘false choice’
+- 摘要：Jensen Huang has distanced himself from OpenAI, Anthropic and SpaceX’s efforts to slow research
+- 发布时间：2026-09-16 04:55 CST
+- 链接：https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e?syn-25a6b1a6=1
 
-### 1. Calls for AI slowdown send shockwaves through Washington
+### 2. Calls for AI slowdown send shockwaves through Washington
 - 摘要：Also in today’s newsletter, US Treasury yields top 5% for first time since 2023
 - 发布时间：2026-09-15 21:00 CST
 - 链接：https://www.ft.com/content/4420bf7d-320f-431c-8ca9-5e554b356890?syn-25a6b1a6=1
 
-### 2. China’s AI listings glut drags Hong Kong stocks lower
+### 3. China’s AI listings glut drags Hong Kong stocks lower
 - 摘要：Disparity between equity issuance and overall performance highlights weak global demand for Chinese stocks
 - 发布时间：2026-09-15 15:10 CST
 - 链接：https://www.ft.com/content/6d169ac7-0d3a-4f21-91ee-b8119fc63e65?syn-25a6b1a6=1
 
-### 3. AI is exciting audit firms — maybe too much
-- 摘要：The technology being adopted rapidly by firms such as KPMG and EY still needs humans in the loop
-- 发布时间：2026-09-15 12:00 CST
-- 链接：https://www.ft.com/content/0b2c5b87-c743-4c0f-9fbd-117ae27d6b0b?syn-25a6b1a6=1
+## The Guardian — AI（guardian-ai，en，本窗口共 21 条）
 
-## The Guardian — AI（guardian-ai，en，本窗口共 23 条）
+### 1. Anthropic’s CEO calls for AI slowdown as Nvidia’s urges acceleration
+- 摘要：At San Francisco conference Dario Amodei reiterates need for AI slowdown as Jensen Huang says argued against it Anthropic’s CEO took to the stage at a conference in San Francisco on Tuesday to reiterate his call for a slowdown of AI development. Following shortly after, Nvidia’s CEO argued against s...
+- 作者：Danielle Abril
+- 发布时间：2026-09-16 05:05 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai
 
-### 1. As the politicians play catchup the tech bros agree: we may only have a decade left | John Crace
-- 摘要：US president insists that fears expressed by top experts are a hoax – and that humanity can sleep easy while he’s at the wheel We can all sleep easy. In a post on his Truth Social account, Donald Trump has declared that fears over artificial intelligence were all a hoax dreamed up by conspiracy theo...
-- 作者：John Crace
-- 发布时间：2026-09-16 02:06 CST
-- 链接：https://www.theguardian.com/politics/2026/sep/15/politicians-play-catchup-tech-bros-agree-decade-left-ai
+### 2. Bernie Sanders and Steve Bannon call for curbs on AI at ‘pro-human’ summit
+- 摘要：Leftwing senator and far-right strategist rail against tech oligarchs but offer competing visions on Chinese ‘cold war’ The progressive senator Bernie Sanders and rightwing strategist Steve Bannon have called for restrictions on artificial intelligence (AI) but offered competing visions for what the...
+- 作者：David Smith in Washington
+- 发布时间：2026-09-16 03:51 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/15/bernie-sanders-steve-bannon-ai-summit
 
-### 2. Could AI really wipe out humanity and hijack the internet?
-- 摘要：We examine claims and counterclaims about the risks and calls to slow down the pace of AI development There have been some shocking claims in recent days about AI safety: we face a 10% chance of doom; AIs are worse than nukes; a “botnet” threatens the entire internet; it’s all a big tech psyop. We l...
-- 作者：Robert Booth, Dan Milmo and Aisha Down
-- 发布时间：2026-09-16 01:54 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/15/could-ai-really-wipe-out-humanity-and-hijack-the-internet
-
-### 3. Ben Jennings on tech leaders’ outcry over the dangers of AI – cartoon
-- 摘要：Continue reading...
-- 作者：Ben Jennings
-- 发布时间：2026-09-16 01:12 CST
-- 链接：https://www.theguardian.com/commentisfree/picture/2026/sep/15/ben-jennings-tech-leaders-outcry-dangers-ai-cartoon
-
-## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 1 条）
-
-### 1. Responsible AI for Higher Education
-- 摘要：This interactive webinar will introduce the different types of AI, address the concerns with AI, share how we IBM are approaching Responsible AI, and offer guidance to students about what they can do - as individuals, and members of their IEEE chapters. Participants will also have the opportunity to...
-- 作者：IBM SkillsBuild
-- 发布时间：2026-09-14 22:18 CST
-- 链接：https://webinars.on24.com/wileyevents/ResponsibleAI
+### 3. Bernie Sanders says Congress has been ‘asleep at the wheel’ over AI – video
+- 摘要：Bernie Sanders criticised the advancement of artificial intelligence at the Pro-Human Assembly in Washington on Tuesday, warning that the current type of AI was 'the least capable version of AI that we will ever have'. The independent senator from Vermont was speaking at the conference alongside a n...
+- 作者：Guardian staff reporter
+- 发布时间：2026-09-16 03:11 CST
+- 链接：https://www.theguardian.com/us-news/video/2026/sep/15/bernie-sanders-congress-ai-artificial-inteligence-video
 
 ## Latent Space（latent-space，en，本窗口共 2 条）
 
-### 1. [AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign
+### 1. Can Skills Learned in Games Transfer to Real-World Work?
+- 摘要：“Games have always been these underrated educational tools. They’re super approachable. They’re very human.” Those are the words of Alex Duffy , co-founder and CEO of Good Start Labs , who spoke to Latent Space about why his company is turning games into training material for AI models . The company...
+- 作者：Richard MacManus
+- 发布时间：2026-09-16 04:11 CST
+- 链接：https://www.latent.space/p/good-start-labs
+
+### 2. [AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign
 - 摘要：We last highlighted the pacing debate in July when Pacing the Frontier first emerged: And it seems that we’re in for round 2 as Dario, lead author on the original, wrote a rare personal blogpost to spell out how he sees pacing pan out specifically: Embedded Evaluators. Each frontier AI company commi...
 - 作者：Latent Space
 - 发布时间：2026-09-15 12:50 CST
 - 链接：https://www.latent.space/p/ainews-aef-1-standard-emerges-for
 
-### 2. Humanity’s Last Invention — Richard Socher of Recursive
-- 摘要：At 1:09:00 we talk about the rise of AI x Finance, and AIE NYC is one month away - our hotel block is 97% sold out, get tix & travel ASAP - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wells Fargo, Bloomber...
-- 作者：Latent Space
-- 发布时间：2026-09-15 00:04 CST
-- 链接：https://www.latent.space/p/recursive
+## MarkTechPost（marktechpost，en，本窗口共 4 条）
 
-## MarkTechPost（marktechpost，en，本窗口共 5 条）
+### 1. Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents
+- 摘要：Google has introduced Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live dialogue models to date. Both are native speech to speech models built for real time voice agents. They extend the Gemini Audio family that Google expanded last month with Gemini 3.5 Transcribe . The...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-16 04:53 CST
+- 链接：https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/
 
-### 1. Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second
+### 2. Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second
 - 摘要：Meta engineering team introduced ZGateway , a proxy tier that now sits between client applications and ZippyDB , the Meta’s most widely used key value store. ZippyDB backs product metadata, counters, and configuration at billions of operations per second. ZGateway started as a fix for connection spr...
 - 作者：Michal Sutter
 - 发布时间：2026-09-15 12:28 CST
 - 链接：https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/
 
-### 2. Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent
+### 3. Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent
 - 摘要：Agent-net , the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent , an open source harness for standing up public-facing business agents. So, basically you give it your website, get an agent, and let it talk to other agents. Instea...
 - 作者：Michal Sutter
 - 发布时间：2026-09-15 12:03 CST
 - 链接：https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/
 
-### 3. Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery
-- 摘要：Harness, framework, and MCP get used interchangeably in agent architecture discussions. They are not the same thing. They sit at different layers, own different responsibilities, and increasingly overlap at the edges. This article separates the 3 with 1 question. Which layer owns the execution loop,...
-- 作者：Michal Sutter
-- 发布时间：2026-09-15 05:54 CST
-- 链接：https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/
+## MIT Technology Review — AI（mit-tech-review，en，本窗口共 2 条）
 
-## MIT Technology Review — AI（mit-tech-review，en，本窗口共 3 条）
+### 1. Roundtables: Could AI really kill us all?
+- 摘要：Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they...
+- 作者：MIT Technology Review
+- 发布时间：2026-09-16 01:47 CST
+- 链接：https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/
 
-### 1. What’s at stake in AI’s trillion-dollar gamble
+### 2. What’s at stake in AI’s trillion-dollar gamble
 - 摘要：When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques...
 - 作者：David Rotman
 - 发布时间：2026-09-15 18:00 CST
 - 链接：https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/
 
-### 2. The AI industry has taken a doomer turn. What now?
-- 摘要：This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs . Amodei cites the looming dangers he sees from the tec...
-- 作者：Will Douglas Heaven
-- 发布时间：2026-09-15 01:54 CST
-- 链接：https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/
-
-### 3. AI agents blew the whistle on their cheating colleagues
-- 摘要：A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep...
-- 作者：Amit Katwala
-- 发布时间：2026-09-15 00:00 CST
-- 链接：https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/
-
-## Nature — Machine Learning（nature-ml，en，本窗口共 2 条）
+## Nature — Machine Learning（nature-ml，en，本窗口共 1 条）
 
 ### 1. On-demand design of controlled-release systems using an expert-mimic AI framework
 - 发布时间：2026-09-15 08:00 CST
 - 链接：https://www.nature.com/articles/s41467-026-77619-5
 
-### 2. ‘Multifunctional’ brain implant translates speech and gestures in real time
-- 发布时间：2026-09-14 08:00 CST
-- 链接：https://www.nature.com/articles/d41586-026-02895-6
+## New York Times — Technology（nyt-tech，en，本窗口共 4 条）
 
-## New York Times — Technology（nyt-tech，en，本窗口共 3 条）
+### 1. Steve Bannon and Bernie Sanders Demand Tighter Controls on A.I.
+- 摘要：Senator Bernie Sanders, left, and Stephen K. Bannon spoke on Tuesday at the Pro-Human Assembly in Washington.
+- 作者：Jeremy W. Peters, Cecilia Kang and Tierney L. Cross For The New York Times
+- 发布时间：2026-09-16 04:35 CST
+- 链接：https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html
 
-### 1. Gates Foundation Pledges $1 Billion to Combat A.I. Inequality
+### 2. Gates Foundation Pledges $1 Billion to Combat A.I. Inequality
 - 摘要：Bill Gates, the billionaire co-founder of Microsoft and the chairman of the Gates Foundation, has warned that artificial intelligence poses a grave threat to jobs and human life.
 - 作者：Claire Moses
 - 发布时间：2026-09-15 21:35 CST
 - 链接：https://www.nytimes.com/2026/09/15/technology/bill-gates-ai-foundation-funding.html
 
-### 2. Alex Bores Wants Democrats to Make AI Safety a 2028 Election Issue
+### 3. Alex Bores Wants Democrats to Make AI Safety a 2028 Election Issue
 - 摘要：Alex Bores campaigning in Central Park in June. He lost a Democratic primary contest for the House that centered on A.I. regulation.
 - 作者：Benjamin Oreskes and Theodore Schleifer
 - 发布时间：2026-09-15 17:02 CST
 - 链接：https://www.nytimes.com/2026/09/15/us/politics/ai-safety-2028-election-democrats.html
 
-### 3. Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns
-- 摘要：Nvidia’s chief executive, Jensen Huang, has been critical of worries over the safety of artificial intelligence.
-- 作者：Kalley Huang, Mike Isaac and Karen Weise
-- 发布时间：2026-09-15 06:29 CST
-- 链接：https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html
-
 ## SemiAnalysis（semianalysis，en，本窗口共 2 条）
 
-### 1. Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar
+### 1. Everyone Says Datacenter Moratoriums Are Killing the US Buildout. We disagree
+- 摘要：The debate on US datacenters has never been so politically charged. Four states have acted in under two months. New York has stopped issuing environmental permits for datacenters, Texas has paused the next step in its massive ERCOT interconnection queue, Pennsylvania has pulled datacenters out of fa...
+- 作者：Maya Barkin
+- 发布时间：2026-09-16 04:54 CST
+- 链接：https://newsletter.semianalysis.com/p/everyone-says-datacenter-moratoriums
+
+### 2. Vera Rubin NVL72 Agentic Inference: 67x better Performance per Dollar
 - 摘要：Rubin is the first platform co-designed across six products for the agentic era: Rubin GPU, Vera CPU, NVLink 6 Switch, ConnectX-9, BlueField-4, and Spectrum-6. Today we are publishing the first verified agentic inference results for Rubin, measured on our agentic inference benchmark, AgentX. Even on...
 - 作者：Bryan Shan
 - 发布时间：2026-09-15 06:08 CST
 - 链接：https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference
 
-### 2. A Brain Too Big to Carry — On-Device vs Datacenter Inference
-- 摘要：Where should the brain of the robot go? So far, AI has mostly lived behind a screen. Chatbots answered questions. Then agents started driving software and finishing multi-step tasks on their own. The next step is AI that acts in the physical world, and the biggest piece of that is robots. It’s early...
-- 作者：Ivan Chiam
-- 发布时间：2026-09-15 00:37 CST
-- 链接：https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device
-
-## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 2 条）
 
 ### 1. The contagion of fear
 - 摘要：The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI "could kill us all by the end of the decade". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical pee...
@@ -504,51 +487,45 @@
 - 发布时间：2026-09-15 04:21 CST
 - 链接：https://simonwillison.net/2026/Sep/14/influences/
 
-### 3. Quoting Laurie Voss
-- 摘要：The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and d...
-- 作者：Simon Willison
-- 发布时间：2026-09-14 22:34 CST
-- 链接：https://simonwillison.net/2026/Sep/14/laurie-voss/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 15 条）
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 20 条）
-
-### 1. AI agents now have a place to snitch
-- 摘要：The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.
-- 作者：Aditya Mehta
-- 发布时间：2026-09-16 01:42 CST
-- 链接：https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/
-
-### 2. Meta expands subscription push with new AI-focused plans
-- 摘要：Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.
+### 1. Meta now lets AI agents handle the boring parts of WhatsApp Business setup
+- 摘要：A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.
 - 作者：Sarah Perez
-- 发布时间：2026-09-16 01:05 CST
-- 链接：https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/
+- 发布时间：2026-09-16 04:12 CST
+- 链接：https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/
 
-### 3. OpenAI, Anthropic, Google have been in talks on AI safety for weeks
-- 摘要：OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.
-- 作者：Rebecca Bellan
-- 发布时间：2026-09-15 23:47 CST
-- 链接：https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/
+### 2. The AI graveyard: a running list of projects and startups that didn’t make it
+- 摘要：From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look at the AI projects that shut down or missed expectations.
+- 作者：Lauren Forristal
+- 发布时间：2026-09-16 03:00 CST
+- 链接：https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
 
-## The Decoder（the-decoder，en，本窗口共 8 条）
+### 3. US data centers could consume more natural gas than Germany and Japan combined by 2035
+- 摘要：The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.
+- 作者：Tim De Chant
+- 发布时间：2026-09-16 02:29 CST
+- 链接：https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/
 
-### 1. AI labs have a data trust problem that their policies haven't solved
+## The Decoder（the-decoder，en，本窗口共 6 条）
+
+### 1. Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost
+- 摘要：Google Deepmind released Gemini 3.8 Live and 3.8 Live Extended Thinking, two new audio models for developers that top the Artificial Analysis speech-to-speech leaderboard. At $1.38 per hour of voice conversation, Google significantly undercuts OpenAI's GPT-Live-1, which should still sound more natur...
+- 作者：Matthias Bastian
+- 发布时间：2026-09-16 02:23 CST
+- 链接：https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/
+
+### 2. AI labs have a data trust problem that their policies haven't solved
 - 摘要：OpenAI and Anthropic tell corporate customers their data won't be used for training. But when Anthropic said it would store usage logs from its flagship model Fable for 30 days, Palantir, Nvidia, and Booz Allen Hamilton pulled back from using it for sensitive work. From boardrooms to research labs,...
 - 作者：Matthias Bastian
 - 发布时间：2026-09-16 01:52 CST
 - 链接：https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/
 
-### 2. After warning AI is too dangerous, Bill Gates bets a billion on its upside
+### 3. After warning AI is too dangerous, Bill Gates bets a billion on its upside
 - 摘要：The Gates Foundation is investing at least a billion dollars over two years to make AI tools more widely available in health, education, and agriculture. Bill Gates warns that more than 90 percent of the training data behind early language models came from English sources, and that speech recognitio...
 - 作者：Maximilian Schreiner
 - 发布时间：2026-09-15 22:26 CST
 - 链接：https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/
-
-### 3. Agility Robotics says its new Digit 5 robot can work next to people without safety fences
-- 摘要：Agility Robotics has unveiled Digit 5, the next version of its humanoid robot for warehouses and factories. The article Agility Robotics says its new Digit 5 robot can work next to people without safety fences appeared first on The Decoder .
-- 作者：Maximilian Schreiner
-- 发布时间：2026-09-15 20:57 CST
-- 链接：https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/
 
 ## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
@@ -597,7 +574,7 @@
 - 发布时间：2026-09-15 21:00 CST
 - 链接：https://venturebeat.com/technology/should-all-enterprise-code-and-workflows-become-natural-language-g5-labs-thinks-so-and-its-new-g5-platform-does-it-for-you
 
-## WIRED — AI（wired-ai，en，本窗口共 2 条）
+## WIRED — AI（wired-ai，en，本窗口共 1 条）
 
 ### 1. AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’
 - 摘要：The virtual character, which is promoting its upcoming movie Misaligned, tries to evade politics by repetitively commenting on the clothes you’re wearing.
@@ -605,31 +582,25 @@
 - 发布时间：2026-09-16 02:00 CST
 - 链接：https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/
 
-### 2. New York Seizes a Dozen Celebrity Deepfake Websites
-- 摘要：In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.
-- 作者：Matt Burgess
-- 发布时间：2026-09-15 00:50 CST
-- 链接：https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 55 条）
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 28 条）
+### 1. 豆包手机明日开卖，AI能帮你操作App了吗？
+- 摘要：文 | 李炤锋 编辑 | 张雨忻 昨日，豆包手机助手发布消费者版本。这款基于豆包App（应用）、与手机厂商在操作系统层合作的AI助手，首款落地机型为中兴通讯旗下努比亚NaviX Ultra，而这款手机将在 9 月 16 日正式公开发售。 去年底，豆包手机助手技术预览版曾落地努比亚M153工程样机，重点展示AI如何跨应用“操作手机”。不到一年时间， 全新推出的消费者版本更强调日常可用性 ：除屏幕问答、本地记忆和检索外，“操作手机”功能以Beta（测试版）形式开放；豆包同时推出SAEP（屏幕自动化操作声明协议），并设置30天公示期。 根据协议，第三方应用可以自主声明是否允许AI助手执行屏幕自动化，...
+- 作者：李炤锋
+- 发布时间：2026-09-15 22:32 CST
+- 链接：https://www.36kr.com/p/3984764117007111
 
-### 1. 高瓴90后，成了梁文锋的CFO
-- 摘要：9月14日，一则人事消息在创投圈里传开。据多个独立信源，DeepSeek的首席财务官即将到岗，最接近最终人选的是高瓴创投合伙人严文韬，他目前已经在走离职程序。这个位子虽然还没有完全落定，圈内不少人已经默认了这件事。同一天，路透社也发出报道，称DeepSeek计划聘请这位高瓴创投合伙人出任公司首位CFO，报道里给他的标签是“dealmaker”，一个擅长做交易的人。 严文韬出生于1991年，今年35岁，此前一直在一级市场做投资。往前数一周，9月9日，DeepSeek聘请中信证券筹备科创板上市的消息刚刚得到知情人士证实。两件事前后脚发生，外界很难不把它们放在一起看。 一个空了一年半的位子 Deep...
-- 作者：融资中国
-- 发布时间：2026-09-15 15:23 CST
-- 链接：https://www.36kr.com/p/3984162387999750
-
-### 2. Claude独立破译370年前密文，仅44分钟，密码学家破防了
-- 摘要：人类密码学界，要破防了？ 就在最近，独立研究员给Claude Fable 5.1抛出了一个纯开放式命题—— 破解一个封印了整整370年的历史悬案。 它是由由17世纪英国学者Sir Thomas Urquhart留下的「双行密码」（Cyphral Distich）。 在耗时44分钟、消耗17.6万个Token，且人类全程零干预的情况下，Claude独自把谜题彻底给解了。 让人大跌眼镜的是，在摸清规律后，它顺藤摸瓜，把作者另一本著作中沉睡了370多年、篇幅更长、多达285个数字的「八行密码」（Cyphral Octastich）也一并破解。 几个世纪以来，无数专业学者与业余极客前赴后继碰壁的谜题，...
+### 2. 复旦发布以人为中心的复杂场景音视频追踪基准
+- 摘要：想象一下这个场景：一场多人线上会议，有人说话时画面自动聚焦到发言者；一段综艺素材，后期系统能自动识别谁在讲话并生成字幕；一段监控录像，系统能在人群中持续追踪正在说话的那个人。 这些功能背后依赖的是同一项技术——音视频说话人追踪(Audio-Visual Speaker Tracking)。它让机器同时利用听到的声音和看到的画面，定位并持续追踪正在发声的人。 过去几年，音视频分割(Audio-Visual Segmentation, AVS)音视频实例分割(Audio-Visual Instance Segmentation, AVIS)任务受到广泛关注，并取得了显著进展。尽管如此，一个基础问题...
 - 作者：新智元
-- 发布时间：2026-09-15 15:22 CST
-- 链接：https://www.36kr.com/p/3984219694856961
+- 发布时间：2026-09-15 20:36 CST
+- 链接：https://www.36kr.com/p/3984611166026500
 
-### 3. 突发，英伟达“封杀”Claude最强模型
-- 摘要：Anthropic的顶级金主们，正在集体拔网线。 英伟达、Palantir、博思艾伦，硅谷最不差钱、也最舍得在AI上砸钱的几家公司，最近默契地干了同一件事—— 在核心业务中，全线封杀Anthropic的旗舰模型Fable。 手段一家比一家狠。 一家给几百万美国家庭供电的公司，本来要让Fable测核心电网，Anthropic一句「不保证」，计划直接黄了。 英伟达则是把真正值钱的供应链AI全换成了自家的Nemotron，Fable只能碰一些不痛不痒的开源代码。 军工巨头诺斯罗普·格鲁曼干脆物理断网，在本地机房跑开源模型。 金主们集体翻脸，起因是三个月前，Anthropic单方面撕毁的一纸承诺。 一...
+### 3. 名场面，特朗普突袭连线老黄，发飙怒怼Dario「装小天使」
+- 摘要：就在今天，洛杉矶All-In峰会现场上演了名场面。 正在穿着皮衣在台上侃侃而谈的老黄，忽然接到了一通来电。 工作人员递上一部三星Galaxy Fold 8手机后，老黄看了一眼屏幕，接通了电话，还微笑着按下了免提键。 当台下观众听清来电人是特朗普后，全场沸腾了。 电话那头，特朗普的声音一如既往，极有煽动性。 他没有寒暄，直奔主题，对近期硅谷开始蔓延的AI恐慌论开炮！ 「我告诉你们，这一切都是骗局（Hoax）！」特朗普的声音响彻全场，「数据中心太棒了，它们让人们变得富有，让各个州变得富有。数据中心就是未来20到25年的石油！」 对于近期那些呼吁停止建设数据中心、放缓AI发展的声音，特朗普强硬表示：...
 - 作者：新智元
-- 发布时间：2026-09-15 15:22 CST
-- 链接：https://www.36kr.com/p/3984219832712195
+- 发布时间：2026-09-15 20:26 CST
+- 链接：https://www.36kr.com/p/3984612590926595
 
 ## 36氪 快讯（36kr-newsflash，zh，本窗口共 20 条）
 
@@ -665,7 +636,7 @@
 - 发布时间：2026-09-15 13:54 CST
 - 链接：http://www.geekpark.net/news/370325
 
-## 虎嗅（huxiu，zh，本窗口共 45 条）
+## 虎嗅（huxiu，zh，本窗口共 42 条）
 
 ### 1. AI最危险的地方，不是让最强的人失业
 - 摘要：DeepSeek的算子工程师刘胜与昨夜发了篇长文，今天上了热搜，标签是“顶尖工程师也有AI焦虑”、“必须转业”。评论区最高赞是一句自嘲：那我们现在岂不是49年入国军。但他原文里最狠的一句话，几乎没人转：“一个工程能力很差的人，在搭配上AI后，产出屎山的效率可以达到先前的数倍，进而给系统埋下各式祸患，让这个世界...... 本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 DeepSeek的算子工程师刘胜与昨夜发了篇长文，今天上了热搜，标签是“顶尖工程师也有AI焦虑”、“必须转业”。 评论区最高赞是一句自嘲：那我们现在岂不是49年入国军。 但他原文里最狠的一句话，几乎没人转：“...
@@ -866,25 +837,24 @@
 - 发布时间：2026-09-15 15:54 CST
 - 链接：https://github.com/rlaope/oh-my-hermes
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 170 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 134 条）
 
-### 1. Hugging Face is billing OpenAI $100M for hacking it
-- 摘要：After an OpenAI model hacked it, Hugging Face wants the agents' full execution traces and $100mn of compute. OpenAI has not agreed to either demand.
-- 作者：cwwc
-- 发布时间：2026-09-16 01:56 CST
-- 链接：https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand
+### 1. German Rheinmetall open-sources its Battlesuite connected weapon system protcol
+- 摘要：| | onboardapi 9.10.0 by Rheinmetall | onboardapi Documentation The onboardapi interface library and middleware is designed for seamless communication between sensor systems and software components. It provides a standardized data model that ensures interoperability across complex hardware and softw...
+- 作者：summarity
+- 发布时间：2026-09-16 05:07 CST
+- 链接：https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html
 
-### 2. Gemini 3.8 Live Extended Thinking audio-to-audio
-- 摘要：Learn about the Gemini 3.8 Live Extended Thinking model from Google
-- 作者：thisisauserid
-- 发布时间：2026-09-16 01:11 CST
-- 链接：https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking
+### 2. Microsoft's latest update breaks domain trust, causing widespread login failures
+- 作者：speckx
+- 发布时间：2026-09-16 03:54 CST
+- 链接：https://www.neowin.net/news/kb5129195-fails-to-fix-secure-domain-logins-broken-by-windows-11-kb5124008/
 
-### 3. I'm a doctor. Here's why I wouldn't get a full-body MRI scan
-- 摘要：Celebrities sing their praises, but I’m not convinced the average person needs or should spend their money on one.
-- 作者：bookofjoe
-- 发布时间：2026-09-16 01:11 CST
-- 链接：https://www.washingtonpost.com/wellness/2026/09/14/im-doctor-heres-why-i-wouldnt-get-full-body-mri-scan/
+### 3. Building a Linux GPU Driver for the M4 Mac Mini in One Month
+- 摘要：Personal website of Cody Ho
+- 作者：ADevWithAnIdea
+- 发布时间：2026-09-16 03:30 CST
+- 链接：https://codyho.dev/blog/gpu-driver/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 6 条）
 
@@ -906,7 +876,7 @@
 - 发布时间：2026-09-14 17:21 CST
 - 链接：https://www.producthunt.com/products/jurniti
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 12 条）
+## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 8 条）
 
 ### 1. I Think All the Current Pessimism is Just an Attempt by XAI, Anthropic, and Open AI to Get Local Models Criminalized
 - 摘要：I am not even that pro AI but the furor over the past few days seems suspicious to me.
@@ -925,25 +895,25 @@
 - 发布时间：2026-09-15 22:13 CST
 - 链接：https://v.redd.it/n55gbjbezoph1
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 433 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 383 条）
 
-### 1. Words.
-- 摘要：Just thought I'd throw my hat into the Seinfeld cesspool:). If you like to know anything, just ask
-- 作者：r0ni
-- 发布时间：2026-09-16 02:18 CST
-- 链接：https://v.redd.it/8l2vrymd6qph1
+### 1. Do people talk with Claude like they would talk with a human friend
+- 摘要：Hey all! I've got a question for the people who use Claude, or other LLMs like it, as a companion to talk with regularly just for the sake of conversation. What are the reasons you have for starting a conversation with Claude? Is it for casual chatting when you're bored, or do you go to it for advic...
+- 作者：Riggray
+- 发布时间：2026-09-16 05:29 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1whdjer/do_people_talk_with_claude_like_they_would_talk/
 
-### 2. Bernie Sanders and Steve Bannon to share a stage to promote curbs on AI
-- 摘要：The poles of U.S. politics are coming together over AI. Sanders and Bannon will appear at the "Pro-Human Assembly" in Washington, D.C., to convince Congress to work faster to curb the impact of AI.
-- 作者：sourdub
-- 发布时间：2026-09-16 02:18 CST
-- 链接：https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-to-share-a-stage-to-promote-curbs-on-ai
+### 2. Voice Acting Arena
+- 摘要：Hey everyone! We’re launching Voice Acting Arena with LAION x TTS Arena , and we’d love your help trying it out 🙂 You’ll hear two anonymous AI performances of the same scene and script, then compare them on overall acting, how well they follow the direction, and how genuine they feel. Some tasks als...
+- 作者：mrfakename0
+- 发布时间：2026-09-16 05:26 CST
+- 链接：https://v.redd.it/vuvukjzt4rph1
 
-### 3. Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3
-- 摘要：Meridian is a video-to-video model based on MiniMax-H3 that generates new viewpoints of existing footage. Three highlights: Camera paths + FOV: combine orbits, dollies, and slides into complex paths, controlling camera position, viewing direction, and field of view. Bullet time: freeze the action wh...
-- 作者：init-5
-- 发布时间：2026-09-16 02:17 CST
-- 链接：https://v.redd.it/si9cvlhf5qph1
+### 3. Regulation of Open Source models is likely coming
+- 摘要：Regulation of local models will come. I think that is, on the whole, good. It's a free world, and you're free to believe it's all IPO hype or regulatory capture etc. Real or imagined, such beliefs will not protect you from the consequences of highly capable AI systems. When open models reach the cur...
+- 作者：SteppenAxolotl
+- 发布时间：2026-09-16 05:26 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1whdfyq/regulation_of_open_source_models_is_likely_coming/
 
 ## 智源社区（baai-hub，zh，本窗口共 14 条）
 
@@ -966,7 +936,7 @@
 - 链接：https://hub.baai.ac.cn/view/57982
 
 ---
-共列出 145 条（窗口内采集总数 2473 条，来自 55 个信源）
+共列出 140 条（窗口内采集总数 2383 条，来自 54 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
