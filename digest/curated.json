@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-16T06:16:21.168492+00:00",
+ "generated_at": "2026-09-16T11:53:01.561688+00:00",
  "stats": {
-  "items": 2940,
-  "clusters": 2418,
-  "noise": 512,
-  "dup": 150,
+  "items": 1685,
+  "clusters": 1351,
+  "noise": 521,
+  "dup": 87,
   "history_days": 0,
   "available_cn": 190,
-  "available_intl": 1566,
+  "available_intl": 553,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,66 +16,25 @@
  "items": [
   {
    "rank": 1,
-   "title": "Machine Unlearning for Speech Question Answering in Large Audio-Language Models",
+   "title": "Rewarding Reasoning, Not Answers: Fixing and Bounding Test-Time Reinforcement Learning on Medical QA",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.13195",
-   "score": 12.0,
+   "url": "https://arxiv.org/abs/2609.16660",
+   "score": 8.0,
    "sources": [
     "arxiv-cs-cl",
-    "arxiv-cs-ai",
     "arxiv-cs-cv"
    ],
    "titles": [
-    "Machine Unlearning for Speech Question Answering in Large Audio-Language Models",
-    "ER-EDF: A Psychology-Grounded Emotion Regulation Framework for Speech Empathetic Dialogue Generation in Large Audio-Language Models",
-    "Augmenting Large Audio-Language Models with Frame-Level Grounding for Fine-Grained Temporal Perception",
-    "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control"
+    "Rewarding Reasoning, Not Answers: Fixing and Bounding Test-Time Reinforcement Learning on Medical QA",
+    "Thinking Deeper, Not Longer: Memory-Efficient Test-Time Reasoning with Depth-Recurrent Transformers for Compositional Generalization",
+    "IMVS: Interactive Medical Volume Segmentation with Test-Time Adaptation - A New Method for Annotating Radiology Datasets"
    ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.13195v1 Announce Type: cross Abstract: Large Audio-Language Models (LALMs) have recently shown strong capabilities in speech understanding and question answering (QA), but they also inherit privacy risks from..."
+   "published_at": "2026-09-16T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.16660v1 Announce Type: new Abstract: Test-time reinforcement learning adapts a model on its own unlabeled test set using majority-vote pseudo-labels and has shown strong results in mathematics. We show that th..."
   },
   {
    "rank": 2,
-   "title": "TryOnReward: Learning Foveated Consistency for Reinforcement Fine-Tuning of Virtual Try-On",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.13259",
-   "score": 12.0,
-   "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "TryOnReward: Learning Foveated Consistency for Reinforcement Fine-Tuning of Virtual Try-On",
-    "JewelTry: Mask-Free Scale Aware Jewelry Virtual Try-On",
-    "Structure-Detail Decoupled Autoregressive Generation for Fast and High-Fidelity Virtual Try-On",
-    "High-Fidelity Digital Twin Data Models by Randomized Dynamic Mode Decomposition and Deep Learning with Applications in Fluid Dynamics"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.13259v1 Announce Type: cross Abstract: Virtual Try-On (VTON) aims to dress a person with the reference garment, producing visually reasonable results aligned with human preferences. Turning this preference-ori..."
-  },
-  {
-   "rank": 3,
-   "title": "Crypto Accounting Bench: Evaluating Frontier and Open-Weight Models on Crypto-Asset Accounting Tasks",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.14811",
-   "score": 8.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Crypto Accounting Bench: Evaluating Frontier and Open-Weight Models on Crypto-Asset Accounting Tasks",
-    "Evaluating Open-Weight E-Commerce Agents with Environment-Grounded Verification"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.14811v1 Announce Type: cross Abstract: We introduce Crypto Accounting Bench (CAB), a benchmark for assessing whether frontier and open-weight language models can reconstruct the complete journal entry that an..."
-  },
-  {
-   "rank": 4,
    "title": "Where Post-Training Quantization Breaks Text Embedders: A Measured Map Across Four Embedder Families",
    "lang": "en",
    "region": "intl",
@@ -91,6 +50,42 @@
    ],
    "published_at": "2026-09-16T04:00:00.000000+00:00",
    "summary": "arXiv:2609.16391v1 Announce Type: cross Abstract: Weight-only post-training quantization is the cheapest way to shrink a retrieval embedder, and the received advice for applying it -- protect the embedding table, allocat..."
+  },
+  {
+   "rank": 3,
+   "title": "Large Language Models Develop Belief State Geometry In-Context",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.17376",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "Large Language Models Develop Belief State Geometry In-Context",
+    "On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models"
+   ],
+   "published_at": "2026-09-16T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.17376v1 Announce Type: cross Abstract: Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poor..."
+  },
+  {
+   "rank": 4,
+   "title": "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.16919",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
+    "Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents"
+   ],
+   "published_at": "2026-09-16T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.16919v1 Announce Type: new Abstract: This paper introduces NeuroSymbEAD, a large-scale neuro-symbolic caption dataset featuring an ego-centric knowledge graph (KG) of static and dynamic objects annotated with..."
   },
   {
    "rank": 5,
@@ -112,38 +107,56 @@
   },
   {
    "rank": 6,
-   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+   "title": "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
    "lang": "en",
    "region": "intl",
-   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
-   "score": 3.5,
+   "url": "https://www.cnbc.com/2026/09/15/elon-musk-ai-safety-testing.html",
+   "score": 4.5,
    "sources": [
-    "google-research"
+    "cnbc-tech",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train"
+    "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
+    "What the Rogue AI Bots Said to Each Other"
    ],
-   "published_at": "2026-09-15T20:00:35.000000+00:00",
-   "summary": "Algorithms & Theory"
+   "published_at": "2026-09-15T16:14:29.000000+00:00",
+   "summary": "Elon Musk called for the leading AI labs to peer review each others' models before they're released to the public as a way to evaluate their safety."
   },
   {
    "rank": 7,
-   "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+   "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
    "lang": "en",
    "region": "intl",
-   "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
-   "score": 3.42,
+   "url": "https://mistral.ai/news/mistral-x-mozilla/",
+   "score": 3.5,
    "sources": [
-    "hackernews-ai"
+    "mistral-news"
    ],
    "titles": [
-    "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA"
+    "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser"
    ],
-   "published_at": "2026-09-15T22:50:55.000000+00:00",
-   "summary": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA I've spent the last month adding features and improving performance in z486_MiSTer, mostly working through games from the first half of the 1990s. Looking..."
+   "published_at": "2026-09-16T12:00:00.000000+00:00",
+   "summary": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse."
   },
   {
    "rank": 8,
+   "title": "Amazon launches Alexa+ in India with Hindi support",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+   "score": 3.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Amazon launches Alexa+ in India with Hindi support"
+   ],
+   "published_at": "2026-09-16T10:34:47.000000+00:00",
+   "summary": "Amazon is letting all customers use Alexa+ assistant in early access period"
+  },
+  {
+   "rank": 9,
    "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
    "lang": "en",
    "region": "intl",
@@ -159,7 +172,7 @@
    "summary": "Most marketing teams aspire to be data-driven. In practice, getting a trusted answer,..."
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "Building AI to accelerate science and improve lives",
    "lang": "en",
    "region": "intl",
@@ -175,7 +188,7 @@
    "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …"
   },
   {
-   "rank": 10,
+   "rank": 11,
    "title": "AI for everyone in every language",
    "lang": "en",
    "region": "intl",
@@ -191,7 +204,7 @@
    "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed."
   },
   {
-   "rank": 11,
+   "rank": 12,
    "title": "Your Agent Aced the Task. Will It Do It Again?",
    "lang": "en",
    "region": "intl",
@@ -207,7 +220,7 @@
    "summary": "A Blog post by IBM Research on Hugging Face"
   },
   {
-   "rank": 12,
+   "rank": 13,
    "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
    "lang": "en",
    "region": "intl",
@@ -223,7 +236,7 @@
    "summary": "Energy theft is the deliberate use of gas or electricity without paying for it, typically..."
   },
   {
-   "rank": 13,
+   "rank": 14,
    "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
    "lang": "en",
    "region": "intl",
@@ -239,42 +252,24 @@
    "summary": "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster... For operators of large-scale AI factories, maximizing conti..."
   },
   {
-   "rank": 14,
-   "title": "Italian start-up Exein raises $270mn to fight AI hackers with AI",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/9fca2d3f-b689-4f08-801c-ee7f8475e7bc?syn-25a6b1a6=1",
-   "score": 3.0,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "Italian start-up Exein raises $270mn to fight AI hackers with AI"
-   ],
-   "published_at": "2026-09-15T04:00:28.000000+00:00",
-   "summary": "Rome-based company is developing a foundation model to protect billions of internet-connected devices, from robots to lightbulbs"
-  },
-  {
    "rank": 15,
-   "title": "阶跃发布 StepAudio 3 系列语音大模型，拿下多个全球第一",
+   "title": "“Anew Labs”完成2.9亿美元融资，红杉中国等参与投资",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/002/602.htm",
-   "score": 12.5,
+   "url": "https://www.36kr.com/newsflashes/3985627948989189",
+   "score": 10.5,
    "sources": [
-    "ithome",
-    "oschina",
+    "36kr-newsflash",
     "leiphone",
-    "baai-hub"
+    "ithome"
    ],
    "titles": [
-    "阶跃发布 StepAudio 3 系列语音大模型，拿下多个全球第一",
-    "阶跃星辰发布 Step Audio 3 系列语音模型，多款上榜全球第一",
-    "阶跃发布 StepAudio 3 ，多款语音模型登顶 Artificial Analysis 全球榜单",
-    "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开"
+    "“Anew Labs”完成2.9亿美元融资，红杉中国等参与投资",
+    "Anew Labs已完成 2.9 亿美元融资，红杉中国、高瓴、IDG、五源、高榕等参与",
+    "消息称字节跳动完成 2.9 亿美元融资，用于拆分 AI 制药业务 Anew Labs"
    ],
-   "published_at": "2026-09-15T07:45:40+00:00",
-   "summary": "IT之家 9 月 15 日消息，今日阶跃正式发布 StepAudio3 系列模型，包括 StepAudio3Realtime、StepAudio3ASR、StepAudio3TTS、StepAudio3Gen 和 StepAudio3Music，其中多款模型在 Artificial Analysis 榜单中位列全球第一。以上五款模型，目前均已上线阶跃星辰开放平台。 官方称，StepAudio 3 系列分别面向几类核心场景：真人级语音生成..."
+   "published_at": "2026-09-16T05:10:24.000000+00:00",
+   "summary": "36氪获悉，AI制药公司“Anew Labs”日前已完成首轮独立融资，融资总额 2.9 亿美元。本轮投资方涵盖红杉中国、IDG资本、高瓴创投、五源资本、高榕资本等投资机构，同时有多家国内医药产业集团作为战略投资方参与。据了解，今年6月，字节跳动将 AI 制药业务线拆分独立“Anew Labs”定位主体品牌。"
   },
   {
    "rank": 16,
@@ -298,11 +293,65 @@
   },
   {
    "rank": 17,
+   "title": "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/002/954.htm",
+   "score": 7.0,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
+    "vivo发布四款蓝心模型，并预研30B MoE端侧大模型"
+   ],
+   "published_at": "2026-09-16T02:43:42+00:00",
+   "summary": "IT之家 9 月 16 日消息，vivo 今日发布 原生编程智能体 BlueCode 预览版 ，目标把 AI 生产力装进口袋，同步探索让手机成为生产力终端。 同时，vivo 正在预研「蓝心 30B MoE 端侧大模型」， 探索在手机上应用 。 在今日的大会上，蓝心智能战略将全面升级，全新 OriginOS 7 与自研蓝河操作系统 4 同步登场，IT之家将持续跟进报道。"
+  },
+  {
+   "rank": 18,
+   "title": "蚂蚁阿福上线“AI饮食分”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3985608262433543",
+   "score": 7.0,
+   "sources": [
+    "36kr-newsflash",
+    "leiphone"
+   ],
+   "titles": [
+    "蚂蚁阿福上线“AI饮食分”",
+    "AI健康走进百姓餐桌，蚂蚁阿福推出AI饮食分功能"
+   ],
+   "published_at": "2026-09-16T04:58:10.000000+00:00",
+   "summary": "36氪获悉，据蚂蚁阿福消息，蚂蚁阿福联合中国营养学会上线“AI饮食分”，拍下一餐发给阿福，即可获得饮食分析和分数。"
+  },
+  {
+   "rank": 19,
+   "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/490400.html",
+   "score": 7.0,
+   "sources": [
+    "qbitai",
+    "leiphone"
+   ],
+   "titles": [
+    "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+    "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单"
+   ],
+   "published_at": "2026-09-16T06:32:31+00:00",
+   "summary": "9月16日，稳准智能联合清华大学发布新一代数据大模型 LimiX-2，模型参数规模提升至400M。"
+  },
+  {
+   "rank": 20,
    "title": "消息称 Meta 将推出无摄像头的智能眼镜，应对日益加剧的隐私顾虑",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/002/837.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "36kr-newsflash"
@@ -313,60 +362,6 @@
    ],
    "published_at": "2026-09-15T23:15:14+00:00",
    "summary": "IT之家 9 月 16 日消息，据 The Information 援引知情人士消息报道， Meta 计划于今年秋季推出一款不配备摄像头的智能眼镜 ，其内部代号为“Luna”。 智能眼镜产品所具备的摄录功能正面临越来越严格的隐私与安全审查，Meta 此举被视为对这一外界关注的回应。 该款新眼镜内置了六枚麦克风，支持通过语音交互接入 Meta 的 AI 聊天机器人，以及 Meta 面向消费者推出的 AI 智能体产品 Muse。“Luna”..."
-  },
-  {
-   "rank": 18,
-   "title": "Meta扎克伯格：保障AI安全应依靠评估人员，而非放缓AI",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3985350490979072",
-   "score": 6.0,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "Meta扎克伯格：保障AI安全应依靠评估人员，而非放缓AI",
-    "Meta 扎克伯格：保障 AI 安全应依靠引入独立外部评估，而不是放缓 AI 发展"
-   ],
-   "published_at": "2026-09-16T00:28:09.000000+00:00",
-   "summary": "元宇宙平台公司首席执行官马克・扎克伯格表示，人工智能实验室应当依靠独立评估人员与顾问，保障模型安全。扎克伯格周二在X平台发文称：“聘请独立评估人员与顾问是行业最佳实践。” 越来越多科技企业高管正参与这场全球性讨论，探讨如何防止人工智能系统对人类造成伤害，扎克伯格也加入其中。部分企业高管支持放缓人工智能研发节奏，并呼吁各方协作达成共识。扎克伯格写道，Meta自主决定暂缓Muse人工智能工具的研发，并未要求同行先同步放缓研发进度。（新浪财经..."
-  },
-  {
-   "rank": 19,
-   "title": "AI眼镜，谁是第一？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3985354389912323",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI眼镜，谁是第一？",
-    "AI眼镜，谁是第一？"
-   ],
-   "published_at": "2026-09-16T01:05:24.000000+00:00",
-   "summary": "张茗是一家国资背景投资基金的经理。2024 年10月她在深圳出差时看了几家AI眼镜公司，最终没有出手。彼时AI眼镜已经在海外火了大约半年，但一级市 场对这种产品形态还没有形成共识，很多人和她一样，选择了只看不投。 几个月后，情况变了。2025年春节前后，“杭州六小龙”概念走红，一位阿里系的朋友向张茗推荐了杭州的一家AI眼镜公司Rokid，这家公司此前做分体式AR设备，刚刚开始做AI眼镜，第一款产品尚未上市。张茗犹豫了一个月，再想约见创始..."
-  },
-  {
-   "rank": 20,
-   "title": "香港将推动全民AI培训",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3985595845311489",
-   "score": 6.0,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "香港将推动全民AI培训",
-    "香港将推动全民 AI 培训、推进跨境自动驾驶发展、助力国产飞机打进世界市场"
-   ],
-   "published_at": "2026-09-16T04:39:16.000000+00:00",
-   "summary": "香港特区行政长官李家超公布《香港特别行政区经济和社会发展第一个五年规划（2026—2030年）》，随即发表《行政长官2026年施政报告》（《施政报告》）。李家超在《施政报告》中提出，香港将推动全民AI培训，推出200多项培训课程及活动。（大湾区之声）"
   }
  ]
 }
