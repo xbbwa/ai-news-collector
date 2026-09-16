@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-16T17:11:51.528938+00:00",
+ "generated_at": "2026-09-16T20:18:40.997758+00:00",
  "stats": {
-  "items": 1721,
-  "clusters": 1346,
-  "noise": 514,
-  "dup": 85,
+  "items": 1640,
+  "clusters": 1308,
+  "noise": 488,
+  "dup": 83,
   "history_days": 0,
-  "available_cn": 194,
-  "available_intl": 553,
+  "available_cn": 191,
+  "available_intl": 546,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -107,24 +107,38 @@
   },
   {
    "rank": 6,
-   "title": "Wednesday briefing: Why tech companies might be only too happy for us to believe AI will ‘kill us all’",
+   "title": "nvidia/Cosmos3-Nano",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/world/2026/sep/16/wednesday-briefing-why-tech-companies-might-be-only-too-happy-for-us-to-believe-ai-will-kill-us-all",
-   "score": 5.0,
+   "url": "https://huggingface.co/nvidia/Cosmos3-Nano",
+   "score": 5.5,
    "sources": [
-    "guardian-ai",
-    "reddit-ai-new"
+    "hf-models-intl"
    ],
    "titles": [
-    "Wednesday briefing: Why tech companies might be only too happy for us to believe AI will ‘kill us all’",
-    "The Next AI Bottleneck Might Be Us"
+    "nvidia/Cosmos3-Nano"
    ],
-   "published_at": "2026-09-16T05:45:20.000000+00:00",
-   "summary": "In today’s newsletter: It is hard to tell fact from fiction when it comes to AI. What is really going on – and what should the government do about it? Good morning. As a general rule, it pays to be suspicious of any giga..."
+   "published_at": "2026-09-16T18:48:37.000000+00:00",
+   "summary": "cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm, vllm-omni, sglang, sglang-diffusion, text, image, video, audio, and action generation, omnimodel, license:other, deploy:azure, deploy:sagemaker, region..."
   },
   {
    "rank": 7,
+   "title": "nvidia/Cosmos3-Super",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/Cosmos3-Super",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/Cosmos3-Super"
+   ],
+   "published_at": "2026-09-16T18:48:38.000000+00:00",
+   "summary": "cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm, vllm-omni, sglang, sglang-diffusion, text, image, video, audio, and action generation, omnimodel, license:other, deploy:azure, deploy:sagemaker, region..."
+  },
+  {
+   "rank": 8,
    "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
    "lang": "en",
    "region": "intl",
@@ -142,7 +156,25 @@
    "summary": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE ( Nov 10-12 in SF ) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year! It’s very rare th..."
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+   "score": 4.55,
+   "sources": [
+    "techcrunch-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+    "Show HN: ManyBot – Framework to build WhatsApp bots, without the boring part"
+   ],
+   "published_at": "2026-09-15T20:12:53.000000+00:00",
+   "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting."
+  },
+  {
+   "rank": 10,
    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
    "lang": "en",
    "region": "intl",
@@ -158,43 +190,23 @@
    "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch..."
   },
   {
-   "rank": 9,
-   "title": "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/15/elon-musk-ai-safety-testing.html",
-   "score": 4.5,
-   "sources": [
-    "cnbc-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
-    "What the Rogue AI Bots Said to Each Other"
-   ],
-   "published_at": "2026-09-15T16:14:29.000000+00:00",
-   "summary": "Elon Musk called for the leading AI labs to peer review each others' models before they're released to the public as a way to evaluate their safety."
-  },
-  {
-   "rank": 10,
-   "title": "Why the US and China are at odds on AI threats",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d?syn-25a6b1a6=1",
-   "score": 4.5,
-   "sources": [
-    "ft-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Why the US and China are at odds on AI threats",
-    "China is beating the US in consumer AI adoption, thanks to super apps: report"
-   ],
-   "published_at": "2026-09-16T01:18:40.000000+00:00",
-   "summary": "Technological rivalry between Washington and Beijing makes it harder to agree how to manage potentially existential dangers"
-  },
-  {
    "rank": 11,
+   "title": "Improving HCLS AI reasoning with open-source agent skills",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+   "score": 4.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Improving HCLS AI reasoning with open-source agent skills"
+   ],
+   "published_at": "2026-09-16T19:00:00.000000+00:00",
+   "summary": "AI agents built on foundation models (FMs) often misapply healthcare and life sciences (HCLS) decision frameworks, even when they’ve seen the guidelines in training and in the system prompt. Ask an agent to classify a TP..."
+  },
+  {
+   "rank": 12,
    "title": "With AI, ‘I told you so’ will be too late",
    "lang": "en",
    "region": "intl",
@@ -212,7 +224,7 @@
    "summary": "Reducing the speed of innovation is going to be hard, both practically and politically, but it is the right decision"
   },
   {
-   "rank": 12,
+   "rank": 13,
    "title": "New stealth model: Union Alpha",
    "lang": "en",
    "region": "intl",
@@ -230,36 +242,20 @@
    "summary": "New stealth model: Union Alpha Free on OpenRouter and OpenCode Multimodal 256K context \"Frontier-level general-purpose performance” Here we go again. Any thoughts who it could be? Maybe Kimi?"
   },
   {
-   "rank": 13,
-   "title": "How workers are unlocking new ways of working",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/unlocking-new-ways-of-working",
-   "score": 3.5,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "How workers are unlocking new ways of working"
-   ],
-   "published_at": "2026-09-16T09:00:00.000000+00:00",
-   "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work."
-  },
-  {
    "rank": 14,
-   "title": "Reimagining advertising with AI",
+   "title": "Introducing System One Models and Jev",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/reimagining-advertising-with-ai",
-   "score": 3.5,
+   "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "score": 4.0,
    "sources": [
-    "openai-news"
+    "hackernews-ai"
    ],
    "titles": [
-    "Reimagining advertising with AI"
+    "Introducing System One Models and Jev"
    ],
-   "published_at": "2026-09-16T13:00:00.000000+00:00",
-   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
+   "published_at": "2026-09-15T19:25:03.000000+00:00",
+   "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access."
   },
   {
    "rank": 15,
@@ -283,24 +279,47 @@
   },
   {
    "rank": 16,
-   "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+   "title": "因卡身序列号褪色，用户的 RTX 5090 公版显卡被英伟达拒保",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/490400.html",
-   "score": 7.0,
+   "url": "https://www.ithome.com/1/003/306.htm",
+   "score": 8.5,
    "sources": [
-    "qbitai",
-    "leiphone"
+    "ithome",
+    "reddit-ai-new",
+    "baai-hub"
    ],
    "titles": [
-    "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
-    "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单"
+    "因卡身序列号褪色，用户的 RTX 5090 公版显卡被英伟达拒保",
+    "Don’t buy a $9K RTX 5090.... instead.",
+    "本周四直播 | 普通实验室也能做预训练？在RTX 5090上用5090美元即可平替Qwen2-1.5B，全流程开源预训练方案",
+    "Qwen3.8-27B uncensored Q6_K at 156K context on one RTX 5090, 140-190 tok/s with DFlash2"
    ],
-   "published_at": "2026-09-16T06:32:31+00:00",
-   "summary": "9月16日，稳准智能联合清华大学发布新一代数据大模型 LimiX-2，模型参数规模提升至400M。"
+   "published_at": "2026-09-16T13:52:43+00:00",
+   "summary": "IT之家 9 月 16 日消息，Reddit 用户 Willing-Avocado-4830 前天在 r/nvidia 板块发文称，他手里的公版 RTX 5090 FE 显卡一个月前出现高负载黑屏现象，于是他选择将显卡寄给英伟达，申请售后换卡。 然而等了大约一个月后，英伟达拒绝了他的售后申请。官方最初没有给出太多解释，直到用户追问后才表示， 本次售后拒绝的原因是卡身序列号褪色严重 。 该用户表示，自己从未拆下显卡挡板，并且可以提供原始包..."
   },
   {
    "rank": 17,
+   "title": "智谱、MiniMax，大砍销售开支",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3984537991239556",
+   "score": 8.0,
+   "sources": [
+    "36kr-ai",
+    "tmtpost",
+    "baai-hub"
+   ],
+   "titles": [
+    "智谱、MiniMax，大砍销售开支",
+    "智谱、MiniMax，大砍销售开支",
+    "梁文锋CFO到位！投过智谱MiniMax"
+   ],
+   "published_at": "2026-09-15T12:11:50.000000+00:00",
+   "summary": "2026年上半年财报披露了一个反常现象：智谱与MiniMax两家公司的营收均实现了翻倍以上的增长，但销售费用却同时出现下降。 智谱营收9.54亿元，同比增长399.7%，但销售及营销开支不增反降，同比缩减14.8%至1.78亿元。 MiniMax也交出了类似的答卷。营收7.86亿元，同比增长283.1%；销售及分销费用同比下降17.9%至1.81亿元。 营收暴涨、销售费用反降——这条在传统行业或SaaS领域画不出的曲线，揭示了大模型公司..."
+  },
+  {
+   "rank": 18,
    "title": "知名哲学家造AI芯片，融资超15亿，前ASML总裁加盟",
    "lang": "zh",
    "region": "cn",
@@ -318,7 +337,7 @@
    "summary": "芯东西9月15日消息，今天，荷兰AI芯片初创公司Euclyd宣布完成A轮融资，融资金额超 2亿欧元 （约合人民币15.48亿元），联合领投方包括三星、Somerset Capital Partners、EQT旗下Scaleup Europe Fund及Innovation Industries，丹麦出口投资基金EIFO、imec.xpand、BOM及Quadri参投。 同日，前ASML总裁兼CEO Peter Wennin加入Eucly..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "消息称 Meta 将推出无摄像头的智能眼镜，应对日益加剧的隐私顾虑",
    "lang": "zh",
    "region": "cn",
@@ -336,7 +355,7 @@
    "summary": "IT之家 9 月 16 日消息，据 The Information 援引知情人士消息报道， Meta 计划于今年秋季推出一款不配备摄像头的智能眼镜 ，其内部代号为“Luna”。 智能眼镜产品所具备的摄录功能正面临越来越严格的隐私与安全审查，Meta 此举被视为对这一外界关注的回应。 该款新眼镜内置了六枚麦克风，支持通过语音交互接入 Meta 的 AI 聊天机器人，以及 Meta 面向消费者推出的 AI 智能体产品 Muse。“Luna”..."
   },
   {
-   "rank": 19,
+   "rank": 20,
    "title": "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
    "lang": "zh",
    "region": "cn",
@@ -352,24 +371,6 @@
    ],
    "published_at": "2026-09-16T02:43:42+00:00",
    "summary": "IT之家 9 月 16 日消息，vivo 今日发布 原生编程智能体 BlueCode 预览版 ，目标把 AI 生产力装进口袋，同步探索让手机成为生产力终端。 同时，vivo 正在预研「蓝心 30B MoE 端侧大模型」， 探索在手机上应用 。 在今日的大会上，蓝心智能战略将全面升级，全新 OriginOS 7 与自研蓝河操作系统 4 同步登场，IT之家将持续跟进报道。"
-  },
-  {
-   "rank": 20,
-   "title": "蚂蚁阿福上线“AI饮食分”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3985608262433543",
-   "score": 6.5,
-   "sources": [
-    "36kr-newsflash",
-    "leiphone"
-   ],
-   "titles": [
-    "蚂蚁阿福上线“AI饮食分”",
-    "AI健康走进百姓餐桌，蚂蚁阿福推出AI饮食分功能"
-   ],
-   "published_at": "2026-09-16T04:58:10.000000+00:00",
-   "summary": "36氪获悉，据蚂蚁阿福消息，蚂蚁阿福联合中国营养学会上线“AI饮食分”，拍下一餐发给阿福，即可获得饮食分析和分数。"
   }
  ]
 }
