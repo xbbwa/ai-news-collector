@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-16T20:18:40.997758+00:00",
+ "generated_at": "2026-09-16T23:05:49.798968+00:00",
  "stats": {
-  "items": 1640,
-  "clusters": 1308,
-  "noise": 488,
-  "dup": 83,
+  "items": 1591,
+  "clusters": 1292,
+  "noise": 493,
+  "dup": 82,
   "history_days": 0,
-  "available_cn": 191,
-  "available_intl": 546,
+  "available_cn": 168,
+  "available_intl": 549,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -157,21 +157,21 @@
   },
   {
    "rank": 9,
-   "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+   "title": "Why the US and China are at odds on AI threats",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+   "url": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d?syn-25a6b1a6=1",
    "score": 4.55,
    "sources": [
-    "techcrunch-ai",
+    "ft-tech",
     "hackernews-ai"
    ],
    "titles": [
-    "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-    "Show HN: ManyBot – Framework to build WhatsApp bots, without the boring part"
+    "Why the US and China are at odds on AI threats",
+    "As the world debates the risks of AI, China closes technology gap with the US"
    ],
-   "published_at": "2026-09-15T20:12:53.000000+00:00",
-   "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting."
+   "published_at": "2026-09-16T01:18:40.000000+00:00",
+   "summary": "Technological rivalry between Washington and Beijing makes it harder to agree how to manage potentially existential dangers"
   },
   {
    "rank": 10,
@@ -243,19 +243,19 @@
   },
   {
    "rank": 14,
-   "title": "Introducing System One Models and Jev",
+   "title": "How to connect AI usage to business value",
    "lang": "en",
    "region": "intl",
-   "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-   "score": 4.0,
+   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "score": 3.5,
    "sources": [
-    "hackernews-ai"
+    "openai-news"
    ],
    "titles": [
-    "Introducing System One Models and Jev"
+    "How to connect AI usage to business value"
    ],
-   "published_at": "2026-09-15T19:25:03.000000+00:00",
-   "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access."
+   "published_at": "2026-09-16T12:00:00.000000+00:00",
+   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes."
   },
   {
    "rank": 15,
@@ -300,44 +300,6 @@
   },
   {
    "rank": 17,
-   "title": "智谱、MiniMax，大砍销售开支",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3984537991239556",
-   "score": 8.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost",
-    "baai-hub"
-   ],
-   "titles": [
-    "智谱、MiniMax，大砍销售开支",
-    "智谱、MiniMax，大砍销售开支",
-    "梁文锋CFO到位！投过智谱MiniMax"
-   ],
-   "published_at": "2026-09-15T12:11:50.000000+00:00",
-   "summary": "2026年上半年财报披露了一个反常现象：智谱与MiniMax两家公司的营收均实现了翻倍以上的增长，但销售费用却同时出现下降。 智谱营收9.54亿元，同比增长399.7%，但销售及营销开支不增反降，同比缩减14.8%至1.78亿元。 MiniMax也交出了类似的答卷。营收7.86亿元，同比增长283.1%；销售及分销费用同比下降17.9%至1.81亿元。 营收暴涨、销售费用反降——这条在传统行业或SaaS领域画不出的曲线，揭示了大模型公司..."
-  },
-  {
-   "rank": 18,
-   "title": "知名哲学家造AI芯片，融资超15亿，前ASML总裁加盟",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3984446218943489",
-   "score": 6.5,
-   "sources": [
-    "36kr-ai",
-    "huxiu"
-   ],
-   "titles": [
-    "知名哲学家造AI芯片，融资超15亿，前ASML总裁加盟",
-    "临床资产为零，估值15亿美元：字节的AI制药生意在赌什么？"
-   ],
-   "published_at": "2026-09-15T10:20:48.000000+00:00",
-   "summary": "芯东西9月15日消息，今天，荷兰AI芯片初创公司Euclyd宣布完成A轮融资，融资金额超 2亿欧元 （约合人民币15.48亿元），联合领投方包括三星、Somerset Capital Partners、EQT旗下Scaleup Europe Fund及Innovation Industries，丹麦出口投资基金EIFO、imec.xpand、BOM及Quadri参投。 同日，前ASML总裁兼CEO Peter Wennin加入Eucly..."
-  },
-  {
-   "rank": 19,
    "title": "消息称 Meta 将推出无摄像头的智能眼镜，应对日益加剧的隐私顾虑",
    "lang": "zh",
    "region": "cn",
@@ -355,7 +317,7 @@
    "summary": "IT之家 9 月 16 日消息，据 The Information 援引知情人士消息报道， Meta 计划于今年秋季推出一款不配备摄像头的智能眼镜 ，其内部代号为“Luna”。 智能眼镜产品所具备的摄录功能正面临越来越严格的隐私与安全审查，Meta 此举被视为对这一外界关注的回应。 该款新眼镜内置了六枚麦克风，支持通过语音交互接入 Meta 的 AI 聊天机器人，以及 Meta 面向消费者推出的 AI 智能体产品 Muse。“Luna”..."
   },
   {
-   "rank": 20,
+   "rank": 18,
    "title": "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
    "lang": "zh",
    "region": "cn",
@@ -371,6 +333,42 @@
    ],
    "published_at": "2026-09-16T02:43:42+00:00",
    "summary": "IT之家 9 月 16 日消息，vivo 今日发布 原生编程智能体 BlueCode 预览版 ，目标把 AI 生产力装进口袋，同步探索让手机成为生产力终端。 同时，vivo 正在预研「蓝心 30B MoE 端侧大模型」， 探索在手机上应用 。 在今日的大会上，蓝心智能战略将全面升级，全新 OriginOS 7 与自研蓝河操作系统 4 同步登场，IT之家将持续跟进报道。"
+  },
+  {
+   "rank": 19,
+   "title": "蚂蚁阿福上线“AI饮食分”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3985608262433543",
+   "score": 6.5,
+   "sources": [
+    "36kr-newsflash",
+    "leiphone"
+   ],
+   "titles": [
+    "蚂蚁阿福上线“AI饮食分”",
+    "AI健康走进百姓餐桌，蚂蚁阿福推出AI饮食分功能"
+   ],
+   "published_at": "2026-09-16T04:58:10.000000+00:00",
+   "summary": "36氪获悉，据蚂蚁阿福消息，蚂蚁阿福联合中国营养学会上线“AI饮食分”，拍下一餐发给阿福，即可获得饮食分析和分数。"
+  },
+  {
+   "rank": 20,
+   "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/490400.html",
+   "score": 6.5,
+   "sources": [
+    "qbitai",
+    "leiphone"
+   ],
+   "titles": [
+    "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+    "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单"
+   ],
+   "published_at": "2026-09-16T06:32:31+00:00",
+   "summary": "9月16日，稳准智能联合清华大学发布新一代数据大模型 LimiX-2，模型参数规模提升至400M。"
   }
  ]
 }
