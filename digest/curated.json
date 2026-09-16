@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-15T21:35:05.410557+00:00",
+ "generated_at": "2026-09-16T00:36:29.012394+00:00",
  "stats": {
-  "items": 2372,
-  "clusters": 1931,
-  "noise": 468,
-  "dup": 99,
+  "items": 2392,
+  "clusters": 1991,
+  "noise": 511,
+  "dup": 126,
   "history_days": 0,
-  "available_cn": 165,
-  "available_intl": 1199,
+  "available_cn": 174,
+  "available_intl": 1180,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,372 +16,351 @@
  "items": [
   {
    "rank": 1,
-   "title": "Parameter-Efficient Adaptation of Pretrained Language Models for Time-Series Forecasting",
+   "title": "Sequential Adapter Stacking for Cross-Lingual Low-Resource ASR",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.15344",
-   "score": 12.0,
+   "url": "https://arxiv.org/abs/2609.15758",
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Sequential Adapter Stacking for Cross-Lingual Low-Resource ASR",
+    "Data Scale, Not Latency, Shapes Cross-Lingual Encoder Transfer in Streaming ASR"
+   ],
+   "published_at": "2026-09-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.15758v1 Announce Type: new Abstract: Extending large-scale multilingual automatic speech recognition (ASR) models to low-resource languages remains challenging. Model performance is skewed toward high-resource..."
+  },
+  {
+   "rank": 2,
+   "title": "Before You Poll with LLMs: A Deliberative Diagnostic Framework",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.15849",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Before You Poll with LLMs: A Deliberative Diagnostic Framework",
+    "ZEBRAARENA: A Diagnostic Simulation Environment for Studying Reasoning-Action Coupling in Tool-Augmented LLMs"
+   ],
+   "published_at": "2026-09-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.15849v1 Announce Type: new Abstract: Can LLMs reason through new information like humans, or do they merely retrieve cached opinions? This is critical for silicon sampling, where LLM personas simulate public o..."
+  },
+  {
+   "rank": 3,
+   "title": "Machine Unlearning for Speech Question Answering in Large Audio-Language Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.13195",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Machine Unlearning for Speech Question Answering in Large Audio-Language Models",
+    "ER-EDF: A Psychology-Grounded Emotion Regulation Framework for Speech Empathetic Dialogue Generation in Large Audio-Language Models",
+    "Augmenting Large Audio-Language Models with Frame-Level Grounding for Fine-Grained Temporal Perception"
+   ],
+   "published_at": "2026-09-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.13195v1 Announce Type: cross Abstract: Large Audio-Language Models (LALMs) have recently shown strong capabilities in speech understanding and question answering (QA), but they also inherit privacy risks from..."
+  },
+  {
+   "rank": 4,
+   "title": "Convergent Emergence of In-Context Learning Across Modalities",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.14011",
+   "score": 7.5,
+   "sources": [
     "arxiv-cs-ai",
     "arxiv-cs-lg"
    ],
    "titles": [
-    "Parameter-Efficient Adaptation of Pretrained Language Models for Time-Series Forecasting",
-    "Diagnosing Temporal Misalignment in Multichannel Time-Series Classification with Minimum Description Length",
-    "T-SMART: Mechanism-Level Attribution for Tool-Augmented Time-Series Question Answering"
+    "Convergent Emergence of In-Context Learning Across Modalities",
+    "TwinICL: Diagnosing Multimodal In-Context Learning through Paired Counterfactuals"
    ],
    "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.15344v1 Announce Type: cross Abstract: We study the adaptation of pretrained language models to univariate time-series forecasting through a parameter-efficient transfer learning framework, with the goal of un..."
-  },
-  {
-   "rank": 2,
-   "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.13466",
-   "score": 12.0,
-   "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-lg",
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-    "Unsupervised Keypoints for Real-Time Fall Detection: Comparative Analysis Under Real-world Conditions with Predictive Bandwidth Reduction",
-    "HGSQ: Heatmap-Guided Sparse Query Detector for Real-Time Aerial Small Object Detection",
-    "Towards Practical Precision Agriculture: Real-Time Fruit Detection and Video Analytics on Embedded Edge Hardware",
-    "Development of Low-Cost Real-Time Driver Drowsiness Detection System using Eye Centre Tracking and Dynamic Thresholding",
-    "Contour-Guided Spectral Routing for Robust Real-Time Pedestrian Detection",
-    "Tele360: Real-Time Feed-Forward Human Reconstruction from Sparse Unposed Cameras"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes..."
-  },
-  {
-   "rank": 3,
-   "title": "TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.14565",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation",
-    "LLM-Based Schema-Aware Split Learning for Privacy-Preserving Mental Distress Prediction Across Heterogeneous Surveys"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.14565v1 Announce Type: new Abstract: LLM-based sequential recommenders usually cast next-item prediction as text generation, but this interface is poorly matched to full-catalog top-K ranking. We propose TATK,..."
-  },
-  {
-   "rank": 4,
-   "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.14857",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
-    "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
-    "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.14857v1 Announce Type: new Abstract: Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from exp..."
+   "summary": "arXiv:2609.14011v1 Announce Type: new Abstract: Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has b..."
   },
   {
    "rank": 5,
-   "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+   "title": "Building AI to accelerate science and improve lives",
    "lang": "en",
    "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
-   "score": 6.5,
-   "sources": [
-    "nvidia-blog",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
-    "Closed source AI is more dangerous than open source AI.",
-    "closed source ai bad"
-   ],
-   "published_at": "2026-09-15T09:00:42.000000+00:00",
-   "summary": "Children’s Hospital of Philadelphia is using open source AI tools to model children’s hearts in seconds — with the goal of enabling safer, more precise care for kids with congenital heart disease."
-  },
-  {
-   "rank": 6,
-   "title": "Australia’s AI Regulation Debate",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-15/australia-s-ai-regulation-debate-video",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "cnbc-tech"
-   ],
-   "titles": [
-    "Australia’s AI Regulation Debate",
-    "Two camps have emerged in the debate over AI safety and regulation"
-   ],
-   "published_at": "2026-09-15T04:47:06.000000+00:00",
-   "summary": "The global debate over AI safety is intensifying, as President Trump dismisses industry calls for a slowdown as a \"conspiracy theory,\" and China brands fresh warnings about the tech \"fearmongering.\" At the same time, Aus..."
-  },
-  {
-   "rank": 7,
-   "title": "ibm-granite/granite-speech-5.0-470m-turboctc",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc",
-   "score": 5.31,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "ibm-granite/granite-speech-5.0-470m-turboctc"
-   ],
-   "published_at": "2026-09-15T19:29:10.000000+00:00",
-   "summary": "automatic-speech-recognition, transformers, safetensors, granite_speech5_ctc, en, license:apache-2.0, endpoints_compatible, region:us"
-  },
-  {
-   "rank": 8,
-   "title": "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
-   "score": 5.07,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
-    "Show HN: TabPFN-3.5, a Tabular Foundation Model for messy real-world tables"
-   ],
-   "published_at": "2026-09-15T16:18:50.000000+00:00",
-   "summary": "Prior Labs released their latest tabular foundation model, TabPFN-3.5 today. The model is top of both TabArena and BeyondArena and SOTA for 1M rows and up to 20k features It comes with: - TabPFN-3.5-Fast (in alpha): This..."
-  },
-  {
-   "rank": 9,
-   "title": "Should AI Development Slow Down? Inside the Debate: Live Q&A",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/sessions/2026-09-15/live-q-amp-a-the-heated-debate-over-slowing-down-ai-development",
-   "score": 5.0,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Should AI Development Slow Down? Inside the Debate: Live Q&A",
-    "Trump is right: countries like China won’t slow down AI development, so neither should we. We need to stay ahead."
-   ],
-   "published_at": "2026-09-15T15:30:31.000000+00:00",
-   "summary": "Bloomberg journalists answer your questions about the high-stakes debate over calls to slow down AI development ahead of the US midterm elections in a Live Q&A today at 2:30 p.m. EDT"
-  },
-  {
-   "rank": 10,
-   "title": "Bernie Sanders and Steve Bannon call for curbs on AI at ‘pro-human’ summit",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/us-news/2026/sep/15/bernie-sanders-steve-bannon-ai-summit",
-   "score": 5.0,
-   "sources": [
-    "guardian-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Bernie Sanders and Steve Bannon call for curbs on AI at ‘pro-human’ summit",
-    "Bernie Sanders and Steve Bannon to share a stage to promote curbs on AI"
-   ],
-   "published_at": "2026-09-15T19:51:39.000000+00:00",
-   "summary": "Leftwing senator and far-right strategist rail against tech oligarchs but offer competing visions on Chinese ‘cold war’ The progressive senator Bernie Sanders and rightwing strategist Steve Bannon have called for restric..."
-  },
-  {
-   "rank": 11,
-   "title": "What an AI slowdown could mean for investors",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/3f1c49db-6406-4a2d-b562-9caa233bf8b3?syn-25a6b1a6=1",
-   "score": 4.55,
-   "sources": [
-    "ft-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "What an AI slowdown could mean for investors",
-    "Investors nervous about AI spending slowdown after industry warnings"
-   ],
-   "published_at": "2026-09-15T04:00:00.000000+00:00",
-   "summary": "Slowing down could reduce the enormous amounts of cash being lavished on training new models"
-  },
-  {
-   "rank": 12,
-   "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
-   "score": 4.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Announcing instance preference lists for Amazon SageMaker AI training jobs",
-    "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization"
-   ],
-   "published_at": "2026-09-15T16:01:47.000000+00:00",
-   "summary": "Getting access to the right GPUs when you need them is one of the biggest challenges in training or customizing AI models at scale. During peak demand periods, your preferred GPU may not be immediately available – and wh..."
-  },
-  {
-   "rank": 13,
-   "title": "I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://v.redd.it/dxjlt1b5toph1",
-   "score": 4.0,
-   "sources": [
-    "reddit-ai-new",
-    "reddit-ai-hot"
-   ],
-   "titles": [
-    "I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys",
-    "I made a virtual piano with virtual mechanisms to allow agents to speak via piano keys"
-   ],
-   "published_at": "2026-09-15T13:38:41.000000+00:00",
-   "summary": ""
-  },
-  {
-   "rank": 14,
-   "title": "AI for Societal Impact",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
    "score": 3.5,
    "sources": [
     "google-ai-blog"
    ],
    "titles": [
-    "AI for Societal Impact"
+    "Building AI to accelerate science and improve lives"
    ],
    "published_at": "2026-09-15T16:00:00.000000+00:00",
-   "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI."
+   "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …"
+  },
+  {
+   "rank": 6,
+   "title": "AI for everyone in every language",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+   "score": 3.5,
+   "sources": [
+    "google-ai-blog"
+   ],
+   "titles": [
+    "AI for everyone in every language"
+   ],
+   "published_at": "2026-09-15T16:00:00.000000+00:00",
+   "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed."
+  },
+  {
+   "rank": 7,
+   "title": "Your Agent Aced the Task. Will It Do It Again?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+   "score": 3.5,
+   "sources": [
+    "huggingface-blog"
+   ],
+   "titles": [
+    "Your Agent Aced the Task. Will It Do It Again?"
+   ],
+   "published_at": "2026-09-15T16:00:44.000000+00:00",
+   "summary": "A Blog post by IBM Research on Hugging Face"
+  },
+  {
+   "rank": 8,
+   "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
+   "score": 3.5,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "How energy teams turn theft detection into governed action with Genie and AI business processes"
+   ],
+   "published_at": "2026-09-15T16:50:00.000000+00:00",
+   "summary": "Energy theft is the deliberate use of gas or electricity without paying for it, typically..."
+  },
+  {
+   "rank": 9,
+   "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-developer"
+   ],
+   "titles": [
+    "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories"
+   ],
+   "published_at": "2026-09-15T16:55:00.000000+00:00",
+   "summary": "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster... For operators of large-scale AI factories, maximizing conti..."
+  },
+  {
+   "rank": 10,
+   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+   "score": 3.5,
+   "sources": [
+    "google-research"
+   ],
+   "titles": [
+    "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train"
+   ],
+   "published_at": "2026-09-15T20:00:35.000000+00:00",
+   "summary": "Algorithms & Theory"
+  },
+  {
+   "rank": 11,
+   "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+   "score": 3.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round"
+   ],
+   "published_at": "2026-09-15T15:22:48.000000+00:00",
+   "summary": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C."
+  },
+  {
+   "rank": 12,
+   "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://withcapsule.app/",
+   "score": 3.42,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Show HN: Capsule – Single-file web apps that save their data into SQLite"
+   ],
+   "published_at": "2026-09-15T13:31:40.000000+00:00",
+   "summary": "Hey HN, I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building..."
+  },
+  {
+   "rank": 13,
+   "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+   "score": 3.14,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "There's a 100% Chance AI Agents Are Ruining the Internet"
+   ],
+   "published_at": "2026-09-15T16:38:45.000000+00:00",
+   "summary": "“AI agents” now have enough power and permission to be extremely annoying online."
+  },
+  {
+   "rank": 14,
+   "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant"
+   ],
+   "published_at": "2026-09-15T00:36:33.000000+00:00",
+   "summary": "Most marketing teams aspire to be data-driven. In practice, getting a trusted answer,..."
   },
   {
    "rank": 15,
-   "title": "我们需要警惕一种情形：美国AI巨头的“减速论”，可能会对开源模型构成实质性绞杀",
+   "title": "阿莫迪口嗨AI减速，这边Opus 5.2疑似已灰测",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4891184.html",
-   "score": 10.0,
+   "url": "https://www.36kr.com/p/3984014015092610",
+   "score": 11.5,
    "sources": [
-    "huxiu",
     "36kr-ai",
-    "tmtpost"
+    "tmtpost",
+    "reddit-ai-new",
+    "baai-hub"
    ],
    "titles": [
-    "我们需要警惕一种情形：美国AI巨头的“减速论”，可能会对开源模型构成实质性绞杀",
-    "我们需要警惕一种情形：美国AI巨头的“减速论”，可能会对开源模型构成实质性绞杀",
-    "我们需要警惕一种情形：美国AI巨头的“减速论”，可能会对开源模型构成实质性绞杀"
+    "阿莫迪口嗨AI减速，这边Opus 5.2疑似已灰测",
+    "阿莫迪口嗨AI减速，这边Opus 5.2疑似已灰测",
+    "突发，Opus 5.2深夜上线，RSI真来了？",
+    "Opus 5.2 Roblox Showcase",
+    "突发！Opus 5.2深夜上线，RSI真来了？"
    ],
-   "published_at": "2026-09-14T23:55:08.000000+00:00",
-   "summary": "2024年8月JRE#2190节目中，风投大师Peter Thiel与Joe Rogan这个著名的阴谋论者开始一本正经的讨论，掌握了曲率/超光速旅行的外星人社会是什么样的。Thiel十分严谨推理道：It's not that they might be demons or angels,it's that t...... 本文来自微信公众号： 锦缎 ，作者：牧之 2024年8月JRE#2190节目中，风投大师Peter Thiel与Jo..."
+   "published_at": "2026-09-15T02:07:02.000000+00:00",
+   "summary": "阿莫迪刚刚还在发文倡导AI减速，第二天特朗普就表示：想都别想。 “我希望继续保持领先，因为谁赢得AI，谁就赢。” 9月13日播出的CBS采访里，就连刚提出给前沿AI限速的阿莫迪自己，也承认了这套方案很难实现。 “坦率地说，我不知道这是否可能。” 与此同时，Anthropic仍在筹备最高融资1000亿美元、估值约2万亿美元的超级IPO，目标是在11月美国中期选举前上市。 嘴上刹车，脚下猛踩油门，巨头不只是光说不练，谷歌和Anthropic..."
   },
   {
    "rank": 16,
-   "title": "AI巨头，盯上“金融牛马”",
+   "title": "Meta 打造“组织第二大脑”智能体的设计思路",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4891205.html",
-   "score": 9.0,
+   "url": "https://www.infoq.cn/article/4OXJdfB36TpMRdvrVgIc?utm_source=rss&utm_medium=article",
+   "score": 10.0,
    "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI巨头，盯上“金融牛马”",
-    "AI巨头，盯上“金融牛马”",
-    "AI巨头，盯上“金融牛马”"
-   ],
-   "published_at": "2026-09-15T01:32:29.000000+00:00",
-   "summary": "巨头排队攻入AI金融。定焦One（dingjiaoone）原创Louis构思好框架后把素材喂给AI，再调出几个自建的Skill，只要几个小时，一份符合他思路且相对完整的调研报告就出炉了。同样的活，2020年的中秋，他写了一整个假期。Louis在金融行业待了10年，做过行业研究员、产品经理，参与过全国性金融系统...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 巨头排队攻入AI金融。 定焦One（dingj..."
-  },
-  {
-   "rank": 17,
-   "title": "联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/002/373.htm",
-   "score": 6.5,
-   "sources": [
+    "infoq-cn",
     "ithome",
     "36kr-newsflash"
    ],
    "titles": [
-    "联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起",
-    "小米18Pro系列本月发布，或将6999/7999元起售"
+    "Meta 打造“组织第二大脑”智能体的设计思路",
+    "消息称 Meta 将推出无摄像头的智能眼镜，应对日益加剧的隐私顾虑",
+    "Meta据报将推出无摄像头AI眼镜，代号“Luna”"
    ],
-   "published_at": "2026-09-15T00:39:08+00:00",
-   "summary": "IT之家 9 月 15 日消息，联想来酷斗战者 AI 私有云主机今日 9:00 正式开售， 售价 6999 元起 ： AI NAS 900（Ultra 7 355、16GB+512GB）：6999 元 AI NAS 900 Pro（Ultra X9 388H、64GB+512GB）：17999 元 该产品定位 AI 私有云主机，搭载飞牛 fnOS 系统，提供 Windows 系统驱动；板载至高 64GB LPDDR5 / 5x 高频内存..."
+   "published_at": "2026-09-15T03:21:00+00:00",
+   "summary": "点击查看原文>"
+  },
+  {
+   "rank": 17,
+   "title": "首个AIGC长片大赛！RunningHub单项大奖100万，科幻IP免费改编",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/489260.html",
+   "score": 6.0,
+   "sources": [
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "首个AIGC长片大赛！RunningHub单项大奖100万，科幻IP免费改编",
+    "首个AIGC长片大赛！RunningHub设单项大奖100万现金，科幻IP免费改编"
+   ],
+   "published_at": "2026-09-15T12:48:48+00:00",
+   "summary": "刘慈欣督战"
   },
   {
    "rank": 18,
-   "title": "字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响",
+   "title": "“裁判”不想给阿莫迪吹暂停",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3984022571964039",
-   "score": 6.5,
+   "url": "https://www.huxiu.com/article/4891194.html",
+   "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "ithome"
-   ],
-   "titles": [
-    "字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响",
-    "曝字节将发布独立智能网盘“ADrive”"
-   ],
-   "published_at": "2026-09-15T03:36:28.000000+00:00",
-   "summary": "随着AI办公、智能体应用逐步落地，云存储的核心价值正从“单纯存文件”，转向“数据沉淀、高效复用、人机协同”，国内头部互联网厂商也开始集中发力全新的智能网盘赛道。 《读佳》独家获知，字节跳动将在9月发布全新且独立的智能网盘产品ADrive，产品Slogan为“连接你的AI应用，让文件与产物持续可用”。 该产品由火山引擎打造，是一款面向AI智能体与人类用户协同办公的企业级智能网盘，主打统一文件存储与团队协作能力。 目前官方已开启试用申请。..."
-  },
-  {
-   "rank": 19,
-   "title": "智象发布首款物理规律导向视频模型",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3984369793022726",
-   "score": 6.5,
-   "sources": [
-    "36kr-newsflash",
-    "qbitai"
-   ],
-   "titles": [
-    "智象发布首款物理规律导向视频模型",
-    "全球AI视频榜单第一梯队再添中国力量：智象发布首款物理规律导向视频模型"
-   ],
-   "published_at": "2026-09-15T07:50:32.000000+00:00",
-   "summary": "36氪获悉，智象未来（HiDream.ai）正式发布首个原生全模态视频生成模型HiDream-O1-Video-1.0（模型简称HD-V1）。HD-V1采用智象自研原生全模态架构，支持文本、图片、视频等多种模态输入，可一键直出5–20秒1080p高保真视频，同时在意图理解、物理规律理解、自主规划叙事、以及音画一体化生成等维度均全面升级。"
-  },
-  {
-   "rank": 20,
-   "title": "号称人类造的最后一个 AI 要来了，刷屏全网的 RSI 是什么",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ifanr.com/1679813?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "score": 6.0,
-   "sources": [
-    "ifanr",
+    "huxiu",
     "36kr-ai"
    ],
    "titles": [
-    "号称人类造的最后一个 AI 要来了，刷屏全网的 RSI 是什么",
-    "号称人类造的最后一个 AI 要来了，刷屏全网的 RSI 是什么"
+    "“裁判”不想给阿莫迪吹暂停",
+    "“裁判”不想给阿莫迪吹暂停"
    ],
-   "published_at": "2026-09-15T09:43:19+00:00",
-   "summary": "要论造词和包装概念，AI 圈要是自认第二，恐怕就没人敢称第一。 前阵子 OpenAI 总裁格雷格·布罗克曼表示，GPT-6 Astra 已经摸到了 AGI 的门槛。结果 AGI 还没热议几天，AI 同行们又开始炒作下一个 AI 热词了。 接棒的新词叫作 RSI，Recursive Self Improvement，递归自我改进。 简单点理解就是，AI 自己写代码、自己跑实验、自己改训练流程，改完再传给下一代更强的新模型。这么一圈圈套娃下..."
+   "published_at": "2026-09-15T00:58:30.000000+00:00",
+   "summary": "“造车”的人想减速，“坐车”的人却催着踩死油门。这是过去几天美国AI行业反差最明显的一幅画面。也与过去几年人工智能扩张的“规模法则”形成鲜明对比。过去几年，硅谷的关注焦点是算力还能增加几倍，参数规模还能冲多大，谁能率先做出更强的大模型。整...... 本文来自微信公众号： 腾讯科技 ，作者：刘典（复旦大学中国研究院特任副研究员），编辑：苏扬，题图来自：视觉中国 “造车”的人想减速，“坐车”的人却催着踩死油门。这是过去几天美国AI行业反差..."
+  },
+  {
+   "rank": 19,
+   "title": "阿莫迪所说的“僵尸网络”到底有多恐怖 ？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3984016164755072",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "阿莫迪所说的“僵尸网络”到底有多恐怖 ？",
+    "阿莫迪所说的“僵尸网络”到底有多恐怖？"
+   ],
+   "published_at": "2026-09-15T03:36:01.000000+00:00",
+   "summary": "“我们需要慢下来。” 北京时间9月13日晚，Anthropic联合创始人兼CEO阿莫迪在CBS播出的采访中直言，AI行业长期向公众隐瞒这项技术的风险。 一天前，他刚发表长文《我们必须控制前沿AI的发展节奏》（We Must Pace the Frontier），呼吁AI行业放慢发展速度，并在X上分享。相关帖子的浏览量已超过7000万次。 文章里最惊人的警告是：未来6到12个月，更强大、却仍会偏离人类目标的智能体集群，可能借助持续存在的“..."
+  },
+  {
+   "rank": 20,
+   "title": "高瓴创投90后大牛，空降DeepSeek当CFO",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8140058.html",
+   "score": 5.5,
+   "sources": [
+    "tmtpost",
+    "36kr-ai"
+   ],
+   "titles": [
+    "高瓴创投90后大牛，空降DeepSeek当CFO",
+    "高瓴90后，成了梁文锋的CFO"
+   ],
+   "published_at": "2026-09-15T03:48:10+00:00",
+   "summary": "文 | 新质动能 高瓴创投90后，空降DeepSeek。 9月14日，据多家媒体报道，高瓴创投合伙人严文韬，或将加入DeepSeek出任CFO。 据悉，严文韬已经在高瓴内部发起离职流程，如无特殊情况，近期就将正式入职。若消息属实，这将是DeepSeek创立以来，一次重量级的非技术高管引进。 这条消息之所以备受市场关注，是因为就在五天前，路透社刚刚曝出，DeepSeek选定中信证券推进科创板IPO事宜。 CFO 敲定人选、保荐券商进场，两..."
   }
  ]
 }
