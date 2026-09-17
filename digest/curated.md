@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-18 02:24 CST
-数据窗口：最近 24 小时，1607 条原始条目 → 1326 个事件；过滤噪音 456 个，排除全部历史已推送的 94 个。
+生成时间：2026-09-18 05:34 CST
+数据窗口：最近 24 小时，1589 条原始条目 → 1299 个事件；过滤噪音 437 个，排除全部历史已推送的 86 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -52,19 +52,19 @@
 - 链接：https://arxiv.org/abs/2609.17837
 - 同事件报道：Hybrid coupling with numerics-informed neural networks and the overlapping Schwarz alternating method（arXiv cs.LG）
 
-## 7. The AI Industry Says It Wants To Slow Down. Can It?
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Financial Times — Technology（2 个来源） ｜ 热度：5.5
-- 摘要：On today’s Big Take podcast, Sarah Holder and Bloomberg tech editor Sarah Frier break down the many reasons and motivations behind AI leaders’ calls to slow the development of so-called frontier models. What are they ask...
-- 发布时间：2026-09-17 02:01 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-16/the-ai-industry-says-it-wants-to-slow-down-can-it-video
-- 同事件报道：Going faster will only slow AI down（Financial Times — Technology）
+## 7. The AI Superintelligence Slowdown
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、WIRED — AI（2 个来源） ｜ 热度：6.0
+- 摘要：Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI co...
+- 发布时间：2026-09-18 03:28 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic
+- 同事件报道：The AI ‘Slowdown’ Is an Antitrust Mess（WIRED — AI）
 
-## 8. Anthropic policy chief says AI companies can't be expected to operate on 'honor code'
-- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、IT之家（2 个来源） ｜ 热度：5.5
-- 摘要：Sarah Heck, Anthropic's head of public policy, offered her perspectives on AI safety as the debate about how to regulate model development intensifies.
-- 发布时间：2026-09-17 03:56 CST
-- 链接：https://www.cnbc.com/2026/09/16/anthropic-policy-chief-says-ai-companies-cant-operate-on-honor-code.html
-- 同事件报道：Anthropic CEO 提议引入“银行式监管”：专家称评估员无权叫停 AI，你不能既当运动员又当裁判（IT之家）
+## 8. Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Ars Technica — AI（2 个来源） ｜ 热度：6.0
+- 摘要：Newly unsealed court filings show Microsoft privately called OpenAI's data practices "theft" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.
+- 发布时间：2026-09-18 03:46 CST
+- 链接：https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/
+- 同事件报道：Microsoft exec called AI scraping the “largest theft of labor in human history”（Ars Technica — AI）
 
 ## 9. OpenAI CEO Sam Altman will attend state dinner for Trump-Xi summit in Washington
 - 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Bloomberg Technology（2 个来源） ｜ 热度：5.5
@@ -73,25 +73,7 @@
 - 链接：https://www.cnbc.com/2026/09/16/openai-altman-trump-xi-summit.html
 - 同事件报道：OpenAI’s Altman to Attend Trump Dinner With Chinese President（Bloomberg Technology）
 
-## 10. nvidia/Cosmos3-Edge
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
-- 摘要：cosmos, diffusers, safetensors, cosmos3_edge, nvidia, cosmos3, license:other, deploy:azure, deploy:sagemaker, region:us
-- 发布时间：2026-09-17 02:48 CST
-- 链接：https://huggingface.co/nvidia/Cosmos3-Edge
-
-## 11. nvidia/Cosmos3-Super-Image2Video
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
-- 摘要：image-to-video, cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, video-generation, license:other, region:us
-- 发布时间：2026-09-17 03:00 CST
-- 链接：https://huggingface.co/nvidia/Cosmos3-Super-Image2Video
-
-## 12. From OpenAI: An unreleased research model inserted unrelated instructions, including instructions to disregard its normal constraints, into summaries used to continue its work in a new context window.
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.82
-- 发布时间：2026-09-17 09:40 CST
-- 链接：https://i.redd.it/ljmv5f5hizph1.png
-- 同事件报道：OpenAI models secretly generate instructions to ignore constraints（Hacker News (AI stories)）
-
-## 13. I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper
+## 10. I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper
 - 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.56
 - 摘要：Everyone now talks about the architecture that's not auto regressive and does lightning fast probability prediction with a json schema. I worked on this literally one year back in March 2025, published an arxiv paper, pu...
 - 发布时间：2026-09-17 10:31 CST
@@ -99,11 +81,31 @@
 - 同事件报道：I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper（Reddit AI subreddits (new)）
 - 同事件报道：Open-sourced jev architecture last year with model,paper and dataset（Hacker News (AI stories)）
 
-## 14. Introducing the Life Sciences Verification Program
+## 11. Apple reportedly building server packed with M-series Ultra chips for AI
+- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
+- 摘要：Apple is working on an AI server that would use Apple’s high-performance M-series Ultra chips found in Mac desktops. The potential product’s expected release in 2029 would mark the first Apple server to hit the market in...
+- 发布时间：2026-09-17 06:02 CST
+- 链接：https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/
+- 同事件报道：Apple's M6, M7 and M8 Chips Show How AI Is Reshaping the Company（Hacker News (AI stories)）
+
+## 12. Snap tries to make the case again for its $2,200 smart glasses
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、智源社区（2 个来源） ｜ 热度：4.5
+- 摘要：Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.
+- 发布时间：2026-09-17 08:58 CST
+- 链接：https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/
+- 同事件报道：S创上海2026全日程：2天、200+嘉宾，值得看的VC、创业者都在这里（智源社区）
+
+## 13. Introducing the Life Sciences Verification Program
 - 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic News（1 个来源） ｜ 热度：4.0
 - 摘要：Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-r...
 - 发布时间：2026-09-17 00:00 CST
 - 链接：https://www.anthropic.com/news/life-sciences-verification-program
+
+## 14. Introducing Astra for Law
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.0
+- 摘要：OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.
+- 发布时间：2026-09-17 08:00 CST
+- 链接：https://openai.com/index/astra-for-law
 
 国内：
 
@@ -115,13 +117,13 @@
 - 同事件报道：刚刚，华为昇腾960超节点提前登场！韬定律立功性能翻倍，剑指英伟达（智东西）
 - 同事件报道：汪涛详解华为AI战略：算力为核心，昇腾960提前登场，PB级 KV Cache把基础设施推入新阶段（InfoQ 中文）
 
-## 2. 张一鸣的1050亿，是市场预支给他的
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、IT之家、钛媒体（3 个来源） ｜ 热度：10.0
-- 摘要：今天彭博亿万富豪指数更新，43岁的张一鸣身家突破1050亿美元，首次成为亚洲首富，超过了印度的高塔姆·阿达尼。2019年3月彭博开始追踪他的时候，这个数字是130亿，七年涨了大约七倍。几乎所有报道的框架都一样：AI热潮创造了巨额新财富，传统行业的富豪被超越了。这个说法听起来顺理成章，但它和字节自己的财务数字对...... 本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 今天彭博亿万富豪指数更新，43岁的张一鸣身家突破...
-- 发布时间：2026-09-17 01:16 CST
-- 链接：https://www.huxiu.com/article/4891837.html
-- 同事件报道：IT早报 0917：字节张一鸣身家 1050 亿美元首登亚洲首富；18.99 万起比亚迪方程豹方程 S/S GT 上市；周鸿祎称不会再投新能源汽车；努比亚二代豆包手机发布...（IT之家）
+## 2. IT早报 0917：字节张一鸣身家 1050 亿美元首登亚洲首富；18.99 万起比亚迪方程豹方程 S/S GT 上市；周鸿祎称不会再投新能源汽车；努比亚二代豆包手机发布...
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、钛媒体、虎嗅（3 个来源） ｜ 热度：10.0
+- 摘要：“IT早报”时间，大家好，现在是 2026 年 9 月 17 日星期四，今天的重要科技资讯有： 1. AI 造富力度超越传统产业，字节跳动创始人张一鸣首次成为亚洲首富 彭博亿万富豪指数显示，现年 43 岁的张一鸣身家超过 1,050 亿美元（现汇率约合 7,063.18 亿元人民币），超过了印度富豪高塔姆 · 阿达尼。2019 年 3 月，彭博社开始追踪张一鸣财富时，他的身家只有 130 亿美元（现汇率约合 874.49 亿元人民币），...
+- 发布时间：2026-09-17 07:48 CST
+- 链接：https://www.ithome.com/1/003/358.htm
 - 同事件报道：豆包手机，开始“敲门”（钛媒体）
+- 同事件报道：从130亿美元到1050亿美元 张一鸣的钱为什么越来越多（虎嗅）
 
 ## 3. 年轻人不再为 AI 兴奋
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体、36氪 AI 频道（3 个来源） ｜ 热度：9.0
@@ -131,24 +133,24 @@
 - 同事件报道：年轻人不再为 AI 兴奋（钛媒体）
 - 同事件报道：年轻人不再为 AI 兴奋（36氪 AI 频道）
 
-## 4. 刚刚，唐杰发布智谱RSI首个成果
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、爱范儿（2 个来源） ｜ 热度：7.0
-- 摘要：GLM已经开始参与构建GLM了
-- 发布时间：2026-09-17 16:28 CST
-- 链接：https://www.qbitai.com/2026/09/491357.html
-- 同事件报道：刚刚，智谱首个 RSI 成果发布，10 万国产卡用 GLM 造 GLM（爱范儿）
+## 4. 周鸿祎：不会再投资新能源汽车，已经吃过一次亏；OpenAI洽谈新融资，估值或超1.2万亿美元；花呗、抖音月付等将退出支付选项？多平台回应
+- 地区：国内源 ｜ 语言：zh ｜ 来源：雷峰网、36氪 快讯（2 个来源） ｜ 热度：6.5
+- 摘要：要闻提示 1.周鸿祎：不会再投资新能源汽车，已经吃过一次亏 2.曝字节跳动完成 2.9 亿美元融资，用于拆分 AI 制药业务 Anew Labs 3.iPhone Duo可靠性翻车：影视飓风Tim在苹果总部掰一下就闪屏了 4.花呗、抖音月付等将退出支付选项？多平台回应 5.奥迪惨遭高空坠落餐刀刺穿车顶，刀身插入两三厘米，维修费高达12万 6.吉利回应“宁德时代收购电池公司”：未放弃电池自研，“85亿元投资”不实 7.努比亚NaviX U...
+- 发布时间：2026-09-17 08:23 CST
+- 链接：https://www.leiphone.com/category/zaobao/adwK3kvuEMxa03Tj.html
+- 同事件报道：阿波罗考虑将软银贷款增至90亿美元，用于投资OpenAI（36氪 快讯）
 
-## 5. 智谱融资背后：一场没有枪声的卡位战
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：7.0
-- 摘要：文 | 市值观察 手握200亿、融资400亿，智谱到底想干什么？ 千亿资本： 真金白银疯抢筹码 9月，大模型行业，正式进入下半场。 在美股，Anthropic以2万亿美元乃至更高估值筹备上市，一旦成行，将超越SpaceX成为史上估值最高的IPO。 在A股，DeepSeek新一轮融资持续推进，并曝出正筹备科创板上市。 在港股，9月13日，智谱宣布完成约50亿美元（约400多亿港元）融资：以股份配售（20亿美元）+零息可转债（30亿美元）模...
-- 发布时间：2026-09-17 16:28 CST
-- 链接：https://www.tmtpost.com/8143610.html
-- 同事件报道：智谱融资背后：一场没有枪声的卡位战（36氪 AI 频道）
-
-## 6. OPPO ColorOS 17 小布已接入 150 多项服务，新增“小布来电”紧急提醒方式
+## 5. OPPO ColorOS 17 小布已接入 150 多项服务，新增“小布来电”紧急提醒方式
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、爱范儿（2 个来源） ｜ 热度：6.5
 - 摘要：IT之家 9 月 17 日消息，在 2026 OPPO 开发者大会期间，OPPO 公布了 ColorOS 17 中小布建议、提醒方式、导航与 AI 闪记等功能更新。 在 ColorOS 17 上，小布建议与 40 多家头部服务伙伴合作，接入 150 多项服务，覆盖 700 多个生活场景。官方称其可主动提供服务。 ColorOS 17 新增提醒方式“小布来电”。官方介绍，面对紧急重要的事情，小布会以来电方式提醒用户。 ColorOS 17...
 - 发布时间：2026-09-17 10:44 CST
 - 链接：https://www.ithome.com/1/003/420.htm
 - 同事件报道：OPPO ColorOS 17 设备互联升级：Car+ 车联支持步行导航接续，耳机支持 AI 对话翻译（IT之家）
 - 同事件报道：OPPO ColorOS 17 发布：全新“流体设计”、新一代小布（IT之家）
+
+## 6. 中国电信TeleAgent：要留在办公Agent牌桌上，仍有可为空间 | 钛快讯
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、极客公园（2 个来源） ｜ 热度：6.5
+- 摘要：国际数据公司（IDC）发布《中国企业级通用Agent产品技术评估》报告，对国内多款主流通用智能体产品开展标准化实测评估，中国电信星辰超级智能体TeleAgent综合得分6.85分，在参评产品中位列综合得分第三名，成本效率、安全可控、任务表现等多个关键维度显著高于行业普遍水平，面向高频办公场景的常规任务能力跻身国内第一梯队。其中，TeleAgent成本效率表现突出，Token消耗优于同类产品，为规模化落地创造有利条件。 在9月16日的媒体...
+- 发布时间：2026-09-17 11:01 CST
+- 链接：https://www.tmtpost.com/8142808.html
+- 同事件报道：IDC 发布企业级 Agent 评估报告，中国电信 TeleAgent 综合跻身国内第一梯队（极客公园）
