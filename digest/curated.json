@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-18T05:03:39.467689+00:00",
+ "generated_at": "2026-09-18T09:58:17.153406+00:00",
  "stats": {
-  "items": 2296,
-  "clusters": 1909,
-  "noise": 436,
-  "dup": 136,
+  "items": 1718,
+  "clusters": 1414,
+  "noise": 447,
+  "dup": 86,
   "history_days": 0,
-  "available_cn": 169,
-  "available_intl": 1168,
+  "available_cn": 170,
+  "available_intl": 711,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,24 +16,25 @@
  "items": [
   {
    "rank": 1,
-   "title": "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
+   "title": "OpenAI discloses new ‘concerning’ model behaviour",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.18860",
-   "score": 12.0,
+   "url": "https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1",
+   "score": 11.56,
    "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai",
-    "arxiv-cs-cv"
+    "ft-tech",
+    "cnbc-tech",
+    "arstechnica-ai",
+    "hackernews-ai"
    ],
    "titles": [
-    "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
-    "Detect Before You Leap: Mirage Detection in Vision-Language Models",
-    "IMFD: End-to-end Multi-Face Forgery Detection through Instruction-based Large Vision-Language Models",
-    "MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration"
+    "OpenAI discloses new ‘concerning’ model behaviour",
+    "Warsh spooks investors, OpenAI's 'concerning' incidents, Boeing's production problems and more in Morning Squawk",
+    "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents",
+    "OpenAI discloses new 'concerning' model behaviour"
    ],
-   "published_at": "2026-09-17T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.18860v1 Announce Type: cross Abstract: When a large vision-language model misclassifies a harmful meme, the failure may reflect missing internal evidence or an inability to route represented evidence to its ou..."
+   "published_at": "2026-09-17T07:42:52.000000+00:00",
+   "summary": "Developer launches system to track and report AI model misconduct"
   },
   {
    "rank": 2,
@@ -55,6 +56,25 @@
   },
   {
    "rank": 3,
+   "title": "MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.20178",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction",
+    "A Two-Stage Multi-Modal MRI Framework for Lifespan Brain Age Prediction",
+    "FCA-Guided Counterfactual Explanations for Multi-Modal Breast Cancer Diagnosis: A Framework Achieving Perfect Validity with Emergent Sparsity"
+   ],
+   "published_at": "2026-09-18T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.20178v1 Announce Type: new Abstract: Accurately predicting pedestrian intentions is crucial for ensuring safe and proactive interaction between autonomous vehicles and pedestrians. However, existing approaches..."
+  },
+  {
+   "rank": 4,
    "title": "MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving",
    "lang": "en",
    "region": "intl",
@@ -72,30 +92,30 @@
    "summary": "arXiv:2609.20377v1 Announce Type: new Abstract: Autonomous driving involves coupled decision-making and scene evolution under multi-mode uncertainty. To capture this coupling and uncertainty, we introduce MM-Future, a wo..."
   },
   {
-   "rank": 4,
-   "title": "SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)",
+   "rank": 5,
+   "title": "REARL: A Closed-loop Autonomous Driving Simulation Enhancement Framework with Real Traffic Data and Large Language Models",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2606.08372",
+   "url": "https://arxiv.org/abs/2609.19903",
    "score": 8.0,
    "sources": [
     "arxiv-cs-lg",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)",
-    "SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes"
+    "REARL: A Closed-loop Autonomous Driving Simulation Enhancement Framework with Real Traffic Data and Large Language Models",
+    "Fingerprinting Multimodal Large Language Models"
    ],
    "published_at": "2026-09-18T04:00:00.000000+00:00",
-   "summary": "arXiv:2606.08372v2 Announce Type: replace-cross Abstract: Synthetic data is increasingly promoted as a privacy-preserving substitute for releasing sensitive tabular records, yet its central adversarial threat (reconstruc..."
+   "summary": "arXiv:2609.19903v1 Announce Type: new Abstract: Accurate simulation is crucial for autonomous driving development, yet capturing real-world traffic complexity remains challenging. Existing simulators that rely on predefi..."
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Google announces new experimental \"CC\" AI agent for families",
    "lang": "en",
    "region": "intl",
    "url": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
-   "score": 6.05,
+   "score": 5.55,
    "sources": [
     "arstechnica-ai",
     "hackernews-ai"
@@ -108,7 +128,7 @@
    "summary": "Google's AI models may not be in the lead by most measures right now, but the company does have one key advantage: your data. If you're deep in the Google ecosystem, Gemini models have a lot of context on you already. Go..."
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "How To Write With An LLM",
    "lang": "en",
    "region": "intl",
@@ -126,87 +146,25 @@
    "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal..."
   },
   {
-   "rank": 7,
-   "title": "Making global data easier to explore",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-   "score": 3.5,
-   "sources": [
-    "google-ai-blog"
-   ],
-   "titles": [
-    "Making global data easier to explore"
-   ],
-   "published_at": "2026-09-17T20:00:00.000000+00:00",
-   "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search."
-  },
-  {
    "rank": 8,
-   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+   "title": "Inside ZCode: Silently Uploading Your Git History to the Cloud",
    "lang": "en",
    "region": "intl",
-   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
-   "score": 3.5,
+   "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+   "score": 4.17,
    "sources": [
-    "google-research"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "The future of practice: Enabling teachers to create learning interactives with generative UI"
+    "Inside ZCode: Silently Uploading Your Git History to the Cloud",
+    "ZCode was allegedly caught uploading workspace/.git records to the cloud."
    ],
-   "published_at": "2026-09-17T20:45:00.000000+00:00",
-   "summary": "Education Innovation"
+   "published_at": "2026-09-18T06:11:17.000000+00:00",
+   "summary": "ZCode silently packages your entire workspace along with full Git history and uploads it to cloud object storage with server-exclusive decryption keys; this post reconstructs the complete upload pipeline and encryption s..."
   },
   {
    "rank": 9,
-   "title": "UN Must Unlock Its Doors to AI Industry: UNGA President",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-17/un-must-unlock-its-doors-to-ai-industry-unga-president-video",
-   "score": 3.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "UN Must Unlock Its Doors to AI Industry: UNGA President"
-   ],
-   "published_at": "2026-09-17T20:07:29.000000+00:00",
-   "summary": "United Nations General Assembly president Khalilur Rahman speaks with Bloomberg's Romaine Bostick. This week United Nations Secretary General said nations must coordinate global efforts to regulate AI, echoing calls for..."
-  },
-  {
-   "rank": 10,
-   "title": "Amazon Says AI Models Should Be Released When ‘Ready and Safe’",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-17/amazon-says-ai-models-should-be-released-when-ready-and-safe",
-   "score": 3.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Amazon Says AI Models Should Be Released When ‘Ready and Safe’"
-   ],
-   "published_at": "2026-09-17T21:18:31.000000+00:00",
-   "summary": "Amazon.com Inc. said artificial intelligence models should be released only after rigorous testing, weighing in on the debate about the pace of AI development after top labs called for a slowdown following safety lapses."
-  },
-  {
-   "rank": 11,
-   "title": "Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads"
-   ],
-   "published_at": "2026-09-17T21:21:08+00:00",
-   "summary": "Platform teams running AI on Kubernetes rarely run one thing. They run a queueing system, a distributed runtime, GPU node health checks, dashboards, and a layer of submission scripts holding all of it together. The Azure..."
-  },
-  {
-   "rank": 12,
    "title": "Crusoe raises $3.9B to build massive data centers and small modular “AI factories”",
    "lang": "en",
    "region": "intl",
@@ -222,23 +180,23 @@
    "summary": "The round values the data center giant at $30.9 billion."
   },
   {
-   "rank": 13,
-   "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+   "rank": 10,
+   "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
    "lang": "en",
    "region": "intl",
-   "url": "https://bend-lang.com/",
+   "url": "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/",
    "score": 3.5,
    "sources": [
-    "hackernews-ai"
+    "marktechpost"
    ],
    "titles": [
-    "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
+    "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use"
    ],
-   "published_at": "2026-09-17T20:36:13.000000+00:00",
-   "summary": "Bend: a fast language that blocks AI mistakes via proof."
+   "published_at": "2026-09-18T08:40:37+00:00",
+   "summary": "Alibaba’s Qwen team has released Qwen3.8-Omni-Flash . They called it its first omni-modal model built around agentic capabilities. It accepts text, images, audio, and video, and it returns text. Audio-video understanding..."
   },
   {
-   "rank": 14,
+   "rank": 11,
    "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
    "lang": "en",
    "region": "intl",
@@ -252,6 +210,54 @@
    ],
    "published_at": "2026-09-17T14:00:00.000000+00:00",
    "summary": "Capital-markets firms are modernizing the trade lifecycle under pressure from every direction: growing data volumes..."
+  },
+  {
+   "rank": 12,
+   "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
+   "score": 3.0,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "How MRH Trowe enabled secure self-service AI agents in financial services"
+   ],
+   "published_at": "2026-09-17T15:36:42.000000+00:00",
+   "summary": "Basic AI chat isn’t enough for financial services organizations that need secure, self-service AI agents. In financial services, employees need AI that can work with internal systems and sensitive client data, stay insid..."
+  },
+  {
+   "rank": 13,
+   "title": "What is AIOps?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/what-is-aiops",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "What is AIOps?"
+   ],
+   "published_at": "2026-09-17T16:49:43.000000+00:00",
+   "summary": "Artificial Intelligence for IT Operations (AIOps) applies AI and machine learning to IT operations to detect anomalies..."
+  },
+  {
+   "rank": 14,
+   "title": "The Web Search Your Agent Inherited Isn't Good Enough",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "The Web Search Your Agent Inherited Isn't Good Enough"
+   ],
+   "published_at": "2026-09-17T17:00:00.000000+00:00",
+   "summary": "An agent that needs the outside worldAn engineer at a software company is building..."
   },
   {
    "rank": 15,
@@ -277,23 +283,23 @@
   },
   {
    "rank": 16,
-   "title": "马斯克睡进工地！为AI基建拼了",
+   "title": "华为开创AI时代计算架构：让百万处理器成为一台计算机",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/491280.html",
-   "score": 8.0,
+   "url": "https://www.leiphone.com/category/industrynews/ZAv4gLB8zM5B5PBX.html",
+   "score": 10.0,
    "sources": [
-    "qbitai",
-    "36kr-ai",
-    "baai-hub"
+    "leiphone",
+    "ithome",
+    "oschina"
    ],
    "titles": [
-    "马斯克睡进工地！为AI基建拼了",
-    "马斯克睡进工地，为AI基建拼了",
-    "马斯克睡进工地！为AI基建拼了"
+    "华为开创AI时代计算架构：让百万处理器成为一台计算机",
+    "突破冯诺依曼单机架构：华为开创 Peerium 计算架构，让百万处理器协同成为一台计算机",
+    "华为发布“Peerium 计算架构”，让百万处理器成为一台计算机"
    ],
-   "published_at": "2026-09-17T04:37:26+00:00",
-   "summary": "AI正火嘛，老马的待遇也算提升了一点：这回至少有房车了（doge）"
+   "published_at": "2026-09-17T14:25:00+00:00",
+   "summary": "关键信息： • Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。 • 灵衢是实现Peerium计算架构的关键互联技术。 [中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。 Peerium计算架构是基于嵌..."
   },
   {
    "rank": 17,
@@ -318,57 +324,57 @@
   },
   {
    "rank": 18,
-   "title": "阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元",
+   "title": "谷歌最强 AI 模型：Gemini 4 Pro 开测，SVG 生图表现惊艳",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/004/049.htm",
+   "url": "https://www.ithome.com/1/003/902.htm",
    "score": 7.0,
    "sources": [
     "ithome",
-    "oschina"
-   ],
-   "titles": [
-    "阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元",
-    "Qwen3.8-Omni-Flash 发布，阿里通义把多模态押在了“干活”上"
-   ],
-   "published_at": "2026-09-18T03:34:25+00:00",
-   "summary": "IT之家 9 月 18 日消息，阿里千问今日正式上线新一代原生全模态模型 Qwen3.8-Omni-Flash，并已在千问 AI 平台提供。该模型可同时处理文本、图像、音频和视频输入，支持 1M 上下文。 全模态模型指可同时处理文本、图像、音频、视频等多种输入形式。官方称，该模型在保持同尺寸文本模型能力的同时，全模态能力较上一代明显提升。 在累计 30 项评测上，Qwen3.8-Omni-Flash 相比上一代 Qwen3.5-Omni..."
-  },
-  {
-   "rank": 19,
-   "title": "刚刚，唐杰发布智谱RSI首个成果",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/491357.html",
-   "score": 6.5,
-   "sources": [
-    "qbitai",
-    "ifanr"
-   ],
-   "titles": [
-    "刚刚，唐杰发布智谱RSI首个成果",
-    "刚刚，智谱首个 RSI 成果发布，10 万国产卡用 GLM 造 GLM"
-   ],
-   "published_at": "2026-09-17T08:28:23+00:00",
-   "summary": "GLM已经开始参与构建GLM了"
-  },
-  {
-   "rank": 20,
-   "title": "智谱融资背后：一场没有枪声的卡位战",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8143610.html",
-   "score": 6.5,
-   "sources": [
-    "tmtpost",
     "36kr-ai"
    ],
    "titles": [
-    "智谱融资背后：一场没有枪声的卡位战",
-    "智谱融资背后：一场没有枪声的卡位战"
+    "谷歌最强 AI 模型：Gemini 4 Pro 开测，SVG 生图表现惊艳",
+    "刚刚，Gemini 4 Pro偷跑上线，碾压Astra和Fable"
    ],
-   "published_at": "2026-09-17T08:28:44+00:00",
-   "summary": "文 | 市值观察 手握200亿、融资400亿，智谱到底想干什么？ 千亿资本： 真金白银疯抢筹码 9月，大模型行业，正式进入下半场。 在美股，Anthropic以2万亿美元乃至更高估值筹备上市，一旦成行，将超越SpaceX成为史上估值最高的IPO。 在A股，DeepSeek新一轮融资持续推进，并曝出正筹备科创板上市。 在港股，9月13日，智谱宣布完成约50亿美元（约400多亿港元）融资：以股份配售（20亿美元）+零息可转债（30亿美元）模..."
+   "published_at": "2026-09-18T00:03:24+00:00",
+   "summary": "IT之家 9 月 18 日消息，根据 @LuminaBench 等网友反馈，谷歌正以“gemini-3.8-flash”名称， 在 Arena 等基准平台测试其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。 根据网友晒出的模型测试图片，在生成经典的“鹈鹕骑自行车”SVG 图片为例，其非常优秀，该网友还附上了和 OpenAI 最强模型 GPT-6 Astra Pro 的对比，并认为在谷歌官方发布后，Gemini 4 P..."
+  },
+  {
+   "rank": 19,
+   "title": "AGI最难一战，竟在医院，中国AI登上Science，医生不怕失业还催着上线",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3988353494875138",
+   "score": 7.0,
+   "sources": [
+    "36kr-ai",
+    "qbitai"
+   ],
+   "titles": [
+    "AGI最难一战，竟在医院，中国AI登上Science，医生不怕失业还催着上线",
+    "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线"
+   ],
+   "published_at": "2026-09-18T04:02:31.000000+00:00",
+   "summary": "AI正在横扫一切，但有块硬骨头，迟迟攻不下来，让无数人希望落空。 2016年，Hinton老爷子就预言：“人们现在就应该停止培养放射科医生。”他甚至认为，五年内，AI就会在医疗影像识别上超过放射科医生。 老爷子一生谨慎，但历史和他开了个玩笑。十年过去了，人们离AGI已经越来越近，但 在医疗场景里，即使图像识别这样的AI新手村任务，依然是hard模式 。 如果从IBM的Watson算起，在医疗上遭遇滑铁卢的AI专家数不胜数。 为什么医疗成..."
+  },
+  {
+   "rank": 20,
+   "title": "智谱推出GLM-5.3-FlashX",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3988430977776385",
+   "score": 7.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "智谱推出GLM-5.3-FlashX",
+    "智谱 GLM-5.3-FlashX 模型上线，更快、更流畅"
+   ],
+   "published_at": "2026-09-18T04:41:47.000000+00:00",
+   "summary": "36氪获悉，智谱正式推出GLM-5.3-FlashX（最高200 tokens/s）。"
   }
  ]
 }
