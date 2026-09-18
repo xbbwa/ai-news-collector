@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-19 02:36 CST
-数据窗口：最近 24 小时，1693 条原始条目 → 1382 个事件；过滤噪音 455 个，排除全部历史已推送的 78 个。
+生成时间：2026-09-19 05:46 CST
+数据窗口：最近 24 小时，1721 条原始条目 → 1396 个事件；过滤噪音 466 个，排除全部历史已推送的 75 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,22 +8,14 @@
 
 国外：
 
-## 1. Google announces new experimental "CC" AI agent for families
-- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、TechCrunch — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：9.05
-- 摘要：Google's AI models may not be in the lead by most measures right now, but the company does have one key advantage: your data. If you're deep in the Google ecosystem, Gemini models have a lot of context on you already. Go...
-- 发布时间：2026-09-18 04:24 CST
-- 链接：https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/
-- 同事件报道：Google’s new ‘CC’ is an AI agent that helps families run their households（TechCrunch — AI）
-- 同事件报道：CC is an AI agent for families and groups（Hacker News (AI stories)）
-
-## 2. SCOUT: Sim-to-Real Text-Based Person Retrieval by Embedding-Space Prediction over Frozen Video Features
+## 1. SCOUT: Sim-to-Real Text-Based Person Retrieval by Embedding-Space Prediction over Frozen Video Features
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.CL（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.19483v1 Announce Type: new Abstract: Text-based person retrieval under a sim-to-real gap (synthetic training data, a real-image gallery) is usually tackled with costly fine-tuned cross-encoders. We ask whether...
 - 发布时间：2026-09-18 12:00 CST
 - 链接：https://arxiv.org/abs/2609.19483
 - 同事件报道：YNU-HPCC at SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Using Multiple Prediction Headers（arXiv cs.CL）
 
-## 3. MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction
+## 2. MTF-Net: Multi-Modal Temporal Feature Fusion Network for Pedestrian Intention Prediction
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.20178v1 Announce Type: new Abstract: Accurately predicting pedestrian intentions is crucial for ensuring safe and proactive interaction between autonomous vehicles and pedestrians. However, existing approaches...
 - 发布时间：2026-09-18 12:00 CST
@@ -31,76 +23,82 @@
 - 同事件报道：A Two-Stage Multi-Modal MRI Framework for Lifespan Brain Age Prediction（arXiv cs.CV）
 - 同事件报道：FCA-Guided Counterfactual Explanations for Multi-Modal Breast Cancer Diagnosis: A Framework Achieving Perfect Validity w...（arXiv cs.AI）
 
-## 4. MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving
+## 3. MM-Future: Multi-Mode Joint World-Action Modeling for Autonomous Driving
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.20377v1 Announce Type: new Abstract: Autonomous driving involves coupled decision-making and scene evolution under multi-mode uncertainty. To capture this coupling and uncertainty, we introduce MM-Future, a wo...
 - 发布时间：2026-09-18 12:00 CST
 - 链接：https://arxiv.org/abs/2609.20377
 - 同事件报道：TacSushi: Tactile-Grounded World-Action Modeling for Dexterous Sushi Manipulation（arXiv cs.LG）
 
-## 5. REARL: A Closed-loop Autonomous Driving Simulation Enhancement Framework with Real Traffic Data and Large Language Models
+## 4. REARL: A Closed-loop Autonomous Driving Simulation Enhancement Framework with Real Traffic Data and Large Language Models
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.19903v1 Announce Type: new Abstract: Accurate simulation is crucial for autonomous driving development, yet capturing real-world traffic complexity remains challenging. Existing simulators that rely on predefi...
 - 发布时间：2026-09-18 12:00 CST
 - 链接：https://arxiv.org/abs/2609.19903
 - 同事件报道：Fingerprinting Multimodal Large Language Models（arXiv cs.AI）
 
-## 6. Buffett Steps Down at Berkshire
+## 5. Buffett Steps Down at Berkshire
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：6.36
 - 摘要：Get a jump start on the US trading day with David Gura on "Bloomberg Open Interest." Tech stocks pare morning gains as the sector’s recovery from a rocky week loses steam, while the S&P 500 turns lower and Brent crude ex...
 - 发布时间：2026-09-19 01:05 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-09-18/open-interest-9-18-2026-video
 - 同事件报道：Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him（Hacker News (AI stories)）
 
-## 7. Trump and Xi Jinping Face Off on AI as White House Meeting Nears
+## 6. Trump and Xi Jinping Face Off on AI as White House Meeting Nears
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Financial Times — Technology（2 个来源） ｜ 热度：6.0
 - 摘要：The two countries don’t even agree on AI’s biggest threats
 - 发布时间：2026-09-18 18:29 CST
 - 链接：https://www.bloomberg.com/news/newsletters/2026-09-18/trump-and-xi-jinping-face-off-on-ai-as-white-house-meeting-nears
 - 同事件报道：Xi’s edge over Trump on AI（Financial Times — Technology）
 
-## 8. Newsom Wants AI ‘Kill Switch’ to Rein in Tech Industry
+## 7. Newsom Wants AI ‘Kill Switch’ to Rein in Tech Industry
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、The Verge — AI（2 个来源） ｜ 热度：6.0
 - 摘要：California Governor Gavin Newsom issued an executive order on Friday pushing to implement guardrails on artificial intelligence in the state that’s the epicenter of the technology’s boom.
 - 发布时间：2026-09-18 23:12 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-18/newsom-pitches-ai-kill-switch-extra-oversight-in-california
 - 同事件报道：Gavin Newsom is pushing for an AI kill switch（The Verge — AI）
 
-## 9. How Cooley is accelerating IPO work with ChatGPT
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
-- 摘要：Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.
-- 发布时间：2026-09-17 20:00 CST
-- 链接：https://openai.com/index/cooley-gopublic
-- 同事件报道：ChatGPT now lets you connect multiple accounts to most plugins — but how are you handling work/personal boundaries?（Reddit AI subreddits (new)）
+## 8. The FAA’s plan to fix air traffic? $875M worth of AI
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Ars Technica — AI（2 个来源） ｜ 热度：5.5
+- 摘要：A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.
+- 发布时间：2026-09-18 06:14 CST
+- 链接：https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/
+- 同事件报道：FAA tees up $875M AI tool to help manage air traffic congestion（Ars Technica — AI）
 
-## 10. Is the AI safety debate about safety or control?
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、CNBC Technology（2 个来源） ｜ 热度：5.5
-- 摘要：Not everyone agrees with Amodei's call for globally coordinated action for AI safety.
-- 发布时间：2026-09-18 04:19 CST
-- 链接：https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/
-- 同事件报道：AI safety debate meets reality at Dreamforce as business leaders say last year's models are enough（CNBC Technology）
-
-## 11. Here’s What the AI Apocalypse Could Look Like
+## 9. Here’s What the AI Apocalypse Could Look Like
 - 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
 - 摘要：This week on “Uncanny Valley,” we discuss three possible AI doomsday scenarios, AI safety, and the unexpected bipartisan alliance forming against AI.
 - 发布时间：2026-09-18 06:20 CST
 - 链接：https://www.wired.com/story/uncanny-valley-podcast-heres-what-the-ai-apocalypse-could-look-like/
 - 同事件报道：Stuxnet Versus Skynet. The AI apocalypse may not require “conscious” machines at all, but only supercharged digital atta...（Reddit AI subreddits (new)）
 
-## 12. How To Write With An LLM
+## 10. How To Write With An LLM
 - 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
 - 摘要：How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal...
 - 发布时间：2026-09-18 07:37 CST
 - 链接：https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/
 - 同事件报道：How to Write with an LLM（Hacker News (AI stories)）
 
-## 13. Brett Adcock on X: "Here's 4 hours of our robot doing zero-shot work in 30 rental homes" / X
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.58
-- 摘要：Here's 4 hours of our robot doing zero-shot work in 30 rental homes
-- 发布时间：2026-09-18 02:52 CST
-- 链接：https://x.com/adcock_brett/status/2100657393923445017
-- 同事件报道：Figure’s Helix 2.5 Generalizes Household Robot Tasks Zero-Shot Across 30 Homes（Reddit AI subreddits (new)）
-- 同事件报道：Figure AI - Helix 2.5 Robot: Zero-Shot Home Generalization（Hacker News (AI stories)）
+## 11. California Gov. Newsom issues executive order to rein in AI 'before it's too late'
+- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
+- 摘要：California Gov. Gavin Newsom and other 2028 Democratic presidential hopefuls have called for a more aggressive approach to addressing AI fears.
+- 发布时间：2026-09-18 23:02 CST
+- 链接：https://www.cnbc.com/2026/09/18/california-newsom-executive-order-ai.html
+- 同事件报道：Gov. Newsom signs executive order targeting AI safety 'before it's too late'（Hacker News (AI stories)）
+
+## 12. Google’s new ‘CC’ is an AI agent that helps families run their households
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
+- 摘要：Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.
+- 发布时间：2026-09-19 01:33 CST
+- 链接：https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/
+- 同事件报道：CC is an AI agent for families and groups（Hacker News (AI stories)）
+
+## 13. US Military had close call after using AI for hallucinated intelligence report
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.75
+- 摘要：The episode shows the risks of using this new, relatively poorly understood technology in the middle of the Iran war
+- 发布时间：2026-09-19 01:28 CST
+- 链接：https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship
+- 同事件报道：US military had close call after using AI for false intelligence report, sources say（Reddit AI subreddits (new)）
 
 ## 14. Co-creating the future of fashion with Google
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google — The Keyword (AI)（1 个来源） ｜ 热度：3.5
@@ -133,23 +131,23 @@
 - 链接：https://zhidx.com/p/594972.html
 - 同事件报道：GLM-5.3-FlashX 上线，智谱把国产卡上的推理速度顶到 200 token/s（开源中国）
 
-## 4. 谷歌最强 AI 模型：Gemini 4 Pro 开测，SVG 生图表现惊艳
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 AI 频道（2 个来源） ｜ 热度：6.5
-- 摘要：IT之家 9 月 18 日消息，根据 @LuminaBench 等网友反馈，谷歌正以“gemini-3.8-flash”名称， 在 Arena 等基准平台测试其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。 根据网友晒出的模型测试图片，在生成经典的“鹈鹕骑自行车”SVG 图片为例，其非常优秀，该网友还附上了和 OpenAI 最强模型 GPT-6 Astra Pro 的对比，并认为在谷歌官方发布后，Gemini 4 P...
-- 发布时间：2026-09-18 08:03 CST
-- 链接：https://www.ithome.com/1/003/902.htm
-- 同事件报道：刚刚，Gemini 4 Pro偷跑上线，碾压Astra和Fable（36氪 AI 频道）
-
-## 5. 阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元
+## 4. 阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、开源中国（2 个来源） ｜ 热度：6.5
 - 摘要：IT之家 9 月 18 日消息，阿里千问今日正式上线新一代原生全模态模型 Qwen3.8-Omni-Flash，并已在千问 AI 平台提供。该模型可同时处理文本、图像、音频和视频输入，支持 1M 上下文。 全模态模型指可同时处理文本、图像、音频、视频等多种输入形式。官方称，该模型在保持同尺寸文本模型能力的同时，全模态能力较上一代明显提升。 在累计 30 项评测上，Qwen3.8-Omni-Flash 相比上一代 Qwen3.5-Omni...
 - 发布时间：2026-09-18 11:34 CST
 - 链接：https://www.ithome.com/1/004/049.htm
 - 同事件报道：Qwen3.8-Omni-Flash 发布，阿里通义把多模态押在了“干活”上（开源中国）
 
-## 6. AGI最难一战，竟在医院，中国AI登上Science，医生不怕失业还催着上线
+## 5. AGI最难一战，竟在医院，中国AI登上Science，医生不怕失业还催着上线
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、量子位（2 个来源） ｜ 热度：6.5
 - 摘要：AI正在横扫一切，但有块硬骨头，迟迟攻不下来，让无数人希望落空。 2016年，Hinton老爷子就预言：“人们现在就应该停止培养放射科医生。”他甚至认为，五年内，AI就会在医疗影像识别上超过放射科医生。 老爷子一生谨慎，但历史和他开了个玩笑。十年过去了，人们离AGI已经越来越近，但 在医疗场景里，即使图像识别这样的AI新手村任务，依然是hard模式 。 如果从IBM的Watson算起，在医疗上遭遇滑铁卢的AI专家数不胜数。 为什么医疗成...
 - 发布时间：2026-09-18 12:02 CST
 - 链接：https://www.36kr.com/p/3988353494875138
 - 同事件报道：AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线（量子位）
+
+## 6. 智谱推出GLM-5.3-FlashX
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：6.5
+- 摘要：36氪获悉，智谱正式推出GLM-5.3-FlashX（最高200 tokens/s）。
+- 发布时间：2026-09-18 12:41 CST
+- 链接：https://www.36kr.com/newsflashes/3988430977776385
+- 同事件报道：智谱 GLM-5.3-FlashX 模型上线，更快、更流畅（IT之家）
