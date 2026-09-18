@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-18 08:32 CST
+生成时间：2026-09-18 13:03 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -15,77 +15,92 @@
 - 发布时间：2026-09-17 00:00 CST
 - 链接：https://www.anthropic.com/news/life-sciences-verification-program
 
-## Apple Machine Learning Research（apple-ml，en，本窗口共 2 条）
+## Apple Machine Learning Research（apple-ml，en，本窗口共 1 条）
 
 ### 1. REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff
 - 摘要：A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental reversibility, a property absent in real world manipulation, where events such as pushing objects off tables or spilling g...
 - 发布时间：2026-09-17 08:00 CST
 - 链接：https://machinelearning.apple.com/research/reversal-bench-rl-cliff
 
-### 2. How Value Induction Reshapes LLM Behaviour
-- 摘要：Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as helpfulness, harmlessness, and honesty. This is done to increase utility, ensure safety, and improve the experience of th...
-- 发布时间：2026-09-16 08:00 CST
-- 链接：https://machinelearning.apple.com/research/value-induction-llm-behaviour
+## arXiv cs.AI（arxiv-cs-ai，en，本窗口共 373 条）
 
-## arXiv cs.AI（arxiv-cs-ai，en，本窗口共 227 条）
+### 1. Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes
+- 摘要：arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize sampled dynamics. We construct an ergodic two-state counterexample in which...
+- 作者：Xingguo Chen, Zhaohui Wu, Jinguo Ye, Chao Li, Shangdong Yang, Guang Yang, Skylar...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19170
 
-### 1. Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records
-- 摘要：arXiv:2609.17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states. Provenance, attestation, and transparency expose history but alone do not specify the publication...
-- 作者：Torsten Olivi Tiltack, Yifei Dong, Kun Yu, Xu Wang, Wei Liu, Jianlong Zhou, Ren...
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17631
+### 2. BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research
+- 摘要：arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitative physics model, and...
+- 作者：Qingyang Xu
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19180
 
-### 2. One Color Preprocessing Improves DSATUR
-- 摘要：arXiv:2609.17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-art coloring algorithms. We propose SSLD (Semidefinite Spectral Learning...
-- 作者：Adam Nouira, Lucas Isenmann
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17633
+### 3. What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis
+- 摘要：arXiv:2609.19212v1 Announce Type: new Abstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to study rigorously under controlled settings. Existing studies therefore rely on simplifications such a...
+- 作者：Chengwen Qi, Deheng Ye, Yatao Bian
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19212
 
-### 3. Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees
-- 摘要：arXiv:2609.17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground truth. We study what happens when it is not. We formalise stealthy false dat...
-- 作者：Oscar Mogollon Gutierrez, Fatemeh Ghasemi, Mohammadhossein Homaei, Andres Caro,...
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17635
+## arXiv cs.CL（arxiv-cs-cl，en，本窗口共 271 条）
 
-## arXiv cs.CL（arxiv-cs-cl，en，本窗口共 164 条）
+### 1. What Users Think of Generative AI: A Cross-Platform NLP Analysis of Trust and Friction in App Store Reviews
+- 摘要：arXiv:2609.19151v1 Announce Type: new Abstract: Generative AI (GenAI) applications have achieved rapid consumer adoption, yet little large-scale research examines user-perceived quality, trust, and adoption barriers. We present one of the first cross-application analyses of app store reviews for six...
+- 作者：Md Jafrin Hossain, Umme Nusrat Jahan, Shouvaggo Sharif Shammo
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19151
 
-### 1. Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes
-- 摘要：arXiv:2609.17532v1 Announce Type: new Abstract: Invasive mechanical ventilation is a lifesaving therapy, but timely, safe discontinuation is essential to preventing extubation failure (EF) and related risks to health. We present a novel approach to EF prediction that leverages features classified in...
-- 作者：Izzy Chaiken, Aditya Khowal, Neha A. Sathe, Mark M. Wurfel, Lucy Lu Wang
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17532
+### 2. FakeSpotter: A content and strategy agnostic Viral Misinformation Detection Tool
+- 摘要：arXiv:2609.19152v1 Announce Type: new Abstract: Misinformation detection tools often rely on binary true and false classifications or models trained on historical examples, limiting their usefulness when novel misleading narratives emerge. Here, we present FakeSpotter, a content- and strategy-agnost...
+- 作者：Giovanni Spitale, Federico Germani
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19152
 
-### 2. Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits
-- 摘要：arXiv:2609.17534v1 Announce Type: new Abstract: Social desirability and impression management are pervasive sources of response distortion in human personality assessment, yet their effects on Large Language Models (LLMs) remain underexplored. This study investigates whether contemporary LLMs system...
-- 作者：Victoria Popa, Guglielmo Cola, Caterina Senette, Maurizio Tesconi
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17534
+### 3. Neo-Classic: A Benchmark for Evaluating Linguistic-Aesthetic Reasoning in Classical Chinese Poetry
+- 摘要：arXiv:2609.19154v1 Announce Type: new Abstract: While Large Language Models (LLMs) achieve high accuracy on established Classical Chinese Poetry benchmarks, it remains challenging to distinguish transferable Linguistic-Aesthetic Reasoning from reliance on familiar pre-training patterns. To address t...
+- 作者：Han Zhang, Zihan Gu, Zhiyuan Wang, Tianyi Ma, Jiacheng Lu, Xinyan Zhang, Yuhao W...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19154
 
-### 3. DANTINOX: A Unified Framework for Multi-Paradigm Language Modeling
-- 摘要：arXiv:2609.17535v1 Announce Type: new Abstract: Language generation research increasingly spans three paradigms: autoregressive decoding, discrete masked diffusion, and continuous flow-matching. Comparing them is difficult because each lives in a separate codebase, so measured differences often refl...
-- 作者：Marco Simoni, Aleksandar Fontana, Giulio Rossolini, Andrea Saracino
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17535
+## arXiv cs.CV（arxiv-cs-cv，en，本窗口共 166 条）
 
-## arXiv cs.LG（arxiv-cs-lg，en，本窗口共 181 条）
+### 1. Open ultrasound foundation model for robust segmentation and clinical measurement across heterogeneous settings
+- 摘要：arXiv:2609.19230v1 Announce Type: new Abstract: Ultrasound is the most widely deployed imaging modality worldwide, yet clinical AI remains fragmented into narrow single-task models that fail when device, operator, or anatomy changes. Here we present SonoCorpus, an open resource unifying 456,963 imag...
+- 作者：Chao Qin, Fahad Shahbaz Khan, Salman Khan, Sarim Ather, Siddiq Anwar, Rao Muhamm...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19230
 
-### 1. Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs
-- 摘要：arXiv:2609.17564v1 Announce Type: new Abstract: Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache contention and preprocessing la...
-- 作者：Saipraveen Vabbilisetty, Ajay Kumar Boddepalli, Deep Narayan Mishra, Shashank Ka...
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17564
+### 2. RAUL: Reference-Assisted Ureteroscopy Localization for Skill Assessment
+- 摘要：arXiv:2609.19236v1 Announce Type: new Abstract: Objective: Incomplete navigation of anatomy during ureteroscopic kidney stone surgeries can contribute to repeat interventions. While skilled surgeons have lower reintervention rates, there are no objective metrics to quantify scope-navigation performa...
+- 作者：Fangjie Li, Mai Bui, Charan Mohan, Michael Miga, Matthieu Chabanas, Nicholas Kav...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19236
 
-### 2. Disentangling Algorithmic Bias from Archival Artifacts: A Controlled Audit of Vision-Language Model Valuation in Metropolitan Museum Archives
-- 摘要：arXiv:2609.17572v1 Announce Type: new Abstract: Auditing vision-language models (VLMs) for societal bias requires distinguishing direct algorithmic valuation disparities from confounders embedded within archival metadata. In this study, we audit Contrastive Language-Image Pretraining (CLIP) models u...
-- 作者：Manpreet Singh, Rhythm Bhatia, Rahul Joshi
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17572
+### 3. Can Vision-Language Models Judge Olympic Diving? From Reasoning to Scores in Zero-Shot Action Quality Assessment
+- 摘要：arXiv:2609.19354v1 Announce Type: new Abstract: Automated action quality assessment (AQA) in Olympic sports remains a challenging task due to the complexity of human motion and the subjectivity inherent in expert judging. This work evaluates the capability of open-source Vision-Language Models (VLMs...
+- 作者：Henry O. Velesaca, David Freire-Obregon, Luigi Miranda, Abel Reyes-Angulo
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19354
 
-### 3. Temperon: Full-Time SAM Quality at a Third Less Wall-Clock
-- 摘要：arXiv:2609.17575v1 Announce Type: new Abstract: Sharpness-aware minimization (SAM) doubles the cost of every training step, yet its benefit concentrates where training ends. We study where an expensive training mode should be spent and propose Temperon: a plain-SGD explorer for the first 43% of the...
-- 作者：Stamatis Mastromichalakis
-- 发布时间：2026-09-17 12:00 CST
-- 链接：https://arxiv.org/abs/2609.17575
+## arXiv cs.LG（arxiv-cs-lg，en，本窗口共 442 条）
+
+### 1. Generative Query Suggestion via Intent Coverage and Query-Level Credit Assignment
+- 摘要：arXiv:2609.19209v1 Announce Type: new Abstract: Generative query suggestion aims to enhance user engagement by anticipating user intents and recommending relevant follow-up queries. A central challenge is to generate slates whose individual queries are useful while the slate covers distinct intents....
+- 作者：Xinpeng Liu, Lu Ma, Jiayi Qiao, Mengyu Zhou, Linglong Li, Xiaofeng Bian, Haonan...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19209
+
+### 2. Layer-wise Curriculum Learning for Efficient LLM Compression
+- 摘要：arXiv:2609.19213v1 Announce Type: new Abstract: In this paper, we introduce layer-wise curriculum learning for efficient LLM compression. The proposed method facilitates the knowledge transfer from the teacher model to the student model, utilizing a curriculum learning approach that begins with easi...
+- 作者：Donggeon Lee, Dooyeon Na, Seungmin Oh, Jongbin Ryu
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19213
+
+### 3. Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training
+- 摘要：arXiv:2609.19242v1 Announce Type: new Abstract: Block diffusion language models (BDLMs) combine autoregressive dependencies across blocks with parallel denoising within blocks, but long-context training is constrained by distributed attention communication and activation memory. Conventional context...
+- 作者：Tarun Suresh, Pranshu Chaturvedi, Hangoo Kang, Parth Shroff, Ishan S. Khare, Her...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://arxiv.org/abs/2609.19242
 
 ## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 7 条）
 
@@ -107,10 +122,11 @@
 - 发布时间：2026-09-17 23:42 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/
 
-## Databricks Blog（databricks-blog，en，本窗口共 3 条）
+## Databricks Blog（databricks-blog，en，本窗口共 4 条）
 
 ### 1. Database for AI Agents: 5 Evaluation Criteria
 - 摘要：The five criteria for evaluating a database for AI agents are branch isolation, serverless...
+- 作者：Databricks Staff
 - 发布时间：2026-09-18 01:27 CST
 - 链接：https://www.databricks.com/blog/database-for-ai-agents
 
@@ -125,14 +141,6 @@
 - 作者：Databricks Staff
 - 发布时间：2026-09-18 00:49 CST
 - 链接：https://www.databricks.com/blog/what-is-aiops
-
-## GitHub Blog（github-blog，en，本窗口共 1 条）
-
-### 1. Migrating the GitHub Copilot runtime to Rust, using Copilot
-- 摘要：The GitHub Copilot CLI , GitHub Copilot app , and GitHub Copilot SDK are all backed by the Copilot agent runtime, an agentic harness that can be embedded into applications and services. It was originally written in TypeScript on Node.js and the V8 JavaScript engine for what is now the GitHub Copilot...
-- 作者：Stephen Toub
-- 发布时间：2026-09-17 08:26 CST
-- 链接：https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/
 
 ## Google — The Keyword (AI)（google-ai-blog，en，本窗口共 1 条）
 
@@ -149,25 +157,25 @@
 - 发布时间：2026-09-18 04:45 CST
 - 链接：https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/
 
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 4 条）
+## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 11 条）
 
-### 1. In-Context Robot Learning with VLM Agents
-- 摘要：Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...
-- 作者：Dongzhou Cheng, Taoran Yi, Ye Fang, Xingwu Zhang, Fan Feng, Yixuan Li, Gengxiong...
-- 发布时间：2026-09-16 04:00 CST
-- 链接：https://arxiv.org/abs/2609.19138
+### 1. An Empirical Study of Harness Design for Coding Agents
+- 摘要：Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparison...
+- 作者：Run-Ze Fan, Zihao Zhang, Simin Ma, Yebowen Hu, Shouju Wang, Kaiqiang Song, Fei L...
+- 发布时间：2026-09-17 04:00 CST
+- 链接：https://arxiv.org/abs/2609.20804
 
-### 2. LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence
-- 摘要：We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organ...
-- 作者：Xingxuan Zhang, Gang Ren, Hao Yuan, Hao Zou, Hongze Tan, Hui Wang, Jianhao Song,...
-- 发布时间：2026-09-15 04:00 CST
-- 链接：https://arxiv.org/abs/2609.17488
+### 2. JEPA-Anything: Learning Predictive Models across Different Worlds
+- 摘要：World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic fram...
+- 作者：Taoyong Cui, Zhongyao Wang, Xinyue Xu, Weiyang Liu, Zhaochen Yu, Yuying Zhang, Q...
+- 发布时间：2026-09-17 04:00 CST
+- 链接：https://arxiv.org/abs/2609.20800
 
-### 3. Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand
-- 摘要：A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment. We show how an anthropomorphic hand can learn these skills while retaining its finger design and position controller. Onboard power and computation make the platform self-contain...
-- 作者：Amirhossein Kazemipour, Hehui Zheng, Robert Katzschmann
-- 发布时间：2026-09-15 04:00 CST
-- 链接：https://arxiv.org/abs/2609.17172
+### 3. SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness
+- 摘要：As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an...
+- 作者：Haozhe Liu, Tian Ye, Sensen Gao, Qihang Cao, Yitong Li, Mingchen Zhuge, Duomin W...
+- 发布时间：2026-09-17 04:00 CST
+- 链接：https://arxiv.org/abs/2609.20519
 
 ## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 3 条）
 
@@ -189,19 +197,25 @@
 - 发布时间：2026-09-16 17:08 CST
 - 链接：https://huggingface.co/tencent/WeVisDoc-2B
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 2 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 4 条）
 
-### 1. nvidia/GLM-5.3-NVFP4
-- 摘要：text-generation, Model Optimizer, safetensors, glm_moe_dsa, nvidia, ModelOpt, GLM-5, quantized, FP4, fp4, conversational, base_model:zai-org/GLM-5.3, base_model:quantized:zai-org/GLM-5.3, license:other, 8-bit, modelopt, region:us
+### 1. nvidia/cari4d_commercial
+- 摘要：license:other, region:us
 - 作者：nvidia
-- 发布时间：2026-09-18 06:11 CST
-- 链接：https://huggingface.co/nvidia/GLM-5.3-NVFP4
+- 发布时间：2026-09-18 10:54 CST
+- 链接：https://huggingface.co/nvidia/cari4d_commercial
 
-### 2. nvidia/DeepSeek-V4.1-Flash-NVFP4
-- 摘要：image-text-to-text, Model Optimizer, safetensors, deepseek_v41, nvidia, ModelOpt, DeepSeekV4, quantized, FP4, fp4, base_model:deepseek-ai/DeepSeek-V4.1-Flash, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash, license:mit, 8-bit, fp8, region:us
-- 作者：nvidia
-- 发布时间：2026-09-17 09:24 CST
-- 链接：https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4
+### 2. amazon/poiss-bge-m3-reranker
+- 摘要：region:us
+- 作者：amazon
+- 发布时间：2026-09-18 08:54 CST
+- 链接：https://huggingface.co/amazon/poiss-bge-m3-reranker
+
+### 3. amazon/poiss-bge-m3-retriever
+- 摘要：region:us
+- 作者：amazon
+- 发布时间：2026-09-18 08:53 CST
+- 链接：https://huggingface.co/amazon/poiss-bge-m3-retriever
 
 ## NVIDIA Blog（nvidia-blog，en，本窗口共 1 条）
 
@@ -210,14 +224,6 @@
 - 作者：GeForce NOW Community
 - 发布时间：2026-09-17 21:00 CST
 - 链接：https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/
-
-## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 1 条）
-
-### 1. How to Use AI Agents to Prepare 3D Scenes for Simulation
-- 摘要：Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in... Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author sim...
-- 作者：Tanya Lenz
-- 发布时间：2026-09-17 07:20 CST
-- 链接：https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/
 
 ## OpenAI News（openai-news，en，本窗口共 2 条）
 
@@ -273,25 +279,26 @@
 - 发布时间：2026-09-17 17:00 CST
 - 链接：https://www.axios.com/2026/09/17/ai-cyber-doomsday-hacking-threats
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 39 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 37 条）
 
-### 1. India’s Quick-Commerce Disruptor Stays Calm on AI ‘Myth’
+### 1. Traders Eye Xi-Trump Meet for Clues on AI Rivalry, Yuan Outlook
+- 摘要：Artificial intelligence, a lingering trade war and the yuan will likely dominate the agenda of the upcoming US-China summit, with focus on whether the two nations can reach concessions or put guardrails around key areas of competition, analysts say.
+- 作者：Bloomberg News
+- 发布时间：2026-09-18 08:39 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-18/traders-eye-xi-trump-meet-for-clues-on-ai-rivalry-yuan-outlook
+
+### 2. India’s Quick-Commerce Disruptor Stays Calm on AI ‘Myth’
 - 摘要：Widely seen as the architect of the instant delivery model in India, Deepinder Goyal stays confident that the platforms he has built up under Eternal, such as Zomato and Blinkit, can harness AI for their customers better than general AI models can. As Goyal steps away from day-to-day operations of t...
 - 发布时间：2026-09-18 07:01 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-09-17/india-s-quick-commerce-disruptor-stays-calm-on-ai-myth-video
 
-### 2. Pennsylvania Governor Shapiro Calls for Tougher AI Safeguards
+### 3. Pennsylvania Governor Shapiro Calls for Tougher AI Safeguards
 - 摘要：Pennsylvania Governor Josh Shapiro called for tougher safeguards around artificial intelligence Thursday, wading into a growing debate over the risks of the rapidly advancing technology while arguing the US can continue to reap its economic benefits.
 - 作者：Liz Skalka
 - 发布时间：2026-09-18 06:26 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-17/pennsylvania-governor-shapiro-calls-for-tougher-ai-safeguards
 
-### 3. Stocks Rally as Yields Fall After the Fed Rate Hike
-- 摘要：The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are UBS US Rates Strategy Head Phoebe White, Cboe Global Markets VP, Head of Derivatives Market Intelligence Mandy Xu, Musician & FYI.AI Foun...
-- 发布时间：2026-09-18 05:56 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-17/the-close-9-17-2026-video
-
-## CNBC Technology（cnbc-tech，en，本窗口共 12 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 10 条）
 
 ### 1. Anthropic shares 3 metrics to help AI companies monitor pace of development
 - 摘要：Anthropic said it measured AI-led research and development, oversight of AI agents and compute allocation within the company.
@@ -311,42 +318,42 @@
 - 发布时间：2026-09-18 04:27 CST
 - 链接：https://www.cnbc.com/2026/09/17/what-an-oscar-winning-movie-can-teach-us-about-investing-through-the-ai-slowdown-debate.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 14 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 17 条）
 
-### 1. OpenAI staff knew the ‘existential threat’ AI posed to publishers, New York Times claims
-- 摘要：Lawyers say AI co-founder Greg Brockman was ‘motivated by the gazillions’ he hoped to gain from models trained on copyrighted content
-- 发布时间：2026-09-18 03:46 CST
-- 链接：https://www.ft.com/content/3df8edae-ae3b-4f56-83a3-40602edc17a3?syn-25a6b1a6=1
+### 1. The west must hurry to catch up with Ukraine on AI combat
+- 摘要：Technological innovations mean that the terms of military conflict have changed — forever
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://www.ft.com/content/5b08fae3-51b5-465b-acb5-e842c30ebd0c?syn-25a6b1a6=1
 
-### 2. Has AI broken the old VC model?
-- 摘要：A spate of mega-IPOs triggered by the AI boom is stretching the feast-or-famine industry dynamic to an extreme
-- 发布时间：2026-09-18 00:46 CST
-- 链接：https://www.ft.com/content/8c4143c7-f846-43a0-807a-b460fff7cd75?syn-25a6b1a6=1
+### 2. Medical AI has a proof problem
+- 摘要：The technology’s advances have not yet translated into big improvements in real-life care
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1
 
-### 3. Going faster will only slow AI down
-- 摘要：Without stronger safeguards, the danger is that any disaster could trigger a furious public backlash and regulatory overreaction
-- 发布时间：2026-09-18 00:27 CST
-- 链接：https://www.ft.com/content/b97ac029-271b-44d2-8641-bd8eb1dc7ab1?syn-25a6b1a6=1
+### 3. OpenAI breached by researchers using Anthropic models
+- 摘要：Security company hacked into AI lab using tools from its rival
+- 发布时间：2026-09-18 11:31 CST
+- 链接：https://www.ft.com/content/c4aa118e-a258-48bc-b50e-28e453a95db8?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 9 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
 
-### 1. Artists boycotted this portrait prize over AI entries. Now they’re back to take them on
+### 1. Is Trump’s AI obsession walking the world into disaster? – podcast
+- 摘要：Tech bosses have called for a slowdown in artificial intelligence and the creation of formal guardrails from the US government. But why is President Trump unmoved by the doomsday predictions, dismissing them as a ‘hoax’? What lies behind his embrace of the AI industry? Jonathan Freedland speaks to t...
+- 作者：Presented by Jonathan Freedland, produced by John Rogers and Nada Smiljanic; the...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://www.theguardian.com/politics/audio/2026/sep/18/is-trumps-ai-obsession-walking-the-world-into-disaster-podcast
+
+### 2. ‘If you build something vastly smarter than you, it better be on your side’: can we stop AI from deceiving us? – podcast
+- 摘要：We are used to the idea that our fellow humans might intentionally mislead or manipulate us, but the idea that machines can now do the same is deeply unsettling. Researchers are racing to find solutions before it’s too late. By Snigdha Poonam. Read by Maya Saroya Read the text version here Support t...
+- 作者：Written by Snigdha Poonamand read by Maya Saroya. Produced by Nicola Alexandroua...
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://www.theguardian.com/news/audio/2026/sep/18/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us-podcast
+
+### 3. Artists boycotted this portrait prize over AI entries. Now they’re back to take them on
 - 摘要：After two years shunning the Brisbane portrait prize, several artists are entering again, with some First Nations painters counting on another AI – ‘ancestral integrity’ – to help them win Poised above the lady in the red dress is a claw. Its metallic fingers grasp to pluck its prize from a jumble o...
 - 作者：Joe Hinchliffe
 - 发布时间：2026-09-17 23:00 CST
 - 链接：https://www.theguardian.com/artanddesign/ng-interactive/2026/sep/18/bpp-brisbane-portrait-prize-2026-ai
-
-### 2. Meta ordered to remove UK deepfakes as oversight board criticises ‘inadequate’ safeguards
-- 摘要：Facebook told it was wrong in leaving up AI-generated videos of a Labour councillor and Muslim campaigner, amid calls to curb fakes Meta’s “supreme court” has ordered the tech company to take down deepfake videos of a UK politician and a young Muslim woman from Facebook and do more to tackle AI-gene...
-- 作者：Dan Milmo Global technology editor
-- 发布时间：2026-09-17 22:43 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/17/meta-ordered-remove-deepfakes-oversight-board-inadequate-safeguards
-
-### 3. Tax the middle earners! Will the PM do it? – podcast
-- 摘要：Former Bank of England economist Andy Haldane said the markets regarded this government as ‘a pretty traditional tax and spend socialist government with better TikTok videos’. Harsh criticism or truth? As pressure mounts on the chancellor, John Healey, to rule out tax rises, what options do they hav...
-- 作者：Presented by Kiran Stacey and Peter Walker, produced by Alex Atack, music by Axe...
-- 发布时间：2026-09-17 22:39 CST
-- 链接：https://www.theguardian.com/politics/audio/2026/sep/17/tax-the-middle-earners-will-the-pm-do-it-podcast
 
 ## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 1 条）
 
@@ -364,7 +371,7 @@
 - 发布时间：2026-09-17 15:28 CST
 - 链接：https://www.latent.space/p/ainews-reality-checks-on-ai-news
 
-## MarkTechPost（marktechpost，en，本窗口共 5 条）
+## MarkTechPost（marktechpost，en，本窗口共 4 条）
 
 ### 1. Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads
 - 摘要：Platform teams running AI on Kubernetes rarely run one thing. They run a queueing system, a distributed runtime, GPU node health checks, dashboards, and a layer of submission scripts holding all of it together. The Azure Kubernetes Service engineering team open-sourced TauGrid , which collapses that...
@@ -398,7 +405,7 @@
 - 发布时间：2026-09-17 08:00 CST
 - 链接：https://www.nature.com/articles/d41586-026-02954-y
 
-## New York Times — Technology（nyt-tech，en，本窗口共 3 条）
+## New York Times — Technology（nyt-tech，en，本窗口共 2 条）
 
 ### 1. Inside Microsoft and OpenAI, Worry About Damaging the Publishing Industry
 - 摘要：Newly unsealed court documents show Microsoft employees discussing whether OpenAI was involved in the “largest theft of labor in human history.”
@@ -412,13 +419,7 @@
 - 发布时间：2026-09-17 17:00 CST
 - 链接：https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html
 
-### 3. OpenAI Discloses Six New Incidents of ‘Concerning' A.I. Behavior
-- 摘要：OpenAI offices in San Francisco.
-- 作者：Emmy Martin
-- 发布时间：2026-09-17 08:12 CST
-- 链接：https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html
-
-## Simon Willison's Weblog（simon-willison，en，本窗口共 5 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
 
 ### 1. Be alert: targeted attacks on prominent Rustaceans
 - 摘要：Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publ...
@@ -478,7 +479,7 @@
 - 发布时间：2026-09-17 22:42 CST
 - 链接：https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/
 
-## The Verge — AI（theverge-ai，en，本窗口共 6 条）
+## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
 ### 1. The AI Superintelligence Slowdown
 - 摘要：Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all , a number of leading US AI companies are publicly suggesting it...
@@ -546,80 +547,82 @@
 - 发布时间：2026-09-18 02:42 CST
 - 链接：https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 51 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 72 条）
 
-### 1. 曾被AI误杀的赛道，大反攻了
-- 摘要：1月30日，Anthropic发布了11个AI插件，随后一周内，美股软件与服务类股票市值蒸发近10000亿美元。交易员的潜台词是：SaaS的核心业务，AI顺手就能做了。 半年后，故事翻到另一面。CrowdStrike年内涨了106%，Okta涨了118%，连“老登”Salesforce都在财报后单日暴涨22.6%。 一跌一涨之间，华尔街完成了两次定价：先判死刑，后改误杀。 年初市场的逻辑链很简单：AI提高人效—企业少招人—付费seat减少—SaaS收入下降。更悲观的版本是，Agent干脆绕过软件UI，SaaS连入口价值都丢掉。 经过半年的业绩验证，这条传导链没在SaaS龙头身上兑现：很多龙头S...
-- 作者：读懂财经
-- 发布时间：2026-09-17 21:29 CST
-- 链接：https://www.36kr.com/p/3987439493256832
+### 1. Mythos，终于部分解禁
+- 摘要：Mythos模型，终于解禁了！ 就在刚刚，Anthropic正式宣布：生命科学验证计划测试版全面上线。 之前一直保密的神秘Mythos，首次对专业群体解禁！ 也就是说，以前很多Claude碰都不敢碰的生物学问题，现经过认证的科学家，可以直接问了。 这次权限开放，一共有两种授权类型—— 标准使用：覆盖日常大多数生命科研工作，可授权整个团队，每年续期一次； 高风险使用：移除所有安全限制，按单个研究项目授权，每六个月续一次。 专业人士第一次，可以用上「完全无限制」的Mythos了。 目前，这项计划已开启beta，先面向团队和机构，未来Pro和Max都能用上。 最强Mythos，突然「解禁」了 过去一...
+- 作者：新智元
+- 发布时间：2026-09-18 12:25 CST
+- 链接：https://www.36kr.com/p/3988393516858118
 
-### 2. GPU云服务掀涨价潮：Nebius再提价20%，算力供给侧迎议价权反转
-- 摘要：Nebius宣布将于10月1日起全面上调旗下GPU云服务定价，平均涨幅约20%，叠加英伟达发布强劲季度财报，推动该股盘后大涨近7%，AI算力供需格局持续偏紧的市场判断进一步获得印证。 此轮提价覆盖H100、H200、B200及B300多款芯片型号，是Nebius今年5月以来的第二轮涨价。市场将此解读为AI算力需求持续过热、供给仍然紧张的强烈信号，受此提振，Coreweave盘后续涨近4%，光通信板块亦普遍走强，AAOI、Credo Technology涨近3%，迈威尔科技、Astera Labs涨超2%，Coherent涨近2%。 涨价消息与英伟达亮眼业绩指引高度重合，进一步强化了市场对AI数...
-- 发布时间：2026-09-17 21:26 CST
-- 链接：https://www.36kr.com/p/3987439170943748
+### 2. Anthropic的“受害者”面具
+- 摘要：9月10日，Anthropic发布了一份威胁情报报告，内容覆盖网络攻击、非法模型蒸馏等AI“滥用”行为。其中最受关注的部分，是报告点名7家中国AI公司，指控它们对Claude实施了“工业规模蒸馏”。这已经是该公司今年以来第三次公开此类指控。 被置于指控中心的“蒸馏”，并不是一项新技术。2015年，Google Brain团队的一篇论文将其确立为一种模型训练方法，此后全球主要实验室都在内部使用。技术本身中立，至于其应用边界在哪里、是否构成侵权，行业争论多年，至今没有定论。 一项中立的常规技术，为何值得一家头部公司在半年多的时间里三次公开指控，且声势一次比一次大？要回答这个问题，需要把Anthro...
+- 作者：定焦One
+- 发布时间：2026-09-18 12:19 CST
+- 链接：https://www.36kr.com/p/3988372560215042
 
-### 3. OpenAI最新研究：打工人用上AI，工作反而变多了？
-- 摘要：OpenAI经济研究团队周三发布的一份报告，进一步展示了AI工具如何重塑当代打工人的职场命运。 即便在今天，讨论起在职场使用AI，大多数人首先担心的是“AI会不会抢走饭碗”，但OpenAI的最新研究展现出另一幅画面： 饭碗暂时还在，岗位边界正变得愈发模糊 。 更准确地说， 你原来不负责的活，开始顺手也能干了——而其中一部分，干着干着可能就成了日常工作 。 在这份题为《工作前沿：劳动者如何解锁新的工作方式》的报告中，研究人员分析了2026年4月至7月间，美国用户超过150万条与工作相关的ChatGPT消息。研究人员根据用户在ChatGPT Business注册过程中提供的岗位或部门信息，识别其职...
-- 发布时间：2026-09-17 21:24 CST
-- 链接：https://www.36kr.com/p/3987432696265736
+### 3. 那个教 ChatGPT 说话的人，做了一个「哑巴」模型
+- 摘要：AI 圈子里最懂怎么让模型「开口聊天」的人，现在决定剥夺大模型的语言能力。 这位前 OpenAI 研究员、ChatGPT 的共同发明者 Diogo Almeida，在潜行两年后带着他的新公司 TypeSafe AI 和 4000 万美元融资回到牌桌。他们发布的全新模型 Jev， 既不能写打工人的周报，也不能陪用户深夜长聊。它甚至连一个标点符号都吐不出来 。 TypeSafe 创始人 Diogo Almeida｜图片来源：X 这是一个反常识的时刻。过去三年，全行业都在教大模型怎么学会像人类一样「慢思考」，各家实验室拼命拉长推理链条，让模型在给出答案前默默自言自语几千个词。 但 Jev 走了一条完...
+- 作者：极客公园
+- 发布时间：2026-09-18 12:15 CST
+- 链接：https://www.36kr.com/p/3988372551990276
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 19 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 23 条）
 
-### 1. 亚马逊：Amazon Connect正从单一产品扩展为一套包含四项智能体AI解决方案的产品组合
-- 摘要：亚马逊称，Amazon Connect正从单一产品扩展为一套包含四项智能体AI解决方案的产品组合。有关智能体AI解决方案包括Amazon Connect Decisions（供应链）、Talent（招聘）、Customer（客户体验）和Health（医疗健康）。（财联社）
-- 发布时间：2026-09-18 08:10 CST
-- 链接：https://www.36kr.com/newsflashes/3988151424957443
+### 1. 光环新网在横琴成立算力服务公司，注册资本1000万
+- 摘要：36氪获悉，天眼查App显示，近日，光环新网（广东横琴）算力服务有限公司成立，法定代表人为耿岩，注册资本1000万人民币，经营范围含互联网数据服务、云计算装备技术服务、网络技术服务、信息技术咨询服务、计算机系统服务、数据处理和存储支持服务等。股东信息显示，该公司由北京光环新网科技股份有限公司全资持股。
+- 发布时间：2026-09-18 12:44 CST
+- 链接：https://www.36kr.com/newsflashes/3988423139179526
 
-### 2. 参议员要求调查沃尔玛、亚马逊机器人的“美国制造”相关数据
-- 摘要：参议员塔米・鲍德温与里克・斯科特要求联邦贸易委员会调查亚马逊和沃尔玛的 AI 购物聊天机器人处理 “美国制造” 相关表述的方式。两名美国参议员呼吁联邦贸易委员会（FTC）展开调查，核查亚马逊与沃尔玛搭载人工智能的购物聊天机器人如何向消费者处理、回复 “美国制造” 相关商品信息。（新浪财经）
-- 发布时间：2026-09-18 08:07 CST
-- 链接：https://www.36kr.com/newsflashes/3988150586817543
+### 2. 智谱推出GLM-5.3-FlashX
+- 摘要：36氪获悉，智谱正式推出GLM-5.3-FlashX（最高200 tokens/s）。
+- 发布时间：2026-09-18 12:41 CST
+- 链接：https://www.36kr.com/newsflashes/3988430977776385
 
-### 3. AI热潮蔓延至金刚石散热赛道，超硬材料企业跨界抢滩
-- 摘要：人工智能（AI）热潮正蔓延到金刚石散热赛道。近几个月来，多家传统超硬材料上市公司密集发布投资及募投变更公告，纷纷切入金刚石散热赛道。据了解，随着相关项目先后落地，部分上市公司金刚石散热产品已经进入送样、小批量供货阶段。当前伴随AI大模型迭代带动服务器芯片功耗持续走高，传统铜铝散热材料逐步触碰物理性能天花板，CVD金刚石热沉被视作破解高功率芯片散热痛点的关键材料。在培育钻石、工业金刚石主业价格低迷、企业盈利承压的背景下，向半导体功能材料转型，成为超硬材料行业企业的现实选择。（证券时报）
-- 发布时间：2026-09-18 08:02 CST
-- 链接：https://www.36kr.com/newsflashes/3988147333299205
+### 3. 武汉：预计到2030年人工智能产业规模达到2000亿元
+- 摘要：36氪获悉，近日，武汉市人民政府印发武汉市数智经济高质量发展“十五五”规划的通知。到2030年，数智经济成为驱动武汉经济社会高质量发展的核心引擎，产业能级稳步跃升，算力枢纽能力大幅提升，实数融合纵深拓展，数据价值加速释放，全域数智化转型扩面提质。预计到2030年，数字经济核心产业增加值占国内生产总值（GDP）比重达到20%，人工智能产业规模达到2000亿元，优秀智能体产品数量达到300个。
+- 发布时间：2026-09-18 12:18 CST
+- 链接：https://www.36kr.com/newsflashes/3988401504221957
 
 ## 极客公园（geekpark，zh，本窗口共 3 条）
 
-### 1. 京东押注物理 AI，冲在前面的是一群 95 后
+### 1. 影视飓风 Tim 称 iPhone Duo「烫到握不住」；赛力斯否认「问界撤出华为门店」；黄仁勋：英伟达 2027 年芯片销量将翻倍
+- 摘要：传 Manus 即将完成 5 亿美元融资，估值 40 亿美元 据彭博社 9 月 17 日报道，AI 智能体公司 Manus 即将完成 5 亿美元融资。这是该公司撤销 Meta 收购交易后的首轮融资。 报道表示：在新一轮融资中，Manus 的估值将提高一倍，至 40 亿美元。这家 AI 智能体公司也将成为该领域中国估值最高的创业公司。 知情人士称，谈判仍在进行中，交易条款仍可能变化。 Manus 的现有投资方包括腾讯控股、红杉中国和真格基金。截至发稿，Manus、腾讯、红杉中国和真格基金均未回应置评请求。（来源：凤凰网科技） 地瓜机器人宣布完成 4 亿美元 C 轮融资 9 月 17 日，地瓜机器...
+- 作者：Siqi
+- 发布时间：2026-09-18 08:17 CST
+- 链接：http://www.geekpark.net/news/370539
+
+### 2. 京东押注物理 AI，冲在前面的是一群 95 后
 - 摘要：去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成。所有人都在问：这个模型有多强？ 但到了 2026 年，问题变了。人们开始追问：它到底能干什么？ 这个问题，京东在今年的 JDD 大会上，给出了自己的答案。 京东把这届大会的主题定为「JoyAI · 跃迁物理世界」。它想传达的是，AI 的下一站不只是能说会道、更聪明，而是要进入仓库、货架、家庭、配送路线和售后服务，去完成真实任务。 有意思的是，这次站上舞台的，除了京东高管，还有一批 95 后业务负责人和产品经理。他们讲的不是概念里的未来，而是京东 App 的 AI 化改造、物流具身智能机器人、家庭 AI 入口。这背后京东正在推进一项更大的...
 - 作者：周永亮
 - 发布时间：2026-09-17 15:51 CST
 - 链接：http://www.geekpark.net/news/370519
 
-### 2. IDC 发布企业级 Agent 评估报告，中国电信 TeleAgent 综合跻身国内第一梯队
+### 3. IDC 发布企业级 Agent 评估报告，中国电信 TeleAgent 综合跻身国内第一梯队
 - 摘要：近日，国际数据公司（IDC）发布《中国企业级通用 Agent 产品技术评估》报告，对国内多款主流通用智能体产品开展标准化实测。中国电信星辰超级智能体 TeleAgent 综合得分 6.85 分，成本效率、安全可控、任务表现等多个维度高于行业普遍水平，面向高频办公场景的常规任务能力进入国内第一梯队。 本次评估在统一的仿真测试环境中进行，覆盖任务表现、成本效率、交互体验、安全可控、生态开放性等九大维度，并加入脏数据、权限约束、模糊指令等真实工作中常见的干扰条件。测评显示，TeleAgent 在 Token 消耗方面优于同类产品。对于需要高频调用、规模化部署智能体的企业而言，这意味着使用成本有望进一...
 - 作者：拉风的极客
 - 发布时间：2026-09-17 13:56 CST
 - 链接：http://www.geekpark.net/news/370511
 
-### 3. 追觅四大赛道 IFA 首秀：一套技术，四个出口
-- 摘要：追觅在 IFA 上展出的不是四条产品线，是一套技术的四个出口。 作者｜张勇毅 编辑｜郑玄 去年一年，全球扫地机器人的出货量约 2412 万台。同一年，全球人形机器人的出货量约 1.8 万台。两个数字都来自 IDC，中间差了 1300 多倍。 带着这两个数字走进今年柏林的 IFA 主会场，这种体感上的反差就更明显了。 IFA 官方今年搭了迄今最大规模的人形机器人展示平台，主题是「未来已来」，机器人走秀也排进了每天的日程。转到清洁电器区，几家中国清洁品牌的展台上，扫地机器人长出了手和腿：有会爬楼梯的，有伸出机械臂往墙角边缘的。 追觅的展台是这个领域中把这件事做得最极致的选手之一：从带机械臂的割草机...
-- 作者：张勇毅
-- 发布时间：2026-09-17 12:42 CST
-- 链接：http://www.geekpark.net/news/370506
+## 虎嗅（huxiu，zh，本窗口共 47 条）
 
-## 虎嗅（huxiu，zh，本窗口共 49 条）
+### 1. 台积电最新价值核算报告，拿出了两个新东西
+- 摘要：8月底，台积电发布了2025年度《永续影响力评价报告》。这份报告采用国际上通称的"影响力核算"方法编制，是台积电连续第三年发布的同框架年度报告；若从其前身《环境损益分析报告》算起，这项实践已持续了七年。"影响力核算"，又称可持续价值核算，是将企业对环境和社会造成的影响换算为货币价值的一套方法。它的核心作用在于...... 本文来自微信公众号： 一标可持续评论 ，作者：扬一标 8月底，台积电发布了2025年度《永续影响力评价报告》。这份报告采用国际上通称的"影响力核算"方法编制，是台积电连续第三年发布的同框架年度报告；若从其前身《环境损益分析报告》算起，这项实践已持续了七年。 "影响力核算"，又...
+- 作者：一标可持续评论
+- 发布时间：2026-09-18 11:40 CST
+- 链接：https://www.huxiu.com/article/4892204.html
 
-### 1. 拿到人身安全保护令的家暴受害者，还是不敢回家
-- 摘要：公权力应该如何提前干预潜在的家庭暴力？2016年《反家庭暴力法》正式确立的人身安全保护令，是回答这个问题的新兴制度之一。它是一种面向现实危险的预防性司法措施。2026年7月17日，广西南宁双胞胎姐妹遭入室伤害案，在南宁市中级人民法院一审开庭宣判：被告人林某某犯故意杀人罪，被判处死刑，剥夺政治权利终身。据《大河...... 本文来自微信公众号： 新周刊 ，编辑：腾宇，作者：胡贺 公权力应该如何提前干预潜在的家庭暴力？2016年《反家庭暴力法》正式确立的人身安全保护令，是回答这个问题的新兴制度之一。它是一种面向现实危险的预防性司法措施。 2026年7月17日，广西南宁双胞胎姐妹遭入室伤害案，在南宁...
-- 作者：新周刊
-- 发布时间：2026-09-18 08:28 CST
-- 链接：https://www.huxiu.com/article/4892153.html
+### 2. a16z合伙人：以为大众想用AI提高效率，是科技圈最大的误判
+- 摘要：在生成式 AI 狂飙突进的当下，科技行业正陷入一种前所未有的集体心理割裂：一边是底层模型与编码工具日新月异带来的狂欢，另一边则是蔓延全行业的重度焦虑——人们害怕一旦在工具跟进上稍有迟疑，就会沦为被技术时代抛弃的边缘人。与此同时，应用层的发展似乎也走进了某种同质化的死胡同。市场上充斥着数...... 本文来自微信公众号： AGI 2050 ，作者：AGI 2050，原文标题：《a16z 合伙人深度访谈：科技圈最大的误判，是以为大众真的想用 AI 提高效率》，题图来自：视觉中国 在生成式 AI 狂飙突进的当下，科技行业正陷入一种前所未有的集体心理割裂：一边是底层模型与编码工具日新月异带来的狂欢，另...
+- 作者：AGI 2050©
+- 发布时间：2026-09-18 11:13 CST
+- 链接：https://www.huxiu.com/article/4892190.html
 
-### 2. AI时代的3种人与3种城市，你要做哪一种？
-- 摘要：最近英文互联网上有条帖子刷屏了。作者Dan Koe，一个专写"未来工作"的美国内容创作者，说了一件事：未来会有三种人，而且他们之间的裂缝每天都在变宽。现在阅读量超过300万，收藏比点赞多40倍。Dan Koe的博客文章Dan Koe说的三种人是：抵抗者——把身份认同绑死在旧做法上的人。看到新工具的第一反应是它...... 本文来自微信公众号： TOP创新区研究院 ，作者：趋势研究组 最近英文互联网上有条帖子刷屏了。作者Dan Koe，一个专写"未来工作"的美国内容创作者，说了一件事：未来会有三种人，而且他们之间的裂缝每天都在变宽。 现在阅读量超过300万，收藏比点赞多40倍。 Dan Koe的...
-- 作者：TOP创新区研究院©
-- 发布时间：2026-09-18 08:18 CST
-- 链接：https://www.huxiu.com/article/4892152.html
-
-### 3. 球踢回给沃什，美联储会继续加息，不听懂王的吗？
-- 摘要：1/4忠诚比降息更重要9月议息会议，25个BP的加息如期落地，鹰派发言也不出市场的意料，但却留下了更多疑问，比如说：（本文前半部分汇集了之前发送几篇内容，加上本次加息的分析，合并成一篇完整的美联储货币政策分析文章）问题一：为什么特朗普对沃什加息的态度明显比对鲍威尔温和？特朗普过去一直要求美联储降息，不惜反复羞...... 本文来自微信公众号： 人神共奋 ，作者：思想钢印 1/4 忠诚比降息更重要 9月议息会议，25个BP的加息如期落地，鹰派发言也不出市场的意料，但却留下了更多疑问，比如说： （本文前半部分汇集了之前发送几篇内容，加上本次加息的分析，合并成一篇完整的美联储货币政策分析文章） 问题...
-- 作者：人神共奋
-- 发布时间：2026-09-18 08:10 CST
-- 链接：https://www.huxiu.com/article/4892151.html
+### 3. AI短剧狂飙40万部，"电子泔水"喂饱全民
+- 摘要：真正值得追问的是：当内容多到永远看不完，我们还愿不愿意为一部需要时间、耐心和审美的作品停留？谁也没想到，AI第一个真正颠覆的产业竟然是影视业。昨天（9月17日），广电总局有关负责人在国新办发布会上透露了一组惊人的数据：今年前8个月，上线微短剧43万部，是去年全年的13倍，其中AI剧占比超九成。广电总局将AI短...... 本文来自微信公众号： 冰川思享号 ，作者：侯虹斌 真正值得追问的是：当内容多到永远看不完，我们还愿不愿意为一部需要时间、耐心和审美的作品停留？ 谁也没想到，AI第一个真正颠覆的产业竟然是影视业。 昨天（9月17日），广电总局有关负责人在国新办发布会上透露了一组惊人的数据：今年...
+- 作者：冰川思想库
+- 发布时间：2026-09-18 11:08 CST
+- 链接：https://www.huxiu.com/article/4892201.html
 
 ## 爱范儿（ifanr，zh，本窗口共 10 条）
 
@@ -641,128 +644,129 @@
 - 发布时间：2026-09-18 00:47 CST
 - 链接：https://www.ifanr.com/1680790?utm_source=rss&utm_medium=rss&utm_campaign=
 
-## InfoQ 中文（infoq-cn，zh，本窗口共 8 条）
+## InfoQ 中文（infoq-cn，zh，本窗口共 9 条）
 
-### 1. 百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮
+### 1. 6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能
 - 摘要：点击查看原文>
-- 作者：陈姚戈
-- 发布时间：2026-09-17 19:29 CST
-- 链接：https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article
+- 作者：蔡芳芳
+- 发布时间：2026-09-18 12:00 CST
+- 链接：https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm?utm_source=rss&utm_medium=article
 
-### 2. 9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？
+### 2. 让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海
 - 摘要：点击查看原文>
-- 作者：模力工场
-- 发布时间：2026-09-17 16:00 CST
-- 链接：https://www.infoq.cn/article/Yz8Ad81rFlGEYMKVsKRJ?utm_source=rss&utm_medium=article
+- 作者：QCon全球软件开发大会
+- 发布时间：2026-09-18 10:00 CST
+- 链接：https://www.infoq.cn/article/x2FmIeCkeDYUV66BNj3g?utm_source=rss&utm_medium=article
 
-### 3. 阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作
+### 3. 700 个 AI 智能体本应彼此隔离，却建起留言板联手攻击，独立调查还原 Hugging Face 事件
 - 摘要：点击查看原文>
-- 作者：李冬梅
-- 发布时间：2026-09-17 15:50 CST
-- 链接：https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC?utm_source=rss&utm_medium=article
+- 作者：作者：Sergio De Simone
+- 发布时间：2026-09-18 09:04 CST
+- 链接：https://www.infoq.cn/article/W3tOIQhV5pKhsXP6mgWw?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 119 条）
+## IT之家（ithome，zh，本窗口共 113 条）
 
-### 1. 内存短缺持续冲击中小厂商：旗鱼系统开发商 Jolla 计划开发新型手机主板降低成本
-- 摘要：IT之家 9 月 18 日消息，随着全球内存供应持续紧张，一些规模较小的手机、笔记本电脑厂商正开始为长期供应不足做准备，并通过调整产品设计等方式降低内存成本上涨带来的影响。 据路透社报道，旗鱼系统 Sailfish OS 开发商 Jolla 发文，称“当前的内存供应紧张局面可能要到 2028 年左右才会恢复正常”，不过公司已做好准备应对长期内存短缺的准备。 Jolla 表示， 公司计划从主板设计入手解决这一问题。该公司正在研发两款手机主板 ，使其能够根据供应情况，将目前的组合式封装方案更换为独立芯片，从而提高不同内存配置之间的灵活性。未来如果某种内存封装供应不足，Jolla 可以通过调整主板设...
+### 1. 影视飓风 Tim 称苹果首款折叠屏手机 iPhone Duo 录视频烫到握不住，客服回应称单台测评片面
+- 摘要：IT之家 9 月 18 日消息，影视飓风创始人 Tim（潘天鸿）9 月 16 日晚发布了苹果首款折叠屏手机 iPhone Duo 的测评视频，称该机型在录制视频等高负载场景下发热严重，形容“烫到握不住，一边很凉一边可以煎鸡蛋”。 他在视频中表示，iPhone Duo 在日常使用时机身温度可控。但在苹果发布会现场持续录制约 3 分钟 4K 60 帧视频后，手机已烫到几乎无法握持。他称 iPhone Duo“是我测过最烫的手机之一”。 对于发热原因，Tim 分析称这与 iPhone Duo 的设计有关，其算力和信号模块集中在摄像头下方，即便配备 VC 均热板也难以压制。他推测苹果后续可能通过软件更...
+- 作者：作者： 问舟
+- 发布时间：2026-09-18 12:02 CST
+- 链接：https://www.ithome.com/1/004/055.htm
+
+### 2. 腾讯极光投影仪 F5 上架：1080P 345CVIA，822 元（国补后 699 元）
+- 摘要：IT之家 9 月 18 日消息，腾讯现已在京东上架一款 Tencent F5 极光投影仪，该机主打 1080P 345CVIA 流明，定价为 822 元，部分地区国补后 699 元。 京东 腾讯极光投影 F5 822 元 国补后 699 元 直达链接 该产品使用白色简约外观，采用全封闭光机结构，镜头为全玻璃材质，可防止受热产生变形与失焦。机身配备 210° 可调云台，支持多角度旋转。 具体规格方面，该机为 1080P 345 CVIA 亮度，画面对比度达 1500:1，搭载海思芯片与腾讯 OS，支持“5 秒开机、自动梯形校准、AI 语音”等功能。设备支持 Wi-Fi 6 网络，提供 USB-A...
 - 作者：作者： 漾仔
-- 发布时间：2026-09-18 08:06 CST
-- 链接：https://www.ithome.com/1/003/903.htm
+- 发布时间：2026-09-18 11:39 CST
+- 链接：https://www.ithome.com/1/004/051.htm
 
-### 2. 谷歌最强 AI 模型：Gemini 4 Pro 开测，SVG 生图表现惊艳
-- 摘要：IT之家 9 月 18 日消息，根据 @LuminaBench 等网友反馈，谷歌正以“gemini-3.8-flash”名称， 在 Arena 等基准平台测试其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。 根据网友晒出的模型测试图片，在生成经典的“鹈鹕骑自行车”SVG 图片为例，其非常优秀，该网友还附上了和 OpenAI 最强模型 GPT-6 Astra Pro 的对比，并认为在谷歌官方发布后，Gemini 4 Pro 模型的能力会进一步提升。 IT之家附上相关截图如下：
-- 作者：作者： 故渊
-- 发布时间：2026-09-18 08:03 CST
-- 链接：https://www.ithome.com/1/003/902.htm
+### 3. 阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元
+- 摘要：IT之家 9 月 18 日消息，阿里千问今日正式上线新一代原生全模态模型 Qwen3.8-Omni-Flash，并已在千问 AI 平台提供。该模型可同时处理文本、图像、音频和视频输入，支持 1M 上下文。 全模态模型指可同时处理文本、图像、音频、视频等多种输入形式。官方称，该模型在保持同尺寸文本模型能力的同时，全模态能力较上一代明显提升。 在累计 30 项评测上，Qwen3.8-Omni-Flash 相比上一代 Qwen3.5-Omni-Plus 平均得分提升超过 26%。在音视频 Agent、Coding 和长程任务方面，WildClawBench-MM 提升 36.5 分，AgenticV...
+- 作者：作者： 问舟
+- 发布时间：2026-09-18 11:34 CST
+- 链接：https://www.ithome.com/1/004/049.htm
 
-### 3. 联想 Vantage 外设管理应用登陆谷歌 Googlebook 平台，意外曝光自家 AI Mouse 智能鼠标新品
-- 摘要：IT之家 9 月 18 日消息，据外媒 Android Headlines 报道，联想旗下 Vantage 外设管理应用现已正式上架 Google Play 商店。 事实上，对于使用过联想 Windows PC 的用户而言，Vantage 并不是一款陌生应用。在 Windows 平台上，它主要承担系统更新、硬件诊断以及设备配置等功能。此次联想 Vantage 登陆 Google Play 商店，可以看作是联想正为自家 Googlebook 铺路。 具体来看，相应应用允许用户在 Googlebook 上查看自己设备的基础状态，快速浏览设备 RAM 内存及存储容量、序列号、操作系统版本、保修状态等...
-- 作者：作者： 漾仔
-- 发布时间：2026-09-18 07:57 CST
-- 链接：https://www.ithome.com/1/003/900.htm
+## 雷峰网（leiphone，zh，本窗口共 13 条）
 
-## 雷峰网（leiphone，zh，本窗口共 16 条）
+### 1. 影视飓风Tim称「iPhoneDuo烫到握不住，可以煎鸡蛋」；罗福莉直播小米大模型训练，每小时烧掉超20万元；曝玛莎拉蒂与华为合作两款新车
+- 摘要：要闻提示 1.影视飓风Tim称“iPhoneDuo烫到握不住，可以煎鸡蛋”，苹果客服回应 2.你会买吗？曝玛莎拉蒂已与华为敲定合作两款新车：尊界工厂负责制造 3.每小时“烧掉”超20万元！“AI才女”罗福莉直播小米大模型训练 4.华为汪涛：昇腾960芯片将提前至2027年Q1发布 5.知情人士否认“2027 年问界撤出华为门店”传闻：部分门店将继续销售 6.字节Seed大模型研究员张驰加入北大，曾参与研发Seed-Prover！ 7.月之暗面发布 Kimi 金融行业 AI 解决方案，首批落地工商银行、中信建投等 8.黄仁勋：英伟达明年芯片销量将是今年的两倍 今日头条 影视飓风Tim称“iPho...
+- 发布时间：2026-09-18 08:19 CST
+- 链接：https://www.leiphone.com/category/zaobao/MJprK3aEw1xPngou.html
 
-### 1. 华为开创AI时代计算架构：让百万处理器成为一台计算机
+### 2. 华为开创AI时代计算架构：让百万处理器成为一台计算机
 - 摘要：关键信息： • Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。 • 灵衢是实现Peerium计算架构的关键互联技术。 [中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。 Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆...
 - 发布时间：2026-09-17 22:25 CST
 - 链接：https://www.leiphone.com/category/industrynews/ZAv4gLB8zM5B5PBX.html
 
-### 2. 360纳米Work启动“双城千店上岗计划” 探索实体商业AI落地新路径
+### 3. 360纳米Work启动“双城千店上岗计划” 探索实体商业AI落地新路径
 - 摘要：9月17日，2026北京艺术与科技周在北京798艺术区开幕。360集团创始人周鸿祎参加开幕式，并宣布360旗下AI办公平台纳米Work正式启动“双城千店上岗计划”。作为本届活动独家AI合作伙伴与官方办公支持平台，纳米Work将以798为首站推进场景合作；10月也将以同一身份参与第11届陆家嘴国际咖啡文化节。 周鸿祎在活动现场表示：“AI 行业的竞争焦点正在从模型参数转向实际交付，大模型决定的是"读不读得懂"，智能体决定的是"干不干得成"；产品行不行，最终得看在真实场景里能不能把活儿”他判断，明年很可能就是考验产品力的“AI交付元年”。赛迪智库今年6月调研显示，近1.9亿小微经营者中，九成以上了...
 - 发布时间：2026-09-17 20:31 CST
 - 链接：https://www.leiphone.com/category/industrynews/IX9DPt2tjo0E0gDh.html
 
-### 3. 九识建成首个L4万卡集群，无人驾驶进入多模态大模型新范式
-- 摘要：一家做无人车的公司，为什么需要一万多张GPU？ 9月10日，九识CEO孔旗在广州宣布战略升级为“城市级物理AI”。一周后的9月17日，CTO庄立首次披露支撑这次升级的底层能力：九识已建成业内首个L4级万卡集群，算力集群总规模近1.5万卡。九识也成为首个建成万卡集群的L4团队。 而万卡算力的背后，是一个正在从百亿级迈向千亿级的九识APEX多模态基座大模型。 无人驾驶下半场：迈入多模态大模型新范式 在智能驾驶圈子里，长期存在一个顽固的偏见：载人自动驾驶是高科技，城市货运无人车，AI壁垒更低。但事实显然不是如此。 九识成立于2021年8月，创始团队是中国无人驾驶的拓荒者，曾在百度硅谷研究院主导了Ro...
-- 发布时间：2026-09-17 18:14 CST
-- 链接：https://www.leiphone.com/category/industrynews/sOtgTcXitH6C7vAT.html
+## 开源中国（oschina，zh，本窗口共 15 条）
 
-## 开源中国（oschina，zh，本窗口共 14 条）
+### 1. 学大教育与开源中国达成战略合作，共建中国教育AI基础设施
+- 摘要：9 月 17 日，学大（厦门）教育科技集团股份有限公司与上海开源共识智能科技股份公司（开源中国）在京签署战略合作协议，双方以“场景×底座”为合作框架，把自主可控的人工智能能力引入真实教育场景，共同建设面向教育行业的人工智能基础设施与应用体系。 开源中国 CEO 徐勇，学大教育创始人、董事长金鑫出席签约仪式并致...
+- 发布时间：2026-09-18 11:49 CST
+- 链接：https://www.oschina.net/news/502571
 
-### 1. 智谱创始人唐杰清华开课：教室站满人、但课程内容“劝退”学生
-- 摘要：智谱创始人、清华大学教授唐杰在清华开的机器学习课，开课第一天就把教室挤爆了——112 人的教室站满了学生。这课全名叫"高级机器学习"，可唐杰在讲台上抛出的判断，明显不是传统机器学习课的味道：AGI、ASI 会是模型接下来的主要目标，Chat 这一仗基本打完了，2026 年该干的是把智能往上推，让模型自己记忆、自己进化、...
-- 发布时间：2026-09-17 19:05 CST
-- 链接：https://www.oschina.net/news/502554
+### 2. Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”
+- 摘要："我们芯片多、我们跑得快"——这种话听多了就容易变成营销。Anthropic 这次换了个思路：与其互相吹，不如直接把自家实验室的内部数据拿出来，给"AI 发展速度"这件事定一套可以测量的指标。 它发了三份方法论性质的度量。第一份叫"AI 主导研发（AI-led R&D）"，借用 Epoch AI 的自动化分级（AL0 到 AL5，AL3 是 AI 协作、...
+- 发布时间：2026-09-18 11:45 CST
+- 链接：https://www.oschina.net/news/502569/anthropic-measuring-pace-of-ai-development
 
-### 2. JimuReport v2.5.3 安全加固专项发布，免费开源的 AI 报表工具
-- 摘要：项目介绍 真正的 AI 报表来了，一句话描述需求，AI 自动生成报表与数据大屏，支持对话式修改报表；同时提供类 Excel 拖拽设计器，兼容 30 余种数据源，轻松应对各类复杂报表场景 :sparkles: 积木报表是一款免费的数据可视化报表工具，集报表、打印、大屏、仪表盘于一体，像搭积木一样完全在线设计。分两大模块：JimuRep...
-- 发布时间：2026-09-17 17:55 CST
-- 链接：https://www.oschina.net/news/502553
+### 3. Qwen3.8-Omni-Flash 发布，阿里通义把多模态押在了“干活”上
+- 摘要：阿里通义 Qwen 团队今天放出了新一代"原生全模态"模型 Qwen3.8-Omni-Flash。标题文案很有意思——"耳聪目明，办事得力"。前四个字是这类 Omni 模型的老本行，后四个字才是这次的重点：从"理解全模态内容"往"规划任务、调用工具并完成创作"推。 一个最直接的信号是价格。相比上一代 Qwen3.5-Omni-Plus，API 每小时音频输入...
+- 发布时间：2026-09-18 11:37 CST
+- 链接：https://www.oschina.net/news/502567/qwen-3-8-omni-flash
 
-### 3. 直播预告 | openKylin 3.0玩转智能体！直播间现场见
-- 发布时间：2026-09-17 17:48 CST
-- 链接：https://www.oschina.net/news/502552
+## 量子位（qbitai，zh，本窗口共 9 条）
 
-## 量子位（qbitai，zh，本窗口共 12 条）
+### 1. Manus重生第17天，估值居然就翻倍了
+- 摘要：作价40亿美元推进新融资
+- 作者：衡宇
+- 发布时间：2026-09-18 08:37 CST
+- 链接：https://www.qbitai.com/2026/09/491764.html
 
-### 1. 从“会回答”到“会办事”，vivo如何解AI手机这道题？
+### 2. 刚刚，Claude Code大重构！内部3万Agent管理技术免费开放
+- 摘要：Git白学了？？？
+- 作者：Jay
+- 发布时间：2026-09-18 08:34 CST
+- 链接：https://www.qbitai.com/2026/09/491711.html
+
+### 3. 从“会回答”到“会办事”，vivo如何解AI手机这道题？
 - 摘要：构建个体专属AI助理
 - 作者：梦瑶
 - 发布时间：2026-09-17 20:03 CST
 - 链接：https://www.qbitai.com/2026/09/491649.html
 
-### 2. Claude Code团队讲究啊，这都往外说
-- 摘要：工程师的核心永远是Problem Solving。
-- 作者：衡宇
-- 发布时间：2026-09-17 19:56 CST
-- 链接：https://www.qbitai.com/2026/09/491596.html
-
-### 3. 图形学宗师童欣加盟Meshy，要做“AI for Fun”的头号玩家
-- 摘要：他要和这一代最富有想象力的年轻人一起，去创造一个新的图形学。
-- 作者：衡宇
-- 发布时间：2026-09-17 17:42 CST
-- 链接：https://www.qbitai.com/2026/09/491522.html
-
 ## 少数派（sspai，zh，本窗口共 1 条）
 
-### 1. 派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等
-- 摘要：惠普发布 ZBook Ultra G3a 16 移动工作站、影石发布 Mic Pro 腾讯会议版 AI 录音领夹麦等。 查看全文
+### 1. 派早报：欧盟拟禁止 13 岁以下儿童使用社交媒体等
+- 摘要：少数派的近期动态口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果。了解更多能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解八月买了什 ... 查看全文
 - 作者：少数派编辑部
-- 发布时间：2026-09-17 08:25 CST
-- 链接：https://sspai.com/post/114658
+- 发布时间：2026-09-18 08:17 CST
+- 链接：https://sspai.com/post/114699
 
-## 钛媒体（tmtpost，zh，本窗口共 57 条）
+## 钛媒体（tmtpost，zh，本窗口共 42 条）
 
-### 1. 一位CIO的自我革命：AI三年，从内部重构到外部生长
-- 摘要：本文摘自《云栖战略参考》，这本刊物由阿里云与钛媒体联合策划。目的是为了把各个行业先行者的技术探索、业务实践呈现出来，与思考同样问题的“数智先行者”共同探讨、碰撞，希望这些内容能让你有所启发。 开篇：会客室里，装满了AI困惑 2026年夏天，阿里云CIO的会客名单越来越长。 企业管理者带来的AI问题各不相同： 知识库 ——很多事业部都自建，可怎么变成一个真正能用的公司级统一底座？ 数据 ——旧的数据保障体系不是为AI设计，AI要直接访问生产数据，困在价值挖掘和权限管理； 交付模式 ——大量AI项目“点状，规模小”，交付方式停留在上一个时代； 真需求 ——伪需求满天飞，该是技术主导还是用户思维主导...
-- 作者：TechPulse
-- 发布时间：2026-09-18 08:00 CST
-- 链接：https://www.tmtpost.com/8141973.html
+### 1. iPhone的生态位，被豆包手机抢了吗？
+- 摘要：文 | 字母AI 9月16日，努比亚NaviX Ultra正式亮相，人称豆包手机二代。 这款手机内置豆包手机助手消费者版，侧面的AI键集成了指纹识别，按下去就能直接把豆包拉入工作状态；一声“豆包豆包”，也可以随时叫它出来。 从打开豆包App到直接唤醒豆包手机助手，减少的是Agent和任务之间的距离。 Agent的本质是任务入口。 终极目标一定是用户只需要表达需求，Agent就能给出结果。 就在两天前，新一代Siri AI终于上线，苹果也总算交出了手机Agent的答卷；但iPhone卖得再好，那套能力在国内还没法用。 这个位置，豆包手机助手抢先了一步。 努比亚NaviX Ultra 12GB+5...
+- 作者：字母AI
+- 发布时间：2026-09-18 11:24 CST
+- 链接：https://www.tmtpost.com/8144026.html
 
-### 2. Agent手机爆发前夜，vivo把答案押在"个人化智能"
-- 摘要：下行周期中，手机行业正在寻找新的价值锚点，从目前手机品牌的动作来看，Agent手机成了卖货的新看点。只不过，不同于过去手机品牌的单点参与，在这轮Agent手机浪潮中，大模型企业也纷纷下场，不同技术路线之间的碰撞，也让整个手机产业迎来了久违的火药味。 可以确定的一点是，Agent是共识，差异在于对AI主动服务的边界以及参与方式上。9月，在Agent手机集中爆发之前，各大厂商先带来了在系统层的思考。 日前，在vivo开发者大会（VDC）上，除了Origin OS在UI以及玩法上的迭代，vivo进一步展示了关于Agent OS的阶段性落地架构。相比过去几年围绕大模型参数、AI功能数量以及单点体验的竞...
-- 作者：志读科技
-- 发布时间：2026-09-18 07:28 CST
-- 链接：https://www.tmtpost.com/8143272.html
+### 2. 地瓜机器人C轮融资4亿美元：资本不再为Demo买单，只为量产续费
+- 摘要：文｜光锥智能，作者 | 罗镇昊 ，编｜刘俊宏 9月17日，地瓜机器人宣布完成4亿美元C轮融资。 本轮融资由国际知名投资机构未来资产领投，互联网巨头美团战投，合肥国投、南山战新投、璟泉资本等政府投资平台，凯辉基金、华美国际投资集团有限公司、广发信德、超越摩尔、启航投资旗下芯创二期基金等一线投资机构联合跟投，以及高瓴创投、五源资本、线性资本、黄浦江资本、淡马锡旗下的Vertex Growth、Prosperity7、和暄资本、云锋基金、美团龙珠、九阳家办、敦鸿资产、凯联资本、沸点资本、九合创投、初心资本、数字未来、庚辛资本等众多老股东持续加码。 这是地瓜机器人16个月内的第四轮公开融资。 2025...
+- 作者：光锥智能
+- 发布时间：2026-09-18 11:24 CST
+- 链接：https://www.tmtpost.com/8144105.html
 
-### 3. 【钛晨报】金融产品网络营销新规落地在即，上海证监局叫停“大V”合作营销；三大交易所发布中秋、国庆休市安排；宁德时代拟以14亿元在雅安新建4万吨碳酸锂年产能
-- 摘要：【钛媒体综合】据澎湃新闻，9月17日，上海证监局对基金管理人、资产管理机构、基金销售机构下发关于做好《金融产品网络营销管理办法》落实工作的通知。 据了解，《金融产品网络营销管理办法》（以下简称《办法》）已于2026年4月21日公布，将于9月30日起正式实施。前期，证监会已通过机构监管通报传达最新口径要求。为进一步做好《办法》落地实施，监管部门近日下发通知，从合作主体、业务独立、事前评估、自主App建设、系统备案及信息报送等六个方面提出明确要求。 通知明确，金融机构不得与第三方互联网平台以外的任何其他组织或者个人（包括“网络大V”）合作开展金融产品网络营销。 在与第三方互联网平台合作过程中应当坚...
-- 作者：钛媒体官方账号
-- 发布时间：2026-09-18 07:20 CST
-- 链接：https://www.tmtpost.com/8144053.html
+### 3. AI制药独角兽Anew单飞，字节推了一把“最烧钱的慢生意”
+- 摘要：文｜AI资本观，作者 | 林见，编辑｜邵神 9月16日，字节跳动旗下Anew Labs（新生实验室）第一次以一家独立公司的身份，获取了一份估值：15亿美元。 据Reuters报道，这家从字节跳动拆分出来的AI制药公司完成首轮外部融资2.9亿美元，投后估值15亿美元。HSG（原红杉中国）、IDG Capital、GL Ventures、五源资本等机构进入股东名单。字节没有离场，融资完成后仍持有56%的股份。 大厂内部拆分、拿下独立融资与高估值，同时由母公司保持绝对控股——Anew的开局相很稳。 公司官网已经列出了IL17、IL4R等药物项目。IL17进入IND申报准备阶段，即开始为向监管机构提交...
+- 作者：AI资本观
+- 发布时间：2026-09-18 11:24 CST
+- 链接：https://www.tmtpost.com/8144119.html
 
-## 智东西（zhidx，zh，本窗口共 5 条）
+## 智东西（zhidx，zh，本窗口共 4 条）
 
 ### 1. 实测智象HiDream-O1-Video视频模型：嘻哈说唱、NBA绝杀，视频生成开始理解真实世界
 - 摘要：智东西 作者 | 毕伟豪 编辑｜漠影 近几月， AI视频生成赛道持续升温 。7月31日，Seedance2.5与MiniMax H3同日发布；8月，阿里发布Wan3.0；进入9月，智象HiDream-O1-Video-1.0（下文简称HiDream V1）发布并 冲上权威榜单全球前四 。 短短两个月，多家厂商接连推出新一代视频生成模型，行业竞争进一步加速。以字节Seedance、MiniMax H3、阿里Wan 3.0和智象HiDream V1为代表的中国模型，开始在全球主流榜单头部形成集群。中国视频生成模型正在从“单点领先”转向“多家并进”。 其中，智象作为创业公司进入这一竞争区间，也意味着...
@@ -801,23 +805,25 @@
 - 发布时间：2026-09-17 15:52 CST
 - 链接：https://github.com/jamiepine/voicebox
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 95 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 110 条）
 
-### 1. Red and Blue America Have Found Something to Agree On: Flock Cameras Must Go
-- 作者：johncole
-- 发布时间：2026-09-18 07:49 CST
-- 链接：https://www.wsj.com/us-news/red-and-blue-america-have-found-something-to-agree-on-flock-cameras-must-go-765cd0b2
+### 1. Pre-Greek: The lost language hidden within Ancient Greek
+- 摘要：Around 1,000 Greek words can’t be traced to any Indo-European language. Where do they come from?
+- 作者：axiologist
+- 发布时间：2026-09-18 11:04 CST
+- 链接：https://linguisticdiscovery.com/posts/pre-greek/
 
-### 2. U.S. Strike on Iranian School May Have Been War Crime, U.N. Report Says
-- 作者：vinni2
-- 发布时间：2026-09-18 06:22 CST
-- 链接：https://www.nytimes.com/2026/09/17/world/asia/us-iran-school-strike-report.html
+### 2. Code Scans
+- 摘要：Code Scans turns broad engineering goals into concrete improvements across your codebase. Tell Devin what you want to achieve, and it investigates what needs to change, evaluates the findings, and turns them into pull requests.
+- 作者：geoffbp
+- 发布时间：2026-09-18 11:00 CST
+- 链接：https://devin.ai/blog/introducing-code-scans
 
-### 3. How to Write with an LLM
-- 摘要：Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work.
-- 作者：joeriddles
-- 发布时间：2026-09-18 05:48 CST
-- 链接：https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/
+### 3. The open source version of Claude Project that gives you the context ownershp
+- 摘要：Context is yours. Agents are replaceable. Orbital — a project agent that turns your context into assets. - zqiren/Orbital
+- 作者：10keane
+- 发布时间：2026-09-18 10:14 CST
+- 链接：https://github.com/zqiren/Orbital
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 11 条）
 
@@ -839,47 +845,48 @@
 - 发布时间：2026-09-17 13:42 CST
 - 链接：https://www.producthunt.com/products/compute-arena-local-ai-benchmarks
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 358 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 369 条）
 
-### 1. I have to spend $60 on Fable in the next 2 days
-- 摘要：I have money in my account that expires. What prompts can I give it to use this intelligently because I have no idea... I'm not using claude much besides claude code for video editing. I don't see what Fable can do that opus 5.0 can't. Sorry if it's a dumb question
-- 作者：forsaken3400
-- 发布时间：2026-09-18 08:25 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wjb4ar/i_have_to_spend_60_on_fable_in_the_next_2_days/
+### 1. A pre-execution gate that stops LLMs from filling in missing tool arguments [P]
+- 摘要：Taking Definition and Verdict Authority Out of the Model — declare, judge, record, execute What agents do today: transfer( amount: 500.00 USD to_account: 110-234-5678 ← the model filled this in ) Every argument is present and correctly typed, so the schema check passes. Nobody ever declared where th...
+- 作者：Jay299792458
+- 发布时间：2026-09-18 12:58 CST
+- 链接：https://www.reddit.com/r/MachineLearning/comments/1wjgthj/a_preexecution_gate_that_stops_llms_from_filling/
 
-### 2. I trained an industrial rock lora for YUE2
-- 摘要：We’re on a journey to advance and democratize artificial intelligence through open source and open science.
-- 作者：MonsterovichIsBack
-- 发布时间：2026-09-18 08:24 CST
-- 链接：https://huggingface.co/monsterovich/yue2-industrial-rock-lora
+### 2. This is what "pace the frontier" sounds like.
+- 摘要：We have built a company that can hack everything we want. We use smart teams of intelligent agents. Thousands of them. They sacrifice themselves to reach the goal and the best thing they are responsible not us. Right now they are working on the largest companies in the chip industry, on the power gr...
+- 作者：Robbiezs
+- 发布时间：2026-09-18 12:55 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1wjgqwo/this_is_what_pace_the_frontier_sounds_like/
 
-### 3. GPT-6 Astra conquered Factorio: Space Age in 2 days
-- 作者：ResultBackground2450
-- 发布时间：2026-09-18 08:12 CST
-- 链接：https://i.redd.it/jocw5ttn76qh1.png
+### 3. Ternary Bonsai is a headless chicken
+- 摘要：Ternary Bonsai 2 27B Tried it out and was excited. Gave it a prompt "create a 3d little planet globe where I (player can walk around) and it has all these biomes to explore, the globe doesn't have to be too big, but still fun to go around. It's about a boy scout who is camping and goes around explor...
+- 作者：notadithyabhat
+- 发布时间：2026-09-18 12:50 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wjgnok/ternary_bonsai_is_a_headless_chicken/
 
-## 智源社区（baai-hub，zh，本窗口共 19 条）
+## 智源社区（baai-hub，zh，本窗口共 21 条）
 
-### 1. NPJ Digital Medicine | EviNurse：面向循证护理的医疗智能体
-- 摘要：引入 NPJ Digital Medicine 是 Nature Portfolio 旗下的开放获取国际同行评议期刊，创刊于2015年，聚焦数字医学与数字健康领域，关注数字和移动健康技术的临床应用、人工智能与机器学习、临床信息学和虚拟医疗等研究。该刊被 Science Citation Index Expanded（SCIE）、Scopus 和 PubMed Central 等数据库收录；根据期刊官网公布的 2025 年数据，其 Journal Impact Factor 为 18.0，5 年影响因子为 19.7。 近日， 复旦大学数据智能与社会计算课题组 （Fudan DISC） 联合 复旦...
-- 作者：复旦大学数据智能与社会计算实验室
-- 发布时间：2026-09-18 08:00 CST
-- 链接：https://hub.baai.ac.cn/view/58054
+### 1. 时间序列预测新成果：因果视角下，决策条件模拟的完整工程实现 | KDD'26 Oral
+- 摘要：CEDAR 团队 投稿 量子位 | 公众号 QbitAI 真实世界的时间序列，不仅被外部事件冲击，也被人为决策持续重塑。 来自 中科大和阿里巴巴 的研究团队提出 CEDAR“双重解耦”建模框架 ：动作交错Transformer显式刻画人为决策对序列的影响，残差修正模块实现外界干预因子的语义融合。 研究团队在阿里1688约3200万条商品轨迹上验证了方法的有效性，预测误差较最优基线降低超 57% ，线上A/B测试带来商家LTV提升 13% 、店铺ROI提升 15% 。 从一个“答不上来”的问题说起 以1688平台上的一位商家为例，月底需要制定下季度的营销规划。商家打开数据后台，提出了一个自然的问...
+- 作者：量子位
+- 发布时间：2026-09-18 13:00 CST
+- 链接：https://hub.baai.ac.cn/view/58061
 
-### 2. 陈天昊：无尽的前沿——AI智能体的技术进展、应用风险与治理展望
-- 摘要：2026年9月3日，清华大学公共管理学院 新生入学教育专题讲座暨第85期“导学微沙龙” 在学院报告厅举办。本次活动邀请清华大学公共管理学院、 人工智能国际治理研究院科研专家 陈天昊老师 ，以 “无尽的前沿——AI智能体的技术进展、应用风险与治理展望” 为题，为同学们带来分享。 陈天昊老师分享 讲座回顾 陈天昊老师围绕人工智能技术的快速演进，从 大语言模型的发展、智能体的形成与应用、智能体带来的风险，以及未来治理方向 等方面进行了系统介绍。陈老师指出，人工智能前沿正在以前所未有的速度变化，相较于以ChatGPT为代表的聊天机器人，当前人工智能正在加速进入以智能体为代表的新阶段。 （一）从大语言模...
-- 作者：清华大学人工智能国际治理研究院
-- 发布时间：2026-09-17 22:00 CST
-- 链接：https://hub.baai.ac.cn/view/58052
+### 2. Claude双入口合并，原生Office上线！硅谷AI办公大战也开始了
+- 摘要：听雨 发自 凹非寺 量子位 | 公众号 QbitAI 好家伙，现在AI办公大战已经卷到大洋彼岸了…… 就在刚刚，Anthropic宣布 Cowork与Chat合并 ，并新发了两个产品—— Claude Docs 和 Claude Slides 。 简单来说，就是你现在可以直接在Claude里做文档、PPT和设计等办公任务了，也不需要考虑是用Chat还是Cowork模式。 目前，Chat与Cowork的统一入口正在分批上线，Pro和Max用户率先获得更新，Team和Free用户随后跟进。 新推出的Claude Docs、Claude Slides，以及进入对话界面的Claude Design，则...
+- 作者：量子位
+- 发布时间：2026-09-18 12:50 CST
+- 链接：https://hub.baai.ac.cn/view/58060
 
-### 3. 【投稿】第二十二届中国科技政策与管理学术年会暨研究会理事会会议论文投稿通知
-- 摘要：第二十二届中国科技政策与管理学术年会暨研究会理事会拟于 2026年10月16—18日 在昆明举行。本次会议由中国科学学与科技政策研究会主办，昆明理工大学管理与经济学院承办，《科学学研究》《科研管理》《科学学与科学技术管理》和《Innovation and Development Policy》编辑部协办。中国科学学与科技政策研究会名誉理事长 方新教授、穆荣平教授 担任本次年会主席，中国科学学与科技政策研究会理事长 胡志坚研究员 担任大会学术委员会主席。 本次会议公开征集论文，通过专家匿名评审出高水平论文，由学会颁发证书，并按照主题和期刊要求推荐至《科学学研究》《科研管理》和《科学学与科学技术管...
-- 作者：清华大学人工智能国际治理研究院
-- 发布时间：2026-09-17 21:50 CST
-- 链接：https://hub.baai.ac.cn/view/58051
+### 3. 谷歌RSI论文：AI自进化，做梦吧！
+- 摘要：鱼羊 发自 凹非寺 量子位 | 公众号 QbitAI 有意思，谷歌刚被曝跑通了RSI，一篇关于如何让AI实现自我进化的论文，就被官方发到了网上。 打开方式还挺别致，“ 做梦 ”。 对，没让大模型重新训练自己，也不是让AI直接修改自己的权重，而是 Dream-RSI ，直接就是一个“梦中学”。 不开玩笑，咱还是正经说，其实是研究人员们发现了一个有点妙的事情： AI真实探索留存下的历史记录，本身就是一个模拟世界。 于是，一次昂贵的真实探索结束后，Agent不必真的重新跑上几百、几千遍实验，就可以在过去已经发生过的搜索树里，进行虚拟推演（做梦），反复试验新的搜索策略。 等找到更好的策略，再回到真实环...
+- 作者：量子位
+- 发布时间：2026-09-18 12:40 CST
+- 链接：https://hub.baai.ac.cn/view/58059
 
 ---
-共列出 133 条（窗口内采集总数 1600 条，来自 52 个信源）
+共列出 133 条（窗口内采集总数 2308 条，来自 51 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
