@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-19T19:27:03.611229+00:00",
+ "generated_at": "2026-09-19T21:34:12.728056+00:00",
  "stats": {
-  "items": 727,
-  "clusters": 537,
-  "noise": 363,
-  "dup": 31,
+  "items": 779,
+  "clusters": 570,
+  "noise": 391,
+  "dup": 30,
   "history_days": 0,
   "available_cn": 88,
-  "available_intl": 55,
+  "available_intl": 61,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,21 +16,24 @@
  "items": [
   {
    "rank": 1,
-   "title": "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
+   "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/",
-   "score": 5.05,
+   "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+   "score": 8.56,
    "sources": [
-    "the-decoder",
+    "axios",
+    "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
-    "AI Error Nearly Triggered U.S. Intercept of Chinese Ship"
+    "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
+    "Trump says he is forming an \"AI Force\"",
+    "Trump says he will create 'AI Force,' name AI czar",
+    "Trump Announces an 'AI Force'"
    ],
-   "published_at": "2026-09-19T08:10:55.000000+00:00",
-   "summary": "In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air...."
+   "published_at": "2026-09-19T19:20:28.000000+00:00",
+   "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regula..."
   },
   {
    "rank": 2,
@@ -53,24 +56,6 @@
   },
   {
    "rank": 3,
-   "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
-   "score": 5.0,
-   "sources": [
-    "axios",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
-    "Trump says he is forming an \"AI Force\""
-   ],
-   "published_at": "2026-09-19T19:20:28.000000+00:00",
-   "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regula..."
-  },
-  {
-   "rank": 4,
    "title": "Stepfun new model \"Step 5 Preview\" just leaked",
    "lang": "en",
    "region": "intl",
@@ -86,6 +71,24 @@
    ],
    "published_at": "2026-09-19T04:18:31.000000+00:00",
    "summary": "https://artificialanalysis.ai/models/step-5 https://preview.redd.it/tt7z192zkeqh1.png?width=1035&format=png&auto=webp&s=bf91d4fb080c5f6f2028cc8bddd58b0e5a04ece7 https://preview.redd.it/d8ldk181leqh1.png?width=721&format=..."
+  },
+  {
+   "rank": 4,
+   "title": "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/",
+   "score": 4.55,
+   "sources": [
+    "the-decoder",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
+    "AI Error Nearly Triggered U.S. Intercept of Chinese Ship"
+   ],
+   "published_at": "2026-09-19T08:10:55.000000+00:00",
+   "summary": "In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air...."
   },
   {
    "rank": 5,
@@ -139,22 +142,6 @@
   },
   {
    "rank": 8,
-   "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model"
-   ],
-   "published_at": "2026-09-19T07:48:38+00:00",
-   "summary": "Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-..."
-  },
-  {
-   "rank": 9,
    "title": "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text",
    "lang": "en",
    "region": "intl",
@@ -170,20 +157,36 @@
    "summary": "The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large la..."
   },
   {
-   "rank": 10,
-   "title": "AI-generated posters don’t have to be horrible",
+   "rank": 9,
+   "title": "Trump announces ‘AI Force’ as alarm grows over technology’s advance",
    "lang": "en",
    "region": "intl",
-   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+   "url": "https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1",
+   "score": 3.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "Trump announces ‘AI Force’ as alarm grows over technology’s advance"
+   ],
+   "published_at": "2026-09-19T19:49:31.000000+00:00",
+   "summary": "US president has resisted calls for regulation but said he would appoint a ‘tsar’ to monitor for ‘bad’ behaviour"
+  },
+  {
+   "rank": 10,
+   "title": "I built non-autoregressive decision models with RL a year ago",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://laya.convaiinnovations.com/",
    "score": 3.5,
    "sources": [
     "hackernews-ai"
    ],
    "titles": [
-    "AI-generated posters don’t have to be horrible"
+    "I built non-autoregressive decision models with RL a year ago"
    ],
-   "published_at": "2026-09-19T09:20:58.000000+00:00",
-   "summary": "The problem"
+   "published_at": "2026-09-19T10:46:58.000000+00:00",
+   "summary": "Evaluates typed decisions (choice, score, noul) over 100+ languages in a single forward pass with calibrated probabilities. Outperforms TypeSafe Jev."
   },
   {
    "rank": 11,
@@ -219,19 +222,19 @@
   },
   {
    "rank": 13,
-   "title": "Join the WIRED World Fair in Miami on November 4",
+   "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4/",
-   "score": 2.5,
+   "url": "https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/",
+   "score": 3.0,
    "sources": [
-    "wired-ai"
+    "marktechpost"
    ],
    "titles": [
-    "Join the WIRED World Fair in Miami on November 4"
+    "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model"
    ],
-   "published_at": "2026-09-19T09:00:00.000000+00:00",
-   "summary": "For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life."
+   "published_at": "2026-09-19T07:48:38+00:00",
+   "summary": "Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-..."
   },
   {
    "rank": 14,

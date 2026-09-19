@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-20 03:27 CST
-数据窗口：最近 24 小时，727 条原始条目 → 537 个事件；过滤噪音 363 个，排除全部历史已推送的 31 个。
+生成时间：2026-09-20 05:34 CST
+数据窗口：最近 24 小时，779 条原始条目 → 570 个事件；过滤噪音 391 个，排除全部历史已推送的 30 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,12 +8,13 @@
 
 国外：
 
-## 1. U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
-- 摘要：In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air....
-- 发布时间：2026-09-19 16:10 CST
-- 链接：https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/
-- 同事件报道：AI Error Nearly Triggered U.S. Intercept of Chinese Ship（Hacker News (AI stories)）
+## 1. Trump wants a new AI czar and an "AI Force" modeled on Space Force
+- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Reddit AI subreddits (new)、Hacker News (AI stories)（3 个来源） ｜ 热度：8.56
+- 摘要：President Trump announced Saturday he is creating an "AI Force" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regula...
+- 发布时间：2026-09-20 03:20 CST
+- 链接：https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety
+- 同事件报道：Trump says he is forming an "AI Force"（Reddit AI subreddits (new)）
+- 同事件报道：Trump says he will create 'AI Force,' name AI czar（Hacker News (AI stories)）
 
 ## 2. Mathematicians Hate AI. They Can’t Quit It
 - 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
@@ -23,19 +24,19 @@
 - 同事件报道：AI Hate.（Reddit AI subreddits (new)）
 - 同事件报道：AI Hate.（Reddit AI subreddits (new)）
 
-## 3. Trump wants a new AI czar and an "AI Force" modeled on Space Force
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
-- 摘要：President Trump announced Saturday he is creating an "AI Force" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regula...
-- 发布时间：2026-09-20 03:20 CST
-- 链接：https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety
-- 同事件报道：Trump says he is forming an "AI Force"（Reddit AI subreddits (new)）
-
-## 4. Stepfun new model "Step 5 Preview" just leaked
+## 3. Stepfun new model "Step 5 Preview" just leaked
 - 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.58
 - 摘要：https://artificialanalysis.ai/models/step-5 https://preview.redd.it/tt7z192zkeqh1.png?width=1035&format=png&auto=webp&s=bf91d4fb080c5f6f2028cc8bddd58b0e5a04ece7 https://preview.redd.it/d8ldk181leqh1.png?width=721&format=...
 - 发布时间：2026-09-19 12:18 CST
 - 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wkc2n1/stepfun_new_model_step_5_preview_just_leaked/
 - 同事件报道：Stepfun Step 5 Preview (LLM): On AA Pareto frontier（Hacker News (AI stories)）
+
+## 4. U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
+- 摘要：In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air....
+- 发布时间：2026-09-19 16:10 CST
+- 链接：https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/
+- 同事件报道：AI Error Nearly Triggered U.S. Intercept of Chinese Ship（Hacker News (AI stories)）
 
 ## 5. Anthropic is operating a lab that conducts biology experiments
 - 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
@@ -56,23 +57,23 @@
 - 发布时间：2026-09-18 20:00 CST
 - 链接：https://openai.com/index/australian-youth-safety-blueprint
 
-## 8. Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
-- 摘要：Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-...
-- 发布时间：2026-09-19 15:48 CST
-- 链接：https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/
-
-## 9. TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text
+## 8. TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text
 - 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
 - 摘要：The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large la...
 - 发布时间：2026-09-20 02:41 CST
 - 链接：https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/
 
-## 10. AI-generated posters don’t have to be horrible
+## 9. Trump announces ‘AI Force’ as alarm grows over technology’s advance
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：3.5
+- 摘要：US president has resisted calls for regulation but said he would appoint a ‘tsar’ to monitor for ‘bad’ behaviour
+- 发布时间：2026-09-20 03:49 CST
+- 链接：https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1
+
+## 10. I built non-autoregressive decision models with RL a year ago
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.5
-- 摘要：The problem
-- 发布时间：2026-09-19 17:20 CST
-- 链接：https://john.hartnup.uk/2026/06/07/ai-event-posters.html
+- 摘要：Evaluates typed decisions (choice, score, noul) over 100+ languages in a single forward pass with calibrated probabilities. Outperforms TypeSafe Jev.
+- 发布时间：2026-09-19 18:46 CST
+- 链接：https://laya.convaiinnovations.com/
 
 ## 11. Partnering with Accenture on embedded evaluation
 - 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic News（1 个来源） ｜ 热度：3.0
@@ -86,11 +87,11 @@
 - 发布时间：2026-09-19 03:04 CST
 - 链接：https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/
 
-## 13. Join the WIRED World Fair in Miami on November 4
-- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI（1 个来源） ｜ 热度：2.5
-- 摘要：For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life.
-- 发布时间：2026-09-19 17:00 CST
-- 链接：https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4/
+## 13. Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
+- 摘要：Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-...
+- 发布时间：2026-09-19 15:48 CST
+- 链接：https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/
 
 ## 14. Domestic datacentres: how computer power can help heat your home
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5

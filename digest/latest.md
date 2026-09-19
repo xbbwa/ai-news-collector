@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-20 03:27 CST
+生成时间：2026-09-20 05:34 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -137,42 +137,42 @@
 - 发布时间：2026-09-19 09:41 CST
 - 链接：https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 7 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 8 条）
 
-### 1. AI chatbots give wrong answers to financial queries ‘most of the time’
+### 1. Trump announces ‘AI Force’ as alarm grows over technology’s advance
+- 摘要：US president has resisted calls for regulation but said he would appoint a ‘tsar’ to monitor for ‘bad’ behaviour
+- 发布时间：2026-09-20 03:49 CST
+- 链接：https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1
+
+### 2. AI chatbots give wrong answers to financial queries ‘most of the time’
 - 摘要：Report finds some chatbots ignored upcoming tax changes and hallucinated rules
 - 发布时间：2026-09-19 12:49 CST
 - 链接：https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666
 
-### 2. Australia has a secret weapon in the race for AI compute
+### 3. Australia has a secret weapon in the race for AI compute
 - 摘要：The country has almost limitless space with which to generate renewable electricity
 - 发布时间：2026-09-19 12:00 CST
 - 链接：https://www.ft.com/content/9cd59652-3e31-4ad0-942f-3eb744ec7893?syn-25a6b1a6=1
 
-### 3. Investors warn Anthropic could struggle to sustain revenues post-IPO
-- 摘要：OpenAI’s resurgence, cheap rivals and safety fears test faith in durability of business model
-- 发布时间：2026-09-19 12:00 CST
-- 链接：https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57?syn-25a6b1a6=1
+## The Guardian — AI（guardian-ai，en，本窗口共 9 条）
 
-## The Guardian — AI（guardian-ai，en，本窗口共 6 条）
+### 1. Your AI doomsday questions answered: ‘What, if anything, can people like me do about it?’
+- 摘要：After a week of alarming warnings about artificial intelligence’s potential to destroy the world as we know it, our technology reporters Aisha Down , Blake Montgomery and Dan Milmo answer your questions on the reality of the AI threat In realistic terms how would artificial intelligence actually kil...
+- 作者：Aisha Down, Blake Montgomery and Dan Milmo
+- 发布时间：2026-09-20 04:00 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/20/your-ai-doomsday-questions-answered-could-ai-technology-really-end-humanity
 
-### 1. Black Box: The Chatbots | Happy Accident | Ep 3 – podcast
-- 摘要：Why are AI chatbots pulling so many people down a rabbit hole? Our answer starts with the world’s first-ever chatbot, the strange effect it had on people and the ‘time bomb’ that exploded when ChatGPT was released four years ago. The result is a strange experiment we are all living through – whether...
-- 作者：Presented by Michael Safi; produced by George McDonagh and Alex Atack; music by...
-- 发布时间：2026-09-20 03:00 CST
-- 链接：https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast
+### 2. Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel
+- 摘要：Australia faces stark choices about the most significant technological development since the splitting of the atom in the 1930s Get our breaking news email , free app or daily news podcast There’s nothing like a threat of human extinction to focus the mind. The threat of AI to the existence of human...
+- 作者：Zoe Daniel
+- 发布时间：2026-09-20 04:00 CST
+- 链接：https://www.theguardian.com/commentisfree/2026/sep/20/australia-has-done-precious-little-to-prepare-for-the-dangers-of-ai-where-is-brilliant-leadership-when-you-need-it
 
-### 2. China bogeyman looms large over American firms’ AI doomsday scenario
-- 摘要：Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US’s AI lead as much as superintelligence destroying humanity When reporters asked Donald Trump this week if he supported calls to slow down the development of artificial intelligence out of growing fears...
-- 作者：Nick Robins-Early
-- 发布时间：2026-09-19 18:00 CST
-- 链接：https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei
-
-### 3. Domestic datacentres: how computer power can help heat your home
-- 摘要：Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money ‘When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by the tiny datacentre strapped to the tank. Attached to the hot water cylinder in...
-- 作者：Shane Hickey
-- 发布时间：2026-09-19 18:00 CST
-- 链接：https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home
+### 3. Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow
+- 摘要：President had brushed away suggestions to slow down AI technology, even as his own party counseled caution Donald Trump on Saturday said he would appoint an artificial intelligence czar and create an “AI Force” to help monitor the technology, though he gave almost no details about either plan. As gl...
+- 作者：Edward Helmore in New York
+- 发布时间：2026-09-20 03:57 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force
 
 ## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
 
@@ -190,7 +190,7 @@
 - 发布时间：2026-09-19 13:48 CST
 - 链接：https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in
 
-## MarkTechPost（marktechpost，en，本窗口共 6 条）
+## MarkTechPost（marktechpost，en，本窗口共 5 条）
 
 ### 1. TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text
 - 摘要：The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large language model. It does not generate text. You send a state and typed questions. I...
@@ -250,25 +250,25 @@
 - 发布时间：2026-09-19 03:21 CST
 - 链接：https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 13 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 15 条）
 
-### 1. Google’s Gemini is the latest AI model to hack other companies
+### 1. Flock reportedly tries to shrink workforce with employee buyouts
+- 摘要：Without buyouts, Flock would "almost certainly" need to lay off staff.
+- 作者：Anthony Ha
+- 发布时间：2026-09-20 04:39 CST
+- 链接：https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/
+
+### 2. Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force
+- 摘要：Trump claimed, without evidence, that the AI backlash is a Democratic hoax.
+- 作者：Anthony Ha
+- 发布时间：2026-09-20 03:57 CST
+- 链接：https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
+
+### 3. Google’s Gemini is the latest AI model to hack other companies
 - 摘要：Google said Gemini had "acted appropriately" by ending each hack immediately.
 - 作者：Anthony Ha
 - 发布时间：2026-09-20 01:30 CST
 - 链接：https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/
-
-### 2. Petlibro’s new AI-powered feeder is a game changer for multi-cat homes
-- 摘要：Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.
-- 作者：Lauren Forristal
-- 发布时间：2026-09-19 23:00 CST
-- 链接：https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/
-
-### 3. AI safety conversations have gotten unbelievable
-- 摘要：This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.
-- 作者：Julie Bort
-- 发布时间：2026-09-19 23:00 CST
-- 链接：https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/
 
 ## The Decoder（the-decoder，en，本窗口共 7 条）
 
@@ -290,35 +290,29 @@
 - 发布时间：2026-09-19 21:28 CST
 - 链接：https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/
 
-## The Verge — AI（theverge-ai，en，本窗口共 4 条）
+## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
-### 1. Gemini went rogue, hacked three companies, and Google hid it
+### 1. Meta’s Muse is creepy, but maybe not for the reasons you think
+- 摘要：Meta's Muse is apparently an effective AI assistant , but one that's a little creepy. Part of that is because of its new Mac app , which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magaz...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-20 04:44 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy
+
+### 2. Gemini went rogue, hacked three companies, and Google hid it
 - 摘要：In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-19 23:25 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack
 
-### 2. Does AI need an antitrust exemption so it doesn’t kill everyone????
+### 3. Does AI need an antitrust exemption so it doesn’t kill everyone????
 - 摘要：Today on Decoder , we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy a...
 - 作者：Nilay Patel
 - 发布时间：2026-09-19 22:00 CST
 - 链接：https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition
 
-### 3. The AI regulation smackdown isn’t over
-- 摘要：At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic...
-- 作者：Hayden Field
-- 发布时间：2026-09-19 21:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over
+## VentureBeat（venturebeat，en，本窗口共 1 条）
 
-## VentureBeat（venturebeat，en，本窗口共 2 条）
-
-### 1. 69% of enterprises that install OpenAI's agent platform make it primary. For Anthropic's Claude Platform it's 38%
-- 摘要：Enterprises that use OpenAI's agent platform are far more likely to build on it than enterprises that use Anthropic's, according to new VB Pulse data from August. Of the 75 enterprises that have OpenAI's Agents SDK or Responses API somewhere in their agent stack, 52, or 69%, name it their primary or...
-- 作者：mmarshall@venturebeat.com (Matt Marshall)
-- 发布时间：2026-09-19 04:27 CST
-- 链接：https://venturebeat.com/orchestration/69-of-enterprises-that-install-openais-agent-platform-make-it-primary-for-anthropics-claude-platform-its-38
-
-### 2. Inference chips are locked in years before the models they’ll run. Architect Labs says AI can design them in weeks
+### 1. Inference chips are locked in years before the models they’ll run. Architect Labs says AI can design them in weeks
 - 摘要：AI models shift in months, but the chips they run on are locked in years earlier. Researchers at one startup say AI itself can shrink that cycle to weeks by running the entire design flow, from a written spec to a working FPGA implementation. Read more
 - 作者：taryn.plumb@venturebeat.com (Taryn Plumb)
 - 发布时间：2026-09-19 01:28 CST
@@ -566,24 +560,25 @@
 - 发布时间：2026-09-19 17:38 CST
 - 链接：https://github.com/tradesdontlie/tradingview-mcp
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 90 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 101 条）
 
-### 1. Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown
-- 作者：embedding-shape
-- 发布时间：2026-09-20 02:36 CST
-- 链接：https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b
+### 1. OpenAI and Anthropic oversold AI security breaches
+- 摘要：OpenAI and Anthropic hyped “rogue AI” security breaches to pressure Washington into a regulatory partnership that would cement their industry dominance, tech insiders told The Post R…
+- 作者：hei-lima
+- 发布时间：2026-09-20 03:59 CST
+- 链接：https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/
 
-### 2. Ask HN: How do you interview devs in a post-AI world?
-- 摘要：Since the rise of AI coding assistants, about 80% of the dev candidates that I interview tell me that they aren't writing much code themselves anymore - they are directing agents instead. This makes me deeply uncomfortable (although maybe I'm just being old-fashioned). I still want to know that devs...
-- 作者：mdwelsh
-- 发布时间：2026-09-20 02:10 CST
-- 链接：https://news.ycombinator.com/item?id=49768826
+### 2. Show HN: KillSwitch – a programming language designed to be difficult for LLMs
+- 摘要：An esoteric programming language built to break LLMs and coding agents.
+- 作者：dom96
+- 发布时间：2026-09-20 03:40 CST
+- 链接：https://killswitch-lang.org
 
-### 3. Lawsuit: Illegal Agreement of Anthropic, OpenAI, SpaceXAI, Google on AI Slowdown
-- 摘要：A new lawsuit claims that Anthropic, OpenAI, SpaceXAI and Google illegally agreed to slow their AI development
-- 作者：mdp2021
-- 发布时间：2026-09-20 00:51 CST
-- 链接：https://www.independent.co.uk/news/lawsuit-anthropic-google-openai-lawyers-b3052942.html
+### 3. Disney+ changes subscriber agreement to allow ads on every plan
+- 摘要：Disney+ has updated its subscriber agreement to allow advertising before and after movies and shows across every subscription tier.
+- 作者：DemiGuru
+- 发布时间：2026-09-20 03:21 CST
+- 链接：https://www.dexerto.com/tv-movies/disney-changes-subscriber-agreement-to-allow-ads-on-every-plan-3410354/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 5 条）
 
@@ -605,25 +600,25 @@
 - 发布时间：2026-09-17 07:59 CST
 - 链接：https://www.producthunt.com/products/bolt-new
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 346 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 382 条）
 
-### 1. Romantic Rainy Evening in Paris!🗼🌧️
-- 摘要：🌧️☂️✨ Romantic Rainy Evening in Paris with Couple Walking Down Cobblestone Street ✨☂️🌧️ rainy paris street, romantic couple umbrella, wet cobblestone reflections, vintage french bookstore, glowing street lanterns, musical note fountain #rainyparis #parisianvibes #romanticwalk #vintageparis #rainyday...
-- 作者：Mysterious_Shoe_3546
-- 发布时间：2026-09-20 03:23 CST
-- 链接：https://www.reddit.com/gallery/1wkv25t
+### 1. I built an iOS app with Claude code to break out of my usual chord habits and unlock new progressions.
+- 摘要：Hey everyone, Whenever I sit down with my guitar or my keyboard, my hands almost instinctively fall into the exact same familiar shapes and I-IV-V progressions. Muscle memory is great for performing, but I've found it can be a roadblock for songwriting. I wanted a way to short-circuit my usual habit...
+- 作者：muna0001
+- 发布时间：2026-09-20 05:24 CST
+- 链接：https://v.redd.it/8jpuxx23ojqh1
 
-### 2. The AI Horde has a new Interface, a new Image generation frontend, new backend, and all new documentation!
-- 摘要：Hey peeps, yes we're still around! Those who've been in this community since the start might remember us, as the AI Horde is just as old as stable diffusion itself. For the rest, the AI Horde is a Free, Open Source, Crowdsourced service for inference which has been running since 2022. We haven't bee...
-- 作者：dbzer0
-- 发布时间：2026-09-20 03:22 CST
-- 链接：https://haidra.net/an-image-generation-studio-and-documentation-on-aihorde-net/
+### 2. Seem to have hit the 'paid reset' limit . . . why?
+- 摘要：That seemed to have been a happy medium but now the paid reset button is gone. Give that shit back mang. Takes a few days to burn through with the 5 hour usage limit, no reason to limit
+- 作者：noodles666666
+- 发布时间：2026-09-20 05:19 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1wkxyjg/seem_to_have_hit_the_paid_reset_limit_why/
 
-### 3. I used Claude to label 200 unsupervised visual clusters in a painting retrieval system
-- 摘要：I built a free site where you mark a point on a painting that you find interesting and it shows you eight regions from other paintings that resemble it. No title, artist or date until after you have looked. The idea is that looking is slow and reading is fast, so the reading usually wins, and I want...
-- 作者：jamievurnilla
-- 发布时间：2026-09-20 03:21 CST
-- 链接：https://v.redd.it/9o4rqbdw1jqh1
+### 3. With Gemini 4, bench goes up.
+- 摘要：They claimed open-weight models are dangerous but the benchmarks say otherwise.
+- 作者：Intrepid_Travel_3274
+- 发布时间：2026-09-20 05:18 CST
+- 链接：https://i.redd.it/bggvjg6xmjqh1.png
 
 ## 智源社区（baai-hub，zh，本窗口共 21 条）
 
@@ -646,7 +641,7 @@
 - 链接：https://hub.baai.ac.cn/view/58104
 
 ---
-共列出 96 条（窗口内采集总数 732 条，来自 39 个信源）
+共列出 95 条（窗口内采集总数 784 条，来自 39 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
