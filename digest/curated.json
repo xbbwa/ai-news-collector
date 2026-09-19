@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-19T09:39:30.011135+00:00",
+ "generated_at": "2026-09-19T13:58:58.521672+00:00",
  "stats": {
-  "items": 1012,
-  "clusters": 718,
-  "noise": 472,
-  "dup": 45,
+  "items": 922,
+  "clusters": 631,
+  "noise": 405,
+  "dup": 41,
   "history_days": 0,
-  "available_cn": 102,
-  "available_intl": 99,
+  "available_cn": 94,
+  "available_intl": 91,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,11 +20,10 @@
    "lang": "en",
    "region": "intl",
    "url": "https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/",
-   "score": 8.08,
+   "score": 5.5,
    "sources": [
     "marktechpost",
-    "reddit-ai-new",
-    "hackernews-ai"
+    "reddit-ai-new"
    ],
    "titles": [
     "PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance",
@@ -32,8 +31,7 @@
     "Question: UkisAI Swift Ternary Bonsai 2 27B?",
     "PrismML Bonsai 2 released",
     "Bonsai 2 27b Q2 - Donkey making coffee svg and a mushroom riding a donkey",
-    "Prism-ML Bonsai 2 Joins Our Qwen3.8 Quantization Comparison",
-    "Grok Voice Transcribe 2.0"
+    "Prism-ML Bonsai 2 Joins Our Qwen3.8 Quantization Comparison"
    ],
    "published_at": "2026-09-18T18:06:36+00:00",
    "summary": "PrismML has released Ternary Bonsai 2 27B , a ternary-weight version of Qwen3.8 27B . The language model occupies 5.93 GB, against 53.80 GB in FP16. PrismML reports that it keeps 98.2% of the parent model’s average acros..."
@@ -76,19 +74,22 @@
   },
   {
    "rank": 4,
-   "title": "nvidia/Cosmos-H-Surgical",
+   "title": "Mathematicians Hate AI. They Can’t Quit It",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/Cosmos-H-Surgical",
-   "score": 4.88,
+   "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+   "score": 5.0,
    "sources": [
-    "hf-models-intl"
+    "wired-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "nvidia/Cosmos-H-Surgical"
+    "Mathematicians Hate AI. They Can’t Quit It",
+    "AI Hate.",
+    "AI Hate."
    ],
-   "published_at": "2026-09-18T22:07:01.000000+00:00",
-   "summary": "image-to-video, cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code, arxiv:2512.23162, arxiv:2511.00062, license..."
+   "published_at": "2026-09-19T10:00:00.000000+00:00",
+   "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful."
   },
   {
    "rank": 5,
@@ -110,6 +111,22 @@
   },
   {
    "rank": 6,
+   "title": "nvidia/Cosmos-H-Surgical",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/Cosmos-H-Surgical",
+   "score": 4.38,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/Cosmos-H-Surgical"
+   ],
+   "published_at": "2026-09-18T22:07:01.000000+00:00",
+   "summary": "image-to-video, cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code, arxiv:2512.23162, arxiv:2511.00062, license..."
+  },
+  {
+   "rank": 7,
    "title": "Introducing the Australian Youth Safety Blueprint",
    "lang": "en",
    "region": "intl",
@@ -125,7 +142,7 @@
    "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Claude Desktop Silently Associates with Common Files",
    "lang": "en",
    "region": "intl",
@@ -143,7 +160,7 @@
    "summary": "v1.44121.1 2026-09-02 > Added Claude to the “Open with” menu for common work files, including spreadsheets, PDFs, Word and PowerPoint documents, text files, and images, on macOS and on Windows (Microsoft Store and MSIX i..."
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
    "lang": "en",
    "region": "intl",
@@ -157,22 +174,6 @@
    ],
    "published_at": "2026-09-19T07:48:38+00:00",
    "summary": "Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-..."
-  },
-  {
-   "rank": 9,
-   "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.18323",
-   "score": 3.0,
-   "sources": [
-    "hf-daily-papers"
-   ],
-   "titles": [
-    "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model"
-   ],
-   "published_at": "2026-09-15T20:00:00.000000+00:00",
-   "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context underst..."
   },
   {
    "rank": 10,
@@ -274,24 +275,6 @@
   },
   {
    "rank": 16,
-   "title": "融资狂欢的另一面：机器人明星公司的两种死法",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892260.html",
-   "score": 6.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "融资狂欢的另一面：机器人明星公司的两种死法",
-    "融资狂欢的另一面：机器人明星公司的两种死法"
-   ],
-   "published_at": "2026-09-18T07:59:05.000000+00:00",
-   "summary": "9月的创投圈出现了两条几乎同时刷屏的消息。一条发生在苏州，是“李泽湘投资的泳池机器人公司申请破产”——智橙动力新增两起破产审查案件：9月7日的申请人是一名自然人，9月15日的申请人是公司自己。公司从5月起多次成为被执行人，执行标的从几百元到3.3万元不等，多起案件以“终本”收场——法院核查后认定暂无财产可供执...... 本文来自微信公众号： IT桔子 ，作者：吴梅梅 9月的创投圈出现了两条几乎同时刷屏的消息。 一条发生在苏州，是“李泽..."
-  },
-  {
-   "rank": 17,
    "title": "姚星丞之后，AI人才的中间层开始掉价",
    "lang": "zh",
    "region": "cn",
@@ -309,7 +292,7 @@
    "summary": "姚星丞的价格还在涨。今年7月离开腾讯后，他的下一站一度被传成Meta。两个月后，答案落在Thinking Machines Lab，这家由OpenAI前CTO Mira Murati创办的AI公司。据雷峰网援引知情人士消息，姚星丞在腾讯的年薪包大约处在数千万元人民币区间，Thinking Machines L...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 姚星丞的价格还在涨。 今年7月离开腾讯后，他的下一站一度被..."
   },
   {
-   "rank": 18,
+   "rank": 17,
    "title": "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
    "lang": "zh",
    "region": "cn",
@@ -327,7 +310,7 @@
    "summary": "9月19日，华为计算战略与业务发展部部长朱照生表示，昇腾已经跨越了生态的拐点，完全有能力、有机会在Agentic时代构建AI新生态。从社区来看，昇腾CANN开源社区月均活跃用户数超过5200人，自今年6月起成为国内活跃度最高的开源社区，社区非华为开发者数量超过华为开发者数量，目前日均新增合入代码超过3万行。模型层面，基于昇腾完成预训练的大语言模型和多模态模型已超过40个，昇腾成为国内唯一支持预训练的AI算力平台。生态层面，昇腾除自身开源..."
   },
   {
-   "rank": 19,
+   "rank": 18,
    "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
    "lang": "zh",
    "region": "cn",
@@ -345,22 +328,40 @@
    "summary": "同一预测核心，跨七类系统验证"
   },
   {
-   "rank": 20,
-   "title": "罗福莉压力有多大？都给小米模型训练整上直播了",
+   "rank": 19,
+   "title": "机器人的数据生意：真需求，还是自循环？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3988418295109249",
+   "url": "https://www.36kr.com/p/3988725504792456",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "huxiu"
+   ],
+   "titles": [
+    "机器人的数据生意：真需求，还是自循环？",
+    "机器人的数据生意：真需求，还是自循环？"
+   ],
+   "published_at": "2026-09-18T11:26:38.000000+00:00",
+   "summary": "梅卡曼德创始人邵天兰的一则朋友圈，将具身智能行业心照不宣的隐秘争议彻底摆上台面。 他言辞犀利地直指行业乱象：部分高估值具身智能企业，依托关联交易、数据采集中心及地方资源包装营收数据，以此冲刺IPO、谋求资本上市。此番发声中，邵天兰还在评论区直接点名银河通用，引发行业热议。 邵天兰朋友圈截图 针对此次质疑，银河通用官方迅速作出回应，表态不愿参与行业口水纷争，将持续深耕技术研发、场景落地与商业化推进，专注自身核心业务发展。 一石激起千层浪。..."
+  },
+  {
+   "rank": 20,
+   "title": "投资人想劝劝AI创业者，理性看待自己的估值吧",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3988777960356613",
    "score": 5.5,
    "sources": [
     "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "罗福莉压力有多大？都给小米模型训练整上直播了",
-    "罗福莉压力有多大？都给小米模型训练整上直播了"
+    "投资人想劝劝AI创业者，理性看待自己的估值吧",
+    "投资人想劝劝AI创业者，理性看待自己的估值吧"
    ],
-   "published_at": "2026-09-18T09:46:08.000000+00:00",
-   "summary": "太刺激了。都知道模型训练很费钱，可亲眼看着小米“直播”里的金额往上跳，还是有点替它肉疼。 北京时间9月15日晚，小米两款新模型先后启动了这一轮训练。到17日下午，还不到两天，页面上的累计成本已经超过130万美元，而且还在涨。 好在这笔钱不用观众掏，不然看着看着，可能真得关掉网页缓一缓。 把围观地址发出来的，是小米大模型负责人、前DeepSeek研究员罗福莉。 当天凌晨，她在X上写道：“沉寂了近半年。”随后解释，这段时间她和团队一直在研究..."
+   "published_at": "2026-09-18T12:07:50.000000+00:00",
+   "summary": "三个月前，Deepseek完成了成立以来的首轮外部融资，融资总额超过500亿元人民币。这笔融资的落地，成功让2026年上半年中国AI行业融资额超过2025年全年，也再次证明AI行业的融资热潮还在继续，市场情绪依然还在高点。 但随着一级市场的资金不断挤进AI大模型、具身智能等少数热门赛道，投资机构们的决策思路也从原本的“选赛道”变成“抢位置”，他们不再纠结于技术路线和商业模式，更关心的是能不能挤进去获得一席之地。 这一转变，甚至让资本和项..."
   }
  ]
 }
