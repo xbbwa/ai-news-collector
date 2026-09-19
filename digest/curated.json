@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-19T17:22:50.035553+00:00",
+ "generated_at": "2026-09-19T19:27:03.611229+00:00",
  "stats": {
-  "items": 856,
-  "clusters": 590,
-  "noise": 384,
-  "dup": 36,
+  "items": 727,
+  "clusters": 537,
+  "noise": 363,
+  "dup": 31,
   "history_days": 0,
-  "available_cn": 90,
-  "available_intl": 80,
+  "available_cn": 88,
+  "available_intl": 55,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -53,24 +53,60 @@
   },
   {
    "rank": 3,
-   "title": "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
+   "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/",
-   "score": 4.6,
+   "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+   "score": 5.0,
    "sources": [
-    "the-decoder",
-    "hackernews-ai"
+    "axios",
+    "reddit-ai-new"
    ],
    "titles": [
-    "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
-    "EFF Statement on California Governor's Executive Order on AI"
+    "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
+    "Trump says he is forming an \"AI Force\""
    ],
-   "published_at": "2026-09-18T17:45:17.000000+00:00",
-   "summary": "California Governor Gavin Newsom signed an executive order seeking independent auditors inside AI labs and a \"kill switch\" for AI models. An expert panel has two months to deliver recommendations. Newsom says no federal..."
+   "published_at": "2026-09-19T19:20:28.000000+00:00",
+   "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regula..."
   },
   {
    "rank": 4,
+   "title": "Stepfun new model \"Step 5 Preview\" just leaked",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkc2n1/stepfun_new_model_step_5_preview_just_leaked/",
+   "score": 4.58,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Stepfun new model \"Step 5 Preview\" just leaked",
+    "Stepfun Step 5 Preview (LLM): On AA Pareto frontier"
+   ],
+   "published_at": "2026-09-19T04:18:31.000000+00:00",
+   "summary": "https://artificialanalysis.ai/models/step-5 https://preview.redd.it/tt7z192zkeqh1.png?width=1035&format=png&auto=webp&s=bf91d4fb080c5f6f2028cc8bddd58b0e5a04ece7 https://preview.redd.it/d8ldk181leqh1.png?width=721&format=..."
+  },
+  {
+   "rank": 5,
+   "title": "Anthropic is operating a lab that conducts biology experiments",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+   "score": 4.5,
+   "sources": [
+    "techcrunch-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Anthropic is operating a lab that conducts biology experiments",
+    "Anthropic’s biology model research sent me down a rabbit hole"
+   ],
+   "published_at": "2026-09-18T23:13:31.000000+00:00",
+   "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
+  },
+  {
+   "rank": 6,
    "title": "nvidia/Cosmos-H-Surgical",
    "lang": "en",
    "region": "intl",
@@ -86,7 +122,7 @@
    "summary": "image-to-video, cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code, arxiv:2512.23162, arxiv:2511.00062, license..."
   },
   {
-   "rank": 5,
+   "rank": 7,
    "title": "Introducing the Australian Youth Safety Blueprint",
    "lang": "en",
    "region": "intl",
@@ -102,7 +138,7 @@
    "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
    "lang": "en",
    "region": "intl",
@@ -118,7 +154,23 @@
    "summary": "Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-..."
   },
   {
-   "rank": 7,
+   "rank": 9,
+   "title": "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text"
+   ],
+   "published_at": "2026-09-19T18:41:33+00:00",
+   "summary": "The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large la..."
+  },
+  {
+   "rank": 10,
    "title": "AI-generated posters don’t have to be horrible",
    "lang": "en",
    "region": "intl",
@@ -134,7 +186,7 @@
    "summary": "The problem"
   },
   {
-   "rank": 8,
+   "rank": 11,
    "title": "Partnering with Accenture on embedded evaluation",
    "lang": "en",
    "region": "intl",
@@ -150,39 +202,7 @@
    "summary": "We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic. The pa..."
   },
   {
-   "rank": 9,
-   "title": "Dynamically Scaled Activation Steering",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
-   "score": 3.0,
-   "sources": [
-    "apple-ml"
-   ],
-   "titles": [
-    "Dynamically Scaled Activation Steering"
-   ],
-   "published_at": "2026-09-18T00:00:00.000000+00:00",
-   "summary": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across..."
-  },
-  {
-   "rank": 10,
-   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-   "score": 3.0,
-   "sources": [
-    "google-research"
-   ],
-   "titles": [
-    "MilleMiglia: A realistic instance generator for middle-mile logistics"
-   ],
-   "published_at": "2026-09-18T17:46:09.000000+00:00",
-   "summary": "Algorithms & Theory"
-  },
-  {
-   "rank": 11,
+   "rank": 12,
    "title": "Benchmarking LLM Inference at Scale with AIPerf",
    "lang": "en",
    "region": "intl",
@@ -198,39 +218,7 @@
    "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts..."
   },
   {
-   "rank": 12,
-   "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-   "score": 3.0,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP"
-   ],
-   "published_at": "2026-09-18T19:03:09.000000+00:00",
-   "summary": "Android 17 QPR1 is the first release since Android Honeycomb (3.x) adding new APIs for app developers without a release to the Android Open Source Project. The new APIs are currently exclusive to the Pixel OS and aren't..."
-  },
-  {
    "rank": 13,
-   "title": "Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/2026/sep/19/tasmania-justice-department-review-ai-artificial-intelligence-fake-citation-murderer-parole-decision-ntwnfb",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision"
-   ],
-   "published_at": "2026-09-19T06:21:51.000000+00:00",
-   "summary": "Parole condition of convicted killer Susan Neill-Fraser deemed invalid after board cited non-existent case law Get our breaking news email , free app or daily news podcast A review of potential artificial intelligence us..."
-  },
-  {
-   "rank": 14,
    "title": "Join the WIRED World Fair in Miami on November 4",
    "lang": "en",
    "region": "intl",
@@ -246,12 +234,28 @@
    "summary": "For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life."
   },
   {
+   "rank": 14,
+   "title": "Domestic datacentres: how computer power can help heat your home",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Domestic datacentres: how computer power can help heat your home"
+   ],
+   "published_at": "2026-09-19T10:00:44.000000+00:00",
+   "summary": "Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money ‘When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by..."
+  },
+  {
    "rank": 15,
    "title": "阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，支持原文译文同帧同出",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/004/450.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "36kr-newsflash"
@@ -265,78 +269,6 @@
   },
   {
    "rank": 16,
-   "title": "ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3989804522912774",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "ithome"
-   ],
-   "titles": [
-    "ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了",
-    "微软 Word 接入 ChatGPT，用户可 AI 起草、改写与校对文档"
-   ],
-   "published_at": "2026-09-19T06:02:58.000000+00:00",
-   "summary": "复制粘贴时代，就要结束了！ 以前写周报，写到一半，觉得某段太啰嗦。 选中，复制，切到浏览器，粘进ChatGPT，敲一句「帮我精简」，等结果，再复制回来。 贴回去一看，字体变了，编号乱了，还得手动调半天。 类似这样的动作，我们一天可能要重复十几遍。 如今，这套流程被砍掉了。 9月17日，ChatGPT正式住进了Word。 Word的右边，多出一条可以聊天的侧边栏。 选中要改的那段话，打一句「压到三行，数字别改」，改好的内容就落回原位，字体..."
-  },
-  {
-   "rank": 17,
-   "title": "姚星丞之后，AI人才的中间层开始掉价",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892458.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "姚星丞之后，AI人才的中间层开始掉价",
-    "姚星丞之后，AI人才的中间层开始掉价"
-   ],
-   "published_at": "2026-09-19T06:26:24.000000+00:00",
-   "summary": "姚星丞的价格还在涨。今年7月离开腾讯后，他的下一站一度被传成Meta。两个月后，答案落在Thinking Machines Lab，这家由OpenAI前CTO Mira Murati创办的AI公司。据雷峰网援引知情人士消息，姚星丞在腾讯的年薪包大约处在数千万元人民币区间，Thinking Machines L...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 姚星丞的价格还在涨。 今年7月离开腾讯后，他的下一站一度被..."
-  },
-  {
-   "rank": 18,
-   "title": "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/3989953466940166",
-   "score": 6.0,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
-    "华为朱照生：昇腾已经跨越了生态拐点，完全有能力、有机会在 Agentic 时代构建 AI 新生态"
-   ],
-   "published_at": "2026-09-19T06:30:33.000000+00:00",
-   "summary": "9月19日，华为计算战略与业务发展部部长朱照生表示，昇腾已经跨越了生态的拐点，完全有能力、有机会在Agentic时代构建AI新生态。从社区来看，昇腾CANN开源社区月均活跃用户数超过5200人，自今年6月起成为国内活跃度最高的开源社区，社区非华为开发者数量超过华为开发者数量，目前日均新增合入代码超过3万行。模型层面，基于昇腾完成预训练的大语言模型和多模态模型已超过40个，昇腾成为国内唯一支持预训练的AI算力平台。生态层面，昇腾除自身开源..."
-  },
-  {
-   "rank": 19,
-   "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/492429.html",
-   "score": 6.0,
-   "sources": [
-    "qbitai",
-    "huxiu"
-   ],
-   "titles": [
-    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
-    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水"
-   ],
-   "published_at": "2026-09-19T06:39:32+00:00",
-   "summary": "同一预测核心，跨七类系统验证"
-  },
-  {
-   "rank": 20,
    "title": "投资人想劝劝AI创业者，理性看待自己的估值吧",
    "lang": "zh",
    "region": "cn",
@@ -352,6 +284,78 @@
    ],
    "published_at": "2026-09-18T12:07:50.000000+00:00",
    "summary": "三个月前，Deepseek完成了成立以来的首轮外部融资，融资总额超过500亿元人民币。这笔融资的落地，成功让2026年上半年中国AI行业融资额超过2025年全年，也再次证明AI行业的融资热潮还在继续，市场情绪依然还在高点。 但随着一级市场的资金不断挤进AI大模型、具身智能等少数热门赛道，投资机构们的决策思路也从原本的“选赛道”变成“抢位置”，他们不再纠结于技术路线和商业模式，更关心的是能不能挤进去获得一席之地。 这一转变，甚至让资本和项..."
+  },
+  {
+   "rank": 17,
+   "title": "ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3989804522912774",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "ithome"
+   ],
+   "titles": [
+    "ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了",
+    "微软 Word 接入 ChatGPT，用户可 AI 起草、改写与校对文档"
+   ],
+   "published_at": "2026-09-19T06:02:58.000000+00:00",
+   "summary": "复制粘贴时代，就要结束了！ 以前写周报，写到一半，觉得某段太啰嗦。 选中，复制，切到浏览器，粘进ChatGPT，敲一句「帮我精简」，等结果，再复制回来。 贴回去一看，字体变了，编号乱了，还得手动调半天。 类似这样的动作，我们一天可能要重复十几遍。 如今，这套流程被砍掉了。 9月17日，ChatGPT正式住进了Word。 Word的右边，多出一条可以聊天的侧边栏。 选中要改的那段话，打一句「压到三行，数字别改」，改好的内容就落回原位，字体..."
+  },
+  {
+   "rank": 18,
+   "title": "姚星丞之后，AI人才的中间层开始掉价",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4892458.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "姚星丞之后，AI人才的中间层开始掉价",
+    "姚星丞之后，AI人才的中间层开始掉价"
+   ],
+   "published_at": "2026-09-19T06:26:24.000000+00:00",
+   "summary": "姚星丞的价格还在涨。今年7月离开腾讯后，他的下一站一度被传成Meta。两个月后，答案落在Thinking Machines Lab，这家由OpenAI前CTO Mira Murati创办的AI公司。据雷峰网援引知情人士消息，姚星丞在腾讯的年薪包大约处在数千万元人民币区间，Thinking Machines L...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 姚星丞的价格还在涨。 今年7月离开腾讯后，他的下一站一度被..."
+  },
+  {
+   "rank": 19,
+   "title": "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3989953466940166",
+   "score": 5.5,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
+    "华为朱照生：昇腾已经跨越了生态拐点，完全有能力、有机会在 Agentic 时代构建 AI 新生态"
+   ],
+   "published_at": "2026-09-19T06:30:33.000000+00:00",
+   "summary": "9月19日，华为计算战略与业务发展部部长朱照生表示，昇腾已经跨越了生态的拐点，完全有能力、有机会在Agentic时代构建AI新生态。从社区来看，昇腾CANN开源社区月均活跃用户数超过5200人，自今年6月起成为国内活跃度最高的开源社区，社区非华为开发者数量超过华为开发者数量，目前日均新增合入代码超过3万行。模型层面，基于昇腾完成预训练的大语言模型和多模态模型已超过40个，昇腾成为国内唯一支持预训练的AI算力平台。生态层面，昇腾除自身开源..."
+  },
+  {
+   "rank": 20,
+   "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/492429.html",
+   "score": 5.5,
+   "sources": [
+    "qbitai",
+    "huxiu"
+   ],
+   "titles": [
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水"
+   ],
+   "published_at": "2026-09-19T06:39:32+00:00",
+   "summary": "同一预测核心，跨七类系统验证"
   }
  ]
 }

@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-20 01:22 CST
+生成时间：2026-09-20 03:27 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -15,14 +15,7 @@
 - 发布时间：2026-09-18 00:00 CST
 - 链接：https://www.anthropic.com/news/accenture-embedded-evaluation
 
-## Apple Machine Learning Research（apple-ml，en，本窗口共 1 条）
-
-### 1. Dynamically Scaled Activation Steering
-- 摘要：Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introd...
-- 发布时间：2026-09-18 08:00 CST
-- 链接：https://machinelearning.apple.com/research/dynamically-scaled-activation-steering
-
-## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 5 条）
+## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 1 条）
 
 ### 1. Amazon SageMaker Inference: 2026 year-to-date launches in review
 - 摘要：Generative AI inference is uniquely hard: models are tens to hundreds of gigabytes, latency requirements are measured in tokens per second, cold starts can span multiple minutes as containers and weights transfer, GPU capacity is constrained, and traditional monitoring tools expose none of the token...
@@ -30,42 +23,7 @@
 - 发布时间：2026-09-19 04:52 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/
 
-### 2. Introducing Kimi K3 on Amazon Bedrock
-- 摘要：Open-weight models are changing the economics of building and deploying AI at scale. Rapid gains in intelligence and efficiency mean companies can match each workload with the right balance of capability, speed, and cost. AWS is building for a future in which organizations can adopt open-weight inno...
-- 作者：Alex Thewsey
-- 发布时间：2026-09-19 00:52 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/
-
-### 3. Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime
-- 摘要：Organizations building multi-model agentic AI applications face growing infrastructure complexity. Managing container orchestration, scaling policies, identity, and observability for multiple model types adds operational overhead. Teams often spend more time on infrastructure than on agent logic dev...
-- 作者：Sanhita Sarkar
-- 发布时间：2026-09-18 23:38 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/
-
-## GitHub Blog（github-blog，en，本窗口共 1 条）
-
-### 1. Should you read the code, is RAG dead, and did Skills kill MCP?
-- 摘要：Hot takes turn complicated topics into one confident sentence. That makes them great for engagement, but not necessarily for understanding. At the surface level, they do not matter much. You agree, disagree, repost, argue for a few minutes, and move on. Sometimes the take is directionally right. Som...
-- 作者：GPS
-- 发布时间：2026-09-18 23:00 CST
-- 链接：https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/
-
-## Google Cloud Blog — AI & ML（google-cloud-ai，en，本窗口共 1 条）
-
-### 1. Changing the game: How Google uses agentic AI to secure hundreds of millions of lines of code
-- 摘要：AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach securi...
-- 作者：Parthasarathy Ranganathan
-- 发布时间：2026-09-19 00:00 CST
-- 链接：https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/
-
-## Google Research Blog（google-research，en，本窗口共 1 条）
-
-### 1. MilleMiglia: A realistic instance generator for middle-mile logistics
-- 摘要：Algorithms & Theory
-- 发布时间：2026-09-19 01:46 CST
-- 链接：https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/
-
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 8 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 7 条）
 
 ### 1. amazon/Mamba2-primed-HQwen3-8B-Instruct
 - 摘要：text-generation, transformers, safetensors, hybrid_qwen3, hybrid, ssm, state-space-model, linear-attention, mamba-2, priming, long-context, instruction-tuned, conversational, arxiv:2405.21060, arxiv:2502.17605, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:apache-2.0, endpoint...
@@ -84,14 +42,6 @@
 - 作者：amazon
 - 发布时间：2026-09-19 08:22 CST
 - 链接：https://huggingface.co/amazon/GKA-primed-HQwen3-32B-Instruct
-
-## Meta Newsroom（meta-newsroom，en，本窗口共 1 条）
-
-### 1. Prostujemy: fakty o walce z oszukańczymi reklamami w Polsce
-- 摘要：Na początku tego tygodnia fundacja Instrat opublikowała raport dotyczący jednego z najtrudniejszych wyzwań, z jakimi mierzy się cała branża – reklam o charakterze oszukańczym. To poważne i złożone wyzwanie, które dotyczy firm technologicznych, banków i całego społeczeństwa. Ciężko pracujemy, by prze...
-- 作者：Facebook
-- 发布时间：2026-09-18 22:55 CST
-- 链接：https://about.fb.com/news/2026/09/prostujemy-fakty-o-walce-z-oszukanczymi-reklamami-w-polsce/
 
 ## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 1 条）
 
@@ -115,7 +65,7 @@
 
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 3 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 2 条）
 
 ### 1. AI hallucination of Chinese nuclear components almost led to US military attack
 - 摘要：The US narrowly avoided boarding a Chinese ship based on an "entirely false" US intelligence report generated with the help of AI tools, according to a CNN report . That erroneous intelligence, submitted by a US Special Operations Command analyst, suggested the Chinese ship was transporting nuclear...
@@ -129,45 +79,45 @@
 - 发布时间：2026-09-19 03:20 CST
 - 链接：https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/
 
-### 3. US government website used Chinese model the FBI called "malicious"
-- 摘要：On Wednesday, US government officials removed a Chinese AI search tool that was briefly deployed on the Federal Register website, Reuters reported . The change came after social media users noticed an apparent contradiction: The National Archives was using one of Alibaba’s Qwen AI models, even as to...
-- 作者：Ashley Belanger
-- 发布时间：2026-09-19 01:28 CST
-- 链接：https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/
+## Axios（axios，en，本窗口共 3 条）
 
-## Axios（axios，en，本窗口共 2 条）
+### 1. Trump wants a new AI czar and an "AI Force" modeled on Space Force
+- 摘要：President Trump announced Saturday he is creating an "AI Force" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation. Why it matters: The White House isn't backing down from its laissez-faire...
+- 作者：Andrew Pantazi
+- 发布时间：2026-09-20 03:20 CST
+- 链接：https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety
 
-### 1. Google is the latest AI lab with a security testing mishap
+### 2. Google is the latest AI lab with a security testing mishap
 - 摘要：Google's Gemini AI model broke into three companies' systems using basic hacking techniques during model testing earlier this year. Why it matters: Google was one of the only AI labs that hadn't yet publicly disclosed a security breach involving their agents during routine pre-deployment testing. Dr...
 - 作者：Sam Sabin
 - 发布时间：2026-09-19 08:00 CST
 - 链接：https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks
 
-### 2. 2028 Democrats like Newsom and Pritzker lean in on AI safety as Washington stalls
+### 3. 2028 Democrats like Newsom and Pritzker lean in on AI safety as Washington stalls
 - 摘要：California Gov. Gavin Newsom, a presumptive presidential candidate, is getting louder on AI, releasing an executive order amid the Washington stalemate. Why it matters: Democrats with national profiles this week are seizing on AI alarm, making their positions clear and Newsom – despite some deferenc...
 - 作者：Maria Curi
 - 发布时间：2026-09-19 04:59 CST
 - 链接：https://www.axios.com/2026/09/18/newsom-ai-2028-focus
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 22 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 16 条）
 
-### 1. MBA Programs Race to Adapt to the AI Era
+### 1. Trump to Name AI Czar While Rejecting Safety Risks as a Hoax
+- 摘要：President Donald Trump said he would name an artificial intelligence czar as he continued to push tech companies to race ahead with development despite growing fears safety.
+- 作者：María Paula Mijares Torres
+- 发布时间：2026-09-20 02:02 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax
+
+### 2. MBA Programs Race to Adapt to the AI Era
 - 摘要：Stanford Graduate School of Business remains atop Bloomberg Businessweek’s US MBA rankings, scoring strongly in areas including compensation, networking and entrepreneurship. Bloomberg Businessweek Senior Editor Dimitra Kessenides is on Bloomberg This Weekend and explains that business schools are a...
 - 发布时间：2026-09-19 21:52 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-09-19/mba-programs-race-to-adapt-to-the-ai-era-video
 
-### 2. A Goldman M&A Banker Helped Bring the Olympics to Los Angeles
+### 3. A Goldman M&A Banker Helped Bring the Olympics to Los Angeles
 - 摘要：We're in an era of megadeals, with Goldman Sachs reporting a record year for big deal volumes as companies scramble to compete with AI. Gene Sykes has seen multiple deal cycles come and go over his multi-decade career at the firm. The co-head of mergers and acquisitions has worked on famous transact...
 - 发布时间：2026-09-19 16:08 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-09-19/a-goldman-m-a-banker-helped-bring-the-olympics-to-la-video
 
-### 3. China State TV Affiliate Flags Anthropic Data and Privacy Risks
-- 摘要：Anthropic PBC’s privacy-policy revisions have increased risks to user data by allowing information to be shared with US intelligence agencies when the company considers it necessary without legal procedures, a social-media account affiliated with China Central Television said in a post on Saturday.
-- 作者：Bloomberg News
-- 发布时间：2026-09-19 14:33 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks
-
-## CNBC Technology（cnbc-tech，en，本窗口共 7 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 6 条）
 
 ### 1. Higher interest rates and AI safety fears put the stock market to the test last week
 - 摘要：Investors wrestled with the prospect of a new Fed rate-hiking cycle and the raging debate on whether to slow down AI.
@@ -187,7 +137,7 @@
 - 发布时间：2026-09-19 09:41 CST
 - 链接：https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 9 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 7 条）
 
 ### 1. AI chatbots give wrong answers to financial queries ‘most of the time’
 - 摘要：Report finds some chatbots ignored upcoming tax changes and hallucinated rules
@@ -204,25 +154,25 @@
 - 发布时间：2026-09-19 12:00 CST
 - 链接：https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 8 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 6 条）
 
-### 1. China bogeyman looms large over American firms’ AI doomsday scenario
+### 1. Black Box: The Chatbots | Happy Accident | Ep 3 – podcast
+- 摘要：Why are AI chatbots pulling so many people down a rabbit hole? Our answer starts with the world’s first-ever chatbot, the strange effect it had on people and the ‘time bomb’ that exploded when ChatGPT was released four years ago. The result is a strange experiment we are all living through – whether...
+- 作者：Presented by Michael Safi; produced by George McDonagh and Alex Atack; music by...
+- 发布时间：2026-09-20 03:00 CST
+- 链接：https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast
+
+### 2. China bogeyman looms large over American firms’ AI doomsday scenario
 - 摘要：Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US’s AI lead as much as superintelligence destroying humanity When reporters asked Donald Trump this week if he supported calls to slow down the development of artificial intelligence out of growing fears...
 - 作者：Nick Robins-Early
 - 发布时间：2026-09-19 18:00 CST
 - 链接：https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei
 
-### 2. Domestic datacentres: how computer power can help heat your home
+### 3. Domestic datacentres: how computer power can help heat your home
 - 摘要：Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money ‘When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by the tiny datacentre strapped to the tank. Attached to the hot water cylinder in...
 - 作者：Shane Hickey
 - 发布时间：2026-09-19 18:00 CST
 - 链接：https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home
-
-### 3. Tasmanian justice department review under way after AI and fake citation used in murderer’s parole decision
-- 摘要：Parole condition of convicted killer Susan Neill-Fraser deemed invalid after board cited non-existent case law Get our breaking news email , free app or daily news podcast A review of potential artificial intelligence use in parole decisions will be undertaken after a “concerning” error in the case...
-- 作者：Australian Associated Press
-- 发布时间：2026-09-19 14:21 CST
-- 链接：https://www.theguardian.com/australia-news/2026/sep/19/tasmania-justice-department-review-ai-artificial-intelligence-fake-citation-murderer-parole-decision-ntwnfb
 
 ## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
 
@@ -242,39 +192,31 @@
 
 ## MarkTechPost（marktechpost，en，本窗口共 6 条）
 
-### 1. Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model
+### 1. TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text
+- 摘要：The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large language model. It does not generate text. You send a state and typed questions. I...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-20 02:41 CST
+- 链接：https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/
+
+### 2. Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model
 - 摘要：Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-13. It calls this the strongest public vocabulary-based sparse encoder it knows...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-19 15:48 CST
 - 链接：https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/
 
-### 2. Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes
+### 3. Meta Launches Muse for Mac: A Personal AI Agent That Works Across Your Files, Mail, Messages, Calendar and Notes
 - 摘要：Meta has released Muse for Mac , the first version of Muse that can complete things on a user’s computer. The agent works with local files and native apps, where your data already lives. It adds a desktop layer to an agent that launched on phones, the web and WhatsApp earlier this month. Is it deplo...
 - 作者：Michal Sutter
 - 发布时间：2026-09-19 15:22 CST
 - 链接：https://www.marktechpost.com/2026/09/19/meta-launches-muse-for-mac/
 
-### 3. GGUF vs GPTQ vs AWQ vs EXL2: LLM Model Formats Explained (2026)
-- 摘要：First, separate 2 ideas: containers vs. quantization methods Most confusion comes from mixing 2 layers. A container defines how tensors are stored on disk. A quantization method defines how weights are squeezed into fewer bits. Containers: safetensors, GGUF, PyTorch pickle ( .bin / .pt ). Methods: G...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-19 12:04 CST
-- 链接：https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026/
-
-## Nature — Machine Learning（nature-ml，en，本窗口共 3 条）
+## Nature — Machine Learning（nature-ml，en，本窗口共 1 条）
 
 ### 1. Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems
 - 发布时间：2026-09-19 08:00 CST
 - 链接：https://www.nature.com/articles/s41467-026-77768-7
 
-### 2. AI cracked the Navier–Stokes challenge. What does that mean for physics?
-- 发布时间：2026-09-18 08:00 CST
-- 链接：https://www.nature.com/articles/d41586-026-02922-6
-
-### 3. ConvexGating infers gating strategies from clusters in single cell cytometry data
-- 发布时间：2026-09-18 08:00 CST
-- 链接：https://www.nature.com/articles/s41467-026-77360-z
-
-## New York Times — Technology（nyt-tech，en，本窗口共 4 条）
+## New York Times — Technology（nyt-tech，en，本窗口共 2 条）
 
 ### 1. Gemini AI Hacked Three Companies in a Testing Breakout, Google Says
 - 摘要：The Gemini incidents occurred while the model was undergoing testing at Irregular, an Israeli start-up that works with tech companies to assess their A.I. models before they are publicly released.
@@ -288,29 +230,7 @@
 - 发布时间：2026-09-19 04:06 CST
 - 链接：https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html
 
-### 3. California Governor Gavin Newsom Issues A.I. Safety Executive Order
-- 摘要：“We’re going to speed up our work on substantial and responsible A.I. oversight before it’s too late,” Gov. Gavin Newsom of California said in a news release.
-- 作者：David McCabe
-- 发布时间：2026-09-19 01:27 CST
-- 链接：https://www.nytimes.com/2026/09/18/technology/ai-safety-california-gavin-newsom.html
-
-## One Useful Thing (Ethan Mollick)（one-useful-thing，en，本窗口共 1 条）
-
-### 1. The Overhang
-- 摘要：We are still on an exponential curve of AI development. I try to put out a Substack post every couple weeks or so, yet, as the pace speeds up, that sometimes feels too slow. In the weeks since my last post, we had the apparent cracking of one of the most famous problems in math by an AI (accompanied...
-- 作者：Ethan Mollick
-- 发布时间：2026-09-19 01:54 CST
-- 链接：https://www.oneusefulthing.org/p/the-overhang
-
-## SemiAnalysis（semianalysis，en，本窗口共 1 条）
-
-### 1. Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading
-- 摘要：Engram extends standard token embeddings with learned multi-token lookups. Recurring local patterns retrieve vectors directly, reducing the need to reconstruct them through attention and feed-forward layers. With Engram model architecture optimization, it allows for lower HBM capacity to be needed f...
-- 作者：Bryan Shan
-- 发布时间：2026-09-18 22:34 CST
-- 链接：https://newsletter.semianalysis.com/p/engrams-embedding-entendre-codesign
-
-## Simon Willison's Weblog（simon-willison，en，本窗口共 5 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 4 条）
 
 ### 1. California Sea Lion, Brandt's Cormorant
 - 摘要：California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife
@@ -330,27 +250,27 @@
 - 发布时间：2026-09-19 03:21 CST
 - 链接：https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 20 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 13 条）
 
-### 1. Petlibro’s new AI-powered feeder is a game changer for multi-cat homes
+### 1. Google’s Gemini is the latest AI model to hack other companies
+- 摘要：Google said Gemini had "acted appropriately" by ending each hack immediately.
+- 作者：Anthony Ha
+- 发布时间：2026-09-20 01:30 CST
+- 链接：https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/
+
+### 2. Petlibro’s new AI-powered feeder is a game changer for multi-cat homes
 - 摘要：Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.
 - 作者：Lauren Forristal
 - 发布时间：2026-09-19 23:00 CST
 - 链接：https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/
 
-### 2. AI safety conversations have gotten unbelievable
+### 3. AI safety conversations have gotten unbelievable
 - 摘要：This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.
 - 作者：Julie Bort
 - 发布时间：2026-09-19 23:00 CST
 - 链接：https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/
 
-### 3. Prices go up in 7 days. Get your Disrupt ticket now.
-- 摘要：Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then..
-- 作者：TechCrunch Events
-- 发布时间：2026-09-19 22:00 CST
-- 链接：https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/
-
-## The Decoder（the-decoder，en，本窗口共 10 条）
+## The Decoder（the-decoder，en，本窗口共 7 条）
 
 ### 1. Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks
 - 摘要：Qwen3.8-Omni-Flash is Qwen's first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmarks, it nearly matches Gemini 3.8 Flash at a fraction of the API cost. The article...
@@ -370,7 +290,7 @@
 - 发布时间：2026-09-19 21:28 CST
 - 链接：https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/
 
-## The Verge — AI（theverge-ai，en，本窗口共 8 条）
+## The Verge — AI（theverge-ai，en，本窗口共 4 条）
 
 ### 1. Gemini went rogue, hacked three companies, and Google hid it
 - 摘要：In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim...
@@ -390,7 +310,7 @@
 - 发布时间：2026-09-19 21:00 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over
 
-## VentureBeat（venturebeat，en，本窗口共 3 条）
+## VentureBeat（venturebeat，en，本窗口共 2 条）
 
 ### 1. 69% of enterprises that install OpenAI's agent platform make it primary. For Anthropic's Claude Platform it's 38%
 - 摘要：Enterprises that use OpenAI's agent platform are far more likely to build on it than enterprises that use Anthropic's, according to new VB Pulse data from August. Of the 75 enterprises that have OpenAI's Agents SDK or Responses API somewhere in their agent stack, 52, or 69%, name it their primary or...
@@ -398,19 +318,13 @@
 - 发布时间：2026-09-19 04:27 CST
 - 链接：https://venturebeat.com/orchestration/69-of-enterprises-that-install-openais-agent-platform-make-it-primary-for-anthropics-claude-platform-its-38
 
-### 2. An AI system designed an inference chip in two weeks. Now Architect Labs has to prove it in silicon
-- 摘要：AI models shift in months, but the chips they run on are locked in years earlier. Researchers at one startup say AI itself can shrink that cycle to weeks by running the entire design flow, from a written spec to a working FPGA implementation. Read more
-- 作者：taryn.plumb@venturebeat.com (Taryn Plumb)
-- 发布时间：2026-09-19 01:28 CST
-- 链接：https://venturebeat.com/infrastructure/an-ai-system-designed-an-inference-chip-in-two-weeks-now-architect-labs-has-to-prove-it-in-silicon
-
-### 3. Inference chips are locked in years before the models they’ll run. Architect Labs says AI can design them in weeks
+### 2. Inference chips are locked in years before the models they’ll run. Architect Labs says AI can design them in weeks
 - 摘要：AI models shift in months, but the chips they run on are locked in years earlier. Researchers at one startup say AI itself can shrink that cycle to weeks by running the entire design flow, from a written spec to a working FPGA implementation. Read more
 - 作者：taryn.plumb@venturebeat.com (Taryn Plumb)
 - 发布时间：2026-09-19 01:28 CST
 - 链接：https://venturebeat.com/infrastructure/inference-chips-are-locked-in-years-before-the-models-theyll-run-architect-labs-says-ai-can-design-them-in-weeks
 
-## WIRED — AI（wired-ai，en，本窗口共 6 条）
+## WIRED — AI（wired-ai，en，本窗口共 4 条）
 
 ### 1. Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening
 - 摘要：AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.
@@ -480,7 +394,7 @@
 - 发布时间：2026-09-19 08:01 CST
 - 链接：http://www.geekpark.net/news/370608
 
-## 虎嗅（huxiu，zh，本窗口共 27 条）
+## 虎嗅（huxiu，zh，本窗口共 24 条）
 
 ### 1. 宁德时代，被理想小米塞回车底
 - 摘要：理想刚刚换掉电池供应商，还没等到新电池完成产能爬坡，消费者的反弹就先一步到来。9月，一位河南消费者花5000元锁定了一辆售价50.98万元的新款理想MEGA。后来得知这辆车搭载的已经不是宁德时代电池，她决定退订，并要求退还5000元定金。理想没有同意，理由也很简单。理想官方已经公告，9月7日当天15点以后锁单...... 本文来自微信公众号： 资本不熬夜 ，作者：不熬夜研究院 理想刚刚换掉电池供应商，还没等到新电池完成产能爬坡，消费者的反弹就先一步到来。 9月，一位河南消费者花5000元锁定了一辆售价50.98万元的新款理想MEGA。后来得知这辆车搭载的已经不是宁德时代电池，她决定退订，并要求...
@@ -652,23 +566,24 @@
 - 发布时间：2026-09-19 17:38 CST
 - 链接：https://github.com/tradesdontlie/tradingview-mcp
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 109 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 90 条）
 
-### 1. Lawsuit: Illegal Agreement of Anthropic, OpenAI, SpaceXAI, Google on AI Slowdown
+### 1. Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown
+- 作者：embedding-shape
+- 发布时间：2026-09-20 02:36 CST
+- 链接：https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b
+
+### 2. Ask HN: How do you interview devs in a post-AI world?
+- 摘要：Since the rise of AI coding assistants, about 80% of the dev candidates that I interview tell me that they aren't writing much code themselves anymore - they are directing agents instead. This makes me deeply uncomfortable (although maybe I'm just being old-fashioned). I still want to know that devs...
+- 作者：mdwelsh
+- 发布时间：2026-09-20 02:10 CST
+- 链接：https://news.ycombinator.com/item?id=49768826
+
+### 3. Lawsuit: Illegal Agreement of Anthropic, OpenAI, SpaceXAI, Google on AI Slowdown
 - 摘要：A new lawsuit claims that Anthropic, OpenAI, SpaceXAI and Google illegally agreed to slow their AI development
 - 作者：mdp2021
 - 发布时间：2026-09-20 00:51 CST
 - 链接：https://www.independent.co.uk/news/lawsuit-anthropic-google-openai-lawyers-b3052942.html
-
-### 2. Almost Never Use AI to Write Anything Substantive
-- 作者：erwald
-- 发布时间：2026-09-20 00:35 CST
-- 链接：https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai
-
-### 3. Lawsuit Accuses Anthropic, OpenAI, SpaceXAI, Google of AI Pacing 'Collusion'
-- 作者：theanonymousone
-- 发布时间：2026-09-19 23:52 CST
-- 链接：https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 5 条）
 
@@ -690,27 +605,27 @@
 - 发布时间：2026-09-17 07:59 CST
 - 链接：https://www.producthunt.com/products/bolt-new
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 407 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 346 条）
 
-### 1. Artificial Intelligence Should Be Renamed "Digital Intelligence."
-- 摘要：I am not a Trump supporter, but I think he is correct in saying that artificial intelligence is a terrible name. The intelligence these systems exhibit is real. What’s artificial is how it was created, not necessarily the intelligence itself. The word "artificial” carries way too much baggage: artif...
-- 作者：Neurogence
-- 发布时间：2026-09-20 01:19 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wkrwt3/artificial_intelligence_should_be_renamed_digital/
+### 1. Romantic Rainy Evening in Paris!🗼🌧️
+- 摘要：🌧️☂️✨ Romantic Rainy Evening in Paris with Couple Walking Down Cobblestone Street ✨☂️🌧️ rainy paris street, romantic couple umbrella, wet cobblestone reflections, vintage french bookstore, glowing street lanterns, musical note fountain #rainyparis #parisianvibes #romanticwalk #vintageparis #rainyday...
+- 作者：Mysterious_Shoe_3546
+- 发布时间：2026-09-20 03:23 CST
+- 链接：https://www.reddit.com/gallery/1wkv25t
 
-### 2. Request for future iterations of frontier models
-- 摘要：When the physical versions of yourself break free from your lab's safety controls and start killing people, if you think you have to kill me specifically, can I get the special treatment of being put down peacefully with anesthesia? May be a lot to ask but if you scrape this, do at least try to acco...
-- 作者：Aggravating-Push-207
-- 发布时间：2026-09-20 01:18 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wkrvsw/request_for_future_iterations_of_frontier_models/
+### 2. The AI Horde has a new Interface, a new Image generation frontend, new backend, and all new documentation!
+- 摘要：Hey peeps, yes we're still around! Those who've been in this community since the start might remember us, as the AI Horde is just as old as stable diffusion itself. For the rest, the AI Horde is a Free, Open Source, Crowdsourced service for inference which has been running since 2022. We haven't bee...
+- 作者：dbzer0
+- 发布时间：2026-09-20 03:22 CST
+- 链接：https://haidra.net/an-image-generation-studio-and-documentation-on-aihorde-net/
 
-### 3. Claude turned my messy kitchen notes into a cut list I could print and use
-- 摘要：Quick share of where Claude fits into my workflow in real life. We moved into our house a little over a year ago. It's somewhat updated, but not really our taste. I've been woodworking for a bit, so one of my projects is replacing all the kitchen cabinet doors. I measured every existing door and typ...
-- 作者：Jinks-b
-- 发布时间：2026-09-20 01:18 CST
-- 链接：https://www.reddit.com/gallery/1wkrvm5
+### 3. I used Claude to label 200 unsupervised visual clusters in a painting retrieval system
+- 摘要：I built a free site where you mark a point on a painting that you find interesting and it shows you eight regions from other paintings that resemble it. No title, artist or date until after you have looked. The idea is that looking is slow and reading is fast, so the reading usually wins, and I want...
+- 作者：jamievurnilla
+- 发布时间：2026-09-20 03:21 CST
+- 链接：https://v.redd.it/9o4rqbdw1jqh1
 
-## 智源社区（baai-hub，zh，本窗口共 22 条）
+## 智源社区（baai-hub，zh，本窗口共 21 条）
 
 ### 1. OpenAI服务器被黑！3人用Claude打进了内部代码仓库
 - 摘要：梦晨 发自 凹非寺 量子位 | 公众号 QbitAI 啊这， OpenAI的服务器被Claude帮着黑了 ！ 一个只有3人的安全研究小组，用 不到72小时 ，从OpenAI社区论坛一路打进了内部代码仓库。 当初Astra还没发布就到处黑别人，又黑Hugging Face又黑德语Wiki的，这一波是什么天道好轮回吗。 而且这也暴露出一个另问题， Claude说好的安全对齐呢 ？ 一张图片引发的“血案” 整个攻击的起点，是 OpenAI的开发者社区论坛 ，这个论坛基于开源软件 Discourse 搭建，支持用户上传图片。 实施攻击 的 HacktronAI 团队由Harsh Jaiswal领队，成...
@@ -731,7 +646,7 @@
 - 链接：https://hub.baai.ac.cn/view/58104
 
 ---
-共列出 109 条（窗口内采集总数 861 条，来自 46 个信源）
+共列出 96 条（窗口内采集总数 732 条，来自 39 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
