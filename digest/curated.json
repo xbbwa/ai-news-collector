@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-19T04:50:37.706014+00:00",
+ "generated_at": "2026-09-19T09:39:30.011135+00:00",
  "stats": {
-  "items": 1757,
-  "clusters": 1400,
-  "noise": 478,
-  "dup": 99,
+  "items": 1012,
+  "clusters": 718,
+  "noise": 472,
+  "dup": 45,
   "history_days": 0,
-  "available_cn": 130,
-  "available_intl": 693,
+  "available_cn": 102,
+  "available_intl": 99,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,42 +16,66 @@
  "items": [
   {
    "rank": 1,
-   "title": "SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)",
+   "title": "PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2606.08372",
-   "score": 7.5,
+   "url": "https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/",
+   "score": 8.08,
    "sources": [
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
+    "marktechpost",
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)",
-    "SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes"
+    "PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance",
+    "SpaceXAI Releases Grok Voice Transcribe 2.0: A Speech-to-Text API Claiming 2x Accuracy Over 1.0 at $0.10 per Hour",
+    "Question: UkisAI Swift Ternary Bonsai 2 27B?",
+    "PrismML Bonsai 2 released",
+    "Bonsai 2 27b Q2 - Donkey making coffee svg and a mushroom riding a donkey",
+    "Prism-ML Bonsai 2 Joins Our Qwen3.8 Quantization Comparison",
+    "Grok Voice Transcribe 2.0"
    ],
-   "published_at": "2026-09-18T04:00:00.000000+00:00",
-   "summary": "arXiv:2606.08372v2 Announce Type: replace-cross Abstract: Synthetic data is increasingly promoted as a privacy-preserving substitute for releasing sensitive tabular records, yet its central adversarial threat (reconstruc..."
+   "published_at": "2026-09-18T18:06:36+00:00",
+   "summary": "PrismML has released Ternary Bonsai 2 27B , a ternary-weight version of Qwen3.8 27B . The language model occupies 5.93 GB, against 53.80 GB in FP16. PrismML reports that it keeps 98.2% of the parent model’s average acros..."
   },
   {
    "rank": 2,
-   "title": "A Finite-Sample Analysis of Quantile Temporal-Difference Learning",
+   "title": "Stepfun new model \"Step 5 Preview\" just leaked",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2608.27313",
-   "score": 7.5,
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkc2n1/stepfun_new_model_step_5_preview_just_leaked/",
+   "score": 5.08,
    "sources": [
-    "arxiv-cs-lg",
-    "arxiv-cs-ai"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "A Finite-Sample Analysis of Quantile Temporal-Difference Learning",
-    "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes"
+    "Stepfun new model \"Step 5 Preview\" just leaked",
+    "Stepfun Step 5 Preview (LLM): On AA Pareto frontier"
    ],
-   "published_at": "2026-09-18T04:00:00.000000+00:00",
-   "summary": "arXiv:2608.27313v2 Announce Type: replace-cross Abstract: Quantile temporal-difference learning (QTD) is an effective method for learning return distributions through quantile approximation, yet its finite-time behavior..."
+   "published_at": "2026-09-19T04:18:31.000000+00:00",
+   "summary": "https://artificialanalysis.ai/models/step-5 https://preview.redd.it/tt7z192zkeqh1.png?width=1035&format=png&auto=webp&s=bf91d4fb080c5f6f2028cc8bddd58b0e5a04ece7 https://preview.redd.it/d8ldk181leqh1.png?width=721&format=..."
   },
   {
    "rank": 3,
+   "title": "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/",
+   "score": 5.05,
+   "sources": [
+    "the-decoder",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
+    "AI Error Nearly Triggered U.S. Intercept of Chinese Ship"
+   ],
+   "published_at": "2026-09-19T08:10:55.000000+00:00",
+   "summary": "In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air...."
+  },
+  {
+   "rank": 4,
    "title": "nvidia/Cosmos-H-Surgical",
    "lang": "en",
    "region": "intl",
@@ -67,87 +91,91 @@
    "summary": "image-to-video, cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code, arxiv:2512.23162, arxiv:2511.00062, license..."
   },
   {
-   "rank": 4,
-   "title": "SeetaPsych v1.0: An Open-source Computer Vision Toolkit for Behavior-based Psychological Measurement",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.19719",
-   "score": 4.0,
-   "sources": [
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "SeetaPsych v1.0: An Open-source Computer Vision Toolkit for Behavior-based Psychological Measurement"
-   ],
-   "published_at": "2026-09-18T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.19719v1 Announce Type: new Abstract: Automated visual analysis opens new avenues for behavior--based psychological measurement. Nevertheless, existing technological modules are typically scattered across task..."
-  },
-  {
    "rank": 5,
-   "title": "SAGE-Yoga: Multi-Cue Learning for Yoga Pose Classification and Joint-Level Correction",
+   "title": "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.20245",
-   "score": 4.0,
+   "url": "https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/",
+   "score": 4.6,
    "sources": [
-    "arxiv-cs-cv"
+    "the-decoder",
+    "hackernews-ai"
    ],
    "titles": [
-    "SAGE-Yoga: Multi-Cue Learning for Yoga Pose Classification and Joint-Level Correction"
+    "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
+    "EFF Statement on California Governor's Executive Order on AI"
    ],
-   "published_at": "2026-09-18T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.20245v1 Announce Type: new Abstract: Automated yoga analysis requires both accurate pose classification and interpretable feedback on pose execution. However, existing methods often rely on a single visual pre..."
+   "published_at": "2026-09-18T17:45:17.000000+00:00",
+   "summary": "California Governor Gavin Newsom signed an executive order seeking independent auditors inside AI labs and a \"kill switch\" for AI models. An expert panel has two months to deliver recommendations. Newsom says no federal..."
   },
   {
    "rank": 6,
-   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+   "title": "Introducing the Australian Youth Safety Blueprint",
    "lang": "en",
    "region": "intl",
-   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-   "score": 3.5,
+   "url": "https://openai.com/index/australian-youth-safety-blueprint",
+   "score": 4.0,
    "sources": [
-    "google-research"
+    "openai-news"
    ],
    "titles": [
-    "MilleMiglia: A realistic instance generator for middle-mile logistics"
+    "Introducing the Australian Youth Safety Blueprint"
    ],
-   "published_at": "2026-09-18T17:46:09.000000+00:00",
-   "summary": "Algorithms & Theory"
+   "published_at": "2026-09-18T12:00:00.000000+00:00",
+   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
   },
   {
    "rank": 7,
-   "title": "Benchmarking LLM Inference at Scale with AIPerf",
+   "title": "Claude Desktop Silently Associates with Common Files",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
-   "score": 3.5,
+   "url": "https://news.ycombinator.com/item?id=49741481",
+   "score": 3.55,
    "sources": [
-    "nvidia-developer"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Benchmarking LLM Inference at Scale with AIPerf"
+    "Claude Desktop Silently Associates with Common Files",
+    "I built a tiny desktop quota display for Claude and Codex"
    ],
-   "published_at": "2026-09-18T19:04:41.000000+00:00",
-   "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts..."
+   "published_at": "2026-09-17T14:38:26.000000+00:00",
+   "summary": "v1.44121.1 2026-09-02 > Added Claude to the “Open with” menu for common work files, including spreadsheets, PDFs, Word and PowerPoint documents, text files, and images, on macOS and on Windows (Microsoft Store and MSIX i..."
   },
   {
    "rank": 8,
-   "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
+   "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai",
-   "score": 3.0,
+   "url": "https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/",
+   "score": 3.5,
    "sources": [
-    "databricks-blog"
+    "marktechpost"
    ],
    "titles": [
-    "Modernizing the Trade Lifecycle With Governed Data and AI"
+    "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model"
    ],
-   "published_at": "2026-09-17T14:00:00.000000+00:00",
-   "summary": "Capital-markets firms are modernizing the trade lifecycle under pressure from every direction: growing data volumes..."
+   "published_at": "2026-09-19T07:48:38+00:00",
+   "summary": "Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-..."
   },
   {
    "rank": 9,
+   "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.18323",
+   "score": 3.0,
+   "sources": [
+    "hf-daily-papers"
+   ],
+   "titles": [
+    "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model"
+   ],
+   "published_at": "2026-09-15T20:00:00.000000+00:00",
+   "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context underst..."
+  },
+  {
+   "rank": 10,
    "title": "Partnering with Accenture on embedded evaluation",
    "lang": "en",
    "region": "intl",
@@ -163,7 +191,7 @@
    "summary": "We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic. The pa..."
   },
   {
-   "rank": 10,
+   "rank": 11,
    "title": "Dynamically Scaled Activation Steering",
    "lang": "en",
    "region": "intl",
@@ -179,7 +207,7 @@
    "summary": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across..."
   },
   {
-   "rank": 11,
+   "rank": 12,
    "title": "New experts join Google’s AI & Economy team",
    "lang": "en",
    "region": "intl",
@@ -195,55 +223,57 @@
    "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers."
   },
   {
-   "rank": 12,
-   "title": "Huawei Speeds Up Launch of New AI Chip",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-18/huawei-speeds-up-launch-of-new-ai-chip-video",
-   "score": 3.0,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Huawei Speeds Up Launch of New AI Chip"
-   ],
-   "published_at": "2026-09-18T05:35:30.000000+00:00",
-   "summary": "Huawei is accelerating the debut of its next-generation AI chip by several months, aiming to replace Nvidia in China and compete on the global stage. The Ascend 960DT chip will now be launched in the first quarter of 202..."
-  },
-  {
    "rank": 13,
-   "title": "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use",
+   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/18/alibaba-qwen-releases-qwen3-8-omni-flash/",
+   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
    "score": 3.0,
    "sources": [
-    "marktechpost"
+    "google-research"
    ],
    "titles": [
-    "Alibaba Qwen Releases Qwen3.8-Omni-Flash: A 1M-Context Omni-Modal Model Built Around Agentic Audio-Video Understanding and Tool Use"
+    "MilleMiglia: A realistic instance generator for middle-mile logistics"
    ],
-   "published_at": "2026-09-18T08:40:37+00:00",
-   "summary": "Alibaba’s Qwen team has released Qwen3.8-Omni-Flash . They called it its first omni-modal model built around agentic capabilities. It accepts text, images, audio, and video, and it returns text. Audio-video understanding..."
+   "published_at": "2026-09-18T17:46:09.000000+00:00",
+   "summary": "Algorithms & Theory"
   },
   {
    "rank": 14,
-   "title": "Could AI pose a serious threat to our existence? | Letters",
+   "title": "Benchmarking LLM Inference at Scale with AIPerf",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/technology/2026/sep/18/could-ai-pose-a-serious-threat-to-our-existence",
-   "score": 2.5,
+   "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+   "score": 3.0,
    "sources": [
-    "guardian-ai"
+    "nvidia-developer"
    ],
    "titles": [
-    "Could AI pose a serious threat to our existence? | Letters"
+    "Benchmarking LLM Inference at Scale with AIPerf"
    ],
-   "published_at": "2026-09-18T16:56:39.000000+00:00",
-   "summary": "Readers respond to the warning from a former Anthropic researcher that the technology could ‘kill us all’ by the end of the decade Here we go again with another round of tech bros claiming that AI is going to develop sup..."
+   "published_at": "2026-09-18T19:04:41.000000+00:00",
+   "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts..."
   },
   {
    "rank": 15,
+   "title": "阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，支持原文译文同帧同出",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/004/450.htm",
+   "score": 7.0,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，支持原文译文同帧同出",
+    "同声传译大模型Qwen3.8-LiveTranslate正式发布"
+   ],
+   "published_at": "2026-09-19T07:14:27+00:00",
+   "summary": "IT之家 9 月 19 日消息，阿里千问今日发布同声传译大模型 Qwen3.8-LiveTranslate ，模型以 Interleave 架构重构实时同传，准确度、流畅度、简洁度全面提升，字均延迟（LAAL）从 2.8 秒降至 2.3 秒。 官方表示，在 支持 60 种语言 的基础上，Qwen3.8-LiveTranslate 新增三项能力 让同传更广泛的应用于真实场景中： 实时说话人分离 ，每句话归属清晰，音色复刻更稳定； 原文译文..."
+  },
+  {
+   "rank": 16,
    "title": "融资狂欢的另一面：机器人明星公司的两种死法",
    "lang": "zh",
    "region": "cn",
@@ -261,43 +291,61 @@
    "summary": "9月的创投圈出现了两条几乎同时刷屏的消息。一条发生在苏州，是“李泽湘投资的泳池机器人公司申请破产”——智橙动力新增两起破产审查案件：9月7日的申请人是一名自然人，9月15日的申请人是公司自己。公司从5月起多次成为被执行人，执行标的从几百元到3.3万元不等，多起案件以“终本”收场——法院核查后认定暂无财产可供执...... 本文来自微信公众号： IT桔子 ，作者：吴梅梅 9月的创投圈出现了两条几乎同时刷屏的消息。 一条发生在苏州，是“李泽..."
   },
   {
-   "rank": 16,
-   "title": "机器人，去养猪场摔猪",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3987462269565958",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "huxiu"
-   ],
-   "titles": [
-    "机器人，去养猪场摔猪",
-    "机器人，去养猪场摔猪"
-   ],
-   "published_at": "2026-09-18T01:01:55.000000+00:00",
-   "summary": "河南内乡，华夏生猪产业第一县，这个地处南阳盆地西缘的山区，在替全国养猪。这里每年出栏的生猪，约占全国的十分之一。 河南的猪场，常能看到几十栋高楼林立，与我们想象中的农村猪圈大不一样。说这里是一个工业园区、一座数据中心，恐怕也有人相信。就在2026年的一天，一栋六层高的楼房猪场里，一场不寻常的招聘会正在进行。 这次猪场想招聘的岗位，叫弱仔处置专员。 母猪一窝产仔十三到十八头，乳头却只有十四个左右，总有一些小猪抢不到奶，还有压伤的、拉稀治不..."
-  },
-  {
    "rank": 17,
-   "title": "零样本干活！Figure 机器人走进 30 个陌生家庭，整理客厅、折毛巾、铺床",
+   "title": "姚星丞之后，AI人才的中间层开始掉价",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8144641.html",
-   "score": 5.5,
+   "url": "https://www.huxiu.com/article/4892458.html",
+   "score": 6.0,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "huxiu",
+    "tmtpost"
    ],
    "titles": [
-    "零样本干活！Figure 机器人走进 30 个陌生家庭，整理客厅、折毛巾、铺床",
-    "Figure租了30套房，让机器人挨家“考核家务”"
+    "姚星丞之后，AI人才的中间层开始掉价",
+    "姚星丞之后，AI人才的中间层开始掉价"
    ],
-   "published_at": "2026-09-18T07:08:00+00:00",
-   "summary": "人形 机器人 真正走向家庭，难点或许从来不是“会不会做家务”，而是换一个家庭之后，它还能不能继续做。 9月17日，美国人形机器人公司Figure发布了 Helix 2.5，将其称为Figure 构建的最先进的神经网络。 这一次，Figure把测试场景从熟悉的实验室搬到了30个此前没有见过的家庭，让机器人直接面对不同的房间布局、家具和物品，并完成整理客厅、折叠毛巾和铺床三项任务。 Figure披露，在这30个家庭的测试中，机器人没有提前采..."
+   "published_at": "2026-09-19T06:26:24.000000+00:00",
+   "summary": "姚星丞的价格还在涨。今年7月离开腾讯后，他的下一站一度被传成Meta。两个月后，答案落在Thinking Machines Lab，这家由OpenAI前CTO Mira Murati创办的AI公司。据雷峰网援引知情人士消息，姚星丞在腾讯的年薪包大约处在数千万元人民币区间，Thinking Machines L...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 姚星丞的价格还在涨。 今年7月离开腾讯后，他的下一站一度被..."
   },
   {
    "rank": 18,
+   "title": "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3989953466940166",
+   "score": 6.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
+    "华为朱照生：昇腾已经跨越了生态拐点，完全有能力、有机会在 Agentic 时代构建 AI 新生态"
+   ],
+   "published_at": "2026-09-19T06:30:33.000000+00:00",
+   "summary": "9月19日，华为计算战略与业务发展部部长朱照生表示，昇腾已经跨越了生态的拐点，完全有能力、有机会在Agentic时代构建AI新生态。从社区来看，昇腾CANN开源社区月均活跃用户数超过5200人，自今年6月起成为国内活跃度最高的开源社区，社区非华为开发者数量超过华为开发者数量，目前日均新增合入代码超过3万行。模型层面，基于昇腾完成预训练的大语言模型和多模态模型已超过40个，昇腾成为国内唯一支持预训练的AI算力平台。生态层面，昇腾除自身开源..."
+  },
+  {
+   "rank": 19,
+   "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/492429.html",
+   "score": 6.0,
+   "sources": [
+    "qbitai",
+    "huxiu"
+   ],
+   "titles": [
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水"
+   ],
+   "published_at": "2026-09-19T06:39:32+00:00",
+   "summary": "同一预测核心，跨七类系统验证"
+  },
+  {
+   "rank": 20,
    "title": "罗福莉压力有多大？都给小米模型训练整上直播了",
    "lang": "zh",
    "region": "cn",
@@ -313,42 +361,6 @@
    ],
    "published_at": "2026-09-18T09:46:08.000000+00:00",
    "summary": "太刺激了。都知道模型训练很费钱，可亲眼看着小米“直播”里的金额往上跳，还是有点替它肉疼。 北京时间9月15日晚，小米两款新模型先后启动了这一轮训练。到17日下午，还不到两天，页面上的累计成本已经超过130万美元，而且还在涨。 好在这笔钱不用观众掏，不然看着看着，可能真得关掉网页缓一缓。 把围观地址发出来的，是小米大模型负责人、前DeepSeek研究员罗福莉。 当天凌晨，她在X上写道：“沉寂了近半年。”随后解释，这段时间她和团队一直在研究..."
-  },
-  {
-   "rank": 19,
-   "title": "机器人的数据生意：真需求，还是自循环？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3988725504792456",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "huxiu"
-   ],
-   "titles": [
-    "机器人的数据生意：真需求，还是自循环？",
-    "机器人的数据生意：真需求，还是自循环？"
-   ],
-   "published_at": "2026-09-18T11:26:38.000000+00:00",
-   "summary": "梅卡曼德创始人邵天兰的一则朋友圈，将具身智能行业心照不宣的隐秘争议彻底摆上台面。 他言辞犀利地直指行业乱象：部分高估值具身智能企业，依托关联交易、数据采集中心及地方资源包装营收数据，以此冲刺IPO、谋求资本上市。此番发声中，邵天兰还在评论区直接点名银河通用，引发行业热议。 邵天兰朋友圈截图 针对此次质疑，银河通用官方迅速作出回应，表态不愿参与行业口水纷争，将持续深耕技术研发、场景落地与商业化推进，专注自身核心业务发展。 一石激起千层浪。..."
-  },
-  {
-   "rank": 20,
-   "title": "AI制药，到哪一步了？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892387.html",
-   "score": 4.5,
-   "sources": [
-    "huxiu",
-    "baai-hub"
-   ],
-   "titles": [
-    "AI制药，到哪一步了？",
-    "IsoDDE与AnewDDE全面对比，Anew Labs把AI制药做到了哪一步？"
-   ],
-   "published_at": "2026-09-18T15:22:38.000000+00:00",
-   "summary": "过去两年，AI制药在研发前端展现出效率优势，尤其在算法迭代、BD交易、估值融资这些环节推进很快。但另一端还存在节奏错位，临床验证、数据打通、复合人才、监管完善，这些决定AI制药最终能否成立的环节，仍需更长时间积累。在2026张江药谷大会暨上海国际生物医药产业周，AI制药的现实瓶颈也被企业和专家多次提及。不过，...... 本文来自微信公众号： 财联社 ，作者：武超 于淼 过去两年，AI制药在研发前端展现出效率优势，尤其在算法迭代、BD交..."
   }
  ]
 }
