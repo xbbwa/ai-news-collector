@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-20T05:06:19.586191+00:00",
+ "generated_at": "2026-09-20T09:55:32.925311+00:00",
  "stats": {
-  "items": 663,
-  "clusters": 518,
-  "noise": 361,
-  "dup": 34,
+  "items": 713,
+  "clusters": 568,
+  "noise": 389,
+  "dup": 28,
   "history_days": 0,
-  "available_cn": 89,
+  "available_cn": 117,
   "available_intl": 34,
   "target_cn": 6,
   "target_intl": 14,
@@ -16,11 +16,27 @@
  "items": [
   {
    "rank": 1,
+   "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages"
+   ],
+   "published_at": "2026-09-20T06:46:08+00:00",
+   "summary": "Qwen has released Qwen3.8-LiveTranslate , its next-generation real-time simultaneous interpretation model. It listens to live speech, with optional video frames, and returns translated text and speech while the speaker i..."
+  },
+  {
+   "rank": 2,
    "title": "OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live",
    "lang": "en",
    "region": "intl",
    "url": "https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/",
-   "score": 3.5,
+   "score": 3.0,
    "sources": [
     "marktechpost"
    ],
@@ -31,7 +47,7 @@
    "summary": "OpenClaw is an open-source, MIT-licensed personal AI agent that you run on your own machines. Its Gateway connects models, tools, and chat channels such as Telegram, Slack, and Discord. The project has now shipped versio..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "AI-generated posters don’t have to be horrible",
    "lang": "en",
    "region": "intl",
@@ -47,135 +63,7 @@
    "summary": "The problem"
   },
   {
-   "rank": 3,
-   "title": "California Sea Lion, Brandt's Cormorant",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-   "score": 2.5,
-   "sources": [
-    "simon-willison"
-   ],
-   "titles": [
-    "California Sea Lion, Brandt's Cormorant"
-   ],
-   "published_at": "2026-09-19T17:10:08.000000+00:00",
-   "summary": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife"
-  },
-  {
    "rank": 4,
-   "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax"
-   ],
-   "published_at": "2026-09-19T18:02:53.000000+00:00",
-   "summary": "President Donald Trump said he would name an artificial intelligence czar as he continued to push tech companies to race ahead with development despite growing fears safety."
-  },
-  {
-   "rank": 5,
-   "title": "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Black Box: The Chatbots | Happy Accident | Ep 3 – podcast"
-   ],
-   "published_at": "2026-09-19T19:00:55.000000+00:00",
-   "summary": "Why are AI chatbots pulling so many people down a rabbit hole? Our answer starts with the world’s first-ever chatbot, the strange effect it had on people and the ‘time bomb’ that exploded when ChatGPT was released four y..."
-  },
-  {
-   "rank": 6,
-   "title": "datasette-auth-github 1.0",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-   "score": 2.5,
-   "sources": [
-    "simon-willison"
-   ],
-   "titles": [
-    "datasette-auth-github 1.0"
-   ],
-   "published_at": "2026-09-19T19:52:02.000000+00:00",
-   "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cook..."
-  },
-  {
-   "rank": 7,
-   "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow"
-   ],
-   "published_at": "2026-09-19T19:57:17.000000+00:00",
-   "summary": "President had brushed away suggestions to slow down AI technology, even as his own party counseled caution Donald Trump on Saturday said he would appoint an artificial intelligence czar and create an “AI Force” to help m..."
-  },
-  {
-   "rank": 8,
-   "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-   "score": 2.5,
-   "sources": [
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force"
-   ],
-   "published_at": "2026-09-19T19:57:47.000000+00:00",
-   "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax."
-  },
-  {
-   "rank": 9,
-   "title": "Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/commentisfree/2026/sep/20/australia-has-done-precious-little-to-prepare-for-the-dangers-of-ai-where-is-brilliant-leadership-when-you-need-it",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel"
-   ],
-   "published_at": "2026-09-19T20:00:55.000000+00:00",
-   "summary": "Australia faces stark choices about the most significant technological development since the splitting of the atom in the 1930s Get our breaking news email , free app or daily news podcast There’s nothing like a threat o..."
-  },
-  {
-   "rank": 10,
-   "title": "Flock reportedly tries to shrink workforce with employee buyouts",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
-   "score": 2.5,
-   "sources": [
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Flock reportedly tries to shrink workforce with employee buyouts"
-   ],
-   "published_at": "2026-09-19T20:39:13.000000+00:00",
-   "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff."
-  },
-  {
-   "rank": 11,
    "title": "Australia’s Albanese Urges World to Act for Humanity in AI Race",
    "lang": "en",
    "region": "intl",
@@ -191,7 +79,7 @@
    "summary": "Australian Prime Minister Anthony Albanese said middle powers have an important role to play in mitigating the risks posed by artificial intelligence and called for cooperation between the US and China."
   },
   {
-   "rank": 12,
+   "rank": 5,
    "title": "AI influx puts Singapore office rents under pressure",
    "lang": "en",
    "region": "intl",
@@ -207,7 +95,71 @@
    "summary": "Anthropic and OpenAI taking more space in city’s already squeezed prime property market"
   },
   {
-   "rank": 13,
+   "rank": 6,
+   "title": "More Australians to live into their 90s as life expectancy forecast to rise over coming decades",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "More Australians to live into their 90s as life expectancy forecast to rise over coming decades"
+   ],
+   "published_at": "2026-09-20T04:32:26.000000+00:00",
+   "summary": "Treasury’s latest intergenerational report projects life expectancy at birth will reach 89 for women and 86 for men by 2066 Follow our Australia news live blog for latest updates Get our breaking news email , free app or..."
+  },
+  {
+   "rank": 7,
+   "title": "Why China is pushing back on US warnings over rapid AI development",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Why China is pushing back on US warnings over rapid AI development"
+   ],
+   "published_at": "2026-09-20T06:00:09.000000+00:00",
+   "summary": "Beijing believes slowdown calls aim to lock in US advantage, and is pursuing a different balance between safety and pace About two years ago, education entrepreneur Boris But had what he calls a “penny-drop moment” – tha..."
+  },
+  {
+   "rank": 8,
+   "title": "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets"
+   ],
+   "published_at": "2026-09-20T07:00:12.000000+00:00",
+   "summary": "Wall Street finds new way to turn tech giants’ credit strength into cheaper funding for AI build-out"
+  },
+  {
+   "rank": 9,
+   "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Simulated students that make realistic mistakes help AI tutors learn faster"
+   ],
+   "published_at": "2026-09-20T09:50:32.000000+00:00",
+   "summary": "Microsoft and the University of Illinois built StudentSim to replicate individual students from limited data and give AI tutors fast, low-cost feedback. In tests covering 60 students across chess, English, and math, it o..."
+  },
+  {
+   "rank": 10,
    "title": "What Zig felt like, coming from Rust",
    "lang": "en",
    "region": "intl",
@@ -223,7 +175,7 @@
    "summary": "What Zig felt like, coming from Rust Intro I’ve spent the last 7 years as a Rust developer, working mostly on open source projects, and I’d like to think I’ve built a solid feel for the language and its ecosystem along t..."
   },
   {
-   "rank": 14,
+   "rank": 11,
    "title": "Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems",
    "lang": "en",
    "region": "intl",
@@ -239,7 +191,73 @@
    "summary": ""
   },
   {
+   "rank": 12,
+   "title": "China bogeyman looms large over American firms’ AI doomsday scenario",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/19/china-ai-foreign-policy-dario-amodei",
+   "score": 2.0,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "China bogeyman looms large over American firms’ AI doomsday scenario"
+   ],
+   "published_at": "2026-09-19T10:00:45.000000+00:00",
+   "summary": "Silicon Valley China hawks, Anthropic CEO Dario Amodei among them, fear the country surpassing US’s AI lead as much as superintelligence destroying humanity When reporters asked Donald Trump this week if he supported cal..."
+  },
+  {
+   "rank": 13,
+   "title": "AI conference ICLR is drowning in abstracts, with roughly 50,000 submissions before the deadline",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/",
+   "score": 2.0,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "AI conference ICLR is drowning in abstracts, with roughly 50,000 submissions before the deadline"
+   ],
+   "published_at": "2026-09-19T10:37:04.000000+00:00",
+   "summary": "ICLR 2027 has already pulled in about 50,000 abstracts, up from 19,500 at ICLR 2026. The flood is driven by the AI hype, corporate pay tied to publication records, and above all, AI making it faster to crank out papers...."
+  },
+  {
+   "rank": 14,
+   "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+   "score": 2.0,
+   "sources": [
+    "wired-ai"
+   ],
+   "titles": [
+    "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening"
+   ],
+   "published_at": "2026-09-19T11:00:00.000000+00:00",
+   "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws."
+  },
+  {
    "rank": 15,
+   "title": "硅基流动完成 B+ 轮二期与 C 轮融资， 2026 年度累计股权融资额近 29 亿元",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/004/727.htm",
+   "score": 7.0,
+   "sources": [
+    "ithome",
+    "zhidx"
+   ],
+   "titles": [
+    "硅基流动完成 B+ 轮二期与 C 轮融资， 2026 年度累计股权融资额近 29 亿元",
+    "刚刚，中国最大独立Token工厂又融资，年内已融29亿"
+   ],
+   "published_at": "2026-09-20T04:30:33+00:00",
+   "summary": "IT之家 9 月 20 日消息，硅基流动近日完成 B+ 轮二期和 C 轮融资， 公司 2026 年度累计股权融资额近 29 亿元 。 IT之家从硅基流动公众号了解到，参与本轮融资的投资方包括中国互联网投资基金、国新基金、中国移动链长基金、中国东方资产国际、京能基金、上海仪电智算基金、建投华科、北创投、翠微基金、成都科创投、江西金控、成都高新倍特基金、中泰资本、华安嘉业、华胜天成、紫光资本、智路资本、拓尔思、鹏鹞环保、兆讯科技、睿智基金、..."
+  },
+  {
+   "rank": 16,
    "title": "SpaceXAI 发布 Grok Voice Transcribe 2.0 语音转文本模型：错误率降低约一半，价格保持不变",
    "lang": "zh",
    "region": "cn",
@@ -257,7 +275,25 @@
    "summary": "IT之家 9 月 19 日消息，当地时间 9 月 18 日，SpaceXAI 发布了 Grok Voice Transcribe 2.0 语音转文本模型，在保持价格不变的前提下，错误率降低约一半。 官方表示，Grok Voice Transcribe 2.0 基于 Grok Voice 底层的音频基础模型构建。目前，Grok Voice 已全面赋能实际业务：每天承接数万通客服电话，转录数百万小时的视频旁白，并驱动实体硬件中的各类语音智能..."
   },
   {
-   "rank": 16,
+   "rank": 17,
+   "title": "不可逆的人类衰老，快被 AI 破解了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3989811095468801",
+   "score": 6.0,
+   "sources": [
+    "36kr-ai",
+    "geekpark"
+   ],
+   "titles": [
+    "不可逆的人类衰老，快被 AI 破解了",
+    "不可逆的人类衰老，快被 AI 破解了"
+   ],
+   "published_at": "2026-09-20T00:04:43.000000+00:00",
+   "summary": "2026 年 9 月，42 个平均 67 岁的人，在六只不同的时钟上同时变年轻了。 这些时钟不在墙上，而在他们的血液里。 服用一种名叫 rentosertib 的药物四周后，患者体内近 3000 种蛋白被检测，其中 326 种发生显著变化。六套由不同团队开发的模型都认为，他们的身体正在朝更年轻的方向移动。 多数时钟倒退了 3 到 4 年。其中一只，倒退了接近 6 年。 更不可思议的是，这款药是 AI 做出来的。 它来自英矽智能，一家已经..."
+  },
+  {
+   "rank": 18,
    "title": "AI办公给互联网巨头出了道难题",
    "lang": "zh",
    "region": "cn",
@@ -275,7 +311,7 @@
    "summary": "在汹涌的AI浪潮中，办公场景已成为头部玩家竞逐的主战场。 聚光灯下的密集交锋即是明证。字节、腾讯、阿里完成组织变阵后均集中兵力。9月15日，字节跳动CEO梁汝波罕见现身飞书未来无限大会暨豆包工作开工大会，宣布将豆包、飞书、火山引擎三方能力正式整合，加大企业级AI办公市场投入，并发布豆包工作伙伴等新产品。 腾讯WorkBuddy动作密集。WorkBuddy于9月2日上线开放平台，首批引入超百家生态伙伴；9月8日，WorkBuddy跨界与游..."
   },
   {
-   "rank": 17,
+   "rank": 19,
    "title": "AI巨头集体踩“刹车”，但距离真正的RSI还很遥远",
    "lang": "zh",
    "region": "cn",
@@ -293,7 +329,7 @@
    "summary": "AI发展到了必须要降速的时刻吗？过去几天，Anthropic、OpenAI先后释放“放慢前沿AI能力推进节奏”的信号，被业内视作硅谷AI巨头面对安全风险的一次主动降温。二级市场率先做出反应，科技股、半导体股集体承压，英伟达一度跌超3%，AMD、英特尔、美光盘中跌幅均在5%左右，费城半导体指数盘中也一度下挫近6...... 本文来自微信公众号： 划重点KeyPoints ，作者：专栏作者，原文标题：《AI巨头集体踩“刹车”，但距离真正的R..."
   },
   {
-   "rank": 18,
+   "rank": 20,
    "title": "AI制药一级热",
    "lang": "zh",
    "region": "cn",
@@ -309,42 +345,6 @@
    ],
    "published_at": "2026-09-20T02:02:07.000000+00:00",
    "summary": "AI制药继续火热。自6月份传出字节跳动AI制药业务线启动拆分与独立融资的消息后，不到3个月，Anew Labs的首轮融资已经落地。2.9亿美元，投后估值约15亿美元，刷新了年内国内AI制药单笔融资纪录。其最快的管线虽仍停留在临床前阶段，估值却已站上15亿美元——一级市场为这家公司的技术平台与字节生态买单，自有...... 本文来自微信公众号： 氨基观察 ，作者：氨基君 AI制药继续火热。 自6月份传出字节跳动AI制药业务线启动拆分与独立..."
-  },
-  {
-   "rank": 19,
-   "title": "教别人用AI，我赚翻了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892554.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "教别人用AI，我赚翻了",
-    "教别人用AI，我赚翻了"
-   ],
-   "published_at": "2026-09-20T02:06:50.000000+00:00",
-   "summary": "从9.9元到30万，卖课的先赚到了。定焦One（dingjiaoone）原创AI正在让越来越多技能变得廉价，但“教别人怎么用AI”，反而成了一门越来越具体的生意。它的价格跨度很大。闲鱼上，9.9元的AI教程半年能卖出上万份；有人依靠几百元的付费社群模式，聚集上千名学员；也有人把一对一咨询卖到2000元一小时，...... 本文来自微信公众号： 定焦One ，编辑：陈丹，作者：定焦One团队 从9.9元到30万，卖课的先赚到了。 定焦On..."
-  },
-  {
-   "rank": 20,
-   "title": "Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/492550.html",
-   "score": 5.5,
-   "sources": [
-    "qbitai",
-    "36kr-ai"
-   ],
-   "titles": [
-    "Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子",
-    "Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子"
-   ],
-   "published_at": "2026-09-19T11:36:11+00:00",
-   "summary": "AI能否提出相对论？"
   }
  ]
 }
