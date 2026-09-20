@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-20T17:34:24.069503+00:00",
+ "generated_at": "2026-09-20T20:59:06.440154+00:00",
  "stats": {
-  "items": 788,
-  "clusters": 621,
-  "noise": 426,
-  "dup": 30,
+  "items": 863,
+  "clusters": 666,
+  "noise": 453,
+  "dup": 26,
   "history_days": 0,
-  "available_cn": 124,
-  "available_intl": 41,
+  "available_cn": 134,
+  "available_intl": 53,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,24 +16,40 @@
  "items": [
   {
    "rank": 1,
-   "title": "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
+   "title": "nvidia/Nemotron-3-Diarization-preview",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
-   "score": 5.15,
+   "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+   "score": 5.83,
    "sources": [
-    "ft-tech",
-    "hackernews-ai"
+    "hf-models-intl"
    ],
    "titles": [
-    "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
-    "Big Tech uses guarantees to keep $300B AI exposure off balance sheets"
+    "nvidia/Nemotron-3-Diarization-preview"
    ],
-   "published_at": "2026-09-20T07:00:12.000000+00:00",
-   "summary": "Wall Street finds new way to turn tech giants’ credit strength into cheaper funding for AI build-out"
+   "published_at": "2026-09-18T13:45:46.000000+00:00",
+   "summary": "voice-activity-detection, nemo, speaker-diarization, streaming-sortformer, speaker-tagging, audio, license:other, region:us"
   },
   {
    "rank": 2,
+   "title": "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
+   "score": 5.57,
+   "sources": [
+    "the-decoder",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
+    "Trump announces a new 'AI Force,' but says he will not 'stifle' AI"
+   ],
+   "published_at": "2026-09-20T08:52:06.000000+00:00",
+   "summary": "Trump announces an \"AI Force\" modeled after the Space Force and plans to appoint an \"AI czar\" with a \"high IQ.\" He claims AI could reach 25 percent of US economic output, rejects new regulation, and frames criticism of d..."
+  },
+  {
+   "rank": 3,
    "title": "Runway wants to turn AI video generation into a live stream you control in real time",
    "lang": "en",
    "region": "intl",
@@ -51,23 +67,59 @@
    "summary": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees use..."
   },
   {
-   "rank": 3,
-   "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
+   "rank": 4,
+   "title": "Trump now says he wants to form an ‘AI Force’",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
-   "score": 3.5,
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+   "score": 5.0,
    "sources": [
-    "marktechpost"
+    "theverge-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages"
+    "Trump now says he wants to form an ‘AI Force’",
+    "Trump vows to form \"AI Force,\" says he won't allow slowdown of AI development"
    ],
-   "published_at": "2026-09-20T06:46:08+00:00",
-   "summary": "Qwen has released Qwen3.8-LiveTranslate , its next-generation real-time simultaneous interpretation model. It listens to live speech, with optional video frames, and returns translated text and speech while the speaker i..."
+   "published_at": "2026-09-20T15:39:22.000000+00:00",
+   "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump th..."
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "title": "Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler",
+   "score": 4.95,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler"
+   ],
+   "published_at": "2026-09-14T06:26:28.000000+00:00",
+   "summary": "video-to-video, diffusion-single-file, ltx-video, ic-lora, ltx-2.5, upscaling, super-resolution, spatial-upscaler, ltx, en, base_model:Lightricks/LTX-2.5, base_model:adapter:Lightricks/LTX-2.5, license:other, region:us"
+  },
+  {
+   "rank": 6,
+   "title": "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
+   "score": 4.65,
+   "sources": [
+    "ft-tech",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
+    "Big Tech uses guarantees to keep $300B AI exposure off balance sheets"
+   ],
+   "published_at": "2026-09-20T07:00:12.000000+00:00",
+   "summary": "Wall Street finds new way to turn tech giants’ credit strength into cheaper funding for AI build-out"
+  },
+  {
+   "rank": 7,
    "title": "It’s Donald Trump Versus MAGA on Data Centers",
    "lang": "en",
    "region": "intl",
@@ -83,7 +135,7 @@
    "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction."
   },
   {
-   "rank": 5,
+   "rank": 8,
    "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
    "lang": "en",
    "region": "intl",
@@ -99,45 +151,46 @@
    "summary": "Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license..."
   },
   {
-   "rank": 6,
-   "title": "I use CC $200 plan, decided to also try ChatGPT $100 plan. Data inside",
+   "rank": 9,
+   "title": "What are you guys building with max plans for Claude?",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wksm10/i_use_cc_200_plan_decided_to_also_try_chatgpt_100/",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkwg4y/what_are_you_guys_building_with_max_plans_for/",
    "score": 3.5,
    "sources": [
     "reddit-ai-new",
     "baai-hub"
    ],
    "titles": [
-    "I use CC $200 plan, decided to also try ChatGPT $100 plan. Data inside",
+    "What are you guys building with max plans for Claude?",
     "It's getting ridiculous: Work under ChatGPT Plus (£20) gets more done than Claude on 20x Max (£200). And it's better quality too.",
     "How are you getting autonomous/agentic workflows on Claude",
     "$100 Claude Max & $100 Codex or $200 Claude Max",
+    "Building website with Claude",
     "刚刚，ChatGPT Pro 20X又回来了！",
     "Usage shot up to 100% under \"Other\""
    ],
-   "published_at": "2026-09-19T17:47:34.000000+00:00",
-   "summary": "A lot of people are talking about usage on Codex because OpenAI seems to have reduced it, but most comments seem to be vibes based rather than just pulling token #s and comparing. I figured I had the data, so would share..."
+   "published_at": "2026-09-19T20:18:29.000000+00:00",
+   "summary": "And how long it takes to vibecode each projects? Fable has been out for some time now, I wanna see if anyone else is getting their money worth."
   },
   {
-   "rank": 7,
-   "title": "AI and the Destruction of the Creative Commons",
+   "rank": 10,
+   "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-   "score": 3.36,
+   "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+   "score": 3.38,
    "sources": [
     "hackernews-ai"
    ],
    "titles": [
-    "AI and the Destruction of the Creative Commons"
+    "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM"
    ],
-   "published_at": "2026-09-20T10:07:51.000000+00:00",
-   "summary": "The balance of software copyright protection and openness has always been fraught with minutiae and detail that bores all but the most nerdy of pedants. Yet, through much effort and 40 years of debate we had reached an e..."
+   "published_at": "2026-09-20T17:38:50.000000+00:00",
+   "summary": "Samsung Electronics is set to more than double HBM4 and HBM4E output next year, lifting glass carrier demand 2.5-fold, industry sources said."
   },
   {
-   "rank": 8,
+   "rank": 11,
    "title": "OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live",
    "lang": "en",
    "region": "intl",
@@ -153,23 +206,23 @@
    "summary": "OpenClaw is an open-source, MIT-licensed personal AI agent that you run on your own machines. Its Gateway connects models, tools, and chat channels such as Telegram, Slack, and Discord. The project has now shipped versio..."
   },
   {
-   "rank": 9,
-   "title": "Why China is pushing back on US warnings over rapid AI development",
+   "rank": 12,
+   "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
-   "score": 2.5,
+   "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
+   "score": 3.0,
    "sources": [
-    "guardian-ai"
+    "marktechpost"
    ],
    "titles": [
-    "Why China is pushing back on US warnings over rapid AI development"
+    "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages"
    ],
-   "published_at": "2026-09-20T06:00:09.000000+00:00",
-   "summary": "Beijing believes slowdown calls aim to lock in US advantage, and is pursuing a different balance between safety and pace About two years ago, education entrepreneur Boris But had what he calls a “penny-drop moment” – tha..."
+   "published_at": "2026-09-20T06:46:08+00:00",
+   "summary": "Qwen has released Qwen3.8-LiveTranslate , its next-generation real-time simultaneous interpretation model. It listens to live speech, with optional video frames, and returns translated text and speech while the speaker i..."
   },
   {
-   "rank": 10,
+   "rank": 13,
    "title": "In China, A.I. Is Moving Forward While the Economy Lags Behind",
    "lang": "en",
    "region": "intl",
@@ -185,23 +238,7 @@
    "summary": "As Xi Jinping arrives in the United States this week for a state visit, China’s advances in artificial intelligence will be in the air. Less discussed: China’s economy in its worst shape in decades."
   },
   {
-   "rank": 11,
-   "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Simulated students that make realistic mistakes help AI tutors learn faster"
-   ],
-   "published_at": "2026-09-20T09:50:32.000000+00:00",
-   "summary": "Microsoft and the University of Illinois built StudentSim to replicate individual students from limited data and give AI tutors fast, low-cost feedback. In tests covering 60 students across chess, English, and math, it o..."
-  },
-  {
-   "rank": 12,
+   "rank": 14,
    "title": "As White House shields the AI gold rush, Trump family and other allies strike it rich – with few guardrails",
    "lang": "en",
    "region": "intl",
@@ -215,38 +252,6 @@
    ],
    "published_at": "2026-09-20T10:00:13.000000+00:00",
    "summary": "It’s not clear that financial interests are driving White House policy, but they run parallel even as resistance mounts Donald Trump ’s sons, through a series of AI -linked defense and technology ventures, have picked up..."
-  },
-  {
-   "rank": 13,
-   "title": "‘People are pissed off’: anger at the elite and the establishment is fueling this year’s midterms",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/20/anger-midterm-elections",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "‘People are pissed off’: anger at the elite and the establishment is fueling this year’s midterms"
-   ],
-   "published_at": "2026-09-20T10:00:14.000000+00:00",
-   "summary": "Coming midterm elections are starting to be framed not as right versus left but instead the ‘well-fed versus the fed-up’ Brian Leeland, a 79-year-old Democratic voter in Detroit , had enough. Frustrated by the way the US..."
-  },
-  {
-   "rank": 14,
-   "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
-   "score": 2.5,
-   "sources": [
-    "theverge-ai"
-   ],
-   "titles": [
-    "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems"
-   ],
-   "published_at": "2026-09-20T12:00:00.000000+00:00",
-   "summary": "Before recent high-profile hacks raised the specter of AI possibly \" killing all humans ,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were j..."
   },
   {
    "rank": 15,
@@ -288,24 +293,6 @@
   },
   {
    "rank": 17,
-   "title": "东风人形机器人将于今年 10 月份进入工厂：主要面向生产制造领域，进行分拣、质检等工作",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/004/831.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "zhidx"
-   ],
-   "titles": [
-    "东风人形机器人将于今年 10 月份进入工厂：主要面向生产制造领域，进行分拣、质检等工作",
-    "10岁小孩姐，都能轻松给机器人编程！稚晖君连发两款万元级机器人"
-   ],
-   "published_at": "2026-09-20T07:56:52+00:00",
-   "summary": "IT之家 9 月 20 日消息，据第一财经消息，东风汽车智能化技术首席总工程师张振林表示， 东风人形机器人将于今年 10 月份进入工厂 ，主要面向生产制造领域，进行分拣、质检等工作。今年年底，东风人形机器人将进行小批量、小点位的试制，计划在明年年底能力与真人持平。 此外，该公司自主研发的机器狗将比人形机器人更快投入 4S 店导购等场景。张振林认为， 车企研发具身智能产品能够实现与汽车大模型等多个领域进行复用，加速商业化量产效率 。同时，..."
-  },
-  {
-   "rank": 18,
    "title": "用AI“复活”家人，似乎不是个好生意",
    "lang": "zh",
    "region": "cn",
@@ -323,7 +310,7 @@
    "summary": "用AI“复活”已逝亲友的想法太过诱人，所以当ChatGPT诞生、掀起新一轮AI浪潮之后，哀伤生意与AI的碰撞几乎是注定的。但如今，曾经寄希望于AI初创公司的悲伤之人，不得不与“亲友”再次告别了。今年7月，帮人留住亲人声音的AI公司HereAfter传出了关停消息。它曾推出199.99美元的一次性付费套餐，让家...... 本文来自微信公众号： 字母AI ，作者：小金牙 用AI“复活”已逝亲友的想法太过诱人，所以当ChatGPT诞生、掀起..."
   },
   {
-   "rank": 19,
+   "rank": 18,
    "title": "中国燃气轮机，怎么就成了全球AI的救命稻草？",
    "lang": "zh",
    "region": "cn",
@@ -341,7 +328,7 @@
    "summary": "8月28日，四川德阳，一台披着红色绸带的燃气轮机被缓缓吊装上卡车，准备发往海外。不过呢？这个新闻一点水花都没溅起来。生活在一个工业克苏鲁国家，燃气轮机中国人早就见怪不怪了，除非搞出EUV光刻机，否则大家连看一眼的兴趣都没有。但万万没想到的是，这件事，竟然上了9月1日的国资委网站！一台燃气轮机而已，值得这么重视...... 本文来自微信公众号： 星海情报局 ，作者：星海老局 8月28日，四川德阳，一台披着红色绸带的燃气轮机被缓缓吊装上卡车..."
   },
   {
-   "rank": 20,
+   "rank": 19,
    "title": "120万美元的“数字领土”：全球科技巨头疯抢“.ai”域名",
    "lang": "zh",
    "region": "cn",
@@ -357,6 +344,24 @@
    ],
    "published_at": "2026-09-20T09:32:38.000000+00:00",
    "summary": "alibaba.ai，从字面上来看，这是一个指向性非常明确的域名，但它此前并不属于阿里巴巴。 2026年7月，一名投资者在Spaceship交易平台买下该域名，成交价为3,333 美元，随后又以33,333美元挂牌出售。但在一个月后，捷克仲裁法院（CAC）认定，该持有人明知阿里巴巴品牌存在，购入后仅用于加价转售，未进行任何真实使用，构成“机会主义式的恶意”，最终这个域名被强制转移给阿里巴巴集团。 这不是孤例。过去几个月，阿里围绕goof..."
+  },
+  {
+   "rank": 20,
+   "title": "Opus 5.2 与 Gemini 4 Pro 未经官宣已上线，前沿模型的发布流程正在被压缩",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8145908.html",
+   "score": 6.0,
+   "sources": [
+    "tmtpost",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Opus 5.2 与 Gemini 4 Pro 未经官宣已上线，前沿模型的发布流程正在被压缩",
+    "With Gemini 4, bench goes up."
+   ],
+   "published_at": "2026-09-20T10:25:48+00:00",
+   "summary": "过去两周，Anthropic 将两个尚未命名的模型接入生产接口，谷歌为下一代旗舰沿用旧版本号、投放到第三方盲测平台，OpenAI 在 Astra 之后未再公开发声。三家都没有为下一代模型开发布会，官方也没有发布任何说明。多数人并未意识到，自己已在为尚未发布的模型提供测试样本。 9 月 17 日晚，Anthropic 切断了灰度通道。一批原本被路由至新模型的账号归零，在开发者社区引发集中讨论。一天后通道恢复， 覆盖范围从 Claude C..."
   }
  ]
 }

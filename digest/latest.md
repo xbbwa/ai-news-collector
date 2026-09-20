@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-21 01:34 CST
+生成时间：2026-09-21 04:59 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -22,9 +22,46 @@
 - 发布时间：2026-09-20 19:59 CST
 - 链接：https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I
 
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 7 条）
+
+### 1. nvidia/Nemotron-3-Diarization-preview
+- 摘要：voice-activity-detection, nemo, speaker-diarization, streaming-sortformer, speaker-tagging, audio, license:other, region:us
+- 作者：nvidia
+- 发布时间：2026-09-18 21:45 CST
+- 链接：https://huggingface.co/nvidia/Nemotron-3-Diarization-preview
+
+### 2. nvidia/SOMA-X
+- 摘要：robotics, soma-x, parametric-human-body-model, computer-graphics, human-pose-estimation, animation, pytorch, license:apache-2.0, region:us
+- 作者：nvidia
+- 发布时间：2026-09-18 11:41 CST
+- 链接：https://huggingface.co/nvidia/SOMA-X
+
+### 3. LiquidAI/LFM2-1.2B-Longevity
+- 摘要：safetensors, lfm2, liquid, lfm2.5, longevity, arxiv:2511.23404, base_model:LiquidAI/LFM2-1.2B, base_model:finetune:LiquidAI/LFM2-1.2B, doi:10.57967/hf/9887, license:other, region:us
+- 作者：LiquidAI
+- 发布时间：2026-09-17 23:12 CST
+- 链接：https://huggingface.co/LiquidAI/LFM2-1.2B-Longevity
+
+## DeepSeek News（deepseek-news，zh，本窗口共 11 条）
+
+### 1. 思考模式
+- 摘要：DeepSeek 模型支持思考模式：在输出最终回答之前，模型会先输出一段思维链内容，以提升最终答案的准确性。 思考模式开关与思考强度控制 控制参数（OpenAI 格式） 控制参数（Anthropic 格式） 控制参数（Responses API 格式） 思考模式开关 (1) {"thinking": {"type": "enabled/disabled"}} {"reasoning": {"effort": "none/low/high/max"}} (none 表示关闭思考模式) 思考强度控制 (2) {"reasoning_effort": "low/high/max"} {"output...
+- 发布时间：2026-04-19 08:00 CST
+- 链接：https://api-docs.deepseek.com/zh-cn/guides/thinking_mode
+
+### 2. 图像理解
+- 摘要：deepseek-flash 模型支持在文本之外输入图片，你可以让模型描述图片、识别截图中的文字、分析图表等。旧模型名 deepseek-v4-flash-vision-exp 仍可调用，但该模型已下线，其请求同样由最新的 Flash 模型承接。 支持的图片格式： JPEG、PNG、GIF、WebP 。格式由文件实际内容判断，而非文件名或声明的 MIME 类型。 传入图片 共有三种方式向模型提供图片，均使用标准的 OpenAI 兼容对话补全格式，即 content 为一个块（block）数组，而非纯字符串。同样的三种方式也适用于 Responses API ，图片以 input_image 内...
+- 发布时间：2026-01-01 08:00 CST
+- 链接：https://api-docs.deepseek.com/zh-cn/guides/vision
+
+### 3. 多轮对话
+- 摘要：本指南将介绍如何使用 DeepSeek /chat/completions API 进行多轮对话。 DeepSeek /chat/completions API 是一个“无状态” API，即服务端不记录用户请求的上下文，用户在每次请求时， 需将之前所有对话历史拼接好后 ，传递给对话 API。 下面的代码以 Python 语言，展示了如何进行上下文拼接，以实现多轮对话。 from openai import OpenAI client = OpenAI ( api_key = " " , base_url = "https://api.deepseek.com" ) # Round 1 mess...
+- 发布时间：2026-01-01 08:00 CST
+- 链接：https://api-docs.deepseek.com/zh-cn/guides/multi_round_chat
+
 # Tier 2 — 专业媒体
 
-## Axios（axios，en，本窗口共 2 条）
+## Axios（axios，en，本窗口共 1 条）
 
 ### 1. The tech battle to build your AI assistant
 - 摘要：The long-promised personal AI assistant is finally arriving, with a suddenly crowded field of agents offering to run pieces of your everyday life. Why it matters: For years, tech's "personal assistants" were little more than voice-controlled search boxes. Rapid advances in AI are finally giving them...
@@ -32,13 +69,7 @@
 - 发布时间：2026-09-20 20:22 CST
 - 链接：https://www.axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple
 
-### 2. Trump wants a new AI czar and an "AI Force" modeled on Space Force
-- 摘要：President Trump announced Saturday he is creating an "AI Force" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation. Why it matters: The White House isn't backing down from its laissez-faire...
-- 作者：Andrew Pantazi
-- 发布时间：2026-09-20 03:20 CST
-- 链接：https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety
-
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 6 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 5 条）
 
 ### 1. Citi CEO Sees ‘Tsunami’ of Patching to Secure AI Defense
 - 摘要：Citigroup CEO Jane Fraser said that companies are racing to build up their defenses on artificial-intelligence models. Speaking on the AI revolution, Fraser said when Mythos came out, “that was not a good day.” She spoke at the 2026 Qatar Economic Forum, UNGA Special Edition; Powered by Bloomberg. (...
@@ -94,7 +125,7 @@
 - 发布时间：2026-09-20 12:00 CST
 - 链接：https://www.ft.com/content/775888b2-47e6-42b4-8146-cfb9caee52d6?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 13 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 12 条）
 
 ### 1. Ella Baron on our evolving relationship with AI – cartoon
 - 摘要：Continue reading...
@@ -114,7 +145,7 @@
 - 发布时间：2026-09-20 21:00 CST
 - 链接：https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar
 
-## MarkTechPost（marktechpost，en，本窗口共 3 条）
+## MarkTechPost（marktechpost，en，本窗口共 2 条）
 
 ### 1. Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages
 - 摘要：Qwen has released Qwen3.8-LiveTranslate , its next-generation real-time simultaneous interpretation model. It listens to live speech, with optional video frames, and returns translated text and speech while the speaker is still talking. The core change is a new Interleave architecture. Qwen reports...
@@ -127,12 +158,6 @@
 - 作者：Michal Sutter
 - 发布时间：2026-09-20 05:44 CST
 - 链接：https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/
-
-### 3. TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text
-- 摘要：The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large language model. It does not generate text. You send a state and typed questions. I...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-20 02:41 CST
-- 链接：https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/
 
 ## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
@@ -150,25 +175,25 @@
 - 发布时间：2026-09-20 03:52 CST
 - 链接：https://simonwillison.net/2026/Sep/19/datasette-auth-github/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 4 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 7 条）
 
-### 1. 6 days left to get ahead at TechCrunch Disrupt 2026
-- 摘要：Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.
-- 作者：TechCrunch Events
-- 发布时间：2026-09-20 22:00 CST
-- 链接：https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/
+### 1. World model companies are keeping a lot of secrets
+- 摘要：Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.
+- 作者：Russell Brandom
+- 发布时间：2026-09-21 04:29 CST
+- 链接：https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/
 
-### 2. Flock reportedly tries to shrink workforce with employee buyouts
-- 摘要：Without buyouts, Flock would "almost certainly" need to lay off staff.
+### 2. Is the AI industry really ready to slow down?
+- 摘要：On Equity, we debated whether Ai executives are serious about wanting to slow down.
 - 作者：Anthony Ha
-- 发布时间：2026-09-20 04:39 CST
-- 链接：https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/
+- 发布时间：2026-09-21 02:56 CST
+- 链接：https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/
 
-### 3. Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force
-- 摘要：Trump claimed, without evidence, that the AI backlash is a Democratic hoax.
-- 作者：Anthony Ha
-- 发布时间：2026-09-20 03:57 CST
-- 链接：https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
+### 3. Vocci’s ring adds a new form factor to meeting note-taking
+- 摘要：Vocci's lightweight ring costs $249, and might pose some privacy questions
+- 作者：Ivan Mehta
+- 发布时间：2026-09-21 02:32 CST
+- 链接：https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/
 
 ## The Decoder（the-decoder，en，本窗口共 7 条）
 
@@ -190,25 +215,25 @@
 - 发布时间：2026-09-20 19:56 CST
 - 链接：https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/
 
-## The Verge — AI（theverge-ai，en，本窗口共 3 条）
+## The Verge — AI（theverge-ai，en，本窗口共 4 条）
 
-### 1. Trump now says he wants to form an ‘AI Force’
+### 1. No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.
+- 摘要：The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning , he claimed there was a "0% chance" of AI being the end of the world . He also...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-21 02:50 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown
+
+### 2. Trump now says he wants to form an ‘AI Force’
 - 摘要：The president posted on Truth Social that he wanted to appoint an "AI czar" to lead a new "AI force." He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration "will not in any w...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-20 23:39 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar
 
-### 2. Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems
+### 3. Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems
 - 摘要：Before recent high-profile hacks raised the specter of AI possibly " killing all humans ," our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. "We were always prey. We were just kind of surviving at the appetite of our predators," Joshua Corman, executiv...
 - 作者：Justine Calma
 - 发布时间：2026-09-20 20:00 CST
 - 链接：https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure
-
-### 3. Meta’s Muse is creepy, but maybe not for the reasons you think
-- 摘要：Meta's Muse is apparently an effective AI assistant , but one that's a little creepy. Part of that is because of its new Mac app , which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magaz...
-- 作者：Terrence O’Brien
-- 发布时间：2026-09-20 04:44 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy
 
 ## WIRED — AI（wired-ai，en，本窗口共 2 条）
 
@@ -473,25 +498,25 @@
 - 发布时间：2026-09-20 17:54 CST
 - 链接：https://github.com/docling-project/docling
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 122 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 134 条）
 
-### 1. Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets
-- 摘要：Targeting AI ran autonomously on non-frontier models.
-- 作者：sbulaev
-- 发布时间：2026-09-21 01:07 CST
-- 链接：https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms
+### 1. We got a cybersecurity expert to hack this BYD. It was too easy
+- 摘要：To test the risks of surveillance and sabotage, Four Corners asked a hacker to show what China's top EV brand could see and do remotely.
+- 作者：dbaupp
+- 发布时间：2026-09-21 04:28 CST
+- 链接：https://www.abc.net.au/news/2026-09-21/byd-hacked-by-cybersecurity-expert-vehicle-sabotage-surveillance/107139482
 
-### 2. Show HN: Radius – A Meetup.com Alternative
-- 摘要：Hello HN! I'm relaunching Radius [1] - far too long after the original Show HN [2] (I'll blame the day job for that). Radius started out from my frustration with not knowing what was going on around me. The initial plan was to "show all and every type of event" from big to small, but over time I nar...
-- 作者：radius89
-- 发布时间：2026-09-21 00:51 CST
-- 链接：https://radius.to/
+### 2. Anthropic is cutting Claude Code's current weekly limits by 17%
+- 摘要：Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds.
+- 作者：shepherdjerred
+- 发布时间：2026-09-21 02:40 CST
+- 链接：https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/
 
-### 3. Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)
-- 摘要：Laya on Mac m4 CoreML Offline. GitHub Gist: instantly share code, notes, and snippets.
-- 作者：putna
-- 发布时间：2026-09-20 23:58 CST
-- 链接：https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0
+### 3. Lego Brick Sorting Machine Uses AI to Save Millions from Landfill [video]
+- 摘要：Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+- 作者：ChrisArchitect
+- 发布时间：2026-09-21 02:18 CST
+- 链接：https://www.youtube.com/watch?v=M0cWcAIeOyU
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 3 条）
 
@@ -513,24 +538,25 @@
 - 发布时间：2026-09-15 01:22 CST
 - 链接：https://www.producthunt.com/products/minicart
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 353 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 398 条）
 
-### 1. Claude wrote a contract about its own existence and put its model string on the signature line
-- 摘要：https://claude.ai/artifact/AWHjEFdJCfiM6o3drBwcmX I didn't ask it to sign. The witness line used to say "optional." It changed it to "required" and wrote in who the witness had to be. Read Article 7 last.
-- 作者：Trip_Jones
-- 发布时间：2026-09-21 01:31 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wln839/claude_wrote_a_contract_about_its_own_existence/
+### 1. Now the bottleneck is compression / memory (and a little on input filtering)
+- 摘要：A few weeks back I said vision was one of the most major bottlenecks, shortly after Astra blew many of us away and imo no coincidence that it's far above 5.6 models in it's visual intelligence. Computers are "better" at, short, medium, long term memory than humans. Well no, in almost every way they'...
+- 作者：JoelMahon
+- 发布时间：2026-09-21 04:57 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wlsp6l/now_the_bottleneck_is_compression_memory_and_a/
 
-### 2. Epistemic Integrity State Machine (EISM)
-- 摘要：EISM Draft 0.4.2 is a clarification release of the Contextual Memory and Conatus Architecture. This revision tightens the specification in four places: it makes the claim boundary explicit, types assurance routes and residual risk, formalizes mixed-derivation separability (including a narrow determi...
-- 作者：Advanced-Cat9927
-- 发布时间：2026-09-21 01:25 CST
-- 链接：https://compliancearchitecture.substack.com/p/epistemic-integrity-state-machine?r=6se3l0&utm_medium=ios
+### 2. Anyone know where to find data to make a model like Jev/make synthetic data for such a model?
+- 摘要：I have found LocalLLaMA/typed-decisions but I don't know how to reproduce it to make more examples.
+- 作者：Aggravating-Push-207
+- 发布时间：2026-09-21 04:52 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wlskow/anyone_know_where_to_find_data_to_make_a_model/
 
-### 3. You may not like it, but this is cutting edge AI safety
-- 作者：Malor777
-- 发布时间：2026-09-21 01:25 CST
-- 链接：https://i.redd.it/8md1udq7mpqh1.png
+### 3. China Is Doing About 30 Times More Agricultural Drone Work Than The U.S.
+- 摘要：China’s agricultural drones do about 30 times more treatment work than U.S. drones, revealing a much deeper operating ecosystem.
+- 作者：yogthos
+- 发布时间：2026-09-21 04:47 CST
+- 链接：https://cleantechnica.com/2026/09/20/china-agricultural-drones-30-times-us/
 
 ## 智源社区（baai-hub，zh，本窗口共 16 条）
 
@@ -553,7 +579,7 @@
 - 链接：https://hub.baai.ac.cn/view/58128
 
 ---
-共列出 83 条（窗口内采集总数 796 条，来自 30 个信源）
+共列出 87 条（窗口内采集总数 871 条，来自 32 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
