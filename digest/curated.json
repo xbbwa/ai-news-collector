@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-19T21:34:12.728056+00:00",
+ "generated_at": "2026-09-20T00:13:18.777985+00:00",
  "stats": {
-  "items": 779,
-  "clusters": 570,
-  "noise": 391,
-  "dup": 30,
+  "items": 690,
+  "clusters": 506,
+  "noise": 355,
+  "dup": 23,
   "history_days": 0,
-  "available_cn": 88,
-  "available_intl": 61,
+  "available_cn": 79,
+  "available_intl": 49,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -37,25 +37,6 @@
   },
   {
    "rank": 2,
-   "title": "Mathematicians Hate AI. They Can’t Quit It",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-   "score": 5.0,
-   "sources": [
-    "wired-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Mathematicians Hate AI. They Can’t Quit It",
-    "AI Hate.",
-    "AI Hate."
-   ],
-   "published_at": "2026-09-19T10:00:00.000000+00:00",
-   "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful."
-  },
-  {
-   "rank": 3,
    "title": "Stepfun new model \"Step 5 Preview\" just leaked",
    "lang": "en",
    "region": "intl",
@@ -73,7 +54,7 @@
    "summary": "https://artificialanalysis.ai/models/step-5 https://preview.redd.it/tt7z192zkeqh1.png?width=1035&format=png&auto=webp&s=bf91d4fb080c5f6f2028cc8bddd58b0e5a04ece7 https://preview.redd.it/d8ldk181leqh1.png?width=721&format=..."
   },
   {
-   "rank": 4,
+   "rank": 3,
    "title": "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
    "lang": "en",
    "region": "intl",
@@ -91,25 +72,26 @@
    "summary": "In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air...."
   },
   {
-   "rank": 5,
-   "title": "Anthropic is operating a lab that conducts biology experiments",
+   "rank": 4,
+   "title": "Mathematicians Hate AI. They Can’t Quit It",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+   "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
    "score": 4.5,
    "sources": [
-    "techcrunch-ai",
+    "wired-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "Anthropic is operating a lab that conducts biology experiments",
-    "Anthropic’s biology model research sent me down a rabbit hole"
+    "Mathematicians Hate AI. They Can’t Quit It",
+    "AI Hate.",
+    "AI Hate."
    ],
-   "published_at": "2026-09-18T23:13:31.000000+00:00",
-   "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
+   "published_at": "2026-09-19T10:00:00.000000+00:00",
+   "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful."
   },
   {
-   "rank": 6,
+   "rank": 5,
    "title": "nvidia/Cosmos-H-Surgical",
    "lang": "en",
    "region": "intl",
@@ -125,7 +107,7 @@
    "summary": "image-to-video, cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code, arxiv:2512.23162, arxiv:2511.00062, license..."
   },
   {
-   "rank": 7,
+   "rank": 6,
    "title": "Introducing the Australian Youth Safety Blueprint",
    "lang": "en",
    "region": "intl",
@@ -141,7 +123,7 @@
    "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people."
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text",
    "lang": "en",
    "region": "intl",
@@ -157,7 +139,7 @@
    "summary": "The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large la..."
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "Trump announces ‘AI Force’ as alarm grows over technology’s advance",
    "lang": "en",
    "region": "intl",
@@ -173,55 +155,23 @@
    "summary": "US president has resisted calls for regulation but said he would appoint a ‘tsar’ to monitor for ‘bad’ behaviour"
   },
   {
-   "rank": 10,
-   "title": "I built non-autoregressive decision models with RL a year ago",
+   "rank": 9,
+   "title": "OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live",
    "lang": "en",
    "region": "intl",
-   "url": "https://laya.convaiinnovations.com/",
+   "url": "https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/",
    "score": 3.5,
    "sources": [
-    "hackernews-ai"
+    "marktechpost"
    ],
    "titles": [
-    "I built non-autoregressive decision models with RL a year ago"
+    "OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live"
    ],
-   "published_at": "2026-09-19T10:46:58.000000+00:00",
-   "summary": "Evaluates typed decisions (choice, score, noul) over 100+ languages in a single forward pass with calibrated probabilities. Outperforms TypeSafe Jev."
+   "published_at": "2026-09-19T21:44:23+00:00",
+   "summary": "OpenClaw is an open-source, MIT-licensed personal AI agent that you run on your own machines. Its Gateway connects models, tools, and chat channels such as Telegram, Slack, and Discord. The project has now shipped versio..."
   },
   {
-   "rank": 11,
-   "title": "Partnering with Accenture on embedded evaluation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-   "score": 3.0,
-   "sources": [
-    "anthropic-news"
-   ],
-   "titles": [
-    "Partnering with Accenture on embedded evaluation"
-   ],
-   "published_at": "2026-09-17T16:00:00.000000+00:00",
-   "summary": "We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic. The pa..."
-  },
-  {
-   "rank": 12,
-   "title": "Benchmarking LLM Inference at Scale with AIPerf",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
-   "score": 3.0,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "Benchmarking LLM Inference at Scale with AIPerf"
-   ],
-   "published_at": "2026-09-18T19:04:41.000000+00:00",
-   "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts..."
-  },
-  {
-   "rank": 13,
+   "rank": 10,
    "title": "Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model",
    "lang": "en",
    "region": "intl",
@@ -237,23 +187,111 @@
    "summary": "Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-..."
   },
   {
-   "rank": 14,
-   "title": "Domestic datacentres: how computer power can help heat your home",
+   "rank": 11,
+   "title": "AI-generated posters don’t have to be horrible",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/money/2026/sep/19/domestic-datacentres-how-computer-power-can-help-heat-your-home",
-   "score": 2.5,
+   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+   "score": 3.0,
    "sources": [
-    "guardian-ai"
+    "hackernews-ai"
    ],
    "titles": [
-    "Domestic datacentres: how computer power can help heat your home"
+    "AI-generated posters don’t have to be horrible"
    ],
-   "published_at": "2026-09-19T10:00:44.000000+00:00",
-   "summary": "Energy bills are scheduled to rise next month but there are innovative ways to heat your home and save money ‘When Giles Gibson turns on the hot tap in his home, the water that comes out of it is not heated by gas but by..."
+   "published_at": "2026-09-19T09:20:58.000000+00:00",
+   "summary": "The problem"
+  },
+  {
+   "rank": 12,
+   "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+   "score": 2.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking"
+   ],
+   "published_at": "2026-09-19T13:00:00.000000+00:00",
+   "summary": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models."
+  },
+  {
+   "rank": 13,
+   "title": "The AI regulation smackdown isn’t over",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+   "score": 2.5,
+   "sources": [
+    "theverge-ai"
+   ],
+   "titles": [
+    "The AI regulation smackdown isn’t over"
+   ],
+   "published_at": "2026-09-19T13:00:00.000000+00:00",
+   "summary": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, includi..."
+  },
+  {
+   "rank": 14,
+   "title": "MBA Programs Race to Adapt to the AI Era",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-19/mba-programs-race-to-adapt-to-the-ai-era-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "MBA Programs Race to Adapt to the AI Era"
+   ],
+   "published_at": "2026-09-19T13:52:40.000000+00:00",
+   "summary": "Stanford Graduate School of Business remains atop Bloomberg Businessweek’s US MBA rankings, scoring strongly in areas including compensation, networking and entrepreneurship. Bloomberg Businessweek Senior Editor Dimitra..."
   },
   {
    "rank": 15,
+   "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/492429.html",
+   "score": 9.0,
+   "sources": [
+    "qbitai",
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水"
+   ],
+   "published_at": "2026-09-19T06:39:32+00:00",
+   "summary": "同一预测核心，跨七类系统验证"
+  },
+  {
+   "rank": 16,
+   "title": "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3989702636050306",
+   "score": 8.0,
+   "sources": [
+    "36kr-ai",
+    "tmtpost",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+    "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+    "With Gemini 4, bench goes up."
+   ],
+   "published_at": "2026-09-19T02:22:03.000000+00:00",
+   "summary": "前几个月，OpenAI和Anthropic轮番把旗舰模型往前推，谷歌却显得异常安静。 Flash几乎3周一更，3.6、3.7、3.8连续往前，但代表最高能力上限的Pro迟迟没有动静。 直到这两天，大模型盲测竞技场Arena里，突然冒出一个挂着gemini-3.8-flash名字的模型。 开发者一上手就发现了不对劲，真正的Gemini 3.8 Flash已经发布了，它该是什么水平，大家心里有数。可这个“3.8 Flash”，写代码、做SV..."
+  },
+  {
+   "rank": 17,
    "title": "阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，支持原文译文同帧同出",
    "lang": "zh",
    "region": "cn",
@@ -271,25 +309,7 @@
    "summary": "IT之家 9 月 19 日消息，阿里千问今日发布同声传译大模型 Qwen3.8-LiveTranslate ，模型以 Interleave 架构重构实时同传，准确度、流畅度、简洁度全面提升，字均延迟（LAAL）从 2.8 秒降至 2.3 秒。 官方表示，在 支持 60 种语言 的基础上，Qwen3.8-LiveTranslate 新增三项能力 让同传更广泛的应用于真实场景中： 实时说话人分离 ，每句话归属清晰，音色复刻更稳定； 原文译文..."
   },
   {
-   "rank": 16,
-   "title": "投资人想劝劝AI创业者，理性看待自己的估值吧",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3988777960356613",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "投资人想劝劝AI创业者，理性看待自己的估值吧",
-    "投资人想劝劝AI创业者，理性看待自己的估值吧"
-   ],
-   "published_at": "2026-09-18T12:07:50.000000+00:00",
-   "summary": "三个月前，Deepseek完成了成立以来的首轮外部融资，融资总额超过500亿元人民币。这笔融资的落地，成功让2026年上半年中国AI行业融资额超过2025年全年，也再次证明AI行业的融资热潮还在继续，市场情绪依然还在高点。 但随着一级市场的资金不断挤进AI大模型、具身智能等少数热门赛道，投资机构们的决策思路也从原本的“选赛道”变成“抢位置”，他们不再纠结于技术路线和商业模式，更关心的是能不能挤进去获得一席之地。 这一转变，甚至让资本和项..."
-  },
-  {
-   "rank": 17,
+   "rank": 18,
    "title": "ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了",
    "lang": "zh",
    "region": "cn",
@@ -307,7 +327,7 @@
    "summary": "复制粘贴时代，就要结束了！ 以前写周报，写到一半，觉得某段太啰嗦。 选中，复制，切到浏览器，粘进ChatGPT，敲一句「帮我精简」，等结果，再复制回来。 贴回去一看，字体变了，编号乱了，还得手动调半天。 类似这样的动作，我们一天可能要重复十几遍。 如今，这套流程被砍掉了。 9月17日，ChatGPT正式住进了Word。 Word的右边，多出一条可以聊天的侧边栏。 选中要改的那段话，打一句「压到三行，数字别改」，改好的内容就落回原位，字体..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "姚星丞之后，AI人才的中间层开始掉价",
    "lang": "zh",
    "region": "cn",
@@ -325,7 +345,7 @@
    "summary": "姚星丞的价格还在涨。今年7月离开腾讯后，他的下一站一度被传成Meta。两个月后，答案落在Thinking Machines Lab，这家由OpenAI前CTO Mira Murati创办的AI公司。据雷峰网援引知情人士消息，姚星丞在腾讯的年薪包大约处在数千万元人民币区间，Thinking Machines L...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 姚星丞的价格还在涨。 今年7月离开腾讯后，他的下一站一度被..."
   },
   {
-   "rank": 19,
+   "rank": 20,
    "title": "华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态",
    "lang": "zh",
    "region": "cn",
@@ -341,24 +361,6 @@
    ],
    "published_at": "2026-09-19T06:30:33.000000+00:00",
    "summary": "9月19日，华为计算战略与业务发展部部长朱照生表示，昇腾已经跨越了生态的拐点，完全有能力、有机会在Agentic时代构建AI新生态。从社区来看，昇腾CANN开源社区月均活跃用户数超过5200人，自今年6月起成为国内活跃度最高的开源社区，社区非华为开发者数量超过华为开发者数量，目前日均新增合入代码超过3万行。模型层面，基于昇腾完成预训练的大语言模型和多模态模型已超过40个，昇腾成为国内唯一支持预训练的AI算力平台。生态层面，昇腾除自身开源..."
-  },
-  {
-   "rank": 20,
-   "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/492429.html",
-   "score": 5.5,
-   "sources": [
-    "qbitai",
-    "huxiu"
-   ],
-   "titles": [
-    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
-    "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水"
-   ],
-   "published_at": "2026-09-19T06:39:32+00:00",
-   "summary": "同一预测核心，跨七类系统验证"
   }
  ]
 }
