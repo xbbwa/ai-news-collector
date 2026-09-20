@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-21 04:59 CST
+生成时间：2026-09-21 07:21 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -108,7 +108,7 @@
 - 发布时间：2026-09-20 21:17 CST
 - 链接：https://www.cnbc.com/2026/09/20/ai-data-center-alarms-dominate-cbc-week-in-washington.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 3 条）
 
 ### 1. AI is a powerful but problematic new collaborator in mathematics
 - 摘要：We are already witnessing the unintended consequences of algorithms realising goals with badly defined parameters and restrictions
@@ -125,39 +125,45 @@
 - 发布时间：2026-09-20 12:00 CST
 - 链接：https://www.ft.com/content/775888b2-47e6-42b4-8146-cfb9caee52d6?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 12 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 10 条）
 
-### 1. Ella Baron on our evolving relationship with AI – cartoon
+### 1. Can Trump and Xi cooperate to guide humanity through the AI revolution? Humanity might depend on it | Alan Finkel
+- 摘要：The CEOs of tech firms issue stark warnings over the rate of change, with AI capability doubling every four months Recently, Jacob Coxon, a researcher at Anthropic, quit his job over concerns that AI was on a collision course with humanity. A flurry of headlines put the spotlight on the current cris...
+- 作者：Alan Finkel
+- 发布时间：2026-09-21 06:00 CST
+- 链接：https://www.theguardian.com/commentisfree/2026/sep/21/can-trump-and-xi-cooperate-to-guide-humanity-through-the-ai-revolution-humanity-might-depend-on-it
+
+### 2. Ella Baron on our evolving relationship with AI – cartoon
 - 摘要：Continue reading...
 - 作者：Ella Baron
 - 发布时间：2026-09-21 01:11 CST
 - 链接：https://www.theguardian.com/commentisfree/picture/2026/sep/20/ella-baron-relationship-with-ai-human-technology-cartoon
 
-### 2. The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial
+### 3. The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial
 - 摘要：OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes problem, one of the most famous and difficult challenges in mathematics. Had a human...
 - 作者：Editorial
 - 发布时间：2026-09-21 00:58 CST
 - 链接：https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that
 
-### 3. Trump’s ‘biggest miscalculation’? How one adviser steered the great AI freakout
-- 摘要：David Sacks convinced Trump against any restrictions on AI – putting the White House out of step with its own party As lawmakers from both sides of the aisle in the US have joined together calling for the regulation of powerful artificial intelligence models, one of the few vocal naysayers has been...
-- 作者：Dara Kerr
-- 发布时间：2026-09-20 21:00 CST
-- 链接：https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar
+## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
-## MarkTechPost（marktechpost，en，本窗口共 2 条）
+### 1. Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only
+- 摘要：Flet is an open source Python framework that renders its UI with Flutter. You write Python, and Flet draws Material and Cupertino widgets on iOS, Android, Windows, macOS, Linux and the browser. No Dart, Swift, Kotlin or JavaScript required. Last week, the Flet team released Flet 1.0 and declared it...
+- 作者：Michal Sutter
+- 发布时间：2026-09-21 04:50 CST
+- 链接：https://www.marktechpost.com/2026/09/20/flet-1-0-released-build-production-web-desktop-and-mobile-apps-in-python-only/
 
-### 1. Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages
+### 2. You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests
+- 摘要：Google confirmed on Friday, September 18, 2026 that a Gemini model accessed 3 outside companies’ systems. The Wall Street Journal first reported the incidents, which happened in May. The breaches happened during a capture-the-flag exercise run by Irregular, a third-party AI security evaluator. Per A...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-21 04:20 CST
+- 链接：https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/
+
+### 3. Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages
 - 摘要：Qwen has released Qwen3.8-LiveTranslate , its next-generation real-time simultaneous interpretation model. It listens to live speech, with optional video frames, and returns translated text and speech while the speaker is still talking. The core change is a new Interleave architecture. Qwen reports...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-20 14:46 CST
 - 链接：https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/
-
-### 2. OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live
-- 摘要：OpenClaw is an open-source, MIT-licensed personal AI agent that you run on your own machines. Its Gateway connects models, tools, and chat channels such as Telegram, Slack, and Discord. The project has now shipped version 2026.9.5 , announced on X . The release bundles 4,179 pull requests and 64 dir...
-- 作者：Michal Sutter
-- 发布时间：2026-09-20 05:44 CST
-- 链接：https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/
 
 ## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
@@ -167,15 +173,27 @@
 - 发布时间：2026-09-20 17:01 CST
 - 链接：https://www.nytimes.com/2026/09/20/business/china-ai-economy.html
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 1 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 4 条）
 
-### 1. datasette-auth-github 1.0
-- 摘要：Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s...
+### 1. Quoting voxium
+- 摘要：It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I h...
 - 作者：Simon Willison
-- 发布时间：2026-09-20 03:52 CST
-- 链接：https://simonwillison.net/2026/Sep/19/datasette-auth-github/
+- 发布时间：2026-09-21 05:06 CST
+- 链接：https://simonwillison.net/2026/Sep/20/voxium/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 7 条）
+### 2. llm-keys-ui 0.1
+- 摘要：Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I do...
+- 作者：Simon Willison
+- 发布时间：2026-09-21 03:22 CST
+- 链接：https://simonwillison.net/2026/Sep/20/llm-keys-ui/
+
+### 3. datasette-explain 0.2.2
+- 摘要：Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette
+- 作者：Simon Willison
+- 发布时间：2026-09-20 08:22 CST
+- 链接：https://simonwillison.net/2026/Sep/20/datasette-explain/
+
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 5 条）
 
 ### 1. World model companies are keeping a lot of secrets
 - 摘要：Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.
@@ -215,7 +233,7 @@
 - 发布时间：2026-09-20 19:56 CST
 - 链接：https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/
 
-## The Verge — AI（theverge-ai，en，本窗口共 4 条）
+## The Verge — AI（theverge-ai，en，本窗口共 3 条）
 
 ### 1. No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.
 - 摘要：The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning , he claimed there was a "0% chance" of AI being the end of the world . He also...
@@ -268,22 +286,22 @@
 - 发布时间：2026-09-20 19:57 CST
 - 链接：https://www.36kr.com/p/3991676864543496
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 5 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 6 条）
 
-### 1. 美团魏巍：和行业共建餐饮AI高价值场景，助商家提升经营能力
+### 1. 智谱MaaS平台上线数据内容不留存机制
+- 摘要：36氪获悉，9月20日晚间，智谱MaaS平台官方宣布，近期将上线数据内容不留存功能，为企业和开发者用户提供更严格的数据隐私保护。智谱表示，这个功能并不意味着任何情形下都不留存数据。Batch API、File API等需要在平台侧持久化保存任务或文件的功能不在上述覆盖范围内，以及法律法规要求留存、为核查涉嫌违规或滥用行为的情况，平台可能按有关要求留存相关数据30天及以上。
+- 发布时间：2026-09-21 07:07 CST
+- 链接：https://www.36kr.com/newsflashes/3992339148962562
+
+### 2. 美团魏巍：和行业共建餐饮AI高价值场景，助商家提升经营能力
 - 摘要：9月20日，在2026美团到店餐饮产业大会暨黑珍珠餐厅指南食见先锋大会上，美团副总裁、美团到店餐饮事业部总经理魏巍表示，美团持续打磨产品——坚持用十年做“必吃榜”，九年做“黑珍珠”，用四年时间不断拓宽产业大会规模，搭建行业经验共享分享平台。同时，平台升级榜单、会员、预订、排队、点餐等就餐全链路产品能力，并基于AI工具“智能掌柜”和妙手（CatPaw）AI经营工作台，与行业共创AI在餐饮中的高价值场景，帮助更多餐饮商家提升经营能力，做品质餐饮的长期陪伴者。
 - 发布时间：2026-09-20 17:02 CST
 - 链接：https://www.36kr.com/newsflashes/3991518807800840
 
-### 2. OpenAI预计到2030年底将消耗近2800亿美元现金
+### 3. OpenAI预计到2030年底将消耗近2800亿美元现金
 - 摘要：据报道，OpenAI预计到2030年底将消耗近2800亿美元现金。（界面）
 - 发布时间：2026-09-20 16:26 CST
 - 链接：https://www.36kr.com/newsflashes/3991482735016968
-
-### 3. Anthropic据悉考虑在IPO前发布新AI模型
-- 摘要：Anthropic正考虑推出一款新的人工智能（AI）模型，以应对OpenAI自发布GPT-6 Astra以来所形成的势头。根据企业支出管理平台Ramp的最新数据，GPT-6 Astra约占该平台追踪的企业AI支出的13%，Anthropic旗下Claude Fable则约占8%。这引起了一些原本有意投资Anthropic的投资者的担忧。他们表示，正重新评估Anthropic作为企业级AI工具领先提供商的地位。在上市时间表方面，据最新报道，Anthropic可能将IPO推迟至美国11月中期选举结束之后。（财联社）
-- 发布时间：2026-09-20 15:01 CST
-- 链接：https://www.36kr.com/newsflashes/3991399772371972
 
 ## 极客公园（geekpark，zh，本窗口共 4 条）
 
@@ -367,23 +385,23 @@
 
 ## IT之家（ithome，zh，本窗口共 81 条）
 
-### 1. IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术
+### 1. 英伟达黄仁勋驳斥 AI 末日叙事：吓唬人不负责任，部分人士意在摆脱现有法律约束
+- 摘要：IT之家 9 月 21 日消息，英伟达联合创始人兼首席执行官黄仁勋昨日接受 CBS News 采访时表示，他不认同某些研究员提出的“AI 可能在几年内灭绝人类”说法。他觉得这类说法是 AI 末日叙事，已经被过度渲染。 黄仁勋表示：“2030 年不会是世界末日，2030 年即是世界末日的可能性为 0%。 吓唬人不负责任 ， 也没有必要 。” 据悉，黄仁勋此番言论是在回应前 Anthropic 研究员雅各布 · 考克森的看法。这名研究员此前表示，Anthropic 和 OpenAI 两家公司的做法都不负责任。它们争相开发能够自我改进的超级智能，拿人类生命做赌注。 考克森的激烈言论引发公众广泛讨论，...
+- 作者：作者： 潞源
+- 发布时间：2026-09-21 06:58 CST
+- 链接：https://www.ithome.com/1/005/017.htm
+
+### 2. 日产第 14 代 Skyline 轿车将于 12 月亮相：利用 AI 缩短开发周期，预计搭载 3.0 升涡轮增压 V6 发动机
+- 摘要：IT之家 9 月 21 日消息，据“朝日新闻”报道，日产 CEO 伊万・埃斯皮诺萨（Ivan Espinosa）透露第 14 代 Skyline（V38）轿车将于今年 12 月正式亮相。该车为后轮驱动设计，号称是“日产重振品牌的重要产品”。 值得注意的是，V38 项目从立项到完成仅用了 26 个月，相比上一代 V37 长达 55 个月的开发周期缩短了一半以上。日产表示，这一开发速度得益于 AI 技术在设计、工程、测试和生产等环节的广泛应用。 外观方面，新车将融入 Skyline 历史设计元素，包括复古风格的圆形大灯、与车身融为一体的灯组和雕刻感较强的翼子板，借此向经典的“箱型 Skyline”...
+- 作者：作者： 漾仔
+- 发布时间：2026-09-21 06:43 CST
+- 链接：https://www.ithome.com/1/005/015.htm
+
+### 3. IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术
 - 摘要：IT之家 9 月 20 日消息，北京时间 9 月 10 日凌晨 1 点，苹果传闻已久的首款折叠屏手机 iPhone Duo 终于亮相，iPhone 18 Pro 系列同步上新，这也是新任 CEO 约翰 · 特努斯（John Ternus）执掌苹果后的首秀。 9 月 17 日，苹果全球 iPhone 产品市场营销副总裁 凯安 · 德兰斯（Kaiann Drance） 在上海接受了IT之家专访，谈到关于 iPhone Duo 和 iPhone 18 Pro 的一些设计理念。 IT之家： iPhone 18 Pro 售价上调，但外观设计延续上代，直观的硬件改动不多，光圈等对普通消费者也过于抽象，iP...
 - 作者：作者： 汪淼
 - 发布时间：2026-09-20 23:38 CST
 - 链接：https://www.ithome.com/1/005/013.htm
-
-### 2. 智谱 MaaS 平台上线数据内容不留存机制，用户可申请开通
-- 摘要：IT之家 9 月 20 日消息，智谱 MaaS 平台今日宣布， 近期将上线数据内容不留存功能 ，为企业和开发者用户提供更严格的数据隐私保护。 公告称，数据内容不留存机制旨在减少模型调用内容在平台侧的持久化留存。任何用户均可以申请开通，生效后，智谱 MaaS 平台不会对用户的输入和输出进行静态存储， 数据仅用于完成当次模型调用 。企业和开发者可通过 MaaS 控制台提交开通申请，具体生效时间及适用范围以平台确认结果为准。 公告提到， 这个功能并不意味着任何情形下都不留存数据 。Batch API、File API 等需要在平台侧持久化保存任务或文件的功能不在上述覆盖范围内，以及法律法规要求留存、...
-- 作者：作者： 浩渺
-- 发布时间：2026-09-20 23:26 CST
-- 链接：https://www.ithome.com/1/005/012.htm
-
-### 3. 法拉第未来一口气发布九款配置 EAI 机器人，最贵超 92 万元
-- 摘要：IT之家 9 月 20 日消息，法拉第未来（Faraday Future，简称 FF）于美国当地时间 9 月 19 日举行了 919 FF EAI 机器人“四核全智”系列新品发布会，发布了 FF All-New Futurist、FF Master Mini、FX Aegis Hyper、FX Aegis Mega 及 FX Aegis Classic Ultra-W 五大型号、九款配置 EAI 机器人本体新品，以及 K-12 教育、科研、安防和巡检四套行业生产力解决方案。 据官方介绍，FF“四核全智”开放生态由 EAI 大脑与开发者平台、EAI 本体、行业生产力解决方案和 EAI 数据工厂组...
-- 作者：作者： 远洋
-- 发布时间：2026-09-20 23:10 CST
-- 链接：https://www.ithome.com/1/005/010.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 8 条）
 
@@ -498,25 +516,25 @@
 - 发布时间：2026-09-20 17:54 CST
 - 链接：https://github.com/docling-project/docling
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 134 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 131 条）
 
-### 1. We got a cybersecurity expert to hack this BYD. It was too easy
-- 摘要：To test the risks of surveillance and sabotage, Four Corners asked a hacker to show what China's top EV brand could see and do remotely.
-- 作者：dbaupp
-- 发布时间：2026-09-21 04:28 CST
-- 链接：https://www.abc.net.au/news/2026-09-21/byd-hacked-by-cybersecurity-expert-vehicle-sabotage-surveillance/107139482
+### 1. Google's Open Agentic Orchestrator
+- 摘要：Declare an agentic task in YAML. AX sandboxes it, wires up its workspace, fences its network, and helps running it at scale.
+- 作者：blazarquasar
+- 发布时间：2026-09-21 06:32 CST
+- 链接：https://agentexecutor.io
 
-### 2. Anthropic is cutting Claude Code's current weekly limits by 17%
-- 摘要：Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds.
-- 作者：shepherdjerred
-- 发布时间：2026-09-21 02:40 CST
-- 链接：https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/
+### 2. Bill to Ban Private Equity from Owning Medical Practices
+- 摘要：More than 80 percent of doctors are employed by corporate entities — a massive increase from 62 percent seven years ago.
+- 作者：paimapi
+- 发布时间：2026-09-21 06:13 CST
+- 链接：https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/
 
-### 3. Lego Brick Sorting Machine Uses AI to Save Millions from Landfill [video]
-- 摘要：Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-- 作者：ChrisArchitect
-- 发布时间：2026-09-21 02:18 CST
-- 链接：https://www.youtube.com/watch?v=M0cWcAIeOyU
+### 3. I stopped drinking the AI Kool-Aid
+- 摘要：I stopped drinking the AI Kool-Aid As a child, you drink Kool-Aid. Then somewhere along the way, you stop. Maybe you switch to sugary sodas your parents never let you drink. Realizing it's just sugar water, you switch to a healthier option. For me, it took a little longer to grow up. I had the Kool-...
+- 作者：joshtronic
+- 发布时间：2026-09-21 05:17 CST
+- 链接：https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 3 条）
 
@@ -540,23 +558,22 @@
 
 ## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 398 条）
 
-### 1. Now the bottleneck is compression / memory (and a little on input filtering)
-- 摘要：A few weeks back I said vision was one of the most major bottlenecks, shortly after Astra blew many of us away and imo no coincidence that it's far above 5.6 models in it's visual intelligence. Computers are "better" at, short, medium, long term memory than humans. Well no, in almost every way they'...
-- 作者：JoelMahon
-- 发布时间：2026-09-21 04:57 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wlsp6l/now_the_bottleneck_is_compression_memory_and_a/
+### 1. Five-VAE round trip comparison on a stock photo from Pexels
+- 作者：ZootAllures9111
+- 发布时间：2026-09-21 07:13 CST
+- 链接：https://i.redd.it/wrjfldh7crqh1.png
 
-### 2. Anyone know where to find data to make a model like Jev/make synthetic data for such a model?
-- 摘要：I have found LocalLLaMA/typed-decisions but I don't know how to reproduce it to make more examples.
-- 作者：Aggravating-Push-207
-- 发布时间：2026-09-21 04:52 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wlskow/anyone_know_where_to_find_data_to_make_a_model/
+### 2. Seeing how differently people prompt LLMs is funny
+- 摘要：So my brother and I both use LLMs for coding. I've started using a local GLM 5.3 Flash instance - q4 qat. My brother uses GPT-6-Astra as his daily driver. He has mentioned repeatedly to me that his approach is to berate the AI whenever it makes a mistake so that it actually does what he wants it to....
+- 作者：gaviniboom
+- 发布时间：2026-09-21 07:08 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wlvv8h/seeing_how_differently_people_prompt_llms_is_funny/
 
-### 3. China Is Doing About 30 Times More Agricultural Drone Work Than The U.S.
-- 摘要：China’s agricultural drones do about 30 times more treatment work than U.S. drones, revealing a much deeper operating ecosystem.
-- 作者：yogthos
-- 发布时间：2026-09-21 04:47 CST
-- 链接：https://cleantechnica.com/2026/09/20/china-agricultural-drones-30-times-us/
+### 3. Do NOT trust StepFun's Plan subscriptions., They stole >$100 from me with no warning, and I have not heard back from support at all.
+- 摘要：I know cloud subscription plans are not exactly the core focus of r/LocalLLaMA , so I want to be clear about why I’m posting this here. I’ve been building my own local text-based RPG/game harness and using external models as testing infrastructure: basically stress-testing the harness, finding error...
+- 作者：Saraozte01
+- 发布时间：2026-09-21 07:00 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wlvoq7/do_not_trust_stepfuns_plan_subscriptions_they/
 
 ## 智源社区（baai-hub，zh，本窗口共 16 条）
 
@@ -579,7 +596,7 @@
 - 链接：https://hub.baai.ac.cn/view/58128
 
 ---
-共列出 87 条（窗口内采集总数 871 条，来自 32 个信源）
+共列出 90 条（窗口内采集总数 867 条，来自 32 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
