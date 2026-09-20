@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-20 08:13 CST
-数据窗口：最近 24 小时，690 条原始条目 → 506 个事件；过滤噪音 355 个，排除全部历史已推送的 23 个。
+生成时间：2026-09-20 13:06 CST
+数据窗口：最近 24 小时，663 条原始条目 → 518 个事件；过滤噪音 361 个，排除全部历史已推送的 34 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,138 +8,129 @@
 
 国外：
 
-## 1. Trump wants a new AI czar and an "AI Force" modeled on Space Force
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Reddit AI subreddits (new)、Hacker News (AI stories)（3 个来源） ｜ 热度：8.56
-- 摘要：President Trump announced Saturday he is creating an "AI Force" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regula...
-- 发布时间：2026-09-20 03:20 CST
-- 链接：https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety
-- 同事件报道：Trump says he is forming an "AI Force"（Reddit AI subreddits (new)）
-- 同事件报道：Trump says he will create 'AI Force,' name AI czar（Hacker News (AI stories)）
-
-## 2. Stepfun new model "Step 5 Preview" just leaked
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.58
-- 摘要：https://artificialanalysis.ai/models/step-5 https://preview.redd.it/tt7z192zkeqh1.png?width=1035&format=png&auto=webp&s=bf91d4fb080c5f6f2028cc8bddd58b0e5a04ece7 https://preview.redd.it/d8ldk181leqh1.png?width=721&format=...
-- 发布时间：2026-09-19 12:18 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wkc2n1/stepfun_new_model_step_5_preview_just_leaked/
-- 同事件报道：Stepfun Step 5 Preview (LLM): On AA Pareto frontier（Hacker News (AI stories)）
-
-## 3. U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
-- 摘要：In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air....
-- 发布时间：2026-09-19 16:10 CST
-- 链接：https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/
-- 同事件报道：AI Error Nearly Triggered U.S. Intercept of Chinese Ship（Hacker News (AI stories)）
-
-## 4. Mathematicians Hate AI. They Can’t Quit It
-- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.
-- 发布时间：2026-09-19 18:00 CST
-- 链接：https://www.wired.com/story/mathematicians-cant-quit-ai/
-- 同事件报道：AI Hate.（Reddit AI subreddits (new)）
-- 同事件报道：AI Hate.（Reddit AI subreddits (new)）
-
-## 5. nvidia/Cosmos-H-Surgical
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.38
-- 摘要：image-to-video, cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code, arxiv:2512.23162, arxiv:2511.00062, license...
-- 发布时间：2026-09-19 06:07 CST
-- 链接：https://huggingface.co/nvidia/Cosmos-H-Surgical
-
-## 6. Introducing the Australian Youth Safety Blueprint
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.0
-- 摘要：OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.
-- 发布时间：2026-09-18 20:00 CST
-- 链接：https://openai.com/index/australian-youth-safety-blueprint
-
-## 7. TypeSafe AI Releases Jev: A System One Model That Returns Typed, Calibrated Decisions Instead of Text
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
-- 摘要：The ChatGPT moment in 2022 taught AI to talk to people. One of its builders now bets the next moment is AI that talks to software, not people. TypeSafe AI released Jev . Jev is transformer-based, but it is not a large la...
-- 发布时间：2026-09-20 02:41 CST
-- 链接：https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/
-
-## 8. Trump announces ‘AI Force’ as alarm grows over technology’s advance
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：3.5
-- 摘要：US president has resisted calls for regulation but said he would appoint a ‘tsar’ to monitor for ‘bad’ behaviour
-- 发布时间：2026-09-20 03:49 CST
-- 链接：https://www.ft.com/content/bcbfe352-9e9f-4ef5-81b2-2e01505b8477?syn-25a6b1a6=1
-
-## 9. OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live
+## 1. OpenClaw Releases 2026.9.5 With Atomic Updates, Plugin Hot Reload, Conversation Sharing, and Expanded GPT Live
 - 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
 - 摘要：OpenClaw is an open-source, MIT-licensed personal AI agent that you run on your own machines. Its Gateway connects models, tools, and chat channels such as Telegram, Slack, and Discord. The project has now shipped versio...
 - 发布时间：2026-09-20 05:44 CST
 - 链接：https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/
 
-## 10. Linkup Research Releases SPARSEUP: A 149M-Parameter Open-Source Sparse Embedding Model
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
-- 摘要：Linkup research team releases SPARSEUP , an open-source learned sparse embedding model. The model runs on a 149M-parameter ModernBERT backbone and ships under Apache 2.0. Linkup team reports 56.4 average nDCG@10 on BEIR-...
-- 发布时间：2026-09-19 15:48 CST
-- 链接：https://www.marktechpost.com/2026/09/19/linkup-research-releases-sparseup/
-
-## 11. AI-generated posters don’t have to be horrible
+## 2. AI-generated posters don’t have to be horrible
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.0
 - 摘要：The problem
 - 发布时间：2026-09-19 17:20 CST
 - 链接：https://john.hartnup.uk/2026/06/07/ai-event-posters.html
 
-## 12. Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.
-- 发布时间：2026-09-19 21:00 CST
-- 链接：https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/
+## 3. California Sea Lion, Brandt's Cormorant
+- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog（1 个来源） ｜ 热度：2.5
+- 摘要：California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife
+- 发布时间：2026-09-20 01:10 CST
+- 链接：https://simonwillison.net/2026/Sep/19/sighting-401567341/
 
-## 13. The AI regulation smackdown isn’t over
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
-- 摘要：At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, includi...
-- 发布时间：2026-09-19 21:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over
-
-## 14. MBA Programs Race to Adapt to the AI Era
+## 4. Trump to Name AI Czar While Rejecting Safety Risks as a Hoax
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Stanford Graduate School of Business remains atop Bloomberg Businessweek’s US MBA rankings, scoring strongly in areas including compensation, networking and entrepreneurship. Bloomberg Businessweek Senior Editor Dimitra...
-- 发布时间：2026-09-19 21:52 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-19/mba-programs-race-to-adapt-to-the-ai-era-video
+- 摘要：President Donald Trump said he would name an artificial intelligence czar as he continued to push tech companies to race ahead with development despite growing fears safety.
+- 发布时间：2026-09-20 02:02 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax
+
+## 5. Black Box: The Chatbots | Happy Accident | Ep 3 – podcast
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Why are AI chatbots pulling so many people down a rabbit hole? Our answer starts with the world’s first-ever chatbot, the strange effect it had on people and the ‘time bomb’ that exploded when ChatGPT was released four y...
+- 发布时间：2026-09-20 03:00 CST
+- 链接：https://www.theguardian.com/australia-news/audio/2026/sep/20/black-box-the-chatbots-happy-accident-ep-3-podcast
+
+## 6. datasette-auth-github 1.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog（1 个来源） ｜ 热度：2.5
+- 摘要：Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cook...
+- 发布时间：2026-09-20 03:52 CST
+- 链接：https://simonwillison.net/2026/Sep/19/datasette-auth-github/
+
+## 7. Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：President had brushed away suggestions to slow down AI technology, even as his own party counseled caution Donald Trump on Saturday said he would appoint an artificial intelligence czar and create an “AI Force” to help m...
+- 发布时间：2026-09-20 03:57 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force
+
+## 8. Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Trump claimed, without evidence, that the AI backlash is a Democratic hoax.
+- 发布时间：2026-09-20 03:57 CST
+- 链接：https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
+
+## 9. Australia has done precious little to prepare for the dangers of AI. Where is brilliant leadership when you need it? | Zoe Daniel
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Australia faces stark choices about the most significant technological development since the splitting of the atom in the 1930s Get our breaking news email , free app or daily news podcast There’s nothing like a threat o...
+- 发布时间：2026-09-20 04:00 CST
+- 链接：https://www.theguardian.com/commentisfree/2026/sep/20/australia-has-done-precious-little-to-prepare-for-the-dangers-of-ai-where-is-brilliant-leadership-when-you-need-it
+
+## 10. Flock reportedly tries to shrink workforce with employee buyouts
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Without buyouts, Flock would "almost certainly" need to lay off staff.
+- 发布时间：2026-09-20 04:39 CST
+- 链接：https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/
+
+## 11. Australia’s Albanese Urges World to Act for Humanity in AI Race
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Australian Prime Minister Anthony Albanese said middle powers have an important role to play in mitigating the risks posed by artificial intelligence and called for cooperation between the US and China.
+- 发布时间：2026-09-20 08:39 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-20/australia-s-albanese-urges-world-to-act-for-humanity-in-ai-race
+
+## 12. AI influx puts Singapore office rents under pressure
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Anthropic and OpenAI taking more space in city’s already squeezed prime property market
+- 发布时间：2026-09-20 12:00 CST
+- 链接：https://www.ft.com/content/775888b2-47e6-42b4-8146-cfb9caee52d6?syn-25a6b1a6=1
+
+## 13. What Zig felt like, coming from Rust
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：2.08
+- 摘要：What Zig felt like, coming from Rust Intro I’ve spent the last 7 years as a Rust developer, working mostly on open source projects, and I’d like to think I’ve built a solid feel for the language and its ecosystem along t...
+- 发布时间：2026-09-19 21:55 CST
+- 链接：https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/
+
+## 14. Bayesian bilevel operator learning with low-rank adaptation for efficient uncertainty quantification of PDE inverse problems
+- 地区：国外源 ｜ 语言：en ｜ 来源：Nature — Machine Learning（1 个来源） ｜ 热度：2.0
+- 发布时间：2026-09-19 08:00 CST
+- 链接：https://www.nature.com/articles/s41467-026-77768-7
 
 国内：
 
-## 1. AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、虎嗅、36氪 AI 频道（3 个来源） ｜ 热度：9.0
-- 摘要：同一预测核心，跨七类系统验证
-- 发布时间：2026-09-19 14:39 CST
-- 链接：https://www.qbitai.com/2026/09/492429.html
-- 同事件报道：AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水（虎嗅）
-- 同事件报道：AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水（36氪 AI 频道）
+## 1. SpaceXAI 发布 Grok Voice Transcribe 2.0 语音转文本模型：错误率降低约一半，价格保持不变
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、开源中国（2 个来源） ｜ 热度：6.5
+- 摘要：IT之家 9 月 19 日消息，当地时间 9 月 18 日，SpaceXAI 发布了 Grok Voice Transcribe 2.0 语音转文本模型，在保持价格不变的前提下，错误率降低约一半。 官方表示，Grok Voice Transcribe 2.0 基于 Grok Voice 底层的音频基础模型构建。目前，Grok Voice 已全面赋能实际业务：每天承接数万通客服电话，转录数百万小时的视频旁白，并驱动实体硬件中的各类语音智能...
+- 发布时间：2026-09-19 19:12 CST
+- 链接：https://www.ithome.com/1/004/534.htm
+- 同事件报道：Termexo v0.10.4 发布：集成 Grok Build，修复会话 Git 变更归零（开源中国）
 
-## 2. Gemini 4 Pro疑似泄露，“AI减速”又成空话
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体、Reddit AI subreddits (new)（3 个来源） ｜ 热度：8.0
-- 摘要：前几个月，OpenAI和Anthropic轮番把旗舰模型往前推，谷歌却显得异常安静。 Flash几乎3周一更，3.6、3.7、3.8连续往前，但代表最高能力上限的Pro迟迟没有动静。 直到这两天，大模型盲测竞技场Arena里，突然冒出一个挂着gemini-3.8-flash名字的模型。 开发者一上手就发现了不对劲，真正的Gemini 3.8 Flash已经发布了，它该是什么水平，大家心里有数。可这个“3.8 Flash”，写代码、做SV...
-- 发布时间：2026-09-19 10:22 CST
-- 链接：https://www.36kr.com/p/3989702636050306
-- 同事件报道：Gemini 4 Pro疑似泄露，“AI减速”又成空话（钛媒体）
-- 同事件报道：With Gemini 4, bench goes up.（Reddit AI subreddits (new)）
+## 2. AI办公给互联网巨头出了道难题
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：6.0
+- 摘要：在汹涌的AI浪潮中，办公场景已成为头部玩家竞逐的主战场。 聚光灯下的密集交锋即是明证。字节、腾讯、阿里完成组织变阵后均集中兵力。9月15日，字节跳动CEO梁汝波罕见现身飞书未来无限大会暨豆包工作开工大会，宣布将豆包、飞书、火山引擎三方能力正式整合，加大企业级AI办公市场投入，并发布豆包工作伙伴等新产品。 腾讯WorkBuddy动作密集。WorkBuddy于9月2日上线开放平台，首批引入超百家生态伙伴；9月8日，WorkBuddy跨界与游...
+- 发布时间：2026-09-20 08:52 CST
+- 链接：https://www.36kr.com/p/3991003816793735
+- 同事件报道：AI办公给互联网巨头出了道难题（钛媒体）
 
-## 3. 阿里千问发布同声传译大模型 Qwen3.8-LiveTranslate，支持原文译文同帧同出
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.5
-- 摘要：IT之家 9 月 19 日消息，阿里千问今日发布同声传译大模型 Qwen3.8-LiveTranslate ，模型以 Interleave 架构重构实时同传，准确度、流畅度、简洁度全面提升，字均延迟（LAAL）从 2.8 秒降至 2.3 秒。 官方表示，在 支持 60 种语言 的基础上，Qwen3.8-LiveTranslate 新增三项能力 让同传更广泛的应用于真实场景中： 实时说话人分离 ，每句话归属清晰，音色复刻更稳定； 原文译文...
-- 发布时间：2026-09-19 15:14 CST
-- 链接：https://www.ithome.com/1/004/450.htm
-- 同事件报道：同声传译大模型Qwen3.8-LiveTranslate正式发布（36氪 快讯）
+## 3. AI巨头集体踩“刹车”，但距离真正的RSI还很遥远
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：AI发展到了必须要降速的时刻吗？过去几天，Anthropic、OpenAI先后释放“放慢前沿AI能力推进节奏”的信号，被业内视作硅谷AI巨头面对安全风险的一次主动降温。二级市场率先做出反应，科技股、半导体股集体承压，英伟达一度跌超3%，AMD、英特尔、美光盘中跌幅均在5%左右，费城半导体指数盘中也一度下挫近6...... 本文来自微信公众号： 划重点KeyPoints ，作者：专栏作者，原文标题：《AI巨头集体踩“刹车”，但距离真正的R...
+- 发布时间：2026-09-20 10:00 CST
+- 链接：https://www.huxiu.com/article/4892530.html
+- 同事件报道：AI巨头集体踩“刹车”，但距离真正的RSI还很遥远（36氪 AI 频道）
 
-## 4. ChatGPT杀进Word：免费版也能用，终于可以告别复制粘贴了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、IT之家（2 个来源） ｜ 热度：5.5
-- 摘要：复制粘贴时代，就要结束了！ 以前写周报，写到一半，觉得某段太啰嗦。 选中，复制，切到浏览器，粘进ChatGPT，敲一句「帮我精简」，等结果，再复制回来。 贴回去一看，字体变了，编号乱了，还得手动调半天。 类似这样的动作，我们一天可能要重复十几遍。 如今，这套流程被砍掉了。 9月17日，ChatGPT正式住进了Word。 Word的右边，多出一条可以聊天的侧边栏。 选中要改的那段话，打一句「压到三行，数字别改」，改好的内容就落回原位，字体...
-- 发布时间：2026-09-19 14:02 CST
-- 链接：https://www.36kr.com/p/3989804522912774
-- 同事件报道：微软 Word 接入 ChatGPT，用户可 AI 起草、改写与校对文档（IT之家）
+## 4. AI制药一级热
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：6.0
+- 摘要：AI制药继续火热。自6月份传出字节跳动AI制药业务线启动拆分与独立融资的消息后，不到3个月，Anew Labs的首轮融资已经落地。2.9亿美元，投后估值约15亿美元，刷新了年内国内AI制药单笔融资纪录。其最快的管线虽仍停留在临床前阶段，估值却已站上15亿美元——一级市场为这家公司的技术平台与字节生态买单，自有...... 本文来自微信公众号： 氨基观察 ，作者：氨基君 AI制药继续火热。 自6月份传出字节跳动AI制药业务线启动拆分与独立...
+- 发布时间：2026-09-20 10:02 CST
+- 链接：https://www.huxiu.com/article/4892551.html
+- 同事件报道：AI制药一级热（钛媒体）
 
-## 5. 姚星丞之后，AI人才的中间层开始掉价
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：姚星丞的价格还在涨。今年7月离开腾讯后，他的下一站一度被传成Meta。两个月后，答案落在Thinking Machines Lab，这家由OpenAI前CTO Mira Murati创办的AI公司。据雷峰网援引知情人士消息，姚星丞在腾讯的年薪包大约处在数千万元人民币区间，Thinking Machines L...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 姚星丞的价格还在涨。 今年7月离开腾讯后，他的下一站一度被...
-- 发布时间：2026-09-19 14:26 CST
-- 链接：https://www.huxiu.com/article/4892458.html
-- 同事件报道：姚星丞之后，AI人才的中间层开始掉价（钛媒体）
+## 5. 教别人用AI，我赚翻了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：6.0
+- 摘要：从9.9元到30万，卖课的先赚到了。定焦One（dingjiaoone）原创AI正在让越来越多技能变得廉价，但“教别人怎么用AI”，反而成了一门越来越具体的生意。它的价格跨度很大。闲鱼上，9.9元的AI教程半年能卖出上万份；有人依靠几百元的付费社群模式，聚集上千名学员；也有人把一对一咨询卖到2000元一小时，...... 本文来自微信公众号： 定焦One ，编辑：陈丹，作者：定焦One团队 从9.9元到30万，卖课的先赚到了。 定焦On...
+- 发布时间：2026-09-20 10:06 CST
+- 链接：https://www.huxiu.com/article/4892554.html
+- 同事件报道：教别人用AI，我赚翻了（钛媒体）
 
-## 6. 华为：昇腾已跨过生态拐点，有能力有机会构建AI新生态
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：5.5
-- 摘要：9月19日，华为计算战略与业务发展部部长朱照生表示，昇腾已经跨越了生态的拐点，完全有能力、有机会在Agentic时代构建AI新生态。从社区来看，昇腾CANN开源社区月均活跃用户数超过5200人，自今年6月起成为国内活跃度最高的开源社区，社区非华为开发者数量超过华为开发者数量，目前日均新增合入代码超过3万行。模型层面，基于昇腾完成预训练的大语言模型和多模态模型已超过40个，昇腾成为国内唯一支持预训练的AI算力平台。生态层面，昇腾除自身开源...
-- 发布时间：2026-09-19 14:30 CST
-- 链接：https://www.36kr.com/newsflashes/3989953466940166
-- 同事件报道：华为朱照生：昇腾已经跨越了生态拐点，完全有能力、有机会在 Agentic 时代构建 AI 新生态（IT之家）
+## 6. Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：AI能否提出相对论？
+- 发布时间：2026-09-19 19:36 CST
+- 链接：https://www.qbitai.com/2026/09/492550.html
+- 同事件报道：Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子（36氪 AI 频道）
