@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-21T19:38:56.415087+00:00",
+ "generated_at": "2026-09-21T23:26:28.391507+00:00",
  "stats": {
-  "items": 1481,
-  "clusters": 1214,
-  "noise": 466,
-  "dup": 84,
+  "items": 1454,
+  "clusters": 1191,
+  "noise": 454,
+  "dup": 86,
   "history_days": 0,
-  "available_cn": 142,
-  "available_intl": 522,
+  "available_cn": 132,
+  "available_intl": 519,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -181,56 +181,24 @@
   },
   {
    "rank": 10,
-   "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+   "title": "Xiaomi MiMo v2.6",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.wired.com/story/google-launches-googlebook-laptops/",
-   "score": 5.08,
+   "url": "https://mimo.xiaomi.com/mimo-v2-6",
+   "score": 6.0,
    "sources": [
-    "wired-ai",
-    "hackernews-ai"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
-    "Googlebook: The laptop your Android phone has been waiting for"
+    "Xiaomi MiMo v2.6",
+    "MiMo v2.6 pro"
    ],
-   "published_at": "2026-09-21T13:00:00.000000+00:00",
-   "summary": "Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android."
+   "published_at": "2026-09-21T20:12:12.000000+00:00",
+   "summary": ""
   },
   {
    "rank": 11,
-   "title": "perplexity-ai/pplx-pii-masking",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/perplexity-ai/pplx-pii-masking",
-   "score": 4.81,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "perplexity-ai/pplx-pii-masking"
-   ],
-   "published_at": "2026-09-14T02:30:28.000000+00:00",
-   "summary": "token-classification, safetensors, pii_masking, pii, privacy, qwen3, custom_code, en, multilingual, license:mit, region:us"
-  },
-  {
-   "rank": 12,
-   "title": "LiquidAI/LFM2-2.6B-Longevity",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/LiquidAI/LFM2-2.6B-Longevity",
-   "score": 4.7,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "LiquidAI/LFM2-2.6B-Longevity"
-   ],
-   "published_at": "2026-09-17T15:12:27.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, lfm2, liquid, lfm2.5, longevity, conversational, arxiv:2511.23404, base_model:LiquidAI/LFM2-2.6B, base_model:finetune:LiquidAI/LFM2-2.6B, doi:10.57967/hf/9888, license:other, e..."
-  },
-  {
-   "rank": 13,
    "title": "Lex in depth: Anthropic at $2tn isn’t far-fetched",
    "lang": "en",
    "region": "intl",
@@ -248,7 +216,7 @@
    "summary": "There are several ways to crack the valuation nut. Some suggest the company may be worth far more"
   },
   {
-   "rank": 14,
+   "rank": 12,
    "title": "ZCode is now open source",
    "lang": "en",
    "region": "intl",
@@ -266,12 +234,44 @@
    "summary": "ZCode is now open source , and the reported security issues have been addressed. Source code: https://github.com/zai-org/ZCode The repo includes its desktop app, web workspace, backend, Agent CLI, and runtime. Official a..."
   },
   {
+   "rank": 13,
+   "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+   "score": 4.5,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories"
+   ],
+   "published_at": "2026-09-21T18:00:07.000000+00:00",
+   "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi..."
+  },
+  {
+   "rank": 14,
+   "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack"
+   ],
+   "published_at": "2026-09-21T14:51:34.000000+00:00",
+   "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security en..."
+  },
+  {
    "rank": 15,
    "title": "华为云码道上线鸿蒙编码大模型 面向鸿蒙开发者全面升级",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.oschina.net/news/502645/hw-codearts",
-   "score": 10.5,
+   "score": 10.0,
    "sources": [
     "oschina",
     "leiphone",
@@ -287,26 +287,6 @@
   },
   {
    "rank": 16,
-   "title": "黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8147431.html",
-   "score": 9.5,
-   "sources": [
-    "tmtpost",
-    "36kr-ai",
-    "huxiu"
-   ],
-   "titles": [
-    "黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了",
-    "黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了",
-    "黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了"
-   ],
-   "published_at": "2026-09-21T09:29:14+00:00",
-   "summary": "文 | 字母AI 黄仁勋对“AI减速”的反对，比先前放出的采访片段更加尖锐。 前几天，CBS提前释出的专访片段已经亮明了他的态度。面对是否应该放慢AI发展的提问，黄仁勋回答：“不管别人怎么做，我们都应该尽可能快地前进。”这句话，直接回应了近期硅谷不断升温的减速呼声。 这轮争论中，提出减速的，恰恰是站在AI研发最前沿的人。Anthropic CEO达里奥·阿莫迪本月发文，呼吁放慢模型能力提升的速度，为安全研究和风险防范争取时间。OpenA..."
-  },
-  {
-   "rank": 17,
    "title": "不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜",
    "lang": "zh",
    "region": "cn",
@@ -324,6 +304,26 @@
    ],
    "published_at": "2026-09-21T05:58:22+00:00",
    "summary": "点击查看原文>"
+  },
+  {
+   "rank": 17,
+   "title": "黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8147431.html",
+   "score": 9.0,
+   "sources": [
+    "tmtpost",
+    "36kr-ai",
+    "huxiu"
+   ],
+   "titles": [
+    "黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了",
+    "黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了",
+    "黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了"
+   ],
+   "published_at": "2026-09-21T09:29:14+00:00",
+   "summary": "文 | 字母AI 黄仁勋对“AI减速”的反对，比先前放出的采访片段更加尖锐。 前几天，CBS提前释出的专访片段已经亮明了他的态度。面对是否应该放慢AI发展的提问，黄仁勋回答：“不管别人怎么做，我们都应该尽可能快地前进。”这句话，直接回应了近期硅谷不断升温的减速呼声。 这轮争论中，提出减速的，恰恰是站在AI研发最前沿的人。Anthropic CEO达里奥·阿莫迪本月发文，呼吁放慢模型能力提升的速度，为安全研究和风险防范争取时间。OpenA..."
   },
   {
    "rank": 18,
@@ -345,21 +345,19 @@
   },
   {
    "rank": 19,
-   "title": "AI 正在制造 App 过剩时代",
-   "lang": "zh",
+   "title": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "lang": "en",
    "region": "cn",
-   "url": "https://www.ifanr.com/1681265?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "score": 6.0,
+   "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "score": 5.5,
    "sources": [
-    "ifanr",
-    "36kr-ai"
+    "hf-models-cn"
    ],
    "titles": [
-    "AI 正在制造 App 过剩时代",
-    "AI正在制造App过剩时代"
+    "XiaomiMiMo/MiMo-V2.6-Pro-RL"
    ],
-   "published_at": "2026-09-21T08:15:46+00:00",
-   "summary": "你会为 App 付费吗？ 在软件开发的起点已经变成了一句话生成的当下，我们发送诸如像「帮我做一个记账 App」的提示词，Codex 或者其它 Agent 就会自动完成编码、审查、测试、上线和发布等一系列流程。 原本那些因为不会编程、找不到开发者而搁置的想法，如今有了被做出来的机会。 AI 编程工具降低了做应用的门槛，但也把一个老问题更早地摆到了「开发者」面前： 做出来以后，谁会用？ a16z 最新一期数据周报，给「vibe coding..."
+   "published_at": "2026-09-21T20:12:22.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, mimo_v2, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, 8-bit, fp8, region:us"
   },
   {
    "rank": 20,

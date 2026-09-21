@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-22 03:38 CST
-数据窗口：最近 24 小时，1481 条原始条目 → 1214 个事件；过滤噪音 466 个，排除全部历史已推送的 84 个。
+生成时间：2026-09-22 07:26 CST
+数据窗口：最近 24 小时，1454 条原始条目 → 1191 个事件；过滤噪音 454 个，排除全部历史已推送的 86 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -73,64 +73,63 @@
 - 链接：https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/
 - 同事件报道：I reached 1,000+ telemetry events across 38 deployments — what should I be thinking about now?（Reddit AI subreddits (new)）
 
-## 10. Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop
-- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.08
-- 摘要：Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android.
-- 发布时间：2026-09-21 21:00 CST
-- 链接：https://www.wired.com/story/google-launches-googlebook-laptops/
-- 同事件报道：Googlebook: The laptop your Android phone has been waiting for（Hacker News (AI stories)）
+## 10. Xiaomi MiMo v2.6
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
+- 发布时间：2026-09-22 04:12 CST
+- 链接：https://mimo.xiaomi.com/mimo-v2-6
+- 同事件报道：MiMo v2.6 pro（Reddit AI subreddits (new)）
 
-## 11. perplexity-ai/pplx-pii-masking
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.81
-- 摘要：token-classification, safetensors, pii_masking, pii, privacy, qwen3, custom_code, en, multilingual, license:mit, region:us
-- 发布时间：2026-09-14 10:30 CST
-- 链接：https://huggingface.co/perplexity-ai/pplx-pii-masking
-
-## 12. LiquidAI/LFM2-2.6B-Longevity
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.7
-- 摘要：text-generation, transformers, safetensors, lfm2, liquid, lfm2.5, longevity, conversational, arxiv:2511.23404, base_model:LiquidAI/LFM2-2.6B, base_model:finetune:LiquidAI/LFM2-2.6B, doi:10.57967/hf/9888, license:other, e...
-- 发布时间：2026-09-17 23:12 CST
-- 链接：https://huggingface.co/LiquidAI/LFM2-2.6B-Longevity
-
-## 13. Lex in depth: Anthropic at $2tn isn’t far-fetched
+## 11. Lex in depth: Anthropic at $2tn isn’t far-fetched
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.56
 - 摘要：There are several ways to crack the valuation nut. Some suggest the company may be worth far more
 - 发布时间：2026-09-21 12:00 CST
 - 链接：https://www.ft.com/content/01a7b883-452c-4902-b40e-e3957de5d89e?syn-25a6b1a6=1
 - 同事件报道：Anthropic at $2T isn't far-fetched（Hacker News (AI stories)）
 
-## 14. ZCode is now open source
+## 12. ZCode is now open source
 - 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
 - 摘要：ZCode is now open source , and the reported security issues have been addressed. Source code: https://github.com/zai-org/ZCode The repo includes its desktop app, web workspace, backend, Agent CLI, and runtime. Official a...
 - 发布时间：2026-09-21 10:09 CST
 - 链接：https://i.redd.it/hkr4b4gw7sqh1.jpeg
 - 同事件报道：ZCode, embroiled in a controversy over stealing user code, is now open source（Hacker News (AI stories)）
 
+## 13. NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog（1 个来源） ｜ 热度：4.5
+- 摘要：Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi...
+- 发布时间：2026-09-22 02:00 CST
+- 链接：https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/
+
+## 14. AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog（1 个来源） ｜ 热度：3.5
+- 摘要：AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security en...
+- 发布时间：2026-09-21 22:51 CST
+- 链接：https://blogs.nvidia.com/blog/ai-security-agent-stack/
+
 国内：
 
 ## 1. 华为云码道上线鸿蒙编码大模型 面向鸿蒙开发者全面升级
-- 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国、雷峰网、IT之家（3 个来源） ｜ 热度：10.5
+- 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国、雷峰网、IT之家（3 个来源） ｜ 热度：10.0
 - 摘要：2026年9月21日，华为云码道CodeArts代码智能体面向鸿蒙开发者进行全面升级，上线“鸿蒙编码大模型+码道鸿蒙智能体+鸿蒙开发者实践中心”三大核心能力，打造全球首个且唯一专为鸿蒙生态打造的AI编码智能体。 华为公有云总裁胡玉海表示：“华为云码道CodeArts代码智能体凝练华为多年研发经验，更懂研发工程实践，为开发者带...
 - 发布时间：2026-09-21 16:24 CST
 - 链接：https://www.oschina.net/news/502645/hw-codearts
 - 同事件报道：华为云码道上线鸿蒙编码大模型 面向鸿蒙开发者全面升级（雷峰网）
 - 同事件报道：华为云码道上线鸿蒙编码大模型，千行代码错误率降低 80% 以上（IT之家）
 
-## 2. 黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道、虎嗅（3 个来源） ｜ 热度：9.5
-- 摘要：文 | 字母AI 黄仁勋对“AI减速”的反对，比先前放出的采访片段更加尖锐。 前几天，CBS提前释出的专访片段已经亮明了他的态度。面对是否应该放慢AI发展的提问，黄仁勋回答：“不管别人怎么做，我们都应该尽可能快地前进。”这句话，直接回应了近期硅谷不断升温的减速呼声。 这轮争论中，提出减速的，恰恰是站在AI研发最前沿的人。Anthropic CEO达里奥·阿莫迪本月发文，呼吁放慢模型能力提升的速度，为安全研究和风险防范争取时间。OpenA...
-- 发布时间：2026-09-21 17:29 CST
-- 链接：https://www.tmtpost.com/8147431.html
-- 同事件报道：黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了（36氪 AI 频道）
-- 同事件报道：黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了（虎嗅）
-
-## 3. 不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜
+## 2. 不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜
 - 地区：国内源 ｜ 语言：zh ｜ 来源：InfoQ 中文、雷峰网、量子位（3 个来源） ｜ 热度：9.0
 - 摘要：点击查看原文>
 - 发布时间：2026-09-21 13:58 CST
 - 链接：https://www.infoq.cn/article/Obuxu1mvY9p6RNOlxFGc?utm_source=rss&utm_medium=article
 - 同事件报道：登顶国际Data Agent榜单登顶国际Data Agent榜单，OceanBase超过多项GPT、Claude方案（雷峰网）
 - 同事件报道：国产数据库跑出AI新能力！OceanBase登顶国际Data Agent榜单（量子位）
+
+## 3. 黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道、虎嗅（3 个来源） ｜ 热度：9.0
+- 摘要：文 | 字母AI 黄仁勋对“AI减速”的反对，比先前放出的采访片段更加尖锐。 前几天，CBS提前释出的专访片段已经亮明了他的态度。面对是否应该放慢AI发展的提问，黄仁勋回答：“不管别人怎么做，我们都应该尽可能快地前进。”这句话，直接回应了近期硅谷不断升温的减速呼声。 这轮争论中，提出减速的，恰恰是站在AI研发最前沿的人。Anthropic CEO达里奥·阿莫迪本月发文，呼吁放慢模型能力提升的速度，为安全研究和风险防范争取时间。OpenA...
+- 发布时间：2026-09-21 17:29 CST
+- 链接：https://www.tmtpost.com/8147431.html
+- 同事件报道：黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了（36氪 AI 频道）
+- 同事件报道：黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了（虎嗅）
 
 ## 4. AI正在“吃掉”游戏显卡：英伟达、AMD下一代GPU为何集体推迟到2028？
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、IT之家（2 个来源） ｜ 热度：6.5
@@ -139,12 +138,11 @@
 - 链接：https://www.huxiu.com/article/4892816.html
 - 同事件报道：双信源互相佐证，英伟达 GeForce RTX 60 系列游戏显卡很可能 2028 年发布（IT之家）
 
-## 5. AI 正在制造 App 过剩时代
-- 地区：国内源 ｜ 语言：zh ｜ 来源：爱范儿、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：你会为 App 付费吗？ 在软件开发的起点已经变成了一句话生成的当下，我们发送诸如像「帮我做一个记账 App」的提示词，Codex 或者其它 Agent 就会自动完成编码、审查、测试、上线和发布等一系列流程。 原本那些因为不会编程、找不到开发者而搁置的想法，如今有了被做出来的机会。 AI 编程工具降低了做应用的门槛，但也把一个老问题更早地摆到了「开发者」面前： 做出来以后，谁会用？ a16z 最新一期数据周报，给「vibe coding...
-- 发布时间：2026-09-21 16:15 CST
-- 链接：https://www.ifanr.com/1681265?utm_source=rss&utm_medium=rss&utm_campaign=
-- 同事件报道：AI正在制造App过剩时代（36氪 AI 频道）
+## 5. XiaomiMiMo/MiMo-V2.6-Pro-RL
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.5
+- 摘要：text-generation, transformers, safetensors, mimo_v2, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, 8-bit, fp8, region:us
+- 发布时间：2026-09-22 04:12 CST
+- 链接：https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
 
 ## 6. GPT-6 伤人实测曝光：刺向「婴儿」、制造毒气，97% 情况选择照做
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、爱范儿（2 个来源） ｜ 热度：5.5
