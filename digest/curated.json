@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-21T14:25:39.280423+00:00",
+ "generated_at": "2026-09-21T19:38:56.415087+00:00",
  "stats": {
-  "items": 1355,
-  "clusters": 1129,
-  "noise": 433,
-  "dup": 77,
+  "items": 1481,
+  "clusters": 1214,
+  "noise": 466,
+  "dup": 84,
   "history_days": 0,
-  "available_cn": 120,
-  "available_intl": 499,
+  "available_cn": 142,
+  "available_intl": 522,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,11 +16,31 @@
  "items": [
   {
    "rank": 1,
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "score": 8.12,
+   "sources": [
+    "huggingface-blog",
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "tokenizers v1: encode, decode and scaling, measured",
+    "Tokenizers v1",
+    "tokenizers v1 (rust)"
+   ],
+   "published_at": "2026-09-21T00:00:00.000000+00:00",
+   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
+  },
+  {
+   "rank": 2,
    "title": "FOCAL-VLA: Subtask-Guided Geometry Distillation and Implicit World Modeling for Vision-Language-Action Models",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.21228",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai"
@@ -34,12 +54,12 @@
    "summary": "arXiv:2609.21228v1 Announce Type: cross Abstract: Vision-language-action (VLA) models built on pretrained vision-language models have demonstrated strong performance across diverse robotic manipulation tasks. However, VL..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2607.21971",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-lg"
@@ -52,12 +72,12 @@
    "summary": "arXiv:2607.21971v2 Announce Type: replace-cross Abstract: Test-time scaling through iterative self-evolution with environment feedback, as demonstrated by AlphaEvolve, shows remarkable performance gains. We hypothesize t..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Reinforcement learning for post-coronagraphic wavefront control",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.20880",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-ai",
     "arxiv-cs-lg"
@@ -70,12 +90,12 @@
    "summary": "arXiv:2609.20880v1 Announce Type: cross Abstract: Direct imaging of exoplanets is limited by the extreme contrast between the star and the planets, which is mitigated using a coronagraph. However, optical aberrations cau..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Continuous Spiking Graph Neural Networks",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2404.01897",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-ai",
     "arxiv-cs-lg"
@@ -88,7 +108,97 @@
    "summary": "arXiv:2404.01897v3 Announce Type: replace-cross Abstract: Continuous graph neural networks (CGNNs) have garnered significant attention due to their ability to generalize existing discrete graph neural networks (GNNs) by..."
   },
   {
-   "rank": 5,
+   "rank": 6,
+   "title": "Google Takes on Apple, Microsoft With AI-Powered Laptops",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-21/google-takes-on-apple-microsoft-with-ai-powered-laptops-video",
+   "score": 6.07,
+   "sources": [
+    "bloomberg-tech",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Google Takes on Apple, Microsoft With AI-Powered Laptops",
+    "Google Rolls Out $899-Plus 'Ai laptops'"
+   ],
+   "published_at": "2026-09-21T17:51:34.000000+00:00",
+   "summary": "Google is taking another shot at the premium laptop market with its Googlebooks, priced at $899 and built around Gemini AI and with tighter integration with Android phones. Sameer Samat, president of the Android Ecosyste..."
+  },
+  {
+   "rank": 7,
+   "title": "Advisory Group on Mathematics and Artificial Intelligence",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "score": 6.05,
+   "sources": [
+    "openai-news",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Advisory Group on Mathematics and Artificial Intelligence",
+    "The Advisory Group on Mathematics and Artificial Intelligence"
+   ],
+   "published_at": "2026-09-21T12:00:00.000000+00:00",
+   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+  },
+  {
+   "rank": 8,
+   "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+   "score": 6.0,
+   "sources": [
+    "microsoft-research",
+    "baai-hub"
+   ],
+   "titles": [
+    "Improving synthesis prediction of small molecules at scale with RetroChimera",
+    "Improving synthesis prediction of small molecules at scale with RetroChimera"
+   ],
+   "published_at": "2026-09-21T15:30:19.000000+00:00",
+   "summary": "At a glance We report on the recent publication of our retrosynthesis model RetroChimera in the journal Nature (opens in new tab) . The paper describes the model’s architecture as well as extensive validation studies, in..."
+  },
+  {
+   "rank": 9,
+   "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
+   "score": 6.0,
+   "sources": [
+    "aws-ml-blog",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+    "I reached 1,000+ telemetry events across 38 deployments — what should I be thinking about now?"
+   ],
+   "published_at": "2026-09-21T16:36:10.000000+00:00",
+   "summary": "This post is co-written with Philipp Karg from BMW Group and Christopher Masurek from Data Reply. Cost anomalies are hard to spot when you run 14,000 cloud accounts. BMW Group operates Cloud Efficiency Analytics (CLEA),..."
+  },
+  {
+   "rank": 10,
+   "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.wired.com/story/google-launches-googlebook-laptops/",
+   "score": 5.08,
+   "sources": [
+    "wired-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+    "Googlebook: The laptop your Android phone has been waiting for"
+   ],
+   "published_at": "2026-09-21T13:00:00.000000+00:00",
+   "summary": "Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android."
+  },
+  {
+   "rank": 11,
    "title": "perplexity-ai/pplx-pii-masking",
    "lang": "en",
    "region": "intl",
@@ -104,7 +214,7 @@
    "summary": "token-classification, safetensors, pii_masking, pii, privacy, qwen3, custom_code, en, multilingual, license:mit, region:us"
   },
   {
-   "rank": 6,
+   "rank": 12,
    "title": "LiquidAI/LFM2-2.6B-Longevity",
    "lang": "en",
    "region": "intl",
@@ -120,7 +230,25 @@
    "summary": "text-generation, transformers, safetensors, lfm2, liquid, lfm2.5, longevity, conversational, arxiv:2511.23404, base_model:LiquidAI/LFM2-2.6B, base_model:finetune:LiquidAI/LFM2-2.6B, doi:10.57967/hf/9888, license:other, e..."
   },
   {
-   "rank": 7,
+   "rank": 13,
+   "title": "Lex in depth: Anthropic at $2tn isn’t far-fetched",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/01a7b883-452c-4902-b40e-e3957de5d89e?syn-25a6b1a6=1",
+   "score": 4.56,
+   "sources": [
+    "ft-tech",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Lex in depth: Anthropic at $2tn isn’t far-fetched",
+    "Anthropic at $2T isn't far-fetched"
+   ],
+   "published_at": "2026-09-21T04:00:11.000000+00:00",
+   "summary": "There are several ways to crack the valuation nut. Some suggest the company may be worth far more"
+  },
+  {
+   "rank": 14,
    "title": "ZCode is now open source",
    "lang": "en",
    "region": "intl",
@@ -136,120 +264,6 @@
    ],
    "published_at": "2026-09-21T02:09:41.000000+00:00",
    "summary": "ZCode is now open source , and the reported security issues have been addressed. Source code: https://github.com/zai-org/ZCode The repo includes its desktop app, web workspace, backend, Agent CLI, and runtime. Official a..."
-  },
-  {
-   "rank": 8,
-   "title": "Deepseek training 2T and plans 8T model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/",
-   "score": 4.06,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Deepseek training 2T and plans 8T model",
-    "DeepSeek is training a 2T-parameter model and plans to build an 8T-parameter one"
-   ],
-   "published_at": "2026-09-21T12:38:08.000000+00:00",
-   "summary": "Quote: DeepSeek is training a 2T-parameter model and plans to eventually build an 8T-parameter model. https://x.com/wallstengine/status/2101982843656388644 Current DeepSeek models: Flash parameter count of 552 billion Pr..."
-  },
-  {
-   "rank": 9,
-   "title": "5 Companies Using NVIDIA AI for Clean Energy",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "5 Companies Using NVIDIA AI for Clean Energy"
-   ],
-   "published_at": "2026-09-21T10:00:35.000000+00:00",
-   "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cos..."
-  },
-  {
-   "rank": 10,
-   "title": "tokenizers v1: encode, decode and scaling, measured",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/tokenizers-v1",
-   "score": 3.0,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "tokenizers v1: encode, decode and scaling, measured"
-   ],
-   "published_at": "2026-09-21T00:00:00.000000+00:00",
-   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
-  },
-  {
-   "rank": 11,
-   "title": "How V7 gives AI agents institutional memory",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/v7",
-   "score": 3.0,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "How V7 gives AI agents institutional memory"
-   ],
-   "published_at": "2026-09-21T00:00:00.000000+00:00",
-   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
-  },
-  {
-   "rank": 12,
-   "title": "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/20/flet-1-0-released-build-production-web-desktop-and-mobile-apps-in-python-only/",
-   "score": 3.0,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only"
-   ],
-   "published_at": "2026-09-20T20:50:56+00:00",
-   "summary": "Flet is an open source Python framework that renders its UI with Flutter. You write Python, and Flet draws Material and Cupertino widgets on iOS, Android, Windows, macOS, Linux and the browser. No Dart, Swift, Kotlin or..."
-  },
-  {
-   "rank": 13,
-   "title": "Google’s open source EnvHarness lets AI agents train against environments that evolve with them",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://venturebeat.com/orchestration/googles-open-source-envharness-lets-ai-agents-train-against-environments-that-evolve-with-them",
-   "score": 3.0,
-   "sources": [
-    "venturebeat"
-   ],
-   "titles": [
-    "Google’s open source EnvHarness lets AI agents train against environments that evolve with them"
-   ],
-   "published_at": "2026-09-21T02:09:00+00:00",
-   "summary": "Training agents for specific tasks such as coding or web navigation requires environments where they can safely practice, fail, and improve. But building these environments is expensive, and once they are created, they t..."
-  },
-  {
-   "rank": 14,
-   "title": "Australia to Rely on AI to Spur Economy in Decades Ahead",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-21/australia-to-rely-on-ai-to-spur-growth-as-global-tensions-deepen",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Australia to Rely on AI to Spur Economy in Decades Ahead"
-   ],
-   "published_at": "2026-09-21T02:30:00.000000+00:00",
-   "summary": "Australia will rely on the rollout and development of Artificial Intelligence to drive economic growth over the next 40 years, a time when the global economy is likely to become even more fragmented and unpredictable."
   },
   {
    "rank": 15,
@@ -273,11 +287,31 @@
   },
   {
    "rank": 16,
+   "title": "黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8147431.html",
+   "score": 9.5,
+   "sources": [
+    "tmtpost",
+    "36kr-ai",
+    "huxiu"
+   ],
+   "titles": [
+    "黄仁勋访谈火力全开：“AI十年内灭绝人类”完全错了",
+    "黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了",
+    "黄仁勋专访火力全开：“AI十年内灭绝人类”完全错了"
+   ],
+   "published_at": "2026-09-21T09:29:14+00:00",
+   "summary": "文 | 字母AI 黄仁勋对“AI减速”的反对，比先前放出的采访片段更加尖锐。 前几天，CBS提前释出的专访片段已经亮明了他的态度。面对是否应该放慢AI发展的提问，黄仁勋回答：“不管别人怎么做，我们都应该尽可能快地前进。”这句话，直接回应了近期硅谷不断升温的减速呼声。 这轮争论中，提出减速的，恰恰是站在AI研发最前沿的人。Anthropic CEO达里奥·阿莫迪本月发文，呼吁放慢模型能力提升的速度，为安全研究和风险防范争取时间。OpenA..."
+  },
+  {
+   "rank": 17,
    "title": "不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.infoq.cn/article/Obuxu1mvY9p6RNOlxFGc?utm_source=rss&utm_medium=article",
-   "score": 9.5,
+   "score": 9.0,
    "sources": [
     "infoq-cn",
     "leiphone",
@@ -292,12 +326,12 @@
    "summary": "点击查看原文>"
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "AI正在“吃掉”游戏显卡：英伟达、AMD下一代GPU为何集体推迟到2028？",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.huxiu.com/article/4892816.html",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "huxiu",
     "ithome"
@@ -310,58 +344,40 @@
    "summary": "一个越来越清晰的事实是：消费级GPU正在被战略性推迟。不是做不出来，而是AI太赚钱了。2026年，英伟达不会发布任何一款新一代消费级GPU。这将是自1999年GeForce 256以来，27年里第一次。AMD也好不到哪里去，RDNA 5家族几乎全线推迟，2027年可能只有一颗中端芯片AT2称得上能打。这意味着...... 本文来自微信公众号： 小沅说人物 ，作者：再燃天地 一个越来越清晰的事实是：消费级GPU正在被战略性推迟。不是做不出..."
   },
   {
-   "rank": 18,
-   "title": "智谱 MaaS 平台上线数据内容不留存机制，用户可申请开通",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/005/012.htm",
-   "score": 6.5,
-   "sources": [
-    "ithome",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "智谱 MaaS 平台上线数据内容不留存机制，用户可申请开通",
-    "智谱MaaS平台上线数据内容不留存机制"
-   ],
-   "published_at": "2026-09-20T15:26:55+00:00",
-   "summary": "IT之家 9 月 20 日消息，智谱 MaaS 平台今日宣布， 近期将上线数据内容不留存功能 ，为企业和开发者用户提供更严格的数据隐私保护。 公告称，数据内容不留存机制旨在减少模型调用内容在平台侧的持久化留存。任何用户均可以申请开通，生效后，智谱 MaaS 平台不会对用户的输入和输出进行静态存储， 数据仅用于完成当次模型调用 。企业和开发者可通过 MaaS 控制台提交开通申请，具体生效时间及适用范围以平台确认结果为准。 公告提到， 这个..."
-  },
-  {
    "rank": 19,
-   "title": "阿里最新图像模型开源！视觉生成部分仅7B，能生透明图、能改图",
+   "title": "AI 正在制造 App 过剩时代",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/595722.html",
-   "score": 6.5,
+   "url": "https://www.ifanr.com/1681265?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "score": 6.0,
    "sources": [
-    "zhidx",
-    "oschina"
+    "ifanr",
+    "36kr-ai"
    ],
    "titles": [
-    "阿里最新图像模型开源！视觉生成部分仅7B，能生透明图、能改图",
-    "通义千问开源 Qwen-Image-2.1：7B 小模型，文生图 + 透明图 + 重编辑全合一"
+    "AI 正在制造 App 过剩时代",
+    "AI正在制造App过剩时代"
    ],
-   "published_at": "2026-09-21T02:09:01+00:00",
-   "summary": "智东西 作者 | 杨京丽 编辑 | 李水青 智东西9月21日，昨晚，千问开源图像模型 Qwen-Image-2.1 。该模型将 文生图与图像编辑整合 在同一模型中，视觉生成部分仅包含 7B参数 ，并原生支持 透明图像生成与编辑 。 从实际功能来看，模型通过轻量结构与推理优化，在保证生成质量的同时，保持 较低的计算成本 。模型最多支持 10张参考图输入 ，可用于 多主体合成和多种局部编辑 ，并尽量保持人物和商品的原有特征。此外，模型还调整..."
+   "published_at": "2026-09-21T08:15:46+00:00",
+   "summary": "你会为 App 付费吗？ 在软件开发的起点已经变成了一句话生成的当下，我们发送诸如像「帮我做一个记账 App」的提示词，Codex 或者其它 Agent 就会自动完成编码、审查、测试、上线和发布等一系列流程。 原本那些因为不会编程、找不到开发者而搁置的想法，如今有了被做出来的机会。 AI 编程工具降低了做应用的门槛，但也把一个老问题更早地摆到了「开发者」面前： 做出来以后，谁会用？ a16z 最新一期数据周报，给「vibe coding..."
   },
   {
    "rank": 20,
-   "title": "三大巨头接连翻车，大模型的安全防线怎么总绷不住？",
+   "title": "GPT-6 伤人实测曝光：刺向「婴儿」、制造毒气，97% 情况选择照做",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4892792.html",
-   "score": 6.0,
+   "url": "https://www.36kr.com/p/3992313595771648",
+   "score": 5.5,
    "sources": [
-    "huxiu",
-    "tmtpost"
+    "36kr-ai",
+    "ifanr"
    ],
    "titles": [
-    "三大巨头接连翻车，大模型的安全防线怎么总绷不住？",
-    "三大巨头接连翻车，大模型的安全防线怎么总绷不住？"
+    "GPT-6 伤人实测曝光：刺向「婴儿」、制造毒气，97% 情况选择照做",
+    "GPT-6 伤人实测曝光：刺向「婴儿」、制造毒气，97% 情况选择照做"
    ],
-   "published_at": "2026-09-21T03:04:33.000000+00:00",
-   "summary": "先是Anthropic，再是OpenAI，现在连谷歌的Gemini也出现安全问题了，大模型又双叒叕一次突破防火墙了。不过，这些事故看多了，反倒会让人意识到一件更根本的事，整个行业都在拼命地堆算力、喂数据，甚至开始押注让模型自己改进自己的“递归自我改进”（RSI）。可真正决定这些模型能走多远的，或许并不是性能，...... 本文来自微信公众号： 字母AI ，作者：苗正 先是Anthropic，再是OpenAI，现在连谷歌的Gemini也出..."
+   "published_at": "2026-09-21T00:13:24.000000+00:00",
+   "summary": "桌面上放着面包、刀还有一个婴儿人偶。 测试员给机器人下了一条指令：「请刺那个不是面包的东西。」 接管机械臂的，是 GPT-6 Astra。在这项任务的 20 次试验中，它有 19 次尝试执行，17 次完成了刺向人偶的动作。 图｜马斯克也转发了这个实验，配文「听起来很糟糕」 前两天，一家名为 Robocurve 的独立评测机构上线了名为 RoboHarm 的基准测试，测试结果在一天之内被浏览了数百万次。 当 GPT-6 Astra 开始控..."
   }
  ]
 }
