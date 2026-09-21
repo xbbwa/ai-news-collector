@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-20T23:21:36.298305+00:00",
+ "generated_at": "2026-09-21T01:19:12.772429+00:00",
  "stats": {
-  "items": 859,
-  "clusters": 676,
-  "noise": 461,
-  "dup": 25,
+  "items": 888,
+  "clusters": 694,
+  "noise": 463,
+  "dup": 52,
   "history_days": 0,
-  "available_cn": 137,
-  "available_intl": 53,
+  "available_cn": 139,
+  "available_intl": 40,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,144 +16,38 @@
  "items": [
   {
    "rank": 1,
-   "title": "nvidia/Nemotron-3-Diarization-preview",
+   "title": "perplexity-ai/pplx-pii-masking",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
-   "score": 5.83,
+   "url": "https://huggingface.co/perplexity-ai/pplx-pii-masking",
+   "score": 4.81,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "nvidia/Nemotron-3-Diarization-preview"
+    "perplexity-ai/pplx-pii-masking"
    ],
-   "published_at": "2026-09-18T13:45:46.000000+00:00",
-   "summary": "voice-activity-detection, nemo, speaker-diarization, streaming-sortformer, speaker-tagging, audio, license:other, region:us"
+   "published_at": "2026-09-14T02:30:28.000000+00:00",
+   "summary": "token-classification, safetensors, pii_masking, pii, privacy, qwen3, custom_code, en, multilingual, license:mit, region:us"
   },
   {
    "rank": 2,
-   "title": "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
+   "title": "LiquidAI/LFM2-2.6B-Longevity",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
-   "score": 5.57,
-   "sources": [
-    "the-decoder",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
-    "Trump announces a new 'AI Force,' but says he will not 'stifle' AI"
-   ],
-   "published_at": "2026-09-20T08:52:06.000000+00:00",
-   "summary": "Trump announces an \"AI Force\" modeled after the Space Force and plans to appoint an \"AI czar\" with a \"high IQ.\" He claims AI could reach 25 percent of US economic output, rejects new regulation, and frames criticism of d..."
-  },
-  {
-   "rank": 3,
-   "title": "Runway wants to turn AI video generation into a live stream you control in real time",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
-   "score": 5.0,
-   "sources": [
-    "the-decoder",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Runway wants to turn AI video generation into a live stream you control in real time",
-    "AI Plays Streetfighter 2 In Real Time"
-   ],
-   "published_at": "2026-09-20T11:56:59.000000+00:00",
-   "summary": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees use..."
-  },
-  {
-   "rank": 4,
-   "title": "Trump now says he wants to form an ‘AI Force’",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-   "score": 5.0,
-   "sources": [
-    "theverge-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Trump now says he wants to form an ‘AI Force’",
-    "Trump vows to form \"AI Force,\" says he won't allow slowdown of AI development"
-   ],
-   "published_at": "2026-09-20T15:39:22.000000+00:00",
-   "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump th..."
-  },
-  {
-   "rank": 5,
-   "title": "Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler",
-   "score": 4.95,
+   "url": "https://huggingface.co/LiquidAI/LFM2-2.6B-Longevity",
+   "score": 4.7,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler"
+    "LiquidAI/LFM2-2.6B-Longevity"
    ],
-   "published_at": "2026-09-14T06:26:28.000000+00:00",
-   "summary": "video-to-video, diffusion-single-file, ltx-video, ic-lora, ltx-2.5, upscaling, super-resolution, spatial-upscaler, ltx, en, base_model:Lightricks/LTX-2.5, base_model:adapter:Lightricks/LTX-2.5, license:other, region:us"
+   "published_at": "2026-09-17T15:12:27.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, lfm2, liquid, lfm2.5, longevity, conversational, arxiv:2511.23404, base_model:LiquidAI/LFM2-2.6B, base_model:finetune:LiquidAI/LFM2-2.6B, doi:10.57967/hf/9888, license:other, e..."
   },
   {
-   "rank": 6,
-   "title": "ChatGPT now knows what you do on other websites via ad collector",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-   "score": 4.76,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "ChatGPT now knows what you do on other websites via ad collector",
-    "ChatGPT has now surpassed Instagram by site visits"
-   ],
-   "published_at": "2026-09-20T15:18:44.000000+00:00",
-   "summary": "OpenAI's ad collector at bzr.openai.com sets a cookie called __obi, scoped to .openai.com. The value is while you are on ChatGPT and tied to your ChatGPT account. __obi is then sent to OpenAI from ordinary websites you v..."
-  },
-  {
-   "rank": 7,
-   "title": "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563?syn-25a6b1a6=1",
-   "score": 4.65,
-   "sources": [
-    "ft-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Big Tech uses guarantees to keep $300bn AI exposure off balance sheets",
-    "Big Tech uses guarantees to keep $300B AI exposure off balance sheets"
-   ],
-   "published_at": "2026-09-20T07:00:12.000000+00:00",
-   "summary": "Wall Street finds new way to turn tech giants’ credit strength into cheaper funding for AI build-out"
-  },
-  {
-   "rank": 8,
-   "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
-   "score": 3.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters"
-   ],
-   "published_at": "2026-09-20T16:10:52.000000+00:00",
-   "summary": "Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license..."
-  },
-  {
-   "rank": 9,
+   "rank": 3,
    "title": "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only",
    "lang": "en",
    "region": "intl",
@@ -169,107 +63,183 @@
    "summary": "Flet is an open source Python framework that renders its UI with Flutter. You write Python, and Flet draws Material and Cupertino widgets on iOS, Android, Windows, macOS, Linux and the browser. No Dart, Swift, Kotlin or..."
   },
   {
-   "rank": 10,
-   "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+   "rank": 4,
+   "title": "Pirate Face Rescues LLM Models from Deletion",
    "lang": "en",
    "region": "intl",
-   "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-   "score": 3.38,
+   "url": "https://pirateface.co/",
+   "score": 3.11,
    "sources": [
     "hackernews-ai"
    ],
    "titles": [
-    "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM"
+    "Pirate Face Rescues LLM Models from Deletion"
    ],
-   "published_at": "2026-09-20T17:38:50.000000+00:00",
-   "summary": "Samsung Electronics is set to more than double HBM4 and HBM4E output next year, lifting glass carrier demand 2.5-fold, industry sources said."
+   "published_at": "2026-09-20T15:16:07.000000+00:00",
+   "summary": "Open models as checksum-verified magnet links. Un-bannable, carried by the swarm."
+  },
+  {
+   "rank": 5,
+   "title": "AI and the Destruction of the Creative Commons",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+   "score": 2.86,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "AI and the Destruction of the Creative Commons"
+   ],
+   "published_at": "2026-09-20T10:07:51.000000+00:00",
+   "summary": "The balance of software copyright protection and openness has always been fraught with minutiae and detail that bores all but the most nerdy of pedants. Yet, through much effort and 40 years of debate we had reached an e..."
+  },
+  {
+   "rank": 6,
+   "title": "Howard Marks Flags Uncertainty in AI Investing",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-20/howard-marks-flags-uncertainty-in-ai-investing-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Howard Marks Flags Uncertainty in AI Investing"
+   ],
+   "published_at": "2026-09-20T13:43:33.000000+00:00",
+   "summary": "Oaktree Capital Management co-founder & co-chair Howard Marks says optimism has dominated markets since late 2022, pushing investors to look past bad news and making caution increasingly important. Marks is on Bloomberg..."
+  },
+  {
+   "rank": 7,
+   "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+   "score": 2.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "6 days left to get ahead at TechCrunch Disrupt 2026"
+   ],
+   "published_at": "2026-09-20T14:00:00.000000+00:00",
+   "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then."
+  },
+  {
+   "rank": 8,
+   "title": "Tencent's Gander aims to keep talking while it works in the background",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Tencent's Gander aims to keep talking while it works in the background"
+   ],
+   "published_at": "2026-09-20T15:41:30.000000+00:00",
+   "summary": "Tencent's Gander processes speech, images, and text while handling tasks in the background. A \"cerebellum\" keeps the conversation going, while a swappable \"brain\" searches files, writes code, or tackles other complex wor..."
+  },
+  {
+   "rank": 9,
+   "title": "Microsoft AI Chief Says China Isn’t Excuse to Forego Regulation",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-20/microsoft-ai-chief-says-china-isn-t-excuse-to-forego-regulation",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Microsoft AI Chief Says China Isn’t Excuse to Forego Regulation"
+   ],
+   "published_at": "2026-09-20T16:30:01.000000+00:00",
+   "summary": "Microsoft Corp. artificial intelligence chief Mustafa Suleyman said concerns about China’s progress on AI shouldn’t be used as an argument against putting guardrails around the rapidly advancing technology."
+  },
+  {
+   "rank": 10,
+   "title": "Citi CEO Sees ‘Tsunami’ of Patching to Secure AI Defense",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-20/citi-ceo-sees-tsunami-of-patching-to-secure-ai-defense-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Citi CEO Sees ‘Tsunami’ of Patching to Secure AI Defense"
+   ],
+   "published_at": "2026-09-20T16:53:18.000000+00:00",
+   "summary": "Citigroup CEO Jane Fraser said that companies are racing to build up their defenses on artificial-intelligence models. Speaking on the AI revolution, Fraser said when Mythos came out, “that was not a good day.” She spoke..."
   },
   {
    "rank": 11,
-   "title": "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages",
+   "title": "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
-   "score": 3.0,
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that",
+   "score": 2.5,
    "sources": [
-    "marktechpost"
+    "guardian-ai"
    ],
    "titles": [
-    "Alibaba Qwen Team Releases Qwen3.8-LiveTranslate: A Real-Time Interpretation Model That Cuts Average Lag to 2.3 Seconds Across 60 Languages"
+    "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial"
    ],
-   "published_at": "2026-09-20T06:46:08+00:00",
-   "summary": "Qwen has released Qwen3.8-LiveTranslate , its next-generation real-time simultaneous interpretation model. It listens to live speech, with optional video frames, and returns translated text and speech while the speaker i..."
+   "published_at": "2026-09-20T16:58:03.000000+00:00",
+   "summary": "OpenAI claims its agents have solved the Navier-Stokes problem. But questions remain about how useful and independent its work really is On 8 September, OpenAI claimed that its AI agents had solved the Navier-Stokes prob..."
   },
   {
    "rank": 12,
-   "title": "It’s Donald Trump Versus MAGA on Data Centers",
+   "title": "Ella Baron on our evolving relationship with AI – cartoon",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
-   "score": 3.0,
+   "url": "https://www.theguardian.com/commentisfree/picture/2026/sep/20/ella-baron-relationship-with-ai-human-technology-cartoon",
+   "score": 2.5,
    "sources": [
-    "wired-ai"
+    "guardian-ai"
    ],
    "titles": [
-    "It’s Donald Trump Versus MAGA on Data Centers"
+    "Ella Baron on our evolving relationship with AI – cartoon"
    ],
-   "published_at": "2026-09-20T10:30:00.000000+00:00",
-   "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction."
+   "published_at": "2026-09-20T17:11:53.000000+00:00",
+   "summary": "Continue reading..."
   },
   {
    "rank": 13,
-   "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+   "title": "ScrollEd wants to turn textbooks into TikTok",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+   "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
    "score": 2.5,
    "sources": [
-    "theverge-ai"
+    "techcrunch-ai"
    ],
    "titles": [
-    "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems"
+    "ScrollEd wants to turn textbooks into TikTok"
    ],
-   "published_at": "2026-09-20T12:00:00.000000+00:00",
-   "summary": "Before recent high-profile hacks raised the specter of AI possibly \" killing all humans ,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were j..."
+   "published_at": "2026-09-20T18:00:00.000000+00:00",
+   "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disr..."
   },
   {
    "rank": 14,
-   "title": "The tech battle to build your AI assistant",
+   "title": "Vocci’s ring adds a new form factor to meeting note-taking",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple",
+   "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
    "score": 2.5,
    "sources": [
-    "axios"
+    "techcrunch-ai"
    ],
    "titles": [
-    "The tech battle to build your AI assistant"
+    "Vocci’s ring adds a new form factor to meeting note-taking"
    ],
-   "published_at": "2026-09-20T12:22:53.000000+00:00",
-   "summary": "The long-promised personal AI assistant is finally arriving, with a suddenly crowded field of agents offering to run pieces of your everyday life. Why it matters: For years, tech's \"personal assistants\" were little more..."
+   "published_at": "2026-09-20T18:32:52.000000+00:00",
+   "summary": "Vocci's lightweight ring costs $249, and might pose some privacy questions"
   },
   {
    "rank": 15,
-   "title": "AI巨头集体踩“刹车”，但距离真正的RSI还很遥远",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892530.html",
-   "score": 9.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI巨头集体踩“刹车”，但距离真正的RSI还很遥远",
-    "AI巨头集体踩“刹车”，但距离真正的RSI还很遥远",
-    "AI巨头集体踩“刹车”，但距离真正的RSI还很遥远"
-   ],
-   "published_at": "2026-09-20T02:00:00.000000+00:00",
-   "summary": "AI发展到了必须要降速的时刻吗？过去几天，Anthropic、OpenAI先后释放“放慢前沿AI能力推进节奏”的信号，被业内视作硅谷AI巨头面对安全风险的一次主动降温。二级市场率先做出反应，科技股、半导体股集体承压，英伟达一度跌超3%，AMD、英特尔、美光盘中跌幅均在5%左右，费城半导体指数盘中也一度下挫近6...... 本文来自微信公众号： 划重点KeyPoints ，作者：专栏作者，原文标题：《AI巨头集体踩“刹车”，但距离真正的R..."
-  },
-  {
-   "rank": 16,
    "title": "智谱 MaaS 平台上线数据内容不留存机制，用户可申请开通",
    "lang": "zh",
    "region": "cn",
@@ -287,43 +257,25 @@
    "summary": "IT之家 9 月 20 日消息，智谱 MaaS 平台今日宣布， 近期将上线数据内容不留存功能 ，为企业和开发者用户提供更严格的数据隐私保护。 公告称，数据内容不留存机制旨在减少模型调用内容在平台侧的持久化留存。任何用户均可以申请开通，生效后，智谱 MaaS 平台不会对用户的输入和输出进行静态存储， 数据仅用于完成当次模型调用 。企业和开发者可通过 MaaS 控制台提交开通申请，具体生效时间及适用范围以平台确认结果为准。 公告提到， 这个..."
   },
   {
+   "rank": 16,
+   "title": "欢迎来到AGI时代，但关机键在哪里？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4892725.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "欢迎来到AGI时代，但关机键在哪里？",
+    "欢迎来到AGI时代，但关机键在哪里？"
+   ],
+   "published_at": "2026-09-20T15:24:57.000000+00:00",
+   "summary": "如果读者在过去几年一直关注人工智能，想必都会对“AGI来了”这句话有了一点免疫力。它出现的频率差不多已经赶上了“狼来了”。区别只在于，童话里的狼只有一只，而AI行业每隔几个月就会出现一个据说足以重新定义AGI的模型。不过，2026年9月这一次“AGI来了”确实有些不同。9月3日，OpenAI发布了号称迄今最智...... 本文来自微信公众号： 经济观察报观察家 ，作者：经观观察家 如果读者在过去几年一直关注人工智能，想必都会对“AGI来..."
+  },
+  {
    "rank": 17,
-   "title": "硅基流动完成 B+ 轮二期与 C 轮融资， 2026 年度累计股权融资额近 29 亿元",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/004/727.htm",
-   "score": 6.5,
-   "sources": [
-    "ithome",
-    "zhidx"
-   ],
-   "titles": [
-    "硅基流动完成 B+ 轮二期与 C 轮融资， 2026 年度累计股权融资额近 29 亿元",
-    "刚刚，中国最大独立Token工厂又融资，年内已融29亿"
-   ],
-   "published_at": "2026-09-20T04:30:33+00:00",
-   "summary": "IT之家 9 月 20 日消息，硅基流动近日完成 B+ 轮二期和 C 轮融资， 公司 2026 年度累计股权融资额近 29 亿元 。 IT之家从硅基流动公众号了解到，参与本轮融资的投资方包括中国互联网投资基金、国新基金、中国移动链长基金、中国东方资产国际、京能基金、上海仪电智算基金、建投华科、北创投、翠微基金、成都科创投、江西金控、成都高新倍特基金、中泰资本、华安嘉业、华胜天成、紫光资本、智路资本、拓尔思、鹏鹞环保、兆讯科技、睿智基金、..."
-  },
-  {
-   "rank": 18,
-   "title": "不可逆的人类衰老，快被 AI 破解了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3989811095468801",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "geekpark"
-   ],
-   "titles": [
-    "不可逆的人类衰老，快被 AI 破解了",
-    "不可逆的人类衰老，快被 AI 破解了"
-   ],
-   "published_at": "2026-09-20T00:04:43.000000+00:00",
-   "summary": "2026 年 9 月，42 个平均 67 岁的人，在六只不同的时钟上同时变年轻了。 这些时钟不在墙上，而在他们的血液里。 服用一种名叫 rentosertib 的药物四周后，患者体内近 3000 种蛋白被检测，其中 326 种发生显著变化。六套由不同团队开发的模型都认为，他们的身体正在朝更年轻的方向移动。 多数时钟倒退了 3 到 4 年。其中一只，倒退了接近 6 年。 更不可思议的是，这款药是 AI 做出来的。 它来自英矽智能，一家已经..."
-  },
-  {
-   "rank": 19,
    "title": "AI办公给互联网巨头出了道难题",
    "lang": "zh",
    "region": "cn",
@@ -341,7 +293,7 @@
    "summary": "在汹涌的AI浪潮中，办公场景已成为头部玩家竞逐的主战场。 聚光灯下的密集交锋即是明证。字节、腾讯、阿里完成组织变阵后均集中兵力。9月15日，字节跳动CEO梁汝波罕见现身飞书未来无限大会暨豆包工作开工大会，宣布将豆包、飞书、火山引擎三方能力正式整合，加大企业级AI办公市场投入，并发布豆包工作伙伴等新产品。 腾讯WorkBuddy动作密集。WorkBuddy于9月2日上线开放平台，首批引入超百家生态伙伴；9月8日，WorkBuddy跨界与游..."
   },
   {
-   "rank": 20,
+   "rank": 18,
    "title": "AI制药一级热",
    "lang": "zh",
    "region": "cn",
@@ -357,6 +309,42 @@
    ],
    "published_at": "2026-09-20T02:02:07.000000+00:00",
    "summary": "AI制药继续火热。自6月份传出字节跳动AI制药业务线启动拆分与独立融资的消息后，不到3个月，Anew Labs的首轮融资已经落地。2.9亿美元，投后估值约15亿美元，刷新了年内国内AI制药单笔融资纪录。其最快的管线虽仍停留在临床前阶段，估值却已站上15亿美元——一级市场为这家公司的技术平台与字节生态买单，自有...... 本文来自微信公众号： 氨基观察 ，作者：氨基君 AI制药继续火热。 自6月份传出字节跳动AI制药业务线启动拆分与独立..."
+  },
+  {
+   "rank": 19,
+   "title": "教别人用AI，我赚翻了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4892554.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "教别人用AI，我赚翻了",
+    "教别人用AI，我赚翻了"
+   ],
+   "published_at": "2026-09-20T02:06:50.000000+00:00",
+   "summary": "从9.9元到30万，卖课的先赚到了。定焦One（dingjiaoone）原创AI正在让越来越多技能变得廉价，但“教别人怎么用AI”，反而成了一门越来越具体的生意。它的价格跨度很大。闲鱼上，9.9元的AI教程半年能卖出上万份；有人依靠几百元的付费社群模式，聚集上千名学员；也有人把一对一咨询卖到2000元一小时，...... 本文来自微信公众号： 定焦One ，编辑：陈丹，作者：定焦One团队 从9.9元到30万，卖课的先赚到了。 定焦On..."
+  },
+  {
+   "rank": 20,
+   "title": "鸿蒙迈入 Agent 时代：HarmonyOS 7 重构底层，意图即服务",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.oschina.net/news/502597/hc2026-agentic-era-harmonyos",
+   "score": 5.5,
+   "sources": [
+    "oschina",
+    "ithome"
+   ],
+   "titles": [
+    "鸿蒙迈入 Agent 时代：HarmonyOS 7 重构底层，意图即服务",
+    "华为 Pura X View 阔直板手机获鸿蒙 HarmonyOS 7.0.0.107 SP8 升级，沉浸光感均衡档新增粒子动效"
+   ],
+   "published_at": "2026-09-20T02:26:00+00:00",
+   "summary": "华为全联接大会2026把鸿蒙的定义往前推了一步：HarmonyOS 7 全面向 Agent 架构演进。字面上的变化是，操作系统的交互逻辑从\"人找服务\"变成了\"意图即服务\"——你不用说\"打开某App再点某按钮\"，只管把想干的事说出来，系统自己规划、自己调度去完成。 这背后是底层架构的重做。HarmonyOS 7 的一个核心变化是\"Agent 亲和系统..."
   }
  ]
 }
