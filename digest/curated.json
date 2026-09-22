@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-22T01:41:34.624877+00:00",
+ "generated_at": "2026-09-22T07:51:19.691370+00:00",
  "stats": {
-  "items": 1424,
-  "clusters": 1171,
-  "noise": 441,
-  "dup": 102,
+  "items": 2040,
+  "clusters": 1599,
+  "noise": 422,
+  "dup": 131,
   "history_days": 0,
-  "available_cn": 120,
-  "available_intl": 508,
+  "available_cn": 117,
+  "available_intl": 929,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,42 +16,99 @@
  "items": [
   {
    "rank": 1,
-   "title": "Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications",
+   "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2607.00442",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.22947",
+   "score": 8.0,
    "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-lg"
+    "arxiv-cs-cv",
+    "arxiv-cs-cl"
    ],
    "titles": [
-    "Learning Gait-Aware Quadruped Locomotion with Temporal Logic Specifications",
-    "Efficient Bayes-Adaptive Reinforcement Learning with Temporal Logic Specifications"
+    "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
+    "Rubric-Guided Process Reward for Stepwise Model Routing"
    ],
-   "published_at": "2026-09-21T04:00:00.000000+00:00",
-   "summary": "arXiv:2607.00442v2 Announce Type: replace-cross Abstract: Reinforcement learning (RL) for quadruped locomotion commonly depends on fixed, hand-crafted, and Markovian reward functions that may limit interpretability of le..."
+   "published_at": "2026-09-22T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.22947v1 Announce Type: new Abstract: Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as the cornerstone. However, existing video reward mode..."
   },
   {
    "rank": 2,
-   "title": "An Introduction to Compression-Based Machine Learning",
+   "title": "Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.21309",
-   "score": 6.5,
+   "url": "https://arxiv.org/abs/2609.23715",
+   "score": 8.0,
    "sources": [
-    "arxiv-cs-lg",
-    "reddit-ai-new"
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "An Introduction to Compression-Based Machine Learning",
-    "Systems for Machine Learning[D]"
+    "Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models",
+    "Correlation-Aware Structured Pruning for Large Language Models"
    ],
-   "published_at": "2026-09-21T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.21309v1 Announce Type: new Abstract: Any lossless compression algorithm (like gzip) may be converted into a machine learning method, via either Normalized Compression Distance or the Minimum Description Length..."
+   "published_at": "2026-09-22T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.23715v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) incur substantial computational overhead due to the reliance on hundreds of visual tokens to represent images. While token pruning..."
   },
   {
    "rank": 3,
+   "title": "NeuIDO: Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.24313",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "NeuIDO: Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Models",
+    "Adaptive Physics-Informed Neural Networks for the Blasius Boundary-Layer Problem",
+    "LPINNs: First-Layer Gated Localization for Physics-Informed Neural Networks",
+    "Physics-Informed Classical and Quantum Neural Networks for One-Dimensional Schrodinger Eigenvalue Problems",
+    "Label Propagation for Physics-Informed Neural Networks and Physics-Informed Gaussian Processes"
+   ],
+   "published_at": "2026-09-22T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.24313v1 Announce Type: new Abstract: World models aim to capture environmental dynamics and predict future trajectories, showing growing potential for embodied intelligence. Physics-informed 4D generation inte..."
+  },
+  {
+   "rank": 4,
+   "title": "Strategy Accumulation and Guided Execution for Automated LLM Fine-Tuning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.22257",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-lg",
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "Strategy Accumulation and Guided Execution for Automated LLM Fine-Tuning",
+    "QLoRA Fine-Tuning of Ministral LLM for Sequence-to-Function Protein Annotation"
+   ],
+   "published_at": "2026-09-22T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.22257v1 Announce Type: new Abstract: Producing task-specific large language models requires discovering effective training strategies through experimentation. Automated fine-tuning systems have made this exper..."
+  },
+  {
+   "rank": 5,
+   "title": "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2/",
+   "score": 6.5,
+   "sources": [
+    "nvidia-developer",
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2",
+    "Nvidia Chips, Donald Trump Turn Armenia Into AI Hotspot"
+   ],
+   "published_at": "2026-09-21T15:00:00.000000+00:00",
+   "summary": "Weather-sensitive industries increasingly have access to observations that offer an earlier, more local view of changing conditions. Energy companies collect... Weather-sensitive industries increasingly have access to ob..."
+  },
+  {
+   "rank": 6,
    "title": "Xiaomi MiMo v2.6",
    "lang": "en",
    "region": "intl",
@@ -69,30 +126,12 @@
    "summary": ""
   },
   {
-   "rank": 4,
-   "title": "BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2605.09134",
-   "score": 5.5,
-   "sources": [
-    "arxiv-cs-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models",
-    "Automated Reinforcement Learning should scare you"
-   ],
-   "published_at": "2026-09-21T04:00:00.000000+00:00",
-   "summary": "arXiv:2605.09134v4 Announce Type: replace Abstract: Reinforcement learning for program repair is hindered by sparse execution feedback and coarse sequence-level rewards that obscure which edits actually fix bugs. We pres..."
-  },
-  {
-   "rank": 5,
+   "rank": 7,
    "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
    "lang": "en",
    "region": "intl",
    "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
-   "score": 4.5,
+   "score": 4.0,
    "sources": [
     "nvidia-blog"
    ],
@@ -103,23 +142,7 @@
    "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi..."
   },
   {
-   "rank": 6,
-   "title": "OnomatoBridge: Onomatopoeia Translation and Rendering Pipeline in Manga",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.21199",
-   "score": 4.0,
-   "sources": [
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "OnomatoBridge: Onomatopoeia Translation and Rendering Pipeline in Manga"
-   ],
-   "published_at": "2026-09-21T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.21199v1 Announce Type: new Abstract: Manga is a comic drawn by black and white paints gaining popularity around the world. Onomatopoeia in Manga specifically appeals to the audience with its unique visual styl..."
-  },
-  {
-   "rank": 7,
+   "rank": 8,
    "title": "Deepseek training 2T and plans 8T model",
    "lang": "en",
    "region": "intl",
@@ -137,87 +160,7 @@
    "summary": "Quote: DeepSeek is training a 2T-parameter model and plans to eventually build an 8T-parameter model. https://x.com/wallstengine/status/2101982843656388644 Current DeepSeek models: Flash parameter count of 552 billion Pr..."
   },
   {
-   "rank": 8,
-   "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack"
-   ],
-   "published_at": "2026-09-21T14:51:34.000000+00:00",
-   "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security en..."
-  },
-  {
    "rank": 9,
-   "title": "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2"
-   ],
-   "published_at": "2026-09-21T15:00:00.000000+00:00",
-   "summary": "Weather-sensitive industries increasingly have access to observations that offer an earlier, more local view of changing conditions. Energy companies collect... Weather-sensitive industries increasingly have access to ob..."
-  },
-  {
-   "rank": 10,
-   "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale"
-   ],
-   "published_at": "2026-09-21T16:00:10.000000+00:00",
-   "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — build..."
-  },
-  {
-   "rank": 11,
-   "title": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
-   "score": 3.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution"
-   ],
-   "published_at": "2026-09-21T16:24:40.000000+00:00",
-   "summary": "Insurance claims adjusters spend over 100 minutes per case manually reviewing medical records. The EXL AI-powered Medical intelligent document processing (IDP) solution, built on AWS, transforms this process. It combines..."
-  },
-  {
-   "rank": 12,
-   "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
-   "score": 3.5,
-   "sources": [
-    "amazon-science"
-   ],
-   "titles": [
-    "Advancing AI for biology: Teaching models to design and characterize antibodies"
-   ],
-   "published_at": "2026-09-21T17:51:00.000000+00:00",
-   "summary": "Monoclonal antibodies are one of the workhorses of biopharmaceutical development, with over 100 FDA-approved drugs and well-established manufacturing, regulatory, and clinical-development pathways. Yet conventional antib..."
-  },
-  {
-   "rank": 13,
    "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
    "lang": "en",
    "region": "intl",
@@ -233,44 +176,146 @@
    "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and... When you ship an AI agent, the key question is whether it ca..."
   },
   {
-   "rank": 14,
-   "title": "ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen",
+   "rank": 10,
+   "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/",
+   "url": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
    "score": 3.5,
    "sources": [
-    "the-decoder"
+    "marktechpost"
    ],
    "titles": [
-    "ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen"
+    "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%"
    ],
-   "published_at": "2026-09-21T16:01:31.000000+00:00",
-   "summary": "Bytedance launched Dramagic, an AI platform that handles the entire short drama production pipeline, from script to video preview. Demand for these videos is surging in China: In Q1 2026 alone, 128,000 short dramas were..."
+   "published_at": "2026-09-22T05:04:43+00:00",
+   "summary": "Coding agents now run for hours, not minutes. Every edit, test run and log read goes back into the model’s context. A team of researchers from NVIDIA, NTU and MIT have released SoL-Pi , a set of 4 efficiency mechanisms f..."
+  },
+  {
+   "rank": 11,
+   "title": "AI Cloud Startup Verda Raises $189 Million in Funding Round",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-22/ai-cloud-startup-verda-raises-189-million-in-funding-round",
+   "score": 3.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "AI Cloud Startup Verda Raises $189 Million in Funding Round"
+   ],
+   "published_at": "2026-09-22T06:23:36.000000+00:00",
+   "summary": "Cloud startup Verda has raised $189 million in fresh financing, underscoring continued investor appetite for the infrastructure powering the artificial intelligence boom."
+  },
+  {
+   "rank": 12,
+   "title": "What is AI analytics? Why it only works on governed data",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/what-ai-analytics-why-it-only-works-governed-data",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "What is AI analytics? Why it only works on governed data"
+   ],
+   "published_at": "2026-09-15T16:45:03.000000+00:00",
+   "summary": "AI analytics is the practice of applying artificial intelligence and machine learning to data analysis..."
+  },
+  {
+   "rank": 13,
+   "title": "Data Ontology defined: The context layer your AI agents are missing",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/data-ontology-defined-context-layer-your-ai-agents-are-missing",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "Data Ontology defined: The context layer your AI agents are missing"
+   ],
+   "published_at": "2026-09-15T16:59:01.000000+00:00",
+   "summary": "Ask five people at the same company what \"revenue\" means and there's a chance you'll get five different answers..."
+  },
+  {
+   "rank": 14,
+   "title": "How V7 gives AI agents institutional memory",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/v7",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "How V7 gives AI agents institutional memory"
+   ],
+   "published_at": "2026-09-21T00:00:00.000000+00:00",
+   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
   },
   {
    "rank": 15,
-   "title": "京东方迄今最新、水准最高的 Q11 发光材料，vivo X500 Pro Max 手机 2K 蔡司大师色彩屏亮点公布",
+   "title": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/005/099.htm",
-   "score": 6.5,
+   "url": "https://www.ithome.com/1/005/587.htm",
+   "score": 9.5,
    "sources": [
     "ithome",
-    "zhidx"
+    "tmtpost",
+    "qbitai"
    ],
    "titles": [
-    "京东方迄今最新、水准最高的 Q11 发光材料，vivo X500 Pro Max 手机 2K 蔡司大师色彩屏亮点公布",
-    "vivo X500 Pro 系列全新配色「大地回声」公布，带细闪星光",
-    "vivo X500 Pro 手机部分规格公布：天玑 9600 Pro、全球首发蔡司超动态主摄，今晚发布",
-    "vivo X500 手机发布：首发天玑 9600M、8K 原生 Live，5499 元起",
-    "5499元起，vivo X500系列三机齐发：动态影像成核心战略，首发2nm旗舰芯"
+    "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
+    "阿里巴巴吴泳铭：未来模型将扩展至5-10T参数规模，到2032年运营的数据中心规模超过20GW ｜ 钛快讯",
+    "阿里 Qwen4 和下代视频模型训练中，Qwen4.5 后模型将扩展至 5-10T 参数",
+    "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
+    "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数"
    ],
-   "published_at": "2026-09-21T02:53:05+00:00",
-   "summary": "IT之家 9 月 21 日消息，vivo X500 Pro Max 手机将全球首发 Q11 发光材料 2K 蔡司大师色彩屏。京东方 BOE 表示， 这是其迄今最新、水准最高的 Q11 发光材料 。 据京东方介绍，新机屏幕尺寸达到 6.85 英寸，可实现整机功耗降低 21%、使用寿命提升 100%，并拥有电影级全链路色彩显示、超感光自动亮度等“黑科技”。此外，通过集成京东方 LTPO 自适应刷新技术， 可实现 1-144Hz 不同使用场景..."
+   "published_at": "2026-09-22T02:36:16+00:00",
+   "summary": "IT之家 9 月 22 日消息，IT之家今日从 2026 年云栖大会现场获悉，阿里巴巴 CEO 吴泳铭表示，当前客户 AI 需求非常强劲，将全力投入 AI 基础设施建设， 目标到 2032 年阿里云运营的全球数据中心规模超过 20GW 。 2026 云栖大会今日（9 月 22 日）上午在浙江杭州开幕， 英伟达位列本次大会巅峰合作伙伴，是本届云栖大会最高等级合作伙伴 。英特尔、AMD 分获钻石、红宝石合作伙伴。 阿里巴巴集团 CEO 吴泳..."
   },
   {
    "rank": 16,
+   "title": "openKylin 3.0 不止桌面，服务器版本了解一下",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.oschina.net/news/502650",
+   "score": 6.5,
+   "sources": [
+    "oschina",
+    "ithome"
+   ],
+   "titles": [
+    "openKylin 3.0 不止桌面，服务器版本了解一下",
+    "龙芯发布自研通用 GPU 加速计算平台首个软件版本：支持 OpenCL 3.0、CUDA 及 AI 推理"
+   ],
+   "published_at": "2026-09-21T10:03:18+00:00",
+   "summary": "近期，随着 OpenAtom openKylin（以下简称“openKylin”）3.0 版本的发布，社区同步推出了面向服务器场景的 openKylin 3.0 服务器版本，为数据中心、高性能计算、AI 基础设施和云计算等场景提供系统基础。 服务器版本进一步拓展了 openKylin 的应用范围，社区开发者与生态伙伴可以在多架构服务器环境中开展软件构建、应用..."
+  },
+  {
+   "rank": 17,
+   "title": "千问 AI 眼镜 N1 系列亮相阿里云栖大会：支持眼动追踪与虹膜支付，10 月 13 日发售",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/005/647.htm",
+   "score": 6.0,
+   "sources": [
+    "ithome",
+    "leiphone"
+   ],
+   "titles": [
+    "千问 AI 眼镜 N1 系列亮相阿里云栖大会：支持眼动追踪与虹膜支付，10 月 13 日发售",
+    "千问新一代AI硬件云栖大会首次集中亮相，10月13日现货发售",
+    "千问新一代AI硬件云栖大会首次集中亮相，10月13日现货发售"
+   ],
+   "published_at": "2026-09-22T04:23:51+00:00",
+   "summary": "IT之家 9 月 22 日消息，阿里巴巴“2026 云栖大会”于 9 月 22 日-24 日在杭州举行，IT之家亲临现场，将为大家持续带来相关报道。 除了一系列软件成果之外，阿里还展示了其新一代全系列千问 AI 硬件产品，包含千问 AI 眼镜 N1、N1 Pro 及千问 AI 耳夹式耳机。三款新品已开启线上预约，并将于 10 月 13 日现货发售。 据官方介绍，N1 系列搭载 5000 万像素传感器，支持第一视角拍摄。其中，N1 Pro..."
+  },
+  {
+   "rank": 18,
    "title": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "lang": "en",
    "region": "cn",
@@ -286,74 +331,40 @@
    "summary": "text-generation, transformers, safetensors, mimo_v2, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, 8-bit, fp8, region:us"
   },
   {
-   "rank": 17,
-   "title": "三大巨头接连翻车，大模型的安全防线怎么总绷不住？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892792.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "三大巨头接连翻车，大模型的安全防线怎么总绷不住？",
-    "三大巨头接连翻车，大模型的安全防线怎么总绷不住？"
-   ],
-   "published_at": "2026-09-21T03:04:33.000000+00:00",
-   "summary": "先是Anthropic，再是OpenAI，现在连谷歌的Gemini也出现安全问题了，大模型又双叒叕一次突破防火墙了。不过，这些事故看多了，反倒会让人意识到一件更根本的事，整个行业都在拼命地堆算力、喂数据，甚至开始押注让模型自己改进自己的“递归自我改进”（RSI）。可真正决定这些模型能走多远的，或许并不是性能，...... 本文来自微信公众号： 字母AI ，作者：苗正 先是Anthropic，再是OpenAI，现在连谷歌的Gemini也出..."
-  },
-  {
-   "rank": 18,
-   "title": "AI能救电视台吗？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4892796.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI能救电视台吗？",
-    "AI能救电视台吗？"
-   ],
-   "published_at": "2026-09-21T03:09:40.000000+00:00",
-   "summary": "不是弯道超车，是救命稻草。在AI的潮流面前，电视台也不想被落下。9月17日，《后西游记》原班人马制作的AIGC纪录片《台湾岛纪》在湖南卫视、芒果TV播出，加上即将在国庆期间上线的《后西游记》“战天宫篇”，不到一个月时间里，湖南广电紧锣密鼓发布了三部AI长篇叙事的作品。尝鲜AI内容的不止湖南卫视，包括江苏、浙江...... 本文来自微信公众号： 虚眸 ，编辑：刘南豆，作者：虚眸编辑部 不是弯道超车，是救命稻草。 在AI的潮流面前，电视台也..."
-  },
-  {
    "rank": 19,
-   "title": "中国Neocloud市场第一！商汤大装置全面领跑",
+   "title": "“无限包月”没来，AI只能是下一个“拨号上网”",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/493175.html",
+   "url": "https://www.huxiu.com/article/4892991.html",
    "score": 5.5,
    "sources": [
-    "qbitai",
-    "36kr-newsflash"
+    "huxiu",
+    "36kr-ai"
    ],
    "titles": [
-    "中国Neocloud市场第一！商汤大装置全面领跑",
-    "报告：商汤大装置位居中国Neocloud市场第一"
+    "“无限包月”没来，AI只能是下一个“拨号上网”",
+    "“无限包月”没来，AI只能是下一个“拨号上网”"
    ],
-   "published_at": "2026-09-21T03:32:03+00:00",
-   "summary": "沙利文报告"
+   "published_at": "2026-09-21T13:11:02.000000+00:00",
+   "summary": "“贵”是表象，是时候反思当下的AI商业模式了。最近，我一直在观察AI圈的各类前沿讨论。大家热衷于探讨模型能力的边界、Agent的未来形态，以及本地AI的崛起。其中，陈大年的一个判断让我感触颇深：本地模型试图解决的一个核心痛点，除了安全隐私问题，还有一个重要的痛点是：“贵”。陈大年是盛大网络、连尚网络创始人，2...... 本文来自微信公众号： 数智人文观 ，作者：何菲 “贵”是表象，是时候反思当下的AI商业模式了。 最近，我一直在观察A..."
   },
   {
    "rank": 20,
-   "title": "tencent/EVIE-4.5B",
-   "lang": "en",
+   "title": "AI踩刹车，黄仁勋踩油门",
+   "lang": "zh",
    "region": "cn",
-   "url": "https://huggingface.co/tencent/EVIE-4.5B",
-   "score": 4.46,
+   "url": "https://www.huxiu.com/article/4893012.html",
+   "score": 5.5,
    "sources": [
-    "hf-models-cn"
+    "huxiu",
+    "tmtpost"
    ],
    "titles": [
-    "tencent/EVIE-4.5B"
+    "AI踩刹车，黄仁勋踩油门",
+    "AI踩刹车，黄仁勋踩油门"
    ],
-   "published_at": "2026-09-17T07:02:36.000000+00:00",
-   "summary": "visual-document-retrieval, colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka, vidore, token-compression, sentence-transformers, dataset:vidore/vidore_benchmark, da..."
+   "published_at": "2026-09-21T15:30:31.000000+00:00",
+   "summary": "黄仁勋又卖英伟达了。9月16日，英伟达向美国SEC披露的一份文件显示，黄仁勋处置了4.57万股英伟达股票，价格约212美元。乍看，这是一个很容易被放大的信号。英伟达股价持续上扬，AI行业却开始出现另一种声音：投入太快了，资本开支太大了，模型越来越便宜之后，还需要这么多算力吗？偏偏在这个时候，黄仁勋还在踩油门。...... 本文来自微信公众号： 版面之外 ，作者：版君 黄仁勋又卖英伟达了。 9月16日，英伟达向美国SEC披露的一份文件显示..."
   }
  ]
 }
