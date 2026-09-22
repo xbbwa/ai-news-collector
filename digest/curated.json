@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-22T13:32:49.006609+00:00",
+ "generated_at": "2026-09-22T18:12:41.021577+00:00",
  "stats": {
-  "items": 2204,
-  "clusters": 1696,
-  "noise": 474,
-  "dup": 127,
+  "items": 2250,
+  "clusters": 1681,
+  "noise": 442,
+  "dup": 122,
   "history_days": 0,
-  "available_cn": 132,
-  "available_intl": 963,
+  "available_cn": 139,
+  "available_intl": 978,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,11 +16,31 @@
  "items": [
   {
    "rank": 1,
+   "title": "Trump says the US is officially renaming AI to ‘super intelligence’",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
+   "score": 7.59,
+   "sources": [
+    "theverge-ai",
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Trump says the US is officially renaming AI to ‘super intelligence’",
+    "AI will be renamed ‘super intelligence’ in all US documents",
+    "Trump says AI will be renamed 'super intelligence' in all US documents"
+   ],
+   "published_at": "2026-09-22T16:01:10.000000+00:00",
+   "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change , and transgender people while also claiming that the US is now \"officially\" renaming artificial inte..."
+  },
+  {
+   "rank": 2,
    "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.22947",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-cl"
@@ -33,12 +53,12 @@
    "summary": "arXiv:2609.22947v1 Announce Type: new Abstract: Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as the cornerstone. However, existing video reward mode..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.23715",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-lg"
@@ -51,12 +71,12 @@
    "summary": "arXiv:2609.23715v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) incur substantial computational overhead due to the reliance on hundreds of visual tokens to represent images. While token pruning..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "NeuIDO: Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Models",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.24313",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-lg"
@@ -72,12 +92,12 @@
    "summary": "arXiv:2609.24313v1 Announce Type: new Abstract: World models aim to capture environmental dynamics and predict future trajectories, showing growing potential for embodied intelligence. Physics-informed 4D generation inte..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Strategy Accumulation and Guided Execution for Automated LLM Fine-Tuning",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.22257",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-lg",
     "arxiv-cs-cl"
@@ -90,7 +110,25 @@
    "summary": "arXiv:2609.22257v1 Announce Type: new Abstract: Producing task-specific large language models requires discovering effective training strategies through experimentation. Automated fine-tuning systems have made this exper..."
   },
   {
-   "rank": 5,
+   "rank": 6,
+   "title": "The Genie One MCP is now Generally Available",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available",
+   "score": 7.0,
+   "sources": [
+    "databricks-blog",
+    "simon-willison"
+   ],
+   "titles": [
+    "The Genie One MCP is now Generally Available",
+    "Cloudflare Python Workers are now generally available"
+   ],
+   "published_at": "2026-09-22T16:00:00.000000+00:00",
+   "summary": "AI coworkers and coding agents are spreading fast across organizations, and each..."
+  },
+  {
+   "rank": 7,
    "title": "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2",
    "lang": "en",
    "region": "intl",
@@ -108,7 +146,7 @@
    "summary": "Weather-sensitive industries increasingly have access to observations that offer an earlier, more local view of changing conditions. Energy companies collect... Weather-sensitive industries increasingly have access to ob..."
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "Xiaomi MiMo v2.6",
    "lang": "en",
    "region": "intl",
@@ -126,25 +164,39 @@
    "summary": ""
   },
   {
-   "rank": 7,
-   "title": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+   "rank": 9,
+   "title": "perplexity-ai/PII-Tracer",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
-   "score": 4.5,
+   "url": "https://huggingface.co/perplexity-ai/PII-Tracer",
+   "score": 5.31,
    "sources": [
-    "guardian-ai",
-    "reddit-ai-new"
+    "hf-models-intl"
    ],
    "titles": [
-    "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
-    "NVIDIA CEO Claims '0% Chance' AI Will End the World by 2030"
+    "perplexity-ai/PII-Tracer"
    ],
-   "published_at": "2026-09-21T10:31:47.000000+00:00",
-   "summary": "Jensen Huang dismisses warnings from former Anthropic researcher and others as ‘doomsday narratives’ Business live – latest updates The boss of the chipmaker Nvidia has said AI will not develop to a point that will lead..."
+   "published_at": "2026-09-22T17:28:05.000000+00:00",
+   "summary": "token-classification, safetensors, pii_masking, pii, privacy, qwen3, custom_code, en, multilingual, arxiv:2609.22200, license:mit, region:us"
   },
   {
-   "rank": 8,
+   "rank": 10,
+   "title": "perplexity-ai/PII-Tracer-MLX",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/perplexity-ai/PII-Tracer-MLX",
+   "score": 4.1,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "perplexity-ai/PII-Tracer-MLX"
+   ],
+   "published_at": "2026-09-22T17:28:06.000000+00:00",
+   "summary": "token-classification, mlx, pii, privacy, qwen3, apple-silicon, en, multilingual, arxiv:2609.22200, base_model:perplexity-ai/PII-Tracer, base_model:finetune:perplexity-ai/PII-Tracer, license:mit, region:us"
+  },
+  {
+   "rank": 11,
    "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
    "lang": "en",
    "region": "intl",
@@ -160,102 +212,52 @@
    "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi..."
   },
   {
-   "rank": 9,
-   "title": "Deepseek training 2T and plans 8T model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/",
-   "score": 3.56,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Deepseek training 2T and plans 8T model",
-    "DeepSeek is training a 2T-parameter model and plans to build an 8T-parameter one"
-   ],
-   "published_at": "2026-09-21T12:38:08.000000+00:00",
-   "summary": "Quote: DeepSeek is training a 2T-parameter model and plans to eventually build an 8T-parameter model. https://x.com/wallstengine/status/2101982843656388644 Current DeepSeek models: Flash parameter count of 552 billion Pr..."
-  },
-  {
-   "rank": 10,
-   "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%"
-   ],
-   "published_at": "2026-09-22T05:04:43+00:00",
-   "summary": "Coding agents now run for hours, not minutes. Every edit, test run and log read goes back into the model’s context. A team of researchers from NVIDIA, NTU and MIT have released SoL-Pi , a set of 4 efficiency mechanisms f..."
-  },
-  {
-   "rank": 11,
-   "title": "AI Cloud Startup Verda Raises $189 Million in Funding Round",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-22/ai-cloud-startup-verda-raises-189-million-in-funding-round",
-   "score": 3.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "AI Cloud Startup Verda Raises $189 Million in Funding Round"
-   ],
-   "published_at": "2026-09-22T06:23:36.000000+00:00",
-   "summary": "Cloud startup Verda has raised $189 million in fresh financing, underscoring continued investor appetite for the infrastructure powering the artificial intelligence boom."
-  },
-  {
    "rank": 12,
-   "title": "Andreessen Horowitz Launches AI School as a College Alternative",
+   "title": "Extending public sector intelligence with Agentforce and AWS",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-22/andreessen-horowitz-launches-ai-school-as-a-college-alternative",
+   "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
    "score": 3.5,
    "sources": [
-    "bloomberg-tech"
+    "aws-ml-blog"
    ],
    "titles": [
-    "Andreessen Horowitz Launches AI School as a College Alternative"
+    "Extending public sector intelligence with Agentforce and AWS"
    ],
-   "published_at": "2026-09-22T13:00:29.000000+00:00",
-   "summary": "Venture capital firm Andreessen Horowitz is launching a new program aimed at recent high school graduates and college dropouts that will identify and train young talent building artificial intelligence products."
+   "published_at": "2026-09-22T15:17:45.000000+00:00",
+   "summary": "Public sector agencies process large volumes of unstructured evidence, such as body camera footage, surveillance video, and scanned documents, that require extracting insights before anyone can act on them. This post sho..."
   },
   {
    "rank": 13,
-   "title": "What is AI analytics? Why it only works on governed data",
+   "title": "How Tata Elxsi detects industrial safety risks in seconds on AWS",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.databricks.com/blog/what-ai-analytics-why-it-only-works-governed-data",
-   "score": 3.0,
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
+   "score": 3.5,
    "sources": [
-    "databricks-blog"
+    "aws-ml-blog"
    ],
    "titles": [
-    "What is AI analytics? Why it only works on governed data"
+    "How Tata Elxsi detects industrial safety risks in seconds on AWS"
    ],
-   "published_at": "2026-09-15T16:45:03.000000+00:00",
-   "summary": "AI analytics is the practice of applying artificial intelligence and machine learning to data analysis..."
+   "published_at": "2026-09-22T15:19:54.000000+00:00",
+   "summary": "Detecting industrial safety risks in seconds, not minutes, is what keeps workers safe on an active plant floor. This is what Tata Elxsi set out to deliver by building IRIS, a real-time industrial safety platform on AWS...."
   },
   {
    "rank": 14,
-   "title": "Data Ontology defined: The context layer your AI agents are missing",
+   "title": "Genie One MCP: Give any AI Agent the Right Business Context",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.databricks.com/blog/data-ontology-defined-context-layer-your-ai-agents-are-missing",
-   "score": 3.0,
+   "url": "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context",
+   "score": 3.5,
    "sources": [
     "databricks-blog"
    ],
    "titles": [
-    "Data Ontology defined: The context layer your AI agents are missing"
+    "Genie One MCP: Give any AI Agent the Right Business Context"
    ],
-   "published_at": "2026-09-15T16:59:01.000000+00:00",
-   "summary": "Ask five people at the same company what \"revenue\" means and there's a chance you'll get five different answers..."
+   "published_at": "2026-09-22T16:00:00.000000+00:00",
+   "summary": "Business leaders often have access to plenty of data, but still can’t get a reliable..."
   },
   {
    "rank": 15,
@@ -263,7 +265,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/005/587.htm",
-   "score": 9.5,
+   "score": 9.0,
    "sources": [
     "ithome",
     "tmtpost",
@@ -281,24 +283,6 @@
   },
   {
    "rank": 16,
-   "title": "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/005/589.htm",
-   "score": 7.0,
-   "sources": [
-    "ithome",
-    "leiphone"
-   ],
-   "titles": [
-    "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用",
-    "WorkRally 首发接入Hy Image3.5 preview，为专业影视创作开放两周免费体验"
-   ],
-   "published_at": "2026-09-22T02:47:27+00:00",
-   "summary": "IT之家 9 月 22 日消息，腾讯混元团队今日宣布推出 Hy Image3.5 preview 模型。腾讯称该模型面向专业级生图创作，支持文生图、图生图和多轮对话创作。 腾讯称，该模型经过内部数百名专业设计师 GSB 盲测，对比 Hy Image3.0 提升 30%，与 Seedream 5.0 pro 持平，略优于 Nano-Banana Pro 和 Qwen-Image-3.0 Pro。 IT之家注：GSB 盲测是一种成对比较评测..."
-  },
-  {
-   "rank": 17,
    "title": "499元，OPPO发了一款别在领口的AI新硬件",
    "lang": "zh",
    "region": "cn",
@@ -316,7 +300,7 @@
    "summary": "智东西 作者 | 云鹏 编辑 | 李水青 智东西9月22日深圳晚间报道，昨天vivo刚刚出招，今天OPPO就紧接着掏出了自家年度旗舰机Find X10系列，其核心定位还是影像旗舰，Pro Max版首发了三颗2亿像素镜头群。 作为发布会的“One More Thing”，OPPO首席产品官刘作虎正式发布了售价499元的OPPO AI“心力球”，实际上这是一个AI穿戴产品，可以别在领口。 其核心能力就是全天记录，用刘作虎的话来说，它可以识别..."
   },
   {
-   "rank": 18,
+   "rank": 17,
    "title": "小米 MiMo-V2.6 发布并开源：Pro 与 Flash 双版本，API 价格与前代持平",
    "lang": "zh",
    "region": "cn",
@@ -332,6 +316,24 @@
    ],
    "published_at": "2026-09-21T23:05:45+00:00",
    "summary": "IT之家 9 月 22 日消息，小米今日凌晨正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列，包含 Pro 与 Flash 两个原生全模态模型。 小米称这是其探索 RSI（递归自我改进）路径的关键一步，通过规模化扩展强化学习算力，让模型在持续的探索与反馈中拓展智能边界。 得益于 RL 算力的扩展，MiMo-V2.6-Pro 在 Artificial Analysis Intelligence Index（AA 综合智能指数..."
+  },
+  {
+   "rank": 18,
+   "title": "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/005/589.htm",
+   "score": 6.5,
+   "sources": [
+    "ithome",
+    "leiphone"
+   ],
+   "titles": [
+    "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用",
+    "WorkRally 首发接入Hy Image3.5 preview，为专业影视创作开放两周免费体验"
+   ],
+   "published_at": "2026-09-22T02:47:27+00:00",
+   "summary": "IT之家 9 月 22 日消息，腾讯混元团队今日宣布推出 Hy Image3.5 preview 模型。腾讯称该模型面向专业级生图创作，支持文生图、图生图和多轮对话创作。 腾讯称，该模型经过内部数百名专业设计师 GSB 盲测，对比 Hy Image3.0 提升 30%，与 Seedream 5.0 pro 持平，略优于 Nano-Banana Pro 和 Qwen-Image-3.0 Pro。 IT之家注：GSB 盲测是一种成对比较评测..."
   },
   {
    "rank": 19,
@@ -353,21 +355,21 @@
   },
   {
    "rank": 20,
-   "title": "“无限包月”没来，AI只能是下一个“拨号上网”",
+   "title": "AI踩刹车，黄仁勋踩油门",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4892991.html",
+   "url": "https://www.huxiu.com/article/4893012.html",
    "score": 5.5,
    "sources": [
     "huxiu",
-    "36kr-ai"
+    "tmtpost"
    ],
    "titles": [
-    "“无限包月”没来，AI只能是下一个“拨号上网”",
-    "“无限包月”没来，AI只能是下一个“拨号上网”"
+    "AI踩刹车，黄仁勋踩油门",
+    "AI踩刹车，黄仁勋踩油门"
    ],
-   "published_at": "2026-09-21T13:11:02.000000+00:00",
-   "summary": "“贵”是表象，是时候反思当下的AI商业模式了。最近，我一直在观察AI圈的各类前沿讨论。大家热衷于探讨模型能力的边界、Agent的未来形态，以及本地AI的崛起。其中，陈大年的一个判断让我感触颇深：本地模型试图解决的一个核心痛点，除了安全隐私问题，还有一个重要的痛点是：“贵”。陈大年是盛大网络、连尚网络创始人，2...... 本文来自微信公众号： 数智人文观 ，作者：何菲 “贵”是表象，是时候反思当下的AI商业模式了。 最近，我一直在观察A..."
+   "published_at": "2026-09-21T15:30:31.000000+00:00",
+   "summary": "黄仁勋又卖英伟达了。9月16日，英伟达向美国SEC披露的一份文件显示，黄仁勋处置了4.57万股英伟达股票，价格约212美元。乍看，这是一个很容易被放大的信号。英伟达股价持续上扬，AI行业却开始出现另一种声音：投入太快了，资本开支太大了，模型越来越便宜之后，还需要这么多算力吗？偏偏在这个时候，黄仁勋还在踩油门。...... 本文来自微信公众号： 版面之外 ，作者：版君 黄仁勋又卖英伟达了。 9月16日，英伟达向美国SEC披露的一份文件显示..."
   }
  ]
 }
