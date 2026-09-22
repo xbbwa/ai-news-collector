@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-22T07:51:19.691370+00:00",
+ "generated_at": "2026-09-22T13:32:49.006609+00:00",
  "stats": {
-  "items": 2040,
-  "clusters": 1599,
-  "noise": 422,
-  "dup": 131,
+  "items": 2204,
+  "clusters": 1696,
+  "noise": 474,
+  "dup": 127,
   "history_days": 0,
-  "available_cn": 117,
-  "available_intl": 929,
+  "available_cn": 132,
+  "available_intl": 963,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -113,7 +113,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://mimo.xiaomi.com/mimo-v2-6",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "hackernews-ai",
     "reddit-ai-new"
@@ -127,6 +127,24 @@
   },
   {
    "rank": 7,
+   "title": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+   "score": 4.5,
+   "sources": [
+    "guardian-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+    "NVIDIA CEO Claims '0% Chance' AI Will End the World by 2030"
+   ],
+   "published_at": "2026-09-21T10:31:47.000000+00:00",
+   "summary": "Jensen Huang dismisses warnings from former Anthropic researcher and others as ‘doomsday narratives’ Business live – latest updates The boss of the chipmaker Nvidia has said AI will not develop to a point that will lead..."
+  },
+  {
+   "rank": 8,
    "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
    "lang": "en",
    "region": "intl",
@@ -142,7 +160,7 @@
    "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fi..."
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "Deepseek training 2T and plans 8T model",
    "lang": "en",
    "region": "intl",
@@ -158,22 +176,6 @@
    ],
    "published_at": "2026-09-21T12:38:08.000000+00:00",
    "summary": "Quote: DeepSeek is training a 2T-parameter model and plans to eventually build an 8T-parameter model. https://x.com/wallstengine/status/2101982843656388644 Current DeepSeek models: Flash parameter count of 552 billion Pr..."
-  },
-  {
-   "rank": 9,
-   "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "How to Evaluate AI Agents From Tool Calls to Task Completion"
-   ],
-   "published_at": "2026-09-21T21:05:28.000000+00:00",
-   "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and... When you ship an AI agent, the key question is whether it ca..."
   },
   {
    "rank": 10,
@@ -209,6 +211,22 @@
   },
   {
    "rank": 12,
+   "title": "Andreessen Horowitz Launches AI School as a College Alternative",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-22/andreessen-horowitz-launches-ai-school-as-a-college-alternative",
+   "score": 3.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Andreessen Horowitz Launches AI School as a College Alternative"
+   ],
+   "published_at": "2026-09-22T13:00:29.000000+00:00",
+   "summary": "Venture capital firm Andreessen Horowitz is launching a new program aimed at recent high school graduates and college dropouts that will identify and train young talent building artificial intelligence products."
+  },
+  {
+   "rank": 13,
    "title": "What is AI analytics? Why it only works on governed data",
    "lang": "en",
    "region": "intl",
@@ -224,7 +242,7 @@
    "summary": "AI analytics is the practice of applying artificial intelligence and machine learning to data analysis..."
   },
   {
-   "rank": 13,
+   "rank": 14,
    "title": "Data Ontology defined: The context layer your AI agents are missing",
    "lang": "en",
    "region": "intl",
@@ -238,22 +256,6 @@
    ],
    "published_at": "2026-09-15T16:59:01.000000+00:00",
    "summary": "Ask five people at the same company what \"revenue\" means and there's a chance you'll get five different answers..."
-  },
-  {
-   "rank": 14,
-   "title": "How V7 gives AI agents institutional memory",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/v7",
-   "score": 3.0,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "How V7 gives AI agents institutional memory"
-   ],
-   "published_at": "2026-09-21T00:00:00.000000+00:00",
-   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
   },
   {
    "rank": 15,
@@ -279,59 +281,78 @@
   },
   {
    "rank": 16,
-   "title": "openKylin 3.0 不止桌面，服务器版本了解一下",
+   "title": "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.oschina.net/news/502650",
-   "score": 6.5,
-   "sources": [
-    "oschina",
-    "ithome"
-   ],
-   "titles": [
-    "openKylin 3.0 不止桌面，服务器版本了解一下",
-    "龙芯发布自研通用 GPU 加速计算平台首个软件版本：支持 OpenCL 3.0、CUDA 及 AI 推理"
-   ],
-   "published_at": "2026-09-21T10:03:18+00:00",
-   "summary": "近期，随着 OpenAtom openKylin（以下简称“openKylin”）3.0 版本的发布，社区同步推出了面向服务器场景的 openKylin 3.0 服务器版本，为数据中心、高性能计算、AI 基础设施和云计算等场景提供系统基础。 服务器版本进一步拓展了 openKylin 的应用范围，社区开发者与生态伙伴可以在多架构服务器环境中开展软件构建、应用..."
-  },
-  {
-   "rank": 17,
-   "title": "千问 AI 眼镜 N1 系列亮相阿里云栖大会：支持眼动追踪与虹膜支付，10 月 13 日发售",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/005/647.htm",
-   "score": 6.0,
+   "url": "https://www.ithome.com/1/005/589.htm",
+   "score": 7.0,
    "sources": [
     "ithome",
     "leiphone"
    ],
    "titles": [
-    "千问 AI 眼镜 N1 系列亮相阿里云栖大会：支持眼动追踪与虹膜支付，10 月 13 日发售",
-    "千问新一代AI硬件云栖大会首次集中亮相，10月13日现货发售",
-    "千问新一代AI硬件云栖大会首次集中亮相，10月13日现货发售"
+    "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用",
+    "WorkRally 首发接入Hy Image3.5 preview，为专业影视创作开放两周免费体验"
    ],
-   "published_at": "2026-09-22T04:23:51+00:00",
-   "summary": "IT之家 9 月 22 日消息，阿里巴巴“2026 云栖大会”于 9 月 22 日-24 日在杭州举行，IT之家亲临现场，将为大家持续带来相关报道。 除了一系列软件成果之外，阿里还展示了其新一代全系列千问 AI 硬件产品，包含千问 AI 眼镜 N1、N1 Pro 及千问 AI 耳夹式耳机。三款新品已开启线上预约，并将于 10 月 13 日现货发售。 据官方介绍，N1 系列搭载 5000 万像素传感器，支持第一视角拍摄。其中，N1 Pro..."
+   "published_at": "2026-09-22T02:47:27+00:00",
+   "summary": "IT之家 9 月 22 日消息，腾讯混元团队今日宣布推出 Hy Image3.5 preview 模型。腾讯称该模型面向专业级生图创作，支持文生图、图生图和多轮对话创作。 腾讯称，该模型经过内部数百名专业设计师 GSB 盲测，对比 Hy Image3.0 提升 30%，与 Seedream 5.0 pro 持平，略优于 Nano-Banana Pro 和 Qwen-Image-3.0 Pro。 IT之家注：GSB 盲测是一种成对比较评测..."
+  },
+  {
+   "rank": 17,
+   "title": "499元，OPPO发了一款别在领口的AI新硬件",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/596570.html",
+   "score": 7.0,
+   "sources": [
+    "zhidx",
+    "ithome"
+   ],
+   "titles": [
+    "499元，OPPO发了一款别在领口的AI新硬件",
+    "OPPO 推出“AI 心力球”可穿戴新品，体验价 499 元"
+   ],
+   "published_at": "2026-09-22T11:00:29+00:00",
+   "summary": "智东西 作者 | 云鹏 编辑 | 李水青 智东西9月22日深圳晚间报道，昨天vivo刚刚出招，今天OPPO就紧接着掏出了自家年度旗舰机Find X10系列，其核心定位还是影像旗舰，Pro Max版首发了三颗2亿像素镜头群。 作为发布会的“One More Thing”，OPPO首席产品官刘作虎正式发布了售价499元的OPPO AI“心力球”，实际上这是一个AI穿戴产品，可以别在领口。 其核心能力就是全天记录，用刘作虎的话来说，它可以识别..."
   },
   {
    "rank": 18,
-   "title": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
-   "lang": "en",
+   "title": "小米 MiMo-V2.6 发布并开源：Pro 与 Flash 双版本，API 价格与前代持平",
+   "lang": "zh",
    "region": "cn",
-   "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/005/496.htm",
+   "score": 6.5,
    "sources": [
-    "hf-models-cn"
+    "ithome",
+    "zhidx"
    ],
    "titles": [
-    "XiaomiMiMo/MiMo-V2.6-Pro-RL"
+    "小米 MiMo-V2.6 发布并开源：Pro 与 Flash 双版本，API 价格与前代持平",
+    "直播“烧钱”后，罗福莉终于放出新模型，实测MiMo-V2.6系列：给小米汽车换个官网"
    ],
-   "published_at": "2026-09-21T20:12:22.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, mimo_v2, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, 8-bit, fp8, region:us"
+   "published_at": "2026-09-21T23:05:45+00:00",
+   "summary": "IT之家 9 月 22 日消息，小米今日凌晨正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列，包含 Pro 与 Flash 两个原生全模态模型。 小米称这是其探索 RSI（递归自我改进）路径的关键一步，通过规模化扩展强化学习算力，让模型在持续的探索与反馈中拓展智能边界。 得益于 RL 算力的扩展，MiMo-V2.6-Pro 在 Artificial Analysis Intelligence Index（AA 综合智能指数..."
   },
   {
    "rank": 19,
+   "title": "企业爆买AI Box",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3993012976663552",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "企业爆买AI Box",
+    "企业爆买AI Box"
+   ],
+   "published_at": "2026-09-21T11:54:05.000000+00:00",
+   "summary": "一台放在办公桌上、比机顶盒大不了多少的机器，塞着上百 GB 统一内存，断网也能跑千亿参数大模型。不用机房，不用机柜，插电即用，数据不出房门。这就是AI Box，一台搬上办公桌的数据中心。 AI Box赛道中苹果、英伟达、AMD、微软、英特尔悉数到场。但这种形态并不新鲜，为何2026年“连上显示器就是台电脑”的小盒子成了必争之地？ 大模型有两种用法：调云端，或者在本地跑。 云端意味着AI能力无上限，模型不用自己管，最强的能力随时可用。但账..."
+  },
+  {
+   "rank": 20,
    "title": "“无限包月”没来，AI只能是下一个“拨号上网”",
    "lang": "zh",
    "region": "cn",
@@ -347,24 +368,6 @@
    ],
    "published_at": "2026-09-21T13:11:02.000000+00:00",
    "summary": "“贵”是表象，是时候反思当下的AI商业模式了。最近，我一直在观察AI圈的各类前沿讨论。大家热衷于探讨模型能力的边界、Agent的未来形态，以及本地AI的崛起。其中，陈大年的一个判断让我感触颇深：本地模型试图解决的一个核心痛点，除了安全隐私问题，还有一个重要的痛点是：“贵”。陈大年是盛大网络、连尚网络创始人，2...... 本文来自微信公众号： 数智人文观 ，作者：何菲 “贵”是表象，是时候反思当下的AI商业模式了。 最近，我一直在观察A..."
-  },
-  {
-   "rank": 20,
-   "title": "AI踩刹车，黄仁勋踩油门",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4893012.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI踩刹车，黄仁勋踩油门",
-    "AI踩刹车，黄仁勋踩油门"
-   ],
-   "published_at": "2026-09-21T15:30:31.000000+00:00",
-   "summary": "黄仁勋又卖英伟达了。9月16日，英伟达向美国SEC披露的一份文件显示，黄仁勋处置了4.57万股英伟达股票，价格约212美元。乍看，这是一个很容易被放大的信号。英伟达股价持续上扬，AI行业却开始出现另一种声音：投入太快了，资本开支太大了，模型越来越便宜之后，还需要这么多算力吗？偏偏在这个时候，黄仁勋还在踩油门。...... 本文来自微信公众号： 版面之外 ，作者：版君 黄仁勋又卖英伟达了。 9月16日，英伟达向美国SEC披露的一份文件显示..."
   }
  ]
 }
