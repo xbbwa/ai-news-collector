@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-24 01:20 CST
-数据窗口：最近 24 小时，1949 条原始条目 → 1365 个事件；过滤噪音 501 个，排除全部历史已推送的 90 个。
+生成时间：2026-09-24 04:35 CST
+数据窗口：最近 24 小时，1872 条原始条目 → 1363 个事件；过滤噪音 490 个，排除全部历史已推送的 100 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -9,12 +9,11 @@
 国外：
 
 ## 1. Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI、Nature — Machine Learning（3 个来源） ｜ 热度：11.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.25927v1 Announce Type: new Abstract: Diffusion Large Language Models (dLLMs) have emerged as an efficient alternative to autoregressive models, yet aligning them via Reinforcement Learning (RL) requires likeli...
 - 发布时间：2026-09-23 12:00 CST
 - 链接：https://arxiv.org/abs/2609.25927
 - 同事件报道：The Probabilistic Structure of Large Language Models（arXiv cs.AI）
-- 同事件报道：Reproducibility in the era of large language models（Nature — Machine Learning）
 
 ## 2. Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
@@ -37,66 +36,66 @@
 - 链接：https://arxiv.org/abs/2609.26777
 - 同事件报道：How SWE-Serve Exposes the Gap Between Local Tests and Live Serving（NVIDIA Technical Blog）
 
-## 5. SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、IT之家（2 个来源） ｜ 热度：6.5
-- 摘要：SpaceXAI’s Grok Bot artificial intelligence agent has topped 400,000 weekly users roughly a month after it launched, a sign of modest early demand for a product that’s key to the AI ambitions of Elon Musk’s firm.
-- 发布时间：2026-09-22 23:19 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month
-- 同事件报道：特斯拉北美车机上线 Grok Bot，开车就能语音下单买咖啡、发邮件（IT之家）
-
-## 6. **Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
-- 摘要：A Blog post by NVIDIA on Hugging Face
-- 发布时间：2026-09-23 21:17 CST
-- 链接：https://huggingface.co/blog/nvidia/nemotron-diarization
-- 同事件报道：Streaming Nemotron 3 Diarization（Reddit AI subreddits (new)）
-
-## 7. YouTube is building AI creator tools that do almost everything for them
+## 5. YouTube is building AI creator tools that do almost everything for them
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder（2 个来源） ｜ 热度：6.0
 - 摘要：Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl...
 - 发布时间：2026-09-23 22:30 CST
 - 链接：https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests
 - 同事件报道：YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing（The Decoder）
 
-## 8. nvidia/diar_streaming_sortformer_4spk-v2
+## 6. Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition
+- 地区：国外源 ｜ 语言：en ｜ 来源：VentureBeat、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
+- 摘要：Black Forest Labs (BFL), the German AI startup best known for its FLUX image and video models, is pushing deeper into robotics with FLUX 3 Action, a 7-billion-parameter, open-weight “World Action Model” designed to take...
+- 发布时间：2026-09-24 01:00 CST
+- 链接：https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition
+- 同事件报道：Flux 3 Action - 7B Action World Model（Reddit AI subreddits (new)）
+- 同事件报道：Flux 3 Action: open weights 7B World Action Model（Reddit AI subreddits (new)）
+
+## 7. nvidia/diar_streaming_sortformer_4spk-v2
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：automatic-speech-recognition, nemo, gguf, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:l...
 - 发布时间：2026-09-23 22:47 CST
 - 链接：https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2
 
-## 9. nvidia/diar_streaming_sortformer_4spk-v2.1
+## 8. nvidia/diar_streaming_sortformer_4spk-v2.1
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：automatic-speech-recognition, nemo, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:librisp...
 - 发布时间：2026-09-23 22:48 CST
 - 链接：https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1
 
-## 10. Ex-Anthropic Staffers’ AI Startup in Talks to Raise at $5 Billion Value
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：Mirendil, an artificial intelligence startup launched by former Anthropic PBC researchers, is in talks to raise a new round of funding at a $5 billion valuation, including the investment, according to people familiar wit...
-- 发布时间：2026-09-23 00:16 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-22/ex-anthropic-staffers-ai-startup-in-talks-to-raise-at-5-billion-value
-- 同事件报道：三家AI巨头估值超5万亿美元，超越45年美国科技IPO总和（36氪 AI 频道）
-
-## 11. Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO
+## 9. Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、The Decoder（2 个来源） ｜ 热度：5.5
 - 摘要：Chinese tech giant was AI cloud provider’s largest customer last year but is not prominently named in pitch to stock market investors
 - 发布时间：2026-09-23 12:00 CST
 - 链接：https://www.ft.com/content/d1090476-7be6-4bba-ae2a-f417499e820a?syn-25a6b1a6=1
 - 同事件报道：Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing（The Decoder）
 
-## 12. DeepSeek Tests Efficient, Safer Method for Training AI Agents
+## 10. DeepSeek Tests Efficient, Safer Method for Training AI Agents
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
 - 摘要：China’s DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimizing the kind of misbehavior that has fueled global concerns.
 - 发布时间：2026-09-24 00:25 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-23/deepseek-tests-efficient-safer-method-for-training-ai-agents
 - 同事件报道：DeepSeek Elastic Compute:A Sandbox Infrastructure for Effective Agentic Training（Hacker News (AI stories)）
 
-## 13. Looks like we get... a RESET??
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.66
-- 摘要：https://preview.redd.it/u3h1dchjm3rh1.png?width=683&format=png&auto=webp&s=c276f7d8e2e3f75be540ad954429fca9bd4f99ea Big if it resets whole weekly not just 5h!!
-- 发布时间：2026-09-23 00:32 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wnedr9/looks_like_we_get_a_reset/
-- 同事件报道：What AI-Native Looks Like（Hacker News (AI stories)）
+## 11. AI Data Center Debt Offers Investors Huge Yields — and New Risks
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 摘要：SoftBank’s bond sale comes with yields of nearly 10%
+- 发布时间：2026-09-23 18:30 CST
+- 链接：https://www.bloomberg.com/news/newsletters/2026-09-23/ai-data-center-debt-offers-investors-huge-yields-and-new-risks
+- 同事件报道：2026: AI Data Center Odyssey（Reddit AI subreddits (new)）
+
+## 12. Introducing MentalHealthBench
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.5
+- 摘要：MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.
+- 发布时间：2026-09-23 18:00 CST
+- 链接：https://openai.com/index/introducing-mentalhealthbench
+
+## 13. The Global AI Race: Chips, Talent, and World Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
+- 摘要：Bloomberg’s Ed Ludlow breaks down Alibaba's new AI chip, an accelerator to compete with Nvidia and underpinning a massive expansion of data center capacity in coming years. Plus, he speaks with Gagan Biyani, founder and...
+- 发布时间：2026-09-23 02:13 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-22/bloomberg-tech-9-22-2026-video
+- 同事件报道：Who’s Ahead in the Global AI Talent Race?（Reddit AI subreddits (new)）
 
 ## 14. Does this mean it's fine to use Claude subscriptions with third party harnesses?
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.55
@@ -108,12 +107,13 @@
 
 国内：
 
-## 1. Jev 火得一塌糊涂，但它架构没护城河：OpenAI 随时能抄
-- 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国、Hacker News (AI stories)（2 个来源） ｜ 热度：6.18
-- 摘要：TypeSafe 的判断模型 Jev 火到什么程度？Vercel 的说法是——"Jev 是 AI Gateway 历史上被采用速度最快的模型"。但 Arcturus Labs 创始人 John Berryman 在最新一篇博客里泼了盆冷水：《Will OpenAI Eat Jev's Lunch?》。他的判断很直接：Jev 的架构几乎没有护城河，真正值钱的是它的训练数据和强化学习流程——而这两样...
-- 发布时间：2026-09-23 11:47 CST
-- 链接：https://www.oschina.net/news/502690/will-openai-eat-jevs-lunch
-- 同事件报道：OpenAI is well positioned to fast-follow Jev（Hacker News (AI stories)）
+## 1. DeepSeek新论文公开Agent训练，梁文锋署名
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、IT之家、量子位、智东西（4 个来源） ｜ 热度：12.5
+- 摘要：大模型训练拼的是算力，Agent训练拼的是环境。 环境怎么造？梁文锋署名的DeepSeek最新论文，把技术细节公开了。 DeepSeek做的这个系统叫 DSec （DeepSeek Elastic Compute），干的事情就是给Agent训练批量制造沙盒。 它 每秒能产生5000+个沙盒，一天能达到300万个 ，峰值同时运行38万个。 支撑这个规模的单集群也非常庞大， 大约有160个节点、3万核CPU和250TB内存 。 为啥训个Ag...
+- 发布时间：2026-09-23 11:33 CST
+- 链接：https://www.36kr.com/p/3995426425983110
+- 同事件报道：DeepSeek 新论文公开 Agent 训练，梁文锋署名（IT之家）
+- 同事件报道：DeepSeek新论文公开Agent训练！梁文锋署名（量子位）
 
 ## 2. 小镇青年不靠做题，靠“卖AI”能拿到大结果吗？
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
@@ -129,23 +129,23 @@
 - 链接：https://www.36kr.com/p/3994492930855043
 - 同事件报道：对话清华教授李宁：腾讯字节阿里激战AI办公，但这个问题谁也没解决（钛媒体）
 
-## 4. 具身智能的转机和出清，哪个先来？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着评论了三条。 这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入，并在评论区直接点名银河通用，已经过去了一周多时间。 相比于一开始还算理性的事实...
-- 发布时间：2026-09-22 21:28 CST
-- 链接：https://www.36kr.com/p/3994523684837256
-- 同事件报道：具身智能的转机和出清，哪个先来？（钛媒体）
-
-## 5. Qwen一号位定了！刘大一恒接棒
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、智源社区（2 个来源） ｜ 热度：5.0
-- 摘要：与稚晖君同届天才少年
-- 发布时间：2026-09-23 15:27 CST
-- 链接：https://www.qbitai.com/2026/09/496384.html
-- 同事件报道：千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸（智源社区）
-
-## 6. 黑客团伙 ShinyHunters 声称攻破 FBI 系统，窃取大量员工数据
+## 4. 黑客团伙 ShinyHunters 声称攻破 FBI 系统，窃取大量员工数据
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、Hacker News (AI stories)（2 个来源） ｜ 热度：4.62
 - 摘要：IT之家 9 月 23 日消息，黑客组织 ShinyHunters 于当地时间 9 月 22 日声称攻破美国联邦调查局（FBI）多个系统，窃取了几乎所有 FBI 特工、现任和前任员工以及求职者的大量个人资料。 ShinyHunters 回应路透社称，此次攻击是对 FBI 于 2026 年 5 月发布的一份公告的回击。该公告详细描述了 ShinyHunters 的攻击手法，并建议潜在目标不要支付赎金。该团伙称此次行动“并非出于经济动机”，...
 - 发布时间：2026-09-23 09:24 CST
 - 链接：https://www.ithome.com/1/006/061.htm
 - 同事件报道：Hacking group ShinyHunters claims it breached the FBI, stole agents' data（Hacker News (AI stories)）
+
+## 5. 1万亿的AMD 苏姿丰的12年
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、智源社区（2 个来源） ｜ 热度：4.5
+- 摘要：9月21日，AMD收盘涨9.95%，报615.52美元，公司市值第一次站上1万亿美元。今年以来这只股票大约涨了187%，纳斯达克综指同期大约17%。把时间拉回2014年10月8日，那天苏姿丰接任CEO，公司市值二十亿美元出头。将近12年，市值放大了约500倍。资本市场这几年反复问同一句话：AI时代除了英伟达，...... 本文来自微信公众号： 涌流商业 ，作者：林耕 9月21日，AMD收盘涨9.95%，报615.52美元，公司市值第一次...
+- 发布时间：2026-09-23 12:08 CST
+- 链接：https://www.huxiu.com/article/4893413.html
+- 同事件报道：AMD市值突破1万亿美元！（智源社区）
+
+## 6. Qwen一号位定了！刘大一恒接棒
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、智源社区（2 个来源） ｜ 热度：4.5
+- 摘要：与稚晖君同届天才少年
+- 发布时间：2026-09-23 15:27 CST
+- 链接：https://www.qbitai.com/2026/09/496384.html
+- 同事件报道：千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸（智源社区）

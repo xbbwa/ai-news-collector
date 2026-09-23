@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-23T17:20:32.248733+00:00",
+ "generated_at": "2026-09-23T20:35:01.985545+00:00",
  "stats": {
-  "items": 1949,
-  "clusters": 1365,
-  "noise": 501,
-  "dup": 90,
+  "items": 1872,
+  "clusters": 1363,
+  "noise": 490,
+  "dup": 100,
   "history_days": 0,
   "available_cn": 125,
-  "available_intl": 649,
+  "available_intl": 648,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,16 +20,14 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.25927",
-   "score": 11.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
-    "arxiv-cs-ai",
-    "nature-ml"
+    "arxiv-cs-ai"
    ],
    "titles": [
     "Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models",
-    "The Probabilistic Structure of Large Language Models",
-    "Reproducibility in the era of large language models"
+    "The Probabilistic Structure of Large Language Models"
    ],
    "published_at": "2026-09-23T04:00:00.000000+00:00",
    "summary": "arXiv:2609.25927v1 Announce Type: new Abstract: Diffusion Large Language Models (dLLMs) have emerged as an efficient alternative to autoregressive models, yet aligning them via Reinforcement Learning (RL) requires likeli..."
@@ -90,42 +88,6 @@
   },
   {
    "rank": 5,
-   "title": "SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month",
-   "score": 6.5,
-   "sources": [
-    "bloomberg-tech",
-    "ithome"
-   ],
-   "titles": [
-    "SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month",
-    "特斯拉北美车机上线 Grok Bot，开车就能语音下单买咖啡、发邮件"
-   ],
-   "published_at": "2026-09-22T15:19:34.000000+00:00",
-   "summary": "SpaceXAI’s Grok Bot artificial intelligence agent has topped 400,000 weekly users roughly a month after it launched, a sign of modest early demand for a product that’s key to the AI ambitions of Elon Musk’s firm."
-  },
-  {
-   "rank": 6,
-   "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-   "score": 6.0,
-   "sources": [
-    "huggingface-blog",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-    "Streaming Nemotron 3 Diarization"
-   ],
-   "published_at": "2026-09-23T13:17:01.000000+00:00",
-   "summary": "A Blog post by NVIDIA on Hugging Face"
-  },
-  {
-   "rank": 7,
    "title": "YouTube is building AI creator tools that do almost everything for them",
    "lang": "en",
    "region": "intl",
@@ -143,7 +105,26 @@
    "summary": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl..."
   },
   {
-   "rank": 8,
+   "rank": 6,
+   "title": "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
+   "score": 6.0,
+   "sources": [
+    "venturebeat",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition",
+    "Flux 3 Action - 7B Action World Model",
+    "Flux 3 Action: open weights 7B World Action Model"
+   ],
+   "published_at": "2026-09-23T17:00:00+00:00",
+   "summary": "Black Forest Labs (BFL), the German AI startup best known for its FLUX image and video models, is pushing deeper into robotics with FLUX 3 Action, a 7-billion-parameter, open-weight “World Action Model” designed to take..."
+  },
+  {
+   "rank": 7,
    "title": "nvidia/diar_streaming_sortformer_4spk-v2",
    "lang": "en",
    "region": "intl",
@@ -159,7 +140,7 @@
    "summary": "automatic-speech-recognition, nemo, gguf, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:l..."
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "nvidia/diar_streaming_sortformer_4spk-v2.1",
    "lang": "en",
    "region": "intl",
@@ -175,25 +156,7 @@
    "summary": "automatic-speech-recognition, nemo, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:librisp..."
   },
   {
-   "rank": 10,
-   "title": "Ex-Anthropic Staffers’ AI Startup in Talks to Raise at $5 Billion Value",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-22/ex-anthropic-staffers-ai-startup-in-talks-to-raise-at-5-billion-value",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "36kr-ai"
-   ],
-   "titles": [
-    "Ex-Anthropic Staffers’ AI Startup in Talks to Raise at $5 Billion Value",
-    "三家AI巨头估值超5万亿美元，超越45年美国科技IPO总和"
-   ],
-   "published_at": "2026-09-22T16:16:48.000000+00:00",
-   "summary": "Mirendil, an artificial intelligence startup launched by former Anthropic PBC researchers, is in talks to raise a new round of funding at a $5 billion valuation, including the investment, according to people familiar wit..."
-  },
-  {
-   "rank": 11,
+   "rank": 9,
    "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
    "lang": "en",
    "region": "intl",
@@ -211,7 +174,7 @@
    "summary": "Chinese tech giant was AI cloud provider’s largest customer last year but is not prominently named in pitch to stock market investors"
   },
   {
-   "rank": 12,
+   "rank": 10,
    "title": "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
    "lang": "en",
    "region": "intl",
@@ -229,22 +192,56 @@
    "summary": "China’s DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimizing the kind of misbehavior that has fueled global concerns."
   },
   {
-   "rank": 13,
-   "title": "Looks like we get... a RESET??",
+   "rank": 11,
+   "title": "AI Data Center Debt Offers Investors Huge Yields — and New Risks",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnedr9/looks_like_we_get_a_reset/",
-   "score": 3.66,
+   "url": "https://www.bloomberg.com/news/newsletters/2026-09-23/ai-data-center-debt-offers-investors-huge-yields-and-new-risks",
+   "score": 5.0,
    "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
+    "bloomberg-tech",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Looks like we get... a RESET??",
-    "What AI-Native Looks Like"
+    "AI Data Center Debt Offers Investors Huge Yields — and New Risks",
+    "2026: AI Data Center Odyssey"
    ],
-   "published_at": "2026-09-22T16:32:16.000000+00:00",
-   "summary": "https://preview.redd.it/u3h1dchjm3rh1.png?width=683&format=png&auto=webp&s=c276f7d8e2e3f75be540ad954429fca9bd4f99ea Big if it resets whole weekly not just 5h!!"
+   "published_at": "2026-09-23T10:30:01.000000+00:00",
+   "summary": "SoftBank’s bond sale comes with yields of nearly 10%"
+  },
+  {
+   "rank": 12,
+   "title": "Introducing MentalHealthBench",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/introducing-mentalhealthbench",
+   "score": 4.5,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Introducing MentalHealthBench"
+   ],
+   "published_at": "2026-09-23T10:00:00.000000+00:00",
+   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations."
+  },
+  {
+   "rank": 13,
+   "title": "The Global AI Race: Chips, Talent, and World Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-22/bloomberg-tech-9-22-2026-video",
+   "score": 4.5,
+   "sources": [
+    "bloomberg-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "The Global AI Race: Chips, Talent, and World Models",
+    "Who’s Ahead in the Global AI Talent Race?"
+   ],
+   "published_at": "2026-09-22T18:13:21.000000+00:00",
+   "summary": "Bloomberg’s Ed Ludlow breaks down Alibaba's new AI chip, an accelerator to compete with Nvidia and underpinning a massive expansion of data center capacity in coming years. Plus, he speaks with Gagan Biyani, founder and..."
   },
   {
    "rank": 14,
@@ -267,21 +264,25 @@
   },
   {
    "rank": 15,
-   "title": "Jev 火得一塌糊涂，但它架构没护城河：OpenAI 随时能抄",
+   "title": "DeepSeek新论文公开Agent训练，梁文锋署名",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.oschina.net/news/502690/will-openai-eat-jevs-lunch",
-   "score": 6.18,
+   "url": "https://www.36kr.com/p/3995426425983110",
+   "score": 12.5,
    "sources": [
-    "oschina",
-    "hackernews-ai"
+    "36kr-ai",
+    "ithome",
+    "qbitai",
+    "zhidx"
    ],
    "titles": [
-    "Jev 火得一塌糊涂，但它架构没护城河：OpenAI 随时能抄",
-    "OpenAI is well positioned to fast-follow Jev"
+    "DeepSeek新论文公开Agent训练，梁文锋署名",
+    "DeepSeek 新论文公开 Agent 训练，梁文锋署名",
+    "DeepSeek新论文公开Agent训练！梁文锋署名",
+    "梁文锋署名！DeepSeek最新论文公开，交出Agent训练“焚决”"
    ],
-   "published_at": "2026-09-23T03:47:09+00:00",
-   "summary": "TypeSafe 的判断模型 Jev 火到什么程度？Vercel 的说法是——\"Jev 是 AI Gateway 历史上被采用速度最快的模型\"。但 Arcturus Labs 创始人 John Berryman 在最新一篇博客里泼了盆冷水：《Will OpenAI Eat Jev's Lunch?》。他的判断很直接：Jev 的架构几乎没有护城河，真正值钱的是它的训练数据和强化学习流程——而这两样..."
+   "published_at": "2026-09-23T03:33:00.000000+00:00",
+   "summary": "大模型训练拼的是算力，Agent训练拼的是环境。 环境怎么造？梁文锋署名的DeepSeek最新论文，把技术细节公开了。 DeepSeek做的这个系统叫 DSec （DeepSeek Elastic Compute），干的事情就是给Agent训练批量制造沙盒。 它 每秒能产生5000+个沙盒，一天能达到300万个 ，峰值同时运行38万个。 支撑这个规模的单集群也非常庞大， 大约有160个节点、3万核CPU和250TB内存 。 为啥训个Ag..."
   },
   {
    "rank": 16,
@@ -321,42 +322,6 @@
   },
   {
    "rank": 18,
-   "title": "具身智能的转机和出清，哪个先来？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3994523684837256",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "具身智能的转机和出清，哪个先来？",
-    "具身智能的转机和出清，哪个先来？"
-   ],
-   "published_at": "2026-09-22T13:28:03.000000+00:00",
-   "summary": "“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着评论了三条。 这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入，并在评论区直接点名银河通用，已经过去了一周多时间。 相比于一开始还算理性的事实..."
-  },
-  {
-   "rank": 19,
-   "title": "Qwen一号位定了！刘大一恒接棒",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/496384.html",
-   "score": 5.0,
-   "sources": [
-    "qbitai",
-    "baai-hub"
-   ],
-   "titles": [
-    "Qwen一号位定了！刘大一恒接棒",
-    "千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸"
-   ],
-   "published_at": "2026-09-23T07:27:49+00:00",
-   "summary": "与稚晖君同届天才少年"
-  },
-  {
-   "rank": 20,
    "title": "黑客团伙 ShinyHunters 声称攻破 FBI 系统，窃取大量员工数据",
    "lang": "zh",
    "region": "cn",
@@ -372,6 +337,42 @@
    ],
    "published_at": "2026-09-23T01:24:01+00:00",
    "summary": "IT之家 9 月 23 日消息，黑客组织 ShinyHunters 于当地时间 9 月 22 日声称攻破美国联邦调查局（FBI）多个系统，窃取了几乎所有 FBI 特工、现任和前任员工以及求职者的大量个人资料。 ShinyHunters 回应路透社称，此次攻击是对 FBI 于 2026 年 5 月发布的一份公告的回击。该公告详细描述了 ShinyHunters 的攻击手法，并建议潜在目标不要支付赎金。该团伙称此次行动“并非出于经济动机”，..."
+  },
+  {
+   "rank": 19,
+   "title": "1万亿的AMD 苏姿丰的12年",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4893413.html",
+   "score": 4.5,
+   "sources": [
+    "huxiu",
+    "baai-hub"
+   ],
+   "titles": [
+    "1万亿的AMD 苏姿丰的12年",
+    "AMD市值突破1万亿美元！"
+   ],
+   "published_at": "2026-09-23T04:08:53.000000+00:00",
+   "summary": "9月21日，AMD收盘涨9.95%，报615.52美元，公司市值第一次站上1万亿美元。今年以来这只股票大约涨了187%，纳斯达克综指同期大约17%。把时间拉回2014年10月8日，那天苏姿丰接任CEO，公司市值二十亿美元出头。将近12年，市值放大了约500倍。资本市场这几年反复问同一句话：AI时代除了英伟达，...... 本文来自微信公众号： 涌流商业 ，作者：林耕 9月21日，AMD收盘涨9.95%，报615.52美元，公司市值第一次..."
+  },
+  {
+   "rank": 20,
+   "title": "Qwen一号位定了！刘大一恒接棒",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/496384.html",
+   "score": 4.5,
+   "sources": [
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "Qwen一号位定了！刘大一恒接棒",
+    "千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸"
+   ],
+   "published_at": "2026-09-23T07:27:49+00:00",
+   "summary": "与稚晖君同届天才少年"
   }
  ]
 }
