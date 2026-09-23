@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-23T11:55:19.917570+00:00",
+ "generated_at": "2026-09-23T17:20:32.248733+00:00",
  "stats": {
-  "items": 1894,
-  "clusters": 1369,
-  "noise": 493,
-  "dup": 93,
+  "items": 1949,
+  "clusters": 1365,
+  "noise": 501,
+  "dup": 90,
   "history_days": 0,
-  "available_cn": 135,
-  "available_intl": 648,
+  "available_cn": 125,
+  "available_intl": 649,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,7 +20,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.25927",
-   "score": 11.5,
+   "score": 11.0,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai",
@@ -40,7 +40,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.25237",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -58,7 +58,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2607.09694",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -72,24 +72,110 @@
   },
   {
    "rank": 4,
-   "title": "Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models",
+   "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.24881",
-   "score": 8.0,
+   "url": "https://arxiv.org/abs/2609.26777",
+   "score": 7.5,
    "sources": [
     "arxiv-cs-ai",
-    "arxiv-cs-lg"
+    "nvidia-developer"
    ],
    "titles": [
-    "Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models",
-    "The Challenge of Identifying the Origin of Black-Box Large Language Models"
+    "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+    "How SWE-Serve Exposes the Gap Between Local Tests and Live Serving"
    ],
    "published_at": "2026-09-23T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.24881v2 Announce Type: replace Abstract: In high-stakes decision-making applications of large language models (LLMs), practitioners require not only accurate LLMs but also uncertainty estimates for their predi..."
+   "summary": "arXiv:2609.26777v1 Announce Type: new Abstract: We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple cha..."
   },
   {
    "rank": 5,
+   "title": "SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month",
+   "score": 6.5,
+   "sources": [
+    "bloomberg-tech",
+    "ithome"
+   ],
+   "titles": [
+    "SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month",
+    "特斯拉北美车机上线 Grok Bot，开车就能语音下单买咖啡、发邮件"
+   ],
+   "published_at": "2026-09-22T15:19:34.000000+00:00",
+   "summary": "SpaceXAI’s Grok Bot artificial intelligence agent has topped 400,000 weekly users roughly a month after it launched, a sign of modest early demand for a product that’s key to the AI ambitions of Elon Musk’s firm."
+  },
+  {
+   "rank": 6,
+   "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+   "score": 6.0,
+   "sources": [
+    "huggingface-blog",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+    "Streaming Nemotron 3 Diarization"
+   ],
+   "published_at": "2026-09-23T13:17:01.000000+00:00",
+   "summary": "A Blog post by NVIDIA on Hugging Face"
+  },
+  {
+   "rank": 7,
+   "title": "YouTube is building AI creator tools that do almost everything for them",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+   "score": 6.0,
+   "sources": [
+    "theverge-ai",
+    "the-decoder"
+   ],
+   "titles": [
+    "YouTube is building AI creator tools that do almost everything for them",
+    "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing"
+   ],
+   "published_at": "2026-09-23T14:30:00.000000+00:00",
+   "summary": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl..."
+  },
+  {
+   "rank": 8,
+   "title": "nvidia/diar_streaming_sortformer_4spk-v2",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/diar_streaming_sortformer_4spk-v2"
+   ],
+   "published_at": "2026-09-23T14:47:45.000000+00:00",
+   "summary": "automatic-speech-recognition, nemo, gguf, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:l..."
+  },
+  {
+   "rank": 9,
+   "title": "nvidia/diar_streaming_sortformer_4spk-v2.1",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/diar_streaming_sortformer_4spk-v2.1"
+   ],
+   "published_at": "2026-09-23T14:48:30.000000+00:00",
+   "summary": "automatic-speech-recognition, nemo, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:librisp..."
+  },
+  {
+   "rank": 10,
    "title": "Ex-Anthropic Staffers’ AI Startup in Talks to Raise at $5 Billion Value",
    "lang": "en",
    "region": "intl",
@@ -107,75 +193,61 @@
    "summary": "Mirendil, an artificial intelligence startup launched by former Anthropic PBC researchers, is in talks to raise a new round of funding at a $5 billion valuation, including the investment, according to people familiar wit..."
   },
   {
-   "rank": 6,
-   "title": "Microsoft AI chief warns against teaching AI systems to act humanlike | Artificial Intelligence News",
+   "rank": 11,
+   "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.business-standard.com/technology/artificial-intelligence/microsoft-ai-chief-warns-against-teaching-ai-systems-to-act-humanlike-126092200124_1.html",
-   "score": 5.02,
+   "url": "https://www.ft.com/content/d1090476-7be6-4bba-ae2a-f417499e820a?syn-25a6b1a6=1",
+   "score": 5.5,
+   "sources": [
+    "ft-tech",
+    "the-decoder"
+   ],
+   "titles": [
+    "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
+    "Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing"
+   ],
+   "published_at": "2026-09-23T04:00:19.000000+00:00",
+   "summary": "Chinese tech giant was AI cloud provider’s largest customer last year but is not prominently named in pitch to stock market investors"
+  },
+  {
+   "rank": 12,
+   "title": "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-23/deepseek-tests-efficient-safer-method-for-training-ai-agents",
+   "score": 5.05,
+   "sources": [
+    "bloomberg-tech",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
+    "DeepSeek Elastic Compute:A Sandbox Infrastructure for Effective Agentic Training"
+   ],
+   "published_at": "2026-09-23T16:25:21.000000+00:00",
+   "summary": "China’s DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimizing the kind of misbehavior that has fueled global concerns."
+  },
+  {
+   "rank": 13,
+   "title": "Looks like we get... a RESET??",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnedr9/looks_like_we_get_a_reset/",
+   "score": 3.66,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "Microsoft AI chief warns against teaching AI systems to act humanlike | Artificial Intelligence News",
-    "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived"
+    "Looks like we get... a RESET??",
+    "What AI-Native Looks Like"
    ],
-   "published_at": "2026-09-22T12:56:46.000000+00:00",
-   "summary": "A corporate spat between two tech giants last week was just the latest volley in a conflict over whether dangerous mistakes are being made in AI training"
+   "published_at": "2026-09-22T16:32:16.000000+00:00",
+   "summary": "https://preview.redd.it/u3h1dchjm3rh1.png?width=683&format=png&auto=webp&s=c276f7d8e2e3f75be540ad954429fca9bd4f99ea Big if it resets whole weekly not just 5h!!"
   },
   {
-   "rank": 7,
-   "title": "nvidia/Qwen3.8-27B-NVFP4",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
-   "score": 5.0,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/Qwen3.8-27B-NVFP4"
-   ],
-   "published_at": "2026-09-17T17:16:07.000000+00:00",
-   "summary": "text-generation, Model Optimizer, safetensors, qwen3_5, nvidia, ModelOpt, Qwen3.8, quantized, FP4, fp4, FP8, fp8, conversational, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, 8-..."
-  },
-  {
-   "rank": 8,
-   "title": "LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
-   "score": 5.0,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "LiquidAI/LFM2.5-1.2B-Instruct-GGUF"
-   ],
-   "published_at": "2026-09-22T20:41:54.000000+00:00",
-   "summary": "text-generation, safetensors, gguf, liquid, lfm2.5, edge, llama.cpp, en, ar, zh, fr, de, ja, ko, es, base_model:LiquidAI/LFM2.5-1.2B-Instruct, base_model:quantized:LiquidAI/LFM2.5-1.2B-Instruct, license:other, endpoints_..."
-  },
-  {
-   "rank": 9,
-   "title": "AI Data Center Debt Offers Investors Huge Yields — and New Risks",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-09-23/ai-data-center-debt-offers-investors-huge-yields-and-new-risks",
-   "score": 5.0,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "AI Data Center Debt Offers Investors Huge Yields — and New Risks",
-    "2026: AI Data Center Odyssey"
-   ],
-   "published_at": "2026-09-23T10:30:01.000000+00:00",
-   "summary": "SoftBank’s bond sale comes with yields of nearly 10%"
-  },
-  {
-   "rank": 10,
+   "rank": 14,
    "title": "Does this mean it's fine to use Claude subscriptions with third party harnesses?",
    "lang": "en",
    "region": "intl",
@@ -194,97 +266,12 @@
    "summary": "I've been curious about using a claude subscription with OpenCode, Pi and some other third party harnesses. If you remember, there was a lot of chatter about a ban on third party harnesses and then Claude have had some p..."
   },
   {
-   "rank": 11,
-   "title": "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone: Turning Your Voice into Polished Communication, and Action across Apps",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/22/speakon-ships-a-magsafe-ai-voice-button-with-its-own-microphone/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone: Turning Your Voice into Polished Communication, and Action across Apps",
-    "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone"
-   ],
-   "published_at": "2026-09-23T03:10:22+00:00",
-   "summary": "Voice input on phones has been solved for years. What has not been solved is the output. Speak into most dictation tools and you get back exactly what you said, fillers and false starts included, in a note you then have..."
-  },
-  {
-   "rank": 12,
-   "title": "Kyutai Releases Voice of Reason: A Speech-Native Model that Solves Spoken Math with Reinforcement Learning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/22/kyutai-releases-voice-of-reason-a-speech-native-model-that-solves-spoken-math-with-reinforcement-learning/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Kyutai Releases Voice of Reason: A Speech-Native Model that Solves Spoken Math with Reinforcement Learning"
-   ],
-   "published_at": "2026-09-23T06:33:18+00:00",
-   "summary": "Kyutai has released Voice of Reason , 2 open-weight speech-to-speech models that solve math problems out loud. Both start from GLM-4-Voice-9B and add supervised fine-tuning (SFT) and reinforcement learning (RL). There is..."
-  },
-  {
-   "rank": 13,
-   "title": "Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model"
-   ],
-   "published_at": "2026-09-23T07:09:38+00:00",
-   "summary": "Nokia’s applied research team has open-sourced AnyJev , a Python library that turns an open LLM into a decision model. It needs no training. It targets a common production job: picking one answer from a fixed set instead..."
-  },
-  {
-   "rank": 14,
-   "title": "Transformers now runs llama.cpp quants",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-   "score": 3.0,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Transformers now runs llama.cpp quants"
-   ],
-   "published_at": "2026-09-22T00:00:00.000000+00:00",
-   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
-  },
-  {
    "rank": 15,
-   "title": "具身智能的转机和出清，哪个先来？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4893275.html",
-   "score": 9.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "具身智能的转机和出清，哪个先来？",
-    "具身智能的转机和出清，哪个先来？",
-    "具身智能的转机和出清，哪个先来？"
-   ],
-   "published_at": "2026-09-22T11:58:01.000000+00:00",
-   "summary": "“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着评论了三条。这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局...... 本文来自微信公众号： 智械岛 ，作者：孟昭野 “银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市..."
-  },
-  {
-   "rank": 16,
    "title": "Jev 火得一塌糊涂，但它架构没护城河：OpenAI 随时能抄",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.oschina.net/news/502690/will-openai-eat-jevs-lunch",
-   "score": 6.68,
+   "score": 6.18,
    "sources": [
     "oschina",
     "hackernews-ai"
@@ -297,25 +284,7 @@
    "summary": "TypeSafe 的判断模型 Jev 火到什么程度？Vercel 的说法是——\"Jev 是 AI Gateway 历史上被采用速度最快的模型\"。但 Arcturus Labs 创始人 John Berryman 在最新一篇博客里泼了盆冷水：《Will OpenAI Eat Jev's Lunch?》。他的判断很直接：Jev 的架构几乎没有护城河，真正值钱的是它的训练数据和强化学习流程——而这两样..."
   },
   {
-   "rank": 17,
-   "title": "推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4893279.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学",
-    "推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学"
-   ],
-   "published_at": "2026-09-22T12:11:09.000000+00:00",
-   "summary": "过去几年，推理消耗的token爆炸式增长，token经济随之成型，推理专用芯片也持续升温：去年年底，英伟达以约200亿美元与AI芯片初创公司Groq达成技术授权协议，并吸纳其创始人Jonathan Ross等核心团队，被外界视为一次变相收购（acqui-hire）；做晶圆级“大芯片”的Cerebras今年6月...... 本文来自微信公众号： 硅谷101 ，作者：硅谷101 过去几年，推理消耗的token爆炸式增长，token经济随之成..."
-  },
-  {
-   "rank": 18,
+   "rank": 16,
    "title": "小镇青年不靠做题，靠“卖AI”能拿到大结果吗？",
    "lang": "zh",
    "region": "cn",
@@ -333,7 +302,7 @@
    "summary": "假如有这样一份工作：月薪6W+，不吃技术，不卡学历，踩中风口就能翻身，你愿意赌一把吗？ 脉脉在9月16日公布了一组数据：2026年上半年，新发AI岗位的平均月薪突破了6万元。其中，销售类涨幅最高，增长了27.8%。 过去一年，AI 行业全速商业化，衍生出一大批新岗位。而 AI 销售，凭着相对低门槛、高上限的属性，成了很多小镇青年眼里，除了“做题家“，离成功最近的一条路。 AI，真有这么值钱吗？多数从业者的生存现状如何？ 我们找到了几位扎..."
   },
   {
-   "rank": 19,
+   "rank": 17,
    "title": "腾讯字节阿里激战AI办公，但这个问题谁也没解决：对话清华教授李宁",
    "lang": "zh",
    "region": "cn",
@@ -351,12 +320,48 @@
    "summary": "大厂正在集体发力“AI办公”： 腾讯的WorkBuddy已经跑出了千万月活； 字节推出豆包工作，飞书与豆包合并，字节跳动CEO梁汝波罕见站台； 阿里将三款智能体产品线合并为千问办公； 360发布了纳米Work、金山办公发布了AI办公智能体“灵犀专业版”、百度搭子增速明显…… 久违的硝烟味，弥漫在大厂共同争夺的新入口前。但跳出大厂的叙事逻辑， 用上“AI办公”的企业真的就能拥有更高的效率、获得更强劲的增长吗？ 2024年，全球企业在生成式..."
   },
   {
+   "rank": 18,
+   "title": "具身智能的转机和出清，哪个先来？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3994523684837256",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "具身智能的转机和出清，哪个先来？",
+    "具身智能的转机和出清，哪个先来？"
+   ],
+   "published_at": "2026-09-22T13:28:03.000000+00:00",
+   "summary": "“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着评论了三条。 这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入，并在评论区直接点名银河通用，已经过去了一周多时间。 相比于一开始还算理性的事实..."
+  },
+  {
+   "rank": 19,
+   "title": "Qwen一号位定了！刘大一恒接棒",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/09/496384.html",
+   "score": 5.0,
+   "sources": [
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "Qwen一号位定了！刘大一恒接棒",
+    "千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸"
+   ],
+   "published_at": "2026-09-23T07:27:49+00:00",
+   "summary": "与稚晖君同届天才少年"
+  },
+  {
    "rank": 20,
    "title": "黑客团伙 ShinyHunters 声称攻破 FBI 系统，窃取大量员工数据",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/006/061.htm",
-   "score": 5.12,
+   "score": 4.62,
    "sources": [
     "ithome",
     "hackernews-ai"
