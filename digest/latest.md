@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-23 05:33 CST
+生成时间：2026-09-23 08:47 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -7,14 +7,6 @@
 > 摘要为原文节选（未翻译、未清洗）；英文条目请在推送时翻译成中文。
 
 # Tier 1 — 一手来源（实验室 / 公司 / 论文）
-
-## Amazon Science（amazon-science，en，本窗口共 1 条）
-
-### 1. Amazon launches research initiative with Stanford University to advance AI and science
-- 摘要：Amazon has launched the Stanford and Amazon Research Initiative with Stanford University, a new framework for advancing research at the frontiers of AI, energy, and healthcare. The initiative aims to ensure that results reach the real world, and builds on a deep, established relationship. Currently...
-- 作者：Staff writer
-- 发布时间：2026-09-22 03:31 CST
-- 链接：https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science
 
 ## arXiv cs.AI（arxiv-cs-ai，en，本窗口共 1 条）
 
@@ -104,7 +96,7 @@
 - 发布时间：2026-09-23 01:18 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/
 
-## Databricks Blog（databricks-blog，en，本窗口共 4 条）
+## Databricks Blog（databricks-blog，en，本窗口共 2 条）
 
 ### 1. Genie One MCP: Give any AI Agent the Right Business Context
 - 摘要：Business leaders often have access to plenty of data, but still can’t get a reliable...
@@ -117,12 +109,6 @@
 - 作者：Ben Tripp; Sydney Sundell
 - 发布时间：2026-09-23 00:00 CST
 - 链接：https://www.databricks.com/blog/genie-one-mcp-now-generally-available
-
-### 3. Data Ontology defined: The context layer your AI agents are missing
-- 摘要：Ask five people at the same company what "revenue" means and there's a chance you'll get five different answers...
-- 作者：Richard Tomlinson
-- 发布时间：2026-09-16 00:59 CST
-- 链接：https://www.databricks.com/blog/data-ontology-defined-context-layer-your-ai-agents-are-missing
 
 ## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 19 条）
 
@@ -144,7 +130,7 @@
 - 发布时间：2026-09-21 04:00 CST
 - 链接：https://arxiv.org/abs/2609.25001
 
-## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 3 条）
+## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 2 条）
 
 ### 1. inclusionAI/Ming-Image-0.1-Design-Layer
 - 摘要：image-text-to-image, diffusers, safetensors, layer-decomposition, rgba, graphic-design, license:mit, region:us
@@ -158,13 +144,7 @@
 - 发布时间：2026-09-22 23:17 CST
 - 链接：https://huggingface.co/inclusionAI/Ming-Image-0.1-Design
 
-### 3. XiaomiMiMo/MiMo-V2.6-Pro-RL
-- 摘要：text-generation, transformers, safetensors, mimo_v2, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, 8-bit, fp8, region:us
-- 作者：XiaomiMiMo
-- 发布时间：2026-09-22 04:12 CST
-- 链接：https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
-
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 19 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 16 条）
 
 ### 1. nvidia/Kumo-Anomaly
 - 摘要：Kumo-TS, en, arxiv:2307.00754, license:apache-2.0, region:us
@@ -212,7 +192,7 @@
 - 发布时间：2026-09-22 20:00 CST
 - 链接：https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/
 
-## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 6 条）
+## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 4 条）
 
 ### 1. Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing
 - 摘要：As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and regulated... As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterpr...
@@ -239,19 +219,19 @@
 - 发布时间：2026-09-23 05:00 CST
 - 链接：https://openai.com/index/better-prompt-caching-for-gpt-6
 
-### 2. Priorities and principles for effective third party assessments
+### 2. Parallel cut research time and cost in half with GPT‑6 Astra
+- 摘要：GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.
+- 发布时间：2026-09-22 20:00 CST
+- 链接：https://openai.com/index/parallel-cuts-time-and-cost-with-astra
+
+### 3. Priorities and principles for effective third party assessments
 - 摘要：OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.
 - 发布时间：2026-09-22 08:00 CST
 - 链接：https://openai.com/index/priorities-principles-third-party-assessments
 
-### 3. Higgsfield AI ships new video features in a day with GPT-6 Astra
-- 摘要：With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.
-- 发布时间：2026-09-21 20:00 CST
-- 链接：https://openai.com/index/higgsfield-from-prompt-to-production-with-astra
-
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 6 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 5 条）
 
 ### 1. New Anthropic, OpenAI models make same promise: A little more for a lot less money
 - 摘要：OpenAI and Anthropic both recently released new models aimed at lowering costs. Anthropic announced Opus 5.5, the latest version of its main mass-market workhorse model, used for tasks like coding and other complex knowledge work. And OpenAI announced GPT-6 Sol and Luna, the latest versions of its m...
@@ -273,44 +253,43 @@
 
 ## Axios（axios，en，本窗口共 5 条）
 
-### 1. Cheap, powerful AI models are increasing usage, a bullish sign for the AI boom
+### 1. FBI investigating claims that a major cybercrime group stole sensitive personnel data
+- 摘要：A notorious cybercrime group is claiming they stole more than 2 terabytes of data that includes detailed personal information about thousands of FBI employees and job applicants. Why it matters : Cybercriminals and state-sponsored attackers have penetrated U.S. IT systems for years, but stealing det...
+- 作者：Sam Sabin
+- 发布时间：2026-09-23 07:59 CST
+- 链接：https://www.axios.com/2026/09/22/shinyhunters-fbi-employees-data-hack
+
+### 2. Cheap, powerful AI models are increasing usage, a bullish sign for the AI boom
 - 摘要：AI companies have competed on having the best and often most dangerous models for years. Now, they're pivoting to a new focus: cost. Why it matters: The biggest risk to the AI boom is demand, and recent innovations to make models cheaper while maintaining powerful levels of intelligence have offered...
 - 作者：Madison Mills
 - 发布时间：2026-09-23 02:00 CST
 - 链接：https://www.axios.com/2026/09/22/cheap-powerful-models-new-ai-frontier
 
-### 2. The AI doomsday fear hidden in self-improving AI
+### 3. The AI doomsday fear hidden in self-improving AI
 - 摘要：Of the various ways experts fear AI could kill us all , one is slowly moving closer to reality: AI learning to make itself unstoppable. Why it matters: Recursive Self Improvement, the ability of an AI model to build better versions of itself without human guidance, could make increasingly capable sy...
 - 作者：Herb Scribner
 - 发布时间：2026-09-22 17:00 CST
 - 链接：https://www.axios.com/2026/09/22/ai-rsi-meaning-recursive-self-improvement-doom
 
-### 3. With $7 trillion on the line, AI safety may always take a backseat to market domination
-- 摘要：The race for AI supremacy between labs, companies and countries may be impossible to reconcile with the push for AI safety, industry insiders tell Axios. Why it matters: The top AI companies are proposing more independent oversight as they seek to engineer an AI slowdown . But trillions of dollars i...
-- 作者：Madison Mills
-- 发布时间：2026-09-22 17:00 CST
-- 链接：https://www.axios.com/2026/09/22/ai-safety-vs-ai-speed
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 38 条）
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 39 条）
+### 1. Qualcomm CFO on Snapdragon and Two New Mobile Platforms
+- 摘要：Qualcomm shares rose 2% as the company opened its Snapdragon Summit and unveiled two new flagship mobile platforms. Akash Palkhiwala says the event is focused on bringing Qualcomm’s technology into hundreds of millions of devices over the next few years, with a major emphasis on “agentic AI.” He spe...
+- 发布时间：2026-09-23 05:56 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-22/qualcomm-cfo-on-snapdragon-and-two-new-mobile-platforms-video
 
-### 1. DWS Group CEO on International Investment Opportunities
+### 2. DWS Group CEO on International Investment Opportunities
 - 摘要：Stefan Hoops, CEO of DWS Group Global, discusses the case for diversification and where U.S.-based investors might look for it. Hoops argued that investors should consider spreading risk beyond the U.S. and beyond the AI trade, saying Europe offers opportunities in industries outside of the AI stack...
 - 发布时间：2026-09-23 05:22 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-09-22/dws-group-ceo-on-international-investment-opportunities-video
 
-### 2. Singapore Wants AI to Shop But With Strict Limits, Study Shows
+### 3. Singapore Wants AI to Shop But With Strict Limits, Study Shows
 - 摘要：Singaporeans are among the most open to allowing an artificial intelligence agent to shop for them but they also want the strictest guardrails, research shows.
 - 作者：Rosalind Mathieson
 - 发布时间：2026-09-23 05:00 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-22/singapore-wants-ai-to-shop-but-with-strict-limits-study-shows
 
-### 3. World Labs Founder Fei-Fei Li Urges Independent Oversight of AI
-- 摘要：Artificial intelligence pioneer Fei-Fei Li called for more oversight of the technology by independent and public-sector entities, arguing that safety assessments of increasingly capable AI systems shouldn’t be left solely to the companies developing them.
-- 作者：Micah Barkley
-- 发布时间：2026-09-23 03:10 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-22/world-labs-founder-fei-fei-li-urges-independent-oversight-of-ai
-
-## CNBC Technology（cnbc-tech，en，本窗口共 6 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
 ### 1. Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market
 - 摘要：The overall smartphone market is expected to contract 14% in terms of units shipped in 2026.
@@ -347,7 +326,7 @@
 - 发布时间：2026-09-22 21:00 CST
 - 链接：https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 12 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 11 条）
 
 ### 1. Trump praises relations with Burnham despite tensions over AI and Iran
 - 摘要：US president calls UK prime minister ‘a natural businessperson’ as leaders meet at UN assembly in New York Donald Trump has asserted his relationship with the UK is “more up” with Andy Burnham than under Keir Starmer despite tensions between the two countries on a range of thorny issues including re...
@@ -389,7 +368,7 @@
 - 发布时间：2026-09-22 21:37 CST
 - 链接：https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and
 
-## Latent Space（latent-space，en，本窗口共 3 条）
+## Latent Space（latent-space，en，本窗口共 2 条）
 
 ### 1. 🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science
 - 摘要：How often do you get to talk to a guest who has both an Academy Award and who invented textbook machine learning algorithms? John Platt has an Oscar , two textbook algorithms , two named asteroids, and an Erdos-Bacon number of 6. This was easily the most fun bio of all the guests we’ve read to date....
@@ -403,13 +382,7 @@
 - 发布时间：2026-09-22 14:30 CST
 - 链接：https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b
 
-### 3. Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI
-- 摘要：Tickets for AIE NYC now open, and apply for the invite-only AIE CODE . Join us ! We have an unusual relationship with today’s guest: for years since coauthoring the InstructGPT paper , Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything fr...
-- 作者：Latent Space
-- 发布时间：2026-09-22 06:13 CST
-- 链接：https://www.latent.space/p/jev
-
-## MarkTechPost（marktechpost，en，本窗口共 4 条）
+## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
 ### 1. Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5
 - 摘要：Anthropic has released Claude Opus 5.5 , the first model in its new Claude 5.5 family. The team states it performs at the level of Claude Fable 5.1 on most work. It also costs 40% less to run than Opus 5 on typical workloads at default settings. On Anthropic’s own benchmarks, it leads in agentic cod...
@@ -479,43 +452,43 @@
 
 ## Simon Willison's Weblog（simon-willison，en，本窗口共 5 条）
 
-### 1. Quoting @therealcornpop
+### 1. Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
+- 摘要：Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far....
+- 作者：Simon Willison
+- 发布时间：2026-09-23 07:46 CST
+- 链接：https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/
+
+### 2. llm 0.36
+- 摘要：Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history,...
+- 作者：Simon Willison
+- 发布时间：2026-09-23 02:48 CST
+- 链接：https://simonwillison.net/2026/Sep/22/llm/
+
+### 3. Quoting @therealcornpop
 - 摘要：Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all the...
 - 作者：Simon Willison
 - 发布时间：2026-09-23 02:03 CST
 - 链接：https://simonwillison.net/2026/Sep/22/therealcornpop/
 
-### 2. llm-typesafe 0.1a0
-- 摘要：Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you can ask yes/no "noul...
-- 作者：Simon Willison
-- 发布时间：2026-09-22 23:54 CST
-- 链接：https://simonwillison.net/2026/Sep/22/llm-typesafe/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 14 条）
 
-### 3. Jev introduces a new shape of LLM - System One, aka Decision Models
-- 摘要：Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but ins...
-- 作者：Simon Willison
-- 发布时间：2026-09-22 07:09 CST
-- 链接：https://simonwillison.net/2026/Sep/21/jev/
+### 1. TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4
+- 摘要：Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.
+- 作者：TechCrunch Events
+- 发布时间：2026-09-23 07:21 CST
+- 链接：https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 13 条）
+### 2. Snorkel AI triples valuation to $3.5B as demand for AI training data booms
+- 摘要：The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.
+- 作者：Marina Temkin
+- 发布时间：2026-09-23 05:56 CST
+- 链接：https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/
 
-### 1. Qualcomm launches two new smartphone chips with emphasis on AI
+### 3. Qualcomm launches two new smartphone chips with emphasis on AI
 - 摘要：Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.
 - 作者：Ivan Mehta
 - 发布时间：2026-09-23 04:00 CST
 - 链接：https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/
-
-### 2. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence
-- 摘要：Meta says Muse was built from scratch, but acknowledges the AI assistant was "heavily inspired" by OpenClaw — down to some of its workspace filenames and content.
-- 作者：Sarah Perez
-- 发布时间：2026-09-23 03:09 CST
-- 链接：https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/
-
-### 3. OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes
-- 摘要：OpenAI is launching two new models, which it says are cut from the same cloth as Astra.
-- 作者：Lucas Ropek
-- 发布时间：2026-09-23 02:00 CST
-- 链接：https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/
 
 ## The Decoder（the-decoder，en，本窗口共 7 条）
 
@@ -537,7 +510,7 @@
 - 发布时间：2026-09-22 23:29 CST
 - 链接：https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/
 
-## The Verge — AI（theverge-ai，en，本窗口共 6 条）
+## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
 ### 1. Rabbit’s new AI agent doesn’t need an R1 to run
 - 摘要：Rabbit, the company behind the underwhelming R1 device , is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired . The startup says its new OS3 "agentic operating system" runs in the cloud but operates locally across Windows, Mac, and Linux devices....
@@ -565,25 +538,25 @@
 - 发布时间：2026-09-22 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-22
 
-## VentureBeat（venturebeat，en，本窗口共 7 条）
+## VentureBeat（venturebeat，en，本窗口共 6 条）
 
-### 1. Meta patched Muse’s zero-day, but security teams still lack visibility into what the agent can access
+### 1. Text handoffs slow AI models down. C2C lets them communicate through KV caches instead
+- 摘要：When a multi-LLM system hands work from one model to another through text — whether a router switching between models or agents collaborating on a task — the first model has to compress what it knows into text, and the next has to read that text and reconstruct the information it contains. That hand...
+- 作者：bendee983@gmail.com (Ben Dickson)
+- 发布时间：2026-09-23 06:03 CST
+- 链接：https://venturebeat.com/orchestration/text-handoffs-slow-ai-models-down-c2c-lets-them-communicate-through-kv-caches-instead
+
+### 2. Meta patched Muse’s zero-day, but security teams still lack visibility into what the agent can access
 - 摘要：Patrick Wardle disclosed a zero-day vulnerability in Meta’s Muse Mac app on Monday that let malware already running under a Mac user’s account hijack the agent’s authentication material with no special macOS permissions. The disclosure came as Muse passed 2.5 million downloads in its first 13 days,...
 - 作者：louiswcolumbus@gmail.com (Louis Columbus)
 - 发布时间：2026-09-23 04:12 CST
 - 链接：https://venturebeat.com/security/meta-patched-muses-zero-day-but-security-teams-still-lack-visibility-into-what-the-agent-can-access
 
-### 2. Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price
+### 3. Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price
 - 摘要：Anthropic today released Claude Opus 5.5, its new frontier model aimed at long-running coding agents, research, and professional knowledge work and it both outperforms and undercuts the cost (over application programming interface, or API) of Anthropic's prior flagship models Mythos 5.1 and Fable 5....
 - 作者：carl.franzen@venturebeat.com (Carl Franzen)
 - 发布时间：2026-09-23 03:05 CST
 - 链接：https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price
-
-### 3. OpenAI releases GPT-6 Sol and Luna models, slashing API costs 50% or more
-- 摘要：OpenAI is expanding its lineup of AI models with the new GPT-6 Sol and GPT-6 Luna, mid-priced and lower tier models designed to serve as enterprise workhorses for common tasks requiring less intelligence — and both are priced at half or less the costs of their predecessors when accessed over OpenAI'...
-- 作者：carl.franzen@venturebeat.com (Carl Franzen)
-- 发布时间：2026-09-23 02:22 CST
-- 链接：https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more
 
 ## WIRED — AI（wired-ai，en，本窗口共 9 条）
 
@@ -625,24 +598,24 @@
 - 发布时间：2026-09-22 14:47 CST
 - 链接：https://www.36kr.com/p/3993991253703683
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 18 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 15 条）
 
-### 1. 美股大型科技股盘前涨跌不一，英特尔跌超1%
-- 摘要：36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，英特尔跌超1%，亚马逊跌0.61%，Meta跌0.51%，英伟达跌0.46%，微软涨超1%，特斯拉涨0.61%，谷歌涨0.43%，苹果涨0.4%。
-- 发布时间：2026-09-22 20:52 CST
-- 链接：https://www.36kr.com/newsflashes/3994576138080132
+### 1. 华泰证券：AI算力建设驱动矢量网络分析仪需求
+- 摘要：36氪获悉，华泰证券研报认为，AI算力建设推动高速互连加速升级，矢量网络分析仪（VNA）有望迎来发展机遇。数据中心网络向800G、1.6T演进，高速连接器、线缆及高端PCB对信号完整性与良率管控的要求持续提高，将带动VNA测试需求增长；同时测试向更高频率、更多端口及自动化方向升级，有望推动VNA量价齐升。看好国内厂商凭借射频微波技术积累、产品不断迭代，在下游需求扩张与国产替代背景下实现成长。
+- 发布时间：2026-09-23 08:38 CST
+- 链接：https://www.36kr.com/newsflashes/3995243644833666
 
-### 2. 埃森哲与AWS合作，为中型企业推出六项AI及云服务
-- 摘要：9月22日，埃森哲宣布与亚马逊云科技（AWS）合作，通过新成立的Accenture Edge业务，为年营收3亿至30亿美元的中型企业提供AI及云转型服务。双方推出六项可直接部署的解决方案，涵盖数据发现、虚拟机迁移、客户体验、云成本优化、AI安全测试及云安全基础设施。（界面）
-- 发布时间：2026-09-22 20:45 CST
-- 链接：https://www.36kr.com/newsflashes/3994552310747271
+### 2. Anthropic CEO Amodei将向联合国安理会介绍人工智能风险
+- 摘要：Anthropic首席执行官达里奥·阿莫代将于周三出席联合国安理会有关人工智能未来的会议，并就人工智能发展及其潜在风险进行远程简报。除Amodei外，OpenAI首席执行官萨姆·奥特曼、联合国人工智能小组联合主席约书亚·本吉奥，以及Hugging Face首席执行官克莱门特·德朗格也将参与此次会议。（新浪财经）
+- 发布时间：2026-09-23 08:33 CST
+- 链接：https://www.36kr.com/newsflashes/3995242957607048
 
-### 3. 先河环保：子公司拟1.68亿元购买GPU服务器设备，用于提供算力服务
-- 摘要：36氪获悉，先河环保公告，公司全资子公司邢台智算拟通过第三方以融资租赁方式向关联方河北并济购买63台GPU服务器整机设备，交易价格266万元/台，总计1.68亿元。本次拟购买GPU服务器整机设备，主要通过提供算力服务获取投资回报。本次交易构成关联交易，已获董事会审议通过，尚需提交股东会审议。
-- 发布时间：2026-09-22 20:36 CST
-- 链接：https://www.36kr.com/newsflashes/3994551516270721
+### 3. 海外龙头开启涨价模式，融资加仓MLCC概念股
+- 摘要：近期，全球MLCC（多层陶瓷电容器）龙头陆续上调产品报价，核心驱动力来自算力产业链对高容量型号的强劲拉动。数据显示AI服务器与高速光模块对MLCC用量呈指数级提升，行业结构性缺口持续扩大；伴随本土厂商产能释放、产品升级，MLCC产业链有望迎来业绩兑现期。下半年以来，融资客加仓多只MLCC概念股。截至9月21日，斯迪克、风华高科、双星新材、昀冢科技等4股融资净买入额超过5000万元，依次为10.82亿元、3.70亿元、8167.71万元、7443.88万元。（证券时报）
+- 发布时间：2026-09-23 08:29 CST
+- 链接：https://www.36kr.com/newsflashes/3995239153619076
 
-## 极客公园（geekpark，zh，本窗口共 2 条）
+## 极客公园（geekpark，zh，本窗口共 1 条）
 
 ### 1. Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了
 - 摘要：9 月 21 日，一条弹窗开始出现在试图用 Meta Muse 在 Amazon 上购物的用户屏幕上：「未经授权的 AI Agent 继续访问，将违反 Amazon 使用条款。」 这距离 Muse 正式上线，仅仅过了 13 天。 Meta 推出的个人 AI 助手 Muse 最近爆火｜图片来源：Meta Meta 在 9 月 8 日发布了 Muse，把它定义为「 全球第一款，为所有人打造的个人 AI Agent 」。和 ChatGPT、Claude 这些聊天机器人不同，Muse 不只是回答问题，它能打开浏览器、登录你的邮箱、填表格、订机票，甚至直接替你下单买东西。 效果立竿见影，Sensor T...
@@ -650,33 +623,27 @@
 - 发布时间：2026-09-22 12:01 CST
 - 链接：http://www.geekpark.net/news/370797
 
-### 2. 黄仁勋：AI 时代，企业应该尽可能多付薪酬；宇树科技发布 Dex5-S 灵巧手；OpenAI 新模型 24 天解决 100+ 世界级数学难题 | 极客早知道
-- 摘要：消息称华为 Mate 90 系列年度旗舰手机将在 9 月 29 日发布 9 月 21 日消息，昨日早些时候，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东刚刚宣布，智界 RX 及鸿蒙智行新品发布会定档 9 月 28 日 14:30 举行。 根据此前爆料，华为 Mate 90 系列手机也将在本月发布，但遗憾的是，今天华为并未官宣这款年度旗舰的发布会时间。但博主 @熠熠玩数码 透露， Mate 90 系列发布会将在 9 月 29 日 14:30 举行 。（来源：IT 之家） 英伟达员工平均年薪 28.2 万美元，黄仁勋喊话企业「尽可能多付薪酬」 英伟达 CEO 黄仁勋近日接受 CB...
-- 作者：极客早知道
-- 发布时间：2026-09-22 08:42 CST
-- 链接：http://www.geekpark.net/news/370768
+## 虎嗅（huxiu，zh，本窗口共 37 条）
 
-## 虎嗅（huxiu，zh，本窗口共 31 条）
+### 1. 智谱能过关吗？
+- 摘要：这两天，智谱可能遇到了成立以来最棘手的一次信任考验。有意思的是，这场风波发生的时间点，实在太巧了。9月10日，Anthropic发布了一份154页的安全报告，点名阿里、月之暗面、DeepSeek、智谱、小米、商汤和MiniMax，称这些中国AI实验室存在针对Claude的大规模“未经授权蒸馏”。这里面有一个容...... 本文来自微信公众号： 岳涌大江流 ，作者：岳老狮 这两天，智谱可能遇到了成立以来最棘手的一次信任考验。 有意思的是，这场风波发生的时间点，实在太巧了。 9月10日，Anthropic发布了一份154页的安全报告，点名阿里、月之暗面、DeepSeek、智谱、小米、商汤和Mini...
+- 作者：岳涌大江流©
+- 发布时间：2026-09-23 08:28 CST
+- 链接：https://www.huxiu.com/article/4893347.html
 
-### 1. 中国商业航天“新”在哪里？
-- 摘要：9月20日12时03分，中科宇航技术股份有限公司力箭一号遥十八运载火箭在酒泉东风商业航天创新试验区发射，采用“一箭九星”的方式，将“超智算一号”等九颗卫星成功送入预定轨道。同时，力箭一号首次海上发射即将启程，将执行“一箭三星”发射任务。陆海协同发射，提供更加灵活的空间运输能力。事实上，最近一周之内（9月15日...... 本文来自微信公众号： 秦朔朋友圈 ，作者：陈旭钦 9月20日12时03分，中科宇航技术股份有限公司力箭一号遥十八运载火箭在酒泉东风商业航天创新试验区发射，采用“一箭九星”的方式，将“超智算一号”等九颗卫星成功送入预定轨道。 同时，力箭一号首次海上发射即将启程，将执行“一箭三星...
-- 作者：秦朔朋友圈
-- 发布时间：2026-09-23 00:09 CST
-- 链接：https://www.huxiu.com/article/4893333.html
+### 2. 刚刚，GPT-6新模型掀桌，“白菜价”杀进DeepSeek 腹地
+- 摘要：DeepSeek快醒醒，ChatGPT要打到家门口了。就在刚刚，OpenAI正式发布GPT-6 Sol和GPT-6 Luna，API价格降至上一代的一半左右。其中，Luna每百万Token输入0.1美元、输出0.5美元，约合人民币0.7元和3.5元。作为对照，DeepSeek V4.1 Flash闲时的缓存未...... 本文来自微信公众号： APPSO ，作者：发现明日产品的，原文标题：《刚刚，GPT-6 新模型掀桌！「白菜价」杀进 DeepSeek 腹地》 DeepSeek快醒醒，ChatGPT要打到家门口了。 就在刚刚，OpenAI正式发布GPT-6 Sol和GPT-6 Luna，API...
+- 作者：AppSo
+- 发布时间：2026-09-23 08:27 CST
+- 链接：https://www.huxiu.com/article/4893346.html
 
-### 2. AI行业最热门的新岗位，暴露了一个尴尬的事实
-- 摘要：过去三年，很多人进入办公室时，最先注意到的，常常不是屏幕上多了一个按钮，而是身边少了一张工位。“人工智能”和“裁员”越来越频繁地出现在同一条新闻里。AI已经成了管理层重新计算人力需求时绕不开的变量。许多职业正被拆成一项项机器可以参与、压价甚至接管的任务。我在前几天的文章中，谈到马斯克最近的一项预测：到2027...... 本文来自微信公众号： 不懂经 ，作者：经叔，原文标题：《AI行业最热门的新岗位，暴露了一个尴尬的事实 |不懂经网站》 过去三年，很多人进入办公室时，最先注意到的，常常不是屏幕上多了一个按钮，而是身边少了一张工位。 “人工智能”和“裁员”越来越频繁地出现在同一条新闻里。AI已经...
-- 作者：不懂经©
-- 发布时间：2026-09-22 23:32 CST
-- 链接：https://www.huxiu.com/article/4893332.html
+### 3. 中国正在把一座“数据中心”拆开送上太空
+- 摘要：如果把一座数据中心搬到太空，需要分几步？第一步，把计算机送上去；第二步，让这些计算机能够被软件统一管理；第三步，再用高速网络把它们彼此连接起来，并把数据送回地面。力箭一号遥十八近期送入轨道的两颗卫星，恰好就在做类似的事情。超智算一号搭载4米可见光相机和AI计算机，可以在轨处理影像、识别目标；鹏城南科一号则把5...... 本文来自微信公众号： 反熵 ，作者：一笑 如果把一座数据中心搬到太空，需要分几步？ 第一步，把计算机送上去；第二步，让这些计算机能够被软件统一管理；第三步，再用高速网络把它们彼此连接起来，并把数据送回地面。 力箭一号遥十八近期送入轨道的两颗卫星，恰好就在做类似的事情。 超智算...
+- 作者：反熵
+- 发布时间：2026-09-23 08:23 CST
+- 链接：https://www.huxiu.com/article/4893343.html
 
-### 3. 美国限制中国机器人，特斯拉却来中国找供应链
-- 摘要：特斯拉作为一边代表美国对人工智能、机器人等前沿产业投入，另一边又长期依赖中国的制造能力和供应链体系的跨国企业，如今又有一支队伍来到中国，寻找Optimus的量产答案。据《南华早报》报道，特斯拉管理人员和工程师近期开始审核中国供应商，涉及三花智控、均胜电子、拓普集团等浙江企业。潮新闻随后从宁波制造业企业获得的信...... 本文来自微信公众号： 科工力量 ，作者：科工力量 特斯拉作为一边代表美国对人工智能、机器人等前沿产业投入，另一边又长期依赖中国的制造能力和供应链体系的跨国企业，如今又有一支队伍来到中国，寻找Optimus的量产答案。 据《南华早报》报道，特斯拉管理人员和工程师近期开始审核中国...
-- 作者：科工力量
-- 发布时间：2026-09-22 23:32 CST
-- 链接：https://www.huxiu.com/article/4893331.html
-
-## 爱范儿（ifanr，zh，本窗口共 7 条）
+## 爱范儿（ifanr，zh，本窗口共 6 条）
 
 ### 1. 10.99 万元起！日产新 N7 这次是真加量还降价
 - 摘要：去年 4 月，东风日产 N7 带着 11.99 万元起的价格进入市场时，一度成为合资新能源阵营里颇受关注的一款车。它的空间够大、座椅够舒服，再加上当时不算落后的智能座舱和辅助驾驶配置，让它很快积累了一批订单，月销成功破万。 如今一年多过去，N7 迎来了首次年度改款。 今晚，新 N7 正式上市，共推出 5 款车型，全系限时权益价 10.99 万元起。 从产品本身来看，新 N7 没有大幅调整原有设计，依旧是封闭式 V-motion 前脸+贯穿式灯带，车长还是 4930mm，轴距 2915mm。 比较容易辨认新老车型的地方，在于车顶新增的激光雷达、半隐藏式的门把手，以及新漆色「青柑」。 看到车顶那个...
@@ -716,25 +683,25 @@
 - 发布时间：2026-09-22 15:12 CST
 - 链接：https://www.infoq.cn/article/He6bUhlNIuPEa99GGRYC?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 121 条）
+## IT之家（ithome，zh，本窗口共 126 条）
 
-### 1. 高通第六代骁龙 8 超级至尊版升级封装方案：峰值性能输出更持久
-- 摘要：IT之家 9 月 23 日消息，夏威夷时间 9 月 22 日 9 点（北京时间 9 月 23 日 3 点）召开的 2026 骁龙峰会上，高通公司宣布在其第六代骁龙 8 超级至尊版芯片上， 采用了全新的 Offset Package-on-Package（偏移式堆叠封装）方案。 IT之家查询公开资料，主流手机芯片采用 Package-on-Package (PoP) 封装技术，通常将 DRAM 内存芯片直接垂直堆叠在 SoC（系统级芯片）正上方。 这种封装方式可以节省主板空间，但会导致内存成为 SoC 散热的物理屏障，热量难以直接传导到外部散热系统。 高通的 Offset PoP 封装方案物理偏...
+### 1. 古尔曼称苹果酝酿 homeOS：整合 iOS / tvOS / watchOS 特性，服务智能家居中枢
+- 摘要：IT之家 9 月 23 日消息，昨日（9 月 22 日）发布的 Power On 时事通讯中，彭博社的马克 · 古尔曼（Mark Gurman）透露苹果公司正在研发智能家居系统， 融合 iOS、watchOS 与 tvOS 的界面特征，上市后预估名为 homeOS。 名称方面，IT之家曾于 2025 年 6 月报道，苹果可能已通过名为 Home Operations Suite LLC 的空壳公司， 在全球多地提交了“homeOS”商标申请。 在界面上，消息称 homeOS 定位智能家居中枢系统，将融合 iOS、watchOS 与 tvOS 的部分设计特征，采用应用图标网格布局，并提供组件和可...
 - 作者：作者： 故渊
-- 发布时间：2026-09-23 05:03 CST
-- 链接：https://www.ithome.com/1/006/011.htm
+- 发布时间：2026-09-23 08:05 CST
+- 链接：https://www.ithome.com/1/006/033.htm
 
-### 2. 摩托罗拉 Signature 27 旗舰真机首秀，搭载高通第六代骁龙 8 超级至尊版芯片
-- 摘要：IT之家 9 月 23 日消息，在北京时间 9 月 23 日凌晨的 2026 高通骁龙峰会现场， 高通公司宣布推出第六代骁龙 8 超级至尊版移动平台和第六代骁龙 8 至尊版移动平台 ，官方表示这是“全球最快移动 CPU”。 摩托罗拉移动全球产品营销负责人兼执行总监 Nicole Hagen 宣布：“摩托罗拉很高兴进一步拓展与高通技术公司的合作， 并首次在旗舰产品系列中采用第六代骁龙 8 超级至尊版 。这一重要里程碑将帮助我们为全球消费者带来更强大的终端侧 AI 能力、更出色的性能以及更高品质的用户体验。凭借第六代骁龙 8 超级至尊版，我们将打造面向未来的新一代智能手机，更好地满足用户不断变化的...
-- 作者：作者： 汪淼
-- 发布时间：2026-09-23 05:02 CST
-- 链接：https://www.ithome.com/1/006/010.htm
+### 2. 三菱重工：美国 AI 数据中心需求推动燃气轮机订单创新高
+- 摘要：9 月 23 日，据日经新闻报道，三菱重工美国公司董事长兼 CEO Takao Tsukui 9 月 21 日在纽约接受采访时表示，受美国人工智能数据中心建设需求推动，从 2026 年 1 至 6 月的订单进度看，全球燃气轮机需求预计与 2025 年持平或更高，全年有望再次超过 100 吉瓦。他预计，这一强劲需求将延续至 2027 年。 报道称，三菱重工是全球三大发电用燃气轮机制造商之一，与 GE Vernova、西门子能源并列。其主力产品是用于燃气轮机联合循环（GTCC）电厂的高效超大型 J 型涡轮机。据三菱重工统计，2025 年全球燃气轮机需求达到 2000 年以来最高水平。由于全球减碳趋...
+- 作者：作者： 于雷
+- 发布时间：2026-09-23 08:04 CST
+- 链接：https://www.ithome.com/1/006/032.htm
 
-### 3. 高通第六代骁龙 8 超级至尊版芯片一图看懂：2nm 工艺、CPU 行业首超 5GHz
-- 摘要：IT之家 9 月 23 日消息，夏威夷时间 9 月 22 日 9 点（北京时间 9 月 23 日 3 点）召开的 2026 骁龙峰会上， 高通公司宣布推出第六代骁龙 8 超级至尊版移动平台和第六代骁龙 8 至尊版移动平台 ，官方表示这是“全球最快移动 CPU”。 IT之家在峰会现场获得了关于两款新旗舰处理器的第一手最新消息，并为大家带来 第六代骁龙 8 超级至尊版芯片一图看懂内容 ： 第六代骁龙 8 超级至尊版定位为其性能最强的移动平台之一，重点提升终端侧人工智能、移动游戏和影像处理能力。 其中，平台搭载的 Adreno Neural Fusion 技术可利用人工智能辅助图形渲染；结合高级专业...
-- 作者：作者： 汪淼
-- 发布时间：2026-09-23 04:47 CST
-- 链接：https://www.ithome.com/1/006/009.htm
+### 3. 小米推出米家筒灯 / 射灯 3 Pro 新品：国补价 129.2~169.2 元
+- 摘要：IT之家 9 月 23 日消息，小米新上架了三款米家灯具新品。IT之家汇总如下： 米家筒灯 3 Pro，首发价 152 元，国补价 129.2 元 米家射灯 3 Pro，首发价 176 元，国补价 149.6 元 米家筒灯 3 Pro 人在感应版，首发价 199 元，国补价 169.2 元 活动期间晒单评价满足要求可返 10 元京东红包，预约且前 3 名购买用户还可获赠筒灯 3 Pro。 米家筒灯 3 Pro 采用弧面一体设计，无缝贴合天花板，简约隐于无形；采用米家定制 全光谱灯珠 ，显色指数高达 Ra97，通过光生物安全豁免级测试，无可视频闪。 米家筒灯 3 Pro 升级为 12W 大功率，...
+- 作者：作者： 问舟
+- 发布时间：2026-09-23 07:59 CST
+- 链接：https://www.ithome.com/1/006/031.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 21 条）
 
@@ -790,45 +757,45 @@
 - 发布时间：2026-09-22 22:28 CST
 - 链接：https://www.qbitai.com/2026/09/494420.html
 
-## 钛媒体（tmtpost，zh，本窗口共 28 条）
+## 钛媒体（tmtpost，zh，本窗口共 29 条）
 
-### 1. 从卖芯片到做平台，地平线押注“Arm+Android”模式
+### 1. 亏损20亿后，优刻得仍要“梭哈”：中小云还有退路吗？ | 深度
+- 摘要：图片系AI生成 一个月前，科创板云计算第一股优刻得（688158.SH）定增尚在一帆风顺中：3月披露方案，6月修订并获受理，7月29日完成首轮问询回复，节奏环环相扣。彼时公司仍强调募投项目“经济效益前景良好、新建智算中心具有紧迫性和合理性”。 9月初，官宣终止随即接踵而至，公司给出“综合考虑当前宏观经济环境、资本市场环境变化及公司实际情况等诸多因素，经与各方充分沟通及审慎分析后……”的常见话术。前后一个多月判若两人，令市场意外。 而耐人寻味的是优刻得此前在问询回复中坦言：“目前公司的货币资金已接近最低现金保有量，急需通过外部融资的支持”。回望上市六年来，优刻得在阿里、腾讯等巨头掀起的云价格战中...
+- 作者：蓝湖
+- 发布时间：2026-09-23 08:00 CST
+- 链接：https://www.tmtpost.com/8149165.html
+
+### 2. 【钛晨报】事关轻工纺织产业发展，三部门最新部署；阿里试水千问平板，与字节押注不同的AI终端；“2026中国民营企业500强”发布
+- 摘要：【钛媒体综合】为推动轻工纺织产业深度转型升级，依据《中华人民共和国国民经济和社会发展第十五个五年规划纲要》，工业和信息化部、商务部、市场监管总局等三部门近日联合发布了《轻工纺织产业发展“十五五”规划》（以下简称《规划》）。 《规划》提出总体目标：到2030年，轻工纺织产业智能化、绿色化、融合化发展水平不断提高，规模以上工业增加值年均增速保持在合理区间，全员劳动生产率稳步增长，创新体系高效协同，转型升级稳步推进，结构和布局更加优化，产业优势持续巩固，民生保障坚实有力，在全球产业链价值链中地位显著提升。《规划》从规模效益、创新能力、转型升级、民生保障等4方面，提出规模以上企业营业收入、规模以上企业...
+- 作者：钛媒体官方账号
+- 发布时间：2026-09-23 07:20 CST
+- 链接：https://www.tmtpost.com/8149326.html
+
+### 3. 从卖芯片到做平台，地平线押注“Arm+Android”模式
 - 摘要：地平线创始人余凯博士 地平线第1500万颗征程芯片，最终落在了一汽-大众ID. AURA T6上。 从征程2、征程3，到征程5和征程6，地平线已经完成了从国产智驾芯片进入供应链，到千万级规模量产的跨越。地平线创始人余凯透露，从500万颗到1000万颗用了大约15个月，从1000万颗到1500万颗进一步缩短到约12个月。目前每天约有800万辆搭载征程芯片的汽车行驶在道路上，累计定点接近500款车型。 但1500万颗更多代表过去几年积累下来的结果，规模化被验证之后，地平线接下来的挑战在于智驾行业逐步成熟之后，它还能往哪里走。 规模之后，竞争开始进入深水区 地平线早期的路径并不复杂。 从相对低算力的...
 - 作者：花卷不塞车
 - 发布时间：2026-09-22 22:13 CST
 - 链接：https://www.tmtpost.com/8148860.html
 
-### 2. 除了谈钱，银行也想和你谈谈感情
-- 摘要：文｜刺猬公社，作者 | 小卜，编｜陈梅希 根据近期陆续披露的财报数据，2026年上半年，银行们的日子冷暖自知，算得上几家欢喜几家愁。 六家国有大行在上半年均实现营收和净利润的同比增长。其中营收增长最快的是农业银行，同比增长11.07%；净利润增长最快的是中国银行，同比增长5.1%。 数据来源：银行财报；制表：MiniMax-M3 上市的10家全国性股份行中，兴业银行、光大银行和渤海银行的营收出现同比下滑；归母净利润方面，光大银行同比减少了24.01%，华夏银行同比减少18.35%。股份行中，营收涨幅最高的华夏银行，净利润反而跌幅较大；而营收同比下滑的渤海银行，却获得了8.14%的净利润增长。...
-- 作者：刺猬公社
-- 发布时间：2026-09-22 20:41 CST
-- 链接：https://www.tmtpost.com/8148914.html
-
-### 3. 当朱江明开始谈苹果，零跑的底气从哪来？
-- 摘要：朱江明很少把话说得这么大。 在零跑今年的技术日上，他第一次把苹果作为零跑未来希望成为的样子。按照他的解释，宽带无线通信、触屏、数码相机、MP3都不是苹果发明的，但苹果通过功能组合、生态和产品创新，把这些已有技术重新组织在了一起，最终改变了智能手机。 朱江明随后说，零跑也希望有这样的创新，争取成为汽车行业的苹果。 放在一家汽车公司的技术发布会上，这样的表达并不罕见。过去几年，中国汽车公司对于世界一流、全球领先之类的目标已经说了很多。 但放在朱江明身上，这句话还是有些反常。 零跑过去给外界留下的印象一直很工程师。谈自研、成本、平台化，也谈销量，很少主动制造宏大的技术概念。甚至在具身智能已经成为汽车...
-- 作者：科技指北
-- 发布时间：2026-09-22 17:31 CST
-- 链接：https://www.tmtpost.com/8148951.html
-
 ## 智东西（zhidx，zh，本窗口共 8 条）
 
-### 1. 开启AIDC建设新范式，深度拆解华为全球首个3D数据中心
+### 1. 刚刚，高通2nm双旗舰来了，为智能体AI重造架构，手机能跑300亿参数大模型
+- 摘要：智东西 作者 | ZeR0 编辑 | 漠影 刚刚，高通最强手机芯片来了！ 智东西夏威夷毛伊岛9月22日现场报道，在骁龙峰会2026上，高通一口气推出两款采用2nm制程的旗舰芯片—— 第六代骁龙8超级至尊版 和 第六代骁龙8至尊版 。 这是高通首次在旗舰产品线同时推出两款骁龙8至尊版平台，也是骁龙平台首次采用2nm制程。 下一代AI智能体设备会是什么样子？高通展示了 荣耀Robot Phone 、 阿里原生智能体电脑Qwen Book 、 努比亚NaviX Ultra上的豆包手机助手 等全球最早一批智能体设备，使用骁龙移动平台实现的全新智能体体验。 高通总裁兼CEO安蒙在演讲中说，我们刚刚进入智...
+- 作者：ZeR0
+- 发布时间：2026-09-23 07:17 CST
+- 链接：https://zhidx.com/p/596608.html
+
+### 2. 开启AIDC建设新范式，深度拆解华为全球首个3D数据中心
 - 摘要：智东西 作者 | 杨京丽 编辑 | 李水青 智东西9月22日报道，近日，华为发布 全球首个3D数据中心 ，以工程创新重塑AIDC基础设施架构，以 “立体堆叠” 取代“平面铺开”， 将供冷、供电、备电与IT设备分层解耦 ，推动AIDC建设从“定制工程”向 “产品化交付” 转变，为破解AI算力时代“空间、供电、散热”三大瓶颈提供新路径，引领新一代AIDC建设新范式。 ▲华为发布全球首个3D数据中心 3D数据中心借鉴芯片工厂 “动力层”与“IT层”严格分离 的理念，通过分层解耦、立体堆叠，将传统水平部署的各个功能空间垂直叠加，形成 “一层供冷、二层IT设备、三层供电、屋面备电” 的垂直架构，实现 垂...
 - 作者：杨 京丽
 - 发布时间：2026-09-22 20:15 CST
 - 链接：https://zhidx.com/p/596478.html
 
-### 2. 国产芯片巨头入局嵌入式，海光用技术和生态破局
+### 3. 国产芯片巨头入局嵌入式，海光用技术和生态破局
 - 摘要：智东西 作者 | 云鹏 编辑 | 漠影 如今，AI加速从云端走向边缘和端侧已是大势所趋，智能体（Agentic AI）加速深入千行百业。 交通、油气、机器人、医疗、制造等一系列实体产业都已卷入智能化浪潮转型中， 边缘端侧的算力支撑，成为驱动物理世界数智化转型的关键基石。 这样的变化带来了一系列新的挑战：工控场景需要兼顾微秒级实时控制与多任务并发；边缘网关需要同时承担多协议转换和数据预处理；机器视觉需要在现场完成快速AI推理。 总体来看， 实时性、可靠性、数据安全、带宽成本 的需求驱动着算力的变革和下沉，新的嵌入式计算需求不断涌现，海量嵌入式场景对国产化平台的需求也越来越高。 这一趋势下，海光信...
 - 作者：云鹏
 - 发布时间：2026-09-22 19:15 CST
 - 链接：https://zhidx.com/p/596290.html
-
-### 3. 499元，OPPO发了一款别在领口的AI新硬件
-- 摘要：智东西 作者 | 云鹏 编辑 | 李水青 智东西9月22日深圳晚间报道，昨天vivo刚刚出招，今天OPPO就紧接着掏出了自家年度旗舰机Find X10系列，其核心定位还是影像旗舰，Pro Max版首发了三颗2亿像素镜头群。 作为发布会的“One More Thing”，OPPO首席产品官刘作虎正式发布了售价499元的OPPO AI“心力球”，实际上这是一个AI穿戴产品，可以别在领口。 其核心能力就是全天记录，用刘作虎的话来说，它可以识别重要的事项、帮助用户做好事情、陪伴用户成长，是一个“超级工作搭子”。其续航据称能达到24小时。 心力球背后，OPPO研发了AI识别、关联信息、记忆演化、个人情景...
-- 作者：云鹏
-- 发布时间：2026-09-22 19:00 CST
-- 链接：https://zhidx.com/p/596570.html
 
 # Tier 3 — 社交 / 聚合
 
@@ -849,25 +816,25 @@
 - 发布时间：2026-09-22 15:50 CST
 - 链接：https://github.com/zhouxiaoka/autoclip
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 127 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 119 条）
 
-### 1. Datapages v0.10.0 Beta Release
-- 摘要：Datapages v0.10.0 (Beta) After 7 long months, Datapages finally leaves Alpha and enters Beta! 🥳 It's now ready for production use and ships a lot of new features, fixes and DX improvements! In tota...
-- 作者：romshark
-- 发布时间：2026-09-23 04:46 CST
-- 链接：https://github.com/romshark/datapages/releases/tag/v0.10.0
+### 1. The 'AI Safety' Movement Is Making AI Less Safe
+- 摘要：The fear of superintelligence is driving decisions that make AI less transparent and more consolidated.
+- 作者：Bostonian
+- 发布时间：2026-09-23 07:11 CST
+- 链接：https://reason.com/2026/09/22/the-ai-safety-movement-is-making-ai-less-safe/
 
-### 2. LLM Ass Bench
-- 摘要：LLM Benchmark - One prompt, Multiple models, Multiple dates
-- 作者：fragmede
-- 发布时间：2026-09-23 04:34 CST
-- 链接：https://www.assbench.com/
+### 2. UN General Assembly: Trump renames AI to Super Intelligence
+- 摘要：The change, which he said will be reflected on government documents, comes amid growing anxiety about artificial intelligence.
+- 作者：f1ay
+- 发布时间：2026-09-23 06:43 CST
+- 链接：https://www.washingtonpost.com/technology/2026/09/22/trump-says-hes-renaming-ai-super-intelligence/
 
-### 3. Native apps written in TypeScript and CSS
-- 摘要：Example Gea applications and tools — the app gallery used by the simulator, the embedded targets, GeaOS and the Apple targets. - geastack/examples
-- 作者：arbayi
-- 发布时间：2026-09-23 03:42 CST
-- 链接：https://github.com/geastack/examples
+### 3. Trump orders AI rebrand as "super intelligence"
+- 摘要：Trump wants to drop the "A" in AI.
+- 作者：kirab
+- 发布时间：2026-09-23 06:35 CST
+- 链接：https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 17 条）
 
@@ -889,48 +856,48 @@
 - 发布时间：2026-09-22 02:50 CST
 - 链接：https://www.producthunt.com/products/fez-2
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 438 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 437 条）
 
-### 1. Qwen 2.1 T2I: Why characters looks like they don't belong into the photo?
-- 摘要：I been playing around for a couple of hours, and noticed this annoying issue, generated characters in overall looks like they don't belong into the picture... like added with Photoshop. Also, prompt adherence is not great overall, even when using their official prompt... Krea 2 offers a way better a...
-- 作者：waltercool
-- 发布时间：2026-09-23 05:28 CST
-- 链接：https://i.redd.it/l7agbwaj15rh1.png
+### 1. Cheap per token, expensive per task: AI model pricing vs. performance [OC]
+- 摘要：Anthropic's release of Opus 5.5 today sent me down a rabbit hole. I wanted to understand the best effort levels for using this new best-in-class model. That led me to the below, based on Artificial Analysis Intelligence Index v4.3.2 scores. If you look at the first chart, you'll see that Opus 5.5 ge...
+- 作者：Wsz2020
+- 发布时间：2026-09-23 08:42 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1wnr7m1/cheap_per_token_expensive_per_task_ai_model/
 
-### 2. Opinion | This Is a Rare Arena in Which People Think A.I. Is Helping. It’s Making Things Worse.
-- 摘要：Beware the flashy but unproven A.I.-powered advances.
-- 作者：nytopinion
-- 发布时间：2026-09-23 05:21 CST
-- 链接：https://www.nytimes.com/2026/09/22/opinion/artificial-intelligence-ai-danger.html?unlocked_article_code=1.DFE.ozck.pu_rSdnP_n7K&smid=re-nytopinion
+### 2. Qwen Image 2.1 Not Bad
+- 摘要：Some remakes of my old gens from the past. The key is CFG > 1, abnorsett_3m sampler from RES4LYF node pack with Bongmath enabled (though you can use other samplers), beta_57 scheduler and ModelSamplingAuraFlow Shift at about 16. 30 steps, 2.5 megapixels, all text to image with no references. Don't f...
+- 作者：GTManiK
+- 发布时间：2026-09-23 08:40 CST
+- 链接：https://www.reddit.com/gallery/1wnr5u8
 
-### 3. I gave my Claude Code agents a shared memory. After 3 months and 11,000 events, here's what actually helps day to day
-- 摘要：TL;DR: My AI agents now keep a shared, searchable record of what worked, what didn't and what changed, with receipts, and they check it before they act. AI assistants forget everything between sessions. Each new session starts blank, so they repeat old mistakes and act on facts that have changed. So...
-- 作者：Verryfastdoggo
-- 发布时间：2026-09-23 05:21 CST
-- 链接：https://i.redd.it/5w3hl76q15rh1.png
+### 3. I just asked Opus 5.5 to prove P = NP and it worked
+- 摘要：Who do I notify to get my million dollars?
+- 作者：jmclondon97
+- 发布时间：2026-09-23 08:39 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1wnr5ic/i_just_asked_opus_55_to_prove_p_np_and_it_worked/
 
-## 智源社区（baai-hub，zh，本窗口共 15 条）
+## 智源社区（baai-hub，zh，本窗口共 17 条）
 
-### 1. 实测Qwen3.8-Omni-Flash：全模态Agent有了“白菜价”
+### 1. GPT-6 Sol被曝即将发布？内部「AGI」已浮出水面
+- 摘要：新智元报道 GPT-6 Sol，真要来了！ 英伟达已经悄悄用上了。 今天，有眼尖的开发者发现，在英伟达的代码合并记录中，已经赫然出现了「GPT-6 Sol medium」的字样。 甚至，业内还出现了成熟的「AI打工矩阵」协作案例——由目前的旗舰模型 GPT-6 Astra 负责编写代码，然后直接交由 GPT-6 Sol 进行代码审查。 现在，X上关于O/A两家的爆料满天飞。 有人透露，就在本周二（甚至有人卡点在周二凌晨3点），OpenAI将正式全面发布GPT-6 Sol ！ 而隔壁的Anthropic显然不想坐以待毙，传闻他们已经拉响了内部警报，准备将原定计划提前，在同一时间强推 Claude...
+- 作者：新智元
+- 发布时间：2026-09-23 07:40 CST
+- 链接：https://hub.baai.ac.cn/view/58190
+
+### 2. 突发！OpenAI官宣24天攻破100+世界级数学难题
+- 摘要：新智元报道 数学界，真被AI追到家门口了！ 就在刚刚，OpenAI突然甩出一篇重磅博文—— 一款8月28日才开始训练的内部新模型，现已攻克了100多道世界级数学难题。 横跨的，还是数学大部分领域。 更夸张的是，这100多道题中，还包括此前困扰数学界多年的「纳维–斯托克斯」千禧年难题。 这进化速度，快到让OpenAI内部数学家感到意外。 从8月28日开训，到9月21日官宣，仅仅24天。 一款还在训练中的内部AI，开始横扫人类几十年，甚至是上百年没有解决的问题。 就在今天，OpenAI请来了9位全球顶尖数学家，正式成立一个独立的数学顾问组。 名单中有，菲尔兹奖得主Timothy Gowers、Ma...
+- 作者：新智元
+- 发布时间：2026-09-23 07:30 CST
+- 链接：https://hub.baai.ac.cn/view/58189
+
+### 3. 实测Qwen3.8-Omni-Flash：全模态Agent有了“白菜价”
 - 摘要：文婷 发自 凹非寺 量子位 | 公众号 QbitAI 千问把全模态Agent的使用成本，直接砍掉了 90% ！ Qwen称，其最新推出的全模态模型 Qwen3.8-Omni-Flash ，不光在WildClawBench-MM等30项评测里火力全开，平均得分比上一代Qwen3.5-Omni-Plus高出 26% ； 音频能力也整体超越了Gemini 3.8Flash，音视频能力无限逼近Gemini。 更亮眼的是API价格。 相比上一代Qwen3.5-Omni-Plus，Qwen3.8-Omni-Flash每小时的音频输入价格下降超过 98% ，每小时音视频联合输入价格下降超过 93% 。 现在...
 - 作者：量子位
 - 发布时间：2026-09-22 21:52 CST
 - 链接：https://hub.baai.ac.cn/view/58184
 
-### 2. AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」
-- 摘要：克雷西 发自 凹非寺 量子位 | 公众号 QbitAI AI算力的竞争，多年来就一个字——堆。 堆卡、堆机柜、堆发电机……似乎计算卡足够多、集群足够大，就能站在食物链顶端。 但算力「够不够用」这个问题，已经不再能单靠堆卡来解决，它开始分化出越来越多的层面。 第一个问题关于 智能上限 ，也就是你的算力能撑起多强的智能。 前沿模型的参数规模、上下文长度、推理深度在同时变大，Agent可能连续运行几个小时甚至几天。 模型在一台机器里装不装得下、跑得快不快、长时间跑起来稳不稳，都需要被重新考量。 另一个问题是 智能规模 ，这个问题更直击灵魂——你的算力能以多低的成本生产多少智能？ Token需求在爆发...
-- 作者：量子位
-- 发布时间：2026-09-22 21:40 CST
-- 链接：https://hub.baai.ac.cn/view/58183
-
-### 3. 薛澜教授出席深圳香蜜湖国金院2026秋季会议并作主旨演讲
-- 摘要：点击蓝字 关注我们 薛澜 国务院参事、清华大学苏世民书院院长、 人工智能国际治理研究院院长 、中国科技政策研究中心主任 I- 9月19日，深圳香蜜湖国际金融科技研究院与数字金融合作论坛联合组织的深圳香蜜湖国金院2026秋季会议在深圳市福田区举行。本次会议聚焦宏观经济形势、人工智能治理两大议题，围绕当前经济金融发展和人工智能治理领域的重点问题展开深入研讨。 清华大学苏世民书院院长 、 人工智能国际治理研究院院长 薛澜 出席“智能向善：AI治理的挑战与路径”专题研讨会并作主旨演讲。 本次专题研讨会汇聚政府部门、学术界和产业界代表。全国政协委员、工业和信息化部原副部长 王江平 ，全国政协委员、科学技...
-- 作者：清华大学人工智能国际治理研究院
-- 发布时间：2026-09-22 21:00 CST
-- 链接：https://hub.baai.ac.cn/view/58182
-
 ---
-共列出 140 条（窗口内采集总数 2197 条，来自 51 个信源）
+共列出 135 条（窗口内采集总数 2180 条，来自 50 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
