@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-24 04:35 CST
-数据窗口：最近 24 小时，1872 条原始条目 → 1363 个事件；过滤噪音 490 个，排除全部历史已推送的 100 个。
+生成时间：2026-09-24 07:50 CST
+数据窗口：最近 24 小时，1874 条原始条目 → 1362 个事件；过滤噪音 480 个，排除全部历史已推送的 94 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,40 +8,41 @@
 
 国外：
 
-## 1. Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models
+## 1. YouTube is building AI creator tools that do almost everything for them
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder、Bloomberg Technology（3 个来源） ｜ 热度：9.5
+- 摘要：Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl...
+- 发布时间：2026-09-23 22:30 CST
+- 链接：https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests
+- 同事件报道：YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing（The Decoder）
+- 同事件报道：YouTube Says New AI Tools Will Help Creators, not Replace Them（Bloomberg Technology）
+
+## 2. Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.25927v1 Announce Type: new Abstract: Diffusion Large Language Models (dLLMs) have emerged as an efficient alternative to autoregressive models, yet aligning them via Reinforcement Learning (RL) requires likeli...
 - 发布时间：2026-09-23 12:00 CST
 - 链接：https://arxiv.org/abs/2609.25927
 - 同事件报道：The Probabilistic Structure of Large Language Models（arXiv cs.AI）
 
-## 2. Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers
+## 3. Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.25237v1 Announce Type: cross Abstract: Post-training is becoming a service (PTaaS): a customer hands an operator data and a goal, and a forward-deployed engineer (FDE) returns a fine-tuned, evaluated, and depl...
 - 发布时间：2026-09-23 12:00 CST
 - 链接：https://arxiv.org/abs/2609.25237
 - 同事件报道：Enhancing Fitness Intelligence through Domain-Specific LLM Post-Training（arXiv cs.AI）
 
-## 3. Low-Rank Attention Residuals
+## 4. Low-Rank Attention Residuals
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2607.09694v2 Announce Type: replace-cross Abstract: Attention Residuals (AttnRes) replace the fixed residual sum with depth-wise attention over previous sub-layer outputs in Large Language Models (LLMs), but use ea...
 - 发布时间：2026-09-23 12:00 CST
 - 链接：https://arxiv.org/abs/2607.09694
 - 同事件报道：Intrinsic Interaction Geometry Controls the Low-Rank Complexity of Softmax Attention（arXiv cs.AI）
 
-## 4. SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving
+## 5. SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI、NVIDIA Technical Blog（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.26777v1 Announce Type: new Abstract: We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple cha...
 - 发布时间：2026-09-23 12:00 CST
 - 链接：https://arxiv.org/abs/2609.26777
 - 同事件报道：How SWE-Serve Exposes the Gap Between Local Tests and Live Serving（NVIDIA Technical Blog）
-
-## 5. YouTube is building AI creator tools that do almost everything for them
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder（2 个来源） ｜ 热度：6.0
-- 摘要：Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl...
-- 发布时间：2026-09-23 22:30 CST
-- 链接：https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests
-- 同事件报道：YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing（The Decoder）
 
 ## 6. Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition
 - 地区：国外源 ｜ 语言：en ｜ 来源：VentureBeat、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
@@ -78,32 +79,29 @@
 - 同事件报道：DeepSeek Elastic Compute:A Sandbox Infrastructure for Effective Agentic Training（Hacker News (AI stories)）
 
 ## 11. AI Data Center Debt Offers Investors Huge Yields — and New Risks
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
 - 摘要：SoftBank’s bond sale comes with yields of nearly 10%
 - 发布时间：2026-09-23 18:30 CST
 - 链接：https://www.bloomberg.com/news/newsletters/2026-09-23/ai-data-center-debt-offers-investors-huge-yields-and-new-risks
 - 同事件报道：2026: AI Data Center Odyssey（Reddit AI subreddits (new)）
 
 ## 12. Introducing MentalHealthBench
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.5
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.0
 - 摘要：MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.
 - 发布时间：2026-09-23 18:00 CST
 - 链接：https://openai.com/index/introducing-mentalhealthbench
 
-## 13. The Global AI Race: Chips, Talent, and World Models
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：Bloomberg’s Ed Ludlow breaks down Alibaba's new AI chip, an accelerator to compete with Nvidia and underpinning a massive expansion of data center capacity in coming years. Plus, he speaks with Gagan Biyani, founder and...
-- 发布时间：2026-09-23 02:13 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-22/bloomberg-tech-9-22-2026-video
-- 同事件报道：Who’s Ahead in the Global AI Talent Race?（Reddit AI subreddits (new)）
+## 13. Sam Altman’s remarks at the United Nations Security Council
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
+- 摘要：OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.
+- 发布时间：2026-09-23 20:00 CST
+- 链接：https://openai.com/index/sam-altman-un-security-council-remarks
 
-## 14. Does this mean it's fine to use Claude subscriptions with third party harnesses?
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.55
-- 摘要：I've been curious about using a claude subscription with OpenCode, Pi and some other third party harnesses. If you remember, there was a lot of chatter about a ban on third party harnesses and then Claude have had some p...
-- 发布时间：2026-09-18 20:40 CST
-- 链接：https://news.ycombinator.com/item?id=49753579
-- 同事件报道：Claude Subscriptions Back In Hermes!（Reddit AI subreddits (new)）
-- 同事件报道：Claude is BACK!（Reddit AI subreddits (new)）
+## 14. How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway
+- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
+- 摘要：Healthcare AI has little margin for error. AI agents helping coordinate patient care...
+- 发布时间：2026-09-23 20:19 CST
+- 链接：https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway
 
 国内：
 
@@ -129,23 +127,23 @@
 - 链接：https://www.36kr.com/p/3994492930855043
 - 同事件报道：对话清华教授李宁：腾讯字节阿里激战AI办公，但这个问题谁也没解决（钛媒体）
 
-## 4. 黑客团伙 ShinyHunters 声称攻破 FBI 系统，窃取大量员工数据
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、Hacker News (AI stories)（2 个来源） ｜ 热度：4.62
-- 摘要：IT之家 9 月 23 日消息，黑客组织 ShinyHunters 于当地时间 9 月 22 日声称攻破美国联邦调查局（FBI）多个系统，窃取了几乎所有 FBI 特工、现任和前任员工以及求职者的大量个人资料。 ShinyHunters 回应路透社称，此次攻击是对 FBI 于 2026 年 5 月发布的一份公告的回击。该公告详细描述了 ShinyHunters 的攻击手法，并建议潜在目标不要支付赎金。该团伙称此次行动“并非出于经济动机”，...
-- 发布时间：2026-09-23 09:24 CST
-- 链接：https://www.ithome.com/1/006/061.htm
-- 同事件报道：Hacking group ShinyHunters claims it breached the FBI, stole agents' data（Hacker News (AI stories)）
+## 4. Jev vs Decitron：同为决策AI，为什么不是一回事？
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：对复杂现实进行推演与决策
+- 发布时间：2026-09-23 14:38 CST
+- 链接：https://www.qbitai.com/2026/09/496352.html
+- 同事件报道：Jev vs Decitron：同为决策AI，为什么不是一回事？（36氪 AI 频道）
 
-## 5. 1万亿的AMD 苏姿丰的12年
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、智源社区（2 个来源） ｜ 热度：4.5
-- 摘要：9月21日，AMD收盘涨9.95%，报615.52美元，公司市值第一次站上1万亿美元。今年以来这只股票大约涨了187%，纳斯达克综指同期大约17%。把时间拉回2014年10月8日，那天苏姿丰接任CEO，公司市值二十亿美元出头。将近12年，市值放大了约500倍。资本市场这几年反复问同一句话：AI时代除了英伟达，...... 本文来自微信公众号： 涌流商业 ，作者：林耕 9月21日，AMD收盘涨9.95%，报615.52美元，公司市值第一次...
-- 发布时间：2026-09-23 12:08 CST
-- 链接：https://www.huxiu.com/article/4893413.html
-- 同事件报道：AMD市值突破1万亿美元！（智源社区）
+## 5. 顶尖风投办大学：黄仁勋、奥特曼、纳德拉坐镇“史上最豪华导师天团”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：文 | Edu指南 本周，硅谷最具影响力的风险投资机构安德森·霍洛维茨（a16z）宣布，正式创办“霍洛维茨·安德森学院”（The Horowitz Andreessen Academy，简称HAA），并开放首批申请。这是一所设在旧金山的私立全日制学校， 面向高中毕业生，官方定位是“大学替代方案”。 消息一出，迅速在硅谷科技圈引起不小的震动。 不是因为有人办了所学校——科技富豪办学早已不是新闻。马斯克创办了Ad Astra，扎克伯格夫妇创...
+- 发布时间：2026-09-23 17:05 CST
+- 链接：https://www.tmtpost.com/8150637.html
+- 同事件报道：顶尖风投办大学：黄仁勋、奥特曼、纳德拉坐镇“史上最豪华导师天团”（36氪 AI 频道）
 
-## 6. Qwen一号位定了！刘大一恒接棒
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、智源社区（2 个来源） ｜ 热度：4.5
-- 摘要：与稚晖君同届天才少年
-- 发布时间：2026-09-23 15:27 CST
-- 链接：https://www.qbitai.com/2026/09/496384.html
-- 同事件报道：千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸（智源社区）
+## 6. 交付缩水八成，优必选给具身智能泼了一盆冷水
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：文 | 市值榜，作者 | 齐笑 ，编辑 | 嘉辛 9月16日，优必选U1正式开启交付。 从6月2日京东预售上线，到6月30日发布会宣布全渠道订单突破13361台，U1几乎一路伴随着聚光灯。 发布会当天，优必选港股盘中一度涨超18%，最终收盘涨幅收窄至7.48%，报102.8港元。 13361台是什么概念？2025年全年，优必选全尺寸具身智能人形机器人累计销量仅为1079台。也就是说，U1预售不到一个月拿到的订单，已经超过去年全年销量的1...
+- 发布时间：2026-09-23 17:44 CST
+- 链接：https://www.tmtpost.com/8150766.html
+- 同事件报道：交付缩水八成，优必选给具身智能泼了一盆冷水（36氪 AI 频道）
