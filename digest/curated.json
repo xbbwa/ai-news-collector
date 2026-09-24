@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-24T19:22:21.271519+00:00",
+ "generated_at": "2026-09-24T22:36:42.627498+00:00",
  "stats": {
-  "items": 1764,
-  "clusters": 1269,
-  "noise": 455,
-  "dup": 90,
+  "items": 1729,
+  "clusters": 1226,
+  "noise": 439,
+  "dup": 79,
   "history_days": 0,
-  "available_cn": 153,
-  "available_intl": 571,
+  "available_cn": 154,
+  "available_intl": 554,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,25 @@
  "items": [
   {
    "rank": 1,
+   "title": "The Biggest News From Connect 2026",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+   "score": 8.0,
+   "sources": [
+    "meta-newsroom",
+    "theverge-ai"
+   ],
+   "titles": [
+    "The Biggest News From Connect 2026",
+    "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
+    "Meta Connect 2026: The biggest news and announcements"
+   ],
+   "published_at": "2026-09-24T21:15:55.000000+00:00",
+   "summary": "We’re building personal AI agents for everyone and a whole family of devices that let you connect with them from anywhere. Bringing Muse to AI Glasses We launched Muse , a first-of-a-kind personal AI agent that proactive..."
+  },
+  {
+   "rank": 2,
    "title": "Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection",
    "lang": "en",
    "region": "intl",
@@ -33,7 +52,7 @@
    "summary": "arXiv:2609.27457v1 Announce Type: new Abstract: Vision-language models (VLMs) are often reported to outperform task-specific vision backbones for unmanned aerial vehicle (UAV) power-line defect assessment. We test that c..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
    "lang": "en",
    "region": "intl",
@@ -52,7 +71,7 @@
    "summary": "arXiv:2609.27620v1 Announce Type: new Abstract: Modern text-to-image (T2I) models generate high-quality images from arbitrary user prompts, yet they can just as easily produce not-safe-for-work (NSFW) content. Convention..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Gender Bias in Vision-Language In-Context Learning",
    "lang": "en",
    "region": "intl",
@@ -71,7 +90,7 @@
    "summary": "arXiv:2609.27682v1 Announce Type: new Abstract: In-context learning (ICL) enables large vision-language models (LVLMs) to perform tasks by following patterns from in-context examples, yet its potential to amplify societa..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality",
    "lang": "en",
    "region": "intl",
@@ -90,7 +109,7 @@
    "summary": "arXiv:2609.08016v2 Announce Type: replace Abstract: Multi-agent debate, in which several LLMs exchange arguments before producing an answer, is widely assumed to improve answer quality by surfacing genuine disagreement...."
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "LiquidAI/LFM2.5-VL-3B",
    "lang": "en",
    "region": "intl",
@@ -106,7 +125,7 @@
    "summary": "image-text-to-text, transformers, safetensors, lfm2_vl, liquid, lfm2.5, edge, conversational, custom_code, ar, zh, en, fr, de, hi, id, it, ja, ko, pl, pt, ru, es, th, vi, arxiv:2305.03393, base_model:LiquidAI/LFM2.5-2.6B..."
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
    "lang": "en",
    "region": "intl",
@@ -124,7 +143,7 @@
    "summary": "The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Singapore’s Finance Firms to Train 80,000 Staff in AI Skills",
    "lang": "en",
    "region": "intl",
@@ -142,23 +161,25 @@
    "summary": "Singapore’s major financial institutions pledged to train more than 80,000 local employees in AI skills as the country moves to cushion white-collar workers from potential job disruption."
   },
   {
-   "rank": 8,
-   "title": "black-forest-labs/flux-3-action-base",
+   "rank": 9,
+   "title": "AI to SI(Super Intelligence)",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-action-base",
-   "score": 4.49,
+   "url": "https://www.reddit.com/r/artificial/comments/1wp05jy/ai_to_sisuper_intelligence/",
+   "score": 4.05,
    "sources": [
-    "hf-models-intl"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "black-forest-labs/flux-3-action-base"
+    "AI to SI(Super Intelligence)",
+    ".si domain registrations outpace .ai after Trump's 'Super Intelligence' rename"
    ],
-   "published_at": "2026-09-23T12:41:50.000000+00:00",
-   "summary": "robotics, lerobot, safetensors, flux, world-action-model, license:other, region:us"
+   "published_at": "2026-09-24T12:21:09.000000+00:00",
+   "summary": "U.S. President Donald Trump said he would officially change the name of artificial intelligence, saying the existing name makes the technology seem fake. The new name will be changed from AI(artificial intelligence) to S..."
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
    "lang": "en",
    "region": "intl",
@@ -176,7 +197,7 @@
    "summary": ""
   },
   {
-   "rank": 10,
+   "rank": 11,
    "title": "The three things today's hottest startups are looking for in their AI stack",
    "lang": "en",
    "region": "intl",
@@ -192,7 +213,7 @@
    "summary": "Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and..."
   },
   {
-   "rank": 11,
+   "rank": 12,
    "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
    "lang": "en",
    "region": "intl",
@@ -208,7 +229,7 @@
    "summary": "A Blog post by Liquid AI on Hugging Face"
   },
   {
-   "rank": 12,
+   "rank": 13,
    "title": "How growing Latin American midsize businesses are building in the AI era",
    "lang": "en",
    "region": "intl",
@@ -224,7 +245,7 @@
    "summary": "Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their ent..."
   },
   {
-   "rank": 13,
+   "rank": 14,
    "title": "Aderant builds intelligent ticket triage with Amazon Nova",
    "lang": "en",
    "region": "intl",
@@ -238,22 +259,6 @@
    ],
    "published_at": "2026-09-24T16:06:46.000000+00:00",
    "summary": "This guest post is co-written by Angela Mapes and Adam Walker of Aderant. In this post, we share how Aderant , a global provider of business management software for the legal industry, built an intelligent ticket triage..."
-  },
-  {
-   "rank": 14,
-   "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
-   "score": 3.5,
-   "sources": [
-    "aws-ml-blog"
-   ],
-   "titles": [
-    "Build a multi-account AI agent with AgentCore Gateway and MCP"
-   ],
-   "published_at": "2026-09-24T16:12:47.000000+00:00",
-   "summary": "Enterprises increasingly want AI agents that can reason over data spread across many AWS accounts without copying or centralizing it. Each team keeps its data in its own account for good reasons: clear ownership, scope i..."
   },
   {
    "rank": 15,
@@ -293,22 +298,6 @@
   },
   {
    "rank": 17,
-   "title": "inclusionAI/Ming-flash-omni-Preview",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-Preview",
-   "score": 6.35,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "inclusionAI/Ming-flash-omni-Preview"
-   ],
-   "published_at": "2026-09-24T07:52:38.000000+00:00",
-   "summary": "any-to-any, diffusers, safetensors, bailingmm_moe_v2_lite, en, arxiv:2510.24821, arxiv:2506.09344, base_model:inclusionAI/Ling-flash-2.0, base_model:finetune:inclusionAI/Ling-flash-2.0, license:mit, region:us"
-  },
-  {
-   "rank": 18,
    "title": "四足机器人：宇树第一，智元、云深处争第二？",
    "lang": "zh",
    "region": "cn",
@@ -326,20 +315,36 @@
    "summary": "9月21日，Counterpoint和IDC在同一天发布了全球四足机器人市场报告。 两份报告的第一名都是宇树科技。从第二名开始，名次就全都对不上了：Counterpoint按出货量排，第二是智元酷拓；IDC按收入排，第二是云深处。到了行业应用这个细分市场，宇树按出货量计算跌到第四，两家给出的头名分别是智元酷拓和云深处，再次出现差异。 总量同样对不上。Counterpoint的数据显示，2026年上半年全球四足机器人出货接近3.5万台，其..."
   },
   {
-   "rank": 19,
-   "title": "inclusionAI/Ming-flash-omni-2.0",
+   "rank": 18,
+   "title": "inclusionAI/Ming-flash-omni-Preview",
    "lang": "en",
    "region": "cn",
-   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
+   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-Preview",
+   "score": 5.85,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "inclusionAI/Ming-flash-omni-Preview"
+   ],
+   "published_at": "2026-09-24T07:52:38.000000+00:00",
+   "summary": "any-to-any, diffusers, safetensors, bailingmm_moe_v2_lite, en, arxiv:2510.24821, arxiv:2506.09344, base_model:inclusionAI/Ling-flash-2.0, base_model:finetune:inclusionAI/Ling-flash-2.0, license:mit, region:us"
+  },
+  {
+   "rank": 19,
+   "title": "inclusionAI/Ling-1T",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/inclusionAI/Ling-1T",
    "score": 5.5,
    "sources": [
     "hf-models-cn"
    ],
    "titles": [
-    "inclusionAI/Ming-flash-omni-2.0"
+    "inclusionAI/Ling-1T"
    ],
-   "published_at": "2026-09-24T07:50:30.000000+00:00",
-   "summary": "any-to-any, diffusers, onnx, safetensors, bailingmm_moe_v2_lite, custom_code, en, arxiv:2506.09344, arxiv:2510.24821, license:mit, region:us"
+   "published_at": "2026-09-24T10:47:00.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, bailing_moe, conversational, custom_code, arxiv:2507.17702, arxiv:2507.17634, arxiv:2510.22115, license:mit, region:us"
   },
   {
    "rank": 20,
