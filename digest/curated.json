@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-23T23:50:38.151920+00:00",
+ "generated_at": "2026-09-24T05:08:13.978017+00:00",
  "stats": {
-  "items": 1874,
-  "clusters": 1362,
-  "noise": 480,
-  "dup": 94,
+  "items": 2385,
+  "clusters": 1792,
+  "noise": 454,
+  "dup": 138,
   "history_days": 0,
-  "available_cn": 145,
-  "available_intl": 643,
+  "available_cn": 144,
+  "available_intl": 1056,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,361 +16,357 @@
  "items": [
   {
    "rank": 1,
-   "title": "YouTube is building AI creator tools that do almost everything for them",
+   "title": "Same Chart, Different Story: Bias in Vision-Language Chart Interpretation",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
-   "score": 9.5,
+   "url": "https://arxiv.org/abs/2609.26210",
+   "score": 12.0,
    "sources": [
-    "theverge-ai",
-    "the-decoder",
-    "bloomberg-tech"
+    "arxiv-cs-cl",
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "YouTube is building AI creator tools that do almost everything for them",
-    "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing",
-    "YouTube Says New AI Tools Will Help Creators, not Replace Them"
+    "Same Chart, Different Story: Bias in Vision-Language Chart Interpretation",
+    "Gender Bias in Vision-Language In-Context Learning",
+    "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning",
+    "A Foundation Model for Instruction-Conditioned In-Context Time Series Tasks"
    ],
-   "published_at": "2026-09-23T14:30:00.000000+00:00",
-   "summary": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl..."
+   "published_at": "2026-09-23T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.26210v1 Announce Type: new Abstract: Vision-language models (VLMs) are increasingly used to interpret charts and generate natural-language explanations for socially consequential data. However, they may produc..."
   },
   {
    "rank": 2,
-   "title": "Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models",
+   "title": "Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.25927",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.27457",
+   "score": 8.0,
    "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
+    "arxiv-cs-cv",
+    "arxiv-cs-cl"
    ],
    "titles": [
-    "Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models",
-    "The Probabilistic Structure of Large Language Models"
+    "Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection",
+    "PRISM-VLM: A Multi-Axis Discriminative Benchmark for Compact Vision-Language Models"
    ],
-   "published_at": "2026-09-23T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.25927v1 Announce Type: new Abstract: Diffusion Large Language Models (dLLMs) have emerged as an efficient alternative to autoregressive models, yet aligning them via Reinforcement Learning (RL) requires likeli..."
+   "published_at": "2026-09-24T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.27457v1 Announce Type: new Abstract: Vision-language models (VLMs) are often reported to outperform task-specific vision backbones for unmanned aerial vehicle (UAV) power-line defect assessment. We test that c..."
   },
   {
    "rank": 3,
-   "title": "Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers",
+   "title": "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.25237",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.27620",
+   "score": 8.0,
    "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers",
-    "Enhancing Fitness Intelligence through Domain-Specific LLM Post-Training"
+    "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
+    "IB-Flow: Information Bottleneck-Guided CFG Distillation for Few-Step Text-to-Image Generation",
+    "I-SplineFlow: Learning Monotone Spline Stochastic Interpolant Schedulers for Few-Step Generation"
    ],
-   "published_at": "2026-09-23T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.25237v1 Announce Type: cross Abstract: Post-training is becoming a service (PTaaS): a customer hands an operator data and a goal, and a forward-deployed engineer (FDE) returns a fine-tuned, evaluated, and depl..."
+   "published_at": "2026-09-24T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.27620v1 Announce Type: new Abstract: Modern text-to-image (T2I) models generate high-quality images from arbitrary user prompts, yet they can just as easily produce not-safe-for-work (NSFW) content. Convention..."
   },
   {
    "rank": 4,
-   "title": "Low-Rank Attention Residuals",
+   "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2607.09694",
+   "url": "https://arxiv.org/abs/2609.25267",
    "score": 7.5,
    "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
+    "hf-daily-papers",
+    "arxiv-cs-cv"
    ],
    "titles": [
-    "Low-Rank Attention Residuals",
-    "Intrinsic Interaction Geometry Controls the Low-Rank Complexity of Softmax Attention"
+    "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
+    "Breaking Weather-Content Coupling: Type-Severity Guided Progressive Disentanglement for All-in-One Infrared Restoration"
    ],
-   "published_at": "2026-09-23T04:00:00.000000+00:00",
-   "summary": "arXiv:2607.09694v2 Announce Type: replace-cross Abstract: Attention Residuals (AttnRes) replace the fixed residual sum with depth-wise attention over previous sub-layer outputs in Large Language Models (LLMs), but use ea..."
+   "published_at": "2026-09-20T20:00:00.000000+00:00",
+   "summary": "Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one model. A recent and effective recipe adapts a large pretrained image-editing model to restoration us..."
   },
   {
    "rank": 5,
-   "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+   "title": "nvidia/Nemotron-3-Diarization",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.26777",
-   "score": 7.5,
+   "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+   "score": 5.14,
    "sources": [
-    "arxiv-cs-ai",
-    "nvidia-developer"
+    "hf-models-intl"
    ],
    "titles": [
-    "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
-    "How SWE-Serve Exposes the Gap Between Local Tests and Live Serving"
+    "nvidia/Nemotron-3-Diarization"
    ],
-   "published_at": "2026-09-23T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.26777v1 Announce Type: new Abstract: We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple cha..."
+   "published_at": "2026-09-23T17:09:56.000000+00:00",
+   "summary": "voice-activity-detection, nemo, safetensors, nemotron3_diarization, audio-frame-classification, speaker-diarization, streaming-sortformer, speaker-tagging, transformers, arxiv:2409.06656, arxiv:2507.18446, arxiv:2605.154..."
   },
   {
    "rank": 6,
-   "title": "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition",
+   "title": "nvidia/Qwen3.8-27B-NVFP4",
    "lang": "en",
    "region": "intl",
-   "url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
-   "score": 6.0,
+   "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
+   "score": 5.0,
    "sources": [
-    "venturebeat",
-    "reddit-ai-new"
+    "hf-models-intl"
    ],
    "titles": [
-    "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition",
-    "Flux 3 Action - 7B Action World Model",
-    "Flux 3 Action: open weights 7B World Action Model"
+    "nvidia/Qwen3.8-27B-NVFP4"
    ],
-   "published_at": "2026-09-23T17:00:00+00:00",
-   "summary": "Black Forest Labs (BFL), the German AI startup best known for its FLUX image and video models, is pushing deeper into robotics with FLUX 3 Action, a 7-billion-parameter, open-weight “World Action Model” designed to take..."
+   "published_at": "2026-09-17T17:16:07.000000+00:00",
+   "summary": "text-generation, Model Optimizer, safetensors, qwen3_5, nvidia, ModelOpt, Qwen3.8, quantized, FP4, fp4, FP8, fp8, conversational, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, 8-..."
   },
   {
    "rank": 7,
-   "title": "nvidia/diar_streaming_sortformer_4spk-v2",
+   "title": "Google Beam expands with new regions, partners, and customers",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2",
-   "score": 5.5,
+   "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+   "score": 3.5,
    "sources": [
-    "hf-models-intl"
+    "google-ai-blog"
    ],
    "titles": [
-    "nvidia/diar_streaming_sortformer_4spk-v2"
+    "Google Beam expands with new regions, partners, and customers"
    ],
-   "published_at": "2026-09-23T14:47:45.000000+00:00",
-   "summary": "automatic-speech-recognition, nemo, gguf, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:l..."
+   "published_at": "2026-09-23T18:00:00.000000+00:00",
+   "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network."
   },
   {
    "rank": 8,
-   "title": "nvidia/diar_streaming_sortformer_4spk-v2.1",
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1",
-   "score": 5.5,
+   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "score": 3.5,
    "sources": [
-    "hf-models-intl"
+    "huggingface-blog"
    ],
    "titles": [
-    "nvidia/diar_streaming_sortformer_4spk-v2.1"
+    "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows"
    ],
-   "published_at": "2026-09-23T14:48:30.000000+00:00",
-   "summary": "automatic-speech-recognition, nemo, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2004-2010, dataset:librisp..."
+   "published_at": "2026-09-23T18:41:40.000000+00:00",
+   "summary": "A Blog post by NVIDIA on Hugging Face"
   },
   {
    "rank": 9,
-   "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
+   "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/d1090476-7be6-4bba-ae2a-f417499e820a?syn-25a6b1a6=1",
-   "score": 5.5,
+   "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
+   "score": 3.5,
    "sources": [
-    "ft-tech",
-    "the-decoder"
+    "nvidia-developer"
    ],
    "titles": [
-    "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
-    "Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing"
+    "Validate GPU Cluster Readiness Before AI Workloads Land"
    ],
-   "published_at": "2026-09-23T04:00:19.000000+00:00",
-   "summary": "Chinese tech giant was AI cloud provider’s largest customer last year but is not prominently named in pitch to stock market investors"
+   "published_at": "2026-09-23T19:45:19.000000+00:00",
+   "summary": "A GPU cluster can pass every health check and still fail to run an AI workload. Even when every GPU, network link, and pod reports healthy, a 512-GPU training... A GPU cluster can pass every health check and still fail t..."
   },
   {
    "rank": 10,
-   "title": "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
+   "title": "How I built agent-based security reviews on Databricks",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-23/deepseek-tests-efficient-safer-method-for-training-ai-agents",
-   "score": 5.05,
-   "sources": [
-    "bloomberg-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
-    "DeepSeek Elastic Compute:A Sandbox Infrastructure for Effective Agentic Training"
-   ],
-   "published_at": "2026-09-23T16:25:21.000000+00:00",
-   "summary": "China’s DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimizing the kind of misbehavior that has fueled global concerns."
-  },
-  {
-   "rank": 11,
-   "title": "AI Data Center Debt Offers Investors Huge Yields — and New Risks",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-09-23/ai-data-center-debt-offers-investors-huge-yields-and-new-risks",
-   "score": 4.5,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "AI Data Center Debt Offers Investors Huge Yields — and New Risks",
-    "2026: AI Data Center Odyssey"
-   ],
-   "published_at": "2026-09-23T10:30:01.000000+00:00",
-   "summary": "SoftBank’s bond sale comes with yields of nearly 10%"
-  },
-  {
-   "rank": 12,
-   "title": "Introducing MentalHealthBench",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/introducing-mentalhealthbench",
-   "score": 4.0,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Introducing MentalHealthBench"
-   ],
-   "published_at": "2026-09-23T10:00:00.000000+00:00",
-   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations."
-  },
-  {
-   "rank": 13,
-   "title": "Sam Altman’s remarks at the United Nations Security Council",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-   "score": 3.5,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Sam Altman’s remarks at the United Nations Security Council"
-   ],
-   "published_at": "2026-09-23T12:00:00.000000+00:00",
-   "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
-  },
-  {
-   "rank": 14,
-   "title": "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
+   "url": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
    "score": 3.5,
    "sources": [
     "databricks-blog"
    ],
    "titles": [
-    "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway"
+    "How I built agent-based security reviews on Databricks"
    ],
-   "published_at": "2026-09-23T12:19:55.000000+00:00",
-   "summary": "Healthcare AI has little margin for error. AI agents helping coordinate patient care..."
+   "published_at": "2026-09-24T02:00:00.000000+00:00",
+   "summary": "We already had automation in parts of our security review process. It was useful,..."
+  },
+  {
+   "rank": 11,
+   "title": "Qwen-Image 2.1 LoRA training is now supported in LoRA Dataset Studio (AI Toolkit)",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/StableDiffusion/comments/1wnsykk/qwenimage_21_lora_training_is_now_supported_in/",
+   "score": 3.5,
+   "sources": [
+    "reddit-ai-new",
+    "reddit-ai-hot"
+   ],
+   "titles": [
+    "Qwen-Image 2.1 LoRA training is now supported in LoRA Dataset Studio (AI Toolkit)",
+    "Qwen Image 2.1 4 Steps Turbo Lora is here by Viggle",
+    "QwenImage2.1 Viggle '4-step' LoRA VS various steps with & w/o",
+    "Qwen 2.1 edit vs klein9b edit?",
+    "Custom Node for Extract Prompt & Target Aspect Ratio/Dimensions from Qwen Image 2.1 PE",
+    "Qwen Image 2.1 is an EDITING Beast",
+    "Qwen Image 2.1 masked inpainting: working crop-and-stitch graph + the wiring and prompt differences from Flux",
+    "My First Qwen 2.1 Character Loras."
+   ],
+   "published_at": "2026-09-23T02:01:44.000000+00:00",
+   "summary": "I build LoRA Dataset Studio, a free, self-hosted app for preparing image datasets and training LoRAs. I've added Qwen-Image 2.1 training through AI Toolkit: choose the model family, keep your RGB images and prose caption..."
+  },
+  {
+   "rank": 12,
+   "title": "Feds Target AI Critics as \"Foreign Agents\"",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+   "score": 3.12,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Feds Target AI Critics as \"Foreign Agents\""
+   ],
+   "published_at": "2026-09-24T00:41:31.000000+00:00",
+   "summary": "Trump admin sees China behind opposition to AI data centers"
+  },
+  {
+   "rank": 13,
+   "title": "How to Guide Your Language Flow",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/guide-language-flow",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "How to Guide Your Language Flow"
+   ],
+   "published_at": "2026-09-23T00:00:00.000000+00:00",
+   "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a guidance signal. This works using a simil..."
+  },
+  {
+   "rank": 14,
+   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "ChatGPT Ads expands to Southeast Asia and Taiwan"
+   ],
+   "published_at": "2026-09-23T02:00:00.000000+00:00",
+   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries."
   },
   {
    "rank": 15,
-   "title": "DeepSeek新论文公开Agent训练，梁文锋署名",
+   "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3995426425983110",
-   "score": 12.5,
+   "url": "https://www.ithome.com/1/006/516.htm",
+   "score": 7.0,
    "sources": [
-    "36kr-ai",
     "ithome",
-    "qbitai",
-    "zhidx"
+    "36kr-newsflash"
    ],
    "titles": [
-    "DeepSeek新论文公开Agent训练，梁文锋署名",
-    "DeepSeek 新论文公开 Agent 训练，梁文锋署名",
-    "DeepSeek新论文公开Agent训练！梁文锋署名",
-    "梁文锋署名！DeepSeek最新论文公开，交出Agent训练“焚决”",
-    "梁文锋署名，DeepSeek发新论文，剑指大规模Agent训练"
+    "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
+    "高通推出第二代骁龙音频平台至尊版"
    ],
-   "published_at": "2026-09-23T03:33:00.000000+00:00",
-   "summary": "大模型训练拼的是算力，Agent训练拼的是环境。 环境怎么造？梁文锋署名的DeepSeek最新论文，把技术细节公开了。 DeepSeek做的这个系统叫 DSec （DeepSeek Elastic Compute），干的事情就是给Agent训练批量制造沙盒。 它 每秒能产生5000+个沙盒，一天能达到300万个 ，峰值同时运行38万个。 支撑这个规模的单集群也非常庞大， 大约有160个节点、3万核CPU和250TB内存 。 为啥训个Ag..."
+   "published_at": "2026-09-23T22:41:13+00:00",
+   "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上..."
   },
   {
    "rank": 16,
-   "title": "小镇青年不靠做题，靠“卖AI”能拿到大结果吗？",
+   "title": "阿里千问发布 Qwen-Audio-3.1 系列语音大模型，并下调全线产品价格",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3994456951559813",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/006/280.htm",
+   "score": 6.5,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "ithome",
+    "sspai"
    ],
    "titles": [
-    "小镇青年不靠做题，靠“卖AI”能拿到大结果吗？",
-    "小镇青年不靠做题，靠“卖AI”能拿到大结果吗？"
+    "阿里千问发布 Qwen-Audio-3.1 系列语音大模型，并下调全线产品价格",
+    "派早报：小米召开秋季新品发布会、千问发布 Qwen-Audio-3.1系列模型等"
    ],
-   "published_at": "2026-09-22T13:08:31.000000+00:00",
-   "summary": "假如有这样一份工作：月薪6W+，不吃技术，不卡学历，踩中风口就能翻身，你愿意赌一把吗？ 脉脉在9月16日公布了一组数据：2026年上半年，新发AI岗位的平均月薪突破了6万元。其中，销售类涨幅最高，增长了27.8%。 过去一年，AI 行业全速商业化，衍生出一大批新岗位。而 AI 销售，凭着相对低门槛、高上限的属性，成了很多小镇青年眼里，除了“做题家“，离成功最近的一条路。 AI，真有这么值钱吗？多数从业者的生存现状如何？ 我们找到了几位扎..."
+   "published_at": "2026-09-23T07:15:26+00:00",
+   "summary": "IT之家 9 月 23 日消息，今天，千问正式发布 Qwen-Audio-3.1 系列语音大模型。本次升级不仅对语音识别、语音合成和实时语音交互三大核心模型进行了全面进化，更重磅推出了全新的音频创作模型 Qwen-Audio-3.1-TTS-Next 和音频理解模型 Qwen-Audio-3.1-ASR-Next。 官方称，五款全新的语音模型同时推出，形成了一套覆盖“理解-生成-交互-创作”的完整音频能力栈。为进一步降低用户使用成本，..."
   },
   {
    "rank": 17,
-   "title": "腾讯字节阿里激战AI办公，但这个问题谁也没解决：对话清华教授李宁",
+   "title": "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3994492930855043",
+   "url": "https://www.ithome.com/1/006/417.htm",
+   "score": 6.5,
+   "sources": [
+    "ithome",
+    "qbitai"
+   ],
+   "titles": [
+    "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
+    "海信 U7T Pro RGB-Mini LED 电视发布：103% BT.2020 色域，国补后首销价 9999 元起",
+    "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶"
+   ],
+   "published_at": "2026-09-23T11:31:31+00:00",
+   "summary": "IT之家 9 月 23 日消息，在 9 月 23 日晚的 2026 海信电视秋季新品发布会上，海信 E7S Pro+ RGB-Mini LED 电视发布， 建议零售价 11,499 元起，国补后首销价 9,999 元起 。IT之家附各版本定价如下： 75 英寸：3,888 背光分区，5,000 尼特峰值亮度，建议零售价 11,499 元，国补后首销价 9,999 元 85 英寸：5,184 背光分区，6,000 尼特峰值亮度，建议零售价..."
+  },
+  {
+   "rank": 18,
+   "title": "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3996835316060039",
+   "score": 6.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
+    "豆包公关负责人刘星回应“裁员、对话团队砍掉一半”传闻：不实，系分工组织调整"
+   ],
+   "published_at": "2026-09-24T03:11:08.000000+00:00",
+   "summary": "9月24日，豆包公关负责人刘星发文表示：有媒体报道豆包Session团队组织调整，部分自媒体将其解读为豆包裁员、豆包对话团队砍掉一半，相关信息不实。实际上只是分工的组织调整。据刘星介绍，豆包通用Session团队的部分职能拆到了豆包的交易和豆包工作团队，所以人员也随着过去了。很多也是在做之前的工作。比如交易，也是优化交易对话体验。这个团队不到50人，分工调整涉及11人。其中3人离职。刘星强调，部分自媒体报道提及的“2亿人用的豆包裁员”“..."
+  },
+  {
+   "rank": 19,
+   "title": "具身智能的转机和出清，哪个先来？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3994523684837256",
    "score": 5.5,
    "sources": [
     "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "腾讯字节阿里激战AI办公，但这个问题谁也没解决：对话清华教授李宁",
-    "对话清华教授李宁：腾讯字节阿里激战AI办公，但这个问题谁也没解决"
+    "具身智能的转机和出清，哪个先来？",
+    "具身智能的转机和出清，哪个先来？"
    ],
-   "published_at": "2026-09-22T13:17:35.000000+00:00",
-   "summary": "大厂正在集体发力“AI办公”： 腾讯的WorkBuddy已经跑出了千万月活； 字节推出豆包工作，飞书与豆包合并，字节跳动CEO梁汝波罕见站台； 阿里将三款智能体产品线合并为千问办公； 360发布了纳米Work、金山办公发布了AI办公智能体“灵犀专业版”、百度搭子增速明显…… 久违的硝烟味，弥漫在大厂共同争夺的新入口前。但跳出大厂的叙事逻辑， 用上“AI办公”的企业真的就能拥有更高的效率、获得更强劲的增长吗？ 2024年，全球企业在生成式..."
-  },
-  {
-   "rank": 18,
-   "title": "Jev vs Decitron：同为决策AI，为什么不是一回事？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/496352.html",
-   "score": 5.5,
-   "sources": [
-    "qbitai",
-    "36kr-ai"
-   ],
-   "titles": [
-    "Jev vs Decitron：同为决策AI，为什么不是一回事？",
-    "Jev vs Decitron：同为决策AI，为什么不是一回事？"
-   ],
-   "published_at": "2026-09-23T06:38:07+00:00",
-   "summary": "对复杂现实进行推演与决策"
-  },
-  {
-   "rank": 19,
-   "title": "顶尖风投办大学：黄仁勋、奥特曼、纳德拉坐镇“史上最豪华导师天团”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8150637.html",
-   "score": 5.5,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "顶尖风投办大学：黄仁勋、奥特曼、纳德拉坐镇“史上最豪华导师天团”",
-    "顶尖风投办大学：黄仁勋、奥特曼、纳德拉坐镇“史上最豪华导师天团”"
-   ],
-   "published_at": "2026-09-23T09:05:48+00:00",
-   "summary": "文 | Edu指南 本周，硅谷最具影响力的风险投资机构安德森·霍洛维茨（a16z）宣布，正式创办“霍洛维茨·安德森学院”（The Horowitz Andreessen Academy，简称HAA），并开放首批申请。这是一所设在旧金山的私立全日制学校， 面向高中毕业生，官方定位是“大学替代方案”。 消息一出，迅速在硅谷科技圈引起不小的震动。 不是因为有人办了所学校——科技富豪办学早已不是新闻。马斯克创办了Ad Astra，扎克伯格夫妇创..."
+   "published_at": "2026-09-22T13:28:03.000000+00:00",
+   "summary": "“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着评论了三条。 这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入，并在评论区直接点名银河通用，已经过去了一周多时间。 相比于一开始还算理性的事实..."
   },
   {
    "rank": 20,
-   "title": "交付缩水八成，优必选给具身智能泼了一盆冷水",
+   "title": "Grok 4.7来了，网友实测先把SpaceX玩坏了，大火箭走起",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8150766.html",
+   "url": "https://www.36kr.com/p/3995162937184393",
    "score": 5.5,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "36kr-ai",
+    "baai-hub"
    ],
    "titles": [
-    "交付缩水八成，优必选给具身智能泼了一盆冷水",
-    "交付缩水八成，优必选给具身智能泼了一盆冷水"
+    "Grok 4.7来了，网友实测先把SpaceX玩坏了，大火箭走起",
+    "Grok 4.7上线，全球第三！马斯克：4.8也训完了",
+    "Grok 4.7来了！网友实测先把SpaceX玩坏了，大火箭走起"
    ],
-   "published_at": "2026-09-23T09:44:00+00:00",
-   "summary": "文 | 市值榜，作者 | 齐笑 ，编辑 | 嘉辛 9月16日，优必选U1正式开启交付。 从6月2日京东预售上线，到6月30日发布会宣布全渠道订单突破13361台，U1几乎一路伴随着聚光灯。 发布会当天，优必选港股盘中一度涨超18%，最终收盘涨幅收窄至7.48%，报102.8港元。 13361台是什么概念？2025年全年，优必选全尺寸具身智能人形机器人累计销量仅为1079台。也就是说，U1预售不到一个月拿到的订单，已经超过去年全年销量的1..."
+   "published_at": "2026-09-23T02:20:17.000000+00:00",
+   "summary": "看来啊，老马显然也知道，国庆前后这几天的基模圈不好混。 所以先发先占坑—— Grok 4.7 ，来了！！！ 更大的底模、上下文拉到50万Token，重点猛练Coding、Agent，以及动辄跑上几个小时的复杂任务。 软件工程、电气工程、长时办公、终端 和 法律任务 全面开花了。 官方评测表中，电气工程基准测试以64%拿下第一，终端操作基准测试更从20.3%跃升到38%～ 当然了，价格也很感人，输入2美元/百万Token，输出6美元/百万..."
   }
  ]
 }
