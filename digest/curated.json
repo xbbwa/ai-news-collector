@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-24T10:18:10.308923+00:00",
+ "generated_at": "2026-09-24T15:20:29.710283+00:00",
  "stats": {
-  "items": 1737,
-  "clusters": 1235,
-  "noise": 446,
-  "dup": 101,
+  "items": 1765,
+  "clusters": 1261,
+  "noise": 461,
+  "dup": 100,
   "history_days": 0,
-  "available_cn": 142,
-  "available_intl": 546,
+  "available_cn": 136,
+  "available_intl": 564,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -91,19 +91,19 @@
   },
   {
    "rank": 5,
-   "title": "nvidia/Qwen3.8-27B-NVFP4",
+   "title": "LiquidAI/LFM2.5-VL-3B",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
-   "score": 5.0,
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B",
+   "score": 5.5,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "nvidia/Qwen3.8-27B-NVFP4"
+    "LiquidAI/LFM2.5-VL-3B"
    ],
-   "published_at": "2026-09-17T17:16:07.000000+00:00",
-   "summary": "text-generation, Model Optimizer, safetensors, qwen3_5, nvidia, ModelOpt, Qwen3.8, quantized, FP4, fp4, FP8, fp8, conversational, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, 8-..."
+   "published_at": "2026-09-24T14:11:39.000000+00:00",
+   "summary": "image-text-to-text, transformers, safetensors, lfm2_vl, liquid, lfm2.5, edge, conversational, custom_code, ar, zh, en, fr, de, hi, id, it, ja, ko, pl, pt, ru, es, th, vi, arxiv:2305.03393, base_model:LiquidAI/LFM2.5-2.6B..."
   },
   {
    "rank": 6,
@@ -141,22 +141,54 @@
   },
   {
    "rank": 8,
-   "title": "How I built agent-based security reviews on Databricks",
+   "title": "The three things today's hottest startups are looking for in their AI stack",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
+   "url": "https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/",
    "score": 3.5,
    "sources": [
-    "databricks-blog"
+    "google-cloud-ai"
    ],
    "titles": [
-    "How I built agent-based security reviews on Databricks"
+    "The three things today's hottest startups are looking for in their AI stack"
    ],
-   "published_at": "2026-09-24T02:00:00.000000+00:00",
-   "summary": "We already had automation in parts of our security review process. It was useful,..."
+   "published_at": "2026-09-24T13:00:00.000000+00:00",
+   "summary": "Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and..."
   },
   {
    "rank": 9,
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "score": 3.5,
+   "sources": [
+    "huggingface-blog"
+   ],
+   "titles": [
+    "Accelerating vision-language models with LFM2.5-VL-DSpark"
+   ],
+   "published_at": "2026-09-24T14:08:57.000000+00:00",
+   "summary": "A Blog post by Liquid AI on Hugging Face"
+  },
+  {
+   "rank": 10,
+   "title": "How growing Latin American midsize businesses are building in the AI era",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/",
+   "score": 3.5,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "How growing Latin American midsize businesses are building in the AI era"
+   ],
+   "published_at": "2026-09-24T14:30:00.000000+00:00",
+   "summary": "Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their ent..."
+  },
+  {
+   "rank": 11,
    "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
    "lang": "en",
    "region": "intl",
@@ -172,23 +204,7 @@
    "summary": "Contrastive-LM has released CLM-8B , the first open model in a new class called Contrastive Language Models (CLMs). CLM does not generate text. It scores a set of candidate actions against the current state and returns p..."
   },
   {
-   "rank": 10,
-   "title": "Feds Target AI Critics as \"Foreign Agents\"",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-   "score": 3.12,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Feds Target AI Critics as \"Foreign Agents\""
-   ],
-   "published_at": "2026-09-24T00:41:31.000000+00:00",
-   "summary": "Trump admin sees China behind opposition to AI data centers"
-  },
-  {
-   "rank": 11,
+   "rank": 12,
    "title": "How to Guide Your Language Flow",
    "lang": "en",
    "region": "intl",
@@ -204,7 +220,7 @@
    "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a guidance signal. This works using a simil..."
   },
   {
-   "rank": 12,
+   "rank": 13,
    "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
    "lang": "en",
    "region": "intl",
@@ -220,7 +236,7 @@
    "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries."
   },
   {
-   "rank": 13,
+   "rank": 14,
    "title": "Sam Altman’s remarks at the United Nations Security Council",
    "lang": "en",
    "region": "intl",
@@ -236,82 +252,7 @@
    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
   },
   {
-   "rank": 14,
-   "title": "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
-   "score": 3.0,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway"
-   ],
-   "published_at": "2026-09-23T12:19:55.000000+00:00",
-   "summary": "Healthcare AI has little margin for error. AI agents helping coordinate patient care..."
-  },
-  {
    "rank": 15,
-   "title": "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/006/417.htm",
-   "score": 10.0,
-   "sources": [
-    "ithome",
-    "zhidx",
-    "qbitai"
-   ],
-   "titles": [
-    "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
-    "海信 U7T Pro RGB-Mini LED 电视发布：103% BT.2020 色域，国补后首销价 9999 元起",
-    "9999元起，海信连发两款旗舰RGB-Mini LED电视，掏出6个行业首发技术",
-    "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶"
-   ],
-   "published_at": "2026-09-23T11:31:31+00:00",
-   "summary": "IT之家 9 月 23 日消息，在 9 月 23 日晚的 2026 海信电视秋季新品发布会上，海信 E7S Pro+ RGB-Mini LED 电视发布， 建议零售价 11,499 元起，国补后首销价 9,999 元起 。IT之家附各版本定价如下： 75 英寸：3,888 背光分区，5,000 尼特峰值亮度，建议零售价 11,499 元，国补后首销价 9,999 元 85 英寸：5,184 背光分区，6,000 尼特峰值亮度，建议零售价..."
-  },
-  {
-   "rank": 16,
-   "title": "Muse火了，然后呢？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4893561.html",
-   "score": 9.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "Muse火了，然后呢？",
-    "Muse火了，然后呢？",
-    "Muse火了，然后呢？"
-   ],
-   "published_at": "2026-09-23T11:06:33.000000+00:00",
-   "summary": "会成为下一个“龙虾”吗？听筒Tech（ID:tingtongtech）原创2026年初，OpenClaw点燃了C端Agent的第一把火，但很快“速火”变“速朽”。不到两个月，第一批“养虾人”便花钱请人卸载。此后，C端Agent陷入“安全风险”的旋涡，爆火的“龙虾”如一夜之间，便淡出大众视野。出乎意料的是，约半...... 本文来自微信公众号： 听筒Tech ，作者：听筒Tech工作室 会成为下一个“龙虾”吗？ 听筒Tech（ID:tin..."
-  },
-  {
-   "rank": 17,
-   "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/006/516.htm",
-   "score": 7.0,
-   "sources": [
-    "ithome",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
-    "高通推出第二代骁龙音频平台至尊版"
-   ],
-   "published_at": "2026-09-23T22:41:13+00:00",
-   "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上..."
-  },
-  {
-   "rank": 18,
    "title": "5499元起，小米首个“AI痛机”来了，小爱Agent能力大涨，罗福莉带队立功",
    "lang": "zh",
    "region": "cn",
@@ -329,7 +270,25 @@
    "summary": "智东西 作者 | 云鹏 编辑 | 李水青 智东西9月23日北京现场报道，刚刚，小米正式发布了其年度数字旗舰 小米18系列两款Pro机型， 其首发了 2颗高通最新2nm旗舰SoC： 第六代骁龙8至尊版和第六代骁龙8超级至尊版。 今天的发布会主讲人是小米集团总裁卢伟冰，而非雷军，他一上来直接定调： 今年的18 Pro系列是“影像旗舰”， 这一点与刚刚发布的华为、OPPO、vivo旗舰一致。 卢伟冰说，小米18 Pro系列是小米史上升级最大的..."
   },
   {
-   "rank": 19,
+   "rank": 16,
+   "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/006/516.htm",
+   "score": 6.5,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
+    "高通推出第二代骁龙音频平台至尊版"
+   ],
+   "published_at": "2026-09-23T22:41:13+00:00",
+   "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上..."
+  },
+  {
+   "rank": 17,
    "title": "inclusionAI/Ming-flash-omni-Preview",
    "lang": "en",
    "region": "cn",
@@ -345,12 +304,46 @@
    "summary": "any-to-any, diffusers, safetensors, bailingmm_moe_v2_lite, en, arxiv:2510.24821, arxiv:2506.09344, base_model:inclusionAI/Ling-flash-2.0, base_model:finetune:inclusionAI/Ling-flash-2.0, license:mit, region:us"
   },
   {
+   "rank": 18,
+   "title": "inclusionAI/Ming-flash-omni-2.0",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
+   "score": 5.5,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "inclusionAI/Ming-flash-omni-2.0"
+   ],
+   "published_at": "2026-09-24T07:50:30.000000+00:00",
+   "summary": "any-to-any, diffusers, onnx, safetensors, bailingmm_moe_v2_lite, custom_code, en, arxiv:2506.09344, arxiv:2510.24821, license:mit, region:us"
+  },
+  {
+   "rank": 19,
+   "title": "Muse火了，然后呢？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/3995883463137160",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "Muse火了，然后呢？",
+    "Muse火了，然后呢？"
+   ],
+   "published_at": "2026-09-23T11:24:02.000000+00:00",
+   "summary": "2026年初，OpenClaw点燃了C端Agent的第一把火，但很快“速火”变“速朽”。不到两个月，第一批“养虾人”便花钱请人卸载。 此后，C端Agent陷入“安全风险”的旋涡，爆火的“龙虾”如一夜之间，便淡出大众视野。 出乎意料的是，约半年后，新的C端Agent再度爆火。 近日，Meta发布的Muse迅速出圈，上线不到10天，便登上美国App Store免费榜第一位，上线13天全网累计下载量约260万。美国移动端日活用户达64.2万，..."
+  },
+  {
    "rank": 20,
    "title": "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.36kr.com/newsflashes/3996835316060039",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "36kr-newsflash",
     "ithome"
