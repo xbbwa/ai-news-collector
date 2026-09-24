@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-24 23:20 CST
-数据窗口：最近 24 小时，1765 条原始条目 → 1261 个事件；过滤噪音 461 个，排除全部历史已推送的 100 个。
+生成时间：2026-09-25 03:22 CST
+数据窗口：最近 24 小时，1764 条原始条目 → 1269 个事件；过滤噪音 455 个，排除全部历史已推送的 90 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -9,14 +9,14 @@
 国外：
 
 ## 1. Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.CL（2 个来源） ｜ 热度：8.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.CL（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.27457v1 Announce Type: new Abstract: Vision-language models (VLMs) are often reported to outperform task-specific vision backbones for unmanned aerial vehicle (UAV) power-line defect assessment. We test that c...
 - 发布时间：2026-09-24 12:00 CST
 - 链接：https://arxiv.org/abs/2609.27457
 - 同事件报道：PRISM-VLM: A Multi-Axis Discriminative Benchmark for Compact Vision-Language Models（arXiv cs.CL）
 
 ## 2. InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：8.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.27620v1 Announce Type: new Abstract: Modern text-to-image (T2I) models generate high-quality images from arbitrary user prompts, yet they can just as easily produce not-safe-for-work (NSFW) content. Convention...
 - 发布时间：2026-09-24 12:00 CST
 - 链接：https://arxiv.org/abs/2609.27620
@@ -24,7 +24,7 @@
 - 同事件报道：I-SplineFlow: Learning Monotone Spline Stochastic Interpolant Schedulers for Few-Step Generation（arXiv cs.LG）
 
 ## 3. Gender Bias in Vision-Language In-Context Learning
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：8.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.27682v1 Announce Type: new Abstract: In-context learning (ICL) enables large vision-language models (LVLMs) to perform tasks by following patterns from in-context examples, yet its potential to amplify societa...
 - 发布时间：2026-09-24 12:00 CST
 - 链接：https://arxiv.org/abs/2609.27682
@@ -32,7 +32,7 @@
 - 同事件报道：A Foundation Model for Instruction-Conditioned In-Context Time Series Tasks（arXiv cs.LG）
 
 ## 4. What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI、arXiv cs.CL（2 个来源） ｜ 热度：8.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI、arXiv cs.CL（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.08016v2 Announce Type: replace Abstract: Multi-agent debate, in which several LLMs exchange arguments before producing an answer, is widely assumed to improve answer quality by surfacing genuine disagreement....
 - 发布时间：2026-09-24 12:00 CST
 - 链接：https://arxiv.org/abs/2609.08016
@@ -45,59 +45,61 @@
 - 发布时间：2026-09-24 22:11 CST
 - 链接：https://huggingface.co/LiquidAI/LFM2.5-VL-3B
 
-## 6. nvidia/diar_sortformer_4spk-v1
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
-- 摘要：automatic-speech-recognition, nemo, safetensors, sortformer, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2...
-- 发布时间：2026-09-23 22:54 CST
-- 链接：https://huggingface.co/nvidia/diar_sortformer_4spk-v1
+## 6. Oracle sends force majeure notice on its New Mexico Stargate data center
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.28
+- 摘要：The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online.
+- 发布时间：2026-09-25 02:11 CST
+- 链接：https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/
+- 同事件报道：Oracle invokes force majeure on New Mexico AI data center（Hacker News (AI stories)）
 
-## 7. The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.06
+## 7. Singapore’s Finance Firms to Train 80,000 Staff in AI Skills
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.12
+- 摘要：Singapore’s major financial institutions pledged to train more than 80,000 local employees in AI skills as the country moves to cushion white-collar workers from potential job disruption.
+- 发布时间：2026-09-24 19:45 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-24/singapore-s-finance-firms-to-train-80-000-staff-in-ai-skills
+- 同事件报道：Heat May Kill 451,000 People in First 9 Months of Super El Niño（Hacker News (AI stories)）
+
+## 8. black-forest-labs/flux-3-action-base
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.49
+- 摘要：robotics, lerobot, safetensors, flux, world-action-model, license:other, region:us
+- 发布时间：2026-09-23 20:41 CST
+- 链接：https://huggingface.co/black-forest-labs/flux-3-action-base
+
+## 9. The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.56
 - 发布时间：2026-09-24 11:24 CST
 - 链接：https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd
 - 同事件报道：The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History（Reddit AI subreddits (new)）
 
-## 8. The three things today's hottest startups are looking for in their AI stack
+## 10. The three things today's hottest startups are looking for in their AI stack
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
 - 摘要：Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and...
 - 发布时间：2026-09-24 21:00 CST
 - 链接：https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/
 
-## 9. Accelerating vision-language models with LFM2.5-VL-DSpark
+## 11. Accelerating vision-language models with LFM2.5-VL-DSpark
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
 - 摘要：A Blog post by Liquid AI on Hugging Face
 - 发布时间：2026-09-24 22:08 CST
 - 链接：https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark
 
-## 10. How growing Latin American midsize businesses are building in the AI era
+## 12. How growing Latin American midsize businesses are building in the AI era
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
 - 摘要：Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their ent...
 - 发布时间：2026-09-24 22:30 CST
 - 链接：https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/
 
-## 11. Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
-- 摘要：Contrastive-LM has released CLM-8B , the first open model in a new class called Contrastive Language Models (CLMs). CLM does not generate text. It scores a set of candidate actions against the current state and returns p...
-- 发布时间：2026-09-24 13:27 CST
-- 链接：https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/
+## 13. Aderant builds intelligent ticket triage with Amazon Nova
+- 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
+- 摘要：This guest post is co-written by Angela Mapes and Adam Walker of Aderant. In this post, we share how Aderant , a global provider of business management software for the legal industry, built an intelligent ticket triage...
+- 发布时间：2026-09-25 00:06 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/
 
-## 12. How to Guide Your Language Flow
-- 地区：国外源 ｜ 语言：en ｜ 来源：Apple Machine Learning Research（1 个来源） ｜ 热度：3.0
-- 摘要：We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a guidance signal. This works using a simil...
-- 发布时间：2026-09-23 08:00 CST
-- 链接：https://machinelearning.apple.com/research/guide-language-flow
-
-## 13. ChatGPT Ads expands to Southeast Asia and Taiwan
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.0
-- 摘要：ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.
-- 发布时间：2026-09-23 10:00 CST
-- 链接：https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan
-
-## 14. Sam Altman’s remarks at the United Nations Security Council
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.0
-- 摘要：OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.
-- 发布时间：2026-09-23 20:00 CST
-- 链接：https://openai.com/index/sam-altman-un-security-council-remarks
+## 14. Build a multi-account AI agent with AgentCore Gateway and MCP
+- 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
+- 摘要：Enterprises increasingly want AI agents that can reason over data spread across many AWS accounts without copying or centralizing it. Each team keeps its data in its own account for good reasons: clear ownership, scope i...
+- 发布时间：2026-09-25 00:12 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/
 
 国内：
 
@@ -121,22 +123,22 @@
 - 发布时间：2026-09-24 15:52 CST
 - 链接：https://huggingface.co/inclusionAI/Ming-flash-omni-Preview
 
-## 4. inclusionAI/Ming-flash-omni-2.0
+## 4. 四足机器人：宇树第一，智元、云深处争第二？
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、虎嗅（2 个来源） ｜ 热度：6.0
+- 摘要：9月21日，Counterpoint和IDC在同一天发布了全球四足机器人市场报告。 两份报告的第一名都是宇树科技。从第二名开始，名次就全都对不上了：Counterpoint按出货量排，第二是智元酷拓；IDC按收入排，第二是云深处。到了行业应用这个细分市场，宇树按出货量计算跌到第四，两家给出的头名分别是智元酷拓和云深处，再次出现差异。 总量同样对不上。Counterpoint的数据显示，2026年上半年全球四足机器人出货接近3.5万台，其...
+- 发布时间：2026-09-24 20:27 CST
+- 链接：https://www.36kr.com/p/3997354861072516
+- 同事件报道：四足机器人：宇树第一，智元、云深处争第二？（虎嗅）
+
+## 5. inclusionAI/Ming-flash-omni-2.0
 - 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.5
 - 摘要：any-to-any, diffusers, onnx, safetensors, bailingmm_moe_v2_lite, custom_code, en, arxiv:2506.09344, arxiv:2510.24821, license:mit, region:us
 - 发布时间：2026-09-24 15:50 CST
 - 链接：https://huggingface.co/inclusionAI/Ming-flash-omni-2.0
 
-## 5. Muse火了，然后呢？
+## 6. Muse火了，然后呢？
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
 - 摘要：2026年初，OpenClaw点燃了C端Agent的第一把火，但很快“速火”变“速朽”。不到两个月，第一批“养虾人”便花钱请人卸载。 此后，C端Agent陷入“安全风险”的旋涡，爆火的“龙虾”如一夜之间，便淡出大众视野。 出乎意料的是，约半年后，新的C端Agent再度爆火。 近日，Meta发布的Muse迅速出圈，上线不到10天，便登上美国App Store免费榜第一位，上线13天全网累计下载量约260万。美国移动端日活用户达64.2万，...
 - 发布时间：2026-09-23 19:24 CST
 - 链接：https://www.36kr.com/p/3995883463137160
 - 同事件报道：Muse火了，然后呢？（钛媒体）
-
-## 6. 豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：5.5
-- 摘要：9月24日，豆包公关负责人刘星发文表示：有媒体报道豆包Session团队组织调整，部分自媒体将其解读为豆包裁员、豆包对话团队砍掉一半，相关信息不实。实际上只是分工的组织调整。据刘星介绍，豆包通用Session团队的部分职能拆到了豆包的交易和豆包工作团队，所以人员也随着过去了。很多也是在做之前的工作。比如交易，也是优化交易对话体验。这个团队不到50人，分工调整涉及11人。其中3人离职。刘星强调，部分自媒体报道提及的“2亿人用的豆包裁员”“...
-- 发布时间：2026-09-24 11:11 CST
-- 链接：https://www.36kr.com/newsflashes/3996835316060039
-- 同事件报道：豆包公关负责人刘星回应“裁员、对话团队砍掉一半”传闻：不实，系分工组织调整（IT之家）
