@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-24T05:08:13.978017+00:00",
+ "generated_at": "2026-09-24T10:18:10.308923+00:00",
  "stats": {
-  "items": 2385,
-  "clusters": 1792,
-  "noise": 454,
-  "dup": 138,
+  "items": 1737,
+  "clusters": 1235,
+  "noise": 446,
+  "dup": 101,
   "history_days": 0,
-  "available_cn": 144,
-  "available_intl": 1056,
+  "available_cn": 142,
+  "available_intl": 546,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,27 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Same Chart, Different Story: Bias in Vision-Language Chart Interpretation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.26210",
-   "score": 12.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Same Chart, Different Story: Bias in Vision-Language Chart Interpretation",
-    "Gender Bias in Vision-Language In-Context Learning",
-    "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning",
-    "A Foundation Model for Instruction-Conditioned In-Context Time Series Tasks"
-   ],
-   "published_at": "2026-09-23T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.26210v1 Announce Type: new Abstract: Vision-language models (VLMs) are increasingly used to interpret charts and generate natural-language explanations for socially consequential data. However, they may produc..."
-  },
-  {
-   "rank": 2,
    "title": "Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection",
    "lang": "en",
    "region": "intl",
@@ -54,7 +33,7 @@
    "summary": "arXiv:2609.27457v1 Announce Type: new Abstract: Vision-language models (VLMs) are often reported to outperform task-specific vision backbones for unmanned aerial vehicle (UAV) power-line defect assessment. We test that c..."
   },
   {
-   "rank": 3,
+   "rank": 2,
    "title": "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
    "lang": "en",
    "region": "intl",
@@ -73,41 +52,45 @@
    "summary": "arXiv:2609.27620v1 Announce Type: new Abstract: Modern text-to-image (T2I) models generate high-quality images from arbitrary user prompts, yet they can just as easily produce not-safe-for-work (NSFW) content. Convention..."
   },
   {
-   "rank": 4,
-   "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
+   "rank": 3,
+   "title": "Gender Bias in Vision-Language In-Context Learning",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.25267",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.27682",
+   "score": 8.0,
    "sources": [
-    "hf-daily-papers",
-    "arxiv-cs-cv"
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
-    "Breaking Weather-Content Coupling: Type-Severity Guided Progressive Disentanglement for All-in-One Infrared Restoration"
+    "Gender Bias in Vision-Language In-Context Learning",
+    "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning",
+    "A Foundation Model for Instruction-Conditioned In-Context Time Series Tasks"
    ],
-   "published_at": "2026-09-20T20:00:00.000000+00:00",
-   "summary": "Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one model. A recent and effective recipe adapts a large pretrained image-editing model to restoration us..."
+   "published_at": "2026-09-24T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.27682v1 Announce Type: new Abstract: In-context learning (ICL) enables large vision-language models (LVLMs) to perform tasks by following patterns from in-context examples, yet its potential to amplify societa..."
+  },
+  {
+   "rank": 4,
+   "title": "What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.08016",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-ai",
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality",
+    "Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks",
+    "PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration"
+   ],
+   "published_at": "2026-09-24T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.08016v2 Announce Type: replace Abstract: Multi-agent debate, in which several LLMs exchange arguments before producing an answer, is widely assumed to improve answer quality by surfacing genuine disagreement...."
   },
   {
    "rank": 5,
-   "title": "nvidia/Nemotron-3-Diarization",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-   "score": 5.14,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/Nemotron-3-Diarization"
-   ],
-   "published_at": "2026-09-23T17:09:56.000000+00:00",
-   "summary": "voice-activity-detection, nemo, safetensors, nemotron3_diarization, audio-frame-classification, speaker-diarization, streaming-sortformer, speaker-tagging, transformers, arxiv:2409.06656, arxiv:2507.18446, arxiv:2605.154..."
-  },
-  {
-   "rank": 6,
    "title": "nvidia/Qwen3.8-27B-NVFP4",
    "lang": "en",
    "region": "intl",
@@ -123,55 +106,41 @@
    "summary": "text-generation, Model Optimizer, safetensors, qwen3_5, nvidia, ModelOpt, Qwen3.8, quantized, FP4, fp4, FP8, fp8, conversational, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B, license:apache-2.0, 8-..."
   },
   {
-   "rank": 7,
-   "title": "Google Beam expands with new regions, partners, and customers",
+   "rank": 6,
+   "title": "nvidia/diar_sortformer_4spk-v1",
    "lang": "en",
    "region": "intl",
-   "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-   "score": 3.5,
+   "url": "https://huggingface.co/nvidia/diar_sortformer_4spk-v1",
+   "score": 5.0,
    "sources": [
-    "google-ai-blog"
+    "hf-models-intl"
    ],
    "titles": [
-    "Google Beam expands with new regions, partners, and customers"
+    "nvidia/diar_sortformer_4spk-v1"
    ],
-   "published_at": "2026-09-23T18:00:00.000000+00:00",
-   "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network."
+   "published_at": "2026-09-23T14:54:26.000000+00:00",
+   "summary": "automatic-speech-recognition, nemo, safetensors, sortformer, speaker-diarization, speaker-recognition, speech, audio, Transformer, FastConformer, Conformer, NEST, pytorch, NeMo, dataset:fisher_english, dataset:NIST_SRE_2..."
+  },
+  {
+   "rank": 7,
+   "title": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd",
+   "score": 4.06,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
+    "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History"
+   ],
+   "published_at": "2026-09-24T03:24:33.000000+00:00",
+   "summary": ""
   },
   {
    "rank": 8,
-   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-   "score": 3.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows"
-   ],
-   "published_at": "2026-09-23T18:41:40.000000+00:00",
-   "summary": "A Blog post by NVIDIA on Hugging Face"
-  },
-  {
-   "rank": 9,
-   "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "Validate GPU Cluster Readiness Before AI Workloads Land"
-   ],
-   "published_at": "2026-09-23T19:45:19.000000+00:00",
-   "summary": "A GPU cluster can pass every health check and still fail to run an AI workload. Even when every GPU, network link, and pod reports healthy, a 512-GPU training... A GPU cluster can pass every health check and still fail t..."
-  },
-  {
-   "rank": 10,
    "title": "How I built agent-based security reviews on Databricks",
    "lang": "en",
    "region": "intl",
@@ -187,31 +156,23 @@
    "summary": "We already had automation in parts of our security review process. It was useful,..."
   },
   {
-   "rank": 11,
-   "title": "Qwen-Image 2.1 LoRA training is now supported in LoRA Dataset Studio (AI Toolkit)",
+   "rank": 9,
+   "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/StableDiffusion/comments/1wnsykk/qwenimage_21_lora_training_is_now_supported_in/",
+   "url": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/",
    "score": 3.5,
    "sources": [
-    "reddit-ai-new",
-    "reddit-ai-hot"
+    "marktechpost"
    ],
    "titles": [
-    "Qwen-Image 2.1 LoRA training is now supported in LoRA Dataset Studio (AI Toolkit)",
-    "Qwen Image 2.1 4 Steps Turbo Lora is here by Viggle",
-    "QwenImage2.1 Viggle '4-step' LoRA VS various steps with & w/o",
-    "Qwen 2.1 edit vs klein9b edit?",
-    "Custom Node for Extract Prompt & Target Aspect Ratio/Dimensions from Qwen Image 2.1 PE",
-    "Qwen Image 2.1 is an EDITING Beast",
-    "Qwen Image 2.1 masked inpainting: working crop-and-stitch graph + the wiring and prompt differences from Flux",
-    "My First Qwen 2.1 Character Loras."
+    "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev"
    ],
-   "published_at": "2026-09-23T02:01:44.000000+00:00",
-   "summary": "I build LoRA Dataset Studio, a free, self-hosted app for preparing image datasets and training LoRAs. I've added Qwen-Image 2.1 training through AI Toolkit: choose the model family, keep your RGB images and prose caption..."
+   "published_at": "2026-09-24T05:27:41+00:00",
+   "summary": "Contrastive-LM has released CLM-8B , the first open model in a new class called Contrastive Language Models (CLMs). CLM does not generate text. It scores a set of candidate actions against the current state and returns p..."
   },
   {
-   "rank": 12,
+   "rank": 10,
    "title": "Feds Target AI Critics as \"Foreign Agents\"",
    "lang": "en",
    "region": "intl",
@@ -227,7 +188,7 @@
    "summary": "Trump admin sees China behind opposition to AI data centers"
   },
   {
-   "rank": 13,
+   "rank": 11,
    "title": "How to Guide Your Language Flow",
    "lang": "en",
    "region": "intl",
@@ -243,7 +204,7 @@
    "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a guidance signal. This works using a simil..."
   },
   {
-   "rank": 14,
+   "rank": 12,
    "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
    "lang": "en",
    "region": "intl",
@@ -259,7 +220,80 @@
    "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries."
   },
   {
+   "rank": 13,
+   "title": "Sam Altman’s remarks at the United Nations Security Council",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Sam Altman’s remarks at the United Nations Security Council"
+   ],
+   "published_at": "2026-09-23T12:00:00.000000+00:00",
+   "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council."
+  },
+  {
+   "rank": 14,
+   "title": "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway"
+   ],
+   "published_at": "2026-09-23T12:19:55.000000+00:00",
+   "summary": "Healthcare AI has little margin for error. AI agents helping coordinate patient care..."
+  },
+  {
    "rank": 15,
+   "title": "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/006/417.htm",
+   "score": 10.0,
+   "sources": [
+    "ithome",
+    "zhidx",
+    "qbitai"
+   ],
+   "titles": [
+    "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
+    "海信 U7T Pro RGB-Mini LED 电视发布：103% BT.2020 色域，国补后首销价 9999 元起",
+    "9999元起，海信连发两款旗舰RGB-Mini LED电视，掏出6个行业首发技术",
+    "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶"
+   ],
+   "published_at": "2026-09-23T11:31:31+00:00",
+   "summary": "IT之家 9 月 23 日消息，在 9 月 23 日晚的 2026 海信电视秋季新品发布会上，海信 E7S Pro+ RGB-Mini LED 电视发布， 建议零售价 11,499 元起，国补后首销价 9,999 元起 。IT之家附各版本定价如下： 75 英寸：3,888 背光分区，5,000 尼特峰值亮度，建议零售价 11,499 元，国补后首销价 9,999 元 85 英寸：5,184 背光分区，6,000 尼特峰值亮度，建议零售价..."
+  },
+  {
+   "rank": 16,
+   "title": "Muse火了，然后呢？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4893561.html",
+   "score": 9.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "Muse火了，然后呢？",
+    "Muse火了，然后呢？",
+    "Muse火了，然后呢？"
+   ],
+   "published_at": "2026-09-23T11:06:33.000000+00:00",
+   "summary": "会成为下一个“龙虾”吗？听筒Tech（ID:tingtongtech）原创2026年初，OpenClaw点燃了C端Agent的第一把火，但很快“速火”变“速朽”。不到两个月，第一批“养虾人”便花钱请人卸载。此后，C端Agent陷入“安全风险”的旋涡，爆火的“龙虾”如一夜之间，便淡出大众视野。出乎意料的是，约半...... 本文来自微信公众号： 听筒Tech ，作者：听筒Tech工作室 会成为下一个“龙虾”吗？ 听筒Tech（ID:tin..."
+  },
+  {
+   "rank": 17,
    "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
    "lang": "zh",
    "region": "cn",
@@ -277,44 +311,41 @@
    "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上..."
   },
   {
-   "rank": 16,
-   "title": "阿里千问发布 Qwen-Audio-3.1 系列语音大模型，并下调全线产品价格",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/006/280.htm",
-   "score": 6.5,
-   "sources": [
-    "ithome",
-    "sspai"
-   ],
-   "titles": [
-    "阿里千问发布 Qwen-Audio-3.1 系列语音大模型，并下调全线产品价格",
-    "派早报：小米召开秋季新品发布会、千问发布 Qwen-Audio-3.1系列模型等"
-   ],
-   "published_at": "2026-09-23T07:15:26+00:00",
-   "summary": "IT之家 9 月 23 日消息，今天，千问正式发布 Qwen-Audio-3.1 系列语音大模型。本次升级不仅对语音识别、语音合成和实时语音交互三大核心模型进行了全面进化，更重磅推出了全新的音频创作模型 Qwen-Audio-3.1-TTS-Next 和音频理解模型 Qwen-Audio-3.1-ASR-Next。 官方称，五款全新的语音模型同时推出，形成了一套覆盖“理解-生成-交互-创作”的完整音频能力栈。为进一步降低用户使用成本，..."
-  },
-  {
-   "rank": 17,
-   "title": "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/006/417.htm",
-   "score": 6.5,
-   "sources": [
-    "ithome",
-    "qbitai"
-   ],
-   "titles": [
-    "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起",
-    "海信 U7T Pro RGB-Mini LED 电视发布：103% BT.2020 色域，国补后首销价 9999 元起",
-    "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶"
-   ],
-   "published_at": "2026-09-23T11:31:31+00:00",
-   "summary": "IT之家 9 月 23 日消息，在 9 月 23 日晚的 2026 海信电视秋季新品发布会上，海信 E7S Pro+ RGB-Mini LED 电视发布， 建议零售价 11,499 元起，国补后首销价 9,999 元起 。IT之家附各版本定价如下： 75 英寸：3,888 背光分区，5,000 尼特峰值亮度，建议零售价 11,499 元，国补后首销价 9,999 元 85 英寸：5,184 背光分区，6,000 尼特峰值亮度，建议零售价..."
-  },
-  {
    "rank": 18,
+   "title": "5499元起，小米首个“AI痛机”来了，小爱Agent能力大涨，罗福莉带队立功",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/596926.html",
+   "score": 6.5,
+   "sources": [
+    "zhidx",
+    "ithome"
+   ],
+   "titles": [
+    "5499元起，小米首个“AI痛机”来了，小爱Agent能力大涨，罗福莉带队立功",
+    "OPPO Find X10 系列今日开售：4999 元、5499 元和 6799 元起，Pro Max 搭载联发科天玑 9600 Pro"
+   ],
+   "published_at": "2026-09-23T10:38:13+00:00",
+   "summary": "智东西 作者 | 云鹏 编辑 | 李水青 智东西9月23日北京现场报道，刚刚，小米正式发布了其年度数字旗舰 小米18系列两款Pro机型， 其首发了 2颗高通最新2nm旗舰SoC： 第六代骁龙8至尊版和第六代骁龙8超级至尊版。 今天的发布会主讲人是小米集团总裁卢伟冰，而非雷军，他一上来直接定调： 今年的18 Pro系列是“影像旗舰”， 这一点与刚刚发布的华为、OPPO、vivo旗舰一致。 卢伟冰说，小米18 Pro系列是小米史上升级最大的..."
+  },
+  {
+   "rank": 19,
+   "title": "inclusionAI/Ming-flash-omni-Preview",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-Preview",
+   "score": 6.35,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "inclusionAI/Ming-flash-omni-Preview"
+   ],
+   "published_at": "2026-09-24T07:52:38.000000+00:00",
+   "summary": "any-to-any, diffusers, safetensors, bailingmm_moe_v2_lite, en, arxiv:2510.24821, arxiv:2506.09344, base_model:inclusionAI/Ling-flash-2.0, base_model:finetune:inclusionAI/Ling-flash-2.0, license:mit, region:us"
+  },
+  {
+   "rank": 20,
    "title": "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
    "lang": "zh",
    "region": "cn",
@@ -330,43 +361,6 @@
    ],
    "published_at": "2026-09-24T03:11:08.000000+00:00",
    "summary": "9月24日，豆包公关负责人刘星发文表示：有媒体报道豆包Session团队组织调整，部分自媒体将其解读为豆包裁员、豆包对话团队砍掉一半，相关信息不实。实际上只是分工的组织调整。据刘星介绍，豆包通用Session团队的部分职能拆到了豆包的交易和豆包工作团队，所以人员也随着过去了。很多也是在做之前的工作。比如交易，也是优化交易对话体验。这个团队不到50人，分工调整涉及11人。其中3人离职。刘星强调，部分自媒体报道提及的“2亿人用的豆包裁员”“..."
-  },
-  {
-   "rank": 19,
-   "title": "具身智能的转机和出清，哪个先来？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3994523684837256",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "具身智能的转机和出清，哪个先来？",
-    "具身智能的转机和出清，哪个先来？"
-   ],
-   "published_at": "2026-09-22T13:28:03.000000+00:00",
-   "summary": "“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着评论了三条。 这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入，并在评论区直接点名银河通用，已经过去了一周多时间。 相比于一开始还算理性的事实..."
-  },
-  {
-   "rank": 20,
-   "title": "Grok 4.7来了，网友实测先把SpaceX玩坏了，大火箭走起",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3995162937184393",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "baai-hub"
-   ],
-   "titles": [
-    "Grok 4.7来了，网友实测先把SpaceX玩坏了，大火箭走起",
-    "Grok 4.7上线，全球第三！马斯克：4.8也训完了",
-    "Grok 4.7来了！网友实测先把SpaceX玩坏了，大火箭走起"
-   ],
-   "published_at": "2026-09-23T02:20:17.000000+00:00",
-   "summary": "看来啊，老马显然也知道，国庆前后这几天的基模圈不好混。 所以先发先占坑—— Grok 4.7 ，来了！！！ 更大的底模、上下文拉到50万Token，重点猛练Coding、Agent，以及动辄跑上几个小时的复杂任务。 软件工程、电气工程、长时办公、终端 和 法律任务 全面开花了。 官方评测表中，电气工程基准测试以64%拿下第一，终端操作基准测试更从20.3%跃升到38%～ 当然了，价格也很感人，输入2美元/百万Token，输出6美元/百万..."
   }
  ]
 }
