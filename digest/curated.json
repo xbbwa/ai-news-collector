@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-24T22:36:42.627498+00:00",
+ "generated_at": "2026-09-25T01:41:36.592959+00:00",
  "stats": {
-  "items": 1729,
-  "clusters": 1226,
-  "noise": 439,
-  "dup": 79,
+  "items": 1631,
+  "clusters": 1216,
+  "noise": 457,
+  "dup": 100,
   "history_days": 0,
-  "available_cn": 154,
-  "available_intl": 554,
+  "available_cn": 123,
+  "available_intl": 536,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,353 +16,335 @@
  "items": [
   {
    "rank": 1,
-   "title": "The Biggest News From Connect 2026",
+   "title": "Sakana AI hires Jürgen Schmidhuber, inventor of deep learning, world models, and your next ChatGPT update",
    "lang": "en",
    "region": "intl",
-   "url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
-   "score": 8.0,
+   "url": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/",
+   "score": 5.05,
    "sources": [
-    "meta-newsroom",
-    "theverge-ai"
+    "the-decoder",
+    "hackernews-ai"
    ],
    "titles": [
-    "The Biggest News From Connect 2026",
-    "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
-    "Meta Connect 2026: The biggest news and announcements"
+    "Sakana AI hires Jürgen Schmidhuber, inventor of deep learning, world models, and your next ChatGPT update",
+    "Welcoming Jürgen Schmidhuber to Sakana AI"
    ],
-   "published_at": "2026-09-24T21:15:55.000000+00:00",
-   "summary": "We’re building personal AI agents for everyone and a whole family of devices that let you connect with them from anywhere. Bringing Muse to AI Glasses We launched Muse , a first-of-a-kind personal AI agent that proactive..."
+   "published_at": "2026-09-24T18:06:13.000000+00:00",
+   "summary": "Tokyo-based Sakana AI has hired Jürgen Schmidhuber as Chief Scientific Advisor. Sakana calls him the \"father of modern AI.\" He'll help lead the company's new RSI Lab, which works on recursive self-improvement, meaning AI..."
   },
   {
    "rank": 2,
-   "title": "Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection",
+   "title": "TNLearn: An Open Source Python Package for Task-based Neurons",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.27457",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.27564",
+   "score": 4.0,
    "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-cl"
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "Beyond Balanced Accuracy: A Resolution and Parity-Controlled Benchmark for Vision-Language and Vision-Only Defect Assessment in UAV Power-Line Inspection",
-    "PRISM-VLM: A Multi-Axis Discriminative Benchmark for Compact Vision-Language Models"
+    "TNLearn: An Open Source Python Package for Task-based Neurons"
    ],
    "published_at": "2026-09-24T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.27457v1 Announce Type: new Abstract: Vision-language models (VLMs) are often reported to outperform task-specific vision backbones for unmanned aerial vehicle (UAV) power-line defect assessment. We test that c..."
+   "summary": "arXiv:2609.27564v1 Announce Type: new Abstract: The brain does not rely on a single type of neuron to perform all kinds of tasks; instead, it designs different neurons for different tasks. The concept of task-based neuro..."
   },
   {
    "rank": 3,
-   "title": "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
+   "title": "Steve Jobs' Full iPhone 4 Antennagate Press Conference Q&A Session",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.27620",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
-    "IB-Flow: Information Bottleneck-Guided CFG Distillation for Few-Step Text-to-Image Generation",
-    "I-SplineFlow: Learning Monotone Spline Stochastic Interpolant Schedulers for Few-Step Generation"
-   ],
-   "published_at": "2026-09-24T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.27620v1 Announce Type: new Abstract: Modern text-to-image (T2I) models generate high-quality images from arbitrary user prompts, yet they can just as easily produce not-safe-for-work (NSFW) content. Convention..."
-  },
-  {
-   "rank": 4,
-   "title": "Gender Bias in Vision-Language In-Context Learning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.27682",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Gender Bias in Vision-Language In-Context Learning",
-    "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning",
-    "A Foundation Model for Instruction-Conditioned In-Context Time Series Tasks"
-   ],
-   "published_at": "2026-09-24T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.27682v1 Announce Type: new Abstract: In-context learning (ICL) enables large vision-language models (LVLMs) to perform tasks by following patterns from in-context examples, yet its potential to amplify societa..."
-  },
-  {
-   "rank": 5,
-   "title": "What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.08016",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-cl"
-   ],
-   "titles": [
-    "What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality",
-    "Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks",
-    "PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration"
-   ],
-   "published_at": "2026-09-24T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.08016v2 Announce Type: replace Abstract: Multi-agent debate, in which several LLMs exchange arguments before producing an answer, is widely assumed to improve answer quality by surfacing genuine disagreement...."
-  },
-  {
-   "rank": 6,
-   "title": "LiquidAI/LFM2.5-VL-3B",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B",
-   "score": 5.5,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "LiquidAI/LFM2.5-VL-3B"
-   ],
-   "published_at": "2026-09-24T14:11:39.000000+00:00",
-   "summary": "image-text-to-text, transformers, safetensors, lfm2_vl, liquid, lfm2.5, edge, conversational, custom_code, ar, zh, en, fr, de, hi, id, it, ja, ko, pl, pt, ru, es, th, vi, arxiv:2305.03393, base_model:LiquidAI/LFM2.5-2.6B..."
-  },
-  {
-   "rank": 7,
-   "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
-   "score": 5.28,
-   "sources": [
-    "techcrunch-ai",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Oracle sends force majeure notice on its New Mexico Stargate data center",
-    "Oracle invokes force majeure on New Mexico AI data center"
-   ],
-   "published_at": "2026-09-24T18:11:44.000000+00:00",
-   "summary": "The notice would allow Oracle to delay payments should the facility miss its 2028 target to come online."
-  },
-  {
-   "rank": 8,
-   "title": "Singapore’s Finance Firms to Train 80,000 Staff in AI Skills",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-24/singapore-s-finance-firms-to-train-80-000-staff-in-ai-skills",
-   "score": 5.12,
-   "sources": [
-    "bloomberg-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Singapore’s Finance Firms to Train 80,000 Staff in AI Skills",
-    "Heat May Kill 451,000 People in First 9 Months of Super El Niño"
-   ],
-   "published_at": "2026-09-24T11:45:35.000000+00:00",
-   "summary": "Singapore’s major financial institutions pledged to train more than 80,000 local employees in AI skills as the country moves to cushion white-collar workers from potential job disruption."
-  },
-  {
-   "rank": 9,
-   "title": "AI to SI(Super Intelligence)",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/artificial/comments/1wp05jy/ai_to_sisuper_intelligence/",
-   "score": 4.05,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "AI to SI(Super Intelligence)",
-    ".si domain registrations outpace .ai after Trump's 'Super Intelligence' rename"
-   ],
-   "published_at": "2026-09-24T12:21:09.000000+00:00",
-   "summary": "U.S. President Donald Trump said he would officially change the name of artificial intelligence, saying the existing name makes the technology seem fake. The new name will be changed from AI(artificial intelligence) to S..."
-  },
-  {
-   "rank": 10,
-   "title": "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd",
-   "score": 3.56,
+   "url": "https://www.youtube.com/watch?v=BiN5ERktXz0",
+   "score": 3.57,
    "sources": [
     "hackernews-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
-    "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History"
+    "Steve Jobs' Full iPhone 4 Antennagate Press Conference Q&A Session",
+    "Yes, you can run YuE2 (ABC + full CoT) on an iPhone — with just 1.7 GB of memory"
    ],
-   "published_at": "2026-09-24T03:24:33.000000+00:00",
-   "summary": ""
+   "published_at": "2026-09-24T06:18:02.000000+00:00",
+   "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
   },
   {
-   "rank": 11,
-   "title": "The three things today's hottest startups are looking for in their AI stack",
+   "rank": 4,
+   "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
    "lang": "en",
    "region": "intl",
-   "url": "https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/",
-   "score": 3.5,
-   "sources": [
-    "google-cloud-ai"
-   ],
-   "titles": [
-    "The three things today's hottest startups are looking for in their AI stack"
-   ],
-   "published_at": "2026-09-24T13:00:00.000000+00:00",
-   "summary": "Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and..."
-  },
-  {
-   "rank": 12,
-   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "score": 3.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Accelerating vision-language models with LFM2.5-VL-DSpark"
-   ],
-   "published_at": "2026-09-24T14:08:57.000000+00:00",
-   "summary": "A Blog post by Liquid AI on Hugging Face"
-  },
-  {
-   "rank": 13,
-   "title": "How growing Latin American midsize businesses are building in the AI era",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/",
-   "score": 3.5,
-   "sources": [
-    "google-cloud-ai"
-   ],
-   "titles": [
-    "How growing Latin American midsize businesses are building in the AI era"
-   ],
-   "published_at": "2026-09-24T14:30:00.000000+00:00",
-   "summary": "Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their ent..."
-  },
-  {
-   "rank": 14,
-   "title": "Aderant builds intelligent ticket triage with Amazon Nova",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
    "score": 3.5,
    "sources": [
     "aws-ml-blog"
    ],
    "titles": [
-    "Aderant builds intelligent ticket triage with Amazon Nova"
+    "Build a multi-account AI agent with AgentCore Gateway and MCP"
    ],
-   "published_at": "2026-09-24T16:06:46.000000+00:00",
-   "summary": "This guest post is co-written by Angela Mapes and Adam Walker of Aderant. In this post, we share how Aderant , a global provider of business management software for the legal industry, built an intelligent ticket triage..."
+   "published_at": "2026-09-24T16:12:47.000000+00:00",
+   "summary": "Enterprises increasingly want AI agents that can reason over data spread across many AWS accounts without copying or centralizing it. Each team keeps its data in its own account for good reasons: clear ownership, scope i..."
+  },
+  {
+   "rank": 5,
+   "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+   "score": 3.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Speaker-labeled transcription with WhisperX on SageMaker AI"
+   ],
+   "published_at": "2026-09-24T16:20:12.000000+00:00",
+   "summary": "Any team working with spoken audio hits the same wall with generic speech-to-text. Think contact-center calls, all-hands meetings, podcasts, depositions, and broadcast media. These workloads need two things that standard..."
+  },
+  {
+   "rank": 6,
+   "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
+   "score": 3.5,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "Deploy and manage coding agents at scale with the Unity Gateway CLI"
+   ],
+   "published_at": "2026-09-24T16:46:05.000000+00:00",
+   "summary": "In the last six months, GPT-6, Claude Opus 5.5, Gemini 3.8, and Grok 4.7 all shipped,..."
+  },
+  {
+   "rank": 7,
+   "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+   "score": 3.5,
+   "sources": [
+    "github-blog"
+   ],
+   "titles": [
+    "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent"
+   ],
+   "published_at": "2026-09-24T18:26:12.000000+00:00",
+   "summary": "If you’re new to fuzzing and want to learn the fundamentals first, check out our Fuzzing 101 course at gh.io/fuzzing101 . Continuous fuzzing is not a magic solution that solves all your problems . Even projects that have..."
+  },
+  {
+   "rank": 8,
+   "title": "Launch of UK’s ‘largest AI supercomputer’ delayed by power supply problems",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/2026/sep/24/construction-largest-supercomputer-delayed",
+   "score": 3.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Launch of UK’s ‘largest AI supercomputer’ delayed by power supply problems"
+   ],
+   "published_at": "2026-09-24T17:26:26.000000+00:00",
+   "summary": "Datacentre hailed by government was supposed to start operating next year but may be held back into mid-2030s A huge datacentre project hailed by the UK government will miss its launch date next year and could be delayed..."
+  },
+  {
+   "rank": 9,
+   "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost"
+   ],
+   "published_at": "2026-09-24T18:58:56+00:00",
+   "summary": "BottleCap AI has released ThinkingCap-Qwen3.8-27B , the second model in its ThinkingCap series. It is a fine-tune of the Qwen team’s Qwen3.8-27B with one narrow goal: shorter reasoning traces. Across 12 benchmarks, it sp..."
+  },
+  {
+   "rank": 10,
+   "title": "GitHub has not removed malicious imitation software after 3 weeks",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/",
+   "score": 3.4,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "GitHub has not removed malicious imitation software after 3 weeks"
+   ],
+   "published_at": "2026-09-24T15:50:26.000000+00:00",
+   "summary": "On the 31st August I got an email from a customer, telling me that they had found an imitation of my data wrangling software on Github. I’m not linking to it, but here is a screenshot: It is …"
+  },
+  {
+   "rank": 11,
+   "title": "Self-Organizing Agent Teams Learn to Reason Together",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.22682",
+   "score": 3.0,
+   "sources": [
+    "hf-daily-papers"
+   ],
+   "titles": [
+    "Self-Organizing Agent Teams Learn to Reason Together"
+   ],
+   "published_at": "2026-09-18T20:00:00.000000+00:00",
+   "summary": "Collective intelligence depends not only on what team members know, but also on how they organize their work. When the structure of a solution is unknown, useful roles and divisions of labor cannot be specified in advanc..."
+  },
+  {
+   "rank": 12,
+   "title": "PackLab: A Comprehensive Framework for Developing, Training, and Evaluating MLLMs in Robotic Bin Packing",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.23784",
+   "score": 3.0,
+   "sources": [
+    "hf-daily-papers"
+   ],
+   "titles": [
+    "PackLab: A Comprehensive Framework for Developing, Training, and Evaluating MLLMs in Robotic Bin Packing"
+   ],
+   "published_at": "2026-09-19T20:00:00.000000+00:00",
+   "summary": "Robotic bin packing requires long-horizon sequential decision-making, as each object placement affects the available space for subsequent packing. Existing methods primarily rely on hand-crafted geometric heuristics that..."
+  },
+  {
+   "rank": 13,
+   "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.27490",
+   "score": 3.0,
+   "sources": [
+    "hf-daily-papers"
+   ],
+   "titles": [
+    "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents"
+   ],
+   "published_at": "2026-09-22T20:00:00.000000+00:00",
+   "summary": "AI research agents need reliable knowledge of how their experiments change outcomes. We introduce WhatWorkedBench to measure experimental understanding, the accuracy of predictions about component changes after budgeted..."
+  },
+  {
+   "rank": 14,
+   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "ChatGPT Ads expands to Southeast Asia and Taiwan"
+   ],
+   "published_at": "2026-09-23T02:00:00.000000+00:00",
+   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries."
   },
   {
    "rank": 15,
-   "title": "5499元起，小米首个“AI痛机”来了，小爱Agent能力大涨，罗福莉带队立功",
+   "title": "惠普推出暗影精灵 11 白色款台式电脑：酷睿 U5 225F + RTX 5060，国补价 6799.15 元",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/596926.html",
-   "score": 6.5,
+   "url": "https://www.ithome.com/1/006/587.htm",
+   "score": 5.5,
    "sources": [
-    "zhidx",
-    "ithome"
+    "ithome",
+    "reddit-ai-new"
    ],
    "titles": [
-    "5499元起，小米首个“AI痛机”来了，小爱Agent能力大涨，罗福莉带队立功",
-    "OPPO Find X10 系列今日开售：4999 元、5499 元和 6799 元起，Pro Max 搭载联发科天玑 9600 Pro"
+    "惠普推出暗影精灵 11 白色款台式电脑：酷睿 U5 225F + RTX 5060，国补价 6799.15 元",
+    "Dailychained PLX 88096 switches, Quad RTX 5070 Ti + Quad RTX 5060 Ti"
    ],
-   "published_at": "2026-09-23T10:38:13+00:00",
-   "summary": "智东西 作者 | 云鹏 编辑 | 李水青 智东西9月23日北京现场报道，刚刚，小米正式发布了其年度数字旗舰 小米18系列两款Pro机型， 其首发了 2颗高通最新2nm旗舰SoC： 第六代骁龙8至尊版和第六代骁龙8超级至尊版。 今天的发布会主讲人是小米集团总裁卢伟冰，而非雷军，他一上来直接定调： 今年的18 Pro系列是“影像旗舰”， 这一点与刚刚发布的华为、OPPO、vivo旗舰一致。 卢伟冰说，小米18 Pro系列是小米史上升级最大的..."
+   "published_at": "2026-09-24T02:35:52+00:00",
+   "summary": "IT之家 9 月 24 日消息，惠普新上架了一款暗影精灵 11 冰魄白电脑主机，京东首发价 7999 元，国补后到手价 6799.15 元，晒单返 5000 京豆。 京东 惠普（HP）暗影精灵 11 冰魄白 Ultra 5-225F RTX5060 16G DDR5 512G 高端游戏台式电脑主机 AI 设计图站 7999 元 直达链接 这款电脑定位高端游戏主机或 AI 工作站，外观采用冰魄白配色，机身尺寸为 16L ，前面板配备透视窗..."
   },
   {
    "rank": 16,
-   "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
+   "title": "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/006/516.htm",
-   "score": 6.5,
+   "url": "https://www.36kr.com/newsflashes/3996835316060039",
+   "score": 5.5,
    "sources": [
-    "ithome",
-    "36kr-newsflash"
+    "36kr-newsflash",
+    "ithome"
    ],
    "titles": [
-    "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
-    "高通推出第二代骁龙音频平台至尊版"
+    "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
+    "豆包公关负责人刘星回应“裁员、对话团队砍掉一半”传闻：不实，系分工组织调整"
    ],
-   "published_at": "2026-09-23T22:41:13+00:00",
-   "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上..."
+   "published_at": "2026-09-24T03:11:08.000000+00:00",
+   "summary": "9月24日，豆包公关负责人刘星发文表示：有媒体报道豆包Session团队组织调整，部分自媒体将其解读为豆包裁员、豆包对话团队砍掉一半，相关信息不实。实际上只是分工的组织调整。据刘星介绍，豆包通用Session团队的部分职能拆到了豆包的交易和豆包工作团队，所以人员也随着过去了。很多也是在做之前的工作。比如交易，也是优化交易对话体验。这个团队不到50人，分工调整涉及11人。其中3人离职。刘星强调，部分自媒体报道提及的“2亿人用的豆包裁员”“..."
   },
   {
    "rank": 17,
-   "title": "四足机器人：宇树第一，智元、云深处争第二？",
+   "title": "让AI研发下一代机器人！成立三个月登顶物理AI评测榜单，押注Physical RSI",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3997354861072516",
-   "score": 6.0,
+   "url": "https://zhidx.com/p/596826.html",
+   "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "huxiu"
+    "zhidx",
+    "36kr-ai"
    ],
    "titles": [
-    "四足机器人：宇树第一，智元、云深处争第二？",
-    "四足机器人：宇树第一，智元、云深处争第二？"
+    "让AI研发下一代机器人！成立三个月登顶物理AI评测榜单，押注Physical RSI",
+    "让AI研发下一代机器人，成立三个月登顶物理AI评测榜单，押注Physical RSI"
    ],
-   "published_at": "2026-09-24T12:27:23.000000+00:00",
-   "summary": "9月21日，Counterpoint和IDC在同一天发布了全球四足机器人市场报告。 两份报告的第一名都是宇树科技。从第二名开始，名次就全都对不上了：Counterpoint按出货量排，第二是智元酷拓；IDC按收入排，第二是云深处。到了行业应用这个细分市场，宇树按出货量计算跌到第四，两家给出的头名分别是智元酷拓和云深处，再次出现差异。 总量同样对不上。Counterpoint的数据显示，2026年上半年全球四足机器人出货接近3.5万台，其..."
+   "published_at": "2026-09-24T06:12:19+00:00",
+   "summary": "智东西 作者 | 许丽思 编辑 | 漠影 智东西9月24日报道，物理智能公司Simate硅基伙伴，刚刚交出了一份成立三个月以来的亮眼技术答卷。 据Simate披露，其利用AI自动研究系统AutoResearch参与研发的 通用物理快系统模型，已登顶物理AI智能评测榜单RoboDojo ， 并通过真机展示了复杂长程任务执行、记忆、高精度操作等能力。 这家公司已完成累计数亿元融资，核心团队汇集了自动驾驶端到端量产、世界模型及人形机器人控制等..."
   },
   {
    "rank": 18,
-   "title": "inclusionAI/Ming-flash-omni-Preview",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-Preview",
-   "score": 5.85,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "inclusionAI/Ming-flash-omni-Preview"
-   ],
-   "published_at": "2026-09-24T07:52:38.000000+00:00",
-   "summary": "any-to-any, diffusers, safetensors, bailingmm_moe_v2_lite, en, arxiv:2510.24821, arxiv:2506.09344, base_model:inclusionAI/Ling-flash-2.0, base_model:finetune:inclusionAI/Ling-flash-2.0, license:mit, region:us"
-  },
-  {
-   "rank": 19,
-   "title": "inclusionAI/Ling-1T",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/inclusionAI/Ling-1T",
-   "score": 5.5,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "inclusionAI/Ling-1T"
-   ],
-   "published_at": "2026-09-24T10:47:00.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, bailing_moe, conversational, custom_code, arxiv:2507.17702, arxiv:2507.17634, arxiv:2510.22115, license:mit, region:us"
-  },
-  {
-   "rank": 20,
-   "title": "Muse火了，然后呢？",
+   "title": "梁文锋用沙盒开启RSI",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/3995883463137160",
+   "url": "https://www.36kr.com/p/3996973213505408",
    "score": 5.5,
    "sources": [
     "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "Muse火了，然后呢？",
-    "Muse火了，然后呢？"
+    "梁文锋用沙盒开启RSI",
+    "梁文锋用沙盒开启RSI"
    ],
-   "published_at": "2026-09-23T11:24:02.000000+00:00",
-   "summary": "2026年初，OpenClaw点燃了C端Agent的第一把火，但很快“速火”变“速朽”。不到两个月，第一批“养虾人”便花钱请人卸载。 此后，C端Agent陷入“安全风险”的旋涡，爆火的“龙虾”如一夜之间，便淡出大众视野。 出乎意料的是，约半年后，新的C端Agent再度爆火。 近日，Meta发布的Muse迅速出圈，上线不到10天，便登上美国App Store免费榜第一位，上线13天全网累计下载量约260万。美国移动端日活用户达64.2万，..."
+   "published_at": "2026-09-24T06:46:59.000000+00:00",
+   "summary": "DeepSeek联合清华大学发表了一篇文章，署名的最后一人是梁文锋。 文章表面上是说DeepSeek训练Agent所使用的沙盒，但是论文第6节越看越不对劲。字里行间写了三个英文字母：RSI。 通过这个沙盒，Agent能创建自己需要的环境，这个环境会再次训练Agent，被训练的更强的Agent会创造更好的环境。 由此形成了一个小型的RSI闭环。 也正是因此，沙盒，或许成为了开启RSI第一场战争的一把钥匙。 那这篇文章到底讲了什么呢？ 这篇..."
+  },
+  {
+   "rank": 19,
+   "title": "inclusionAI/Ming-flash-omni-2.0",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/inclusionAI/Ming-flash-omni-2.0",
+   "score": 5.0,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "inclusionAI/Ming-flash-omni-2.0"
+   ],
+   "published_at": "2026-09-24T07:50:30.000000+00:00",
+   "summary": "any-to-any, diffusers, onnx, safetensors, bailingmm_moe_v2_lite, custom_code, en, arxiv:2506.09344, arxiv:2510.24821, license:mit, region:us"
+  },
+  {
+   "rank": 20,
+   "title": "inclusionAI/Ling-3.0-flash-Fin",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+   "score": 5.0,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "inclusionAI/Ling-3.0-flash-Fin"
+   ],
+   "published_at": "2026-09-24T08:53:46.000000+00:00",
+   "summary": "text-generation, safetensors, bailing_hybrid, finance, financial-research, agents, tool-use, long-context, mixture-of-experts, conversational, custom_code, base_model:inclusionAI/Ling-3.0-flash, base_model:finetune:inclu..."
   }
  ]
 }
