@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-26 06:35 CST
-数据窗口：最近 24 小时，1570 条原始条目 → 1256 个事件；过滤噪音 415 个，排除全部历史已推送的 111 个。
+生成时间：2026-09-26 09:46 CST
+数据窗口：最近 24 小时，1572 条原始条目 → 1245 个事件；过滤噪音 408 个，排除全部历史已推送的 130 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,136 +8,125 @@
 
 国外：
 
-## 1. Bill Gates warns AI is powerful enough to cause "a billion deaths"
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Financial Times — Technology、Bloomberg Technology（3 个来源） ｜ 热度：9.5
-- 摘要：Bill Gates will warn on this weekend's "Meet the Press" that he can see a future where AI wipes out humanity . Why it matters: Gates , one of technology's leading optimists, has increasingly sounded the alarm on AI dange...
-- 发布时间：2026-09-25 20:52 CST
-- 链接：https://www.axios.com/2026/09/25/bill-gates-ai-deaths-doom
-- 同事件报道：Bill Gates warns AI could cause ‘a billion deaths’（Financial Times — Technology）
-- 同事件报道：Bill Gates Warns AI Powerful Enough to Lead to ‘a Billion Deaths’（Bloomberg Technology）
+## 1. Tell HN: Codex Is Down [fixed]
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.64
+- 摘要：Shows an Incorrect API Key error...which is weird. Nothing on the status page. (EDIT: Added to incident page: https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA... ) Per Twitter/X this appears to be widespread...
+- 发布时间：2026-09-26 06:51 CST
+- 链接：https://news.ycombinator.com/item?id=49851032
+- 同事件报道：Codex down?（Reddit AI subreddits (new)）
 
-## 2. Evaluation of Multi-Turn Consistency in LLM Agents: Survival Analysis and Failure-Rationale Taxonomy
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2609.29508v1 Announce Type: cross Abstract: Large language model (LLM) agents may perform well on isolated tasks yet drift into inconsistency over extended interaction. We evaluate temporal consistency in a control...
+## 2. Low-Cost Assays for Measuring Model Behavior Across Vendors and Releases
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL（1 个来源） ｜ 热度：4.0
+- 摘要：arXiv:2609.30012v1 Announce Type: new Abstract: Language models advise people, keep them company, and write software while they sleep. Measuring what they do is hard: behavior has to be sampled repeatedly across models,...
 - 发布时间：2026-09-25 12:00 CST
-- 链接：https://arxiv.org/abs/2609.29508
-- 同事件报道：Beyond Surface Style: Aligning Multi-Turn User Simulators with Behavioral Consistency（arXiv cs.AI）
-- 同事件报道：TRACE: Trajectory Aware Reasoning for Multi-Turn Adversarial Conversation Evaluation（arXiv cs.AI）
+- 链接：https://arxiv.org/abs/2609.30012
 
-## 3. Automatic Harness Evolution for Hardware Design Verification: Can LLMs Consolidate Gains Across Discovered Harnesses?
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2609.28908v1 Announce Type: cross Abstract: Agent behavior depends on the harness surrounding a language model, but it remains unclear whether language models can reliably improve such harnesses for hardware-design...
+## 3. SGA: Uncertainty Quantification for Multi-Step Forecasting in Time Series Foundation Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG（1 个来源） ｜ 热度：4.0
+- 摘要：arXiv:2609.28582v1 Announce Type: new Abstract: The recent emergence of Time Series Foundation Models (TSFMs) has significantly advanced multi-step forecasting performance, enabling accurate predictions over extended fut...
 - 发布时间：2026-09-25 12:00 CST
-- 链接：https://arxiv.org/abs/2609.28908
-- 同事件报道：Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior（arXiv cs.AI）
+- 链接：https://arxiv.org/abs/2609.28582
 
-## 4. On Cost-Aware Designs for Sequential Hypothesis Testing
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2512.19067v3 Announce Type: replace-cross Abstract: We introduce Cost-Aware (CA) Sequential Hypothesis Testing (CASHT), in which an active decision-maker selects sensing actions with different, random costs to iden...
+## 4. Learned Cross-Task Relationships in Multi-Task Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI（1 个来源） ｜ 热度：4.0
+- 摘要：arXiv:2609.28776v1 Announce Type: new Abstract: We propose a framework that learns cross-task relationships in multi-task models by approximating the joint distribution of task labels through targeted pairwise relationsh...
 - 发布时间：2026-09-25 12:00 CST
-- 链接：https://arxiv.org/abs/2512.19067
-- 同事件报道：Human-AI-Powered Hypothesis Testing: Cost-Aware Selective AI Scoring and Sequential Human Escalation（arXiv cs.AI）
+- 链接：https://arxiv.org/abs/2609.28776
 
-## 5. An Exploratory Ablation of a Small MLA--SSM Hybrid Language Model
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
-- 摘要：arXiv:2609.29618v1 Announce Type: new Abstract: We report an exploratory, single-seed ablation of TALH (Adaptive Latent Hybrid), a decoder-only language model with parallel Multi-head Latent Attention (MLA) and a custom...
+## 5. Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI（1 个来源） ｜ 热度：4.0
+- 摘要：arXiv:2609.30219v1 Announce Type: cross Abstract: An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commissioning. Candidate generation is separated from release authority. Req...
 - 发布时间：2026-09-25 12:00 CST
-- 链接：https://arxiv.org/abs/2609.29618
-- 同事件报道：Trained my first small language model（Reddit AI subreddits (new)）
+- 链接：https://arxiv.org/abs/2609.30219
 
-## 6. microsoft/colipri
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.81
-- 摘要：zero-shot-image-classification, colipri, safetensors, en, license:mit, region:us
-- 发布时间：2026-09-25 18:23 CST
-- 链接：https://huggingface.co/microsoft/colipri
+## 6. Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
+- 摘要：Liquid AI has announced LFM2.5-VL-3B-DSpark , an experimental speculative-decoding draft model for its LFM2.5-VL-3B vision-language model. The drafter adds about 280M parameters and speeds up decoding without changing th...
+- 发布时间：2026-09-26 07:11 CST
+- 链接：https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/
 
-## 7. A kernel-centric path to real-time video generation on Trainium
-- 地区：国外源 ｜ 语言：en ｜ 来源：Amazon Science（1 个来源） ｜ 热度：3.5
-- 摘要：In 2018, Jürgen Schmidhuber — who in 1990 was the first person to propose world models as a machine learning concept — published a paper with David Ha. They wrote about “a predictive world model” which could “extract use...
-- 发布时间：2026-09-25 22:55 CST
-- 链接：https://www.amazon.science/blog/a-kernel-centric-path-to-real-time-video-generation-on-trainium
+## 7. Alan Kay: Shannon gave us a way of dealing with noisy channels [video]
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：2.53
+- 摘要：The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaar...
+- 发布时间：2026-09-26 02:37 CST
+- 链接：https://www.youtube.com/watch?v=Cjntrqhn8pk
 
-## 8. From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Conversational with Databricks Genie Agents and MCP
-- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
-- 摘要：S&P Global's goal was to fundamentally improve how customers discover and consume...
-- 发布时间：2026-09-26 00:00 CST
-- 链接：https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks
+## 8. Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Xi is expected to depart DC after touring the nation’s vault of records, where the Declaration of Independence, the Constitution and the Bill of Rights are held Sign up for US Breaking News emails During talks at the Whi...
+- 发布时间：2026-09-25 21:49 CST
+- 链接：https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live
 
-## 9. Best practices guide for customizing Gemini models via Reinforcement Learning (RL)
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
-- 摘要：Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So...
-- 发布时间：2026-09-26 00:00 CST
-- 链接：https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/
+## 9. AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Cognition AI Inc. is on track to generate annualized revenue of $1 billion based on its performance this month, according to a person familiar with the matter, roughly doubling the artificial intelligence coding startup’...
+- 发布时间：2026-09-25 22:30 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue
 
-## 10. Proaction boosts sales 60% and saves 75+ hours with Codex
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.
-- 发布时间：2026-09-26 03:00 CST
-- 链接：https://openai.com/index/proaction
+## 10. Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：2.5
+- 摘要：Perplexity Research published a new post-training study . It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-d...
+- 发布时间：2026-09-25 22:30 CST
+- 链接：https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/
 
-## 11. The Chinese AI Infrastructure Boom: Introducing the SemiAnalysis China Datacenter Model
-- 地区：国外源 ｜ 语言：en ｜ 来源：SemiAnalysis（1 个来源） ｜ 热度：3.5
-- 摘要：China sits at the frontier of the global model race. GLM 5.3 and Kimi K3 are the latest in a run of striking open-weights releases. ByteDance's Doubao serves 345M monthly users as China's ChatGPT, and Seedance is the Sta...
-- 发布时间：2026-09-25 23:58 CST
-- 链接：https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom
+## 11. It’s going to take more than an email to a public inbox to protect Australians from potential AI doom
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：OpenAI’s hack of Medicare suggests safeguarding civilisation is the task facing leaders in this extraordinary new era Get our breaking news email , free app or daily news podcast More than 130 world leaders descended on...
+- 发布时间：2026-09-25 22:58 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/25/australia-medicare-openai-hack-safeguarding-un-leaders
 
-## 12. Maga base recoils as Trump goes all-in on AI
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：3.0
-- 摘要：US president’s Big Tech boosterism is alienating once-loyal supporters just weeks ahead of the midterms
-- 发布时间：2026-09-25 12:00 CST
-- 链接：https://www.ft.com/content/e8a815e6-a105-42ea-938e-352b8c8d5c3b?syn-25a6b1a6=1
+## 12. NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Apartment with strange view singled out in government’s fight against deceptive ads – but real estate agent says photo is no fake Get our new political email , free app or daily news podcast The New South Wales governmen...
+- 发布时间：2026-09-25 23:00 CST
+- 链接：https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall
 
-## 13. Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
-- 摘要：Fastino Labs has released GLiNER2.5-Decide , a 340M-parameter open-weight decision model. It takes text and a schema of typed questions and returns structured answers. Each answer comes with a probability distribution, a...
-- 发布时间：2026-09-25 12:46 CST
-- 链接：https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/
-- 同事件报道：Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB（MarkTechPost）
+## 13. Is China Really Stealing A.I. From American Companies?
+- 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：The Chinese companies Z.ai and Moonshot are not far behind Anthropic and OpenAI.
+- 发布时间：2026-09-25 23:02 CST
+- 链接：https://www.nytimes.com/2026/09/25/science/china-ai-distillation-copying.html
 
-## 14. Classified Estimates Show the NSA Is Paying Billions to Test AI Models
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：2.89
-- 摘要：The price tag is significantly higher than previously known.
-- 发布时间：2026-09-25 23:27 CST
-- 链接：https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models
+## 14. France’s Goncourt literary prize pulls novel over AI concerns
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Prix Goncourt judges say Haitian-Canadian author Thélyson Orélien ‘in all likelihood’ used artificial intelligence to write his book — a claim he denies
+- 发布时间：2026-09-25 23:03 CST
+- 链接：https://www.ft.com/content/b002f3d7-1303-416b-aeab-d8bda1e40182?syn-25a6b1a6=1
 
 国内：
 
-## 1. 刚刚，DeepSeek Harness桌面预览版上线！
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、IT之家（2 个来源） ｜ 热度：6.5
-- 摘要：作者 | 青和 编辑｜四月 DeepSeek“ 逢假必放更新 ”的铁律仍然奏效。在这个双节假期，社区终于等来了 Harness 的桌面端入口 。 昨晚，有开发者在DeepSeek Harness 官方GitHub仓库 中发现了Harness桌面端源码，官方代码还明确写出了更新源 download.deepseek.com。早在8月底，DeepSeek官方 deepseek-ai/deepseek-harness 仓库中就已经出现了 完整...
-- 发布时间：2026-09-25 10:41 CST
-- 链接：https://www.36kr.com/p/3998199345500040
-- 同事件报道：DeepSeek Harness 官方桌面版预览偷跑（IT之家）
+## 1. 日本监管机构正加强对人工智能数据中心融资的审查力度
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.0
+- 摘要：随着日本大型银行和人寿保险公司增加对这一快速扩张领域的风险敞口，日本金融厅（FSA）正加强对相关AI数据中心融资的审查力度。据一位要求匿名的金融厅高级官员透露，监管机构将重点审查贷款机构的风险管理框架等关键环节。该官员表示，目前主要关注的是位于美国的数据中心项目。（新浪财经）
+- 发布时间：2026-09-25 17:20 CST
+- 链接：https://www.36kr.com/newsflashes/3998605168529284
 
-## 2. 1.4万亿美元的预付款谁来收货？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：这件事过去几天了，但值得回头捋一捋。9月中旬，一篇发在网上的长文，把全球芯片股砸出一片坑，写文的人是Anthropic的掌门人阿莫迪，文章题目叫「我们必须控制前沿的节奏」，大意是前沿模型的步子跑得太急，该有人出来管管节奏。这篇倡议，奥特曼点了头，马斯克也接了话。没消停几天，这四家一起被告了。美国四名付费用户把...... 本文来自微信公众号： 王智远 ，作者：王智远，原文标题：《1.4 万亿美元的预付款谁来收货？》 这件事过去几天了，但...
-- 发布时间：2026-09-25 10:23 CST
-- 链接：https://www.huxiu.com/article/4893917.html
-- 同事件报道：1.4 万亿美元的预付款谁来收货？（36氪 AI 频道）
+## 2. 亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位（1 个来源） ｜ 热度：3.0
+- 摘要：大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。
+- 发布时间：2026-09-25 18:00 CST
+- 链接：https://www.qbitai.com/2026/09/497108.html
 
-## 3. 影石正布局 AI 眼镜，或采用“分体电池”设计
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：5.5
-- 摘要：9 月 25 日中午消息，有接近影石创新人士透露， 当前影石创新正在布局 AI 眼镜赛道 ，并在进行相关研发，未来或将推出自己的 AI 眼镜产品。 此前，影石创新获得了一项名为“可穿戴式眼镜”的实用新型专利授权。专利摘要显示，该眼镜主体佩戴于头部，电池装置与眼镜主体分离、佩戴于身体其他部位，通过电连接线供电，目的是“减轻用户头部负重，降低长时间佩戴的压力”。这一“分体电池”设计思路，与当前主流 AI 眼镜将电池塞入镜腿的方案明显不同，更...
-- 发布时间：2026-09-25 12:26 CST
-- 链接：https://www.ithome.com/1/007/113.htm
-- 同事件报道：影石正布局AI眼镜，或采用“分体电池”设计（36氪 快讯）
+## 3. 聊天、编程、智能体三合一，微软正式发布新版 Copilot“超级应用”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
+- 摘要：IT之家 9 月 25 日消息，今天（25 日）晚间，微软正式发布新版 Copilot“超级应用”。新版 Copilot 把聊天、编程和智能体三类 AI 能力集中到同一个界面中。 微软为其给出的新定位是“ 为工作而生的 AI ”，甚至把 Copilot 与 Office 当年对生产力的影响相提并论。微软 AI 工作业务首席营销官贾里德 · 斯帕塔罗表示：“正如 Office 定义了 PC 时代的工作方式，新 Copilot 旨在定义 A...
+- 发布时间：2026-09-25 20:37 CST
+- 链接：https://www.ithome.com/1/007/230.htm
 
-## 4. 阿莫迪偷师姚顺雨，奥特曼偷师梁文锋
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：文 | 字母AI 正所谓天下文章一大抄，看你会抄不会抄。 刚刚发布的Opus 5.5和GPT-6 Luna，一眼望去，这两个模型上面满满是姚顺雨和梁文锋的影子。 或许是因为两家公司都已经将预训练做到了极致，为了提升模型的智能以及降低算力成本，所以这两个新模型都选择开辟新的战场。 Opus 5.5是对上下文动手，GPT-6 Luna是对缓存动手。 这我可熟啊！一个混元，一个DeepSeek啊！ 但你别说，阿莫迪和奥特曼还真抄得挺像那么回事...
-- 发布时间：2026-09-25 17:17 CST
-- 链接：https://www.tmtpost.com/8152677.html
-- 同事件报道：阿莫迪偷师姚顺雨，奥特曼偷师梁文锋（36氪 AI 频道）
+## 4. 精神小妹出局，AI崩老头来了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
+- 摘要：01：轮到AI崩老头时代滚滚洪流面前，连“崩老头”都未曾幸免。三个月前，咱写了一篇《崩老头月入好几万，还有AI抢不走的饭？》，没想到，AI真来抢了，还抢得很干净利落。在Claude母公司Anthropic发布的最新的安全报告中，编号GTG-15001披露了一个中国App工作室用Claude，批量造了4700多...... 本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 01：轮到AI崩老头 时代滚滚洪流面前，连“崩老头”都未曾幸免...
+- 发布时间：2026-09-25 22:09 CST
+- 链接：https://www.huxiu.com/article/4893985.html
 
-## 5. 英国最大 AI 超算面临供电问题：原定明年上线，或拖到 2030 年代中期
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
-- 摘要：IT之家 9 月 25 日消息，据英国《卫报》今天（25 日）报道，英国政府曾大力宣传的埃塞克斯郡劳顿大型数据中心项目将无法按原计划于明年启用，甚至可能拖到 2030 年代中期。 劳顿项目 2025 年公布时 被称为英国最大的 AI 超级计算机 ，但供电难题意味着项目距离投入运行仍有很长一段时间。 当前，该项目因 无法在原定 2027 年启用前获得足够电力 而面临新的问题。该超算由英国初创企业 Nscale 负责建设，这家企业今年又计划...
-- 发布时间：2026-09-25 20:19 CST
-- 链接：https://www.ithome.com/1/007/228.htm
+## 5. 德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
+- 摘要：IT之家 9 月 25 日消息，据央视新闻报道，德国柏林警方 24 日在一处犯罪高发区域启动一项计划，将借助人工智能监控摄像头打击犯罪。 据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。警方还计划将该方案推广至市内其他犯罪高发区域。 柏林警方发表声明说，该摄像头通过“空间人工智能”技术分析人员动作， 以识别潜在犯罪与暴力行为 。摄像头配套的显示屏平时处于休眠状态，当人工智能系统...
+- 发布时间：2026-09-25 22:20 CST
+- 链接：https://www.ithome.com/1/007/245.htm
 
-## 6. 广电湘军+AI发力！万兴科技推出全场景AI视频方案，加速万剧出海
-- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西（1 个来源） ｜ 热度：3.0
-- 摘要：智东西 作者 | 李水青 编辑 | 心缘 智东西9月25日长沙报道，昨日，在2026岳麓大会上，湘商背景生成式AI上市公司万兴科技推出全链路全场景AI视频创意解决方案，覆盖AI影视、AI广告视频、AI电商视频、AI音乐视频、AI视频剪辑等多个创作场景。 万兴科技董事长吴太兵在演讲中提到，当前，AI推动创意平权，创作者群体持续扩容并走向专业化，个人创作者经营化与OPC兴起，推动创作者经济加速形成一个被AI重构的万亿级市场。 AI影视业务方...
-- 发布时间：2026-09-25 08:00 CST
-- 链接：https://zhidx.com/p/597408.html
+## 6. 35岁，我被AI黑话整破防了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
+- 摘要：8月13日晚上十点，地铁10号线的车厢里还带着晚高峰残留的拥挤，林薇攥着吊环低头刷手机，一条科技圈推送吸引了她的注意。标题写着：“DeepSeek V4-Pro正式版发布，Agent能力大幅增强，定价为Flash版三倍。”她指尖往下划了划，同天发布更新的还有Grok 4.6、通义千问Qwen3.8-Max。“...... 本文来自微信公众号： 凤凰网财经 ，作者：凤凰AI研究院，原文标题：《35 岁，我被AI黑话整破防了》 8月13日晚...
+- 发布时间：2026-09-25 22:23 CST
+- 链接：https://www.huxiu.com/article/4893988.html
