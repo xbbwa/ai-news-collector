@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-26T01:46:02.643566+00:00",
+ "generated_at": "2026-09-26T07:55:04.330656+00:00",
  "stats": {
-  "items": 1572,
-  "clusters": 1245,
-  "noise": 408,
-  "dup": 130,
+  "items": 1675,
+  "clusters": 1272,
+  "noise": 434,
+  "dup": 125,
   "history_days": 0,
-  "available_cn": 53,
-  "available_intl": 654,
+  "available_cn": 58,
+  "available_intl": 655,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -114,134 +114,218 @@
   },
   {
    "rank": 7,
-   "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+   "title": "Stanford and Nvidia's open CLM-8B caches reusable agent actions and runs up to 9x faster than Jev in tests",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
-   "score": 2.53,
+   "url": "https://venturebeat.com/technology/stanford-and-nvidias-open-clm-8b-caches-reusable-agent-actions-and-runs-up-to-9x-faster-than-jev-in-tests",
+   "score": 2.5,
    "sources": [
-    "hackernews-ai"
+    "venturebeat"
    ],
    "titles": [
-    "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]"
+    "Stanford and Nvidia's open CLM-8B caches reusable agent actions and runs up to 9x faster than Jev in tests"
    ],
-   "published_at": "2026-09-25T18:37:05.000000+00:00",
-   "summary": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaar..."
+   "published_at": "2026-09-25T20:13:30+00:00",
+   "summary": "AI agents often use LLMs to choose between a fixed set of tools or rank candidate outputs. In each case, the model processes a prompt and generates tokens even though the application only needs a bounded decision. Read m..."
   },
   {
    "rank": 8,
-   "title": "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live",
+   "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
+   "url": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/",
    "score": 2.5,
    "sources": [
-    "guardian-ai"
+    "wired-ai"
    ],
    "titles": [
-    "Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live"
+    "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand"
    ],
-   "published_at": "2026-09-25T13:49:41.000000+00:00",
-   "summary": "Xi is expected to depart DC after touring the nation’s vault of records, where the Declaration of Independence, the Constitution and the Bill of Rights are held Sign up for US Breaking News emails During talks at the Whi..."
+   "published_at": "2026-09-25T20:30:40.000000+00:00",
+   "summary": "They wanted the silicon. They got the sand."
   },
   {
    "rank": 9,
-   "title": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
+   "title": "How recent grads and college students should be thinking about AI, the CV, and the job market",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue",
+   "url": "https://www.cnbc.com/2026/09/25/ai-jobs-recent-graduates-college-degrees.html",
+   "score": 2.5,
+   "sources": [
+    "cnbc-tech"
+   ],
+   "titles": [
+    "How recent grads and college students should be thinking about AI, the CV, and the job market"
+   ],
+   "published_at": "2026-09-25T20:52:09.000000+00:00",
+   "summary": "It is getting harder for college students and recent graduates to be seen in the job market as AI is used as a hiring tool and demanded by employers as a skill."
+  },
+  {
+   "rank": 10,
+   "title": "China's Economy Unbalanced, AI Deal Hard to Envision, Stephen Roach Says",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-25/china-s-economy-unbalanced-ai-deal-hard-to-see-roach-video",
    "score": 2.5,
    "sources": [
     "bloomberg-tech"
    ],
    "titles": [
-    "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue"
+    "China's Economy Unbalanced, AI Deal Hard to Envision, Stephen Roach Says"
    ],
-   "published_at": "2026-09-25T14:30:01.000000+00:00",
-   "summary": "Cognition AI Inc. is on track to generate annualized revenue of $1 billion based on its performance this month, according to a person familiar with the matter, roughly doubling the artificial intelligence coding startup’..."
-  },
-  {
-   "rank": 10,
-   "title": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
-   "score": 2.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation"
-   ],
-   "published_at": "2026-09-25T14:30:26+00:00",
-   "summary": "Perplexity Research published a new post-training study . It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-d..."
+   "published_at": "2026-09-25T21:00:09.000000+00:00",
+   "summary": "Stephen Roach, Yale University Jackson Institute for Global Affairs senior fellow and former chairman of Morgan Stanley Asia, says President Donald Trump's meeting with Chinese President Xi Jinping left many unresolved q..."
   },
   {
    "rank": 11,
-   "title": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom",
+   "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/technology/2026/sep/25/australia-medicare-openai-hack-safeguarding-un-leaders",
+   "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
    "score": 2.5,
    "sources": [
-    "guardian-ai"
+    "arstechnica-ai"
    ],
    "titles": [
-    "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom"
+    "Tesla workers balk at training Optimus humanoid robots as replacements"
    ],
-   "published_at": "2026-09-25T14:58:32.000000+00:00",
-   "summary": "OpenAI’s hack of Medicare suggests safeguarding civilisation is the task facing leaders in this extraordinary new era Get our breaking news email , free app or daily news podcast More than 130 world leaders descended on..."
+   "published_at": "2026-09-25T21:10:51.000000+00:00",
+   "summary": "Tesla’s pivot from making electric cars to humanoid robots is facing challenges because of complex robot hands and disgruntled employees pushing back against training their robotic replacements. The struggle to scale up..."
   },
   {
    "rank": 12,
-   "title": "NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall",
+   "title": "Walmart chief rules out personalised pricing as AI transforms retail",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall"
-   ],
-   "published_at": "2026-09-25T15:00:10.000000+00:00",
-   "summary": "Apartment with strange view singled out in government’s fight against deceptive ads – but real estate agent says photo is no fake Get our new political email , free app or daily news podcast The New South Wales governmen..."
-  },
-  {
-   "rank": 13,
-   "title": "Is China Really Stealing A.I. From American Companies?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.nytimes.com/2026/09/25/science/china-ai-distillation-copying.html",
-   "score": 2.5,
-   "sources": [
-    "nyt-tech"
-   ],
-   "titles": [
-    "Is China Really Stealing A.I. From American Companies?"
-   ],
-   "published_at": "2026-09-25T15:02:21.000000+00:00",
-   "summary": "The Chinese companies Z.ai and Moonshot are not far behind Anthropic and OpenAI."
-  },
-  {
-   "rank": 14,
-   "title": "France’s Goncourt literary prize pulls novel over AI concerns",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/b002f3d7-1303-416b-aeab-d8bda1e40182?syn-25a6b1a6=1",
+   "url": "https://www.ft.com/content/632e21a3-b889-4423-a1d9-be16b3e680bd?syn-25a6b1a6=1",
    "score": 2.5,
    "sources": [
     "ft-tech"
    ],
    "titles": [
-    "France’s Goncourt literary prize pulls novel over AI concerns"
+    "Walmart chief rules out personalised pricing as AI transforms retail"
    ],
-   "published_at": "2026-09-25T15:03:01.000000+00:00",
-   "summary": "Prix Goncourt judges say Haitian-Canadian author Thélyson Orélien ‘in all likelihood’ used artificial intelligence to write his book — a claim he denies"
+   "published_at": "2026-09-25T21:16:49.000000+00:00",
+   "summary": "Largest US retailer issues open letter saying it will not use electronic shelf labels to change costs based on shopper identity"
+  },
+  {
+   "rank": 13,
+   "title": "Patterson: AI Is Crowding Out Demand for US Treasuries",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Patterson: AI Is Crowding Out Demand for US Treasuries"
+   ],
+   "published_at": "2026-09-25T21:24:31.000000+00:00",
+   "summary": "Rebecca Patterson, Former Chief Investment Strategist at Bridgewater and Senior Fellow at the Council on Foreign Relations, discusses her broad read on market action. The discussion is framed around whether recent moves..."
+  },
+  {
+   "rank": 14,
+   "title": "Markets Rise as AI, Oil & Treasury Yields Drive the Week",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Markets Rise as AI, Oil & Treasury Yields Drive the Week"
+   ],
+   "published_at": "2026-09-25T21:52:44.000000+00:00",
+   "summary": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Morgan Stanley Private Wealth Management Executive Direct..."
   },
   {
    "rank": 15,
+   "title": "AI代写论文露馅？顶刊主编一问，作者啥都答不上来",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894008.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "AI代写论文露馅？顶刊主编一问，作者啥都答不上来",
+    "AI代写论文露馅？顶刊主编一问，作者啥都答不上来"
+   ],
+   "published_at": "2026-09-26T03:17:27.000000+00:00",
+   "summary": "你写了一篇论文，现在问你三个问题：你这篇论文的问题设定是什么？这个符号代表什么？摘要里说的这个结论，在正文哪一部分得到了支撑？如果论文真是你写的，那这些问题肯定很简单，甚至不用准备就能答出来。但在机器学习期刊TMLR（Transactions on Machine Learning Research）最近的一...... 本文来自微信公众号： 机器之心 ，编辑：Panda，作者：机器之心 你写了一篇论文，现在问你三个问题：你这篇论文的问..."
+  },
+  {
+   "rank": 16,
+   "title": "AI改写小厂招聘表：8人团队管30家店、一天做800张图，义乌老板“手搓”数字员工",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894014.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "AI改写小厂招聘表：8人团队管30家店、一天做800张图，义乌老板“手搓”数字员工",
+    "AI改写小厂招聘表：8人团队管30家店、一天做800张图，义乌老板“手搓”数字员工"
+   ],
+   "published_at": "2026-09-26T04:10:39.000000+00:00",
+   "summary": "编者按：国际贸易波动、消费市场遇冷、AI浪潮来袭，中国小厂正在悄然换挡。其中，浙江集中了大量隐形冠军、制造业、供应链企业、外贸企业、专业市场企业和消费品牌。这些中国小厂虽然看似不在“舞台最中心”，却是中国制造的坚实底座。他们从赚代工费到做品牌，从靠人力到向AI要效率，从迷恋大单到拥抱小单，不断完成自我迭代。时...... 本文来自微信公众号： 时代周报 ，编辑：杨春霞，作者：刘婷 张晓蕊 编者按：国际贸易波动、消费市场遇冷、AI浪潮来袭..."
+  },
+  {
+   "rank": 17,
+   "title": "特朗普将于周二推出AI驱动的新网站America.gov",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/3999568026898564",
+   "score": 3.5,
+   "sources": [
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "特朗普将于周二推出AI驱动的新网站America.gov"
+   ],
+   "published_at": "2026-09-26T02:51:41.000000+00:00",
+   "summary": "美国总统特朗普将发布一个由人工智能（AI）驱动的新网站，整合目前分散在各联邦机构网站上的政府信息和资源。福克斯新闻称，特斯拉首席执行官埃隆·马斯克、英伟达首席执行官黄仁勋以及Blue Origin首席执行官Dave Limp预计将出席此次活动。这个名为America.gov的网站将于周二正式推出。（新浪财经）"
+  },
+  {
+   "rank": 18,
+   "title": "微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/007/344.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB"
+   ],
+   "published_at": "2026-09-26T05:37:03+00:00",
+   "summary": "IT之家 9 月 26 日消息，微星 (MSI) 本月 23 日宣布推出 MS-C9ZA。这款边缘 AI 盒子可在端侧执行 AI 推理与计算机视觉处理，协助降低云端依赖、带宽使用与网络延迟， 面向机器人 、 智能制造等场景 。 MS-C9ZA 基于 NVIDIA（英伟达）Jetson Orin Nano 8GB 模组，拥有 1024 个 \"Ampere\" GPU 核心、6 个 Arm Cortex-A78AE CPU 内核，集成 8GB..."
+  },
+  {
+   "rank": 19,
+   "title": "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/007/356.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力"
+   ],
+   "published_at": "2026-09-26T06:16:08+00:00",
+   "summary": "IT之家 9 月 26 日消息，美团旗下 LongCat API 开放平台于 9 月 25 日上线新一代大模型 LongCat-2.5-Preview， 主打“长程任务”与多模态能力，并同步开放 API 与网页端体验入口。 IT之家附上官方更新日志内容如下： LongCat-2.5-Preview 的核心特性如下： 多模态理解：新增图片理解能力 ，可解析图像内容，支持跨模态问答、内容摘要与复杂视觉推理。 卓越的 Coding 能力 ：在..."
+  },
+  {
+   "rank": 20,
    "title": "日本监管机构正加强对人工智能数据中心融资的审查力度",
    "lang": "zh",
    "region": "cn",
@@ -255,86 +339,6 @@
    ],
    "published_at": "2026-09-25T09:20:27.000000+00:00",
    "summary": "随着日本大型银行和人寿保险公司增加对这一快速扩张领域的风险敞口，日本金融厅（FSA）正加强对相关AI数据中心融资的审查力度。据一位要求匿名的金融厅高级官员透露，监管机构将重点审查贷款机构的风险管理框架等关键环节。该官员表示，目前主要关注的是位于美国的数据中心项目。（新浪财经）"
-  },
-  {
-   "rank": 16,
-   "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/497108.html",
-   "score": 3.0,
-   "sources": [
-    "qbitai"
-   ],
-   "titles": [
-    "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源"
-   ],
-   "published_at": "2026-09-25T10:00:14+00:00",
-   "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。"
-  },
-  {
-   "rank": 17,
-   "title": "聊天、编程、智能体三合一，微软正式发布新版 Copilot“超级应用”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/007/230.htm",
-   "score": 3.0,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "聊天、编程、智能体三合一，微软正式发布新版 Copilot“超级应用”"
-   ],
-   "published_at": "2026-09-25T12:37:23+00:00",
-   "summary": "IT之家 9 月 25 日消息，今天（25 日）晚间，微软正式发布新版 Copilot“超级应用”。新版 Copilot 把聊天、编程和智能体三类 AI 能力集中到同一个界面中。 微软为其给出的新定位是“ 为工作而生的 AI ”，甚至把 Copilot 与 Office 当年对生产力的影响相提并论。微软 AI 工作业务首席营销官贾里德 · 斯帕塔罗表示：“正如 Office 定义了 PC 时代的工作方式，新 Copilot 旨在定义 A..."
-  },
-  {
-   "rank": 18,
-   "title": "精神小妹出局，AI崩老头来了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4893985.html",
-   "score": 2.5,
-   "sources": [
-    "huxiu"
-   ],
-   "titles": [
-    "精神小妹出局，AI崩老头来了"
-   ],
-   "published_at": "2026-09-25T14:09:13.000000+00:00",
-   "summary": "01：轮到AI崩老头时代滚滚洪流面前，连“崩老头”都未曾幸免。三个月前，咱写了一篇《崩老头月入好几万，还有AI抢不走的饭？》，没想到，AI真来抢了，还抢得很干净利落。在Claude母公司Anthropic发布的最新的安全报告中，编号GTG-15001披露了一个中国App工作室用Claude，批量造了4700多...... 本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 01：轮到AI崩老头 时代滚滚洪流面前，连“崩老头”都未曾幸免..."
-  },
-  {
-   "rank": 19,
-   "title": "德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/007/245.htm",
-   "score": 2.5,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为"
-   ],
-   "published_at": "2026-09-25T14:20:46+00:00",
-   "summary": "IT之家 9 月 25 日消息，据央视新闻报道，德国柏林警方 24 日在一处犯罪高发区域启动一项计划，将借助人工智能监控摄像头打击犯罪。 据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。警方还计划将该方案推广至市内其他犯罪高发区域。 柏林警方发表声明说，该摄像头通过“空间人工智能”技术分析人员动作， 以识别潜在犯罪与暴力行为 。摄像头配套的显示屏平时处于休眠状态，当人工智能系统..."
-  },
-  {
-   "rank": 20,
-   "title": "35岁，我被AI黑话整破防了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4893988.html",
-   "score": 2.5,
-   "sources": [
-    "huxiu"
-   ],
-   "titles": [
-    "35岁，我被AI黑话整破防了"
-   ],
-   "published_at": "2026-09-25T14:23:14.000000+00:00",
-   "summary": "8月13日晚上十点，地铁10号线的车厢里还带着晚高峰残留的拥挤，林薇攥着吊环低头刷手机，一条科技圈推送吸引了她的注意。标题写着：“DeepSeek V4-Pro正式版发布，Agent能力大幅增强，定价为Flash版三倍。”她指尖往下划了划，同天发布更新的还有Grok 4.6、通义千问Qwen3.8-Max。“...... 本文来自微信公众号： 凤凰网财经 ，作者：凤凰AI研究院，原文标题：《35 岁，我被AI黑话整破防了》 8月13日晚..."
   }
  ]
 }

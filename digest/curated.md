@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-26 09:46 CST
-数据窗口：最近 24 小时，1572 条原始条目 → 1245 个事件；过滤噪音 408 个，排除全部历史已推送的 130 个。
+生成时间：2026-09-26 15:55 CST
+数据窗口：最近 24 小时，1675 条原始条目 → 1272 个事件；过滤噪音 434 个，排除全部历史已推送的 125 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -45,88 +45,90 @@
 - 发布时间：2026-09-26 07:11 CST
 - 链接：https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/
 
-## 7. Alan Kay: Shannon gave us a way of dealing with noisy channels [video]
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：2.53
-- 摘要：The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaar...
-- 发布时间：2026-09-26 02:37 CST
-- 链接：https://www.youtube.com/watch?v=Cjntrqhn8pk
+## 7. Stanford and Nvidia's open CLM-8B caches reusable agent actions and runs up to 9x faster than Jev in tests
+- 地区：国外源 ｜ 语言：en ｜ 来源：VentureBeat（1 个来源） ｜ 热度：2.5
+- 摘要：AI agents often use LLMs to choose between a fixed set of tools or rank candidate outputs. In each case, the model processes a prompt and generates tokens even though the application only needs a bounded decision. Read m...
+- 发布时间：2026-09-26 04:13 CST
+- 链接：https://venturebeat.com/technology/stanford-and-nvidias-open-clm-8b-caches-reusable-agent-actions-and-runs-up-to-9x-faster-than-jev-in-tests
 
-## 8. Trump told Xi Jinping that China helping Iran is ‘unacceptable’, official says – live
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Xi is expected to depart DC after touring the nation’s vault of records, where the Declaration of Independence, the Constitution and the Bill of Rights are held Sign up for US Breaking News emails During talks at the Whi...
-- 发布时间：2026-09-25 21:49 CST
-- 链接：https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live
+## 8. Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand
+- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI（1 个来源） ｜ 热度：2.5
+- 摘要：They wanted the silicon. They got the sand.
+- 发布时间：2026-09-26 04:30 CST
+- 链接：https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/
 
-## 9. AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue
+## 9. How recent grads and college students should be thinking about AI, the CV, and the job market
+- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology（1 个来源） ｜ 热度：2.5
+- 摘要：It is getting harder for college students and recent graduates to be seen in the job market as AI is used as a hiring tool and demanded by employers as a skill.
+- 发布时间：2026-09-26 04:52 CST
+- 链接：https://www.cnbc.com/2026/09/25/ai-jobs-recent-graduates-college-degrees.html
+
+## 10. China's Economy Unbalanced, AI Deal Hard to Envision, Stephen Roach Says
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Cognition AI Inc. is on track to generate annualized revenue of $1 billion based on its performance this month, according to a person familiar with the matter, roughly doubling the artificial intelligence coding startup’...
-- 发布时间：2026-09-25 22:30 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue
+- 摘要：Stephen Roach, Yale University Jackson Institute for Global Affairs senior fellow and former chairman of Morgan Stanley Asia, says President Donald Trump's meeting with Chinese President Xi Jinping left many unresolved q...
+- 发布时间：2026-09-26 05:00 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-25/china-s-economy-unbalanced-ai-deal-hard-to-see-roach-video
 
-## 10. Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：2.5
-- 摘要：Perplexity Research published a new post-training study . It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-d...
-- 发布时间：2026-09-25 22:30 CST
-- 链接：https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/
+## 11. Tesla workers balk at training Optimus humanoid robots as replacements
+- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Tesla’s pivot from making electric cars to humanoid robots is facing challenges because of complex robot hands and disgruntled employees pushing back against training their robotic replacements. The struggle to scale up...
+- 发布时间：2026-09-26 05:10 CST
+- 链接：https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/
 
-## 11. It’s going to take more than an email to a public inbox to protect Australians from potential AI doom
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：OpenAI’s hack of Medicare suggests safeguarding civilisation is the task facing leaders in this extraordinary new era Get our breaking news email , free app or daily news podcast More than 130 world leaders descended on...
-- 发布时间：2026-09-25 22:58 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/25/australia-medicare-openai-hack-safeguarding-un-leaders
-
-## 12. NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Apartment with strange view singled out in government’s fight against deceptive ads – but real estate agent says photo is no fake Get our new political email , free app or daily news podcast The New South Wales governmen...
-- 发布时间：2026-09-25 23:00 CST
-- 链接：https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall
-
-## 13. Is China Really Stealing A.I. From American Companies?
-- 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
-- 摘要：The Chinese companies Z.ai and Moonshot are not far behind Anthropic and OpenAI.
-- 发布时间：2026-09-25 23:02 CST
-- 链接：https://www.nytimes.com/2026/09/25/science/china-ai-distillation-copying.html
-
-## 14. France’s Goncourt literary prize pulls novel over AI concerns
+## 12. Walmart chief rules out personalised pricing as AI transforms retail
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Prix Goncourt judges say Haitian-Canadian author Thélyson Orélien ‘in all likelihood’ used artificial intelligence to write his book — a claim he denies
-- 发布时间：2026-09-25 23:03 CST
-- 链接：https://www.ft.com/content/b002f3d7-1303-416b-aeab-d8bda1e40182?syn-25a6b1a6=1
+- 摘要：Largest US retailer issues open letter saying it will not use electronic shelf labels to change costs based on shopper identity
+- 发布时间：2026-09-26 05:16 CST
+- 链接：https://www.ft.com/content/632e21a3-b889-4423-a1d9-be16b3e680bd?syn-25a6b1a6=1
+
+## 13. Patterson: AI Is Crowding Out Demand for US Treasuries
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Rebecca Patterson, Former Chief Investment Strategist at Bridgewater and Senior Fellow at the Council on Foreign Relations, discusses her broad read on market action. The discussion is framed around whether recent moves...
+- 发布时间：2026-09-26 05:24 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video
+
+## 14. Markets Rise as AI, Oil & Treasury Yields Drive the Week
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Morgan Stanley Private Wealth Management Executive Direct...
+- 发布时间：2026-09-26 05:52 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video
 
 国内：
 
-## 1. 日本监管机构正加强对人工智能数据中心融资的审查力度
+## 1. AI代写论文露馅？顶刊主编一问，作者啥都答不上来
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：你写了一篇论文，现在问你三个问题：你这篇论文的问题设定是什么？这个符号代表什么？摘要里说的这个结论，在正文哪一部分得到了支撑？如果论文真是你写的，那这些问题肯定很简单，甚至不用准备就能答出来。但在机器学习期刊TMLR（Transactions on Machine Learning Research）最近的一...... 本文来自微信公众号： 机器之心 ，编辑：Panda，作者：机器之心 你写了一篇论文，现在问你三个问题：你这篇论文的问...
+- 发布时间：2026-09-26 11:17 CST
+- 链接：https://www.huxiu.com/article/4894008.html
+- 同事件报道：AI代写论文露馅？顶刊主编一问，作者啥都答不上来（36氪 AI 频道）
+
+## 2. AI改写小厂招聘表：8人团队管30家店、一天做800张图，义乌老板“手搓”数字员工
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：编者按：国际贸易波动、消费市场遇冷、AI浪潮来袭，中国小厂正在悄然换挡。其中，浙江集中了大量隐形冠军、制造业、供应链企业、外贸企业、专业市场企业和消费品牌。这些中国小厂虽然看似不在“舞台最中心”，却是中国制造的坚实底座。他们从赚代工费到做品牌，从靠人力到向AI要效率，从迷恋大单到拥抱小单，不断完成自我迭代。时...... 本文来自微信公众号： 时代周报 ，编辑：杨春霞，作者：刘婷 张晓蕊 编者按：国际贸易波动、消费市场遇冷、AI浪潮来袭...
+- 发布时间：2026-09-26 12:10 CST
+- 链接：https://www.huxiu.com/article/4894014.html
+- 同事件报道：AI改写小厂招聘表：8人团队管30家店、一天做800张图，义乌老板“手搓”数字员工（36氪 AI 频道）
+
+## 3. 特朗普将于周二推出AI驱动的新网站America.gov
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.5
+- 摘要：美国总统特朗普将发布一个由人工智能（AI）驱动的新网站，整合目前分散在各联邦机构网站上的政府信息和资源。福克斯新闻称，特斯拉首席执行官埃隆·马斯克、英伟达首席执行官黄仁勋以及Blue Origin首席执行官Dave Limp预计将出席此次活动。这个名为America.gov的网站将于周二正式推出。（新浪财经）
+- 发布时间：2026-09-26 10:51 CST
+- 链接：https://www.36kr.com/newsflashes/3999568026898564
+
+## 4. 微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
+- 摘要：IT之家 9 月 26 日消息，微星 (MSI) 本月 23 日宣布推出 MS-C9ZA。这款边缘 AI 盒子可在端侧执行 AI 推理与计算机视觉处理，协助降低云端依赖、带宽使用与网络延迟， 面向机器人 、 智能制造等场景 。 MS-C9ZA 基于 NVIDIA（英伟达）Jetson Orin Nano 8GB 模组，拥有 1024 个 "Ampere" GPU 核心、6 个 Arm Cortex-A78AE CPU 内核，集成 8GB...
+- 发布时间：2026-09-26 13:37 CST
+- 链接：https://www.ithome.com/1/007/344.htm
+
+## 5. 美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
+- 摘要：IT之家 9 月 26 日消息，美团旗下 LongCat API 开放平台于 9 月 25 日上线新一代大模型 LongCat-2.5-Preview， 主打“长程任务”与多模态能力，并同步开放 API 与网页端体验入口。 IT之家附上官方更新日志内容如下： LongCat-2.5-Preview 的核心特性如下： 多模态理解：新增图片理解能力 ，可解析图像内容，支持跨模态问答、内容摘要与复杂视觉推理。 卓越的 Coding 能力 ：在...
+- 发布时间：2026-09-26 14:16 CST
+- 链接：https://www.ithome.com/1/007/356.htm
+
+## 6. 日本监管机构正加强对人工智能数据中心融资的审查力度
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯（1 个来源） ｜ 热度：3.0
 - 摘要：随着日本大型银行和人寿保险公司增加对这一快速扩张领域的风险敞口，日本金融厅（FSA）正加强对相关AI数据中心融资的审查力度。据一位要求匿名的金融厅高级官员透露，监管机构将重点审查贷款机构的风险管理框架等关键环节。该官员表示，目前主要关注的是位于美国的数据中心项目。（新浪财经）
 - 发布时间：2026-09-25 17:20 CST
 - 链接：https://www.36kr.com/newsflashes/3998605168529284
-
-## 2. 亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位（1 个来源） ｜ 热度：3.0
-- 摘要：大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。
-- 发布时间：2026-09-25 18:00 CST
-- 链接：https://www.qbitai.com/2026/09/497108.html
-
-## 3. 聊天、编程、智能体三合一，微软正式发布新版 Copilot“超级应用”
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
-- 摘要：IT之家 9 月 25 日消息，今天（25 日）晚间，微软正式发布新版 Copilot“超级应用”。新版 Copilot 把聊天、编程和智能体三类 AI 能力集中到同一个界面中。 微软为其给出的新定位是“ 为工作而生的 AI ”，甚至把 Copilot 与 Office 当年对生产力的影响相提并论。微软 AI 工作业务首席营销官贾里德 · 斯帕塔罗表示：“正如 Office 定义了 PC 时代的工作方式，新 Copilot 旨在定义 A...
-- 发布时间：2026-09-25 20:37 CST
-- 链接：https://www.ithome.com/1/007/230.htm
-
-## 4. 精神小妹出局，AI崩老头来了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：01：轮到AI崩老头时代滚滚洪流面前，连“崩老头”都未曾幸免。三个月前，咱写了一篇《崩老头月入好几万，还有AI抢不走的饭？》，没想到，AI真来抢了，还抢得很干净利落。在Claude母公司Anthropic发布的最新的安全报告中，编号GTG-15001披露了一个中国App工作室用Claude，批量造了4700多...... 本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 01：轮到AI崩老头 时代滚滚洪流面前，连“崩老头”都未曾幸免...
-- 发布时间：2026-09-25 22:09 CST
-- 链接：https://www.huxiu.com/article/4893985.html
-
-## 5. 德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
-- 摘要：IT之家 9 月 25 日消息，据央视新闻报道，德国柏林警方 24 日在一处犯罪高发区域启动一项计划，将借助人工智能监控摄像头打击犯罪。 据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。警方还计划将该方案推广至市内其他犯罪高发区域。 柏林警方发表声明说，该摄像头通过“空间人工智能”技术分析人员动作， 以识别潜在犯罪与暴力行为 。摄像头配套的显示屏平时处于休眠状态，当人工智能系统...
-- 发布时间：2026-09-25 22:20 CST
-- 链接：https://www.ithome.com/1/007/245.htm
-
-## 6. 35岁，我被AI黑话整破防了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：8月13日晚上十点，地铁10号线的车厢里还带着晚高峰残留的拥挤，林薇攥着吊环低头刷手机，一条科技圈推送吸引了她的注意。标题写着：“DeepSeek V4-Pro正式版发布，Agent能力大幅增强，定价为Flash版三倍。”她指尖往下划了划，同天发布更新的还有Grok 4.6、通义千问Qwen3.8-Max。“...... 本文来自微信公众号： 凤凰网财经 ，作者：凤凰AI研究院，原文标题：《35 岁，我被AI黑话整破防了》 8月13日晚...
-- 发布时间：2026-09-25 22:23 CST
-- 链接：https://www.huxiu.com/article/4893988.html
