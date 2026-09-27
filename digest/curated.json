@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-27T18:34:44.823144+00:00",
+ "generated_at": "2026-09-27T22:25:47.398748+00:00",
  "stats": {
-  "items": 662,
-  "clusters": 440,
-  "noise": 343,
-  "dup": 12,
+  "items": 677,
+  "clusters": 437,
+  "noise": 337,
+  "dup": 13,
   "history_days": 0,
-  "available_cn": 50,
-  "available_intl": 35,
+  "available_cn": 51,
+  "available_intl": 36,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -63,7 +63,6 @@
    ],
    "titles": [
     "GPT-6 Sol & Luna",
-    "I ran GPT-6 Luna Max on MathArena's harness",
     "Sonnet 5.5, Which Already Supposedly Beats GPT-6 Sol, Has Had a Last-Minute Upgrade With Release Expected Monday"
    ],
    "published_at": "2026-09-22T21:59:44.000000+00:00",
@@ -71,86 +70,24 @@
   },
   {
    "rank": 4,
-   "title": "The Normalization of Inexplicable Failures",
+   "title": "People don't understand LLMs, and it's not in the companies' interest to make them understand",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
-   "score": 3.14,
+   "url": "https://www.reddit.com/r/singularity/comments/1wrrncx/people_dont_understand_llms_and_its_not_in_the/",
+   "score": 4.06,
    "sources": [
+    "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "The Normalization of Inexplicable Failures"
+    "People don't understand LLMs, and it's not in the companies' interest to make them understand",
+    "DSPy – Program, don't prompt, your LLMs"
    ],
-   "published_at": "2026-09-27T15:26:40.000000+00:00",
-   "summary": "In a recent episode of President Curtis , the President struggles with opening a door on two separate occasions. These doors don't work beca..."
+   "published_at": "2026-09-27T18:28:46.000000+00:00",
+   "summary": "And worse, journalism, instead of doing serious work and actually researching, gives these companies total credibility. The greatest risk we currently face with AI is the prospect of these large AI companies going public..."
   },
   {
    "rank": 5,
-   "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
-   "score": 3.0,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU"
-   ],
-   "published_at": "2026-09-26T19:50:57+00:00",
-   "summary": "Supersonic Labs , a small AI lab from Brazil, has released Julia 1 . It is a compact decision model, not a chatbot. You pass it context, a question, and 2 to 20 candidate answers. It picks one and returns a probability f..."
-  },
-  {
-   "rank": 6,
-   "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
-   "score": 3.0,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English"
-   ],
-   "published_at": "2026-09-26T21:56:23+00:00",
-   "summary": "Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art ac..."
-  },
-  {
-   "rank": 7,
-   "title": "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/uk-news/2026/sep/27/people-are-standing-up-and-fighting-back-north-devon-ai-datacentre",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre"
-   ],
-   "published_at": "2026-09-27T07:00:58.000000+00:00",
-   "summary": "Plans for one of Europe’s largest AI campuses in a Unesco-designated reserve have sparked a fierce local backlash The datacentre revolt spreading across the US has reached the rolling hills of north Devon in an uprising..."
-  },
-  {
-   "rank": 8,
-   "title": "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates"
-   ],
-   "published_at": "2026-09-27T08:17:47.000000+00:00",
-   "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would b..."
-  },
-  {
-   "rank": 9,
    "title": "Debt-hungry AI companies face increased risk as bond yields spike",
    "lang": "en",
    "region": "intl",
@@ -166,7 +103,7 @@
    "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more."
   },
   {
-   "rank": 10,
+   "rank": 6,
    "title": "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI",
    "lang": "en",
    "region": "intl",
@@ -182,7 +119,7 @@
    "summary": "‘The push against datacenters speaks to the frustration of people who don’t feel they are making the choices in their lives’ The Stanford ethicist Rob Reich was once invited to a dinner organized by a Silicon Valley mogu..."
   },
   {
-   "rank": 11,
+   "rank": 7,
    "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
    "lang": "en",
    "region": "intl",
@@ -198,7 +135,7 @@
    "summary": "Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation. The article Nvidia drops a free 100M-parameter model that identifies up to eight speaker..."
   },
   {
-   "rank": 12,
+   "rank": 8,
    "title": "As A.I. Accelerates, Governments Are Increasingly Being Left Behind",
    "lang": "en",
    "region": "intl",
@@ -214,7 +151,7 @@
    "summary": "The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance."
   },
   {
-   "rank": 13,
+   "rank": 9,
    "title": "Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards",
    "lang": "en",
    "region": "intl",
@@ -230,7 +167,7 @@
    "summary": "Microsoft Corp. co-founder Bill Gates said government safeguards against potentially catastrophic artificial intelligence risks won’t hamper the US in its competition with China, contrasting with President Donald Trump’s..."
   },
   {
-   "rank": 14,
+   "rank": 10,
    "title": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\"",
    "lang": "en",
    "region": "intl",
@@ -244,6 +181,70 @@
    ],
    "published_at": "2026-09-27T13:03:05.000000+00:00",
    "summary": "According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the..."
+  },
+  {
+   "rank": 11,
+   "title": "AI Safety Concerns Put Congress on the Spot",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "AI Safety Concerns Put Congress on the Spot"
+   ],
+   "published_at": "2026-09-27T14:11:58.000000+00:00",
+   "summary": "Democratic Rep. Don Beyer of Virginia tells Bloomberg This Weekend that recent AI incidents have increased the urgency for federal safeguards, including safety testing and mandatory reporting of serious problems involvin..."
+  },
+  {
+   "rank": 12,
+   "title": "British celebrities beat AI companies lobbying to get free use of their work. They have a warning for Australia",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/australia-news/2026/sep/28/uk-celebrity-warning-for-australia-ai-copyright",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "British celebrities beat AI companies lobbying to get free use of their work. They have a warning for Australia"
+   ],
+   "published_at": "2026-09-27T15:00:07.000000+00:00",
+   "summary": "‘People care about the songs, books and pictures that influence the critical moments in their lives,’ says the architect of the fightback in the UK Get our breaking news email , free app or daily news podcast If you want..."
+  },
+  {
+   "rank": 13,
+   "title": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/2026/sep/28/australia-is-run-on-legacy-systems-that-ai-agents-can-easily-exploit-former-un-cyber-negotiator-warns",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns"
+   ],
+   "published_at": "2026-09-27T15:00:08.000000+00:00",
+   "summary": "Federal cabinet will discuss the OpenAI breach on Monday as the AI giant pauses testing of latest models amid fallout Get our new political email , free app or daily news podcast Ageing computer systems used throughout A..."
+  },
+  {
+   "rank": 14,
+   "title": "AI agents do more of the work in model development, but humans still make the decisions",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "AI agents do more of the work in model development, but humans still make the decisions"
+   ],
+   "published_at": "2026-09-27T15:18:39.000000+00:00",
+   "summary": "A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have..."
   },
   {
    "rank": 15,
@@ -301,6 +302,22 @@
   },
   {
    "rank": 18,
+   "title": "internlm/Intern-S2-397B",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/internlm/Intern-S2-397B",
+   "score": 4.67,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "internlm/Intern-S2-397B"
+   ],
+   "published_at": "2026-09-24T07:00:15.000000+00:00",
+   "summary": "image-text-to-text, transformers, safetensors, qwen3_5_moe, conversational, license:apache-2.0, endpoints_compatible, region:us"
+  },
+  {
+   "rank": 19,
    "title": "Qwen/Qwen3Guard-Stream-8B",
    "lang": "en",
    "region": "cn",
@@ -314,22 +331,6 @@
    ],
    "published_at": "2026-09-27T02:00:07.000000+00:00",
    "summary": "feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, regio..."
-  },
-  {
-   "rank": 19,
-   "title": "Qwen/Qwen3Guard-Stream-0.6B",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B",
-   "score": 4.56,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "Qwen/Qwen3Guard-Stream-0.6B"
-   ],
-   "published_at": "2026-09-27T02:00:16.000000+00:00",
-   "summary": "feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-0.6B, base_model:finetune:Qwen/Qwen3-0.6B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, r..."
   },
   {
    "rank": 20,

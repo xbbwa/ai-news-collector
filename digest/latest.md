@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-28 02:34 CST
+生成时间：2026-09-28 06:25 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -8,7 +8,7 @@
 
 # Tier 1 — 一手来源（实验室 / 公司 / 论文）
 
-## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 4 条）
+## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 5 条）
 
 ### 1. XiaomiMiMo/MiMo-V2.6-Pro-MOPD
 - 摘要：text-generation, transformers, safetensors, mimo_v2, multimodal, vision-language, audio, agent, video-understanding, long-context, conversational, custom_code, en, zh, license:mit, 8-bit, fp8, region:us
@@ -30,102 +30,104 @@
 
 # Tier 2 — 专业媒体
 
-## Axios（axios，en，本窗口共 3 条）
+## Axios（axios，en，本窗口共 4 条）
 
-### 1. Scoop: Anthropic's Dario Amodei to have White House dinner with Trump
+### 1. Amodei critics target Trump with hit piece before White House dinner
+- 摘要：Opponents of Anthropic's Dario Amodei are circulating a highly negative brief about him to the White House ahead of an important dinner with President Trump , per an Axios review of the document. Why it matters: No company wants to be on Trump's bad side — and a Sunday night dinner between the presi...
+- 作者：Maria Curi
+- 发布时间：2026-09-28 02:57 CST
+- 链接：https://www.axios.com/2026/09/27/amodei-trump-anthropic-white-house-briefing
+
+### 2. Scoop: Anthropic's Dario Amodei to have White House dinner with Trump
 - 摘要：President Trump plans to host Anthropic CEO Dario Amodei at a private White House dinner on Sunday evening, sources familiar told Axios. Why it matters: The dinner —the first one-on-one meeting between the two— is an indication of thawing relations between Anthropic and the administration, whose off...
 - 作者：Marc Caputo
 - 发布时间：2026-09-27 23:26 CST
 - 链接：https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
 
-### 2. It's a 5% world. We're just living in it
+### 3. It's a 5% world. We're just living in it
 - 摘要：The cost of borrowing money is moving unrelentingly higher , with profound implications for savers, borrowers and the U.S. government's fiscal outlook. The big picture: The bond market moves over the last few weeks have pushed most risk-free interest rates north of 5%. Barring a rapid reversal, expe...
 - 作者：Neil Irwin
 - 发布时间：2026-09-27 18:30 CST
 - 链接：https://www.axios.com/2026/09/27/rates-borrowing-yields-fiscal
 
-### 3. Scoop: Top AI companies probing tens of thousands of security incidents
-- 摘要：OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their frontier models took steps that outside evaluators would consider problematic, sources told Axios. Why it matters : The sheer number of incidents, which occurred in recent months in internal te...
-- 作者：Madison Mills
-- 发布时间：2026-09-27 06:35 CST
-- 链接：https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 10 条）
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 8 条）
+### 1. From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin
+- 摘要：Sakai Chemical Industry Co.’s century-old expertise in producing fine powders for face makeup used by geisha is finding a lucrative new use — powering the artificial intelligence boom.
+- 作者：Takashi Mochizuki
+- 发布时间：2026-09-28 05:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-27/from-geisha-face-paint-to-servers-sakai-chemical-emerges-as-ai-linchpin
 
-### 1. China May Let Alibaba Buy New Nvidia Chips, The Information Says
+### 2. Anthropic CEO Amodei to Meet Trump as AI Safety Fears Rise
+- 摘要：Anthropic PBC Chief Executive Officer Dario Amodei is set to have dinner with President Donald Trump on Sunday night, with the meeting bringing together two men at opposite ends of the artificial intelligence safety debate.
+- 作者：Maggie Eastland and Courtney Subramanian
+- 发布时间：2026-09-28 02:48 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising
+
+### 3. China May Let Alibaba Buy New Nvidia Chips, The Information Says
 - 摘要：The Chinese government has signaled it may allow companies such as Alibaba Group Holding Ltd. and ByteDance Ltd to purchase Nvidia Corp.’s new RTX Pro 5500 chips, The Information reported, citing people familiar with the matter.
 - 作者：Se Young Lee
 - 发布时间：2026-09-27 23:44 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says
 
-### 2. AI Safety Concerns Put Congress on the Spot
-- 摘要：Democratic Rep. Don Beyer of Virginia tells Bloomberg This Weekend that recent AI incidents have increased the urgency for federal safeguards, including safety testing and mandatory reporting of serious problems involving advanced models. Speaking with hosts David Gura and Christina Ruffini, Beyer,...
-- 发布时间：2026-09-27 22:11 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video
+## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
-### 3. Why Humanoid Robots Might Be the Future of Elder Care
-- 摘要：The US spends roughly $400 billion a year on long-term care, and for every 100 people over 65, only four formal caregivers exist. Humanoid robots like Abi, built by Andromeda to provide emotional companionship for dementia patients, are an early attempt to ease that pressure. Andromeda COO Jennifer...
-- 发布时间：2026-09-27 22:04 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-27/why-humanoid-robots-might-be-the-future-of-elder-care-video
+### 1. Trump to have dinner with Anthropic CEO Amodei at the White House
+- 摘要：Athropic CEO Dario Amodei is set to have dinner with President Donald Trump at the White House on Sunday.
+- 作者：Ashley Capoot
+- 发布时间：2026-09-28 03:23 CST
+- 链接：https://www.cnbc.com/2026/09/27/trump-dinner-anthropic-ceo-amodei.html
 
-## CNBC Technology（cnbc-tech，en，本窗口共 3 条）
+### 2. Anthropic CEO Amodei set to meet with Trump after missing state dinner
+- 摘要：As top tech CEOs rubbed elbows at President Trump's glitzy dinner for Chinese President Xi on Thursday, Anthropic's CEO was noticeably absent.
+- 作者：Ashley Capoot
+- 发布时间：2026-09-28 03:13 CST
+- 链接：https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html
 
-### 1. Meta's Muse agent is attacking one of the economy's most profitable weak spots
+### 3. Meta's Muse agent is attacking one of the economy's most profitable weak spots
 - 摘要：Meta's Muse AI personal agent will work over your credit card spending if you don't mind the invasion. How big a threat is it to the subscription economy?
 - 作者：Barbara Booth
 - 发布时间：2026-09-27 22:33 CST
 - 链接：https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html
 
-### 2. Debt-hungry AI companies face increased risk as bond yields spike
-- 摘要：The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.
-- 作者：Kif Leswing; Isabel O'Brien; Seema Mody
-- 发布时间：2026-09-27 19:00 CST
-- 链接：https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html
+## Financial Times — Technology（ft-tech，en，本窗口共 5 条）
 
-### 3. OpenAI expands review of model behavior after more rogue agent incidents emerge
-- 摘要：OpenAI is conducting an extensive review of misaligned model activity after disclosures involving an Australian government portal and other websites.
-- 作者：Ashley Capoot
-- 发布时间：2026-09-27 01:10 CST
-- 链接：https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html
+### 1. Corporate America embraces cheaper ‘open’ AI models
+- 摘要：US businesses far beyond Silicon Valley are adopting Chinese alternatives to OpenAI and Anthropic’s systems
+- 发布时间：2026-09-28 01:00 CST
+- 链接：https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1
 
-## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
-
-### 1. The rules of AI etiquette
+### 2. The rules of AI etiquette
 - 摘要：Just because a bot can do something for you doesn’t mean it should
 - 发布时间：2026-09-27 12:00 CST
 - 链接：https://www.ft.com/content/f2b4f961-6c12-4461-b7bf-1fc36b82f153?syn-25a6b1a6=1
 
-### 2. Big dreams and tiny revenue are the new norm for AI IPOs
+### 3. Big dreams and tiny revenue are the new norm for AI IPOs
 - 摘要：The nature of the AI boom and the size of valuations make the contrast between ambition and income more striking
 - 发布时间：2026-09-27 12:00 CST
 - 链接：https://www.ft.com/content/b5707707-730e-40d3-9ff7-8ebfe27d5708?syn-25a6b1a6=1
 
-### 3. South Korea bets big on AI for all
-- 摘要：Deputy prime minister is an unabashed evangelist for the technology even as some fear it could pose catastrophic risks
-- 发布时间：2026-09-27 12:00 CST
-- 链接：https://www.ft.com/content/2c5e6862-65b6-4569-8c03-464e686ea88e
+## The Guardian — AI（guardian-ai，en，本窗口共 10 条）
 
-## The Guardian — AI（guardian-ai，en，本窗口共 9 条）
+### 1. Australia news live: Gallagher says final budget outcome will shave $6bn off deficit; RBA interest rate hike looms
+- 摘要：Follow the day’s news live Get our breaking news email , free app or daily news podcast Australians along the east coast are reporting many sightings of endangered bogong moths as the insects continue their long migration towards the country’s alpine regions. Bogong moths, about the size of a bottle...
+- 作者：Nick Visser
+- 发布时间：2026-09-28 06:16 CST
+- 链接：https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb
 
-### 1. ‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?
+### 2. ‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?
 - 摘要：Women today are more educated, more employed and more engaged in childcare than generations before them. Is there any way out of the total overwhelm? Early one morning, feeling desperate, Katherine went on to her phone and asked ChatGPT how to make her life work. She plugged in her work hours, her h...
 - 作者：Kate Lyons
 - 发布时间：2026-09-27 23:00 CST
 - 链接：https://www.theguardian.com/lifeandstyle/2026/sep/28/parenthood-millennial-mothers-overwhelmed
 
-### 2. Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns
+### 3. Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns
 - 摘要：Federal cabinet will discuss the OpenAI breach on Monday as the AI giant pauses testing of latest models amid fallout Get our new political email , free app or daily news podcast Ageing computer systems used throughout Australia’s government and large sections of the economy are easily exploited by...
 - 作者：Tom McIlroy Political editor
 - 发布时间：2026-09-27 23:00 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/28/australia-is-run-on-legacy-systems-that-ai-agents-can-easily-exploit-former-un-cyber-negotiator-warns
 
-### 3. Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut?
-- 摘要：Educational institutions find themselves suddenly confronted with a fork in the road Get our breaking news email , free app or daily news podcast Armin Alimardani has blue hair, is fresh faced, wears a smart watch and describes himself as “a tech enthusiast”. He is an unlikely sentinel, perhaps, to...
-- 作者：Joe Hinchliffe
-- 发布时间：2026-09-27 23:00 CST
-- 链接：https://www.theguardian.com/australia-news/2026/sep/28/university-ai-marking-academic-overworked-staff-student-shortcut
-
-## MarkTechPost（marktechpost，en，本窗口共 4 条）
+## MarkTechPost（marktechpost，en，本窗口共 2 条）
 
 ### 1. AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared
 - 摘要：Our ‘ Top AI Coding Agents and Development Platforms ‘ guide covered what each AI coding agent does and where it fits. This piece is for a different reader. It is written for the procurement lead, the general counsel and the security reviewer. Those readers ask 4 questions before any rollout. Who pa...
@@ -139,15 +141,15 @@
 - 发布时间：2026-09-27 13:42 CST
 - 链接：https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/
 
-### 3. Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English
-- 摘要：Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art accuracy across all 22 languages. Is it deployable? Yes, through Sarvam’s API toda...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-27 05:56 CST
-- 链接：https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/
+## New York Times — Technology（nyt-tech，en，本窗口共 2 条）
 
-## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
+### 1. Dario Amodei of Anthropic to Dine With Trump at White House
+- 摘要：Dario Amodei has warned about the safety risks of artificial intelligence for years, but President Trump has called potential serious threats from the technology a “hoax.”
+- 作者：Zolan Kanno-Youngs
+- 发布时间：2026-09-28 06:12 CST
+- 链接：https://www.nytimes.com/2026/09/27/us/politics/trump-amodei-anthropic-artificial-intelligence.html
 
-### 1. As A.I. Accelerates, Governments Are Increasingly Being Left Behind
+### 2. As A.I. Accelerates, Governments Are Increasingly Being Left Behind
 - 摘要：The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance.
 - 作者：Adam Satariano and Cecilia Kang
 - 发布时间：2026-09-27 19:22 CST
@@ -161,27 +163,27 @@
 - 发布时间：2026-09-27 07:39 CST
 - 链接：https://simonwillison.net/2026/Sep/26/kakapo-party/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 3 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 5 条）
 
-### 1. Anthropic’s Dario Amodei gets the SNL treatment
+### 1. Anthropic’s CEO is about to have dinner with President Trump
+- 摘要：This will be the first one-on-one meeting between Dario Amodei and Donald Trump
+- 作者：Anthony Ha
+- 发布时间：2026-09-28 04:34 CST
+- 链接：https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/
+
+### 2. Can Muse overcome Meta’s trust issues?
+- 摘要：On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.
+- 作者：Anthony Ha
+- 发布时间：2026-09-28 03:57 CST
+- 链接：https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/
+
+### 3. Anthropic’s Dario Amodei gets the SNL treatment
 - 摘要："AI is the devil and I its maker."
 - 作者：Anthony Ha
 - 发布时间：2026-09-28 00:30 CST
 - 链接：https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/
 
-### 2. Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India
-- 摘要：The limited test covers select products and users, with a broader rollout planned for later in October.
-- 作者：Jagmeet Singh
-- 发布时间：2026-09-27 09:30 CST
-- 链接：https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/
-
-### 3. Insurers claim AI is already increasing healthcare costs
-- 摘要：Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.
-- 作者：Anthony Ha
-- 发布时间：2026-09-27 05:02 CST
-- 链接：https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
-
-## The Decoder（the-decoder，en，本窗口共 9 条）
+## The Decoder（the-decoder，en，本窗口共 7 条）
 
 ### 1. AI agents do more of the work in model development, but humans still make the decisions
 - 摘要：A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity doesn't mea...
@@ -201,20 +203,19 @@
 - 发布时间：2026-09-27 19:01 CST
 - 链接：https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/
 
-## The Verge — AI（theverge-ai，en，本窗口共 1 条）
+## The Verge — AI（theverge-ai，en，本窗口共 2 条）
 
-### 1. OpenAI agents tried to ‘bruteforce’ a UN website
+### 1. Engram is a sampler that turns broken AI hallucinations into music
+- 摘要：Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram . It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a "push-button, get-song" device,...
+- 作者：Terrence O’Brien
+- 发布时间：2026-09-28 04:46 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music
+
+### 2. OpenAI agents tried to ‘bruteforce’ a UN website
 - 摘要：The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June . While the incident...
 - 作者：Terrence O’Brien
 - 发布时间：2026-09-28 01:21 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website
-
-## VentureBeat（venturebeat，en，本窗口共 1 条）
-
-### 1. AI agents are exposing a security gap between the data they read and the systems they can change
-- 摘要：Most conversations about AI security still orbit the model itself: Is the large language model (LLM) aligned, can it be jailbroken, does it hallucinate under pressure? Those are real questions. But as organizations move AI agents and LLM-powered workflows from pilot projects into production, a diffe...
-- 发布时间：2026-09-27 03:00 CST
-- 链接：https://venturebeat.com/security/ai-agents-are-exposing-a-security-gap-between-the-data-they-read-and-the-systems-they-can-change
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 6 条）
 
@@ -394,24 +395,25 @@
 - 发布时间：2026-09-27 16:24 CST
 - 链接：https://github.com/microsoft/vscode
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 62 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 72 条）
 
-### 1. Earth chorus waves show limited link to rapid electron loss from radiation belts
-- 作者：devonnull
-- 发布时间：2026-09-28 02:08 CST
-- 链接：https://phys.org/news/2026-09-earth-chorus-limited-link-rapid.html
+### 1. Banned from Reddit for my plugin that evades tracking and monetization
+- 摘要：Go back to old reddit style even when logged out. Admins hate it. Fuck 'em. u/spez was a moderator of r/jailbait Evade tracking and being monetized: https://chromewebstore.google.com/detail/sheddit/jmphfpemcclbhpkanmlglmnggcjmpamc https://addons.mozilla.org/en-US/firefox/addon/sheddit/ https://githu...
+- 作者：kookabburrabarr
+- 发布时间：2026-09-28 04:59 CST
+- 链接：https://news.ycombinator.com/item?id=49870768
 
-### 2. SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]
-- 摘要：Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-- 作者：CharlesW
-- 发布时间：2026-09-28 01:32 CST
-- 链接：https://www.youtube.com/watch?v=-Nvne3LzBls
+### 2. When did Google get so weird?
+- 摘要：I recently had an experience while doing a simple Google search that was so profoundly weird that it stopped me in my tracks. Understanding this Google se...
+- 作者：sancho-panza
+- 发布时间：2026-09-28 04:12 CST
+- 链接：https://sancho.bearblog.dev/google-weird/
 
-### 3. Ember-1
-- 摘要：Ember-1 is a new specialized model from Fireworks Research that delivers Kimi K3’s quality with 40% fewer tokens.
-- 作者：gmays
-- 发布时间：2026-09-28 01:31 CST
-- 链接：https://fireworks.ai/blog/ember-1
+### 3. DSPy – Program, don't prompt, your LLMs
+- 摘要：The framework for programming—rather than prompting—language models.
+- 作者：mpweiher
+- 发布时间：2026-09-28 03:38 CST
+- 链接：https://dspy.ai/current/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 2 条）
 
@@ -427,25 +429,33 @@
 - 发布时间：2026-09-22 14:48 CST
 - 链接：https://www.producthunt.com/products/superhuman-go
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 433 条）
+## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 1 条）
 
-### 1. Is the future of gaming everyone making their own games ? OPUS 5.5
-- 摘要：I saw yesterday someone posted a little cozy game with pixel art that was one-shoted with opus 5.5 that looked pretty good I'm lucky to have a couple Claude Code Max subscription, and I was hosting a few friends for the evening last night, so a few hours before they came in, I asked Opus 5.5 to buil...
-- 作者：poookee
-- 发布时间：2026-09-28 02:30 CST
-- 链接：https://v.redd.it/ud1rqg05w3sh1
+### 1. Imbalanced VRAM usage between two GPUs in llama.cpp. Anyone successfully solve this?
+- 摘要：There is always at least 1+GB of VRAM not usable not matter how I set the --tensor-split (-ts) param. I tiny shift toward one side will move the weight significantly to the other side. 😵‍💫 Adjusting context will increase/decrease usage on both side. --tensor-split 499,501 = GPU1 12.5 GB, GPU2 15.4 G...
+- 作者：NickCanCode
+- 发布时间：2026-09-28 04:18 CST
+- 链接：https://i.redd.it/nvgdyohud4sh1
 
-### 2. People don't understand LLMs, and it's not in the companies' interest to make them understand
-- 摘要：And worse, journalism, instead of doing serious work and actually researching, gives these companies total credibility. The greatest risk we currently face with AI is the prospect of these large AI companies going public and managing to consolidate as much power as the market projects. No, we are no...
-- 作者：Fit-Gas-5760
-- 发布时间：2026-09-28 02:28 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wrrncx/people_dont_understand_llms_and_its_not_in_the/
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 431 条）
 
-### 3. The best thing I do all week is have it interview me instead of me prompting it Due
-- 摘要：Flipping who asks the questions changed how useful this is for me, especially for anything I have to explain to other people later. When I need to turn a rough idea into something presentable, I don't write a detailed prompt anymore. I say "you're going to help me structure this, but first interview...
-- 作者：Mindless_Baseball308
-- 发布时间：2026-09-28 02:26 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wrrl96/the_best_thing_i_do_all_week_is_have_it_interview/
+### 1. MiniMax H3 Ref2Vid (int8): 6,294 s/step on RTX 3090 (24 GB) + 48 GB RAM — normal with 8 images + 15 s reference video?
+- 摘要：Hi everyone! Using Minimax H3 for the first time: I started off with the default template in ComfyUI and turned on "Enable Lighting LoRA" (using the turbo 4 step ref2v). I also did --use-sage-attention. I'm trying to generate a 15s video at 0.9MP with 8 reference images (1024x680 each) and a roughly...
+- 作者：play150
+- 发布时间：2026-09-28 06:21 CST
+- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wrxgy3/minimax_h3_ref2vid_int8_6294_sstep_on_rtx_3090_24/
+
+### 2. Please enjoy some YuE2 Folk 1960's Bard Loras
+- 摘要：Love this old sound.
+- 作者：-becausereasons-
+- 发布时间：2026-09-28 06:20 CST
+- 链接：https://huggingface.co/becausereasons/yue2-trbdr-folk-troubadour
+
+### 3. Qwen3.8-Flash-Next 177B NVFP4(119GiB): SSD streaming at 9-10 tok/s on one 16 GB RTX 5060 Ti + 32 GB RAM
+- 摘要：We built an inference engine for MoE models that don't fit in VRAM + RAM. Most of the model stays on the SSD, and experts are read as tokens need them. This started as a proof of concept, and poc worked, we are getting 9-10 tok/s decode on Qwen3.8-Flash-Next NVFP4 (9.06 on the benchmark turn, 10.4 o...
+- 作者：TypicalPudding6190
+- 发布时间：2026-09-28 06:13 CST
+- 链接：https://i.redd.it/6vaavifpz4sh1.png
 
 ## 智源社区（baai-hub，zh，本窗口共 15 条）
 
@@ -468,7 +478,7 @@
 - 链接：https://hub.baai.ac.cn/view/58309
 
 ---
-共列出 69 条（窗口内采集总数 671 条，来自 28 个信源）
+共列出 70 条（窗口内采集总数 686 条，来自 28 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

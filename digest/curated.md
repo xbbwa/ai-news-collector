@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-28 02:34 CST
-数据窗口：最近 24 小时，662 条原始条目 → 440 个事件；过滤噪音 343 个，排除全部历史已推送的 12 个。
+生成时间：2026-09-28 06:25 CST
+数据窗口：最近 24 小时，677 条原始条目 → 437 个事件；过滤噪音 337 个，排除全部历史已推送的 13 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -27,74 +27,74 @@
 - 摘要：Frontier AI intelligence, now at half the price Discussion | Link
 - 发布时间：2026-09-23 05:59 CST
 - 链接：https://www.producthunt.com/products/openai
-- 同事件报道：I ran GPT-6 Luna Max on MathArena's harness（Reddit AI subreddits (new)）
 - 同事件报道：Sonnet 5.5, Which Already Supposedly Beats GPT-6 Sol, Has Had a Last-Minute Upgrade With Release Expected Monday（Reddit AI subreddits (new)）
 
-## 4. The Normalization of Inexplicable Failures
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.14
-- 摘要：In a recent episode of President Curtis , the President struggles with opening a door on two separate occasions. These doors don't work beca...
-- 发布时间：2026-09-27 23:26 CST
-- 链接：https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html
+## 4. People don't understand LLMs, and it's not in the companies' interest to make them understand
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.06
+- 摘要：And worse, journalism, instead of doing serious work and actually researching, gives these companies total credibility. The greatest risk we currently face with AI is the prospect of these large AI companies going public...
+- 发布时间：2026-09-28 02:28 CST
+- 链接：https://www.reddit.com/r/singularity/comments/1wrrncx/people_dont_understand_llms_and_its_not_in_the/
+- 同事件报道：DSPy – Program, don't prompt, your LLMs（Hacker News (AI stories)）
 
-## 5. Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
-- 摘要：Supersonic Labs , a small AI lab from Brazil, has released Julia 1 . It is a compact decision model, not a chatbot. You pass it context, a question, and 2 to 20 candidate answers. It picks one and returns a probability f...
-- 发布时间：2026-09-27 03:50 CST
-- 链接：https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/
-
-## 6. Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
-- 摘要：Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art ac...
-- 发布时间：2026-09-27 05:56 CST
-- 链接：https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/
-
-## 7. ‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Plans for one of Europe’s largest AI campuses in a Unesco-designated reserve have sparked a fierce local backlash The datacentre revolt spreading across the US has reached the rolling hills of north Devon in an uprising...
-- 发布时间：2026-09-27 15:00 CST
-- 链接：https://www.theguardian.com/uk-news/2026/sep/27/people-are-standing-up-and-fighting-back-north-devon-ai-datacentre
-
-## 8. Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
-- 摘要：Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would b...
-- 发布时间：2026-09-27 16:17 CST
-- 链接：https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/
-
-## 9. Debt-hungry AI companies face increased risk as bond yields spike
+## 5. Debt-hungry AI companies face increased risk as bond yields spike
 - 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology（1 个来源） ｜ 热度：2.5
 - 摘要：The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.
 - 发布时间：2026-09-27 19:00 CST
 - 链接：https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html
 
-## 10. Democracy blindsides Silicon Valley’s power players looking to transform the world with AI
+## 6. Democracy blindsides Silicon Valley’s power players looking to transform the world with AI
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
 - 摘要：‘The push against datacenters speaks to the frustration of people who don’t feel they are making the choices in their lives’ The Stanford ethicist Rob Reich was once invited to a dinner organized by a Silicon Valley mogu...
 - 发布时间：2026-09-27 19:00 CST
 - 链接：https://www.theguardian.com/technology/ng-interactive/2026/sep/27/democracy-ai-datacenters-power
 
-## 11. Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time
+## 7. Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
 - 摘要：Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation. The article Nvidia drops a free 100M-parameter model that identifies up to eight speaker...
 - 发布时间：2026-09-27 19:01 CST
 - 链接：https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/
 
-## 12. As A.I. Accelerates, Governments Are Increasingly Being Left Behind
+## 8. As A.I. Accelerates, Governments Are Increasingly Being Left Behind
 - 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
 - 摘要：The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance.
 - 发布时间：2026-09-27 19:22 CST
 - 链接：https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html
 
-## 13. Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards
+## 9. Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
 - 摘要：Microsoft Corp. co-founder Bill Gates said government safeguards against potentially catastrophic artificial intelligence risks won’t hamper the US in its competition with China, contrasting with President Donald Trump’s...
 - 发布时间：2026-09-27 21:00 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards
 
-## 14. Some Anthropic veterans are reportedly buying remote land in case "AI goes awry"
+## 10. Some Anthropic veterans are reportedly buying remote land in case "AI goes awry"
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
 - 摘要：According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the...
 - 发布时间：2026-09-27 21:03 CST
 - 链接：https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/
+
+## 11. AI Safety Concerns Put Congress on the Spot
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Democratic Rep. Don Beyer of Virginia tells Bloomberg This Weekend that recent AI incidents have increased the urgency for federal safeguards, including safety testing and mandatory reporting of serious problems involvin...
+- 发布时间：2026-09-27 22:11 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video
+
+## 12. British celebrities beat AI companies lobbying to get free use of their work. They have a warning for Australia
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：‘People care about the songs, books and pictures that influence the critical moments in their lives,’ says the architect of the fightback in the UK Get our breaking news email , free app or daily news podcast If you want...
+- 发布时间：2026-09-27 23:00 CST
+- 链接：https://www.theguardian.com/australia-news/2026/sep/28/uk-celebrity-warning-for-australia-ai-copyright
+
+## 13. Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Federal cabinet will discuss the OpenAI breach on Monday as the AI giant pauses testing of latest models amid fallout Get our new political email , free app or daily news podcast Ageing computer systems used throughout A...
+- 发布时间：2026-09-27 23:00 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/28/australia-is-run-on-legacy-systems-that-ai-agents-can-easily-exploit-former-un-cyber-negotiator-warns
+
+## 14. AI agents do more of the work in model development, but humans still make the decisions
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
+- 摘要：A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have...
+- 发布时间：2026-09-27 23:18 CST
+- 链接：https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/
 
 国内：
 
@@ -119,17 +119,17 @@
 - 链接：https://www.huxiu.com/article/4894095.html
 - 同事件报道：OpenAI，经历了最漫长的一天（36氪 AI 频道）
 
-## 4. Qwen/Qwen3Guard-Stream-8B
+## 4. internlm/Intern-S2-397B
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.67
+- 摘要：image-text-to-text, transformers, safetensors, qwen3_5_moe, conversational, license:apache-2.0, endpoints_compatible, region:us
+- 发布时间：2026-09-24 15:00 CST
+- 链接：https://huggingface.co/internlm/Intern-S2-397B
+
+## 5. Qwen/Qwen3Guard-Stream-8B
 - 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.61
 - 摘要：feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, regio...
 - 发布时间：2026-09-27 10:00 CST
 - 链接：https://huggingface.co/Qwen/Qwen3Guard-Stream-8B
-
-## 5. Qwen/Qwen3Guard-Stream-0.6B
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.56
-- 摘要：feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-0.6B, base_model:finetune:Qwen/Qwen3-0.6B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, r...
-- 发布时间：2026-09-27 10:00 CST
-- 链接：https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B
 
 ## 6. 六联智能发布 4 盘位 "Wildcat Lake" AI NAS WS18，0.15L 迷你主机同场展出
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
