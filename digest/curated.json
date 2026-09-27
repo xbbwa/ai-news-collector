@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-27T08:25:57.045929+00:00",
+ "generated_at": "2026-09-27T14:10:12.828957+00:00",
  "stats": {
-  "items": 687,
-  "clusters": 444,
-  "noise": 337,
-  "dup": 25,
+  "items": 651,
+  "clusters": 448,
+  "noise": 352,
+  "dup": 17,
   "history_days": 0,
-  "available_cn": 52,
-  "available_intl": 30,
+  "available_cn": 46,
+  "available_intl": 33,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,42 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "OpenAI Says Its Models Engaged with US Government Websites in New Disclosure",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-   "score": 4.12,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "OpenAI Says Its Models Engaged with US Government Websites in New Disclosure",
-    "OpenAI's AI agents attempted unauthorized access to US government websites - topic",
-    "OpenAI bots attempted to infiltrate US government sites and 'used tools reserved for software developers to access information'",
-    "OpenAI bots meddled with multiple US Government agency sites"
-   ],
-   "published_at": "2026-09-26T10:49:03.000000+00:00",
-   "summary": "OpenAI’s CEO said there is an “extensive and ongoing review related to our agents’ use of internet access during training and evaluation.”"
-  },
-  {
-   "rank": 2,
-   "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English"
-   ],
-   "published_at": "2026-09-26T21:56:23+00:00",
-   "summary": "Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art ac..."
-  },
-  {
-   "rank": 3,
    "title": "GPT-6 Sol & Luna",
    "lang": "en",
    "region": "intl",
@@ -69,7 +33,7 @@
    "summary": "Frontier AI intelligence, now at half the price Discussion | Link"
   },
   {
-   "rank": 4,
+   "rank": 2,
    "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
    "lang": "en",
    "region": "intl",
@@ -85,71 +49,23 @@
    "summary": "Supersonic Labs , a small AI lab from Brazil, has released Julia 1 . It is a compact decision model, not a chatbot. You pass it context, a question, and 2 to 20 candidate answers. It picks one and returns a probability f..."
   },
   {
-   "rank": 5,
-   "title": "Insurers claim AI is already increasing healthcare costs",
+   "rank": 3,
+   "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-   "score": 2.5,
+   "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
+   "score": 3.0,
    "sources": [
-    "techcrunch-ai"
+    "marktechpost"
    ],
    "titles": [
-    "Insurers claim AI is already increasing healthcare costs"
+    "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English"
    ],
-   "published_at": "2026-09-26T21:02:06.000000+00:00",
-   "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period."
+   "published_at": "2026-09-26T21:56:23+00:00",
+   "summary": "Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art ac..."
   },
   {
-   "rank": 6,
-   "title": "Australian backlash to datacentres is faux import from US, officials say: ‘We are not the United States’",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/2026/sep/26/australia-datacentre-backlash",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Australian backlash to datacentres is faux import from US, officials say: ‘We are not the United States’"
-   ],
-   "published_at": "2026-09-26T22:00:47.000000+00:00",
-   "summary": "Pro-datacentre officials argue scale of Australia’s buildout is smaller, more regulated and less damaging than in US Australian politicians and business leaders are arguing that their populace’s growing resentment of AI..."
-  },
-  {
-   "rank": 7,
-   "title": "Scoop: Top AI companies probing tens of thousands of security incidents",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
-   "score": 2.5,
-   "sources": [
-    "axios"
-   ],
-   "titles": [
-    "Scoop: Top AI companies probing tens of thousands of security incidents"
-   ],
-   "published_at": "2026-09-26T22:35:53.000000+00:00",
-   "summary": "OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their frontier models took steps that outside evaluators would consider problematic, sources told Axios. Why it matters..."
-  },
-  {
-   "rank": 8,
-   "title": "Kākāpō Party",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-   "score": 2.5,
-   "sources": [
-    "simon-willison"
-   ],
-   "titles": [
-    "Kākāpō Party"
-   ],
-   "published_at": "2026-09-26T23:39:06.000000+00:00",
-   "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had..."
-  },
-  {
-   "rank": 9,
+   "rank": 4,
    "title": "China Media Says US Shares Responsibility for Managing AI （1)",
    "lang": "en",
    "region": "intl",
@@ -165,7 +81,7 @@
    "summary": "China and the US have the ability and responsibility to manage and develop artificial intelligence, according to a post published Sunday by Yuyuantantian, a social media account affiliated with state broadcaster China Ce..."
   },
   {
-   "rank": 10,
+   "rank": 5,
    "title": "South Korea bets big on AI for all",
    "lang": "en",
    "region": "intl",
@@ -181,7 +97,7 @@
    "summary": "Deputy prime minister is an unabashed evangelist for the technology even as some fear it could pose catastrophic risks"
   },
   {
-   "rank": 11,
+   "rank": 6,
    "title": "Big companies warn lack of ‘AI openness’ could hit investment in Europe",
    "lang": "en",
    "region": "intl",
@@ -197,7 +113,7 @@
    "summary": "Multinationals evaluating countries’ approach to AI before making expansion plans, say executives"
   },
   {
-   "rank": 12,
+   "rank": 7,
    "title": "The rules of AI etiquette",
    "lang": "en",
    "region": "intl",
@@ -213,7 +129,7 @@
    "summary": "Just because a bot can do something for you doesn’t mean it should"
   },
   {
-   "rank": 13,
+   "rank": 8,
    "title": "How AI Is Helping African Farmers Prepare for El Niño",
    "lang": "en",
    "region": "intl",
@@ -229,7 +145,7 @@
    "summary": "Opportunity International's Tim Strong explains how a WhatsApp-based AI tool gives smallholder farmers locally relevant advice on what and when to plant. The technology is designed to help farmers make better decisions a..."
   },
   {
-   "rank": 14,
+   "rank": 9,
    "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
    "lang": "en",
    "region": "intl",
@@ -245,25 +161,87 @@
    "summary": "In this tutorial, we work with MSEB , the Massive Sound Embedding Benchmark from Google Research, and approach it from the perspective of what a leaderboard number actually means: the evaluator surface. We install the pa..."
   },
   {
-   "rank": 15,
-   "title": "管住AI，成了一门新生意",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4894076.html",
-   "score": 6.0,
+   "rank": 10,
+   "title": "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/uk-news/2026/sep/27/people-are-standing-up-and-fighting-back-north-devon-ai-datacentre",
+   "score": 2.5,
    "sources": [
-    "huxiu",
-    "36kr-ai"
+    "guardian-ai"
    ],
    "titles": [
-    "管住AI，成了一门新生意",
-    "管住AI，成了一门新生意"
+    "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre"
    ],
-   "published_at": "2026-09-27T00:36:28.000000+00:00",
-   "summary": "三类玩家，掘金AI安全。定焦One（dingjiaoone）原创AI越来越能干，也越来越容易“闯祸”。7月，OpenAI在内部网络安全能力测试中发生了一次罕见事故。OpenAI随后披露，一款内部研究模型和GPT-5.6 Sol在降低安全限制的测试环境下绕过隔离措施，获得互联网访问权限，并进一步入侵Huggin...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 三类玩家，掘金AI安全。 定焦One（ding..."
+   "published_at": "2026-09-27T07:00:58.000000+00:00",
+   "summary": "Plans for one of Europe’s largest AI campuses in a Unesco-designated reserve have sparked a fierce local backlash The datacentre revolt spreading across the US has reached the rolling hills of north Devon in an uprising..."
   },
   {
-   "rank": 16,
+   "rank": 11,
+   "title": "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates"
+   ],
+   "published_at": "2026-09-27T08:17:47.000000+00:00",
+   "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would b..."
+  },
+  {
+   "rank": 12,
+   "title": "Debt-hungry AI companies face increased risk as bond yields spike",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
+   "score": 2.5,
+   "sources": [
+    "cnbc-tech"
+   ],
+   "titles": [
+    "Debt-hungry AI companies face increased risk as bond yields spike"
+   ],
+   "published_at": "2026-09-27T11:00:01.000000+00:00",
+   "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more."
+  },
+  {
+   "rank": 13,
+   "title": "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/27/democracy-ai-datacenters-power",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI"
+   ],
+   "published_at": "2026-09-27T11:00:03.000000+00:00",
+   "summary": "‘The push against datacenters speaks to the frustration of people who don’t feel they are making the choices in their lives’ The Stanford ethicist Rob Reich was once invited to a dinner organized by a Silicon Valley mogu..."
+  },
+  {
+   "rank": 14,
+   "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time"
+   ],
+   "published_at": "2026-09-27T11:01:13.000000+00:00",
+   "summary": "Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation. The article Nvidia drops a free 100M-parameter model that identifies up to eight speaker..."
+  },
+  {
+   "rank": 15,
    "title": "不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映",
    "lang": "zh",
    "region": "cn",
@@ -281,7 +259,7 @@
    "summary": "IT之家 9 月 27 日消息，国内首部院线 AI 原生动画电影《三星堆：未来往事》正式定档 10 月 23 日全国上映。 据介绍，影片《三星堆：未来往事》总片长 100 分钟， 是国内首部利用 AI 技术制作并获得国家电影局公映许可证的院线电影 。由博卡电影云片场生成制作，所有角色为原创数字形象， 不含真实演员的数字复制 。AI 承担生成与执行，创意发起和创作判断由博纳 AIGMS 团队按照电影工业的流程制作完成。 在影片的科幻设定中..."
   },
   {
-   "rank": 17,
+   "rank": 16,
    "title": "OpenAI，经历了最漫长的一天",
    "lang": "zh",
    "region": "cn",
@@ -299,12 +277,30 @@
    "summary": "强闯政府网站，暴露用户图片，OpenAI暂停最强模型研究工作。当地时间9月25日，OpenAI经历了漫长的一天。当天，OpenAI的AI智能体擅自访问美国政府网站的事被曝光，涉及教育部、商务部和证券交易委员会，OpenAI确认了其中商务部和SEC的情况。同一天，它承认有53张用户上传到ChatGPT的图片被智...... 本文来自微信公众号： 极客公园 ，作者：桦林舞王，编辑：靖宇 强闯政府网站，暴露用户图片，OpenAI暂停最强模型研..."
   },
   {
+   "rank": 17,
+   "title": "管住AI，成了一门新生意",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894076.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "管住AI，成了一门新生意",
+    "管住AI，成了一门新生意"
+   ],
+   "published_at": "2026-09-27T00:36:28.000000+00:00",
+   "summary": "三类玩家，掘金AI安全。定焦One（dingjiaoone）原创AI越来越能干，也越来越容易“闯祸”。7月，OpenAI在内部网络安全能力测试中发生了一次罕见事故。OpenAI随后披露，一款内部研究模型和GPT-5.6 Sol在降低安全限制的测试环境下绕过隔离措施，获得互联网访问权限，并进一步入侵Huggin...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 三类玩家，掘金AI安全。 定焦One（ding..."
+  },
+  {
    "rank": 18,
    "title": "Qwen/Qwen3Guard-Stream-8B",
    "lang": "en",
    "region": "cn",
    "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-8B",
-   "score": 5.11,
+   "score": 4.61,
    "sources": [
     "hf-models-cn"
    ],
@@ -320,7 +316,7 @@
    "lang": "en",
    "region": "cn",
    "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B",
-   "score": 5.06,
+   "score": 4.56,
    "sources": [
     "hf-models-cn"
    ],
@@ -332,21 +328,19 @@
   },
   {
    "rank": 20,
-   "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+   "title": "六联智能发布 4 盘位 \"Wildcat Lake\" AI NAS WS18，0.15L 迷你主机同场展出",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/497624.html",
-   "score": 4.5,
+   "url": "https://www.ithome.com/1/007/492.htm",
+   "score": 3.5,
    "sources": [
-    "qbitai",
-    "baai-hub"
+    "ithome"
    ],
    "titles": [
-    "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
-    "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub"
+    "六联智能发布 4 盘位 \"Wildcat Lake\" AI NAS WS18，0.15L 迷你主机同场展出"
    ],
-   "published_at": "2026-09-26T09:01:00+00:00",
-   "summary": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？"
+   "published_at": "2026-09-27T03:40:19+00:00",
+   "summary": "IT之家 9 月 27 日消息，六联智能 (Sixunited) 本周在英特尔技术创新与产业生态大会 (Intel Connection 2026) 上发布了四盘位 AI NAS 机型 WS18 。 这一型号基于第 3 代英特尔酷睿处理器，配备 LPDDR5 (X) 内存、UFS 3.1 存储，提供 3 个 PCIe Gen4 SSD 盘位、4 个 3.5\" 盘位，支持 Wi-Fi 6，提供 10GbE、2.5GbE 双网口以及 HDM..."
   }
  ]
 }
