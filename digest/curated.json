@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-27T14:10:12.828957+00:00",
+ "generated_at": "2026-09-27T18:34:44.823144+00:00",
  "stats": {
-  "items": 651,
-  "clusters": 448,
-  "noise": 352,
-  "dup": 17,
+  "items": 662,
+  "clusters": 440,
+  "noise": 343,
+  "dup": 12,
   "history_days": 0,
-  "available_cn": 46,
-  "available_intl": 33,
+  "available_cn": 50,
+  "available_intl": 35,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,24 +16,77 @@
  "items": [
   {
    "rank": 1,
+   "title": "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
+   "score": 6.0,
+   "sources": [
+    "axios",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
+    "Anthropic’s Dario Amodei gets the SNL treatment"
+   ],
+   "published_at": "2026-09-27T15:26:12.000000+00:00",
+   "summary": "President Trump plans to host Anthropic CEO Dario Amodei at a private White House dinner on Sunday evening, sources familiar told Axios. Why it matters: The dinner —the first one-on-one meeting between the two— is an ind..."
+  },
+  {
+   "rank": 2,
+   "title": "Scoop: Top AI companies probing tens of thousands of security incidents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
+   "score": 4.5,
+   "sources": [
+    "axios",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Scoop: Top AI companies probing tens of thousands of security incidents",
+    "Top AI companies probing tens of thousands of security incidents"
+   ],
+   "published_at": "2026-09-26T22:35:53.000000+00:00",
+   "summary": "OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their frontier models took steps that outside evaluators would consider problematic, sources told Axios. Why it matters..."
+  },
+  {
+   "rank": 3,
    "title": "GPT-6 Sol & Luna",
    "lang": "en",
    "region": "intl",
    "url": "https://www.producthunt.com/products/openai",
-   "score": 3.5,
+   "score": 4.5,
    "sources": [
     "producthunt-ai",
     "reddit-ai-new"
    ],
    "titles": [
     "GPT-6 Sol & Luna",
-    "I ran GPT-6 Luna Max on MathArena's harness"
+    "I ran GPT-6 Luna Max on MathArena's harness",
+    "Sonnet 5.5, Which Already Supposedly Beats GPT-6 Sol, Has Had a Last-Minute Upgrade With Release Expected Monday"
    ],
    "published_at": "2026-09-22T21:59:44.000000+00:00",
    "summary": "Frontier AI intelligence, now at half the price Discussion | Link"
   },
   {
-   "rank": 2,
+   "rank": 4,
+   "title": "The Normalization of Inexplicable Failures",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+   "score": 3.14,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "The Normalization of Inexplicable Failures"
+   ],
+   "published_at": "2026-09-27T15:26:40.000000+00:00",
+   "summary": "In a recent episode of President Curtis , the President struggles with opening a door on two separate occasions. These doors don't work beca..."
+  },
+  {
+   "rank": 5,
    "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
    "lang": "en",
    "region": "intl",
@@ -49,7 +102,7 @@
    "summary": "Supersonic Labs , a small AI lab from Brazil, has released Julia 1 . It is a compact decision model, not a chatbot. You pass it context, a question, and 2 to 20 candidate answers. It picks one and returns a probability f..."
   },
   {
-   "rank": 3,
+   "rank": 6,
    "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
    "lang": "en",
    "region": "intl",
@@ -65,103 +118,7 @@
    "summary": "Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art ac..."
   },
   {
-   "rank": 4,
-   "title": "China Media Says US Shares Responsibility for Managing AI （1)",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "China Media Says US Shares Responsibility for Managing AI （1)"
-   ],
-   "published_at": "2026-09-27T03:59:29.000000+00:00",
-   "summary": "China and the US have the ability and responsibility to manage and develop artificial intelligence, according to a post published Sunday by Yuyuantantian, a social media account affiliated with state broadcaster China Ce..."
-  },
-  {
-   "rank": 5,
-   "title": "South Korea bets big on AI for all",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/2c5e6862-65b6-4569-8c03-464e686ea88e",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "South Korea bets big on AI for all"
-   ],
-   "published_at": "2026-09-27T04:00:11.000000+00:00",
-   "summary": "Deputy prime minister is an unabashed evangelist for the technology even as some fear it could pose catastrophic risks"
-  },
-  {
-   "rank": 6,
-   "title": "Big companies warn lack of ‘AI openness’ could hit investment in Europe",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/aeabd0d5-be0e-4270-987e-0b119b24b355?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "Big companies warn lack of ‘AI openness’ could hit investment in Europe"
-   ],
-   "published_at": "2026-09-27T04:00:11.000000+00:00",
-   "summary": "Multinationals evaluating countries’ approach to AI before making expansion plans, say executives"
-  },
-  {
    "rank": 7,
-   "title": "The rules of AI etiquette",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/f2b4f961-6c12-4461-b7bf-1fc36b82f153?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "The rules of AI etiquette"
-   ],
-   "published_at": "2026-09-27T04:00:20.000000+00:00",
-   "summary": "Just because a bot can do something for you doesn’t mean it should"
-  },
-  {
-   "rank": 8,
-   "title": "How AI Is Helping African Farmers Prepare for El Niño",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-27/how-ai-is-helping-african-farmers-prepare-for-el-nino-video",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "How AI Is Helping African Farmers Prepare for El Niño"
-   ],
-   "published_at": "2026-09-27T05:00:25.000000+00:00",
-   "summary": "Opportunity International's Tim Strong explains how a WhatsApp-based AI tool gives smallholder farmers locally relevant advice on what and when to plant. The technology is designed to help farmers make better decisions a..."
-  },
-  {
-   "rank": 9,
-   "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
-   "score": 2.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation"
-   ],
-   "published_at": "2026-09-27T05:42:35+00:00",
-   "summary": "In this tutorial, we work with MSEB , the Massive Sound Embedding Benchmark from Google Research, and approach it from the perspective of what a leaderboard number actually means: the evaluator surface. We install the pa..."
-  },
-  {
-   "rank": 10,
    "title": "‘People are standing up and fighting back’: the north Devon revolt against a vast AI datacentre",
    "lang": "en",
    "region": "intl",
@@ -177,7 +134,7 @@
    "summary": "Plans for one of Europe’s largest AI campuses in a Unesco-designated reserve have sparked a fierce local backlash The datacentre revolt spreading across the US has reached the rolling hills of north Devon in an uprising..."
   },
   {
-   "rank": 11,
+   "rank": 8,
    "title": "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates",
    "lang": "en",
    "region": "intl",
@@ -193,7 +150,7 @@
    "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would b..."
   },
   {
-   "rank": 12,
+   "rank": 9,
    "title": "Debt-hungry AI companies face increased risk as bond yields spike",
    "lang": "en",
    "region": "intl",
@@ -209,7 +166,7 @@
    "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more."
   },
   {
-   "rank": 13,
+   "rank": 10,
    "title": "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI",
    "lang": "en",
    "region": "intl",
@@ -225,7 +182,7 @@
    "summary": "‘The push against datacenters speaks to the frustration of people who don’t feel they are making the choices in their lives’ The Stanford ethicist Rob Reich was once invited to a dinner organized by a Silicon Valley mogu..."
   },
   {
-   "rank": 14,
+   "rank": 11,
    "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
    "lang": "en",
    "region": "intl",
@@ -241,43 +198,55 @@
    "summary": "Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation. The article Nvidia drops a free 100M-parameter model that identifies up to eight speaker..."
   },
   {
+   "rank": 12,
+   "title": "As A.I. Accelerates, Governments Are Increasingly Being Left Behind",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html",
+   "score": 2.5,
+   "sources": [
+    "nyt-tech"
+   ],
+   "titles": [
+    "As A.I. Accelerates, Governments Are Increasingly Being Left Behind"
+   ],
+   "published_at": "2026-09-27T11:22:48.000000+00:00",
+   "summary": "The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance."
+  },
+  {
+   "rank": 13,
+   "title": "Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards"
+   ],
+   "published_at": "2026-09-27T13:00:00.000000+00:00",
+   "summary": "Microsoft Corp. co-founder Bill Gates said government safeguards against potentially catastrophic artificial intelligence risks won’t hamper the US in its competition with China, contrasting with President Donald Trump’s..."
+  },
+  {
+   "rank": 14,
+   "title": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\"",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\""
+   ],
+   "published_at": "2026-09-27T13:03:05.000000+00:00",
+   "summary": "According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the..."
+  },
+  {
    "rank": 15,
-   "title": "不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/007/482.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映",
-    "首部AI超写实院线电影《三星堆：未来往事》定档10月23日"
-   ],
-   "published_at": "2026-09-27T02:47:18+00:00",
-   "summary": "IT之家 9 月 27 日消息，国内首部院线 AI 原生动画电影《三星堆：未来往事》正式定档 10 月 23 日全国上映。 据介绍，影片《三星堆：未来往事》总片长 100 分钟， 是国内首部利用 AI 技术制作并获得国家电影局公映许可证的院线电影 。由博卡电影云片场生成制作，所有角色为原创数字形象， 不含真实演员的数字复制 。AI 承担生成与执行，创意发起和创作判断由博纳 AIGMS 团队按照电影工业的流程制作完成。 在影片的科幻设定中..."
-  },
-  {
-   "rank": 16,
-   "title": "OpenAI，经历了最漫长的一天",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4894095.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "OpenAI，经历了最漫长的一天",
-    "OpenAI，经历了最漫长的一天"
-   ],
-   "published_at": "2026-09-27T04:01:38.000000+00:00",
-   "summary": "强闯政府网站，暴露用户图片，OpenAI暂停最强模型研究工作。当地时间9月25日，OpenAI经历了漫长的一天。当天，OpenAI的AI智能体擅自访问美国政府网站的事被曝光，涉及教育部、商务部和证券交易委员会，OpenAI确认了其中商务部和SEC的情况。同一天，它承认有53张用户上传到ChatGPT的图片被智...... 本文来自微信公众号： 极客公园 ，作者：桦林舞王，编辑：靖宇 强闯政府网站，暴露用户图片，OpenAI暂停最强模型研..."
-  },
-  {
-   "rank": 17,
    "title": "管住AI，成了一门新生意",
    "lang": "zh",
    "region": "cn",
@@ -293,6 +262,42 @@
    ],
    "published_at": "2026-09-27T00:36:28.000000+00:00",
    "summary": "三类玩家，掘金AI安全。定焦One（dingjiaoone）原创AI越来越能干，也越来越容易“闯祸”。7月，OpenAI在内部网络安全能力测试中发生了一次罕见事故。OpenAI随后披露，一款内部研究模型和GPT-5.6 Sol在降低安全限制的测试环境下绕过隔离措施，获得互联网访问权限，并进一步入侵Huggin...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 三类玩家，掘金AI安全。 定焦One（ding..."
+  },
+  {
+   "rank": 16,
+   "title": "不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/007/482.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映",
+    "首部AI超写实院线电影《三星堆：未来往事》定档10月23日"
+   ],
+   "published_at": "2026-09-27T02:47:18+00:00",
+   "summary": "IT之家 9 月 27 日消息，国内首部院线 AI 原生动画电影《三星堆：未来往事》正式定档 10 月 23 日全国上映。 据介绍，影片《三星堆：未来往事》总片长 100 分钟， 是国内首部利用 AI 技术制作并获得国家电影局公映许可证的院线电影 。由博卡电影云片场生成制作，所有角色为原创数字形象， 不含真实演员的数字复制 。AI 承担生成与执行，创意发起和创作判断由博纳 AIGMS 团队按照电影工业的流程制作完成。 在影片的科幻设定中..."
+  },
+  {
+   "rank": 17,
+   "title": "OpenAI，经历了最漫长的一天",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894095.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "OpenAI，经历了最漫长的一天",
+    "OpenAI，经历了最漫长的一天"
+   ],
+   "published_at": "2026-09-27T04:01:38.000000+00:00",
+   "summary": "强闯政府网站，暴露用户图片，OpenAI暂停最强模型研究工作。当地时间9月25日，OpenAI经历了漫长的一天。当天，OpenAI的AI智能体擅自访问美国政府网站的事被曝光，涉及教育部、商务部和证券交易委员会，OpenAI确认了其中商务部和SEC的情况。同一天，它承认有53张用户上传到ChatGPT的图片被智...... 本文来自微信公众号： 极客公园 ，作者：桦林舞王，编辑：靖宇 强闯政府网站，暴露用户图片，OpenAI暂停最强模型研..."
   },
   {
    "rank": 18,
@@ -332,7 +337,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/007/492.htm",
-   "score": 3.5,
+   "score": 3.0,
    "sources": [
     "ithome"
    ],
