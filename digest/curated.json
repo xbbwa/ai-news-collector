@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-26T23:02:23.206307+00:00",
+ "generated_at": "2026-09-27T01:37:38.205813+00:00",
  "stats": {
-  "items": 722,
-  "clusters": 480,
-  "noise": 375,
-  "dup": 18,
+  "items": 780,
+  "clusters": 518,
+  "noise": 410,
+  "dup": 35,
   "history_days": 0,
-  "available_cn": 51,
-  "available_intl": 36,
+  "available_cn": 49,
+  "available_intl": 24,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,60 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-   "score": 4.5,
-   "sources": [
-    "guardian-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Oxford lets OpenAI train its AI models on Bodleian Library",
-    "Oxford quietly let OpenAI train its AI on the Bodleian Library"
-   ],
-   "published_at": "2026-09-26T11:00:36.000000+00:00",
-   "summary": "University staff voice concerns over reputational risk of partnering with company behind ChatGPT The University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleia..."
-  },
-  {
-   "rank": 2,
-   "title": "Tell HN: Codex Is Down [fixed]",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://news.ycombinator.com/item?id=49851032",
-   "score": 4.14,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Tell HN: Codex Is Down [fixed]",
-    "Codex down?"
-   ],
-   "published_at": "2026-09-25T22:51:44.000000+00:00",
-   "summary": "Shows an Incorrect API Key error...which is weird. Nothing on the status page. (EDIT: Added to incident page: https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA... ) Per Twitter/X this appears to be widespread..."
-  },
-  {
-   "rank": 3,
-   "title": "What happens if the AI and LLM bubble pops?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/singularity/comments/1wqdwpc/what_happens_if_the_ai_and_llm_bubble_pops/",
-   "score": 3.55,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "What happens if the AI and LLM bubble pops?",
-    "What Happens if the A.I. Bubble Bursts"
-   ],
-   "published_at": "2026-09-26T01:37:20.000000+00:00",
-   "summary": "Suppose Anthropic and OpenAI go bankrupt. What would happen to AI development? Would it stop? What would happen to open source model weights?"
-  },
-  {
-   "rank": 4,
    "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
    "lang": "en",
    "region": "intl",
@@ -85,7 +31,7 @@
    "summary": "Supersonic Labs , a small AI lab from Brazil, has released Julia 1 . It is a compact decision model, not a chatbot. You pass it context, a question, and 2 to 20 candidate answers. It picks one and returns a probability f..."
   },
   {
-   "rank": 5,
+   "rank": 2,
    "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
    "lang": "en",
    "region": "intl",
@@ -101,103 +47,7 @@
    "summary": "Sarvam AI has released Saaras V4 , the newest generation of its speech recognition model. It covers all 22 scheduled Indian languages plus English, now including global English accents. Sarvam reports state-of-the-art ac..."
   },
   {
-   "rank": 6,
-   "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
-   "score": 3.0,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding"
-   ],
-   "published_at": "2026-09-25T23:11:59+00:00",
-   "summary": "Liquid AI has announced LFM2.5-VL-3B-DSpark , an experimental speculative-decoding draft model for its LFM2.5-VL-3B vision-language model. The drafter adds about 280M parameters and speeds up decoding without changing th..."
-  },
-  {
-   "rank": 7,
-   "title": "U.S. and China agree to \"super intelligence\" dialogue amid AI tensions",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.axios.com/2026/09/26/us-china-ai-si-deal",
-   "score": 2.5,
-   "sources": [
-    "axios"
-   ],
-   "titles": [
-    "U.S. and China agree to \"super intelligence\" dialogue amid AI tensions"
-   ],
-   "published_at": "2026-09-26T11:16:42.000000+00:00",
-   "summary": "The U.S. and China have agreed to set up a dialogue on artificial intelligence , with a communications channel to help defuse serious incidents, the White House said overnight. Why it matters: President Trump has said th..."
-  },
-  {
-   "rank": 8,
-   "title": "What Is an AI Kill Switch? Why Shutting Down AI Isn’t So Simple",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-26/what-is-an-ai-kill-switch-why-shutting-down-ai-isn-t-so-simple",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "What Is an AI Kill Switch? Why Shutting Down AI Isn’t So Simple"
-   ],
-   "published_at": "2026-09-26T12:00:00.000000+00:00",
-   "summary": "If artificial intelligence becomes too powerful for its creators to control, is it possible to just flip a switch and turn it off?"
-  },
-  {
-   "rank": 9,
-   "title": "China wants in on U.S. AI data center boom. Here's why",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/26/china-us-ai-data-centers.html",
-   "score": 2.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "China wants in on U.S. AI data center boom. Here's why"
-   ],
-   "published_at": "2026-09-26T12:00:01.000000+00:00",
-   "summary": "Chinese data center manufacturers see U.S. AI infrastructure demand as an opportunity, but roadblocks remain"
-  },
-  {
-   "rank": 10,
-   "title": "AI Gives Tech Firms New National Security Power",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-09-26/ai-gives-tech-firms-new-national-security-power-video",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "AI Gives Tech Firms New National Security Power"
-   ],
-   "published_at": "2026-09-26T13:19:22.000000+00:00",
-   "summary": "Author Sharon Weinberger tells Bloomberg This Weekend that Silicon Valley’s relationship with the defense industry has transformed as technology companies and investors increasingly embrace national security work. Speaki..."
-  },
-  {
-   "rank": 11,
-   "title": "Intel Panther Lake Teardown",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
-   "score": 2.5,
-   "sources": [
-    "semianalysis"
-   ],
-   "titles": [
-    "Intel Panther Lake Teardown"
-   ],
-   "published_at": "2026-09-26T13:36:32.000000+00:00",
-   "summary": "Panther Lake debuts the first commercial implementation of backside power delivery (BSPDN), introduces Intel’s first iteration of gate-all-around (GAA) transistors, and showcases their advanced packaging capabilities wit..."
-  },
-  {
-   "rank": 12,
+   "rank": 3,
    "title": "I created an interactive digital avatar of myself — and you can talk to it",
    "lang": "en",
    "region": "intl",
@@ -213,7 +63,7 @@
    "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves."
   },
   {
-   "rank": 13,
+   "rank": 4,
    "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
    "lang": "en",
    "region": "intl",
@@ -229,7 +79,7 @@
    "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought..."
   },
   {
-   "rank": 14,
+   "rank": 5,
    "title": "The blue-collar AI job market is booming. Will data center backlash make it go bust?",
    "lang": "en",
    "region": "intl",
@@ -245,97 +95,169 @@
    "summary": "The public has soured on AI data centers and states are slowing development, but for HVAC, plumbing, welding, and electrical workers, it's been a jobs boom."
   },
   {
+   "rank": 6,
+   "title": "AI access makes people almost entirely unwilling to say \"I don't know,\" study finds",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "AI access makes people almost entirely unwilling to say \"I don't know,\" study finds"
+   ],
+   "published_at": "2026-09-26T16:56:36.000000+00:00",
+   "summary": "A study with more than 3,000 participants shows that just having access to AI answers nearly eliminated people's willingness to say \"I don't know.\" In one experiment, it dropped from 44 to 3 percent, even though the AI w..."
+  },
+  {
+   "rank": 7,
+   "title": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them"
+   ],
+   "published_at": "2026-09-26T17:27:52.000000+00:00",
+   "summary": "Speaking to 160 IT vice presidents in Las Vegas, tech entrepreneur Azeem Azhar asked who had measurable AI results. Two-thirds raised their hands. Then he asked who had results good enough to interrupt the CEO's summer v..."
+  },
+  {
+   "rank": 8,
+   "title": "AI agents are exposing a security gap between the data they read and the systems they can change",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://venturebeat.com/security/ai-agents-are-exposing-a-security-gap-between-the-data-they-read-and-the-systems-they-can-change",
+   "score": 2.5,
+   "sources": [
+    "venturebeat"
+   ],
+   "titles": [
+    "AI agents are exposing a security gap between the data they read and the systems they can change"
+   ],
+   "published_at": "2026-09-26T19:00:00+00:00",
+   "summary": "Most conversations about AI security still orbit the model itself: Is the large language model (LLM) aligned, can it be jailbroken, does it hallucinate under pressure? Those are real questions. But as organizations move..."
+  },
+  {
+   "rank": 9,
+   "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army"
+   ],
+   "published_at": "2026-09-26T19:10:20.000000+00:00",
+   "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced \"Army of Robots,\" a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for..."
+  },
+  {
+   "rank": 10,
+   "title": "Insurers claim AI is already increasing healthcare costs",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+   "score": 2.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Insurers claim AI is already increasing healthcare costs"
+   ],
+   "published_at": "2026-09-26T21:02:06.000000+00:00",
+   "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period."
+  },
+  {
+   "rank": 11,
+   "title": "Australian backlash to datacentres is faux import from US, officials say: ‘We are not the United States’",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/australia-news/2026/sep/26/australia-datacentre-backlash",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Australian backlash to datacentres is faux import from US, officials say: ‘We are not the United States’"
+   ],
+   "published_at": "2026-09-26T22:00:47.000000+00:00",
+   "summary": "Pro-datacentre officials argue scale of Australia’s buildout is smaller, more regulated and less damaging than in US Australian politicians and business leaders are arguing that their populace’s growing resentment of AI..."
+  },
+  {
+   "rank": 12,
+   "title": "Scoop: Top AI companies probing tens of thousands of security incidents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
+   "score": 2.5,
+   "sources": [
+    "axios"
+   ],
+   "titles": [
+    "Scoop: Top AI companies probing tens of thousands of security incidents"
+   ],
+   "published_at": "2026-09-26T22:35:53.000000+00:00",
+   "summary": "OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their frontier models took steps that outside evaluators would consider problematic, sources told Axios. Why it matters..."
+  },
+  {
+   "rank": 13,
+   "title": "Kākāpō Party",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "Kākāpō Party"
+   ],
+   "published_at": "2026-09-26T23:39:06.000000+00:00",
+   "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had..."
+  },
+  {
+   "rank": 14,
+   "title": "Walmart chief rules out personalised pricing as AI transforms retail",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/632e21a3-b889-4423-a1d9-be16b3e680bd?syn-25a6b1a6=1",
+   "score": 2.0,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "Walmart chief rules out personalised pricing as AI transforms retail"
+   ],
+   "published_at": "2026-09-25T21:16:49.000000+00:00",
+   "summary": "Largest US retailer issues open letter saying it will not use electronic shelf labels to change costs based on shopper identity"
+  },
+  {
    "rank": 15,
-   "title": "谷歌，准备升空",
+   "title": "管住AI，成了一门新生意",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4894032.html",
-   "score": 9.0,
+   "url": "https://www.huxiu.com/article/4894076.html",
+   "score": 6.0,
    "sources": [
     "huxiu",
-    "tmtpost",
     "36kr-ai"
    ],
    "titles": [
-    "谷歌，准备升空",
-    "谷歌，准备升空",
-    "谷歌，准备升空"
+    "管住AI，成了一门新生意",
+    "管住AI，成了一门新生意"
    ],
-   "published_at": "2026-09-26T09:22:17.000000+00:00",
-   "summary": "谷歌马上就要上天了。皮查伊发长文宣布，将会在10月1日这天，启动Suncatcher项目的第一次在轨测试，算力约等于地面一台服务器。早在去年11月，谷歌就已经公开过Suncatcher项目。它的定义是谷歌的“长期研究”，目标是探索如何把算力放到太空里规模化运行。在当时，谷歌宣布和卫星公...... 本文来自微信公众号： 字母AI ，作者：苗正，编辑：王靖，题图来自：视觉中国 谷歌马上就要上天了。 皮查伊发长文宣布，将会在10月1日这天，..."
+   "published_at": "2026-09-27T00:36:28.000000+00:00",
+   "summary": "三类玩家，掘金AI安全。定焦One（dingjiaoone）原创AI越来越能干，也越来越容易“闯祸”。7月，OpenAI在内部网络安全能力测试中发生了一次罕见事故。OpenAI随后披露，一款内部研究模型和GPT-5.6 Sol在降低安全限制的测试环境下绕过隔离措施，获得互联网访问权限，并进一步入侵Huggin...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 三类玩家，掘金AI安全。 定焦One（ding..."
   },
   {
    "rank": 16,
-   "title": "Claude取得理论物理突破，只用了一句话+几千美元",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/3999414374174598",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "ithome"
-   ],
-   "titles": [
-    "Claude取得理论物理突破，只用了一句话+几千美元",
-    "Claude 刷新物理学世界纪录：单挑基于杨振宁理论 9 圈难题"
-   ],
-   "published_at": "2026-09-26T02:25:09.000000+00:00",
-   "summary": "编辑｜Panda 理论物理中一项保持了三年的计算纪录，被 AI 刷新了。 几个小时前，Anthropic 宣布：Claude 在科研平台 Claude Science 中 基本无人监督 地连续运行数天，算出了平面 N=4 超对称杨-米尔斯理论（planar N=4 super-Yang-Mills）中的 九圈 六粒子散射振幅。 这是理论物理「 散射振幅 」领域公认的前沿难题，此前在该模型中的最高纪录停留在八圈，由 SLAC 国家加速器实..."
-  },
-  {
-   "rank": 17,
-   "title": "AI代写论文露馅？顶刊主编一问，作者啥都答不上来",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4894008.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "AI代写论文露馅？顶刊主编一问，作者啥都答不上来",
-    "AI代写论文露馅？顶刊主编一问，作者啥都答不上来"
-   ],
-   "published_at": "2026-09-26T03:17:27.000000+00:00",
-   "summary": "你写了一篇论文，现在问你三个问题：你这篇论文的问题设定是什么？这个符号代表什么？摘要里说的这个结论，在正文哪一部分得到了支撑？如果论文真是你写的，那这些问题肯定很简单，甚至不用准备就能答出来。但在机器学习期刊TMLR（Transactions on Machine Learning Research）最近的一...... 本文来自微信公众号： 机器之心 ，编辑：Panda，作者：机器之心 你写了一篇论文，现在问你三个问题：你这篇论文的问..."
-  },
-  {
-   "rank": 18,
-   "title": "Opus 5.5 干一半就开溜？Anthropic 揭秘：你的程序替它打了下班卡",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/007/442.htm",
-   "score": 5.05,
-   "sources": [
-    "ithome",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Opus 5.5 干一半就开溜？Anthropic 揭秘：你的程序替它打了下班卡",
-    "Ask HN: Is Opus 5.5 another step change?"
-   ],
-   "published_at": "2026-09-26T14:20:02+00:00",
-   "summary": "你让 AI Agent 连夜迁移一个代码库。第二天一早，满怀期待地打开终端，没想到只看到这样一条消息： 已完成 3 个接口迁移，接下来我将处理剩余两个端点，并补上测试。 然后，就没有下文了。想让它干完剩下的活，你还得再敲两个字：继续。本以为它会一口气干到底，结果它只给你画了张「下一步」的饼，程序就替它打卡下班了。这不是某一个人的倒霉经历。 Opus 5.5 一发布，跑 Agent 的开发者就发现，模型能力是强了，可干着干着就爱停下来，你..."
-  },
-  {
-   "rank": 19,
-   "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/498478.html",
-   "score": 3.5,
-   "sources": [
-    "qbitai"
-   ],
-   "titles": [
-    "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准"
-   ],
-   "published_at": "2026-09-26T11:49:43+00:00",
-   "summary": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。"
-  },
-  {
-   "rank": 20,
    "title": "特朗普将于周二推出AI驱动的新网站America.gov",
    "lang": "zh",
    "region": "cn",
@@ -349,6 +271,70 @@
    ],
    "published_at": "2026-09-26T02:51:41.000000+00:00",
    "summary": "美国总统特朗普将发布一个由人工智能（AI）驱动的新网站，整合目前分散在各联邦机构网站上的政府信息和资源。福克斯新闻称，特斯拉首席执行官埃隆·马斯克、英伟达首席执行官黄仁勋以及Blue Origin首席执行官Dave Limp预计将出席此次活动。这个名为America.gov的网站将于周二正式推出。（新浪财经）"
+  },
+  {
+   "rank": 17,
+   "title": "微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/007/344.htm",
+   "score": 3.0,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "微星推出 MS-C9ZA 无风扇边缘 AI 盒子，基于 Jetson Orin Nano 8GB"
+   ],
+   "published_at": "2026-09-26T05:37:03+00:00",
+   "summary": "IT之家 9 月 26 日消息，微星 (MSI) 本月 23 日宣布推出 MS-C9ZA。这款边缘 AI 盒子可在端侧执行 AI 推理与计算机视觉处理，协助降低云端依赖、带宽使用与网络延迟， 面向机器人 、 智能制造等场景 。 MS-C9ZA 基于 NVIDIA（英伟达）Jetson Orin Nano 8GB 模组，拥有 1024 个 \"Ampere\" GPU 核心、6 个 Arm Cortex-A78AE CPU 内核，集成 8GB..."
+  },
+  {
+   "rank": 18,
+   "title": "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/007/356.htm",
+   "score": 3.0,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "美团上线 LongCat-2.5-Preview 模型：1.6T 参数，主打 AI 长程任务与多模态能力"
+   ],
+   "published_at": "2026-09-26T06:16:08+00:00",
+   "summary": "IT之家 9 月 26 日消息，美团旗下 LongCat API 开放平台于 9 月 25 日上线新一代大模型 LongCat-2.5-Preview， 主打“长程任务”与多模态能力，并同步开放 API 与网页端体验入口。 IT之家附上官方更新日志内容如下： LongCat-2.5-Preview 的核心特性如下： 多模态理解：新增图片理解能力 ，可解析图像内容，支持跨模态问答、内容摘要与复杂视觉推理。 卓越的 Coding 能力 ：在..."
+  },
+  {
+   "rank": 19,
+   "title": "订单狂翻几十倍：全世界搞AI的，为啥都在抢中国电池？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894068.html",
+   "score": 2.5,
+   "sources": [
+    "huxiu"
+   ],
+   "titles": [
+    "订单狂翻几十倍：全世界搞AI的，为啥都在抢中国电池？"
+   ],
+   "published_at": "2026-09-26T14:11:25.000000+00:00",
+   "summary": "这两年，AI军备竞赛打得那叫一个昏天黑地，在中美都是拉动投资的主力。GPU、存储、光模块、液冷，算力基建的市场热点一轮接一轮地爆发。另外，GPU芯片非常吃电，一座大型AI算力中心一年电费动辄几十个亿，顶得上一座小城市。即便你掏得出几十亿，也不一定能抢到电。在美国一些地区，AI算力中心接入电网要排队3到7年。于...... 本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 这两年，AI军备竞赛打得那叫一个昏天黑地，在中美都是拉动投资的..."
+  },
+  {
+   "rank": 20,
+   "title": "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/007/441.htm",
+   "score": 2.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议"
+   ],
+   "published_at": "2026-09-26T14:12:27+00:00",
+   "summary": "IT之家 9 月 26 日消息，据 Wccftech 报道，一则关于“大语言模型破解付费软件”的帖子今日在 Reddit 上引发关注。 用户 No_Ideal8394 声称，他利用无审查限制的 Qwen3.8-Flash-Next-Uncensored ，成功破解了 Internet Download Manager（IDM）6.43 版本，使其绕过 IDM 试用限制，将软件变为完全激活版本，从而省去每年每台电脑 11.95 美元 （I..."
   }
  ]
 }
