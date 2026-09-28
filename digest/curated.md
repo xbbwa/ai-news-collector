@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-28 06:25 CST
-数据窗口：最近 24 小时，677 条原始条目 → 437 个事件；过滤噪音 337 个，排除全部历史已推送的 13 个。
+生成时间：2026-09-28 08:59 CST
+数据窗口：最近 24 小时，705 条原始条目 → 464 个事件；过滤噪音 350 个，排除全部历史已推送的 32 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,131 +8,127 @@
 
 国外：
 
-## 1. Scoop: Anthropic's Dario Amodei to have White House dinner with Trump
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、TechCrunch — AI（2 个来源） ｜ 热度：6.0
-- 摘要：President Trump plans to host Anthropic CEO Dario Amodei at a private White House dinner on Sunday evening, sources familiar told Axios. Why it matters: The dinner —the first one-on-one meeting between the two— is an ind...
+## 1. Corporate America embraces cheaper ‘open’ AI models
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 摘要：US businesses far beyond Silicon Valley are adopting Chinese alternatives to OpenAI and Anthropic’s systems
+- 发布时间：2026-09-28 01:00 CST
+- 链接：https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd?syn-25a6b1a6=1
+- 同事件报道：FT: Corporate America rejects overpriced frontier, embraces open models（Reddit AI subreddits (new)）
+
+## 2. 2026 in LLMs (so far)
+- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 摘要：On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026...
+- 发布时间：2026-09-28 07:54 CST
+- 链接：https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
+- 同事件报道：building a humor benchmark for LLMs: someone told me my benchmark's best result was just memory, so i ran his test（Reddit AI subreddits (new)）
+- 同事件报道：So were Illya and Yan Lecun both wrong? (LLMs are generalising.)（Reddit AI subreddits (new)）
+
+## 3. The Normalization of Inexplicable Failures
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.14
+- 摘要：In a recent episode of President Curtis , the President struggles with opening a door on two separate occasions. These doors don't work beca...
 - 发布时间：2026-09-27 23:26 CST
-- 链接：https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite
-- 同事件报道：Anthropic’s Dario Amodei gets the SNL treatment（TechCrunch — AI）
+- 链接：https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html
 
-## 2. Scoop: Top AI companies probing tens of thousands of security incidents
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their frontier models took steps that outside evaluators would consider problematic, sources told Axios. Why it matters...
-- 发布时间：2026-09-27 06:35 CST
-- 链接：https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents
-- 同事件报道：Top AI companies probing tens of thousands of security incidents（Reddit AI subreddits (new)）
-
-## 3. GPT-6 Sol & Luna
-- 地区：国外源 ｜ 语言：en ｜ 来源：Product Hunt — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：Frontier AI intelligence, now at half the price Discussion | Link
-- 发布时间：2026-09-23 05:59 CST
-- 链接：https://www.producthunt.com/products/openai
-- 同事件报道：Sonnet 5.5, Which Already Supposedly Beats GPT-6 Sol, Has Had a Last-Minute Upgrade With Release Expected Monday（Reddit AI subreddits (new)）
-
-## 4. People don't understand LLMs, and it's not in the companies' interest to make them understand
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.06
-- 摘要：And worse, journalism, instead of doing serious work and actually researching, gives these companies total credibility. The greatest risk we currently face with AI is the prospect of these large AI companies going public...
-- 发布时间：2026-09-28 02:28 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wrrncx/people_dont_understand_llms_and_its_not_in_the/
-- 同事件报道：DSPy – Program, don't prompt, your LLMs（Hacker News (AI stories)）
-
-## 5. Debt-hungry AI companies face increased risk as bond yields spike
-- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology（1 个来源） ｜ 热度：2.5
-- 摘要：The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.
-- 发布时间：2026-09-27 19:00 CST
-- 链接：https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html
-
-## 6. Democracy blindsides Silicon Valley’s power players looking to transform the world with AI
+## 4. Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut?
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：‘The push against datacenters speaks to the frustration of people who don’t feel they are making the choices in their lives’ The Stanford ethicist Rob Reich was once invited to a dinner organized by a Silicon Valley mogu...
-- 发布时间：2026-09-27 19:00 CST
-- 链接：https://www.theguardian.com/technology/ng-interactive/2026/sep/27/democracy-ai-datacenters-power
-
-## 7. Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
-- 摘要：Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation. The article Nvidia drops a free 100M-parameter model that identifies up to eight speaker...
-- 发布时间：2026-09-27 19:01 CST
-- 链接：https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/
-
-## 8. As A.I. Accelerates, Governments Are Increasingly Being Left Behind
-- 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
-- 摘要：The gap between technology and policymaking has gotten wider than ever with artificial intelligence, leaving a global policy vacuum as A.I. models rapidly advance.
-- 发布时间：2026-09-27 19:22 CST
-- 链接：https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html
-
-## 9. Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Microsoft Corp. co-founder Bill Gates said government safeguards against potentially catastrophic artificial intelligence risks won’t hamper the US in its competition with China, contrasting with President Donald Trump’s...
-- 发布时间：2026-09-27 21:00 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards
-
-## 10. Some Anthropic veterans are reportedly buying remote land in case "AI goes awry"
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
-- 摘要：According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the...
-- 发布时间：2026-09-27 21:03 CST
-- 链接：https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/
-
-## 11. AI Safety Concerns Put Congress on the Spot
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Democratic Rep. Don Beyer of Virginia tells Bloomberg This Weekend that recent AI incidents have increased the urgency for federal safeguards, including safety testing and mandatory reporting of serious problems involvin...
-- 发布时间：2026-09-27 22:11 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-27/ai-safety-concerns-put-congress-on-the-spot-video
-
-## 12. British celebrities beat AI companies lobbying to get free use of their work. They have a warning for Australia
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：‘People care about the songs, books and pictures that influence the critical moments in their lives,’ says the architect of the fightback in the UK Get our breaking news email , free app or daily news podcast If you want...
+- 摘要：Educational institutions find themselves suddenly confronted with a fork in the road Get our breaking news email , free app or daily news podcast Armin Alimardani has blue hair, is fresh faced, wears a smart watch and de...
 - 发布时间：2026-09-27 23:00 CST
-- 链接：https://www.theguardian.com/australia-news/2026/sep/28/uk-celebrity-warning-for-australia-ai-copyright
+- 链接：https://www.theguardian.com/australia-news/2026/sep/28/university-ai-marking-academic-overworked-staff-student-shortcut
 
-## 13. Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns
+## 5. ‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Federal cabinet will discuss the OpenAI breach on Monday as the AI giant pauses testing of latest models amid fallout Get our new political email , free app or daily news podcast Ageing computer systems used throughout A...
+- 摘要：Women today are more educated, more employed and more engaged in childcare than generations before them. Is there any way out of the total overwhelm? Early one morning, feeling desperate, Katherine went on to her phone a...
 - 发布时间：2026-09-27 23:00 CST
-- 链接：https://www.theguardian.com/technology/2026/sep/28/australia-is-run-on-legacy-systems-that-ai-agents-can-easily-exploit-former-un-cyber-negotiator-warns
+- 链接：https://www.theguardian.com/lifeandstyle/2026/sep/28/parenthood-millennial-mothers-overwhelmed
 
-## 14. AI agents do more of the work in model development, but humans still make the decisions
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
-- 摘要：A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have...
-- 发布时间：2026-09-27 23:18 CST
-- 链接：https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/
+## 6. China May Let Alibaba Buy New Nvidia Chips, The Information Says
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：The Chinese government has signaled it may allow companies such as Alibaba Group Holding Ltd. and ByteDance Ltd to purchase Nvidia Corp.’s new RTX Pro 5500 chips, The Information reported, citing people familiar with the...
+- 发布时间：2026-09-27 23:44 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says
+
+## 7. Engram is a sampler that turns broken AI hallucinations into music
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram . It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds....
+- 发布时间：2026-09-28 04:46 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music
+
+## 8. From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Sakai Chemical Industry Co.’s century-old expertise in producing fine powders for face makeup used by geisha is finding a lucrative new use — powering the artificial intelligence boom.
+- 发布时间：2026-09-28 05:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-27/from-geisha-face-paint-to-servers-sakai-chemical-emerges-as-ai-linchpin
+
+## 9. Australia news live: Gallagher says final budget outcome will shave $6bn off deficit; RBA interest rate hike looms
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Follow the day’s news live Get our breaking news email , free app or daily news podcast Australians along the east coast are reporting many sightings of endangered bogong moths as the insects continue their long migratio...
+- 发布时间：2026-09-28 06:16 CST
+- 链接：https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb
+
+## 10. Kākāpō Party
+- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog（1 个来源） ｜ 热度：2.0
+- 摘要：Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had...
+- 发布时间：2026-09-27 07:39 CST
+- 链接：https://simonwillison.net/2026/Sep/26/kakapo-party/
+
+## 11. China Media Says US Shares Responsibility for Managing AI （1)
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.0
+- 摘要：China and the US have the ability and responsibility to manage and develop artificial intelligence, according to a post published Sunday by Yuyuantantian, a social media account affiliated with state broadcaster China Ce...
+- 发布时间：2026-09-27 11:59 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai
+
+## 12. South Korea bets big on AI for all
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.0
+- 摘要：Deputy prime minister is an unabashed evangelist for the technology even as some fear it could pose catastrophic risks
+- 发布时间：2026-09-27 12:00 CST
+- 链接：https://www.ft.com/content/2c5e6862-65b6-4569-8c03-464e686ea88e
+
+## 13. Big companies warn lack of ‘AI openness’ could hit investment in Europe
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.0
+- 摘要：Multinationals evaluating countries’ approach to AI before making expansion plans, say executives
+- 发布时间：2026-09-27 12:00 CST
+- 链接：https://www.ft.com/content/aeabd0d5-be0e-4270-987e-0b119b24b355?syn-25a6b1a6=1
+
+## 14. A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：2.0
+- 摘要：In this tutorial, we work with MSEB , the Massive Sound Embedding Benchmark from Google Research, and approach it from the perspective of what a leaderboard number actually means: the evaluator surface. We install the pa...
+- 发布时间：2026-09-27 13:42 CST
+- 链接：https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/
 
 国内：
 
-## 1. 管住AI，成了一门新生意
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：三类玩家，掘金AI安全。定焦One（dingjiaoone）原创AI越来越能干，也越来越容易“闯祸”。7月，OpenAI在内部网络安全能力测试中发生了一次罕见事故。OpenAI随后披露，一款内部研究模型和GPT-5.6 Sol在降低安全限制的测试环境下绕过隔离措施，获得互联网访问权限，并进一步入侵Huggin...... 本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 三类玩家，掘金AI安全。 定焦One（ding...
-- 发布时间：2026-09-27 08:36 CST
-- 链接：https://www.huxiu.com/article/4894076.html
-- 同事件报道：管住AI，成了一门新生意（36氪 AI 频道）
-
-## 2. 不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：5.5
-- 摘要：IT之家 9 月 27 日消息，国内首部院线 AI 原生动画电影《三星堆：未来往事》正式定档 10 月 23 日全国上映。 据介绍，影片《三星堆：未来往事》总片长 100 分钟， 是国内首部利用 AI 技术制作并获得国家电影局公映许可证的院线电影 。由博卡电影云片场生成制作，所有角色为原创数字形象， 不含真实演员的数字复制 。AI 承担生成与执行，创意发起和创作判断由博纳 AIGMS 团队按照电影工业的流程制作完成。 在影片的科幻设定中...
-- 发布时间：2026-09-27 10:47 CST
-- 链接：https://www.ithome.com/1/007/482.htm
-- 同事件报道：首部AI超写实院线电影《三星堆：未来往事》定档10月23日（36氪 快讯）
-
-## 3. OpenAI，经历了最漫长的一天
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：强闯政府网站，暴露用户图片，OpenAI暂停最强模型研究工作。当地时间9月25日，OpenAI经历了漫长的一天。当天，OpenAI的AI智能体擅自访问美国政府网站的事被曝光，涉及教育部、商务部和证券交易委员会，OpenAI确认了其中商务部和SEC的情况。同一天，它承认有53张用户上传到ChatGPT的图片被智...... 本文来自微信公众号： 极客公园 ，作者：桦林舞王，编辑：靖宇 强闯政府网站，暴露用户图片，OpenAI暂停最强模型研...
-- 发布时间：2026-09-27 12:01 CST
-- 链接：https://www.huxiu.com/article/4894095.html
-- 同事件报道：OpenAI，经历了最漫长的一天（36氪 AI 频道）
-
-## 4. internlm/Intern-S2-397B
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.67
-- 摘要：image-text-to-text, transformers, safetensors, qwen3_5_moe, conversational, license:apache-2.0, endpoints_compatible, region:us
-- 发布时间：2026-09-24 15:00 CST
-- 链接：https://huggingface.co/internlm/Intern-S2-397B
-
-## 5. Qwen/Qwen3Guard-Stream-8B
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.61
-- 摘要：feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, regio...
+## 1. Qwen/Qwen3Guard-Stream-0.6B
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.56
+- 摘要：feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-0.6B, base_model:finetune:Qwen/Qwen3-0.6B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, r...
 - 发布时间：2026-09-27 10:00 CST
-- 链接：https://huggingface.co/Qwen/Qwen3Guard-Stream-8B
+- 链接：https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B
 
-## 6. 六联智能发布 4 盘位 "Wildcat Lake" AI NAS WS18，0.15L 迷你主机同场展出
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
-- 摘要：IT之家 9 月 27 日消息，六联智能 (Sixunited) 本周在英特尔技术创新与产业生态大会 (Intel Connection 2026) 上发布了四盘位 AI NAS 机型 WS18 。 这一型号基于第 3 代英特尔酷睿处理器，配备 LPDDR5 (X) 内存、UFS 3.1 存储，提供 3 个 PCIe Gen4 SSD 盘位、4 个 3.5" 盘位，支持 Wi-Fi 6，提供 10GbE、2.5GbE 双网口以及 HDM...
-- 发布时间：2026-09-27 11:40 CST
-- 链接：https://www.ithome.com/1/007/492.htm
+## 2. Qwen/Qwen3Guard-Stream-4B
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.41
+- 摘要：feature-extraction, transformers, safetensors, qwen3, custom_code, arxiv:2510.14276, base_model:Qwen/Qwen3-4B, base_model:finetune:Qwen/Qwen3-4B, license:apache-2.0, text-embeddings-inference, endpoints_compatible, regio...
+- 发布时间：2026-09-27 10:00 CST
+- 链接：https://huggingface.co/Qwen/Qwen3Guard-Stream-4B
+
+## 3. 从微软到英伟达：AI巨头的人才收购为何有的被查、有的放行？
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：3.5
+- 摘要：据媒体报道，近日美国司法部对英伟达和推理芯片公司Groq200亿美元的交易立案，调查这笔交易许可加雇佣核心团队的方式是不是刻意规避反垄断审查。实际此类交易AI领域很多，笔者记忆里就有微软和Inflection，谷歌和Character.AI以及Windsurf，Meta和Scale AI，但为什么有的交易被监...... 本文来自微信公众号： 游云庭律师 ，作者：游云庭律师 据媒体报道，近日美国司法部对英伟达和推理芯片公司Groq200...
+- 发布时间：2026-09-28 07:36 CST
+- 链接：https://www.huxiu.com/article/4894162.html
+
+## 4. 前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
+- 摘要：IT之家 9 月 28 日消息，前苹果 Siri 和 Apple Intelligence 工程师 Nikhil Gupta 宣布推出了一款名为 szn 的 AI 智能体，可直接运行在 iMessage 对话中，帮助用户浏览网页、购买商品以及代表用户与商家沟通。该服务目前已在官网开启注册，面向部分用户提供早期体验，计划于 10 月进一步扩大开放范围。 与传统聊天机器人不同，szn 并不只是回答用户的问题，而是可以代表用户执行实际操作。目...
+- 发布时间：2026-09-28 07:59 CST
+- 链接：https://www.ithome.com/1/007/634.htm
+
+## 5. 中国互联网最成功的地方，可能恰恰是AI Agent最大的麻烦
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
+- 摘要：1/3中国互联网没有“网页”了截至9月26日，现象级大众消费级AI产品Muse在北美的热度不但没有退，反而还在上升，一周超过200万prompts，在美国和加拿大同时超过ChatGPT，成为两大应用商店的免费榜第一，超过了ChatGPT当年移动App上线同期的表现。但在大洋彼岸的中国，更多的是困惑，国内消费级...... 本文来自微信公众号： 思想钢印 ，作者：思想钢印 1/3 中国互联网没有“网页”了 截至9月26日，现象级大众消费级...
+- 发布时间：2026-09-27 21:02 CST
+- 链接：https://www.huxiu.com/article/4894141.html
+
+## 6. 部分 Anthropic 资深员工考虑在偏远地区购置土地，以防“AI 失控”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
+- 摘要：IT之家 9 月 27 日消息，为防范人工智能彻底失控，Anthropic 的数位资深员工正在悄然制定具体的应急预案。 据华尔街日报于当地时间 9 月 26 日报道，最近数周内，Anthropic 的部分早期员工曾向业界同行透露， 他们正打算在美国偏远荒僻的地区购置土地建造隐匿点，以便在“AI 走向失控反噬”之际举家撤离避难 。 对这个圈子而言，“逃离 AI”的念头早已屡见不鲜。据早期离职员工回忆，早在 Anthropic 创立初期的公...
+- 发布时间：2026-09-27 21:31 CST
+- 链接：https://www.ithome.com/1/007/603.htm
