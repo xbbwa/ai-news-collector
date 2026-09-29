@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-29T16:03:20.932810+00:00",
+ "generated_at": "2026-09-29T20:57:56.688162+00:00",
  "stats": {
-  "items": 4053,
-  "clusters": 2696,
-  "noise": 324,
-  "dup": 159,
+  "items": 4259,
+  "clusters": 2764,
+  "noise": 375,
+  "dup": 158,
   "history_days": 0,
   "available_cn": 106,
-  "available_intl": 2107,
+  "available_intl": 2125,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,12 +20,13 @@
    "lang": "en",
    "region": "intl",
    "url": "https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion",
-   "score": 20.4,
+   "score": 23.9,
    "sources": [
     "bloomberg-tech",
     "techcrunch-ai",
     "ft-tech",
     "cnbc-tech",
+    "the-decoder",
     "hackernews-ai",
     "reddit-ai-new"
    ],
@@ -36,6 +37,7 @@
     "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
     "AMD to buy Fei-Fei Li’s AI start-up for $8bn",
     "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+    "AMD buys AI world model startup World Labs for $8.2 billion",
     "World Labs Is Joining AMD",
     "AMD Acquires Fei-Fei Li's World Labs for $8.2B",
     "AMD to Acquire World Labs to Advance the Future of AI",
@@ -158,6 +160,24 @@
   },
   {
    "rank": 8,
+   "title": "Nvidia launches new platform for reining in rogue AI agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+   "score": 6.5,
+   "sources": [
+    "techcrunch-ai",
+    "axios"
+   ],
+   "titles": [
+    "Nvidia launches new platform for reining in rogue AI agents",
+    "Nvidia says new tool can contain rogue AI agents in \"milliseconds\""
+   ],
+   "published_at": "2026-09-28T18:31:23.000000+00:00",
+   "summary": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to br..."
+  },
+  {
+   "rank": 9,
    "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
    "lang": "en",
    "region": "intl",
@@ -175,7 +195,77 @@
    "summary": "On July 24, 2025, Microsoft Research Asia – Singapore (MSRA – Singapore) opened its doors as Microsoft’s first research lab in Southeast Asia. The launch built on more than two decades of collaboration between Microsoft..."
   },
   {
-   "rank": 9,
+   "rank": 10,
+   "title": "Florida seeks a ban on ChatGPT acting like a person",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+   "score": 5.5,
+   "sources": [
+    "theverge-ai",
+    "the-decoder"
+   ],
+   "titles": [
+    "Florida seeks a ban on ChatGPT acting like a person",
+    "Florida wants a court to stop ChatGPT from pretending to be human and talking to kids"
+   ],
+   "published_at": "2026-09-28T17:00:23.000000+00:00",
+   "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns . According to Uthmeier, us..."
+  },
+  {
+   "rank": 11,
+   "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html",
+   "score": 5.0,
+   "sources": [
+    "cnbc-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+    "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction"
+   ],
+   "published_at": "2026-09-29T13:37:49.000000+00:00",
+   "summary": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives."
+  },
+  {
+   "rank": 12,
+   "title": "Introducing GPT-6.1 Sol",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "score": 4.5,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Introducing GPT-6.1 Sol"
+   ],
+   "published_at": "2026-09-29T10:00:00.000000+00:00",
+   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+  },
+  {
+   "rank": 13,
+   "title": "Bill Gates's Blunt Warning on A.I",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.nytimes.com/2026/09/29/opinion/ezra-klein-podcast-bill-gates.html",
+   "score": 4.07,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Bill Gates's Blunt Warning on A.I",
+    "Bill Gates on job disruption from A.I."
+   ],
+   "published_at": "2026-09-29T15:47:18.000000+00:00",
+   "summary": ""
+  },
+  {
+   "rank": 14,
    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
    "lang": "en",
    "region": "intl",
@@ -189,88 +279,6 @@
    ],
    "published_at": "2026-09-28T19:00:00.000000+00:00",
    "summary": "With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effe..."
-  },
-  {
-   "rank": 10,
-   "title": "China broadens travel curbs to encompass family of top AI talent",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html",
-   "score": 3.57,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "China broadens travel curbs to encompass family of top AI talent",
-    "Beijing broadens travel curbs to encompass family of top AI talent in China"
-   ],
-   "published_at": "2026-09-28T23:46:50.000000+00:00",
-   "summary": "That marks a broadening of existing curbs on the freedom of movement of China's most influential tech talent - a category that encompasses entrepreneurs, researchers and executives"
-  },
-  {
-   "rank": 11,
-   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-   "score": 3.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents"
-   ],
-   "published_at": "2026-09-29T13:07:00.000000+00:00",
-   "summary": "A Blog post by Multiverse Computing on Hugging Face"
-  },
-  {
-   "rank": 12,
-   "title": "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
-   "score": 3.5,
-   "sources": [
-    "ieee-spectrum-ai"
-   ],
-   "titles": [
-    "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog"
-   ],
-   "published_at": "2026-09-29T10:00:06.000000+00:00",
-   "summary": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologie..."
-  },
-  {
-   "rank": 13,
-   "title": "Reco raises $55M as AI agent security startups crowd the market",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
-   "score": 3.5,
-   "sources": [
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Reco raises $55M as AI agent security startups crowd the market"
-   ],
-   "published_at": "2026-09-29T12:30:00.000000+00:00",
-   "summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million."
-  },
-  {
-   "rank": 14,
-   "title": "AI companies leak data to advertisers [pdf]",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-   "score": 3.5,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "AI companies leak data to advertisers [pdf]"
-   ],
-   "published_at": "2026-09-29T09:03:41.000000+00:00",
-   "summary": ""
   },
   {
    "rank": 15,
@@ -336,7 +344,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.oschina.net/news/502796",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "oschina",
     "hackernews-ai"
@@ -350,42 +358,6 @@
   },
   {
    "rank": 18,
-   "title": "当“AI饲料”，我都被AI嫌弃了？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4894565.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "当“AI饲料”，我都被AI嫌弃了？",
-    "当“AI饲料”，我都被AI嫌弃了？"
-   ],
-   "published_at": "2026-09-29T08:22:03.000000+00:00",
-   "summary": "2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了OpenAI和微软的内部记录。材料显示，OpenAI和微软通过采集别人生产的内容，训练自己的模型。但这并不是个例，我们在网上记录的点点滴滴，如今正逐渐变成AI的“饲料”。AI不会给你点赞、收藏或者转发，因为它压根不理解你创作的内容，只是把你留下的...... 本文来自微信公众号： 字母AI ，作者：苗正 2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了Ope..."
-  },
-  {
-   "rank": 19,
-   "title": "Manus这次，直接冲着“人”去了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8155806.html",
-   "score": 6.0,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "Manus这次，直接冲着“人”去了",
-    "Manus这次，直接冲着“人”去了"
-   ],
-   "published_at": "2026-09-29T08:47:43+00:00",
-   "summary": "文 | 字母AI Muse刚把个人Agent推到聚光灯下，Manus就带着它的“Agent团队”回来了。 9月28日，Manus 2.0正式登场。 这一次，Manus直接给每个Agent配了一套“家当”：一台电脑、一个邮箱、一个电话号码，还有一个可以花钱的钱包。 这些Agent不只可以各自干活，还能被拉进同一个群聊里组队，分工合作，交接彼此的结果。 一天之后，Manus创始人肖弘在即刻发了一篇长文，专门解释他们为什么把产品做成这样。 他..."
-  },
-  {
-   "rank": 20,
    "title": "Agent扎堆金融：一场真正的AI大考开始了",
    "lang": "zh",
    "region": "cn",
@@ -401,6 +373,42 @@
    ],
    "published_at": "2026-09-29T10:03:29+00:00",
    "summary": "文 | 产业家 金融是人类商业社会中“信任体系”的最高形态，这套在最严苛环境下磨炼出来的智能体准入、权限划分、操作审计与熔断机制，是一套严格的Agent工业级标准。 未来，这套机制可以毫不费力地下沉到自动驾驶的调度计费、智能制造的供应链自动采购、乃至智能政务的资金划拨之中。站在这个角度来看，金融行业今天在Agent落地中踩的所有坑、立的所有规矩，实际上是在替未来整个智能商业世界打造Agent的“信任样板”。 2026年以来，金融行业正在..."
+  },
+  {
+   "rank": 19,
+   "title": "当“AI饲料”，我都被AI嫌弃了？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894565.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "当“AI饲料”，我都被AI嫌弃了？",
+    "当“AI饲料”，我都被AI嫌弃了？"
+   ],
+   "published_at": "2026-09-29T08:22:03.000000+00:00",
+   "summary": "2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了OpenAI和微软的内部记录。材料显示，OpenAI和微软通过采集别人生产的内容，训练自己的模型。但这并不是个例，我们在网上记录的点点滴滴，如今正逐渐变成AI的“饲料”。AI不会给你点赞、收藏或者转发，因为它压根不理解你创作的内容，只是把你留下的...... 本文来自微信公众号： 字母AI ，作者：苗正 2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了Ope..."
+  },
+  {
+   "rank": 20,
+   "title": "Manus这次，直接冲着“人”去了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8155806.html",
+   "score": 5.5,
+   "sources": [
+    "tmtpost",
+    "36kr-ai"
+   ],
+   "titles": [
+    "Manus这次，直接冲着“人”去了",
+    "Manus这次，直接冲着“人”去了"
+   ],
+   "published_at": "2026-09-29T08:47:43+00:00",
+   "summary": "文 | 字母AI Muse刚把个人Agent推到聚光灯下，Manus就带着它的“Agent团队”回来了。 9月28日，Manus 2.0正式登场。 这一次，Manus直接给每个Agent配了一套“家当”：一台电脑、一个邮箱、一个电话号码，还有一个可以花钱的钱包。 这些Agent不只可以各自干活，还能被拉进同一个群聊里组队，分工合作，交接彼此的结果。 一天之后，Manus创始人肖弘在即刻发了一篇长文，专门解释他们为什么把产品做成这样。 他..."
   }
  ]
 }
