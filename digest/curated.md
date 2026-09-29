@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-29 16:47 CST
-数据窗口：最近 24 小时，4233 条原始条目 → 2844 个事件；过滤噪音 366 个，排除全部历史已推送的 171 个。
+生成时间：2026-09-30 00:03 CST
+数据窗口：最近 24 小时，4053 条原始条目 → 2696 个事件；过滤噪音 324 个，排除全部历史已推送的 159 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -17,7 +17,7 @@
 - 同事件报道：AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion（Bloomberg Technology）
 
 ## 2. ABFR-KAN: Kolmogorov-Arnold Networks for Functional Brain Analysis
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI、arXiv cs.LG（3 个来源） ｜ 热度：12.5
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI、arXiv cs.LG（3 个来源） ｜ 热度：12.0
 - 摘要：arXiv:2601.00416v2 Announce Type: replace Abstract: Functional connectivity (FC) analysis, a valuable tool for computer-aided brain disorder diagnosis, traditionally relies on atlas-based parcellation. However, issues re...
 - 发布时间：2026-09-29 12:00 CST
 - 链接：https://arxiv.org/abs/2601.00416
@@ -25,14 +25,14 @@
 - 同事件报道：Fisher Simplicity in Kolmogorov-Arnold Networks and Multilayer Perceptrons（arXiv cs.LG）
 
 ## 3. The Ongiini-Eval-OW Benchmark: A Concept Paper for the Planned Benchmarking of Machine Translation and Large Language Models on Oshindonga and Oshikwanyama
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：9.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.5
 - 摘要：arXiv:2609.31727v1 Announce Type: new Abstract: Oshiwambo -- a cluster of mutually intelligible Bantu languages spoken by over a million people across northern Namibia and southern Angola, and the home language of roughl...
 - 发布时间：2026-09-29 12:00 CST
 - 链接：https://arxiv.org/abs/2609.31727
 - 同事件报道：Capability Self-Assessment in Large Language Models（arXiv cs.AI）
 
 ## 4. OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.CV（2 个来源） ｜ 热度：8.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.CV（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.32810v1 Announce Type: new Abstract: Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture t...
 - 发布时间：2026-09-29 12:00 CST
 - 链接：https://arxiv.org/abs/2609.32810
@@ -40,31 +40,32 @@
 - 同事件报道：How Far Is Document Parsing from Solved? PureDocBench: A Source-Traceable Benchmark across Clean, Degraded, and Real-Wor...（arXiv cs.CV）
 
 ## 5. Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.33226v1 Announce Type: new Abstract: Memory is a core component of conversational agents, enabling coherent and context-aware behavior over long interactions. Recent approaches commonly rely on LLM-based memor...
 - 发布时间：2026-09-29 12:00 CST
 - 链接：https://arxiv.org/abs/2609.33226
 - 同事件报道：AuthorityLens: Rethinking LLM-Based Agent Systems Through the Lens of Authority（arXiv cs.AI）
 
-## 6. One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact
-- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog、智源社区（2 个来源） ｜ 热度：6.0
+## 6. Introducing Quine: An AI research system designed for the complexity of biology
+- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog、智源社区（2 个来源） ｜ 热度：7.0
+- 摘要：At a glance Quine (opens in new tab) is a research effort to create a multimodal world model of biology and an interactive harness connecting models, scientific tools, literature, and researchers. In collaboration with r...
+- 发布时间：2026-09-29 22:00 CST
+- 链接：https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/
+- 同事件报道：Introducing Quine: An AI research system designed for the complexity of biology（智源社区）
+
+## 7. Nvidia Debuts System Meant to Stop AI Agents From Going Awry
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、IEEE Spectrum — AI（2 个来源） ｜ 热度：6.5
+- 摘要：Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would have prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.
+- 发布时间：2026-09-28 17:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry
+- 同事件报道：How to Stop AI Agents From Secretly Collaborating（IEEE Spectrum — AI）
+
+## 8. One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact
+- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog、智源社区（2 个来源） ｜ 热度：5.5
 - 摘要：On July 24, 2025, Microsoft Research Asia – Singapore (MSRA – Singapore) opened its doors as Microsoft’s first research lab in Southeast Asia. The launch built on more than two decades of collaboration between Microsoft...
 - 发布时间：2026-09-29 05:00 CST
 - 链接：https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/
 - 同事件报道：One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact（智源社区）
-
-## 7. Florida asks for emergency order to halt ChatGPT development
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、The Verge — AI（2 个来源） ｜ 热度：5.5
-- 摘要：Florida Attorney General James Uthmeier has asked for an emergency injunction against OpenAI and ChatGPT, claiming the company doesn't have the ability to properly regulate its own technology. Why it matters: The legal f...
-- 发布时间：2026-09-28 22:56 CST
-- 链接：https://www.axios.com/2026/09/28/florida-openai-chatgpt-injunction-uthmeier
-- 同事件报道：Florida seeks a ban on ChatGPT acting like a person（The Verge — AI）
-
-## 8. nvidia/NV-Generate-CT
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.49
-- 摘要：latent_diffusion, medical-imaging, diffusion, arxiv:2508.05772, license:other, region:us
-- 发布时间：2026-09-28 15:53 CST
-- 链接：https://huggingface.co/nvidia/NV-Generate-CT
 
 ## 9. How we found 24 Android vulnerabilities using our open source AI security agent
 - 地区：国外源 ｜ 语言：en ｜ 来源：GitHub Blog（1 个来源） ｜ 热度：4.0
@@ -72,42 +73,40 @@
 - 发布时间：2026-09-29 03:00 CST
 - 链接：https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/
 
-## 10. China Broadens Travel Curbs to Encompass Family of Top AI Talent
+## 10. China broadens travel curbs to encompass family of top AI talent
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.57
-- 摘要：China has expanded overseas travel restrictions for top AI professionals in private firms to include the families of key personnel, further tightening measures designed to prevent the outflow of critical know-how and inf...
-- 发布时间：2026-09-28 20:07 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-28/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent
-- 同事件报道：China broadens travel curbs to encompass family of top AI talent（Hacker News (AI stories)）
+- 摘要：That marks a broadening of existing curbs on the freedom of movement of China's most influential tech talent - a category that encompasses entrepreneurs, researchers and executives
+- 发布时间：2026-09-29 07:46 CST
+- 链接：https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html
 - 同事件报道：Beijing broadens travel curbs to encompass family of top AI talent in China（Reddit AI subreddits (new)）
 
-## 11. How we will do better for Australia
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.
-- 发布时间：2026-09-29 09:00 CST
-- 链接：https://openai.com/index/how-we-will-do-better-for-australia
+## 11. Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
+- 摘要：A Blog post by Multiverse Computing on Hugging Face
+- 发布时间：2026-09-29 21:07 CST
+- 链接：https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
 
-## 12. Khanna to introduce AI safety bill with ban on 'recursive' technology until safeguards exist
-- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology（1 个来源） ｜ 热度：3.5
-- 摘要：The proposal joins a chorus of other measures being put forward in Congress as the body mulls how to regulate AI.
-- 发布时间：2026-09-29 05:43 CST
-- 链接：https://www.cnbc.com/2026/09/28/khanna-ai-safety-bill.html
+## 12. Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog
+- 地区：国外源 ｜ 语言：en ｜ 来源：IEEE Spectrum — AI（1 个来源） ｜ 热度：3.5
+- 摘要：Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologie...
+- 发布时间：2026-09-29 18:00 CST
+- 链接：https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32
 
-## 13. Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort
+## 13. Reco raises $55M as AI agent security startups crowd the market
 - 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：3.5
-- 摘要：Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.
-- 发布时间：2026-09-29 08:30 CST
-- 链接：https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/
+- 摘要：The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.
+- 发布时间：2026-09-29 20:30 CST
+- 链接：https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/
 
-## 14. MSCI Launches AI Value Chain Indexes as Hedging Demand Grows
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：3.5
-- 摘要：MSCI Inc. has rolled out a series of artificial intelligence value chain indexes to help investors hedge exposure to the sector more precisely, according to the financial data compiler.
-- 发布时间：2026-09-29 10:59 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-29/msci-launches-ai-value-chain-indexes-as-hedging-demand-grows
+## 14. AI companies leak data to advertisers [pdf]
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.5
+- 发布时间：2026-09-29 17:03 CST
+- 链接：https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf
 
 国内：
 
 ## 1. AMD 斥资 82 亿美元收购 World Labs，“AI 教母”李飞飞出任执行副总裁兼首席科学家
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、极客公园、虎嗅、钛媒体、开源中国（5 个来源） ｜ 热度：17.5
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、极客公园、虎嗅、钛媒体、开源中国（6 个来源） ｜ 热度：20.5
 - 摘要：IT之家 9 月 29 日消息，当地时间 28 日，AMD 宣布同意以全股票交易 收购旧金山初创公司 World Labs ，交易价值约 82 亿美元 （IT之家注：现汇率约合 551 亿元人民币） 。 World Labs 由李飞飞等人于 2024 年联合创办，主要开发“世界模型”，让 AI 根据文本、图像和视频生成或重建能够交互的 3D 环境。未来，这项技术可以用于机器人训练、工厂模拟和科学研究。 按照收购协议，李飞飞将加入 AMD...
 - 发布时间：2026-09-29 07:09 CST
 - 链接：https://www.ithome.com/1/008/076.htm
@@ -115,7 +114,7 @@
 - 同事件报道：芯片女王82亿美元“买下”AI女王（虎嗅）
 
 ## 2. 刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿
-- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、量子位、钛媒体、虎嗅（4 个来源） ｜ 热度：14.0
+- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、量子位、钛媒体、虎嗅、36氪 AI 频道（6 个来源） ｜ 热度：20.5
 - 摘要：智东西 编译 | 江宇 编辑 | 心缘 智东西9月29日报道，今天凌晨， AMD宣布与“AI教母”李飞飞创办的空间智能公司World Labs签署最终收购协议 ，交易全部以股票完成， 价值约82亿美元 （约合人民币550.26亿元）。 ▲（图源：苏姿丰） 交易完成后，李飞飞将加入AMD，担任执行副总裁兼首席科学家，直接向AMD董事长兼CEO苏姿丰（Lisa Su）汇报 。World Labs团队则将继续推进AI模型研究。 按照计划，这笔...
 - 发布时间：2026-09-29 07:30 CST
 - 链接：https://zhidx.com/p/597959.html
@@ -129,22 +128,23 @@
 - 链接：https://www.oschina.net/news/502796
 - 同事件报道：Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms（Hacker News (AI stories)）
 
-## 4. openbmb/MiniCPM5-2B
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.5
-- 摘要：text-generation, transformers, safetensors, llama, minicpm, minicpm5, long-context, tool-calling, on-device, edge-ai, conversational, en, zh, dataset:openbmb/Ultra-FineWeb, dataset:openbmb/UltraX-Preview, dataset:openbmb...
-- 发布时间：2026-09-29 14:12 CST
-- 链接：https://huggingface.co/openbmb/MiniCPM5-2B
+## 4. 当“AI饲料”，我都被AI嫌弃了？
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了OpenAI和微软的内部记录。材料显示，OpenAI和微软通过采集别人生产的内容，训练自己的模型。但这并不是个例，我们在网上记录的点点滴滴，如今正逐渐变成AI的“饲料”。AI不会给你点赞、收藏或者转发，因为它压根不理解你创作的内容，只是把你留下的...... 本文来自微信公众号： 字母AI ，作者：苗正 2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了Ope...
+- 发布时间：2026-09-29 16:22 CST
+- 链接：https://www.huxiu.com/article/4894565.html
+- 同事件报道：当“AI饲料”，我都被AI嫌弃了？（36氪 AI 频道）
 
-## 5. 3999元起的旗舰机？荣耀这波杀疯了！2nm芯片、2亿影像、397B智能体大模型
-- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、IT之家（2 个来源） ｜ 热度：5.5
-- 摘要：智东西 作者 | 程茜 编辑 | 心缘 智东西9月28日报道，刚刚，荣耀发布高端旗舰 Magic9系列 ，荣耀CEO ‌ 李健 ‌说 Magic9是用户的第一部电影手机，并将其称作“ 掌中电影机 ”。 Magic9 Pro Max的一大亮点是“ 双2亿、双芯 ”，其搭载了2亿阿莱云台级主摄、2亿阿莱超夜神长焦，以及荣耀自研影像芯片驭光H1、第六代骁龙8超级至尊版。 在AI方面，荣耀联合阿里打造了 397B行业智能体大模型 ，并在Magi...
-- 发布时间：2026-09-28 18:01 CST
-- 链接：https://zhidx.com/p/597733.html
-- 同事件报道：高通正评估三星 2nm 工艺，考虑用于下一代移动芯片（IT之家）
+## 5. Manus这次，直接冲着“人”去了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：文 | 字母AI Muse刚把个人Agent推到聚光灯下，Manus就带着它的“Agent团队”回来了。 9月28日，Manus 2.0正式登场。 这一次，Manus直接给每个Agent配了一套“家当”：一台电脑、一个邮箱、一个电话号码，还有一个可以花钱的钱包。 这些Agent不只可以各自干活，还能被拉进同一个群聊里组队，分工合作，交接彼此的结果。 一天之后，Manus创始人肖弘在即刻发了一篇长文，专门解释他们为什么把产品做成这样。 他...
+- 发布时间：2026-09-29 16:47 CST
+- 链接：https://www.tmtpost.com/8155806.html
+- 同事件报道：Manus这次，直接冲着“人”去了（36氪 AI 频道）
 
-## 6. 人形机器人涌入主题公园：赛博NPC真能赚钱吗？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：9月24日，全球首个大型具身智能主题乐园在珠海横琴长隆飞船乐园正式开园。 据悉，该园区由智元与长隆联合建设，部署超300台机器人，设100多个交互点，开园当日举行全球最大规模常态化人机共舞及全球首创机器人空中飞人演艺，并揭牌“具身智能文旅联合研究院”。 这两年，机器人表演，成为大街小巷常见的风景。 各大科技馆、主题乐园争相拥抱这股东风，把机器人当成撬动客流的流量密码。 暑期期间，上海海昌海洋公园携手智元机器人等三家企业，上线全园全域机器...
-- 发布时间：2026-09-28 19:34 CST
-- 链接：https://www.36kr.com/p/4002932610275201
-- 同事件报道：人形机器人涌入主题公园：赛博NPC真能赚钱吗？（钛媒体）
+## 6. Agent扎堆金融：一场真正的AI大考开始了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：文 | 产业家 金融是人类商业社会中“信任体系”的最高形态，这套在最严苛环境下磨炼出来的智能体准入、权限划分、操作审计与熔断机制，是一套严格的Agent工业级标准。 未来，这套机制可以毫不费力地下沉到自动驾驶的调度计费、智能制造的供应链自动采购、乃至智能政务的资金划拨之中。站在这个角度来看，金融行业今天在Agent落地中踩的所有坑、立的所有规矩，实际上是在替未来整个智能商业世界打造Agent的“信任样板”。 2026年以来，金融行业正在...
+- 发布时间：2026-09-29 18:03 CST
+- 链接：https://www.tmtpost.com/8155852.html
+- 同事件报道：Agent扎堆金融：一场真正的AI大考开始了（36氪 AI 频道）

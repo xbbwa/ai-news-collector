@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-29T08:47:52.635161+00:00",
+ "generated_at": "2026-09-29T16:03:20.932810+00:00",
  "stats": {
-  "items": 4233,
-  "clusters": 2844,
-  "noise": 366,
-  "dup": 171,
+  "items": 4053,
+  "clusters": 2696,
+  "noise": 324,
+  "dup": 159,
   "history_days": 0,
-  "available_cn": 205,
-  "available_intl": 2102,
+  "available_cn": 106,
+  "available_intl": 2107,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -50,7 +50,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2601.00416",
-   "score": 12.5,
+   "score": 12.0,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai",
@@ -71,7 +71,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.31727",
-   "score": 9.0,
+   "score": 8.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -89,7 +89,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.32810",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-cv"
@@ -108,7 +108,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.33226",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -122,11 +122,47 @@
   },
   {
    "rank": 6,
+   "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+   "score": 7.0,
+   "sources": [
+    "microsoft-research",
+    "baai-hub"
+   ],
+   "titles": [
+    "Introducing Quine: An AI research system designed for the complexity of biology",
+    "Introducing Quine: An AI research system designed for the complexity of biology"
+   ],
+   "published_at": "2026-09-29T14:00:02.000000+00:00",
+   "summary": "At a glance Quine (opens in new tab) is a research effort to create a multimodal world model of biology and an interactive harness connecting models, scientific tools, literature, and researchers. In collaboration with r..."
+  },
+  {
+   "rank": 7,
+   "title": "Nvidia Debuts System Meant to Stop AI Agents From Going Awry",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry",
+   "score": 6.5,
+   "sources": [
+    "bloomberg-tech",
+    "ieee-spectrum-ai"
+   ],
+   "titles": [
+    "Nvidia Debuts System Meant to Stop AI Agents From Going Awry",
+    "How to Stop AI Agents From Secretly Collaborating"
+   ],
+   "published_at": "2026-09-28T09:00:00.000000+00:00",
+   "summary": "Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would have prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models."
+  },
+  {
+   "rank": 8,
    "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
    "lang": "en",
    "region": "intl",
    "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "microsoft-research",
     "baai-hub"
@@ -137,40 +173,6 @@
    ],
    "published_at": "2026-09-28T21:00:00.000000+00:00",
    "summary": "On July 24, 2025, Microsoft Research Asia – Singapore (MSRA – Singapore) opened its doors as Microsoft’s first research lab in Southeast Asia. The launch built on more than two decades of collaboration between Microsoft..."
-  },
-  {
-   "rank": 7,
-   "title": "Florida asks for emergency order to halt ChatGPT development",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.axios.com/2026/09/28/florida-openai-chatgpt-injunction-uthmeier",
-   "score": 5.5,
-   "sources": [
-    "axios",
-    "theverge-ai"
-   ],
-   "titles": [
-    "Florida asks for emergency order to halt ChatGPT development",
-    "Florida seeks a ban on ChatGPT acting like a person"
-   ],
-   "published_at": "2026-09-28T14:56:39.000000+00:00",
-   "summary": "Florida Attorney General James Uthmeier has asked for an emergency injunction against OpenAI and ChatGPT, claiming the company doesn't have the ability to properly regulate its own technology. Why it matters: The legal f..."
-  },
-  {
-   "rank": 8,
-   "title": "nvidia/NV-Generate-CT",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/NV-Generate-CT",
-   "score": 4.49,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/NV-Generate-CT"
-   ],
-   "published_at": "2026-09-28T07:53:09.000000+00:00",
-   "summary": "latent_diffusion, medical-imaging, diffusion, arxiv:2508.05772, license:other, region:us"
   },
   {
    "rank": 9,
@@ -190,86 +192,85 @@
   },
   {
    "rank": 10,
-   "title": "China Broadens Travel Curbs to Encompass Family of Top AI Talent",
+   "title": "China broadens travel curbs to encompass family of top AI talent",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-28/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent",
+   "url": "https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html",
    "score": 3.57,
    "sources": [
     "hackernews-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "China Broadens Travel Curbs to Encompass Family of Top AI Talent",
     "China broadens travel curbs to encompass family of top AI talent",
     "Beijing broadens travel curbs to encompass family of top AI talent in China"
    ],
-   "published_at": "2026-09-28T12:07:08.000000+00:00",
-   "summary": "China has expanded overseas travel restrictions for top AI professionals in private firms to include the families of key personnel, further tightening measures designed to prevent the outflow of critical know-how and inf..."
+   "published_at": "2026-09-28T23:46:50.000000+00:00",
+   "summary": "That marks a broadening of existing curbs on the freedom of movement of China's most influential tech talent - a category that encompasses entrepreneurs, researchers and executives"
   },
   {
    "rank": 11,
-   "title": "How we will do better for Australia",
+   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
    "score": 3.5,
    "sources": [
-    "openai-news"
+    "huggingface-blog"
    ],
    "titles": [
-    "How we will do better for Australia"
+    "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents"
    ],
-   "published_at": "2026-09-29T01:00:00.000000+00:00",
-   "summary": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences."
+   "published_at": "2026-09-29T13:07:00.000000+00:00",
+   "summary": "A Blog post by Multiverse Computing on Hugging Face"
   },
   {
    "rank": 12,
-   "title": "Khanna to introduce AI safety bill with ban on 'recursive' technology until safeguards exist",
+   "title": "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/28/khanna-ai-safety-bill.html",
+   "url": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
    "score": 3.5,
    "sources": [
-    "cnbc-tech"
+    "ieee-spectrum-ai"
    ],
    "titles": [
-    "Khanna to introduce AI safety bill with ban on 'recursive' technology until safeguards exist"
+    "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog"
    ],
-   "published_at": "2026-09-28T21:43:40.000000+00:00",
-   "summary": "The proposal joins a chorus of other measures being put forward in Congress as the body mulls how to regulate AI."
+   "published_at": "2026-09-29T10:00:06.000000+00:00",
+   "summary": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologie..."
   },
   {
    "rank": 13,
-   "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+   "title": "Reco raises $55M as AI agent security startups crowd the market",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+   "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
    "score": 3.5,
    "sources": [
     "techcrunch-ai"
    ],
    "titles": [
-    "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort"
+    "Reco raises $55M as AI agent security startups crowd the market"
    ],
-   "published_at": "2026-09-29T00:30:00.000000+00:00",
-   "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India."
+   "published_at": "2026-09-29T12:30:00.000000+00:00",
+   "summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million."
   },
   {
    "rank": 14,
-   "title": "MSCI Launches AI Value Chain Indexes as Hedging Demand Grows",
+   "title": "AI companies leak data to advertisers [pdf]",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-29/msci-launches-ai-value-chain-indexes-as-hedging-demand-grows",
+   "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
    "score": 3.5,
    "sources": [
-    "bloomberg-tech"
+    "hackernews-ai"
    ],
    "titles": [
-    "MSCI Launches AI Value Chain Indexes as Hedging Demand Grows"
+    "AI companies leak data to advertisers [pdf]"
    ],
-   "published_at": "2026-09-29T02:59:54.000000+00:00",
-   "summary": "MSCI Inc. has rolled out a series of artificial intelligence value chain indexes to help investors hedge exposure to the sector more precisely, according to the financial data compiler."
+   "published_at": "2026-09-29T09:03:41.000000+00:00",
+   "summary": ""
   },
   {
    "rank": 15,
@@ -277,13 +278,14 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/008/076.htm",
-   "score": 17.5,
+   "score": 20.5,
    "sources": [
     "ithome",
     "geekpark",
     "huxiu",
     "tmtpost",
-    "oschina"
+    "oschina",
+    "36kr-ai"
    ],
    "titles": [
     "AMD 斥资 82 亿美元收购 World Labs，“AI 教母”李飞飞出任执行副总裁兼首席科学家",
@@ -291,7 +293,12 @@
     "芯片女王82亿美元“买下”AI女王",
     "AMD 官宣82亿美元收购World Labs：李飞飞加入，苏姿丰押注物理AI",
     "AMD 官宣82亿美元收购World Labs：李飞飞加入，苏姿丰押注物理AI",
-    "AMD 花 82 亿美元买下李飞飞的 World Labs，她直接空降成首席科学家"
+    "AMD 花 82 亿美元买下李飞飞的 World Labs，她直接空降成首席科学家",
+    "82亿美元！李飞飞“肉身投大厂”",
+    "82亿美元，硅谷上演顶级版“Girls help girls”",
+    "82亿美元，硅谷上演顶级版“Girls help girls”",
+    "两位华人女性的82亿美元交易背后：焦虑的AMD正在AI领域狂撒钱",
+    "AMD 82 亿美元收购 World Labs，买的不只是世界模型"
    ],
    "published_at": "2026-09-28T23:09:29+00:00",
    "summary": "IT之家 9 月 29 日消息，当地时间 28 日，AMD 宣布同意以全股票交易 收购旧金山初创公司 World Labs ，交易价值约 82 亿美元 （IT之家注：现汇率约合 551 亿元人民币） 。 World Labs 由李飞飞等人于 2024 年联合创办，主要开发“世界模型”，让 AI 根据文本、图像和视频生成或重建能够交互的 3D 环境。未来，这项技术可以用于机器人训练、工厂模拟和科学研究。 按照收购协议，李飞飞将加入 AMD..."
@@ -302,18 +309,23 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://zhidx.com/p/597959.html",
-   "score": 14.0,
+   "score": 20.5,
    "sources": [
     "zhidx",
     "qbitai",
     "tmtpost",
-    "huxiu"
+    "huxiu",
+    "36kr-ai",
+    "ifanr"
    ],
    "titles": [
     "刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿",
     "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
     "550亿，苏姿丰买下李飞飞的世界模型公司",
-    "550亿，苏妈给李飞飞兜底，李飞飞给苏妈造梦"
+    "550亿，苏妈给李飞飞兜底，李飞飞给苏妈造梦",
+    "550亿，苏妈给李飞飞兜底，李飞飞给苏妈造梦",
+    "550 亿，苏妈给李飞飞兜底，李飞飞给苏妈造梦",
+    "苏姿丰550亿元买下李飞飞世界模型，AI 圈两位女王联手了"
    ],
    "published_at": "2026-09-28T23:30:55+00:00",
    "summary": "智东西 编译 | 江宇 编辑 | 心缘 智东西9月29日报道，今天凌晨， AMD宣布与“AI教母”李飞飞创办的空间智能公司World Labs签署最终收购协议 ，交易全部以股票完成， 价值约82亿美元 （约合人民币550.26亿元）。 ▲（图源：苏姿丰） 交易完成后，李飞飞将加入AMD，担任执行副总裁兼首席科学家，直接向AMD董事长兼CEO苏姿丰（Lisa Su）汇报 。World Labs团队则将继续推进AI模型研究。 按照计划，这笔..."
@@ -338,55 +350,57 @@
   },
   {
    "rank": 18,
-   "title": "openbmb/MiniCPM5-2B",
-   "lang": "en",
+   "title": "当“AI饲料”，我都被AI嫌弃了？",
+   "lang": "zh",
    "region": "cn",
-   "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-   "score": 5.5,
+   "url": "https://www.huxiu.com/article/4894565.html",
+   "score": 6.0,
    "sources": [
-    "hf-models-cn"
+    "huxiu",
+    "36kr-ai"
    ],
    "titles": [
-    "openbmb/MiniCPM5-2B"
+    "当“AI饲料”，我都被AI嫌弃了？",
+    "当“AI饲料”，我都被AI嫌弃了？"
    ],
-   "published_at": "2026-09-29T06:12:33.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, llama, minicpm, minicpm5, long-context, tool-calling, on-device, edge-ai, conversational, en, zh, dataset:openbmb/Ultra-FineWeb, dataset:openbmb/UltraX-Preview, dataset:openbmb..."
+   "published_at": "2026-09-29T08:22:03.000000+00:00",
+   "summary": "2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了OpenAI和微软的内部记录。材料显示，OpenAI和微软通过采集别人生产的内容，训练自己的模型。但这并不是个例，我们在网上记录的点点滴滴，如今正逐渐变成AI的“饲料”。AI不会给你点赞、收藏或者转发，因为它压根不理解你创作的内容，只是把你留下的...... 本文来自微信公众号： 字母AI ，作者：苗正 2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了Ope..."
   },
   {
    "rank": 19,
-   "title": "3999元起的旗舰机？荣耀这波杀疯了！2nm芯片、2亿影像、397B智能体大模型",
+   "title": "Manus这次，直接冲着“人”去了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/597733.html",
-   "score": 5.5,
+   "url": "https://www.tmtpost.com/8155806.html",
+   "score": 6.0,
    "sources": [
-    "zhidx",
-    "ithome"
+    "tmtpost",
+    "36kr-ai"
    ],
    "titles": [
-    "3999元起的旗舰机？荣耀这波杀疯了！2nm芯片、2亿影像、397B智能体大模型",
-    "高通正评估三星 2nm 工艺，考虑用于下一代移动芯片"
+    "Manus这次，直接冲着“人”去了",
+    "Manus这次，直接冲着“人”去了"
    ],
-   "published_at": "2026-09-28T10:01:09+00:00",
-   "summary": "智东西 作者 | 程茜 编辑 | 心缘 智东西9月28日报道，刚刚，荣耀发布高端旗舰 Magic9系列 ，荣耀CEO ‌ 李健 ‌说 Magic9是用户的第一部电影手机，并将其称作“ 掌中电影机 ”。 Magic9 Pro Max的一大亮点是“ 双2亿、双芯 ”，其搭载了2亿阿莱云台级主摄、2亿阿莱超夜神长焦，以及荣耀自研影像芯片驭光H1、第六代骁龙8超级至尊版。 在AI方面，荣耀联合阿里打造了 397B行业智能体大模型 ，并在Magi..."
+   "published_at": "2026-09-29T08:47:43+00:00",
+   "summary": "文 | 字母AI Muse刚把个人Agent推到聚光灯下，Manus就带着它的“Agent团队”回来了。 9月28日，Manus 2.0正式登场。 这一次，Manus直接给每个Agent配了一套“家当”：一台电脑、一个邮箱、一个电话号码，还有一个可以花钱的钱包。 这些Agent不只可以各自干活，还能被拉进同一个群聊里组队，分工合作，交接彼此的结果。 一天之后，Manus创始人肖弘在即刻发了一篇长文，专门解释他们为什么把产品做成这样。 他..."
   },
   {
    "rank": 20,
-   "title": "人形机器人涌入主题公园：赛博NPC真能赚钱吗？",
+   "title": "Agent扎堆金融：一场真正的AI大考开始了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4002932610275201",
-   "score": 5.5,
+   "url": "https://www.tmtpost.com/8155852.html",
+   "score": 6.0,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "tmtpost",
+    "36kr-ai"
    ],
    "titles": [
-    "人形机器人涌入主题公园：赛博NPC真能赚钱吗？",
-    "人形机器人涌入主题公园：赛博NPC真能赚钱吗？"
+    "Agent扎堆金融：一场真正的AI大考开始了",
+    "Agent扎堆金融：一场真正的AI大考开始了"
    ],
-   "published_at": "2026-09-28T11:34:03.000000+00:00",
-   "summary": "9月24日，全球首个大型具身智能主题乐园在珠海横琴长隆飞船乐园正式开园。 据悉，该园区由智元与长隆联合建设，部署超300台机器人，设100多个交互点，开园当日举行全球最大规模常态化人机共舞及全球首创机器人空中飞人演艺，并揭牌“具身智能文旅联合研究院”。 这两年，机器人表演，成为大街小巷常见的风景。 各大科技馆、主题乐园争相拥抱这股东风，把机器人当成撬动客流的流量密码。 暑期期间，上海海昌海洋公园携手智元机器人等三家企业，上线全园全域机器..."
+   "published_at": "2026-09-29T10:03:29+00:00",
+   "summary": "文 | 产业家 金融是人类商业社会中“信任体系”的最高形态，这套在最严苛环境下磨炼出来的智能体准入、权限划分、操作审计与熔断机制，是一套严格的Agent工业级标准。 未来，这套机制可以毫不费力地下沉到自动驾驶的调度计费、智能制造的供应链自动采购、乃至智能政务的资金划拨之中。站在这个角度来看，金融行业今天在Agent落地中踩的所有坑、立的所有规矩，实际上是在替未来整个智能商业世界打造Agent的“信任样板”。 2026年以来，金融行业正在..."
   }
  ]
 }
