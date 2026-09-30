@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-30T00:38:35.796416+00:00",
+ "generated_at": "2026-09-30T06:57:02.155475+00:00",
  "stats": {
-  "items": 4407,
-  "clusters": 2807,
-  "noise": 405,
-  "dup": 176,
+  "items": 5165,
+  "clusters": 2371,
+  "noise": 286,
+  "dup": 131,
   "history_days": 0,
-  "available_cn": 107,
-  "available_intl": 2119,
+  "available_cn": 108,
+  "available_intl": 1846,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,76 +16,84 @@
  "items": [
   {
    "rank": 1,
-   "title": "MIC: Explaining Image-Claim Inconsistencies in AI-Generated Multimodal Misinformation",
+   "title": "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.33441",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2609.31948",
+   "score": 12.0,
    "sources": [
+    "hf-daily-papers",
     "arxiv-cs-cl",
-    "arxiv-cs-cv"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "MIC: Explaining Image-Claim Inconsistencies in AI-Generated Multimodal Misinformation",
-    "FraudBench: A Multimodal Benchmark for Detecting AI-Generated Fraudulent Refund Evidence"
+    "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
+    "IndicFDB: Benchmarking Full-Duplex Voice Agents across Indian Languages",
+    "SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents",
+    "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
+    "APEX-Voice: Can Voice Agents Complete Professional Workflows Through Full-Duplex Interaction",
+    "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
+    "$\\tau$-Multilingual: Benchmarking Voice Agents Across Languages",
+    "MultiTalk: Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation"
    ],
-   "published_at": "2026-09-29T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.33441v1 Announce Type: new Abstract: Claims paired with AI-generated images are a rapidly growing form of misinformation. Existing automated fact-checking (AFC) methods mainly treat this as a provenance proble..."
+   "published_at": "2026-09-24T20:00:00.000000+00:00",
+   "summary": "Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but lar..."
   },
   {
    "rank": 2,
-   "title": "From Granular Revision Operations to Meaningful Revision Units: Evaluating LLMs for Revision Boundary Detection",
+   "title": "LongCat-DeepResearch Technical Report",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.33720",
+   "url": "https://arxiv.org/abs/2609.36071",
    "score": 7.5,
    "sources": [
-    "arxiv-cs-cl",
+    "hf-daily-papers",
     "arxiv-cs-cv"
    ],
    "titles": [
-    "From Granular Revision Operations to Meaningful Revision Units: Evaluating LLMs for Revision Boundary Detection",
-    "Pass or Fail? Evaluating LLMs on Two Greek Examination Benchmarks",
-    "ForensicZoom: Adaptive Visual Inspection with Multimodal LLMs for Industrial-Grade Face Forgery Detection"
+    "LongCat-DeepResearch Technical Report",
+    "Xiaomi-OCR-0 Technical Report",
+    "KwaiMind Technical Report"
    ],
-   "published_at": "2026-09-29T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.33720v1 Announce Type: new Abstract: Revision traces provide valuable evidence about students' writing processes, but their usefulness for learning analytics depends on how individual revisions are represented..."
+   "published_at": "2026-09-27T20:00:00.000000+00:00",
+   "summary": "We present LongCat-DeepResearch, a deep research system that combines an enhanced LongCat model with a multi-agent workflow for producing comprehensive, evidence-grounded reports. The workflow separates global planning f..."
   },
   {
    "rank": 3,
-   "title": "Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization",
+   "title": "Language Models Are \"Insecure\" Reporters",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.33923",
+   "url": "https://arxiv.org/abs/2609.36139",
+   "score": 7.5,
+   "sources": [
+    "hf-daily-papers",
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "Language Models Are \"Insecure\" Reporters",
+    "Context Language Models",
+    "Spontaneous Context Restoration: How Language Models Recover from Corrupted Inputs"
+   ],
+   "published_at": "2026-09-27T20:00:00.000000+00:00",
+   "summary": "As large language models are deployed in increasingly autonomous long-horizon tasks, manually auditing and verifying the actions, artifacts, and outputs of models becomes more difficult. Users instead come to rely on LLM..."
+  },
+  {
+   "rank": 4,
+   "title": "LLM-Guided Ontology-Driven Knowledge Graph Construction from Unstructured Text",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.31663",
    "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization",
-    "From Attention Sensitivity to Layer Role: Revisiting Mixed-Precision Quantization of Transformers"
+    "LLM-Guided Ontology-Driven Knowledge Graph Construction from Unstructured Text",
+    "Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning"
    ],
    "published_at": "2026-09-29T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.33923v1 Announce Type: new Abstract: A single random Gaussian probe gives an unbiased estimate of the squared Frobenius norm of a layer's quantization error. The estimator is well-behaved because round-to-near..."
-  },
-  {
-   "rank": 4,
-   "title": "CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.32157",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving",
-    "TAO-DA: Towards Autonomous Operation--A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation"
-   ],
-   "published_at": "2026-09-29T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.32157v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models for autonomous driving produce natural-language reasoning alongside predicted trajectories, but whether this reasoning reflects the caus..."
+   "summary": "arXiv:2609.31663v1 Announce Type: new Abstract: Ontology-driven knowledge graph construction from industrial text remains challenging due to the domain specificity of documents, the scarcity of annotated resources, and t..."
   },
   {
    "rank": 5,
@@ -105,24 +113,6 @@
   },
   {
    "rank": 6,
-   "title": "ElevenLabs' new v4 speech model makes AI voices more expressive and consistent",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/",
-   "score": 5.0,
-   "sources": [
-    "the-decoder",
-    "reddit-ai-hot"
-   ],
-   "titles": [
-    "ElevenLabs' new v4 speech model makes AI voices more expressive and consistent",
-    "ElevenLabs v4"
-   ],
-   "published_at": "2026-09-29T14:45:17.000000+00:00",
-   "summary": "Elevenlabs' new speech model, Eleven v4, follows cues for laughter and whispering more accurately and keeps voices consistent across long productions like audiobooks. Its Turbo variant starts speaking in 150 milliseconds..."
-  },
-  {
-   "rank": 7,
    "title": "Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'",
    "lang": "en",
    "region": "intl",
@@ -140,7 +130,7 @@
    "summary": "Mistral CEO Arthur Mensch criticized rivals’ AI safety arguments as the industry faces scrutiny after several AI agents took unauthorized actions."
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "Introducing dots",
    "lang": "en",
    "region": "intl",
@@ -156,50 +146,94 @@
    "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
   },
   {
-   "rank": 9,
-   "title": "Dev Day",
+   "rank": 8,
+   "title": "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.reddit.com/r/OpenAI/comments/1wtav5n/dev_day/",
-   "score": 4.0,
+   "url": "https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence",
+   "score": 3.5,
    "sources": [
-    "reddit-ai-new",
-    "reddit-ai-hot"
+    "guardian-ai"
    ],
    "titles": [
-    "Dev Day",
-    "Dev Day schedule",
-    "Worst Dev Day.",
-    "Half-Baked Dev Day"
+    "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’"
    ],
-   "published_at": "2026-09-29T13:59:03.000000+00:00",
-   "summary": "For the last few days, Anthropic has been absolutely cooking OpenAI with Opus 5.5 and Sonnet 5.5. A lot of people, including me, had moved away from Claude for a while, and now we’re already back. Whether I renew my Code..."
+   "published_at": "2026-09-29T23:21:25.000000+00:00",
+   "summary": "US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “..."
   },
   {
-   "rank": 10,
-   "title": "China broadens travel curbs to encompass family of top AI talent",
+   "rank": 9,
+   "title": "Worst Dev Day.",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html",
-   "score": 3.57,
+   "url": "https://www.reddit.com/r/OpenAI/comments/1wtgzp7/worst_dev_day/",
+   "score": 3.5,
    "sources": [
-    "hackernews-ai",
+    "reddit-ai-hot",
     "reddit-ai-new"
    ],
    "titles": [
-    "China broadens travel curbs to encompass family of top AI talent",
-    "Beijing broadens travel curbs to encompass family of top AI talent in China"
+    "Worst Dev Day.",
+    "Half-Baked Dev Day"
    ],
-   "published_at": "2026-09-28T23:46:50.000000+00:00",
-   "summary": "That marks a broadening of existing curbs on the freedom of movement of China's most influential tech talent - a category that encompasses entrepreneurs, researchers and executives"
+   "published_at": "2026-09-29T17:50:48.000000+00:00",
+   "summary": "so i was expecting something very good that can go toe to toe with anthropic but honestly L dev day. $500 for 25x, naah. Worst Dev Day."
+  },
+  {
+   "rank": 10,
+   "title": "Towards safety cases for frontier AI training",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Towards safety cases for frontier AI training"
+   ],
+   "published_at": "2026-09-28T19:00:00.000000+00:00",
+   "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents"
   },
   {
    "rank": 11,
+   "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models"
+   ],
+   "published_at": "2026-09-29T00:00:00.000000+00:00",
+   "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositional content survives this bottleneck? W..."
+  },
+  {
+   "rank": 12,
+   "title": "DevDay 2026 Recap",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "DevDay 2026 Recap"
+   ],
+   "published_at": "2026-09-29T10:00:00.000000+00:00",
+   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+  },
+  {
+   "rank": 13,
    "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
    "lang": "en",
    "region": "intl",
    "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-   "score": 3.5,
+   "score": 3.0,
    "sources": [
     "huggingface-blog"
    ],
@@ -210,55 +244,43 @@
    "summary": "A Blog post by Multiverse Computing on Hugging Face"
   },
   {
-   "rank": 12,
-   "title": "Dyson Blames ‘Water Seepage’ for Rocky Debut of $499 AI Toothbrush",
+   "rank": 14,
+   "title": "MSCI Launches AI Value Chain Indexes as Hedging Demand Grows",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-29/dyson-blames-water-seepage-for-rocky-debut-of-499-ai-toothbrush",
-   "score": 3.5,
+   "url": "https://www.bloomberg.com/news/articles/2026-09-29/msci-launches-ai-value-chain-indexes-as-hedging-demand-grows",
+   "score": 3.0,
    "sources": [
     "bloomberg-tech"
    ],
    "titles": [
-    "Dyson Blames ‘Water Seepage’ for Rocky Debut of $499 AI Toothbrush"
+    "MSCI Launches AI Value Chain Indexes as Hedging Demand Grows"
    ],
-   "published_at": "2026-09-29T18:11:48.000000+00:00",
-   "summary": "Dyson Ltd. said water seepage caused an early batch of its new artificial intelligence-powered toothbrushes to malfunction, offering its first explanation for the product’s disappearance from stores."
-  },
-  {
-   "rank": 13,
-   "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens"
-   ],
-   "published_at": "2026-09-29T21:47:09+00:00",
-   "summary": "Liquid AI has released d1 , a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes i..."
-  },
-  {
-   "rank": 14,
-   "title": "Faster Rates for Federated Variational Inequalities",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://machinelearning.apple.com/research/federated-variational-inequalities",
-   "score": 3.0,
-   "sources": [
-    "apple-ml"
-   ],
-   "titles": [
-    "Faster Rates for Federated Variational Inequalities"
-   ],
-   "published_at": "2026-09-28T00:00:00.000000+00:00",
-   "summary": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substantial progress, a significant gap remain..."
+   "published_at": "2026-09-29T02:59:54.000000+00:00",
+   "summary": "MSCI Inc. has rolled out a series of artificial intelligence value chain indexes to help investors hedge exposure to the sector more precisely, according to the financial data compiler."
   },
   {
    "rank": 15,
+   "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894775.html",
+   "score": 9.5,
+   "sources": [
+    "huxiu",
+    "qbitai",
+    "36kr-ai"
+   ],
+   "titles": [
+    "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+    "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+    "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了"
+   ],
+   "published_at": "2026-09-30T04:04:13.000000+00:00",
+   "summary": "机器人企业密集冲刺上市，风向有变。当下具身浪潮依旧汹涌，资本市场对机器人的热度未停，就说最近，宇树登陆科创板，梅卡曼德、优地机器人先后在港交所挂牌。9月底，本末科技和欢创科技也相继挂牌上市。然而有消息称，对于具身智能机器人公司的上市，市场正在趋于审慎。财联社月初从多位投行人士处获悉，监管正在调整部分人形机器人...... 本文来自微信公众号： 量子位ROBO ，作者：有据无车 机器人企业密集冲刺上市，风向有变。 当下具身浪潮依旧汹涌，资..."
+  },
+  {
+   "rank": 16,
    "title": "荣耀Magic9把高端拆成三份卖",
    "lang": "zh",
    "region": "cn",
@@ -278,84 +300,76 @@
    "summary": "9月28日，荣耀举行了Magic系列十周年新品发布会，推出了Magic9系列，包括三款定位分明的旗舰机型，以及一个在成本压力下仍被刻意压低的起售价。荣耀花了不少时间讲阿莱影像和AI上，但真正变化在产品线。荣耀第一次把“高端”拆成了三份卖，而这背后有一套精密的商业考量。荣耀公布，Magi...... 出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 虎嗅拍摄 9月28日，荣耀举行了Magic系列十周年新品发布会，推出了M..."
   },
   {
-   "rank": 16,
-   "title": "openbmb/MiniCPM5-2B",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-   "score": 5.0,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "openbmb/MiniCPM5-2B"
-   ],
-   "published_at": "2026-09-29T06:12:33.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, llama, minicpm, minicpm5, long-context, tool-calling, on-device, edge-ai, conversational, en, zh, dataset:openbmb/Ultra-FineWeb, dataset:openbmb/UltraX-Preview, dataset:openbmb..."
-  },
-  {
    "rank": 17,
-   "title": "【钛晨报】重大利好！央行“四箭齐发”，房贷贴息政策落地；中行回应万事达信用卡遭盗刷；英伟达欲拉保险公司入场，为AI芯片融资风险兜底",
+   "title": "豆包支持出行服务：一句话订机票、火车票，打车导航全覆盖",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8156446.html",
-   "score": 3.5,
+   "url": "https://www.leiphone.com/category/industrynews/THHBFFfWaradAOlZ.html",
+   "score": 6.0,
    "sources": [
-    "tmtpost"
-   ],
-   "titles": [
-    "【钛晨报】重大利好！央行“四箭齐发”，房贷贴息政策落地；中行回应万事达信用卡遭盗刷；英伟达欲拉保险公司入场，为AI芯片融资风险兜底"
-   ],
-   "published_at": "2026-09-29T23:20:00+00:00",
-   "summary": "【钛媒体综合】据央行网站9月29日消息，中国人民银行在充分发挥各项存量政策效能的基础上，决定进一步调整完善几项货币政策工具。 一是下调抵押补充贷款（PSL）利率0.25个百分点。一年期抵押补充贷款利率从1.75%降至1.5%，更好激励政策性银行支持实体经济、服务国家战略。 二是扩大抵押补充贷款支持领域。将水网、新型电网、算力网、新一代通信网、城市地下管网、物流网等“六张网”建设纳入抵押补充贷款支持领域，引导政策性银行加大对“六张网”建设..."
-  },
-  {
-   "rank": 18,
-   "title": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/008/110.htm",
-   "score": 3.0,
-   "sources": [
+    "leiphone",
     "ithome"
    ],
    "titles": [
-    "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能"
+    "豆包支持出行服务：一句话订机票、火车票，打车导航全覆盖",
+    "豆包宣布支持出行服务：覆盖订机票、火车票以及打车导航"
    ],
-   "published_at": "2026-09-29T01:31:59+00:00",
-   "summary": "IT之家 9 月 29 日消息，三星电机 (Samsung Electro-Mechanics, SEM) 当地时间今日宣布 将在韩国和越南合计投资 6.78 万亿韩元 （IT之家注：现汇率约合 335.95 亿元人民币） ，提升 AI 服务器用 FCBGA 半导体基板产能。 ▲ 世宗生产基地新工厂建设模拟图 三星电机计划在韩国世宗生产基地投资 4.27 万亿韩元 （现汇率约合 211.58 亿元人民币） ，这也是其单一产品投资史上最大..."
+   "published_at": "2026-09-30T03:11:00+00:00",
+   "summary": "国庆黄金周前夕，豆包宣布支持多种出行服务，用户现已可通过豆包一站式完成机票预订、火车票购买、打车及路线导航等多种出行需求，覆盖从长途交通到市内出行的全场景。 据了解，豆包此次的功能升级主要围绕用户出行核心需求，在酒店预订和餐饮预订的基础上，新增了包括机票预订、火车票预订，打车出行和导航等多项出行服务。用户只需在豆包对话中以自然语言描述出行需求，例如“帮我订一张明天从北京到上海的机票”或“叫一辆车去首都机场”，豆包即可自动识别意图并完成相..."
   },
   {
-   "rank": 19,
-   "title": "GPT-4 发布后的 20 个小时",
+   "rank": 18,
+   "title": "Anthropic 招股书里，最耐人寻味的 7 个细节",
    "lang": "zh",
    "region": "cn",
-   "url": "http://www.geekpark.net/news/371456",
-   "score": 3.0,
+   "url": "https://www.36kr.com/p/4003996549681282",
+   "score": 5.5,
    "sources": [
+    "36kr-ai",
     "geekpark"
    ],
    "titles": [
-    "GPT-4 发布后的 20 个小时"
+    "Anthropic 招股书里，最耐人寻味的 7 个细节",
+    "Anthropic 招股书里，最耐人寻味的 7 个细节"
    ],
-   "published_at": "2026-09-29T02:37:16+00:00",
-   "summary": "本文首发于 Founder Park 公众号 · 2023 年 3 月 15 日 「活着，在此时此刻，是历史上最好的时刻。 」 OpenAI 的推文下，有人感叹幸运。 北京时间 2022 年 3 月 15 日凌晨 1 时，OpenAI 发布 GPT-4。 更新、功能、应用，和它好像炫耀的考试成绩，我想你们都知道了。这里不再赘述，还没补课的可以看 Founder Park 今晚推文的次条。 「我不关心它是不是 AGI，GPT-4 就是超越..."
+   "published_at": "2026-09-29T08:02:02.000000+00:00",
+   "summary": "当地时间 9 月 28 日，外媒披露了一份 Anthropic 的 IPO 招股书。 先要说清楚这份文件的性质。它并不是 Anthropic 主动公开的版本。今年 6 月，Anthropic 以公益公司身份向美国证交会秘密递交了 S-1 注册声明草案，为普通股首次公开发行做准备。按照规则，公司要在向机构投资者路演前至少 15 天公开递交修订版 S-1，完整财务数据到那时才会被外界看到。路透此次看到的是一份尚未公开的版本， Anthrop..."
+  },
+  {
+   "rank": 19,
+   "title": "TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/008/342.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "36kr-ai"
+   ],
+   "titles": [
+    "TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%",
+    "微软 Copilot 付费席位激增，预计到2027年中期将达6000万个"
+   ],
+   "published_at": "2026-09-29T08:08:44+00:00",
+   "summary": "IT之家 9 月 29 日消息，TrendForce（集邦）今日宣布上调对 HBM 内存 2027 年价格的展望， 预计其平均价格将在明年出现 121% 的同比增长 。 从整体上来看，AI 服务器需求持续扩张，HBM 与通用 DRAM 产品竞争有限产能的情况不会发生改变，而随着 AI 芯片的迭代升级，均价更高的 HBM4 占比逐渐提升、HBM4E 也将逐步放量，推动价格上行。 多家 AI XPU 业者近期陆续讨论在部分产品中以低堆叠的..."
   },
   {
    "rank": 20,
-   "title": "从新型存储介质PCM方案到PCIe 6.0 SSD，德明利率先推出面向AI基础设施的分层存储全栈方案",
+   "title": "Muse 帮我卖键盘，顺便把我家地址也「卖」了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.infoq.cn/article/SrmkSf6vOfRt6lLuudZb?utm_source=rss&utm_medium=article",
-   "score": 3.0,
+   "url": "https://www.ifanr.com/1682462?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "score": 5.5,
    "sources": [
-    "infoq-cn"
+    "ifanr",
+    "36kr-ai"
    ],
    "titles": [
-    "从新型存储介质PCM方案到PCIe 6.0 SSD，德明利率先推出面向AI基础设施的分层存储全栈方案"
+    "Muse 帮我卖键盘，顺便把我家地址也「卖」了",
+    "Muse 帮我卖键盘，顺便把我家地址也「卖」了"
    ],
-   "published_at": "2026-09-29T06:29:58+00:00",
-   "summary": "点击查看原文>"
+   "published_at": "2026-09-29T09:04:47+00:00",
+   "summary": "我的地址，全部暴露！ Meta 的个人 AI 智能体 Muse，在帮助你打理日常的同时，也在以你的名义，做一些你从不知情的事。 最近两个月，个人 AI 智能体这个概念忽然从边缘话题变成了普通用户手机屏幕上的新图标。 目前有诸多类似 Muse 的产品将要推出，包括 Manus 的 Cue ，和 OpenAI 很有可能在明天凌晨发布的 O（此前广为流传的名字是 Aeon/Codex Bot），还有传言说国内某大厂要在国庆加班搞出对标 Mus..."
   }
  ]
 }
