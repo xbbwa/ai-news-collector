@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-09-30 04:57 CST
-数据窗口：最近 24 小时，4259 条原始条目 → 2764 个事件；过滤噪音 375 个，排除全部历史已推送的 158 个。
+生成时间：2026-09-30 08:38 CST
+数据窗口：最近 24 小时，4407 条原始条目 → 2807 个事件；过滤噪音 405 个，排除全部历史已推送的 176 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,146 +8,136 @@
 
 国外：
 
-## 1. AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、TechCrunch — AI、Financial Times — Technology、CNBC Technology、The Decoder（7 个来源） ｜ 热度：23.9
-- 摘要：Chipmaker Advanced Micro Devices Inc. agreed to acquire World Labs for $8.2 billion, gaining an artificial intelligence startup founded by industry pioneer and researcher Fei-Fei Li.
-- 发布时间：2026-09-29 04:05 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion
-- 同事件报道：AMD Acquires Fei-Fei Li’s World Labs for $8.2 Billion（Bloomberg Technology）
-- 同事件报道：AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion（Bloomberg Technology）
-
-## 2. ABFR-KAN: Kolmogorov-Arnold Networks for Functional Brain Analysis
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI、arXiv cs.LG（3 个来源） ｜ 热度：12.0
-- 摘要：arXiv:2601.00416v2 Announce Type: replace Abstract: Functional connectivity (FC) analysis, a valuable tool for computer-aided brain disorder diagnosis, traditionally relies on atlas-based parcellation. However, issues re...
-- 发布时间：2026-09-29 12:00 CST
-- 链接：https://arxiv.org/abs/2601.00416
-- 同事件报道：Safe Greenhouse Climate Control Using Lagrangian-Constrained PPO with Kolmogorov-Arnold Networks（arXiv cs.AI）
-- 同事件报道：Fisher Simplicity in Kolmogorov-Arnold Networks and Multilayer Perceptrons（arXiv cs.LG）
-
-## 3. The Ongiini-Eval-OW Benchmark: A Concept Paper for the Planned Benchmarking of Machine Translation and Large Language Models on Oshindonga and Oshikwanyama
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.5
-- 摘要：arXiv:2609.31727v1 Announce Type: new Abstract: Oshiwambo -- a cluster of mutually intelligible Bantu languages spoken by over a million people across northern Namibia and southern Angola, and the home language of roughl...
-- 发布时间：2026-09-29 12:00 CST
-- 链接：https://arxiv.org/abs/2609.31727
-- 同事件报道：Capability Self-Assessment in Large Language Models（arXiv cs.AI）
-
-## 4. OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories
+## 1. MIC: Explaining Image-Claim Inconsistencies in AI-Generated Multimodal Misinformation
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.CV（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2609.32810v1 Announce Type: new Abstract: Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through specialist discussions, yet benchmarks rarely capture t...
+- 摘要：arXiv:2609.33441v1 Announce Type: new Abstract: Claims paired with AI-generated images are a rapidly growing form of misinformation. Existing automated fact-checking (AFC) methods mainly treat this as a provenance proble...
 - 发布时间：2026-09-29 12:00 CST
-- 链接：https://arxiv.org/abs/2609.32810
-- 同事件报道：JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments（arXiv cs.CV）
-- 同事件报道：How Far Is Document Parsing from Solved? PureDocBench: A Source-Traceable Benchmark across Clean, Degraded, and Real-Wor...（arXiv cs.CV）
+- 链接：https://arxiv.org/abs/2609.33441
+- 同事件报道：FraudBench: A Multimodal Benchmark for Detecting AI-Generated Fraudulent Refund Evidence（arXiv cs.CV）
 
-## 5. Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents
+## 2. From Granular Revision Operations to Meaningful Revision Units: Evaluating LLMs for Revision Boundary Detection
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.CV（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2609.33720v1 Announce Type: new Abstract: Revision traces provide valuable evidence about students' writing processes, but their usefulness for learning analytics depends on how individual revisions are represented...
+- 发布时间：2026-09-29 12:00 CST
+- 链接：https://arxiv.org/abs/2609.33720
+- 同事件报道：Pass or Fail? Evaluating LLMs on Two Greek Examination Benchmarks（arXiv cs.CL）
+- 同事件报道：ForensicZoom: Adaptive Visual Inspection with Multimodal LLMs for Industrial-Grade Face Forgery Detection（arXiv cs.CV）
+
+## 3. Quantization Error Is Spectrally Flat: A Single Random Probe Is a Calibrated, Data-Free Sensitivity Estimator, with Application to Budget-Targeted Mixed-Precision Quantization
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2609.33226v1 Announce Type: new Abstract: Memory is a core component of conversational agents, enabling coherent and context-aware behavior over long interactions. Recent approaches commonly rely on LLM-based memor...
+- 摘要：arXiv:2609.33923v1 Announce Type: new Abstract: A single random Gaussian probe gives an unbiased estimate of the squared Frobenius norm of a layer's quantization error. The estimator is well-behaved because round-to-near...
 - 发布时间：2026-09-29 12:00 CST
-- 链接：https://arxiv.org/abs/2609.33226
-- 同事件报道：AuthorityLens: Rethinking LLM-Based Agent Systems Through the Lens of Authority（arXiv cs.AI）
+- 链接：https://arxiv.org/abs/2609.33923
+- 同事件报道：From Attention Sensitivity to Layer Role: Revisiting Mixed-Precision Quantization of Transformers（arXiv cs.AI）
 
-## 6. Introducing Quine: An AI research system designed for the complexity of biology
-- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog、智源社区（2 个来源） ｜ 热度：7.0
-- 摘要：At a glance Quine (opens in new tab) is a research effort to create a multimodal world model of biology and an interactive harness connecting models, scientific tools, literature, and researchers. In collaboration with r...
-- 发布时间：2026-09-29 22:00 CST
-- 链接：https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/
-- 同事件报道：Introducing Quine: An AI research system designed for the complexity of biology（智源社区）
+## 4. CausalDriveBench: Evaluating Causal Reasoning in Vision-Language-Action Models for Autonomous Driving
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2609.32157v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models for autonomous driving produce natural-language reasoning alongside predicted trajectories, but whether this reasoning reflects the caus...
+- 发布时间：2026-09-29 12:00 CST
+- 链接：https://arxiv.org/abs/2609.32157
+- 同事件报道：TAO-DA: Towards Autonomous Operation--A Dual-Arm Vision-Language-Action Model for Coordinated Manipulation（arXiv cs.AI）
 
-## 7. Nvidia Debuts System Meant to Stop AI Agents From Going Awry
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、IEEE Spectrum — AI（2 个来源） ｜ 热度：6.5
-- 摘要：Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would have prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.
-- 发布时间：2026-09-28 17:00 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry
-- 同事件报道：How to Stop AI Agents From Secretly Collaborating（IEEE Spectrum — AI）
+## 5. nvidia/GLM-5.3-Flash-NVFP4
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：image-text-to-text, Model Optimizer, safetensors, glm5_next, nvidia, ModelOpt, GLM-5, quantized, FP4, fp4, conversational, base_model:zai-org/GLM-5.3-Flash, base_model:quantized:zai-org/GLM-5.3-Flash, license:mit, 8-bit,...
+- 发布时间：2026-09-30 05:30 CST
+- 链接：https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4
 
-## 8. Nvidia launches new platform for reining in rogue AI agents
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Axios（2 个来源） ｜ 热度：6.5
-- 摘要：Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to br...
-- 发布时间：2026-09-29 02:31 CST
-- 链接：https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/
-- 同事件报道：Nvidia says new tool can contain rogue AI agents in "milliseconds"（Axios）
+## 6. ElevenLabs' new v4 speech model makes AI voices more expressive and consistent
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder、Reddit AI subreddits (hot)（2 个来源） ｜ 热度：5.0
+- 摘要：Elevenlabs' new speech model, Eleven v4, follows cues for laughter and whispering more accurately and keeps voices consistent across long productions like audiobooks. Its Turbo variant starts speaking in 150 milliseconds...
+- 发布时间：2026-09-29 22:45 CST
+- 链接：https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/
+- 同事件报道：ElevenLabs v4（Reddit AI subreddits (hot)）
 
-## 9. One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact
-- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog、智源社区（2 个来源） ｜ 热度：5.5
-- 摘要：On July 24, 2025, Microsoft Research Asia – Singapore (MSRA – Singapore) opened its doors as Microsoft’s first research lab in Southeast Asia. The launch built on more than two decades of collaboration between Microsoft...
-- 发布时间：2026-09-29 05:00 CST
-- 链接：https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/
-- 同事件报道：One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact（智源社区）
+## 7. Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'
+- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
+- 摘要：Mistral CEO Arthur Mensch criticized rivals’ AI safety arguments as the industry faces scrutiny after several AI agents took unauthorized actions.
+- 发布时间：2026-09-29 16:20 CST
+- 链接：https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html
+- 同事件报道：Mistral CEO accuses competitors of 'negligence'（Hacker News (AI stories)）
 
-## 10. Florida seeks a ban on ChatGPT acting like a person
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder（2 个来源） ｜ 热度：5.5
-- 摘要：Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from "giving ChatGPT false human attributes," a few months after Florida sued the AI company over safety concerns . According to Uthmeier, us...
-- 发布时间：2026-09-29 01:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids
-- 同事件报道：Florida wants a court to stop ChatGPT from pretending to be human and talking to kids（The Decoder）
+## 8. Introducing dots
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.0
+- 摘要：Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.
+- 发布时间：2026-09-29 08:00 CST
+- 链接：https://openai.com/index/introducing-dots
 
-## 11. House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction
-- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
-- 摘要：House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.
-- 发布时间：2026-09-29 21:37 CST
-- 链接：https://www.cnbc.com/2026/09/29/ai-safety-regulation-mike-johnson-congress.html
-- 同事件报道：House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction（Reddit AI subreddits (new)）
+## 9. Dev Day
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Reddit AI subreddits (hot)（2 个来源） ｜ 热度：4.0
+- 摘要：For the last few days, Anthropic has been absolutely cooking OpenAI with Opus 5.5 and Sonnet 5.5. A lot of people, including me, had moved away from Claude for a while, and now we’re already back. Whether I renew my Code...
+- 发布时间：2026-09-29 21:59 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1wtav5n/dev_day/
+- 同事件报道：Dev Day schedule（Reddit AI subreddits (new)）
+- 同事件报道：Worst Dev Day.（Reddit AI subreddits (hot)）
 
-## 12. Introducing GPT-6.1 Sol
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.5
-- 摘要：Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.
-- 发布时间：2026-09-29 18:00 CST
-- 链接：https://openai.com/index/introducing-gpt-6-1-sol
+## 10. China broadens travel curbs to encompass family of top AI talent
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.57
+- 摘要：That marks a broadening of existing curbs on the freedom of movement of China's most influential tech talent - a category that encompasses entrepreneurs, researchers and executives
+- 发布时间：2026-09-29 07:46 CST
+- 链接：https://www.business-standard.com/world-news/china-broadens-travel-curbs-to-encompass-family-of-top-ai-talent-126092801465_1.html
+- 同事件报道：Beijing broadens travel curbs to encompass family of top AI talent in China（Reddit AI subreddits (new)）
 
-## 13. Bill Gates's Blunt Warning on A.I
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.07
-- 发布时间：2026-09-29 23:47 CST
-- 链接：https://www.nytimes.com/2026/09/29/opinion/ezra-klein-podcast-bill-gates.html
-- 同事件报道：Bill Gates on job disruption from A.I.（Reddit AI subreddits (new)）
+## 11. Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
+- 摘要：A Blog post by Multiverse Computing on Hugging Face
+- 发布时间：2026-09-29 21:07 CST
+- 链接：https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
 
-## 14. How we found 24 Android vulnerabilities using our open source AI security agent
-- 地区：国外源 ｜ 语言：en ｜ 来源：GitHub Blog（1 个来源） ｜ 热度：4.0
-- 摘要：With the rise of AI in the security space, our team created the GitHub Security Lab Taskflow Agent as a way for security researchers to easily automate, package, and share the AI prompts and workflows that they find effe...
-- 发布时间：2026-09-29 03:00 CST
-- 链接：https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/
+## 12. Dyson Blames ‘Water Seepage’ for Rocky Debut of $499 AI Toothbrush
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：3.5
+- 摘要：Dyson Ltd. said water seepage caused an early batch of its new artificial intelligence-powered toothbrushes to malfunction, offering its first explanation for the product’s disappearance from stores.
+- 发布时间：2026-09-30 02:11 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-29/dyson-blames-water-seepage-for-rocky-debut-of-499-ai-toothbrush
+
+## 13. Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
+- 摘要：Liquid AI has released d1 , a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes i...
+- 发布时间：2026-09-30 05:47 CST
+- 链接：https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/
+
+## 14. Faster Rates for Federated Variational Inequalities
+- 地区：国外源 ｜ 语言：en ｜ 来源：Apple Machine Learning Research（1 个来源） ｜ 热度：3.0
+- 摘要：In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substantial progress, a significant gap remain...
+- 发布时间：2026-09-28 08:00 CST
+- 链接：https://machinelearning.apple.com/research/federated-variational-inequalities
 
 国内：
 
-## 1. AMD 斥资 82 亿美元收购 World Labs，“AI 教母”李飞飞出任执行副总裁兼首席科学家
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、极客公园、虎嗅、钛媒体、开源中国（6 个来源） ｜ 热度：20.5
-- 摘要：IT之家 9 月 29 日消息，当地时间 28 日，AMD 宣布同意以全股票交易 收购旧金山初创公司 World Labs ，交易价值约 82 亿美元 （IT之家注：现汇率约合 551 亿元人民币） 。 World Labs 由李飞飞等人于 2024 年联合创办，主要开发“世界模型”，让 AI 根据文本、图像和视频生成或重建能够交互的 3D 环境。未来，这项技术可以用于机器人训练、工厂模拟和科学研究。 按照收购协议，李飞飞将加入 AMD...
-- 发布时间：2026-09-29 07:09 CST
-- 链接：https://www.ithome.com/1/008/076.htm
-- 同事件报道：AMD 82 亿美元收购李飞飞 AI 创业公司；Manus 推出个人 AI 助手 CUE；今年低价手机将减少 2.3 亿部｜极客早知道（极客公园）
-- 同事件报道：芯片女王82亿美元“买下”AI女王（虎嗅）
+## 1. 荣耀Magic9把高端拆成三份卖
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体、IT之家（3 个来源） ｜ 热度：9.0
+- 摘要：9月28日，荣耀举行了Magic系列十周年新品发布会，推出了Magic9系列，包括三款定位分明的旗舰机型，以及一个在成本压力下仍被刻意压低的起售价。荣耀花了不少时间讲阿莱影像和AI上，但真正变化在产品线。荣耀第一次把“高端”拆成了三份卖，而这背后有一套精密的商业考量。荣耀公布，Magi...... 出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 虎嗅拍摄 9月28日，荣耀举行了Magic系列十周年新品发布会，推出了M...
+- 发布时间：2026-09-29 16:32 CST
+- 链接：https://www.huxiu.com/article/4894563.html
+- 同事件报道：十年蜕变之作，荣耀Magic9系列写下越级答案（钛媒体）
+- 同事件报道：荣耀 Magic9 全系机型获首批“AI 智能体手机”入网认证（IT之家）
 
-## 2. 刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿
-- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、量子位、钛媒体、虎嗅、36氪 AI 频道（6 个来源） ｜ 热度：20.5
-- 摘要：智东西 编译 | 江宇 编辑 | 心缘 智东西9月29日报道，今天凌晨， AMD宣布与“AI教母”李飞飞创办的空间智能公司World Labs签署最终收购协议 ，交易全部以股票完成， 价值约82亿美元 （约合人民币550.26亿元）。 ▲（图源：苏姿丰） 交易完成后，李飞飞将加入AMD，担任执行副总裁兼首席科学家，直接向AMD董事长兼CEO苏姿丰（Lisa Su）汇报 。World Labs团队则将继续推进AI模型研究。 按照计划，这笔...
-- 发布时间：2026-09-29 07:30 CST
-- 链接：https://zhidx.com/p/597959.html
-- 同事件报道：李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地（量子位）
-- 同事件报道：550亿，苏姿丰买下李飞飞的世界模型公司（钛媒体）
-
-## 3. Jeff 开源发布：22 毫秒出一次决策的小模型、0.8B 微调在 benchmark 上逼近 Jev
-- 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国、Hacker News (AI stories)（2 个来源） ｜ 热度：7.5
-- 摘要：一个叫 Jeff 的开源项目，把「专做快速决策的小模型」这条路又往前推了一步。它是 Qwen3.5 和 Gemma 4 的微调版本，定位是“zero-shot（零样本）”分类器——你描述一个场景、列一堆选项，Jeff 一次前向计算就返回每个选项的校准概率，不生成文本、不用解析，在 RTX PRO 6000 上约 22 毫秒出一次决策，Apple M4 Max（MLX...
+## 2. openbmb/MiniCPM5-2B
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.0
+- 摘要：text-generation, transformers, safetensors, llama, minicpm, minicpm5, long-context, tool-calling, on-device, edge-ai, conversational, en, zh, dataset:openbmb/Ultra-FineWeb, dataset:openbmb/UltraX-Preview, dataset:openbmb...
 - 发布时间：2026-09-29 14:12 CST
-- 链接：https://www.oschina.net/news/502796
-- 同事件报道：Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms（Hacker News (AI stories)）
+- 链接：https://huggingface.co/openbmb/MiniCPM5-2B
 
-## 4. Agent扎堆金融：一场真正的AI大考开始了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：文 | 产业家 金融是人类商业社会中“信任体系”的最高形态，这套在最严苛环境下磨炼出来的智能体准入、权限划分、操作审计与熔断机制，是一套严格的Agent工业级标准。 未来，这套机制可以毫不费力地下沉到自动驾驶的调度计费、智能制造的供应链自动采购、乃至智能政务的资金划拨之中。站在这个角度来看，金融行业今天在Agent落地中踩的所有坑、立的所有规矩，实际上是在替未来整个智能商业世界打造Agent的“信任样板”。 2026年以来，金融行业正在...
-- 发布时间：2026-09-29 18:03 CST
-- 链接：https://www.tmtpost.com/8155852.html
-- 同事件报道：Agent扎堆金融：一场真正的AI大考开始了（36氪 AI 频道）
+## 3. 【钛晨报】重大利好！央行“四箭齐发”，房贷贴息政策落地；中行回应万事达信用卡遭盗刷；英伟达欲拉保险公司入场，为AI芯片融资风险兜底
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体（1 个来源） ｜ 热度：3.5
+- 摘要：【钛媒体综合】据央行网站9月29日消息，中国人民银行在充分发挥各项存量政策效能的基础上，决定进一步调整完善几项货币政策工具。 一是下调抵押补充贷款（PSL）利率0.25个百分点。一年期抵押补充贷款利率从1.75%降至1.5%，更好激励政策性银行支持实体经济、服务国家战略。 二是扩大抵押补充贷款支持领域。将水网、新型电网、算力网、新一代通信网、城市地下管网、物流网等“六张网”建设纳入抵押补充贷款支持领域，引导政策性银行加大对“六张网”建设...
+- 发布时间：2026-09-30 07:20 CST
+- 链接：https://www.tmtpost.com/8156446.html
 
-## 5. 当“AI饲料”，我都被AI嫌弃了？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了OpenAI和微软的内部记录。材料显示，OpenAI和微软通过采集别人生产的内容，训练自己的模型。但这并不是个例，我们在网上记录的点点滴滴，如今正逐渐变成AI的“饲料”。AI不会给你点赞、收藏或者转发，因为它压根不理解你创作的内容，只是把你留下的...... 本文来自微信公众号： 字母AI ，作者：苗正 2026年9月18日，纽约南区联邦法院解封了一批文件，里面包含了Ope...
-- 发布时间：2026-09-29 16:22 CST
-- 链接：https://www.huxiu.com/article/4894565.html
-- 同事件报道：当“AI饲料”，我都被AI嫌弃了？（36氪 AI 频道）
+## 4. 三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
+- 摘要：IT之家 9 月 29 日消息，三星电机 (Samsung Electro-Mechanics, SEM) 当地时间今日宣布 将在韩国和越南合计投资 6.78 万亿韩元 （IT之家注：现汇率约合 335.95 亿元人民币） ，提升 AI 服务器用 FCBGA 半导体基板产能。 ▲ 世宗生产基地新工厂建设模拟图 三星电机计划在韩国世宗生产基地投资 4.27 万亿韩元 （现汇率约合 211.58 亿元人民币） ，这也是其单一产品投资史上最大...
+- 发布时间：2026-09-29 09:31 CST
+- 链接：https://www.ithome.com/1/008/110.htm
 
-## 6. Manus这次，直接冲着“人”去了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：文 | 字母AI Muse刚把个人Agent推到聚光灯下，Manus就带着它的“Agent团队”回来了。 9月28日，Manus 2.0正式登场。 这一次，Manus直接给每个Agent配了一套“家当”：一台电脑、一个邮箱、一个电话号码，还有一个可以花钱的钱包。 这些Agent不只可以各自干活，还能被拉进同一个群聊里组队，分工合作，交接彼此的结果。 一天之后，Manus创始人肖弘在即刻发了一篇长文，专门解释他们为什么把产品做成这样。 他...
-- 发布时间：2026-09-29 16:47 CST
-- 链接：https://www.tmtpost.com/8155806.html
-- 同事件报道：Manus这次，直接冲着“人”去了（36氪 AI 频道）
+## 5. GPT-4 发布后的 20 个小时
+- 地区：国内源 ｜ 语言：zh ｜ 来源：极客公园（1 个来源） ｜ 热度：3.0
+- 摘要：本文首发于 Founder Park 公众号 · 2023 年 3 月 15 日 「活着，在此时此刻，是历史上最好的时刻。 」 OpenAI 的推文下，有人感叹幸运。 北京时间 2022 年 3 月 15 日凌晨 1 时，OpenAI 发布 GPT-4。 更新、功能、应用，和它好像炫耀的考试成绩，我想你们都知道了。这里不再赘述，还没补课的可以看 Founder Park 今晚推文的次条。 「我不关心它是不是 AGI，GPT-4 就是超越...
+- 发布时间：2026-09-29 10:37 CST
+- 链接：http://www.geekpark.net/news/371456
+
+## 6. 从新型存储介质PCM方案到PCIe 6.0 SSD，德明利率先推出面向AI基础设施的分层存储全栈方案
+- 地区：国内源 ｜ 语言：zh ｜ 来源：InfoQ 中文（1 个来源） ｜ 热度：3.0
+- 摘要：点击查看原文>
+- 发布时间：2026-09-29 14:29 CST
+- 链接：https://www.infoq.cn/article/SrmkSf6vOfRt6lLuudZb?utm_source=rss&utm_medium=article

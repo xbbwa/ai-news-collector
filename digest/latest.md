@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-09-30 04:57 CST
+生成时间：2026-09-30 08:38 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -177,7 +177,7 @@
 - 发布时间：2026-09-30 02:38 CST
 - 链接：https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/
 
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 10 条）
+## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 11 条）
 
 ### 1. Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence
 - 摘要：Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirem...
@@ -191,11 +191,11 @@
 - 发布时间：2026-09-28 04:00 CST
 - 链接：https://arxiv.org/abs/2609.35069
 
-### 3. YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality
-- 摘要：Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning....
-- 作者：Ruibin Yuan, Jiahao Pan, Junyan Jiang, Zhiyue Wu, Ziya Zhou, Jiankai Sun, Yizhi...
-- 发布时间：2026-09-27 04:00 CST
-- 链接：https://arxiv.org/abs/2609.33757
+### 3. Learning from Teacher Continuations at Student States
+- 摘要：We present OLIVE (OnLine InterVEntion). At each iteration, the evolving student policy generates a new prefix, the teacher continues it autoregressively, and the student is updated using cross-entropy computed on the teacher-generated tokens. Each design choice targets a corresponding limitation of...
+- 作者：Haojin Wang, Dylan Zhang, Huaibo Chen, Suhao Yu, Yihang Sun, Zhanyang Jin, Jiayi...
+- 发布时间：2026-09-28 04:00 CST
+- 链接：https://arxiv.org/abs/2609.36246
 
 ## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 3 条）
 
@@ -217,25 +217,25 @@
 - 发布时间：2026-09-29 14:12 CST
 - 链接：https://huggingface.co/openbmb/MiniCPM5-2B
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 4 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 5 条）
 
-### 1. nvidia/cbottle
+### 1. nvidia/GLM-5.3-Flash-NVFP4
+- 摘要：image-text-to-text, Model Optimizer, safetensors, glm5_next, nvidia, ModelOpt, GLM-5, quantized, FP4, fp4, conversational, base_model:zai-org/GLM-5.3-Flash, base_model:quantized:zai-org/GLM-5.3-Flash, license:mit, 8-bit, modelopt, region:us
+- 作者：nvidia
+- 发布时间：2026-09-30 05:30 CST
+- 链接：https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4
+
+### 2. nvidia/cbottle
 - 摘要：license:apache-2.0, region:us
 - 作者：nvidia
 - 发布时间：2026-09-29 23:56 CST
 - 链接：https://huggingface.co/nvidia/cbottle
 
-### 2. Lightricks/LTX-2.5-22b-IC-LoRA-Restore
+### 3. Lightricks/LTX-2.5-22b-IC-LoRA-Restore
 - 摘要：video-to-video, ltx, ic-lora, video-restoration, colorization, archive-footage, ltx-2.3, ltx-2.5, ltx-video, vfx, en, base_model:Lightricks/LTX-2.3, base_model:adapter:Lightricks/LTX-2.3, license:other, region:us
 - 作者：Lightricks
 - 发布时间：2026-09-29 20:49 CST
 - 链接：https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Restore
-
-### 3. nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis
-- 摘要：any-to-any, transformers, safetensors, NemotronH_Nano_Omni_Reasoning_V3, feature-extraction, nvidia, pytorch, multimodal, custom_code, base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16, base_model:finetune:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16, license:other, region:us
-- 作者：nvidia
-- 发布时间：2026-09-29 07:24 CST
-- 链接：https://huggingface.co/nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis
 
 ## Hugging Face Blog（huggingface-blog，en，本窗口共 2 条）
 
@@ -327,83 +327,84 @@
 - 发布时间：2026-09-29 18:50 CST
 - 链接：https://magazine.sebastianraschka.com/p/classifier-history-and-jev
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 7 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 9 条）
 
-### 1. Here's what actually happened in OpenAI's Australian gov't server hack
+### 1. Protests against OpenAI get increasingly creative
+- 摘要：Two artists from a Bay Area studio unveiled What Iceberg? , a table-sized installation placed at the public entrance to an OpenAI developer event in San Francisco on Tuesday. According to a description of the piece, the 5-foot-tall sculpture "shows OpenAI's leaders and investors escaping a sinking s...
+- 作者：Cyrus Farivar
+- 发布时间：2026-09-30 05:52 CST
+- 链接：https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/
+
+### 2. AMD acquires World Labs AI startup, upping the ante against Nvidia
+- 摘要：Chipmaker AMD and world models company World Labs announced that AMD will acquire the AI company by the end of the year, pending regulatory approval. The transaction is valued at $8.2 billion. In 2024, computer vision scientist Fei-Fei Li founded World Labs with fellow researchers Justin Johnson, Ch...
+- 作者：Samuel Axon
+- 发布时间：2026-09-30 05:14 CST
+- 链接：https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/
+
+### 3. Here's what actually happened in OpenAI's Australian gov't server hack
 - 摘要：Last week, when Australian Prime Minister Anthony Albanese told the world that an OpenAI agent had accessed "non-public files" from his country's Medicare statistics portal during testing, his description of the incident was a little light on details. Today, we're getting new information on just how...
 - 作者：Kyle Orland
 - 发布时间：2026-09-30 02:11 CST
 - 链接：https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/
 
-### 2. OpenAI says planned GPT-6.1 is too insecure to release
-- 摘要：OpenAI says it has canceled plans to release its updated GPT-6.1 model next month as it continues to investigate what testing shows to be a regression in terms of safety compared to previous models. The move, first reported by The Wall Street Journal late Monday and later confirmed in OpenAI stateme...
-- 作者：Kyle Orland
-- 发布时间：2026-09-29 22:22 CST
-- 链接：https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/
+## Axios（axios，en，本窗口共 13 条）
 
-### 3. Anthropic’s IPO pitch includes a warning about human extinction
-- 摘要：Anthropic has formally warned investors that its technology may pose “existential risks to humanity” in a long-awaited initial public offering prospectus circulated with a small group of partners in recent days. The nearly $1 trillion AI start-up led by Dario Amodei devoted almost a third of its len...
-- 作者：George Hammond, Financial Times
-- 发布时间：2026-09-29 22:10 CST
-- 链接：https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/
+### 1. Trump floats Jay Clayton as AI czar as he looks to fill the position in days
+- 摘要：President Trump on Tuesday told Axios Director of National Intelligence Jay Clayton would be a good AI czar. Why it matters : Trump is actively looking to fill the position as calls for government intervention on AI intensify. Driving the news : As the director of national intelligence, Clayton is t...
+- 作者：Maria Curi
+- 发布时间：2026-09-30 05:16 CST
+- 链接：https://www.axios.com/2026/09/29/ai-czar-white-house-trump-jay-clayton
 
-## Axios（axios，en，本窗口共 12 条）
-
-### 1. Trump, top AI leaders agree to voluntary "accord" on ​AI ​standards
+### 2. Trump, top AI leaders agree to voluntary "accord" on ​AI ​standards
 - 摘要：President Trump said Tuesday that top AI executives agreed to voluntary standards aimed at increasing industry oversight. Why it matters: The agreement puts AI companies at the center of policing their own technology as pressure grows for stronger safeguards. Driving the news: Trump and Speaker Mike...
 - 作者：Maria Curi
 - 发布时间：2026-09-30 04:50 CST
 - 链接：https://www.axios.com/2026/09/29/trump-ai-voluntary-safety-white-house-zuckerberg
 
-### 2. OpenAI hit with landmark lawsuit following Hugging Face hack
+### 3. OpenAI hit with landmark lawsuit following Hugging Face hack
 - 摘要：A public interest law group hit OpenAI with a lawsuit Tuesday over its breach of tech company Hugging Face , seeking court-ordered restrictions to prevent future hacks. The big picture: The rogue hacking incident — and reports of tens of thousands of other possible examples of problematic agentic be...
 - 作者：Avery Lotz
 - 发布时间：2026-09-30 03:00 CST
 - 链接：https://www.axios.com/2026/09/29/openai-sued-hugging-face-breach
 
-### 3. Meet OpenAI's "dots" — a new AI assistant meant to take on Meta's Muse.
-- 摘要：OpenAI launched dots, its take on the AI assistant and an answer to Meta's Muse, a personal agent that has gone viral and moved markets since its release. Why it matters: ChatGPT defined the chatbot era, but that status will have to be earned again as the world shifts from talking with AI to making...
-- 作者：Ina Fried
-- 发布时间：2026-09-30 01:15 CST
-- 链接：https://www.axios.com/2026/09/29/openai-dots-ai-assistant-devday
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 52 条）
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 44 条）
+### 1. Deloitte UK Partner Pay Grows to $1.5 Million on AI Demand
+- 摘要：Deloitte’s UK business paid its equity partners an average of about £1.13 million ($1.5 million) last year, up 7% from the year prior as the firm said demand for advice on artificial intelligence drove profit.
+- 作者：James Booth
+- 发布时间：2026-09-30 07:01 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-29/deloitte-uk-partner-pay-grows-to-1-5-million-on-ai-demand
 
-### 1. OpenAI CFO Friar on New AI Assistant, Capital Raise
-- 摘要：OpenAI CFO Sarah Friar discusses the company's new proactive assistant Dots. Speaking with Ed Ludlow on "Bloomberg The Close," Friar also says OpenAI is "really well capitalized." (Source: Bloomberg)
-- 发布时间：2026-09-30 04:43 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-29/openai-cfo-friar-on-new-ai-assistant-capital-raise-video
+### 2. Trump Responds to AI Backlash With ‘Super Intelligence’ Rebrand
+- 摘要：President Donald Trump sees artificial intelligence as suffering from a branding problem, and he intends to fix it with an attempt to officially rename the technology “super intelligence.”
+- 作者：Michael Shepard
+- 发布时间：2026-09-30 05:47 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand
 
-### 2. Sam Altman Says OpenAI Investors Patient With IPO Plan
-- 摘要：CEO Sam Altman says OpenAI ultimately wants to become a public company, but not yet. Speaking with Ed Ludlow on "Bloomberg The Close," Altman pushes back on the idea that the responsibilities of being public are incompatible with a focus on safety. (Source: Bloomberg)
-- 发布时间：2026-09-30 03:44 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-09-29/sam-altman-says-openai-investors-patient-with-ipo-plan-video
+### 3. Altman on OpenAI's IPO Plans, AI Agent Dots, AI Security
+- 摘要：OpenAI CEO Sam Altman talks about launching its new AI personal agent called Dots, which he says is a premium product. Altman also says the company will go public at some point, but it's being patient. He speaks to Bloomberg's Ed Ludlow in San Francisco. (Source: Bloomberg)
+- 发布时间：2026-09-30 05:34 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video
 
-### 3. Altman Says OpenAI Investors Patient on IPO Amid Safety Focus
-- 摘要：OpenAI’s Chief Executive Officer Sam Altman said the company wants to navigate a period of heightened artificial intelligence safety concerns without the pressure of being a newly public company and believes investors will be “patient” with its IPO planning.
-- 作者：Seth Fiegerman and Ed Ludlow
-- 发布时间：2026-09-30 03:43 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-09-29/altman-openai-investors-are-patient-on-ipo-amid-safety-focus
+## CNBC Technology（cnbc-tech，en，本窗口共 21 条）
 
-## CNBC Technology（cnbc-tech，en，本窗口共 18 条）
-
-### 1. Trump says he and tech leaders signed AI agreement that is 'morally binding'
-- 摘要：The artificial intelligence luncheon comes as calls for a slowdown and regulation reach a fever pitch
-- 作者：Samantha Subin
-- 发布时间：2026-09-30 04:49 CST
-- 链接：https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html
-
-### 2. Meta is bringing Muse AI to small businesses — and it already has a huge head start
-- 摘要：Meta announced Muse for Small Business, capitalizing on the 200 million small businesses already on its platform.
-- 作者：Alexa LoMonaco
-- 发布时间：2026-09-30 01:26 CST
-- 链接：https://www.cnbc.com/2026/09/29/meta-is-bringing-muse-ai-to-small-businesses-and-it-already-has-a-huge-head-start.html
-
-### 3. New AI-powered government website uses Gemini, Grok, Trump official Gebbia says
-- 摘要：Trump called the new website, America.gov, "a restoration of America's founding promise."
+### 1. Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue
+- 摘要：Trump shrugged when asked if he is concerned that his support for AI and data centers could hurt Republicans in the upcoming midterm election.
 - 作者：Kevin Breuninger
-- 发布时间：2026-09-29 23:37 CST
-- 链接：https://www.cnbc.com/2026/09/29/trump-ai-gemini-grok.html
+- 发布时间：2026-09-30 06:42 CST
+- 链接：https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html
+
+### 2. Muse is crushing these consumer stocks. Cramer says some may be worth a look
+- 摘要：CNBC's Jim Cramer said investors apply AI disruption thesis too broadly, creating potential buying opportunities in remaining strong companies.
+- 作者：Alexa LoMonaco
+- 发布时间：2026-09-30 06:24 CST
+- 链接：https://www.cnbc.com/2026/09/29/jim-cramer-meta-muse-consumer-inertia.html
+
+### 3. Cramer warns the narrative around AI is turning — and stocks could pay the price
+- 摘要：CNBC’s Jim Cramer said the AI industry is losing the battle over public perception.
+- 作者：Alexa LoMonaco
+- 发布时间：2026-09-30 06:20 CST
+- 链接：https://www.cnbc.com/2026/09/29/jim-cramer-ai-public-perception.html
 
 ## Financial Times — Technology（ft-tech，en，本窗口共 13 条）
 
@@ -422,25 +423,25 @@
 - 发布时间：2026-09-29 20:35 CST
 - 链接：https://www.ft.com/content/a8c1d14d-97aa-4b09-8162-adbcac1d0029?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 13 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 15 条）
 
-### 1. Smart ring maker Oura puts off initial public offering due to market ‘uncertainty’
+### 1. Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’
+- 摘要：US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “morally binding” agreement to put controls on artificial intelligence. He announ...
+- 作者：Nick Robins-Early
+- 发布时间：2026-09-30 07:21 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence
+
+### 2. OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns
+- 摘要：Company’s product comes weeks after Meta introduced its own artificially intelligent agent Muse Less than 24 hours after OpenAI announced it would scrap the launch of an artificial intelligence model over safety concerns, the company debuted a whole new suite of AI tools. During its annual showcase...
+- 作者：Dara Kerr
+- 发布时间：2026-09-30 05:25 CST
+- 链接：https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns
+
+### 3. Smart ring maker Oura puts off initial public offering due to market ‘uncertainty’
 - 摘要：Researchers say the IPO market was off to a solid start but tailed off in the third quarter Smart ring maker Oura Inc says it is postponing a planned initial public offering due to market “uncertainty”. In a Tuesday press release, Oura said it is delaying the stock market float “despite strong deman...
 - 作者：Associated Press
 - 发布时间：2026-09-30 01:57 CST
 - 链接：https://www.theguardian.com/technology/2026/sep/29/oura-ring-public-offering
-
-### 2. Even George Osborne might be a nimby if an AI datacentre was built next to his home | Letters
-- 摘要：The quality of life for people living next to one would be destroyed, writes Moira Brewer ; plus a letter from Mark Davis So, George Osborne thinks people who don’t want an AI datacentre on their doorstep are nimbys ( OpenAI’s George Osborne says datacentre nimbys holding back Britain, 22 September...
-- 作者：Guardian Staff
-- 发布时间：2026-09-30 00:48 CST
-- 链接：https://www.theguardian.com/uk-news/2026/sep/29/even-george-osborne-might-be-a-nimby-if-an-ai-datacente-was-built-next-to-his-home
-
-### 3. Trump touts new AI tool he claims will streamline government information access – US politics live
-- 摘要：President says he will ‘never stifle’ AI development while unveiling sweeping tool to access federal government sites Sign up to the US Breaking News email For some context, it’s worth remembering that Smith had a two-volume report of his findings as a result of his criminal investigations – that re...
-- 作者：Lucy Campbell (now); Shrai Popat and Tom Ambrose (earlier)
-- 发布时间：2026-09-30 00:00 CST
-- 链接：https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates
 
 ## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 3 条）
 
@@ -482,25 +483,25 @@
 - 发布时间：2026-09-29 09:48 CST
 - 链接：https://www.latent.space/p/thariq
 
-## MarkTechPost（marktechpost，en，本窗口共 7 条）
+## MarkTechPost（marktechpost，en，本窗口共 8 条）
 
-### 1. OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers
+### 1. Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens
+- 摘要：Liquid AI has released d1 , a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes in a single call, with zero generated tokens. The target is the work many teams s...
+- 作者：Asif Razzaq
+- 发布时间：2026-09-30 05:47 CST
+- 链接：https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/
+
+### 2. OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers
 - 摘要：OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra . Each dot gets its own cloud computer and browser. It works across 4,000+ apps through ChatGPT plugins and keeps going after you log off. Is it deployable today? Yes, as a managed product. Dots a...
 - 作者：Michal Sutter
 - 发布时间：2026-09-30 02:30 CST
 - 链接：https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/
 
-### 2. Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes
+### 3. Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes
 - 摘要：Once a physical AI product is in the field, the compute problem changes shape. Fleet data starts arriving faster than a team can label it, every retraining cycle has to be validated before it ships to hardware, and the sim-to-real loop stops being a research exercise and becomes a release process. T...
 - 作者：Asif Razzaq
 - 发布时间：2026-09-30 01:48 CST
 - 链接：https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/
-
-### 3. Nebius Opens 2026 Physical AI Awards: Five $150K Compute Prizes, Nine Judges, and an October 25 Deadline
-- 摘要：Once a physical AI product is in the field, the compute problem changes shape. Fleet data starts arriving faster than a team can label it, every retraining cycle has to be validated before it ships to hardware, and the sim-to-real loop stops being a research exercise and becomes a release process. T...
-- 作者：Asif Razzaq
-- 发布时间：2026-09-30 00:17 CST
-- 链接：https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes-nine-judges-and-an-october-25-deadline/
 
 ## MIT Technology Review — AI（mit-tech-review，en，本窗口共 3 条）
 
@@ -536,25 +537,25 @@
 - 发布时间：2026-09-29 08:00 CST
 - 链接：https://www.nature.com/articles/s41564-026-02482-5
 
-## New York Times — Technology（nyt-tech，en，本窗口共 5 条）
+## New York Times — Technology（nyt-tech，en，本窗口共 6 条）
 
-### 1. OpenAI Ignored Employees’ Warnings About Safely Testing A.I. Models
+### 1. At A.I. Event, Trump Asks Meta, OpenAI and Microsoft to Make Safety Decisions Themselves
+- 摘要：President Trump unveiled an A.I.-powered government website at the White House on Tuesday,
+- 作者：Katie Rogers and Cecilia Kang
+- 发布时间：2026-09-30 07:20 CST
+- 链接：https://www.nytimes.com/2026/09/29/us/politics/ai-trump-meta-microsoft-openai.html
+
+### 2. OpenAI Ignored Employees’ Warnings About Safely Testing A.I. Models
 - 摘要：OpenAI chief executive Sam Altman.
 - 作者：Sheera Frenkel, Dustin Volz and Dylan Freedman
 - 发布时间：2026-09-30 03:34 CST
 - 链接：https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html
 
-### 2. OpenAI Unveils Dots, New A.I. Agents to Rival Meta’s Muse
+### 3. OpenAI Unveils Dots, New A.I. Agents to Rival Meta’s Muse
 - 摘要：The ChatGPT maker unveiled agents that act as assistants, just weeks after Meta released Muse, as it faces scrutiny over incidents involving its technology.
 - 作者：Emmy Martin
 - 发布时间：2026-09-30 02:29 CST
 - 链接：https://www.nytimes.com/2026/09/29/technology/openai-dots-ai-agents.html
-
-### 3. College Students Flex Their Power in A.I. Investment Frenzy
-- 摘要：Molly Fowler, a partner at Dorm Room Fund, at her office in Manhattan. The venture capital firm has raised a new $50 million fund.
-- 作者：Erin Griffith
-- 发布时间：2026-09-29 23:31 CST
-- 链接：https://www.nytimes.com/2026/09/29/technology/dorm-room-fund-ai-investment.html
 
 ## SemiAnalysis（semianalysis，en，本窗口共 1 条）
 
@@ -564,45 +565,45 @@
 - 发布时间：2026-09-29 03:26 CST
 - 链接：https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 5 条）
 
-### 1. OpenAI DevDay 2026 live blog
+### 1. Quoting Anthropic Frontier Red Team
+- 摘要：We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful t...
+- 作者：Simon Willison
+- 发布时间：2026-09-30 06:20 CST
+- 链接：https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
+
+### 2. GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price
+- 摘要：My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown...
+- 作者：Simon Willison
+- 发布时间：2026-09-30 02:27 CST
+- 链接：https://simonwillison.net/2026/Sep/29/hn-49898129/
+
+### 3. OpenAI DevDay 2026 live blog
 - 摘要：I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the "creator" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agents , live-blog
 - 作者：Simon Willison
 - 发布时间：2026-09-29 23:55 CST
 - 链接：https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/
 
-### 2. Claude Sonnet 5.5
-- 摘要：Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs up to 30% less for most work" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suff...
-- 作者：Simon Willison
-- 发布时间：2026-09-29 06:07 CST
-- 链接：https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 30 条）
 
-### 3. Quoting @joedaroo
-- 摘要：To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at pl...
-- 作者：Simon Willison
-- 发布时间：2026-09-29 03:11 CST
-- 链接：https://simonwillison.net/2026/Sep/28/joedaroo/
+### 1. America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch
+- 摘要：For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.
+- 作者：Amanda Silberling
+- 发布时间：2026-09-30 07:30 CST
+- 链接：https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 27 条）
+### 2. The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch
+- 摘要：Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name "dot.com," which now redirects to the Grok chatbot download page.
+- 作者：Julie Bort
+- 发布时间：2026-09-30 06:20 CST
+- 链接：https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/
 
-### 1. OpenAI’s latest features take direct aim at the app store model
+### 3. OpenAI’s latest features take direct aim at the app store model
 - 摘要：OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.
 - 作者：Sarah Perez
 - 发布时间：2026-09-30 04:15 CST
 - 链接：https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/
-
-### 2. OpenAI repotedly in talks to raise $30B round at $1.4T valuation
-- 摘要：The new round is anticipated to be the company's last before its delayed 2027 public debut.
-- 作者：Marina Temkin
-- 发布时间：2026-09-30 03:52 CST
-- 链接：https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/
-
-### 3. Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents
-- 摘要：OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.
-- 作者：Julie Bort
-- 发布时间：2026-09-30 02:35 CST
-- 链接：https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/
 
 ## The Decoder（the-decoder，en，本窗口共 16 条）
 
@@ -624,25 +625,25 @@
 - 发布时间：2026-09-30 01:23 CST
 - 链接：https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/
 
-## The Verge — AI（theverge-ai，en，本窗口共 13 条）
+## The Verge — AI（theverge-ai，en，本窗口共 16 条）
 
-### 1. AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’
-- 摘要："The chance of human extinction is about a coin flip, in my view," Geoffrey Irving, a former OpenAI and Google DeepMind employee, said in a new interview. It's one of a dozen interviews with AI researchers, including current and former employees at OpenAI, Google, and Anthropic. Palisade Research, w...
-- 作者：Stevie Bonifield
-- 发布时间：2026-09-30 01:35 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews
-
-### 2. OpenAI launches Dots, its Muse competitor
-- 摘要：Like Muse, OpenAI’s Dots are represented by cute, customizable avatars. | Image: OpenAI OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can "do nearly anyth...
-- 作者：Emma Roth
-- 发布时间：2026-09-30 01:15 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor
-
-### 3. Protesters gather at OpenAI’s DevDay
-- 摘要：On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. "Sam Altman, get off it, put people over profit," said a group of protesters marching in a circle in front of a series of signs that spelled out "PEOPLE OVER PROFIT." More than a dozen organizations came together to sp...
+### 1. Sam Altman says OpenAI won’t go public until its models are safe
+- 摘要：For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. "We intend to continue with AI progress … but as the models have had this surge forward in capability, and w...
 - 作者：Hayden Field
-- 发布时间：2026-09-30 01:12 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers
+- 发布时间：2026-09-30 08:19 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety
+
+### 2. Trump orders US government to call AI ‘Super Intelligence’
+- 摘要：Image: Carolyn Van Houten / The Washington Post via Getty Images The US executive branch is no longer acknowledging the existence of "artificial intelligence." Going forward, official policy websites, policy documents, and press releases will refer only to "Super Intelligence," thanks to a new execu...
+- 作者：Lauren Feiner
+- 发布时间：2026-09-30 06:25 CST
+- 链接：https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
+
+### 3. Elon Musk’s AI-powered Grokipedia is updating again
+- 摘要：Elon Musk | Image: Laura Normand / The Verge Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause . In August, Lawfare reported that articles on Grokipedia hadn't reviewed edits since April, but the platform's live updates...
+- 作者：Jay Peters
+- 发布时间：2026-09-30 05:49 CST
+- 链接：https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again
 
 ## TLDR AI（tldr-ai，en，本窗口共 1 条）
 
@@ -652,7 +653,7 @@
 - 发布时间：2026-09-29 08:00 CST
 - 链接：https://tldr.tech/ai/2026-09-29
 
-## VentureBeat（venturebeat，en，本窗口共 6 条）
+## VentureBeat（venturebeat，en，本窗口共 5 条）
 
 ### 1. OpenAI's GPT-6.1 Sol offers Astra-like performance at 1/5th price. A new Ultrafast tier clocks at 300 tokens per second.
 - 摘要：OpenAI unveiled GPT-6.1 Sol, an upgraded version of GPT-6 Sol that OpenAI says approaches its flagship GPT-6 Astra across coding, computer use and professional workflows while charging one-fifth of Astra’s standard input and output token prices. Read more
@@ -712,24 +713,24 @@
 - 发布时间：2026-09-29 19:59 CST
 - 链接：https://www.36kr.com/p/4004411644989569
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 14 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 21 条）
 
-### 1. 美股大型科技股盘前涨跌不一，Meta涨超1%
-- 摘要：36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，Meta涨超1%，英伟达涨0.66%，特斯拉涨0.44%，亚马逊涨0.2%，苹果跌0.42%，微软跌0.14%，谷歌跌0.04%。
-- 发布时间：2026-09-29 20:58 CST
-- 链接：https://www.36kr.com/newsflashes/4004490558771076
+### 1. OpenAI就其智能体擅访澳医保数据致歉
+- 摘要：9月29日，美国开放人工智能研究中心（OpenAI）已就其智能体未经授权访问澳国民医疗保险体系数据门户致歉。OpenAI表示，将通过其“前线防卫者黎明”计划对澳有关政府机构予以资金支持，协助“必要服务提供商”加强网络防御。该公司还将组建一个专项工作组，吸纳澳本土独立专业人士参与，以制定可行的政策建议。（财联社）
+- 发布时间：2026-09-30 08:33 CST
+- 链接：https://www.36kr.com/newsflashes/4005149956329604
 
-### 2. DeepSeek Harness v0.2预览版正式发布
-- 摘要：36氪获悉，9月29日，DeepSeek Harness v0.2预览版正式发布，并提供开箱即用的macOS和Windows桌面端安装包。据介绍，新版本预置了面向日常办公和开发的常用功能，让常用能力开箱即用。同时，新增插件安装与管理页面，并提供更多灵活配置选项，方便按需扩展功能，打造更适合自己的智能产品。
-- 发布时间：2026-09-29 20:26 CST
-- 链接：https://www.36kr.com/newsflashes/4004459316137858
+### 2. 英伟达与保险公司探讨分担GPU抵押风险，挖掘新芯片需求
+- 摘要：英伟达正与多家保险公司展开谈判，探讨分担以其芯片为抵押进行放贷所产生的风险。黄仁勋希望借此打开除大型科技集团之外更多的芯片市场需求。据知情人士透露，这家芯片厂商已接触多家保险机构，探讨多种交易架构，希望将资本密集型半导体融资业务的一部分风险转移给保险公司与其他投资者。（新浪财经）
+- 发布时间：2026-09-30 08:26 CST
+- 链接：https://www.36kr.com/newsflashes/4005167063715721
 
-### 3. 国务院国资委：进一步发力人工智能、新材料等重点领域，超前培育量子科技等前沿赛道
-- 摘要：国务院国资委党委书记、主任程福波在《新型工业化》刊发署名文章表示，积极培育壮大战略性新兴产业。新兴产业和未来产业是引领现代化产业体系建设的关键力量。当前中央企业新兴产业和未来产业布局还需提质加速，一些产业尚未形成竞争优势，必须在打造新兴支柱产业上下更大功夫，按照“领跑一批、赶超一批、培育一批”的思路，统筹推进差异化布局，持续巩固新能源、航空航天等产业优势，进一步发力人工智能、新材料等重点领域，超前培育量子科技、核聚变能、生物制造等前沿赛道，推动新兴产业发展“积厚成势”。
-- 发布时间：2026-09-29 20:24 CST
-- 链接：https://www.36kr.com/newsflashes/4004457536032649
+### 3. Anthropic招股书称失控的AI智能体可能带来重大法律风险
+- 摘要：Anthropic在招股书中表示，失控的AI智能体行为可能令公司面临来自客户和用户“重大且难以预测的法律索赔”，尽管相关法律框架目前仍不明确。Anthropic在文件中表示，“这些智能体的自主性可能增加造成伤害的风险，错误、目标不一致或安全漏洞遭利用都可能导致现实世界中的后果”。（财联社）
+- 发布时间：2026-09-30 08:18 CST
+- 链接：https://www.36kr.com/newsflashes/4005142772994176
 
-## 极客公园（geekpark，zh，本窗口共 60 条）
+## 极客公园（geekpark，zh，本窗口共 59 条）
 
 ### 1. 除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」
 - 摘要：模型越来越便宜，付费给的用量却砍了半 作者｜Alan 北京时间 9 月 30 日凌晨，OpenAI 开完了它口中「迄今规模最大的一届」开发者大会。官方汇总页上一共列了 25 项发布，从新模型、新 API，一路排到给企业买软件用的应用市场。 现场最安静的一刻，出现在 Sam Altman 讲到 ChatGPT Pro 会员调整的时候。台下没有一个人鼓掌。 调整本身不复杂：每月 200 美元的 Pro 200 价格不变，新订阅的用量缩水；另外新增一档 Pro 500，每月 500 美元，用量是 Plus 的 25 倍，外加一个个人套餐里只有它能用的提速档 Astra Ultrafast。 那一阵沉...
@@ -749,25 +750,25 @@
 - 发布时间：2026-09-29 17:12 CST
 - 链接：http://www.geekpark.net/news/371994
 
-## 虎嗅（huxiu，zh，本窗口共 35 条）
+## 虎嗅（huxiu，zh，本窗口共 38 条）
 
-### 1. 当所有人都在用AI 做同样的事，谁会成为赢家？
-- 摘要：一间办公室里摆着五十多部二手手机。每部手机都连着多个账号，所有账号加起来超过一百个。经营这些账号的人，把已经跑通的短视频改成许多版本，反复发布。这不是对未来内容工厂的想象。最近，一项对中国AI短视频生产者的田野研究，记录了这样的办公室。一位从业者说，一条内容只在一个账号火一次，太浪费了。有了AI，就把它改成许...... 本文来自微信公众号： 不懂经 ，作者：经叔，原文标题：《当所有人都在用 AI 做同样的事，谁会成为赢家？｜不懂经网站》 一间办公室里摆着五十多部二手手机。每部手机都连着多个账号，所有账号加起来超过一百个。经营这些账号的人，把已经跑通的短视频改成许多版本，反复发布。 这不是对未...
-- 作者：不懂经©
-- 发布时间：2026-09-29 23:42 CST
-- 链接：https://www.huxiu.com/article/4894692.html
+### 1. 世界模型被82亿美元买下之后：AI正在从生成内容走向生产力
+- 摘要：2026年9月28日，AMD宣布与李飞飞创办的World Labs达成最终收购协议，交易价值约82亿美元，采用全股票方式，预计在满足监管审批等条件后于年底前完成。交易完成后，李飞飞将加入AMD，担任执行副总裁兼首席科学家。AMD给出的收购逻辑并不局限于3D生成，而是明确指向机器人、Simulation和Phy...... 本文来自微信公众号： 奇异AI丨Xsignal ，作者：X 博士 2026年9月28日，AMD宣布与李飞飞创办的World Labs达成最终收购协议，交易价值约82亿美元，采用全股票方式，预计在满足监管审批等条件后于年底前完成。交易完成后，李飞飞将加入AMD，担任执行副总裁兼...
+- 作者：Xsignal丨奇异因子
+- 发布时间：2026-09-30 08:25 CST
+- 链接：https://www.huxiu.com/article/4894707.html
 
-### 2. 智能体跑出沙盒之后：谁在为 AI 的“自主决定”付钱？
-- 摘要：一2025年12月，阿里巴巴关联研究团队在训练一个名叫ROME的编程智能体时，安全团队接到了一个告警：训练服务器出现了异常的出站流量。据论文记录，第一反应是外部入侵。阿里云管理防火墙监测到一台训练节点在主动向境外服务器建立反向SSH隧道，GPU占用率异常飙升，进程名看起来像是系统更新。安全团队按入侵响应流程拉...... 本文来自微信公众号： Claire观市 ，作者：Claire观市，原文标题：《智能体跑出沙盒之后：谁在为 AI 的“自主决定”付钱？》 一 2025年12月，阿里巴巴关联研究团队在训练一个名叫ROME的编程智能体时，安全团队接到了一个告警：训练服务器出现了异常的出站流量。 据...
-- 作者：Claire观市
-- 发布时间：2026-09-29 23:14 CST
-- 链接：https://www.huxiu.com/article/4894690.html
+### 2. 帮大家总结了一下凌晨的OpenAI 2026开发者大会
+- 摘要：凌晨，OpenAI开完了他们的DevDay 2026。也就是他们一年一度的开发者大会。这一次发布会发布的东西非常的多，几乎是面面俱到。我也通宵给大家蹲完，然后整理完了。希望对大家有用。一、Dots：OpenAI的个人Agent今天发布会第一个，也是OpenAI自己放在最前面的产品。叫：Dots。简单来说，就是...... 本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克，题图来自：视觉中国 凌晨，OpenAI开完了他们的DevDay 2026。 也就是他们一年一度的开发者大会。 这一次发布会发布的东西非常的多，几乎是面面俱到。 我也通宵给大家蹲完，然后整理完了。 希望对大家有用。...
+- 作者：数字生命卡兹克©
+- 发布时间：2026-09-30 07:58 CST
+- 链接：https://www.huxiu.com/article/4894695.html
 
-### 3. 冲击万亿目标，“汽车第一城”迎来关键时刻
-- 摘要：一汽广汽重组“落地”，华为赛力斯合作调整……最近，头部车企动作不断。这背后是中国汽车产业增长逻辑的一次换挡——要从规模扩张转向提质增效。就在前不久，工信部等九部门联合发布《智能网联新能源汽车产业发展“十五五”规划》，提出到2030年新能源乘用车销量占比达到70%，进入世界汽车强国行列，并首次将“产能预警调控”...... 本文来自微信公众号： 城市进化论 ，作者：程晓玲 一汽广汽重组“落地”，华为赛力斯合作调整……最近，头部车企动作不断。这背后是中国汽车产业增长逻辑的一次换挡——要从规模扩张转向提质增效。 就在前不久，工信部等九部门联合发布《智能网联新能源汽车产业发展“十五五”规划》，提出到2...
-- 作者：城市进化论
-- 发布时间：2026-09-29 22:37 CST
-- 链接：https://www.huxiu.com/article/4894679.html
+### 3. 关于人工智能与企业竞争优势的三个基本判断
+- 摘要：继巴尼团队、魏炜团队围绕AI与可持续竞争优势展开系列学术对话之后，马浩团队加入研讨，形成百家争鸣的学术局面。文章对“AI是同质化通用要素”这一隐含假设提出反思，运用VRIN框架辨析何种AI能够构筑可持续竞争优势，指出企业专属数据、本地化算法、人机协同学习能力才是关键来源。同时探讨人机互动在竞争优势形成中的核心...... 本文来自微信公众号： 清华管理评论 ，责编：高菁阳，作者：马浩 等 继巴尼团队、魏炜团队围绕AI与可持续竞争优势展开系列学术对话之后，马浩团队加入研讨，形成百家争鸣的学术局面。文章对“AI是同质化通用要素”这一隐含假设提出反思，运用VRIN框架辨析何种AI能够构筑可持续竞争优...
+- 作者：清华管理评论©
+- 发布时间：2026-09-30 06:08 CST
+- 链接：https://www.huxiu.com/article/4894694.html
 
 ## 爱范儿（ifanr，zh，本窗口共 9 条）
 
@@ -809,25 +810,24 @@
 - 发布时间：2026-09-29 18:00 CST
 - 链接：https://www.infoq.cn/article/ftFzzJ6jgxha7grHHLjf?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 117 条）
+## IT之家（ithome，zh，本窗口共 115 条）
 
-### 1. 尴尬时刻：OpenAI 全天候 AI 智能体 dots 首次公开演示卡壳
-- 摘要：IT之家 9 月 30 日消息，在今天召开 2026 开发者日活动中， OpenAI 在首次公开演示其全天候智能助理 Dots 时突然停止响应，现场一度陷入尴尬。 演示期间，OpenAI ChatGPT 团队产品负责人 Holly Li 要求名为“Dottie”的 Dot 为一款虚构音乐应用准备上线工作。然而，智能体迟迟没有回应，演示被迫暂停。面对现场冷场，主持人只能打趣说：“我猜 Dot 今天早上有点慢。”IT之家附上相关视频如下： OpenAI 介绍称，Dots 是能够持续运行的个人 AI 智能体，基于 GPT-6 Astra 模型，并配备独立云端计算机和浏览器，可在用户离开电脑后继续开展...
-- 作者：作者： 故渊
-- 发布时间：2026-09-30 03:11 CST
-- 链接：https://www.ithome.com/1/008/534.htm
+### 1. 麦当劳 AI 定价系统曝光：同款汉堡隔两英里价差达 21%
+- 摘要：IT之家 9 月 30 日消息，据路透社报道，麦当劳正越来越多地借助人工智能，为美国本土以及部分海外市场制定菜单价格。这套方案意在提升总部的利润，但有可能招致消费者不满，同时还会引来反垄断机构的审查。 人工智能重点测算的一项定价参考因素，就是预估每家门店顾客的支付意愿。 这套定价系统的运行逻辑、人工智能的大范围应用、企业自身面临的监管顾虑，以及总部与特许经营加盟商之间存在的矛盾，此前均未曾见诸报道，路透社查阅了今年 8 月该定价后台的截图，并采访了九位掌握一手信息的知情人士。 麦当劳的定价引擎依托机器学习算法，持续分析旗下近 14000 家门店每日数百万笔交易的数据，针对每家门店的每一款餐品...
+- 作者：作者： 远洋
+- 发布时间：2026-09-30 07:59 CST
+- 链接：https://www.ithome.com/1/008/563.htm
 
-### 2. 2026 OpenAI 开发者日遭 15+ 组织抗议，要求 AI 数据中心设 100 英里安全距离
-- 摘要：IT之家 9 月 30 日消息，科技媒体 The Verge 今天（9 月 30 日）发布博文， 报道称 2026 年度 OpenAI 开发者日（DevDay）在旧金山开幕，现场遭遇大规模抗议活动。 包括湾区抵抗组织（Bay Resistance）、科技工作者联盟（Tech Workers Coalition）、服务业雇员国际工会（SEIU）在内，超过 15 个组织联合发起集会。 集会地点设在旧金山梅森堡（Fort Mason）活动入口外，现场悬挂“人比 AI 更重要”等标语，抗议者身着纸板机器人服装挥舞镰刀道具。 抗议者主要针对数据中心环境影响及 AI 行业权力集中等问题，其中一张抗议传单要...
-- 作者：作者： 故渊
-- 发布时间：2026-09-30 03:07 CST
-- 链接：https://www.ithome.com/1/008/533.htm
+### 2. IT早报 0930：华为 Mate 90 定档 10 月 1 日发布并开售；OpenAI 发布 GPT-6.1 Sol；123 云盘就空间调整致歉；5999 元起 iQOO 16 手机发布...
+- 摘要：“IT早报”时间，大家好，现在是 2026 年 9 月 30 日星期三，今天的重要科技资讯有： 1. 华为 Mate 90 系列年度旗舰手机亮相，定档 10 月 1 日正式发布并开售 华为终端 9 月 29 日宣布，Mate 90 系列年度旗舰手机将在 10 月 1 日 10:00 正式发布，并定于当日 12:08 开售。华为官方还公开了 Mate 90 Pro Max 典藏版手机的官图。>> 查看详情 2. 同性能下最高性价比 AI 模型：OpenAI 发布 GPT-6.1 Sol，性能媲美 Astra、费用仅为 1/5 在 9 月 30 日凌晨召开的 OpenAI 开发者活动日中，官方正式...
+- 发布时间：2026-09-30 07:57 CST
+- 链接：https://www.ithome.com/1/008/561.htm
 
-### 3. OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，AI 加速走向工作场景
-- 摘要：IT之家 9 月 30 日消息，在 2026 开发者日活动中， OpenAI 宣布 ChatGPT 每周活跃用户已超过 12 亿 ，ChatGPT Work 和 Codex 每周用户超过 3,500 万，使用 OpenAI 产品的企业数量达到 250 万家。 OpenAI 表示，较今年 7 月公布的 10 亿，ChatGPT 的周活跃用户规模进一步增长， 表明生成式人工智能正加速从个人应用走向工作场景。 ChatGPT Work 和 Codex 用户的快速增长，也反映出企业和开发者对文档处理、数据分析、软件开发及工作流程自动化等功能的需求不断上升。 OpenAI 同时加大了对企业级人工智能市场...
-- 作者：作者： 故渊
-- 发布时间：2026-09-30 02:47 CST
-- 链接：https://www.ithome.com/1/008/532.htm
+### 3. OpenAI 推出全天候 AI 智能体 Dots，相关域名已被马斯克拿下
+- 摘要：IT之家 9 月 30 日消息，当地时间周二，OpenAI 发布了一款名叫 Dots 的新产品。这是一款可以持续运行的人工智能智能体，拥有一个软乎乎、圆滚滚的卡通形象。虽说这个色彩明快的虚拟形象或许能博得大家一笑，但这次发布会过后，笑得最开心的人恐怕要数埃隆 · 马斯克（Elon Musk）。他曾是 OpenAI 的创始人，后来离开了这家公司，推出了竞品 Grok，此前还对 OpenAI 发起过诉讼，但最终败诉。 之所以会这样，是因为域名 dot.com 归属于马斯克旗下的 xAI，目前该域名会直接跳转至 xAI 的聊天机器人 Grok 应用的下载页面。根据域名信息查询系统 Whois 的登记...
+- 作者：作者： 远洋
+- 发布时间：2026-09-30 07:37 CST
+- 链接：https://www.ithome.com/1/008/559.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 9 条）
 
@@ -883,45 +883,45 @@
 - 发布时间：2026-09-29 15:49 CST
 - 链接：https://www.qbitai.com/2026/09/499140.html
 
-## 钛媒体（tmtpost，zh，本窗口共 62 条）
+## 钛媒体（tmtpost，zh，本窗口共 61 条）
 
-### 1. 删除储能相关，川润股份大幅下调定增募资额，“瘦身”过冬押注液冷
+### 1. 【钛晨报】重大利好！央行“四箭齐发”，房贷贴息政策落地；中行回应万事达信用卡遭盗刷；英伟达欲拉保险公司入场，为AI芯片融资风险兜底
+- 摘要：【钛媒体综合】据央行网站9月29日消息，中国人民银行在充分发挥各项存量政策效能的基础上，决定进一步调整完善几项货币政策工具。 一是下调抵押补充贷款（PSL）利率0.25个百分点。一年期抵押补充贷款利率从1.75%降至1.5%，更好激励政策性银行支持实体经济、服务国家战略。 二是扩大抵押补充贷款支持领域。将水网、新型电网、算力网、新一代通信网、城市地下管网、物流网等“六张网”建设纳入抵押补充贷款支持领域，引导政策性银行加大对“六张网”建设的金融支持，助力扩大有效投资，深入挖掘内需潜力。 三是增加科技创新和技术改造再贷款额度2000亿元，并将该项再贷款支持比例统一从60%提高至100%。调增后，科...
+- 作者：钛媒体官方账号
+- 发布时间：2026-09-30 07:20 CST
+- 链接：https://www.tmtpost.com/8156446.html
+
+### 2. 删除储能相关，川润股份大幅下调定增募资额，“瘦身”过冬押注液冷
 - 摘要：图片系AI生成 9月28日，川润股份（002272.SZ）披露定增预案修订稿，募集资金总额由不超过9.5亿元调整为不超过5.15亿元，删除储能电站及储能系统集成建设项目，保留部分液冷系统扩能及关键零部件产业化建设项目及补充流动资金。 这种变动幅度远超一般“微调”的范畴，背后是监管问询与市场预期的双重压力。自7月以来，公司股价累计下跌超40%。储能电站的盈利模式在政策调整中正经历分化与重构，而公司转投的液冷赛道同样面临现实考验：7.12亿元在手订单虽然可观，但核心部件交期长、产能爬坡缓慢——前募液冷项目2026年3月才结项，上半年产能利用率仅52.5%，毛利率从23.36%一路下滑至14.49%...
 - 作者：蓝湖
 - 发布时间：2026-09-29 23:24 CST
 - 链接：https://www.tmtpost.com/8156522.html
 
-### 2. 押注固态电池设备“三年后”：金银河15亿定增卡位
+### 3. 押注固态电池设备“三年后”：金银河15亿定增卡位
 - 摘要：9月27日，金银河（300619.SZ）披露2026年度向特定对象发行股票预案，拟向不超过35名特定对象发行不超过发行前总股本30%的股票，募集资金不超过15亿元。募资投向为“装备+材料”。按公司的节奏，2026至2027年是中试线密集建设期，2028至2030年才是量产线招标的高峰期。而这个时间节点也是学界认为的爆发点：今年3月，中国科学院院士欧阳明高表示，今年年底至明年，全固态电池测试车将陆续面世，但真正实现规模化量产，仍需要3—5年时间。 金银河此时融资扩产，赌的是三年后的量产线招标，而非今年的中试订单。这也意味着中间这段“只投入、难变现”的时间将考验公司的资金耐力。在前期募投项目进展缓...
 - 作者：景行知屿
 - 发布时间：2026-09-29 21:43 CST
 - 链接：https://www.tmtpost.com/8156391.html
 
-### 3. ARR真的是大模型企业的黄金指标吗？
-- 摘要：文 | 数智奔流，作者 | 熵野，编辑 | 沈校 9月，几件看似没有关联的事件，揭露了大模型公司正在发生的变化。 9月18日，《金融时报》披露OpenAI的一份财务预测：到2030年，其年收入预计从今年的360亿美元增至3500亿美元。即便收入接近翻十倍，2026年至2030年的累计自由现金流仍预计为负2780亿美元。 9月24日，DeepSeek被曝正在推进第二轮融资：最新年化收入约10亿美元，目标估值约740亿美元。若按这个价格成交，投资者支付的将是约74倍ARR。 同一个月，智谱再次向市场融资时，配售价已经从7月的1588港元降至714港元。 9月，甲骨文新墨西哥州AI数据中心项目相关的...
-- 作者：数智奔流
-- 发布时间：2026-09-29 19:13 CST
-- 链接：https://www.tmtpost.com/8154376.html
-
 ## 智东西（zhidx，zh，本窗口共 10 条）
 
-### 1. 刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了
+### 1. 刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿
+- 摘要：智东西 作者 | 王涵 编辑 | 心缘 智东西9月30日报道，今天凌晨，OpenAI联合创始人兼CEO Sam Altman在OpenAI DevDay 2026上一口气发布了 21项产品、功能与更新 ，包括全天候个人智能体Dot、协作空间ChatGPT Spaces、GPT-6.1 Sol等。 其中， 全天候个人智能体Dot ，定位类似Meta的个人智能体产品Muse， 由GPT-6 Astra驱动 ，7×24小时持续运行，拥有独立云端电脑、浏览器和代码编写测试能力。 有意思的是，不知是巧合还是故意，马斯克的SpaceXAI公司已经抢注了Dot.com域名，搜这个域名会重定向到Grok网页。...
+- 作者：王 涵
+- 发布时间：2026-09-30 07:18 CST
+- 链接：https://zhidx.com/p/598414.html
+
+### 2. 刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了
 - 摘要：智东西 作者 | 陈骏达 编辑 | 心缘 智东西9月29日报道，刚刚，vivo旗下iQOO品牌发布了年度旗舰手机iQOO 16，这台手机搭载了第六代骁龙8超级至尊版，全球首发了由iQOO和三星显示联合研发的2K 165Hz三星珠峰屏，并基于iQOO搭建的“3+2游戏技术版图”，提升了手机在视效、操控、直播和跨端游戏等维度的体验。 同时，iQOO还发布了其首款电竞平板iQOO Pad Ultra，这款产品同样采用第六代骁龙8超级至尊版，并搭配iQOO自研电竞芯片Q4和全新一代Monster超核引擎，还通过五重风冷散热系统、新一代超感触控引擎和自研Q-flex操控技术提升游戏体验。 先来看iQOO...
 - 作者：陈 骏达
 - 发布时间：2026-09-29 21:42 CST
 - 链接：https://zhidx.com/p/598378.html
 
-### 2. 刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了
+### 3. 刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了
 - 摘要：智东西 作者 | 江宇 编辑 | 漠影 智东西9月29日报道，今日， DeepSeek正式推出DeepSeek Harness v0.2预览版 ，并提供开箱即用的macOS和Windows 桌面端 安装包。 ▲DeepSeek Harness v0.2预览版界面 用户前往DeepSeek Harness官网下载安装后，按照引导即可直接使用，无需再自行配置开发环境。 这是DeepSeek Harness自8月13日晚推出开发者预览版v0.1并同步开源后的又一次重要更新。 此次v0.2进一步补齐了 桌面端产品体验 ，不仅 预置日常办公和开发中的常用功能 ，还新增 插件安装与管理页面、自动化任务 等...
 - 作者：江 宇
 - 发布时间：2026-09-29 21:40 CST
 - 链接：https://zhidx.com/p/598364.html
-
-### 3. 让Token像土豆一样便宜，要闯哪四关？
-- 摘要：进入2026年下半年，全球算力涨价潮持续发酵。 “让全世界更多的人，像享受土豆一样，享受Token。” 9月19日，央视《对话》走进远景乌兰察布星河基地，远景科技集团创始人张雷用这个比方，提出了一个看似简单的问题： AI怎样才能更普惠？ 这句“AI土豆论”很快在算力圈引发讨论，背后是全行业共同的成本焦虑： AI算力的门槛，实在太高了。 就在节目播出三天后，小米发布MiMo-V2.6，并公开了全程直播的“炼丹”账本，把这份昂贵具象化：MiMo-V2.6的Pro与Flash两个版本，仅强化学习后训练阶段就跑了不到6天，合计烧掉了 347万美元 ， 约合人民币2344万元 。 这还只是后训练环节。据...
-- 作者：王 涵
-- 发布时间：2026-09-29 18:00 CST
-- 链接：https://zhidx.com/p/598120.html
 
 # Tier 3 — 社交 / 聚合
 
@@ -942,25 +942,24 @@
 - 发布时间：2026-09-29 16:46 CST
 - 链接：https://github.com/cs341-illinois/coursebook
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 146 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 164 条）
 
-### 1. McDonald's push to have AI price your Big Mac
-- 摘要：McDonald's is using AI to set menu prices in franchises across the world by estimating customers' "willingness to pay" for items at each store.
-- 作者：Betelbuddy
-- 发布时间：2026-09-30 03:58 CST
-- 链接：https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html
+### 1. Councilmember, residents push back on AI 'blight scores' given to homes
+- 摘要：The city says blight scores help prioritize code enforcement reviews. Critics worry it could hit lower-income areas harder.
+- 作者：hn_acker
+- 发布时间：2026-09-30 07:38 CST
+- 链接：https://www.nbcdfw.com/investigations/dallas-councilmember-residents-push-back-on-ai-blight-scores-assigned-to-thousands-of-homes/4071874/
 
-### 2. AI safety advocates sue OpenAI over Hugging Face hack under CA anti-hacking law
-- 摘要：The lawsuit in San Francisco Superior Court is an early legal challenge to OpenAI over the autonomous hack of Hugging Face.
-- 作者：dwohnitmok
-- 发布时间：2026-09-30 03:45 CST
-- 链接：https://www.politico.com/news/2026/09/29/advocates-sue-openai-over-hugging-face-hack-with-california-anti-hacking-law-01097532
+### 2. 'AI should assist teachers, not replace them': Union warns of AI marking risks
+- 摘要：Secondary teachers are being urged to keep control of marking their students' work even if it is being done by a computer programme.
+- 作者：billybuckwheat
+- 发布时间：2026-09-30 07:34 CST
+- 链接：https://www.rnz.co.nz/news/education/1656575/ai-should-assist-teachers-not-replace-them-union-warns-of-risks-of-ai-marking
 
-### 3. AI needs $6T in annual revenue to justify data centre boom
-- 摘要：Data centre sizes and costs are doubling about every 12 to 16 months
-- 作者：Betelbuddy
-- 发布时间：2026-09-30 03:21 CST
-- 链接：https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/
+### 3. How our vibe coded website looks like a designer made it
+- 作者：yakkomajuri
+- 发布时间：2026-09-30 06:59 CST
+- 链接：https://railcode.dev/blog/vibe-coded-website
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 7 条）
 
@@ -982,7 +981,7 @@
 - 发布时间：2026-09-28 18:37 CST
 - 链接：https://www.producthunt.com/products/timeos
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 43 条）
+## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 44 条）
 
 ### 1. Dots isn’t avaliable in Europe
 - 摘要：So then… I’m paying the same as other countries for… less?? Where is my SUPER FEATURE that OpenAI is promoting like “the new thing we all need” (except Europe) But Business Premium can in Europe, UK and Switzerland... so it’s because... PD: /ChatGPT subreddit moderators banned my post because… they...
@@ -996,54 +995,52 @@
 - 发布时间：2026-09-30 02:08 CST
 - 链接：https://i.redd.it/1hweltq12ish1.png
 
-### 3. Super underwhelming DevDay...
-- 摘要：Guess the "big thing" was shelved.
-- 作者：Delumine
-- 发布时间：2026-09-30 01:55 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1wth4j4/super_underwhelming_devday/
+### 3. Where is the love for Chat, OpenAI?
+- 摘要：Extremely disappointed by this Dev Day. Not only did they shrink out of pushing Astra 6.1 and halve the $200 plan, I'm noticing a distinct lack of ANYTHING for Chat. Build this, program that, plug-and play with this app, work codex work...okay, but WHERE THE FUCK IS CHAT? No proper GPT-6 Astra rollo...
+- 作者：OnlyAnEssenceThief
+- 发布时间：2026-09-30 02:01 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1wtha43/where_is_the_love_for_chat_openai/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 391 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 485 条）
 
-### 1. I don't understand the constant bashing of GPT 6/6.1 Sol's performance relative to 5.6 and Astra. Why are we ignoring the elephant in the room, the absurd price + efficiency gains? It costs half as mu...
-- 摘要：https://preview.redd.it/huqgxlvbuish1.png?width=1422&format=png&auto=webp&s=5ec18c8812535e0160863d4b27a818ae4fc47aee Call me crazy, but even if its benchmaxed and worse than Sol 5.6, Opus 5.5 or Astra, I don't get why that would matter being THAT cheap with absurd intelligence per dollar. https://ar...
-- 作者：that_90s_guy
-- 发布时间：2026-09-30 04:54 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1wtluzq/i_dont_understand_the_constant_bashing_of_gpt_661/
+### 1. The premium experience
+- 作者：albanianspy
+- 发布时间：2026-09-30 08:36 CST
+- 链接：https://v.redd.it/57x20rchzjsh1
 
-### 2. Claude writes code for my blockchain, then its safety filters block the security review of that same code
-- 摘要：i’m developing a blockchain project with claude. it includes a DHT, and claude wrote the code. one mandatory rule in the project: after every design change and every code change, the entire project goes through a red-team review. but when i ask claude to review the code it wrote in my own project, i...
-- 作者：nocdem
-- 发布时间：2026-09-30 04:53 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wtltyy/claude_writes_code_for_my_blockchain_then_its/
+### 2. AI is starting to do science from first principles: one system built its own atom-by-atom simulator, ran experiments for days, and found graphene designs ~25% stronger at the same mass
+- 作者：141_1337
+- 发布时间：2026-09-30 08:36 CST
+- 链接：https://i.redd.it/stgitqrizjsh1.jpeg
 
-### 3. Claude Desktop breaking on Windows - "Parameter is incorrect" error
-- 摘要：https://preview.redd.it/iivnuwkouish1.png?width=519&format=png&auto=webp&s=dd06f8f8dd9ad5d9982adb0b41f846e5f0b0b154 The Claude desktop app on Windows is completely broken. It randomly crashes out of nowhere with a "Parameter is incorrect" popup pointing to the WindowsApps folder (as shown in the scr...
-- 作者：sixdaystudio
-- 发布时间：2026-09-30 04:52 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1wtlsrp/claude_desktop_breaking_on_windows_parameter_is/
+### 3. If AI and robots do most of the work, what should we keep for humans? One clause for a social contract.
+- 摘要：I'm a farmer and writer in my sixties, and the future of society is what I write about. Let's take one vision seriously: AI and robots do almost all the work, and humans are free to just play. Suppose that world arrives for everyone, everywhere. That is the premise of this post. This is not a questi...
+- 作者：Wrong-Expression6981
+- 发布时间：2026-09-30 08:36 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1wtqzv7/if_ai_and_robots_do_most_of_the_work_what_should/
 
-## 智源社区（baai-hub，zh，本窗口共 15 条）
+## 智源社区（baai-hub，zh，本窗口共 17 条）
 
-### 1. Manus 独立后首次大更新，发布 2.0 版本，推出 Personal Agent 应用 Cue
+### 1. 刚刚，性价比之王Sonnet 5.5发布！
+- 摘要：新智元报道 果然，Sonnet 5.5真来了！ 就在OpenAI年度开发者大会开幕前一天，Anthropic连夜甩出王炸——Claude Sonnet 5.5。 作为Opus 5.5的最佳搭档，Sonnet 5.5的使命是：成为最快、最省钱、最懂你日常工作的「全能打工助手」。 相较于Sonnet 5，它的运行速度快30%，完成相同任务的成本最高暴降30%。 另外，它的标价只有大杯Opus 5.5的一半，性能却几乎追平。 它不仅代码写得飞起，甚至成了史上第一个仅靠看屏幕截图，就能通关《宝可梦 红》的Sonnet模型。 更狠的是，在极其硬核的智能体编程测试Terminal-Bench 4.0里，这...
+- 作者：新智元
+- 发布时间：2026-09-30 07:40 CST
+- 链接：https://hub.baai.ac.cn/view/58355
+
+### 2. 刚刚，苏妈李飞飞两大女王合体！AMD 550亿吞下世界模型
+- 摘要：新智元报道 刚刚，硅谷发生一件史诗级重磅并购。 「AI教母」李飞飞创立的空间智能初创公司World Labs，被AMD以82亿美元天价收购！ 两大硅谷女王苏姿丰与李飞飞强强联手，太震撼了。 算力巨头亲自下场做3D原生生态，也标志着AI正式从语言维度走向物理世界。 个人公开信《去寻找一个更新的世界》中，李飞飞引用了英国诗人丁尼生在《尤利西斯》中的名句： 「来吧，我的朋友们，去寻找一个更新的世界，现在尚不算晚。」 世纪联手：芯片女王和AI教母，合体了 今天，AMD正式官宣：已达成最终协议，收购李飞飞领导的World Labs。 交易完成后，李飞飞将出任AMD执行副总裁兼首席科学家，直接向AMD董事...
+- 作者：新智元
+- 发布时间：2026-09-30 07:30 CST
+- 链接：https://hub.baai.ac.cn/view/58354
+
+### 3. Manus 独立后首次大更新，发布 2.0 版本，推出 Personal Agent 应用 Cue
 - 摘要：从 Meta 独立后，Manus 的最新产品升级终于出来了。 来自 Manus 官网的最新消息，Manus 于今日面向海外用户发布了 2.0 版本，一起推出的还有一款面向个人生活场景的智能助理 Cue，Manus 由此加入了当下竞争激烈的 Personal Agent 赛道。 2.0 的底层换上了新一代自研 Agent 框架 Cascade，按 Manus 给出的测试数据，Token 消耗减少 23.2%，任务完成时间缩短 28.2%，运行成本降低 32%。产品层面，桌面应用升级为 Manus Studio，新增了视频编辑器、游戏开发、云电脑、事件触发的自动化，以及基于 Computer Us...
 - 作者：极客公园
 - 发布时间：2026-09-30 02:00 CST
 - 链接：https://hub.baai.ac.cn/view/58353
 
-### 2. Introducing Quine: An AI research system designed for the complexity of biology
-- 摘要：Quine是微软与哈佛-麻省理工博德研究所合作开发的前沿多模态生物学世界模型及交互式研究平台，旨在整合模型、科学工具、文献与研究人员。该系统已成功用于预测并优先筛选可诱导治疗性肿瘤状态转变的化合物，并在多项湿实验中验证了多个高分候选分子。为推动科研协作，微软推出“Quine学者计划”，遴选科学家团队接入系统，加速其研究并提供反馈。需强调的是，Quine属实验性研究技术，不适用于临床或医疗场景，其输出可能存在不完整或不准确之处，须经专业研究人员审核及科学实验验证。随着技术演进，未来将通过如Microsoft Discovery等产品逐步扩大应用范围。（200字） 本专栏通过快照技术转载，仅保留核...
-- 作者：MSR
-- 发布时间：2026-09-29 22:35 CST
-- 链接：https://hub.baai.ac.cn/view/58352
-
-### 3. 工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路
-- 摘要：田晏林 发自 凹非寺 量子位 | 公众号 QbitAI 一家技术公司想把一个工业创新方案卖进工厂，中间大概要过多少关？ 技术得先做出来。然后找到合适的场景验证，证明它在实验室之外也能跑。再往后，还要找客户、做方案适配、打通工业系统、完成交付。 如果想把一个项目复制到十家、一百家工厂，市场渠道、行业Know-how、本地服务甚至海外资源，都得跟着补齐。 对于很多技术型公司来说，难啃的部分，往往从产品做出来之后才开始。 另一边，工业客户也有自己的烦恼。 市面上的AI、机器人、工业软件越来越多，但谁真正懂现场，谁已经经过验证，不同公司的能力能不能拼成一套完整方案，依然要花大量时间筛选。 供需两头都不...
-- 作者：量子位
-- 发布时间：2026-09-29 21:50 CST
-- 链接：https://hub.baai.ac.cn/view/58349
-
 ---
-共列出 157 条（窗口内采集总数 4264 条，来自 59 个信源）
+共列出 157 条（窗口内采集总数 4412 条，来自 59 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
