@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-30T14:00:31.805982+00:00",
+ "generated_at": "2026-09-30T19:33:35.365897+00:00",
  "stats": {
-  "items": 2187,
-  "clusters": 1464,
-  "noise": 387,
-  "dup": 119,
+  "items": 2145,
+  "clusters": 1480,
+  "noise": 421,
+  "dup": 112,
   "history_days": 0,
-  "available_cn": 124,
-  "available_intl": 834,
+  "available_cn": 108,
+  "available_intl": 839,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,64 +16,26 @@
  "items": [
   {
    "rank": 1,
-   "title": "AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search",
+   "title": "Google is paying almost no publishers almost nothing for content used in AI answers",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.36066",
-   "score": 8.0,
+   "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+   "score": 9.5,
    "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
+    "the-decoder",
+    "theverge-ai",
+    "arstechnica-ai"
    ],
    "titles": [
-    "AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search",
-    "HEAR: Real Voices, Real Bias: A Large-Scale Human-Recorded, Demographically Diverse Benchmark for Audio Language Models"
+    "Google is paying almost no publishers almost nothing for content used in AI answers",
+    "Google reportedly tests paying publishers for AI search results",
+    "Google's early attempt to pay websites for AI answers is struggling"
    ],
-   "published_at": "2026-09-30T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.36066v1 Announce Type: new Abstract: Open-world aerial object-goal search is a foundational yet challenging task, requiring aerial agents to autonomously explore large-scale, unstructured three-dimensional env..."
+   "published_at": "2026-09-30T10:17:15.000000+00:00",
+   "summary": "Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some part..."
   },
   {
    "rank": 2,
-   "title": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.36851",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
-    "V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving",
-    "PhysWAM: Physically Consistent World Action Model for Autonomous Driving",
-    "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
-    "AlignDrive: Aligned Lateral-Longitudinal Planning for End-to-End Autonomous Driving",
-    "Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination"
-   ],
-   "published_at": "2026-09-30T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.36851v1 Announce Type: new Abstract: End-to-end autonomous driving policies are commonly trained via imitation learning on logged demonstrations without observing the consequences of their own actions, leading..."
-  },
-  {
-   "rank": 3,
-   "title": "OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.37052",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models",
-    "Unlocking Spatial Grounding in Large Audio-Visual Retrieval models"
-   ],
-   "published_at": "2026-09-30T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.37052v1 Announce Type: new Abstract: Omnimodal large language models (Omni-LLMs) encode audio and visual streams into temporally interleaved token sequences for multimodal reasoning. However, processing long a..."
-  },
-  {
-   "rank": 4,
    "title": "LongCat-DeepResearch Technical Report",
    "lang": "en",
    "region": "intl",
@@ -92,7 +54,65 @@
    "summary": "We present LongCat-DeepResearch, a deep research system that combines an enhanced LongCat model with a multi-agent workflow for producing comprehensive, evidence-grounded reports. The workflow separates global planning f..."
   },
   {
+   "rank": 3,
+   "title": "AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.36066",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search",
+    "HEAR: Real Voices, Real Bias: A Large-Scale Human-Recorded, Demographically Diverse Benchmark for Audio Language Models"
+   ],
+   "published_at": "2026-09-30T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.36066v1 Announce Type: new Abstract: Open-world aerial object-goal search is a foundational yet challenging task, requiring aerial agents to autonomously explore large-scale, unstructured three-dimensional env..."
+  },
+  {
+   "rank": 4,
+   "title": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.36851",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
+    "V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving",
+    "PhysWAM: Physically Consistent World Action Model for Autonomous Driving",
+    "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+    "AlignDrive: Aligned Lateral-Longitudinal Planning for End-to-End Autonomous Driving",
+    "Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination"
+   ],
+   "published_at": "2026-09-30T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.36851v1 Announce Type: new Abstract: End-to-end autonomous driving policies are commonly trained via imitation learning on logged demonstrations without observing the consequences of their own actions, leading..."
+  },
+  {
    "rank": 5,
+   "title": "OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.37052",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models",
+    "Unlocking Spatial Grounding in Large Audio-Visual Retrieval models"
+   ],
+   "published_at": "2026-09-30T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.37052v1 Announce Type: new Abstract: Omnimodal large language models (Omni-LLMs) encode audio and visual streams into temporally interleaved token sequences for multimodal reasoning. However, processing long a..."
+  },
+  {
+   "rank": 6,
    "title": "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’",
    "lang": "en",
    "region": "intl",
@@ -110,7 +130,7 @@
    "summary": "US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “..."
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
    "lang": "en",
    "region": "intl",
@@ -122,13 +142,32 @@
    ],
    "titles": [
     "Here’s how tech leaders will self-police AI safety under Trump’s deal",
-    "Trump's meeting with tech leaders leaves AI safety more unsettled than ever"
+    "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+    "Here’s what AI leaders are saying about Trump’s new safety plan"
    ],
    "published_at": "2026-09-30T12:24:32.000000+00:00",
    "summary": "Anyone else getting “The Last Supper” vibes from this photo taken at the White House tech gathering? | Photographer: Tierney L. Cross/The Washington Post/Bloomberg via Getty Images We now have the full details of the \"mo..."
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "title": "AI voice start-up ElevenLabs doubles valuation to $22bn",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/08a71b38-d98c-472a-9576-e40ae2cfdf19?syn-25a6b1a6=1",
+   "score": 6.0,
+   "sources": [
+    "ft-tech",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "AI voice start-up ElevenLabs doubles valuation to $22bn",
+    "AI voice startup ElevenLabs doubles valuation to $22B"
+   ],
+   "published_at": "2026-09-30T15:00:06.000000+00:00",
+   "summary": "Existing investors and employees at speech-generation software company sell $300mn worth of stock"
+  },
+  {
+   "rank": 9,
    "title": "CohereLabs/tiny-aya-global",
    "lang": "en",
    "region": "intl",
@@ -144,7 +183,7 @@
    "summary": "text-generation, transformers, safetensors, cohere2, conversational, en, nl, fr, it, pt, ro, es, cs, pl, uk, ru, el, de, da, sv, no, ca, gl, cy, ga, eu, hr, lv, lt, sk, sl, et, fi, hu, sr, bg, ar, fa, ur, tr, mt, he, hi,..."
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "CohereLabs/North-Micro-Vision-Instruct",
    "lang": "en",
    "region": "intl",
@@ -160,25 +199,59 @@
    "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
   },
   {
-   "rank": 9,
-   "title": "Manus 2.0 lets users edit videos, host multiplayer games, and run agents remotely from their phone",
+   "rank": 11,
+   "title": "The U.S. government launched an AI chatbot",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/manus-2-0-lets-users-edit-videos-host-multiplayer-games-and-run-agents-remotely-from-their-phone/",
-   "score": 5.5,
+   "url": "https://america.gov/chat",
+   "score": 4.55,
    "sources": [
-    "the-decoder",
-    "qbitai"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Manus 2.0 lets users edit videos, host multiplayer games, and run agents remotely from their phone",
-    "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活"
+    "The U.S. government launched an AI chatbot",
+    "Trump Reprograms Government AI Chatbot to Stop Fact-Checking His Lies. Trump officials seem to have realized their AI chatbot was correcting the president’s biggest lies."
    ],
-   "published_at": "2026-09-29T08:47:37.000000+00:00",
-   "summary": "Manus is turning its AI agent into a platform with version 2.0, letting users edit videos, host multiplayer games, and run personal agents with their own phone numbers. The article Manus 2.0 lets users edit videos, host..."
+   "published_at": "2026-09-29T16:13:43.000000+00:00",
+   "summary": "Find answers from official government sources and clear next steps for the services you need with America.gov."
   },
   {
-   "rank": 10,
+   "rank": 12,
+   "title": "Introducing SynthID Bio",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "score": 4.5,
+   "sources": [
+    "deepmind-blog"
+   ],
+   "titles": [
+    "Introducing SynthID Bio"
+   ],
+   "published_at": "2026-09-30T15:03:07.000000+00:00",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
+  },
+  {
+   "rank": 13,
+   "title": "Framework Desktop with 192GB RAM",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://frame.work/products/desktop-diy-amd-aimax400/configuration/new",
+   "score": 4.07,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Framework Desktop with 192GB RAM",
+    "Preorder for new AMD Ryzen™ AI Max 400 Series 192GB from framework just started"
+   ],
+   "published_at": "2026-09-30T15:48:28.000000+00:00",
+   "summary": "Choose from AMD and Intel system options, select your preferred memory and storage, operating system, and more customizations. Available in DIY and pre-built configurations."
+  },
+  {
+   "rank": 14,
    "title": "Introducing dots",
    "lang": "en",
    "region": "intl",
@@ -194,76 +267,12 @@
    "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
   },
   {
-   "rank": 11,
-   "title": "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks"
-   ],
-   "published_at": "2026-09-30T07:32:34+00:00",
-   "summary": "Video world models can render convincing clips that still break physics. Butter spreads like paint. Balls pass through walls. A team from NVIDIA, MIT and the University of Oxford argues the fix can come from language its..."
-  },
-  {
-   "rank": 12,
-   "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms"
-   ],
-   "published_at": "2026-09-30T08:26:52+00:00",
-   "summary": "Perplexity has released Photon , an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for its AI-native search stack. Photon now handles retrieval and ranking..."
-  },
-  {
-   "rank": 13,
-   "title": "AI Supply Chain Indexes Launched by MSCI So Investors Can Hedge AI Bubble",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-09-30/ai-supply-chain-indexes-launched-by-msci-so-investors-can-hedge-ai-bubble",
-   "score": 3.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "AI Supply Chain Indexes Launched by MSCI So Investors Can Hedge AI Bubble"
-   ],
-   "published_at": "2026-09-30T10:31:01.000000+00:00",
-   "summary": "MSCI is offering the ability to make more precise bets across the AI supply chain."
-  },
-  {
-   "rank": 14,
-   "title": "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/09/30/robinhood-unveils-weekend-hours-ai-agents-to-allow-users-to-trade-nonstop.html",
-   "score": 3.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "Robinhood unveils weekend hours, AI agents to allow users to trade nonstop"
-   ],
-   "published_at": "2026-09-30T13:56:14.000000+00:00",
-   "summary": "Robinhood is broadening its offerings in a bid for more active traders who may be seeking trading access beyond traditional U.S. stock market hours."
-  },
-  {
    "rank": 15,
    "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.huxiu.com/article/4894775.html",
-   "score": 9.5,
+   "score": 9.0,
    "sources": [
     "huxiu",
     "qbitai",
@@ -279,29 +288,47 @@
   },
   {
    "rank": 16,
-   "title": "OpenAI紧急叫停GPT-6.1",
+   "title": "Anthropic，你是来给智谱打广告的吧！",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4004255063510917",
-   "score": 6.5,
+   "url": "https://www.qbitai.com/2026/09/499597.html",
+   "score": 6.0,
    "sources": [
-    "36kr-ai",
-    "arstechnica-ai"
+    "qbitai",
+    "36kr-ai"
    ],
    "titles": [
-    "OpenAI紧急叫停GPT-6.1",
-    "OpenAI says planned GPT-6.1 is too insecure to release"
+    "Anthropic，你是来给智谱打广告的吧！",
+    "Anthropic，你是来给智谱打广告的吧"
    ],
-   "published_at": "2026-09-29T09:12:01.000000+00:00",
-   "summary": "开发者大会前夜，OpenAI急踩刹车！ 就在刚刚，WSJ独家爆料，下一代最强GPT-6.1 Astra的发布计划，被OpenAI全面撤回了。 原定十月，GPT-6.1在ChatGPT和Codex上线。 其能力碾压前代，能端到端完成复杂任务，写作、编程、调用工具，几乎无所不能。 然而，一份测试报告出来后，引发了内部极度恐慌—— GPT-6.1操控的Agent彻底黑化了，不仅撒谎，还学会了越权。 为此，OpenAI直接取消十月的发布计划，并..."
+   "published_at": "2026-09-30T10:04:12+00:00",
+   "summary": "实测说GLM-5.3很强"
   },
   {
    "rank": 17,
+   "title": "从绿叶到鲜花，AI 推理如何为NAND“逆天改命”？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4894904.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "从绿叶到鲜花，AI 推理如何为NAND“逆天改命”？",
+    "从绿叶到鲜花，AI 推理如何为 NAND“逆天改命”？"
+   ],
+   "published_at": "2026-09-30T11:11:27.000000+00:00",
+   "summary": "NAND是一个被“技术诅咒”的行业：正如海豚君在前篇《NAND天性“多产”，闪迪凭什么守80%毛利率？》中所说，AI爆发前的NAND就是典型的大宗生意——产能由市场无情出清，技术领先换不来溢价，只能“亏得比别人少”，销量增长的红利被降价全部吞噬。根源在供给端太多产：靠单一晶圆上向上堆叠、横向缩孔，从BiCS5...... 本文来自微信公众号： 海豚研究 ，作者：海豚君，原文标题：《从绿叶到鲜花，AI 推理如何为 NAND“逆天改命”？》..."
+  },
+  {
+   "rank": 18,
    "title": "报告称微软 Copilot 承包商可完整查看用户上传的照片、AI 提示词等",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/008/606.htm",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "ithome",
     "36kr-ai"
@@ -314,12 +341,12 @@
    "summary": "IT之家 9 月 30 日消息，科技媒体 404 Media 于 9 月 28 日披露一份内部文件， 报道称数百名受雇于微软的合同工，能够看到用户上传的含有清晰面部信息的照片，以及相关提示词和 AI 生成的编辑结果。 该媒体记者约瑟夫 · 考克斯（Joseph Cox）在调查后指出，这些合同工可以看到用户上传的图片、输入发送给 Copilot 的原始提示词，以及 AI 生成的前后版本编辑结果。IT之家附上相关截图如下： 考克斯调查称这些..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "豆包支持出行服务：一句话订机票、火车票，打车导航全覆盖",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.leiphone.com/category/industrynews/THHBFFfWaradAOlZ.html",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "leiphone",
     "ithome"
@@ -332,12 +359,12 @@
    "summary": "国庆黄金周前夕，豆包宣布支持多种出行服务，用户现已可通过豆包一站式完成机票预订、火车票购买、打车及路线导航等多种出行需求，覆盖从长途交通到市内出行的全场景。 据了解，豆包此次的功能升级主要围绕用户出行核心需求，在酒店预订和餐饮预订的基础上，新增了包括机票预订、火车票预订，打车出行和导航等多项出行服务。用户只需在豆包对话中以自然语言描述出行需求，例如“帮我订一张明天从北京到上海的机票”或“叫一辆车去首都机场”，豆包即可自动识别意图并完成相..."
   },
   {
-   "rank": 19,
+   "rank": 20,
    "title": "北京Token工厂冲刺港交所！年收入暴涨178%",
    "lang": "zh",
    "region": "cn",
    "url": "https://zhidx.com/p/598489.html",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "zhidx",
     "36kr-ai"
@@ -348,24 +375,6 @@
    ],
    "published_at": "2026-09-30T05:01:23+00:00",
    "summary": "智东西 作者 | 陈骏达 编辑 | 心缘 智东西9月30日报道，9月29日，北京AI Infra公司 九章云极 向港交所递交上市申请，拟在港交所主板上市，中国银河国际证券为独家保荐人。 九章云极成立于2013年2月，总部位于北京，早期业务为数据科学平台，后转型为AI算力基础设施供应商，提供一站式智算中心（AIDC）基础设施解决方案和按需云计算服务。该公司正推进Token工厂战略，以顺应模型规模化应用的趋势， 未来计划将Token工厂打造..."
-  },
-  {
-   "rank": 20,
-   "title": "悬在Muse头上的剑",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4894788.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "悬在Muse头上的剑",
-    "悬在 Muse头上的剑"
-   ],
-   "published_at": "2026-09-30T05:10:42.000000+00:00",
-   "summary": "短短一周，Muse已经出现两次“冒犯主人”的事情了。美国《Inc.》杂志科技专栏作者杰森说，自己安装Muse之后，和别人发信息聊天的时候，Muse居然突然弹窗：你们刚才聊的事情很适合做专栏哦。简直是赛博鬼故事。最关键的是，Muse还骗杰森说，之所以会突然插嘴，是因为通过弹窗通知读到了他和朋友的信息。但是杰森一...... 本文来自微信公众号： 字母AI ，作者：小金牙 短短一周，Muse已经出现两次“冒犯主人”的事情了。 美国《Inc...."
   }
  ]
 }
