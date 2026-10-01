@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-01 03:33 CST
-数据窗口：最近 24 小时，2145 条原始条目 → 1480 个事件；过滤噪音 421 个，排除全部历史已推送的 112 个。
+生成时间：2026-10-01 08:02 CST
+数据窗口：最近 24 小时，2110 条原始条目 → 1503 个事件；过滤噪音 446 个，排除全部历史已推送的 112 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,15 +8,23 @@
 
 国外：
 
-## 1. Google is paying almost no publishers almost nothing for content used in AI answers
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder、The Verge — AI、Ars Technica — AI（3 个来源） ｜ 热度：9.5
+## 1. DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、The Decoder、Reddit AI subreddits (hot)（3 个来源） ｜ 热度：9.0
+- 摘要：DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp.
+- 发布时间：2026-09-30 13:07 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s
+- 同事件报道：China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips（The Decoder）
+- 同事件报道：DeepSeek now trained on Ascend 950（Reddit AI subreddits (hot)）
+
+## 2. Google is paying almost no publishers almost nothing for content used in AI answers
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder、The Verge — AI、Ars Technica — AI（3 个来源） ｜ 热度：9.0
 - 摘要：Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some part...
 - 发布时间：2026-09-30 18:17 CST
 - 链接：https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/
 - 同事件报道：Google reportedly tests paying publishers for AI search results（The Verge — AI）
 - 同事件报道：Google's early attempt to pay websites for AI answers is struggling（Ars Technica — AI）
 
-## 2. LongCat-DeepResearch Technical Report
+## 3. LongCat-DeepResearch Technical Report
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers、arXiv cs.CV（2 个来源） ｜ 热度：7.5
 - 摘要：We present LongCat-DeepResearch, a deep research system that combines an enhanced LongCat model with a multi-agent workflow for producing comprehensive, evidence-grounded reports. The workflow separates global planning f...
 - 发布时间：2026-09-28 04:00 CST
@@ -24,14 +32,14 @@
 - 同事件报道：Xiaomi-OCR-0 Technical Report（arXiv cs.CV）
 - 同事件报道：KwaiMind Technical Report（arXiv cs.CV）
 
-## 3. AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search
+## 4. AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.36066v1 Announce Type: new Abstract: Open-world aerial object-goal search is a foundational yet challenging task, requiring aerial agents to autonomously explore large-scale, unstructured three-dimensional env...
 - 发布时间：2026-09-30 12:00 CST
 - 链接：https://arxiv.org/abs/2609.36066
 - 同事件报道：HEAR: Real Voices, Real Bias: A Large-Scale Human-Recorded, Demographically Diverse Benchmark for Audio Language Models（arXiv cs.AI）
 
-## 4. RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts
+## 5. RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.36851v1 Announce Type: new Abstract: End-to-end autonomous driving policies are commonly trained via imitation learning on logged demonstrations without observing the consequences of their own actions, leading...
 - 发布时间：2026-09-30 12:00 CST
@@ -39,21 +47,21 @@
 - 同事件报道：V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving（arXiv cs.CV）
 - 同事件报道：PhysWAM: Physically Consistent World Action Model for Autonomous Driving（arXiv cs.CV）
 
-## 5. OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models
+## 6. OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
 - 摘要：arXiv:2609.37052v1 Announce Type: new Abstract: Omnimodal large language models (Omni-LLMs) encode audio and visual streams into temporally interleaved token sequences for multimodal reasoning. However, processing long a...
 - 发布时间：2026-09-30 12:00 CST
 - 链接：https://arxiv.org/abs/2609.37052
 - 同事件报道：Unlocking Spatial Grounding in Large Audio-Visual Retrieval models（arXiv cs.AI）
 
-## 6. Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’
+## 7. Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI、The Decoder（2 个来源） ｜ 热度：6.5
 - 摘要：US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “...
 - 发布时间：2026-09-30 07:21 CST
 - 链接：https://www.theguardian.com/us-news/2026/sep/29/trump-ai-deal-tech-ceos-superintelligence
 - 同事件报道：Trump and tech CEOs sign an AI code of conduct that's only "morally binding"（The Decoder）
 
-## 7. Here’s how tech leaders will self-police AI safety under Trump’s deal
+## 8. Here’s how tech leaders will self-police AI safety under Trump’s deal
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、CNBC Technology（2 个来源） ｜ 热度：6.0
 - 摘要：Anyone else getting “The Last Supper” vibes from this photo taken at the White House tech gathering? | Photographer: Tierney L. Cross/The Washington Post/Bloomberg via Getty Images We now have the full details of the "mo...
 - 发布时间：2026-09-30 20:24 CST
@@ -61,50 +69,45 @@
 - 同事件报道：Trump's meeting with tech leaders leaves AI safety more unsettled than ever（CNBC Technology）
 - 同事件报道：Here’s what AI leaders are saying about Trump’s new safety plan（The Verge — AI）
 
-## 8. AI voice start-up ElevenLabs doubles valuation to $22bn
+## 9. Valor, Atreides Bet on AI Hardware Venture Flow Engineering
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、TechCrunch — AI（2 个来源） ｜ 热度：6.0
+- 摘要：Valor Equity Partners and Atreides Management led a $50 million investment into agentic hardware company Flow Engineering, as the race to automate the physical world heats up.
+- 发布时间：2026-09-30 21:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-09-30/valor-atreides-bet-on-ai-hardware-venture-flow-engineering
+- 同事件报道：Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation（TechCrunch — AI）
+
+## 10. AI voice start-up ElevenLabs doubles valuation to $22bn
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、TechCrunch — AI（2 个来源） ｜ 热度：6.0
 - 摘要：Existing investors and employees at speech-generation software company sell $300mn worth of stock
 - 发布时间：2026-09-30 23:00 CST
 - 链接：https://www.ft.com/content/08a71b38-d98c-472a-9576-e40ae2cfdf19?syn-25a6b1a6=1
 - 同事件报道：AI voice startup ElevenLabs doubles valuation to $22B（TechCrunch — AI）
 
-## 9. CohereLabs/tiny-aya-global
+## 11. How will Trump ‘accord’ for AI to ‘self-regulate’ work?
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、WIRED — AI（2 个来源） ｜ 热度：6.0
+- 摘要：US president touts voluntary commitment which may create unexpected headaches for AI companies
+- 发布时间：2026-09-30 23:31 CST
+- 链接：https://www.ft.com/content/f52f7b0e-be7d-414c-b19d-d78a3a5f4882?syn-25a6b1a6=1
+- 同事件报道：Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear（WIRED — AI）
+
+## 12. Trump’s AI chatbot turns on its master
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI、Axios（2 个来源） ｜ 热度：6.0
+- 摘要：The famously fact-averse president rolled out a new AI tool – but its answers don’t conform to his version of reality Donald Trump , in a development that could almost be from a Greek tragedy, appears to have invented so...
+- 发布时间：2026-10-01 03:12 CST
+- 链接：https://www.theguardian.com/us-news/2026/sep/30/trump-america-gov-ai-chatbot
+- 同事件报道：Ask Trump's AI chatbot who won in 2020. You might not get an answer.（Axios）
+
+## 13. CohereLabs/tiny-aya-global
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：text-generation, transformers, safetensors, cohere2, conversational, en, nl, fr, it, pt, ro, es, cs, pl, uk, ru, el, de, da, sv, no, ca, gl, cy, ga, eu, hr, lv, lt, sk, sl, et, fi, hu, sr, bg, ar, fa, ur, tr, mt, he, hi,...
 - 发布时间：2026-09-30 21:24 CST
 - 链接：https://huggingface.co/CohereLabs/tiny-aya-global
 
-## 10. CohereLabs/North-Micro-Vision-Instruct
+## 14. CohereLabs/North-Micro-Vision-Instruct
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re...
 - 发布时间：2026-09-30 21:30 CST
 - 链接：https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct
-
-## 11. The U.S. government launched an AI chatbot
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.55
-- 摘要：Find answers from official government sources and clear next steps for the services you need with America.gov.
-- 发布时间：2026-09-30 00:13 CST
-- 链接：https://america.gov/chat
-- 同事件报道：Trump Reprograms Government AI Chatbot to Stop Fact-Checking His Lies. Trump officials seem to have realized their AI ch...（Reddit AI subreddits (new)）
-
-## 12. Introducing SynthID Bio
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google DeepMind Blog（1 个来源） ｜ 热度：4.5
-- 摘要：Proof of concept for watermarking AI-generated proteins while preserving biological function.
-- 发布时间：2026-09-30 23:03 CST
-- 链接：https://deepmind.google/blog/introducing-synthid-bio/
-
-## 13. Framework Desktop with 192GB RAM
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.07
-- 摘要：Choose from AMD and Intel system options, select your preferred memory and storage, operating system, and more customizations. Available in DIY and pre-built configurations.
-- 发布时间：2026-09-30 23:48 CST
-- 链接：https://frame.work/products/desktop-diy-amd-aimax400/configuration/new
-- 同事件报道：Preorder for new AMD Ryzen™ AI Max 400 Series 192GB from framework just started（Reddit AI subreddits (new)）
-
-## 14. Introducing dots
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：4.0
-- 摘要：Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.
-- 发布时间：2026-09-29 08:00 CST
-- 链接：https://openai.com/index/introducing-dots
 
 国内：
 
@@ -116,19 +119,19 @@
 - 同事件报道：36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了（量子位）
 - 同事件报道：36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了（36氪 AI 频道）
 
-## 2. Anthropic，你是来给智谱打广告的吧！
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：实测说GLM-5.3很强
-- 发布时间：2026-09-30 18:04 CST
-- 链接：https://www.qbitai.com/2026/09/499597.html
-- 同事件报道：Anthropic，你是来给智谱打广告的吧（36氪 AI 频道）
+## 2. 百度地图 V22 版本发布：车道级导航 4.0、SR 导航 2.0、全域护航系统
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、智源社区（2 个来源） ｜ 热度：5.5
+- 摘要：IT之家 9 月 30 日消息，在上周的 2026 世界新能源汽车大会“AI 驱动智能汽车技术跃迁与全场景落地”专题论坛上，百度副总裁、百度地图总经理谢天正式发布 百度地图 V22 。 百度地图 V22 带来车道级导航 4.0、SR 导航 2.0 和全域护航系统三大导航能力升级 ，并进一步构建时空智能基座，将真实世界的数据、实时变化与用户需求连接起来。IT之家汇总主要更新内容如下： 车道级导航 4.0 车道级导航 4.0 围绕“全路网覆...
+- 发布时间：2026-09-30 09:09 CST
+- 链接：https://www.ithome.com/1/008/582.htm
+- 同事件报道：反超Seedance 2.0！RunningHub发布增强版H3，1秒只要0.1 元（智源社区）
 
-## 3. 从绿叶到鲜花，AI 推理如何为NAND“逆天改命”？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：NAND是一个被“技术诅咒”的行业：正如海豚君在前篇《NAND天性“多产”，闪迪凭什么守80%毛利率？》中所说，AI爆发前的NAND就是典型的大宗生意——产能由市场无情出清，技术领先换不来溢价，只能“亏得比别人少”，销量增长的红利被降价全部吞噬。根源在供给端太多产：靠单一晶圆上向上堆叠、横向缩孔，从BiCS5...... 本文来自微信公众号： 海豚研究 ，作者：海豚君，原文标题：《从绿叶到鲜花，AI 推理如何为 NAND“逆天改命”？》...
-- 发布时间：2026-09-30 19:11 CST
-- 链接：https://www.huxiu.com/article/4894904.html
-- 同事件报道：从绿叶到鲜花，AI 推理如何为 NAND“逆天改命”？（36氪 AI 频道）
+## 3. Meta 又制造了一个赛道幻觉
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：文 | 版面之外，作者｜画画 Meta 的新产品 Muse 火了。 上线仅半个月，两周下载量突破280 万。到 9 月 24 日，这个数字翻到了340 万以上，毫无悬念地登顶美国 App Store 与 Google Play 免费榜。 资本市场比用户更兴奋。 Muse 描绘的 Personal Agent（个人智能体）蓝图，直接推动 Meta 市值一度暴涨近2000 亿美元。 科技圈早已熟悉这个套路：一个产品爆了，一个庞大的赛道故事便...
+- 发布时间：2026-09-30 10:30 CST
+- 链接：https://www.tmtpost.com/8156722.html
+- 同事件报道：Meta 又制造了一个赛道幻觉（36氪 AI 频道）
 
 ## 4. 报告称微软 Copilot 承包商可完整查看用户上传的照片、AI 提示词等
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 AI 频道（2 个来源） ｜ 热度：5.5

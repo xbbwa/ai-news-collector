@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-30T19:33:35.365897+00:00",
+ "generated_at": "2026-10-01T00:02:32.451680+00:00",
  "stats": {
-  "items": 2145,
-  "clusters": 1480,
-  "noise": 421,
+  "items": 2110,
+  "clusters": 1503,
+  "noise": 446,
   "dup": 112,
   "history_days": 0,
-  "available_cn": 108,
-  "available_intl": 839,
+  "available_cn": 112,
+  "available_intl": 833,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,11 +16,31 @@
  "items": [
   {
    "rank": 1,
+   "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
+   "score": 9.0,
+   "sources": [
+    "bloomberg-tech",
+    "the-decoder",
+    "reddit-ai-hot"
+   ],
+   "titles": [
+    "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
+    "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips",
+    "DeepSeek now trained on Ascend 950"
+   ],
+   "published_at": "2026-09-30T05:07:26.000000+00:00",
+   "summary": "DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp."
+  },
+  {
+   "rank": 2,
    "title": "Google is paying almost no publishers almost nothing for content used in AI answers",
    "lang": "en",
    "region": "intl",
    "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-   "score": 9.5,
+   "score": 9.0,
    "sources": [
     "the-decoder",
     "theverge-ai",
@@ -35,7 +55,7 @@
    "summary": "Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some part..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "LongCat-DeepResearch Technical Report",
    "lang": "en",
    "region": "intl",
@@ -54,7 +74,7 @@
    "summary": "We present LongCat-DeepResearch, a deep research system that combines an enhanced LongCat model with a multi-agent workflow for producing comprehensive, evidence-grounded reports. The workflow separates global planning f..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search",
    "lang": "en",
    "region": "intl",
@@ -72,7 +92,7 @@
    "summary": "arXiv:2609.36066v1 Announce Type: new Abstract: Open-world aerial object-goal search is a foundational yet challenging task, requiring aerial agents to autonomously explore large-scale, unstructured three-dimensional env..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
    "lang": "en",
    "region": "intl",
@@ -94,7 +114,7 @@
    "summary": "arXiv:2609.36851v1 Announce Type: new Abstract: End-to-end autonomous driving policies are commonly trained via imitation learning on logged demonstrations without observing the consequences of their own actions, leading..."
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "OmniRoute: Mapping Temporal Semantic Evidence to Audio-Visual Token Budgets for Efficient Omnimodal Large Language Models",
    "lang": "en",
    "region": "intl",
@@ -112,7 +132,7 @@
    "summary": "arXiv:2609.37052v1 Announce Type: new Abstract: Omnimodal large language models (Omni-LLMs) encode audio and visual streams into temporally interleaved token sequences for multimodal reasoning. However, processing long a..."
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Trump announces vague ‘morally binding’ AI deal among tech CEOs for ‘tremendous self-policing’",
    "lang": "en",
    "region": "intl",
@@ -130,7 +150,7 @@
    "summary": "US president also issued executive order officially rebranding ‘artificial intelligence’ as ‘superintelligence’ Donald Trump announced on Tuesday that the heads of the largest US tech and AI companies had signed onto a “..."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
    "lang": "en",
    "region": "intl",
@@ -149,7 +169,25 @@
    "summary": "Anyone else getting “The Last Supper” vibes from this photo taken at the White House tech gathering? | Photographer: Tierney L. Cross/The Washington Post/Bloomberg via Getty Images We now have the full details of the \"mo..."
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "title": "Valor, Atreides Bet on AI Hardware Venture Flow Engineering",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-30/valor-atreides-bet-on-ai-hardware-venture-flow-engineering",
+   "score": 6.0,
+   "sources": [
+    "bloomberg-tech",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Valor, Atreides Bet on AI Hardware Venture Flow Engineering",
+    "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation"
+   ],
+   "published_at": "2026-09-30T13:00:00.000000+00:00",
+   "summary": "Valor Equity Partners and Atreides Management led a $50 million investment into agentic hardware company Flow Engineering, as the race to automate the physical world heats up."
+  },
+  {
+   "rank": 10,
    "title": "AI voice start-up ElevenLabs doubles valuation to $22bn",
    "lang": "en",
    "region": "intl",
@@ -167,7 +205,43 @@
    "summary": "Existing investors and employees at speech-generation software company sell $300mn worth of stock"
   },
   {
-   "rank": 9,
+   "rank": 11,
+   "title": "How will Trump ‘accord’ for AI to ‘self-regulate’ work?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/f52f7b0e-be7d-414c-b19d-d78a3a5f4882?syn-25a6b1a6=1",
+   "score": 6.0,
+   "sources": [
+    "ft-tech",
+    "wired-ai"
+   ],
+   "titles": [
+    "How will Trump ‘accord’ for AI to ‘self-regulate’ work?",
+    "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear"
+   ],
+   "published_at": "2026-09-30T15:31:21.000000+00:00",
+   "summary": "US president touts voluntary commitment which may create unexpected headaches for AI companies"
+  },
+  {
+   "rank": 12,
+   "title": "Trump’s AI chatbot turns on its master",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-america-gov-ai-chatbot",
+   "score": 6.0,
+   "sources": [
+    "guardian-ai",
+    "axios"
+   ],
+   "titles": [
+    "Trump’s AI chatbot turns on its master",
+    "Ask Trump's AI chatbot who won in 2020. You might not get an answer."
+   ],
+   "published_at": "2026-09-30T19:12:28.000000+00:00",
+   "summary": "The famously fact-averse president rolled out a new AI tool – but its answers don’t conform to his version of reality Donald Trump , in a development that could almost be from a Greek tragedy, appears to have invented so..."
+  },
+  {
+   "rank": 13,
    "title": "CohereLabs/tiny-aya-global",
    "lang": "en",
    "region": "intl",
@@ -183,7 +257,7 @@
    "summary": "text-generation, transformers, safetensors, cohere2, conversational, en, nl, fr, it, pt, ro, es, cs, pl, uk, ru, el, de, da, sv, no, ca, gl, cy, ga, eu, hr, lv, lt, sk, sl, et, fi, hu, sr, bg, ar, fa, ur, tr, mt, he, hi,..."
   },
   {
-   "rank": 10,
+   "rank": 14,
    "title": "CohereLabs/North-Micro-Vision-Instruct",
    "lang": "en",
    "region": "intl",
@@ -197,74 +271,6 @@
    ],
    "published_at": "2026-09-30T13:30:59.000000+00:00",
    "summary": "image-text-to-text, transformers, safetensors, cohere_compass, vision, multimodal, conversational, multilingual, native-resolution, en, de, fr, es, it, pt, hi, ja, ko, zh, ar, license:apache-2.0, endpoints_compatible, re..."
-  },
-  {
-   "rank": 11,
-   "title": "The U.S. government launched an AI chatbot",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://america.gov/chat",
-   "score": 4.55,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "The U.S. government launched an AI chatbot",
-    "Trump Reprograms Government AI Chatbot to Stop Fact-Checking His Lies. Trump officials seem to have realized their AI chatbot was correcting the president’s biggest lies."
-   ],
-   "published_at": "2026-09-29T16:13:43.000000+00:00",
-   "summary": "Find answers from official government sources and clear next steps for the services you need with America.gov."
-  },
-  {
-   "rank": 12,
-   "title": "Introducing SynthID Bio",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "score": 4.5,
-   "sources": [
-    "deepmind-blog"
-   ],
-   "titles": [
-    "Introducing SynthID Bio"
-   ],
-   "published_at": "2026-09-30T15:03:07.000000+00:00",
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
-  },
-  {
-   "rank": 13,
-   "title": "Framework Desktop with 192GB RAM",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://frame.work/products/desktop-diy-amd-aimax400/configuration/new",
-   "score": 4.07,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Framework Desktop with 192GB RAM",
-    "Preorder for new AMD Ryzen™ AI Max 400 Series 192GB from framework just started"
-   ],
-   "published_at": "2026-09-30T15:48:28.000000+00:00",
-   "summary": "Choose from AMD and Intel system options, select your preferred memory and storage, operating system, and more customizations. Available in DIY and pre-built configurations."
-  },
-  {
-   "rank": 14,
-   "title": "Introducing dots",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/introducing-dots",
-   "score": 4.0,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Introducing dots"
-   ],
-   "published_at": "2026-09-29T00:00:00.000000+00:00",
-   "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward."
   },
   {
    "rank": 15,
@@ -288,39 +294,39 @@
   },
   {
    "rank": 16,
-   "title": "Anthropic，你是来给智谱打广告的吧！",
+   "title": "百度地图 V22 版本发布：车道级导航 4.0、SR 导航 2.0、全域护航系统",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/09/499597.html",
-   "score": 6.0,
+   "url": "https://www.ithome.com/1/008/582.htm",
+   "score": 5.5,
    "sources": [
-    "qbitai",
-    "36kr-ai"
+    "ithome",
+    "baai-hub"
    ],
    "titles": [
-    "Anthropic，你是来给智谱打广告的吧！",
-    "Anthropic，你是来给智谱打广告的吧"
+    "百度地图 V22 版本发布：车道级导航 4.0、SR 导航 2.0、全域护航系统",
+    "反超Seedance 2.0！RunningHub发布增强版H3，1秒只要0.1 元"
    ],
-   "published_at": "2026-09-30T10:04:12+00:00",
-   "summary": "实测说GLM-5.3很强"
+   "published_at": "2026-09-30T01:09:48+00:00",
+   "summary": "IT之家 9 月 30 日消息，在上周的 2026 世界新能源汽车大会“AI 驱动智能汽车技术跃迁与全场景落地”专题论坛上，百度副总裁、百度地图总经理谢天正式发布 百度地图 V22 。 百度地图 V22 带来车道级导航 4.0、SR 导航 2.0 和全域护航系统三大导航能力升级 ，并进一步构建时空智能基座，将真实世界的数据、实时变化与用户需求连接起来。IT之家汇总主要更新内容如下： 车道级导航 4.0 车道级导航 4.0 围绕“全路网覆..."
   },
   {
    "rank": 17,
-   "title": "从绿叶到鲜花，AI 推理如何为NAND“逆天改命”？",
+   "title": "Meta 又制造了一个赛道幻觉",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4894904.html",
-   "score": 6.0,
+   "url": "https://www.tmtpost.com/8156722.html",
+   "score": 5.5,
    "sources": [
-    "huxiu",
+    "tmtpost",
     "36kr-ai"
    ],
    "titles": [
-    "从绿叶到鲜花，AI 推理如何为NAND“逆天改命”？",
-    "从绿叶到鲜花，AI 推理如何为 NAND“逆天改命”？"
+    "Meta 又制造了一个赛道幻觉",
+    "Meta 又制造了一个赛道幻觉"
    ],
-   "published_at": "2026-09-30T11:11:27.000000+00:00",
-   "summary": "NAND是一个被“技术诅咒”的行业：正如海豚君在前篇《NAND天性“多产”，闪迪凭什么守80%毛利率？》中所说，AI爆发前的NAND就是典型的大宗生意——产能由市场无情出清，技术领先换不来溢价，只能“亏得比别人少”，销量增长的红利被降价全部吞噬。根源在供给端太多产：靠单一晶圆上向上堆叠、横向缩孔，从BiCS5...... 本文来自微信公众号： 海豚研究 ，作者：海豚君，原文标题：《从绿叶到鲜花，AI 推理如何为 NAND“逆天改命”？》..."
+   "published_at": "2026-09-30T02:30:03+00:00",
+   "summary": "文 | 版面之外，作者｜画画 Meta 的新产品 Muse 火了。 上线仅半个月，两周下载量突破280 万。到 9 月 24 日，这个数字翻到了340 万以上，毫无悬念地登顶美国 App Store 与 Google Play 免费榜。 资本市场比用户更兴奋。 Muse 描绘的 Personal Agent（个人智能体）蓝图，直接推动 Meta 市值一度暴涨近2000 亿美元。 科技圈早已熟悉这个套路：一个产品爆了，一个庞大的赛道故事便..."
   },
   {
    "rank": 18,
