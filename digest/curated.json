@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-01T06:14:54.445577+00:00",
+ "generated_at": "2026-10-01T13:38:16.981774+00:00",
  "stats": {
-  "items": 3360,
-  "clusters": 2279,
-  "noise": 398,
-  "dup": 161,
+  "items": 2369,
+  "clusters": 1777,
+  "noise": 449,
+  "dup": 152,
   "history_days": 0,
-  "available_cn": 97,
-  "available_intl": 1623,
+  "available_cn": 54,
+  "available_intl": 1122,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,114 +16,96 @@
  "items": [
   {
    "rank": 1,
-   "title": "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
+   "title": "Team MSU GenText-Forensics Challenge 2026 Technical Report",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.38716",
+   "url": "https://arxiv.org/abs/2609.38391",
    "score": 8.0,
    "sources": [
     "arxiv-cs-cv",
-    "arxiv-cs-cl"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
-    "Distilling What Matters: Confidence-Aware Selective Distillation for Large Language Models"
+    "Team MSU GenText-Forensics Challenge 2026 Technical Report",
+    "Overview of BioASQ 2026: The fourteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering"
    ],
    "published_at": "2026-10-01T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.38716v1 Announce Type: new Abstract: Large Vision-Language Models (LVLMs) have made remarkable progress across visual perception tasks, yet spatial reasoning remains a persistent weakness, especially for quest..."
+   "summary": "arXiv:2609.38391v1 Announce Type: new Abstract: Document text forgery has evolved beyond simple pixel-level manipulation: modern attacks alter not only the appearance of a document but also its meaning, and increasingly..."
   },
   {
    "rank": 2,
-   "title": "PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers",
+   "title": "MOBA-VL: Event-Localized Multi-Turn Reinforcement Learning for Real-Time MOBA Commentary",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.38978",
+   "url": "https://arxiv.org/abs/2609.38428",
    "score": 8.0,
    "sources": [
     "arxiv-cs-cv",
-    "arxiv-cs-cl"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers",
-    "Block Sparse Flash Attention"
+    "MOBA-VL: Event-Localized Multi-Turn Reinforcement Learning for Real-Time MOBA Commentary",
+    "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents"
    ],
    "published_at": "2026-10-01T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.38978v1 Announce Type: new Abstract: Diffusion Transformers (DiTs) have become a dominant architecture for video generation, but their efficiency is limited by the quadratic complexity of full attention. Spars..."
+   "summary": "arXiv:2609.38428v1 Announce Type: new Abstract: Real-time commentary for Multiplayer Online Battle Arena (MOBA) esports requires a vision-language model (VLM) to narrate a live match second by second, both fluently and a..."
   },
   {
    "rank": 3,
-   "title": "When Updating Stops Being Learning: Rethinking LLM Self-Evolution via learnable information gain",
+   "title": "Template-Search Domain Adaptation via Multi-Stage Feature Alignment for Cross-Modal Object Tracking",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.36535",
+   "url": "https://arxiv.org/abs/2609.38637",
    "score": 8.0,
    "sources": [
-    "arxiv-cs-cl",
+    "arxiv-cs-cv",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "When Updating Stops Being Learning: Rethinking LLM Self-Evolution via learnable information gain",
-    "Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents"
+    "Template-Search Domain Adaptation via Multi-Stage Feature Alignment for Cross-Modal Object Tracking",
+    "CollageAttack: Exploiting Cross-Modal Alignment Flaws in T2I Models through Spatial Text Composition"
    ],
    "published_at": "2026-10-01T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.36535v1 Announce Type: new Abstract: Self-evolution lets large language models (LLMs) improve iteratively using their own generated data, but often suffers from self-evolution degeneration: performance improve..."
+   "summary": "arXiv:2609.38637v1 Announce Type: new Abstract: Visual object tracking typically assumes that the initial template and subsequent search frames share the same sensing modality. In practice, sensor availability or operati..."
   },
   {
    "rank": 4,
-   "title": "One Threshold Does Not Fit All Languages: Language-Conditional Deferral for Reliable and Efficient Low-Resource Text Classification",
+   "title": "The Canonical Order Problem: When Large Language Models Are Unreliable Knowledge Bases for Multi-Valued Relations",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.37861",
+   "url": "https://arxiv.org/abs/2609.36209",
    "score": 8.0,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "One Threshold Does Not Fit All Languages: Language-Conditional Deferral for Reliable and Efficient Low-Resource Text Classification",
-    "Towards Model as a Library: Offline, Community-Sourced AI for Low-Resource African Languages"
+    "The Canonical Order Problem: When Large Language Models Are Unreliable Knowledge Bases for Multi-Valued Relations",
+    "Constructing Disambiguated Knowledge Bases from Large Language Models at Scale"
    ],
    "published_at": "2026-10-01T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.37861v1 Announce Type: new Abstract: In the Global South, the lower-income countries of Africa, Asia, and Latin America where most of the world's languages are spoken, a deployed text classifier usually runs o..."
+   "summary": "arXiv:2609.36209v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as knowledge bases (KBs) due to the vast amount of knowledge they acquire during pre-training. While many works focus on..."
   },
   {
    "rank": 5,
-   "title": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
+   "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
-   "score": 6.5,
+   "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+   "score": 5.5,
    "sources": [
-    "bloomberg-tech",
+    "nyt-tech",
     "the-decoder"
    ],
    "titles": [
-    "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s",
-    "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips"
+    "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+    "Meta dodges billions in US taxes by calling its AI data centers experiments"
    ],
-   "published_at": "2026-09-30T05:07:26.000000+00:00",
-   "summary": "DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp."
+   "published_at": "2026-09-30T09:00:48.000000+00:00",
+   "summary": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky."
   },
   {
    "rank": 6,
-   "title": "Trump’s AI chatbot turns on its master",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-america-gov-ai-chatbot",
-   "score": 6.0,
-   "sources": [
-    "guardian-ai",
-    "axios"
-   ],
-   "titles": [
-    "Trump’s AI chatbot turns on its master",
-    "Ask Trump's AI chatbot who won in 2020. You might not get an answer."
-   ],
-   "published_at": "2026-09-30T19:12:28.000000+00:00",
-   "summary": "The famously fact-averse president rolled out a new AI tool – but its answers don’t conform to his version of reality Donald Trump , in a development that could almost be from a Greek tragedy, appears to have invented so..."
-  },
-  {
-   "rank": 7,
    "title": "Valor, Atreides Bet on AI Hardware Venture Flow Engineering",
    "lang": "en",
    "region": "intl",
@@ -141,7 +123,7 @@
    "summary": "Valor Equity Partners and Atreides Management led a $50 million investment into agentic hardware company Flow Engineering, as the race to automate the physical world heats up."
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "How will Trump ‘accord’ for AI to ‘self-regulate’ work?",
    "lang": "en",
    "region": "intl",
@@ -159,7 +141,61 @@
    "summary": "US president touts voluntary commitment which may create unexpected headaches for AI companies"
   },
   {
+   "rank": 8,
+   "title": "Trump’s AI chatbot turns on its master",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-america-gov-ai-chatbot",
+   "score": 5.5,
+   "sources": [
+    "guardian-ai",
+    "axios"
+   ],
+   "titles": [
+    "Trump’s AI chatbot turns on its master",
+    "Ask Trump's AI chatbot who won in 2020. You might not get an answer."
+   ],
+   "published_at": "2026-09-30T19:12:28.000000+00:00",
+   "summary": "The famously fact-averse president rolled out a new AI tool – but its answers don’t conform to his version of reality Donald Trump , in a development that could almost be from a Greek tragedy, appears to have invented so..."
+  },
+  {
    "rank": 9,
+   "title": "Could AI really end humanity?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/e6f7ac91-8741-4b90-ab23-a6b4f7c9e348?syn-25a6b1a6=1",
+   "score": 5.0,
+   "sources": [
+    "ft-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Could AI really end humanity?",
+    "could this one day be humanity's future in 2077? or our end if this leaves science fiction?"
+   ],
+   "published_at": "2026-10-01T04:00:00.000000+00:00",
+   "summary": "Researcher Toby Ord discusses rising anxiety about AI’s existential risks"
+  },
+  {
+   "rank": 10,
+   "title": "It’s raining AI, and won’t stop!",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/b82a68aa-f29a-4a88-b1e1-65f7e4f18e6c?syn-25a6b1a6=1",
+   "score": 5.0,
+   "sources": [
+    "ft-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "It’s raining AI, and won’t stop!",
+    "Stop using AI"
+   ],
+   "published_at": "2026-10-01T08:46:01.000000+00:00",
+   "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
+  },
+  {
+   "rank": 11,
    "title": "CohereLabs/tiny-aya-base",
    "lang": "en",
    "region": "intl",
@@ -175,7 +211,7 @@
    "summary": "text-generation, transformers, safetensors, cohere2, en, nl, fr, it, pt, ro, es, cs, pl, uk, ru, el, de, da, sv, no, ca, gl, cy, ga, eu, hr, lv, lt, sk, sl, et, fi, hu, sr, bg, ar, fa, ur, tr, mt, he, hi, mr, bn, gu, pa,..."
   },
   {
-   "rank": 10,
+   "rank": 12,
    "title": "CohereLabs/North-Small-Translate-1.0",
    "lang": "en",
    "region": "intl",
@@ -191,7 +227,26 @@
    "summary": "translation, transformers, safetensors, cohere2_moe, text-generation, conversational, chat, en, sq, ar, bg, bn, ca, cs, da, de, el, es, et, fa, fi, fil, fr, ga, he, hi, hr, hu, id, is, it, ja, ko, lt, lv, ms, mt, nl, no,..."
   },
   {
-   "rank": 11,
+   "rank": 13,
+   "title": "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/30/bill-gates-thinks-ai-could-kill-people-can-we-trust-judgment-after-epstein",
+   "score": 4.55,
+   "sources": [
+    "guardian-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
+    "Bill Gates on the Dangers of AI",
+    "An Interview with Bill Gates on AI"
+   ],
+   "published_at": "2026-09-30T10:00:23.000000+00:00",
+   "summary": "He knows a thing or two about tech, but what to make of the views of a man who met Jeffrey Epstein 30 times and couldn’t see what a monster he was? The Bill Gates rehabilitation tour is in full swing. After having his ca..."
+  },
+  {
+   "rank": 14,
    "title": "Introducing ai_decide: make fast decisions on your governed data",
    "lang": "en",
    "region": "intl",
@@ -205,56 +260,6 @@
    ],
    "published_at": "2026-09-30T16:59:34.000000+00:00",
    "summary": "Today, we’re launching a new Databricks AI Function ai_decide that makes fast decisions..."
-  },
-  {
-   "rank": 12,
-   "title": "Do I need a UPS?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu25pe/do_i_need_a_ups/",
-   "score": 3.55,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Do I need a UPS?",
-    "Why do you need freedom?"
-   ],
-   "published_at": "2026-09-30T11:13:22.000000+00:00",
-   "summary": "I know I could ask in some hardware subreddit, but I'm curious to know what people with multiple GPUs and expensive inference setups think about this. I just moved to a new place and here the lights go out pretty frequen..."
-  },
-  {
-   "rank": 13,
-   "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK"
-   ],
-   "published_at": "2026-09-30T19:13:02.000000+00:00",
-   "summary": "AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI... AI infrastructure engineers, storage developers, and clou..."
-  },
-  {
-   "rank": 14,
-   "title": "Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton"
-   ],
-   "published_at": "2026-09-30T20:54:59.000000+00:00",
-   "summary": "Generative recommender (GR) systems are emerging as a powerful new approach for large-scale personalization. Instead of treating recommendation as a set of... Generative recommender (GR) systems are emerging as a powerfu..."
   },
   {
    "rank": 15,
@@ -292,61 +297,24 @@
   },
   {
    "rank": 17,
-   "title": "悬在Muse头上的剑",
+   "title": "悬在 Muse头上的剑",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4894788.html",
+   "url": "https://www.36kr.com/p/4005442368935558",
    "score": 5.5,
    "sources": [
-    "huxiu",
-    "36kr-ai"
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
-    "悬在Muse头上的剑",
-    "悬在 Muse头上的剑"
+    "悬在 Muse头上的剑",
+    "悬在Muse头上的剑"
    ],
-   "published_at": "2026-09-30T05:10:42.000000+00:00",
-   "summary": "短短一周，Muse已经出现两次“冒犯主人”的事情了。美国《Inc.》杂志科技专栏作者杰森说，自己安装Muse之后，和别人发信息聊天的时候，Muse居然突然弹窗：你们刚才聊的事情很适合做专栏哦。简直是赛博鬼故事。最关键的是，Muse还骗杰森说，之所以会突然插嘴，是因为通过弹窗通知读到了他和朋友的信息。但是杰森一...... 本文来自微信公众号： 字母AI ，作者：小金牙 短短一周，Muse已经出现两次“冒犯主人”的事情了。 美国《Inc...."
+   "published_at": "2026-09-30T07:30:34.000000+00:00",
+   "summary": "短短一周，Muse已经出现两次“冒犯主人”的事情了。 美国《Inc.》杂志科技专栏作者杰森说，自己安装Muse之后，和别人发信息聊天的时候，Muse居然突然弹窗：你们刚才聊的事情很适合做专栏哦。 简直是赛博鬼故事。 最关键的是，Muse还骗杰森说，之所以会突然插嘴，是因为通过弹窗通知读到了他和朋友的信息。但是杰森一番调查之后发现，其实是Muse在明明被拒绝访问信息的情况下偷偷开启了聊天记录同步。 就在前两天，另一位加拿大油管博主也被Mu..."
   },
   {
    "rank": 18,
-   "title": "个人Agent，人迈向硅基的第一步？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4005437206894471",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "个人Agent，人迈向硅基的第一步？",
-    "个人Agent，人迈向硅基的第一步？"
-   ],
-   "published_at": "2026-09-30T07:32:39.000000+00:00",
-   "summary": "9月初，Meta的Muse上线，不到两周登上美国App Store免费榜首，Sensor Tower估算截至9月24日累计下载量超过340万次。 随后，Manus和OpenAI相继拿出自己的产品，9月28日，Manus发布主打个人生活场景的智能助理Cue；北京时间9月30日凌晨，OpenAI在DevDay推出常驻Agent Dots。 此前在Meta Connect大会上，扎克伯格演示了Muse怎样接着办事，也宣布未来几个月将把它接入A..."
-  },
-  {
-   "rank": 19,
-   "title": "Muse这一波，国内大厂跟也不好，不跟也不好",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4005482692890504",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "Muse这一波，国内大厂跟也不好，不跟也不好",
-    "Muse爆火，大厂急了",
-    "Muse爆火，大厂急了"
-   ],
-   "published_at": "2026-09-30T07:35:22.000000+00:00",
-   "summary": "发布短短二十天内，Muse已经积累了大约400万总用户、60-80万DAU；要知道，它目前还只在美国、加拿大等少量市场提供下载。Meta的股价在此期间上涨约20%，从“AI行业的失败者”摇身一变成为了“AI行业新的领导者”。还记得两个月前，Meta二季报电话会议上，分析师反复追问扎克伯格：“为什么Meta还要花大价钱开发Muse Spark模型？为什么不干脆依靠第三方或开源模型算了？”现在，扎克伯格终于可以扬眉吐气地对华尔街说：“这就是..."
-  },
-  {
-   "rank": 20,
    "title": "影视业迎来AI大考",
    "lang": "zh",
    "region": "cn",
@@ -362,6 +330,38 @@
    ],
    "published_at": "2026-09-30T13:46:47.000000+00:00",
    "summary": "所有人已避无可避。影视城是国内近期文旅热点之一，正在拉开帷幕的2026国庆长假或将在此基础上再增一把火。以横店为例，因剧集《兰香如故》在央视、腾讯视频等平台热播，横店官方于9月27日推出了“跟着《兰香如故》游横店”的活动，目前已吸引颇多剧集粉丝前往打卡。众所周知的横店，是坐落于浙江东阳的横店影视城，占地30多...... 本文来自微信公众号： 海克财经 ，作者：许俊浩 所有人已避无可避。 影视城是国内近期文旅热点之一，正在拉开帷幕的20..."
+  },
+  {
+   "rank": 19,
+   "title": "马斯克沉寂数月的 AI 维基百科 Grokipedia 推出 v0.3 版本：界面更新，恢复内容编辑",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/009/043.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "马斯克沉寂数月的 AI 维基百科 Grokipedia 推出 v0.3 版本：界面更新，恢复内容编辑"
+   ],
+   "published_at": "2026-10-01T04:58:57+00:00",
+   "summary": "IT之家 10 月 1 日消息，由 SpaceXAI 推出、对标维基百科的人工智能百科项目 Grokipedia 近期重新恢复接收内容编辑。如今该平台又迎来 v0.3 版本更新，进行了多项界面设计调整：启用全新标识，同时对首页与实时编辑页面进行改版。SpaceXAI 的设计负责人本吉 · 泰勒（Benji Taylor）将其称作“焕然一新的 Grokipedia”。 IT之家注意到，Grokipedia 旧版首页基本上只有一个标志和搜索..."
+  },
+  {
+   "rank": 20,
+   "title": "HMD Vibe2 Pro 手机发布：6.78 英寸 1080P LCD 屏幕，天玑 6300 芯片",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/009/070.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "HMD Vibe2 Pro 手机发布：6.78 英寸 1080P LCD 屏幕，天玑 6300 芯片"
+   ],
+   "published_at": "2026-10-01T07:04:30+00:00",
+   "summary": "IT之家 10 月 1 日消息，HMD 现已在印度市场推出 Vibe2 Pro 智能手机。新品定位中低端市场，采用天玑 6300 芯片，具备 120Hz FHD+ 高刷屏幕，提供银雾、海蓝绿、星云紫三种配色， 起售价为 14,999 卢比 （IT之家注：现汇率约合 1,048 元人民币） 。 据介绍，这款手机采用联发科天玑 6300 芯片， 提供 6GB+128GB、8GB+128GB 两种配置 ，支持 microSD 卡扩容。 同时，..."
   }
  ]
 }
