@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-01T13:38:16.981774+00:00",
+ "generated_at": "2026-10-01T19:41:30.877940+00:00",
  "stats": {
-  "items": 2369,
-  "clusters": 1777,
-  "noise": 449,
-  "dup": 152,
+  "items": 2130,
+  "clusters": 1626,
+  "noise": 368,
+  "dup": 131,
   "history_days": 0,
-  "available_cn": 54,
-  "available_intl": 1122,
+  "available_cn": 39,
+  "available_intl": 1088,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,25 +20,45 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.38391",
-   "score": 8.0,
+   "score": 12.0,
    "sources": [
     "arxiv-cs-cv",
-    "arxiv-cs-ai"
+    "arxiv-cs-ai",
+    "github-blog"
    ],
    "titles": [
     "Team MSU GenText-Forensics Challenge 2026 Technical Report",
-    "Overview of BioASQ 2026: The fourteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering"
+    "Overview of BioASQ 2026: The fourteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering",
+    "10 technical talks I’m excited about at GitHub Universe 2026"
    ],
    "published_at": "2026-10-01T04:00:00.000000+00:00",
    "summary": "arXiv:2609.38391v1 Announce Type: new Abstract: Document text forgery has evolved beyond simple pixel-level manipulation: modern attacks alter not only the appearance of a document but also its meaning, and increasingly..."
   },
   {
    "rank": 2,
+   "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
+   "score": 7.5,
+   "sources": [
+    "apple-ml",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+    "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?"
+   ],
+   "published_at": "2026-10-01T00:00:00.000000+00:00",
+   "summary": "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) pr..."
+  },
+  {
+   "rank": 3,
    "title": "MOBA-VL: Event-Localized Multi-Turn Reinforcement Learning for Real-Time MOBA Commentary",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.38428",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai"
@@ -51,12 +71,12 @@
    "summary": "arXiv:2609.38428v1 Announce Type: new Abstract: Real-time commentary for Multiplayer Online Battle Arena (MOBA) esports requires a vision-language model (VLM) to narrate a live match second by second, both fluently and a..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Template-Search Domain Adaptation via Multi-Stage Feature Alignment for Cross-Modal Object Tracking",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.38637",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai"
@@ -69,12 +89,12 @@
    "summary": "arXiv:2609.38637v1 Announce Type: new Abstract: Visual object tracking typically assumes that the initial template and subsequent search frames share the same sensing modality. In practice, sensor availability or operati..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "The Canonical Order Problem: When Large Language Models Are Unreliable Knowledge Bases for Multi-Valued Relations",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2609.36209",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -87,97 +107,7 @@
    "summary": "arXiv:2609.36209v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as knowledge bases (KBs) due to the vast amount of knowledge they acquire during pre-training. While many works focus on..."
   },
   {
-   "rank": 5,
-   "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-   "score": 5.5,
-   "sources": [
-    "nyt-tech",
-    "the-decoder"
-   ],
-   "titles": [
-    "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-    "Meta dodges billions in US taxes by calling its AI data centers experiments"
-   ],
-   "published_at": "2026-09-30T09:00:48.000000+00:00",
-   "summary": "Meta is exploiting a lucrative tax break intended to support research and experimentation. Its own accountants say the gambit is risky."
-  },
-  {
    "rank": 6,
-   "title": "Valor, Atreides Bet on AI Hardware Venture Flow Engineering",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-09-30/valor-atreides-bet-on-ai-hardware-venture-flow-engineering",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Valor, Atreides Bet on AI Hardware Venture Flow Engineering",
-    "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation"
-   ],
-   "published_at": "2026-09-30T13:00:00.000000+00:00",
-   "summary": "Valor Equity Partners and Atreides Management led a $50 million investment into agentic hardware company Flow Engineering, as the race to automate the physical world heats up."
-  },
-  {
-   "rank": 7,
-   "title": "How will Trump ‘accord’ for AI to ‘self-regulate’ work?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/f52f7b0e-be7d-414c-b19d-d78a3a5f4882?syn-25a6b1a6=1",
-   "score": 5.5,
-   "sources": [
-    "ft-tech",
-    "wired-ai"
-   ],
-   "titles": [
-    "How will Trump ‘accord’ for AI to ‘self-regulate’ work?",
-    "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear"
-   ],
-   "published_at": "2026-09-30T15:31:21.000000+00:00",
-   "summary": "US president touts voluntary commitment which may create unexpected headaches for AI companies"
-  },
-  {
-   "rank": 8,
-   "title": "Trump’s AI chatbot turns on its master",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-america-gov-ai-chatbot",
-   "score": 5.5,
-   "sources": [
-    "guardian-ai",
-    "axios"
-   ],
-   "titles": [
-    "Trump’s AI chatbot turns on its master",
-    "Ask Trump's AI chatbot who won in 2020. You might not get an answer."
-   ],
-   "published_at": "2026-09-30T19:12:28.000000+00:00",
-   "summary": "The famously fact-averse president rolled out a new AI tool – but its answers don’t conform to his version of reality Donald Trump , in a development that could almost be from a Greek tragedy, appears to have invented so..."
-  },
-  {
-   "rank": 9,
-   "title": "Could AI really end humanity?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/e6f7ac91-8741-4b90-ab23-a6b4f7c9e348?syn-25a6b1a6=1",
-   "score": 5.0,
-   "sources": [
-    "ft-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Could AI really end humanity?",
-    "could this one day be humanity's future in 2077? or our end if this leaves science fiction?"
-   ],
-   "published_at": "2026-10-01T04:00:00.000000+00:00",
-   "summary": "Researcher Toby Ord discusses rising anxiety about AI’s existential risks"
-  },
-  {
-   "rank": 10,
    "title": "It’s raining AI, and won’t stop!",
    "lang": "en",
    "region": "intl",
@@ -195,58 +125,73 @@
    "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
   },
   {
-   "rank": 11,
-   "title": "CohereLabs/tiny-aya-base",
+   "rank": 7,
+   "title": "Announcing Ranveer Singh as Brand Ambassador for Ray-Ban and Ray-Ban Meta in India along with Exciting New Updates to our AI Glasses",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/CohereLabs/tiny-aya-base",
-   "score": 4.83,
+   "url": "https://about.fb.com/news/2026/10/announcing-ranveer-singh-as-brand-ambassador-for-ray-ban-and-ray-ban-meta-in-india-along-with-exciting-new-updates-to-our-ai-glasses/",
+   "score": 4.5,
    "sources": [
-    "hf-models-intl"
+    "meta-newsroom"
    ],
    "titles": [
-    "CohereLabs/tiny-aya-base"
+    "Announcing Ranveer Singh as Brand Ambassador for Ray-Ban and Ray-Ban Meta in India along with Exciting New Updates to our AI Glasses"
    ],
-   "published_at": "2026-09-30T13:24:34.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, cohere2, en, nl, fr, it, pt, ro, es, cs, pl, uk, ru, el, de, da, sv, no, ca, gl, cy, ga, eu, hr, lv, lt, sk, sl, et, fi, hu, sr, bg, ar, fa, ur, tr, mt, he, hi, mr, bn, gu, pa,..."
+   "published_at": "2026-10-01T14:16:04.000000+00:00",
+   "summary": "Ranveer Singh becomes the first Brand Ambassador for Ray-Ban and Ray-Ban Meta in India. Ranveer has had a long-standing relationship with Meta with multiple collaborations over the years and the association marks a signi..."
   },
   {
-   "rank": 12,
-   "title": "CohereLabs/North-Small-Translate-1.0",
+   "rank": 8,
+   "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0",
-   "score": 4.75,
+   "url": "https://huggingface.co/blog/allenai/olmocore3",
+   "score": 4.5,
    "sources": [
-    "hf-models-intl"
+    "huggingface-blog"
    ],
    "titles": [
-    "CohereLabs/North-Small-Translate-1.0"
+    "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs"
    ],
-   "published_at": "2026-09-30T13:37:00.000000+00:00",
-   "summary": "translation, transformers, safetensors, cohere2_moe, text-generation, conversational, chat, en, sq, ar, bg, bn, ca, cs, da, de, el, es, et, fa, fi, fil, fr, ga, he, hi, hr, hu, id, is, it, ja, ko, lt, lv, ms, mt, nl, no,..."
+   "published_at": "2026-10-01T15:01:43.000000+00:00",
+   "summary": "A Blog post by Ai2 on Hugging Face"
   },
   {
-   "rank": 13,
-   "title": "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
+   "rank": 9,
+   "title": "Could AI really end humanity?",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/commentisfree/2026/sep/30/bill-gates-thinks-ai-could-kill-people-can-we-trust-judgment-after-epstein",
-   "score": 4.55,
+   "url": "https://www.ft.com/content/e6f7ac91-8741-4b90-ab23-a6b4f7c9e348?syn-25a6b1a6=1",
+   "score": 4.5,
    "sources": [
-    "guardian-ai",
+    "ft-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Could AI really end humanity?",
+    "could this one day be humanity's future in 2077? or our end if this leaves science fiction?"
+   ],
+   "published_at": "2026-10-01T04:00:00.000000+00:00",
+   "summary": "Researcher Toby Ord discusses rising anxiety about AI’s existential risks"
+  },
+  {
+   "rank": 10,
+   "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blog.cloudflare.com/clef-decision-models/",
+   "score": 4.5,
+   "sources": [
     "hackernews-ai"
    ],
    "titles": [
-    "Bill Gates predicts AI will kill a billion people – but saying he’s been wrong before is quite the understatement | Arwa Mahdawi",
-    "Bill Gates on the Dangers of AI",
-    "An Interview with Bill Gates on AI"
+    "Clef: Open-source decision models, and new RL fine-tuning platform"
    ],
-   "published_at": "2026-09-30T10:00:23.000000+00:00",
-   "summary": "He knows a thing or two about tech, but what to make of the views of a man who met Jeffrey Epstein 30 times and couldn’t see what a monster he was? The Bill Gates rehabilitation tour is in full swing. After having his ca..."
+   "published_at": "2026-10-01T16:18:57.000000+00:00",
+   "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers t..."
   },
   {
-   "rank": 14,
+   "rank": 11,
    "title": "Introducing ai_decide: make fast decisions on your governed data",
    "lang": "en",
    "region": "intl",
@@ -262,12 +207,62 @@
    "summary": "Today, we’re launching a new Databricks AI Function ai_decide that makes fast decisions..."
   },
   {
+   "rank": 12,
+   "title": "AI CEO Interviews (2026)",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://youtu.be/DlTNN0gvkLM",
+   "score": 3.58,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "AI CEO Interviews (2026)",
+    "AI CEO Interviews (2026)"
+   ],
+   "published_at": "2026-09-30T23:43:15.000000+00:00",
+   "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+  },
+  {
+   "rank": 13,
+   "title": "Connecting customer context to measurable ROI with agentic marketing",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/connecting-customer-context-measurable-roi-agentic-marketing",
+   "score": 3.5,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "Connecting customer context to measurable ROI with agentic marketing"
+   ],
+   "published_at": "2026-10-01T12:11:31.000000+00:00",
+   "summary": "Marketing leaders today face greater complexity than ever before. They work with..."
+  },
+  {
+   "rank": 14,
+   "title": "Graph-centric agentic intelligence",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.amazon.science/blog/graph-centric-agentic-intelligence",
+   "score": 3.5,
+   "sources": [
+    "amazon-science"
+   ],
+   "titles": [
+    "Graph-centric agentic intelligence"
+   ],
+   "published_at": "2026-10-01T12:54:31.000000+00:00",
+   "summary": "Graphs encode relationships. In a world where AI agents need to reason about complex systems, not just retrieve information, graph structure provides the scaffolding for causal inference, dependency tracking, and composi..."
+  },
+  {
    "rank": 15,
    "title": "华为 Mate90 系列手机升级鸿蒙 AI：小艺帮记滑一滑轻松记忆、图库助手实现一句话成片...",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/009/019.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "36kr-newsflash"
@@ -285,7 +280,7 @@
    "lang": "en",
    "region": "cn",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-   "score": 5.5,
+   "score": 5.0,
    "sources": [
     "hf-models-cn"
    ],
@@ -297,71 +292,67 @@
   },
   {
    "rank": 17,
-   "title": "悬在 Muse头上的剑",
+   "title": "惠普战 99 锐龙版 AI 移动工作站发布：AMD R9-9955HX3D + RTX PRO 2000，21999 元",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4005442368935558",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/009/161.htm",
+   "score": 3.5,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "ithome"
    ],
    "titles": [
-    "悬在 Muse头上的剑",
-    "悬在Muse头上的剑"
+    "惠普战 99 锐龙版 AI 移动工作站发布：AMD R9-9955HX3D + RTX PRO 2000，21999 元"
    ],
-   "published_at": "2026-09-30T07:30:34.000000+00:00",
-   "summary": "短短一周，Muse已经出现两次“冒犯主人”的事情了。 美国《Inc.》杂志科技专栏作者杰森说，自己安装Muse之后，和别人发信息聊天的时候，Muse居然突然弹窗：你们刚才聊的事情很适合做专栏哦。 简直是赛博鬼故事。 最关键的是，Muse还骗杰森说，之所以会突然插嘴，是因为通过弹窗通知读到了他和朋友的信息。但是杰森一番调查之后发现，其实是Muse在明明被拒绝访问信息的情况下偷偷开启了聊天记录同步。 就在前两天，另一位加拿大油管博主也被Mu..."
+   "published_at": "2026-10-01T14:24:18+00:00",
+   "summary": "IT之家 10 月 1 日消息，惠普战 99 锐龙版 AI 高性能移动工作站今日正式发布，10 月 12 日晚开售，IT之家汇总定价如下： R9 9955HX + RTX PRO 500 + 32GB 内存 + 1TB 硬盘： 14599 元 R9 8945HX + RTX PRO 500 + 32GB 内存 + 1TB 硬盘：14999 元 R9 9955HX + RTX PRO 2000 + 32GB 内存 + 1TB 硬盘： 16..."
   },
   {
    "rank": 18,
-   "title": "影视业迎来AI大考",
+   "title": "英伟达为 GTX 700-10 系显卡发布 582.78 安全更新，修复 114 个漏洞",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4894940.html",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/009/169.htm",
+   "score": 3.5,
    "sources": [
-    "huxiu",
-    "tmtpost"
+    "ithome"
    ],
    "titles": [
-    "影视业迎来AI大考",
-    "影视业迎来AI大考"
+    "英伟达为 GTX 700-10 系显卡发布 582.78 安全更新，修复 114 个漏洞"
    ],
-   "published_at": "2026-09-30T13:46:47.000000+00:00",
-   "summary": "所有人已避无可避。影视城是国内近期文旅热点之一，正在拉开帷幕的2026国庆长假或将在此基础上再增一把火。以横店为例，因剧集《兰香如故》在央视、腾讯视频等平台热播，横店官方于9月27日推出了“跟着《兰香如故》游横店”的活动，目前已吸引颇多剧集粉丝前往打卡。众所周知的横店，是坐落于浙江东阳的横店影视城，占地30多...... 本文来自微信公众号： 海克财经 ，作者：许俊浩 所有人已避无可避。 影视城是国内近期文旅热点之一，正在拉开帷幕的20..."
+   "published_at": "2026-10-01T15:35:42+00:00",
+   "summary": "IT之家 10 月 1 日消息，英伟达于当地时间 30 日推出 GeForce 安全更新驱动程序 582.78，适用于 Maxwell、Pascal 和 Volta 架构显卡，涵盖 GTX 700 系、GTX 900 系、GTX 10 系显卡及 Tesla V100、Titan V 等专业卡。 据IT之家了解，英伟达已经不会为上述显卡发布常规 Game Ready 驱动更新，但仍然会不时推出安全更新。该更新支持 Windows 10 和..."
   },
   {
    "rank": 19,
-   "title": "马斯克沉寂数月的 AI 维基百科 Grokipedia 推出 v0.3 版本：界面更新，恢复内容编辑",
+   "title": "美团万亿模型悄悄上线，我用它复刻了Muse前端",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/043.htm",
-   "score": 3.5,
+   "url": "https://zhidx.com/p/598348.html",
+   "score": 3.0,
    "sources": [
-    "ithome"
+    "zhidx"
    ],
    "titles": [
-    "马斯克沉寂数月的 AI 维基百科 Grokipedia 推出 v0.3 版本：界面更新，恢复内容编辑"
+    "美团万亿模型悄悄上线，我用它复刻了Muse前端"
    ],
-   "published_at": "2026-10-01T04:58:57+00:00",
-   "summary": "IT之家 10 月 1 日消息，由 SpaceXAI 推出、对标维基百科的人工智能百科项目 Grokipedia 近期重新恢复接收内容编辑。如今该平台又迎来 v0.3 版本更新，进行了多项界面设计调整：启用全新标识，同时对首页与实时编辑页面进行改版。SpaceXAI 的设计负责人本吉 · 泰勒（Benji Taylor）将其称作“焕然一新的 Grokipedia”。 IT之家注意到，Grokipedia 旧版首页基本上只有一个标志和搜索..."
+   "published_at": "2026-09-29T12:24:57+00:00",
+   "summary": "智东西 作者 | 江宇 编辑 | 心缘 智东西9月30日报道，9月25日，美团LongCat团队上线了新一代 预览版模型LongCat-2.5-Preview ，并在OpenCode开放了 为期两周的限时免费体验 。 具体能力如何？我们将LongCat-2.5-Preview接入Claude Code，连续测试了三个Coding任务 ：复刻Meta Muse App、制作SpaceX星舰升空动画，以及开发一款3D赛车游戏。从整体体验来看..."
   },
   {
    "rank": 20,
-   "title": "HMD Vibe2 Pro 手机发布：6.78 英寸 1080P LCD 屏幕，天玑 6300 芯片",
+   "title": "江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/070.htm",
-   "score": 3.5,
+   "url": "https://www.tmtpost.com/8157844.html",
+   "score": 2.5,
    "sources": [
-    "ithome"
+    "tmtpost"
    ],
    "titles": [
-    "HMD Vibe2 Pro 手机发布：6.78 英寸 1080P LCD 屏幕，天玑 6300 芯片"
+    "江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节"
    ],
-   "published_at": "2026-10-01T07:04:30+00:00",
-   "summary": "IT之家 10 月 1 日消息，HMD 现已在印度市场推出 Vibe2 Pro 智能手机。新品定位中低端市场，采用天玑 6300 芯片，具备 120Hz FHD+ 高刷屏幕，提供银雾、海蓝绿、星云紫三种配色， 起售价为 14,999 卢比 （IT之家注：现汇率约合 1,048 元人民币） 。 据介绍，这款手机采用联发科天玑 6300 芯片， 提供 6GB+128GB、8GB+128GB 两种配置 ，支持 microSD 卡扩容。 同时，..."
+   "published_at": "2026-10-01T08:05:23+00:00",
+   "summary": "文 | 预见能源 预见能源获悉，国网江苏电力近日印发《“人工智能+”三年行动方案》，以“2359”为骨架部署AI与电网业务融合。 此前国家电网已内部印发《2026年具身智能发展规划》，计划年内集中采购具身智能设备约8500台，总投资约68亿元，覆盖电力巡检、带电作业、应急救援、仓储物流四大场景。叠加南方电网及地方能源集团跟进，产业链人士预计2026年电力行业具身智能总投资规模有望突破100亿元。 这是一份足以让任何硬件公司心跳加速的采购..."
   }
  ]
 }
