@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-01T19:41:30.877940+00:00",
+ "generated_at": "2026-10-02T00:01:23.412433+00:00",
  "stats": {
-  "items": 2130,
-  "clusters": 1626,
-  "noise": 368,
-  "dup": 131,
+  "items": 2095,
+  "clusters": 1654,
+  "noise": 390,
+  "dup": 141,
   "history_days": 0,
-  "available_cn": 39,
-  "available_intl": 1088,
+  "available_cn": 41,
+  "available_intl": 1082,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -108,21 +108,19 @@
   },
   {
    "rank": 6,
-   "title": "It’s raining AI, and won’t stop!",
+   "title": "nvidia/llama-nemotron-rerank-vl-1b-v2",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/b82a68aa-f29a-4a88-b1e1-65f7e4f18e6c?syn-25a6b1a6=1",
-   "score": 5.0,
+   "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2",
+   "score": 5.31,
    "sources": [
-    "ft-tech",
-    "reddit-ai-new"
+    "hf-models-intl"
    ],
    "titles": [
-    "It’s raining AI, and won’t stop!",
-    "Stop using AI"
+    "nvidia/llama-nemotron-rerank-vl-1b-v2"
    ],
-   "published_at": "2026-10-01T08:46:01.000000+00:00",
-   "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
+   "published_at": "2026-10-01T20:22:10.000000+00:00",
+   "summary": "text-ranking, transformers, safetensors, llama_nemotron_vl_rerank, feature-extraction, reranker, cross-encoder, visual-document-retrieval, question-answering retrieval, multimodal reranking, semantic-search, rag, sentenc..."
   },
   {
    "rank": 7,
@@ -176,6 +174,24 @@
   },
   {
    "rank": 10,
+   "title": "It’s raining AI, and won’t stop!",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/b82a68aa-f29a-4a88-b1e1-65f7e4f18e6c?syn-25a6b1a6=1",
+   "score": 4.5,
+   "sources": [
+    "ft-tech",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "It’s raining AI, and won’t stop!",
+    "Stop using AI"
+   ],
+   "published_at": "2026-10-01T08:46:01.000000+00:00",
+   "summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
+  },
+  {
+   "rank": 11,
    "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
    "lang": "en",
    "region": "intl",
@@ -191,38 +207,22 @@
    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers t..."
   },
   {
-   "rank": 11,
-   "title": "Introducing ai_decide: make fast decisions on your governed data",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
-   "score": 4.0,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "Introducing ai_decide: make fast decisions on your governed data"
-   ],
-   "published_at": "2026-09-30T16:59:34.000000+00:00",
-   "summary": "Today, we’re launching a new Databricks AI Function ai_decide that makes fast decisions..."
-  },
-  {
    "rank": 12,
-   "title": "AI CEO Interviews (2026)",
+   "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
    "lang": "en",
    "region": "intl",
-   "url": "https://youtu.be/DlTNN0gvkLM",
-   "score": 3.58,
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1wunvg4/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+   "score": 4.03,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "AI CEO Interviews (2026)",
-    "AI CEO Interviews (2026)"
+    "[D] Monthly Who's Hiring and Who wants to be Hired?",
+    "Ask HN: Who wants to be hired? (October 2026)"
    ],
-   "published_at": "2026-09-30T23:43:15.000000+00:00",
-   "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
+   "published_at": "2026-10-01T02:30:09.000000+00:00",
+   "summary": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this..."
   },
   {
    "rank": 13,
@@ -340,19 +340,19 @@
   },
   {
    "rank": 20,
-   "title": "江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节",
+   "title": "何恺明团队新作：看猫片就能学会ARC挑战",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8157844.html",
+   "url": "https://www.qbitai.com/2026/10/499812.html",
    "score": 2.5,
    "sources": [
-    "tmtpost"
+    "qbitai"
    ],
    "titles": [
-    "江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节"
+    "何恺明团队新作：看猫片就能学会ARC挑战"
    ],
-   "published_at": "2026-10-01T08:05:23+00:00",
-   "summary": "文 | 预见能源 预见能源获悉，国网江苏电力近日印发《“人工智能+”三年行动方案》，以“2359”为骨架部署AI与电网业务融合。 此前国家电网已内部印发《2026年具身智能发展规划》，计划年内集中采购具身智能设备约8500台，总投资约68亿元，覆盖电力巡检、带电作业、应急救援、仓储物流四大场景。叠加南方电网及地方能源集团跟进，产业链人士预计2026年电力行业具身智能总投资规模有望突破100亿元。 这是一份足以让任何硬件公司心跳加速的采购..."
+   "published_at": "2026-10-01T15:06:30+00:00",
+   "summary": "用ImageNet训练encoder"
   }
  ]
 }

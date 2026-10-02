@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-02 03:41 CST
-数据窗口：最近 24 小时，2130 条原始条目 → 1626 个事件；过滤噪音 368 个，排除全部历史已推送的 131 个。
+生成时间：2026-10-02 08:01 CST
+数据窗口：最近 24 小时，2095 条原始条目 → 1654 个事件；过滤噪音 390 个，排除全部历史已推送的 141 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -44,12 +44,11 @@
 - 链接：https://arxiv.org/abs/2609.36209
 - 同事件报道：Constructing Disambiguated Knowledge Bases from Large Language Models at Scale（arXiv cs.AI）
 
-## 6. It’s raining AI, and won’t stop!
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
-- 摘要：The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times
-- 发布时间：2026-10-01 16:46 CST
-- 链接：https://www.ft.com/content/b82a68aa-f29a-4a88-b1e1-65f7e4f18e6c?syn-25a6b1a6=1
-- 同事件报道：Stop using AI（Reddit AI subreddits (new)）
+## 6. nvidia/llama-nemotron-rerank-vl-1b-v2
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.31
+- 摘要：text-ranking, transformers, safetensors, llama_nemotron_vl_rerank, feature-extraction, reranker, cross-encoder, visual-document-retrieval, question-answering retrieval, multimodal reranking, semantic-search, rag, sentenc...
+- 发布时间：2026-10-02 04:22 CST
+- 链接：https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2
 
 ## 7. Announcing Ranveer Singh as Brand Ambassador for Ray-Ban and Ray-Ban Meta in India along with Exciting New Updates to our AI Glasses
 - 地区：国外源 ｜ 语言：en ｜ 来源：Meta Newsroom（1 个来源） ｜ 热度：4.5
@@ -70,24 +69,25 @@
 - 链接：https://www.ft.com/content/e6f7ac91-8741-4b90-ab23-a6b4f7c9e348?syn-25a6b1a6=1
 - 同事件报道：could this one day be humanity's future in 2077? or our end if this leaves science fiction?（Reddit AI subreddits (new)）
 
-## 10. Clef: Open-source decision models, and new RL fine-tuning platform
+## 10. It’s raining AI, and won’t stop!
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
+- 摘要：The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times
+- 发布时间：2026-10-01 16:46 CST
+- 链接：https://www.ft.com/content/b82a68aa-f29a-4a88-b1e1-65f7e4f18e6c?syn-25a6b1a6=1
+- 同事件报道：Stop using AI（Reddit AI subreddits (new)）
+
+## 11. Clef: Open-source decision models, and new RL fine-tuning platform
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：4.5
 - 摘要：We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers t...
 - 发布时间：2026-10-02 00:18 CST
 - 链接：https://blog.cloudflare.com/clef-decision-models/
 
-## 11. Introducing ai_decide: make fast decisions on your governed data
-- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：4.0
-- 摘要：Today, we’re launching a new Databricks AI Function ai_decide that makes fast decisions...
-- 发布时间：2026-10-01 00:59 CST
-- 链接：https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data
-
-## 12. AI CEO Interviews (2026)
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.58
-- 摘要：Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-- 发布时间：2026-10-01 07:43 CST
-- 链接：https://youtu.be/DlTNN0gvkLM
-- 同事件报道：AI CEO Interviews (2026)（Hacker News (AI stories)）
+## 12. [D] Monthly Who's Hiring and Who wants to be Hired?
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.03
+- 摘要：For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this...
+- 发布时间：2026-10-01 10:30 CST
+- 链接：https://www.reddit.com/r/MachineLearning/comments/1wunvg4/d_monthly_whos_hiring_and_who_wants_to_be_hired/
+- 同事件报道：Ask HN: Who wants to be hired? (October 2026)（Hacker News (AI stories)）
 
 ## 13. Connecting customer context to measurable ROI with agentic marketing
 - 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
@@ -134,8 +134,8 @@
 - 发布时间：2026-09-29 20:24 CST
 - 链接：https://zhidx.com/p/598348.html
 
-## 6. 江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体（1 个来源） ｜ 热度：2.5
-- 摘要：文 | 预见能源 预见能源获悉，国网江苏电力近日印发《“人工智能+”三年行动方案》，以“2359”为骨架部署AI与电网业务融合。 此前国家电网已内部印发《2026年具身智能发展规划》，计划年内集中采购具身智能设备约8500台，总投资约68亿元，覆盖电力巡检、带电作业、应急救援、仓储物流四大场景。叠加南方电网及地方能源集团跟进，产业链人士预计2026年电力行业具身智能总投资规模有望突破100亿元。 这是一份足以让任何硬件公司心跳加速的采购...
-- 发布时间：2026-10-01 16:05 CST
-- 链接：https://www.tmtpost.com/8157844.html
+## 6. 何恺明团队新作：看猫片就能学会ARC挑战
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位（1 个来源） ｜ 热度：2.5
+- 摘要：用ImageNet训练encoder
+- 发布时间：2026-10-01 23:06 CST
+- 链接：https://www.qbitai.com/2026/10/499812.html
