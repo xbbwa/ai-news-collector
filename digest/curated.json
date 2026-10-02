@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-02T18:35:51.029620+00:00",
+ "generated_at": "2026-10-02T23:09:13.590042+00:00",
  "stats": {
-  "items": 2098,
-  "clusters": 1681,
-  "noise": 428,
-  "dup": 139,
+  "items": 2028,
+  "clusters": 1648,
+  "noise": 432,
+  "dup": 128,
   "history_days": 0,
-  "available_cn": 46,
-  "available_intl": 1068,
+  "available_cn": 43,
+  "available_intl": 1045,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -109,24 +109,56 @@
   },
   {
    "rank": 6,
-   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+   "title": "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion",
    "score": 6.0,
    "sources": [
-    "latent-space",
-    "reddit-ai-new"
+    "bloomberg-tech",
+    "cnbc-tech"
    ],
    "titles": [
-    "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-    "Pi 1.0 released - MCP support now included by default"
+    "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
+    "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration"
    ],
-   "published_at": "2026-10-02T06:40:53.000000+00:00",
-   "summary": "Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is ofte..."
+   "published_at": "2026-10-02T13:47:58.000000+00:00",
+   "summary": "Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value."
   },
   {
    "rank": 7,
+   "title": "Lightricks/LTX-2.5",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/Lightricks/LTX-2.5",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "Lightricks/LTX-2.5"
+   ],
+   "published_at": "2026-10-02T21:01:57.000000+00:00",
+   "summary": "image-to-video, diffusion-single-file, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vid..."
+  },
+  {
+   "rank": 8,
+   "title": "Lightricks/LTX-2.3",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/Lightricks/LTX-2.3",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "Lightricks/LTX-2.3"
+   ],
+   "published_at": "2026-10-02T21:04:36.000000+00:00",
+   "summary": "image-to-video, diffusers, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-video, ltx-2, l..."
+  },
+  {
+   "rank": 9,
    "title": "Google’s new Guided Vision feature can help you read the fine print",
    "lang": "en",
    "region": "intl",
@@ -144,57 +176,61 @@
    "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can ha..."
   },
   {
-   "rank": 8,
-   "title": "ibm-granite/granite-speech-5.0-470m-turboctc-nc",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc",
-   "score": 5.03,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "ibm-granite/granite-speech-5.0-470m-turboctc-nc"
-   ],
-   "published_at": "2026-10-02T15:32:29.000000+00:00",
-   "summary": "automatic-speech-recognition, transformers, safetensors, granite_speech5_ctc, en, license:cc-by-nc-sa-4.0, endpoints_compatible, region:us"
-  },
-  {
-   "rank": 9,
-   "title": "nvidia/llama-nemotron-rerank-vl-1b-v2",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2",
-   "score": 4.81,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/llama-nemotron-rerank-vl-1b-v2"
-   ],
-   "published_at": "2026-10-01T20:22:10.000000+00:00",
-   "summary": "text-ranking, transformers, safetensors, llama_nemotron_vl_rerank, feature-extraction, reranker, cross-encoder, visual-document-retrieval, question-answering retrieval, multimodal reranking, semantic-search, rag, sentenc..."
-  },
-  {
    "rank": 10,
-   "title": "Brian Chesky interview: AI agents need their own operating system",
+   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
-   "score": 4.5,
+   "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+   "score": 5.5,
    "sources": [
-    "techcrunch-ai",
+    "latent-space",
     "reddit-ai-new"
    ],
    "titles": [
-    "Brian Chesky interview: AI agents need their own operating system",
-    "Brian Chesky says AI is like an amplifier"
+    "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+    "Pi 1.0 released - MCP support now included by default"
    ],
-   "published_at": "2026-10-01T15:12:00.000000+00:00",
-   "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system."
+   "published_at": "2026-10-02T06:40:53.000000+00:00",
+   "summary": "Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is ofte..."
   },
   {
    "rank": 11,
+   "title": "AI music maker Suno now generates spoken words",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+   "score": 5.5,
+   "sources": [
+    "theverge-ai",
+    "the-decoder"
+   ],
+   "titles": [
+    "AI music maker Suno now generates spoken words",
+    "AI music generator Suno can now create spoken audio with matching background music"
+   ],
+   "published_at": "2026-10-02T09:42:19.000000+00:00",
+   "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platfo..."
+  },
+  {
+   "rank": 12,
+   "title": "Pope Leo says AI lacks the \"spark of humanity\" — and wants artists and the church to fight back",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.axios.com/2026/10/02/pope-leo-xiv-catcholic-church-ai-waring-artists",
+   "score": 5.05,
+   "sources": [
+    "axios",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Pope Leo says AI lacks the \"spark of humanity\" — and wants artists and the church to fight back",
+    "Pope Leo XIV on AI and Art"
+   ],
+   "published_at": "2026-10-02T12:50:02.000000+00:00",
+   "summary": "Pope Leo XIV called Friday for the church to form an alliance with artists to protect human creativity during an era of AI-generated content. Why it matters: Though he has acknowledged the technology's potential benefits..."
+  },
+  {
+   "rank": 13,
    "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
    "lang": "en",
    "region": "intl",
@@ -212,7 +248,7 @@
    "summary": ""
   },
   {
-   "rank": 12,
+   "rank": 14,
    "title": "Toward provably private learning from federated data",
    "lang": "en",
    "region": "intl",
@@ -226,38 +262,6 @@
    ],
    "published_at": "2026-10-02T14:57:41.000000+00:00",
    "summary": "Mobile Systems"
-  },
-  {
-   "rank": 13,
-   "title": "AI is changing developer work. Here are three skills to strengthen.",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-   "score": 3.5,
-   "sources": [
-    "github-blog"
-   ],
-   "titles": [
-    "AI is changing developer work. Here are three skills to strengthen."
-   ],
-   "published_at": "2026-10-02T15:00:00.000000+00:00",
-   "summary": "AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical..."
-  },
-  {
-   "rank": 14,
-   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/allenai/astabrief",
-   "score": 3.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Open-sourcing AstaBrief, the fast report-generation model in Asta"
-   ],
-   "published_at": "2026-10-02T15:19:50.000000+00:00",
-   "summary": "A Blog post by Ai2 on Hugging Face"
   },
   {
    "rank": 15,
@@ -329,35 +333,35 @@
   },
   {
    "rank": 19,
-   "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+   "title": "想造GPT 通才的年轻人，和相信专才的老将",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/500098.html",
-   "score": 2.5,
-   "sources": [
-    "qbitai"
-   ],
-   "titles": [
-    "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗"
-   ],
-   "published_at": "2026-10-02T07:34:15+00:00",
-   "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择"
-  },
-  {
-   "rank": 20,
-   "title": "华为芯片接连突破，国产模型四处找货",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4895142.html",
+   "url": "https://www.huxiu.com/article/4895175.html",
    "score": 2.5,
    "sources": [
     "huxiu"
    ],
    "titles": [
-    "华为芯片接连突破，国产模型四处找货"
+    "想造GPT 通才的年轻人，和相信专才的老将"
    ],
-   "published_at": "2026-10-02T07:37:49.000000+00:00",
-   "summary": "华为昇腾和DeepSeek的协作，正迈向深水区。9月30日，DeepSeek开源了面向华为昇腾平台的一整套大模型基础设施组件，从高级语言编译工具，到计算库、分布式通信库，与此前面向英伟达平台的组件一一对应。双方还在共同推进昇腾950的128卡超节点方案。这不是给国产芯片做一次友情适配，而是把模型研发需要的工具...... 本文来自微信公众号： AI钦天监 ，作者：监正 华为昇腾和DeepSeek的协作，正迈向深水区。 9月30日，Dee..."
+   "published_at": "2026-10-02T11:41:20.000000+00:00",
+   "summary": "9月27日到10月1日，第39届IEEE/RSJ智能机器人与系统国际会议（IROS 2026）在大卫·劳伦斯会展中心举办。上一次匹兹堡举办IROS还是在31年前的1995年，31年里，CMU在这里把机器人研究做成了招牌，老「钢铁之城」也多了个「Roboburgh（机器人之城）」的外号，本届大会主席同时也由CM...... 本文来自微信公众号： 42号电波 ，作者：yukun，编辑：大吉，原文标题：《想造 GPT 通才的年轻人，和相信专才..."
+  },
+  {
+   "rank": 20,
+   "title": "赵鼎新：AI不会淘汰任何学科，但抽走了人才成长的底层台阶",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4895182.html",
+   "score": 2.5,
+   "sources": [
+    "huxiu"
+   ],
+   "titles": [
+    "赵鼎新：AI不会淘汰任何学科，但抽走了人才成长的底层台阶"
+   ],
+   "published_at": "2026-10-02T12:20:41.000000+00:00",
+   "summary": "“很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基础学科会被AI淘汰，数学尤其用不着紧张。”近日，在清华大学方塘研究院举办的一场创新主题学术演讲结束后，面对《中国科学报》记者的现场提问，浙江大学人文高等研究院院长、芝加哥大学社会学系荣休教授赵鼎新给出了一个反潮流的判断。赵鼎新在清华大学方塘研究院的演讲...... 本文来自微信公众号： 科学网 ，编辑：|方圆，作者：孙滔 “很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基..."
   }
  ]
 }

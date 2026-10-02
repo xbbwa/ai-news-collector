@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-03 02:35 CST
-数据窗口：最近 24 小时，2098 条原始条目 → 1681 个事件；过滤噪音 428 个，排除全部历史已推送的 139 个。
+生成时间：2026-10-03 07:09 CST
+数据窗口：最近 24 小时，2028 条原始条目 → 1648 个事件；过滤噪音 432 个，排除全部历史已推送的 128 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -45,62 +45,64 @@
 - 同事件报道：Trump asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro, spending hours asking Musk's AI c...（Reddit AI subreddits (new)）
 - 同事件报道：He (Trump) asked Grok how Venezuelans would react if the U.S. captured Maduro（Hacker News (AI stories)）
 
-## 6. [AINews] Pi 1.0, Pi Durable, and AIE NYC
-- 地区：国外源 ｜ 语言：en ｜ 来源：Latent Space、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
-- 摘要：Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is ofte...
-- 发布时间：2026-10-02 14:40 CST
-- 链接：https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc
-- 同事件报道：Pi 1.0 released - MCP support now included by default（Reddit AI subreddits (new)）
+## 6. Nvidia Hits First Record Since May as Value Nears $6 Trillion
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：6.0
+- 摘要：Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value.
+- 发布时间：2026-10-02 21:47 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion
+- 同事件报道：Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration（CNBC Technology）
 
-## 7. Google’s new Guided Vision feature can help you read the fine print
+## 7. Lightricks/LTX-2.5
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：image-to-video, diffusion-single-file, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vid...
+- 发布时间：2026-10-03 05:01 CST
+- 链接：https://huggingface.co/Lightricks/LTX-2.5
+
+## 8. Lightricks/LTX-2.3
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：image-to-video, diffusers, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-video, ltx-2, l...
+- 发布时间：2026-10-03 05:04 CST
+- 链接：https://huggingface.co/Lightricks/LTX-2.3
+
+## 9. Google’s new Guided Vision feature can help you read the fine print
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、MarkTechPost（2 个来源） ｜ 热度：5.5
 - 摘要：Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can ha...
 - 发布时间：2026-10-02 03:47 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision
 - 同事件报道：A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer...（MarkTechPost）
 
-## 8. ibm-granite/granite-speech-5.0-470m-turboctc-nc
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.03
-- 摘要：automatic-speech-recognition, transformers, safetensors, granite_speech5_ctc, en, license:cc-by-nc-sa-4.0, endpoints_compatible, region:us
-- 发布时间：2026-10-02 23:32 CST
-- 链接：https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc-nc
+## 10. [AINews] Pi 1.0, Pi Durable, and AIE NYC
+- 地区：国外源 ｜ 语言：en ｜ 来源：Latent Space、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
+- 摘要：Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is ofte...
+- 发布时间：2026-10-02 14:40 CST
+- 链接：https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc
+- 同事件报道：Pi 1.0 released - MCP support now included by default（Reddit AI subreddits (new)）
 
-## 9. nvidia/llama-nemotron-rerank-vl-1b-v2
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.81
-- 摘要：text-ranking, transformers, safetensors, llama_nemotron_vl_rerank, feature-extraction, reranker, cross-encoder, visual-document-retrieval, question-answering retrieval, multimodal reranking, semantic-search, rag, sentenc...
-- 发布时间：2026-10-02 04:22 CST
-- 链接：https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2
+## 11. AI music maker Suno now generates spoken words
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder（2 个来源） ｜ 热度：5.5
+- 摘要：Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platfo...
+- 发布时间：2026-10-02 17:42 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability
+- 同事件报道：AI music generator Suno can now create spoken audio with matching background music（The Decoder）
 
-## 10. Brian Chesky interview: AI agents need their own operating system
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.
-- 发布时间：2026-10-01 23:12 CST
-- 链接：https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/
-- 同事件报道：Brian Chesky says AI is like an amplifier（Reddit AI subreddits (new)）
+## 12. Pope Leo says AI lacks the "spark of humanity" — and wants artists and the church to fight back
+- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
+- 摘要：Pope Leo XIV called Friday for the church to form an alliance with artists to protect human creativity during an era of AI-generated content. Why it matters: Though he has acknowledged the technology's potential benefits...
+- 发布时间：2026-10-02 20:50 CST
+- 链接：https://www.axios.com/2026/10/02/pope-leo-xiv-catcholic-church-ai-waring-artists
+- 同事件报道：Pope Leo XIV on AI and Art（Hacker News (AI stories)）
 
-## 11. Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it
+## 13. Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.85
 - 发布时间：2026-10-02 06:15 CST
 - 链接：https://neow.in/NGxhb3d6
 - 同事件报道：McDonald's has been using AI to decide how much you should pay for a Big Mac（Reddit AI subreddits (new)）
 
-## 12. Toward provably private learning from federated data
+## 14. Toward provably private learning from federated data
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Research Blog（1 个来源） ｜ 热度：3.5
 - 摘要：Mobile Systems
 - 发布时间：2026-10-02 22:57 CST
 - 链接：https://research.google/blog/toward-provably-private-learning-from-federated-data/
-
-## 13. AI is changing developer work. Here are three skills to strengthen.
-- 地区：国外源 ｜ 语言：en ｜ 来源：GitHub Blog（1 个来源） ｜ 热度：3.5
-- 摘要：AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical...
-- 发布时间：2026-10-02 23:00 CST
-- 链接：https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/
-
-## 14. Open-sourcing AstaBrief, the fast report-generation model in Asta
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
-- 摘要：A Blog post by Ai2 on Hugging Face
-- 发布时间：2026-10-02 23:19 CST
-- 链接：https://huggingface.co/blog/allenai/astabrief
 
 国内：
 
@@ -130,14 +132,14 @@
 - 发布时间：2026-10-02 12:45 CST
 - 链接：https://www.ithome.com/1/009/262.htm
 
-## 5. openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位（1 个来源） ｜ 热度：2.5
-- 摘要：让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择
-- 发布时间：2026-10-02 15:34 CST
-- 链接：https://www.qbitai.com/2026/10/500098.html
-
-## 6. 华为芯片接连突破，国产模型四处找货
+## 5. 想造GPT 通才的年轻人，和相信专才的老将
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：华为昇腾和DeepSeek的协作，正迈向深水区。9月30日，DeepSeek开源了面向华为昇腾平台的一整套大模型基础设施组件，从高级语言编译工具，到计算库、分布式通信库，与此前面向英伟达平台的组件一一对应。双方还在共同推进昇腾950的128卡超节点方案。这不是给国产芯片做一次友情适配，而是把模型研发需要的工具...... 本文来自微信公众号： AI钦天监 ，作者：监正 华为昇腾和DeepSeek的协作，正迈向深水区。 9月30日，Dee...
-- 发布时间：2026-10-02 15:37 CST
-- 链接：https://www.huxiu.com/article/4895142.html
+- 摘要：9月27日到10月1日，第39届IEEE/RSJ智能机器人与系统国际会议（IROS 2026）在大卫·劳伦斯会展中心举办。上一次匹兹堡举办IROS还是在31年前的1995年，31年里，CMU在这里把机器人研究做成了招牌，老「钢铁之城」也多了个「Roboburgh（机器人之城）」的外号，本届大会主席同时也由CM...... 本文来自微信公众号： 42号电波 ，作者：yukun，编辑：大吉，原文标题：《想造 GPT 通才的年轻人，和相信专才...
+- 发布时间：2026-10-02 19:41 CST
+- 链接：https://www.huxiu.com/article/4895175.html
+
+## 6. 赵鼎新：AI不会淘汰任何学科，但抽走了人才成长的底层台阶
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
+- 摘要：“很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基础学科会被AI淘汰，数学尤其用不着紧张。”近日，在清华大学方塘研究院举办的一场创新主题学术演讲结束后，面对《中国科学报》记者的现场提问，浙江大学人文高等研究院院长、芝加哥大学社会学系荣休教授赵鼎新给出了一个反潮流的判断。赵鼎新在清华大学方塘研究院的演讲...... 本文来自微信公众号： 科学网 ，编辑：|方圆，作者：孙滔 “很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基...
+- 发布时间：2026-10-02 20:20 CST
+- 链接：https://www.huxiu.com/article/4895182.html
