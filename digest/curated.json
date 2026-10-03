@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-02T23:09:13.590042+00:00",
+ "generated_at": "2026-10-03T02:11:50.600226+00:00",
  "stats": {
-  "items": 2028,
-  "clusters": 1648,
-  "noise": 432,
-  "dup": 128,
+  "items": 1986,
+  "clusters": 1606,
+  "noise": 404,
+  "dup": 140,
   "history_days": 0,
-  "available_cn": 43,
-  "available_intl": 1045,
+  "available_cn": 40,
+  "available_intl": 1022,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,117 +16,79 @@
  "items": [
   {
    "rank": 1,
-   "title": "Spectral Tail Auxiliary Learning for AI-Generated Image Detection",
+   "title": "Paying for Too Many Tokens? Valid and Cost-Efficient Multimodal LLM Annotation with Simple Heuristics",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2605.22751",
-   "score": 8.5,
+   "url": "https://arxiv.org/abs/2610.00809",
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
-    "arxiv-cs-cl"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "Spectral Tail Auxiliary Learning for AI-Generated Image Detection",
-    "DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text",
-    "Does AI-Generated Scientific Text Follow Human Argumentation Patterns? A CARS-Based Comparison of Research Article Introductions"
+    "Paying for Too Many Tokens? Valid and Cost-Efficient Multimodal LLM Annotation with Simple Heuristics",
+    "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents"
    ],
    "published_at": "2026-10-02T04:00:00.000000+00:00",
-   "summary": "arXiv:2605.22751v2 Announce Type: replace Abstract: As generative image models evolve rapidly, the perceptual gap between generated and real images continues to narrow, making AI-generated image detection increasingly ch..."
+   "summary": "arXiv:2610.00809v1 Announce Type: new Abstract: Vision-Language Models (VLMs) enable video annotation at scale, but costs accumulate quickly: processing a typical 60-second short-form video at one frame per second requir..."
   },
   {
    "rank": 2,
-   "title": "LENS-GRF: Permutation-Invariant Lesion Evidence Network with Gated Residual Fusion for Acne Severity Grading and Multi-Rater Clinical Oracle Analysis",
+   "title": "PickMoment: Continuous-Time Single-Image-to-Video via Learning Deblurring and Blur-to-Video",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.00294",
+   "url": "https://arxiv.org/abs/2610.01279",
    "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-lg"
    ],
    "titles": [
-    "LENS-GRF: Permutation-Invariant Lesion Evidence Network with Gated Residual Fusion for Acne Severity Grading and Multi-Rater Clinical Oracle Analysis",
-    "PI-AMFM: Permutation-Invariant Learning for Variable-Cardinality AM-FM Mode Decomposition in Biomedical Signal Analysis"
+    "PickMoment: Continuous-Time Single-Image-to-Video via Learning Deblurring and Blur-to-Video",
+    "Stochastic Optimal Control for Continuous-Time fMRI Representation Learning"
    ],
    "published_at": "2026-10-02T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.00294v1 Announce Type: new Abstract: Automated acne severity grading requires both whole-face context and fine-grained lesion evidence. We propose LENS-GRF (Lesion Evidence Network with Set-Transformer and Gat..."
+   "summary": "arXiv:2610.01279v1 Announce Type: new Abstract: Motion blur arises from the temporal integration of a continuous sharp signal over a finite exposure window, yet existing learning-based methods sidestep this physical mode..."
   },
   {
    "rank": 3,
-   "title": "FedMAD: Modulation-Aware Directional Aggregation for Federated Learning in Remote Sensing Image Classification",
+   "title": "Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.00693",
+   "url": "https://arxiv.org/abs/2610.01614",
    "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
-    "arxiv-cs-lg"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "FedMAD: Modulation-Aware Directional Aggregation for Federated Learning in Remote Sensing Image Classification",
-    "Progressive-Resolution Secure Aggregation for Federated Learning"
+    "Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models",
+    "MatrixReward: Reward from Rubric Matrix for Open-Ended Generation"
    ],
    "published_at": "2026-10-02T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.00693v1 Announce Type: new Abstract: Federated learning (FL) has recently attracted increasing attention in remote sensing (RS) since it enables collaborative model training across decentralized RS image archi..."
+   "summary": "arXiv:2610.01614v1 Announce Type: new Abstract: Generative video world models can now synthesize open-ended environments that agents can navigate and interact with in simple ways. Yet open-ended generation does not imply..."
   },
   {
    "rank": 4,
-   "title": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
+   "title": "Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.00061",
+   "url": "https://arxiv.org/abs/2610.00663",
    "score": 7.5,
    "sources": [
     "arxiv-cs-ai",
-    "arxiv-cs-cl"
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
-    "GAW-PO: Preference Optimization with Gradient-Aligned Token Weights"
+    "Backdoor Containment via Expert Quarantine and Shutdown in LLMs",
+    "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+    "Removing the NEEDLE in the Haystack: Backdoor Removal in LLMs via Weight Orthogonalisation"
    ],
    "published_at": "2026-10-02T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.00061v1 Announce Type: new Abstract: Personalizing large language models (LLMs) requires aligning generation behavior with user-specific preferences rather than aggregate quality. While Direct Preference Optim..."
+   "summary": "arXiv:2610.00663v1 Announce Type: new Abstract: Backdoored large language models (LLMs) can behave normally on benign inputs while producing attacker-specified outputs under hidden triggers. Existing defenses span four s..."
   },
   {
    "rank": 5,
-   "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-   "score": 7.07,
-   "sources": [
-    "techcrunch-ai",
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-    "Trump asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro, spending hours asking Musk's AI chatbot how Venezuelans would respond to the capture of their president, weeks before ordering the mission that took Maduro",
-    "He (Trump) asked Grok how Venezuelans would react if the U.S. captured Maduro"
-   ],
-   "published_at": "2026-10-01T21:08:11.000000+00:00",
-   "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro."
-  },
-  {
-   "rank": 6,
-   "title": "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion",
-   "score": 6.0,
-   "sources": [
-    "bloomberg-tech",
-    "cnbc-tech"
-   ],
-   "titles": [
-    "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
-    "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration"
-   ],
-   "published_at": "2026-10-02T13:47:58.000000+00:00",
-   "summary": "Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value."
-  },
-  {
-   "rank": 7,
    "title": "Lightricks/LTX-2.5",
    "lang": "en",
    "region": "intl",
@@ -142,7 +104,7 @@
    "summary": "image-to-video, diffusion-single-file, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vid..."
   },
   {
-   "rank": 8,
+   "rank": 6,
    "title": "Lightricks/LTX-2.3",
    "lang": "en",
    "region": "intl",
@@ -158,43 +120,7 @@
    "summary": "image-to-video, diffusers, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-video, ltx-2, l..."
   },
   {
-   "rank": 9,
-   "title": "Google’s new Guided Vision feature can help you read the fine print",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-   "score": 5.5,
-   "sources": [
-    "theverge-ai",
-    "marktechpost"
-   ],
-   "titles": [
-    "Google’s new Guided Vision feature can help you read the fine print",
-    "A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End"
-   ],
-   "published_at": "2026-10-01T19:47:51.000000+00:00",
-   "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can ha..."
-  },
-  {
-   "rank": 10,
-   "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
-   "score": 5.5,
-   "sources": [
-    "latent-space",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-    "Pi 1.0 released - MCP support now included by default"
-   ],
-   "published_at": "2026-10-02T06:40:53.000000+00:00",
-   "summary": "Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is ofte..."
-  },
-  {
-   "rank": 11,
+   "rank": 7,
    "title": "AI music maker Suno now generates spoken words",
    "lang": "en",
    "region": "intl",
@@ -212,12 +138,30 @@
    "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platfo..."
   },
   {
-   "rank": 12,
+   "rank": 8,
+   "title": "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion",
+   "score": 5.5,
+   "sources": [
+    "bloomberg-tech",
+    "cnbc-tech"
+   ],
+   "titles": [
+    "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
+    "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration"
+   ],
+   "published_at": "2026-10-02T13:47:58.000000+00:00",
+   "summary": "Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value."
+  },
+  {
+   "rank": 9,
    "title": "Pope Leo says AI lacks the \"spark of humanity\" — and wants artists and the church to fight back",
    "lang": "en",
    "region": "intl",
    "url": "https://www.axios.com/2026/10/02/pope-leo-xiv-catcholic-church-ai-waring-artists",
-   "score": 5.05,
+   "score": 4.55,
    "sources": [
     "axios",
     "hackernews-ai"
@@ -230,138 +174,185 @@
    "summary": "Pope Leo XIV called Friday for the church to form an alliance with artists to protect human creativity during an era of AI-generated content. Why it matters: Though he has acknowledged the technology's potential benefits..."
   },
   {
-   "rank": 13,
-   "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
+   "rank": 10,
+   "title": "Why Big Tech wants more economists",
    "lang": "en",
    "region": "intl",
-   "url": "https://neow.in/NGxhb3d6",
-   "score": 3.85,
+   "url": "https://www.ft.com/content/b3b198c3-f991-4428-b33f-88e3b84bf479?syn-25a6b1a6=1",
+   "score": 4.5,
    "sources": [
-    "hackernews-ai",
+    "ft-tech",
     "reddit-ai-new"
    ],
    "titles": [
-    "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
-    "McDonald's has been using AI to decide how much you should pay for a Big Mac"
+    "Why Big Tech wants more economists",
+    "'AI Doomsday': Why Big Tech Wants You Scared"
    ],
-   "published_at": "2026-10-01T22:15:57.000000+00:00",
-   "summary": ""
+   "published_at": "2026-10-02T04:00:00.000000+00:00",
+   "summary": "Does AI research have a conflict of interest problem?"
+  },
+  {
+   "rank": 11,
+   "title": "How to choose your first Genie Agents for maximum impact",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
+   "score": 3.5,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "How to choose your first Genie Agents for maximum impact"
+   ],
+   "published_at": "2026-10-02T16:15:00.000000+00:00",
+   "summary": "With more than 1 million Genie Agents created in 2026 alone, the question facing..."
+  },
+  {
+   "rank": 12,
+   "title": "A model guide for the GPT-6 family",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "score": 3.5,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "A model guide for the GPT-6 family"
+   ],
+   "published_at": "2026-10-02T16:15:00.000000+00:00",
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+  },
+  {
+   "rank": 13,
+   "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks"
+   ],
+   "published_at": "2026-10-02T15:23:35+00:00",
+   "summary": "Datalab has released OmniExtractBench , an open benchmark for structured document extraction. It tests how accurately a system fills a JSON schema from a PDF. The benchmark pools 620 documents from 4 existing benchmarks...."
   },
   {
    "rank": 14,
-   "title": "Toward provably private learning from federated data",
+   "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
    "lang": "en",
    "region": "intl",
-   "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-   "score": 3.5,
+   "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+   "score": 3.0,
    "sources": [
-    "google-research"
+    "apple-ml"
    ],
    "titles": [
-    "Toward provably private learning from federated data"
+    "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models"
    ],
-   "published_at": "2026-10-02T14:57:41.000000+00:00",
-   "summary": "Mobile Systems"
+   "published_at": "2026-10-02T00:00:00.000000+00:00",
+   "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening..."
   },
   {
    "rank": 15,
-   "title": "马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半",
+   "title": "苏姿丰与李飞飞",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/196.htm",
-   "score": 5.5,
+   "url": "https://www.huxiu.com/article/4895199.html",
+   "score": 6.0,
    "sources": [
-    "ithome",
-    "36kr-newsflash"
+    "huxiu",
+    "36kr-ai"
    ],
    "titles": [
-    "马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半",
-    "马斯克：将特斯拉AI5芯片的RAM减少了一半"
+    "苏姿丰与李飞飞",
+    "苏姿丰抬头，李飞飞低头",
+    "苏姿丰抬头，李飞飞低头"
    ],
-   "published_at": "2026-10-01T23:16:54+00:00",
-   "summary": "IT之家 10 月 2 日消息，全球首富埃隆 · 马斯克今天（10 月 2 日）在 X 平台发布推文，宣布为了调配充足的内存满足 Optimus 机器人量产，计划削减特斯拉 AI5 和 AI6 芯片的内存用量。 本次调整可以追溯到美光科技的预测，在其最新财报电话会议上，美光科技首席财务官指出人形机器人将成为内存需求新引擎： 每台设备需超 200GB DRAM 及数 TB NAND 闪存。 即便人工智能泡沫破裂，内存价格亦难回落。 网友..."
+   "published_at": "2026-10-02T16:10:26.000000+00:00",
+   "summary": "一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名字，磨完交给别人去用。另一个人在网上把一千多万张图，一张一张地分门别类。那是当年学术圈看不起的活，评职称的时候不好看。那两样东西都叫片。一个是圆的，晶圆。一个是方的，图片。9月28日，AMD宣布收购World Labs，全股票交易，作价约82...... 本文来自微信公众号： 秦朔朋友圈 ，作者：水姐 一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名..."
   },
   {
    "rank": 16,
-   "title": "DeepSeek为什么要16000张卡？",
+   "title": "宏碁发布 14 英寸 Aspire Lite 笔记本：高通骁龙 X1-26-101 芯片、16GB 内存",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4895107.html",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/009/259.htm",
+   "score": 3.0,
    "sources": [
-    "huxiu",
-    "tmtpost"
+    "ithome"
    ],
    "titles": [
-    "DeepSeek为什么要16000张卡？",
-    "deepseek为什么要在此时拥抱华为？"
+    "宏碁发布 14 英寸 Aspire Lite 笔记本：高通骁龙 X1-26-101 芯片、16GB 内存"
    ],
-   "published_at": "2026-10-02T01:11:24.000000+00:00",
-   "summary": "2026年5月的一场业绩说明会上，中芯国际联席CEO赵海军讲了一句话：人工智能在海外的「虹吸效应」，让消费和IoT客户跑到内地来找产能。订单在往回流。他还说了一句更要紧的：客户因为担忧供应不足，在提前备货。这话翻成大白话就是，现在买卡的人最怕的，是以后买不到。那为什么买不到？得从产能说起。中芯国际最近一个季度...... 本文来自微信公众号： 王智远 ，作者：王智远 2026年5月的一场业绩说明会上，中芯国际联席CEO赵海军讲了一句话：..."
+   "published_at": "2026-10-02T04:34:59+00:00",
+   "summary": "IT之家 10 月 2 日消息，科技媒体 NotebookCheck 昨日（10 月 1 日）发布博文，报道称宏碁（Acer）推出 Aspire Lite 笔记本，配备 14 英寸屏幕， 高通骁龙 X 芯片（型号 X1-26-101），售价为 749 美元 （IT之家注：现汇率约合 5,029 元人民币） 。 芯片方面，该芯片的 CPU 配置与 X1-26-100 相同，只是 Adreno X1-45 集成显卡替换为 Adreno X1..."
   },
   {
    "rank": 17,
-   "title": "英伟达黄仁勋将出席：微软预热本月 Surface 发布会，聚焦本地 AI 重塑下一代 PC",
+   "title": "继 AMD 后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/212.htm",
-   "score": 3.0,
+   "url": "https://www.ithome.com/1/009/373.htm",
+   "score": 2.5,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "英伟达黄仁勋将出席：微软预热本月 Surface 发布会，聚焦本地 AI 重塑下一代 PC"
+    "继 AMD 后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付"
    ],
-   "published_at": "2026-10-02T00:53:03+00:00",
-   "summary": "IT之家 10 月 2 日消息，微软官方开发者账号 @windowsdev 今天（10 月 2 日）在 X 平台发布推文， 宣布将于太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）举办一场面向开发者与构建者的线上活动。 IT之家曾于 9 月 16 日报道，微软宣布将在美国旧金山举办本次活动，主题为本地人工智能如何塑造 PC 的下一阶段，预估展示 Windows 和 Surface 设备的未来规划。 而..."
+   "published_at": "2026-10-02T16:16:55+00:00",
+   "summary": "IT之家 10 月 3 日消息，Microsoft（微软）当地时间 1 日通过 DirectX 开发者博客宣布，高级着色器交付 (ASD) 将在本月扩展到高通、英特尔、英伟达硬件上。 由于 AMD 的 \"RDNA\" 家族已率先支持 ASD，这意味着 该特性即将实现对四大 GPU 制造商平台的全覆盖 。更多用户将可享受到直接下载预编译着色器带来的好处：缩短加载时间、消除着色器卡顿。 高通已通过今年 9 月 22 日上线的 2026.08...."
   },
   {
    "rank": 18,
-   "title": "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef",
+   "title": "我们对AI之后发生的事还一无所知",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/262.htm",
-   "score": 3.0,
+   "url": "https://www.huxiu.com/article/4895200.html",
+   "score": 2.5,
+   "sources": [
+    "huxiu"
+   ],
+   "titles": [
+    "我们对AI之后发生的事还一无所知"
+   ],
+   "published_at": "2026-10-02T16:23:03.000000+00:00",
+   "summary": "尼克·博斯特罗姆（Nick Bostrom）不再担心世界末日了。现在他担心的是乌托邦。这是《纽约时报》10月1日给他下的最新判断，概括了一位先知二十来年的转向。2014年，这个瑞典人出版《超级智能》，第一次把“AI毁灭人类”从科幻笑话变成一道严肃的计算题。马斯克、奥特曼、盖茨都公开支持过他的警告。他创办的牛津...... 本文来自微信公众号： 不懂经 ，作者：经叔，原文标题：《我们对AI之后发生的事还一无所知｜不懂经网站》 尼克·博斯特..."
+  },
+  {
+   "rank": 19,
+   "title": "特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/009/389.htm",
+   "score": 2.5,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef"
+    "特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%"
    ],
-   "published_at": "2026-10-02T04:45:28+00:00",
-   "summary": "IT之家 10 月 2 日消息，当地时间 10 月 1 日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Clef 与 Clef-flash 两款模型。 在 Jev 决策指数（Jev Decision Index）的基准评测中（Decision Index 0.2.1），Clef 处于领先地位；这两款模型完全兼容 Jev-API，方便开发者进行测试验证。 此外，Cloudflare 还发布了全新..."
-  },
-  {
-   "rank": 19,
-   "title": "想造GPT 通才的年轻人，和相信专才的老将",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4895175.html",
-   "score": 2.5,
-   "sources": [
-    "huxiu"
-   ],
-   "titles": [
-    "想造GPT 通才的年轻人，和相信专才的老将"
-   ],
-   "published_at": "2026-10-02T11:41:20.000000+00:00",
-   "summary": "9月27日到10月1日，第39届IEEE/RSJ智能机器人与系统国际会议（IROS 2026）在大卫·劳伦斯会展中心举办。上一次匹兹堡举办IROS还是在31年前的1995年，31年里，CMU在这里把机器人研究做成了招牌，老「钢铁之城」也多了个「Roboburgh（机器人之城）」的外号，本届大会主席同时也由CM...... 本文来自微信公众号： 42号电波 ，作者：yukun，编辑：大吉，原文标题：《想造 GPT 通才的年轻人，和相信专才..."
+   "published_at": "2026-10-03T00:32:30+00:00",
+   "summary": "IT之家 10 月 3 日消息，据英国 BBC 当地时间 1 日报道，斯洛文尼亚国家域名注册机构 Register.si 称，美国总统唐纳德 · 特朗普推动将人工智能（AI）改称“超级智能（SI）”，或是带动该国域名注册量“前所未有”地激增的原因。 特朗普希望用“超级智能”的缩写 SI 取代 AI，而斯洛文尼亚的域名后缀 恰好是.si 。 Register.si 发言人克拉拉 · 赫尔曼称， 9 月共有 44000 个.si 域名完成注..."
   },
   {
    "rank": 20,
-   "title": "赵鼎新：AI不会淘汰任何学科，但抽走了人才成长的底层台阶",
+   "title": "第一批用豆包“反向旅游”的人，被气笑了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4895182.html",
+   "url": "https://www.huxiu.com/article/4895216.html",
    "score": 2.5,
    "sources": [
     "huxiu"
    ],
    "titles": [
-    "赵鼎新：AI不会淘汰任何学科，但抽走了人才成长的底层台阶"
+    "第一批用豆包“反向旅游”的人，被气笑了"
    ],
-   "published_at": "2026-10-02T12:20:41.000000+00:00",
-   "summary": "“很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基础学科会被AI淘汰，数学尤其用不着紧张。”近日，在清华大学方塘研究院举办的一场创新主题学术演讲结束后，面对《中国科学报》记者的现场提问，浙江大学人文高等研究院院长、芝加哥大学社会学系荣休教授赵鼎新给出了一个反潮流的判断。赵鼎新在清华大学方塘研究院的演讲...... 本文来自微信公众号： 科学网 ，编辑：|方圆，作者：孙滔 “很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基..."
+   "published_at": "2026-10-03T01:09:54.000000+00:00",
+   "summary": "国庆去哪里，既小众，又便宜？答曰：公司。开玩笑的朋友们，这两年，几乎都可以算是反向旅游之年。以前放假，大家往北京、杭州、厦门、成都跑；现在，第一批聪明人已经悟了：只要主流景区里挤的全是人，那就不去主流景区！不去大理去建水，不去武夷山去泰宁，不去桂林去靖西。别人进5A景区看后脑勺，我去县城逛菜市场；别人花四位数...... 本文来自微信公众号： 凤凰生活报告 ，编辑：|章鱼，作者：凤凰WEEKLY，原文标题：《第一批用豆包「反向旅游」的人..."
   }
  ]
 }

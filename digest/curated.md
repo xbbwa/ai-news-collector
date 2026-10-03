@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-03 07:09 CST
-数据窗口：最近 24 小时，2028 条原始条目 → 1648 个事件；过滤噪音 432 个，排除全部历史已推送的 128 个。
+生成时间：2026-10-03 10:11 CST
+数据窗口：最近 24 小时，1986 条原始条目 → 1606 个事件；过滤噪音 404 个，排除全部历史已推送的 140 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,138 +8,135 @@
 
 国外：
 
-## 1. Spectral Tail Auxiliary Learning for AI-Generated Image Detection
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.CL（2 个来源） ｜ 热度：8.5
-- 摘要：arXiv:2605.22751v2 Announce Type: replace Abstract: As generative image models evolve rapidly, the perceptual gap between generated and real images continues to narrow, making AI-generated image detection increasingly ch...
+## 1. Paying for Too Many Tokens? Valid and Cost-Efficient Multimodal LLM Annotation with Simple Heuristics
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2610.00809v1 Announce Type: new Abstract: Vision-Language Models (VLMs) enable video annotation at scale, but costs accumulate quickly: processing a typical 60-second short-form video at one frame per second requir...
 - 发布时间：2026-10-02 12:00 CST
-- 链接：https://arxiv.org/abs/2605.22751
-- 同事件报道：DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text（arXiv cs.CL）
-- 同事件报道：Does AI-Generated Scientific Text Follow Human Argumentation Patterns? A CARS-Based Comparison of Research Article Intro...（arXiv cs.CL）
+- 链接：https://arxiv.org/abs/2610.00809
+- 同事件报道：SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents（arXiv cs.AI）
 
-## 2. LENS-GRF: Permutation-Invariant Lesion Evidence Network with Gated Residual Fusion for Acne Severity Grading and Multi-Rater Clinical Oracle Analysis
+## 2. PickMoment: Continuous-Time Single-Image-to-Video via Learning Deblurring and Blur-to-Video
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.00294v1 Announce Type: new Abstract: Automated acne severity grading requires both whole-face context and fine-grained lesion evidence. We propose LENS-GRF (Lesion Evidence Network with Set-Transformer and Gat...
+- 摘要：arXiv:2610.01279v1 Announce Type: new Abstract: Motion blur arises from the temporal integration of a continuous sharp signal over a finite exposure window, yet existing learning-based methods sidestep this physical mode...
 - 发布时间：2026-10-02 12:00 CST
-- 链接：https://arxiv.org/abs/2610.00294
-- 同事件报道：PI-AMFM: Permutation-Invariant Learning for Variable-Cardinality AM-FM Mode Decomposition in Biomedical Signal Analysis（arXiv cs.LG）
+- 链接：https://arxiv.org/abs/2610.01279
+- 同事件报道：Stochastic Optimal Control for Continuous-Time fMRI Representation Learning（arXiv cs.LG）
 
-## 3. FedMAD: Modulation-Aware Directional Aggregation for Federated Learning in Remote Sensing Image Classification
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.00693v1 Announce Type: new Abstract: Federated learning (FL) has recently attracted increasing attention in remote sensing (RS) since it enables collaborative model training across decentralized RS image archi...
+## 3. Oneira: From Open-Ended Generation to Open-World Interaction in Video World Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2610.01614v1 Announce Type: new Abstract: Generative video world models can now synthesize open-ended environments that agents can navigate and interact with in simple ways. Yet open-ended generation does not imply...
 - 发布时间：2026-10-02 12:00 CST
-- 链接：https://arxiv.org/abs/2610.00693
-- 同事件报道：Progressive-Resolution Secure Aggregation for Federated Learning（arXiv cs.LG）
+- 链接：https://arxiv.org/abs/2610.01614
+- 同事件报道：MatrixReward: Reward from Rubric Matrix for Open-Ended Generation（arXiv cs.AI）
 
-## 4. Gradient-Aligned Pair Selection for Personalized Preference Optimization
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI、arXiv cs.CL（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.00061v1 Announce Type: new Abstract: Personalizing large language models (LLMs) requires aligning generation behavior with user-specific preferences rather than aggregate quality. While Direct Preference Optim...
+## 4. Backdoor Containment via Expert Quarantine and Shutdown in LLMs
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI、arXiv cs.LG（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2610.00663v1 Announce Type: new Abstract: Backdoored large language models (LLMs) can behave normally on benign inputs while producing attacker-specified outputs under hidden triggers. Existing defenses span four s...
 - 发布时间：2026-10-02 12:00 CST
-- 链接：https://arxiv.org/abs/2610.00061
-- 同事件报道：GAW-PO: Preference Optimization with Gradient-Aligned Token Weights（arXiv cs.CL）
+- 链接：https://arxiv.org/abs/2610.00663
+- 同事件报道：Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection（arXiv cs.AI）
+- 同事件报道：Removing the NEEDLE in the Haystack: Backdoor Removal in LLMs via Weight Orthogonalisation（arXiv cs.LG）
 
-## 5. Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president
-- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI、Reddit AI subreddits (new)、Hacker News (AI stories)（3 个来源） ｜ 热度：7.07
-- 摘要：President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.
-- 发布时间：2026-10-02 05:08 CST
-- 链接：https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/
-- 同事件报道：Trump asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro, spending hours asking Musk's AI c...（Reddit AI subreddits (new)）
-- 同事件报道：He (Trump) asked Grok how Venezuelans would react if the U.S. captured Maduro（Hacker News (AI stories)）
-
-## 6. Nvidia Hits First Record Since May as Value Nears $6 Trillion
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：6.0
-- 摘要：Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value.
-- 发布时间：2026-10-02 21:47 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion
-- 同事件报道：Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration（CNBC Technology）
-
-## 7. Lightricks/LTX-2.5
+## 5. Lightricks/LTX-2.5
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：image-to-video, diffusion-single-file, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vid...
 - 发布时间：2026-10-03 05:01 CST
 - 链接：https://huggingface.co/Lightricks/LTX-2.5
 
-## 8. Lightricks/LTX-2.3
+## 6. Lightricks/LTX-2.3
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：image-to-video, diffusers, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-video, ltx-2, l...
 - 发布时间：2026-10-03 05:04 CST
 - 链接：https://huggingface.co/Lightricks/LTX-2.3
 
-## 9. Google’s new Guided Vision feature can help you read the fine print
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、MarkTechPost（2 个来源） ｜ 热度：5.5
-- 摘要：Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can ha...
-- 发布时间：2026-10-02 03:47 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision
-- 同事件报道：A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer...（MarkTechPost）
-
-## 10. [AINews] Pi 1.0, Pi Durable, and AIE NYC
-- 地区：国外源 ｜ 语言：en ｜ 来源：Latent Space、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
-- 摘要：Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is ofte...
-- 发布时间：2026-10-02 14:40 CST
-- 链接：https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc
-- 同事件报道：Pi 1.0 released - MCP support now included by default（Reddit AI subreddits (new)）
-
-## 11. AI music maker Suno now generates spoken words
+## 7. AI music maker Suno now generates spoken words
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder（2 个来源） ｜ 热度：5.5
 - 摘要：Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platfo...
 - 发布时间：2026-10-02 17:42 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability
 - 同事件报道：AI music generator Suno can now create spoken audio with matching background music（The Decoder）
 
-## 12. Pope Leo says AI lacks the "spark of humanity" — and wants artists and the church to fight back
-- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
+## 8. Nvidia Hits First Record Since May as Value Nears $6 Trillion
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：5.5
+- 摘要：Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value.
+- 发布时间：2026-10-02 21:47 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion
+- 同事件报道：Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration（CNBC Technology）
+
+## 9. Pope Leo says AI lacks the "spark of humanity" — and wants artists and the church to fight back
+- 地区：国外源 ｜ 语言：en ｜ 来源：Axios、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
 - 摘要：Pope Leo XIV called Friday for the church to form an alliance with artists to protect human creativity during an era of AI-generated content. Why it matters: Though he has acknowledged the technology's potential benefits...
 - 发布时间：2026-10-02 20:50 CST
 - 链接：https://www.axios.com/2026/10/02/pope-leo-xiv-catcholic-church-ai-waring-artists
 - 同事件报道：Pope Leo XIV on AI and Art（Hacker News (AI stories)）
 
-## 13. Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.85
-- 发布时间：2026-10-02 06:15 CST
-- 链接：https://neow.in/NGxhb3d6
-- 同事件报道：McDonald's has been using AI to decide how much you should pay for a Big Mac（Reddit AI subreddits (new)）
+## 10. Why Big Tech wants more economists
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
+- 摘要：Does AI research have a conflict of interest problem?
+- 发布时间：2026-10-02 12:00 CST
+- 链接：https://www.ft.com/content/b3b198c3-f991-4428-b33f-88e3b84bf479?syn-25a6b1a6=1
+- 同事件报道：'AI Doomsday': Why Big Tech Wants You Scared（Reddit AI subreddits (new)）
 
-## 14. Toward provably private learning from federated data
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google Research Blog（1 个来源） ｜ 热度：3.5
-- 摘要：Mobile Systems
-- 发布时间：2026-10-02 22:57 CST
-- 链接：https://research.google/blog/toward-provably-private-learning-from-federated-data/
+## 11. How to choose your first Genie Agents for maximum impact
+- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
+- 摘要：With more than 1 million Genie Agents created in 2026 alone, the question facing...
+- 发布时间：2026-10-03 00:15 CST
+- 链接：https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact
+
+## 12. A model guide for the GPT-6 family
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
+- 摘要：Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.
+- 发布时间：2026-10-03 00:15 CST
+- 链接：https://openai.com/index/practical-guide-building-gpt-6
+
+## 13. Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
+- 摘要：Datalab has released OmniExtractBench , an open benchmark for structured document extraction. It tests how accurately a system fills a JSON schema from a PDF. The benchmark pools 620 documents from 4 existing benchmarks....
+- 发布时间：2026-10-02 23:23 CST
+- 链接：https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/
+
+## 14. Language Discrimination Improves Linguistic Learning in Multilingual Speech Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：Apple Machine Learning Research（1 个来源） ｜ 热度：3.0
+- 摘要：Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening...
+- 发布时间：2026-10-02 08:00 CST
+- 链接：https://machinelearning.apple.com/research/language-discrimination-multilingual-learning
 
 国内：
 
-## 1. 马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：5.5
-- 摘要：IT之家 10 月 2 日消息，全球首富埃隆 · 马斯克今天（10 月 2 日）在 X 平台发布推文，宣布为了调配充足的内存满足 Optimus 机器人量产，计划削减特斯拉 AI5 和 AI6 芯片的内存用量。 本次调整可以追溯到美光科技的预测，在其最新财报电话会议上，美光科技首席财务官指出人形机器人将成为内存需求新引擎： 每台设备需超 200GB DRAM 及数 TB NAND 闪存。 即便人工智能泡沫破裂，内存价格亦难回落。 网友...
-- 发布时间：2026-10-02 07:16 CST
-- 链接：https://www.ithome.com/1/009/196.htm
-- 同事件报道：马斯克：将特斯拉AI5芯片的RAM减少了一半（36氪 快讯）
+## 1. 苏姿丰与李飞飞
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名字，磨完交给别人去用。另一个人在网上把一千多万张图，一张一张地分门别类。那是当年学术圈看不起的活，评职称的时候不好看。那两样东西都叫片。一个是圆的，晶圆。一个是方的，图片。9月28日，AMD宣布收购World Labs，全股票交易，作价约82...... 本文来自微信公众号： 秦朔朋友圈 ，作者：水姐 一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名...
+- 发布时间：2026-10-03 00:10 CST
+- 链接：https://www.huxiu.com/article/4895199.html
+- 同事件报道：苏姿丰抬头，李飞飞低头（虎嗅）
+- 同事件报道：苏姿丰抬头，李飞飞低头（36氪 AI 频道）
 
-## 2. DeepSeek为什么要16000张卡？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：2026年5月的一场业绩说明会上，中芯国际联席CEO赵海军讲了一句话：人工智能在海外的「虹吸效应」，让消费和IoT客户跑到内地来找产能。订单在往回流。他还说了一句更要紧的：客户因为担忧供应不足，在提前备货。这话翻成大白话就是，现在买卡的人最怕的，是以后买不到。那为什么买不到？得从产能说起。中芯国际最近一个季度...... 本文来自微信公众号： 王智远 ，作者：王智远 2026年5月的一场业绩说明会上，中芯国际联席CEO赵海军讲了一句话：...
-- 发布时间：2026-10-02 09:11 CST
-- 链接：https://www.huxiu.com/article/4895107.html
-- 同事件报道：deepseek为什么要在此时拥抱华为？（钛媒体）
-
-## 3. 英伟达黄仁勋将出席：微软预热本月 Surface 发布会，聚焦本地 AI 重塑下一代 PC
+## 2. 宏碁发布 14 英寸 Aspire Lite 笔记本：高通骁龙 X1-26-101 芯片、16GB 内存
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
-- 摘要：IT之家 10 月 2 日消息，微软官方开发者账号 @windowsdev 今天（10 月 2 日）在 X 平台发布推文， 宣布将于太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）举办一场面向开发者与构建者的线上活动。 IT之家曾于 9 月 16 日报道，微软宣布将在美国旧金山举办本次活动，主题为本地人工智能如何塑造 PC 的下一阶段，预估展示 Windows 和 Surface 设备的未来规划。 而...
-- 发布时间：2026-10-02 08:53 CST
-- 链接：https://www.ithome.com/1/009/212.htm
+- 摘要：IT之家 10 月 2 日消息，科技媒体 NotebookCheck 昨日（10 月 1 日）发布博文，报道称宏碁（Acer）推出 Aspire Lite 笔记本，配备 14 英寸屏幕， 高通骁龙 X 芯片（型号 X1-26-101），售价为 749 美元 （IT之家注：现汇率约合 5,029 元人民币） 。 芯片方面，该芯片的 CPU 配置与 X1-26-100 相同，只是 Adreno X1-45 集成显卡替换为 Adreno X1...
+- 发布时间：2026-10-02 12:34 CST
+- 链接：https://www.ithome.com/1/009/259.htm
 
-## 4. Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
-- 摘要：IT之家 10 月 2 日消息，当地时间 10 月 1 日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Clef 与 Clef-flash 两款模型。 在 Jev 决策指数（Jev Decision Index）的基准评测中（Decision Index 0.2.1），Clef 处于领先地位；这两款模型完全兼容 Jev-API，方便开发者进行测试验证。 此外，Cloudflare 还发布了全新...
-- 发布时间：2026-10-02 12:45 CST
-- 链接：https://www.ithome.com/1/009/262.htm
+## 3. 继 AMD 后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
+- 摘要：IT之家 10 月 3 日消息，Microsoft（微软）当地时间 1 日通过 DirectX 开发者博客宣布，高级着色器交付 (ASD) 将在本月扩展到高通、英特尔、英伟达硬件上。 由于 AMD 的 "RDNA" 家族已率先支持 ASD，这意味着 该特性即将实现对四大 GPU 制造商平台的全覆盖 。更多用户将可享受到直接下载预编译着色器带来的好处：缩短加载时间、消除着色器卡顿。 高通已通过今年 9 月 22 日上线的 2026.08....
+- 发布时间：2026-10-03 00:16 CST
+- 链接：https://www.ithome.com/1/009/373.htm
 
-## 5. 想造GPT 通才的年轻人，和相信专才的老将
+## 4. 我们对AI之后发生的事还一无所知
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：9月27日到10月1日，第39届IEEE/RSJ智能机器人与系统国际会议（IROS 2026）在大卫·劳伦斯会展中心举办。上一次匹兹堡举办IROS还是在31年前的1995年，31年里，CMU在这里把机器人研究做成了招牌，老「钢铁之城」也多了个「Roboburgh（机器人之城）」的外号，本届大会主席同时也由CM...... 本文来自微信公众号： 42号电波 ，作者：yukun，编辑：大吉，原文标题：《想造 GPT 通才的年轻人，和相信专才...
-- 发布时间：2026-10-02 19:41 CST
-- 链接：https://www.huxiu.com/article/4895175.html
+- 摘要：尼克·博斯特罗姆（Nick Bostrom）不再担心世界末日了。现在他担心的是乌托邦。这是《纽约时报》10月1日给他下的最新判断，概括了一位先知二十来年的转向。2014年，这个瑞典人出版《超级智能》，第一次把“AI毁灭人类”从科幻笑话变成一道严肃的计算题。马斯克、奥特曼、盖茨都公开支持过他的警告。他创办的牛津...... 本文来自微信公众号： 不懂经 ，作者：经叔，原文标题：《我们对AI之后发生的事还一无所知｜不懂经网站》 尼克·博斯特...
+- 发布时间：2026-10-03 00:23 CST
+- 链接：https://www.huxiu.com/article/4895200.html
 
-## 6. 赵鼎新：AI不会淘汰任何学科，但抽走了人才成长的底层台阶
+## 5. 特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
+- 摘要：IT之家 10 月 3 日消息，据英国 BBC 当地时间 1 日报道，斯洛文尼亚国家域名注册机构 Register.si 称，美国总统唐纳德 · 特朗普推动将人工智能（AI）改称“超级智能（SI）”，或是带动该国域名注册量“前所未有”地激增的原因。 特朗普希望用“超级智能”的缩写 SI 取代 AI，而斯洛文尼亚的域名后缀 恰好是.si 。 Register.si 发言人克拉拉 · 赫尔曼称， 9 月共有 44000 个.si 域名完成注...
+- 发布时间：2026-10-03 08:32 CST
+- 链接：https://www.ithome.com/1/009/389.htm
+
+## 6. 第一批用豆包“反向旅游”的人，被气笑了
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：“很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基础学科会被AI淘汰，数学尤其用不着紧张。”近日，在清华大学方塘研究院举办的一场创新主题学术演讲结束后，面对《中国科学报》记者的现场提问，浙江大学人文高等研究院院长、芝加哥大学社会学系荣休教授赵鼎新给出了一个反潮流的判断。赵鼎新在清华大学方塘研究院的演讲...... 本文来自微信公众号： 科学网 ，编辑：|方圆，作者：孙滔 “很多行业和学者的焦虑是多余的，也是片面的。没有任何一个基...
-- 发布时间：2026-10-02 20:20 CST
-- 链接：https://www.huxiu.com/article/4895182.html
+- 摘要：国庆去哪里，既小众，又便宜？答曰：公司。开玩笑的朋友们，这两年，几乎都可以算是反向旅游之年。以前放假，大家往北京、杭州、厦门、成都跑；现在，第一批聪明人已经悟了：只要主流景区里挤的全是人，那就不去主流景区！不去大理去建水，不去武夷山去泰宁，不去桂林去靖西。别人进5A景区看后脑勺，我去县城逛菜市场；别人花四位数...... 本文来自微信公众号： 凤凰生活报告 ，编辑：|章鱼，作者：凤凰WEEKLY，原文标题：《第一批用豆包「反向旅游」的人...
+- 发布时间：2026-10-03 09:09 CST
+- 链接：https://www.huxiu.com/article/4895216.html

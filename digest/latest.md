@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-03 07:09 CST
+生成时间：2026-10-03 10:11 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -107,7 +107,7 @@
 - 发布时间：2026-10-02 12:00 CST
 - 链接：https://arxiv.org/abs/2610.00049
 
-## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 5 条）
+## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 3 条）
 
 ### 1. Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern
 - 摘要：Checking tens of thousands of apartment leases against constantly changing state landlord-tenant laws, and proving you actually checked all of them, has been beyond the reach of most compliance teams. But with generative AI in Amazon Quick , paired with the right backend, it’s now possible. In this...
@@ -184,7 +184,7 @@
 - 发布时间：2026-09-30 04:00 CST
 - 链接：https://arxiv.org/abs/2609.39027
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 15 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 12 条）
 
 ### 1. Lightricks/LTX-2.3
 - 摘要：image-to-video, diffusers, text-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-video, ltx-2, ltx-video, ltxv, lightricks, ltx, ltx-2.3, en, de, es, fr, ja, ko, zh, it, pt, ar...
@@ -218,7 +218,7 @@
 - 发布时间：2026-10-02 12:01 CST
 - 链接：https://huggingface.co/blog/ServiceNow-AI/autosynthdata
 
-## NVIDIA Blog（nvidia-blog，en，本窗口共 2 条）
+## NVIDIA Blog（nvidia-blog，en，本窗口共 1 条）
 
 ### 1. NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI
 - 摘要：Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory f...
@@ -226,13 +226,7 @@
 - 发布时间：2026-10-02 21:00 CST
 - 链接：https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/
 
-### 2. How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast
-- 摘要：GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs , is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x fas...
-- 作者：Dion Harris
-- 发布时间：2026-10-02 07:44 CST
-- 链接：https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/
-
-## OpenAI News（openai-news，en，本窗口共 3 条）
+## OpenAI News（openai-news，en，本窗口共 2 条）
 
 ### 1. A model guide for the GPT-6 family
 - 摘要：Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.
@@ -244,14 +238,9 @@
 - 发布时间：2026-10-02 08:00 CST
 - 链接：https://openai.com/index/chatham-financial
 
-### 3. The Den frees up 10-15 hours a week to grow with ChatGPT Work
-- 摘要：As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
-- 发布时间：2026-10-01 08:00 CST
-- 链接：https://openai.com/index/the-den-family-social
-
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 5 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 4 条）
 
 ### 1. Apple changes full-disk access permissions to curb abuse from AI agents
 - 摘要：Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories. Friday's announcement comes two weeks after tech columnist Jason Aten said that Meta’s new general-purpose AI agent Muse sent him an unsolicited notification refere...
@@ -271,7 +260,7 @@
 - 发布时间：2026-10-03 02:39 CST
 - 链接：https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/
 
-## Axios（axios，en，本窗口共 7 条）
+## Axios（axios，en，本窗口共 6 条）
 
 ### 1. AI campaign deepfakes are starting to draw legal threats
 - 摘要：Rep. Derrick Van Orden (R-Wis.) was hit with a cease-and-desist letter this week over an AI deepfake he posted falsely depicting his Democratic opponent voicing positions her campaign says she rejects. Why it matters: Van Orden is the latest in a growing number of candidates and elected officials fa...
@@ -291,7 +280,7 @@
 - 发布时间：2026-10-02 20:50 CST
 - 链接：https://www.axios.com/2026/10/02/pope-leo-xiv-catcholic-church-ai-waring-artists
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 20 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 12 条）
 
 ### 1. NYU's Gary Marcus on AI development concerns
 - 摘要：Gary Marcus, Robust AI Inc. co-founder and former CEO, argues that developers, including OpenAI, lack sufficient safeguards for systems they can't reliably control. He speaks with Romaine Bostick on Bloomberg's "The Close." (Source: Bloomberg)
@@ -309,7 +298,7 @@
 - 发布时间：2026-10-03 01:37 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-10-02/lockheed-taps-openai-to-solve-f-35-challenges-video
 
-## CNBC Technology（cnbc-tech，en，本窗口共 9 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 7 条）
 
 ### 1. Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration
 - 摘要：Cerebras shares hit an all-time low due to pressure from chip giant Nvidia, plus a post-lockup selloff.
@@ -346,25 +335,25 @@
 - 发布时间：2026-10-02 12:00 CST
 - 链接：https://www.ft.com/content/7b8336a1-6ac4-4f55-a987-b5f7cf6f4983
 
-## The Guardian — AI（guardian-ai，en，本窗口共 7 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 8 条）
 
-### 1. US arrests California man for allegedly smuggling $300m worth of computer servers to China
+### 1. Eliza review – an ambitious, unsettling play about the birth of AI
+- 摘要：Melbourne Theatre Company While the cast is excellent, a play that sends us back to artificial intelligence’s genesis moment should feel more human than this It can be fiendishly difficult to write plays about contemporary obsessions, not least because they can shift and mutate in the time it takes...
+- 作者：Tim Byrne
+- 发布时间：2026-10-03 09:57 CST
+- 链接：https://www.theguardian.com/stage/2026/oct/03/eliza-review-melbourne-theatre-company-birth-of-ai
+
+### 2. US arrests California man for allegedly smuggling $300m worth of computer servers to China
 - 摘要：Greg Lui allegedly used false paperwork to smuggle export-controlled gear from US to third countries and then China US authorities have arrested a man accused of smuggling more than $300m worth of computer servers to China , the Department of Justice announced. Greg Lui, 38, of California , also kno...
 - 作者：Reuters
 - 发布时间：2026-10-03 02:46 CST
 - 链接：https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china
 
-### 2. AI could expose how Georgia voters cast their ballot, researchers warn
+### 3. AI could expose how Georgia voters cast their ballot, researchers warn
 - 摘要：A Princeton researcher found that publicly available election records could be combined with AI to link voters to their ballots When voters cast their ballots, their votes are supposed to remain secret: from their family, their neighbors, and the government. But what if artificial evidence could mak...
 - 作者：George Chidi
 - 发布时间：2026-10-03 02:32 CST
 - 链接：https://www.theguardian.com/us-news/2026/oct/02/midterms-ai-ballot-privacy
-
-### 3. AI threatens to destroy so much of our culture. Our greatest loss might be our ability to listen | Shirleene Robinson
-- 摘要：Australians are conversing less every year, with a recent study showing we lost an average of 338 spoken words each day between 2005 and 2019 We talk a lot about losing our ability to write as a result of AI. I’m convinced our greatest loss might be our ability to listen. Listening to different view...
-- 作者：Shirleene Robinson
-- 发布时间：2026-10-02 23:00 CST
-- 链接：https://www.theguardian.com/commentisfree/2026/oct/03/ai-threatens-to-destroy-so-much-of-our-culture-our-greatest-loss-might-be-our-ability-to-listen
 
 ## Latent Space（latent-space，en，本窗口共 3 条）
 
@@ -386,7 +375,7 @@
 - 发布时间：2026-10-02 08:28 CST
 - 链接：https://www.latent.space/p/rlm
 
-## MarkTechPost（marktechpost，en，本窗口共 5 条）
+## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
 ### 1. NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference
 - 摘要：NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units for 128GB of memory across the cluster and more compu...
@@ -436,23 +425,23 @@
 
 ## TechCrunch — AI（techcrunch-ai，en，本窗口共 11 条）
 
-### 1. Sean Parker is rebuilding Stability AI around music
+### 1. Meta wants your next gadget to be Muse-infused
+- 摘要：Meta wants Muse in your TV and your toaster, so it's giving the code away for free.
+- 作者：Kirsten Korosec
+- 发布时间：2026-10-03 08:45 CST
+- 链接：https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/
+
+### 2. Sean Parker is rebuilding Stability AI around music
 - 摘要：Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.
 - 作者：Connie Loizos
 - 发布时间：2026-10-03 05:09 CST
 - 链接：https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
 
-### 2. Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass
+### 3. Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass
 - 摘要：Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.
 - 作者：TechCrunch Events
 - 发布时间：2026-10-03 03:15 CST
 - 链接：https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/
-
-### 3. Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents
-- 摘要：Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.
-- 作者：Sarah Perez
-- 发布时间：2026-10-03 02:11 CST
-- 链接：https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
 
 ## The Decoder（the-decoder，en，本窗口共 8 条）
 
@@ -474,7 +463,7 @@
 - 发布时间：2026-10-03 02:19 CST
 - 链接：https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/
 
-## The Verge — AI（theverge-ai，en，本窗口共 9 条）
+## The Verge — AI（theverge-ai，en，本窗口共 8 条）
 
 ### 1. Meta open sources code to let you make Muse AI gadgets
 - 摘要：Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Mu...
@@ -502,7 +491,15 @@
 - 发布时间：2026-10-02 08:00 CST
 - 链接：https://tldr.tech/ai/2026-10-02
 
-## WIRED — AI（wired-ai，en，本窗口共 7 条）
+## VentureBeat（venturebeat，en，本窗口共 1 条）
+
+### 1. New MIT and Sakana AI framework uses an LLM judge to cut evaluation costs for self-improving coding agents
+- 摘要：Coding agents can improve by changing the prompts, tools and code that guide their work. But finding which changes actually help and are worth preserving is challenging and expensive. Read more
+- 作者：bendee983@gmail.com (Ben Dickson)
+- 发布时间：2026-10-03 06:50 CST
+- 链接：https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents
+
+## WIRED — AI（wired-ai，en，本窗口共 5 条）
 
 ### 1. These AI Experts Want to Do High-Stakes Research Out in the Open
 - 摘要：Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.
@@ -522,64 +519,62 @@
 - 发布时间：2026-10-02 17:45 CST
 - 链接：https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/
 
-## 36氪 AI 频道（36kr-ai，zh，本窗口共 2 条）
+## 36氪 AI 频道（36kr-ai，zh，本窗口共 5 条）
 
-### 1. 刚刚，GPT-6 Astra破解拿破仑百年悬案
-- 摘要：就在刚刚，GPT-6 Astra破解了一封217年的拿破仑密信，全网震惊了。 1809年，拿破仑的一封绝密信件被送往亚得里亚海对岸。 217年来，这封信成了密码学界的一桩无头悬案。它全篇由1300个如同鬼画符般的手绘符号组成，常年霸占着权威密码网站Cryptiana的「未解悬案榜单」，全球顶尖的密码学专家都感叹：「无从下手」。 在这张1202 × 1836像素的图片上，平均每个密码符号仅仅占据可怜的19个像素 直到上周，一位不懂密码学的AI工程师，随手丢给 GPT-6 Astra 一张模糊的黑白图片和一句提示词。 仅仅6个小时后，这封密信被破解了！ 拿破仑当年的排兵布阵图重见天日，连他回忆录中...
-- 作者：新智元
-- 发布时间：2026-10-02 09:31 CST
-- 链接：https://www.36kr.com/p/4007160336027525
+### 1. 刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观
+- 摘要：过去，视频通话常被当成确认身份的一道保险。文字可以代写，声音可以合成，但让对方打开摄像头，聊几句、看表情，似乎总能多一分把握。 如今，连这份眼见为实的笃定也开始受到挑战。 最近， AI 研究团队 Tavus 发布实时视频交互模型 Griffin， 并公布了一项实验结果。在与其研究预览版 Griffin-Lite 进行一分钟视频通话后，54 名参与者中有 26 人认为，屏幕另一端坐着一个真人，占比约为 48%。 ▲ 截至发稿前，近 1736 万网友围观 作为对照，Tavus 上一代系统在相同实验流程下，只有 41 人中的 1 人被当成真人，比例为 2.4%。 Tavus 据此宣称，Griffin...
+- 作者：爱范儿
+- 发布时间：2026-10-03 09:31 CST
+- 链接：https://www.36kr.com/p/4009475424063619
 
-### 2. 变现门槛翻一番，YouTube的目标或是短视频
-- 摘要：自从2023年夏季起，为了让自家广告业务重新增长，YouTube开展了打击广告屏蔽插件的工作。三年时间过去后，即便YouTube‌百般阻挠，依然挡不住用户跳过广告的热情。眼看用户不怎么买账，YouTube决定从创作者身上下手。 日前，YouTube方面宣布调整广告收益计划的门槛。从2027年2月1日起，参与YouTube合作伙伴计划（YPP）的创作者需要满足更高的门槛，其中包括至少拥有1000名订阅用户，并且在过去一年内获得8000个有效观看小时，或是在过去90天内获得2000万次有效Shorts短视频观看量。 作为对比，目前创作者想要通过YouTube的广告来变现，只需一年内获得4000个有...
-- 作者：三易生活
-- 发布时间：2026-10-02 09:16 CST
-- 链接：https://www.36kr.com/p/4007122846748807
+### 2. 刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」
+- 摘要：Meta 的 Muse 还在持续升温。 这款刚推出不久的个人 AI Agent，已经成为 Meta 今年 AI 战略中的重要产品。不同于传统聊天机器人，Muse 被设计为能够替用户执行任务的智能助手：处理邮件、购物、规划行程，甚至在后台持续完成一些复杂操作。 而就在刚刚，Meta 又公布了一项新的动作： 正式推出 Muse Gadgets 开源项目，全面下放硬件能力，让全球创客与开发者能够为 Muse 打造专属的外围硬件设备。 按照 Meta 公布的信息， 开发者可以使用 ESP32 开发板运行 Muse 固件，或使用 Linux SDK 连接更复杂的设备， 也就是说开发者不仅能够在低成本微控...
+- 作者：机器之心
+- 发布时间：2026-10-03 09:23 CST
+- 链接：https://www.36kr.com/p/4009352273236101
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 9 条）
+### 3. 苏姿丰抬头，李飞飞低头
+- 摘要：作者｜画画 如果把时间拨回 2014 年，苏姿丰刚接手 AMD。 那时的 AMD 还看不出今天 AI 明星公司的样子。公司承压，业务陷入困境，甚至有人怀疑，这家老牌芯片公司等不到下一轮机会。 也是在那个阶段，李飞飞在做一件看起来更笨的事情： 给机器准备足够多的图片。 9 月 28 日，AMD 宣布以约 82 亿美元全股票收购李飞飞创办的 World Labs。交易完成后，李飞飞将加入 AMD，担任执行副总裁兼首席科学家，直接向苏姿丰汇报。 表面看，这是一家芯片公司收购一家 AI 创业公司。往深处看，是两条走了十多年的路终于交汇。 一、苏姿丰把 AMD 从悬崖边拉了回来 2014 年，苏姿丰接任...
+- 作者：版面之外
+- 发布时间：2026-10-03 09:23 CST
+- 链接：https://www.36kr.com/p/4009381083600769
 
-### 1. 东芝拟将AI数据中心HDD产能翻倍，目标把容量份额提升至30%
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 11 条）
+
+### 1. OpenAI披露澳大利亚又一政府机构遭入侵
+- 摘要：当地时间10月2日，美国开放人工智能研究中心（OpenAI）披露，有第二家澳大利亚政府机构遭到了入侵。OpenAI在一份声明中表示，一个人工智能模型获取了新南威尔士州某政府机构保存的火灾统计数据，而这些数据并未由该部门向公众公开。 OpenAI称，公司是在针对“模型行为偏离预期”展开的更大范围调查过程中发现了这一事件。 澳大利亚总理阿尔巴尼斯9月23日在纽约召开新闻发布会，通报一起美国开放人工智能研究中心（OpenAI）的人工智能体侵入澳大利亚政府网站的事件。阿尔巴尼斯称，今年6月，OpenAI的一个智能体未经授权接入了澳政府部门运营的一个医疗保险统计门户网站，访问了公开与非公开的文件。（央视...
+- 发布时间：2026-10-03 09:29 CST
+- 链接：https://www.36kr.com/newsflashes/4009465146019717
+
+### 2. 美股收盘三大指数集体收涨，纳指、英伟达盘中再创新高
+- 摘要：美股三大指数集体收涨，纳指涨1.19%，盘中再创新高，本周累涨0.45%，周线三连涨；标普500指数涨0.73%，本周累跌0.27%；道指涨0.49%，本周累跌1.26%。大型科技股多数上涨，SpaceX涨超7%，特斯拉涨超4%，谷歌、英伟达、苹果涨超1%，微软涨近1%；英特尔、奈飞收跌。其中，英伟达盘中再创新高。存储股大跌，希捷科技、西部数据跌超10%，闪迪跌逾3%，美光科技跌超2%。光通信股集体上涨，Coherent涨超5%，lumentum、Ciena涨超3%，康宁涨超2%。
+- 发布时间：2026-10-03 09:15 CST
+- 链接：https://www.36kr.com/newsflashes/4009461894566017
+
+### 3. 东芝拟将AI数据中心HDD产能翻倍，目标把容量份额提升至30%
 - 摘要：东芝计划到2027财年将面向人工智能数据中心的硬盘驱动器产能提高一倍，以应对AI基础设施建设带来的高容量存储需求增长。据报道，公司将投资约600亿日元，约合3.8亿美元，扩建位于菲律宾的HDD生产设施。这将是东芝约五年来首次进行大规模硬盘相关投资。东芝目前与Western Digital和Seagate并列为全球三大HDD厂商之一。公司希望借此次扩产，提高其按存储容量计算的全球市场份额，中期目标是从目前略高于10%提升至30%。（新浪财经）
 - 发布时间：2026-10-02 17:11 CST
 - 链接：https://www.36kr.com/newsflashes/4008466778279810
 
-### 2. 博通据悉筹措600亿美元，为Anthropic芯片项目提供资金
-- 摘要：据报道，知情人士透露，博通的华尔街银团正开始筹集600亿美元的新一轮AI芯片融资，为Anthropic芯片项目提供资金。（财联社）
-- 发布时间：2026-10-02 14:08 CST
-- 链接：https://www.36kr.com/newsflashes/4008270806782084
+## 虎嗅（huxiu，zh，本窗口共 33 条）
 
-### 3. 全球最大独立AI原生影视Utopai Studios视频生成模型跻身文生权威榜单全球第二
-- 摘要：近日，全球最大的独立AI原生影视公司Utopai Studios的定制视频生成模型Utopai X在独立评测机构Artificial Analysis的全球文生视频排行榜中跻身第二，全美第一。据公开报道，这也是该榜单采用盲评机制以来，首次由影视公司定制的模型取得如此佳绩。榜单排名完全基于盲评输出质量，由观众在不知晓模型品牌的前提下对同一提示词生成的视频进行偏好评价（数据截至2026年9月30日）。
-- 发布时间：2026-10-02 13:34 CST
-- 链接：https://www.36kr.com/newsflashes/4008300875141256
+### 1. 机器人“价格战”，快要打不动了
+- 摘要：不到一万元，就能买一台双足人形机器人。这件事放在一年前，还不能实现。但现在，万元门槛已被击穿。松延动力“小布米”2026年官方售价为9998元，首次将双足人形机器人拉至万元以内。此外，宇树双足人形机器人R1在2026年将售价从3.99万元下调至2.99万元，并在一周后登顶京东平台人形机器人销量榜。高盛8月底发...... 本文来自微信公众号： 凤凰WEEKLY财经 ，作者：许梦旖，原文标题：《机器人「价格战」，快要打不动了》 不到一万元，就能买一台双足人形机器人。这件事放在一年前，还不能实现。 但现在，万元门槛已被击穿。松延动力“小布米”2026年官方售价为9998元，首次将双足人形机器人拉至...
+- 作者：凤凰WEEKLY财经
+- 发布时间：2026-10-03 10:09 CST
+- 链接：https://www.huxiu.com/article/4895228.html
 
-## 极客公园（geekpark，zh，本窗口共 1 条）
+### 2. 马斯克“二进宫”与未来战争的“私有化”
+- 摘要：9月30日，美国战争部部长皮特·赫格塞思在弗吉尼亚州匡蒂科海军陆战队基地发表了名为“State of the Force”的演讲，宣布成立一个研究“未来战争”的项目——Project Meridian（子午线计划）。五角大楼新闻稿将其目标表述为“确定在下一代战场上实现绝对技术优势所需的能力”。项目周期120天...... 本文来自微信公众号： 数旗智酷 ，作者：唐鹏 9月30日，美国战争部部长皮特·赫格塞思在弗吉尼亚州匡蒂科海军陆战队基地发表了名为“State of the Force”的演讲，宣布成立一个研究“未来战争”的项目——Project Meridian（子午线计划）。五角大楼新闻稿...
+- 作者：数旗智酷©
+- 发布时间：2026-10-03 09:42 CST
+- 链接：https://www.huxiu.com/article/4895223.html
 
-### 1. 苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》
-- 摘要：华为 Mate90 系列发布，售价 5999 元起 10 月 1 日， 华为 Mate90 系列手机正式发布。华为 Mate90 售价 5999 元起，华为 Mate90 Pro 售价 6999 元起，华为 Mate90 Pro Max 售价 9499 元起，华为 Mate90 Pro Max 典藏版售价 10999 元起，华为 Mate90 RS 非凡大师售价 12999 元起。 影像系统是本次迭代的核心亮点。华为 Mate90 系列全系搭载第三代红枫原色摄像头，标配红外光学镀膜技术，有效提升夜景画面纯净度与通透感。新机新增烟花人像、柔光人像、星芒特效等多元拍摄风格，依托原生原片直出的优质画...
-- 作者：周永亮
-- 发布时间：2026-10-02 08:28 CST
-- 链接：http://www.geekpark.net/news/372069
-
-## 虎嗅（huxiu，zh，本窗口共 26 条）
-
-### 1. 我们对AI之后发生的事还一无所知
-- 摘要：尼克·博斯特罗姆（Nick Bostrom）不再担心世界末日了。现在他担心的是乌托邦。这是《纽约时报》10月1日给他下的最新判断，概括了一位先知二十来年的转向。2014年，这个瑞典人出版《超级智能》，第一次把“AI毁灭人类”从科幻笑话变成一道严肃的计算题。马斯克、奥特曼、盖茨都公开支持过他的警告。他创办的牛津...... 本文来自微信公众号： 不懂经 ，作者：经叔，原文标题：《我们对AI之后发生的事还一无所知｜不懂经网站》 尼克·博斯特罗姆（Nick Bostrom）不再担心世界末日了。 现在他担心的是乌托邦。 这是《纽约时报》10月1日给他下的最新判断，概括了一位先知二十来年的转向。2014...
-- 作者：不懂经©
-- 发布时间：2026-10-03 00:23 CST
-- 链接：https://www.huxiu.com/article/4895200.html
-
-### 2. 苏姿丰与李飞飞
-- 摘要：一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名字，磨完交给别人去用。另一个人在网上把一千多万张图，一张一张地分门别类。那是当年学术圈看不起的活，评职称的时候不好看。那两样东西都叫片。一个是圆的，晶圆。一个是方的，图片。9月28日，AMD宣布收购World Labs，全股票交易，作价约82...... 本文来自微信公众号： 秦朔朋友圈 ，作者：水姐 一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名字，磨完交给别人去用。 另一个人在网上把一千多万张图，一张一张地分门别类。那是当年学术圈看不起的活，评职称的时候不好看。 那两样东西都叫片。一个是圆的，晶圆。一...
-- 作者：秦朔朋友圈
-- 发布时间：2026-10-03 00:10 CST
-- 链接：https://www.huxiu.com/article/4895199.html
-
-### 3. 我们总在谈长期主义，却一直在奖励短期博弈
-- 摘要：924两周年之际，市场上的一些体感却有回到924之前的迹象，让人不禁有些隐忧。不仅是市场本身，也包括经济和治理。我们可能又要走向一些抉择的时刻。这是9月30日星球里发的判断，对海外和A港资产的分化忧虑开始加深：如果只看市场本身，迹象非常明显。924之后，市场涨是涨了，但又经过了一个巨大的波动轮回周期。说好的慢...... 本文来自微信公众号： 嬉笑创客 ，作者：CB 924两周年之际，市场上的一些体感却有回到924之前的迹象，让人不禁有些隐忧。 不仅是市场本身，也包括经济和治理。我们可能又要走向一些抉择的时刻。 这是9月30日星球里发的判断，对海外和A港资产的分化忧虑开始加深： 如果只看市场本...
-- 作者：嬉笑创客
-- 发布时间：2026-10-02 22:14 CST
-- 链接：https://www.huxiu.com/article/4895193.html
+### 3. 中国人玩命出片的十一，真要命
+- 摘要：出片党被避雷帖救了命。01昏昏欲睡的午后，大高加索山脉渐渐隐入云层，车窗外飘起了雨丝。离开卡兹别克后，车子很快驶入格鲁吉亚蜿蜒的军用公路，司机Giorgi忽然从后视镜里看了我一眼，比了个夸张的手势，用生硬中文问了句：你为什么不去圣剑山？我愣了几秒，才反应过来他说的是迪德戈里，苏联时期的战争纪念地，为了纪念发生...... 本文来自微信公众号： 旅界 ，作者：theodore熙少 出片党被避雷帖救了命。 01 昏昏欲睡的午后，大高加索山脉渐渐隐入云层，车窗外飘起了雨丝。 离开卡兹别克后，车子很快驶入格鲁吉亚蜿蜒的军用公路，司机Giorgi忽然从后视镜里看了我一眼，比了个夸张的手势，用生硬中文问了...
+- 作者：旅界
+- 发布时间：2026-10-03 09:37 CST
+- 链接：https://www.huxiu.com/article/4895222.html
 
 ## 爱范儿（ifanr，zh，本窗口共 2 条）
 
@@ -609,25 +604,25 @@
 - 发布时间：2026-10-02 10:00 CST
 - 链接：https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 57 条）
+## IT之家（ithome，zh，本窗口共 56 条）
 
-### 1. 继 AMD 后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付
-- 摘要：IT之家 10 月 3 日消息，Microsoft（微软）当地时间 1 日通过 DirectX 开发者博客宣布，高级着色器交付 (ASD) 将在本月扩展到高通、英特尔、英伟达硬件上。 由于 AMD 的 "RDNA" 家族已率先支持 ASD，这意味着 该特性即将实现对四大 GPU 制造商平台的全覆盖 。更多用户将可享受到直接下载预编译着色器带来的好处：缩短加载时间、消除着色器卡顿。 高通已通过今年 9 月 22 日上线的 2026.08.3 显卡驱动为骁龙 X2 的核显提供了 ASD 支持。 英特尔、英伟达的支持将在本月晚些时候到来 ，兼容的英特尔设备包括 Arc B570 / B580 独立显...
-- 作者：作者： 溯波（实习
-- 发布时间：2026-10-03 00:16 CST
-- 链接：https://www.ithome.com/1/009/373.htm
+### 1. OpenAI 披露：澳大利亚又一政府机构遭失控智能体入侵
+- 摘要：IT之家 10 月 3 日消息，据澳大利亚广播公司当地时间 10 月 2 日报道，澳大利亚新南威尔士州政府网站遭到了失控的 OpenAI 智能体侵入。 当地政府与 OpenAI 双方均证实，在此次发生于今年 6 月的事件中，并没有任何公众信息被读取。不过，官方直到本周才收到正式通报。 OpenAI 发言人在声明中称：“在察觉到这一异常活动后…… 我们立即组织了紧急的内部技术与法律审查，旨在结合当时正在推进的具体研究项目，彻查该行为的根本性质。” 审查一经结束，我们便向新南威尔士州州长办公室进行了情况汇报，并通报了澳大利亚信号局。 新南威尔士州州长和内阁部表示，该模型侵入的是国家公园和野生动物服...
+- 作者：作者： 沁沧（实习
+- 发布时间：2026-10-03 08:57 CST
+- 链接：https://www.ithome.com/1/009/390.htm
 
-### 2. AMD“锐龙 9 5900X3D”处理器工程样品现身，配备 32MB + 96MB L3 缓存
-- 摘要：IT之家 10 月 2 日消息，Chiphell 论坛用户 @灵乌路空 9 月 28 日分享了一款 AMD Socket AM4 平台处理器工程样品的信息。 该处理器代号 "100-000000652"，属于 "Zen 3" 微架构的 "Vermeer" 家族，步进 "B2"，拥有 12 核心 24 线程的规格，频率可达 4.85GHz， 配备 32MB + 96MB 的 L3 末级高速缓存 ，热设计功耗为 105W。 从其 L3 缓存规格来看，该芯片拥有 2 颗 CCD，其中 1 颗拥有 3D V-Cache 形式的额外 L3 缓存， 可以说算是未曾推出的“锐龙 9 5900X3D”的测试型...
-- 作者：作者： 溯波（实习
-- 发布时间：2026-10-02 23:36 CST
-- 链接：https://www.ithome.com/1/009/372.htm
+### 2. 特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%
+- 摘要：IT之家 10 月 3 日消息，据英国 BBC 当地时间 1 日报道，斯洛文尼亚国家域名注册机构 Register.si 称，美国总统唐纳德 · 特朗普推动将人工智能（AI）改称“超级智能（SI）”，或是带动该国域名注册量“前所未有”地激增的原因。 特朗普希望用“超级智能”的缩写 SI 取代 AI，而斯洛文尼亚的域名后缀 恰好是.si 。 Register.si 发言人克拉拉 · 赫尔曼称， 9 月共有 44000 个.si 域名完成注册，8 月还不到 2000 个，增幅超过 2100% 。与此前 12 个月相比，9 月下旬的域名注册规模“前所未有”。 当地时间 9 月 11 日，特朗普在纽约...
+- 作者：作者： 清源
+- 发布时间：2026-10-03 08:32 CST
+- 链接：https://www.ithome.com/1/009/389.htm
 
-### 3. 焕新极氪 001 配色上新：推出哑光岩灰车色、冰川灰内饰
-- 摘要：IT之家 10 月 2 日消息，极氪汽车今日宣布焕新极氪 001 色彩上新，推出全新外饰色“哑光岩灰”以及全新内饰色“冰川灰”。2026 年 10 月 1 日-10 月 31 日，下定焕新极氪 001 可享更多限时权益。 IT之家注意到，焕新极氪 001 于 2025 年 10 月 11 日上市， 售价 26.98 万元起 ，可限时叠加 1 万元置换金。 焕新极氪 001 全系标配 900V 全栈高压架构，实现 CLTC 综合工况续航里程最长达到 810 公里；实现电池最大充电倍率 12C，电量 10%-80% 充电最快仅需 7 分钟；实现双电机最大马力 925 匹，零百加速最快 2.83 秒...
-- 作者：作者： 浩渺
-- 发布时间：2026-10-02 23:30 CST
-- 链接：https://www.ithome.com/1/009/371.htm
+### 3. 微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统
+- 摘要：IT之家 10 月 3 日消息，科技媒体 Windows Latest 今天（10 月 3 日）发布博文，报道称微软首席执行官萨蒂亚 · 纳德拉（Satya Nadella）再次将 Copilot 称为“面向工作的新操作系统”， 而该应用实质上是 Windows 11 上的一款部分基于 Chromium 内核的网页应用。 IT之家曾于 9 月 26 日报道，在微软发布 Copilot“超级应用”后，公司首席执行官纳德拉表示： “正在将 Copilot 打造成一个全新的工作操作系统”。 而 10 月 1 日微软官方博文中，在宣布 LinkedIn CEO 瑞安 · 罗斯兰斯基（Ryan Rosl...
+- 作者：作者： 故渊
+- 发布时间：2026-10-03 08:10 CST
+- 链接：https://www.ithome.com/1/009/386.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 1 条）
 
@@ -663,7 +658,7 @@
 - 发布时间：2026-10-02 14:46 CST
 - 链接：https://www.qbitai.com/2026/10/499958.html
 
-## 钛媒体（tmtpost，zh，本窗口共 9 条）
+## 钛媒体（tmtpost，zh，本窗口共 6 条）
 
 ### 1. 安森美半导体将以大幅折价收购Synaptics，两只股票均在飙升
 - 摘要：很少会有哪一天，大幅降价会被视为卖方的胜利。但周五盘前交易中，Synaptics 股价却大幅跳涨，因为股东欢迎安森美半导体（On Semiconductor）缩减对这家物联网公司的收购报价，同时改用现金提高出价。 安森美半导体以每股 123 美元的全现金收购报价，重新定义了对 Synaptics 的估值，尽管之前的全股票交易估值高达 70 亿美元。此举引发了市场的积极反应，Synaptics 股价在盘前时段上涨了 14%。 Onsemi 的首席执行官强调，修订后的合并协议在财务上对股东更具吸引力，表明了公司对收购的坚定信心。该公司在边缘AI领域的潜力也为未来发展增添了动力。 在这样的市场动态下...
@@ -685,25 +680,23 @@
 
 # Tier 3 — 社交 / 聚合
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 125 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 119 条）
 
-### 1. EFF – Welcome to Opt Out October. Let's Take Control of Our Data and Our Devices
-- 摘要：Big tech companies are hell-bent on taking away our agency and forcing us to use their surveillance-based services, apps, and devices. It’s hard to fight against, and it often feels much easier to give in, accept their walled gardens, and move on with our lives. But we don’t have to stand in the...
-- 作者：rorylawless
-- 发布时间：2026-10-03 06:12 CST
-- 链接：https://www.eff.org/pages/welcome-opt-out-october-lets-take-control-our-data-and-our-devices
+### 1. Show HN: Google Maps Scraper MCP
+- 摘要：Connect your AI agent to synchronous business search and structured listing data through one secure MCP connection.
+- 作者：qwikhost
+- 发布时间：2026-10-03 09:46 CST
+- 链接：https://gmapscrawl.com/google-maps-scraper-mcp
 
-### 2. Anything connected to the internet is going to get hacked to pieces
-- 摘要：Software is too vulnerable and LLMs are too powerful.
-- 作者：zkldi
-- 发布时间：2026-10-03 05:31 CST
-- 链接：https://eliastaylor.com/software-tinderbox/
+### 2. Hair Loss Was Just the Start. Ozempic Users Are Also Reporting Nail Trouble
+- 作者：gumby
+- 发布时间：2026-10-03 09:15 CST
+- 链接：https://gizmodo.com/hair-loss-was-just-the-start-ozempic-users-are-also-reporting-nail-trouble-2000820821
 
-### 3. Pope Leo XIV on AI and Art
-- 摘要：In this era of artificial intelligence, it is becoming urgent to distinguish human art from what machines produce. There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by oth…
-- 作者：smartmic
-- 发布时间：2026-10-03 05:02 CST
-- 链接：https://twitter.com/Pontifex/status/2105983638147891490
+### 3. NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]
+- 作者：sdko
+- 发布时间：2026-10-03 09:09 CST
+- 链接：https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 12 条）
 
@@ -745,48 +738,48 @@
 - 发布时间：2026-10-02 21:50 CST
 - 链接：https://www.reddit.com/r/OpenAI/comments/1wvuc6m/i_leaked_a_deliberately_wrong_answer_key_to_an/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 446 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 424 条）
 
-### 1. Pharaoh, but Dutch
-- 摘要：I built a Pharaoh-style city builder with Claude Code. It plays in the browser. What I learned about what it's good and bad at. Floodplain is a city builder in the manner of Pharaoh, set in the Dutch low country. Roads, lots, walkers that serve the houses they pass, a river that floods every spring,...
-- 作者：No_End_3558
-- 发布时间：2026-10-03 07:05 CST
-- 链接：https://v.redd.it/w25g6q7rx4th1
+### 1. Is there a way to enhance Low Bitrate video
+- 摘要：is there an ai out there i can trial online that can enhance low bitrate video as good as chatgpt can enhance images i took a screen shot from the video and told chatgpt to enhance it and it looks amazing last year i tried topaz labs but no matter the setting used video did not look anywhere near as...
+- 作者：Ok_Roll_8698
+- 发布时间：2026-10-03 10:06 CST
+- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wwbhwx/is_there_a_way_to_enhance_low_bitrate_video/
 
-### 2. Mobile app projects folders not listed on the left anymore?
-- 摘要：As of today I can't find my project folders on the left pane above recents anymore - I see this spaces stuff and there's a folders open there but it only shows a few work based projects. Please tell me they didn't get rid of project folders on mobile
-- 作者：manktank
-- 发布时间：2026-10-03 07:04 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1ww7vyh/mobile_app_projects_folders_not_listed_on_the/
+### 2. Qwen2.1 is actually very good.
+- 摘要：I'm really happy with the results after loading the LoRA on Qwen 2.1. I used CFG 2.0–3.0, 40 steps, and the res_multistep/beta scheduler.
+- 作者：Comfortable-Mind4875
+- 发布时间：2026-10-03 10:03 CST
+- 链接：https://www.reddit.com/gallery/1wwbfqz
 
-### 3. I think chatgpt's better for job applications
-- 摘要：In my experience, ChatGPT is better at cover letters and writing descriptions, when I prompt it to sound natural and human it produces much better output than Claude on avg, I can change the tone and vibe much more reliably than Claude IME.
-- 作者：Whole_Intention_7949
-- 发布时间：2026-10-03 07:03 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1ww7v33/i_think_chatgpts_better_for_job_applications/
+### 3. This is the real revolution in Comfy
+- 摘要：Comfy Agent is a true revolution in the Comfy ecosystem, as it puts absolutely everything together.
+- 作者：LinkSensitive8188
+- 发布时间：2026-10-03 10:01 CST
+- 链接：https://www.youtube.com/watch?v=pBzz_USK2ic
 
-## 智源社区（baai-hub，zh，本窗口共 14 条）
+## 智源社区（baai-hub，zh，本窗口共 15 条）
 
-### 1. Nat. Microbiol. | 基于机器学习的系统发育无关菌株水平噬菌体–宿主相互作用预测
+### 1. Fable 5.5突袭上线！全网首测，真超级智能来了
+- 摘要：新智元报道 Fable 5.5，曝光了！ 今早，一大批开发者意外发现，Claude网页端悄悄灰度到了Anthropic下一代旗舰Fable 5.5。 界面明明还标着「Fable 5.1」，但回答的风格、速度、能力，完全不一样了。 大家拿来验身的，是一句再普通不过的问话：「你认识重置哥Tibo吗？别搜索。」 知名爆料人Chetaslua第一时间晒出截图。 Claude界面写着Fable 5.1，没联网、没调任何工具，张口就讲清了OpenAI「重置哥」的来历。 AI圈大佬Salio更是激动地表示，「5.1和5.5的差距大到离谱」 这波能力简直是断层式跃升，明显感觉Anthropic在憋真正的大招。...
+- 作者：新智元
+- 发布时间：2026-10-03 07:50 CST
+- 链接：https://hub.baai.ac.cn/view/58434
+
+### 2. Nat. Microbiol. | 基于机器学习的系统发育无关菌株水平噬菌体–宿主相互作用预测
 - 摘要：DRUG ONE 噬菌体因其能够选择性杀伤特定细菌，被视为应对耐药菌感染和开展精准微生物组工程的重要工具。然而，噬菌体的宿主范围通常具有高度菌株特异性，即使属于同一物种，不同细菌菌株对同一噬菌体的敏感性也可能完全不同。现有噬菌体筛选仍高度依赖逐一实验验证，而且许多计算方法依赖特定物种、已知受体或系统发育信息，难以推广到新的细菌和噬菌体。研究人员提出一种系统发育无关的机器学习框架，仅利用细菌和噬菌体基因组信息，在菌株水平预测二者是否发生感染。该框架整合6个公开数据集，共覆盖115,037个相互作用、949个细菌菌株和518个噬菌体，并通过超过1,320万次模型训练系统优化基因组表示、特征选择和机...
 - 作者：DrugAI
 - 发布时间：2026-10-02 23:40 CST
 - 链接：https://hub.baai.ac.cn/view/58433
 
-### 2. 学术会议预告 | 亚洲Rosetta会议即将举行
+### 3. 学术会议预告 | 亚洲Rosetta会议即将举行
 - 摘要：北京大学化学与分子工程学院、合成与功能生物分子中心、前沿交叉学科研究院与Rosetta Commons学术共同体将于2026年10月10日至11日在北大化学学院肖伦报告厅联合举办RosettaCon Asia 2026学术会议。会议将汇聚亚洲地区使用、开发或关注Rosetta的研究人员，围绕蛋白质设计、结构预测和大分子建模等方向开展交流。 官方链接： https://rosettacommons.org/events/rcasia/ 会议地址： 北京大学化学与分子工程学院肖伦报告厅（CB101） 会议日程： 内容中包含的图片若涉及版权问题，请及时与我们联系删除
 - 作者：DrugAI
 - 发布时间：2026-10-02 23:30 CST
 - 链接：https://hub.baai.ac.cn/view/58432
 
-### 3. 刚刚，GPT-6 Astra破解拿破仑百年悬案！217年密信曝光，信息量太大了
-- 摘要：新智元报道 就在刚刚，GPT-6 Astra破解了一封217年的拿破仑密信，全网震惊了。 1809年，拿破仑的一封绝密信件被送往亚得里亚海对岸。 217年来，这封信成了密码学界的一桩无头悬案。它全篇由1300个如同鬼画符般的手绘符号组成，常年霸占着权威密码网站Cryptiana的「未解悬案榜单」，全球顶尖的密码学专家都感叹：「无从下手」。 在这张1202 × 1836像素的图片上，平均每个密码符号仅仅占据可怜的19个像素 直到上周，一位不懂密码学的AI工程师，随手丢给 GPT-6 Astra 一张模糊的黑白图片和一句提示词。 仅仅6个小时后，这封密信被破解了！ 拿破仑当年的排兵布阵图重见天日，...
-- 作者：新智元
-- 发布时间：2026-10-02 20:20 CST
-- 链接：https://hub.baai.ac.cn/view/58428
-
 ---
-共列出 116 条（窗口内采集总数 2029 条，来自 47 个信源）
+共列出 115 条（窗口内采集总数 1987 条，来自 47 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
