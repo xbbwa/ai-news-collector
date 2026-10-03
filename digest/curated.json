@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-03T08:23:31.794841+00:00",
+ "generated_at": "2026-10-03T13:36:01.229829+00:00",
  "stats": {
-  "items": 778,
-  "clusters": 557,
-  "noise": 408,
-  "dup": 40,
+  "items": 717,
+  "clusters": 528,
+  "noise": 390,
+  "dup": 38,
   "history_days": 0,
-  "available_cn": 39,
-  "available_intl": 70,
+  "available_cn": 42,
+  "available_intl": 58,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -30,7 +30,6 @@
     "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
     "US arrests California man for allegedly smuggling $300m worth of computer servers to China",
     "Amazon seeks to offload $8B of Nvidia chips to investors",
-    "Amazon seeks to offload $8B of Nvidia chips to investors",
     "CA tech executive arrested for allegedly smuggling $300M in Nvidia chips to CN"
    ],
    "published_at": "2026-10-02T18:39:36.000000+00:00",
@@ -42,7 +41,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
-   "score": 5.5,
+   "score": 5.0,
    "sources": [
     "hf-models-intl"
    ],
@@ -58,7 +57,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://huggingface.co/Lightricks/LTX-2.3",
-   "score": 5.5,
+   "score": 5.0,
    "sources": [
     "hf-models-intl"
    ],
@@ -70,64 +69,10 @@
   },
   {
    "rank": 4,
-   "title": "AI music maker Suno now generates spoken words",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
-   "score": 5.5,
-   "sources": [
-    "theverge-ai",
-    "the-decoder"
-   ],
-   "titles": [
-    "AI music maker Suno now generates spoken words",
-    "AI music generator Suno can now create spoken audio with matching background music"
-   ],
-   "published_at": "2026-10-02T09:42:19.000000+00:00",
-   "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platfo..."
-  },
-  {
-   "rank": 5,
-   "title": "Amazon’s Latest Response to AI Data Center Backlash: $1 Billion",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-02/amazon-s-latest-response-to-ai-data-center-backlash-1-billion",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "arstechnica-ai"
-   ],
-   "titles": [
-    "Amazon’s Latest Response to AI Data Center Backlash: $1 Billion",
-    "Amazon’s $1B plan to combat data center backlash draws more backlash"
-   ],
-   "published_at": "2026-10-02T10:48:14.000000+00:00",
-   "summary": "Amazon.com Inc.’s latest attempt to address the intensifying blowback to an unprecedented buildout of computing infrastructure: a commitment to spend more than $1 billion over the next five years on initiatives for the c..."
-  },
-  {
-   "rank": 6,
-   "title": "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "cnbc-tech"
-   ],
-   "titles": [
-    "Nvidia Hits First Record Since May as Value Nears $6 Trillion",
-    "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration"
-   ],
-   "published_at": "2026-10-02T13:47:58.000000+00:00",
-   "summary": "Nvidia Corp. shares hit a record for the first time since May as investors pile back into the stock after a two-month selloff that wiped more than $1 trillion off its market value."
-  },
-  {
-   "rank": 7,
    "title": "Pope Leo says AI lacks the \"spark of humanity\" — and wants artists and the church to fight back",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.axios.com/2026/10/02/pope-leo-xiv-catcholic-church-ai-waring-artists",
+   "url": "https://www.axios.com/2026/10/02/pope-leo-xiv-catholic-church-ai-warning-artists",
    "score": 4.55,
    "sources": [
     "axios",
@@ -141,25 +86,7 @@
    "summary": "Pope Leo XIV called Friday for the church to form an alliance with artists to protect human creativity during an era of AI-generated content. Why it matters: Though he has acknowledged the technology's potential benefits..."
   },
   {
-   "rank": 8,
-   "title": "Trump renaming AI to SI is making his wife's home country a little richer",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.neowin.net/news/trump-renaming-ai-to-super-intelligence-is-making-his-wifes-home-country-a-little-richer/",
-   "score": 3.6,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Trump renaming AI to SI is making his wife's home country a little richer",
-    "I just realized something about renaming AI to SI."
-   ],
-   "published_at": "2026-10-02T08:40:39.000000+00:00",
-   "summary": ""
-  },
-  {
-   "rank": 9,
+   "rank": 5,
    "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
    "lang": "en",
    "region": "intl",
@@ -175,23 +102,23 @@
    "summary": "Prime Intellect has launched Prime Inference , a serving platform for frontier open-source models. It offers serverless endpoints and reserved capacity on Prime’s own GPUs across multiple datacenters. Before public relea..."
   },
   {
-   "rank": 10,
-   "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+   "rank": 6,
+   "title": "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2609.38104",
-   "score": 3.0,
+   "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
+   "score": 3.5,
    "sources": [
-    "hf-daily-papers"
+    "the-decoder"
    ],
    "titles": [
-    "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling"
+    "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations"
    ],
-   "published_at": "2026-09-28T20:00:00.000000+00:00",
-   "summary": "Power-sharpened sampling is an inference-time alternative to reinforcement-learning (RL) post-training for enhancing reasoning in large language models (LLMs). High-probability sequences are amplified under the base mode..."
+   "published_at": "2026-10-03T09:19:23.000000+00:00",
+   "summary": "Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scient..."
   },
   {
-   "rank": 11,
+   "rank": 7,
    "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
    "lang": "en",
    "region": "intl",
@@ -207,7 +134,7 @@
    "summary": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics. Existing robotics benchmarks, however, primarily focus on the performance of individual artif..."
   },
   {
-   "rank": 12,
+   "rank": 8,
    "title": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
    "lang": "en",
    "region": "intl",
@@ -223,7 +150,7 @@
    "summary": "Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while preserving interactions with the environment. This is particularly challenging for loco-manipulation ta..."
   },
   {
-   "rank": 13,
+   "rank": 9,
    "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
    "lang": "en",
    "region": "intl",
@@ -239,7 +166,7 @@
    "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening..."
   },
   {
-   "rank": 14,
+   "rank": 10,
    "title": "Chatham scales its capital markets expertise with OpenAI",
    "lang": "en",
    "region": "intl",
@@ -253,6 +180,70 @@
    ],
    "published_at": "2026-10-02T00:00:00.000000+00:00",
    "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
+  },
+  {
+   "rank": 11,
+   "title": "Limits of Confidence in Diffusion",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "Limits of Confidence in Diffusion"
+   ],
+   "published_at": "2026-10-02T00:00:00.000000+00:00",
+   "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-position distribution and choosing which positions to write fr..."
+  },
+  {
+   "rank": 12,
+   "title": "How to choose your first Genie Agents for maximum impact",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "How to choose your first Genie Agents for maximum impact"
+   ],
+   "published_at": "2026-10-02T16:15:00.000000+00:00",
+   "summary": "With more than 1 million Genie Agents created in 2026 alone, the question facing..."
+  },
+  {
+   "rank": 13,
+   "title": "A model guide for the GPT-6 family",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "A model guide for the GPT-6 family"
+   ],
+   "published_at": "2026-10-02T16:15:00.000000+00:00",
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+  },
+  {
+   "rank": 14,
+   "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
+   "score": 3.0,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks"
+   ],
+   "published_at": "2026-10-02T15:23:35+00:00",
+   "summary": "Datalab has released OmniExtractBench , an open benchmark for structured document extraction. It tests how accurately a system fills a JSON schema from a PDF. The benchmark pools 620 documents from 4 existing benchmarks...."
   },
   {
    "rank": 15,
@@ -277,11 +268,29 @@
   },
   {
    "rank": 16,
+   "title": "杀猪盘用上了AI，骗局开始批量生产",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4895243.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "杀猪盘用上了AI，骗局开始批量生产",
+    "杀猪盘用上了AI，骗局开始批量生产"
+   ],
+   "published_at": "2026-10-03T03:50:50.000000+00:00",
+   "summary": "杀猪盘换上AI引擎，普通人防不胜防。在一个交友软件上聊了几天，对方始终回复及时，话题也越聊越熟，甚至愿意通一个视频通话。如果你遇到这种场景，肯定不会怀疑对方是AI。但最近AI龙头玩家Anthropic发布的一份报告，揭开了另一种可能。这份报告中，一家位于中国的应用开发工作室运营了20多款交友应用，对外声称用户...... 本文来自微信公众号： 豹变 ，作者：高泽，编辑：邢昀 杀猪盘换上AI引擎，普通人防不胜防。 在一个交友软件上聊了几天..."
+  },
+  {
+   "rank": 17,
    "title": "刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.36kr.com/p/4009475424063619",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "36kr-ai",
     "huxiu"
@@ -294,12 +303,12 @@
    "summary": "过去，视频通话常被当成确认身份的一道保险。文字可以代写，声音可以合成，但让对方打开摄像头，聊几句、看表情，似乎总能多一分把握。 如今，连这份眼见为实的笃定也开始受到挑战。 最近， AI 研究团队 Tavus 发布实时视频交互模型 Griffin， 并公布了一项实验结果。在与其研究预览版 Griffin-Lite 进行一分钟视频通话后，54 名参与者中有 26 人认为，屏幕另一端坐着一个真人，占比约为 48%。 ▲ 截至发稿前，近 173..."
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "国庆出游用AI，第一批人已经被坑惨了",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.huxiu.com/article/4895221.html",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "huxiu",
     "tmtpost"
@@ -312,54 +321,38 @@
    "summary": "基础信息出错少，真实情况全靠“猜”。定焦One（dingjiaoone）原创国庆长假进入第三天，景区门口排起长队，高铁站、网红街区又一次被挤满，不少人趁着这几天出门旅游。出门前，总绕不开做攻略。先要打开社交平台，收藏几篇“本地人吐血整理”“三天两夜不绕路”“看这一篇就够了”的帖子，再把景点、餐厅和酒店一个个放...... 本文来自微信公众号： 定焦One ，编辑：雷晶，作者：定焦One团队 基础信息出错少，真实情况全靠“猜”。 定焦On..."
   },
   {
-   "rank": 18,
-   "title": "创维 F3 Pro 闺蜜机新增 12GB RAM + 256GB 存储空间版本，6099 元",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/009/346.htm",
-   "score": 4.5,
-   "sources": [
-    "ithome",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "创维 F3 Pro 闺蜜机新增 12GB RAM + 256GB 存储空间版本，6099 元",
-    "Qwen3.8-Flash-Next 177B running at 11–15 tok/s on a single RTX 5070 12GB + 32GB RAM DDR4"
-   ],
-   "published_at": "2026-10-02T11:57:14+00:00",
-   "summary": "IT之家 10 月 2 日消息，创维现已为旗下 F3 Pro 闺蜜机新增一款 12GB RAM + 256GB 存储空间版本，定价为 6099 元，部分地区国补后低至 4999 元。 该产品采用云雾白配色，配备一块 32 英寸 3840x2160 分辨率 IPS LCD 面板，搭载 13Mp 摄像头，匹配全景环绕扬声器。支持 AI 健身私教、电子白板、AI 健康智能体等功能。 该产品内置 15000mAh 电池，至高提供 12 小时续航..."
-  },
-  {
    "rank": 19,
-   "title": "IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 OLED 屏 MacBook...",
+   "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/382.htm",
-   "score": 3.5,
+   "url": "https://www.qbitai.com/2026/10/500148.html",
+   "score": 5.0,
    "sources": [
-    "ithome"
+    "qbitai",
+    "baai-hub"
    ],
    "titles": [
-    "IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 OLED 屏 MacBook..."
+    "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+    "Jev估值100亿美元！创始人Diogo Almeida回答一切"
    ],
-   "published_at": "2026-10-02T23:50:59+00:00",
-   "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 3 日星期六，今天的重要科技资讯有： 1. 三星上调 Galaxy S26 系列手机建议零售价：涨 800-1800 元，7799 元起 三星官网显示，三星上调了国行 Galaxy S26 系列手机的建议零售价。>> 查看详情 2. 首付 6.98 万元起，鸿蒙智行问界 M6 推出限时 3 年 0 息购车金融政策 鸿蒙智行问界汽车 10 月 2 日上午宣布，问界 M6 推出限时..."
+   "published_at": "2026-10-03T02:38:19+00:00",
+   "summary": "Jev估值100亿美元！创始人Diogo Almeida回答一切 文婷 发自 凹非寺 量子位 | 公众号QbitAI 他来了他来了，TypeSafe AI的联合创始人兼CEO Diogo Almeida，顶着一头新染的红发闪亮登场了！（doge Diogo在最新一期Latent Space访谈中坦言： 公开benchmark极其容易被操纵，即便开发者没有主动作弊，最终也可能被榜单牵着走。 所以相比于一张通用榜单，他更愿意相信长期积累的产..."
   },
   {
    "rank": 20,
-   "title": "将语音与音乐作为单一连贯音轨共同生成，AI 音乐制作平台 Suno 推出 Speech 语音功能",
+   "title": "Jev被请下王座，StartLux中国开源决策模型冲上第一",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/440.htm",
+   "url": "https://www.36kr.com/p/4009510615027849",
    "score": 3.5,
    "sources": [
-    "ithome"
+    "36kr-ai"
    ],
    "titles": [
-    "将语音与音乐作为单一连贯音轨共同生成，AI 音乐制作平台 Suno 推出 Speech 语音功能"
+    "Jev被请下王座，StartLux中国开源决策模型冲上第一"
    ],
-   "published_at": "2026-10-03T06:01:12+00:00",
-   "summary": "IT之家 10 月 3 日消息，当地时间 10 月 1 日，AI 音乐制作平台 Suno 宣布推出 Speech，Suno 宣称这是 业界首个能够将语音与音乐作为单一连贯音轨共同生成的音频模型 。 据悉，该模型并非像传统工作流那样先做 TTS（文本转语音）再拼接 BGM，而是端到端一体化生成，是首个能单次生成完整融合“语音朗读 + 原创 BGM”的端到端闭源音频模型。 在过去一个月中，Suno 与小范围用户共同测试了该功能，现在正式面向..."
+   "published_at": "2026-10-03T03:58:44.000000+00:00",
+   "summary": "9 月 30 日，一款决策模型正式发布，迅速引发巨大关注：在 Decision Index 0.2.1 的 38 项基准测试中，它有 31 项成绩超过当前最热门的 Jev，综合得分 63.88 对 57.91，领先公开榜首近 6 分；而且，它完全开源。 实战对比更能说明问题——在与 Jev 的国际象棋对弈中，它的响应速度与对手不相上下，却在 36 局中赢下 35 局。 拿出这款模型的公司，正是当下炙手可热的上海 AI 明星企业 Star..."
   }
  ]
 }
