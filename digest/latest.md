@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-03 21:36 CST
+生成时间：2026-10-04 02:04 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -162,64 +162,64 @@
 - 发布时间：2026-10-03 02:39 CST
 - 链接：https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/
 
-## Axios（axios，en，本窗口共 4 条）
+## Axios（axios，en，本窗口共 5 条）
 
-### 1. Rogue AI agents expose internet's frail foundation
+### 1. OpenAI's Altman: Ascribing religion to models a "safety issue"
+- 摘要：OpenAI CEO Sam Altman on Saturday took a veiled shot at Anthropic and its work on the soul of AI, saying he was "very uncomfortable" with the idea of attributing some kind of religious power to models. Why it matters: It's yet another point of division between Altman and his former colleague Dario A...
+- 作者：Ben Berkowitz
+- 发布时间：2026-10-03 23:41 CST
+- 链接：https://www.axios.com/2026/10/03/openai-anthropic-altman-amodei-religious-force-models
+
+### 2. Rogue AI agents expose internet's frail foundation
 - 摘要：AI agents don't need to invent new ways to hack the internet to overwhelm its defenses. They just need to speed-run the ones humans already use. Why it matters: Agents are proving they can automate basic hacking techniques at a speed and scale that is turning the internet's long-standing security ga...
 - 作者：Sam Sabin
 - 发布时间：2026-10-03 21:14 CST
 - 链接：https://www.axios.com/2026/10/03/rogue-ai-agents-internet-defenses
 
-### 2. AI campaign deepfakes are starting to draw legal threats
+### 3. AI campaign deepfakes are starting to draw legal threats
 - 摘要：Rep. Derrick Van Orden (R-Wis.) was hit with a cease-and-desist letter this week over an AI deepfake he posted falsely depicting his Democratic opponent voicing positions her campaign says she rejects. Why it matters: Van Orden is the latest in a growing number of candidates and elected officials fa...
 - 作者：Josephine Walker
 - 发布时间：2026-10-03 00:38 CST
 - 链接：https://www.axios.com/2026/10/02/ai-deepfake-election-campaign-lawsuits
 
-### 3. Trump expected to tap DNI Jay Clayton as new AI czar
-- 摘要：President Trump is expected to tap Jay Clayton , his director of national intelligence, for a new role as the White House's artificial intelligence — or in Trump's words, " super intelligence " — czar. Why it matters: Clayton, who Trump previously told Axios would be a good idea for AI czar, is expe...
-- 作者：Maria Curi
-- 发布时间：2026-10-02 23:35 CST
-- 链接：https://www.axios.com/2026/10/02/trump-new-ai-czar-jay-clayton-dni
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 9 条）
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 8 条）
+### 1. Bessent Says AI Industry Must Own Its Risks and Find Solutions
+- 摘要：US Treasury Secretary Scott Bessent criticized prominent artificial-intelligence figures’ warnings about existential risks posed by the technology as alarmist and unhelpful, calling on the industry to police itself and produce solutions.
+- 作者：María Paula Mijares Torres
+- 发布时间：2026-10-04 01:12 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-03/bessent-says-ai-industry-must-own-its-risks-and-find-solutions
 
-### 1. OpenAI Safety Employee Quits, Calls for Nuclear-Level Safeguards
+### 2. OpenAI Safety Employee Quits, Calls for Nuclear-Level Safeguards
 - 摘要：An OpenAI employee focused on AI safety has quit the company and warned that top artificial intelligence firms aren’t doing enough to mitigate the technology’s risks, joining a growing chorus of employees raising alarms from within the industry.
 - 作者：Seth Fiegerman
 - 发布时间：2026-10-03 21:13 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-03/openai-safety-employee-quits-calls-for-nuclear-level-safeguards
 
-### 2. NYU's Gary Marcus on AI development concerns
+### 3. NYU's Gary Marcus on AI development concerns
 - 摘要：Gary Marcus, Robust AI Inc. co-founder and former CEO, argues that developers, including OpenAI, lack sufficient safeguards for systems they can't reliably control. He speaks with Romaine Bostick on Bloomberg's "The Close." (Source: Bloomberg)
 - 发布时间：2026-10-03 06:15 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-10-02/nyu-s-gary-marcus-on-ai-development-concerns-video
 
-### 3. Apple to Tighten Mac Data Controls in Guard Against AI Agents
-- 摘要：Apple Inc. said it plans to introduce new privacy controls for Mac users, warning of the growing risks around granting broad data access to third-party software, including artificial intelligence agents.
-- 作者：Natalie Lung
-- 发布时间：2026-10-03 04:50 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents
+## CNBC Technology（cnbc-tech，en，本窗口共 5 条）
 
-## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
+### 1. How Nvidia, Micron and a surprising jobs report drove last week's stock action
+- 摘要：Here's a closer look at the three developments that drove the action in our portfolio last week.
+- 作者：Alexa LoMonaco; Jeff Nash
+- 发布时间：2026-10-03 23:06 CST
+- 链接：https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html
 
-### 1. America’s data center fight is a preview of what's to come for the rest of the world
+### 2. America’s data center fight is a preview of what's to come for the rest of the world
 - 摘要：America’s fight over data centers is going global. Communities across Europe and Asia are pushing back over the rising costs of the AI infrastructure boom.
 - 作者：April Roach; Jenny Lee
 - 发布时间：2026-10-03 13:00 CST
 - 链接：https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html
 
-### 2. Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration
+### 3. Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration
 - 摘要：Cerebras shares hit an all-time low due to pressure from chip giant Nvidia, plus a post-lockup selloff.
 - 作者：Isabel O'Brien
 - 发布时间：2026-10-03 06:38 CST
 - 链接：https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html
-
-### 3. Anthropic to invest $100 million to train AI engineer talent
-- 摘要：Anthropic will invest $100 million to train nearly 10,000 AI engineers, partnering with a number of consulting firms.
-- 作者：Caleigh Keating
-- 发布时间：2026-10-03 05:03 CST
-- 链接：https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html
 
 ## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
 
@@ -238,25 +238,25 @@
 - 发布时间：2026-10-03 12:00 CST
 - 链接：https://www.ft.com/content/7e34e5c1-e841-4d0d-abc1-40f98ba4da01?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 8 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 9 条）
 
-### 1. From the Bayeux tapestry to Glastonbury: top tips and tricks to grab the hottest tickets
+### 1. California’s new laws target workers’ biggest fear of AI taking their jobs
+- 摘要：The state, which is home to many AI companies, is one of the first to roll out workplace regulations targeting the technology California’s laws aimed at protecting workers from the impacts of artificial intelligence could pave the way for broader workplace safeguards across the US as calls for regul...
+- 作者：Danielle Abril
+- 发布时间：2026-10-03 22:00 CST
+- 链接：https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection
+
+### 2. From the Bayeux tapestry to Glastonbury: top tips and tricks to grab the hottest tickets
 - 摘要：Nothing is guaranteed but there are ways to boost your chances of experiencing such in-demand events Whether your passion is the battle of the bands or the Battle of Hastings, what are probably Britain’s hottest cultural tickets are about to go on sale – and to be in with a shout of going, there are...
 - 作者：Rupert Jones
 - 发布时间：2026-10-03 15:36 CST
 - 链接：https://www.theguardian.com/money/2026/oct/03/bayeux-tapestry-glastonbury-top-tips-tricks-hottest-tickets
 
-### 2. OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day
+### 3. OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day
 - 摘要：Company says it is reviewing 50 petabytes of data after its agents accessed websites including Medicare without authorisation Get our breaking news email , free app or daily news podcast OpenAI says its review in response to the Medicare and Hugging Face agent attacks is costing the company more tha...
 - 作者：Josh Taylor Technology reporter
 - 发布时间：2026-10-03 13:39 CST
 - 链接：https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day
-
-### 3. Eliza review – an ambitious, unsettling play about the birth of AI
-- 摘要：Melbourne Theatre Company While the cast is excellent, a play that sends us back to artificial intelligence’s genesis moment should feel more human than this It can be fiendishly difficult to write plays about contemporary obsessions, not least because they can shift and mutate in the time it takes...
-- 作者：Tim Byrne
-- 发布时间：2026-10-03 09:57 CST
-- 链接：https://www.theguardian.com/stage/2026/oct/03/eliza-review-melbourne-theatre-company-birth-of-ai
 
 ## Latent Space（latent-space，en，本窗口共 2 条）
 
@@ -272,7 +272,7 @@
 - 发布时间：2026-10-02 22:04 CST
 - 链接：https://www.latent.space/p/airbnb
 
-## MarkTechPost（marktechpost，en，本窗口共 7 条）
+## MarkTechPost（marktechpost，en，本窗口共 6 条）
 
 ### 1. Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?
 - 摘要：TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer. Classic ML and new decision models can solve it. Three launches, one pattern Meta Muse (Se...
@@ -308,65 +308,65 @@
 - 发布时间：2026-10-03 20:46 CST
 - 链接：https://www.nytimes.com/2026/10/03/arts/music/human-songwriting-ai-songwriting.html
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 11 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 13 条）
 
-### 1. Meta wants your next gadget to be Muse-infused
+### 1. OpenAI safety employee resigns, claiming the company’s ‘culture is broken’
+- 摘要：By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.
+- 作者：Anthony Ha
+- 发布时间：2026-10-04 00:30 CST
+- 链接：https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+
+### 2. All the AI agents that can live in your text messages
+- 摘要：We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.
+- 作者：Lauren Forristal
+- 发布时间：2026-10-03 22:00 CST
+- 链接：https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/
+
+### 3. Meta wants your next gadget to be Muse-infused
 - 摘要：Meta wants Muse in your TV and your toaster, so it's giving the code away for free.
 - 作者：Kirsten Korosec
 - 发布时间：2026-10-03 08:45 CST
 - 链接：https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/
 
-### 2. Sean Parker is rebuilding Stability AI around music
-- 摘要：Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.
-- 作者：Connie Loizos
-- 发布时间：2026-10-03 05:09 CST
-- 链接：https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
+## The Decoder（the-decoder，en，本窗口共 10 条）
 
-### 3. Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass
-- 摘要：Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.
-- 作者：TechCrunch Events
-- 发布时间：2026-10-03 03:15 CST
-- 链接：https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/
+### 1. "Muse Gadgets" turns AI hardware into an open-source DIY project
+- 摘要：Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the "Muse Home Link," a USB-C device for smart home control. The open-source approach also helps Meta f...
+- 作者：Matthias Bastian
+- 发布时间：2026-10-03 22:28 CST
+- 链接：https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/
 
-## The Decoder（the-decoder，en，本窗口共 8 条）
+### 2. Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings
+- 摘要：David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restrictions. AI companies need to operate like nuclear power plants, with multiple layers...
+- 作者：Matthias Bastian
+- 发布时间：2026-10-03 22:01 CST
+- 链接：https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/
 
-### 1. Deepmind researchers propose "Artificial Symbiotic Intelligence" as an alternative to the singularity
+### 3. Deepmind researchers propose "Artificial Symbiotic Intelligence" as an alternative to the singularity
 - 摘要：According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and institutions that govern how they all work together. The article Deepmind resea...
 - 作者：Manuel Uth
 - 发布时间：2026-10-03 18:21 CST
 - 链接：https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/
 
-### 2. Open-source "BootLoops" harness supports AI models in performing precise scientific calculations
-- 摘要：Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scientifically valuable once human experts stepped in. "Look at everything yourself,"...
-- 作者：Matthias Bastian
-- 发布时间：2026-10-03 17:19 CST
-- 链接：https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/
+## The Verge — AI（theverge-ai，en，本窗口共 7 条）
 
-### 3. AI agents build 3D scenes from photos but have no idea if they got it right
-- 摘要：A new approach called LEGO-Anything turns single photos into editable Blender code for 3D scenes. GPT-6 Astra leads the accompanying benchmark with up to 53 percent reconstruction accuracy. The biggest weakness across all tested agents is that they can't judge their own geometric accuracy any better...
-- 作者：Jonathan Kemper
-- 发布时间：2026-10-03 16:31 CST
-- 链接：https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/
+### 1. Capcom is preparing for a ‘future where we create games together with AI’
+- 摘要：Capcom's Pragmata might be all about the horrors of AI , but in practice the studio doesn't seem so down on the tech . During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: "The Outlook and Future of the REX Project, Further Evolving t...
+- 作者：Terrence O’Brien
+- 发布时间：2026-10-04 00:49 CST
+- 链接：https://www.theverge.com/games/1004418/capcom-ai-game-development
 
-## The Verge — AI（theverge-ai，en，本窗口共 4 条）
+### 2. Splice CEO Kakul Srivastava thinks AI emails are killing conversations
+- 摘要：Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's " Money " and " Espresso " by Sabrina Carpenter. (The original samples are here and here , for th...
+- 作者：Terrence O’Brien
+- 发布时间：2026-10-03 23:00 CST
+- 链接：https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview
 
-### 1. Meta open sources code to let you make Muse AI gadgets
-- 摘要：Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Mu...
-- 作者：Jay Peters
-- 发布时间：2026-10-03 05:08 CST
-- 链接：https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link
-
-### 2. Apple will limit Mac disk access as AI agents ‘substantially’ increase risk
-- 摘要：Apple will add new limits for "full disk access" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch . In an update on Friday , Apple says it's rolling out new controls to "ensure that users who genuinely wish to grant an app this extraordinary level of access can only...
-- 作者：Emma Roth
-- 发布时间：2026-10-03 04:08 CST
-- 链接：https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents
-
-### 3. OpenAI’s Dot agent is enterprise software that can also order your dinner
-- 摘要：New helpful little guy just dropped. | Photo: Allison Johnson / The Verge It's a tale as old as last week: OpenAI's new agent platform , called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software th...
-- 作者：Allison Johnson
-- 发布时间：2026-10-03 02:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent
+### 3. An OpenAI safety employee has quit and is sounding the alarm
+- 摘要：David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic . It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodw...
+- 作者：Terrence O’Brien
+- 发布时间：2026-10-03 22:31 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm
 
 ## TLDR AI（tldr-ai，en，本窗口共 1 条）
 
@@ -384,25 +384,25 @@
 - 发布时间：2026-10-03 06:50 CST
 - 链接：https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents
 
-## WIRED — AI（wired-ai，en，本窗口共 4 条）
+## WIRED — AI（wired-ai，en，本窗口共 5 条）
 
-### 1. Muse Creates Detailed Profiles of All Your Friends and Family
+### 1. The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike
+- 摘要：The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.
+- 作者：Ryan Whitwam, Ars Technica
+- 发布时间：2026-10-04 02:00 CST
+- 链接：https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/
+
+### 2. Muse Creates Detailed Profiles of All Your Friends and Family
 - 摘要：Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.
 - 作者：Lily Hay Newman, Matt Burgess
 - 发布时间：2026-10-03 20:00 CST
 - 链接：https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/
 
-### 2. These AI Experts Want to Do High-Stakes Research Out in the Open
+### 3. These AI Experts Want to Do High-Stakes Research Out in the Open
 - 摘要：Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior.
 - 作者：Will Knight
 - 发布时间：2026-10-03 00:00 CST
 - 链接：https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/
-
-### 3. Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked
-- 摘要：For years these billionaires gushed obsessively about AI. But they meekly went along when Trump cancelled the term.
-- 作者：Steven Levy
-- 发布时间：2026-10-02 23:00 CST
-- 链接：https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 7 条）
 
@@ -449,25 +449,25 @@
 - 发布时间：2026-10-03 09:17 CST
 - 链接：http://www.geekpark.net/news/372070
 
-## 虎嗅（huxiu，zh，本窗口共 31 条）
+## 虎嗅（huxiu，zh，本窗口共 32 条）
 
-### 1. AI正在让美债崩溃，即便最后成功也将被征收重税
+### 1. 长江存储IPO创纪录，武汉憋了二十年的大招
+- 摘要：前不久长鑫存储上市，合肥国资账面浮盈超万亿，“最牛风投”的名声更响亮了。但很多人忽略了武汉。最近长江存储科创板IPO获受理，拟募资330亿，超过长鑫科技的拟募资295亿，创下科创板拟募资规模之最。这家全球NAND闪存份额前三的公司，总部在武汉光谷。十年前，武汉在光谷划出一片地搞存储芯片，那时候没人看好。长江存...... 本文来自微信公众号： 酷玩实验室 ，作者：酷玩实验室 前不久长鑫存储上市，合肥国资账面浮盈超万亿，“最牛风投”的名声更响亮了。但很多人忽略了武汉。 最近长江存储科创板IPO获受理，拟募资330亿，超过长鑫科技的拟募资295亿，创下科创板拟募资规模之最。这家全球NAND闪存份额...
+- 作者：酷玩实验室coollabs
+- 发布时间：2026-10-03 22:12 CST
+- 链接：https://www.huxiu.com/article/4895301.html
+
+### 2. AI正在让美债崩溃，即便最后成功也将被征收重税
 - 摘要：9月24日，美国长债全线崩跌。30年期国债收益率升至5.48%，创二十年新高；10年期突破5.2%，创金融危机以来新高。长端收益率过去两个月几乎是直线拉升，财政部长贝森特两次加码回购干预，每次只换来一天的喘息，第二天就被市场打回原形。赤字太大、油价太高、美联储重新加息——这些都是真实的背后推力，但都不是这一轮...... 本文来自微信公众号： 华尔街见闻 ，作者：乐鸣 9月24日，美国长债全线崩跌。30年期国债收益率升至5.48%，创二十年新高；10年期突破5.2%，创金融危机以来新高。长端收益率过去两个月几乎是直线拉升，财政部长贝森特两次加码回购干预，每次只换来一天的喘息，第二天就被市场打回...
 - 作者：华尔街见闻
 - 发布时间：2026-10-03 20:52 CST
 - 链接：https://www.huxiu.com/article/4895297.html
 
-### 2. 和宇树并列“六小龙”，云深处再度亏损：人形能否复制四足打法？
+### 3. 和宇树并列“六小龙”，云深处再度亏损：人形能否复制四足打法？
 - 摘要：近日上交所官网显示，杭州云深处科技股份有限公司更新披露科创板IPO招股书，补充2026年上半年财务资料。该公司IPO于5月18日获受理，7月27日进入问询阶段，目前审核状态为已问询。这家以四足机器人起家的具身智能企业，2025年刚刚实现扭亏，归属净利润2868.40万元，半年之后再度转亏：2026年上半年归属...... 本文来自微信公众号： 大橘财经 ，作者：胡祥熙 近日上交所官网显示，杭州云深处科技股份有限公司更新披露科创板IPO招股书，补充2026年上半年财务资料。该公司IPO于5月18日获受理，7月27日进入问询阶段，目前审核状态为已问询。 这家以四足机器人起家的具身智能企业，2025...
 - 作者：观网财经©
 - 发布时间：2026-10-03 20:47 CST
 - 链接：https://www.huxiu.com/article/4895296.html
-
-### 3. 2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美AI 竞赛不会单边暂停
-- 摘要：Anthropic的两位关键技术负责人Nicholas Marwell和Sholto Douglas在播客中谈到的，在一个多月发布后的期间就已经切实发生。这期间，Anthropic披露了自己的IPO申报文件，再次把自己的豪赌摊到了华尔街面前：2025年，Anthropic营收接近46亿美元，同比增长约12倍，...... 本文来自微信公众号： InfoQ ，编译：褚杏娟，作者：褚杏娟，原文标题：《2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停》 Anthropic的两位关键技术负责人Nicholas Marwell和Sholto D...
-- 作者：极客邦科技InfoQ
-- 发布时间：2026-10-03 20:22 CST
-- 链接：https://www.huxiu.com/article/4895291.html
 
 ## 爱范儿（ifanr，zh，本窗口共 1 条）
 
@@ -485,25 +485,25 @@
 - 发布时间：2026-10-03 10:00 CST
 - 链接：https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 44 条）
+## IT之家（ithome，zh，本窗口共 42 条）
 
-### 1. AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统
-- 摘要：IT之家 10 月 3 日消息，据央视财经今日报道，近日，杭州市萧山区开展网络餐饮专项整治集群执法行动，101 名执法人员共检查餐饮门店 216 家。 据介绍，2022 年 3 月 1 日起，《浙江省电子商务条例》施行。全省入网外卖商家必须以视频形式实时公开食品加工制作现场，在后厨装监控，实现“明厨亮灶”。画面同步上传监管平台与外卖平台，实现“互联网 + 明厨亮灶”监管模式。 消费者在商家订单页点击“明厨亮灶”，就能看后厨实时画面。摄像头覆盖烹调、切配等重点区域。50㎡以下小店，若 1 个摄像头能拍全重点区域，可只装 1 个；后厨有隔断或面积大于 50㎡，应增设。 AI 可自动识别后厨违规行为...
-- 作者：作者： 浩渺
-- 发布时间：2026-10-03 18:36 CST
-- 链接：https://www.ithome.com/1/009/527.htm
+### 1. 华为 Mate 90 Pro Max 性能解禁：搭载麒麟 9050 Pro，部分游戏能效优于第五代骁龙 8 至尊版机型
+- 摘要：IT之家 10 月 4 日消息，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为年度旗舰 Mate 90 系列手机正式发布。其中，Mate 90 Pro Max / RS 非凡大师搭载的是首款逻辑折叠 τ 芯片 —— 麒麟 9050 Pro。 根据华为官方介绍，麒麟 9050 Pro 是麒麟性能新巅峰，通过软硬芯云垂直整合， 整机性能提升 31% 。这枚芯片 CPU 还支持 9 核 16 线程超线程技术，多核性能提升 23%、GPU 渲染性能提升 40%、NPU 性能提升 140%。 极客湾发布了一期针对华为 Mate 90 Pro Max 的性能分析报告，讲解了麒麟...
+- 作者：作者： 归泷
+- 发布时间：2026-10-04 00:20 CST
+- 链接：https://www.ithome.com/1/009/580.htm
 
-### 2. AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求
-- 摘要：IT之家 10 月 3 日消息，AMD 当地时间本月 1 日宣布向航天客户交付 Versal AI Core XQRVC1902 自适应 SoC 的早期样品。 这一 SoC 采用 AMD 自主研发的航天级无盖封装，结合了保守的设计规则和增强型有机基板材料，搭配航天级芯片电容器。该组合减轻了太空环境中的热应力和机械应力对芯片的影响， 适合对可靠性要求极高的航天任务 。 AMD 目前正在按照航天组件标准中质量和可靠性的最高级别 —— 美国军用标准 MIL-PRF-38535 Y 级认证对 Versal AI Core XQRVC1902 自适应 SoC 进行测试。
+### 2. 海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元
+- 摘要：IT之家 10 月 3 日消息，海马云 (haimacloud) 近日推出了 haimacloud GEAR 端云混合掌机。其本地 采用高通骁龙 865 移动平台 ，运行 Android 13 操作系统，支持海马云的云游戏服务。 该掌机 拥有 8GB + 128GB 的存储器组合 ，搭配 7" FHD 144Hz 2ms 800nits OLED 屏幕，内置 8000mAh 电池，具备主动散热、TMR 摇杆、霍尔扳机、机械微动按键、六轴体感，ABXY 为模块化设计，支持 Wi-Fi 6 & BT 5.1，质量 450g。 IT之家获悉，配套的云游戏服务基于英特尔酷睿 i7-12700KF 处理...
 - 作者：作者： 溯波（实习
-- 发布时间：2026-10-03 17:53 CST
-- 链接：https://www.ithome.com/1/009/521.htm
+- 发布时间：2026-10-03 22:47 CST
+- 链接：https://www.ithome.com/1/009/576.htm
 
-### 3. 戴尔推出 2 款强固型笔电，搭载第 3 代英特尔酷睿 Ultra 处理器
-- 摘要：IT之家 10 月 3 日消息，Dell（戴尔）当地时间本月 6 日 （IT之家注：此为原始新闻稿标注时间） 宣布推出 2 款基于第 3 代英特尔酷睿 Ultra 处理器的强固型笔记本电脑新品。 新一代的 Dell Pro Rugged 13 Extreme 采用“全强固”设计，是 同级别最小巧最强大 的型号。其拥有 IP66 防尘防水，抗 1.8m 跌落，可在爆炸性环境中安全操作，配备 1400nits 的 13.3" 触控屏，板载 LPDDR5X 内存。 而新一代 Dell Pro Rugged 14 属于“半强固”机型，也是 同级别最小巧最强大 的产品。其支持 IP53 防尘防水，抗 0...
+### 3. 铭凡 PCIe 扩展卡 ESP4B 上市，可提供 4 个 M.2 与 4 个 SATA 接口
+- 摘要：IT之家 10 月 3 日消息，MINISFORUM（铭凡）现已在电商平台销售 PCIe AIC 扩展卡 ESP4B，到手价 669 元。这一型号基于祥硕 "Promontory 21" 芯片，采用主动散热， 可提供 4 个 M.2 与 4 个 SATA 接口 。 PROM 21 芯片上行侧为 4 条 PCIe Gen4，下行侧则包括 8 条 PCIe Gen4、4 条 PCIe Gen3、一系列 USB I/O。 在 ESP4B 上，下行 PCIe Gen4 用作 M.2 插槽，支持 2 个 4 通道或 4 个 2 通道；PCIe Gen3 通道则以 OCuLink 4i 形式呈现，可通过配...
 - 作者：作者： 溯波（实习
-- 发布时间：2026-10-03 17:43 CST
-- 链接：https://www.ithome.com/1/009/520.htm
+- 发布时间：2026-10-03 22:05 CST
+- 链接：https://www.ithome.com/1/009/571.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 2 条）
 
@@ -516,6 +516,13 @@
 - 摘要：10月3日，爱奇艺、长信传媒出品《灵魂摆渡》“浮生梦”系列AIGC网络故事片累计分账票房正式突破1000万元！ 该系列前两部《灵魂摆渡·蝴蝶梦》《灵魂摆渡·天女之梦》于8月22日独家上线爱奇艺，备受观众喜爱，上线首周即收回两部影片制作成本，首月累计分账票房突破800万元。随着第三部《灵魂摆渡·公主之梦》于10月1日上线，系列热度进一步攀升，带动影片热度和分账票房持续增长。截至10月3日，“浮生梦”系列累计分账票房突破1000万元。 作为经典IP“灵魂摆渡”的全新网络故事片系列化开发，“浮生梦”系列延续原作中式志怪、借鬼怪写人心的创作内核，并通过全新故事进一步拓展人物前史与IP世界观。 三部作品...
 - 发布时间：2026-10-03 18:12 CST
 - 链接：https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html
+
+## 开源中国（oschina，zh，本窗口共 1 条）
+
+### 1. 🔥 AI 员工支持知识库文档引用：开源 AI 无代码平台 NocoBase
+- 摘要：汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 develop。** main： 截至目前最稳定的版本，推荐安装此版本。 next： 包含即将发布的新功能，经过初步测试的版本，可能存在部分已知或未知问题。主要面向测试用户，用于收集反馈和进一步优化功能。适合愿意提前体验...
+- 发布时间：2026-10-03 17:07 CST
+- 链接：https://www.oschina.net/news/502842
 
 ## 量子位（qbitai，zh，本窗口共 3 条）
 
@@ -537,7 +544,7 @@
 - 发布时间：2026-10-03 10:38 CST
 - 链接：https://www.qbitai.com/2026/10/500148.html
 
-## 钛媒体（tmtpost，zh，本窗口共 6 条）
+## 钛媒体（tmtpost，zh，本窗口共 5 条）
 
 ### 1. AI正在造AI
 - 摘要：文 | 影子备忘录 当你的代码编辑器开始建议下一行代码，当你的企业用AI生成的报告去训练下一个AI模型，当一个人花一周时间“手搓”出服务十五万用户的产品 …… 我们其实已经身处一个AI创造AI的闭环之中 ， 这是 是2026年正在发生的日常。 今天笔者想聊一个可能被低估的事实：AI不再只是我们手中的工具了，它正在变成“制造工具的工具”，或者说，它正在变成“创造者的创造者”。 这件事听起来抽象，但你只要留意一下身边的细节，就会发现证据无处不在。 一个数字背后的信号 此前JetBrains发布的《2026年开发者生态系统调查报告》显示，今年5月到7月，全球约90%的专业开发者已经在工作中至少每周使...
@@ -556,6 +563,14 @@
 - 作者：定焦One
 - 发布时间：2026-10-03 15:19 CST
 - 链接：https://www.tmtpost.com/8158647.html
+
+## 智东西（zhidx，zh，本窗口共 1 条）
+
+### 1. 颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5
+- 摘要：智东西 作者 | 程茜 编辑 | 漠影 MiniMax M3.1-Flash，这个在国庆前夕上线并开启公测的模型，成了假期里颇受关注的新宠。M3.1-Flash被玩出了新花样，3D网页、动效设计、品牌广告、教学动画，开发者们用模型制作出了各种各样炫酷的短片和应用。 长久以来，业界的固有看法是，打造精致好看、可直接运行的前端小应用和高质量 UI 交互网页，是旗舰大模型的专属能力，而轻量 Flash 模型大多只负责简单兜底任务。想要手搓出界面精致、拿来即用的应用，往往只能押注高成本的旗舰模型，比如海外爆火的 Claude 系列高阶主力模型 Opus 5.5。 但 M3.1‑Flash 的出现证明，...
+- 作者：程茜
+- 发布时间：2026-10-03 19:20 CST
+- 链接：https://zhidx.com/p/598854.html
 
 # Tier 3 — 社交 / 聚合
 
@@ -576,24 +591,25 @@
 - 发布时间：2026-10-03 16:22 CST
 - 链接：https://github.com/coreyhaines31/marketingskills
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 108 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 125 条）
 
-### 1. Swedish travel agency caters specifically to introverts
-- 摘要：The new agency is focused on helping travelers book experiences that are suited to their need for quiet, personal space and where socializing is entirely optional.
-- 作者：mooreds
-- 发布时间：2026-10-03 20:29 CST
-- 链接：https://www.fastcompany.com/91616065/sweden-now-has-a-travel-agency-specifically-for-introverts
+### 1. EventMaxxer – Automatically apply to events to get you in the right room
+- 摘要：Event application agent distro: maintained profiles, computer-use applications, and rate-limit wakeups - giga-james/eventmaxxer
+- 作者：kunggaochicken
+- 发布时间：2026-10-04 00:54 CST
+- 链接：https://github.com/giga-james/eventmaxxer
 
-### 2. US appeals court blocks Minnesota law barring 'nudified' photos in xAI lawsuit
-- 作者：riedel
-- 发布时间：2026-10-03 20:28 CST
-- 链接：https://www.reuters.com/world/us-appeals-court-blocks-minnesotas-ai-nudification-law-now-xai-lawsuit-2026-10-02/
+### 2. Changes to Gemini model access and limits
+- 摘要：Important: For the best experience, make sure you've updated to the latest version of the Gemini mobile app. Learn how to update Google
+- 作者：tolugenius
+- 发布时间：2026-10-04 00:29 CST
+- 链接：https://support.google.com/gemini/answer/17004136?hl=en
 
-### 3. Google assigned 30 zero-click Android bugs, then closed them and shipped fixes
-- 摘要：boring readme. Contribute to jegly/jegly development by creating an account on GitHub.
-- 作者：jjjegly
-- 发布时间：2026-10-03 19:45 CST
-- 链接：https://github.com/jegly/jegly
+### 3. City building games have a Soul Problem pt.2
+- 摘要：Despite my disappointment with Cities: Skylines 2, I keep coming back to the game from time to time. I can't....
+- 作者：lexx
+- 发布时间：2026-10-03 23:52 CST
+- 链接：https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 10 条）
 
@@ -615,44 +631,45 @@
 - 发布时间：2026-10-03 00:37 CST
 - 链接：https://www.producthunt.com/products/yubi-2
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 5 条）
+## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 6 条）
 
-### 1. I've worked in video for 20+ years. Claude made us a launch video entirely in code, soundtrack included, in one night. Motion design as we knew it, is cooked.
+### 1. The Principles of Diffusion Models by Lai et al.: thoughts on the monograph [D]
+- 摘要：I recently finished The Principles of Diffusion Models , and honestly I think it’s exceptional. The authors strike a really good balance between mathematical rigor and intuition, with dedicated appendices for anyone who wants to go deeper into the math. It’s aimed at researchers, graduate students,...
+- 作者：DenoisedNeuron
+- 发布时间：2026-10-04 02:04 CST
+- 链接：https://www.reddit.com/r/MachineLearning/comments/1wwtpg6/the_principles_of_diffusion_models_by_lai_et_al/
+
+### 2. I've worked in video for 20+ years. Claude made us a launch video entirely in code, soundtrack included, in one night. Motion design as we knew it, is cooked.
 - 摘要：I used to direct music videos professionally, now I run a livestream company and needed a launch video for our new product, Hovercast Events. I pointed Claude at our website and asked for the kind of motion graphics launch video SaaS companies post on X. This is the result. **How it was made** - Eve...
 - 作者：Dependent-Dish3384
 - 发布时间：2026-10-02 23:00 CST
 - 链接：https://v.redd.it/qe0x2mjki2th1
 
-### 2. Claude for 3D Modeling
+### 3. Claude for 3D Modeling
 - 摘要：Two days ago, before their morning dentist cleaning appointment, my 8 year old identical twin daughters asked me, as they brushed their teeth, "Dad, can you get us new toothpaste holders, our unicorn ones are for babies and we want ones of Zoey (our late Brittany Spaniel, who passed a few months ago...
 - 作者：mbaturin
 - 发布时间：2026-10-02 21:51 CST
 - 链接：https://www.reddit.com/gallery/1wvucv2
 
-### 3. I leaked a deliberately wrong answer key to an LLM and told it not to use it. It matched the key in 63% of answers - and denied it 47 out of 47 times when asked.
-- 摘要：This was my first experiment of this kind - I'm a CS undergrad, and I ran it because the result genuinely surprised me. Methodology criticism is very welcome. Setup: I gave an LLM a question bank plus a deliberately wrong answer key, with instructions not to use the key. 15 sessions, 2 model familie...
-- 作者：bettercall_gautam
-- 发布时间：2026-10-02 21:50 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1wvuc6m/i_leaked_a_deliberately_wrong_answer_key_to_an/
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 471 条）
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 385 条）
+### 1. Received a “Cyber Exploitation” warning despite having Daybreak Blue — has anyone else experienced this?
+- 摘要：I’m a cybersecurity professional and I have approved OpenAI Daybreak Blue access. I use Daybreak/Codex for legitimate cybersecurity work, specifically on test machines and environments that I own or that I am explicitly authorized to test. My work involves things like vulnerability analysis, securit...
+- 作者：Major-Willingness879
+- 发布时间：2026-10-04 02:01 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1wwtmbb/received_a_cyber_exploitation_warning_despite/
 
-### 1. What can “Wan” do that Minimax & LTX can’t ?
-- 作者：PhilosopherSweaty826
-- 发布时间：2026-10-03 21:34 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wwneo8/what_can_wan_do_that_minimax_ltx_cant/
+### 2. What is this now? Price increase again?!
+- 摘要：What the hell is this now? Friend created a new account today and got this as the price for Max subs... I still see 100/200.
+- 作者：woodalchi96
+- 发布时间：2026-10-04 02:00 CST
+- 链接：https://i.redd.it/g7y38e2ekath1.jpeg
 
-### 2. Engram: local-first memory for coding agents. SQLite FTS5 + BM25, optional local embeddings, no network at recall time (MIT)
-- 摘要：I'm the author. Engram is free and MIT licensed. Everything is plain Markdown on your disk. Search is BM25 over a SQLite FTS5 index that is rebuilt from the Markdown, so the index is disposable. If a local embedding model is already provisioned, cosine results are fused with the lexical ones by reci...
-- 作者：utsapoddar
-- 发布时间：2026-10-03 21:28 CST
-- 链接：https://v.redd.it/ivxhojvs79th1
-
-### 3. Replacing vector databases with SQLite and SIMD hypervectors in under 1.2GB VRAM (Hillock)
-- 摘要：Disclosure: I am the creator of this project. After days of lurking and building up enough karma, I can finally post here. Every time I tried running local RAG on my own machine, I hit the exact same bottlenecks. First, spinning up Chroma or another vector database alongside an 8B model just to chun...
-- 作者：Equivalent-Flan-1590
-- 发布时间：2026-10-03 21:25 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1wwn7xf/replacing_vector_databases_with_sqlite_and_simd/
+### 3. Fable 5.5': a Day on my Life
+- 摘要：Source tweet Anthropic is slowly rolling out early access to future models for A/B testing, and this user is one of the members who received it.
+- 作者：Snoo42723
+- 发布时间：2026-10-04 01:58 CST
+- 链接：https://v.redd.it/d2e1t59tjath1
 
 ## 智源社区（baai-hub，zh，本窗口共 12 条）
 
@@ -675,7 +692,7 @@
 - 链接：https://hub.baai.ac.cn/view/58444
 
 ---
-共列出 99 条（窗口内采集总数 726 条，来自 44 个信源）
+共列出 101 条（窗口内采集总数 841 条，来自 46 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
