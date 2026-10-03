@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-04 02:04 CST
-数据窗口：最近 24 小时，832 条原始条目 → 589 个事件；过滤噪音 444 个，排除全部历史已推送的 41 个。
+生成时间：2026-10-04 05:33 CST
+数据窗口：最近 24 小时，718 条原始条目 → 523 个事件；过滤噪音 417 个，排除全部历史已推送的 29 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -9,19 +9,19 @@
 国外：
 
 ## 1. US arrests tech CEO accused of smuggling $300M in Nvidia chips into China
-- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、The Guardian — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：8.71
+- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、The Guardian — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：8.07
 - 摘要：The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China. In a press release on Thursday, the Department of Justice accused 38-year-old Greg...
 - 发布时间：2026-10-03 02:39 CST
 - 链接：https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/
 - 同事件报道：US arrests California man for allegedly smuggling $300m worth of computer servers to China（The Guardian — AI）
-- 同事件报道：Amazon seeks to offload $8B of Nvidia chips to investors（Hacker News (AI stories)）
+- 同事件报道：CA tech executive arrested for allegedly smuggling $300M in Nvidia chips to CN（Hacker News (AI stories)）
 
-## 2. The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI
-- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、WIRED — AI（2 个来源） ｜ 热度：5.5
-- 摘要：The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it's getting more expensive. Even devices with years-old tech inside are still apparentl...
-- 发布时间：2026-10-02 22:52 CST
-- 链接：https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/
-- 同事件报道：The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike（WIRED — AI）
+## 2. Amazon’s $1B plan to combat data center backlash draws more backlash
+- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、TechCrunch — AI（2 个来源） ｜ 热度：5.5
+- 摘要：On Friday, Amazon committed to donating more than $1 billion over the next five years to communities neighboring data centers. In a press release , Amazon Web Services’ CEO Matt Garman said that communities would decide...
+- 发布时间：2026-10-03 04:30 CST
+- 链接：https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/
+- 同事件报道：Amazon responds to data center backlash, says it no longer uses NDAs（TechCrunch — AI）
 
 ## 3. Lightricks/LTX-2.5
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
@@ -42,70 +42,69 @@
 - 链接：https://www.axios.com/2026/10/02/pope-leo-xiv-catholic-church-ai-warning-artists
 - 同事件报道：Pope Leo XIV on AI and Art（Hacker News (AI stories)）
 
-## 6. Drift is the silent killer of AI video
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.09
-- 摘要：When making AI videos, the thing that frustrates me most isn't poor generation quality. It's drift, the way the visuals slowly start to drift after a few seconds. Colors shift, edges get blurry, objects start changing sh...
-- 发布时间：2026-10-02 23:25 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wvwoxp/drift_is_the_silent_killer_of_ai_video/
-- 同事件报道：US killer's sentence quashed because of AI video of victim shown in court（Hacker News (AI stories)）
-
-## 7. Open-source "BootLoops" harness supports AI models in performing precise scientific calculations
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：3.5
-- 摘要：Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scient...
-- 发布时间：2026-10-03 17:19 CST
-- 链接：https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/
-
-## 8. RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers（1 个来源） ｜ 热度：3.0
-- 摘要：Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in robotics. Existing robotics benchmarks, however, primarily focus on the performance of individual artif...
-- 发布时间：2026-09-29 04:00 CST
-- 链接：https://arxiv.org/abs/2609.34210
-
-## 9. OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers（1 个来源） ｜ 热度：3.0
-- 摘要：Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while preserving interactions with the environment. This is particularly challenging for loco-manipulation ta...
-- 发布时间：2026-09-29 04:00 CST
-- 链接：https://arxiv.org/abs/2609.36602
-
-## 10. Language Discrimination Improves Linguistic Learning in Multilingual Speech Models
-- 地区：国外源 ｜ 语言：en ｜ 来源：Apple Machine Learning Research（1 个来源） ｜ 热度：3.0
-- 摘要：Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening...
-- 发布时间：2026-10-02 08:00 CST
-- 链接：https://machinelearning.apple.com/research/language-discrimination-multilingual-learning
-
-## 11. Chatham scales its capital markets expertise with OpenAI
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.0
-- 摘要：Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.
-- 发布时间：2026-10-02 08:00 CST
-- 链接：https://openai.com/index/chatham-financial
-
-## 12. Limits of Confidence in Diffusion
+## 6. Limits of Confidence in Diffusion
 - 地区：国外源 ｜ 语言：en ｜ 来源：Apple Machine Learning Research（1 个来源） ｜ 热度：3.0
 - 摘要：Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-position distribution and choosing which positions to write fr...
 - 发布时间：2026-10-02 08:00 CST
 - 链接：https://machinelearning.apple.com/research/limits-confidence-diffusion
 
-## 13. How to choose your first Genie Agents for maximum impact
-- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.0
-- 摘要：With more than 1 million Genie Agents created in 2026 alone, the question facing...
-- 发布时间：2026-10-03 00:15 CST
-- 链接：https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact
+## 7. Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
+- 摘要：Prime Intellect has launched Prime Inference , a serving platform for frontier open-source models. It offers serverless endpoints and reserved capacity on Prime’s own GPUs across multiple datacenters. Before public relea...
+- 发布时间：2026-10-03 13:37 CST
+- 链接：https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/
 
-## 14. A model guide for the GPT-6 family
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.0
-- 摘要：Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.
-- 发布时间：2026-10-03 00:15 CST
-- 链接：https://openai.com/index/practical-guide-building-gpt-6
+## 8. Open-source "BootLoops" harness supports AI models in performing precise scientific calculations
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：3.0
+- 摘要：Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scient...
+- 发布时间：2026-10-03 17:19 CST
+- 链接：https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/
+
+## 9. Deepmind researchers propose "Artificial Symbiotic Intelligence" as an alternative to the singularity
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
+- 摘要：According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and...
+- 发布时间：2026-10-03 18:21 CST
+- 链接：https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/
+
+## 10. Muse Creates Detailed Profiles of All Your Friends and Family
+- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.
+- 发布时间：2026-10-03 20:00 CST
+- 链接：https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/
+
+## 11. An A.I. Songwriting Experiment: Humans Against the Machine
+- 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Five humans convened for a weekend to create new music from scratch. Could they do better than A.I.? Could you even tell the difference?
+- 发布时间：2026-10-03 20:46 CST
+- 链接：https://www.nytimes.com/2026/10/03/arts/music/human-songwriting-ai-songwriting.html
+
+## 12. Rogue AI agents expose internet's frail foundation
+- 地区：国外源 ｜ 语言：en ｜ 来源：Axios（1 个来源） ｜ 热度：2.5
+- 摘要：AI agents don't need to invent new ways to hack the internet to overwhelm its defenses. They just need to speed-run the ones humans already use. Why it matters: Agents are proving they can automate basic hacking techniqu...
+- 发布时间：2026-10-03 21:14 CST
+- 链接：https://www.axios.com/2026/10/03/rogue-ai-agents-internet-defenses
+
+## 13. All the AI agents that can live in your text messages
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：2.5
+- 摘要：We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.
+- 发布时间：2026-10-03 22:00 CST
+- 链接：https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/
+
+## 14. California’s new laws target workers’ biggest fear of AI taking their jobs
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：The state, which is home to many AI companies, is one of the first to roll out workplace regulations targeting the technology California’s laws aimed at protecting workers from the impacts of artificial intelligence coul...
+- 发布时间：2026-10-03 22:00 CST
+- 链接：https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection
 
 国内：
 
-## 1. 苏姿丰与李飞飞
+## 1. 苏姿丰抬头，李飞飞低头
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道、钛媒体（3 个来源） ｜ 热度：9.0
-- 摘要：一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名字，磨完交给别人去用。另一个人在网上把一千多万张图，一张一张地分门别类。那是当年学术圈看不起的活，评职称的时候不好看。那两样东西都叫片。一个是圆的，晶圆。一个是方的，图片。9月28日，AMD宣布收购World Labs，全股票交易，作价约82...... 本文来自微信公众号： 秦朔朋友圈 ，作者：水姐 一个人在麻省理工的实验室里，一片一片地磨硅。那是本科生干的活，没有名...
-- 发布时间：2026-10-03 00:10 CST
-- 链接：https://www.huxiu.com/article/4895199.html
-- 同事件报道：苏姿丰抬头，李飞飞低头（虎嗅）
+- 摘要：如果把时间拨回2014年，苏姿丰刚接手AMD。那时的AMD还看不出今天AI明星公司的样子。公司承压，业务陷入困境，甚至有人怀疑，这家老牌芯片公司等不到下一轮机会。也是在那个阶段，李飞飞在做一件看起来更笨的事情：给机器准备足够多的图片。9月28日，AMD宣布以约82亿美元全股票收购李飞飞创办的World Lab...... 本文来自微信公众号： 版面之外 ，作者：画画 如果把时间拨回2014年，苏姿丰刚接手AMD。 那时的AMD还看不出今...
+- 发布时间：2026-10-03 08:00 CST
+- 链接：https://www.huxiu.com/article/4895211.html
 - 同事件报道：苏姿丰抬头，李飞飞低头（36氪 AI 频道）
+- 同事件报道：苏姿丰抬头，李飞飞低头（钛媒体）
 
 ## 2. 刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、虎嗅（2 个来源） ｜ 热度：5.5
@@ -135,9 +134,8 @@
 - 链接：https://www.ithome.com/1/009/398.htm
 - 同事件报道：If you recently started AI generation, be aware of this: my RTX 4090 power connector melted after just one month.（Reddit AI subreddits (new)）
 
-## 6. Jev估值100亿美元！创始人Diogo Almeida回答一切
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、智源社区（2 个来源） ｜ 热度：4.5
-- 摘要：Jev估值100亿美元！创始人Diogo Almeida回答一切 文婷 发自 凹非寺 量子位 | 公众号QbitAI 他来了他来了，TypeSafe AI的联合创始人兼CEO Diogo Almeida，顶着一头新染的红发闪亮登场了！（doge Diogo在最新一期Latent Space访谈中坦言： 公开benchmark极其容易被操纵，即便开发者没有主动作弊，最终也可能被榜单牵着走。 所以相比于一张通用榜单，他更愿意相信长期积累的产...
-- 发布时间：2026-10-03 10:38 CST
-- 链接：https://www.qbitai.com/2026/10/500148.html
-- 同事件报道：Jev估值100亿美元！创始人Diogo Almeida回答一切（智源社区）
+## 6. IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 OLED 屏 MacBook...
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
+- 摘要：“IT早报”时间，大家好，现在是 2026 年 10 月 3 日星期六，今天的重要科技资讯有： 1. 三星上调 Galaxy S26 系列手机建议零售价：涨 800-1800 元，7799 元起 三星官网显示，三星上调了国行 Galaxy S26 系列手机的建议零售价。>> 查看详情 2. 首付 6.98 万元起，鸿蒙智行问界 M6 推出限时 3 年 0 息购车金融政策 鸿蒙智行问界汽车 10 月 2 日上午宣布，问界 M6 推出限时...
+- 发布时间：2026-10-03 07:50 CST
+- 链接：https://www.ithome.com/1/009/382.htm
