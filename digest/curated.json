@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-04T01:46:06.940108+00:00",
+ "generated_at": "2026-10-04T08:38:26.837034+00:00",
  "stats": {
-  "items": 639,
-  "clusters": 464,
-  "noise": 365,
-  "dup": 44,
+  "items": 562,
+  "clusters": 398,
+  "noise": 312,
+  "dup": 31,
   "history_days": 0,
-  "available_cn": 37,
-  "available_intl": 18,
+  "available_cn": 38,
+  "available_intl": 17,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -32,102 +32,22 @@
   },
   {
    "rank": 2,
-   "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+   "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-   "score": 2.5,
-   "sources": [
-    "theverge-ai"
-   ],
-   "titles": [
-    "Splice CEO Kakul Srivastava thinks AI emails are killing conversations"
-   ],
-   "published_at": "2026-10-03T15:00:00.000000+00:00",
-   "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \" Money \" and \" E..."
-  },
-  {
-   "rank": 3,
-   "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-   "score": 2.5,
-   "sources": [
-    "theverge-ai"
-   ],
-   "titles": [
-    "Capcom is preparing for a ‘future where we create games together with AI’"
-   ],
-   "published_at": "2026-10-03T16:49:10.000000+00:00",
-   "summary": "Capcom's Pragmata might be all about the horrors of AI , but in practice the studio doesn't seem so down on the tech . During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mou..."
-  },
-  {
-   "rank": 4,
-   "title": "Bessent Says AI Industry Must Own Its Risks and Find Solutions",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-03/bessent-says-ai-industry-must-own-its-risks-and-find-solutions",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Bessent Says AI Industry Must Own Its Risks and Find Solutions"
-   ],
-   "published_at": "2026-10-03T17:12:02.000000+00:00",
-   "summary": "US Treasury Secretary Scott Bessent criticized prominent artificial-intelligence figures’ warnings about existential risks posed by the technology as alarmist and unhelpful, calling on the industry to police itself and p..."
-  },
-  {
-   "rank": 5,
-   "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
-   "score": 2.5,
-   "sources": [
-    "wired-ai"
-   ],
-   "titles": [
-    "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike"
-   ],
-   "published_at": "2026-10-03T18:00:00.000000+00:00",
-   "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception."
-  },
-  {
-   "rank": 6,
-   "title": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
-   "score": 2.5,
+   "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+   "score": 3.0,
    "sources": [
     "the-decoder"
    ],
    "titles": [
-    "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore"
+    "\"Muse Gadgets\" turns AI hardware into an open-source DIY project"
    ],
-   "published_at": "2026-10-03T18:56:30.000000+00:00",
-   "summary": "OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a \"real safety issue.\" His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV..."
+   "published_at": "2026-10-03T14:28:51.000000+00:00",
+   "summary": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a..."
   },
   {
-   "rank": 7,
-   "title": "Black Box: The Chatbots | Life Raft | Ep 4 – podcast",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/audio/2026/oct/04/black-box-the-chatbots-life-raft-episode-4-podcast",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Black Box: The Chatbots | Life Raft | Ep 4 – podcast"
-   ],
-   "published_at": "2026-10-03T20:00:07.000000+00:00",
-   "summary": "More than a billion people are suddenly talking to AI chatbots designed to connect with us. We are sharing with them our deepest secrets, trusting them with our wellbeing and acting on their advice. Across two powerful s..."
-  },
-  {
-   "rank": 8,
+   "rank": 3,
    "title": "September sponsors-only newsletter",
    "lang": "en",
    "region": "intl",
@@ -143,7 +63,7 @@
    "summary": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender..."
   },
   {
-   "rank": 9,
+   "rank": 4,
    "title": "We're going to need default hard budget caps on pretty much everything",
    "lang": "en",
    "region": "intl",
@@ -159,7 +79,7 @@
    "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say..."
   },
   {
-   "rank": 10,
+   "rank": 5,
    "title": "US AI Task Force to Report on Technology’s Risks, WSJ Reports",
    "lang": "en",
    "region": "intl",
@@ -175,7 +95,55 @@
    "summary": "A new White House task force will produce a report assessing risks posed by artificial intelligence and what responsibility the US federal government should have over the technology, the Wall Street Journal reported."
   },
   {
-   "rank": 11,
+   "rank": 6,
+   "title": "Masayoshi Son’s AI ambitions outgrow SoftBank’s balance sheet",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/9b3a355e-5975-445f-9004-b95513e3856a?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "Masayoshi Son’s AI ambitions outgrow SoftBank’s balance sheet"
+   ],
+   "published_at": "2026-10-04T04:00:07.000000+00:00",
+   "summary": "DigitalBridge CEO Marc Ganzi says his data centre investment group will be SoftBank’s ‘third-party infrastructure arm’ after $4bn takeover"
+  },
+  {
+   "rank": 7,
+   "title": "What can we learn from the office AI superusers?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/7a556b32-0511-42ae-a596-d0aedbcdb1a3?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "What can we learn from the office AI superusers?"
+   ],
+   "published_at": "2026-10-04T04:00:07.000000+00:00",
+   "summary": "Leaders who have gone all-in on new tech tools describe how they are reimagining their working lives"
+  },
+  {
+   "rank": 8,
+   "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+   "score": 2.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy"
+   ],
+   "published_at": "2026-10-04T07:29:59+00:00",
+   "summary": "Google Research has announced a next-generation Federated Learning (FL) system built on Trusted Execution Environments (TEEs). The research team claims externally verifiable central differential privacy (DP) guarantees f..."
+  },
+  {
+   "rank": 9,
    "title": "Rex's Dino Store",
    "lang": "en",
    "region": "intl",
@@ -191,73 +159,123 @@
    "summary": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of..."
   },
   {
-   "rank": 12,
-   "title": "Eliza review – an ambitious, unsettling play about the birth of AI",
+   "rank": 10,
+   "title": "AI agents build 3D scenes from photos but have no idea if they got it right",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/stage/2026/oct/03/eliza-review-melbourne-theatre-company-birth-of-ai",
+   "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
    "score": 2.0,
    "sources": [
-    "guardian-ai"
+    "the-decoder"
    ],
    "titles": [
-    "Eliza review – an ambitious, unsettling play about the birth of AI"
+    "AI agents build 3D scenes from photos but have no idea if they got it right"
    ],
-   "published_at": "2026-10-03T01:57:39.000000+00:00",
-   "summary": "Melbourne Theatre Company While the cast is excellent, a play that sends us back to artificial intelligence’s genesis moment should feel more human than this It can be fiendishly difficult to write plays about contempora..."
+   "published_at": "2026-10-03T08:31:04.000000+00:00",
+   "summary": "A new approach called LEGO-Anything turns single photos into editable Blender code for 3D scenes. GPT-6 Astra leads the accompanying benchmark with up to 53 percent reconstruction accuracy. The biggest weakness across al..."
+  },
+  {
+   "rank": 11,
+   "title": "[AINews] not much happened today",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+   "score": 2.0,
+   "sources": [
+    "latent-space"
+   ],
+   "titles": [
+    "[AINews] not much happened today"
+   ],
+   "published_at": "2026-10-03T08:45:15.000000+00:00",
+   "summary": "If you’re even seeing this, you should probably just go enjoy your weekend. AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues..."
+  },
+  {
+   "rank": 12,
+   "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+   "score": 2.0,
+   "sources": [
+    "theverge-ai"
+   ],
+   "titles": [
+    "Splice CEO Kakul Srivastava thinks AI emails are killing conversations"
+   ],
+   "published_at": "2026-10-03T15:00:00.000000+00:00",
+   "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \" Money \" and \" E..."
   },
   {
    "rank": 13,
-   "title": "Students turn to lawyers to fight AI misconduct accusations",
+   "title": "Capcom is preparing for a ‘future where we create games together with AI’",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/7e34e5c1-e841-4d0d-abc1-40f98ba4da01?syn-25a6b1a6=1",
+   "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
    "score": 2.0,
    "sources": [
-    "ft-tech"
+    "theverge-ai"
    ],
    "titles": [
-    "Students turn to lawyers to fight AI misconduct accusations"
+    "Capcom is preparing for a ‘future where we create games together with AI’"
    ],
-   "published_at": "2026-10-03T04:00:11.000000+00:00",
-   "summary": "Legal cases rise as universities struggle with approach to technology"
+   "published_at": "2026-10-03T16:49:10.000000+00:00",
+   "summary": "Capcom's Pragmata might be all about the horrors of AI , but in practice the studio doesn't seem so down on the tech . During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mou..."
   },
   {
    "rank": 14,
-   "title": "The coming futures market in AI compute",
+   "title": "Bessent Says AI Industry Must Own Its Risks and Find Solutions",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/a1815bc5-b5d5-47ff-bbbc-e1a689929321",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-03/bessent-says-ai-industry-must-own-its-risks-and-find-solutions",
    "score": 2.0,
    "sources": [
-    "ft-tech"
+    "bloomberg-tech"
    ],
    "titles": [
-    "The coming futures market in AI compute"
+    "Bessent Says AI Industry Must Own Its Risks and Find Solutions"
    ],
-   "published_at": "2026-10-03T04:00:39.000000+00:00",
-   "summary": "Big swings in the price of chip rentals are spurring the creation of a trading opportunity"
+   "published_at": "2026-10-03T17:12:02.000000+00:00",
+   "summary": "US Treasury Secretary Scott Bessent criticized prominent artificial-intelligence figures’ warnings about existential risks posed by the technology as alarmist and unhelpful, calling on the industry to police itself and p..."
   },
   {
    "rank": 15,
-   "title": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+   "title": "最火AI岗位FDE：月薪5万，都干这些…",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/500148.html",
-   "score": 4.5,
+   "url": "https://www.huxiu.com/article/4895334.html",
+   "score": 6.0,
    "sources": [
-    "qbitai",
-    "baai-hub"
+    "huxiu",
+    "qbitai"
    ],
    "titles": [
-    "Jev估值100亿美元！创始人Diogo Almeida回答一切",
-    "Jev估值100亿美元！创始人Diogo Almeida回答一切"
+    "最火AI岗位FDE：月薪5万，都干这些…",
+    "最火AI岗位FDE：月薪5万，都干这些…"
    ],
-   "published_at": "2026-10-03T02:38:19+00:00",
-   "summary": "Jev估值100亿美元！创始人Diogo Almeida回答一切 文婷 发自 凹非寺 量子位 | 公众号QbitAI 他来了他来了，TypeSafe AI的联合创始人兼CEO Diogo Almeida，顶着一头新染的红发闪亮登场了！（doge Diogo在最新一期Latent Space访谈中坦言： 公开benchmark极其容易被操纵，即便开发者没有主动作弊，最终也可能被榜单牵着走。 所以相比于一张通用榜单，他更愿意相信长期积累的产..."
+   "published_at": "2026-10-04T04:11:20.000000+00:00",
+   "summary": "FDE，全网最火热、最神秘的AI岗位之一。火热在于，不少大厂开出了月薪高达三五万的招聘，小红书FDE遍地走，到处都是求职经验贴。据招聘数据网站FDE Pulse统计，海外公开薪资的FDE岗位，基本年薪中位数约20万美元，折合人民币约134万元。（都是钱啊这都是钱）神秘在于，我访谈了6个FDE从业者，最后发现，...... 本文来自微信公众号： 量子位 ，作者：关注前沿科技 FDE，全网最火热、最神秘的AI岗位之一。 火热在于，不少大厂开..."
   },
   {
    "rank": 16,
+   "title": "马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/009/631.htm",
+   "score": 5.05,
+   "sources": [
+    "ithome",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停",
+    "US appeals court blocks Minnesota law barring 'nudified' photos in xAI lawsuit"
+   ],
+   "published_at": "2026-10-04T03:45:58+00:00",
+   "summary": "IT之家 10 月 4 日消息，据路透社报道，埃隆 · 马斯克旗下的 xAI 于当地时间本周五成功说服美国一家联邦上诉法院，叫停明尼苏达州的全美首个 AI 生成虚假裸照禁令。这家科技兼社交媒体企业正在提起诉讼，主张该项州立法律违宪。 IT之家注意到，总部设在圣路易斯的美国第八巡回上诉法院下发裁定，应 xAI 的请求颁布临时禁令，暂时搁置该法案的实施。就在上个月，初审法院的法官曾经驳回马斯克一方申请暂停法律施行的诉求。 这项明尼苏达州反“..."
+  },
+  {
+   "rank": 17,
    "title": "Jev被请下王座，StartLux中国开源决策模型冲上第一",
    "lang": "zh",
    "region": "cn",
@@ -271,22 +289,6 @@
    ],
    "published_at": "2026-10-03T03:58:44.000000+00:00",
    "summary": "9 月 30 日，一款决策模型正式发布，迅速引发巨大关注：在 Decision Index 0.2.1 的 38 项基准测试中，它有 31 项成绩超过当前最热门的 Jev，综合得分 63.88 对 57.91，领先公开榜首近 6 分；而且，它完全开源。 实战对比更能说明问题——在与 Jev 的国际象棋对弈中，它的响应速度与对手不相上下，却在 36 局中赢下 35 局。 拿出这款模型的公司，正是当下炙手可热的上海 AI 明星企业 Star..."
-  },
-  {
-   "rank": 17,
-   "title": "将语音与音乐作为单一连贯音轨共同生成，AI 音乐制作平台 Suno 推出 Speech 语音功能",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/009/440.htm",
-   "score": 3.0,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "将语音与音乐作为单一连贯音轨共同生成，AI 音乐制作平台 Suno 推出 Speech 语音功能"
-   ],
-   "published_at": "2026-10-03T06:01:12+00:00",
-   "summary": "IT之家 10 月 3 日消息，当地时间 10 月 1 日，AI 音乐制作平台 Suno 宣布推出 Speech，Suno 宣称这是 业界首个能够将语音与音乐作为单一连贯音轨共同生成的音频模型 。 据悉，该模型并非像传统工作流那样先做 TTS（文本转语音）再拼接 BGM，而是端到端一体化生成，是首个能单次生成完整融合“语音朗读 + 原创 BGM”的端到端闭源音频模型。 在过去一个月中，Suno 与小范围用户共同测试了该功能，现在正式面向..."
   },
   {
    "rank": 18,
