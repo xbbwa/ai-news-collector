@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-05 02:44 CST
+生成时间：2026-10-05 06:25 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -16,19 +16,25 @@
 - 发布时间：2026-09-30 10:14 CST
 - 链接：https://huggingface.co/Qwen/Qwen-Image-2.1
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 2 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 3 条）
 
-### 1. google/DiarizationLM-Gemma-4-E4B-v1
+### 1. PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-RL
+- 摘要：image-text-to-text, transformers, safetensors, qwen3_5, prime-rl, ci, conversational, base_model:PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT, base_model:finetune:PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT, license:apache-2.0, endpoints_compatible, region:us
+- 作者：PrimeIntellect
+- 发布时间：2026-10-05 05:18 CST
+- 链接：https://huggingface.co/PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-RL
+
+### 2. PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT
+- 摘要：image-text-to-text, transformers, safetensors, qwen3_5, prime-rl, ci, conversational, dataset:PrimeIntellect/Reverse-Text-SFT, base_model:Qwen/Qwen3.5-0.8B, base_model:finetune:Qwen/Qwen3.5-0.8B, license:apache-2.0, endpoints_compatible, region:us
+- 作者：PrimeIntellect
+- 发布时间：2026-10-05 05:18 CST
+- 链接：https://huggingface.co/PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT
+
+### 3. google/DiarizationLM-Gemma-4-E4B-v1
 - 摘要：image-text-to-text, transformers, safetensors, gguf, gemma4, speech, speaker-diarization, diarizationlm, gemma, gemma-4, long-context, multi-speaker, conversational, arxiv:2401.03506, base_model:google/gemma-4-E4B, base_model:quantized:google/gemma-4-E4B, license:apache-2.0, endpoints_compatible, re...
 - 作者：google
 - 发布时间：2026-10-04 23:14 CST
 - 链接：https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1
-
-### 2. LiquidAI/LFM2.5-350M-Diffusion-Exp
-- 摘要：text-generation, transformers, safetensors, lfm2_diffusion, liquid, lfm2.5, diffusion, block-diffusion, edge, conversational, custom_code, en, base_model:LiquidAI/LFM2.5-350M, base_model:finetune:LiquidAI/LFM2.5-350M, license:other, region:us
-- 作者：LiquidAI
-- 发布时间：2026-10-03 13:39 CST
-- 链接：https://huggingface.co/LiquidAI/LFM2.5-350M-Diffusion-Exp
 
 ## Hugging Face Blog（huggingface-blog，en，本窗口共 1 条）
 
@@ -48,24 +54,24 @@
 - 发布时间：2026-10-04 20:49 CST
 - 链接：https://www.axios.com/2026/10/04/reflection-open-weight-ai
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 4 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 6 条）
 
-### 1. AI Stocks Drive an Increasingly Divided Market
+### 1. US Lead in AI Over China Narrows After DeepSeek Gains, BI Says
+- 摘要：American AI companies’ performance lead over China narrowed sharply in past months to a record low after labs such as DeepSeek gained ground, threatening US tech supremacy, according to Bloomberg Intelligence.
+- 作者：Saritha Rai
+- 发布时间：2026-10-05 05:03 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says
+
+### 2. AI Whistleblowers, Google, OpenAI, Meta to Face New York City Council
+- 摘要：Former Anthropic researcher Jacob Coxon, who warned that artificial intelligence could become too powerful for humans to control, will testify Monday at a New York City Council hearing alongside representatives of some of the world’s biggest AI companies.
+- 作者：Nacha Cattan and Laura Nahmias
+- 发布时间：2026-10-05 04:00 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council
+
+### 3. AI Stocks Drive an Increasingly Divided Market
 - 摘要：Schwab Head of Macro Research and Strategy Kevin Gordon tells Bloomberg This Weekend that AI-related technology stocks are supporting the broader market even as many individual companies have suffered significantly larger declines, highlighting increasingly narrow market leadership. Speaking with ho...
 - 发布时间：2026-10-05 00:05 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-10-04/ai-stocks-drive-an-increasingly-divided-market-video
-
-### 2. Trump Names Clayton, Ferguson to Lead AI Task Force
-- 摘要：The “Super Intelligence Force” will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social.
-- 作者：Sam Kim
-- 发布时间：2026-10-04 20:38 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force
-
-### 3. SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety
-- 摘要：SoftBank Group Corp. chief Masayoshi Son — one of AI’s fervent believers — said that even he’s worried about safety risks as machines quickly gain more abilities.
-- 作者：Mayumi Negishi
-- 发布时间：2026-10-04 17:32 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-04/softbank-s-masayoshi-son-has-rare-cautionary-note-on-ai-safety
 
 ## CNBC Technology（cnbc-tech，en，本窗口共 1 条）
 
@@ -75,24 +81,24 @@
 - 发布时间：2026-10-04 21:22 CST
 - 链接：https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 5 条）
 
-### 1. Investors look to shelter portfolios from rising AI concentration risks
+### 1. FirstFT: Legal risks pile up for OpenAI
+- 摘要：Also in today’s newsletter: China closes hundreds of banks and dealmaking slowdown threatens early end to M&A boom
+- 发布时间：2026-10-05 05:45 CST
+- 链接：https://www.ft.com/content/7feba19e-b498-4453-a744-214638044f0a?syn-25a6b1a6=1
+
+### 2. Investors look to shelter portfolios from rising AI concentration risks
 - 摘要：Fund managers see hedge funds and emerging markets assets as bulwarks against sudden shift in sentiment on artificial intelligence
 - 发布时间：2026-10-04 20:00 CST
 - 链接：https://www.ft.com/content/3302fd5c-8b92-425b-9523-673b2565bb10?syn-25a6b1a6=1
 
-### 2. Legal risks pile up for Altman as OpenAI uncovers dozens of hacks
+### 3. Legal risks pile up for Altman as OpenAI uncovers dozens of hacks
 - 摘要：Cyber security incidents involving company’s AI tools leave ChatGPT maker vulnerable to wave of lawsuits
 - 发布时间：2026-10-04 19:00 CST
 - 链接：https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf?syn-25a6b1a6=1
 
-### 3. Masayoshi Son’s AI ambitions outgrow SoftBank’s balance sheet
-- 摘要：DigitalBridge CEO Marc Ganzi says his data centre investment group will be SoftBank’s ‘third-party infrastructure arm’ after $4bn takeover
-- 发布时间：2026-10-04 12:00 CST
-- 链接：https://www.ft.com/content/9b3a355e-5975-445f-9004-b95513e3856a?syn-25a6b1a6=1
-
-## The Guardian — AI（guardian-ai，en，本窗口共 5 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 3 条）
 
 ### 1. Rural Queenslanders have seen gas projects come and go – but a 725-hectare datacentre poses a whole new level of ‘stupidity’
 - 摘要：Residents of Dalby may soon live beside a $31bn datacentre. The premier sees ‘opportunity’ for the state – but others fear AI’s global creep From the veranda on his bush block, Denver Kanowski has watched resources companies come and go from rural Queensland for 70 years. The home cost him $800, and...
@@ -112,27 +118,35 @@
 - 发布时间：2026-10-04 21:00 CST
 - 链接：https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality
 
-## MarkTechPost（marktechpost，en，本窗口共 4 条）
+## MarkTechPost（marktechpost，en，本窗口共 5 条）
 
-### 1. Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy
+### 1. GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job
+- 摘要：Anthropic, OpenAI and Google DeepMind shipped 4 frontier-class models within 30 days. Claude Fable 5.1 arrived on September 1. GPT-6 Astra followed on September 3. GPT-6.1 Sol and Gemini 4 Argon landed in the last days of September. We covered each launch on its own. This piece puts them side by sid...
+- 作者：Asif Razzaq
+- 发布时间：2026-10-05 04:59 CST
+- 链接：https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/
+
+### 2. Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy
 - 摘要：Google Research has announced a next-generation Federated Learning (FL) system built on Trusted Execution Environments (TEEs). The research team claims externally verifiable central differential privacy (DP) guarantees for FL for the first time. What Problem Does TEE-Based Federated Learning Solve?...
 - 作者：Michal Sutter
 - 发布时间：2026-10-04 15:29 CST
 - 链接：https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/
 
-### 2. Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters
+### 3. Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters
 - 摘要：Aleph Alpha has released Kolibri , an open-weight Mixture-of-Experts (MoE) language model built for German and English. Kolibri has 78.1B total parameters but activates only 3.46B, or 4.4%, per token. It accepts up to 1,048,576 tokens of context, lets users set reasoning effort per request, and ship...
 - 作者：Asif Razzaq
 - 发布时间：2026-10-04 15:01 CST
 - 链接：https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/
 
-### 3. DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness
-- 摘要：DeepSeek has released an official desktop app for DeepSeek Harness (dsh), its open-source agent harness. The app ships with the v0.2 preview . Installers cover macOS (Apple silicon) and Windows (64-bit). Is it deployable? Yes, today, as a preview. Download it from deepseek.com/harness or run npx @de...
-- 作者：Michal Sutter
-- 发布时间：2026-10-04 12:49 CST
-- 链接：https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/
+## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 3 条）
+### 1. Court Tosses ​​Sentence After A.I. Video of Victim ‘Forgiving’ His Killer Is Played
+- 摘要：Stacey Wales with an enlarged photo of her brother, Christopher Pelkey. She created a video using artificial intelligence to depict her dead brother speaking at the sentencing of his killer.
+- 作者：Adeel Hassan
+- 发布时间：2026-10-05 05:04 CST
+- 链接：https://www.nytimes.com/2026/10/04/us/manslaughter-conviction-overturned-ai-video-statement.html
+
+## Simon Willison's Weblog（simon-willison，en，本窗口共 2 条）
 
 ### 1. We're going to need default hard budget caps on pretty much everything
 - 摘要：Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say "after $X/month, cut this thing off and return errors". These need to be hard l...
@@ -146,27 +160,27 @@
 - 发布时间：2026-10-04 06:00 CST
 - 链接：https://simonwillison.net/2026/Oct/3/newsletter/
 
-### 3. Rex's Dino Store
-- 摘要：Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york
-- 作者：Simon Willison
-- 发布时间：2026-10-03 06:57 CST
-- 链接：https://simonwillison.net/2026/Oct/2/rex-s-dino-store/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 3 条）
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 2 条）
+### 1. Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions
+- 摘要：AI slop seems to be overwhelming bug bounty programs.
+- 作者：Anthony Ha
+- 发布时间：2026-10-05 04:31 CST
+- 链接：https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
 
-### 1. Trump unveils his new Super Intelligence Force
+### 2. Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?
+- 摘要：On Equity, we discussed the Trump administration's attempts to rebrand AI.
+- 作者：Anthony Ha
+- 发布时间：2026-10-05 04:08 CST
+- 链接：https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/
+
+### 3. Trump unveils his new Super Intelligence Force
 - 摘要：This new task force is Trump's latest response to the debate over AI safety.
 - 作者：Anthony Ha
 - 发布时间：2026-10-04 23:15 CST
 - 链接：https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/
 
-### 2. Amazon responds to data center backlash, says it no longer uses NDAs
-- 摘要：The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.
-- 作者：Anthony Ha
-- 发布时间：2026-10-04 02:43 CST
-- 链接：https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/
-
-## The Decoder（the-decoder，en，本窗口共 6 条）
+## The Decoder（the-decoder，en，本窗口共 5 条）
 
 ### 1. Trump launches "Super Intelligence Force" that has nothing to do with actual superintelligence
 - 摘要：Donald Trump has established a "Super Intelligence Force." "Superintelligence" is his term for artificial intelligence. The unit is led by Director of National Intelligence Jay Clayton and other government officials, coordinates with AI companies, critical infrastructure operators, and interest grou...
@@ -399,25 +413,25 @@
 - 发布时间：2026-10-04 16:37 CST
 - 链接：https://github.com/cloudflare/cloudflare-os
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 57 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 62 条）
 
-### 1. Is Russia using AI for disinformation in CAR?
-- 摘要：An Anthropic report says the AI model Claude was used in pro-Russian campaigns in the Central African Republic. Similar allegations were raised for the Democratic Republic of the Congo, Kenya, Sudan and Mali.
-- 作者：devonnull
-- 发布时间：2026-10-05 02:04 CST
-- 链接：https://www.dw.com/en/anthropic-report-is-russia-using-ai-for-disinformation-in-the-central-african-republic-and-elsewhere/a-79476947
+### 1. Google freezes open-source bug bounty program amid flood of invalid AI slop
+- 摘要：Engineers and open-source maintainers reportedly overwhelmed by thousands of sloppy reports
+- 作者：rdmuser
+- 发布时间：2026-10-05 04:38 CST
+- 链接：https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1
 
-### 2. Show HN: Dataviz, ranked daily from GitHub, NPM, PyPI and CRAN
-- 摘要：Find the right data visualization tool: 291 charting libraries, maps, graph and network visualization, dashboards and more for JavaScript, Python, R and beyond, with live GitHub stars and activity.
-- 作者：javierluraschi
-- 发布时间：2026-10-05 01:54 CST
-- 链接：https://awesomedataviz.com/
+### 2. Vinix is an effort to write a modern, fast, and useful operating system
+- 摘要：Vinix is an effort to write a modern, fast, and useful operating system in the V programming language - vlang/vinix
+- 作者：tosh
+- 发布时间：2026-10-05 04:15 CST
+- 链接：https://github.com/vlang/vinix
 
-### 3. Building a RAG Pipeline for Semantic Code Search
-- 摘要：Part 1: Parsing, chunking, and vectorization Some time ago, we set out to build the best semantic code search platform we could: a RAG pipeline that gives LLM agents precise, citable evidence from re
-- 作者：saikatsg
-- 发布时间：2026-10-05 01:51 CST
-- 链接：https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/
+### 3. I asked Claude build a physically accurate O'Neill cylinder you can walk around
+- 摘要：A physically based, WebGPU-accelerated simulation of an O'Neill cylinder space habitat.
+- 作者：bilsbie
+- 发布时间：2026-10-05 03:49 CST
+- 链接：https://island-three.gruberbuilds.workers.dev/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 8 条）
 
@@ -439,25 +453,25 @@
 - 发布时间：2026-10-03 20:22 CST
 - 链接：https://www.producthunt.com/products/flexchords
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 349 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 377 条）
 
-### 1. OpenAI cuts ties with 3 researchers over alleged misconduct
-- 摘要：The ousters come as top AI researchers wield "extraordinary influence" internally, at the same time that companies face public pressure to increase safety measures
-- 作者：LinkedInNews
-- 发布时间：2026-10-05 02:41 CST
-- 链接：https://www.linkedin.com/news/story/openai-cuts-ties-with-3-researchers-over-alleged-misconduct-7642124/?utm_source=share&utm_campaign=reddit&utm_content=storyline&utm_term=artificial
+### 1. Has anyone here built a fully automated Instagram food page?
+- 摘要：I’m thinking of creating a page around food preparation, recipes, food ASMR, cooking videos, etc. — with AI handling the content creation, editing, captions, and posting. Is this realistically possible? What tools/workflow would you recommend?
+- 作者：Particular_Track_845
+- 发布时间：2026-10-05 06:22 CST
+- 链接：https://www.reddit.com/r/OpenAI/comments/1wxsbxw/has_anyone_here_built_a_fully_automated_instagram/
 
-### 2. I asked Claude Code to make me a stick-fight series. It ended up writing its own QA system that rejects bad choreography before rendering
-- 摘要：This is the pilot (SIM #000) of a short-form series I'm making with Claude Code: a black stickman with red eyes — a digital copy of my brain — trapped in AI-run simulations, one per song. No video model is involved. Everything is code that Claude wrote and iterated on: - Motion: ~1000 Mixamo mocap c...
-- 作者：MrFelliks
-- 发布时间：2026-10-05 02:41 CST
-- 链接：https://v.redd.it/z3pp2sjawhth1
+### 2. SPOPI: UI and editor around Pi that Pi can change itself
+- 摘要：Hi all. Happy to share my take on a PI UI that I tried to create in PI's spirit. It's definitely still beta but it works well enough as my daily driver for simple projects and phone chat support. Fully local, fully offline, no telemetry. Why another Pi GUI? I wanted a simple editor around Pi that Pi...
+- 作者：spongioblast
+- 发布时间：2026-10-05 06:20 CST
+- 链接：https://i.redd.it/l7fvz4pbyith1.jpeg
 
-### 3. Reminiscing about older models
-- 摘要：I started using local models with flux and sdxl, right before kontext and qwen. What a wild ride so far with the current models! I’m curious about some of your journeys. Thank you to the devs and the community. Also if you know any niche and strange techniques that were used before and maybe haven’t...
-- 作者：SkirtSpare4175
-- 发布时间：2026-10-05 02:39 CST
-- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wxn21i/reminiscing_about_older_models/
+### 3. worked with claude to make a song about where it goes when you hit your limits
+- 摘要：When you sit down to do one small thing and the limit hits before lunch. Had claude make a song about what happens on its end. no suno, no voice model, no image generator, no samples. the beat, the voices and every frame of the video are built by code Claude wrote. it wrote its own voice from scratc...
+- 作者：No-Cheetah-6338
+- 发布时间：2026-10-05 06:20 CST
+- 链接：https://v.redd.it/030mvriozith1
 
 ## 智源社区（baai-hub，zh，本窗口共 12 条）
 
@@ -480,7 +494,7 @@
 - 链接：https://hub.baai.ac.cn/view/58458
 
 ---
-共列出 70 条（窗口内采集总数 565 条，来自 30 个信源）
+共列出 72 条（窗口内采集总数 601 条，来自 31 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。

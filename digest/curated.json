@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-04T18:44:31.141021+00:00",
+ "generated_at": "2026-10-04T22:25:52.941229+00:00",
  "stats": {
-  "items": 556,
-  "clusters": 377,
-  "noise": 291,
-  "dup": 20,
+  "items": 592,
+  "clusters": 406,
+  "noise": 320,
+  "dup": 17,
   "history_days": 0,
   "available_cn": 41,
-  "available_intl": 25,
+  "available_intl": 28,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,26 @@
  "items": [
   {
    "rank": 1,
+   "title": "Trump Names Clayton, Ferguson to Lead AI Task Force",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
+   "score": 8.55,
+   "sources": [
+    "bloomberg-tech",
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Trump Names Clayton, Ferguson to Lead AI Task Force",
+    "Trump announces leadership of AI task force",
+    "Trump names national intelligence director Jay Clayton to lead new AI task force"
+   ],
+   "published_at": "2026-10-04T12:38:37.000000+00:00",
+   "summary": "The “Super Intelligence Force” will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social."
+  },
+  {
+   "rank": 2,
    "title": "Trump unveils his new Super Intelligence Force",
    "lang": "en",
    "region": "intl",
@@ -31,24 +51,6 @@
    ],
    "published_at": "2026-10-04T15:15:10.000000+00:00",
    "summary": "This new task force is Trump's latest response to the debate over AI safety."
-  },
-  {
-   "rank": 2,
-   "title": "Trump Names Clayton, Ferguson to Lead AI Task Force",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
-   "score": 6.0,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Trump Names Clayton, Ferguson to Lead AI Task Force",
-    "Trump announces leadership of AI task force"
-   ],
-   "published_at": "2026-10-04T12:38:37.000000+00:00",
-   "summary": "The “Super Intelligence Force” will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social."
   },
   {
    "rank": 3,
@@ -70,22 +72,38 @@
   },
   {
    "rank": 4,
-   "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+   "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+   "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
    "score": 3.5,
    "sources": [
-    "the-decoder"
+    "techcrunch-ai"
    ],
    "titles": [
-    "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science"
+    "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions"
    ],
-   "published_at": "2026-10-04T10:10:12.000000+00:00",
-   "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cut..."
+   "published_at": "2026-10-04T20:31:07.000000+00:00",
+   "summary": "AI slop seems to be overwhelming bug bounty programs."
   },
   {
    "rank": 5,
+   "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "score": 3.5,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Turn off Apple Intelligence on macOS 27 and get its disk space back"
+   ],
+   "published_at": "2026-10-04T19:42:25.000000+00:00",
+   "summary": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible. - omlahore/RemoveMacAI"
+  },
+  {
+   "rank": 6,
    "title": "The Agent Said It Was Done. The Database Disagreed.",
    "lang": "en",
    "region": "intl",
@@ -101,52 +119,36 @@
    "summary": "A Blog post by Microsoft on Hugging Face"
   },
   {
-   "rank": 6,
-   "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
-   "score": 2.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy"
-   ],
-   "published_at": "2026-10-04T07:29:59+00:00",
-   "summary": "Google Research has announced a next-generation Federated Learning (FL) system built on Trusted Execution Environments (TEEs). The research team claims externally verifiable central differential privacy (DP) guarantees f..."
-  },
-  {
    "rank": 7,
-   "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
+   "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
-   "score": 2.5,
+   "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+   "score": 3.0,
    "sources": [
     "the-decoder"
    ],
    "titles": [
-    "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics"
+    "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science"
    ],
-   "published_at": "2026-10-04T08:47:52.000000+00:00",
-   "summary": "Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells \"sovereign AI\" to governments..."
+   "published_at": "2026-10-04T10:10:12.000000+00:00",
+   "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cut..."
   },
   {
    "rank": 8,
-   "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+   "title": "I quit OpenAI because its culture is broken",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
-   "score": 2.5,
+   "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+   "score": 3.0,
    "sources": [
-    "wired-ai"
+    "hackernews-ai"
    ],
    "titles": [
-    "Rural Data Centers Are in for a Big Federal Tax Break"
+    "I quit OpenAI because its culture is broken"
    ],
-   "published_at": "2026-10-04T10:00:00.000000+00:00",
-   "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash."
+   "published_at": "2026-10-03T13:46:34.000000+00:00",
+   "summary": "https://archive.ph/5GQx8 https://www.theguardian.com/technology/2026/oct/03/openai-sa..."
   },
   {
    "rank": 9,
@@ -266,42 +268,6 @@
   },
   {
    "rank": 16,
-   "title": "当AI开始制造AI",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4895354.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "当AI开始制造AI",
-    "当AI开始制造AI"
-   ],
-   "published_at": "2026-10-04T08:20:38.000000+00:00",
-   "summary": "刘慈欣在《乡村教师》里写过一段对话。外星文明发现，人类没有记忆遗传，每一代都需要重新学习，却依然发展出了能够进入太空的文明。它们难以理解，这个物种怎样积累知识。「他们没有记忆遗传，所有记忆都是后天取得的。」答案落在一种负责跨代传递知识的人身上。「他们叫教师。」这个故事写出了人类进步的一项成本。前人的知识能够留...... 本文来自微信公众号： 15Bit ，作者：陈十五 刘慈欣在《乡村教师》里写过一段对话。 外星文明发现，人类没有记忆遗..."
-  },
-  {
-   "rank": 17,
-   "title": "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/009/688.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI",
-    "马斯克称“SpaceXAI”将更名为“SpaceXSI”"
-   ],
-   "published_at": "2026-10-04T10:04:39+00:00",
-   "summary": "IT之家 10 月 4 日消息，美东时间 9 月 29 日，美国总统特朗普正式签署行政令，下令所有行政部门和机构使用“超级智能”（Super Intelligence，简称 SI）一词代替人工智能（AI）。 今日有网友向埃隆 · 马斯克提问，（SpaceXAI）有没有可能更名为 SpaceXSI？马斯克则给出了肯定的答复“是的，我们会做出改变。” 埃隆 · 马斯克随后在 X 平台表示，SpaceX 是一家超级智能公司。 今年 2 月，x..."
-  },
-  {
-   "rank": 18,
    "title": "Jev 之后，中国团队开始深挖 AI 的“直觉层”",
    "lang": "zh",
    "region": "cn",
@@ -319,7 +285,7 @@
    "summary": "9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev。这款模型不写一个字，只做判断。 两周之后，整个行业都在做同一件事。OpenAI 在开发者日上推出 Decisions API，Cloudflare 在 10 月 1 日开源了 Clef，亚马逊也放出了 Strands Decider。 国内同样没闲着，上海人工智能实验室开源了多模态决策模型 Intern-Decisio..."
   },
   {
-   "rank": 19,
+   "rank": 17,
    "title": "AI社交出海，中国团队又开始“整活”了",
    "lang": "zh",
    "region": "cn",
@@ -335,6 +301,42 @@
    ],
    "published_at": "2026-10-04T04:07:57.000000+00:00",
    "summary": "国庆长假，有人出门旅行，也有人选择留在家里。睡懒觉、刷手机、追剧打游戏，宅在家里的时间变多，也让线上娱乐和虚拟陪伴有了更多存在感。近几年，“宅经济”不再只是外卖、游戏和短视频，和AI聊天、养一个虚拟角色，也逐渐成为年轻人的一种消遣方式。尤其是大模型能力提升之后，AI社交应用快速涌现，国内的星野、猫箱，海外的C...... 本文来自微信公众号： 霞光AI实验室 ，作者：子墨，编辑：李小天 国庆长假，有人出门旅行，也有人选择留在家里。睡懒觉..."
+  },
+  {
+   "rank": 18,
+   "title": "当AI开始制造AI",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4895354.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "当AI开始制造AI",
+    "当AI开始制造AI"
+   ],
+   "published_at": "2026-10-04T08:20:38.000000+00:00",
+   "summary": "刘慈欣在《乡村教师》里写过一段对话。外星文明发现，人类没有记忆遗传，每一代都需要重新学习，却依然发展出了能够进入太空的文明。它们难以理解，这个物种怎样积累知识。「他们没有记忆遗传，所有记忆都是后天取得的。」答案落在一种负责跨代传递知识的人身上。「他们叫教师。」这个故事写出了人类进步的一项成本。前人的知识能够留...... 本文来自微信公众号： 15Bit ，作者：陈十五 刘慈欣在《乡村教师》里写过一段对话。 外星文明发现，人类没有记忆遗..."
+  },
+  {
+   "rank": 19,
+   "title": "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/009/688.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI",
+    "马斯克称“SpaceXAI”将更名为“SpaceXSI”"
+   ],
+   "published_at": "2026-10-04T10:04:39+00:00",
+   "summary": "IT之家 10 月 4 日消息，美东时间 9 月 29 日，美国总统特朗普正式签署行政令，下令所有行政部门和机构使用“超级智能”（Super Intelligence，简称 SI）一词代替人工智能（AI）。 今日有网友向埃隆 · 马斯克提问，（SpaceXAI）有没有可能更名为 SpaceXSI？马斯克则给出了肯定的答复“是的，我们会做出改变。” 埃隆 · 马斯克随后在 X 平台表示，SpaceX 是一家超级智能公司。 今年 2 月，x..."
   },
   {
    "rank": 20,
