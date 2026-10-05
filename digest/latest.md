@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-05 06:25 CST
+生成时间：2026-10-05 09:06 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -16,25 +16,25 @@
 - 发布时间：2026-09-30 10:14 CST
 - 链接：https://huggingface.co/Qwen/Qwen-Image-2.1
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 3 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 6 条）
 
-### 1. PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-RL
+### 1. PrimeIntellect/Qwen3-0.6B-Reverse-Text-SFT-untied
+- 摘要：safetensors, qwen3, dataset:willcb/V3-wordle, base_model:PrimeIntellect/Qwen3-0.6B, base_model:finetune:PrimeIntellect/Qwen3-0.6B, license:apache-2.0, region:us
+- 作者：PrimeIntellect
+- 发布时间：2026-10-05 08:22 CST
+- 链接：https://huggingface.co/PrimeIntellect/Qwen3-0.6B-Reverse-Text-SFT-untied
+
+### 2. PrimeIntellect/Qwen3-0.6B-untied
+- 摘要：text-generation, transformers, safetensors, qwen3, conversational, base_model:Qwen/Qwen3-0.6B-Base, base_model:finetune:Qwen/Qwen3-0.6B-Base, license:apache-2.0, text-generation-inference, endpoints_compatible, region:us
+- 作者：PrimeIntellect
+- 发布时间：2026-10-05 08:21 CST
+- 链接：https://huggingface.co/PrimeIntellect/Qwen3-0.6B-untied
+
+### 3. PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-RL
 - 摘要：image-text-to-text, transformers, safetensors, qwen3_5, prime-rl, ci, conversational, base_model:PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT, base_model:finetune:PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT, license:apache-2.0, endpoints_compatible, region:us
 - 作者：PrimeIntellect
 - 发布时间：2026-10-05 05:18 CST
 - 链接：https://huggingface.co/PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-RL
-
-### 2. PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT
-- 摘要：image-text-to-text, transformers, safetensors, qwen3_5, prime-rl, ci, conversational, dataset:PrimeIntellect/Reverse-Text-SFT, base_model:Qwen/Qwen3.5-0.8B, base_model:finetune:Qwen/Qwen3.5-0.8B, license:apache-2.0, endpoints_compatible, region:us
-- 作者：PrimeIntellect
-- 发布时间：2026-10-05 05:18 CST
-- 链接：https://huggingface.co/PrimeIntellect/Qwen3.5-0.8B-Reverse-Text-SFT
-
-### 3. google/DiarizationLM-Gemma-4-E4B-v1
-- 摘要：image-text-to-text, transformers, safetensors, gguf, gemma4, speech, speaker-diarization, diarizationlm, gemma, gemma-4, long-context, multi-speaker, conversational, arxiv:2401.03506, base_model:google/gemma-4-E4B, base_model:quantized:google/gemma-4-E4B, license:apache-2.0, endpoints_compatible, re...
-- 作者：google
-- 发布时间：2026-10-04 23:14 CST
-- 链接：https://huggingface.co/google/DiarizationLM-Gemma-4-E4B-v1
 
 ## Hugging Face Blog（huggingface-blog，en，本窗口共 1 条）
 
@@ -118,7 +118,7 @@
 - 发布时间：2026-10-04 21:00 CST
 - 链接：https://www.theguardian.com/technology/2026/oct/04/women-ai-jobs-inequality
 
-## MarkTechPost（marktechpost，en，本窗口共 5 条）
+## MarkTechPost（marktechpost，en，本窗口共 4 条）
 
 ### 1. GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job
 - 摘要：Anthropic, OpenAI and Google DeepMind shipped 4 frontier-class models within 30 days. Claude Fable 5.1 arrived on September 1. GPT-6 Astra followed on September 3. GPT-6.1 Sol and Gemini 4 Argon landed in the last days of September. We covered each launch on its own. This piece puts them side by sid...
@@ -265,7 +265,7 @@
 - 发布时间：2026-10-04 17:10 CST
 - 链接：https://www.36kr.com/newsflashes/4011299198898310
 
-## 极客公园（geekpark，zh，本窗口共 4 条）
+## 极客公园（geekpark，zh，本窗口共 3 条）
 
 ### 1. Jev 之后，中国团队开始深挖 AI 的「直觉层」
 - 摘要：作者｜桦林舞王 编辑｜靖宇 9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev。这款模型不写一个字，只做判断。 两周之后，整个行业都在做同一件事。OpenAI 在开发者日上推出 Decisions API，Cloudflare 在 10 月 1 日开源了 Clef，亚马逊也放出了 Strands Decider。 国内同样没闲着，上海人工智能实验室开源了多模态决策模型 Intern-Decision。 9 月 30 日，一家成立不到五个月的上海公司 StartLux（原点星辉）发布了开源的 StartLux-Decision，...
@@ -285,25 +285,25 @@
 - 发布时间：2026-10-04 13:16 CST
 - 链接：http://www.geekpark.net/news/372074
 
-## 虎嗅（huxiu，zh，本窗口共 22 条）
+## 虎嗅（huxiu，zh，本窗口共 25 条）
 
-### 1. 弄清中国的投资问题|| 大视野
-- 摘要：当下的中国经济，更需投资拉动还是消费拉动？9月19日举行的清华五道口首席经济学家论坛，专家学者各抒己见，一时成为舆论热点。在弄清中国的消费数据、弄清中国的就业数据后，这篇文章希望弄清中国的投资问题。从政府规划看投资与消费如何认识投资与消费？我重看了“十五五”规划纲要，觉得很清楚。首先，“十五五”时期的目标之一...... 本文来自微信公众号： 秦朔朋友圈 ，作者：秦朔，原文标题：《弄清中国的投资问题 || 大视野》 当下的中国经济，更需投资拉动还是消费拉动？ 9月19日举行的清华五道口首席经济学家论坛，专家学者各抒己见，一时成为舆论热点。 在弄清中国的消费数据、弄清中国的就业数据后，这篇文章希...
-- 作者：秦朔朋友圈
-- 发布时间：2026-10-05 00:07 CST
-- 链接：https://www.huxiu.com/article/4895394.html
+### 1. 从多品牌到单品牌，安克创新为何最终“归一”？
+- 摘要：导读2026年9月，安克创新在IFA展前发布会上宣布将旗下Anker、Anker SOLIX、eufy、eufyMake、soundcore五大品牌统一归至“Anker”单一品牌之下。这意味着，过去十多年安克建立起来的多品牌架构，将发生根本性的变化。那么，安克创新为何要放弃推动自身从充电配件厂成长为营收超30...... 本文来自微信公众号： 洞见学堂 ，作者：孙德馨 导读 2026年9月，安克创新在IFA展前发布会上宣布将旗下Anker、Anker SOLIX、eufy、eufyMake、soundcore五大品牌统一归至“Anker”单一品牌之下。这意味着，过去十多年安克建立起来的多品牌架...
+- 作者：洞见学堂©
+- 发布时间：2026-10-05 08:36 CST
+- 链接：https://www.huxiu.com/article/4895401.html
 
-### 2. AI 创造了更多价值，谁有资格把它变成收入？
-- 摘要：AI漫剧行业里，最近有一个很反直觉的现象，制作成本确实降了。按照最朴素的商业直觉，这应该是一场利润革命。成本从三万元降到三千元，省下来的两万七，难道不应该留在创作者手里吗？现实却恰恰相反。许多全职投入AI漫剧的团队发现：效率提高了，账反而更难算了。内容供给猛增，竞争更激烈，投流竞价更高，原本省下来的制作成本，...... 本文来自微信公众号： AIGC从0到1 ，作者：王零壹 AI漫剧行业里，最近有一个很反直觉的现象，制作成本确实降了。 按照最朴素的商业直觉，这应该是一场利润革命。 成本从三万元降到三千元，省下来的两万七，难道不应该留在创作者手里吗？ 现实却恰恰相反。许多全职投入AI漫剧的团队...
-- 作者：AIGC从0到1
-- 发布时间：2026-10-05 00:06 CST
-- 链接：https://www.huxiu.com/article/4895393.html
+### 2. OpenAI的安全危机，给所有企业提了个醒：AI越能干，组织越要管得住
+- 摘要：最近，OpenAI有点不太平。安全负责人David Robinson辞职了。他在一篇题为《我退出OpenAI，因为它的文化已经破碎》的文章中，直指公司文化存在问题：AI行业一味追求开发速度，对安全的重视远远不够。《卫报》对此进行了报道。与此同时，OpenAI接连披露AI智能体的异常行为，包括突破原有的运行限制...... 本文来自微信公众号： ANO Lab ，作者：魏浩征 最近，OpenAI有点不太平。 安全负责人David Robinson辞职了。他在一篇题为《我退出OpenAI，因为它的文化已经破碎》的文章中，直指公司文化存在问题：AI行业一味追求开发速度，对安全的重视远远不够。《卫报》...
+- 作者：复盘笔记簿©
+- 发布时间：2026-10-05 08:06 CST
+- 链接：https://www.huxiu.com/article/4895399.html
 
-### 3. AI教育焦虑：中国家长疯狂加码的方向，美国富人却正在退出
-- 摘要：Ankur Jain（安库尔·贾恩）是一家对冲基金的总裁，住在新泽西州麦迪逊。他11岁的儿子在当地公立学校读书，成绩好，过得开心，学校没有任何问题。他还是决定把孩子转走。新学校叫Forge Prep，在隔壁小镇利文斯顿，只收五到八年级学生。校舍是一所旧天主教学校，眼下还在翻修，裸露的金属龙骨立在大窗户后面。它...... 本文来自微信公众号： 不懂经 ，作者：不懂经也叔的Rust，原文标题：《AI教育焦虑：中国家长疯狂加码的方向，美国富人却正在退出｜不懂经网站》 Ankur Jain（安库尔·贾恩）是一家对冲基金的总裁，住在新泽西州麦迪逊。他11岁的儿子在当地公立学校读书，成绩好，过得开心，学...
-- 作者：不懂经©
-- 发布时间：2026-10-04 22:45 CST
-- 链接：https://www.huxiu.com/article/4895390.html
+### 3. 我们盘点了半年数据，发现22万部AI短剧，播放量破亿的不到千分之五
+- 摘要：2026年上半年，海外微短剧的下载量同比增长79%，同期的内购收入同比增长13%。用户进来的速度远快于付费增长的速度，多语种译制的周期从几个月压到几个小时，把每分钟的制作成本从几千元压到千元上下。这门生意当下的难处就藏在产能与收入之间的落差里。下面这份名单收了30款产品。它们分布在产业链的不同环节，AI在各自...... 本文来自微信公众号： 扬帆出海 ，作者：扬帆出海 2026年上半年，海外微短剧的下载量同比增长79%，同期的内购收入同比增长13%。用户进来的速度远快于付费增长的速度，多语种译制的周期从几个月压到几个小时，把每分钟的制作成本从几千元压到千元上下。这门生意当下的难处就藏在产能与...
+- 作者：扬帆出海©
+- 发布时间：2026-10-05 08:01 CST
+- 链接：https://www.huxiu.com/article/4895398.html
 
 ## 爱范儿（ifanr，zh，本窗口共 2 条）
 
@@ -327,25 +327,24 @@
 - 发布时间：2026-10-04 10:00 CST
 - 链接：https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 38 条）
+## IT之家（ithome，zh，本窗口共 35 条）
 
-### 1. 消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响
-- 摘要：IT之家 10 月 4 日消息，据外媒 The Verge 报道，微软正在推行一项名为“仿生”（Biomimicry）的计划，该公司正重新规划旗下 20 多个数据中心周边土地，陆续恢复原先湿地生态、种植本土植物，希望让数据中心更好地融入当地环境。 微软透露，后续微软在美国境内所有新建项目都将采用这一方式，在项目建设过程中，微软会收集当地社区意见，并通过生态研究了解项目所在地的环境状况。微软团队还将使用一款名为“Ecosystem Intelligence”的工具，对项目地点的水质、生物多样性、噪音控制等多个指标进行评估。 不过，随着 AI 数据中心持续扩张，微软仍面临来自当地社区和环保组织的压...
-- 作者：作者： 漾仔
-- 发布时间：2026-10-04 22:59 CST
-- 链接：https://www.ithome.com/1/009/734.htm
+### 1. TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，硅谷巨头火速跟进复刻
+- 摘要：IT之家 10 月 5 日消息，据《华尔街日报》报道，一款仅问世三周的人工智能模型 Jev 已经在硅谷圈子引发热议，人们开始探讨大语言模型之外的替代路线，同时这款模型也已经催生出不少跟风仿制产品。 初创企业 TypeSafe AI 于当地时间 9 月 15 日发布了 Jev。该模型的运行方式不同于聊天机器人，它并不生成文本。相反，它借助机器学习，把输入内容归类到一组预先设定好的输出结果当中：回答“是”或者“否”、输出一个数值评分，或是从既定列表里给出答案。该公司将这套技术思路称作“面向校准决策的强化学习”。 这家初创公司的负责人是迪奥戈 · 阿尔梅达（Diogo Almeida），他曾经任职于...
+- 作者：作者： 远洋
+- 发布时间：2026-10-05 08:06 CST
+- 链接：https://www.ithome.com/1/009/744.htm
 
-### 2. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”
-- 摘要：IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上。 对此，乐山大佛文物保护（景区）管委会回应媒体“四川观察”，称相应视频不实，系他人 AI 生成，不是乐山大佛景区里的真实场景。希望广大网友不信谣、不传谣。 乐山大佛文物保护（景区）管委会数字化信息中心副主任陈芮透露，“2026 年以来乐山大佛总计开展 5 次保养维护，其中第 5 次是 9 月 20 日至 25 日，主要内容包含岩体表面微损伤修复、微生物清理...
-- 作者：作者： 漾仔
-- 发布时间：2026-10-04 21:20 CST
-- 链接：https://www.ithome.com/1/009/728.htm
+### 2. 人人都能有自己的智能体设备：Meta 开源 Muse Gadgets，用 ESP32 和树莓派打造自定义 AI 硬件
+- 摘要：IT之家 10 月 5 日消息，Meta 于当地时间 10 月 2 日宣布推出开源项目 Muse Gadgets，允许开发者为旗下个人 AI 智能体 Muse 打造自定义硬件。 Meta 同时也已经在 GitHub 上按照 Apache 2.0 许可发布了 ESP32 固件和 Linux 设备 SDK。开发者可以将低成本 ESP32 开发板或树莓派等 Linux 设备连接到 Muse，接入显示屏、按钮、传感器、执行器以及工作台上其他可联网的设备。 在硬件适配方面，Meta ESP32 SDK 文档目前已支持 11 款 ESP32 开发板，包括 Espressif 的 ESP32-C5 DevK...
+- 作者：作者： 问舟
+- 发布时间：2026-10-05 08:00 CST
+- 链接：https://www.ithome.com/1/009/743.htm
 
-### 3. DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心
-- 摘要：IT之家 10 月 4 日消息，DeepSeek Harness 组成员崔添翼今日回应了“如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？”，他本人是这次 v0.2.1-alpha.1 版本中加入 Claude Code Mods 兼容层的作者。 目前 DeepSeek Harness 中的“Claude Code Mods 兼容层”属于“alpha 版本”中的“实验性功能”。做这个兼容层的主要目的，是验证 Claude Code Mods 向插件作者提供的扩展能力，是否大致是 DSH“一切皆插件”架构所提供能力的一个子集。目前还无法让所有...
-- 作者：作者： 浩渺
-- 发布时间：2026-10-04 20:27 CST
-- 链接：https://www.ithome.com/1/009/701.htm
+### 3. IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...
+- 摘要：“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有： 1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物” 网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢安全帽等离谱画面。乐山大佛管委会回应称该视频系他人 AI 生成，并非真实场景。2026 年以来大佛已开展 5 次保养维护，耳鼻内并无杂物，凌云山片区也没有猴子。>> 查看详情 2. 央视曝光外卖“明厨亮灶”造假，湖北、云南等地核查处置 针对外卖商户摄像头随意摆放、故意偏移角度规避监督等问题，市场监管总局迅速部署湖南、湖北、云南等地开展核查处置。武汉对曝光商户...
+- 发布时间：2026-10-05 07:49 CST
+- 链接：https://www.ithome.com/1/009/742.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 1 条）
 
@@ -374,7 +373,7 @@
 - 发布时间：2026-10-04 08:53 CST
 - 链接：https://www.qbitai.com/2026/10/501451.html
 
-## 钛媒体（tmtpost，zh，本窗口共 8 条）
+## 钛媒体（tmtpost，zh，本窗口共 7 条）
 
 ### 1. AI社交出海，中国团队又开始“整活”了
 - 摘要：文 | 霞光AI实验室，作者｜子墨，编辑｜李小天 国庆长假，有人出门旅行，也有人选择留在家里。睡懒觉、刷手机、追剧打游戏，宅在家里的时间变多，也让线上娱乐和虚拟陪伴有了更多存在感。 近几年，“宅经济”不再只是外卖、游戏和短视频，和AI聊天、养一个虚拟角色，也逐渐成为年轻人的一种消遣方式。尤其是大模型能力提升之后，AI社交应用快速涌现，国内的星野、猫箱，海外的Character.AI、Replika等，都在尝试把“和AI建立关系”做成一门生意。 Appfigures Intelligence数据显示，截至2025年7月，全球共有337款在运营并产生收入的AI社交应用，其中128款于2025年上线...
@@ -413,25 +412,25 @@
 - 发布时间：2026-10-04 16:37 CST
 - 链接：https://github.com/cloudflare/cloudflare-os
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 62 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 74 条）
 
-### 1. Google freezes open-source bug bounty program amid flood of invalid AI slop
-- 摘要：Engineers and open-source maintainers reportedly overwhelmed by thousands of sloppy reports
-- 作者：rdmuser
-- 发布时间：2026-10-05 04:38 CST
-- 链接：https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1
+### 1. Zelenskyy says Ukraine is developing satellite system similar to Starlink
+- 摘要：Volodymyr Zelenskyy has confirmed that Ukraine is building a satellite system similar to Starlink to counter technology transfers between Russia and China.
+- 作者：uxhacker
+- 发布时间：2026-10-05 07:28 CST
+- 链接：https://www.pravda.com.ua/eng/news/2026/10/04/8056442/
 
-### 2. Vinix is an effort to write a modern, fast, and useful operating system
-- 摘要：Vinix is an effort to write a modern, fast, and useful operating system in the V programming language - vlang/vinix
-- 作者：tosh
-- 发布时间：2026-10-05 04:15 CST
-- 链接：https://github.com/vlang/vinix
+### 2. ArtCraft Apps – open-source Adobe compatible suite written in Rust
+- 摘要：Image editing, vector illustration, video, photography, PDFs, motion graphics and page layout: seven native, open-source apps from the ArtCraft team, built in Rust and free to use.
+- 作者：aghuang
+- 发布时间：2026-10-05 07:02 CST
+- 链接：https://getartcraft.com/apps
 
-### 3. I asked Claude build a physically accurate O'Neill cylinder you can walk around
-- 摘要：A physically based, WebGPU-accelerated simulation of an O'Neill cylinder space habitat.
-- 作者：bilsbie
-- 发布时间：2026-10-05 03:49 CST
-- 链接：https://island-three.gruberbuilds.workers.dev/
+### 3. Self-hosted HTTP tunnels with SSH and Nginx
+- 摘要：No extra software to install: OpenSSH remote forwarding and nginx's secure_link module give you a shareable HTTPS URL with an expiring token.
+- 作者：renehsz
+- 发布时间：2026-10-05 06:25 CST
+- 链接：https://vincent.bernat.ch/en/blog/2026-http-over-ssh
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 8 条）
 
@@ -453,48 +452,48 @@
 - 发布时间：2026-10-03 20:22 CST
 - 链接：https://www.producthunt.com/products/flexchords
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 377 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 407 条）
 
-### 1. Has anyone here built a fully automated Instagram food page?
-- 摘要：I’m thinking of creating a page around food preparation, recipes, food ASMR, cooking videos, etc. — with AI handling the content creation, editing, captions, and posting. Is this realistically possible? What tools/workflow would you recommend?
-- 作者：Particular_Track_845
-- 发布时间：2026-10-05 06:22 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1wxsbxw/has_anyone_here_built_a_fully_automated_instagram/
+### 1. AI finds 44 star systems that could hide Earth-like planets
+- 摘要：A planet already found around a distant star may offer clues about another world still hidden nearby. Its mass and orbit can carry traces of how the entire planetary system formed, including planets too small or faint for telescopes to detect. That possibility underpins an artificial intelligence mo...
+- 作者：Brighter-Side-News
+- 发布时间：2026-10-05 08:45 CST
+- 链接：http://thebrighterside.news/post/ai-finds-44-star-systems-that-could-hide-earth-like-planets
 
-### 2. SPOPI: UI and editor around Pi that Pi can change itself
-- 摘要：Hi all. Happy to share my take on a PI UI that I tried to create in PI's spirit. It's definitely still beta but it works well enough as my daily driver for simple projects and phone chat support. Fully local, fully offline, no telemetry. Why another Pi GUI? I wanted a simple editor around Pi that Pi...
-- 作者：spongioblast
-- 发布时间：2026-10-05 06:20 CST
-- 链接：https://i.redd.it/l7fvz4pbyith1.jpeg
+### 2. My favorite 3D-prints [MiniMax H3 + Krea2]
+- 摘要：Made locally with Krea2 and MiniMax H3. Prompt for Krea 2: "A highly detailed, photorealistic indoor still life composition centered on a 3D-printed figurine of Lara Croft resting on a wooden table. The main subject is a carefully crafted statuette depicting Lara Croft in a confident standing pose,...
+- 作者：alisitskii
+- 发布时间：2026-10-05 08:45 CST
+- 链接：https://v.redd.it/o3q46mlkpjth1
 
-### 3. worked with claude to make a song about where it goes when you hit your limits
-- 摘要：When you sit down to do one small thing and the limit hits before lunch. Had claude make a song about what happens on its end. no suno, no voice model, no image generator, no samples. the beat, the voices and every frame of the video are built by code Claude wrote. it wrote its own voice from scratc...
-- 作者：No-Cheetah-6338
-- 发布时间：2026-10-05 06:20 CST
-- 链接：https://v.redd.it/030mvriozith1
+### 3. Uncensored cloud ComfyUI possible?
+- 摘要：I've been thinking about upgrading my GPU (currently have NVIDIA RTX 5060 8gb), but am also thinking about going to a cloud solution for higher quality renders. Are any of the cloud services fairly censorship free? Might occasionally want to do some celebrity type renders and perhaps the occasional...
+- 作者：wildmonkeywrangler
+- 发布时间：2026-10-05 08:44 CST
+- 链接：https://www.reddit.com/r/StableDiffusion/comments/1wxv8xl/uncensored_cloud_comfyui_possible/
 
-## 智源社区（baai-hub，zh，本窗口共 12 条）
+## 智源社区（baai-hub，zh，本窗口共 13 条）
 
-### 1. Nat. Metab. | 面向大规模靶向代谢组学的可扩展数据处理框架
+### 1. OpenAI「12朝元老」辞职死谏：试错的时代已崩坏！
+- 摘要：新智元报道 就在刚刚，OpenAI的安全元老David Robinson辞职了。 他在The Atlantic上悲愤地发表长文，向全人类发出警告—— 试错的时代已经结束了。OpenAI的企业文化已经崩坏。犯错之后，我们可能再也没有迭代的机会！ 在OpenAI工作三年半后，我已是公司资历最深的员工之一。我牵头起草了现行的《准备框架》，并监督撰写了12次前沿模型发布的安全报告。 但据我所知，我从未遇到过一位同事，拥有让飞机安全飞行、让核反应堆不熔毁运行，或帮助金融体系在不崩溃的前提下增长的实操经验。 而就在两天前，OpenAI以极其严厉的手段，连夜将三名核心安全研究员扫地出门，给他们扣上「泄密」的...
+- 作者：新智元
+- 发布时间：2026-10-05 08:50 CST
+- 链接：https://hub.baai.ac.cn/view/58461
+
+### 2. Nat. Metab. | 面向大规模靶向代谢组学的可扩展数据处理框架
 - 摘要：DRUG ONE 靶向代谢组学和脂质组学通常采用液相色谱–质谱联用技术，通过多重反应监测（multiple reaction monitoring，MRM）定量几十到数百种目标分子。在人群研究和大型临床队列中，实验往往需要处理数百至数千个样本，此时真正的瓶颈不再只是仪器采集，而是如何快速、稳定并可重复地完成峰积分、定量、质量控制、批次校正和结果输出。研究人员开发了 MRMhub，一个面向大规模靶向LC–MS分析的自动化数据处理框架，由 INTEGRATOR 和 QUANT 两个可定制模块组成，可将原始MRM数据直接转换为经过质量控制的定量结果。 INTEGRATOR主要负责峰识别和积分，通过学...
 - 作者：DrugAI
 - 发布时间：2026-10-04 20:00 CST
 - 链接：https://hub.baai.ac.cn/view/58460
 
-### 2. J. Med. Chem | Mettle：基于对比学习的代谢物感知口服药物设计方法
+### 3. J. Med. Chem | Mettle：基于对比学习的代谢物感知口服药物设计方法
 - 摘要：2026 年 9 月 18 日，华东师范大学李诗良 / 张凯 / 贺欢团队与郑州大学刘康栋教授和空军军医大学王哲教授，在药物化学《 Journal of Medicinal Chemistry 》期刊发表题为“ Contrastive Learning for Metabolite-Aware Oral Drug Design ”的研究论文。药物代谢性质不佳是导致候选药物研发失败的重要原因之一，尽管人工智能技术正在逐渐应用于药物代谢预测，但现有方法仍面临假阳性率较高、复杂代谢转化识别能力不足等问题。针对这一挑战，研究团队构建了包含 11,665 条人源特异代谢反应的数据库，并开发了融合化学特征...
 - 作者：DrugAI
 - 发布时间：2026-10-04 19:50 CST
 - 链接：https://hub.baai.ac.cn/view/58459
 
-### 3. 北大07级数学系校友：O/A两家做的事，在毁掉数学系的年轻人
-- 摘要：新智元报道 上个月，OpenAI和Anthropic开始极限内卷。这边刚宣布攻克了一个尘封百年的数学猜想，那边马上反手甩出一个破解千禧年难题的大新闻。 而社交媒体，也陷入一场流量狂欢。 作为科技媒体，我们号也跟进报道了最新进展，获得了极高的热度。然而，就在一篇《OpenAI又拿下一个千禧年难题》发出后不久，北大北京国际数学研究中心（BICMR）副教授、北大07级数学系校友李欣意，主动找到了我们，说想要聊一聊。 那个下午，我们进行了30多分钟的谈话。 对于这些硅谷大厂的做法，他的语气充满了深深的忧虑和无奈。 他对我们说起，他们的粗暴做法，是如何伤害整个数学学术共同体，又是如何毁掉那些刚刚对数学燃...
-- 作者：新智元
-- 发布时间：2026-10-04 18:50 CST
-- 链接：https://hub.baai.ac.cn/view/58458
-
 ---
-共列出 72 条（窗口内采集总数 601 条，来自 31 个信源）
+共列出 72 条（窗口内采集总数 644 条，来自 31 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
