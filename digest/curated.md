@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-05 09:06 CST
-数据窗口：最近 24 小时，635 条原始条目 → 438 个事件；过滤噪音 353 个，排除全部历史已推送的 36 个。
+生成时间：2026-10-05 15:18 CST
+数据窗口：最近 24 小时，1538 条原始条目 → 1229 个事件；过滤噪音 365 个，排除全部历史已推送的 96 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,124 +8,130 @@
 
 国外：
 
-## 1. nvidia/SOMA-X
+## 1. From Fragments to Global Maps: Learning Vectorized Map Aggregation with Large Language Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.CL（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2610.02513v1 Announce Type: new Abstract: Large-scale vectorized HD maps provide structured road information that is essential for perception, localization, and planning in autonomous driving. Constructing such map...
+- 发布时间：2026-10-05 12:00 CST
+- 链接：https://arxiv.org/abs/2610.02513
+- 同事件报道：Large Language Continuous Diffusion Models（arXiv cs.CL）
+
+## 2. Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2610.02967v1 Announce Type: new Abstract: Recent text-to-image generation models have achieved remarkable visual quality, but improving them through post-training remains challenging because no single reward signal...
+- 发布时间：2026-10-05 12:00 CST
+- 链接：https://arxiv.org/abs/2610.02967
+- 同事件报道：Traversing the Satisfaction-Diversity Frontier in Text-to-Image Diffusion（arXiv cs.AI）
+
+## 3. Low-Frequency Shortcuts in Texture-Driven Visual Learning
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2606.03493v2 Announce Type: replace Abstract: Neural networks suffer from shortcut learning, where learned features generalize well to the training set but not to in-distribution (ID) or out-of-distribution (OOD) t...
+- 发布时间：2026-10-05 12:00 CST
+- 链接：https://arxiv.org/abs/2606.03493
+- 同事件报道：Learning Low-Frequency Motion Control for Robust and Dynamic Robot Locomotion（arXiv cs.AI）
+
+## 4. Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2610.02267v1 Announce Type: cross Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injecti...
+- 发布时间：2026-10-05 12:00 CST
+- 链接：https://arxiv.org/abs/2610.02267
+- 同事件报道：Student-Guided Teacher Distillation for Efficient LLM Task Routing: Positioning Against Jev-Style System-1 Classifiers（arXiv cs.AI）
+
+## 5. nvidia/SOMA-X
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.46
 - 摘要：robotics, soma-x, parametric-human-body-model, computer-graphics, human-pose-estimation, animation, pytorch, license:apache-2.0, region:us
 - 发布时间：2026-09-29 09:27 CST
 - 链接：https://huggingface.co/nvidia/SOMA-X
 
-## 2. We built an AI agent for ServiceNow. The real pain points were narrower than our roadmap assumed
-- 地区：国外源 ｜ 语言：en ｜ 来源：VentureBeat（1 个来源） ｜ 热度：2.5
-- 摘要：Our ITSM platform never lacked data, but it hasn’t always been easy to understand what the data was telling us and what actions we should take next, despite all the time spent building catalog items, interpreting data an...
-- 发布时间：2026-10-04 23:00 CST
-- 链接：https://venturebeat.com/orchestration/we-built-an-ai-agent-for-servicenow-the-real-pain-points-were-narrower-than-our-roadmap-assumed
+## 6. Powerless F1 drivers frustrated by Bahrain F1 software glitch
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.29
+- 摘要：Formula 1 drivers have weighed in on Bahrain GP's unprecedented software glitch that left them powerless on the formation lap
+- 发布时间：2026-10-05 09:54 CST
+- 链接：https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/
 
-## 3. An AI couldn’t beat humans at StarCraft, so it decided to cheat
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
-- 摘要：StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they could...
-- 发布时间：2026-10-04 23:21 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft
-
-## 4. AI Stocks Drive an Increasingly Divided Market
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Schwab Head of Macro Research and Strategy Kevin Gordon tells Bloomberg This Weekend that AI-related technology stocks are supporting the broader market even as many individual companies have suffered significantly large...
-- 发布时间：2026-10-05 00:05 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-04/ai-stocks-drive-an-increasingly-divided-market-video
-
-## 5. NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and...
-- 发布时间：2026-10-05 00:16 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true
-
-## 6. Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?
+## 7. Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?
 - 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：2.5
 - 摘要：On Equity, we discussed the Trump administration's attempts to rebrand AI.
 - 发布时间：2026-10-05 04:08 CST
 - 链接：https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/
 
-## 7. US Lead in AI Over China Narrows After DeepSeek Gains, BI Says
+## 8. US Lead in AI Over China Narrows After DeepSeek Gains, BI Says
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
 - 摘要：American AI companies’ performance lead over China narrowed sharply in past months to a record low after labs such as DeepSeek gained ground, threatening US tech supremacy, according to Bloomberg Intelligence.
 - 发布时间：2026-10-05 05:03 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says
 
-## 8. Court Tosses ​​Sentence After A.I. Video of Victim ‘Forgiving’ His Killer Is Played
+## 9. Court Tosses ​​Sentence After A.I. Video of Victim ‘Forgiving’ His Killer Is Played
 - 地区：国外源 ｜ 语言：en ｜ 来源：New York Times — Technology（1 个来源） ｜ 热度：2.5
 - 摘要：Stacey Wales with an enlarged photo of her brother, Christopher Pelkey. She created a video using artificial intelligence to depict her dead brother speaking at the sentencing of his killer.
 - 发布时间：2026-10-05 05:04 CST
 - 链接：https://www.nytimes.com/2026/10/04/us/manslaughter-conviction-overturned-ai-video-statement.html
 
-## 9. September sponsors-only newsletter
-- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog（1 个来源） ｜ 热度：2.0
-- 摘要：I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender...
-- 发布时间：2026-10-04 06:00 CST
-- 链接：https://simonwillison.net/2026/Oct/3/newsletter/
+## 10. Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：2.5
+- 摘要：Cantina Security , with Yeta Labs, has released apex-flash-1 , an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai’s GLM-5.3-Flash , released on Hugging...
+- 发布时间：2026-10-05 09:47 CST
+- 链接：https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/
 
-## 10. We're going to need default hard budget caps on pretty much everything
-- 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog（1 个来源） ｜ 热度：2.0
-- 摘要：Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say...
-- 发布时间：2026-10-04 07:34 CST
-- 链接：https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+## 11. Asia Economies Among Most at Risk From any AI Correction, Researchers Warn
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Asia’s powerhouse economies are more at risk than most from a potential AI bust, which could undercut surging exports and send shockwaves across markets, a new study found.
+- 发布时间：2026-10-05 10:30 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-05/asia-economies-among-most-at-risk-from-any-ai-correction-researchers-warn
 
-## 11. US AI Task Force to Report on Technology’s Risks, WSJ Reports
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.0
-- 摘要：A new White House task force will produce a report assessing risks posed by artificial intelligence and what responsibility the US federal government should have over the technology, the Wall Street Journal reported.
-- 发布时间：2026-10-04 07:38 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports
+## 12. Malaysia Plans First AI Law in 2027 as Scrutiny Intensifies
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Malaysia plans to introduce its first dedicated artificial intelligence law in early 2027, as governments worldwide step up efforts to regulate the technology that’s drawing growing scrutiny over its risks and potential...
+- 发布时间：2026-10-05 11:06 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-05/malaysia-plans-its-first-ai-law-as-global-scrutiny-intensifies
 
-## 12. What can we learn from the office AI superusers?
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.0
-- 摘要：Leaders who have gone all-in on new tech tools describe how they are reimagining their working lives
-- 发布时间：2026-10-04 12:00 CST
-- 链接：https://www.ft.com/content/7a556b32-0511-42ae-a596-d0aedbcdb1a3?syn-25a6b1a6=1
+## 13. UK urged to embrace cheaper AI models
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：Head of Alan Turing Institute calls for wider debate over technology’s rollout as fears over risks grow
+- 发布时间：2026-10-05 12:00 CST
+- 链接：https://www.ft.com/content/5008b743-8af5-460f-a950-54aa80989f23?syn-25a6b1a6=1
 
-## 13. Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy
-- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：2.0
-- 摘要：Google Research has announced a next-generation Federated Learning (FL) system built on Trusted Execution Environments (TEEs). The research team claims externally verifiable central differential privacy (DP) guarantees f...
-- 发布时间：2026-10-04 15:29 CST
-- 链接：https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/
-
-## 14. Chinese AI models parrot state doctrine or refuse to answer on sensitive topics
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.0
-- 摘要：Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells "sovereign AI" to governments...
-- 发布时间：2026-10-04 16:47 CST
-- 链接：https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/
+## 14. What’s really going on with AI token price deflation?
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
+- 摘要：It’s a bit complicated and maybe not that surprising
+- 发布时间：2026-10-05 13:00 CST
+- 链接：https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1
 
 国内：
 
-## 1. 大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.0
-- 摘要：IT之家 10 月 4 日消息，谷歌宣布，自 2026 年 10 月 1 日起，开源软件漏洞奖励计划（OSS VRP）将不再接收产品漏洞提报。本次规则调整不影响 2026 年 10 月 1 日之前已提交的产品漏洞。 不过，针对部分可能对谷歌云（Google Cloud）产品造成影响的谷歌云代码仓库，如果涉及产品漏洞，谷歌仍可能通过云漏洞奖励计划（Cloud VRP）接收相关报告。 OSS VRP 是谷歌设立的一项专业安全赏金计划，旨在通...
-- 发布时间：2026-10-04 16:46 CST
-- 链接：https://www.ithome.com/1/009/673.htm
+## 1. OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、量子位（2 个来源） ｜ 热度：6.0
+- 摘要：IT之家 10 月 5 日消息，OpenAI 核心产品与平台负责人 Thibault Sottiaux 今日在 X 上发文，透露团队将在未来 28 天持续推进 Codex 和 ChatGPT Work 相关改进。 他表示，OpenAI 接下来每天都会发布一项“对大多数 Codex / Work 用户而言有明显改善且具备实际意义”的功能更新，否则就提供一次“重置”。 根据其发布时间计算，这一周期预计至少从 10 月 5 日持续至 11 月...
+- 发布时间：2026-10-05 09:47 CST
+- 链接：https://www.ithome.com/1/009/761.htm
+- 同事件报道：限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus（量子位）
 
-## 2. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：2.5
-- 摘要：IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上。 对此，乐山大佛文物保护（景区）管委会回应媒体“四川观察”，称相应视频不实，系他人 AI 生成，不是乐山大佛景区里的真实场景。希望广大网友不信谣、不传谣。 乐山大佛文物保护（景区）管委会数字化信息中...
-- 发布时间：2026-10-04 21:20 CST
-- 链接：https://www.ithome.com/1/009/728.htm
+## 2. 华为与高通宣布达成广泛专利许可协议，覆盖 5G、AI、计算及网络技术领域
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.0
+- 摘要：IT之家 10 月 5 日消息，华为与高通今日宣布达成一项长期、广泛的专利许可协议，该协议包含双方在 5G、计算、人工智能、网络等多个技术领域的专利组合交叉许可，同时高通将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。 这是华为与高通之间 首份涵盖 5G 技术的专利许可协议 。 华为称，该交易完成之后，公司全部专利许可协议的累计总金额预计将超过 69 亿美元 （IT之家注：现汇率约合 463.02 亿元人民币） 。 华为表...
+- 发布时间：2026-10-05 14:18 CST
+- 链接：https://www.ithome.com/1/009/806.htm
+- 同事件报道：华为与高通宣布达成广泛专利许可协议（36氪 快讯）
 
-## 3. AI军事化的两条路线：美国在拆刹车，中国在踩刹车
+## 3. 消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
+- 摘要：IT之家 10 月 5 日消息，外媒 Axios 当地时间 4 日报道称，Reflection 等 多家西方企业本月将推出开放权重 AI 模型 ，人工智能模型领域的竞争将进一步升级。 开放权重模型的一大好处是其支持客户本地部署，这对微调和推理数据安全有着严格要求的部分行业来说是一项关键性优势。 报道表示，Reflection 这家初创企业即将推出的模型预计最初会落后于美国竞争对手最先进的闭源模型，但 足以同中国友商的顶级开放权重模型相竞...
+- 发布时间：2026-10-05 10:02 CST
+- 链接：https://www.ithome.com/1/009/765.htm
+
+## 4. 我们盘点了半年数据，发现22万部AI短剧，播放量破亿的不到千分之五
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：2026年9月30日，美国国防部长赫格塞思宣布组建“自主作战司令部”，一个四星级联合作战司令部，管辖无人机、人工智能以及指挥控制系统。五角大楼正寻求将自主作战领域支出增加两倍，并在预算申请中提议为无人机及反无人机技术投入740亿美元。这不是一次普通的军事编制调整。它标志着一件事：AI正式从“辅助工具”升级为作...... 本文来自微信公众号： 斯凯碎碎侃 ，作者：斯凯 2026年9月30日，美国国防部长赫格塞思宣布组建“自主作战司令部”...
-- 发布时间：2026-10-04 21:41 CST
-- 链接：https://www.huxiu.com/article/4895378.html
+- 摘要：2026年上半年，海外微短剧的下载量同比增长79%，同期的内购收入同比增长13%。用户进来的速度远快于付费增长的速度，多语种译制的周期从几个月压到几个小时，把每分钟的制作成本从几千元压到千元上下。这门生意当下的难处就藏在产能与收入之间的落差里。下面这份名单收了30款产品。它们分布在产业链的不同环节，AI在各自...... 本文来自微信公众号： 扬帆出海 ，作者：扬帆出海 2026年上半年，海外微短剧的下载量同比增长79%，同期的内购收入...
+- 发布时间：2026-10-05 08:01 CST
+- 链接：https://www.huxiu.com/article/4895398.html
 
-## 4. Anthropic被曝秘密游说梵蒂冈，AI为什么要与宗教搭上关系？
+## 5. “国民辣酱”老干妈也用上AI，营收已重回巅峰
 - 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体（1 个来源） ｜ 热度：2.5
-- 摘要：文 | 影子备忘录 2026年最让人费解的科技跨界事件，正在持续发酵。 当所有人的目光都聚焦在AI大模型的参数迭代、算力竞赛、商业化落地时，顶级AI实验室Anthropic，走出了一条完全跳出行业常规的路。 据多家权威外媒重磅爆料，这家打造出Claude大模型、坐拥千亿估值的AI巨头，长期在暗处布局一场特殊公关：秘密对接梵蒂冈教廷，开展多轮闭门私密会议，全程签署严格保密协议，试图深度影响全球宗教与伦理体系对AI的核心定义。 不同于科技公...
-- 发布时间：2026-10-04 21:49 CST
-- 链接：https://www.tmtpost.com/8158986.html
+- 摘要：文 | 雷达财经，作者 | 周慧，编辑 | 深海 前不久，“国民辣酱”老干妈，荣获第五届贵州省省长质量奖。 据老干妈常务副总、首席质量官李鑫透露，老干妈产能已超百万吨、远销全球160个国家和地区。 值得一提的是，老干妈还积极拥抱AI。2025年，老干妈实现核心原料100%可追溯，AI视觉质检系统全面上线，关键工序产品不良率降至0.02%，企业质量管理精细化水平迈上新台阶。 在收入方面，李鑫透露，通过四年的质量巩固与体系优化，2025年，...
+- 发布时间：2026-10-05 08:53 CST
+- 链接：https://www.tmtpost.com/8159130.html
 
-## 5. AI教育焦虑：中国家长疯狂加码的方向，美国富人却正在退出
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：Ankur Jain（安库尔·贾恩）是一家对冲基金的总裁，住在新泽西州麦迪逊。他11岁的儿子在当地公立学校读书，成绩好，过得开心，学校没有任何问题。他还是决定把孩子转走。新学校叫Forge Prep，在隔壁小镇利文斯顿，只收五到八年级学生。校舍是一所旧天主教学校，眼下还在翻修，裸露的金属龙骨立在大窗户后面。它...... 本文来自微信公众号： 不懂经 ，作者：不懂经也叔的Rust，原文标题：《AI教育焦虑：中国家长疯狂加码的方向，美国富...
-- 发布时间：2026-10-04 22:45 CST
-- 链接：https://www.huxiu.com/article/4895390.html
-
-## 6. AI 创造了更多价值，谁有资格把它变成收入？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：AI漫剧行业里，最近有一个很反直觉的现象，制作成本确实降了。按照最朴素的商业直觉，这应该是一场利润革命。成本从三万元降到三千元，省下来的两万七，难道不应该留在创作者手里吗？现实却恰恰相反。许多全职投入AI漫剧的团队发现：效率提高了，账反而更难算了。内容供给猛增，竞争更激烈，投流竞价更高，原本省下来的制作成本，...... 本文来自微信公众号： AIGC从0到1 ，作者：王零壹 AI漫剧行业里，最近有一个很反直觉的现象，制作成本确实降了。...
-- 发布时间：2026-10-05 00:06 CST
-- 链接：https://www.huxiu.com/article/4895393.html
+## 6. 算力资产寿命的多空之争：黄仁勋说能用六年，空头说三年就该报废
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体（1 个来源） ｜ 热度：2.5
+- 摘要：建一座AI工厂，按 英伟达 官方口径，每兆瓦约6000万美元，吉瓦级项目就是约600亿美元的资本开支，如同修一座大型电站。当地时间上周四，英伟达在博客里给出这类“大型电站”的回报公式：产出、寿命、需求。 当前市场上多数玩家，还在按“买IT设备”的老办法来计算AI工厂的资产价值：三五年计提折旧，到期减值，残值按零处理。至于这座“工厂”一年能产出多少、设备能运转多少年、产出能不能卖掉，这些真正决定回报的问题，在采购环节很少有人提及。 英伟达...
+- 发布时间：2026-10-05 08:56 CST
+- 链接：https://www.tmtpost.com/8158686.html
