@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-05T07:18:01.829325+00:00",
+ "generated_at": "2026-10-05T16:17:30.138319+00:00",
  "stats": {
-  "items": 1538,
-  "clusters": 1229,
-  "noise": 365,
-  "dup": 96,
+  "items": 1509,
+  "clusters": 1243,
+  "noise": 366,
+  "dup": 91,
   "history_days": 0,
-  "available_cn": 50,
-  "available_intl": 718,
+  "available_cn": 37,
+  "available_intl": 749,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,7 +20,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.02513",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-cl"
@@ -38,7 +38,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.02967",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai"
@@ -56,7 +56,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2606.03493",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai"
@@ -74,7 +74,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.02267",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -88,184 +88,172 @@
   },
   {
    "rank": 5,
-   "title": "nvidia/SOMA-X",
+   "title": "nvidia/music-flamingo-hf",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/SOMA-X",
-   "score": 4.46,
+   "url": "https://huggingface.co/nvidia/music-flamingo-hf",
+   "score": 5.5,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "nvidia/SOMA-X"
+    "nvidia/music-flamingo-hf"
    ],
-   "published_at": "2026-09-29T01:27:27.000000+00:00",
-   "summary": "robotics, soma-x, parametric-human-body-model, computer-graphics, human-pose-estimation, animation, pytorch, license:apache-2.0, region:us"
+   "published_at": "2026-10-05T09:17:01.000000+00:00",
+   "summary": "audio-text-to-text, transformers, safetensors, audioflamingo3, text2text-generation, music/songs, music understanding, music reasoning, en, dataset:nvidia/MF-Skills, arxiv:2511.10289, arxiv:2505.13032, license:other, end..."
   },
   {
    "rank": 6,
-   "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-   "score": 3.29,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Powerless F1 drivers frustrated by Bahrain F1 software glitch"
-   ],
-   "published_at": "2026-10-05T01:54:08.000000+00:00",
-   "summary": "Formula 1 drivers have weighed in on Bahrain GP's unprecedented software glitch that left them powerless on the formation lap"
-  },
-  {
-   "rank": 7,
-   "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-   "score": 2.5,
-   "sources": [
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?"
-   ],
-   "published_at": "2026-10-04T20:08:34.000000+00:00",
-   "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI."
-  },
-  {
-   "rank": 8,
    "title": "US Lead in AI Over China Narrows After DeepSeek Gains, BI Says",
    "lang": "en",
    "region": "intl",
    "url": "https://www.bloomberg.com/news/articles/2026-10-04/us-lead-in-ai-over-china-narrows-after-deepseek-gains-bi-says",
-   "score": 2.5,
+   "score": 5.5,
    "sources": [
-    "bloomberg-tech"
+    "bloomberg-tech",
+    "reddit-ai-new"
    ],
    "titles": [
-    "US Lead in AI Over China Narrows After DeepSeek Gains, BI Says"
+    "US Lead in AI Over China Narrows After DeepSeek Gains, BI Says",
+    "Reflection AI Is About to Release a US Open-Weight Model to Take On DeepSeek and Qwen"
    ],
    "published_at": "2026-10-04T21:03:00.000000+00:00",
    "summary": "American AI companies’ performance lead over China narrowed sharply in past months to a record low after labs such as DeepSeek gained ground, threatening US tech supremacy, according to Bloomberg Intelligence."
   },
   {
-   "rank": 9,
-   "title": "Court Tosses ​​Sentence After A.I. Video of Victim ‘Forgiving’ His Killer Is Played",
+   "rank": 7,
+   "title": "Accept ‘bad things’ in return for benefits of AI, says Sam Altman",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.nytimes.com/2026/10/04/us/manslaughter-conviction-overturned-ai-video-statement.html",
-   "score": 2.5,
+   "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+   "score": 5.31,
    "sources": [
-    "nyt-tech"
+    "guardian-ai",
+    "hackernews-ai"
    ],
    "titles": [
-    "Court Tosses ​​Sentence After A.I. Video of Victim ‘Forgiving’ His Killer Is Played"
+    "Accept ‘bad things’ in return for benefits of AI, says Sam Altman",
+    "Altman: The world should accept some bad things happening for the benefits of AI"
    ],
-   "published_at": "2026-10-04T21:04:44.000000+00:00",
-   "summary": "Stacey Wales with an enlarged photo of her brother, Christopher Pelkey. She created a video using artificial intelligence to depict her dead brother speaking at the sentencing of his killer."
+   "published_at": "2026-10-05T13:27:45.000000+00:00",
+   "summary": "Boss of OpenAI calls for a regulatory light touch because of the ‘good stuff’ the technology can deliver Sam Altman says he believes the world should accept “bad things” happening with AI in exchange for the benefits of..."
+  },
+  {
+   "rank": 8,
+   "title": "ibm-granite/granitelib-core-r1.0",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/ibm-granite/granitelib-core-r1.0",
+   "score": 5.02,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "ibm-granite/granitelib-core-r1.0"
+   ],
+   "published_at": "2026-10-05T14:29:16.000000+00:00",
+   "summary": "text-generation, granite-library, safetensors, granite, uncertainty, context-attribution, requirement-checking, lora, peft, en, base_model:ibm-granite/granite-4.0-micro, base_model:adapter:ibm-granite/granite-4.0-micro,..."
+  },
+  {
+   "rank": 9,
+   "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+   "score": 4.5,
+   "sources": [
+    "techcrunch-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+    "China’s AI Safety Money Problem"
+   ],
+   "published_at": "2026-10-04T20:08:34.000000+00:00",
+   "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI."
   },
   {
    "rank": 10,
-   "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+   "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
-   "score": 2.5,
+   "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
+   "score": 3.75,
    "sources": [
-    "marktechpost"
+    "hackernews-ai"
    ],
    "titles": [
-    "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks"
+    "Huawei and Qualcomm Announce Broad Patent License Agreement"
    ],
-   "published_at": "2026-10-05T01:47:28+00:00",
-   "summary": "Cantina Security , with Yeta Labs, has released apex-flash-1 , an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai’s GLM-5.3-Flash , released on Hugging..."
+   "published_at": "2026-10-05T07:46:10.000000+00:00",
+   "summary": "Huawei and Qualcomm today announced a multi-year, broad patent license agreement that includes cross licenses to the companies’ patent portfolios across a range of technology fields"
   },
   {
    "rank": 11,
-   "title": "Asia Economies Among Most at Risk From any AI Correction, Researchers Warn",
+   "title": "Building advertising for the way people use AI",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-05/asia-economies-among-most-at-risk-from-any-ai-correction-researchers-warn",
-   "score": 2.5,
+   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "score": 3.5,
    "sources": [
-    "bloomberg-tech"
+    "openai-news"
    ],
    "titles": [
-    "Asia Economies Among Most at Risk From any AI Correction, Researchers Warn"
+    "Building advertising for the way people use AI"
    ],
-   "published_at": "2026-10-05T02:30:00.000000+00:00",
-   "summary": "Asia’s powerhouse economies are more at risk than most from a potential AI bust, which could undercut surging exports and send shockwaves across markets, a new study found."
+   "published_at": "2026-10-05T10:00:00.000000+00:00",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
   },
   {
    "rank": 12,
-   "title": "Malaysia Plans First AI Law in 2027 as Scrutiny Intensifies",
+   "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-05/malaysia-plans-its-first-ai-law-as-global-scrutiny-intensifies",
-   "score": 2.5,
+   "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+   "score": 3.5,
    "sources": [
-    "bloomberg-tech"
+    "nvidia-blog"
    ],
    "titles": [
-    "Malaysia Plans First AI Law in 2027 as Scrutiny Intensifies"
+    "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps"
    ],
-   "published_at": "2026-10-05T03:06:45.000000+00:00",
-   "summary": "Malaysia plans to introduce its first dedicated artificial intelligence law in early 2027, as governments worldwide step up efforts to regulate the technology that’s drawing growing scrutiny over its risks and potential..."
+   "published_at": "2026-10-05T13:00:57.000000+00:00",
+   "summary": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms wi..."
   },
   {
    "rank": 13,
-   "title": "UK urged to embrace cheaper AI models",
+   "title": "Our approach to EU text provenance rules",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/5008b743-8af5-460f-a950-54aa80989f23?syn-25a6b1a6=1",
-   "score": 2.5,
+   "url": "https://openai.com/index/eu-text-provenance",
+   "score": 3.5,
    "sources": [
-    "ft-tech"
+    "openai-news"
    ],
    "titles": [
-    "UK urged to embrace cheaper AI models"
+    "Our approach to EU text provenance rules"
    ],
-   "published_at": "2026-10-05T04:00:22.000000+00:00",
-   "summary": "Head of Alan Turing Institute calls for wider debate over technology’s rollout as fears over risks grow"
+   "published_at": "2026-10-05T15:00:00.000000+00:00",
+   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
   },
   {
    "rank": 14,
-   "title": "What’s really going on with AI token price deflation?",
+   "title": "ReviewBench: An open benchmark for AI code review",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/96184ef4-05be-467c-9d9c-745e21dad31a?syn-25a6b1a6=1",
-   "score": 2.5,
+   "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+   "score": 3.5,
    "sources": [
-    "ft-tech"
+    "github-blog"
    ],
    "titles": [
-    "What’s really going on with AI token price deflation?"
+    "ReviewBench: An open benchmark for AI code review"
    ],
-   "published_at": "2026-10-05T05:00:03.000000+00:00",
-   "summary": "It’s a bit complicated and maybe not that surprising"
+   "published_at": "2026-10-05T15:59:40.000000+00:00",
+   "summary": "Agentic code review is becoming an essential piece of how development happens. It helps you inspect pull requests, catch issues, and decide what deserves attention before code ships. But the quality of existing AI review..."
   },
   {
    "rank": 15,
-   "title": "OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/009/761.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "qbitai"
-   ],
-   "titles": [
-    "OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”",
-    "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus"
-   ],
-   "published_at": "2026-10-05T01:47:27+00:00",
-   "summary": "IT之家 10 月 5 日消息，OpenAI 核心产品与平台负责人 Thibault Sottiaux 今日在 X 上发文，透露团队将在未来 28 天持续推进 Codex 和 ChatGPT Work 相关改进。 他表示，OpenAI 接下来每天都会发布一项“对大多数 Codex / Work 用户而言有明显改善且具备实际意义”的功能更新，否则就提供一次“重置”。 根据其发布时间计算，这一周期预计至少从 10 月 5 日持续至 11 月..."
-  },
-  {
-   "rank": 16,
    "title": "华为与高通宣布达成广泛专利许可协议，覆盖 5G、AI、计算及网络技术领域",
    "lang": "zh",
    "region": "cn",
@@ -283,68 +271,88 @@
    "summary": "IT之家 10 月 5 日消息，华为与高通今日宣布达成一项长期、广泛的专利许可协议，该协议包含双方在 5G、计算、人工智能、网络等多个技术领域的专利组合交叉许可，同时高通将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。 这是华为与高通之间 首份涵盖 5G 技术的专利许可协议 。 华为称，该交易完成之后，公司全部专利许可协议的累计总金额预计将超过 69 亿美元 （IT之家注：现汇率约合 463.02 亿元人民币） 。 华为表..."
   },
   {
-   "rank": 17,
-   "title": "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型",
+   "rank": 16,
+   "title": "OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/009/765.htm",
+   "url": "https://www.ithome.com/1/009/761.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "qbitai"
+   ],
+   "titles": [
+    "OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”",
+    "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus"
+   ],
+   "published_at": "2026-10-05T01:47:27+00:00",
+   "summary": "IT之家 10 月 5 日消息，OpenAI 核心产品与平台负责人 Thibault Sottiaux 今日在 X 上发文，透露团队将在未来 28 天持续推进 Codex 和 ChatGPT Work 相关改进。 他表示，OpenAI 接下来每天都会发布一项“对大多数 Codex / Work 用户而言有明显改善且具备实际意义”的功能更新，否则就提供一次“重置”。 根据其发布时间计算，这一周期预计至少从 10 月 5 日持续至 11 月..."
+  },
+  {
+   "rank": 17,
+   "title": "AI，为什么总在画美女？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4895422.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "geekpark"
+   ],
+   "titles": [
+    "AI，为什么总在画美女？",
+    "AI，为什么总在画美女？"
+   ],
+   "published_at": "2026-10-05T04:10:21.000000+00:00",
+   "summary": "今年 5 月初，X 上一条五秒钟的视频火了。这是一场韩国职业棒球联赛转播，韩华鹰队对阵斗山熊队。镜头扫到看台上一个穿白上衣和牛仔裤的女人，翘着腿。某一刻，她似乎叹了口气，并移开了视线，看起来对比赛感到不满。视频配文是“普通韩国女性”。截至本文发布，视频播放量已经为 1525 万｜视频来...... 本文来自微信公众号： 极客公园 ，作者：汤一涛，编辑：靖宇，题图来自：AI生成 今年 5 月初，X 上一条五秒钟的视频火了。这是一场韩国职业..."
+  },
+  {
+   "rank": 18,
+   "title": "施耐德电气宣布以 226 亿美元收购 PTC，拓展人工智能业务",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/009/805.htm",
    "score": 3.5,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型"
+    "施耐德电气宣布以 226 亿美元收购 PTC，拓展人工智能业务"
    ],
-   "published_at": "2026-10-05T02:02:05+00:00",
-   "summary": "IT之家 10 月 5 日消息，外媒 Axios 当地时间 4 日报道称，Reflection 等 多家西方企业本月将推出开放权重 AI 模型 ，人工智能模型领域的竞争将进一步升级。 开放权重模型的一大好处是其支持客户本地部署，这对微调和推理数据安全有着严格要求的部分行业来说是一项关键性优势。 报道表示，Reflection 这家初创企业即将推出的模型预计最初会落后于美国竞争对手最先进的闭源模型，但 足以同中国友商的顶级开放权重模型相竞..."
-  },
-  {
-   "rank": 18,
-   "title": "我们盘点了半年数据，发现22万部AI短剧，播放量破亿的不到千分之五",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4895398.html",
-   "score": 2.5,
-   "sources": [
-    "huxiu"
-   ],
-   "titles": [
-    "我们盘点了半年数据，发现22万部AI短剧，播放量破亿的不到千分之五"
-   ],
-   "published_at": "2026-10-05T00:01:56.000000+00:00",
-   "summary": "2026年上半年，海外微短剧的下载量同比增长79%，同期的内购收入同比增长13%。用户进来的速度远快于付费增长的速度，多语种译制的周期从几个月压到几个小时，把每分钟的制作成本从几千元压到千元上下。这门生意当下的难处就藏在产能与收入之间的落差里。下面这份名单收了30款产品。它们分布在产业链的不同环节，AI在各自...... 本文来自微信公众号： 扬帆出海 ，作者：扬帆出海 2026年上半年，海外微短剧的下载量同比增长79%，同期的内购收入..."
+   "published_at": "2026-10-05T06:07:35+00:00",
+   "summary": "IT之家 10 月 5 日消息，施耐德电气（Schneider Electric SE）宣布将以约 226 亿美元 （IT之家注：现汇率约合 1,516.54 亿元人民币） 收购美国软件公司 PTC，进一步扩充自身工业软件以及人工智能赋能业务的产品版图。 这家法国综合性集团将以每股 205 美元 （现汇率约合 1,376 元人民币） 的价格，以全现金方式收购总部位于波士顿的 PTC；交易预计将于 2027 年第三季度完成。施耐德表示，该..."
   },
   {
    "rank": 19,
-   "title": "“国民辣酱”老干妈也用上AI，营收已重回巅峰",
+   "title": "刚刚，Hinton发了首篇RSI论文",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8159130.html",
+   "url": "https://www.qbitai.com/2026/10/501705.html",
    "score": 2.5,
    "sources": [
-    "tmtpost"
+    "qbitai"
    ],
    "titles": [
-    "“国民辣酱”老干妈也用上AI，营收已重回巅峰"
+    "刚刚，Hinton发了首篇RSI论文"
    ],
-   "published_at": "2026-10-05T00:53:58+00:00",
-   "summary": "文 | 雷达财经，作者 | 周慧，编辑 | 深海 前不久，“国民辣酱”老干妈，荣获第五届贵州省省长质量奖。 据老干妈常务副总、首席质量官李鑫透露，老干妈产能已超百万吨、远销全球160个国家和地区。 值得一提的是，老干妈还积极拥抱AI。2025年，老干妈实现核心原料100%可追溯，AI视觉质检系统全面上线，关键工序产品不良率降至0.02%，企业质量管理精细化水平迈上新台阶。 在收入方面，李鑫透露，通过四年的质量巩固与体系优化，2025年，..."
+   "published_at": "2026-10-05T04:42:52+00:00",
+   "summary": "AI已经开始真正进入「造下一代AI」的流水线"
   },
   {
    "rank": 20,
-   "title": "算力资产寿命的多空之争：黄仁勋说能用六年，空头说三年就该报废",
+   "title": "智谱港股涨超5%",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8158686.html",
+   "url": "https://www.36kr.com/newsflashes/4012540697301125",
    "score": 2.5,
    "sources": [
-    "tmtpost"
+    "36kr-newsflash"
    ],
    "titles": [
-    "算力资产寿命的多空之争：黄仁勋说能用六年，空头说三年就该报废"
+    "智谱港股涨超5%"
    ],
-   "published_at": "2026-10-05T00:56:48+00:00",
-   "summary": "建一座AI工厂，按 英伟达 官方口径，每兆瓦约6000万美元，吉瓦级项目就是约600亿美元的资本开支，如同修一座大型电站。当地时间上周四，英伟达在博客里给出这类“大型电站”的回报公式：产出、寿命、需求。 当前市场上多数玩家，还在按“买IT设备”的老办法来计算AI工厂的资产价值：三五年计提折旧，到期减值，残值按零处理。至于这座“工厂”一年能产出多少、设备能运转多少年、产出能不能卖掉，这些真正决定回报的问题，在采购环节很少有人提及。 英伟达..."
+   "published_at": "2026-10-05T05:27:28.000000+00:00",
+   "summary": "36氪获悉，智谱港股涨超5%。"
   }
  ]
 }
