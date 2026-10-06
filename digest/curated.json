@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-06T10:37:15.615414+00:00",
+ "generated_at": "2026-10-06T17:22:03.103253+00:00",
  "stats": {
-  "items": 2597,
-  "clusters": 2073,
-  "noise": 375,
-  "dup": 166,
+  "items": 2620,
+  "clusters": 2109,
+  "noise": 395,
+  "dup": 162,
   "history_days": 0,
-  "available_cn": 49,
-  "available_intl": 1483,
+  "available_cn": 57,
+  "available_intl": 1495,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,11 +16,31 @@
  "items": [
   {
    "rank": 1,
+   "title": "Nvidia-Backed Reflection Unveils Open AI Model, Taking on China",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/nvidia-backed-reflection-unveils-open-ai-model-taking-on-china",
+   "score": 10.0,
+   "sources": [
+    "bloomberg-tech",
+    "cnbc-tech",
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "Nvidia-Backed Reflection Unveils Open AI Model, Taking on China",
+    "Mistral unveils new AI model it says rivals best open systems from China",
+    "Mistral’s new 1T model aims to leapfrog closed and open rivals"
+   ],
+   "published_at": "2026-10-05T19:00:00.000000+00:00",
+   "summary": "Reflection AI, an artificial intelligence startup from two former Google DeepMind researchers, has unveiled a new open-weight model that it says rivals leading options in the US and China."
+  },
+  {
+   "rank": 2,
    "title": "MaDI-Bench: An End-to-End Data Integration Benchmark",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2606.30371",
-   "score": 9.0,
+   "score": 8.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -34,12 +54,49 @@
    "summary": "arXiv:2606.30371v2 Announce Type: replace-cross Abstract: Data integration is the process of combining data from multiple, heterogeneous sources into a consistent, unified representation. Data integration involves a sequ..."
   },
   {
-   "rank": 2,
+   "rank": 3,
+   "title": "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2609.23136",
+   "score": 7.5,
+   "sources": [
+    "hf-daily-papers",
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
+    "Large Language Models and Augmented Democracy"
+   ],
+   "published_at": "2026-10-01T20:00:00.000000+00:00",
+   "summary": "Intent-based Open RAN needs an interpreter that turns intents into A1 policies within the loop of the RAN intelligent controller (RIC). Decision models such as Jev-1.13.0 return typed policy fields, whereas generative la..."
+  },
+  {
+   "rank": 4,
+   "title": "PaLoRA: Paced Low-Rank Adaptation for Continual Learning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.04226",
+   "score": 7.5,
+   "sources": [
+    "hf-daily-papers",
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "PaLoRA: Paced Low-Rank Adaptation for Continual Learning",
+    "Adaptive Utilization of Low-Rank Adaptation via Conditioned Gating",
+    "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches"
+   ],
+   "published_at": "2026-10-02T20:00:00.000000+00:00",
+   "summary": "LoRA-based continual learning methods mitigate catastrophic forgetting through various mechanisms, yet nearly all complement these with small learning rates as a heuristic to restrict gradient scaling magnitude. Such fix..."
+  },
+  {
+   "rank": 5,
    "title": "When Evidence Changes: Evaluating Memory Repair and Re-reading in Language-Model Agents",
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.03902",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -52,79 +109,57 @@
    "summary": "arXiv:2610.03902v1 Announce Type: new Abstract: When documents supporting an agent's derived facts are revoked or replaced, should it repair memory or re-read current evidence? We introduce an evidence-revision evaluatio..."
   },
   {
-   "rank": 3,
-   "title": "PB-GRPO: Learning Socially Adaptive LLM Agents from Persona-Driven Simulation with Preference-Batched GRPO",
+   "rank": 6,
+   "title": "Gemini Call for Me might tell your mom you’re running late",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.04132",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "PB-GRPO: Learning Socially Adaptive LLM Agents from Persona-Driven Simulation with Preference-Batched GRPO",
-    "AgentPersonaBench: Benchmarking Persona-Driven User Simulation"
-   ],
-   "published_at": "2026-10-06T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.04132v1 Announce Type: new Abstract: Building LLMs that behave well socially, not merely correctly, requires Building LLMs that behave well socially, not merely correctly, requires more than producing locally..."
-  },
-  {
-   "rank": 4,
-   "title": "Where Does the Semantic Gain Come From? A Reproduction and Extension of Semantic Knowledge-driven Contrastive Learning for Long-Tailed Recognition",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.04104",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Where Does the Semantic Gain Come From? A Reproduction and Extension of Semantic Knowledge-driven Contrastive Learning for Long-Tailed Recognition",
-    "Where Does Jagged Competence Come From?"
-   ],
-   "published_at": "2026-10-06T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.04104v1 Announce Type: new Abstract: Semantic Knowledge-driven Contrastive Learning (SKCL) uses a language model to decide which classes are related, and pulls each image towards the prototypes of its semantic..."
-  },
-  {
-   "rank": 5,
-   "title": "Cohere's North 2 puts AI agents on a budget and gives them a memory",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
    "score": 5.5,
    "sources": [
-    "venturebeat",
-    "the-decoder"
+    "theverge-ai",
+    "ithome"
    ],
    "titles": [
-    "Cohere's North 2 puts AI agents on a budget and gives them a memory",
-    "Cohere pitches North 2 as the enterprise AI control room that works with any model"
+    "Gemini Call for Me might tell your mom you’re running late",
+    "谷歌有望升级 Call for Me 功能：Gemini 将支持代用户拨打私人亲友电话"
    ],
-   "published_at": "2026-10-05T13:00:00+00:00",
-   "summary": "Cohere is going after two common enterprise agent problems with North 2, the new version of its enterprise agent platform. It adds user quotas, rate limits, organization-wide caps and a redesigned agent harness. Accordin..."
-  },
-  {
-   "rank": 6,
-   "title": "The Art of not writing all the code",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://ljtn.github.io/epiq/blog/the-art-of-not-writing-all-the-code.html",
-   "score": 3.55,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "The Art of not writing all the code",
-    "The art of not writing all the code"
-   ],
-   "published_at": "2026-10-05T12:08:13.000000+00:00",
-   "summary": "Agentic code can be thought of as a fabric. It is easily shaped and can assume any form with little effort, but it is hard to build something rigid out of…"
+   "published_at": "2026-10-05T23:09:55.000000+00:00",
+   "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK tear..."
   },
   {
    "rank": 7,
+   "title": "nvidia/Cosmos-H-Surgical-Simulator",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/nvidia/Cosmos-H-Surgical-Simulator",
+   "score": 4.86,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "nvidia/Cosmos-H-Surgical-Simulator"
+   ],
+   "published_at": "2026-10-06T12:52:24.000000+00:00",
+   "summary": "image-to-video, nv-medtech, custom, simulation, surgical-robotics, video-generation, policy-evaluation, vla-evaluation, healthcare-robotics, world-model, dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment, arxiv:2511.0..."
+  },
+  {
+   "rank": 8,
+   "title": "Release of Polars 2.0",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://pola.rs/posts/release-polars-2/",
+   "score": 4.5,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Release of Polars 2.0"
+   ],
+   "published_at": "2026-10-06T11:59:01.000000+00:00",
+   "summary": "DataFrames for the new era"
+  },
+  {
+   "rank": 9,
    "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
    "lang": "en",
    "region": "intl",
@@ -140,116 +175,84 @@
    "summary": "A Blog post by Technology Innovation Institute on Hugging Face"
   },
   {
-   "rank": 8,
-   "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
-   "score": 3.25,
-   "sources": [
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Huawei and Qualcomm Announce Broad Patent License Agreement"
-   ],
-   "published_at": "2026-10-05T07:46:10.000000+00:00",
-   "summary": "Huawei and Qualcomm today announced a multi-year, broad patent license agreement that includes cross licenses to the companies’ patent portfolios across a range of technology fields"
-  },
-  {
-   "rank": 9,
-   "title": "Negotiating Ontological Boundaries in User-Authored Personal Sensing Systems",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://machinelearning.apple.com/research/ontological-boundary-negotiation",
-   "score": 3.0,
-   "sources": [
-    "apple-ml"
-   ],
-   "titles": [
-    "Negotiating Ontological Boundaries in User-Authored Personal Sensing Systems"
-   ],
-   "published_at": "2026-10-05T00:00:00.000000+00:00",
-   "summary": "Designed artifacts are ontological, shaping, and at times limiting, what becomes possible or imaginable. One path toward mitigating such foreclosures is giving people power over how systems are designed and built. Despit..."
-  },
-  {
    "rank": 10,
-   "title": "Our approach to EU text provenance rules",
+   "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/eu-text-provenance",
-   "score": 3.0,
+   "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "Why Telecom Operators Are Building Their AI Strategy on Open Models"
+   ],
+   "published_at": "2026-10-06T13:00:19.000000+00:00",
+   "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical work..."
+  },
+  {
+   "rank": 11,
+   "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+   "score": 3.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025"
+   ],
+   "published_at": "2026-10-06T15:53:28.000000+00:00",
+   "summary": "With generative AI adoption moving faster than the personal computer or the internet and global AI-related investment in 2025 representing $581.69 billion , organizations must position their workforce to use AI to power..."
+  },
+  {
+   "rank": 12,
+   "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/atlassian-partnership",
+   "score": 3.5,
    "sources": [
     "openai-news"
    ],
    "titles": [
-    "Our approach to EU text provenance rules"
+    "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action"
    ],
-   "published_at": "2026-10-05T15:00:00.000000+00:00",
-   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
-  },
-  {
-   "rank": 11,
-   "title": "ReviewBench: An open benchmark for AI code review",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-   "score": 3.0,
-   "sources": [
-    "github-blog"
-   ],
-   "titles": [
-    "ReviewBench: An open benchmark for AI code review"
-   ],
-   "published_at": "2026-10-05T15:59:40.000000+00:00",
-   "summary": "Agentic code review is becoming an essential piece of how development happens. It helps you inspect pull requests, catch issues, and decide what deserves attention before code ships. But the quality of existing AI review..."
-  },
-  {
-   "rank": 12,
-   "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-   "score": 3.0,
-   "sources": [
-    "google-research"
-   ],
-   "titles": [
-    "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle"
-   ],
-   "published_at": "2026-10-05T21:08:31.000000+00:00",
-   "summary": "Education Innovation"
+   "published_at": "2026-10-06T16:00:00.000000+00:00",
+   "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
   },
   {
    "rank": 13,
-   "title": "Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty",
+   "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/",
-   "score": 3.0,
+   "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
+   "score": 3.5,
    "sources": [
-    "the-decoder"
+    "nvidia-developer"
    ],
    "titles": [
-    "Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty"
+    "AICR v1.0: Open, stable, and verifiable GPU cluster configuration"
    ],
-   "published_at": "2026-10-05T14:12:50.000000+00:00",
-   "summary": "Aleph Alpha has released Kolibri, a German-English mixture-of-experts model with 78 billion parameters, about three billion of which are active per token. Over 21 percent of the training data is German. The model was tra..."
+   "published_at": "2026-10-06T16:13:47.000000+00:00",
+   "summary": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,... GPU-accelerated Kubernetes clusters depend on compatible version..."
   },
   {
    "rank": 14,
-   "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+   "title": "What AI gets wrong and what failure teaches us",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-   "score": 3.0,
+   "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
+   "score": 3.5,
    "sources": [
-    "techcrunch-ai"
+    "microsoft-research"
    ],
    "titles": [
-    "TikTok rolls out an AI shopping assistant and one-click checkout"
+    "What AI gets wrong and what failure teaches us"
    ],
-   "published_at": "2026-10-05T18:29:00.000000+00:00",
-   "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products."
+   "published_at": "2026-10-06T16:19:06.000000+00:00",
+   "summary": "Jennifer Neville is a partner research manager at Microsoft who’s built a career around understanding and advancing AI for real-world use, and much like the human-AI interactions she’s been studying, her early-career pat..."
   },
   {
    "rank": 15,
@@ -257,7 +260,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/009/971.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "36kr-newsflash"
@@ -275,7 +278,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.huxiu.com/article/4895514.html",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "huxiu",
     "36kr-ai"
@@ -289,11 +292,43 @@
   },
   {
    "rank": 17,
+   "title": "OPPO 推出 F35 5G 系列手机：8000mAh 电池，天玑 6360 Max/7360 Max 芯片",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/010/007.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "OPPO 推出 F35 5G 系列手机：8000mAh 电池，天玑 6360 Max/7360 Max 芯片"
+   ],
+   "published_at": "2026-10-06T07:55:45+00:00",
+   "summary": "IT之家 10 月 6 日消息，OPPO 现已在印度市场推出 F35 5G/F35 Pro 5G 手机，新品定位中低端市场，采用 8000mAh 大电池，以及天玑 6360 Max/7360 Max 芯片， 起售价为 38,999 卢比 （IT之家注：现汇率约合 2,725 元人民币） 。 据介绍，OPPO F35 5G 手机搭载 6.57 英寸 AMOLED 屏幕，分辨率为 2372×1080，支持 120Hz 高刷，亮度可达 800..."
+  },
+  {
+   "rank": 18,
+   "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/010/015.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域"
+   ],
+   "published_at": "2026-10-06T08:42:27+00:00",
+   "summary": "IT之家 10 月 6 日消息，瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域 。 IT之家了解到，瑞萨本次推出的产品有 RTP100E005G1FL、RTP100E2P6G1FL、RTP100E1P8G1FL-DSC 和 RTP100E1P2G1FL-DSC，拥有较为优越的硬开关和..."
+  },
+  {
+   "rank": 19,
    "title": "Termexo v0.10.10 发布：19 个本地 MCP 工具，五种编程 Agent 自动接入",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.oschina.net/news/502845",
-   "score": 3.5,
+   "score": 3.0,
    "sources": [
     "oschina"
    ],
@@ -304,52 +339,20 @@
    "summary": "AI 生成概念图，非产品界面。 MIT 开源的 Windows AI 编程工作台 Termexo 发布 v0.10.10。新版把终端、任务和部分设置开放为 19 个本地 MCP 工具，并支持在 Termexo 新启动的 Claude Code、Codex、OpenCode、Grok Build 和 Antigravity 终端中自动添加连接。 工作台能力作为工具开放 Agent 可以查询工作区和终端，读取指..."
   },
   {
-   "rank": 18,
-   "title": "对标中国 AI 模型：英伟达投资的 Reflection AI 发布旗下首款开放权重模型 Beam",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/009/932.htm",
-   "score": 3.5,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "对标中国 AI 模型：英伟达投资的 Reflection AI 发布旗下首款开放权重模型 Beam"
-   ],
-   "published_at": "2026-10-06T00:42:20+00:00",
-   "summary": "IT之家 10 月 6 日消息，由英伟达投资的初创企业 Reflection AI 于当地时间周一推出了自家首款开放权重大模型 Beam。这家初创公司希望在代码编写与智能体任务领域，同 DeepSeek、Kimi 等中国 AI 模型展开竞争。 Reflection AI 表示，Beam 在性能上可以对标中国 AI 初创企业智谱 AI（ Z.ai ）的 GLM‑5.2；在代码以及智能体任务方面，该模型的性能正逐步逼近千问 3.8‑Max（..."
-  },
-  {
-   "rank": 19,
-   "title": "Groq 遭起诉：被控与英伟达 200 亿美元“类收购”交易牺牲少数股东权益",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/009/960.htm",
-   "score": 3.5,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "Groq 遭起诉：被控与英伟达 200 亿美元“类收购”交易牺牲少数股东权益"
-   ],
-   "published_at": "2026-10-06T02:18:07+00:00",
-   "summary": "IT之家 10 月 6 日消息，综合 CNBC 与《金融时报》报道，Groq 当地时间本周二被告上美国特拉华州衡平法院， 被指控在与 NVIDIA（英伟达）的“类收购”非独家授权交易中牺牲了少数股东的权益 。 原告 Joshua Rubin 和 Benjamin Serebrin 曾是 Groq 的员工，但在与 NVIDIA 的交易前离职。两位员工仍持有 Groq 的股份。 根据披露的诉讼文件，Groq 与 NVIDIA 的 200 亿..."
-  },
-  {
    "rank": 20,
-   "title": "Peter Thiel专访：停滞五十年，AI是文明最后的自救吗？",
+   "title": "AI助手大战开打，最值钱的非大厂选手只有14个人",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4895490.html",
+   "url": "https://www.huxiu.com/article/4895519.html",
    "score": 2.5,
    "sources": [
     "huxiu"
    ],
    "titles": [
-    "Peter Thiel专访：停滞五十年，AI是文明最后的自救吗？"
+    "AI助手大战开打，最值钱的非大厂选手只有14个人"
    ],
-   "published_at": "2026-10-06T01:06:56.000000+00:00",
-   "summary": "访谈Peter Thiel，向来不是一件让人舒适的事。他从不顺应提问者的预设，也吝于提供任何廉价的抚慰。当整个硅谷都在「加速主义」与「末日论」的二元对立中争相站队时，Peter Thiel坐在阿克塞尔·施普林格（Axel Springer）CEO马蒂亚斯·德普夫纳（Mathias Döpfner）对面，把物理...... 本文来自微信公众号： 动察Beating ，编译：Sleepy，作者：Sleepy 访谈Peter Thiel，向来..."
+   "published_at": "2026-10-06T05:43:28.000000+00:00",
+   "summary": "9月底，旧金山一家叫Instinct的公司宣布拿到10亿美元C轮融资，估值100亿美元。全公司只有14个人，还没有独立手机App。用户可以给它发短信、打电话，也可以发邮件、WhatsApp或iMessage，方式跟联系一个真人没什么区别。《连线》记者佐伊·希弗用它退掉了一张机票。阿拉斯加航空把她的航班提前了9...... 本文来自微信公众号： 潮涌AI ，作者：潮涌AI编辑部 9月底，旧金山一家叫Instinct的公司宣布拿到10亿美元..."
   }
  ]
 }
