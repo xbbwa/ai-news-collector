@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-07 01:22 CST
-数据窗口：最近 24 小时，2620 条原始条目 → 2109 个事件；过滤噪音 395 个，排除全部历史已推送的 162 个。
+生成时间：2026-10-07 05:48 CST
+数据窗口：最近 24 小时，2787 条原始条目 → 2210 个事件；过滤噪音 463 个，排除全部历史已推送的 166 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -46,60 +46,63 @@
 - 链接：https://arxiv.org/abs/2610.03902
 - 同事件报道：Organising Trajectory Evidence for Language-Model Agent Assurance: Fragments, Methods, and the Residual（arXiv cs.AI）
 
-## 6. Gemini Call for Me might tell your mom you’re running late
+## 6. Expanding the Cyber Verification Program
+- 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic News、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
+- 摘要：We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now co...
+- 发布时间：2026-10-06 00:00 CST
+- 链接：https://www.anthropic.com/news/cyber-verification-program
+- 同事件报道：Finally! They're expanding the cyber verification program（Reddit AI subreddits (new)）
+
+## 7. stabilityai/stable-audio-3-medium
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：text-to-audio, stable-audio-3, safetensors, audio-generation, music, sound-effects, diffusion, en, arxiv:2605.17991, base_model:stabilityai/stable-audio-3-medium-base, base_model:finetune:stabilityai/stable-audio-3-mediu...
+- 发布时间：2026-10-07 03:37 CST
+- 链接：https://huggingface.co/stabilityai/stable-audio-3-medium
+
+## 8. stabilityai/stable-audio-3-small-sfx
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：text-to-audio, stable-audio-3, safetensors, audio-generation, sound-effects, diffusion, en, arxiv:2605.17991, base_model:stabilityai/stable-audio-3-small-sfx-base, base_model:finetune:stabilityai/stable-audio-3-small-sfx...
+- 发布时间：2026-10-07 03:37 CST
+- 链接：https://huggingface.co/stabilityai/stable-audio-3-small-sfx
+
+## 9. Gemini Call for Me might tell your mom you’re running late
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、IT之家（2 个来源） ｜ 热度：5.5
 - 摘要：Google may be expanding its "Call for Me" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a "Gemini Calling" introductory screen in an APK tear...
 - 发布时间：2026-10-06 07:09 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors
 - 同事件报道：谷歌有望升级 Call for Me 功能：Gemini 将支持代用户拨打私人亲友电话（IT之家）
 
-## 7. nvidia/Cosmos-H-Surgical-Simulator
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.86
-- 摘要：image-to-video, nv-medtech, custom, simulation, surgical-robotics, video-generation, policy-evaluation, vla-evaluation, healthcare-robotics, world-model, dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment, arxiv:2511.0...
-- 发布时间：2026-10-06 20:52 CST
-- 链接：https://huggingface.co/nvidia/Cosmos-H-Surgical-Simulator
+## 10. Shouldn’t customer service AI remember you? Siena to expand 'Agent of Record' combining purchase history with support and social
+- 地区：国外源 ｜ 语言：en ｜ 来源：VentureBeat、Product Hunt — AI（2 个来源） ｜ 热度：5.0
+- 摘要：If you've spent any time seeking help from a customer service chatbot online, you've probably been frustrated by how slow, limited and "dumb" they can be — requiring you to rephrase your basic problem multiple times befo...
+- 发布时间：2026-10-07 01:44 CST
+- 链接：https://venturebeat.com/data/shouldnt-customer-service-ai-remember-you-siena-to-expand-agent-of-record-combining-purchase-history-with-support-and-social
+- 同事件报道：Cosmic AI Support Agent（Product Hunt — AI）
+- 同事件报道：Customer Service AI for Etsy（Product Hunt — AI）
 
-## 8. Release of Polars 2.0
+## 11. Release of Polars 2.0
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：4.5
 - 摘要：DataFrames for the new era
 - 发布时间：2026-10-06 19:59 CST
 - 链接：https://pola.rs/posts/release-polars-2/
 
-## 9. Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
-- 摘要：A Blog post by Technology Innovation Institute on Hugging Face
-- 发布时间：2026-10-06 14:44 CST
-- 链接：https://huggingface.co/blog/tiiuae/falcon-emirati
+## 12. Advancing computer use with Ironclad
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
+- 摘要：Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.
+- 发布时间：2026-10-06 18:00 CST
+- 链接：https://openai.com/index/advancing-computer-use-with-ironclad
 
-## 10. Why Telecom Operators Are Building Their AI Strategy on Open Models
+## 13. Why Telecom Operators Are Building Their AI Strategy on Open Models
 - 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog（1 个来源） ｜ 热度：3.5
 - 摘要：Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical work...
 - 发布时间：2026-10-06 21:00 CST
 - 链接：https://blogs.nvidia.com/blog/telecom-operators-open-models/
 
-## 11. Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025
+## 14. Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025
 - 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
 - 摘要：With generative AI adoption moving faster than the personal computer or the internet and global AI-related investment in 2025 representing $581.69 billion , organizations must position their workforce to use AI to power...
 - 发布时间：2026-10-06 23:53 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/
-
-## 12. Atlassian and OpenAI expand partnership to turn enterprise knowledge into action
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.
-- 发布时间：2026-10-07 00:00 CST
-- 链接：https://openai.com/index/atlassian-partnership
-
-## 13. AICR v1.0: Open, stable, and verifiable GPU cluster configuration
-- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.5
-- 摘要：GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,... GPU-accelerated Kubernetes clusters depend on compatible version...
-- 发布时间：2026-10-07 00:13 CST
-- 链接：https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/
-
-## 14. What AI gets wrong and what failure teaches us
-- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog（1 个来源） ｜ 热度：3.5
-- 摘要：Jennifer Neville is a partner research manager at Microsoft who’s built a career around understanding and advancing AI for real-world use, and much like the human-AI interactions she’s been studying, her early-career pat...
-- 发布时间：2026-10-07 00:19 CST
-- 链接：https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/
 
 国内：
 
@@ -117,17 +120,17 @@
 - 链接：https://www.huxiu.com/article/4895514.html
 - 同事件报道：数学要「毕业」了，xAI联创宣判：两千年英雄史彻底落幕（36氪 AI 频道）
 
-## 3. OPPO 推出 F35 5G 系列手机：8000mAh 电池，天玑 6360 Max/7360 Max 芯片
+## 3. 英伟达发布 617.42 Game Ready 显卡驱动：优化《使命召唤：现代战争 4》等新作
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
-- 摘要：IT之家 10 月 6 日消息，OPPO 现已在印度市场推出 F35 5G/F35 Pro 5G 手机，新品定位中低端市场，采用 8000mAh 大电池，以及天玑 6360 Max/7360 Max 芯片， 起售价为 38,999 卢比 （IT之家注：现汇率约合 2,725 元人民币） 。 据介绍，OPPO F35 5G 手机搭载 6.57 英寸 AMOLED 屏幕，分辨率为 2372×1080，支持 120Hz 高刷，亮度可达 800...
-- 发布时间：2026-10-06 15:55 CST
-- 链接：https://www.ithome.com/1/010/007.htm
+- 摘要：IT之家 10 月 6 日消息，英伟达 GeForce Game Ready 驱动 617.42 正式发布，本次驱动为多款支持 DLSS 和 RTX 技术的新作提供优化，同时修复了已发现的游戏崩溃问题。 IT之家附官方公告链接（ https://www.nvidia.com/en-us/geforce/news/call-of-duty-modern-warfare-4-star-wars-galactic-racer-game-rea...
+- 发布时间：2026-10-06 21:03 CST
+- 链接：https://www.ithome.com/1/010/098.htm
 
-## 4. 瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域
+## 4. 《明日方舟：终末地》游戏将支持英伟达 RTX Spark 笔记本，「丹青渡」版本上线
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家（1 个来源） ｜ 热度：3.5
-- 摘要：IT之家 10 月 6 日消息，瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域 。 IT之家了解到，瑞萨本次推出的产品有 RTP100E005G1FL、RTP100E2P6G1FL、RTP100E1P8G1FL-DSC 和 RTP100E1P2G1FL-DSC，拥有较为优越的硬开关和...
-- 发布时间：2026-10-06 16:42 CST
-- 链接：https://www.ithome.com/1/010/015.htm
+- 摘要：IT之家 10 月 6 日消息，鹰角网络今日发布《明日方舟：终末地》「丹青渡」版本前瞻视频， 确认本作即将支持搭载英伟达 RTX Spark 处理器的笔记本 。 据介绍，《明日方舟：终末地》将在更新后支持即将上市的英伟达 RTX Spark 笔记本电脑，玩家未来可以使用这些笔记本游玩本作。 IT之家注意到，在 6 月的 2026 台北国际电脑展主题演讲中， 英伟达 CEO 黄仁勋正式宣布推出 RTX Spark PC 处理器 ，首批搭载...
+- 发布时间：2026-10-06 22:49 CST
+- 链接：https://www.ithome.com/1/010/123.htm
 
 ## 5. Termexo v0.10.10 发布：19 个本地 MCP 工具，五种编程 Agent 自动接入
 - 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国（1 个来源） ｜ 热度：3.0
@@ -135,8 +138,8 @@
 - 发布时间：2026-10-06 07:39 CST
 - 链接：https://www.oschina.net/news/502845
 
-## 6. AI助手大战开打，最值钱的非大厂选手只有14个人
+## 6. AI博主圈，正被“中戏北电”挤满
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：2.5
-- 摘要：9月底，旧金山一家叫Instinct的公司宣布拿到10亿美元C轮融资，估值100亿美元。全公司只有14个人，还没有独立手机App。用户可以给它发短信、打电话，也可以发邮件、WhatsApp或iMessage，方式跟联系一个真人没什么区别。《连线》记者佐伊·希弗用它退掉了一张机票。阿拉斯加航空把她的航班提前了9...... 本文来自微信公众号： 潮涌AI ，作者：潮涌AI编辑部 9月底，旧金山一家叫Instinct的公司宣布拿到10亿美元...
-- 发布时间：2026-10-06 13:43 CST
-- 链接：https://www.huxiu.com/article/4895519.html
+- 摘要：短视频平台上的AI博主们，正在越来越卷，一拨人新模型、新工具的测评频率在加速，而另一拨人，迈入AI创作领域的，也在向影视创作的专业标准靠拢。这轮竞争中，影视科班的存在感尤为强烈。9月收官的抖音AI创作大赛，金奖由“2XLabs”的《合龙》摘得，这支团队有十余年影视行业经验。银奖作品《反正也没时间活》的作者“站...... 本文来自微信公众号： 壹娱观察 ，作者：壹叔团队，原文标题：《AI博主圈，正被「中戏北电」挤满》 短视频平台上的AI...
+- 发布时间：2026-10-06 18:03 CST
+- 链接：https://www.huxiu.com/article/4895548.html

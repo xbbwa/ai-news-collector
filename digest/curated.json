@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-06T17:22:03.103253+00:00",
+ "generated_at": "2026-10-06T21:48:23.046359+00:00",
  "stats": {
-  "items": 2620,
-  "clusters": 2109,
-  "noise": 395,
-  "dup": 162,
+  "items": 2787,
+  "clusters": 2210,
+  "noise": 463,
+  "dup": 166,
   "history_days": 0,
   "available_cn": 57,
-  "available_intl": 1495,
+  "available_intl": 1524,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -110,6 +110,56 @@
   },
   {
    "rank": 6,
+   "title": "Expanding the Cyber Verification Program",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.anthropic.com/news/cyber-verification-program",
+   "score": 5.5,
+   "sources": [
+    "anthropic-news",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Expanding the Cyber Verification Program",
+    "Finally! They're expanding the cyber verification program"
+   ],
+   "published_at": "2026-10-05T16:00:00.000000+00:00",
+   "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now co..."
+  },
+  {
+   "rank": 7,
+   "title": "stabilityai/stable-audio-3-medium",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "stabilityai/stable-audio-3-medium"
+   ],
+   "published_at": "2026-10-06T19:37:26.000000+00:00",
+   "summary": "text-to-audio, stable-audio-3, safetensors, audio-generation, music, sound-effects, diffusion, en, arxiv:2605.17991, base_model:stabilityai/stable-audio-3-medium-base, base_model:finetune:stabilityai/stable-audio-3-mediu..."
+  },
+  {
+   "rank": 8,
+   "title": "stabilityai/stable-audio-3-small-sfx",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
+   "score": 5.5,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "stabilityai/stable-audio-3-small-sfx"
+   ],
+   "published_at": "2026-10-06T19:37:57.000000+00:00",
+   "summary": "text-to-audio, stable-audio-3, safetensors, audio-generation, sound-effects, diffusion, en, arxiv:2605.17991, base_model:stabilityai/stable-audio-3-small-sfx-base, base_model:finetune:stabilityai/stable-audio-3-small-sfx..."
+  },
+  {
+   "rank": 9,
    "title": "Gemini Call for Me might tell your mom you’re running late",
    "lang": "en",
    "region": "intl",
@@ -127,23 +177,26 @@
    "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK tear..."
   },
   {
-   "rank": 7,
-   "title": "nvidia/Cosmos-H-Surgical-Simulator",
+   "rank": 10,
+   "title": "Shouldn’t customer service AI remember you? Siena to expand 'Agent of Record' combining purchase history with support and social",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/nvidia/Cosmos-H-Surgical-Simulator",
-   "score": 4.86,
+   "url": "https://venturebeat.com/data/shouldnt-customer-service-ai-remember-you-siena-to-expand-agent-of-record-combining-purchase-history-with-support-and-social",
+   "score": 5.0,
    "sources": [
-    "hf-models-intl"
+    "venturebeat",
+    "producthunt-ai"
    ],
    "titles": [
-    "nvidia/Cosmos-H-Surgical-Simulator"
+    "Shouldn’t customer service AI remember you? Siena to expand 'Agent of Record' combining purchase history with support and social",
+    "Cosmic AI Support Agent",
+    "Customer Service AI for Etsy"
    ],
-   "published_at": "2026-10-06T12:52:24.000000+00:00",
-   "summary": "image-to-video, nv-medtech, custom, simulation, surgical-robotics, video-generation, policy-evaluation, vla-evaluation, healthcare-robotics, world-model, dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment, arxiv:2511.0..."
+   "published_at": "2026-10-06T17:44:53+00:00",
+   "summary": "If you've spent any time seeking help from a customer service chatbot online, you've probably been frustrated by how slow, limited and \"dumb\" they can be — requiring you to rephrase your basic problem multiple times befo..."
   },
   {
-   "rank": 8,
+   "rank": 11,
    "title": "Release of Polars 2.0",
    "lang": "en",
    "region": "intl",
@@ -159,23 +212,23 @@
    "summary": "DataFrames for the new era"
   },
   {
-   "rank": 9,
-   "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+   "rank": 12,
+   "title": "Advancing computer use with Ironclad",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
    "score": 3.5,
    "sources": [
-    "huggingface-blog"
+    "openai-news"
    ],
    "titles": [
-    "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance"
+    "Advancing computer use with Ironclad"
    ],
-   "published_at": "2026-10-06T06:44:39.000000+00:00",
-   "summary": "A Blog post by Technology Innovation Institute on Hugging Face"
+   "published_at": "2026-10-06T10:00:00.000000+00:00",
+   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
   },
   {
-   "rank": 10,
+   "rank": 13,
    "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
    "lang": "en",
    "region": "intl",
@@ -191,7 +244,7 @@
    "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical work..."
   },
   {
-   "rank": 11,
+   "rank": 14,
    "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
    "lang": "en",
    "region": "intl",
@@ -205,54 +258,6 @@
    ],
    "published_at": "2026-10-06T15:53:28.000000+00:00",
    "summary": "With generative AI adoption moving faster than the personal computer or the internet and global AI-related investment in 2025 representing $581.69 billion , organizations must position their workforce to use AI to power..."
-  },
-  {
-   "rank": 12,
-   "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/atlassian-partnership",
-   "score": 3.5,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action"
-   ],
-   "published_at": "2026-10-06T16:00:00.000000+00:00",
-   "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
-  },
-  {
-   "rank": 13,
-   "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-developer"
-   ],
-   "titles": [
-    "AICR v1.0: Open, stable, and verifiable GPU cluster configuration"
-   ],
-   "published_at": "2026-10-06T16:13:47.000000+00:00",
-   "summary": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,... GPU-accelerated Kubernetes clusters depend on compatible version..."
-  },
-  {
-   "rank": 14,
-   "title": "What AI gets wrong and what failure teaches us",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
-   "score": 3.5,
-   "sources": [
-    "microsoft-research"
-   ],
-   "titles": [
-    "What AI gets wrong and what failure teaches us"
-   ],
-   "published_at": "2026-10-06T16:19:06.000000+00:00",
-   "summary": "Jennifer Neville is a partner research manager at Microsoft who’s built a career around understanding and advancing AI for real-world use, and much like the human-AI interactions she’s been studying, her early-career pat..."
   },
   {
    "rank": 15,
@@ -292,35 +297,35 @@
   },
   {
    "rank": 17,
-   "title": "OPPO 推出 F35 5G 系列手机：8000mAh 电池，天玑 6360 Max/7360 Max 芯片",
+   "title": "英伟达发布 617.42 Game Ready 显卡驱动：优化《使命召唤：现代战争 4》等新作",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/010/007.htm",
+   "url": "https://www.ithome.com/1/010/098.htm",
    "score": 3.5,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "OPPO 推出 F35 5G 系列手机：8000mAh 电池，天玑 6360 Max/7360 Max 芯片"
+    "英伟达发布 617.42 Game Ready 显卡驱动：优化《使命召唤：现代战争 4》等新作"
    ],
-   "published_at": "2026-10-06T07:55:45+00:00",
-   "summary": "IT之家 10 月 6 日消息，OPPO 现已在印度市场推出 F35 5G/F35 Pro 5G 手机，新品定位中低端市场，采用 8000mAh 大电池，以及天玑 6360 Max/7360 Max 芯片， 起售价为 38,999 卢比 （IT之家注：现汇率约合 2,725 元人民币） 。 据介绍，OPPO F35 5G 手机搭载 6.57 英寸 AMOLED 屏幕，分辨率为 2372×1080，支持 120Hz 高刷，亮度可达 800..."
+   "published_at": "2026-10-06T13:03:37+00:00",
+   "summary": "IT之家 10 月 6 日消息，英伟达 GeForce Game Ready 驱动 617.42 正式发布，本次驱动为多款支持 DLSS 和 RTX 技术的新作提供优化，同时修复了已发现的游戏崩溃问题。 IT之家附官方公告链接（ https://www.nvidia.com/en-us/geforce/news/call-of-duty-modern-warfare-4-star-wars-galactic-racer-game-rea..."
   },
   {
    "rank": 18,
-   "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
+   "title": "《明日方舟：终末地》游戏将支持英伟达 RTX Spark 笔记本，「丹青渡」版本上线",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/010/015.htm",
+   "url": "https://www.ithome.com/1/010/123.htm",
    "score": 3.5,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域"
+    "《明日方舟：终末地》游戏将支持英伟达 RTX Spark 笔记本，「丹青渡」版本上线"
    ],
-   "published_at": "2026-10-06T08:42:27+00:00",
-   "summary": "IT之家 10 月 6 日消息，瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域 。 IT之家了解到，瑞萨本次推出的产品有 RTP100E005G1FL、RTP100E2P6G1FL、RTP100E1P8G1FL-DSC 和 RTP100E1P2G1FL-DSC，拥有较为优越的硬开关和..."
+   "published_at": "2026-10-06T14:49:57+00:00",
+   "summary": "IT之家 10 月 6 日消息，鹰角网络今日发布《明日方舟：终末地》「丹青渡」版本前瞻视频， 确认本作即将支持搭载英伟达 RTX Spark 处理器的笔记本 。 据介绍，《明日方舟：终末地》将在更新后支持即将上市的英伟达 RTX Spark 笔记本电脑，玩家未来可以使用这些笔记本游玩本作。 IT之家注意到，在 6 月的 2026 台北国际电脑展主题演讲中， 英伟达 CEO 黄仁勋正式宣布推出 RTX Spark PC 处理器 ，首批搭载..."
   },
   {
    "rank": 19,
@@ -340,19 +345,19 @@
   },
   {
    "rank": 20,
-   "title": "AI助手大战开打，最值钱的非大厂选手只有14个人",
+   "title": "AI博主圈，正被“中戏北电”挤满",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4895519.html",
+   "url": "https://www.huxiu.com/article/4895548.html",
    "score": 2.5,
    "sources": [
     "huxiu"
    ],
    "titles": [
-    "AI助手大战开打，最值钱的非大厂选手只有14个人"
+    "AI博主圈，正被“中戏北电”挤满"
    ],
-   "published_at": "2026-10-06T05:43:28.000000+00:00",
-   "summary": "9月底，旧金山一家叫Instinct的公司宣布拿到10亿美元C轮融资，估值100亿美元。全公司只有14个人，还没有独立手机App。用户可以给它发短信、打电话，也可以发邮件、WhatsApp或iMessage，方式跟联系一个真人没什么区别。《连线》记者佐伊·希弗用它退掉了一张机票。阿拉斯加航空把她的航班提前了9...... 本文来自微信公众号： 潮涌AI ，作者：潮涌AI编辑部 9月底，旧金山一家叫Instinct的公司宣布拿到10亿美元..."
+   "published_at": "2026-10-06T10:03:04.000000+00:00",
+   "summary": "短视频平台上的AI博主们，正在越来越卷，一拨人新模型、新工具的测评频率在加速，而另一拨人，迈入AI创作领域的，也在向影视创作的专业标准靠拢。这轮竞争中，影视科班的存在感尤为强烈。9月收官的抖音AI创作大赛，金奖由“2XLabs”的《合龙》摘得，这支团队有十余年影视行业经验。银奖作品《反正也没时间活》的作者“站...... 本文来自微信公众号： 壹娱观察 ，作者：壹叔团队，原文标题：《AI博主圈，正被「中戏北电」挤满》 短视频平台上的AI..."
   }
  ]
 }
