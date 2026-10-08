@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-08T09:14:00.987299+00:00",
+ "generated_at": "2026-10-08T16:42:13.333292+00:00",
  "stats": {
-  "items": 1923,
-  "clusters": 1522,
-  "noise": 409,
-  "dup": 159,
+  "items": 2179,
+  "clusters": 1668,
+  "noise": 491,
+  "dup": 166,
   "history_days": 0,
-  "available_cn": 96,
-  "available_intl": 858,
+  "available_cn": 121,
+  "available_intl": 890,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -40,7 +40,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.09684",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-lg"
@@ -58,7 +58,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.10049",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -76,7 +76,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2604.05087",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-lg"
@@ -95,7 +95,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "cnbc-tech",
     "ft-tech"
@@ -159,54 +159,38 @@
   },
   {
    "rank": 9,
-   "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+   "title": "Introducing Falcon ASR",
    "lang": "en",
    "region": "intl",
-   "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-   "score": 3.5,
+   "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "score": 4.0,
    "sources": [
-    "arstechnica-ai"
+    "huggingface-blog"
    ],
    "titles": [
-    "“Software is over”: Bold AI developer takes aim at Adobe with open source clones"
+    "Introducing Falcon ASR"
    ],
-   "published_at": "2026-10-07T21:56:42.000000+00:00",
-   "summary": "For a while, those hoping to avoid the difficulty and expense of dealing with Adobe's Creative Suite have been able to use several free and/or open-source alternatives that replicate some or all of those capabilities. No..."
+   "published_at": "2026-10-07T13:21:03.000000+00:00",
+   "summary": "A Blog post by Technology Innovation Institute on Hugging Face"
   },
   {
    "rank": 10,
-   "title": "Nvidia-Backed Firmus Said to Close Books as Mega IPO Struggles",
+   "title": "Innovation in Ireland: How Irish brands scale with Gemini Enterprise",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles",
+   "url": "https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/",
    "score": 3.5,
    "sources": [
-    "bloomberg-tech"
+    "google-cloud-ai"
    ],
    "titles": [
-    "Nvidia-Backed Firmus Said to Close Books as Mega IPO Struggles"
+    "Innovation in Ireland: How Irish brands scale with Gemini Enterprise"
    ],
-   "published_at": "2026-10-08T00:28:26.000000+00:00",
-   "summary": "Australian data center company Firmus Grid Ltd. closed the books on its struggling initial public offering as investors grew increasingly concerned that the deal could be pulled, according to people familiar with the inf..."
+   "published_at": "2026-10-08T12:00:00.000000+00:00",
+   "summary": "In recent decades, Ireland has grown into a vibrant hub for global technology. As modernization accelerates, Irish organizations — spanning government agencies, established enterprise brands, and growing startups in AI a..."
   },
   {
    "rank": 11,
-   "title": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
-   "score": 3.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut"
-   ],
-   "published_at": "2026-10-08T00:57:58.000000+00:00",
-   "summary": "Sources say Firmus is slashing its price and may even shelve initial public offering altogether Get our breaking news email , free app or daily news podcast The momentum behind Firmus Technologies’ high-flying valuation..."
-  },
-  {
-   "rank": 12,
    "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
    "lang": "en",
    "region": "intl",
@@ -220,6 +204,24 @@
    ],
    "published_at": "2026-10-08T05:39:09+00:00",
    "summary": "Perplexity has released pplx-embed-v2-late , a pair of ColBERT-style multimodal embedding models. They come in 2 sizes: 0.6B for fast, cheap queries and 9B for maximum quality. Both models retrieve text, images and rende..."
+  },
+  {
+   "rank": 12,
+   "title": "Kroma 0.3.1 - full turbo opd model",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/r/StableDiffusion/comments/1x05wa9/kroma_031_full_turbo_opd_model/",
+   "score": 3.5,
+   "sources": [
+    "reddit-ai-new",
+    "reddit-ai-hot"
+   ],
+   "titles": [
+    "Kroma 0.3.1 - full turbo opd model",
+    "Kroma 0.3.1 is really good"
+   ],
+   "published_at": "2026-10-07T19:32:42.000000+00:00",
+   "summary": "When Chroma and Krea2 meet: the Krea2 model has been fine-tuned on the Chroma dataset. What OPD is: v0.3.1 was distilled on-policy . Instead of the classic offline recipe — imitating the teacher on a fixed sampling sched..."
   },
   {
    "rank": 13,
@@ -255,6 +257,24 @@
   },
   {
    "rank": 15,
+   "title": "超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/599076.html",
+   "score": 7.0,
+   "sources": [
+    "zhidx",
+    "36kr-ai"
+   ],
+   "titles": [
+    "超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了",
+    "融资33亿，Manus杀回百亿美元赛道：做私人AI助理"
+   ],
+   "published_at": "2026-10-08T05:00:27+00:00",
+   "summary": "智东西 作者 | 程茜 编辑 | 云鹏 智东西10月8日消息，刚刚，Manus母公司蝴蝶效应宣布近日已完成超5亿美元（约合人民币33.52亿元）新一轮融资。这是国内Agent原生创企获得的最大一笔融资。 本轮融资由博裕投资、IDG资本领投，老股东腾讯、红杉中国、真格基金继续加持。 今年9月，外媒彭博社就曾报道，蝴蝶效应计划以40亿美元（约合人民币268.3亿元）估值融资5亿美元（约合人民币33.5亿元），较此前20亿美元的估值，多了整整..."
+  },
+  {
+   "rank": 16,
    "title": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
    "lang": "zh",
    "region": "cn",
@@ -272,25 +292,25 @@
    "summary": "IT之家 10 月 8 日消息，腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。用户现在可以在文件资源管理器 / Finder 找到一份文件，右键选择 WorkBuddy 打开，就能在独立窗口中查看文件，并直接调用 AI 进行分析、修改或继续处理。 IT之家了解到， WorkBuddy 文件浏览器可以直接打开 Word、Excel、PPT、PDF、Markdown、HTML 等文件 ，在同一个窗口里查..."
   },
   {
-   "rank": 16,
-   "title": "谁在捧杀Utopai X？",
+   "rank": 17,
+   "title": "数据中心装不下AI的全部野心了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8160338.html",
-   "score": 5.5,
+   "url": "https://www.huxiu.com/article/4895872.html",
+   "score": 6.0,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "huxiu",
+    "tmtpost"
    ],
    "titles": [
-    "谁在捧杀Utopai X？",
-    "谁在捧杀Utopai X？"
+    "数据中心装不下AI的全部野心了",
+    "数据中心装不下AI的全部野心了"
    ],
-   "published_at": "2026-10-07T09:42:07+00:00",
-   "summary": "文 | 针尖 一场中文媒体报道乌龙，正在把一家美国创业公司推向“捧杀”的公关灾难。 2026年9月30日，美国独立评测机构Artificial Analysis发布文生视频模型排行榜，一家名不见经传的小模型Utopai X力压Seedance2.5、MiniMaxH3等一众热门选手位列全球第二，仅次于Wan 3.0，同时也是该榜排名最高的美国公司模型。 随后，中文媒体开始竞相报道，“全球最大独立AI原生影视公司”、“自研定制模型”、“A..."
+   "published_at": "2026-10-08T08:59:47.000000+00:00",
+   "summary": "过去几年，硅谷越来越像一处巨型工地。微软、谷歌、亚马逊不断扩建数据中心，GPU之外，电力、土地和冷却设备也成了争夺对象。曾经依靠软件和网络效应高速扩张的科技公司，如今不得不承担越来越重的资本开支。就在数据中心竞赛持续升温时，马斯克与微软把目光投向了算力产业链的两端。马斯克确认，特斯拉与SpaceX将自行建设、...... 本文来自微信公众号： 反熵 ，作者：一笑 过去几年，硅谷越来越像一处巨型工地。微软、谷歌、亚马逊不断扩建数据中心，G..."
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "关于AI Agent、信任与决策权的100条",
    "lang": "zh",
    "region": "cn",
@@ -308,7 +328,7 @@
    "summary": "一、十四个人，一百亿美元1、最近硅谷有一家叫Instinct的公司，很适合拿来观察AI应用层正在发生什么。Instinct成立于2025年，创始人Noah Shinn只有23岁。2026年8月26日，它完成2.5亿美元B轮融资，累计融资约3.5亿美元，估值25亿美元；33天后的9月28日，它又融资10亿美元，...... 本文来自微信公众号： 孤独大脑 ，作者：老喻的，原文标题：《关于 AI Agent、信任与决策权的 100 条》 一..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
    "lang": "zh",
    "region": "cn",
@@ -326,12 +346,12 @@
    "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，黄仁勋表示英伟达正推动一种以本地设备为核心的 AI 计算模式。 黄仁勋称：“ 这是全球唯一一台能够在设备端原生运行一切应用的电脑 。”他同时表示，几乎所有笔记本电脑、台式机和工作站厂商都已加入英伟达的合作阵营。 黄仁勋还借此强调英伟达正在构建的硬件生态：从轻量化 AI PC，到面向开发者和专业用..."
   },
   {
-   "rank": 19,
+   "rank": 20,
    "title": "tencent/EVIE-4.5B",
    "lang": "en",
    "region": "cn",
    "url": "https://huggingface.co/tencent/EVIE-4.5B",
-   "score": 5.04,
+   "score": 4.54,
    "sources": [
     "hf-models-cn"
    ],
@@ -340,24 +360,6 @@
    ],
    "published_at": "2026-10-08T03:37:40.000000+00:00",
    "summary": "visual-document-retrieval, colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka, vidore, token-compression, sentence-transformers, dataset:vidore/vidore_benchmark, da..."
-  },
-  {
-   "rank": 20,
-   "title": "北大数院校友出手，ChatGPT代写，要「实名」了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4016422512382086",
-   "score": 5.0,
-   "sources": [
-    "36kr-ai",
-    "baai-hub"
-   ],
-   "titles": [
-    "北大数院校友出手，ChatGPT代写，要「实名」了",
-    "北大数院校友出手！ChatGPT代写，要「实名」了"
-   ],
-   "published_at": "2026-10-08T00:26:41.000000+00:00",
-   "summary": "刚刚，ChatGPT写的字里，要开始逐词「埋暗号」了！ 这套水印叫textGrain。模型每挑一个词，都会悄悄掺进一把只有OpenAI知道的密钥。 肉眼看不出任何痕迹，读起来和原来没有两样，可检测器一扫，立刻就能认出这段话是不是出自OpenAI的模型。 从此，你让AI代写的作业、简历、周报，只要原样复制粘贴，就可能被当场认出来。 划重点，这次发布最关键的有四条。 1. 即刻生效 ：全球API客户今天就能自行开启水印，ChatGPT和Co..."
   }
  ]
 }
