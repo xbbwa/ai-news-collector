@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-08T02:08:29.972345+00:00",
+ "generated_at": "2026-10-08T09:14:00.987299+00:00",
  "stats": {
-  "items": 1671,
-  "clusters": 1311,
-  "noise": 397,
-  "dup": 138,
+  "items": 1923,
+  "clusters": 1522,
+  "noise": 409,
+  "dup": 159,
   "history_days": 0,
-  "available_cn": 65,
-  "available_intl": 711,
+  "available_cn": 96,
+  "available_intl": 858,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,24 +16,81 @@
  "items": [
   {
    "rank": 1,
-   "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+   "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.08699",
-   "score": 6.69,
+   "url": "https://arxiv.org/abs/2610.09228",
+   "score": 12.0,
    "sources": [
     "hf-daily-papers",
-    "hackernews-ai"
+    "arxiv-cs-cv",
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
-    "Show HN: NanoMuse – An open-source AI agent for your phone and computer"
+    "Co-Evolving Robot Orchestrators and Policies through Deployment",
+    "SkillCycle: Co-Evolving Agent Policies and Skill Banks",
+    "SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles"
    ],
    "published_at": "2026-10-05T20:00:00.000000+00:00",
-   "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, i..."
+   "summary": "Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they still fail to generalize to the variety of situations a robot meets in real-world deployment. Agentic ro..."
   },
   {
    "rank": 2,
+   "title": "From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.09684",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery",
+    "FAR: Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement"
+   ],
+   "published_at": "2026-10-08T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.09684v1 Announce Type: new Abstract: Test-time scaling (TTS) improves the reasoning capabilities of large language models by allocating additional inference computation. Existing approaches to improving TTS ef..."
+  },
+  {
+   "rank": 3,
+   "title": "The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.10049",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models",
+    "Efficient Reasoning with Flow Language Models"
+   ],
+   "published_at": "2026-10-08T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.10049v1 Announce Type: new Abstract: Reasoning models allocate extra computation at inference time and present their answers as the product of deliberate thought. If this deliberation works the way dual-proces..."
+  },
+  {
+   "rank": 4,
+   "title": "Document Optimization for Black-Box Retrieval via Reinforcement Learning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2604.05087",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "Document Optimization for Black-Box Retrieval via Reinforcement Learning",
+    "Geometric Probing for Algorithm Selection in Continuous Black-Box Optimization",
+    "Reinforcement Learning for Code Optimization"
+   ],
+   "published_at": "2026-10-08T04:00:00.000000+00:00",
+   "summary": "arXiv:2604.05087v4 Announce Type: replace Abstract: Generative large language models (LLMs) are increasingly used as inference-time components in retrieval pipelines, for tasks such as query rewriting and document rerank..."
+  },
+  {
+   "rank": 5,
    "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
    "lang": "en",
    "region": "intl",
@@ -51,216 +108,168 @@
    "summary": "Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time."
   },
   {
-   "rank": 3,
-   "title": "allenai/Bolmo-7B",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/allenai/Bolmo-7B",
-   "score": 5.28,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "allenai/Bolmo-7B"
-   ],
-   "published_at": "2026-10-07T14:40:28.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, bolmo, custom_code, en, dataset:allenai/bolmo_mix, arxiv:2512.15586, base_model:allenai/Bolmo-7B-Stage1, base_model:finetune:allenai/Bolmo-7B-Stage1, license:apache-2.0, region..."
-  },
-  {
-   "rank": 4,
-   "title": "allenai/Bolmo-1B",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/allenai/Bolmo-1B",
-   "score": 5.21,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "allenai/Bolmo-1B"
-   ],
-   "published_at": "2026-10-07T14:40:47.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, bolmo, custom_code, en, dataset:allenai/bolmo_mix, arxiv:2512.15586, base_model:allenai/Bolmo-1B-Stage1, base_model:finetune:allenai/Bolmo-1B-Stage1, license:apache-2.0, region..."
-  },
-  {
-   "rank": 5,
-   "title": "Calibrated Answers About Randomized Trials From a 4-Billion-Parameter Open Model: A Registered Test and a License-Clean Release",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.07019",
-   "score": 4.0,
-   "sources": [
-    "arxiv-cs-cl"
-   ],
-   "titles": [
-    "Calibrated Answers About Randomized Trials From a 4-Billion-Parameter Open Model: A Registered Test and a License-Clean Release"
-   ],
-   "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.07019v1 Announce Type: new Abstract: Fiorillo v0.5 is an open model that answers typed questions with a probability for each answer. Its main specialist reads a randomized trial's article, cut to 6,144 tokens,..."
-  },
-  {
    "rank": 6,
-   "title": "Jailbreaking Open-Weight LLMs via Random Embedding Perturbations",
+   "title": "Lightricks/LTX-2.5-Diffusers",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.07125",
-   "score": 4.0,
+   "url": "https://huggingface.co/Lightricks/LTX-2.5-Diffusers",
+   "score": 5.44,
    "sources": [
-    "arxiv-cs-cl"
+    "hf-models-intl"
    ],
    "titles": [
-    "Jailbreaking Open-Weight LLMs via Random Embedding Perturbations"
+    "Lightricks/LTX-2.5-Diffusers"
    ],
-   "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.07125v1 Announce Type: cross Abstract: While open-weight models have enjoyed steady progress in capabilities and wide adoption across multiple domains, their safety remains an important concern. One key featur..."
+   "published_at": "2026-10-08T07:15:54.000000+00:00",
+   "summary": "text-to-video, diffusers, safetensors, image-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vi..."
   },
   {
    "rank": 7,
-   "title": "Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family",
+   "title": "black-forest-labs/flux-3-action-base",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2504.18225",
-   "score": 4.0,
+   "url": "https://huggingface.co/black-forest-labs/flux-3-action-base",
+   "score": 5.0,
    "sources": [
-    "arxiv-cs-cl"
+    "hf-models-intl"
    ],
    "titles": [
-    "Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family"
+    "black-forest-labs/flux-3-action-base"
    ],
-   "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2504.18225v2 Announce Type: replace Abstract: We introduce a new generation of small reasoning models for RAG, search, and source summarization. Pleias-RAG-350m and Pleias-RAG-1B are mid-trained on a large syntheti..."
+   "published_at": "2026-10-02T11:46:28.000000+00:00",
+   "summary": "robotics, lerobot, safetensors, flux, world-action-model, world-model, robot-learning, black-forest-labs, flux-3, license:other, region:us"
   },
   {
    "rank": 8,
-   "title": "What’s next that AI is coming for?",
+   "title": "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months",
    "lang": "en",
    "region": "intl",
-   "url": "https://i.redd.it/bvo3wid8pyth1.jpeg",
-   "score": 3.63,
+   "url": "https://www.nytimes.com/2026/10/07/arts/music/ai-music-fraud-royalties-sentence.html",
+   "score": 4.55,
    "sources": [
-    "reddit-ai-new",
+    "nyt-tech",
     "hackernews-ai"
    ],
    "titles": [
-    "What’s next that AI is coming for?",
-    "AI, Work, and the Next Downturn"
+    "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months",
+    "Man Sentenced to 18 Months in Prison for AI Music Streaming Fraud"
    ],
-   "published_at": "2026-10-07T03:09:53.000000+00:00",
-   "summary": "I see a lot of memes going around about dropping coding as a career in 2024 as missing the boarding on the Titanic. What will be thought of as the same in the future for 2026/2027? Btw: I don’t think knowing computer sci..."
+   "published_at": "2026-10-07T19:54:44.000000+00:00",
+   "summary": "The case against Michael Smith, 54, was the Justice Department’s first involving fraud through A.I.-assisted music streaming. Mr. Smith used as many as 10,000 bot accounts to stream his music, the department said."
   },
   {
    "rank": 9,
-   "title": "Faster Scientific Image Analysis with NVIDIA cuPhoton",
+   "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton/",
+   "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
    "score": 3.5,
    "sources": [
-    "nvidia-developer"
+    "arstechnica-ai"
    ],
    "titles": [
-    "Faster Scientific Image Analysis with NVIDIA cuPhoton"
+    "“Software is over”: Bold AI developer takes aim at Adobe with open source clones"
    ],
-   "published_at": "2026-10-07T15:00:00.000000+00:00",
-   "summary": "Observatories and telescopes, lasers and X-ray light sources, and other high-throughput instruments generate image data faster than CPU-bound pipelines can... Observatories and telescopes, lasers and X-ray light sources,..."
+   "published_at": "2026-10-07T21:56:42.000000+00:00",
+   "summary": "For a while, those hoping to avoid the difficulty and expense of dealing with Adobe's Creative Suite have been able to use several free and/or open-source alternatives that replicate some or all of those capabilities. No..."
   },
   {
    "rank": 10,
-   "title": "Building AI builders: Playbook for closing the AI knowledge-capability gap",
+   "title": "Nvidia-Backed Firmus Said to Close Books as Mega IPO Struggles",
    "lang": "en",
    "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap/",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-08/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles",
    "score": 3.5,
    "sources": [
-    "aws-ml-blog"
+    "bloomberg-tech"
    ],
    "titles": [
-    "Building AI builders: Playbook for closing the AI knowledge-capability gap"
+    "Nvidia-Backed Firmus Said to Close Books as Mega IPO Struggles"
    ],
-   "published_at": "2026-10-07T15:44:27.000000+00:00",
-   "summary": "The biggest barrier to AI adoption isn’t awareness. It’s the gap between talking about AI and building with it. Professionals whose primary role isn’t writing code, but whose daily work increasingly depends on AI solutio..."
+   "published_at": "2026-10-08T00:28:26.000000+00:00",
+   "summary": "Australian data center company Firmus Grid Ltd. closed the books on its struggling initial public offering as investors grew increasingly concerned that the deal could be pulled, according to people familiar with the inf..."
   },
   {
    "rank": 11,
-   "title": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+   "title": "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+   "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing",
    "score": 3.5,
    "sources": [
-    "nvidia-developer"
+    "guardian-ai"
    ],
    "titles": [
-    "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt"
+    "Datacentre company Firmus’s high flying valuation may be coming back down to earth ahead of expected ASX debut"
    ],
-   "published_at": "2026-10-07T15:45:00.000000+00:00",
-   "summary": "Supply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real... Supply chain problems are expanding across more SKUs, la..."
+   "published_at": "2026-10-08T00:57:58.000000+00:00",
+   "summary": "Sources say Firmus is slashing its price and may even shelve initial public offering altogether Get our breaking news email , free app or daily news podcast The momentum behind Firmus Technologies’ high-flying valuation..."
   },
   {
    "rank": 12,
-   "title": "Beyond hours saved: Building the business case for agentic automation",
+   "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
    "lang": "en",
    "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+   "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
    "score": 3.5,
    "sources": [
-    "aws-ml-blog"
+    "marktechpost"
    ],
    "titles": [
-    "Beyond hours saved: Building the business case for agentic automation"
+    "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA"
    ],
-   "published_at": "2026-10-07T15:50:00.000000+00:00",
-   "summary": "Agentic automation, software that reasons and adapts to complete tasks, is showing up on AI center of excellence (AI CoE) roadmaps. But the standard way companies justify automation investments, hours saved times labor c..."
+   "published_at": "2026-10-08T05:39:09+00:00",
+   "summary": "Perplexity has released pplx-embed-v2-late , a pair of ColBERT-style multimodal embedding models. They come in 2 sizes: 0.6B for fast, cheap queries and 9B for maximum quality. Both models retrieve text, images and rende..."
   },
   {
    "rank": 13,
-   "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+   "title": "Helping teens learn, plan, and shape the future of AI",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/",
-   "score": 3.5,
+   "url": "https://openai.com/index/teens-learn-and-plan",
+   "score": 3.0,
    "sources": [
-    "nvidia-developer"
+    "openai-news"
    ],
    "titles": [
-    "Validate AI Factory Changes with Digital Twins and AI Agents"
+    "Helping teens learn, plan, and shape the future of AI"
    ],
-   "published_at": "2026-10-07T16:00:00.000000+00:00",
-   "summary": "AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration... AI factories are some of the most complex operations in the wo..."
+   "published_at": "2026-10-07T12:00:00.000000+00:00",
+   "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council."
   },
   {
    "rank": 14,
-   "title": "Multimodal open d1 decision models for the edge",
+   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-   "score": 3.5,
+   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "score": 3.0,
    "sources": [
     "huggingface-blog"
    ],
    "titles": [
-    "Multimodal open d1 decision models for the edge"
+    "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO"
    ],
-   "published_at": "2026-10-07T16:54:33.000000+00:00",
-   "summary": "A Blog post by Liquid AI on Hugging Face"
+   "published_at": "2026-10-07T12:45:31.000000+00:00",
+   "summary": "A Blog post by NVIDIA on Hugging Face"
   },
   {
    "rank": 15,
-   "title": "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
+   "title": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/010/318.htm",
-   "score": 6.0,
+   "url": "https://www.ithome.com/1/010/562.htm",
+   "score": 7.0,
    "sources": [
     "ithome",
-    "zhidx"
+    "36kr-newsflash"
    ],
    "titles": [
-    "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
-    "首款RTX Spark电脑，开卖！可跑1200亿参数大模型"
+    "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
+    "腾讯WorkBuddy上线“独立文件浏览器”"
    ],
-   "published_at": "2026-10-07T18:22:04+00:00",
-   "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，黄仁勋表示英伟达正推动一种以本地设备为核心的 AI 计算模式。 黄仁勋称：“ 这是全球唯一一台能够在设备端原生运行一切应用的电脑 。”他同时表示，几乎所有笔记本电脑、台式机和工作站厂商都已加入英伟达的合作阵营。 黄仁勋还借此强调英伟达正在构建的硬件生态：从轻量化 AI PC，到面向开发者和专业用..."
+   "published_at": "2026-10-08T07:37:53+00:00",
+   "summary": "IT之家 10 月 8 日消息，腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。用户现在可以在文件资源管理器 / Finder 找到一份文件，右键选择 WorkBuddy 打开，就能在独立窗口中查看文件，并直接调用 AI 进行分析、修改或继续处理。 IT之家了解到， WorkBuddy 文件浏览器可以直接打开 Word、Excel、PPT、PDF、Markdown、HTML 等文件 ，在同一个窗口里查..."
   },
   {
    "rank": 16,
@@ -282,6 +291,58 @@
   },
   {
    "rank": 17,
+   "title": "关于AI Agent、信任与决策权的100条",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4895693.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "关于AI Agent、信任与决策权的100条",
+    "关于 AI Agent、信任与决策权的 100 条"
+   ],
+   "published_at": "2026-10-07T15:41:58.000000+00:00",
+   "summary": "一、十四个人，一百亿美元1、最近硅谷有一家叫Instinct的公司，很适合拿来观察AI应用层正在发生什么。Instinct成立于2025年，创始人Noah Shinn只有23岁。2026年8月26日，它完成2.5亿美元B轮融资，累计融资约3.5亿美元，估值25亿美元；33天后的9月28日，它又融资10亿美元，...... 本文来自微信公众号： 孤独大脑 ，作者：老喻的，原文标题：《关于 AI Agent、信任与决策权的 100 条》 一..."
+  },
+  {
+   "rank": 18,
+   "title": "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/010/318.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "zhidx"
+   ],
+   "titles": [
+    "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
+    "首款RTX Spark电脑，开卖！可跑1200亿参数大模型"
+   ],
+   "published_at": "2026-10-07T18:22:04+00:00",
+   "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，黄仁勋表示英伟达正推动一种以本地设备为核心的 AI 计算模式。 黄仁勋称：“ 这是全球唯一一台能够在设备端原生运行一切应用的电脑 。”他同时表示，几乎所有笔记本电脑、台式机和工作站厂商都已加入英伟达的合作阵营。 黄仁勋还借此强调英伟达正在构建的硬件生态：从轻量化 AI PC，到面向开发者和专业用..."
+  },
+  {
+   "rank": 19,
+   "title": "tencent/EVIE-4.5B",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/tencent/EVIE-4.5B",
+   "score": 5.04,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "tencent/EVIE-4.5B"
+   ],
+   "published_at": "2026-10-08T03:37:40.000000+00:00",
+   "summary": "visual-document-retrieval, colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka, vidore, token-compression, sentence-transformers, dataset:vidore/vidore_benchmark, da..."
+  },
+  {
+   "rank": 20,
    "title": "北大数院校友出手，ChatGPT代写，要「实名」了",
    "lang": "zh",
    "region": "cn",
@@ -297,54 +358,6 @@
    ],
    "published_at": "2026-10-08T00:26:41.000000+00:00",
    "summary": "刚刚，ChatGPT写的字里，要开始逐词「埋暗号」了！ 这套水印叫textGrain。模型每挑一个词，都会悄悄掺进一把只有OpenAI知道的密钥。 肉眼看不出任何痕迹，读起来和原来没有两样，可检测器一扫，立刻就能认出这段话是不是出自OpenAI的模型。 从此，你让AI代写的作业、简历、周报，只要原样复制粘贴，就可能被当场认出来。 划重点，这次发布最关键的有四条。 1. 即刻生效 ：全球API客户今天就能自行开启水印，ChatGPT和Co..."
-  },
-  {
-   "rank": 18,
-   "title": "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/010/313.htm",
-   "score": 3.5,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存"
-   ],
-   "published_at": "2026-10-07T17:56:19+00:00",
-   "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，英伟达发布 DGX Station for Windows， 定位为桌面级 AI 超级计算机，旨在让开发者、研究人员和数据科学团队在本地运行大规模 AI 模型，将于 2026 年第四季度上市。 IT之家援引博文介绍，DGX Station 搭载 NVIDIA GB300 Grace Blackw..."
-  },
-  {
-   "rank": 19,
-   "title": "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/010/325.htm",
-   "score": 3.5,
-   "sources": [
-    "ithome"
-   ],
-   "titles": [
-    "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等"
-   ],
-   "published_at": "2026-10-07T21:56:07+00:00",
-   "summary": "IT之家 10 月 8 日消息，微软昨日（10 月 7 日）更新推出 Visual Studio Code 1.141，本次更新聚焦 AI 智能体（Agent）工作流管理， 重点改进会话存储清理、跨平台沙盒安全、多会话并排布局，以及多 GitHub Enterprise 实例登录支持。 清理“僵尸”Agent 会话方面，新版增加 Chat: Open Worktree Cleanup 命令，可列出所有非活跃 Agent 会话的工作树（w..."
-  },
-  {
-   "rank": 20,
-   "title": "“星火传明”完成A轮融资",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/4016540259160199",
-   "score": 3.5,
-   "sources": [
-    "36kr-newsflash"
-   ],
-   "titles": [
-    "“星火传明”完成A轮融资"
-   ],
-   "published_at": "2026-10-08T01:16:02.000000+00:00",
-   "summary": "36氪获悉，商业红外遥感企业“星火传明”完成A轮融资。按照公司规划，本轮融资资金将主要用于高分辨率红外载荷与星地激光通信地面站产线建设及批产、在轨星座组网，以及星上AI计算与算法迭代。"
   }
  ]
 }
