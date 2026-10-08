@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-07T22:09:16.773500+00:00",
+ "generated_at": "2026-10-08T02:08:29.972345+00:00",
  "stats": {
-  "items": 1646,
-  "clusters": 1312,
-  "noise": 418,
-  "dup": 118,
+  "items": 1671,
+  "clusters": 1311,
+  "noise": 397,
+  "dup": 138,
   "history_days": 0,
-  "available_cn": 57,
-  "available_intl": 719,
+  "available_cn": 65,
+  "available_intl": 711,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,357 +16,335 @@
  "items": [
   {
    "rank": 1,
-   "title": "GPT-6 and Intelligent UI for everyone",
+   "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/gpt-6-for-everyone",
-   "score": 10.0,
+   "url": "https://arxiv.org/abs/2610.08699",
+   "score": 6.69,
    "sources": [
-    "openai-news",
-    "the-decoder",
-    "theverge-ai"
+    "hf-daily-papers",
+    "hackernews-ai"
    ],
    "titles": [
-    "GPT-6 and Intelligent UI for everyone",
-    "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps",
-    "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons"
+    "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+    "Show HN: NanoMuse – An open-source AI agent for your phone and computer"
    ],
-   "published_at": "2026-10-07T00:00:00.000000+00:00",
-   "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly."
+   "published_at": "2026-10-05T20:00:00.000000+00:00",
+   "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, i..."
   },
   {
    "rank": 2,
-   "title": "Does Steering Break Your Model? A Multi-Dimensional Evaluation Suite for LLM Steering Methods",
+   "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.07722",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Does Steering Break Your Model? A Multi-Dimensional Evaluation Suite for LLM Steering Methods",
-    "Beyond Marginals: A Multi-Dimensional Evaluation Framework for Multi-Table Synthetic Data Generation",
-    "Beyond the Leaderboard: Multi-Dimensional Evaluation of Dense and Mixture-of-Experts Models for Automated Program Repair"
-   ],
-   "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.07722v1 Announce Type: new Abstract: Activation steering provides a lightweight and flexible way to control large language model (LLM) behavior. However, effective steering requires more than inducing the inte..."
-  },
-  {
-   "rank": 3,
-   "title": "The Failure Is in the Readout: Fine-Grained Emotion Recognition Benchmarks Measure Elicitation, Not Perception",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.08162",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "The Failure Is in the Readout: Fine-Grained Emotion Recognition Benchmarks Measure Elicitation, Not Perception",
-    "Unlocking Fine-Grained Perception in CLIP via Structurally-Aware Latent Masked Modeling"
-   ],
-   "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.08162v1 Announce Type: cross Abstract: Fine-grained emotion recognition supports therapy tools and social robots, but it needs facial data, which raises privacy and data-protection concerns. EmoNet-Face-HQ ans..."
-  },
-  {
-   "rank": 4,
-   "title": "Cross-Cultural Value Attribution in Large Vision-Language Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2604.09945",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "Cross-Cultural Value Attribution in Large Vision-Language Models",
-    "Cultural Counterfactuals: Evaluating Cultural Biases in Large Vision-Language Models with Counterfactual Examples"
-   ],
-   "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2604.09945v3 Announce Type: replace-cross Abstract: The rapid adoption of large vision-language models (LVLMs) in recent years has been accompanied by growing fairness concerns due to their propensity to reinforce..."
-  },
-  {
-   "rank": 5,
-   "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+   "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
    "score": 6.0,
    "sources": [
-    "microsoft-research",
-    "baai-hub"
-   ],
-   "titles": [
-    "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-    "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses"
-   ],
-   "published_at": "2026-10-07T16:00:00.000000+00:00",
-   "summary": "At a glance Harnessed Agentic RL: Microsoft Research Asia introduces a training paradigm in which the same agent harness used in deployment participates directly in reinforcement learning, removing the need to reimplemen..."
-  },
-  {
-   "rank": 6,
-   "title": "SpaceX Seeks To Join AI Borrowing Bonanza",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-07/spacex-seeks-to-join-ai-borrowing-bonanza-video",
-   "score": 6.0,
-   "sources": [
-    "bloomberg-tech",
+    "cnbc-tech",
     "ft-tech"
    ],
    "titles": [
-    "SpaceX Seeks To Join AI Borrowing Bonanza",
-    "SpaceX credit risk jumps on worries over its borrowing spree"
+    "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+    "Samsung profit surges ninefold to $80bn on AI chip demand"
    ],
-   "published_at": "2026-10-07T11:49:08.000000+00:00",
-   "summary": "SpaceX is joining the AI borrowing bonanza — seeking $40 billion to secure Nvidia chips. Peter Elstrom explains. (Source: Bloomberg)"
+   "published_at": "2026-10-08T00:51:23.000000+00:00",
+   "summary": "Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time."
+  },
+  {
+   "rank": 3,
+   "title": "allenai/Bolmo-7B",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/allenai/Bolmo-7B",
+   "score": 5.28,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "allenai/Bolmo-7B"
+   ],
+   "published_at": "2026-10-07T14:40:28.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, bolmo, custom_code, en, dataset:allenai/bolmo_mix, arxiv:2512.15586, base_model:allenai/Bolmo-7B-Stage1, base_model:finetune:allenai/Bolmo-7B-Stage1, license:apache-2.0, region..."
+  },
+  {
+   "rank": 4,
+   "title": "allenai/Bolmo-1B",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/allenai/Bolmo-1B",
+   "score": 5.21,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "allenai/Bolmo-1B"
+   ],
+   "published_at": "2026-10-07T14:40:47.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, bolmo, custom_code, en, dataset:allenai/bolmo_mix, arxiv:2512.15586, base_model:allenai/Bolmo-1B-Stage1, base_model:finetune:allenai/Bolmo-1B-Stage1, license:apache-2.0, region..."
+  },
+  {
+   "rank": 5,
+   "title": "Calibrated Answers About Randomized Trials From a 4-Billion-Parameter Open Model: A Registered Test and a License-Clean Release",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.07019",
+   "score": 4.0,
+   "sources": [
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "Calibrated Answers About Randomized Trials From a 4-Billion-Parameter Open Model: A Registered Test and a License-Clean Release"
+   ],
+   "published_at": "2026-10-07T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.07019v1 Announce Type: new Abstract: Fiorillo v0.5 is an open model that answers typed questions with a probability for each answer. Its main specialist reads a randomized trial's article, cut to 6,144 tokens,..."
+  },
+  {
+   "rank": 6,
+   "title": "Jailbreaking Open-Weight LLMs via Random Embedding Perturbations",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.07125",
+   "score": 4.0,
+   "sources": [
+    "arxiv-cs-cl"
+   ],
+   "titles": [
+    "Jailbreaking Open-Weight LLMs via Random Embedding Perturbations"
+   ],
+   "published_at": "2026-10-07T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.07125v1 Announce Type: cross Abstract: While open-weight models have enjoyed steady progress in capabilities and wide adoption across multiple domains, their safety remains an important concern. One key featur..."
   },
   {
    "rank": 7,
-   "title": "Building Rome from a Single Image",
+   "title": "Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.08790",
-   "score": 5.55,
+   "url": "https://arxiv.org/abs/2504.18225",
+   "score": 4.0,
    "sources": [
-    "arxiv-cs-cv",
-    "hackernews-ai"
+    "arxiv-cs-cl"
    ],
    "titles": [
-    "Building Rome from a Single Image",
-    "Building Rome from a Single Image"
+    "Even Small Reasoners Should Quote Their Sources: Introducing the Pleias-RAG Model Family"
    ],
    "published_at": "2026-10-07T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.08790v1 Announce Type: new Abstract: Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object genera..."
+   "summary": "arXiv:2504.18225v2 Announce Type: replace Abstract: We introduce a new generation of small reasoning models for RAG, search, and source summarization. Pleias-RAG-350m and Pleias-RAG-1B are mid-trained on a large syntheti..."
   },
   {
    "rank": 8,
-   "title": "CohereLabs/cohere-transcribe-03-2026",
+   "title": "What’s next that AI is coming for?",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-   "score": 5.5,
+   "url": "https://i.redd.it/bvo3wid8pyth1.jpeg",
+   "score": 3.63,
    "sources": [
-    "hf-models-intl"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "CohereLabs/cohere-transcribe-03-2026"
+    "What’s next that AI is coming for?",
+    "AI, Work, and the Next Downturn"
    ],
-   "published_at": "2026-10-07T11:55:35.000000+00:00",
-   "summary": "automatic-speech-recognition, transformers, safetensors, cohere_asr, audio, hf-asr-leaderboard, speech-recognition, transcription, custom_code, ar, de, el, en, es, fr, it, ja, ko, nl, pl, pt, vi, zh, doi:10.57967/hf/8653..."
+   "published_at": "2026-10-07T03:09:53.000000+00:00",
+   "summary": "I see a lot of memes going around about dropping coding as a career in 2024 as missing the boarding on the Titanic. What will be thought of as the same in the future for 2026/2027? Btw: I don’t think knowing computer sci..."
   },
   {
    "rank": 9,
-   "title": "LiquidAI/d1-3B",
+   "title": "Faster Scientific Image Analysis with NVIDIA cuPhoton",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/LiquidAI/d1-3B",
-   "score": 5.36,
+   "url": "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton/",
+   "score": 3.5,
    "sources": [
-    "hf-models-intl"
+    "nvidia-developer"
    ],
    "titles": [
-    "LiquidAI/d1-3B"
+    "Faster Scientific Image Analysis with NVIDIA cuPhoton"
    ],
-   "published_at": "2026-10-07T20:23:00.000000+00:00",
-   "summary": "image-text-to-text, transformers, safetensors, lfm2_vl, liquid, lfm2.5, edge, decision, classification, calibration, system-one, multimodal, decision-model, conversational, custom_code, ar, zh, en, fr, de, hi, id, it, ja..."
+   "published_at": "2026-10-07T15:00:00.000000+00:00",
+   "summary": "Observatories and telescopes, lasers and X-ray light sources, and other high-throughput instruments generate image data faster than CPU-bound pipelines can... Observatories and telescopes, lasers and X-ray light sources,..."
   },
   {
    "rank": 10,
-   "title": "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
+   "title": "Building AI builders: Playbook for closing the AI knowledge-capability gap",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
-   "score": 5.07,
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap/",
+   "score": 3.5,
    "sources": [
-    "guardian-ai",
-    "hackernews-ai"
+    "aws-ml-blog"
    ],
    "titles": [
-    "McDonald’s sued for allegedly using AI tool to determine pricing for franchises",
-    "McDonald's sued over AI tool that recommends prices to US franchisees"
+    "Building AI builders: Playbook for closing the AI knowledge-capability gap"
    ],
-   "published_at": "2026-10-07T11:00:08.000000+00:00",
-   "summary": "Suit says AI tool allows independently owned franchises to exchange nonpublic price and sales information McDonald’s is facing a lawsuit in federal court over its alleged use of an AI tool to determine pricing across ind..."
+   "published_at": "2026-10-07T15:44:27.000000+00:00",
+   "summary": "The biggest barrier to AI adoption isn’t awareness. It’s the gap between talking about AI and building with it. Professionals whose primary role isn’t writing code, but whose daily work increasingly depends on AI solutio..."
   },
   {
    "rank": 11,
-   "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
+   "title": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
-   "score": 5.0,
+   "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+   "score": 3.5,
    "sources": [
-    "theverge-ai",
-    "reddit-ai-new"
+    "nvidia-developer"
    ],
    "titles": [
-    "Surface RTX Spark Dev Box is available for preorder for $5,999",
-    "Surface RTX Spark Dev Box: The Dev Box Built For Developers"
+    "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt"
    ],
-   "published_at": "2026-10-07T17:46:44.000000+00:00",
-   "summary": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices..."
+   "published_at": "2026-10-07T15:45:00.000000+00:00",
+   "summary": "Supply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real... Supply chain problems are expanding across more SKUs, la..."
   },
   {
    "rank": 12,
-   "title": "Introducing Playground: Create and play custom games",
+   "title": "Beyond hours saved: Building the business case for agentic automation",
    "lang": "en",
    "region": "intl",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-   "score": 4.5,
+   "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+   "score": 3.5,
    "sources": [
-    "google-ai-blog"
+    "aws-ml-blog"
    ],
    "titles": [
-    "Introducing Playground: Create and play custom games"
+    "Beyond hours saved: Building the business case for agentic automation"
    ],
-   "published_at": "2026-10-07T12:00:00.000000+00:00",
-   "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games."
+   "published_at": "2026-10-07T15:50:00.000000+00:00",
+   "summary": "Agentic automation, software that reasons and adapts to complete tasks, is showing up on AI center of excellence (AI CoE) roadmaps. But the standard way companies justify automation investments, hours saved times labor c..."
   },
   {
    "rank": 13,
-   "title": "Mistral Large 4",
+   "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.producthunt.com/products/mistral-7b",
-   "score": 4.5,
+   "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/",
+   "score": 3.5,
    "sources": [
-    "producthunt-ai",
-    "reddit-ai-new"
+    "nvidia-developer"
    ],
    "titles": [
-    "Mistral Large 4",
-    "Europe rejoins the fight with Chonky! Mistral Large 4 Released, Open weights end of month, who’s ready?"
+    "Validate AI Factory Changes with Digital Twins and AI Agents"
    ],
-   "published_at": "2026-10-06T15:07:45.000000+00:00",
-   "summary": "Mistral's 1T parameter open weight frontier model Discussion | Link"
+   "published_at": "2026-10-07T16:00:00.000000+00:00",
+   "summary": "AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration... AI factories are some of the most complex operations in the wo..."
   },
   {
    "rank": 14,
-   "title": "Strands Decider 2B: a small, open-source, decision model",
+   "title": "Multimodal open d1 decision models for the edge",
    "lang": "en",
    "region": "intl",
-   "url": "https://strandsagents.com/blog/introducing-strands-decider/",
-   "score": 3.66,
+   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+   "score": 3.5,
    "sources": [
-    "hackernews-ai"
+    "huggingface-blog"
    ],
    "titles": [
-    "Strands Decider 2B: a small, open-source, decision model"
+    "Multimodal open d1 decision models for the edge"
    ],
-   "published_at": "2026-10-07T02:02:11.000000+00:00",
-   "summary": "Strands Decider 2B is a small, open source, decision model optimized for fast experimentation, local development, and innovation."
+   "published_at": "2026-10-07T16:54:33.000000+00:00",
+   "summary": "A Blog post by Liquid AI on Hugging Face"
   },
   {
    "rank": 15,
-   "title": "谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存",
+   "title": "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/010/125.htm",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/010/318.htm",
+   "score": 6.0,
    "sources": [
     "ithome",
-    "reddit-ai-hot"
+    "zhidx"
    ],
    "titles": [
-    "谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存",
-    "Image-text retrieval with EmbeddingGemma 2's vision tower, running in the browser on WebGPU"
+    "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
+    "首款RTX Spark电脑，开卖！可跑1200亿参数大模型"
    ],
-   "published_at": "2026-10-06T22:41:19+00:00",
-   "summary": "IT之家 10 月 7 日消息，去年谷歌推出了 EmbeddingGemma，为开发者提供轻量高质量的文本嵌入方案，下载量已超 2000 万次，广泛应用于端侧搜索工具和隐私优先检索增强生成（ RAG ）管线。 如今谷歌正式推出 EmbeddingGemma 2 ，将能力从文本扩展到代码、图像、视频、音频，可将这些内容统一映射到同一个嵌入空间。 IT之家援引博文介绍，该模型基于 Gemma 4 架构开发，采用商业友好的 Apache 2...."
+   "published_at": "2026-10-07T18:22:04+00:00",
+   "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，黄仁勋表示英伟达正推动一种以本地设备为核心的 AI 计算模式。 黄仁勋称：“ 这是全球唯一一台能够在设备端原生运行一切应用的电脑 。”他同时表示，几乎所有笔记本电脑、台式机和工作站厂商都已加入英伟达的合作阵营。 黄仁勋还借此强调英伟达正在构建的硬件生态：从轻量化 AI PC，到面向开发者和专业用..."
   },
   {
    "rank": 16,
-   "title": "谷歌 AI 图像模型 Nano Banana 2.1 发布，提升视觉设计、蒙版编辑、主体一致性",
+   "title": "谁在捧杀Utopai X？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/010/149.htm",
+   "url": "https://www.tmtpost.com/8160338.html",
    "score": 5.5,
    "sources": [
-    "ithome",
-    "producthunt-ai"
-   ],
-   "titles": [
-    "谷歌 AI 图像模型 Nano Banana 2.1 发布，提升视觉设计、蒙版编辑、主体一致性",
-    "豆包登陆华为鸿蒙电脑端，首版本搭载 2.1 Turbo / Pro 模型",
-    "Nano Banana 2.1"
-   ],
-   "published_at": "2026-10-07T01:01:58+00:00",
-   "summary": "IT之家 10 月 7 日消息，谷歌于今日正式发布了 Nano Banana 2.1，这是该公司 AI 图像生成与编辑模型的升级版本。谷歌强调，新版 Nano Banana 2.1 实现了全方位提升，在视觉设计、基于蒙版的图像编辑以及主体一致性这几方面的进步尤为突出。 今年早些时候，谷歌推出了 Nano Banana 2，也被称作 Gemini 3.1 Flash Image。Nano Banana 2 在拥有谷歌 Flash 系列模型..."
-  },
-  {
-   "rank": 17,
-   "title": "为什么ChatGPT总爱在标题里塞色情赌博小广告？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4895612.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
+    "tmtpost",
     "36kr-ai"
    ],
    "titles": [
-    "为什么ChatGPT总爱在标题里塞色情赌博小广告？",
-    "为什么 ChatGPT 总爱在标题里塞色情赌博小广告？"
+    "谁在捧杀Utopai X？",
+    "谁在捧杀Utopai X？"
    ],
-   "published_at": "2026-10-07T04:45:57.000000+00:00",
-   "summary": "“我们必须想象西西弗斯是……成人娱乐主管？！”如果你是 ChatGPT 的高频用户，想必从今年 8 月开始，就碰上过一种神秘现象：ChatGPT 偶尔会在自动生成的会话标题最后，加上一些意义不明的外语单词，或是来自赌博、色情小广告的片段。图｜OpenAI D...... 本文来自微信公众号： 爱范儿 ，作者：彭海星，编辑：肖钦鹏，题图来自：AI生成 “我们必须想象西西弗斯是……成人娱乐主管？！” 如果你是 ChatGPT 的高频用户，想..."
+   "published_at": "2026-10-07T09:42:07+00:00",
+   "summary": "文 | 针尖 一场中文媒体报道乌龙，正在把一家美国创业公司推向“捧杀”的公关灾难。 2026年9月30日，美国独立评测机构Artificial Analysis发布文生视频模型排行榜，一家名不见经传的小模型Utopai X力压Seedance2.5、MiniMaxH3等一众热门选手位列全球第二，仅次于Wan 3.0，同时也是该榜排名最高的美国公司模型。 随后，中文媒体开始竞相报道，“全球最大独立AI原生影视公司”、“自研定制模型”、“A..."
   },
   {
-   "rank": 18,
-   "title": "突发，Claude拿下概率论「圣杯」，AI跨过菲尔兹奖终点线",
+   "rank": 17,
+   "title": "北大数院校友出手，ChatGPT代写，要「实名」了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4015346980278153",
-   "score": 5.5,
+   "url": "https://www.36kr.com/p/4016422512382086",
+   "score": 5.0,
    "sources": [
     "36kr-ai",
     "baai-hub"
    ],
    "titles": [
-    "突发，Claude拿下概率论「圣杯」，AI跨过菲尔兹奖终点线",
-    "突发！Claude中文版悄悄上线了"
+    "北大数院校友出手，ChatGPT代写，要「实名」了",
+    "北大数院校友出手！ChatGPT代写，要「实名」了"
    ],
-   "published_at": "2026-10-07T06:59:49.000000+00:00",
-   "summary": "2026年8月30日，概率论大师、2022年菲尔兹奖得主Hugo Duminil-Copin略带忧伤地写道： 在我们这个领域，最著名的那个猜想倒在推土机（AI）的轰鸣之下，恐怕只是个时间问题了。 他谈论的是数学界半个多世纪的概率论「圣杯级」难题—— 渗流理论中的连续相变猜想（ 猜想） 。 为了这道题，这位菲尔兹奖得主倾注了数年心血，屡败屡战。 但让所有人都未曾料到的是： 现实的剧情，比预言还要魔幻。 几乎就在他的文章发出的同时，同行们突..."
+   "published_at": "2026-10-08T00:26:41.000000+00:00",
+   "summary": "刚刚，ChatGPT写的字里，要开始逐词「埋暗号」了！ 这套水印叫textGrain。模型每挑一个词，都会悄悄掺进一把只有OpenAI知道的密钥。 肉眼看不出任何痕迹，读起来和原来没有两样，可检测器一扫，立刻就能认出这段话是不是出自OpenAI的模型。 从此，你让AI代写的作业、简历、周报，只要原样复制粘贴，就可能被当场认出来。 划重点，这次发布最关键的有四条。 1. 即刻生效 ：全球API客户今天就能自行开启水印，ChatGPT和Co..."
   },
   {
-   "rank": 19,
-   "title": "可灵上市，快手如何自洽",
+   "rank": 18,
+   "title": "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4015326443329157",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "可灵上市，快手如何自洽",
-    "可灵上市，快手如何自洽"
-   ],
-   "published_at": "2026-10-07T07:08:21.000000+00:00",
-   "summary": "可灵如果独立上市，快手需要给投资者一个继续持有母公司的理由。 只看好AI视频的资金，将有机会直接购买可灵股票。买快手，则意味着同时接受它的广告、电商、直播，以及管理层接下来怎样使用这些业务赚到的钱。快手可以继续控制可灵，却可能失去一部分只想投资可灵的买家。 10月6日，据IT之家援引彭博报道，可灵已选定中金、高盛和瑞银筹备香港IPO，可能募资至少10亿美元，目标最早在2027年上市，时间和规模仍可能调整。 上市方向此前已有消息，这次更具..."
-  },
-  {
-   "rank": 20,
-   "title": "谷歌携手 Unity 推出 AI 游戏平台 Playground：支持自然语言创作，降低开发门槛",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/010/289.htm",
+   "url": "https://www.ithome.com/1/010/313.htm",
    "score": 3.5,
    "sources": [
     "ithome"
    ],
    "titles": [
-    "谷歌携手 Unity 推出 AI 游戏平台 Playground：支持自然语言创作，降低开发门槛"
+    "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存"
    ],
-   "published_at": "2026-10-07T14:09:43+00:00",
-   "summary": "IT之家 10 月 7 日消息，谷歌今日宣布与 Unity 达成合作，推出实验性 AI 游戏平台 Playground。用户可在此凭借简短的提示词创建游戏，大大降低游戏开发门槛。 IT之家了解到，Playground 采用对话式界面设计，用户只需要输入需要构建的内容，就可以指导 AI 开发游戏。得到初稿后可以进一步调整物理效果、修改游戏规则或自定义角色。 Playground 基于浏览器运行，支持电脑、手机等设备。一款游戏做好后，用户可..."
+   "published_at": "2026-10-07T17:56:19+00:00",
+   "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，英伟达发布 DGX Station for Windows， 定位为桌面级 AI 超级计算机，旨在让开发者、研究人员和数据科学团队在本地运行大规模 AI 模型，将于 2026 年第四季度上市。 IT之家援引博文介绍，DGX Station 搭载 NVIDIA GB300 Grace Blackw..."
+  },
+  {
+   "rank": 19,
+   "title": "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/010/325.htm",
+   "score": 3.5,
+   "sources": [
+    "ithome"
+   ],
+   "titles": [
+    "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等"
+   ],
+   "published_at": "2026-10-07T21:56:07+00:00",
+   "summary": "IT之家 10 月 8 日消息，微软昨日（10 月 7 日）更新推出 Visual Studio Code 1.141，本次更新聚焦 AI 智能体（Agent）工作流管理， 重点改进会话存储清理、跨平台沙盒安全、多会话并排布局，以及多 GitHub Enterprise 实例登录支持。 清理“僵尸”Agent 会话方面，新版增加 Chat: Open Worktree Cleanup 命令，可列出所有非活跃 Agent 会话的工作树（w..."
+  },
+  {
+   "rank": 20,
+   "title": "“星火传明”完成A轮融资",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/4016540259160199",
+   "score": 3.5,
+   "sources": [
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "“星火传明”完成A轮融资"
+   ],
+   "published_at": "2026-10-08T01:16:02.000000+00:00",
+   "summary": "36氪获悉，商业红外遥感企业“星火传明”完成A轮融资。按照公司规划，本轮融资资金将主要用于高分辨率红外载荷与星地激光通信地面站产线建设及批产、在轨星座组网，以及星上AI计算与算法迭代。"
   }
  ]
 }
