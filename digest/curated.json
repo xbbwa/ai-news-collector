@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-08T16:42:13.333292+00:00",
+ "generated_at": "2026-10-08T22:16:40.596749+00:00",
  "stats": {
-  "items": 2179,
-  "clusters": 1668,
-  "noise": 491,
-  "dup": 166,
+  "items": 1931,
+  "clusters": 1552,
+  "noise": 421,
+  "dup": 153,
   "history_days": 0,
-  "available_cn": 121,
-  "available_intl": 890,
+  "available_cn": 119,
+  "available_intl": 859,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -91,6 +91,24 @@
   },
   {
    "rank": 5,
+   "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+   "score": 5.61,
+   "sources": [
+    "arstechnica-ai",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Microsoft event debuts new AI-friendly hardware and Windows changes",
+    "100 days later: Microsoft still steers Windows and Copilot users to Edge"
+   ],
+   "published_at": "2026-10-08T00:00:24.000000+00:00",
+   "summary": "In its first live event in two years, Microsoft today announced its newest Surface laptop, outlined a host of changes coming to Windows 11, and shared a vision of how local-AI and agentic workflows could reshape personal..."
+  },
+  {
+   "rank": 6,
    "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
    "lang": "en",
    "region": "intl",
@@ -106,22 +124,6 @@
    ],
    "published_at": "2026-10-08T00:51:23.000000+00:00",
    "summary": "Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time."
-  },
-  {
-   "rank": 6,
-   "title": "Lightricks/LTX-2.5-Diffusers",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/Lightricks/LTX-2.5-Diffusers",
-   "score": 5.44,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "Lightricks/LTX-2.5-Diffusers"
-   ],
-   "published_at": "2026-10-08T07:15:54.000000+00:00",
-   "summary": "text-to-video, diffusers, safetensors, image-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vi..."
   },
   {
    "rank": 7,
@@ -141,24 +143,40 @@
   },
   {
    "rank": 8,
-   "title": "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months",
+   "title": "Lightricks/LTX-2.5-Diffusers",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.nytimes.com/2026/10/07/arts/music/ai-music-fraud-royalties-sentence.html",
-   "score": 4.55,
+   "url": "https://huggingface.co/Lightricks/LTX-2.5-Diffusers",
+   "score": 4.94,
    "sources": [
-    "nyt-tech",
-    "hackernews-ai"
+    "hf-models-intl"
    ],
    "titles": [
-    "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months",
-    "Man Sentenced to 18 Months in Prison for AI Music Streaming Fraud"
+    "Lightricks/LTX-2.5-Diffusers"
    ],
-   "published_at": "2026-10-07T19:54:44.000000+00:00",
-   "summary": "The case against Michael Smith, 54, was the Justice Department’s first involving fraud through A.I.-assisted music streaming. Mr. Smith used as many as 10,000 bot accounts to stream his music, the department said."
+   "published_at": "2026-10-08T07:15:54.000000+00:00",
+   "summary": "text-to-video, diffusers, safetensors, image-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vi..."
   },
   {
    "rank": 9,
+   "title": "jevman: AI decision models play Pac-Man",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://v.redd.it/3pxtsqzo69uh1",
+   "score": 4.12,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "jevman: AI decision models play Pac-Man",
+    "Show HN: Jevman – AI decision models play Pac-Man"
+   ],
+   "published_at": "2026-10-08T14:37:15.000000+00:00",
+   "summary": "The other week I posted about Jev vs. Kev compared and since then, OpenAI released the decisions endpoint, Cloudflare released Clef and many here asked about Laya as well. This time we compared six popular decision model..."
+  },
+  {
+   "rank": 10,
    "title": "Introducing Falcon ASR",
    "lang": "en",
    "region": "intl",
@@ -174,7 +192,23 @@
    "summary": "A Blog post by Technology Innovation Institute on Hugging Face"
   },
   {
-   "rank": 10,
+   "rank": 11,
+   "title": "Introducing the Anthropic Cyber Mission",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+   "score": 4.0,
+   "sources": [
+    "anthropic-news"
+   ],
+   "titles": [
+    "Introducing the Anthropic Cyber Mission"
+   ],
+   "published_at": "2026-10-07T16:00:00.000000+00:00",
+   "summary": "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure..."
+  },
+  {
+   "rank": 12,
    "title": "Innovation in Ireland: How Irish brands scale with Gemini Enterprise",
    "lang": "en",
    "region": "intl",
@@ -190,70 +224,36 @@
    "summary": "In recent decades, Ireland has grown into a vibrant hub for global technology. As modernization accelerates, Irish organizations — spanning government agencies, established enterprise brands, and growing startups in AI a..."
   },
   {
-   "rank": 11,
-   "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
-   "score": 3.5,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA"
-   ],
-   "published_at": "2026-10-08T05:39:09+00:00",
-   "summary": "Perplexity has released pplx-embed-v2-late , a pair of ColBERT-style multimodal embedding models. They come in 2 sizes: 0.6B for fast, cheap queries and 9B for maximum quality. Both models retrieve text, images and rende..."
-  },
-  {
-   "rank": 12,
-   "title": "Kroma 0.3.1 - full turbo opd model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/StableDiffusion/comments/1x05wa9/kroma_031_full_turbo_opd_model/",
-   "score": 3.5,
-   "sources": [
-    "reddit-ai-new",
-    "reddit-ai-hot"
-   ],
-   "titles": [
-    "Kroma 0.3.1 - full turbo opd model",
-    "Kroma 0.3.1 is really good"
-   ],
-   "published_at": "2026-10-07T19:32:42.000000+00:00",
-   "summary": "When Chroma and Krea2 meet: the Krea2 model has been fine-tuned on the Chroma dataset. What OPD is: v0.3.1 was distilled on-policy . Instead of the classic offline recipe — imitating the teacher on a fixed sampling sched..."
-  },
-  {
    "rank": 13,
-   "title": "Helping teens learn, plan, and shape the future of AI",
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/teens-learn-and-plan",
-   "score": 3.0,
+   "url": "https://openai.com/index/pollo-ai",
+   "score": 3.5,
    "sources": [
     "openai-news"
    ],
    "titles": [
-    "Helping teens learn, plan, and shape the future of AI"
+    "Pollo AI turns creative ideas into campaigns with OpenAI"
    ],
-   "published_at": "2026-10-07T12:00:00.000000+00:00",
-   "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council."
+   "published_at": "2026-10-08T12:00:00.000000+00:00",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
   },
   {
    "rank": 14,
-   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+   "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-   "score": 3.0,
+   "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+   "score": 3.5,
    "sources": [
-    "huggingface-blog"
+    "nvidia-developer"
    ],
    "titles": [
-    "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO"
+    "Building Reliable Data Analytics Agents: Lessons from the KDD Cup"
    ],
-   "published_at": "2026-10-07T12:45:31.000000+00:00",
-   "summary": "A Blog post by NVIDIA on Hugging Face"
+   "published_at": "2026-10-08T18:30:02.000000+00:00",
+   "summary": "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,... The NVIDIA KGMON team placed second in the KDD Cup 2026 Da..."
   },
   {
    "rank": 15,
@@ -261,7 +261,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://zhidx.com/p/599076.html",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "zhidx",
     "36kr-ai"
@@ -279,7 +279,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/010/562.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "36kr-newsflash"
@@ -297,7 +297,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.huxiu.com/article/4895872.html",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "huxiu",
     "tmtpost"
@@ -311,42 +311,6 @@
   },
   {
    "rank": 18,
-   "title": "关于AI Agent、信任与决策权的100条",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4895693.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "关于AI Agent、信任与决策权的100条",
-    "关于 AI Agent、信任与决策权的 100 条"
-   ],
-   "published_at": "2026-10-07T15:41:58.000000+00:00",
-   "summary": "一、十四个人，一百亿美元1、最近硅谷有一家叫Instinct的公司，很适合拿来观察AI应用层正在发生什么。Instinct成立于2025年，创始人Noah Shinn只有23岁。2026年8月26日，它完成2.5亿美元B轮融资，累计融资约3.5亿美元，估值25亿美元；33天后的9月28日，它又融资10亿美元，...... 本文来自微信公众号： 孤独大脑 ，作者：老喻的，原文标题：《关于 AI Agent、信任与决策权的 100 条》 一..."
-  },
-  {
-   "rank": 19,
-   "title": "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/010/318.htm",
-   "score": 5.5,
-   "sources": [
-    "ithome",
-    "zhidx"
-   ],
-   "titles": [
-    "英伟达黄仁勋：已测超 1200 款应用，RTX Spark 是全球唯一本地原生运行所有应用的电脑",
-    "首款RTX Spark电脑，开卖！可跑1200亿参数大模型"
-   ],
-   "published_at": "2026-10-07T18:22:04+00:00",
-   "summary": "IT之家 10 月 8 日消息，太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，黄仁勋表示英伟达正推动一种以本地设备为核心的 AI 计算模式。 黄仁勋称：“ 这是全球唯一一台能够在设备端原生运行一切应用的电脑 。”他同时表示，几乎所有笔记本电脑、台式机和工作站厂商都已加入英伟达的合作阵营。 黄仁勋还借此强调英伟达正在构建的硬件生态：从轻量化 AI PC，到面向开发者和专业用..."
-  },
-  {
-   "rank": 20,
    "title": "tencent/EVIE-4.5B",
    "lang": "en",
    "region": "cn",
@@ -360,6 +324,40 @@
    ],
    "published_at": "2026-10-08T03:37:40.000000+00:00",
    "summary": "visual-document-retrieval, colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka, vidore, token-compression, sentence-transformers, dataset:vidore/vidore_benchmark, da..."
+  },
+  {
+   "rank": 19,
+   "title": "消息称三星电子计划斥资超 100 万亿越南盾在越建设 2 座半导体后端测试工厂",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/010/640.htm",
+   "score": 4.5,
+   "sources": [
+    "ithome",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "消息称三星电子计划斥资超 100 万亿越南盾在越建设 2 座半导体后端测试工厂",
+    "I’ve trained 100+ Krea 2 character LoRAs. Here’s what actually determines likeness."
+   ],
+   "published_at": "2026-10-08T09:56:20+00:00",
+   "summary": "IT之家 10 月 8 日消息，据《首尔经济新闻》韩国当地时间 10 月 5 日报道，三星电子向越南太原省政府递交的文件显示，这家韩国半导体巨头计划在当地建设 2 座半导体后端测试工厂。 这两座工厂位于太原省的安平工业园区， 总投资规模达到 105.7944 万亿越南盾 （IT之家注：现汇率约合 272.95 亿元人民币） 。三星电子此前已在该园区运营智能手机生产线。 布局越南测试产能 有助于提升三星电子业务链条的韧性 ，减少单点事故对..."
+  },
+  {
+   "rank": 20,
+   "title": "Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.oschina.net/news/502896",
+   "score": 3.5,
+   "sources": [
+    "oschina"
+   ],
+   "titles": [
+    "Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布"
+   ],
+   "published_at": "2026-10-08T10:58:08+00:00",
+   "summary": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant Design Vue 的零代码平台开发模式。包含 100 多种电子流程，CRM、PM、ERP、MES、ADM、OA、EHR、AI、项目、商城、财务、多班次考勤、薪资、招聘、云售后、论坛、问卷、报表设计、工作流、Saas 等功能。打造全网首套零代码、AI应用最广..."
   }
  ]
 }
