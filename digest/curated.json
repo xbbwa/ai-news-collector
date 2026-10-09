@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-08T22:16:40.596749+00:00",
+ "generated_at": "2026-10-09T02:22:55.506818+00:00",
  "stats": {
-  "items": 1931,
-  "clusters": 1552,
-  "noise": 421,
-  "dup": 153,
+  "items": 1944,
+  "clusters": 1595,
+  "noise": 460,
+  "dup": 171,
   "history_days": 0,
-  "available_cn": 119,
-  "available_intl": 859,
+  "available_cn": 114,
+  "available_intl": 850,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,348 +16,341 @@
  "items": [
   {
    "rank": 1,
-   "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+   "title": "Walk fast but be careful: Understanding Parallel Sampling in Masked Diffusion",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.09228",
-   "score": 12.0,
+   "url": "https://arxiv.org/abs/2606.22976",
+   "score": 7.5,
    "sources": [
-    "hf-daily-papers",
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
+    "arxiv-cs-cl",
+    "arxiv-cs-lg"
    ],
    "titles": [
-    "Co-Evolving Robot Orchestrators and Policies through Deployment",
-    "SkillCycle: Co-Evolving Agent Policies and Skill Banks",
-    "SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles"
+    "Walk fast but be careful: Understanding Parallel Sampling in Masked Diffusion",
+    "Lower Bounds for Parallel Diffusion Sampling"
    ],
-   "published_at": "2026-10-05T20:00:00.000000+00:00",
-   "summary": "Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they still fail to generalize to the variety of situations a robot meets in real-world deployment. Agentic ro..."
+   "published_at": "2026-10-08T04:00:00.000000+00:00",
+   "summary": "arXiv:2606.22976v2 Announce Type: replace-cross Abstract: In this paper, we use random walks on graphs as a verifiable sandbox for studying parallel sampling strategies in masked diffusion models (MDMs). We train an MDM..."
   },
   {
    "rank": 2,
-   "title": "From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery",
+   "title": "Gradient-Based Trajectory Optimisation over Continuous Poses for Sparse-View Cone-Beam CT",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.09684",
+   "url": "https://arxiv.org/abs/2610.09579",
    "score": 7.5,
    "sources": [
-    "arxiv-cs-cl",
+    "arxiv-cs-cv",
     "arxiv-cs-lg"
    ],
    "titles": [
-    "From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery",
-    "FAR: Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement"
+    "Gradient-Based Trajectory Optimisation over Continuous Poses for Sparse-View Cone-Beam CT",
+    "Geometry-Aware Diffusion Approximate Posterior Sampling for Sparse-View and Limited-Angle CT",
+    "Geometry-Aware Discretization Error of Diffusion Models"
    ],
    "published_at": "2026-10-08T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.09684v1 Announce Type: new Abstract: Test-time scaling (TTS) improves the reasoning capabilities of large language models by allocating additional inference computation. Existing approaches to improving TTS ef..."
+   "summary": "arXiv:2610.09579v1 Announce Type: new Abstract: Trajectory optimisation for cone-beam computed tomography (CT) determines which information sparse-view scans acquire. Fixed candidate pools prevent off-grid refinement and..."
   },
   {
    "rank": 3,
-   "title": "The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models",
+   "title": "Research on Deep Learning-Based Semantic Segmentation Algorithms for Subcortical Brain Structures",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.10049",
+   "url": "https://arxiv.org/abs/1907.09194",
    "score": 7.5,
    "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models",
-    "Efficient Reasoning with Flow Language Models"
-   ],
-   "published_at": "2026-10-08T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.10049v1 Announce Type: new Abstract: Reasoning models allocate extra computation at inference time and present their answers as the product of deliberate thought. If this deliberation works the way dual-proces..."
-  },
-  {
-   "rank": 4,
-   "title": "Document Optimization for Black-Box Retrieval via Reinforcement Learning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2604.05087",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
+    "arxiv-cs-cv",
     "arxiv-cs-lg"
    ],
    "titles": [
-    "Document Optimization for Black-Box Retrieval via Reinforcement Learning",
-    "Geometric Probing for Algorithm Selection in Continuous Black-Box Optimization",
-    "Reinforcement Learning for Code Optimization"
+    "Research on Deep Learning-Based Semantic Segmentation Algorithms for Subcortical Brain Structures",
+    "Deep Learning-Based Tri-Hybrid Multi-User MIMO Precoding: The Blessing of EM-Reconfigurable Antennas"
    ],
    "published_at": "2026-10-08T04:00:00.000000+00:00",
-   "summary": "arXiv:2604.05087v4 Announce Type: replace Abstract: Generative large language models (LLMs) are increasingly used as inference-time components in retrieval pipelines, for tasks such as query rewriting and document rerank..."
+   "summary": "arXiv:1907.09194v3 Announce Type: replace-cross Abstract: Segmentation of subcortical brain structures is fundamental to computer-aided diagnosis and treatment in neurology and related clinical fields. To improve the acc..."
+  },
+  {
+   "rank": 4,
+   "title": "Kernel Autoresearch for Open-Ended Model Discovery",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.10394",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-lg",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "Kernel Autoresearch for Open-Ended Model Discovery",
+    "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station"
+   ],
+   "published_at": "2026-10-08T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.10394v1 Announce Type: new Abstract: Kernels encode the inductive bias of a wide range of machine learning models, yet automated kernel design faces a fundamental dilemma. A fixed grammar of base kernels and o..."
   },
   {
    "rank": 5,
-   "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+   "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
    "lang": "en",
    "region": "intl",
-   "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-   "score": 5.61,
-   "sources": [
-    "arstechnica-ai",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Microsoft event debuts new AI-friendly hardware and Windows changes",
-    "100 days later: Microsoft still steers Windows and Copilot users to Edge"
-   ],
-   "published_at": "2026-10-08T00:00:24.000000+00:00",
-   "summary": "In its first live event in two years, Microsoft today announced its newest Surface laptop, outlined a host of changes coming to Windows 11, and shared a vision of how local-AI and agentic workflows could reshape personal..."
-  },
-  {
-   "rank": 6,
-   "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-   "score": 5.5,
-   "sources": [
-    "cnbc-tech",
-    "ft-tech"
-   ],
-   "titles": [
-    "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-    "Samsung profit surges ninefold to $80bn on AI chip demand"
-   ],
-   "published_at": "2026-10-08T00:51:23.000000+00:00",
-   "summary": "Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time."
-  },
-  {
-   "rank": 7,
-   "title": "black-forest-labs/flux-3-action-base",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-action-base",
-   "score": 5.0,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "black-forest-labs/flux-3-action-base"
-   ],
-   "published_at": "2026-10-02T11:46:28.000000+00:00",
-   "summary": "robotics, lerobot, safetensors, flux, world-action-model, world-model, robot-learning, black-forest-labs, flux-3, license:other, region:us"
-  },
-  {
-   "rank": 8,
-   "title": "Lightricks/LTX-2.5-Diffusers",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/Lightricks/LTX-2.5-Diffusers",
-   "score": 4.94,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "Lightricks/LTX-2.5-Diffusers"
-   ],
-   "published_at": "2026-10-08T07:15:54.000000+00:00",
-   "summary": "text-to-video, diffusers, safetensors, image-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vi..."
-  },
-  {
-   "rank": 9,
-   "title": "jevman: AI decision models play Pac-Man",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://v.redd.it/3pxtsqzo69uh1",
-   "score": 4.12,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "jevman: AI decision models play Pac-Man",
-    "Show HN: Jevman – AI decision models play Pac-Man"
-   ],
-   "published_at": "2026-10-08T14:37:15.000000+00:00",
-   "summary": "The other week I posted about Jev vs. Kev compared and since then, OpenAI released the decisions endpoint, Cloudflare released Clef and many here asked about Laya as well. This time we compared six popular decision model..."
-  },
-  {
-   "rank": 10,
-   "title": "Introducing Falcon ASR",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-   "score": 4.0,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Introducing Falcon ASR"
-   ],
-   "published_at": "2026-10-07T13:21:03.000000+00:00",
-   "summary": "A Blog post by Technology Innovation Institute on Hugging Face"
-  },
-  {
-   "rank": 11,
-   "title": "Introducing the Anthropic Cyber Mission",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-   "score": 4.0,
-   "sources": [
-    "anthropic-news"
-   ],
-   "titles": [
-    "Introducing the Anthropic Cyber Mission"
-   ],
-   "published_at": "2026-10-07T16:00:00.000000+00:00",
-   "summary": "Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure..."
-  },
-  {
-   "rank": 12,
-   "title": "Innovation in Ireland: How Irish brands scale with Gemini Enterprise",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/",
-   "score": 3.5,
-   "sources": [
-    "google-cloud-ai"
-   ],
-   "titles": [
-    "Innovation in Ireland: How Irish brands scale with Gemini Enterprise"
-   ],
-   "published_at": "2026-10-08T12:00:00.000000+00:00",
-   "summary": "In recent decades, Ireland has grown into a vibrant hub for global technology. As modernization accelerates, Irish organizations — spanning government agencies, established enterprise brands, and growing startups in AI a..."
-  },
-  {
-   "rank": 13,
-   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/pollo-ai",
-   "score": 3.5,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Pollo AI turns creative ideas into campaigns with OpenAI"
-   ],
-   "published_at": "2026-10-08T12:00:00.000000+00:00",
-   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
-  },
-  {
-   "rank": 14,
-   "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+   "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
    "score": 3.5,
    "sources": [
     "nvidia-developer"
    ],
    "titles": [
-    "Building Reliable Data Analytics Agents: Lessons from the KDD Cup"
+    "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models"
    ],
-   "published_at": "2026-10-08T18:30:02.000000+00:00",
-   "summary": "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,... The NVIDIA KGMON team placed second in the KDD Cup 2026 Da..."
+   "published_at": "2026-10-08T20:57:55.000000+00:00",
+   "summary": "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision... Preparing CAD assets for robotics simulation requires more th..."
+  },
+  {
+   "rank": 6,
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+   ],
+   "published_at": "2026-10-08T21:06:35.000000+00:00",
+   "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omn..."
+  },
+  {
+   "rank": 7,
+   "title": "Lakebase and Agentic SDLC: Branching Databases for Coding Agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents",
+   "score": 3.5,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "Lakebase and Agentic SDLC: Branching Databases for Coding Agents"
+   ],
+   "published_at": "2026-10-08T22:00:00.000000+00:00",
+   "summary": "AI has changed how software gets built. As coding agents take on a growing share..."
+  },
+  {
+   "rank": 8,
+   "title": "Magnific One launches to give teams an image generator that avoids the 'AI look' and automatically upholds their brand kit",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit",
+   "score": 3.5,
+   "sources": [
+    "venturebeat"
+   ],
+   "titles": [
+    "Magnific One launches to give teams an image generator that avoids the 'AI look' and automatically upholds their brand kit"
+   ],
+   "published_at": "2026-10-08T21:11:10+00:00",
+   "summary": "Generative AI image generation has come a long way from the early days of DALL-E and Midjourney in 2021-2022. But even with the most advanced models now supporting generated text and complex infographics, perceptive huma..."
+  },
+  {
+   "rank": 9,
+   "title": "H3 Long Shot API",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://v.redd.it/216sdre0b6uh1",
+   "score": 3.5,
+   "sources": [
+    "reddit-ai-new",
+    "reddit-ai-hot"
+   ],
+   "titles": [
+    "H3 Long Shot API",
+    "H3 Long Shot Studio API v1.0"
+   ],
+   "published_at": "2026-10-08T04:47:05.000000+00:00",
+   "summary": "I am in the process of tweaking this latent chain shot workflow and wanted to gauge interest to see if it's worth pursuing. The UI mockup screenshot is below in my comment . The feature I really want and like is that it..."
+  },
+  {
+   "rank": 10,
+   "title": "Tell HN: I've been paying for a rural Tanzanian's education for 10 years",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://news.ycombinator.com/item?id=50006366",
+   "score": 3.5,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Tell HN: I've been paying for a rural Tanzanian's education for 10 years"
+   ],
+   "published_at": "2026-10-08T14:39:47.000000+00:00",
+   "summary": "Ten years ago I was 19 and traveling through East Africa, and I spent a summer in Ibumila, a village in the Njombe highlands of Tanzania. There's no school in the village. The nearest one is a boarding school an hour awa..."
+  },
+  {
+   "rank": 11,
+   "title": "AI-powered analytics: Building data visualizations with natural language vs. SQL",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/ai-powered-analytics-building-data-visualizations-natural-language-vs-sql",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "AI-powered analytics: Building data visualizations with natural language vs. SQL"
+   ],
+   "published_at": "2026-10-06T18:16:25.000000+00:00",
+   "summary": "Richard Tomlinson, who leads product marketing for Databricks' business intelligence..."
+  },
+  {
+   "rank": 12,
+   "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
+   "score": 3.0,
+   "sources": [
+    "nvidia-developer"
+   ],
+   "titles": [
+    "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core"
+   ],
+   "published_at": "2026-10-06T19:58:03.000000+00:00",
+   "summary": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training... Bitwise determinism makes large-scale pretraining easier to..."
+  },
+  {
+   "rank": 13,
+   "title": "Building on our commitment to American scientific discovery",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+   "score": 3.0,
+   "sources": [
+    "anthropic-news"
+   ],
+   "titles": [
+    "Building on our commitment to American scientific discovery"
+   ],
+   "published_at": "2026-10-07T16:00:00.000000+00:00",
+   "summary": "Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission , a federal initiative to accelerate scientific and technological discovery through A..."
+  },
+  {
+   "rank": 14,
+   "title": "Normalizing Trajectory Models",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "Normalizing Trajectory Models"
+   ],
+   "published_at": "2026-10-08T00:00:00.000000+00:00",
+   "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through..."
   },
   {
    "rank": 15,
-   "title": "超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了",
+   "title": "日薪120元，我给机器人当“老师”",
    "lang": "zh",
    "region": "cn",
-   "url": "https://zhidx.com/p/599076.html",
-   "score": 6.5,
+   "url": "https://www.huxiu.com/article/4896039.html",
+   "score": 6.0,
    "sources": [
-    "zhidx",
+    "huxiu",
     "36kr-ai"
    ],
    "titles": [
-    "超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了",
-    "融资33亿，Manus杀回百亿美元赛道：做私人AI助理"
+    "日薪120元，我给机器人当“老师”",
+    "日薪120元，我给机器人当“老师”"
    ],
-   "published_at": "2026-10-08T05:00:27+00:00",
-   "summary": "智东西 作者 | 程茜 编辑 | 云鹏 智东西10月8日消息，刚刚，Manus母公司蝴蝶效应宣布近日已完成超5亿美元（约合人民币33.52亿元）新一轮融资。这是国内Agent原生创企获得的最大一笔融资。 本轮融资由博裕投资、IDG资本领投，老股东腾讯、红杉中国、真格基金继续加持。 今年9月，外媒彭博社就曾报道，蝴蝶效应计划以40亿美元（约合人民币268.3亿元）估值融资5亿美元（约合人民币33.5亿元），较此前20亿美元的估值，多了整整..."
+   "published_at": "2026-10-09T01:44:03.000000+00:00",
+   "summary": "有人觉得酷，有人一个月就走。定焦One（dingjiaoone）原创机器人还在学干活，给它们当“老师”的人已经上班了。他们是机器人数据采集员。叠衣服、铺床单、洗碗、给快递贴标签，这些人们做惯了的动作，是他们每天要反复演示的任务。记录下来的数据，经过审核、筛选，再用来训练机器人。眼下，采数据大致有几条路：一条是...... 本文来自微信公众号： 定焦One ，编辑：金玙璠，作者：定焦One团队 有人觉得酷，有人一个月就走。 定焦One（d..."
   },
   {
    "rank": 16,
-   "title": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
+   "title": "GPT-6 全球推送，聊天回答里长出了计算器和地图",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/010/562.htm",
-   "score": 6.5,
+   "url": "https://www.oschina.net/news/502890/openai-gpt-6-for-everyone",
+   "score": 5.5,
    "sources": [
-    "ithome",
-    "36kr-newsflash"
+    "oschina",
+    "36kr-ai"
    ],
    "titles": [
-    "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
-    "腾讯WorkBuddy上线“独立文件浏览器”"
+    "GPT-6 全球推送，聊天回答里长出了计算器和地图",
+    "GPT-6接入聊天，虽迟但到"
    ],
-   "published_at": "2026-10-08T07:37:53+00:00",
-   "summary": "IT之家 10 月 8 日消息，腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。用户现在可以在文件资源管理器 / Finder 找到一份文件，右键选择 WorkBuddy 打开，就能在独立窗口中查看文件，并直接调用 AI 进行分析、修改或继续处理。 IT之家了解到， WorkBuddy 文件浏览器可以直接打开 Word、Excel、PPT、PDF、Markdown、HTML 等文件 ，在同一个窗口里查..."
+   "published_at": "2026-10-08T07:29:16+00:00",
+   "summary": "OpenAI 这次是把 GPT-6 推给了所有人。10 月 7 日起，Plus、Pro、Business、Enterprise 用户陆续用上 GPT-6 Sol；10 月 8 日，Free 和 Go 用户也拿到 GPT-6 Luna。和模型一起上线的，是一套叫 Intelligent UI 的新界面——ChatGPT 的回答不再只是连续文字，而是会冒出可点击的按钮、表单、图表、内嵌地图，甚至计算器这类..."
   },
   {
    "rank": 17,
-   "title": "数据中心装不下AI的全部野心了",
+   "title": "创业板指、深成指双双跌超1%",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4895872.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/newsflashes/4017984753799048",
+   "score": 5.0,
    "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "数据中心装不下AI的全部野心了",
-    "数据中心装不下AI的全部野心了"
-   ],
-   "published_at": "2026-10-08T08:59:47.000000+00:00",
-   "summary": "过去几年，硅谷越来越像一处巨型工地。微软、谷歌、亚马逊不断扩建数据中心，GPU之外，电力、土地和冷却设备也成了争夺对象。曾经依靠软件和网络效应高速扩张的科技公司，如今不得不承担越来越重的资本开支。就在数据中心竞赛持续升温时，马斯克与微软把目光投向了算力产业链的两端。马斯克确认，特斯拉与SpaceX将自行建设、...... 本文来自微信公众号： 反熵 ，作者：一笑 过去几年，硅谷越来越像一处巨型工地。微软、谷歌、亚马逊不断扩建数据中心，G..."
-  },
-  {
-   "rank": 18,
-   "title": "tencent/EVIE-4.5B",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/tencent/EVIE-4.5B",
-   "score": 4.54,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "tencent/EVIE-4.5B"
-   ],
-   "published_at": "2026-10-08T03:37:40.000000+00:00",
-   "summary": "visual-document-retrieval, colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka, vidore, token-compression, sentence-transformers, dataset:vidore/vidore_benchmark, da..."
-  },
-  {
-   "rank": 19,
-   "title": "消息称三星电子计划斥资超 100 万亿越南盾在越建设 2 座半导体后端测试工厂",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/010/640.htm",
-   "score": 4.5,
-   "sources": [
-    "ithome",
+    "36kr-newsflash",
     "reddit-ai-new"
    ],
    "titles": [
-    "消息称三星电子计划斥资超 100 万亿越南盾在越建设 2 座半导体后端测试工厂",
-    "I’ve trained 100+ Krea 2 character LoRAs. Here’s what actually determines likeness."
+    "创业板指、深成指双双跌超1%",
+    "创业板指跌超2%",
+    "Retry/regenerate and message edit seem to no longer keep previous versions/branches (the 1/2 arrows) after the new merged UI."
    ],
-   "published_at": "2026-10-08T09:56:20+00:00",
-   "summary": "IT之家 10 月 8 日消息，据《首尔经济新闻》韩国当地时间 10 月 5 日报道，三星电子向越南太原省政府递交的文件显示，这家韩国半导体巨头计划在当地建设 2 座半导体后端测试工厂。 这两座工厂位于太原省的安平工业园区， 总投资规模达到 105.7944 万亿越南盾 （IT之家注：现汇率约合 272.95 亿元人民币） 。三星电子此前已在该园区运营智能手机生产线。 布局越南测试产能 有助于提升三星电子业务链条的韧性 ，减少单点事故对..."
+   "published_at": "2026-10-09T01:45:27.000000+00:00",
+   "summary": "36氪获悉，深成指下挫跌逾1.03%，沪指跌0.42%，创业板指跌1.21%。算力硬件、半导体芯片、医药生物等方向跌幅居前，沪深京三市下跌个股近3700只。"
   },
   {
-   "rank": 20,
-   "title": "Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布",
+   "rank": 18,
+   "title": "手机新品发布潮：集体涨价，AI上桌，折叠屏走向主流",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.oschina.net/news/502896",
+   "url": "https://www.huxiu.com/article/4895992.html",
+   "score": 3.5,
+   "sources": [
+    "huxiu"
+   ],
+   "titles": [
+    "手机新品发布潮：集体涨价，AI上桌，折叠屏走向主流"
+   ],
+   "published_at": "2026-10-08T15:27:42.000000+00:00",
+   "summary": "近期以来，手机行业见证了一场有史以来十分密集的新品发布潮。9月7日，华为与小米同日“上新”，前者推出第二代折叠旗舰Mate XT2非凡大师，后者发布首款“中折叠”手机18 Fold；9月10日，苹果新任CEO约翰·特努斯发布首款折叠屏手机iPhone Duo，标志着苹果正式入局折叠赛道；此后，努比亚NaviX...... 本文来自微信公众号： 青橙财经 ，作者：青沐，编辑：六子 近期以来，手机行业见证了一场有史以来十分密集的新品发布潮。..."
+  },
+  {
+   "rank": 19,
+   "title": "跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.oschina.net/news/502904",
    "score": 3.5,
    "sources": [
     "oschina"
    ],
    "titles": [
-    "Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布"
+    "跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地"
    ],
-   "published_at": "2026-10-08T10:58:08+00:00",
-   "summary": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant Design Vue 的零代码平台开发模式。包含 100 多种电子流程，CRM、PM、ERP、MES、ADM、OA、EHR、AI、项目、商城、财务、多班次考勤、薪资、招聘、云售后、论坛、问卷、报表设计、工作流、Saas 等功能。打造全网首套零代码、AI应用最广..."
+   "published_at": "2026-10-09T01:55:35+00:00",
+   "summary": "AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署” 这道鸿沟上。很多团队会遇到相似的困境：POC 阶段效果惊艳，一旦迁移到本地数据中心、离线隔离环境、多云混合架构，就会暴露出数据安全、厂商锁定、运维复杂度飙升、算力资源浪费等一系列现实难题。..."
+  },
+  {
+   "rank": 20,
+   "title": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article",
+   "score": 3.5,
+   "sources": [
+    "infoq-cn"
+   ],
+   "titles": [
+    "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海"
+   ],
+   "published_at": "2026-10-09T02:00:00+00:00",
+   "summary": "点击查看原文>"
   }
  ]
 }

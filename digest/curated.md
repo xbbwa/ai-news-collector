@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-09 06:16 CST
-数据窗口：最近 24 小时，1931 条原始条目 → 1552 个事件；过滤噪音 421 个，排除全部历史已推送的 153 个。
+生成时间：2026-10-09 10:22 CST
+数据窗口：最近 24 小时，1944 条原始条目 → 1595 个事件；过滤噪音 460 个，排除全部历史已推送的 171 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,137 +8,134 @@
 
 国外：
 
-## 1. Co-Evolving Robot Orchestrators and Policies through Deployment
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers、arXiv cs.CV、arXiv cs.AI（3 个来源） ｜ 热度：12.0
-- 摘要：Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they still fail to generalize to the variety of situations a robot meets in real-world deployment. Agentic ro...
-- 发布时间：2026-10-06 04:00 CST
-- 链接：https://arxiv.org/abs/2610.09228
-- 同事件报道：SkillCycle: Co-Evolving Agent Policies and Skill Banks（arXiv cs.CV）
-- 同事件报道：SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles（arXiv cs.AI）
-
-## 2. From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery
+## 1. Walk fast but be careful: Understanding Parallel Sampling in Masked Diffusion
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.LG（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.09684v1 Announce Type: new Abstract: Test-time scaling (TTS) improves the reasoning capabilities of large language models by allocating additional inference computation. Existing approaches to improving TTS ef...
+- 摘要：arXiv:2606.22976v2 Announce Type: replace-cross Abstract: In this paper, we use random walks on graphs as a verifiable sandbox for studying parallel sampling strategies in masked diffusion models (MDMs). We train an MDM...
 - 发布时间：2026-10-08 12:00 CST
-- 链接：https://arxiv.org/abs/2610.09684
-- 同事件报道：FAR: Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement（arXiv cs.LG）
+- 链接：https://arxiv.org/abs/2606.22976
+- 同事件报道：Lower Bounds for Parallel Diffusion Sampling（arXiv cs.LG）
 
-## 3. The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.10049v1 Announce Type: new Abstract: Reasoning models allocate extra computation at inference time and present their answers as the product of deliberate thought. If this deliberation works the way dual-proces...
+## 2. Gradient-Based Trajectory Optimisation over Continuous Poses for Sparse-View Cone-Beam CT
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2610.09579v1 Announce Type: new Abstract: Trajectory optimisation for cone-beam computed tomography (CT) determines which information sparse-view scans acquire. Fixed candidate pools prevent off-grid refinement and...
 - 发布时间：2026-10-08 12:00 CST
-- 链接：https://arxiv.org/abs/2610.10049
-- 同事件报道：Efficient Reasoning with Flow Language Models（arXiv cs.AI）
+- 链接：https://arxiv.org/abs/2610.09579
+- 同事件报道：Geometry-Aware Diffusion Approximate Posterior Sampling for Sparse-View and Limited-Angle CT（arXiv cs.LG）
+- 同事件报道：Geometry-Aware Discretization Error of Diffusion Models（arXiv cs.LG）
 
-## 4. Document Optimization for Black-Box Retrieval via Reinforcement Learning
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.LG（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2604.05087v4 Announce Type: replace Abstract: Generative large language models (LLMs) are increasingly used as inference-time components in retrieval pipelines, for tasks such as query rewriting and document rerank...
+## 3. Research on Deep Learning-Based Semantic Segmentation Algorithms for Subcortical Brain Structures
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:1907.09194v3 Announce Type: replace-cross Abstract: Segmentation of subcortical brain structures is fundamental to computer-aided diagnosis and treatment in neurology and related clinical fields. To improve the acc...
 - 发布时间：2026-10-08 12:00 CST
-- 链接：https://arxiv.org/abs/2604.05087
-- 同事件报道：Geometric Probing for Algorithm Selection in Continuous Black-Box Optimization（arXiv cs.LG）
-- 同事件报道：Reinforcement Learning for Code Optimization（arXiv cs.LG）
+- 链接：https://arxiv.org/abs/1907.09194
+- 同事件报道：Deep Learning-Based Tri-Hybrid Multi-User MIMO Precoding: The Blessing of EM-Reconfigurable Antennas（arXiv cs.LG）
 
-## 5. Microsoft event debuts new AI-friendly hardware and Windows changes
-- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.61
-- 摘要：In its first live event in two years, Microsoft today announced its newest Surface laptop, outlined a host of changes coming to Windows 11, and shared a vision of how local-AI and agentic workflows could reshape personal...
-- 发布时间：2026-10-08 08:00 CST
-- 链接：https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/
-- 同事件报道：100 days later: Microsoft still steers Windows and Copilot users to Edge（Hacker News (AI stories)）
+## 4. Kernel Autoresearch for Open-Ended Model Discovery
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.LG、arXiv cs.AI（2 个来源） ｜ 热度：7.5
+- 摘要：arXiv:2610.10394v1 Announce Type: new Abstract: Kernels encode the inductive bias of a wide range of machine learning models, yet automated kernel design faces a fundamental dilemma. A fixed grammar of base kernels and o...
+- 发布时间：2026-10-08 12:00 CST
+- 链接：https://arxiv.org/abs/2610.10394
+- 同事件报道：Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station（arXiv cs.AI）
 
-## 6. Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand
-- 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Financial Times — Technology（2 个来源） ｜ 热度：5.5
-- 摘要：Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time.
-- 发布时间：2026-10-08 08:51 CST
-- 链接：https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html
-- 同事件报道：Samsung profit surges ninefold to $80bn on AI chip demand（Financial Times — Technology）
-
-## 7. black-forest-labs/flux-3-action-base
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
-- 摘要：robotics, lerobot, safetensors, flux, world-action-model, world-model, robot-learning, black-forest-labs, flux-3, license:other, region:us
-- 发布时间：2026-10-02 19:46 CST
-- 链接：https://huggingface.co/black-forest-labs/flux-3-action-base
-
-## 8. Lightricks/LTX-2.5-Diffusers
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.94
-- 摘要：text-to-video, diffusers, safetensors, image-to-video, video-to-video, image-text-to-video, audio-to-video, text-to-audio, video-to-audio, audio-to-audio, text-to-audio-video, image-to-audio-video, image-text-to-audio-vi...
-- 发布时间：2026-10-08 15:15 CST
-- 链接：https://huggingface.co/Lightricks/LTX-2.5-Diffusers
-
-## 9. jevman: AI decision models play Pac-Man
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.12
-- 摘要：The other week I posted about Jev vs. Kev compared and since then, OpenAI released the decisions endpoint, Cloudflare released Clef and many here asked about Laya as well. This time we compared six popular decision model...
-- 发布时间：2026-10-08 22:37 CST
-- 链接：https://v.redd.it/3pxtsqzo69uh1
-- 同事件报道：Show HN: Jevman – AI decision models play Pac-Man（Hacker News (AI stories)）
-
-## 10. Introducing Falcon ASR
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：4.0
-- 摘要：A Blog post by Technology Innovation Institute on Hugging Face
-- 发布时间：2026-10-07 21:21 CST
-- 链接：https://huggingface.co/blog/tiiuae/falcon-asr
-
-## 11. Introducing the Anthropic Cyber Mission
-- 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic News（1 个来源） ｜ 热度：4.0
-- 摘要：Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure...
-- 发布时间：2026-10-08 00:00 CST
-- 链接：https://www.anthropic.com/news/anthropic-cyber-mission
-
-## 12. Innovation in Ireland: How Irish brands scale with Gemini Enterprise
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
-- 摘要：In recent decades, Ireland has grown into a vibrant hub for global technology. As modernization accelerates, Irish organizations — spanning government agencies, established enterprise brands, and growing startups in AI a...
-- 发布时间：2026-10-08 20:00 CST
-- 链接：https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/
-
-## 13. Pollo AI turns creative ideas into campaigns with OpenAI
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
-- 发布时间：2026-10-08 20:00 CST
-- 链接：https://openai.com/index/pollo-ai
-
-## 14. Building Reliable Data Analytics Agents: Lessons from the KDD Cup
+## 5. 5 Steps to Create SimReady Assets for Robotics with Frontier AI Models
 - 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.5
-- 摘要：The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,... The NVIDIA KGMON team placed second in the KDD Cup 2026 Da...
-- 发布时间：2026-10-09 02:30 CST
-- 链接：https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/
+- 摘要：Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision... Preparing CAD assets for robotics simulation requires more th...
+- 发布时间：2026-10-09 04:57 CST
+- 链接：https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/
+
+## 6. Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog（1 个来源） ｜ 热度：3.5
+- 摘要：Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omn...
+- 发布时间：2026-10-09 05:06 CST
+- 链接：https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/
+
+## 7. Lakebase and Agentic SDLC: Branching Databases for Coding Agents
+- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
+- 摘要：AI has changed how software gets built. As coding agents take on a growing share...
+- 发布时间：2026-10-09 06:00 CST
+- 链接：https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents
+
+## 8. Magnific One launches to give teams an image generator that avoids the 'AI look' and automatically upholds their brand kit
+- 地区：国外源 ｜ 语言：en ｜ 来源：VentureBeat（1 个来源） ｜ 热度：3.5
+- 摘要：Generative AI image generation has come a long way from the early days of DALL-E and Midjourney in 2021-2022. But even with the most advanced models now supporting generated text and complex infographics, perceptive huma...
+- 发布时间：2026-10-09 05:11 CST
+- 链接：https://venturebeat.com/orchestration/magnific-one-launches-to-give-teams-an-image-generator-that-avoids-the-ai-look-and-automatically-upholds-their-brand-kit
+
+## 9. H3 Long Shot API
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Reddit AI subreddits (hot)（2 个来源） ｜ 热度：3.5
+- 摘要：I am in the process of tweaking this latent chain shot workflow and wanted to gauge interest to see if it's worth pursuing. The UI mockup screenshot is below in my comment . The feature I really want and like is that it...
+- 发布时间：2026-10-08 12:47 CST
+- 链接：https://v.redd.it/216sdre0b6uh1
+- 同事件报道：H3 Long Shot Studio API v1.0（Reddit AI subreddits (hot)）
+
+## 10. Tell HN: I've been paying for a rural Tanzanian's education for 10 years
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.5
+- 摘要：Ten years ago I was 19 and traveling through East Africa, and I spent a summer in Ibumila, a village in the Njombe highlands of Tanzania. There's no school in the village. The nearest one is a boarding school an hour awa...
+- 发布时间：2026-10-08 22:39 CST
+- 链接：https://news.ycombinator.com/item?id=50006366
+
+## 11. AI-powered analytics: Building data visualizations with natural language vs. SQL
+- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.0
+- 摘要：Richard Tomlinson, who leads product marketing for Databricks' business intelligence...
+- 发布时间：2026-10-07 02:16 CST
+- 链接：https://www.databricks.com/blog/ai-powered-analytics-building-data-visualizations-natural-language-vs-sql
+
+## 12. Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.0
+- 摘要：Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training... Bitwise determinism makes large-scale pretraining easier to...
+- 发布时间：2026-10-07 03:58 CST
+- 链接：https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/
+
+## 13. Building on our commitment to American scientific discovery
+- 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic News（1 个来源） ｜ 热度：3.0
+- 摘要：Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission , a federal initiative to accelerate scientific and technological discovery through A...
+- 发布时间：2026-10-08 00:00 CST
+- 链接：https://www.anthropic.com/news/genesis-mission-commitment
+
+## 14. Normalizing Trajectory Models
+- 地区：国外源 ｜ 语言：en ｜ 来源：Apple Machine Learning Research（1 个来源） ｜ 热度：3.0
+- 摘要：Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through...
+- 发布时间：2026-10-08 08:00 CST
+- 链接：https://machinelearning.apple.com/research/normalizing-trajectory-models
 
 国内：
 
-## 1. 超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、36氪 AI 频道（2 个来源） ｜ 热度：6.5
-- 摘要：智东西 作者 | 程茜 编辑 | 云鹏 智东西10月8日消息，刚刚，Manus母公司蝴蝶效应宣布近日已完成超5亿美元（约合人民币33.52亿元）新一轮融资。这是国内Agent原生创企获得的最大一笔融资。 本轮融资由博裕投资、IDG资本领投，老股东腾讯、红杉中国、真格基金继续加持。 今年9月，外媒彭博社就曾报道，蝴蝶效应计划以40亿美元（约合人民币268.3亿元）估值融资5亿美元（约合人民币33.5亿元），较此前20亿美元的估值，多了整整...
-- 发布时间：2026-10-08 13:00 CST
-- 链接：https://zhidx.com/p/599076.html
-- 同事件报道：融资33亿，Manus杀回百亿美元赛道：做私人AI助理（36氪 AI 频道）
+## 1. 日薪120元，我给机器人当“老师”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
+- 摘要：有人觉得酷，有人一个月就走。定焦One（dingjiaoone）原创机器人还在学干活，给它们当“老师”的人已经上班了。他们是机器人数据采集员。叠衣服、铺床单、洗碗、给快递贴标签，这些人们做惯了的动作，是他们每天要反复演示的任务。记录下来的数据，经过审核、筛选，再用来训练机器人。眼下，采数据大致有几条路：一条是...... 本文来自微信公众号： 定焦One ，编辑：金玙璠，作者：定焦One团队 有人觉得酷，有人一个月就走。 定焦One（d...
+- 发布时间：2026-10-09 09:44 CST
+- 链接：https://www.huxiu.com/article/4896039.html
+- 同事件报道：日薪120元，我给机器人当“老师”（36氪 AI 频道）
 
-## 2. 腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.5
-- 摘要：IT之家 10 月 8 日消息，腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。用户现在可以在文件资源管理器 / Finder 找到一份文件，右键选择 WorkBuddy 打开，就能在独立窗口中查看文件，并直接调用 AI 进行分析、修改或继续处理。 IT之家了解到， WorkBuddy 文件浏览器可以直接打开 Word、Excel、PPT、PDF、Markdown、HTML 等文件 ，在同一个窗口里查...
-- 发布时间：2026-10-08 15:37 CST
-- 链接：https://www.ithome.com/1/010/562.htm
-- 同事件报道：腾讯WorkBuddy上线“独立文件浏览器”（36氪 快讯）
+## 2. GPT-6 全球推送，聊天回答里长出了计算器和地图
+- 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：OpenAI 这次是把 GPT-6 推给了所有人。10 月 7 日起，Plus、Pro、Business、Enterprise 用户陆续用上 GPT-6 Sol；10 月 8 日，Free 和 Go 用户也拿到 GPT-6 Luna。和模型一起上线的，是一套叫 Intelligent UI 的新界面——ChatGPT 的回答不再只是连续文字，而是会冒出可点击的按钮、表单、图表、内嵌地图，甚至计算器这类...
+- 发布时间：2026-10-08 15:29 CST
+- 链接：https://www.oschina.net/news/502890/openai-gpt-6-for-everyone
+- 同事件报道：GPT-6接入聊天，虽迟但到（36氪 AI 频道）
 
-## 3. 数据中心装不下AI的全部野心了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：过去几年，硅谷越来越像一处巨型工地。微软、谷歌、亚马逊不断扩建数据中心，GPU之外，电力、土地和冷却设备也成了争夺对象。曾经依靠软件和网络效应高速扩张的科技公司，如今不得不承担越来越重的资本开支。就在数据中心竞赛持续升温时，马斯克与微软把目光投向了算力产业链的两端。马斯克确认，特斯拉与SpaceX将自行建设、...... 本文来自微信公众号： 反熵 ，作者：一笑 过去几年，硅谷越来越像一处巨型工地。微软、谷歌、亚马逊不断扩建数据中心，G...
-- 发布时间：2026-10-08 16:59 CST
-- 链接：https://www.huxiu.com/article/4895872.html
-- 同事件报道：数据中心装不下AI的全部野心了（钛媒体）
+## 3. 创业板指、深成指双双跌超1%
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.0
+- 摘要：36氪获悉，深成指下挫跌逾1.03%，沪指跌0.42%，创业板指跌1.21%。算力硬件、半导体芯片、医药生物等方向跌幅居前，沪深京三市下跌个股近3700只。
+- 发布时间：2026-10-09 09:45 CST
+- 链接：https://www.36kr.com/newsflashes/4017984753799048
+- 同事件报道：创业板指跌超2%（36氪 快讯）
+- 同事件报道：Retry/regenerate and message edit seem to no longer keep previous versions/branches (the 1/2 arrows) after the new merge...（Reddit AI subreddits (new)）
 
-## 4. tencent/EVIE-4.5B
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.54
-- 摘要：visual-document-retrieval, colpali-engine, safetensors, qwen3_5, vision-language, colbert, late-interaction, multi-vector, matryoshka, vidore, token-compression, sentence-transformers, dataset:vidore/vidore_benchmark, da...
-- 发布时间：2026-10-08 11:37 CST
-- 链接：https://huggingface.co/tencent/EVIE-4.5B
+## 4. 手机新品发布潮：集体涨价，AI上桌，折叠屏走向主流
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅（1 个来源） ｜ 热度：3.5
+- 摘要：近期以来，手机行业见证了一场有史以来十分密集的新品发布潮。9月7日，华为与小米同日“上新”，前者推出第二代折叠旗舰Mate XT2非凡大师，后者发布首款“中折叠”手机18 Fold；9月10日，苹果新任CEO约翰·特努斯发布首款折叠屏手机iPhone Duo，标志着苹果正式入局折叠赛道；此后，努比亚NaviX...... 本文来自微信公众号： 青橙财经 ，作者：青沐，编辑：六子 近期以来，手机行业见证了一场有史以来十分密集的新品发布潮。...
+- 发布时间：2026-10-08 23:27 CST
+- 链接：https://www.huxiu.com/article/4895992.html
 
-## 5. 消息称三星电子计划斥资超 100 万亿越南盾在越建设 2 座半导体后端测试工厂
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：IT之家 10 月 8 日消息，据《首尔经济新闻》韩国当地时间 10 月 5 日报道，三星电子向越南太原省政府递交的文件显示，这家韩国半导体巨头计划在当地建设 2 座半导体后端测试工厂。 这两座工厂位于太原省的安平工业园区， 总投资规模达到 105.7944 万亿越南盾 （IT之家注：现汇率约合 272.95 亿元人民币） 。三星电子此前已在该园区运营智能手机生产线。 布局越南测试产能 有助于提升三星电子业务链条的韧性 ，减少单点事故对...
-- 发布时间：2026-10-08 17:56 CST
-- 链接：https://www.ithome.com/1/010/640.htm
-- 同事件报道：I’ve trained 100+ Krea 2 character LoRAs. Here’s what actually determines likeness.（Reddit AI subreddits (new)）
-
-## 6. Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布
+## 5. 跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地
 - 地区：国内源 ｜ 语言：zh ｜ 来源：开源中国（1 个来源） ｜ 热度：3.5
-- 摘要：Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant Design Vue 的零代码平台开发模式。包含 100 多种电子流程，CRM、PM、ERP、MES、ADM、OA、EHR、AI、项目、商城、财务、多班次考勤、薪资、招聘、云售后、论坛、问卷、报表设计、工作流、Saas 等功能。打造全网首套零代码、AI应用最广...
-- 发布时间：2026-10-08 18:58 CST
-- 链接：https://www.oschina.net/news/502896
+- 摘要：AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署” 这道鸿沟上。很多团队会遇到相似的困境：POC 阶段效果惊艳，一旦迁移到本地数据中心、离线隔离环境、多云混合架构，就会暴露出数据安全、厂商锁定、运维复杂度飙升、算力资源浪费等一系列现实难题。...
+- 发布时间：2026-10-09 09:55 CST
+- 链接：https://www.oschina.net/news/502904
+
+## 6. Kimi 现代高速开源治理的 AI Native 实践｜QCon上海
+- 地区：国内源 ｜ 语言：zh ｜ 来源：InfoQ 中文（1 个来源） ｜ 热度：3.5
+- 摘要：点击查看原文>
+- 发布时间：2026-10-09 10:00 CST
+- 链接：https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article
