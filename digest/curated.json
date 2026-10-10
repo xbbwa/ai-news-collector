@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-10T01:05:16.679190+00:00",
+ "generated_at": "2026-10-10T07:23:11.124779+00:00",
  "stats": {
-  "items": 2034,
-  "clusters": 1613,
-  "noise": 458,
-  "dup": 146,
+  "items": 2005,
+  "clusters": 1586,
+  "noise": 434,
+  "dup": 157,
   "history_days": 0,
-  "available_cn": 132,
-  "available_intl": 877,
+  "available_cn": 128,
+  "available_intl": 867,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -90,6 +90,24 @@
   },
   {
    "rank": 5,
+   "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
+   "score": 6.5,
+   "sources": [
+    "marktechpost",
+    "ithome"
+   ],
+   "titles": [
+    "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+    "Underdog AI 发布 Saluki 27B 模型：2-bit 量化 Qwen3.8-27B，7.89GB 大小"
+   ],
+   "published_at": "2026-10-09T07:23:36+00:00",
+   "summary": "Underdog, the on-device assistant from Conway Research, has released Saluki 27B under Apache 2.0. Underdog Saluki 27B is a 2-bit GGUF of Qwen3.8-27B that fits in 7.89 GB. The full BF16 model needs 54 GB. Underdog tuned t..."
+  },
+  {
+   "rank": 6,
    "title": "nvidia/Real-time_RE-USE",
    "lang": "en",
    "region": "intl",
@@ -105,57 +123,61 @@
    "summary": "audio-to-audio, mamba-ssm, safetensors, streaming speech-enhancement, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, arxiv:2606.25621, license:other,..."
   },
   {
-   "rank": 6,
-   "title": "Typesafe AI raises $870M at $7.5B",
+   "rank": 7,
+   "title": "How AI Is Upending the World of Mathematics",
    "lang": "en",
    "region": "intl",
-   "url": "https://typesafe.ai/blog/series-ai",
-   "score": 4.03,
+   "url": "https://www.bloomberg.com/news/videos/2026-10-09/how-ai-is-upending-the-world-of-mathematics-video",
+   "score": 4.5,
    "sources": [
-    "hackernews-ai"
+    "bloomberg-tech",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Typesafe AI raises $870M at $7.5B"
+    "How AI Is Upending the World of Mathematics",
+    "AI and mathematics"
    ],
-   "published_at": "2026-10-09T17:02:31.000000+00:00",
-   "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access."
+   "published_at": "2026-10-09T08:15:43.000000+00:00",
+   "summary": "Last month, OpenAI announced that it had produced an AI-generated proof for the Navier-Stokes problem. LLMs used to be bad at counting, but now they are solving math problems that have stumped humans for decades. Meanwhi..."
   },
   {
-   "rank": 7,
-   "title": "New AI can reconstruct what you’re looking at by reading brain activity",
+   "rank": 8,
+   "title": "Anthropic’s \"Cruel Behavior Ban\" and Its Consequences",
    "lang": "en",
    "region": "intl",
-   "url": "http://thebrighterside.news/post/new-ai-can-reconstruct-what-youre-looking-at-by-reading-brain-activity",
-   "score": 3.55,
+   "url": "https://www.reddit.com/r/artificial/comments/1x1bs2n/anthropics_cruel_behavior_ban_and_its_consequences/",
+   "score": 3.58,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "New AI can reconstruct what you’re looking at by reading brain activity",
-    "AI model can reconstruct images from your brain"
+    "Anthropic’s \"Cruel Behavior Ban\" and Its Consequences",
+    "Anthropic bans users from being 'cruel' to its AI systems"
    ],
-   "published_at": "2026-10-09T00:06:39.000000+00:00",
-   "summary": "A dog in a bathtub became a similarly colored goat. A cake turned into three sandwiches. These mistakes reveal the limits of an AI system that can otherwise reconstruct surprisingly detailed images from the brain activit..."
-  },
-  {
-   "rank": 8,
-   "title": "Impactful scheduling for GPU clusters",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-   "score": 3.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Impactful scheduling for GPU clusters"
-   ],
-   "published_at": "2026-10-09T15:20:29.000000+00:00",
-   "summary": "A Blog post by Ai2 on Hugging Face"
+   "published_at": "2026-10-09T04:15:41.000000+00:00",
+   "summary": "On October 8, 2026, Anthropic announced a \"cruel behavior ban\" that will take effect on November 12 of the same year. I find it very dangerous. But first things first. Let's address why Claude users are getting excessive..."
   },
   {
    "rank": 9,
+   "title": "Where Is the AI?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://johnomeara.com/blog/where-is-the-ai",
+   "score": 3.55,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Where Is the AI?",
+    "Where is AI boost in software?"
+   ],
+   "published_at": "2026-10-09T07:50:04.000000+00:00",
+   "summary": "If intelligent alien civilizations and recursively self-improving AI exist, why hasn't superintelligent AI conquered the universe?"
+  },
+  {
+   "rank": 10,
    "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
    "lang": "en",
    "region": "intl",
@@ -171,107 +193,71 @@
    "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs."
   },
   {
-   "rank": 10,
-   "title": "AI-powered analytics: Building data visualizations with natural language vs. SQL",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/ai-powered-analytics-building-data-visualizations-natural-language-vs-sql",
-   "score": 3.0,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "AI-powered analytics: Building data visualizations with natural language vs. SQL"
-   ],
-   "published_at": "2026-10-06T18:16:25.000000+00:00",
-   "summary": "Richard Tomlinson, who leads product marketing for Databricks' business intelligence..."
-  },
-  {
    "rank": 11,
-   "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+   "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
-   "score": 3.0,
+   "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
+   "score": 3.5,
    "sources": [
-    "nvidia-developer"
+    "marktechpost"
    ],
    "titles": [
-    "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core"
+    "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text"
    ],
-   "published_at": "2026-10-06T19:58:03.000000+00:00",
-   "summary": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training... Bitwise determinism makes large-scale pretraining easier to..."
+   "published_at": "2026-10-10T04:51:34+00:00",
+   "summary": "Nace.AI has open-sourced Drex 1.5 , a 9B decision model for agents and backend workflows. The Drex 1.5 decision model does not write text. It reads a state and typed questions, then returns a probability for every option..."
   },
   {
    "rank": 12,
-   "title": "The model that didn't exist, so you made it yourself",
+   "title": "Impactful scheduling for GPU clusters",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
    "score": 3.0,
    "sources": [
     "huggingface-blog"
    ],
    "titles": [
-    "The model that didn't exist, so you made it yourself"
+    "Impactful scheduling for GPU clusters"
    ],
-   "published_at": "2026-10-08T00:00:00.000000+00:00",
-   "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
+   "published_at": "2026-10-09T15:20:29.000000+00:00",
+   "summary": "A Blog post by Ai2 on Hugging Face"
   },
   {
    "rank": 13,
-   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/legalon-halves-codex-costs",
-   "score": 3.0,
+   "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+   "score": 2.5,
    "sources": [
-    "openai-news"
+    "wired-ai"
    ],
    "titles": [
-    "LegalOn halves Codex costs while maintaining development speed"
+    "Book Publishers Are Quietly Using More AI. Staff Are Revolting"
    ],
-   "published_at": "2026-10-08T12:00:00.000000+00:00",
-   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically."
+   "published_at": "2026-10-09T19:28:49.000000+00:00",
+   "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech."
   },
   {
    "rank": 14,
-   "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
+   "title": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+   "url": "https://www.theguardian.com/world/2026/oct/09/flock-job-cuts",
    "score": 2.5,
    "sources": [
-    "theverge-ai"
+    "guardian-ai"
    ],
    "titles": [
-    "Instinct was the buzziest AI agent around — can it survive Muse?"
+    "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say"
    ],
-   "published_at": "2026-10-09T14:00:00.000000+00:00",
-   "summary": "Instinct’s agent is always just a text away. Before there were cute little guys , there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so m..."
+   "published_at": "2026-10-09T19:46:53.000000+00:00",
+   "summary": "Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, as the ma..."
   },
   {
    "rank": 15,
-   "title": "日薪120元，我给机器人当“老师”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896039.html",
-   "score": 9.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "日薪120元，我给机器人当“老师”",
-    "日薪120元，我给机器人当“老师”",
-    "日薪120元，我给机器人当“老师”"
-   ],
-   "published_at": "2026-10-09T01:44:03.000000+00:00",
-   "summary": "有人觉得酷，有人一个月就走。定焦One（dingjiaoone）原创机器人还在学干活，给它们当“老师”的人已经上班了。他们是机器人数据采集员。叠衣服、铺床单、洗碗、给快递贴标签，这些人们做惯了的动作，是他们每天要反复演示的任务。记录下来的数据，经过审核、筛选，再用来训练机器人。眼下，采数据大致有几条路：一条是...... 本文来自微信公众号： 定焦One ，编辑：金玙璠，作者：定焦One团队 有人觉得酷，有人一个月就走。 定焦One（d..."
-  },
-  {
-   "rank": 16,
    "title": "谷歌为何押注RSI？",
    "lang": "zh",
    "region": "cn",
@@ -291,76 +277,98 @@
    "summary": "“我们的模型正式超越了我。我已经没什么可教它的了。”9月30日，Google DeepMind研究员Zirui Wang在社交媒体上写道。当天，谷歌发布Gemini 4系列首款模型Gemini 4 Argon。这是谷歌今年最重要的一次旗舰发布。这句半开玩笑的感叹，很快引出一个更大胆的猜测：谷歌是否已经实现了R...... 本文来自微信公众号： 深流研究所 ，作者：吴绛枫 “我们的模型正式超越了我。我已经没什么可教它的了。” 9月30日，..."
   },
   {
-   "rank": 17,
-   "title": "大厂夹缝中的Manus",
+   "rank": 16,
+   "title": "Manus，没能逃出巨头的游戏",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4896270.html",
-   "score": 6.0,
+   "url": "https://www.huxiu.com/article/4896273.html",
+   "score": 9.0,
    "sources": [
     "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "大厂夹缝中的Manus",
-    "大厂夹缝中的Manus"
-   ],
-   "published_at": "2026-10-09T13:23:46.000000+00:00",
-   "summary": "Manus母公司蝴蝶效应在北京大举招人，招聘消息放出去一天，创始人肖弘就收到了上千封简历。17个岗位全部落在北京，从Agent Harness工程师到评测研究实习生，从虚拟化工程师到商业分析，覆盖了从智能体运行控制层到用户增长和付费转化的完整链条。与招聘几乎同步落地的是融资消息。蝴蝶效应宣布完成超过5亿美元新...... 本文来自微信公众号： 智械岛 ，作者：霍如筠 Manus母公司蝴蝶效应在北京大举招人，招聘消息放出去一天，创始人肖弘..."
-  },
-  {
-   "rank": 18,
-   "title": "一边造AI，一边挖地堡，硅谷精英们在怕什么",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4018587738148993",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "huxiu"
-   ],
-   "titles": [
-    "一边造AI，一边挖地堡，硅谷精英们在怕什么",
-    "一边造AI，一边挖地堡，硅谷精英们在怕什么"
-   ],
-   "published_at": "2026-10-09T13:36:47.000000+00:00",
-   "summary": "十年前，奥特曼告诉《纽约客》，自己备好了枪、黄金、抗生素和防毒面罩，还在加州大苏尔留有一片可以飞过去的土地。 十年后，这位OpenAI的掌舵人向公众解释，为什么大家应该接受AI带来的部分风险。 据路透社10月4日报道，奥特曼在接受采访时主张， 为了获取AI的巨大收益并保留人们使用技术的自主权，社会必须容忍一些“坏事”的发生，比如黑客攻击、诈骗和技术滥用。 一边呼吁大众承担风险，一边为自己暗备退路，这不是奥特曼一个人的独特操作。据《华尔街..."
-  },
-  {
-   "rank": 19,
-   "title": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4017229795299203",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "infoq-cn"
-   ],
-   "titles": [
-    "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
-    "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的"
-   ],
-   "published_at": "2026-10-08T23:22:06.000000+00:00",
-   "summary": "计算机操作（Computer use）的结果明明很容易验证，为什么这一技术的进展如此缓慢？AI 什么时候才能真的学会操作电脑？ 今年 6 月，知名播客主持人 Dwarkesh Patel 提出的这个质疑，在行业内引发了不少争议。 三个月后，OpenAI 在 9 月 29 日的开发者日展示了 Dot、计算机操作和一系列新的开发者接口。每个 Dot 都可以使用一台独立的云端 Linux 电脑，既能打开浏览器，也能运行桌面应用；用户可以把原本..."
-  },
-  {
-   "rank": 20,
-   "title": "大厂借钱，买断未来",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4017926316412800",
-   "score": 5.5,
-   "sources": [
     "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "大厂借钱，买断未来",
-    "大厂借钱，买断未来"
+    "Manus，没能逃出巨头的游戏",
+    "Manus，没能逃出巨头的游戏",
+    "Manus，没能逃出巨头的游戏"
    ],
-   "published_at": "2026-10-09T01:54:19.000000+00:00",
-   "summary": "10月8日 ，腾讯被曝考虑发行最高 50亿美元 离岸债券，可能采用美元与离岸人民币计价，最早本月启动。四个月前，腾讯刚通过美元和人民币票据融资近 47亿美元 。 腾讯的融资不是孤例。8月26日，阿里完成 800亿港元 配售。9月，字节据报签下 296亿美元 银团贷款。10月6日，DeepSeek又被曝新一轮融资将超过 800亿元 。四笔加起来约560亿美元，折合人民币近 4000亿元 。 这几家没有一家缺钱。它们要的是在资金成本还低的时..."
+   "published_at": "2026-10-09T13:36:13.000000+00:00",
+   "summary": "Manus拿到了一大笔钱。10月8日，Manus母公司蝴蝶效应宣布完成新一轮融资，金额超过5亿美元，博裕投资、IDG资本领投，腾讯、红杉中国、真格基金等老股东继续加持。据彭博社报道，本轮融资对应估值约40亿美元，较Meta收购时的估值翻了一倍。按ARR上限5亿美元计算，市销率约为8倍，对于一个仍在高速增长期的...... 本文来自微信公众号： 版面之外 ，作者：画画 Manus拿到了一大笔钱。 10月8日，Manus母公司蝴蝶效应宣布完..."
+  },
+  {
+   "rank": 17,
+   "title": "字节找到了DeepSeek时强时弱的原因",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/10/502364.html",
+   "score": 8.0,
+   "sources": [
+    "qbitai",
+    "36kr-ai",
+    "baai-hub"
+   ],
+   "titles": [
+    "字节找到了DeepSeek时强时弱的原因",
+    "字节找到了DeepSeek时强时弱的原因",
+    "字节找到了DeepSeek时强时弱的原因"
+   ],
+   "published_at": "2026-10-09T07:11:55+00:00",
+   "summary": "答不答得对，得看Token站位"
+  },
+  {
+   "rank": 18,
+   "title": "国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/011/142.htm",
+   "score": 6.5,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用",
+    "北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给"
+   ],
+   "published_at": "2026-10-09T14:10:35+00:00",
+   "summary": "IT之家 10 月 9 日消息，中共中 央 国 务院今日发布《关于发展新质生产力的意见》，提出 19 条重大发展改革任务，坚持“创新主导、改革为要、因地制宜、先立后破”4 条原则。 《意见》将“大力推进科技创新”作为 5 大任务之首，提出加强原创性颠覆性科技创新、加快突破关键核心技术、统筹国家战略科技力量建设、强化企业科技创新主体地位、加速科技成果向现实生产力转化。 在培育壮大新兴产业方面，《意见》提出着力打造新兴支柱产业。加快新一代信..."
+  },
+  {
+   "rank": 19,
+   "title": "00后“戒断”AI短剧：一个月卸载了5次",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4896306.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "00后“戒断”AI短剧：一个月卸载了5次",
+    "00后“戒断”AI短剧：一个月卸载了5次"
+   ],
+   "published_at": "2026-10-09T23:30:18.000000+00:00",
+   "summary": "一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。正在备战考研的木兰崩溃了，明明拿起手机想打开的是学习软件，结果“误触”了红果。等她回过神来，一个下午已经过去了。她又一次卸载了APP。这已经是本月第3次，而她知道还会有第4次、第5次、第N次……AI短剧...... 本文来自微信公众号： 表外表里 ，编辑：陈梓洁、曹宾玲，作者：陈丽桦，题图来自：视觉中国 一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。 正在备战考研的木兰崩..."
+  },
+  {
+   "rank": 20,
+   "title": "做空报告瞄准Anthropic：2万亿估值，只值1500亿",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4018013543665797",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "leiphone"
+   ],
+   "titles": [
+    "做空报告瞄准Anthropic：2万亿估值，只值1500亿",
+    "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型"
+   ],
+   "published_at": "2026-10-09T03:43:34.000000+00:00",
+   "summary": "“2026年最荒谬的IPO。” 独立研究机构New Constructs用一句话给Anthropic的上市定了调，这家AI公司正朝着纳斯达克冲刺，目标估值2万亿美元，有望超越SpaceX成为全球史上最大IPO。 但New Constructs只给了1500亿美元，和目标估值差了13倍。 做空报告里还有句分量更重的话——华尔街即将面临前所未有的考验，考验投资者有多容易上当。 New Constructs创始人David Trainer，在..."
   }
  ]
 }

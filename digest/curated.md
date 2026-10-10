@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-10 09:05 CST
-数据窗口：最近 24 小时，2034 条原始条目 → 1613 个事件；过滤噪音 458 个，排除全部历史已推送的 146 个。
+生成时间：2026-10-10 15:23 CST
+数据窗口：最近 24 小时，2005 条原始条目 → 1586 个事件；过滤噪音 434 个，排除全部历史已推送的 157 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -37,78 +37,73 @@
 - 链接：https://arxiv.org/abs/2610.12421
 - 同事件报道：ISBO: Scalable Spatio-Temporal Bayesian Optimization with Log Gaussian Cox Process Models via the INLA-SPDE Approach（arXiv cs.LG）
 
-## 5. nvidia/Real-time_RE-USE
+## 5. Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost、IT之家（2 个来源） ｜ 热度：6.5
+- 摘要：Underdog, the on-device assistant from Conway Research, has released Saluki 27B under Apache 2.0. Underdog Saluki 27B is a 2-bit GGUF of Qwen3.8-27B that fits in 7.89 GB. The full BF16 model needs 54 GB. Underdog tuned t...
+- 发布时间：2026-10-09 15:23 CST
+- 链接：https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/
+- 同事件报道：Underdog AI 发布 Saluki 27B 模型：2-bit 量化 Qwen3.8-27B，7.89GB 大小（IT之家）
+
+## 6. nvidia/Real-time_RE-USE
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.61
 - 摘要：audio-to-audio, mamba-ssm, safetensors, streaming speech-enhancement, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, arxiv:2606.25621, license:other,...
 - 发布时间：2026-10-09 16:15 CST
 - 链接：https://huggingface.co/nvidia/Real-time_RE-USE
 
-## 6. Typesafe AI raises $870M at $7.5B
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：4.03
-- 摘要：TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.
-- 发布时间：2026-10-10 01:02 CST
-- 链接：https://typesafe.ai/blog/series-ai
+## 7. How AI Is Upending the World of Mathematics
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
+- 摘要：Last month, OpenAI announced that it had produced an AI-generated proof for the Navier-Stokes problem. LLMs used to be bad at counting, but now they are solving math problems that have stumped humans for decades. Meanwhi...
+- 发布时间：2026-10-09 16:15 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-10-09/how-ai-is-upending-the-world-of-mathematics-video
+- 同事件报道：AI and mathematics（Reddit AI subreddits (new)）
 
-## 7. New AI can reconstruct what you’re looking at by reading brain activity
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.55
-- 摘要：A dog in a bathtub became a similarly colored goat. A cake turned into three sandwiches. These mistakes reveal the limits of an AI system that can otherwise reconstruct surprisingly detailed images from the brain activit...
-- 发布时间：2026-10-09 08:06 CST
-- 链接：http://thebrighterside.news/post/new-ai-can-reconstruct-what-youre-looking-at-by-reading-brain-activity
-- 同事件报道：AI model can reconstruct images from your brain（Hacker News (AI stories)）
+## 8. Anthropic’s "Cruel Behavior Ban" and Its Consequences
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.58
+- 摘要：On October 8, 2026, Anthropic announced a "cruel behavior ban" that will take effect on November 12 of the same year. I find it very dangerous. But first things first. Let's address why Claude users are getting excessive...
+- 发布时间：2026-10-09 12:15 CST
+- 链接：https://www.reddit.com/r/artificial/comments/1x1bs2n/anthropics_cruel_behavior_ban_and_its_consequences/
+- 同事件报道：Anthropic bans users from being 'cruel' to its AI systems（Hacker News (AI stories)）
 
-## 8. Impactful scheduling for GPU clusters
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
-- 摘要：A Blog post by Ai2 on Hugging Face
-- 发布时间：2026-10-09 23:20 CST
-- 链接：https://huggingface.co/blog/allenai/impactful-scheduling
+## 9. Where Is the AI?
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.55
+- 摘要：If intelligent alien civilizations and recursively self-improving AI exist, why hasn't superintelligent AI conquered the universe?
+- 发布时间：2026-10-09 15:50 CST
+- 链接：https://johnomeara.com/blog/where-is-the-ai
+- 同事件报道：Where is AI boost in software?（Reddit AI subreddits (new)）
 
-## 9. The maker of non-text AI model Jev valued at $7.5B just weeks after launch
+## 10. The maker of non-text AI model Jev valued at $7.5B just weeks after launch
 - 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：3.5
 - 摘要：What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.
 - 发布时间：2026-10-10 05:41 CST
 - 链接：https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/
 
-## 10. AI-powered analytics: Building data visualizations with natural language vs. SQL
-- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.0
-- 摘要：Richard Tomlinson, who leads product marketing for Databricks' business intelligence...
-- 发布时间：2026-10-07 02:16 CST
-- 链接：https://www.databricks.com/blog/ai-powered-analytics-building-data-visualizations-natural-language-vs-sql
+## 11. Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
+- 摘要：Nace.AI has open-sourced Drex 1.5 , a 9B decision model for agents and backend workflows. The Drex 1.5 decision model does not write text. It reads a state and typed questions, then returns a probability for every option...
+- 发布时间：2026-10-10 12:51 CST
+- 链接：https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
 
-## 11. Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core
-- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.0
-- 摘要：Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training... Bitwise determinism makes large-scale pretraining easier to...
-- 发布时间：2026-10-07 03:58 CST
-- 链接：https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/
-
-## 12. The model that didn't exist, so you made it yourself
+## 12. Impactful scheduling for GPU clusters
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.0
-- 摘要：We’re on a journey to advance and democratize artificial intelligence through open source and open science.
-- 发布时间：2026-10-08 08:00 CST
-- 链接：https://huggingface.co/blog/building-with-ml-intern
+- 摘要：A Blog post by Ai2 on Hugging Face
+- 发布时间：2026-10-09 23:20 CST
+- 链接：https://huggingface.co/blog/allenai/impactful-scheduling
 
-## 13. LegalOn halves Codex costs while maintaining development speed
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.0
-- 摘要：LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.
-- 发布时间：2026-10-08 20:00 CST
-- 链接：https://openai.com/index/legalon-halves-codex-costs
+## 13. Book Publishers Are Quietly Using More AI. Staff Are Revolting
+- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech.
+- 发布时间：2026-10-10 03:28 CST
+- 链接：https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/
 
-## 14. Instinct was the buzziest AI agent around — can it survive Muse?
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Instinct’s agent is always just a text away. Before there were cute little guys , there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so m...
-- 发布时间：2026-10-09 22:00 CST
-- 链接：https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots
+## 14. AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Guardian — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, as the ma...
+- 发布时间：2026-10-10 03:46 CST
+- 链接：https://www.theguardian.com/world/2026/oct/09/flock-job-cuts
 
 国内：
 
-## 1. 日薪120元，我给机器人当“老师”
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道、钛媒体（3 个来源） ｜ 热度：9.0
-- 摘要：有人觉得酷，有人一个月就走。定焦One（dingjiaoone）原创机器人还在学干活，给它们当“老师”的人已经上班了。他们是机器人数据采集员。叠衣服、铺床单、洗碗、给快递贴标签，这些人们做惯了的动作，是他们每天要反复演示的任务。记录下来的数据，经过审核、筛选，再用来训练机器人。眼下，采数据大致有几条路：一条是...... 本文来自微信公众号： 定焦One ，编辑：金玙璠，作者：定焦One团队 有人觉得酷，有人一个月就走。 定焦One（d...
-- 发布时间：2026-10-09 09:44 CST
-- 链接：https://www.huxiu.com/article/4896039.html
-- 同事件报道：日薪120元，我给机器人当“老师”（36氪 AI 频道）
-- 同事件报道：日薪120元，我给机器人当“老师”（钛媒体）
-
-## 2. 谷歌为何押注RSI？
+## 1. 谷歌为何押注RSI？
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道、钛媒体（3 个来源） ｜ 热度：9.0
 - 摘要：“我们的模型正式超越了我。我已经没什么可教它的了。”9月30日，Google DeepMind研究员Zirui Wang在社交媒体上写道。当天，谷歌发布Gemini 4系列首款模型Gemini 4 Argon。这是谷歌今年最重要的一次旗舰发布。这句半开玩笑的感叹，很快引出一个更大胆的猜测：谷歌是否已经实现了R...... 本文来自微信公众号： 深流研究所 ，作者：吴绛枫 “我们的模型正式超越了我。我已经没什么可教它的了。” 9月30日，...
 - 发布时间：2026-10-09 14:32 CST
@@ -116,30 +111,39 @@
 - 同事件报道：谷歌为何押注RSI？（36氪 AI 频道）
 - 同事件报道：谷歌为何押注RSI？（钛媒体）
 
-## 3. 大厂夹缝中的Manus
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：Manus母公司蝴蝶效应在北京大举招人，招聘消息放出去一天，创始人肖弘就收到了上千封简历。17个岗位全部落在北京，从Agent Harness工程师到评测研究实习生，从虚拟化工程师到商业分析，覆盖了从智能体运行控制层到用户增长和付费转化的完整链条。与招聘几乎同步落地的是融资消息。蝴蝶效应宣布完成超过5亿美元新...... 本文来自微信公众号： 智械岛 ，作者：霍如筠 Manus母公司蝴蝶效应在北京大举招人，招聘消息放出去一天，创始人肖弘...
-- 发布时间：2026-10-09 21:23 CST
-- 链接：https://www.huxiu.com/article/4896270.html
-- 同事件报道：大厂夹缝中的Manus（36氪 AI 频道）
-
-## 4. 一边造AI，一边挖地堡，硅谷精英们在怕什么
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、虎嗅（2 个来源） ｜ 热度：6.0
-- 摘要：十年前，奥特曼告诉《纽约客》，自己备好了枪、黄金、抗生素和防毒面罩，还在加州大苏尔留有一片可以飞过去的土地。 十年后，这位OpenAI的掌舵人向公众解释，为什么大家应该接受AI带来的部分风险。 据路透社10月4日报道，奥特曼在接受采访时主张， 为了获取AI的巨大收益并保留人们使用技术的自主权，社会必须容忍一些“坏事”的发生，比如黑客攻击、诈骗和技术滥用。 一边呼吁大众承担风险，一边为自己暗备退路，这不是奥特曼一个人的独特操作。据《华尔街...
+## 2. Manus，没能逃出巨头的游戏
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道、钛媒体（3 个来源） ｜ 热度：9.0
+- 摘要：Manus拿到了一大笔钱。10月8日，Manus母公司蝴蝶效应宣布完成新一轮融资，金额超过5亿美元，博裕投资、IDG资本领投，腾讯、红杉中国、真格基金等老股东继续加持。据彭博社报道，本轮融资对应估值约40亿美元，较Meta收购时的估值翻了一倍。按ARR上限5亿美元计算，市销率约为8倍，对于一个仍在高速增长期的...... 本文来自微信公众号： 版面之外 ，作者：画画 Manus拿到了一大笔钱。 10月8日，Manus母公司蝴蝶效应宣布完...
 - 发布时间：2026-10-09 21:36 CST
-- 链接：https://www.36kr.com/p/4018587738148993
-- 同事件报道：一边造AI，一边挖地堡，硅谷精英们在怕什么（虎嗅）
+- 链接：https://www.huxiu.com/article/4896273.html
+- 同事件报道：Manus，没能逃出巨头的游戏（36氪 AI 频道）
+- 同事件报道：Manus，没能逃出巨头的游戏（钛媒体）
 
-## 5. OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、InfoQ 中文（2 个来源） ｜ 热度：5.5
-- 摘要：计算机操作（Computer use）的结果明明很容易验证，为什么这一技术的进展如此缓慢？AI 什么时候才能真的学会操作电脑？ 今年 6 月，知名播客主持人 Dwarkesh Patel 提出的这个质疑，在行业内引发了不少争议。 三个月后，OpenAI 在 9 月 29 日的开发者日展示了 Dot、计算机操作和一系列新的开发者接口。每个 Dot 都可以使用一台独立的云端 Linux 电脑，既能打开浏览器，也能运行桌面应用；用户可以把原本...
-- 发布时间：2026-10-09 07:22 CST
-- 链接：https://www.36kr.com/p/4017229795299203
-- 同事件报道：OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的（InfoQ 中文）
+## 3. 字节找到了DeepSeek时强时弱的原因
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、36氪 AI 频道、智源社区（3 个来源） ｜ 热度：8.0
+- 摘要：答不答得对，得看Token站位
+- 发布时间：2026-10-09 15:11 CST
+- 链接：https://www.qbitai.com/2026/10/502364.html
+- 同事件报道：字节找到了DeepSeek时强时弱的原因（36氪 AI 频道）
+- 同事件报道：字节找到了DeepSeek时强时弱的原因（智源社区）
 
-## 6. 大厂借钱，买断未来
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：10月8日 ，腾讯被曝考虑发行最高 50亿美元 离岸债券，可能采用美元与离岸人民币计价，最早本月启动。四个月前，腾讯刚通过美元和人民币票据融资近 47亿美元 。 腾讯的融资不是孤例。8月26日，阿里完成 800亿港元 配售。9月，字节据报签下 296亿美元 银团贷款。10月6日，DeepSeek又被曝新一轮融资将超过 800亿元 。四笔加起来约560亿美元，折合人民币近 4000亿元 。 这几家没有一家缺钱。它们要的是在资金成本还低的时...
-- 发布时间：2026-10-09 09:54 CST
-- 链接：https://www.36kr.com/p/4017926316412800
-- 同事件报道：大厂借钱，买断未来（钛媒体）
+## 4. 国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.5
+- 摘要：IT之家 10 月 9 日消息，中共中 央 国 务院今日发布《关于发展新质生产力的意见》，提出 19 条重大发展改革任务，坚持“创新主导、改革为要、因地制宜、先立后破”4 条原则。 《意见》将“大力推进科技创新”作为 5 大任务之首，提出加强原创性颠覆性科技创新、加快突破关键核心技术、统筹国家战略科技力量建设、强化企业科技创新主体地位、加速科技成果向现实生产力转化。 在培育壮大新兴产业方面，《意见》提出着力打造新兴支柱产业。加快新一代信...
+- 发布时间：2026-10-09 22:10 CST
+- 链接：https://www.ithome.com/1/011/142.htm
+- 同事件报道：北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给（36氪 快讯）
+
+## 5. 00后“戒断”AI短剧：一个月卸载了5次
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：6.0
+- 摘要：一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。正在备战考研的木兰崩溃了，明明拿起手机想打开的是学习软件，结果“误触”了红果。等她回过神来，一个下午已经过去了。她又一次卸载了APP。这已经是本月第3次，而她知道还会有第4次、第5次、第N次……AI短剧...... 本文来自微信公众号： 表外表里 ，编辑：陈梓洁、曹宾玲，作者：陈丽桦，题图来自：视觉中国 一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。 正在备战考研的木兰崩...
+- 发布时间：2026-10-10 07:30 CST
+- 链接：https://www.huxiu.com/article/4896306.html
+- 同事件报道：00后“戒断”AI短剧：一个月卸载了5次（钛媒体）
+
+## 6. 做空报告瞄准Anthropic：2万亿估值，只值1500亿
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、雷峰网（2 个来源） ｜ 热度：5.5
+- 摘要：“2026年最荒谬的IPO。” 独立研究机构New Constructs用一句话给Anthropic的上市定了调，这家AI公司正朝着纳斯达克冲刺，目标估值2万亿美元，有望超越SpaceX成为全球史上最大IPO。 但New Constructs只给了1500亿美元，和目标估值差了13倍。 做空报告里还有句分量更重的话——华尔街即将面临前所未有的考验，考验投资者有多容易上当。 New Constructs创始人David Trainer，在...
+- 发布时间：2026-10-09 11:43 CST
+- 链接：https://www.36kr.com/p/4018013543665797
+- 同事件报道：当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型（雷峰网）
