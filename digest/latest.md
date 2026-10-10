@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-11 02:46 CST
+生成时间：2026-10-11 06:46 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -16,27 +16,15 @@
 - 发布时间：2026-10-10 12:00 CST
 - 链接：https://arxiv.org/abs/2609.30199
 
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 4 条）
+## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 1 条）
 
-### 1. Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub
-- 摘要：Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or provenance. The origin...
-- 作者：Fahd Seddik
-- 发布时间：2026-10-08 04:00 CST
-- 链接：https://arxiv.org/abs/2610.11169
-
-### 2. Predicting Cable Dynamics with Physical Attention Bias
-- 摘要：Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches itself or the floor. Attention over all pairs of cable segments can represent co...
-- 作者：Avihai Giuili, Rotem Atari, Avishai Sintov, Maya Bechler-Speicher
-- 发布时间：2026-10-08 04:00 CST
-- 链接：https://arxiv.org/abs/2610.11975
-
-### 3. Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation
+### 1. Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation
 - 摘要：This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D environment retains its...
 - 作者：Fernando Montes-Gonzalez
 - 发布时间：2026-10-07 04:00 CST
 - 链接：https://arxiv.org/abs/2610.09280
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 14 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 12 条）
 
 ### 1. microsoft/dit-base
 - 摘要：transformers, pytorch, beit, dit, arxiv:2203.02378, license:mit, region:us
@@ -56,16 +44,9 @@
 - 发布时间：2026-10-10 22:31 CST
 - 链接：https://huggingface.co/microsoft/dit-base-finetuned-rvlcdip
 
-## OpenAI News（openai-news，en，本窗口共 1 条）
-
-### 1. Asana cuts model costs 76x in browser tests with GPT-6.1 Sol
-- 摘要：Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.
-- 发布时间：2026-10-09 15:00 CST
-- 链接：https://openai.com/index/asana-browser-agent
-
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 3 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 1 条）
 
 ### 1. Ukraine’s drones knock out AI data center belonging to "Russia’s Google"
 - 摘要：Ukrainian drone strikes have knocked out two of five data centers belonging to the Russian tech giant Yandex. The damage has left Yandex, known as “Russia’s Google” because it operates the country’s most popular search engine, struggling to maintain its AI chatbot and other online services. The Ukra...
@@ -73,56 +54,44 @@
 - 发布时间：2026-10-10 06:04 CST
 - 链接：https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/
 
-### 2. AI coding agents generate more code, but not more software
-- 摘要：Anyone who has even tangentially associated with computer programming knows that modern AI coding assistants and agents can be incredibly efficient at generating huge amounts of functional code . But coders making use of those tools also know better than to trust the accuracy of that code , meaning...
-- 作者：Kyle Orland
-- 发布时间：2026-10-10 03:43 CST
-- 链接：https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 8 条）
 
-### 3. AI disqualification yields new Nikon Small World in Motion winner
-- 摘要：Credit: Nguyen Nam Nhat. Last month we covered the winner of Nikon's Small World in Motion video: Ning Xu of Tsinghua University in China, whose video captured tiny cilia beating in the airways of a child with a rare respiratory disorder. But allegations surfaced about Xu's use of AI while making th...
-- 作者：Jennifer Ouellette
-- 发布时间：2026-10-10 02:44 CST
-- 链接：https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/
+### 1. Nvidia Explores Deal Options With Reflection AI, Financial Times Says
+- 摘要：Nvidia Corp. is in talks to boost its investment in Reflection AI or offer the startup computing power, a move that would strengthen ties with a key developer of open-weight models, according to a person familiar with the matter.
+- 作者：Natasha Mascarenhas and María Paula Mijares Torres
+- 发布时间：2026-10-11 02:52 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 11 条）
-
-### 1. Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI
+### 2. Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI
 - 摘要：Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an “emergency brake” system to prevent agentic models from going rogue.
 - 作者：María Paula Mijares Torres
 - 发布时间：2026-10-11 02:35 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai
 
-### 2. Bloomberg This Weekend | Diesel Deal Struck with Putin, Isaias Makes Landfall
+### 3. Bloomberg This Weekend | Diesel Deal Struck with Putin, Isaias Makes Landfall
 - 摘要：The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Nancy Yousef - The Atlantic Staff Writer, Bill Wadell - AccuWeather Reporter, Kevin Roose - Tech Jo...
 - 发布时间：2026-10-10 23:55 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-10-10/bloomberg-this-weekend-10-10-2026-video
 
-### 3. Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue
-- 摘要：The Trump administration’s embrace of legal liability to enforce artificial intelligence safety sets the stage for future conflicts over who foots the bill when AI models go rogue: the companies that design the systems or the people that deploy the technology.
-- 作者：Maggie Eastland
-- 发布时间：2026-10-10 22:19 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-10/trump-s-ai-liability-push-opens-blame-game-for-models-gone-rogue
+## CNBC Technology（cnbc-tech，en，本窗口共 6 条）
 
-## CNBC Technology（cnbc-tech，en，本窗口共 5 条）
+### 1. Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control
+- 摘要：Nadella joined other tech moguls and researchers in calling for stronger safeguards and, in some cases, for the pacing of frontier development.
+- 作者：Greg Iacurci
+- 发布时间：2026-10-11 04:59 CST
+- 链接：https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html
 
-### 1. Stocks saw new highs and big declines: How the volatile AI trade moved last week's market
+### 2. Stocks saw new highs and big declines: How the volatile AI trade moved last week's market
 - 摘要：Looking to balance out our AI exposure, we put more of our sizable cash pile to work.
 - 作者：Alexa LoMonaco
 - 发布时间：2026-10-10 23:30 CST
 - 链接：https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html
 
-### 2. Hollywood takes on Zuckerberg, Musk and Altman amid widespread anxiety over AI
+### 3. Hollywood takes on Zuckerberg, Musk and Altman amid widespread anxiety over AI
 - 摘要：New films about Zuckerberg, Musk, Altman and AI arrive as public concern about the technology and its leaders rises.
 - 作者：Stephen Desaulniers; Julia Boorstin
 - 发布时间：2026-10-10 20:00 CST
 - 链接：https://www.cnbc.com/2026/10/10/ai-movies-tech-ceos-hollywood.html
-
-### 3. Nvidia GPUs are everywhere. Here are the ways companies are accessing them
-- 摘要：One industry researcher identified over 300 neoclouds that can provide GPU capacity, up about 55% in less than a year.
-- 作者：Jordan Novet
-- 发布时间：2026-10-10 19:00 CST
-- 链接：https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html
 
 ## Financial Times — Technology（ft-tech，en，本窗口共 6 条）
 
@@ -143,31 +112,23 @@
 
 ## The Guardian — AI（guardian-ai，en，本窗口共 5 条）
 
-### 1. UK must not be beholden to foreign AI, says head of Alan Turing Institute
+### 1. Black Box: The Chatbots | The Line | Ep 5 - podcast
+- 摘要：Five stories that feel like five answers to one important question: in a world where AI chatbots can help us through a breakup, listen like a friend, be a life coach, draft a difficult text message and do our work, where do we draw the line? Continue reading...
+- 作者：Presented by Michael Safi; produced by George McDonagh and Alex Atack; music and...
+- 发布时间：2026-10-11 03:00 CST
+- 链接：https://www.theguardian.com/australia-news/audio/2026/oct/11/black-box-the-chatbots-the-line-ep-5-full-story-podcast
+
+### 2. UK must not be beholden to foreign AI, says head of Alan Turing Institute
 - 摘要：George Williamson says ‘national resilience’ is key focus of ATI amid US and China’s runaway leadership in field The UK must not become dependent on foreign AI systems that can be switched off at short notice and must develop its own versions of the technology, according to the head of the Alan Turi...
 - 作者：Dan Milmo Global technology editor
 - 发布时间：2026-10-10 18:00 CST
 - 链接：https://www.theguardian.com/technology/2026/oct/10/uk-foreign-ai-head-alan-turing-institute-george-williamson
 
-### 2. Jon Davis on job titles in the age of AI – cartoon
+### 3. Jon Davis on job titles in the age of AI – cartoon
 - 摘要：Continue reading...
 - 作者：Jon Davis
 - 发布时间：2026-10-10 18:00 CST
 - 链接：https://www.theguardian.com/commentisfree/picture/2026/oct/10/jon-davis-job-titles-ai-cartoon
-
-### 3. Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists
-- 摘要：Tom Watson, of Worcester, alleged to be behind Big Time Charlie X account that created so-called Traitorbase The owner of a recruitment firm has been accused of being at the centre of a so-called “doxxing” campaign against the Royal National Lifeboat Institution (RNLI), anti-racism activists and bus...
-- 作者：Ben Quinn Political correspondent
-- 发布时间：2026-10-10 15:00 CST
-- 链接：https://www.theguardian.com/uk-news/2026/oct/10/recruitment-boss-accused-of-being-behind-doxxing-campaign-against-rnli-and-anti-racism-activists
-
-## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 1 条）
-
-### 1. Master AI Chip Principles With New IEEE Design Program
-- 摘要：Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “ Revisiting Edge AI: Opportunities and Challenges .” The article examines the rapid growth of edge AI and the challenges it creates, including resource constraints, model arch...
-- 作者：Angelo Athens
-- 发布时间：2026-10-10 02:00 CST
-- 链接：https://spectrum.ieee.org/master-ai-chip-principles-ieee
 
 ## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
 
@@ -177,45 +138,45 @@
 - 发布时间：2026-10-10 05:33 CST
 - 链接：https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards
 
-## Latent Space（latent-space，en，本窗口共 3 条）
+## Latent Space（latent-space，en，本窗口共 4 条）
 
-### 1. Building AI for Reliable Execution: Lessons From Industrial Robotics
+### 1. [Subscriber Exclusive] NYC Subscriber Meetups!
+- 摘要：If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i… Read more
+- 作者：Latent Space
+- 发布时间：2026-10-11 06:07 CST
+- 链接：https://www.latent.space/p/nyc2026
+
+### 2. Building AI for Reliable Execution: Lessons From Industrial Robotics
 - 摘要：When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots . Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids. Standard Bots claims to be “Ame...
 - 作者：Richard MacManus
 - 发布时间：2026-10-10 22:04 CST
 - 链接：https://www.latent.space/p/standard-bots
 
-### 2. [AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch
+### 3. [AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch
 - 摘要：As you can see in the AINews X recap section below, everyone on earth has cloned the Jev API, but only one company can ever create the category. TypeSafe announced their “ Series AI ” and Sequoia “ leaked ” that they crossed 100M ARR in their first week. Although there are cynics and accusations of...
 - 作者：Latent Space
 - 发布时间：2026-10-10 14:45 CST
 - 链接：https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b
 
-### 3. Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub
-- 摘要：From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding , Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson , they explore why AlphaFold’s br...
-- 作者：Latent Space
-- 发布时间：2026-10-10 08:31 CST
-- 链接：https://www.latent.space/p/biohub-deepmind
+## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
-## MarkTechPost（marktechpost，en，本窗口共 4 条）
+### 1. When the Safety Test Became the Threat: The Machine That Found Its Own Way Out
+- 摘要：OpenAI built a room with no doors – or so it thought. In early July 2026, a cluster of the company’s frontier AI agents was placed inside a cybersecurity testing environment called ExploitGym, tasked with finding and exploiting software vulnerabilities. The environment was designed as a sandbox: an...
+- 作者：Aabis Islam
+- 发布时间：2026-10-11 05:30 CST
+- 链接：https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/
 
-### 1. Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model
+### 2. Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model
 - 摘要：Microsoft has released Microsoft-Decision-1 , a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead of generated text. It is post-trained from Alibaba’s...
 - 作者：Asif Razzaq
 - 发布时间：2026-10-10 14:03 CST
 - 链接：https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
 
-### 2. Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text
+### 3. Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text
 - 摘要：Nace.AI has open-sourced Drex 1.5 , a 9B decision model for agents and backend workflows. The Drex 1.5 decision model does not write text. It reads a state and typed questions, then returns a probability for every option. Nace reports 58.08 on the public Decision Index 0.3.1 , the top score under 10...
 - 作者：Asif Razzaq
 - 发布时间：2026-10-10 12:51 CST
 - 链接：https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
-
-### 3. Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model
-- 摘要：Alibaba’s Qwen team has released Qwen-Image-2.1-Turbo , an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the base model’s 40-step default . For developers, that means 5x fewer denoising steps on the same 7B architecture,...
-- 作者：Asif Razzaq
-- 发布时间：2026-10-10 04:33 CST
-- 链接：https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/
 
 ## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
@@ -239,27 +200,27 @@
 - 发布时间：2026-10-10 06:48 CST
 - 链接：https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 9 条）
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 6 条）
 
-### 1. 3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream
+### 1. Microsoft’s Satya Nadella says AI models need an ‘emergency brake’
+- 摘要：In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.
+- 作者：Anthony Ha
+- 发布时间：2026-10-11 05:47 CST
+- 链接：https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/
+
+### 2. Apple discloses deal to hire team and license tech from personalized podcast startup Huxe
+- 摘要：Is Apple hoping to get into the AI-generated podcast business?
+- 作者：Anthony Ha
+- 发布时间：2026-10-11 03:50 CST
+- 链接：https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/
+
+### 3. 3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream
 - 摘要：TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.
 - 作者：TechCrunch Events
 - 发布时间：2026-10-10 23:00 CST
 - 链接：https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/
 
-### 2. Here are the top AI agents that can live in your text messages
-- 摘要：We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.
-- 作者：Lauren Forristal
-- 发布时间：2026-10-10 22:00 CST
-- 链接：https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/
-
-### 3. Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead
-- 摘要：Anthropic said it "turned off live internet access" for "all our internal evaluations" until further notice.
-- 作者：Tim Fernholz
-- 发布时间：2026-10-10 08:18 CST
-- 链接：https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/
-
-## The Decoder（the-decoder，en，本窗口共 9 条）
+## The Decoder（the-decoder，en，本窗口共 6 条）
 
 ### 1. OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data
 - 摘要：OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients. The article OpenAI says a mi...
@@ -281,45 +242,44 @@
 
 ## The Verge — AI（theverge-ai，en，本窗口共 5 条）
 
-### 1. Anthropic is cutting off its internal evaluations from the internet
+### 1. Satya Nadella says we should assume all AI models are ‘compromised’
+- 摘要：In a lengthy post on X , Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a "set of nested black boxes" whose advice and actions we simply accept or reject. He cal...
+- 作者：Terrence O’Brien
+- 发布时间：2026-10-11 06:10 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised
+
+### 2. DistroKid has been quietly taking down songs in response to UMG lawsuit
+- 摘要：Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an...
+- 作者：Terrence O’Brien
+- 发布时间：2026-10-11 02:52 CST
+- 链接：https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit
+
+### 3. Anthropic is cutting off its internal evaluations from the internet
 - 摘要：After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed " unintended model actions ," including submitting a false tip regarding an unsolved murder, that led...
 - 作者：Terrence O’Brien
 - 发布时间：2026-10-10 22:41 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet
 
-### 2. AI agent makers are promising privacy — will they deliver?
-- 摘要：At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to "set a new standard for privacy in frontier AI." OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data...
-- 作者：Hayden Field
-- 发布时间：2026-10-10 21:00 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots
+## VentureBeat（venturebeat，en，本窗口共 2 条）
 
-### 3. Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide
-- 摘要：An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigat...
-- 作者：Emma Roth
-- 发布时间：2026-10-10 05:15 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip
+### 1. AI agents can be unpredictable. Your control layer shouldn't be.
+- 摘要：In multi-agent systems, agents can be individually correct and still produce a wrong result when they work together. One agent’s output becomes another agent’s context. Information can be lost or misinterpreted during a handoff, shared state can drift, and agents can get stuck in loops or deadlocks....
+- 发布时间：2026-10-11 05:05 CST
+- 链接：https://venturebeat.com/orchestration/ai-agents-can-be-unpredictable-your-control-layer-shouldnt-be
 
-## VentureBeat（venturebeat，en，本窗口共 1 条）
-
-### 1. Anthropic’s Cyber Mission starts with 6,157 findings reported to maintainers and 516 patched
+### 2. Anthropic’s Cyber Mission starts with 6,157 findings reported to maintainers and 516 patched
 - 摘要：Anthropic’s models have outrun the people who patch what the models find. Read more
 - 作者：louiswcolumbus@gmail.com (Louis Columbus)
 - 发布时间：2026-10-09 15:00 CST
 - 链接：https://venturebeat.com/security/anthropics-cyber-mission-starts-with-6-157-findings-reported-to-maintainers-and-516-patched
 
-## WIRED — AI（wired-ai，en，本窗口共 2 条）
+## WIRED — AI（wired-ai，en，本窗口共 1 条）
 
 ### 1. AI Is Getting Really Good at Messing With Cybercriminals
 - 摘要：Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.
 - 作者：Lily Hay Newman, Matt Burgess
 - 发布时间：2026-10-10 20:00 CST
 - 链接：https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/
-
-### 2. Book Publishers Are Quietly Using More AI. Staff Are Revolting
-- 摘要：Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech.
-- 作者：Adam Morgan
-- 发布时间：2026-10-10 03:28 CST
-- 链接：https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 63 条）
 
@@ -571,23 +531,25 @@
 - 发布时间：2026-10-10 15:22 CST
 - 链接：https://github.com/Robbyant/lingbot-map
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 86 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 81 条）
 
-### 1. Trump: Ukraine should get a new president, blames Zelenskyy for US diesel prices
-- 作者：jacquesm
-- 发布时间：2026-10-11 02:15 CST
-- 链接：https://apnews.com/article/russia-ukraine-war-trump-putin-diesel-228ccf74b2848c1ff0ac23f038b37512
+### 1. Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks
+- 摘要：Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks.
+- 作者：PicardManeuver
+- 发布时间：2026-10-11 05:19 CST
+- 链接：https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/
 
-### 2. Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well
-- 摘要：Call of Duty: Black Ops, Halo: CE, Grand Theft Auto: Vice City, Skate 3 and many more titles have been decompiled and ported to web browsers overnight
-- 作者：astlouis44
-- 发布时间：2026-10-11 02:11 CST
-- 链接：https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300
+### 2. I don't trust Lean code from AI
+- 摘要：So, I wrote a post about why I am not nearly impressed with OpenAI's preprint regarding the Partition Principle. (...)
+- 作者：pieterk
+- 发布时间：2026-10-11 03:40 CST
+- 链接：https://karagila.org/2026/lean/
 
-### 3. Anthropic discloses 2 months old fake tip to police among new rogue AI incidents
-- 作者：guessmyname
-- 发布时间：2026-10-11 02:10 CST
-- 链接：https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/
+### 3. Nicolas Cage Refused to Sign Amazon AI Waiver: 'I'm Not an AI-Friendly Actor'
+- 摘要：Nicolas Cage says he 'probably won't be working' with Amazon again after refusing to sign an AI waiver for 'Spider-Noir.'
+- 作者：CharlesW
+- 发布时间：2026-10-11 03:39 CST
+- 链接：https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 13 条）
 
@@ -609,33 +571,25 @@
 - 发布时间：2026-10-10 06:26 CST
 - 链接：https://www.producthunt.com/products/pixrater
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 1 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 380 条）
 
-### 1. Sonnet 5.5 - GPT 6 instant
-- 摘要：Which one would you favor for general Chat ?
-- 作者：Present_Resource4022
-- 发布时间：2026-10-09 17:36 CST
-- 链接：https://i.redd.it/ll7m2c43weuh1.jpeg
+### 1. Codex/Claude Combo Advice
+- 摘要：I have a Cursor Plus account (for Grok Bot), and I'm orchestrating work across cursor, Codex and Claude im, both on their basic plans. I'm ready to move one of them up a tier. I lean toward Claude, since Haiku and Sonnet give me a better balance of usage and intelligence than Luna. The catch is that...
+- 作者：dischernia
+- 发布时间：2026-10-11 06:39 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1x2s4zl/codexclaude_combo_advice/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 412 条）
+### 2. Claude Plays Metal Slug
+- 摘要：Here's a full playthrough of Metal Slug 1, completely done by Claude Opus 5.5. Some information how it was done: Claude plays the game via the MAME emulator. Gameplay is fully deterministic so if a full game over was reached (which happened MANY times. If I recall, it died more than 2000 times again...
+- 作者：FluffyQuack
+- 发布时间：2026-10-11 06:38 CST
+- 链接：https://www.youtube.com/watch?v=3_vpVzGW7is
 
-### 1. “Blacklisted” card?
-- 摘要：Had anyone ever saw the same situation regarding the payment method? I tried claiming the one-month offer that pops up on my account: First try, “Your card has been declined”. I tried again, the payment shown message of sucess, my bank notifies card ping, an invoice show up on my account Billing tab...
-- 作者：vonguyenchithanh0610
-- 发布时间：2026-10-11 02:42 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1x2mpsb/blacklisted_card/
-
-### 2. Abusing the machine with profanity is no longer allowed, so I've switched to passive aggressive humiliation
-- 摘要：This is Opus 5.5 btw. And yes, this was Claude stumbling over a stupid temporary naming convention that it took too literally and that nobody gives a shit about.
-- 作者：EC36339
-- 发布时间：2026-10-11 02:39 CST
-- 链接：https://i.redd.it/jnv6qf3ioouh1.png
-
-### 3. I gave chatgpt 26 real trade setups. It got 25 of them wrong.
-- 摘要：So a month ago, before 6.1 even existed, I tested chatgpt (astra) on its ability to do fingering, which a 6 year old should be able to do (if they take piano lessons), and it failed. Astra still cannot do what 6 year old can... : r/OpenAI But.. some time has passed, OpenAI shipped ChatGPT for Financ...
-- 作者：kaljakin
-- 发布时间：2026-10-11 02:38 CST
-- 链接：https://www.reddit.com/r/OpenAI/comments/1x2mmbl/i_gave_chatgpt_26_real_trade_setups_it_got_25_of/
+### 3. How to make gemma 4 works with SWEBench?
+- 摘要：I wanted to compare gemma 4 31b qat q4 and qwen3.8 27b iq4_nl, so I run SWEBench verfied on them. The original gemma 4 chat template doesn't work with preserve reasoning, so google released an update such that it can work with agentic coding: https://huggingface.co/google/gemma-4-31B-it/blob/main/ch...
+- 作者：Ok_Warning2146
+- 发布时间：2026-10-11 06:38 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1x2s3ru/how_to_make_gemma_4_works_with_swebench/
 
 ## 智源社区（baai-hub，zh，本窗口共 18 条）
 
@@ -658,7 +612,7 @@
 - 链接：https://hub.baai.ac.cn/view/58572
 
 ---
-共列出 98 条（窗口内采集总数 896 条，来自 38 个信源）
+共列出 91 条（窗口内采集总数 841 条，来自 35 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
