@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-10T07:23:11.124779+00:00",
+ "generated_at": "2026-10-10T13:55:38.011571+00:00",
  "stats": {
-  "items": 2005,
-  "clusters": 1586,
-  "noise": 434,
-  "dup": 157,
+  "items": 965,
+  "clusters": 642,
+  "noise": 395,
+  "dup": 54,
   "history_days": 0,
-  "available_cn": 128,
-  "available_intl": 867,
+  "available_cn": 132,
+  "available_intl": 61,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,184 +16,40 @@
  "items": [
   {
    "rank": 1,
-   "title": "Limited Stereotype Control Through Routing Reweighting in MoE Language Models",
+   "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2603.27141",
-   "score": 10.0,
+   "url": "https://arxiv.org/abs/2610.11169",
+   "score": 5.55,
    "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-lg",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Limited Stereotype Control Through Routing Reweighting in MoE Language Models",
-    "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
-    "[Paper] Stepped MoE: Segment-Level Routing with Configurable Inference Complexity"
-   ],
-   "published_at": "2026-10-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2603.27141v2 Announce Type: replace Abstract: Demographic prompts are routed differently from neutral prompts in Mixture-of-Experts (MoE) language models, motivating tests of routing-level stereotype control. We in..."
-  },
-  {
-   "rank": 2,
-   "title": "Language Models as AI Research World Models",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.12235",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Language Models as AI Research World Models",
-    "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL"
-   ],
-   "published_at": "2026-10-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.12235v1 Announce Type: new Abstract: AI research agents automate the cycle of proposing, implementing, and evaluating experiments, opening a path toward recursive self-improvement. Yet their ability to propose..."
-  },
-  {
-   "rank": 3,
-   "title": "Policy Learning with a Language Bottleneck",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2405.04118",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Policy Learning with a Language Bottleneck",
-    "Unifying Policy Learning and State Prediction through Spatial Language Modeling"
-   ],
-   "published_at": "2026-10-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2405.04118v4 Announce Type: replace-cross Abstract: Modern AI systems such as self-driving cars and game-playing agents can achieve superhuman performance, but often lack human-like generalization, interpretability..."
-  },
-  {
-   "rank": 4,
-   "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.12421",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
-    "ISBO: Scalable Spatio-Temporal Bayesian Optimization with Log Gaussian Cox Process Models via the INLA-SPDE Approach"
-   ],
-   "published_at": "2026-10-09T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.12421v1 Announce Type: new Abstract: Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical t..."
-  },
-  {
-   "rank": 5,
-   "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
-   "score": 6.5,
-   "sources": [
-    "marktechpost",
-    "ithome"
-   ],
-   "titles": [
-    "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
-    "Underdog AI 发布 Saluki 27B 模型：2-bit 量化 Qwen3.8-27B，7.89GB 大小"
-   ],
-   "published_at": "2026-10-09T07:23:36+00:00",
-   "summary": "Underdog, the on-device assistant from Conway Research, has released Saluki 27B under Apache 2.0. Underdog Saluki 27B is a 2-bit GGUF of Qwen3.8-27B that fits in 7.89 GB. The full BF16 model needs 54 GB. Underdog tuned t..."
-  },
-  {
-   "rank": 6,
-   "title": "nvidia/Real-time_RE-USE",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/Real-time_RE-USE",
-   "score": 4.61,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/Real-time_RE-USE"
-   ],
-   "published_at": "2026-10-09T08:15:35.000000+00:00",
-   "summary": "audio-to-audio, mamba-ssm, safetensors, streaming speech-enhancement, speech-enhancement, universal speech enhancement, multiple input sampling rates, language-agnostic, arxiv:2603.02641, arxiv:2606.25621, license:other,..."
-  },
-  {
-   "rank": 7,
-   "title": "How AI Is Upending the World of Mathematics",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-09/how-ai-is-upending-the-world-of-mathematics-video",
-   "score": 4.5,
-   "sources": [
-    "bloomberg-tech",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "How AI Is Upending the World of Mathematics",
-    "AI and mathematics"
-   ],
-   "published_at": "2026-10-09T08:15:43.000000+00:00",
-   "summary": "Last month, OpenAI announced that it had produced an AI-generated proof for the Navier-Stokes problem. LLMs used to be bad at counting, but now they are solving math problems that have stumped humans for decades. Meanwhi..."
-  },
-  {
-   "rank": 8,
-   "title": "Anthropic’s \"Cruel Behavior Ban\" and Its Consequences",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/r/artificial/comments/1x1bs2n/anthropics_cruel_behavior_ban_and_its_consequences/",
-   "score": 3.58,
-   "sources": [
-    "reddit-ai-new",
+    "hf-daily-papers",
     "hackernews-ai"
    ],
    "titles": [
-    "Anthropic’s \"Cruel Behavior Ban\" and Its Consequences",
-    "Anthropic bans users from being 'cruel' to its AI systems"
+    "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+    "GhostAction attack using GitHub and GitLab lookalike domains"
    ],
-   "published_at": "2026-10-09T04:15:41.000000+00:00",
-   "summary": "On October 8, 2026, Anthropic announced a \"cruel behavior ban\" that will take effect on November 12 of the same year. I find it very dangerous. But first things first. Let's address why Claude users are getting excessive..."
+   "published_at": "2026-10-07T20:00:00.000000+00:00",
+   "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes the..."
   },
   {
-   "rank": 9,
-   "title": "Where Is the AI?",
+   "rank": 2,
+   "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
    "lang": "en",
    "region": "intl",
-   "url": "https://johnomeara.com/blog/where-is-the-ai",
-   "score": 3.55,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Where Is the AI?",
-    "Where is AI boost in software?"
-   ],
-   "published_at": "2026-10-09T07:50:04.000000+00:00",
-   "summary": "If intelligent alien civilizations and recursively self-improving AI exist, why hasn't superintelligent AI conquered the universe?"
-  },
-  {
-   "rank": 10,
-   "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+   "url": "https://arxiv.org/abs/2609.30199",
    "score": 3.5,
    "sources": [
-    "techcrunch-ai"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "The maker of non-text AI model Jev valued at $7.5B just weeks after launch"
+    "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds"
    ],
-   "published_at": "2026-10-09T21:41:29.000000+00:00",
-   "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs."
+   "published_at": "2026-10-10T04:00:00.000000+00:00",
+   "summary": "arXiv:2609.30199v2 Announce Type: replace Abstract: Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the resu..."
   },
   {
-   "rank": 11,
+   "rank": 3,
    "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
    "lang": "en",
    "region": "intl",
@@ -209,7 +65,55 @@
    "summary": "Nace.AI has open-sourced Drex 1.5 , a 9B decision model for agents and backend workflows. The Drex 1.5 decision model does not write text. It reads a state and typed questions, then returns a probability for every option..."
   },
   {
-   "rank": 12,
+   "rank": 4,
+   "title": "The Race for AI Supremacy Raises Safety Concerns",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
+   "score": 3.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "The Race for AI Supremacy Raises Safety Concerns"
+   ],
+   "published_at": "2026-10-10T13:41:50.000000+00:00",
+   "summary": "Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general..."
+  },
+  {
+   "rank": 5,
+   "title": "Lobbying",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
+   "score": 3.1,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Lobbying"
+   ],
+   "published_at": "2026-10-10T04:40:36.000000+00:00",
+   "summary": "Have you tried to explain lobbying to a non American unfamiliar with the concept?"
+  },
+  {
+   "rank": 6,
+   "title": "Predicting Cable Dynamics with Physical Attention Bias",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.11975",
+   "score": 3.0,
+   "sources": [
+    "hf-daily-papers"
+   ],
+   "titles": [
+    "Predicting Cable Dynamics with Physical Attention Bias"
+   ],
+   "published_at": "2026-10-07T20:00:00.000000+00:00",
+   "summary": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches..."
+  },
+  {
+   "rank": 7,
    "title": "Impactful scheduling for GPU clusters",
    "lang": "en",
    "region": "intl",
@@ -225,59 +129,119 @@
    "summary": "A Blog post by Ai2 on Hugging Face"
   },
   {
-   "rank": 13,
-   "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+   "rank": 8,
+   "title": "Anthropic launches a free AI scanner for open-source projects",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
-   "score": 2.5,
+   "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
+   "score": 3.0,
    "sources": [
-    "wired-ai"
+    "the-decoder"
    ],
    "titles": [
-    "Book Publishers Are Quietly Using More AI. Staff Are Revolting"
+    "Anthropic launches a free AI scanner for open-source projects"
    ],
-   "published_at": "2026-10-09T19:28:49.000000+00:00",
-   "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech."
+   "published_at": "2026-10-09T17:54:44.000000+00:00",
+   "summary": "Anthropic has launched \"Cyber Mission,\" a program to protect critical infrastructure and open-source software from cyberattacks. Partners like CrowdStrike and Palo Alto Networks will help secure power grids and water sys..."
   },
   {
-   "rank": 14,
-   "title": "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say",
+   "rank": 9,
+   "title": "I'm in a Meeting",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.theguardian.com/world/2026/oct/09/flock-job-cuts",
+   "url": "https://iminafleeting.com/",
+   "score": 3.0,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "I'm in a Meeting"
+   ],
+   "published_at": "2026-10-09T09:21:48.000000+00:00",
+   "summary": "Workplace self-defence against people stealing your time."
+  },
+  {
+   "rank": 10,
+   "title": "Quoting The New York Times",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "Quoting The New York Times"
+   ],
+   "published_at": "2026-10-10T02:04:12.000000+00:00",
+   "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applic..."
+  },
+  {
+   "rank": 11,
+   "title": "AI is changing how lawyers work — and putting the billable hour under pressure",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html",
+   "score": 2.5,
+   "sources": [
+    "cnbc-tech"
+   ],
+   "titles": [
+    "AI is changing how lawyers work — and putting the billable hour under pressure"
+   ],
+   "published_at": "2026-10-10T05:00:01.000000+00:00",
+   "summary": "AI adoption is forcing the legal profession to rethink the billable hour and how lawyers build expertise."
+  },
+  {
+   "rank": 12,
+   "title": "The world of one trade — AI",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/3f54c442-c2b7-4876-a960-5229951c9a46?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "The world of one trade — AI"
+   ],
+   "published_at": "2026-10-10T06:36:04.000000+00:00",
+   "summary": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology"
+  },
+  {
+   "rank": 13,
+   "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/politics/audio/2026/oct/10/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
    "score": 2.5,
    "sources": [
     "guardian-ai"
    ],
    "titles": [
-    "AI surveillance startup Flock to cut several hundred jobs amid backlash, sources say"
+    "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast"
    ],
-   "published_at": "2026-10-09T19:46:53.000000+00:00",
-   "summary": "Company, which grown rapidly in recent years, has been under scrutiny as privacy concerns grow Flock Safety plans to shed about 18% of its employees, people with direct ⁠knowledge of the plans said on Thursday, as the ma..."
+   "published_at": "2026-10-10T06:45:50.000000+00:00",
+   "summary": "Are we really living through ‘end times fascism’? Naomi Klein and Astra Taylor think so. In a new series from the Guardian, the pair speak to Radical Thinking with Aditya Chakrabortty in an extended interview. From Trump..."
+  },
+  {
+   "rank": 14,
+   "title": "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/10/recruitment-boss-accused-of-being-behind-doxxing-campaign-against-rnli-and-anti-racism-activists",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Recruitment boss accused of being behind ‘doxxing’ campaign against RNLI and anti-racism activists"
+   ],
+   "published_at": "2026-10-10T07:00:50.000000+00:00",
+   "summary": "Tom Watson, of Worcester, alleged to be behind Big Time Charlie X account that created so-called Traitorbase The owner of a recruitment firm has been accused of being at the centre of a so-called “doxxing” campaign again..."
   },
   {
    "rank": 15,
-   "title": "谷歌为何押注RSI？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896137.html",
-   "score": 9.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "谷歌为何押注RSI？",
-    "谷歌为何押注RSI？",
-    "谷歌为何押注RSI？"
-   ],
-   "published_at": "2026-10-09T06:32:28.000000+00:00",
-   "summary": "“我们的模型正式超越了我。我已经没什么可教它的了。”9月30日，Google DeepMind研究员Zirui Wang在社交媒体上写道。当天，谷歌发布Gemini 4系列首款模型Gemini 4 Argon。这是谷歌今年最重要的一次旗舰发布。这句半开玩笑的感叹，很快引出一个更大胆的猜测：谷歌是否已经实现了R...... 本文来自微信公众号： 深流研究所 ，作者：吴绛枫 “我们的模型正式超越了我。我已经没什么可教它的了。” 9月30日，..."
-  },
-  {
-   "rank": 16,
    "title": "Manus，没能逃出巨头的游戏",
    "lang": "zh",
    "region": "cn",
@@ -297,24 +261,44 @@
    "summary": "Manus拿到了一大笔钱。10月8日，Manus母公司蝴蝶效应宣布完成新一轮融资，金额超过5亿美元，博裕投资、IDG资本领投，腾讯、红杉中国、真格基金等老股东继续加持。据彭博社报道，本轮融资对应估值约40亿美元，较Meta收购时的估值翻了一倍。按ARR上限5亿美元计算，市销率约为8倍，对于一个仍在高速增长期的...... 本文来自微信公众号： 版面之外 ，作者：画画 Manus拿到了一大笔钱。 10月8日，Manus母公司蝴蝶效应宣布完..."
   },
   {
-   "rank": 17,
-   "title": "字节找到了DeepSeek时强时弱的原因",
+   "rank": 16,
+   "title": "一边造AI，一边挖地堡，硅谷精英们在怕什么",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/502364.html",
-   "score": 8.0,
+   "url": "https://www.36kr.com/p/4018587738148993",
+   "score": 9.0,
    "sources": [
-    "qbitai",
     "36kr-ai",
-    "baai-hub"
+    "huxiu",
+    "tmtpost"
    ],
    "titles": [
-    "字节找到了DeepSeek时强时弱的原因",
-    "字节找到了DeepSeek时强时弱的原因",
-    "字节找到了DeepSeek时强时弱的原因"
+    "一边造AI，一边挖地堡，硅谷精英们在怕什么",
+    "一边造AI，一边挖地堡，硅谷精英们在怕什么",
+    "一边造AI，一边挖地堡，硅谷精英们在怕什么"
    ],
-   "published_at": "2026-10-09T07:11:55+00:00",
-   "summary": "答不答得对，得看Token站位"
+   "published_at": "2026-10-09T13:36:47.000000+00:00",
+   "summary": "十年前，奥特曼告诉《纽约客》，自己备好了枪、黄金、抗生素和防毒面罩，还在加州大苏尔留有一片可以飞过去的土地。 十年后，这位OpenAI的掌舵人向公众解释，为什么大家应该接受AI带来的部分风险。 据路透社10月4日报道，奥特曼在接受采访时主张， 为了获取AI的巨大收益并保留人们使用技术的自主权，社会必须容忍一些“坏事”的发生，比如黑客攻击、诈骗和技术滥用。 一边呼吁大众承担风险，一边为自己暗备退路，这不是奥特曼一个人的独特操作。据《华尔街..."
+  },
+  {
+   "rank": 17,
+   "title": "00后“戒断”AI短剧：一个月卸载了5次",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4896306.html",
+   "score": 9.0,
+   "sources": [
+    "huxiu",
+    "tmtpost",
+    "36kr-ai"
+   ],
+   "titles": [
+    "00后“戒断”AI短剧：一个月卸载了5次",
+    "00后“戒断”AI短剧：一个月卸载了5次",
+    "硅谷最火00后，讲透了AI助理的5个非共识观点"
+   ],
+   "published_at": "2026-10-09T23:30:18.000000+00:00",
+   "summary": "一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。正在备战考研的木兰崩溃了，明明拿起手机想打开的是学习软件，结果“误触”了红果。等她回过神来，一个下午已经过去了。她又一次卸载了APP。这已经是本月第3次，而她知道还会有第4次、第5次、第N次……AI短剧...... 本文来自微信公众号： 表外表里 ，编辑：陈梓洁、曹宾玲，作者：陈丽桦，题图来自：视觉中国 一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。 正在备战考研的木兰崩..."
   },
   {
    "rank": 18,
@@ -329,46 +313,47 @@
    ],
    "titles": [
     "国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用",
-    "北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给"
+    "北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给",
+    "北京：增加人工智能手机和电脑、智能穿戴、智能机器人等新一代智能终端产品有效供给"
    ],
    "published_at": "2026-10-09T14:10:35+00:00",
    "summary": "IT之家 10 月 9 日消息，中共中 央 国 务院今日发布《关于发展新质生产力的意见》，提出 19 条重大发展改革任务，坚持“创新主导、改革为要、因地制宜、先立后破”4 条原则。 《意见》将“大力推进科技创新”作为 5 大任务之首，提出加强原创性颠覆性科技创新、加快突破关键核心技术、统筹国家战略科技力量建设、强化企业科技创新主体地位、加速科技成果向现实生产力转化。 在培育壮大新兴产业方面，《意见》提出着力打造新兴支柱产业。加快新一代信..."
   },
   {
    "rank": 19,
-   "title": "00后“戒断”AI短剧：一个月卸载了5次",
+   "title": "模型还在加速，世界如何跟上？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4896306.html",
+   "url": "https://www.huxiu.com/article/4896366.html",
    "score": 6.0,
    "sources": [
     "huxiu",
-    "tmtpost"
+    "36kr-ai"
    ],
    "titles": [
-    "00后“戒断”AI短剧：一个月卸载了5次",
-    "00后“戒断”AI短剧：一个月卸载了5次"
+    "模型还在加速，世界如何跟上？",
+    "北美AI访谈手记：模型还在加速，世界如何跟上？"
    ],
-   "published_at": "2026-10-09T23:30:18.000000+00:00",
-   "summary": "一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。正在备战考研的木兰崩溃了，明明拿起手机想打开的是学习软件，结果“误触”了红果。等她回过神来，一个下午已经过去了。她又一次卸载了APP。这已经是本月第3次，而她知道还会有第4次、第5次、第N次……AI短剧...... 本文来自微信公众号： 表外表里 ，编辑：陈梓洁、曹宾玲，作者：陈丽桦，题图来自：视觉中国 一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。 正在备战考研的木兰崩..."
+   "published_at": "2026-10-10T03:33:17.000000+00:00",
+   "summary": "这趟行程密度很大，后劲很足，回到上海后满脑子还是15天里的各种画面：一边，有Frontier Lab研究员波澜不惊地向我描述他的日常：“我的工作主要就是监督和鼓励我的1万个agent。”有数学博士对我说：“数学已经死了。”在Mountain View的Red R...... 本文来自微信公众号： 划重点KeyPoints ，作者：冯瑶，原文标题：《模型还在加速，世界如何跟上？｜北美AI访谈手记》，头图来自：AI生成 这趟行程密度很大，后..."
   },
   {
    "rank": 20,
-   "title": "做空报告瞄准Anthropic：2万亿估值，只值1500亿",
+   "title": "Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4018013543665797",
-   "score": 5.5,
+   "url": "https://www.ithome.com/1/011/329.htm",
+   "score": 6.0,
    "sources": [
-    "36kr-ai",
-    "leiphone"
+    "ithome",
+    "oschina"
    ],
    "titles": [
-    "做空报告瞄准Anthropic：2万亿估值，只值1500亿",
-    "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型"
+    "Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents",
+    "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载"
    ],
-   "published_at": "2026-10-09T03:43:34.000000+00:00",
-   "summary": "“2026年最荒谬的IPO。” 独立研究机构New Constructs用一句话给Anthropic的上市定了调，这家AI公司正朝着纳斯达克冲刺，目标估值2万亿美元，有望超越SpaceX成为全球史上最大IPO。 但New Constructs只给了1500亿美元，和目标估值差了13倍。 做空报告里还有句分量更重的话——华尔街即将面临前所未有的考验，考验投资者有多容易上当。 New Constructs创始人David Trainer，在..."
+   "published_at": "2026-10-10T05:38:05+00:00",
+   "summary": "IT之家 10 月 10 日消息，Anthropic 昨日（10 月 9 日）发布公告， 宣布为 Claude 管理智能体（Claude Managed Agents）引入动态工作流，单次执行最多可并行协调 1,000 个 AI 智能体。 IT之家注：动态工作流是由主智能体规划任务、分派子任务，并在子智能体完成后汇总结果的执行方式。典型场景包括把代码检查等大型任务拆分成多个部分并行处理；在 Claude 管理智能体中，该模式每次执行最多..."
   }
  ]
 }
