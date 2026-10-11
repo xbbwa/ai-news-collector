@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-11 06:46 CST
-数据窗口：最近 24 小时，837 条原始条目 → 597 个事件；过滤噪音 399 个，排除全部历史已推送的 45 个。
+生成时间：2026-10-11 10:03 CST
+数据窗口：最近 24 小时，778 条原始条目 → 558 个事件；过滤噪音 378 个，排除全部历史已推送的 33 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -16,84 +16,84 @@
 - 同事件报道：Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control（CNBC Technology）
 - 同事件报道：Microsoft’s Satya Nadella says AI models need an ‘emergency brake’（TechCrunch — AI）
 
-## 2. microsoft/dit-base-finetuned-rvlcdip
+## 2. Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.5
+- 摘要：Microsoft has released Microsoft-Decision-1 , a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each...
+- 发布时间：2026-10-10 14:03 CST
+- 链接：https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
+- 同事件报道：Microsoft released Microsoft-Decision-1, a Qwen3.5-9B decision model that outputs calibrated probabilities instead of te...（Reddit AI subreddits (new)）
+
+## 3. microsoft/dit-base-finetuned-rvlcdip
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.11
 - 摘要：image-classification, transformers, pytorch, beit, dit, vision, dataset:rvl_cdip, arxiv:2203.02378, license:mit, endpoints_compatible, deploy:azure, region:us
 - 发布时间：2026-10-10 22:31 CST
 - 链接：https://huggingface.co/microsoft/dit-base-finetuned-rvlcdip
 
-## 3. microsoft/dit-base
+## 4. microsoft/dit-base
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.04
 - 摘要：transformers, pytorch, beit, dit, arxiv:2203.02378, license:mit, region:us
 - 发布时间：2026-10-10 22:32 CST
 - 链接：https://huggingface.co/microsoft/dit-base
 
-## 4. The hazy OpenAI growth metric driving Wall Street
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
-- 摘要：Revelations that the AI giant’s annualised revenues were $20bn less than previously reported triggered volatility in US stocks
-- 发布时间：2026-10-10 04:57 CST
-- 链接：https://www.ft.com/content/62653892-2333-4953-a8d5-cfd760ae3257?syn-25a6b1a6=1
-- 同事件报道：The hazy OpenAI growth metric driving Wall Street（Hacker News (AI stories)）
-
-## 5. Super Micro Case ‘Fixer’ Pleads Guilty to Diverting AI Tech
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.5
-- 摘要：A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan “Wally” Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.
-- 发布时间：2026-10-10 05:11 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers
-- 同事件报道：Super Micro case 'fixer' pleads guilty to sending AI servers to China（Reddit AI subreddits (new)）
-
-## 6. The Race for AI Supremacy Raises Safety Concerns
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：3.5
-- 摘要：Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general...
-- 发布时间：2026-10-10 21:41 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video
-
-## 7. ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds
+## 5. ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds
 - 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.AI（1 个来源） ｜ 热度：3.0
 - 摘要：arXiv:2609.30199v2 Announce Type: replace Abstract: Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the resu...
 - 发布时间：2026-10-10 12:00 CST
 - 链接：https://arxiv.org/abs/2609.30199
 
-## 8. Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text
+## 6. Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text
 - 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.0
 - 摘要：Nace.AI has open-sourced Drex 1.5 , a 9B decision model for agents and backend workflows. The Drex 1.5 decision model does not write text. It reads a state and typed questions, then returns a probability for every option...
 - 发布时间：2026-10-10 12:51 CST
 - 链接：https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/
 
-## 9. YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：3.0
-- 发布时间：2026-10-10 05:06 CST
-- 链接：https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306
+## 7. The Race for AI Supremacy Raises Safety Concerns
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：3.0
+- 摘要：Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general...
+- 发布时间：2026-10-10 21:41 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video
 
-## 10. Lobbying
+## 8. Lobbying
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)（1 个来源） ｜ 热度：2.6
 - 摘要：Have you tried to explain lobbying to a non American unfamiliar with the concept?
 - 发布时间：2026-10-10 12:40 CST
 - 链接：https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html
 
-## 11. Few people pay for AI, but those who do spend big
+## 9. Building AI for Reliable Execution: Lessons From Industrial Robotics
+- 地区：国外源 ｜ 语言：en ｜ 来源：Latent Space（1 个来源） ｜ 热度：2.5
+- 摘要：When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots . Those may well be the future, but arguably more important in 2026 is indust...
+- 发布时间：2026-10-10 22:04 CST
+- 链接：https://www.latent.space/p/standard-bots
+
+## 10. Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：2.5
+- 摘要：The Trump administration’s embrace of legal liability to enforce artificial intelligence safety sets the stage for future conflicts over who foots the bill when AI models go rogue: the companies that design the systems o...
+- 发布时间：2026-10-10 22:19 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-10/trump-s-ai-liability-push-opens-blame-game-for-models-gone-rogue
+
+## 11. Microsoft's Decision-1 model enters the fast-growing AI decision model race
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
-- 摘要：Andreessen Horowitz tracks actual US consumer spending for the first time in its latest Top 100 AI list. Nearly half of US consumers use AI, but only 4.5 percent pay for a subscription. The top one percent of payers spen...
-- 发布时间：2026-10-10 18:54 CST
-- 链接：https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/
+- 摘要：With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according...
+- 发布时间：2026-10-10 22:57 CST
+- 链接：https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/
 
-## 12. Nvidia GPUs are everywhere. Here are the ways companies are accessing them
+## 12. OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Decoder（1 个来源） ｜ 热度：2.5
+- 摘要：OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through an...
+- 发布时间：2026-10-10 23:15 CST
+- 链接：https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/
+
+## 13. Stocks saw new highs and big declines: How the volatile AI trade moved last week's market
 - 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology（1 个来源） ｜ 热度：2.5
-- 摘要：One industry researcher identified over 300 neoclouds that can provide GPU capacity, up about 55% in less than a year.
-- 发布时间：2026-10-10 19:00 CST
-- 链接：https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html
+- 摘要：Looking to balance out our AI exposure, we put more of our sizable cash pile to work.
+- 发布时间：2026-10-10 23:30 CST
+- 链接：https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html
 
-## 13. AI borrowing slows as investors grow wary of debt binge
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology（1 个来源） ｜ 热度：2.5
-- 摘要：Appetite for financing infrastructure boom is tested after months of record-breaking bond issuance
-- 发布时间：2026-10-10 19:00 CST
-- 链接：https://www.ft.com/content/9c13d40e-d2b2-45d5-921c-a68cd4b308f9?syn-25a6b1a6=1
-
-## 14. AI Is Getting Really Good at Messing With Cybercriminals
-- 地区：国外源 ｜ 语言：en ｜ 来源：WIRED — AI（1 个来源） ｜ 热度：2.5
-- 摘要：Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.
-- 发布时间：2026-10-10 20:00 CST
-- 链接：https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/
+## 14. DistroKid has been quietly taking down songs in response to UMG lawsuit
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：2.5
+- 摘要：Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG...
+- 发布时间：2026-10-11 02:52 CST
+- 链接：https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit
 
 国内：
 
@@ -105,38 +105,37 @@
 - 同事件报道：北美AI访谈手记：模型还在加速，世界如何跟上？（36氪 AI 频道）
 - 同事件报道：模型还在加速，世界如何跟上？｜北美AI交流手记（钛媒体）
 
-## 2. 首张全天紫外线地图问世：Claude Science AI 协助绘制约 1/3 区域
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、Reddit AI subreddits (new)、智源社区（3 个来源） ｜ 热度：7.0
-- 摘要：IT之家 10 月 10 日消息，Anthropic 于 10 月 8 日发布博文， 宣布旗下 Claude Science 协助绘制首张完整的全天紫外线地图，约三分之一地图区域由模型估算。 IT之家注：完整全天紫外线地图是把整片天空的紫外线观测拼合成一张图，图中以银河系中心为中央，合并了远紫外线（154 纳米）与近紫外线（232 纳米）数据。 由于地球臭氧层会吸收紫外线，因此天文学家必须使用太空望远镜观测。其中最大的数据集来自 NAS...
-- 发布时间：2026-10-10 13:26 CST
-- 链接：https://www.ithome.com/1/011/326.htm
-- 同事件报道：Teaching Claude to "listen" to songs. 1, a spectrogram, log-scaled as there's less song-relevant info in the higher part...（Reddit AI subreddits (new)）
-- 同事件报道：太震撼了，Claude画出首张紫外全天图！1.19亿颗星逐颗叠上（智源社区）
-
-## 3. “请3休13”的黄金周，AI旅游攻略把我练成了特种兵
+## 2. 把够用的智能做成一门生意
 - 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：这个国庆，把旅游攻略“外包”AI的人越来越多了。海量的需求涌向对话框，各大平台的AI服务在这个假期格外忙碌。 中秋国庆期间，飞猪帮帮交互量环比增长158%；美团AI管家“小团”国庆期间用户量和调用量较五一增长六成以上；同程DeepTrip在国庆首日高峰时段小时访问量增长超3倍。 使用热度在上升，落地的难题却也更加具体。 AI给出的旅游攻略看似事无巨细，但真正到了出去玩那天，景区限流、路线错误、营业时间变更、实时路况拥堵，每一个变量都可能...
-- 发布时间：2026-10-10 07:24 CST
-- 链接：https://www.36kr.com/p/4018628440723591
-- 同事件报道：“请3休13”的黄金周，AI旅游攻略把我练成了特种兵（钛媒体）
+- 摘要：10月6日，OpenAI公布了一批由内部前沿模型完成的数学研究。它还披露了一笔颇有意思的账：得到一项结果，平均需要相当于ChatGPT Pro思考约三小时的计算量。 第二天，Anthropic发布新一代小模型Haiku 5.5，称它适合摘要、分类、数据库查询等大量重复的工作；同样在7日，OpenAI把GPT‑6推向更多ChatGPT用户，免费用户使用的却是较轻的Luna。前沿模型继续探向科学难题，日常请求则更多交给成本较低的能力。 同一...
+- 发布时间：2026-10-10 11:23 CST
+- 链接：https://www.36kr.com/p/4019486650879873
+- 同事件报道：把够用的智能做成一门生意（钛媒体）
 
-## 4. 00后“戒断”AI短剧：一个月卸载了5次
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。正在备战考研的木兰崩溃了，明明拿起手机想打开的是学习软件，结果“误触”了红果。等她回过神来，一个下午已经过去了。她又一次卸载了APP。这已经是本月第3次，而她知道还会有第4次、第5次、第N次……AI短剧...... 本文来自微信公众号： 表外表里 ，编辑：陈梓洁、曹宾玲，作者：陈丽桦，题图来自：视觉中国 一个小时，可以背几十个英语单词，也能刷完一整季AI短剧。 正在备战考研的木兰崩...
-- 发布时间：2026-10-10 07:30 CST
-- 链接：https://www.huxiu.com/article/4896306.html
-- 同事件报道：00后“戒断”AI短剧：一个月卸载了5次（钛媒体）
-
-## 5. Manus，没能逃出巨头的游戏
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：Manus 拿到了一大笔钱。 10 月 8 日，Manus 母公司蝴蝶效应宣布完成新一轮融资，金额超过 5 亿美元，博裕投资、IDG 资本领投，腾讯、红杉中国、真格基金等老股东继续加持。据彭博社报道，本轮融资对应估值约 40 亿美元，较 Meta 收购时的估值翻了一倍。 按 ARR 上限 5 亿美元计算，市销率约为 8 倍，对于一个仍在高速增长期的 AI Agent 公司，这个倍数并未脱离合理区间。 就在前不久，Manus 刚刚发布 2...
-- 发布时间：2026-10-10 08:57 CST
-- 链接：https://www.36kr.com/p/4019308837885576
-- 同事件报道：Manus，没能逃出巨头的游戏（钛媒体）
-
-## 6. Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents
+## 3. Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、开源中国（2 个来源） ｜ 热度：5.5
 - 摘要：IT之家 10 月 10 日消息，Anthropic 昨日（10 月 9 日）发布公告， 宣布为 Claude 管理智能体（Claude Managed Agents）引入动态工作流，单次执行最多可并行协调 1,000 个 AI 智能体。 IT之家注：动态工作流是由主智能体规划任务、分派子任务，并在子智能体完成后汇总结果的执行方式。典型场景包括把代码检查等大型任务拆分成多个部分并行处理；在 Claude 管理智能体中，该模式每次执行最多...
 - 发布时间：2026-10-10 13:38 CST
 - 链接：https://www.ithome.com/1/011/329.htm
 - 同事件报道：Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载（开源中国）
+
+## 4. 北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：5.5
+- 摘要：北京市人民政府印发《北京市“十五五”时期深化国际消费中心城市建设规划》。其中指出，深入推进“人工智能+消费”。扩大数字产品消费，增加人工智能手机和电脑、智能穿戴、智能机器人等新一代智能终端产品有效供给。创新数字内容消费，鼓励利用人工智能技术辅助开展戏剧、音乐、舞蹈、美术、沉浸式体验等创作，推出更多优质数字文博产品，加大广播电视和网络视听超高清内容供给。打造数字消费新场景，加快推动数智技术与消费场景融合，推动人工智能、虚拟现实、超高清等技...
+- 发布时间：2026-10-10 14:13 CST
+- 链接：https://www.36kr.com/newsflashes/4019664163409798
+- 同事件报道：北京：增加人工智能手机和电脑、智能穿戴、智能机器人等新一代智能终端产品有效供给（IT之家）
+
+## 5. AI冒充刘欢妻子带货，AI明星带货的底线到底在哪？
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：刘欢去世不到半个月，AI就开始冒充他的“妻子”带货了。9月25日，音乐家刘欢病逝。几天后，一个以“刘老师老婆”为名的AI视频出现在社交平台上。视频前半段引用了刘欢生前的表演片段，讲述他去世前的情形，像是遗孀面对镜头的第一句心里话。但后半段，她话锋一转，开始推荐一款名为“黄精五黑粉”的代餐粉，还叮嘱观众点开小黄...... 本文来自微信公众号： 眸娱 ，作者：眸娱 刘欢去世不到半个月，AI就开始冒充他的“妻子”带货了。 9月25日，音乐家...
+- 发布时间：2026-10-10 14:51 CST
+- 链接：https://www.huxiu.com/article/4896410.html
+- 同事件报道：AI冒充刘欢妻子带货，AI明星带货的底线到底在哪？（36氪 AI 频道）
+
+## 6. 号称“逆向分析一切”，微信、支付宝、抖音等国民App都“惨遭毒手”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：微信、支付宝、抖音……你敢相信吗，GitHub上最近爆火的一个开源项目，竟然能够威胁你手机里的所有App。这个项目就是REA，全称为Reverse Engineer Anything，翻译过来就是“逆向分析一切”。仅一天就收获了超过1.4万颗星，如今总星数已达4.1万，其热度堪比2、3月份的OpenClaw。...... 本文来自微信公众号： 字母AI ，作者：苗正 微信、支付宝、抖音……你敢相信吗，GitHub上最近爆火的一个开源项目...
+- 发布时间：2026-10-10 15:16 CST
+- 链接：https://www.huxiu.com/article/4896423.html
+- 同事件报道：号称“逆向分析一切”，微信、支付宝、抖音等国民App都“惨遭毒手”（36氪 AI 频道）
