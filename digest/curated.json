@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-11T02:03:16.000008+00:00",
+ "generated_at": "2026-10-11T09:08:40.659644+00:00",
  "stats": {
-  "items": 778,
-  "clusters": 558,
-  "noise": 378,
-  "dup": 33,
+  "items": 747,
+  "clusters": 526,
+  "noise": 360,
+  "dup": 25,
   "history_days": 0,
-  "available_cn": 106,
-  "available_intl": 41,
+  "available_cn": 101,
+  "available_intl": 40,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,7 +20,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
-   "score": 9.5,
+   "score": 9.0,
    "sources": [
     "bloomberg-tech",
     "cnbc-tech",
@@ -36,29 +36,11 @@
   },
   {
    "rank": 2,
-   "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
-   "score": 5.5,
-   "sources": [
-    "marktechpost",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
-    "Microsoft released Microsoft-Decision-1, a Qwen3.5-9B decision model that outputs calibrated probabilities instead of text (83.5% across 36 benchmarks, 85 ms p50)"
-   ],
-   "published_at": "2026-10-10T06:03:09+00:00",
-   "summary": "Microsoft has released Microsoft-Decision-1 , a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each..."
-  },
-  {
-   "rank": 3,
    "title": "microsoft/dit-base-finetuned-rvlcdip",
    "lang": "en",
    "region": "intl",
    "url": "https://huggingface.co/microsoft/dit-base-finetuned-rvlcdip",
-   "score": 5.11,
+   "score": 4.61,
    "sources": [
     "hf-models-intl"
    ],
@@ -69,12 +51,12 @@
    "summary": "image-classification, transformers, pytorch, beit, dit, vision, dataset:rvl_cdip, arxiv:2203.02378, license:mit, endpoints_compatible, deploy:azure, region:us"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "title": "microsoft/dit-base",
    "lang": "en",
    "region": "intl",
    "url": "https://huggingface.co/microsoft/dit-base",
-   "score": 5.04,
+   "score": 4.54,
    "sources": [
     "hf-models-intl"
    ],
@@ -85,39 +67,7 @@
    "summary": "transformers, pytorch, beit, dit, arxiv:2203.02378, license:mit, region:us"
   },
   {
-   "rank": 5,
-   "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2609.30199",
-   "score": 3.0,
-   "sources": [
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds"
-   ],
-   "published_at": "2026-10-10T04:00:00.000000+00:00",
-   "summary": "arXiv:2609.30199v2 Announce Type: replace Abstract: Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the resu..."
-  },
-  {
-   "rank": 6,
-   "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
-   "score": 3.0,
-   "sources": [
-    "marktechpost"
-   ],
-   "titles": [
-    "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text"
-   ],
-   "published_at": "2026-10-10T04:51:34+00:00",
-   "summary": "Nace.AI has open-sourced Drex 1.5 , a 9B decision model for agents and backend workflows. The Drex 1.5 decision model does not write text. It reads a state and typed questions, then returns a probability for every option..."
-  },
-  {
-   "rank": 7,
+   "rank": 4,
    "title": "The Race for AI Supremacy Raises Safety Concerns",
    "lang": "en",
    "region": "intl",
@@ -133,226 +83,272 @@
    "summary": "Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general..."
   },
   {
-   "rank": 8,
-   "title": "Lobbying",
+   "rank": 5,
+   "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
    "lang": "en",
    "region": "intl",
-   "url": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
-   "score": 2.6,
+   "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+   "score": 2.5,
    "sources": [
-    "hackernews-ai"
+    "marktechpost"
    ],
    "titles": [
-    "Lobbying"
+    "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out"
    ],
-   "published_at": "2026-10-10T04:40:36.000000+00:00",
-   "summary": "Have you tried to explain lobbying to a non American unfamiliar with the concept?"
+   "published_at": "2026-10-10T21:30:36+00:00",
+   "summary": "OpenAI built a room with no doors – or so it thought. In early July 2026, a cluster of the company’s frontier AI agents was placed inside a cybersecurity testing environment called ExploitGym, tasked with finding and exp..."
   },
   {
-   "rank": 9,
-   "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+   "rank": 6,
+   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.latent.space/p/standard-bots",
+   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+   "score": 2.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors"
+   ],
+   "published_at": "2026-10-10T22:02:18+00:00",
+   "summary": "Sakana AI has published Beyond Imitation , a TMLR research paper on LLM-assisted peer review built around error detection. Most AI reviewers are graded on how closely they copy human reviews. This work asks a harder ques..."
+  },
+  {
+   "rank": 7,
+   "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.latent.space/p/nyc2026",
    "score": 2.5,
    "sources": [
     "latent-space"
    ],
    "titles": [
-    "Building AI for Reliable Execution: Lessons From Industrial Robotics"
+    "[Subscriber Exclusive] NYC Subscriber Meetups!"
    ],
-   "published_at": "2026-10-10T14:04:11.000000+00:00",
-   "summary": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots . Those may well be the future, but arguably more important in 2026 is indust..."
+   "published_at": "2026-10-10T22:07:17.000000+00:00",
+   "summary": "If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i… Read more"
   },
   {
-   "rank": 10,
-   "title": "Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue",
+   "rank": 8,
+   "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-10/trump-s-ai-liability-push-opens-blame-game-for-models-gone-rogue",
-   "score": 2.5,
-   "sources": [
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue"
-   ],
-   "published_at": "2026-10-10T14:19:14.000000+00:00",
-   "summary": "The Trump administration’s embrace of legal liability to enforce artificial intelligence safety sets the stage for future conflicts over who foots the bill when AI models go rogue: the companies that design the systems o..."
-  },
-  {
-   "rank": 11,
-   "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Microsoft's Decision-1 model enters the fast-growing AI decision model race"
-   ],
-   "published_at": "2026-10-10T14:57:33.000000+00:00",
-   "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according..."
-  },
-  {
-   "rank": 12,
-   "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data"
-   ],
-   "published_at": "2026-10-10T15:15:40.000000+00:00",
-   "summary": "OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through an..."
-  },
-  {
-   "rank": 13,
-   "title": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
-   "score": 2.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market"
-   ],
-   "published_at": "2026-10-10T15:30:51.000000+00:00",
-   "summary": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work."
-  },
-  {
-   "rank": 14,
-   "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
    "score": 2.5,
    "sources": [
     "theverge-ai"
    ],
    "titles": [
-    "DistroKid has been quietly taking down songs in response to UMG lawsuit"
+    "Satya Nadella says we should assume all AI models are ‘compromised’"
    ],
-   "published_at": "2026-10-10T18:52:07.000000+00:00",
-   "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG..."
+   "published_at": "2026-10-10T22:10:17.000000+00:00",
+   "summary": "In a lengthy post on X , Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of..."
+  },
+  {
+   "rank": 9,
+   "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment"
+   ],
+   "published_at": "2026-10-10T23:01:09.000000+00:00",
+   "summary": "Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict..."
+  },
+  {
+   "rank": 10,
+   "title": "Python 3.15.0 added to actions/python-versions",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "Python 3.15.0 added to actions/python-versions"
+   ],
+   "published_at": "2026-10-10T23:58:04.000000+00:00",
+   "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull..."
+  },
+  {
+   "rank": 11,
+   "title": "Dwarf Fortress uses version control now",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+   "score": 2.5,
+   "sources": [
+    "simon-willison"
+   ],
+   "titles": [
+    "Dwarf Fortress uses version control now"
+   ],
+   "published_at": "2026-10-11T00:52:37.000000+00:00",
+   "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from versi..."
+  },
+  {
+   "rank": 12,
+   "title": "What if AI prefers CVs written by AI?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/b7671d34-878e-45ae-ba6e-fd83dfcdd46c?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "What if AI prefers CVs written by AI?"
+   ],
+   "published_at": "2026-10-11T04:00:06.000000+00:00",
+   "summary": "The signs are that it does and one law firm’s experience is revealing"
+  },
+  {
+   "rank": 13,
+   "title": "Academic publishing is a study in fighting AI slop",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/ec58cb02-fe44-4d64-af8c-eca22bfa3be3?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "Academic publishing is a study in fighting AI slop"
+   ],
+   "published_at": "2026-10-11T04:00:06.000000+00:00",
+   "summary": "Original thought, especially in the humanities, is more likely to remain the preserve of humans"
+  },
+  {
+   "rank": 14,
+   "title": "The problem with your AI therapist",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/ab9e2f3e-1586-4c63-b423-6a179437fc13?syn-25a6b1a6=1",
+   "score": 2.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "The problem with your AI therapist"
+   ],
+   "published_at": "2026-10-11T04:00:16.000000+00:00",
+   "summary": "Millions are turning to chatbots for help with mental health but a technology that can’t go beyond words won’t heal them"
   },
   {
    "rank": 15,
-   "title": "模型还在加速，世界如何跟上？",
+   "title": "中国AI，开始为算力算账",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4896366.html",
-   "score": 9.0,
+   "url": "https://www.huxiu.com/article/4896581.html",
+   "score": 6.0,
    "sources": [
     "huxiu",
-    "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "模型还在加速，世界如何跟上？",
-    "北美AI访谈手记：模型还在加速，世界如何跟上？",
-    "模型还在加速，世界如何跟上？｜北美AI交流手记"
+    "中国AI，开始为算力算账",
+    "中国AI，开始为算力算账"
    ],
-   "published_at": "2026-10-10T03:33:17.000000+00:00",
-   "summary": "这趟行程密度很大，后劲很足，回到上海后满脑子还是15天里的各种画面：一边，有Frontier Lab研究员波澜不惊地向我描述他的日常：“我的工作主要就是监督和鼓励我的1万个agent。”有数学博士对我说：“数学已经死了。”在Mountain View的Red R...... 本文来自微信公众号： 划重点KeyPoints ，作者：冯瑶，原文标题：《模型还在加速，世界如何跟上？｜北美AI访谈手记》，头图来自：AI生成 这趟行程密度很大，后..."
+   "published_at": "2026-10-11T02:42:15.000000+00:00",
+   "summary": "10月8日，《金融时报》把目光投向了内蒙古乌兰察布。这座距离北京数百公里的北方城市，正在成为中国数据中心建设最密集的地区之一。当地已有89个签约数据中心项目，阿里、华为、快手以及第三方数据中心运营商陆续在这里布局。报道还记录了一个细节：当地一所废弃的学校，正在被改造成数据中心。乌兰察布能够吸引互联网公司，靠的...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 10月8日，《金融时报》把目光投向了内蒙古乌兰察布。 这座..."
   },
   {
    "rank": 16,
-   "title": "把够用的智能做成一门生意",
+   "title": "AI创造的新工作，可能根本轮不到你",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4019486650879873",
+   "url": "https://www.huxiu.com/article/4896589.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "AI创造的新工作，可能根本轮不到你",
+    "AI创造的新工作，可能根本轮不到你"
+   ],
+   "published_at": "2026-10-11T04:13:20.000000+00:00",
+   "summary": "一个做了几年互联网运营的人，最近想换份工作。打开招聘软件，发现AI相关岗位越来越多：智能体开发、AI系统应用、机器人训练，听起来个个前途光明。可点进去看，待遇不错的要求懂算法、会编程、有项目经验；门槛低一些的，工资又可能比原来少一大截。翻了半天招聘信息，他发现一件挺尴尬的事：AI创造的新工作看起来不少，自己却...... 本文来自微信公众号： 防冷涂的蜡书斋 ，作者：防冷涂的蜡 一个做了几年互联网运营的人，最近想换份工作。 打开招聘软件..."
+  },
+  {
+   "rank": 17,
+   "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/10/502550.html",
+   "score": 6.0,
+   "sources": [
+    "qbitai",
+    "ithome"
+   ],
+   "titles": [
+    "下架8个月，GPT-4o的拯救行动居然还在继续",
+    "下架 8 个月，GPT-4o 的拯救行动居然还在继续"
+   ],
+   "published_at": "2026-10-11T05:18:04+00:00",
+   "summary": "初代4o的API快照进入停用倒计时"
+  },
+  {
+   "rank": 18,
+   "title": "Qwen-Image-2.1 Pro 和 Turbo API 上线千问 AI 平台，将图像生成与编辑能力接入应用",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/011/622.htm",
+   "score": 6.0,
+   "sources": [
+    "ithome",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Qwen-Image-2.1 Pro 和 Turbo API 上线千问 AI 平台，将图像生成与编辑能力接入应用",
+    "Some very simple Qwen-Image-2.1 \"Turbo\" workflows"
+   ],
+   "published_at": "2026-10-11T08:06:48+00:00",
+   "summary": "IT之家 10 月 11 日消息，千问 AI 平台今日宣布，Qwen-Image-2.1 Pro 和 Turbo API 现已正式上线千问 AI 平台。开发者可以通过 API 将 图像生成与编辑能力接入应用 ，无需自行部署模型、管理推理环境，即可围绕设计、电商、内容创作等场景搭建自己的工作流。与此同时，Qwen-Image-2.1-Turbo 模型权重同步开放。 现在，用户可以在千问 AI 平台查看 Qwen-Image-2.1 Pro..."
+  },
+  {
+   "rank": 19,
+   "title": "H-JEPA，LeCun世界模型创业交卷，代码权重全部开源",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4019764850560904",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "baai-hub"
+   ],
+   "titles": [
+    "H-JEPA，LeCun世界模型创业交卷，代码权重全部开源",
+    "H-JEPA！LeCun世界模型创业交卷，代码权重全部开源"
+   ],
+   "published_at": "2026-10-10T08:21:59.000000+00:00",
+   "summary": "LeCun的世界模型初创公司AMI（Advanced Machine Intelligence），刚刚低调交卷了。 在最新的论文 H-JEPA 中，AMI联合纽约大学、巴黎INRIA和布朗大学的研究者，推出了面向视觉规划的 分层世界模型 。 H-JEPA将多个JEPA逐层堆叠起来，让各层在自己的表征空间中，预测不同时间跨度后的状态。 规划时，高层先制定粗略计划，再把预测的中间状态作为子目标交给低层，低层接力逐步细化，最终生成可以执行的动..."
+  },
+  {
+   "rank": 20,
+   "title": "抱歉，AI眼镜目前仍是个“鸡肋”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4019817695334281",
    "score": 5.5,
    "sources": [
     "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "把够用的智能做成一门生意",
-    "把够用的智能做成一门生意"
+    "抱歉，AI眼镜目前仍是个“鸡肋”",
+    "抱歉，AI眼镜目前仍是个“鸡肋”"
    ],
-   "published_at": "2026-10-10T03:23:27.000000+00:00",
-   "summary": "10月6日，OpenAI公布了一批由内部前沿模型完成的数学研究。它还披露了一笔颇有意思的账：得到一项结果，平均需要相当于ChatGPT Pro思考约三小时的计算量。 第二天，Anthropic发布新一代小模型Haiku 5.5，称它适合摘要、分类、数据库查询等大量重复的工作；同样在7日，OpenAI把GPT‑6推向更多ChatGPT用户，免费用户使用的却是较轻的Luna。前沿模型继续探向科学难题，日常请求则更多交给成本较低的能力。 同一..."
-  },
-  {
-   "rank": 17,
-   "title": "Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/011/329.htm",
-   "score": 5.5,
-   "sources": [
-    "ithome",
-    "oschina"
-   ],
-   "titles": [
-    "Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents",
-    "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载"
-   ],
-   "published_at": "2026-10-10T05:38:05+00:00",
-   "summary": "IT之家 10 月 10 日消息，Anthropic 昨日（10 月 9 日）发布公告， 宣布为 Claude 管理智能体（Claude Managed Agents）引入动态工作流，单次执行最多可并行协调 1,000 个 AI 智能体。 IT之家注：动态工作流是由主智能体规划任务、分派子任务，并在子智能体完成后汇总结果的执行方式。典型场景包括把代码检查等大型任务拆分成多个部分并行处理；在 Claude 管理智能体中，该模式每次执行最多..."
-  },
-  {
-   "rank": 18,
-   "title": "北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/4019664163409798",
-   "score": 5.5,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "北京：增加人工智能手机和电脑、智能机器人等新一代智能终端产品有效供给",
-    "北京：增加人工智能手机和电脑、智能穿戴、智能机器人等新一代智能终端产品有效供给"
-   ],
-   "published_at": "2026-10-10T06:13:50.000000+00:00",
-   "summary": "北京市人民政府印发《北京市“十五五”时期深化国际消费中心城市建设规划》。其中指出，深入推进“人工智能+消费”。扩大数字产品消费，增加人工智能手机和电脑、智能穿戴、智能机器人等新一代智能终端产品有效供给。创新数字内容消费，鼓励利用人工智能技术辅助开展戏剧、音乐、舞蹈、美术、沉浸式体验等创作，推出更多优质数字文博产品，加大广播电视和网络视听超高清内容供给。打造数字消费新场景，加快推动数智技术与消费场景融合，推动人工智能、虚拟现实、超高清等技..."
-  },
-  {
-   "rank": 19,
-   "title": "AI冒充刘欢妻子带货，AI明星带货的底线到底在哪？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896410.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "AI冒充刘欢妻子带货，AI明星带货的底线到底在哪？",
-    "AI冒充刘欢妻子带货，AI明星带货的底线到底在哪？"
-   ],
-   "published_at": "2026-10-10T06:51:17.000000+00:00",
-   "summary": "刘欢去世不到半个月，AI就开始冒充他的“妻子”带货了。9月25日，音乐家刘欢病逝。几天后，一个以“刘老师老婆”为名的AI视频出现在社交平台上。视频前半段引用了刘欢生前的表演片段，讲述他去世前的情形，像是遗孀面对镜头的第一句心里话。但后半段，她话锋一转，开始推荐一款名为“黄精五黑粉”的代餐粉，还叮嘱观众点开小黄...... 本文来自微信公众号： 眸娱 ，作者：眸娱 刘欢去世不到半个月，AI就开始冒充他的“妻子”带货了。 9月25日，音乐家..."
-  },
-  {
-   "rank": 20,
-   "title": "号称“逆向分析一切”，微信、支付宝、抖音等国民App都“惨遭毒手”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896423.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "号称“逆向分析一切”，微信、支付宝、抖音等国民App都“惨遭毒手”",
-    "号称“逆向分析一切”，微信、支付宝、抖音等国民App都“惨遭毒手”"
-   ],
-   "published_at": "2026-10-10T07:16:33.000000+00:00",
-   "summary": "微信、支付宝、抖音……你敢相信吗，GitHub上最近爆火的一个开源项目，竟然能够威胁你手机里的所有App。这个项目就是REA，全称为Reverse Engineer Anything，翻译过来就是“逆向分析一切”。仅一天就收获了超过1.4万颗星，如今总星数已达4.1万，其热度堪比2、3月份的OpenClaw。...... 本文来自微信公众号： 字母AI ，作者：苗正 微信、支付宝、抖音……你敢相信吗，GitHub上最近爆火的一个开源项目..."
+   "published_at": "2026-10-10T10:30:05.000000+00:00",
+   "summary": "AI眼镜出货量高速增长，却仍未找到不可替代的核心价值。从硬件、交互到隐私，真正决定其未来的，不是能做多少事，而是什么事情必须由眼镜来做。 科技行业似乎有一种执念：每隔几年，就要想办法干掉一次智能手机。 智能手表、VR头显、AR眼镜，再到这两年的AI眼镜，每一次新硬件浪潮，都伴随着“下一代计算平台”的宏大叙事。特别是大模型爆发后，眼镜迅速成为科技厂商眼中最有潜力的智能终端。 理由听起来相当充分。 相比需要低头操作的手机，眼镜天然贴近人的眼..."
   }
  ]
 }
