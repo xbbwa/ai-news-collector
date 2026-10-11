@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-11T15:52:43.413257+00:00",
+ "generated_at": "2026-10-11T20:27:34.865167+00:00",
  "stats": {
-  "items": 697,
-  "clusters": 487,
-  "noise": 356,
-  "dup": 14,
+  "items": 672,
+  "clusters": 512,
+  "noise": 383,
+  "dup": 18,
   "history_days": 0,
-  "available_cn": 74,
-  "available_intl": 43,
+  "available_cn": 72,
+  "available_intl": 39,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,74 +16,42 @@
  "items": [
   {
    "rank": 1,
-   "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
+   "title": "Your AI agents can execute every tool call correctly and still break every enterprise rule",
    "lang": "en",
    "region": "intl",
-   "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
-   "score": 5.5,
+   "url": "https://venturebeat.com/orchestration/your-ai-agents-can-execute-every-tool-call-correctly-and-still-break-every-enterprise-rule",
+   "score": 5.4,
    "sources": [
-    "the-decoder",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
-    "Microsoft fumbles yet again, promising 80ms on their decision model, in reality serving 300ms on OpenRouter, losing to all other open source decision models. Who actually needs those Jev like models anyways?"
-   ],
-   "published_at": "2026-10-10T14:57:33.000000+00:00",
-   "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according..."
-  },
-  {
-   "rank": 2,
-   "title": "microsoft/dit-base-finetuned-rvlcdip",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/microsoft/dit-base-finetuned-rvlcdip",
-   "score": 4.61,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "microsoft/dit-base-finetuned-rvlcdip"
-   ],
-   "published_at": "2026-10-10T14:31:30.000000+00:00",
-   "summary": "image-classification, transformers, pytorch, beit, dit, vision, dataset:rvl_cdip, arxiv:2203.02378, license:mit, endpoints_compatible, deploy:azure, region:us"
-  },
-  {
-   "rank": 3,
-   "title": "microsoft/dit-base",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/microsoft/dit-base",
-   "score": 4.54,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "microsoft/dit-base"
-   ],
-   "published_at": "2026-10-10T14:32:20.000000+00:00",
-   "summary": "transformers, pytorch, beit, dit, arxiv:2203.02378, license:mit, region:us"
-  },
-  {
-   "rank": 4,
-   "title": "Slide from recent \"Math 2.0\" Lecture by Terrence Tao. This man has never met a terminal cancer patient in his life if he thinks no one would want to take this risk.",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://i.redd.it/0y562phf7ouh1.png",
-   "score": 4.5,
-   "sources": [
-    "reddit-ai-new",
+    "venturebeat",
     "hackernews-ai"
    ],
    "titles": [
-    "Slide from recent \"Math 2.0\" Lecture by Terrence Tao. This man has never met a terminal cancer patient in his life if he thinks no one would want to take this risk.",
-    "Terence Tao: Math 2.0 [pdf]"
+    "Your AI agents can execute every tool call correctly and still break every enterprise rule",
+    "AI agents in a stand-up call"
    ],
-   "published_at": "2026-10-10T17:02:12.000000+00:00",
-   "summary": ""
+   "published_at": "2026-10-11T19:00:00+00:00",
+   "summary": "If you sit in enterprise boardrooms today, the pressure weighing on CIOs comes down to two things: Velocity and ROI. Boards expect a mature agentic AI strategy and a definitive timeline for deploying autonomous systems t..."
   },
   {
-   "rank": 5,
+   "rank": 2,
+   "title": "Ask HN: What's your plan if AI takes your job?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://news.ycombinator.com/item?id=50036432",
+   "score": 3.55,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Ask HN: What's your plan if AI takes your job?",
+    "Ask AI how likely AI is to take your job"
+   ],
+   "published_at": "2026-10-10T19:43:28.000000+00:00",
+   "summary": "If AI took away my job and I cannot return to software engineering, I cannot imagine a fit for me at any place yet. I was wondering if anyone else had the same thought and what would you do?"
+  },
+  {
+   "rank": 3,
    "title": "Terrence Tao is actually calling for significantly more compute hours of AI mathematics, yet is being misportrayed in this sub.",
    "lang": "en",
    "region": "intl",
@@ -101,103 +69,7 @@
    "summary": ""
   },
   {
-   "rank": 6,
-   "title": "What if AI prefers CVs written by AI?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/b7671d34-878e-45ae-ba6e-fd83dfcdd46c?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "What if AI prefers CVs written by AI?"
-   ],
-   "published_at": "2026-10-11T04:00:06.000000+00:00",
-   "summary": "The signs are that it does and one law firm’s experience is revealing"
-  },
-  {
-   "rank": 7,
-   "title": "Academic publishing is a study in fighting AI slop",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/ec58cb02-fe44-4d64-af8c-eca22bfa3be3?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "Academic publishing is a study in fighting AI slop"
-   ],
-   "published_at": "2026-10-11T04:00:06.000000+00:00",
-   "summary": "Original thought, especially in the humanities, is more likely to remain the preserve of humans"
-  },
-  {
-   "rank": 8,
-   "title": "The problem with your AI therapist",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/ab9e2f3e-1586-4c63-b423-6a179437fc13?syn-25a6b1a6=1",
-   "score": 2.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "The problem with your AI therapist"
-   ],
-   "published_at": "2026-10-11T04:00:16.000000+00:00",
-   "summary": "Millions are turning to chatbots for help with mental health but a technology that can’t go beyond words won’t heal them"
-  },
-  {
-   "rank": 9,
-   "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
-   "score": 2.5,
-   "sources": [
-    "cnbc-tech"
-   ],
-   "titles": [
-    "AI may change the price of your Big Mac and groceries — what this means for shoppers"
-   ],
-   "published_at": "2026-10-11T05:00:01.000000+00:00",
-   "summary": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing."
-  },
-  {
-   "rank": 10,
-   "title": "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
-   "score": 2.5,
-   "sources": [
-    "guardian-ai"
-   ],
-   "titles": [
-    "‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast"
-   ],
-   "published_at": "2026-10-11T07:00:20.000000+00:00",
-   "summary": "Are we really living through ‘end-times fascism’? Naomi Klein and Astra Taylor think so. In a new series from the Guardian, the pair speak to Radical Thinking with Aditya Chakrabortty in an extended interview. From Trump..."
-  },
-  {
-   "rank": 11,
-   "title": "Odyssey-3 is a new generative world model that you can try for free",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
-   "score": 2.5,
-   "sources": [
-    "the-decoder"
-   ],
-   "titles": [
-    "Odyssey-3 is a new generative world model that you can try for free"
-   ],
-   "published_at": "2026-10-11T07:48:01.000000+00:00",
-   "summary": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, dron..."
-  },
-  {
-   "rank": 12,
+   "rank": 4,
    "title": "Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall",
    "lang": "en",
    "region": "intl",
@@ -213,7 +85,7 @@
    "summary": "This is no scoffing matter. The accelerating proliferation of advanced nuclear weapons is bringing ‘end times’ closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since..."
   },
   {
-   "rank": 13,
+   "rank": 5,
    "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
    "lang": "en",
    "region": "intl",
@@ -229,7 +101,23 @@
    "summary": "Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they've grown more than sixfold. According to arXiv, a small fractio..."
   },
   {
-   "rank": 14,
+   "rank": 6,
+   "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario"
+   ],
+   "published_at": "2026-10-11T09:49:59.000000+00:00",
+   "summary": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from..."
+  },
+  {
+   "rank": 7,
    "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
    "lang": "en",
    "region": "intl",
@@ -245,79 +133,119 @@
    "summary": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services ha..."
   },
   {
+   "rank": 8,
+   "title": "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan",
+   "score": 2.5,
+   "sources": [
+    "guardian-ai"
+   ],
+   "titles": [
+    "US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy"
+   ],
+   "published_at": "2026-10-11T11:00:25.000000+00:00",
+   "summary": "‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’ Back through political history to the age of Ronald Reagan , Republicans have repeatedly promised the US public that tax cuts..."
+  },
+  {
+   "rank": 9,
+   "title": "I Made Terrible Games With Google’s AI Playground",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+   "score": 2.5,
+   "sources": [
+    "wired-ai"
+   ],
+   "titles": [
+    "I Made Terrible Games With Google’s AI Playground"
+   ],
+   "published_at": "2026-10-11T11:30:00.000000+00:00",
+   "summary": "A long day’s haul in the video game slop mines."
+  },
+  {
+   "rank": 10,
+   "title": "AI is automating coding. So why are software developer job postings on the rise?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
+   "score": 2.5,
+   "sources": [
+    "cnbc-tech"
+   ],
+   "titles": [
+    "AI is automating coding. So why are software developer job postings on the rise?"
+   ],
+   "published_at": "2026-10-11T13:30:01.000000+00:00",
+   "summary": "Software developer job postings are rebounding, led by senior and AI-focused roles, even as AI automates more coding and entry-level hiring weakens."
+  },
+  {
+   "rank": 11,
+   "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+   "score": 2.5,
+   "sources": [
+    "the-decoder"
+   ],
+   "titles": [
+    "AI agents overstate their results and remain far from autonomous research, study finds"
+   ],
+   "published_at": "2026-10-11T13:44:32.000000+00:00",
+   "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached..."
+  },
+  {
+   "rank": 12,
+   "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+   "score": 2.5,
+   "sources": [
+    "techcrunch-ai"
+   ],
+   "titles": [
+    "These execs think voice AI hasn’t reached its ChatGPT moment yet"
+   ],
+   "published_at": "2026-10-11T14:00:00.000000+00:00",
+   "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break"
+  },
+  {
+   "rank": 13,
+   "title": "Is AI Crowding Everyone Else Out of the Bond Market?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-11/is-ai-crowding-everyone-else-out-of-the-bond-market-video",
+   "score": 2.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Is AI Crowding Everyone Else Out of the Bond Market?"
+   ],
+   "published_at": "2026-10-11T14:03:06.000000+00:00",
+   "summary": "Hyperscalers, data centers and chip companies are borrowing hundreds of billions of dollars to finance the AI buildout, turning the technology boom into one of the biggest new forces in corporate credit. Investors are st..."
+  },
+  {
+   "rank": 14,
+   "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
+   "score": 2.5,
+   "sources": [
+    "cnbc-tech"
+   ],
+   "titles": [
+    "AI’s quiet safety gatekeepers are stepping into the spotlight"
+   ],
+   "published_at": "2026-10-11T14:08:44.000000+00:00",
+   "summary": "The intensifying AI safety debate is bringing a small group of third-party evaluators into the center of a multitrillion-dollar industry."
+  },
+  {
    "rank": 15,
-   "title": "请来Claude老祖，谷歌能借Agent翻身吗？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4020868909618823",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "请来Claude老祖，谷歌能借Agent翻身吗？",
-    "请来Claude老祖，谷歌能借Agent翻身吗？"
-   ],
-   "published_at": "2026-10-11T03:59:33.000000+00:00",
-   "summary": "谷歌也做agent 了，底气居然是Claude给的。日前，Google Cloud发布了新的Gemini Agent。名字叫Gemini，但碰上难搞的任务，它还可以调用Claude。 在Agent圈，Claude老祖已经成了香饽饽。就在前一天，马斯克刚刚宣布Grok Bot今后会根据任务选择最合适的模型，名单里同样有Claude。 谷歌尤其需要一点外援。 一周前，谷歌刚端出新一代旗舰模型Gemini 4 Argon，榜单刷得很漂亮，奈何..."
-  },
-  {
-   "rank": 16,
-   "title": "AI创造的新工作，可能根本轮不到你",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896589.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI创造的新工作，可能根本轮不到你",
-    "AI创造的新工作，可能根本轮不到你"
-   ],
-   "published_at": "2026-10-11T04:13:20.000000+00:00",
-   "summary": "一个做了几年互联网运营的人，最近想换份工作。打开招聘软件，发现AI相关岗位越来越多：智能体开发、AI系统应用、机器人训练，听起来个个前途光明。可点进去看，待遇不错的要求懂算法、会编程、有项目经验；门槛低一些的，工资又可能比原来少一大截。翻了半天招聘信息，他发现一件挺尴尬的事：AI创造的新工作看起来不少，自己却...... 本文来自微信公众号： 防冷涂的蜡书斋 ，作者：防冷涂的蜡 一个做了几年互联网运营的人，最近想换份工作。 打开招聘软件..."
-  },
-  {
-   "rank": 17,
-   "title": "麻省理工：靠访谈让AI模拟真人，这条路能走多远？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896590.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "麻省理工：靠访谈让AI模拟真人，这条路能走多远？",
-    "麻省理工：靠访谈让AI模拟真人，这条路能走多远？"
-   ],
-   "published_at": "2026-10-11T04:34:12.000000+00:00",
-   "summary": "只要和一个人聊得足够久，大模型就能成为他的「数字分身」吗？从虚拟用户、合成受访者，到个性化AI Agent，一条越来越流行的技术路线是：先通过访谈、问卷和个人资料了解一个真实的人，再让大模型扮演这个人，预测他在没见过的问题上会如何回答。但这里有一个更难的问题：AI即使已经学会了你现在怎么想，换一个此前没问过的...... 本文来自微信公众号： 新智元 ，编辑：LRST，作者：新智元，原文标题：《EMNLP'26 Oral | 麻省理工：..."
-  },
-  {
-   "rank": 18,
-   "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/502550.html",
-   "score": 6.0,
-   "sources": [
-    "qbitai",
-    "ithome"
-   ],
-   "titles": [
-    "下架8个月，GPT-4o的拯救行动居然还在继续",
-    "下架 8 个月，GPT-4o 的拯救行动居然还在继续"
-   ],
-   "published_at": "2026-10-11T05:18:04+00:00",
-   "summary": "初代4o的API快照进入停用倒计时"
-  },
-  {
-   "rank": 19,
    "title": "中国AI，开始为算力算账",
    "lang": "zh",
    "region": "cn",
@@ -335,22 +263,94 @@
    "summary": "10月8日，《金融时报》把目光投向了内蒙古乌兰察布。这座距离北京数百公里的北方城市，正在成为中国数据中心建设最密集的地区之一。当地已有89个签约数据中心项目，阿里、华为、快手以及第三方数据中心运营商陆续在这里布局。报道还记录了一个细节：当地一所废弃的学校，正在被改造成数据中心。乌兰察布能够吸引互联网公司，靠的...... 本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 10月8日，《金融时报》把目光投向了内蒙古乌兰察布。 这座..."
   },
   {
-   "rank": 20,
-   "title": "王的猜想，刚刚扩展到四维",
+   "rank": 16,
+   "title": "请来Claude老祖，谷歌能借Agent翻身吗？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/502584.html",
+   "url": "https://www.36kr.com/p/4020868909618823",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "请来Claude老祖，谷歌能借Agent翻身吗？",
+    "请来Claude老祖，谷歌能借Agent翻身吗？"
+   ],
+   "published_at": "2026-10-11T03:59:33.000000+00:00",
+   "summary": "谷歌也做agent 了，底气居然是Claude给的。日前，Google Cloud发布了新的Gemini Agent。名字叫Gemini，但碰上难搞的任务，它还可以调用Claude。 在Agent圈，Claude老祖已经成了香饽饽。就在前一天，马斯克刚刚宣布Grok Bot今后会根据任务选择最合适的模型，名单里同样有Claude。 谷歌尤其需要一点外援。 一周前，谷歌刚端出新一代旗舰模型Gemini 4 Argon，榜单刷得很漂亮，奈何..."
+  },
+  {
+   "rank": 17,
+   "title": "AI创造的新工作，可能根本轮不到你",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4896589.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "AI创造的新工作，可能根本轮不到你",
+    "AI创造的新工作，可能根本轮不到你"
+   ],
+   "published_at": "2026-10-11T04:13:20.000000+00:00",
+   "summary": "一个做了几年互联网运营的人，最近想换份工作。打开招聘软件，发现AI相关岗位越来越多：智能体开发、AI系统应用、机器人训练，听起来个个前途光明。可点进去看，待遇不错的要求懂算法、会编程、有项目经验；门槛低一些的，工资又可能比原来少一大截。翻了半天招聘信息，他发现一件挺尴尬的事：AI创造的新工作看起来不少，自己却...... 本文来自微信公众号： 防冷涂的蜡书斋 ，作者：防冷涂的蜡 一个做了几年互联网运营的人，最近想换份工作。 打开招聘软件..."
+  },
+  {
+   "rank": 18,
+   "title": "麻省理工：靠访谈让AI模拟真人，这条路能走多远？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4896590.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "麻省理工：靠访谈让AI模拟真人，这条路能走多远？",
+    "麻省理工：靠访谈让AI模拟真人，这条路能走多远？"
+   ],
+   "published_at": "2026-10-11T04:34:12.000000+00:00",
+   "summary": "只要和一个人聊得足够久，大模型就能成为他的「数字分身」吗？从虚拟用户、合成受访者，到个性化AI Agent，一条越来越流行的技术路线是：先通过访谈、问卷和个人资料了解一个真实的人，再让大模型扮演这个人，预测他在没见过的问题上会如何回答。但这里有一个更难的问题：AI即使已经学会了你现在怎么想，换一个此前没问过的...... 本文来自微信公众号： 新智元 ，编辑：LRST，作者：新智元，原文标题：《EMNLP'26 Oral | 麻省理工：..."
+  },
+  {
+   "rank": 19,
+   "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/10/502550.html",
+   "score": 5.5,
+   "sources": [
+    "qbitai",
+    "ithome"
+   ],
+   "titles": [
+    "下架8个月，GPT-4o的拯救行动居然还在继续",
+    "下架 8 个月，GPT-4o 的拯救行动居然还在继续"
+   ],
+   "published_at": "2026-10-11T05:18:04+00:00",
+   "summary": "初代4o的API快照进入停用倒计时"
+  },
+  {
+   "rank": 20,
+   "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/10/502644.html",
    "score": 5.0,
    "sources": [
     "qbitai",
     "baai-hub"
    ],
    "titles": [
-    "王的猜想，刚刚扩展到四维",
-    "王的猜想，刚刚扩展到四维"
+    "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+    "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针"
    ],
-   "published_at": "2026-10-11T05:23:47+00:00",
-   "summary": "王的猜想，刚刚扩展到四维 听雨 发自 凹非寺 量子位 | 公众号QbitAI 今年7月，王虹、邓煜在费城国际数学家大会上拿下菲尔兹奖。 消息刷屏那几天，Anthropic员工Alek Dimitriev在X上发了一句： 这届菲尔兹奖，将是人类最后一次拿到这个奖。 往届得主Timothy Gowers跟帖，说自己也有过类似的想法。 不过这个过程有滞后，所以我想他们大概能撑到2030年。 谁能想到…Gowers你可能还是乐观了。 10月7日..."
+   "published_at": "2026-10-11T09:04:31+00:00",
+   "summary": "一套生成论文初稿的多智能体工作流"
   }
  ]
 }

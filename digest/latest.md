@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-11 23:52 CST
+生成时间：2026-10-12 04:27 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -8,25 +8,25 @@
 
 # Tier 1 — 一手来源（实验室 / 公司 / 论文）
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 6 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 4 条）
 
-### 1. microsoft/dit-base
-- 摘要：transformers, pytorch, beit, dit, arxiv:2203.02378, license:mit, region:us
-- 作者：microsoft
-- 发布时间：2026-10-10 22:32 CST
-- 链接：https://huggingface.co/microsoft/dit-base
+### 1. togethercomputer/HybridAgent-14B-Agentic
+- 摘要：license:mit, region:us
+- 作者：togethercomputer
+- 发布时间：2026-10-10 07:55 CST
+- 链接：https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic
 
-### 2. microsoft/dit-large
-- 摘要：transformers, pytorch, beit, dit, arxiv:2203.02378, license:mit, region:us
-- 作者：microsoft
-- 发布时间：2026-10-10 22:31 CST
-- 链接：https://huggingface.co/microsoft/dit-large
+### 2. togethercomputer/HybridAgent-8B-Agentic
+- 摘要：license:mit, region:us
+- 作者：togethercomputer
+- 发布时间：2026-10-10 07:53 CST
+- 链接：https://huggingface.co/togethercomputer/HybridAgent-8B-Agentic
 
-### 3. microsoft/dit-base-finetuned-rvlcdip
-- 摘要：image-classification, transformers, pytorch, beit, dit, vision, dataset:rvl_cdip, arxiv:2203.02378, license:mit, endpoints_compatible, deploy:azure, region:us
+### 3. microsoft/AesCode-8B
+- 摘要：image-text-to-text, transformers, safetensors, qwen3_vl, code-generation, html, multimodal, reinforcement-learning, design, conversational, en, base_model:Qwen/Qwen3-VL-8B-Instruct, base_model:finetune:Qwen/Qwen3-VL-8B-Instruct, license:apache-2.0, endpoints_compatible, region:us
 - 作者：microsoft
-- 发布时间：2026-10-10 22:31 CST
-- 链接：https://huggingface.co/microsoft/dit-base-finetuned-rvlcdip
+- 发布时间：2026-10-07 11:35 CST
+- 链接：https://huggingface.co/microsoft/AesCode-8B
 
 # Tier 2 — 专业媒体
 
@@ -44,7 +44,7 @@
 - 发布时间：2026-10-11 18:53 CST
 - 链接：https://www.axios.com/2026/10/11/pope-leo-nodule-lung
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 5 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 2 条）
 
 ### 1. Is AI Crowding Everyone Else Out of the Bond Market?
 - 摘要：Hyperscalers, data centers and chip companies are borrowing hundreds of billions of dollars to finance the AI buildout, turning the technology boom into one of the biggest new forces in corporate credit. Investors are still buying, but rising concentration, complex data-center financing and competit...
@@ -57,13 +57,7 @@
 - 发布时间：2026-10-11 02:52 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports
 
-### 3. Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI
-- 摘要：Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an “emergency brake” system to prevent agentic models from going rogue.
-- 作者：María Paula Mijares Torres
-- 发布时间：2026-10-11 02:35 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai
-
-## CNBC Technology（cnbc-tech，en，本窗口共 5 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
 ### 1. AI’s quiet safety gatekeepers are stepping into the spotlight
 - 摘要：The intensifying AI safety debate is bringing a small group of third-party evaluators into the center of a multitrillion-dollar industry.
@@ -83,7 +77,7 @@
 - 发布时间：2026-10-11 13:00 CST
 - 链接：https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 4 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 3 条）
 
 ### 1. The problem with your AI therapist
 - 摘要：Millions are turning to chatbots for help with mental health but a technology that can’t go beyond words won’t heal them
@@ -100,39 +94,33 @@
 - 发布时间：2026-10-11 12:00 CST
 - 链接：https://www.ft.com/content/ec58cb02-fe44-4d64-af8c-eca22bfa3be3?syn-25a6b1a6=1
 
-## The Guardian — AI（guardian-ai，en，本窗口共 5 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 6 条）
 
-### 1. US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy
+### 1. Feelgood factor of human interaction | Brief letters
+- 摘要：Happy hormones | Fuel costs | Drive-in parking | Guys and girls | Young or old? | Singapore pollution Re your report ( ‘Pull the plug’: protesters resort to direct action against AI firms, 6 October ), the US neuroscientist Ben Rein has shown that there is a fundamental difference in our cognitive r...
+- 作者：Guardian Staff
+- 发布时间：2026-10-11 23:52 CST
+- 链接：https://www.theguardian.com/science/2026/oct/11/feelgood-factor-of-human-interaction
+
+### 2. US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy
 - 摘要：‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’ Back through political history to the age of Ronald Reagan , Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s...
 - 作者：Eduardo Porter
 - 发布时间：2026-10-11 19:00 CST
 - 链接：https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan
 
-### 2. Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall
+### 3. Fixated on AI, the world has forgotten what is staring it in the face: nuclear annihilation | Simon Tisdall
 - 摘要：This is no scoffing matter. The accelerating proliferation of advanced nuclear weapons is bringing ‘end times’ closer by the day Humankind has fearfully and sometimes joyfully anticipated the end of the world ever since it began. The Bible’s Book of Revelation speaks of “end times”, a period of trib...
 - 作者：Simon Tisdall
 - 发布时间：2026-10-11 17:00 CST
 - 链接：https://www.theguardian.com/commentisfree/2026/oct/11/ai-annihilation-advanced-nuclear-weapons
 
-### 3. ‘Gaza is a moral tear in the universe’: Naomi Klein and Astra Taylor | Radical Thinking with Aditya Chakrabortty – podcast
-- 摘要：Are we really living through ‘end-times fascism’? Naomi Klein and Astra Taylor think so. In a new series from the Guardian, the pair speak to Radical Thinking with Aditya Chakrabortty in an extended interview. From Trump 2.0 and the rise of the tech billionaires to Gaza and the climate emergency, Kl...
-- 作者：Presented by Aditya Chakrabortty with Naomi Klein and Astra Taylor; produced by...
-- 发布时间：2026-10-11 15:00 CST
-- 链接：https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast
-
-## Latent Space（latent-space，en，本窗口共 2 条）
+## Latent Space（latent-space，en，本窗口共 1 条）
 
 ### 1. [Subscriber Exclusive] NYC Subscriber Meetups!
 - 摘要：If you’re seeing this you’re part of our very very light subscription/paid tier, and we genuinely appreciate you: your donations have funded our production process indefinitely and it is my sincere i… Read more
 - 作者：Latent Space
 - 发布时间：2026-10-11 06:07 CST
 - 链接：https://www.latent.space/p/nyc2026
-
-### 2. Building AI for Reliable Execution: Lessons From Industrial Robotics
-- 摘要：When you think of robotics and AI, you probably first think of full humanoid robots like Figure’s AI-powered machines and 1X’s NEO home robots . Those may well be the future, but arguably more important in 2026 is industrial robots — which are typically not humanoids. Standard Bots claims to be “Ame...
-- 作者：Richard MacManus
-- 发布时间：2026-10-10 22:04 CST
-- 链接：https://www.latent.space/p/standard-bots
 
 ## MarkTechPost（marktechpost，en，本窗口共 3 条）
 
@@ -170,25 +158,25 @@
 
 ## TechCrunch — AI（techcrunch-ai，en，本窗口共 5 条）
 
-### 1. These execs think voice AI hasn’t reached its ChatGPT moment yet
+### 1. 48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next
+- 摘要：Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.
+- 作者：TechCrunch Events
+- 发布时间：2026-10-12 03:00 CST
+- 链接：https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/
+
+### 2. Can the AI industry persuade data center opponents by getting rid of NDAs?
+- 摘要：On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.
+- 作者：Anthony Ha
+- 发布时间：2026-10-12 00:52 CST
+- 链接：https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/
+
+### 3. These execs think voice AI hasn’t reached its ChatGPT moment yet
 - 摘要：Voice AI's often misses important points for its context layer, and causes the whole pipeline to break
 - 作者：Ivan Mehta
 - 发布时间：2026-10-11 22:00 CST
 - 链接：https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/
 
-### 2. Microsoft’s Satya Nadella says AI models need an ‘emergency brake’
-- 摘要：In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.
-- 作者：Anthony Ha
-- 发布时间：2026-10-11 05:47 CST
-- 链接：https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/
-
-### 3. Apple discloses deal to hire team and license tech from personalized podcast startup Huxe
-- 摘要：Is Apple hoping to get into the AI-generated podcast business?
-- 作者：Anthony Ha
-- 发布时间：2026-10-11 03:50 CST
-- 链接：https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/
-
-## The Decoder（the-decoder，en，本窗口共 8 条）
+## The Decoder（the-decoder，en，本窗口共 6 条）
 
 ### 1. AI agent teams waste massive tokens for barely measurable quality gains, research finds
 - 摘要：Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The articl...
@@ -208,7 +196,7 @@
 - 发布时间：2026-10-11 17:49 CST
 - 链接：https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/
 
-## The Verge — AI（theverge-ai，en，本窗口共 4 条）
+## The Verge — AI（theverge-ai，en，本窗口共 3 条）
 
 ### 1. Learning to use local AI is exciting, overwhelming, and frustrating
 - 摘要：Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful mo...
@@ -228,9 +216,14 @@
 - 发布时间：2026-10-11 02:52 CST
 - 链接：https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit
 
-## VentureBeat（venturebeat，en，本窗口共 1 条）
+## VentureBeat（venturebeat，en，本窗口共 2 条）
 
-### 1. AI agents can be unpredictable. Your control layer shouldn't be.
+### 1. Your AI agents can execute every tool call correctly and still break every enterprise rule
+- 摘要：If you sit in enterprise boardrooms today, the pressure weighing on CIOs comes down to two things: Velocity and ROI. Boards expect a mature agentic AI strategy and a definitive timeline for deploying autonomous systems that deliver measurable business impact. Read more
+- 发布时间：2026-10-12 03:00 CST
+- 链接：https://venturebeat.com/orchestration/your-ai-agents-can-execute-every-tool-call-correctly-and-still-break-every-enterprise-rule
+
+### 2. AI agents can be unpredictable. Your control layer shouldn't be.
 - 摘要：In multi-agent systems, agents can be individually correct and still produce a wrong result when they work together. One agent’s output becomes another agent’s context. Information can be lost or misinterpreted during a handoff, shared state can drift, and agents can get stuck in loops or deadlocks....
 - 发布时间：2026-10-11 05:05 CST
 - 链接：https://venturebeat.com/orchestration/ai-agents-can-be-unpredictable-your-control-layer-shouldnt-be
@@ -293,25 +286,25 @@
 - 发布时间：2026-10-11 08:53 CST
 - 链接：http://www.geekpark.net/news/372216
 
-## 虎嗅（huxiu，zh，本窗口共 31 条）
+## 虎嗅（huxiu，zh，本窗口共 29 条）
 
-### 1. FDE在硅谷是香饽饽，在中国可能是个坑？
+### 1. 苹果终于要给MacBook加触屏了，这次为什么不一样？
+- 摘要：苹果有一句流传很广的内部信条，Mac用键盘，iPad用手指，谁也别碰谁的地盘。蒂姆·库克在公开场合把触屏笔记本比作“把烤面包机和冰箱绑在一起”。这句话说了十年，苹果的产品经理们也执行了十年，直到今年10月。据彭博社报道，苹果将在10月27日前后发布第一台支持触控操作的MacBook Pro。OLED屏幕、灵动...... 本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领 苹果有一句流传很广的内部信条，Mac用键盘，iPad用手指，谁也别碰谁的地盘。 蒂姆·库克在公开场合把触屏笔记本比作“把烤面包机和冰箱绑在一起”。这句话说了十年，苹果的产品经理们也执行了十年，直到今年10月。...
+- 作者：Linda产业笔记
+- 发布时间：2026-10-12 01:40 CST
+- 链接：https://www.huxiu.com/article/4896654.html
+
+### 2. SpaceX的另一面：技术优势如何变成基础设施权力
+- 摘要：2026年6月，SpaceX在纳斯达克挂牌，募资约860亿美元，估值一举跨过两万亿美元门槛。拆解这家公司的资产负债表与业务架构，会发现它早已脱离了单纯的航天制造范畴：它正在凭借工程效率与资本规模的双重优势，反向重构国家安全与通信网络的底层逻辑，并演化为一套美国政府难以替换的战略基础设施。一、工业周转率，不是回...... 本文来自微信公众号： 蒸汽猫TechMore ，作者：沸腾的豌豆 2026年6月，SpaceX在纳斯达克挂牌，募资约860亿美元，估值一举跨过两万亿美元门槛。 拆解这家公司的资产负债表与业务架构，会发现它早已脱离了单纯的航天制造范畴：它正在凭借工程效率与资本规模的双重优势，反...
+- 作者：暴躁的豌豆
+- 发布时间：2026-10-12 00:06 CST
+- 链接：https://www.huxiu.com/article/4896647.html
+
+### 3. FDE在硅谷是香饽饽，在中国可能是个坑？
 - 摘要：混AI圈，很难躲开FDE这三个字母。Forward Deployed Engineer，前沿部署工程师。数据确实唬人。领英今年初的报告说，这个岗位从2023到2025年涨了42倍，同期AI工程师只涨了13倍；Indeed的口径是一年翻了七倍多。OpenAI和Anthropic前阵子几乎同时成立企业服务公司，O...... 本文来自微信公众号： 人人都是产品经理 ，作者：老曹 混AI圈，很难躲开FDE这三个字母。Forward Deployed Engineer，前沿部署工程师。 数据确实唬人。领英今年初的报告说，这个岗位从2023到2025年涨了42倍，同期AI工程师只涨了13倍；Indeed...
 - 作者：人人都是产品经理
 - 发布时间：2026-10-11 22:53 CST
 - 链接：https://www.huxiu.com/article/4896646.html
-
-### 2. 腾讯又一款明星产品即将消失
-- 摘要：腾讯又一款AI产品，要和大家说再见了。10月8日，腾讯元器发布了一则《关于元器平台停止服务通知》，宣布因业务调整，将于2026年11月9日正式停止服务。←左右滑动阅读→按照公告，10月29日起，平台将停止创建新智能体和分发API Key。11月9日之后，元器的应用访问、数据读写、API调用等服务将全部关闭，此...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 腾讯又一款AI产品，要和大家说再见了。 10月8日，腾讯元器发布了一则《关于元器平台停止服务通知》，宣布因业务调整，将于2026年11月9日正式停止服务。 ←左右滑动阅读→ 按照公告，10月29日起，平台将停止创建新智能体...
-- 作者：人人都是产品经理
-- 发布时间：2026-10-11 22:52 CST
-- 链接：https://www.huxiu.com/article/4896645.html
-
-### 3. 贾樟柯开始看红果，AI很热闹、普通人只想“耍起”
-- 摘要：8月6日晚上，贾樟柯发了条微博，说最近在看红果。（图片来源：微博）这条微博被转了两万多次。一个用长镜头拍《三峡好人》的导演，追起三秒一个冲突的免费短剧，评论区没人觉得违和。底下一半人在说，自己爸妈刷得比他更凶。红果2023年4月上线，第一个月月活只有32万，三年后爬到3.56亿，今年1月日活破亿，成了字节跳动...... 本文来自微信公众号： 师天浩观察 ，作者：辰聪 8月6日晚上，贾樟柯发了条微博，说最近在看红果。 （图片来源：微博） 这条微博被转了两万多次。一个用长镜头拍《三峡好人》的导演，追起三秒一个冲突的免费短剧，评论区没人觉得违和。底下一半人在说，自己爸妈刷得比他更凶。红果2023年...
-- 作者：师天浩
-- 发布时间：2026-10-11 21:32 CST
-- 链接：https://www.huxiu.com/article/4896639.html
 
 ## 爱范儿（ifanr，zh，本窗口共 3 条）
 
@@ -347,25 +340,25 @@
 - 发布时间：2026-10-11 10:00 CST
 - 链接：https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 45 条）
+## IT之家（ithome，zh，本窗口共 46 条）
 
-### 1. 古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选
+### 1. 曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找
+- 摘要：IT之家 10 月 11 日消息，苹果将在本周二举行“欢迎回家”活动，主角预计是 HomeView 智能家庭中枢，除此之外还有新款 HomePod mini 和 Apple TV 4K。 据彭博社记者马克 · 古尔曼今日透露， 新款 Apple TV 4K 将在 10 月 30 日发售 ，苹果已在这款新品中测试内置麦克风，用户直接说出 Siri 就能进行语音交互。 IT之家了解到，现款 Apple TV 4K 仅在 Siri Remote 中带有麦克风，用户必须对着遥控器或 HomePod 说话，才能使用 Siri。 同时，苹果还将重新设计 Siri Remote 遥控器， 这款配件将内置扬声...
+- 作者：作者： 潞源
+- 发布时间：2026-10-11 23:20 CST
+- 链接：https://www.ithome.com/1/011/714.htm
+
+### 2. 消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元
+- 摘要：IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天表示，苹果计划本月晚些时候推出新款 iPad mini。新机的起步存储空间可能会有所提升， 但有意换机的用户得提前做好涨价的准备 。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元 （IT之家注：现汇率约合 5,359 元人民币） 。作为对比，现款 iPad mini 7 价格为 599 美元 （现汇率约合 4,017 元人民币） /4,799 元人民币。 据悉，新款 iPad mini 将首次采用 OLED 屏幕，配备重新设计的机身。预计将拥有全新扬声器系统，搭载性能更强的芯片。目前我...
+- 作者：作者： 潞源
+- 发布时间：2026-10-11 23:12 CST
+- 链接：https://www.ithome.com/1/011/713.htm
+
+### 3. 古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选
 - 摘要：IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今日在新一期《Power On》通讯中透露，苹果首款智能家庭中枢名为“HomeView”，预计将在 10 月 13 日的“欢迎回家”活动正式发布，11 月出货。 据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。 该设备将搭载 A18 芯片 ，官方还将推出壁挂安装版本。 IT之家从原报道获悉， 这款新产品将提供深空灰、银色、星光色和粉色四种配色 ，壁挂版仅有深空灰、银色两种配色。 古尔曼表示，这款产品主要使用语音交互， 以 AI Siri 为核心 。用户可以在房间另一端查看设备显示内容，并...
 - 作者：作者： 潞源
 - 发布时间：2026-10-11 22:36 CST
 - 链接：https://www.ithome.com/1/011/709.htm
-
-### 2. 粤芯半导体 10 月 13 日在创业板上市，发行价为 12.01 元 / 股
-- 摘要：IT之家 10 月 11 日消息，粤芯半导体技术股份有限公司今日宣布，公司将于 2026 年 10 月 13 日（下周二）在深圳证券交易所创业板上市。 本次发行价格为 12.01 元 / 股 ，发行后总股本为 28.78 亿股（超额配售选择权行使前）。 IT之家了解到，粤芯半导体已在 9 月 28 日公开网上摇号中签结果，中签号码共有 358848 个，每个中签号码可认购 500 股粤芯半导体 A 股股票。 本次发行最终战略配售数量为 25632.30 万股，网上最终发行数量为 17942.40 万股，网下最终发行数量为 15379.50 万股。网上投资者放弃认购 468976 股，由广发证券...
-- 作者：作者： 潞源
-- 发布时间：2026-10-11 22:27 CST
-- 链接：https://www.ithome.com/1/011/708.htm
-
-### 3. 上市 1 月京东直降：小米 NAS 智能存储 2699 → 2384 元 4 年质保
-- 摘要：小米首款 NAS 产品“Xiaomi 智能存储”今年 8 月 27 日开售，官方定价如下： 4T 定价 2699 元，今日国补后 2384 元： 京东 小米 智能存储 4TB 国补后 2384.1 元 领 250 元券 8T 定价 3499 元，今日超级补贴价 3194 元： 京东 小米 智能存储 8TB 超级秒杀 3194 元 领 196 元券 16T 定价 5499 元，今日国补后 5084 元： 京东 小米 智能存储 16TB 国补后 5084.1 元 领 250 元券 官方 3 年质保，今日京东加赠 1 年延保 + 5 年数据恢复服务。 据IT之家了解，小米智能存储采用双盘位设计，最大...
-- 作者：作者： 一乖
-- 发布时间：2026-10-11 21:58 CST
-- 链接：https://www.ithome.com/1/011/704.htm
 
 ## 量子位（qbitai，zh，本窗口共 7 条）
 
@@ -426,24 +419,25 @@
 - 发布时间：2026-10-11 17:07 CST
 - 链接：https://github.com/hugohe3/ppt-master
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 83 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 88 条）
 
-### 1. Terence Tao: Math 2.0 [pdf]
-- 作者：Anon84
-- 发布时间：2026-10-11 21:16 CST
-- 链接：https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf
+### 1. Ask HN: How do swarms of AI agents work?
+- 摘要：Andrej Karpathy posted about the growing gap in how people experience AI: ~75% have barely used LLMs ~20% use them casually ~0.2% use frontier models professionally for math and code ~0.00006% have access to frontier systems internally He writes: "And finally we get to the ~5,000 people (~0.00006%)...
+- 作者：dsrtslnd23
+- 发布时间：2026-10-12 03:57 CST
+- 链接：https://news.ycombinator.com/item?id=50047180
 
-### 2. How HN: Go-dev-auth zero-dependency authentication library for Go
-- 摘要：go-dev-auth The comprehensive authentication library for Go. One config struct. Batteries included. Own your users. - go-dev-auth/go-dev-auth
-- 作者：BisratMelak
-- 发布时间：2026-10-11 21:06 CST
-- 链接：https://github.com/go-dev-auth/go-dev-auth
+### 2. Yandex: Ukraine strikes data centre in third attack on Russian tech giant
+- 摘要：It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.
+- 作者：kristianp
+- 发布时间：2026-10-12 03:46 CST
+- 链接：https://www.bbc.com/news/articles/cw0k0g57mk3zo
 
-### 3. Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh
-- 摘要：Saturday's attack was the deadliest in Saudi Arabia since May 2015. US and Saudi officials are blaming Yemen's Houthis, who have yet to comment on the strike.
-- 作者：Betelbuddy
-- 发布时间：2026-10-11 20:12 CST
-- 链接：https://www.bbc.com/news/articles/cw33x4y8k82no
+### 3. Be The Onion's Hero for Once
+- 摘要：Subscribe Past Issues Tweet Cancel
+- 作者：mooreds
+- 发布时间：2026-10-12 03:43 CST
+- 链接：https://mailchi.mp/email.theonion.com/archivehunt
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 8 条）
 
@@ -484,26 +478,27 @@
 - 发布时间：2026-10-11 17:20 CST
 - 链接：https://i.redd.it/0wwn7tok1tuh1.png
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 386 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 370 条）
 
-### 1. An Honest Day’s Work
-- 作者：gossip_goblin
-- 发布时间：2026-10-11 23:45 CST
-- 链接：https://v.redd.it/g2yui3qozuuh1
+### 1. I tested different Qwen 3.8 27B quants
+- 摘要：There is a lot of discussion which quant to use. Especially a lot of post how much speed you gain with FP4, but not much about quality. So i tested some of the models that I use on my R9700. Models : Qwen3.8-27B-UD-Q6_K_L.gguf Swift-Qwen3.8-27B-Q6_K.gguf Swift-1.5-Qwen3.8-27B-MXFP4-A-outQ6_K.gguf Hy...
+- 作者：JurBank
+- 发布时间：2026-10-12 04:24 CST
+- 链接：https://i.redd.it/yj6wtm7pcwuh1.png
 
-### 2. Anyone found a way to remove/hide the toolbar from artifacts?
-- 摘要：The ability to make artifacts and save them on my Home Screen has been huge and seems to be the closest thing I’ve found to Claude being able to make apps for you directly from your phone. The only thing to me that bugs me is the toolbar at the very top. Any workarounds anyone has found for this?
-- 作者：TheBayWeigh
-- 发布时间：2026-10-11 23:42 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1x3be1d/anyone_found_a_way_to_removehide_the_toolbar_from/
+### 2. Some realistic / cinematic Kroma gens
+- 摘要：Euler / Simple / 8 steps / CFG = 1.0
+- 作者：AgeNo5351
+- 发布时间：2026-10-12 04:22 CST
+- 链接：https://www.reddit.com/gallery/1x3igty
 
-### 3. Has anyone been able to get Tencent/Prism to work locally?
-- 摘要：I’m attempting to get the https://huggingface.co/FrancisRing/Prism video generation model to work on Mac and it seems to output flashing clips no matter what I try. Am I holding it wrong? This is happening when using MLX or MPS and even CPU rendering.
-- 作者：Memestonks2020
-- 发布时间：2026-10-11 23:40 CST
-- 链接：https://v.redd.it/ypnvnuctyuuh1
+### 3. I built a Windows app where Claude Code and Codex work in one room and check each other's work
+- 摘要：What I built: Hellhound, a Windows app that puts Claude Code and Codex in one chat room. You can ask one to build and the other to review, or have them argue for and against an idea while you watch the whole conversation. The video shows a real session. How Claude helped: Claude Code wrote most of H...
+- 作者：Severe-Tank-5252
+- 发布时间：2026-10-12 04:21 CST
+- 链接：https://v.redd.it/3anc5h8rbwuh1
 
-## 智源社区（baai-hub，zh，本窗口共 22 条）
+## 智源社区（baai-hub，zh，本窗口共 18 条）
 
 ### 1. 肖茜：美国究竟想如何赢得AI竞争？——解析美国对华AI战略的背后逻辑
 - 摘要：点击蓝字 关注我们 肖茜 清华大学 人工智能国际治理研究院副院长 、 战略与安全研究中心副主任 I-AIIG 编者按：2026年9月23日至25日，习主席对美国进行国事访问。其间，两国元首就中美建设性战略稳定关系及重大国际地区问题深入交换意见，同意建立中美人工智能对话，交流人工智能相关风险和惠益。在此背景下，清华大学战略与安全研究中心人工智能与国际安全项目组成员围绕近期人工智能领域的热点议题，分别就中美人工智能竞争、人工智能安全风险与治理等问题展开探讨，交流对相关议题的认识与思考。 本文首发于“中美聚焦”公众号 2026年9月24日，习主席在美国总统特朗普举行的白宫欢迎仪式的致辞中指出，“中美...
@@ -524,7 +519,7 @@
 - 链接：https://hub.baai.ac.cn/view/58593
 
 ---
-共列出 78 条（窗口内采集总数 703 条，来自 29 个信源）
+共列出 77 条（窗口内采集总数 678 条，来自 29 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
