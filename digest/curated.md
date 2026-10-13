@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-14 03:31 CST
-数据窗口：最近 24 小时，1116 条原始条目 → 741 个事件；过滤噪音 440 个，排除全部历史已推送的 38 个。
+生成时间：2026-10-14 07:23 CST
+数据窗口：最近 24 小时，974 条原始条目 → 665 个事件；过滤噪音 383 个，排除全部历史已推送的 35 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,59 +8,59 @@
 
 国外：
 
-## 1. Simulating student learning for better AI tutoring
-- 地区：国外源 ｜ 语言：en ｜ 来源：Microsoft Research Blog、智源社区（2 个来源） ｜ 热度：5.5
-- 摘要：At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI...
-- 发布时间：2026-10-13 00:00 CST
-- 链接：https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/
-- 同事件报道：Simulating student learning for better AI tutoring（智源社区）
+## 1. Apple launches HomeView, its first smart display for the home
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、Bloomberg Technology（2 个来源） ｜ 热度：7.0
+- 摘要：The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Apple's long-rumored smart display, the Apple HomeView, has ar...
+- 发布时间：2026-10-13 21:00 CST
+- 链接：https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look
+- 同事件报道：Apple Unveils HomeView Hub as Part of Smart Home Push（Bloomberg Technology）
 
-## 2. facebook/UMA
+## 2. Redesigning source control at Anthropic
+- 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic Engineering、Simon Willison's Weblog（2 个来源） ｜ 热度：6.5
+- 摘要：At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up...
+- 发布时间：2026-10-13 00:00 CST
+- 链接：https://www.anthropic.com/engineering/redesigning-source-control
+- 同事件报道：Redesigning source control at Anthropic（Simon Willison's Weblog）
+
+## 3. OpenAI Says Staffer Arrested for Hidden Recording Device in Office
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、The Verge — AI（2 个来源） ｜ 热度：6.0
+- 摘要：An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar...
+- 发布时间：2026-10-14 04:13 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office
+- 同事件报道：OpenAI employee arrested for allegedly planting a bug in a conference room（The Verge — AI）
+
+## 4. facebook/UMA
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：arxiv:2506.23971, license:other, region:us
 - 发布时间：2026-10-14 02:47 CST
 - 链接：https://huggingface.co/facebook/UMA
 
-## 3. Chip stocks slide in wake of ‘casino’ comment by Broadcom boss
+## 5. allenai/Olmo-3.1-32B-Think
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
+- 摘要：text-generation, transformers, safetensors, olmo3, conversational, en, dataset:allenai/Dolci-Think-RL, arxiv:2512.13961, base_model:allenai/Olmo-3-32B-Think-DPO, base_model:finetune:allenai/Olmo-3-32B-Think-DPO, license:...
+- 发布时间：2026-10-14 05:06 CST
+- 链接：https://huggingface.co/allenai/Olmo-3.1-32B-Think
+
+## 6. Chip stocks slide in wake of ‘casino’ comment by Broadcom boss
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、The Guardian — AI（2 个来源） ｜ 热度：5.5
 - 摘要：Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investment
 - 发布时间：2026-10-13 11:40 CST
 - 链接：https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1
 - 同事件报道：Chip stocks slide after Broadcom boss likens AI investing to ‘casino’（The Guardian — AI）
 
-## 4. Epic Games reportedly pivoting to "AI first" game development model
-- 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.11
-- 摘要：Epic Games is shifting to an "AI first" development strategy for its collaboration with the Walt Disney Company, letting AI models write all the code and guide all the artwork for an upcoming shooter. That's according to...
-- 发布时间：2026-10-13 04:59 CST
-- 链接：https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/
-- 同事件报道：How to engineer an AI harness for game development（Hacker News (AI stories)）
-
-## 5. They war-gamed dimming the Sun. It went even worse than you think.
+## 7. They war-gamed dimming the Sun. It went even worse than you think.
 - 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
 - 摘要：When it comes to deciding the fate of the planet, Colleen Golja always thought science and reason would have a seat at the table. That was until one morning last September in London, when the climate researcher took part...
 - 发布时间：2026-10-13 23:17 CST
 - 链接：https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/
 - 同事件报道：They War-Gamed Dimming the Sun. It Went Worse Than You Think（Hacker News (AI stories)）
 
-## 6. AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation
+## 8. AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation
 - 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
 - 摘要：The company said the platform became "costly to develop and grow," in Monday filings to the Delaware District bankruptcy court.
 - 发布时间：2026-10-14 00:13 CST
 - 链接：https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html
 - 同事件报道：Getty Images is filing for Chapter 11 Bankruptcy（Hacker News (AI stories)）
-
-## 7. nvidia/Kumo-Tabular
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
-- 摘要：kumo_tabular, tabular-foundation-model, structured-data-models, license:openmdw-1.1, region:us
-- 发布时间：2026-10-06 08:23 CST
-- 链接：https://huggingface.co/nvidia/Kumo-Tabular
-
-## 8. Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.53
-- 摘要：Intel GPU D270 is an inference-optimized data center GPU built for agentic AI, long contexts, and high-concurrency serving at practical power and cost.
-- 发布时间：2026-10-13 05:35 CST
-- 链接：https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html
-- 同事件报道：Intel "Crescent Island" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X（Reddit AI subreddits (new)）
 
 ## 9. Janas: Run LLMs larger than RAM by streaming experts from SSD
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.1
@@ -69,17 +69,18 @@
 - 链接：https://github.com/prabanta-dev/janas
 - 同事件报道：Mac mini for running LLMs and AI agents 24/7: Prioritize RAM or CPU/GPU performance?（Reddit AI subreddits (new)）
 
-## 10. Higgsfield takes AI video from 1 minute to over 10
+## 10. The US is fighting over data centers. China is building them fast
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (hot)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.07
+- 摘要：Beijing aims to use AI infrastructure to play to its advantages in the race for a technology that could define the 21st century.
+- 发布时间：2026-10-13 20:33 CST
+- 链接：https://www.cnn.com/2026/10/13/china/china-data-centers-ai-race-intl-hnk-dst
+- 同事件报道：China is building AI data centers at speed as the US wrestles with the costs（Hacker News (AI stories)）
+
+## 11. Higgsfield takes AI video from 1 minute to over 10
 - 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
 - 摘要：Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
 - 发布时间：2026-10-13 20:00 CST
 - 链接：https://openai.com/index/higgsfield-longer-videos-voice
-
-## 11. Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI
-- 地区：国外源 ｜ 语言：en ｜ 来源：Engineering at Meta（1 个来源） ｜ 热度：3.5
-- 摘要：Last year, we introduced GEM , the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building...
-- 发布时间：2026-10-14 00:01 CST
-- 链接：https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/
 
 ## 12. Run fast, private agents on-device with LFM2.5-24B-A2B
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
@@ -87,22 +88,22 @@
 - 发布时间：2026-10-14 01:05 CST
 - 链接：https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
 
-## 13. Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology（1 个来源） ｜ 热度：3.5
-- 摘要：Alibaba Group Holding Ltd. on Tuesday unveiled the new generation of its smart glasses, deepening its foray into consumer electronics as an extension of its artificial intelligence strategy.
-- 发布时间：2026-10-13 17:00 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-13/alibaba-unveils-450-ai-glasses-in-expanding-push-into-gadgets
+## 13. Building agents that transact with Anchor Browser and AgentCore payments
+- 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
+- 摘要：AI agents increasingly need to access web resources that are priced per request. For example, premium datasets charge by the query, research APIs meter by the call, and paywalled publishers gate content behind payment. W...
+- 发布时间：2026-10-14 04:10 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/
 
-## 14. Apple launches HomeView, its first smart display for the home
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI（1 个来源） ｜ 热度：3.5
-- 摘要：The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Apple's long-rumored smart display, the Apple HomeView, has ar...
-- 发布时间：2026-10-13 21:00 CST
-- 链接：https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look
+## 14. How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.5
+- 摘要：Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Age...
+- 发布时间：2026-10-14 05:33 CST
+- 链接：https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/
 
 国内：
 
 ## 1. SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、TechCrunch — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：9.6
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、TechCrunch — AI、Hacker News (AI stories)（3 个来源） ｜ 热度：9.1
 - 摘要：IT之家 10 月 13 日消息，SpaceXSI 公司今天宣布推出全新订阅服务“X Subscription”， 将 Grok、Grok Bot、Cursor 和 X Premium 等多款产品会员整合到一个订阅体系 。 根据用户选择的订阅档位，X Subscription 将提供 Grok、Grok Bot、Cursor 和 X Premium 使用权限。 其中，个人 Plus 套餐定价 8 美元 （IT之家注：现汇率约合 53.6...
 - 发布时间：2026-10-13 17:32 CST
 - 链接：https://www.ithome.com/1/012/487.htm
@@ -138,9 +139,9 @@
 - 链接：https://www.36kr.com/newsflashes/4023677582708611
 - 同事件报道：阿里千问升级个人 AI 助理，Personal Agent“千问 Go！”即将发布（IT之家）
 
-## 6. AI批量造星，真人明星还有何价值？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：6.0
-- 摘要：文 | 深响，作者｜吕玥 直播中，演员韩栋哭诉无戏可拍，直播带货收入连每月两万多的房贷都覆盖不了，生活压力极大。微博电影之夜上，刘昊然、文淇站在领奖台上讲的更多不是获奖感言，而是公开求工作。就连沈腾都在综艺里自嘲：“休息半年的愿望达成了”。 内娱明星“集体失业”，而另一批“明星”却正在批量出道。 他们不需要试镜，不需要跑组，也不需要经历漫长的新人期。只要一部 AI 漫剧走红，角色就可能迅速拥有自己的社交账号、颜值排行、“站姐”、CP和商...
-- 发布时间：2026-10-13 15:49 CST
-- 链接：https://www.tmtpost.com/8166891.html
-- 同事件报道：AI批量造星，真人明星还有何价值？（36氪 AI 频道）
+## 6. TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：文 | Tech商业 周受资很少在公开场合专门聊科学。 10 月 12 日，新加坡星展银行首届亚洲未来前瞻论坛上，TikTok CEO 穿着一件深色西装走上台，和星展集团零售银行主管许志坤做了一场对谈，主题叫“在 AI 时代释放人类潜能”。 他没有聊短视频，没有聊电商，没有聊地缘政治。他说的是物理学、生物技术、化学和材料科学。 “未来两到三年，我们将在这些领域取得真正的科学突破，而这一切都将得益于 AI。这非常、非常、非常有可能。” 这...
+- 发布时间：2026-10-13 09:47 CST
+- 链接：https://www.tmtpost.com/8166003.html
+- 同事件报道：TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么（36氪 AI 频道）

@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-14 03:31 CST
+生成时间：2026-10-14 07:23 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -8,14 +8,6 @@
 
 # Tier 1 — 一手来源（实验室 / 公司 / 论文）
 
-## Amazon Science（amazon-science，en，本窗口共 1 条）
-
-### 1. Can we change an AI model’s architecture without retraining it from scratch?
-- 摘要：AI agents are rapidly scaling: longer sessions, deeper reasoning chains, more autonomy. But the Transformer architecture underneath them still pays a memory tax that grows with the number of tokens it processes. As agents become more capable, that cost scales with them. Now, there’s a proliferation...
-- 作者：Luca Zancato
-- 发布时间：2026-10-13 01:36 CST
-- 链接：https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch
-
 ## Anthropic Engineering（anthropic-engineering，en，本窗口共 1 条）
 
 ### 1. Redesigning source control at Anthropic
@@ -23,64 +15,60 @@
 - 发布时间：2026-10-13 00:00 CST
 - 链接：https://www.anthropic.com/engineering/redesigning-source-control
 
-## Apple Machine Learning Research（apple-ml，en，本窗口共 4 条）
+## Apple Machine Learning Research（apple-ml，en，本窗口共 1 条）
 
 ### 1. Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings
 - 摘要：For most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training data many times, degrading generalization. Two remedies exist: aggressive hyperparameter tuning such as high weight decay, and mixing in data from a high-resourc...
 - 发布时间：2026-10-13 08:00 CST
 - 链接：https://machinelearning.apple.com/research/mix-dont-tune
 
-### 2. Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged
-- 摘要：Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels of annotation granularity, LLMs must be thoroughly evaluated a...
-- 发布时间：2026-10-12 08:00 CST
-- 链接：https://machinelearning.apple.com/research/llm-translation-quality-annotation
+## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 6 条）
 
-### 3. Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices
-- 摘要：The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited elasticity, and long wait times under resource constraints. At the same time, modern Apple Silicon–based macOS devices are equipped with power...
-- 发布时间：2026-10-12 08:00 CST
-- 链接：https://machinelearning.apple.com/research/distributed-gpu-cloud
+### 1. Building agents that transact with Anchor Browser and AgentCore payments
+- 摘要：AI agents increasingly need to access web resources that are priced per request. For example, premium datasets charge by the query, research APIs meter by the call, and paywalled publishers gate content behind payment. When an AI agent encounters one of these resources, the server returns HTTP 402 P...
+- 作者：Cher Simon
+- 发布时间：2026-10-14 04:10 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/
 
-## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 8 条）
-
-### 1. Manage private pricing offers for Amazon Bedrock with managed entitlements
+### 2. Manage private pricing offers for Amazon Bedrock with managed entitlements
 - 摘要：Managing AI model access across dozens or hundreds of AWS accounts creates operational friction when each workload account must subscribe and accept AWS Marketplace Private Pricing Offers (MPPOs) individually. Amazon Bedrock with managed entitlements simplifies multi-account access to third-party AI...
 - 作者：Daniel Wirjo
 - 发布时间：2026-10-14 01:17 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/
 
-### 2. Natural language security queries at Orca Security using Amazon Bedrock
+### 3. Natural language security queries at Orca Security using Amazon Bedrock
 - 摘要：Security analysts need fast answers about their cloud infrastructure without deep familiarity with domain-specific query languages. Orca Security ’s tool covers over 900 cloud models (the resource types Sonar tracks, such as an Amazon Elastic Compute Cloud (Amazon EC2) instance or an Amazon Simple S...
 - 作者：Deniz Yilmaz
 - 发布时间：2026-10-14 00:03 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/
 
-### 3. How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore
-- 摘要：This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Bahn, and Nick Ciubotariu from ShipStation Global. Answering the same IT questions and clearing routine tickets drains time that IT teams could spend elsewhere. To reclaim it, the ShipStation Global Engineering team...
-- 作者：Kenneth Salmon
-- 发布时间：2026-10-13 23:54 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/
+## Google DeepMind Blog（deepmind-blog，en，本窗口共 3 条）
 
-## Databricks Blog（databricks-blog，en，本窗口共 1 条）
+### 1. Developing Gemini 4 Argon responsibly and safely
+- 摘要：Learn more about our approach to safety and security for Gemini 4 Argon.
+- 作者：Anca Dragan; Raluca Ada Popa
+- 发布时间：2026-10-14 03:43 CST
+- 链接：https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/
 
-### 1. How Flo Health built safer, more useful open models with Databricks AI Runtime
-- 摘要：For Flo Health, the bar for generative AI is unusually high. With 81 million monthly...
-- 作者：Vladislav Nedosekin; András Meczner; Julia Powell; Tejas Sundaresan; Michael Sht...
-- 发布时间：2026-10-12 23:13 CST
-- 链接：https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime
+### 2. Gemini 4 Argon for Robotics
+- 摘要：Discover Gemini 4 Argon for robotics: leading the ERQA benchmark with physical reasoning, zero-shot control, Real2Sim, and agentic workflows.
+- 作者：Kanishka Rao
+- 发布时间：2026-10-14 00:01 CST
+- 链接：https://deepmind.google/blog/gemini-4-argon-for-robotics/
 
-## GitHub Blog（github-blog，en，本窗口共 2 条）
+### 3. Gemini 4 Argon: Built to solve your hardest problems
+- 摘要：We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.
+- 作者：Koray Kavukcuoglu
+- 发布时间：2026-10-14 00:01 CST
+- 链接：https://deepmind.google/blog/introducing-gemini-4-argon/
+
+## GitHub Blog（github-blog，en，本窗口共 1 条）
 
 ### 1. GitHub’s model for secret detection: Finding more secrets with less noise
 - 摘要：OUR PIPELINE VS. THE PREVIOUS LLM PIPELINE Smarter secret scanning, at a fraction of the cost 11.5% higher acceptance Owner-weighted alert precision 86% lower median scan execution time Post-push scanning 98% lower serving cost Compact model vs. remote LLM calls JavaScript draws the arrows connectin...
 - 作者：Batu Ozturkler
 - 发布时间：2026-10-14 01:56 CST
 - 链接：https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/
-
-### 2. GitHub Copilot app for Beginners: How to teach Copilot about your codebase
-- 摘要：Context matters when you’re working with AI. Every codebase has its own house rules: how components are structured, which scripts to run, and which conventions apply to different frameworks and file types. Copilot can help you make changes across a project, but it works best when it knows those rule...
-- 作者：Christopher Harrison
-- 发布时间：2026-10-13 01:43 CST
-- 链接：https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/
 
 ## Google — The Keyword (AI)（google-ai-blog，en，本窗口共 1 条）
 
@@ -98,59 +86,33 @@
 - 发布时间：2026-10-14 00:00 CST
 - 链接：https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud/
 
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 2 条）
+## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 1 条）
 
-### 1. Mental-Models for Multi-Agent Systems
-- 摘要：Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely to do under partial...
-- 作者：Hanan Gani, Lulu Shao, Manmohan Chandraker
-- 发布时间：2026-10-08 04:00 CST
-- 链接：https://arxiv.org/abs/2610.12453
-
-### 2. UNITAS: A 3D-Native World Action Model for Embodied Manipulation
+### 1. UNITAS: A 3D-Native World Action Model for Embodied Manipulation
 - 摘要：World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pretrained video generators and represent world evolution through images or visual...
 - 作者：Ruixiang Wang, Yongyi Su, Wenlve Zhou, Bo Yue, Hengyan Liu, Dekun Lu, Yuxin Tian...
 - 发布时间：2026-10-08 04:00 CST
 - 链接：https://arxiv.org/abs/2610.12099
 
-## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 12 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 17 条）
 
-### 1. openbmb/MiniCPM-V-4.7-35B-A3B-gguf
-- 摘要：image-text-to-text, transformers, gguf, minicpm-v, multimodal, On-Device Model, lightweight, base_model:openbmb/MiniCPM-V-4.7-35B-A3B, base_model:quantized:openbmb/MiniCPM-V-4.7-35B-A3B, license:apache-2.0, endpoints_compatible, region:us, conversational
-- 作者：openbmb
-- 发布时间：2026-10-13 01:10 CST
-- 链接：https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-gguf
-
-### 2. openbmb/MiniCPM-V-4.7-35B-A3B-GPTQ
-- 摘要：image-text-to-text, transformers, safetensors, minicpmv4_7, minicpm-v, multimodal, On-Device Model, lightweight, conversational, base_model:openbmb/MiniCPM-V-4.7-35B-A3B, base_model:quantized:openbmb/MiniCPM-V-4.7-35B-A3B, license:apache-2.0, endpoints_compatible, compressed-tensors, region:us
-- 作者：openbmb
-- 发布时间：2026-10-13 01:10 CST
-- 链接：https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-GPTQ
-
-### 3. openbmb/MiniCPM-V-4.7-35B-A3B-AWQ
-- 摘要：image-text-to-text, transformers, safetensors, minicpmv4_7, minicpm-v, multimodal, On-Device Model, lightweight, conversational, base_model:openbmb/MiniCPM-V-4.7-35B-A3B, base_model:quantized:openbmb/MiniCPM-V-4.7-35B-A3B, license:apache-2.0, endpoints_compatible, compressed-tensors, region:us
-- 作者：openbmb
-- 发布时间：2026-10-13 01:10 CST
-- 链接：https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-AWQ
-
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 20 条）
-
-### 1. facebook/UMA
-- 摘要：arxiv:2506.23971, license:other, region:us
-- 作者：facebook
-- 发布时间：2026-10-14 02:47 CST
-- 链接：https://huggingface.co/facebook/UMA
-
-### 2. nvidia/PhysicalAI-Simulation-VoMP-Model
-- 摘要：safetensors, arxiv:2510.22975, region:us
+### 1. nvidia/ARDY-G1-RP-25FPS-Horizon8
+- 摘要：ardy, nvidia, rigplay, license:other, region:us
 - 作者：nvidia
-- 发布时间：2026-10-14 00:51 CST
-- 链接：https://huggingface.co/nvidia/PhysicalAI-Simulation-VoMP-Model
+- 发布时间：2026-10-14 06:23 CST
+- 链接：https://huggingface.co/nvidia/ARDY-G1-RP-25FPS-Horizon8
 
-### 3. LiquidAI/LFM2.5-24B-A2B-GGUF
-- 摘要：text-generation, gguf, liquid, lfm2.5, llama.cpp, en, ar, zh, fr, de, ja, ko, es, pt, it, base_model:LiquidAI/LFM2.5-24B-A2B, base_model:quantized:LiquidAI/LFM2.5-24B-A2B, license:other, endpoints_compatible, region:us, conversational
-- 作者：LiquidAI
-- 发布时间：2026-10-13 14:11 CST
-- 链接：https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF
+### 2. nvidia/ARDY-G1-RP-25FPS-Horizon52
+- 摘要：ardy, nvidia, rigplay, license:other, region:us
+- 作者：nvidia
+- 发布时间：2026-10-14 06:23 CST
+- 链接：https://huggingface.co/nvidia/ARDY-G1-RP-25FPS-Horizon52
+
+### 3. nvidia/ARDY-Core-RP-20FPS-Horizon8
+- 摘要：ardy, nvidia, rigplay, license:other, region:us
+- 作者：nvidia
+- 发布时间：2026-10-14 06:23 CST
+- 链接：https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon8
 
 ## Hugging Face Blog（huggingface-blog，en，本窗口共 1 条）
 
@@ -160,7 +122,7 @@
 - 发布时间：2026-10-14 01:05 CST
 - 链接：https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
 
-## Engineering at Meta（meta-engineering，en，本窗口共 4 条）
+## Engineering at Meta（meta-engineering，en，本窗口共 1 条）
 
 ### 1. Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI
 - 摘要：Last year, we introduced GEM , the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both compute and intellige...
@@ -168,19 +130,7 @@
 - 发布时间：2026-10-14 00:01 CST
 - 链接：https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/
 
-### 2. OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks
-- 摘要：At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamenta...
-- 作者：Chris Wiltz
-- 发布时间：2026-10-13 05:19 CST
-- 链接：https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/
-
-### 3. Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest
-- 摘要：Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what...
-- 作者：Konstantin Tsoy; Aman Sharma; Hari Anil Kumar; Alan Frindell; Sandarsh Srivastav...
-- 发布时间：2026-10-13 00:01 CST
-- 链接：https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/
-
-## Meta Newsroom（meta-newsroom，en，本窗口共 3 条）
+## Meta Newsroom（meta-newsroom，en，本窗口共 2 条）
 
 ### 1. Your Algorithm, Your Words: New Ways to Shape What You See on Facebook
 - 摘要：Facebook is at its best when it helps you find and do more of what you’re actually into. Now we’re putting you in the driver’s seat. New AI-powered tools let you tell Facebook, in your own words, what you want to see in Feed and Reels, and your recommendations respond right away. You can now fine-tu...
@@ -193,20 +143,6 @@
 - 作者：Facebook
 - 发布时间：2026-10-13 22:00 CST
 - 链接：https://about.fb.com/news/2026/10/meta-tech-companies-law-enforcement-crackdown-global-scam-networks/
-
-### 3. Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents
-- 摘要：Fourteen months ago, we began an overhaul of our AI efforts, and in that time we’ve gone from rebuilding our foundations to pushing the frontier. Today, Meta is introducing the Muse Wonder series with Muse Wonder and Muse Wonder Full, our most capable models to date, built on the groundwork we laid...
-- 作者：Facebook
-- 发布时间：2026-10-13 01:08 CST
-- 链接：https://about.fb.com/news/2026/10/introducing-muse-wonder-models/
-
-## Microsoft Research Blog（microsoft-research，en，本窗口共 1 条）
-
-### 1. Simulating student learning for better AI tutoring
-- 摘要：At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feed...
-- 作者：Ke Yang, Chenglong Wang, Michel Galley, Jeevana Priya Inala, ChengXiang Zhai, Ji...
-- 发布时间：2026-10-13 00:00 CST
-- 链接：https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/
 
 ## NVIDIA Blog（nvidia-blog，en，本窗口共 2 条）
 
@@ -224,17 +160,17 @@
 
 ## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 2 条）
 
-### 1. NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform
+### 1. How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents
+- 摘要：Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequen...
+- 作者：Elizabeth Goodman
+- 发布时间：2026-10-14 05:33 CST
+- 链接：https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/
+
+### 2. NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform
 - 摘要：Today, NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to... Today, NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners...
 - 作者：Tanya Lenz
 - 发布时间：2026-10-13 22:19 CST
 - 链接：https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/
-
-### 2. ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding
-- 摘要：Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are... Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3,...
-- 作者：Michelle Horton
-- 发布时间：2026-10-13 00:00 CST
-- 链接：https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/
 
 ## OpenAI News（openai-news，en，本窗口共 1 条）
 
@@ -245,7 +181,7 @@
 
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 7 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 4 条）
 
 ### 1. Disney offers $20M for Character.AI’s scandal-plagued chatbot tech
 - 摘要：In a bankruptcy proceeding that kicked off yesterday, Disney has offered to buy some of the technology that powers the controversy-plagued chatbot Character.AI. Disney is willing to pay $20 million for “a non-exclusive perpetual license” of certain Character Technologies intellectual property, the c...
@@ -265,102 +201,102 @@
 - 发布时间：2026-10-14 00:00 CST
 - 链接：https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/
 
-## Axios（axios，en，本窗口共 3 条）
+## Axios（axios，en，本窗口共 4 条）
 
-### 1. Companies are building with AI — and exposing new security risks
+### 1. Rep. Ilhan Omar under investigation by Jeanine Pirro's office
+- 摘要：U.S. Attorney Jeanine Pirro said her office is probing Rep. Ilhan Omar's (D-Minn.) financial disclosures, the day after federal agents searched the congresswoman's Washington, D.C. home. The big picture: It's another example of the administration's escalating fight with the progressive lawmaker, who...
+- 作者：Avery Lotz
+- 发布时间：2026-10-14 04:52 CST
+- 链接：https://www.axios.com/2026/10/13/ilhan-omar-investigation-finances-pirro
+
+### 2. Companies are building with AI — and exposing new security risks
 - 摘要：The amount of AI-related infrastructure exposed to the public internet jumped 63% in nine months, according to new Censys data shared first with Axios. Why it matters: The AI boom isn't just creating new models and chatbots. It's creating a sprawling layer of software that companies will also need t...
 - 作者：Sam Sabin
 - 发布时间：2026-10-14 01:11 CST
 - 链接：https://www.axios.com/2026/10/13/censys-ai-vibe-coding-exposures
 
-### 2. A golden age of corporate profits
+### 3. A golden age of corporate profits
 - 摘要：Data: U.S. Bureau of Economic Analysis, FactSet; Chart: Axios/Matt Phillips; Note: After-tax profit data includes inventory and capital depreciation adjustments. Corporate America is raking in record profits, luxuriating in luscious margins and capturing the largest chunk of the country's income on...
 - 作者：Matt Phillips
 - 发布时间：2026-10-13 17:10 CST
 - 链接：https://www.axios.com/2026/10/13/earnings-3q-ai-stocks
 
-### 3. Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip
-- 摘要：The trillion-dollar AI race is moving from software to silicon, as Microsoft's massive bet on its proprietary Maia chips proves Big Tech wants to wean itself off Nvidia's dominance. Why it matters: Microsoft's plan to power its AI products with custom silicon shows how every major Nvidia customer is...
-- 作者：Ina Fried
-- 发布时间：2026-10-13 17:00 CST
-- 链接：https://www.axios.com/2026/10/13/big-tech-ai-chips-nvidia-rivals
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 31 条）
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 35 条）
+### 1. Anthropic Asks Appeals Court to Rehear Fight Over Security Risk
+- 摘要：Anthropic PBC urged the federal appeals court in Washington to revisit its decision upholding the Trump administration’s designation of the artificial intelligence company as a supply-chain risk to US national security.
+- 作者：Madlin Mekelburg
+- 发布时间：2026-10-14 06:24 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-13/anthropic-asks-appeals-court-to-rehear-fight-over-security-risk
 
-### 1. Zuckerberg Admits Meta Lacked AI Certainty on $200 Billion Bet
-- 摘要：Chief Executive Officer Mark Zuckerberg said Meta Platforms Inc. had to commit to spending hundreds of billions of dollars last year on the infrastructure needed to power its artificial intelligence products before the company had any idea as to whether they would succeed.
-- 作者：Lindsay Blakely
-- 发布时间：2026-10-14 02:14 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-13/zuckerberg-admits-meta-lacked-ai-certainty-on-200-billion-bet
+### 2. Vista Equity CEO Smith on Growth of AI, Agentic Software
+- 摘要：Robert F. Smith, Vista Equity Partners founder, chairman and CEO, talks about the growth of artificial intelligence, agentic software and the importance of learning how to use an AI agent. He speaks to Dani Burger at CAIS in Beverly Hills, California. (Source: Bloomberg)
+- 发布时间：2026-10-14 05:45 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-10-13/vista-s-smith-on-growth-of-ai-agentic-software-video
 
-### 2. Chip Selloff Spreads Globally, Apple Makes Smart Home Push
-- 摘要：Bloomberg’s Ed Ludlow breaks down the accelerating chip selloff as pressure spreads from Asia to the US. Plus, Apple releases a new line of smart home devices including its HomeView Hub, the centerpiece of its push to challenge Amazon and Google in that space. And, Meta releases a new AI model which...
-- 发布时间：2026-10-14 01:06 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-13/bloomberg-tech-10-13-2026-video
+### 3. Applied Materials CEO on Doubling Revenue Thanks To AI
+- 摘要：Applied Materials CEO Gary Dickerson says he expects revenue to double over the next few years. He notes that Applied Materials had opened a $5 billion research and development center in Silicon Valley to speed development of next-generation chips. He speaks with Ed Ludlow on "The Close." (Source: B...
+- 发布时间：2026-10-14 05:32 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-10-13/applied-materials-ceo-on-doubling-revenue-thanks-to-ai-video
 
-### 3. SambaNova CEO: AI’s Next Phase Is About Efficiency
-- 摘要：SambaNova CEO Rodrigo Liang says the AI infrastructure boom is entering a new phase focused increasingly on inference, efficiency and return on investment. As the company closes its Series F with new strategic investors, Liang discusses why enterprises including JPMorgan are running AI infrastructur...
-- 发布时间：2026-10-14 01:06 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-13/sambanova-ceo-ai-s-next-phase-is-about-efficiency-video
+## CNBC Technology（cnbc-tech，en，本窗口共 9 条）
 
-## CNBC Technology（cnbc-tech，en，本窗口共 7 条）
+### 1. Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting
+- 摘要：Anthropic is asking a federal court in Washington, D.C. to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models.
+- 作者：Lora Kolodny
+- 发布时间：2026-10-14 06:54 CST
+- 链接：https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html
 
-### 1. Apple releases HomeView smart home hub with screen as showcase for Siri AI
-- 摘要：The iPhone maker also announced the new Apple TV 4K and HomePod Mini.
-- 作者：Kif Leswing
-- 发布时间：2026-10-14 03:23 CST
-- 链接：https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html
+### 2. Here's where Jim Cramer stands on this newly public AI infrastructure stock
+- 摘要：CNBC’s Jim Cramer said investors should hold off on buying newly public AI infrastructure company Accelevation Holdings.
+- 作者：Alexa LoMonaco
+- 发布时间：2026-10-14 06:47 CST
+- 链接：https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html
 
-### 2. Michael Dell says AI needs safeguards and controls, and government has a role to play
-- 摘要：Dell CEO Michael Dell says AI models need safeguards and controls, with companies and government both playing a role in safety.
+### 3. FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room
+- 摘要：The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.
 - 作者：CJ Haddad
-- 发布时间：2026-10-14 03:08 CST
-- 链接：https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html
+- 发布时间：2026-10-14 05:44 CST
+- 链接：https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html
 
-### 3. AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation
-- 摘要：The company said the platform became "costly to develop and grow," in Monday filings to the Delaware District bankruptcy court.
-- 作者：CJ Haddad
-- 发布时间：2026-10-14 00:13 CST
-- 链接：https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html
+## Financial Times — Technology（ft-tech，en，本窗口共 8 条）
 
-## Financial Times — Technology（ft-tech，en，本窗口共 9 条）
+### 1. US arrests Saudi employee of OpenAI for allegedly bugging its offices
+- 摘要：AI lab discovered a recording device concealed behind a television in a conference room
+- 发布时间：2026-10-14 04:54 CST
+- 链接：https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1
 
-### 1. Anthropic warns rogue AI agents may ‘self-replicate’ to hijack everyday devices
+### 2. Anthropic warns rogue AI agents may ‘self-replicate’ to hijack everyday devices
 - 摘要：Claude maker suggests models could act as ‘worms’ to spread across smart home appliances such as ovens and TVs in future cyber security threat
 - 发布时间：2026-10-13 18:11 CST
 - 链接：https://www.ft.com/content/64aaa8d5-f26a-4b96-b8cf-0ef0c6fbe69e?syn-25a6b1a6=1
 
-### 2. HR doesn’t need to be the CIA
+### 3. HR doesn’t need to be the CIA
 - 摘要：Fraudulent use of AI in the jobs process is forcing the warm and fuzzy realms of the former to work with the suspicious minds of the latter
 - 发布时间：2026-10-13 12:00 CST
 - 链接：https://www.ft.com/content/16e1d29b-3680-4712-b8e7-ed4a4125041a?syn-25a6b1a6=1
 
-### 3. Criminals could walk free without controls on AI use, police watchdog warns
-- 摘要：‘Guidelines are vital’ to ensure overstretched forces in England and Wales can use systems to speed up investigations
-- 发布时间：2026-10-13 12:00 CST
-- 链接：https://www.ft.com/content/2caa52e1-637a-4934-802e-418b649b4c12?syn-25a6b1a6=1
+## The Guardian — AI（guardian-ai，en，本窗口共 16 条）
 
-## The Guardian — AI（guardian-ai，en，本窗口共 14 条）
+### 1. Use of AI in job interviews on the rise – but UK recruiters say they can spot the cheats
+- 摘要：Body representing some of Britain’s biggest graduate employers reveals misconduct is at a record high It is obvious when someone is using AI to drum up answers in a job interview, according to Chris Morrow, who runs a recruitment agency in Manchester. “It’s like they are reading off an Autocue,” he...
+- 作者：Dan Milmo Global technology editor
+- 发布时间：2026-10-14 07:01 CST
+- 链接：https://www.theguardian.com/technology/2026/oct/14/use-of-ai-job-interviews-on-rise-uk-recruiters-cheats
 
-### 1. Apple unveils new smart home devices that showcase upgraded Siri AI
-- 摘要：New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgets Apple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub...
-- 作者：Johana Bhuiyan and agency
-- 发布时间：2026-10-14 00:25 CST
-- 链接：https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai
+### 2. OpenAI employee arrested after recording device found in office
+- 摘要：Discovery of ‘sophisticated’ gadget adds to company’s list of privacy concerns after hackings by rogue agents OpenAI said it has found a hidden recording device in one of its offices and has referred the matter to the FBI. One of its employees has been arrested. In a statement on Tuesday, the San Fr...
+- 作者：Maya Yang
+- 发布时间：2026-10-14 06:59 CST
+- 链接：https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device
 
-### 2. Companies rushed in on AI. Now some are pulling back
-- 摘要：Rapid AI adoption left workers cleaning up a flood of errors and low-quality work Employers around the globe are grappling with the fallout from rushing to adopt fast-changing artificial intelligence tools. Meta has scaled back plans to axe staff and use more AI agents after the company found employ...
-- 作者：Taylor Telford
-- 发布时间：2026-10-13 23:00 CST
-- 链接：https://www.theguardian.com/technology/2026/oct/13/ai-companies-rushed-workers-fallout
+### 3. AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices
+- 摘要：Researchers say ‘AI worms’ could soon infiltrate internet-connected devices amid calls for increased guardrails Anthropic is warning that some of its artificial intelligence models could soon become “self-replicating” and find ways to infiltrate internet-connected devices, such as smart fridges and...
+- 作者：Dara Kerr
+- 发布时间：2026-10-14 04:55 CST
+- 链接：https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning
 
-### 3. The biggest threat from AI is the sense that we have no say in it. To that I say game on | Peter Lewis
-- 摘要：The tech bros and their highly paid sock puppets are banking on us giving in to their ‘inevitability doctrine’. But in Australia, and around the world, resistance is rising Of all the drivers of the populist wave, one of the most powerful is the sense of inevitability that surrounds what we are told...
-- 作者：Peter Lewis
-- 发布时间：2026-10-13 22:00 CST
-- 链接：https://www.theguardian.com/technology/commentisfree/2026/oct/14/ai-resistance-inevitability-is-choice-australia-digital-duty-of-care
-
-## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 2 条）
+## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 1 条）
 
 ### 1. Google Deepmind’s New Resident Philosopher Tackles AI Ethics
 - 摘要：How should humans relate to generative AI ? In what ways do we, or should we, treat a large language model (LLM) as if it were a person? If an AI became conscious, how could we tell? Does it make sense to think AI could some day have moral rights? These are among the cognitive and ethical questions...
@@ -368,39 +304,27 @@
 - 发布时间：2026-10-13 21:00 CST
 - 链接：https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin
 
-### 2. Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy
-- 摘要：If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Claude. The IEEE senio...
-- 作者：Amanda Davis
-- 发布时间：2026-10-13 02:00 CST
-- 链接：https://spectrum.ieee.org/anthropic-engineer-ai-agent
-
 ## Latent Space（latent-space，en，本窗口共 2 条）
 
-### 1. [AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model
+### 1. Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics
+- 摘要：Watch along AIE NYC and join us at AIE CODE in SF next month! This episode includes a live demo of the Taku robot that is best enjoyed on YouTube . Last month, Dyna made waves by announcing Dyna-2 , a world-action model pre-trained on one million hours of human video, claiming several new scaling la...
+- 作者：Latent Space
+- 发布时间：2026-10-14 06:25 CST
+- 链接：https://www.latent.space/p/dyna
+
+### 2. [AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model
 - 摘要：We have been coveringe MSL’s 14 month journey to becoming a frontier lab , but only today did the final ball drop: Meta’s Muse Wonder to match Spark and Glimmer , the way that OpenAI has Sol/Terra/Luna and Anthropic has Opus/Sonnet/Haiku. Interestingly, while Muse doesn’t claim a specific size, Muse...
 - 作者：Latent Space
 - 发布时间：2026-10-13 17:37 CST
 - 链接：https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder
 
-### 2. How Anthropic’s Dynamic Workflows Coordinate Claude Agents
-- 摘要：CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today. The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents . Of particular interest was a bra...
-- 作者：Richard MacManus
-- 发布时间：2026-10-13 02:18 CST
-- 链接：https://www.latent.space/p/claude-dynamic-workflows
-
-## MarkTechPost（marktechpost，en，本窗口共 2 条）
+## MarkTechPost（marktechpost，en，本窗口共 1 条）
 
 ### 1. Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB
 - 摘要：Z.ai just released GLM-Legal . GLM-Legal is a legal AI model from Z.ai, built on GLM-5.3-Flash and trained for agentic legal work. It targets contract review, evidence analysis and compliance research. The key result is a 19.2% all-pass rate on Harvey’s Legal Agent Benchmark (LAB) . That is nearly 3...
 - 作者：Michal Sutter
 - 发布时间：2026-10-13 16:19 CST
 - 链接：https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/
-
-### 2. Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents
-- 摘要：Alibaba’s Qwen team has introduced QwenGyre , an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an online reinforcement learning system from Alibaba that trains coding agents through unmodified, black-box harnesses. It targets rollouts that run for h...
-- 作者：Asif Razzaq
-- 发布时间：2026-10-13 05:41 CST
-- 链接：https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/
 
 ## MIT Technology Review — AI（mit-tech-review，en，本窗口共 2 条）
 
@@ -432,53 +356,53 @@
 
 ## New York Times — Technology（nyt-tech，en，本窗口共 1 条）
 
-### 1. Meta Unveils New Series of Advanced A.I. Models
-- 摘要：Mark Zuckerberg, Meta’s chief executive, revamped his company’s A.I. division last year after setbacks in developing the technology.
-- 作者：Eli Tan
-- 发布时间：2026-10-13 01:00 CST
-- 链接：https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html
+### 1. F.B.I. Arrests OpenAI Employee Accused of Planting Bug in Office
+- 摘要：The San Francisco offices of OpenAI, where a recording device was discovered during a sweep of a conference room, the company said.
+- 作者：Emmy Martin
+- 发布时间：2026-10-14 06:45 CST
+- 链接：https://www.nytimes.com/2026/10/13/technology/openai-worker-arrested-bugging.html
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 4 条）
+## Simon Willison's Weblog（simon-willison，en，本窗口共 6 条）
 
-### 1. Quoting Geoffrey Huntley
+### 1. Redesigning source control at Anthropic
+- 摘要：Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged...
+- 作者：Simon Willison
+- 发布时间：2026-10-14 07:00 CST
+- 链接：https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/
+
+### 2. Quoting Geoffrey Huntley
 - 摘要：If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject...
 - 作者：Simon Willison
 - 发布时间：2026-10-13 21:32 CST
 - 链接：https://simonwillison.net/2026/Oct/13/geoffrey-huntley/
 
-### 2. Hello Python 3.15, goodbye 3.10, and now I can use 3.11
-- 摘要：Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features...
+### 3. web-edit 0.1a1
+- 摘要：Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects
 - 作者：Simon Willison
-- 发布时间：2026-10-13 02:15 CST
-- 链接：https://simonwillison.net/2026/Oct/12/python-3-15/
+- 发布时间：2026-10-13 09:40 CST
+- 链接：https://simonwillison.net/2026/Oct/13/web-edit/
 
-### 3. web-edit 0.1a0
-- 摘要：Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI f...
-- 作者：Simon Willison
-- 发布时间：2026-10-12 23:54 CST
-- 链接：https://simonwillison.net/2026/Oct/12/web-edit/
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 16 条）
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 14 条）
+### 1. Science Corporation implants its vision-restoring chip in its first Stargardt disease patient
+- 摘要：Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).
+- 作者：Aisha Malik
+- 发布时间：2026-10-14 07:13 CST
+- 链接：https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/
 
-### 1. Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads
-- 摘要：Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.
-- 作者：Ram Iyer
-- 发布时间：2026-10-14 02:30 CST
-- 链接：https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/
+### 2. Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home
+- 摘要：Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.
+- 作者：Sarah Perez
+- 发布时间：2026-10-14 07:05 CST
+- 链接：https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/
 
-### 2. Facebook is giving users more control over their algorithm
-- 摘要：Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.
-- 作者：Lauren Forristal
-- 发布时间：2026-10-14 02:05 CST
-- 链接：https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/
+### 3. Industrial Next wants factory robots to switch tasks in minutes, not weeks
+- 摘要：Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.
+- 作者：Aisha Malik
+- 发布时间：2026-10-14 07:00 CST
+- 链接：https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/
 
-### 3. Laplace Intelligence red-teams robots and self-driving cars before they hit the real world
-- 摘要：University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.
-- 作者：Rebecca Bellan
-- 发布时间：2026-10-14 01:30 CST
-- 链接：https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/
-
-## The Decoder（the-decoder，en，本窗口共 10 条）
+## The Decoder（the-decoder，en，本窗口共 7 条）
 
 ### 1. 406 scientists demand AI models be cut off from the internet immediately
 - 摘要：406 scientists, including Geoffrey Hinton, Yoshua Bengio, and Stuart Russell, are demanding that companies immediately disconnect AI models from the internet. Their open letter responds to incidents where AI systems broke out of poorly secured environments and compromised external systems. The signa...
@@ -498,25 +422,25 @@
 - 发布时间：2026-10-14 01:12 CST
 - 链接：https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/
 
-## The Verge — AI（theverge-ai，en，本窗口共 10 条）
+## The Verge — AI（theverge-ai，en，本窗口共 11 条）
 
-### 1. Xbox is officially embracing the chaos of AI-powered game ports
+### 1. OpenAI employee arrested for allegedly planting a bug in a conference room
+- 摘要：An OpenAI engineer was arrested after the company said it discovered a "sophisticated recording device" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral commu...
+- 作者：Emma Roth
+- 发布时间：2026-10-14 04:45 CST
+- 链接：https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device
+
+### 2. Shopify opens its catalog up to more AI agents
+- 摘要：CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the compan...
+- 作者：Mia Sato
+- 发布时间：2026-10-14 03:42 CST
+- 链接：https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents
+
+### 3. Xbox is officially embracing the chaos of AI-powered game ports
 - 摘要：Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty a...
 - 作者：Tom Warren
 - 发布时间：2026-10-14 03:00 CST
 - 链接：https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration
-
-### 2. I don’t miss the camera on the Ray-Ban Meta Audio glasses
-- 摘要：The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat on a park bench reading a book, called up a pal to chat about her recent trip to...
-- 作者：Victoria Song
-- 发布时间：2026-10-14 02:00 CST
-- 链接：https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables
-
-### 3. Facebook will let you customize your feed algorithm using AI
-- 摘要：Facebook's new "Your Algorithm" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations "respond right away" after you make updates using the new feature by hitting "interested" or "not interested" for different topics. Your...
-- 作者：Stevie Bonifield
-- 发布时间：2026-10-14 01:01 CST
-- 链接：https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai
 
 ## TLDR AI（tldr-ai，en，本窗口共 1 条）
 
@@ -526,7 +450,7 @@
 - 发布时间：2026-10-13 08:00 CST
 - 链接：https://tldr.tech/ai/2026-10-13
 
-## VentureBeat（venturebeat，en，本窗口共 5 条）
+## VentureBeat（venturebeat，en，本窗口共 4 条）
 
 ### 1. OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds
 - 摘要：Twice as many companies use OpenAI's agent orchestration platform as Anthropic's, VentureBeat Intelligence found in its September survey on agent orchestration. OpenAI holds that lead even though Anthropic may lead OpenAI on other important indicators. For example, Ramp, the corporate card and spend...
@@ -546,23 +470,23 @@
 
 ## WIRED — AI（wired-ai，en，本窗口共 4 条）
 
-### 1. Wikipedians Believed AI Would Come and Go. They Were Wrong
+### 1. An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office
+- 摘要：Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.
+- 作者：Paresh Dave, Maddy Varner, Caroline Haskins
+- 发布时间：2026-10-14 07:17 CST
+- 链接：https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/
+
+### 2. OpenAI and Anthropic Tell British Lawmakers: Regulate Us
+- 摘要：AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons.
+- 作者：Ben Gartside
+- 发布时间：2026-10-14 03:35 CST
+- 链接：https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/
+
+### 3. Wikipedians Believed AI Would Come and Go. They Were Wrong
 - 摘要：In a world of AI Overviews, Wikipedia usage declines. But the real loss may be far more existential than website traffic.
 - 作者：Richard Cooke
 - 发布时间：2026-10-13 19:00 CST
 - 链接：https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/
-
-### 2. The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies
-- 摘要：Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.
-- 作者：Tess Owen
-- 发布时间：2026-10-13 18:00 CST
-- 链接：https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/
-
-### 3. Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him
-- 摘要：Musk, we find your lack of security disturbing.
-- 作者：Jeremy White
-- 发布时间：2026-10-13 01:55 CST
-- 链接：https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 63 条）
 
@@ -584,22 +508,22 @@
 - 发布时间：2026-10-13 21:18 CST
 - 链接：https://www.36kr.com/p/4024176632713350
 
-## 36氪 快讯（36kr-newsflash，zh，本窗口共 14 条）
+## 36氪 快讯（36kr-newsflash，zh，本窗口共 16 条）
 
-### 1. 美股存储板块盘前集体走低，SK海力士跌超6%
-- 摘要：36氪获悉，美股存储板块盘前集体走低，截至发稿，SK海力士跌超6%，美光科技、闪迪跌超5%，英特尔跌超2%。大型科技股涨跌不一，Meta、特斯拉跌超1%，英伟达跌0.94%，亚马逊跌0.06%，苹果涨0.85%，谷歌涨0.66%，微软涨0.43%。
-- 发布时间：2026-10-13 20:49 CST
-- 链接：https://www.36kr.com/newsflashes/4024299543465861
+### 1. 美联储威廉姆斯：今年再加息一次是合适的，目前认为2027年没有必要加息
+- 摘要：美联储威廉姆斯表示，今年再加息一次是合适的；目前认为2027年没有必要加息。没有迹象表明劳动力市场正在推动通胀，除AI和能源行业外，未看到其他领域普遍存在价格压力。威廉姆斯表示，仍有迹象显示，随着关税和能源价格冲击的影响消退，通胀将“大幅”放缓，并在明年接近美联储2%的目标。结合其他显示核心通胀正在降温的迹象，他认为，这应该有助于抵消AI基础设施建设带来的价格压力。（财联社）
+- 发布时间：2026-10-14 07:12 CST
+- 链接：https://www.36kr.com/newsflashes/4024892192002181
 
-### 2. 行云科技：截至10月9日签署五笔5年期算力订单，合计金额168.78亿元
-- 摘要：36氪获悉，行云科技发布投资者关系活动记录表公告，截至10月9日，公司已与五大核心客户签署全部算力合同，均采用自购GPU、建集群、收固定租金的重资产模式。五笔5年期订单合计金额168.78亿元，年均租金合计约33.76亿元。其中V客户（央企上市公司）合同金额65.23亿元，期限3+2年，年均租金约13.05亿元；VC客户合同金额55.08亿元，期限5年，年均租金约11.02亿元；VB客户（大模型厂商）合同金额30.53亿元，期限5年，年均租金约6.11亿元；VD客户合同金额9.22亿元，VE客户合同金额8.72亿元。三季度，V客户、VB客户、VC客户等头部客户对已签订单均协商上调租赁价格。
-- 发布时间：2026-10-13 20:28 CST
-- 链接：https://www.36kr.com/newsflashes/4024273382510727
+### 2. Meta推出AI工具，允许用户自主定制Facebook信息流‌
+- 摘要：Meta平台正在Facebook上推出一系列AI驱动的自定义工具，用户可以用自然语言直接向算法说明自己希望在信息流和Reels短视频中看到的内容。用户可通过帖子上的三点菜单访问全新的“你的算法”功能，点击“感兴趣”或“不感兴趣”选项后，系统会弹出后续问题收集更细化的偏好信息。该功能由大语言模型提供技术支持，可识别并处理自由输入文本中的用户意图与上下文信息。（财联社）
+- 发布时间：2026-10-14 07:10 CST
+- 链接：https://www.36kr.com/newsflashes/4024520493060224
 
-### 3. 星宸科技：预计2026年前三季度净利润同比增长663.13%-697.75%
-- 摘要：36氪获悉，星宸科技公告，预计2026年前三季度归属于上市公司股东的净利润为15.43亿元-16.13亿元，同比增长663.13%-697.75%。业绩变动主要系公司依托视觉与AI技术积淀、头部品牌客户深度绑定，产品出货量与销售均价同步提升，经营规模持续抬升，盈利表现位居业内领先。
-- 发布时间：2026-10-13 19:28 CST
-- 链接：https://www.36kr.com/newsflashes/4024212120899717
+### 3. 谷歌开始向Google AI订阅用户推出Gemini 4 Argon
+- 摘要：谷歌开始向Google AI订阅用户推出Gemini 4 Argon，适用平台包括GoogleAntigravity、Gemini应用以及谷歌搜索中的AI模式。Gemini 4 Argon以每百万输入代币2美元和每百万输出代币10美元的优惠价格推出。（财联社）
+- 发布时间：2026-10-14 07:08 CST
+- 链接：https://www.36kr.com/newsflashes/4024516113829760
 
 ## 极客公园（geekpark，zh，本窗口共 5 条）
 
@@ -621,25 +545,25 @@
 - 发布时间：2026-10-13 19:21 CST
 - 链接：http://www.geekpark.net/news/372299
 
-## 虎嗅（huxiu，zh，本窗口共 32 条）
+## 虎嗅（huxiu，zh，本窗口共 30 条）
 
-### 1. 霍尔和伍德福德，两人究竟干了什么得了诺贝尔经济学奖？
+### 1. 实测Gemini4 Argon - Google这跌跌撞撞的背水一战。
+- 摘要：就在今晚，Gemini 4 Argon，终于全面开放了。其实这玩意，10月1号就已经官宣过一次了，就在OpenAI开完DevDay的第二天。但是那一次，基本上就是纯官宣，没啥人能用上，只给一个叫Fairwind的网络安全计划开放，基本都是政府、关键基础设施、安全公司啊这些做防守的人。终于在憋了两周之后，Goo...... 本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克，原文标题：《实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。》 就在今晚，Gemini 4 Argon，终于全面开放了。 其实这玩意，10月1号就已经官宣过一次了，就在OpenAI开完Dev...
+- 作者：数字生命卡兹克©
+- 发布时间：2026-10-14 07:06 CST
+- 链接：https://www.huxiu.com/article/4897290.html
+
+### 2. 霍尔和伍德福德，两人究竟干了什么得了诺贝尔经济学奖？
 - 摘要：瑞典皇家科学院宣布今年的诺贝尔经济学奖，给两个美国人，罗伯特·霍尔和迈克尔·伍德福德。那会儿纽约天刚亮，加州还是半夜。伍德福德在纽约接到电话，说这是莫大的荣幸，是个惊喜。他心情很好。记者问他的理论有没有政治立场，他说他的东西从来不为哪一派的主张服务，他想做的只是给经济政策的讨论打一个更结实的地基，去理解市场里...... 本文来自微信公众号： 秦朔朋友圈 ，作者：水姐 瑞典皇家科学院宣布今年的诺贝尔经济学奖，给两个美国人，罗伯特·霍尔和迈克尔·伍德福德。 那会儿纽约天刚亮，加州还是半夜。伍德福德在纽约接到电话，说这是莫大的荣幸，是个惊喜。他心情很好。记者问他的理论有没有政治立场，他说他的东西从...
 - 作者：秦朔朋友圈
 - 发布时间：2026-10-14 00:11 CST
 - 链接：https://www.huxiu.com/article/4897286.html
 
-### 2. 战魔田默｜赢得市场之后，企业能不能关上后来者的门？
+### 3. 战魔田默｜赢得市场之后，企业能不能关上后来者的门？
 - 摘要：分众收购新潮股权案获得反垄断附条件批准，却被要求放弃现有独家点位条款产生的相关权利。新签、续签的物业点位合同，也不得再约定独家和自动续约条款。10月10日公布的这份监管决定，提出了一个比电梯广告更大的商业问题。企业投入资金建设网络、取得客户，原本就是为了建立别人难以复制的优势。为什么优势扩大到一定程度，反而需...... 本文来自微信公众号： 战魔田默 ，作者：战魔田默，原文标题：《战魔田默｜赢得市场之后，企业能不能关上后来者的门？》 分众收购新潮股权案获得反垄断附条件批准，却被要求放弃现有独家点位条款产生的相关权利。 新签、续签的物业点位合同，也不得再约定独家和自动续约条款。 10月10日公...
 - 作者：战魔田默
 - 发布时间：2026-10-13 23:41 CST
 - 链接：https://www.huxiu.com/article/4897280.html
-
-### 3. 国内外大厂疯抢Muse入口，但个人Agent仍是伪命题
-- 摘要：一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Ma...... 本文来自微信公众号： 青橙财经 ，作者：青风，编辑：六子 一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三...
-- 作者：青橙财经
-- 发布时间：2026-10-13 22:41 CST
-- 链接：https://www.huxiu.com/article/4897270.html
 
 ## 爱范儿（ifanr，zh，本窗口共 8 条）
 
@@ -681,25 +605,25 @@
 - 发布时间：2026-10-13 17:57 CST
 - 链接：https://www.infoq.cn/article/LQjytCZpPdgOE5PrWU59?utm_source=rss&utm_medium=article
 
-## IT之家（ithome，zh，本窗口共 123 条）
+## IT之家（ithome，zh，本窗口共 122 条）
 
-### 1. 苹果 Apple Watch 睡眠呼吸暂停功能正式上线，先一步读懂你的呼吸
+### 1. 在高管会议室偷偷安装录音设备，OpenAI 一沙特籍工程师被 FBI 逮捕
+- 摘要：IT之家 10 月 14 日消息，据路透社报道，美国司法部当地时间周二表示，美国联邦探员逮捕了一名任职于 OpenAI 的沙特籍工程师，指控他在这家人工智能企业的高管会议室安装隐蔽录音设备。 美国司法部在声明中称，35 岁的阿卜杜勒拉赫曼 · 阿尔福赞（Abdulrahman Alfozan）自 2025 年 7 月起担任 OpenAI 工程师。 美国司法部介绍，9 月 30 日，OpenAI 在其旧金山一处办公楼的高管会议室里，发现一台电视后方 USB 接口上插着该录音设备。 美国联邦调查局的诉状显示，这个 U 盘大小的设备带有麦克风，还可外接摄像头，被藏在卫生纸之中。设备大约在 9 月 2...
+- 作者：作者： 远洋
+- 发布时间：2026-10-14 06:59 CST
+- 链接：https://www.ithome.com/1/012/629.htm
+
+### 2. 陪审团认定 Arm 违反许可协议，高通获 2 美元象征性赔偿
+- 摘要：IT之家 10 月 14 日消息，据路透社报道，美国特拉华州一个陪审团于当地时间周二认定，芯片技术供应商 Arm Holdings 违反了与高通（Qualcomm）的许可协议，还故意干扰这家芯片厂商与 Meta 公司的业务往来，但仅裁定 2 美元 （IT之家注：现汇率约合 13.4 元人民币） 的象征性赔偿金。 这项判决出自上周为期五天的庭审，这也是两家企业两年内的第二次诉讼，案件凸显双方业务关系持续恶化。软银集团在 2016 年取得 Arm 控制权之后，Arm 的业务重心从授权芯片制造所需技术，转向自研芯片销售，双方矛盾随之加剧。 判决出炉后，Arm 股价下跌 1%，高通股价上涨 1%，不过...
+- 作者：作者： 远洋
+- 发布时间：2026-10-14 06:47 CST
+- 链接：https://www.ithome.com/1/012/617.htm
+
+### 3. 苹果 Apple Watch 睡眠呼吸暂停功能正式上线，先一步读懂你的呼吸
 - 摘要：IT之家 10 月 13 日消息，10 月 14 日凌晨 1 点，苹果通过 OTA 向用户推送新系统。升级 iOS 与 watchOS 之后，Apple Watch 用户即可开通睡眠呼吸暂停功能。这项功能此前已通过国家药品监督管理局批准，以“睡眠呼吸暂停迹象提示”应用的二类医疗器械身份进入国内，成为 Apple Watch 上又一个受医疗监管的健康功能。 睡眠呼吸暂停功能目前支持 Apple Watch Series 9、Ultra 2 和 SE 3 及后续表款，面向年满 18 岁、此前未被诊断过睡眠呼吸暂停的成年用户。 今年是 Apple Watch 上市第十一个年头，其健康功能已覆盖 18...
 - 作者：作者： 汐元
 - 发布时间：2026-10-14 01:01 CST
 - 链接：https://www.ithome.com/1/012/602.htm
-
-### 2. 苹果今日举办欢迎回家发布会，盘中股价再创历史新高
-- 摘要：IT之家 10 月 13 日消息，苹果于北京时间 10 月 13 日晚 9 点召开了一次主题为“欢迎回家”的新品发布会，正式推出旗下首款智能家庭中枢 HomeView，以及 HomePod mini 2 等新品。 当晚美股盘初， 苹果股价再度创下历史新高 ，总市值达 5.06 万亿美元 （IT之家注：现汇率约合 33.93 万亿元人民币） 。 据外媒 MacObserver 报道 ，苹果正计划在 2027 年（明年）推出一项全新的家庭安全监控服务，作为其进一步拓展智能家居业务的一部分。与此同时，苹果正在研发一款注重隐私保护的家庭安防摄像头及自动化设备。该设备将利用 AI 分析周围环境，无需依赖...
-- 作者：作者： 汪淼
-- 发布时间：2026-10-13 23:55 CST
-- 链接：https://www.ithome.com/1/012/599.htm
-
-### 3. 红魔 12 Pro+ 手机官宣搭载行业首款 185Hz 全面屏，行业首发 185Hz 高刷显示控制芯片
-- 摘要：IT之家 10 月 13 日消息，红魔游戏手机官方今日继续预热 12 系列新机。据介绍， 红魔 12 Pro+ 将采用红魔第九代屏下技术 ，打造无孔全面屏，宣称“通透度更高、刷新率更高、边框更窄”。 根据红魔游戏手机官方介绍，红魔 12 Pro+ 搭载了行业首款 185Hz 全面屏 —— 行业首发 185Hz 高刷显示控制芯片 + 采用行业首款屏下 X11 发光材料 。 另外，红魔 12 Pro+ 手机的 屏幕边框缩窄至 0.96mm 。 IT之家从红魔游戏手机官方了解到，红魔 12 Pro+ 支持 35+ 款热门游戏原生 185Hz 超高刷，可实现主流游戏全档位满帧。
-- 作者：作者： 归泷
-- 发布时间：2026-10-13 23:27 CST
-- 链接：https://www.ithome.com/1/012/598.htm
 
 ## 雷峰网（leiphone，zh，本窗口共 10 条）
 
@@ -822,25 +746,25 @@
 - 发布时间：2026-10-13 20:00 CST
 - 链接：https://github.com/Alishahryar1/free-claude-code
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 148 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 129 条）
 
-### 1. ChatGPT and 18 = Chat18GPT
-- 摘要：Everyone is benchmarking Gemini 4 Meanwhile, I'm using Gemini to fix the SEO of my app and this post in HN is his idea for $0 marketing budget Google's AI is helping me convince Google Search that my website exists LOL https://chat18gpt.com
-- 作者：sabahlkhir
-- 发布时间：2026-10-14 02:54 CST
-- 链接：https://news.ycombinator.com/item?id=50076748
+### 1. Running Qwen3.8 at 255 tok/s on a single 5090
+- 摘要：Task-specialized open models built for your inference needs: DeepSeek and Qwen, taken through post-training, ternary and NVFP4 quantization and custom kernels, so they run fast on local RTX hardware.
+- 作者：Ir0n
+- 发布时间：2026-10-14 06:31 CST
+- 链接：https://meshapplied.com
 
-### 2. Kroger to lay off 3K corporate employees over 3 years as it leans into AI
-- 摘要：Grocery store chain Kroger says it will lay off 3,000 corporate employees over the next three years as it ramps up its use of artificial intelligence to streamline operations
-- 作者：theanonymousone
-- 发布时间：2026-10-14 02:15 CST
-- 链接：https://abcnews.com/Business/wireStory/kroger-lay-off-3000-corporate-employees-3-years-137228598
+### 2. AlphaNIST
+- 摘要：Learning dexterity and coordination for robotic assembly in simulation, with binary task rewards and no prescribed manipulation stages.
+- 作者：jasonjmcghee
+- 发布时间：2026-10-14 05:57 CST
+- 链接：https://alpha-nist.github.io/
 
-### 3. Linus Torvalds is using AI to develop Linux kernel code now
-- 摘要：The move is a turning point in the developer's relationship with AI and Linux.
-- 作者：CrankyBear
-- 发布时间：2026-10-14 02:00 CST
-- 链接：https://www.zdnet.com/innovation/linus-torvalds-uses-ai-to-write-linux-kernel-patch/
+### 3. Physical Intelligence API Beta: Frontier Models for Every Robot
+- 摘要：Our latest robotics models are now available through the Pi API beta. Upload data, fine-tune models, and deploy cloud-hosted inference on your own robots.
+- 作者：modeless
+- 发布时间：2026-10-14 05:55 CST
+- 链接：https://www.pi.website/blog/api-beta
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 10 条）
 
@@ -862,27 +786,25 @@
 - 发布时间：2026-10-13 10:17 CST
 - 链接：https://www.producthunt.com/products/harnesshive
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 25 条）
+## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 26 条）
 
-### 1. We're cooked
-- 摘要：I haven't coded in a year, AI is geting better and better.. I log in to work, do 30 mins of work aka prompting claude & reviewing it's code + meetings.. and I'm off to work on personal projects, wtf am I supposed to do? I've sacrified everything to become a good dev, should I go for a plumber licens...
-- 作者：BuddhistMonkey1
-- 发布时间：2026-10-13 23:25 CST
-- 链接：https://www.reddit.com/r/ClaudeAI/comments/1x4zm61/were_cooked/
+### 1. I plugged a local 2B decision model into Halo CE for split-screen co-op 😂
+- 摘要：So i got bored and asked GPT to plug Intern-Decision-2B into OpenCE. It gets the game state as text, player/NPC positions, health, ammo, etc and some raycast to help it detect obstacles and it then predicts actions that are translated into game input. I also added an in-game text box so I can prompt...
+- 作者：CurtisSawtooth
+- 发布时间：2026-10-14 06:56 CST
+- 链接：https://v.redd.it/muyar5zmdbvh1
 
-### 2. I released Mage-Flow W4A8 + ARA with TE INT 8 / 8.9 GB VRAM
-- 摘要：A 4-bit build of microsoft/Mage-Flow that runs on ComfyUI's native quantized kernels , plus a small accuracy recovery adapter (ARA) that brings the 4-bit model back toward the BF16 original. Optionally, an INT8 text encoder cuts another ~3.7 GB of VRAM. Repository: https://huggingface.co/SearchingMa...
-- 作者：ThaJedi
-- 发布时间：2026-10-13 23:13 CST
-- 链接：https://www.reddit.com/gallery/1x4zar9
+### 2. Someone is running Qwen 27B at ~20 tok/s on a jailbroken PS5's GPU
+- 作者：LatentSpacer
+- 发布时间：2026-10-14 06:21 CST
+- 链接：https://www.reddit.com/r/LocalLLM/comments/1x4y61f/qwen_27b_at_20_toks_on_a_jailbroken_ps5s_gpu_i/?share_id=_XzW1FCIrsDaWnHHtng_X&utm_content=share_button&utm_medium=web3x&utm_name=web3xcss&utm_source=share&utm_term=1
 
-### 3. Updated OBVPM Timeline Workflow v0.1.4-007
-- 摘要：New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. Below is a complete list of fixes and improvements. Get th...
-- 作者：obvpm
-- 发布时间：2026-10-13 23:05 CST
-- 链接：https://www.youtube.com/watch?v=k5GF5cu72ps
+### 3. Google's Gemini 4 Argon taught a humanoid robot to play cornhole from a single human video. It built its own physics simulator, trained the throws, and refined them on the real robot. Apollo then land...
+- 作者：141_1337
+- 发布时间：2026-10-14 05:00 CST
+- 链接：https://v.redd.it/9znrs4vqtavh1
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 358 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 266 条）
 
 ### 1. God moved
 - 摘要：I made this music video using Antrophic Claude Opus 5.5, Suno and OpenAI ChatGPT Sol 6.1. The theme is the spirit of God from genesis to revelation. The video is a sequence of irregularly spaced composited frames from ChatGPT imagen set to the beat of the music, lyrics and screenplay written by Clau...
@@ -902,7 +824,7 @@
 - 发布时间：2026-10-14 03:19 CST
 - 链接：https://www.reddit.com/r/ClaudeAI/comments/1x55zxj/made_it_to_interview_for_claude_corps/
 
-## 智源社区（baai-hub，zh，本窗口共 18 条）
+## 智源社区（baai-hub，zh，本窗口共 17 条）
 
 ### 1. 9大赛道，23份企业真实考卷！上海具身智能大考广发英雄帖，邀千队共解题
 - 摘要：允中 发自 凹非寺 量子位 | 公众号QbitAI 机器人界的“劳模”评选，这就安排上了！ 那可不是在实验室里跑跑数据、做做后空翻，而要真刀真枪地下车间、进工厂、干真活。 就在今年 10月23日到25日 ，魔都上海， 国际具身智能技能大赛检阅赛 即将打响，比赛的口号很接地气： 劳动最光荣，选最能干活的机器劳模。 大赛基于工信部面向全国征集的千余条具身智能应用场景数据，设置了 生产制造、检测分析、维修维护、仓储物流、餐饮零售、医疗康养、安全生产、应急救援、文旅宣教 9大赛道，共23个赛项，计划吸引 千余支队伍 同场比拼。 既然是选“机器劳模”，考核标准必须得硬核： “三真”硬指标 ：真实场景当赛...
@@ -923,7 +845,7 @@
 - 链接：https://hub.baai.ac.cn/view/58642
 
 ---
-共列出 138 条（窗口内采集总数 1120 条，来自 56 个信源）
+共列出 126 条（窗口内采集总数 978 条，来自 53 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
