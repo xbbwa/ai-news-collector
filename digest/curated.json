@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-12T23:08:15.627006+00:00",
+ "generated_at": "2026-10-13T03:43:20.847305+00:00",
  "stats": {
-  "items": 1519,
-  "clusters": 1253,
-  "noise": 416,
-  "dup": 106,
+  "items": 1629,
+  "clusters": 1308,
+  "noise": 443,
+  "dup": 104,
   "history_days": 0,
-  "available_cn": 123,
-  "available_intl": 608,
+  "available_cn": 149,
+  "available_intl": 612,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,28 @@
  "items": [
   {
    "rank": 1,
+   "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.cnbc.com/2026/10/12/tiktok-ceo-bytedance-ai-scientific-breakthroughs.html",
+   "score": 12.5,
+   "sources": [
+    "cnbc-tech",
+    "ithome",
+    "tmtpost",
+    "36kr-ai"
+   ],
+   "titles": [
+    "TikTok CEO sees major scientific breakthroughs from AI within three years",
+    "TikTok CEO 周受资：市场对 AI 短期发展的能力可能有所高估，却低估其长期影响",
+    "TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么",
+    "TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么"
+   ],
+   "published_at": "2026-10-12T04:24:33.000000+00:00",
+   "summary": "Chew cautioned that AI's growing capabilities would require stronger safeguards, particularly as autonomous systems become more widely adopted."
+  },
+  {
+   "rank": 2,
    "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
    "lang": "en",
    "region": "intl",
@@ -33,7 +55,7 @@
    "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, d..."
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "Tabular Foundation Models Are Effectively Shallow",
    "lang": "en",
    "region": "intl",
@@ -51,7 +73,7 @@
    "summary": "arXiv:2610.13253v1 Announce Type: cross Abstract: In-context-learning Tabular Foundation Models (TFMs) are uniquely suited to scenarios with limited resources or privacy constraints, as they solve new tasks without addit..."
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "ReplaySSM: Cache SSM Inputs, Not State",
    "lang": "en",
    "region": "intl",
@@ -69,7 +91,7 @@
    "summary": "arXiv:2610.13778v1 Announce Type: cross Abstract: State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state manageme..."
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Preference-Conditioned Multi-Objective Reinforcement Learning for Tactical Decision Making in Heavy-Duty Vehicles",
    "lang": "en",
    "region": "intl",
@@ -87,7 +109,7 @@
    "summary": "arXiv:2601.18783v3 Announce Type: replace-cross Abstract: A central difficulty in applying reinforcement learning to real-world applications such as autonomous driving is that conventional scalar reward formulations obta..."
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Simulating student learning for better AI tutoring",
    "lang": "en",
    "region": "intl",
@@ -105,43 +127,7 @@
    "summary": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI..."
   },
   {
-   "rank": 6,
-   "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.cnbc.com/2026/10/12/tiktok-ceo-bytedance-ai-scientific-breakthroughs.html",
-   "score": 5.5,
-   "sources": [
-    "cnbc-tech",
-    "ithome"
-   ],
-   "titles": [
-    "TikTok CEO sees major scientific breakthroughs from AI within three years",
-    "TikTok CEO 周受资：市场对 AI 短期发展的能力可能有所高估，却低估其长期影响"
-   ],
-   "published_at": "2026-10-12T04:24:33.000000+00:00",
-   "summary": "Chew cautioned that AI's growing capabilities would require stronger safeguards, particularly as autonomous systems become more widely adopted."
-  },
-  {
    "rank": 7,
-   "title": "The gap in shared understanding of LLM capability is widening",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://twitter.com/karpathy/status/2109361546505966046",
-   "score": 5.26,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "The gap in shared understanding of LLM capability is widening",
-    "[Karpathy] gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel"
-   ],
-   "published_at": "2026-10-11T20:20:52.000000+00:00",
-   "summary": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere a..."
-  },
-  {
-   "rank": 8,
    "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
    "lang": "en",
    "region": "intl",
@@ -155,6 +141,24 @@
    ],
    "published_at": "2026-10-12T17:37:27.000000+00:00",
    "summary": "text-generation, Model Optimizer, safetensors, qwen3, nvidia, ModelOpt, Nemotron-3.5-Lightning, latent-moe, mtp, DSpark, arxiv:2607.05147, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:quantize..."
+  },
+  {
+   "rank": 8,
+   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+   "score": 5.03,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+    "Intel \"Crescent Island\" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X"
+   ],
+   "published_at": "2026-10-12T21:35:35.000000+00:00",
+   "summary": "Intel GPU D270 is an inference-optimized data center GPU built for agentic AI, long contexts, and high-concurrency serving at practical power and cost."
   },
   {
    "rank": 9,
@@ -190,38 +194,6 @@
   },
   {
    "rank": 11,
-   "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide"
-   ],
-   "published_at": "2026-10-12T15:00:25.000000+00:00",
-   "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open..."
-  },
-  {
-   "rank": 12,
-   "title": "How Flo Health built safer, more useful open models with Databricks AI Runtime",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
-   "score": 3.5,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "How Flo Health built safer, more useful open models with Databricks AI Runtime"
-   ],
-   "published_at": "2026-10-12T15:13:04.000000+00:00",
-   "summary": "For Flo Health, the bar for generative AI is unusually high. With 81 million monthly..."
-  },
-  {
-   "rank": 13,
    "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
    "lang": "en",
    "region": "intl",
@@ -237,7 +209,7 @@
    "summary": "This post shows how to deploy one large language model (LLM) across two GPU nodes on Amazon Elastic Kubernetes Service (Amazon EKS) with the multi-node Ray LLM Deep Learning Containers . It uses separate prefill and deco..."
   },
   {
-   "rank": 14,
+   "rank": 12,
    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
    "lang": "en",
    "region": "intl",
@@ -253,108 +225,147 @@
    "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit..."
   },
   {
+   "rank": 13,
+   "title": "Can we change an AI model’s architecture without retraining it from scratch?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+   "score": 3.5,
+   "sources": [
+    "amazon-science"
+   ],
+   "titles": [
+    "Can we change an AI model’s architecture without retraining it from scratch?"
+   ],
+   "published_at": "2026-10-12T17:36:18.000000+00:00",
+   "summary": "AI agents are rapidly scaling: longer sessions, deeper reasoning chains, more autonomy. But the Transformer architecture underneath them still pays a memory tax that grows with the number of tokens it processes. As agent..."
+  },
+  {
+   "rank": 14,
+   "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+   "score": 3.5,
+   "sources": [
+    "meta-engineering"
+   ],
+   "titles": [
+    "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks"
+   ],
+   "published_at": "2026-10-12T21:19:18.000000+00:00",
+   "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flat..."
+  },
+  {
    "rank": 15,
+   "title": "具身智能下一轮洗牌：大脑终局不超5家，谁的百亿估值站得住？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4896758.html",
+   "score": 10.0,
+   "sources": [
+    "huxiu",
+    "tmtpost",
+    "36kr-ai"
+   ],
+   "titles": [
+    "具身智能下一轮洗牌：大脑终局不超5家，谁的百亿估值站得住？",
+    "电网设备掀涨停潮，金冠电气20cm涨停只是前菜，5万亿投资落地，真正的金矿在海外",
+    "类脑计算再升温：Flourish获5亿美元融资，用脑科学押注下一代AI范式"
+   ],
+   "published_at": "2026-10-12T05:07:02.000000+00:00",
+   "summary": "如果给你100亿元，投资具身智能产业链，你会怎么分？刘爽的答案很明确：60亿元投大脑，30亿元投零部件，10亿元投应用。他坚持认为，未来真正头部的具身大脑公司，可能不超过5家。刘爽作为董事长经营的天创机器人，长期深耕电力、石化等工业场景。公司并没有选择从零训练通用基础模型，而是希望把已有的工业数据、场景和交付...... 「一手判断」栏目，是虎嗅访谈 AI 从业者，给出的一线独家见解，首发于小程序“虎嗅嗅”的“AI 100” 本期受访者..."
+  },
+  {
+   "rank": 16,
+   "title": "千问升级个人AI助理，推出Personal Agent“千问Go！”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/4023677582708611",
+   "score": 7.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "千问升级个人AI助理，推出Personal Agent“千问Go！”",
+    "阿里千问升级个人 AI 助理，Personal Agent“千问 Go！”即将发布"
+   ],
+   "published_at": "2026-10-13T02:16:29.000000+00:00",
+   "summary": "36氪获悉，千问Personal Agent“千问Go！”即将发布。据了解，升级后的千问极大拓展了个人助理的办事范围和能力，需要时，千问可自主查询操作各类授权平台，比较方案、电话联系服务方，完成目标任务。"
+  },
+  {
+   "rank": 17,
+   "title": "“大模型时代的谷歌，可能永远不会出现”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4023535000178560",
+   "score": 6.0,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "“大模型时代的谷歌，可能永远不会出现”",
+    "“大模型时代的谷歌，可能永远不会出现”"
+   ],
+   "published_at": "2026-10-13T01:47:02.000000+00:00",
+   "summary": "今年9月最后一周，投资了OpenAI和Anthropic的彼得·蒂尔，在柏林领取 Axel Springer Award，并与马蒂亚斯·德普夫纳做了一场对谈。 他用自己《从零到一》的互联网时代垄断理论，审视今天的模型公司，做出了一个相当逆向的判断： 模型时代的谷歌，那种可以获取垄断价值的公司，在AI时代，可能永远都不会出现。 互联网时代的价值获取规律：网络效应，赢家通吃 如果我们把模型时代和互联网时代对照来看： 互联网刚起来时，很多人以..."
+  },
+  {
+   "rank": 18,
+   "title": "王兴兴最新预判：具身智能的转折点，一到两年内就会来",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4023570140829573",
+   "score": 6.0,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "王兴兴最新预判：具身智能的转折点，一到两年内就会来",
+    "王兴兴最新预判：具身智能的转折点，一到两年内就会来"
+   ],
+   "published_at": "2026-10-13T02:05:34.000000+00:00",
+   "summary": "10月12日，中国国际工业博览会开幕式上，宇树科技创始人王兴兴谈及具身智能的技术拐点时，给了一个比以往更激进的判断：“快的话甚至一两年内就有可能，因为明年GPT-7出来，可能直接把具身智能问题打穿。” 这不是他第一次给出时间表。2025年8月，世界机器人大会，他说“顺利的话一两年或两三年”。今年8月，他改口为“快则两到三年，慢则五到十年”。到了10月，变成“一两年”。 每次有新模型发布，他的时间表就往前拨一次。 GPT-6让宇树测出了什..."
+  },
+  {
+   "rank": 19,
+   "title": "MiniMax首家官方旗舰店落地天猫",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/4023685972480135",
+   "score": 6.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "MiniMax首家官方旗舰店落地天猫",
+    "MiniMax 入驻天猫开设其首家官方旗舰店，开卖 Token 套餐"
+   ],
+   "published_at": "2026-10-13T02:25:02.000000+00:00",
+   "summary": "36氪获悉，国产大模型厂商MiniMax正式入驻天猫，开设其首家品牌官方旗舰店。目前，店铺已经上架的M Plan订阅套餐，包括Go、Explore、Build三档套餐，支持按月、按年购买。"
+  },
+  {
+   "rank": 20,
    "title": "微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/012/115.htm",
-   "score": 6.24,
+   "score": 5.74,
    "sources": [
     "ithome",
     "hackernews-ai"
    ],
    "titles": [
     "微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s",
+    "微软推出 Maia 300 自研 AI 芯片，明年拟部署超百万颗以降低算力成本",
     "Deep dive into Azure Maia 300 architecture"
    ],
    "published_at": "2026-10-12T14:45:30+00:00",
    "summary": "IT之家 10 月 12 日消息，微软今天正式发布 Maia 300 人工智能芯片。这款产品配备 288GB HBM4 内存，带宽达到 18TB/s，FP4 算力可达 13.8 PFLOPS，基于台积电 N2P 制程工艺打造，计划 2027 年部署。 IT之家注意到，Maia 300 采用多芯粒设计， 主要计算部分采用台积电 N2P 2 纳米制程 ，集成独立内存芯粒和 I/O 芯粒。 FP4 算力最高可达 13.8 PFLOPS ，FP..."
-  },
-  {
-   "rank": 16,
-   "title": "inclusionAI/Ling-3.0-flash",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
-   "score": 5.5,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "inclusionAI/Ling-3.0-flash"
-   ],
-   "published_at": "2026-10-12T11:46:10.000000+00:00",
-   "summary": "text-generation, safetensors, bailing_hybrid, conversational, custom_code, license:mit, eval-results, region:us"
-  },
-  {
-   "rank": 17,
-   "title": "zai-org/GLM-5.3-Flash",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-   "score": 5.5,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "zai-org/GLM-5.3-Flash"
-   ],
-   "published_at": "2026-10-12T12:59:41.000000+00:00",
-   "summary": "image-text-to-text, transformers, safetensors, glm5_next, conversational, en, zh, arxiv:2602.15763, license:mit, eval-results, endpoints_compatible, fp8, deploy:azure, region:us"
-  },
-  {
-   "rank": 18,
-   "title": "AI FOMO，正让企业和员工都成为“演员”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896658.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "AI FOMO，正让企业和员工都成为“演员”",
-    "AI FOMO，正让企业和员工都成为“演员”"
-   ],
-   "published_at": "2026-10-11T23:36:57.000000+00:00",
-   "summary": "AI FOMO下，全球劳动者的生存与表演。AI FOMO（Fear of Missing Out）已不是一个新名词，甚至已经很少人在提FOMO这件事。当AI的潮水漫到了人类劳动者的脖子，在大逃杀中幸存是比焦虑和呼喊更重要的事。至少在宏观层面，事情就是这样的，从裁员数据便可见一斑。致力于追踪全球科技公司裁员数据...... 本文来自微信公众号： 刺猬公社 ，作者：刺猬公社编辑部 AI FOMO下，全球劳动者的生存与表演。 AI FOMO（..."
-  },
-  {
-   "rank": 19,
-   "title": "反对Agent，反对RSI，杨立昆新模型反对当下一切AI叙事",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896763.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "反对Agent，反对RSI，杨立昆新模型反对当下一切AI叙事",
-    "反对Agent，反对RSI，杨立昆新模型反对当下一切AI叙事"
-   ],
-   "published_at": "2026-10-12T04:23:26.000000+00:00",
-   "summary": "《复仇者联盟：终局之战》里有这样一幕，美国队长跟神盾局特工们在电梯里小声地说了一句“九头蛇万岁”。仅仅是这样一句话，伪装成神盾局特工的九头蛇成员就把镶嵌心灵宝石的权杖交给了美国队长。这还没完，正是由于九头蛇成员把美国队长当成了自己人，这才让同一时间钢铁侠等人偷走空间宝石的计划没有暴露。最终，复仇者们成功消灭灭...... 本文来自微信公众号： 字母AI ，作者：苗正 《复仇者联盟：终局之战》里有这样一幕，美国队长跟神盾局特工们在电梯里小..."
-  },
-  {
-   "rank": 20,
-   "title": "AI 办公大战，盯上了企业的人力预算",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4896769.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "AI 办公大战，盯上了企业的人力预算",
-    "AI 办公大战，盯上了企业的人力预算"
-   ],
-   "published_at": "2026-10-12T05:00:38.000000+00:00",
-   "summary": "去年，Shopify CEO Tobi Lütke给公司定了一条规矩：团队想增加人手，得先说明为什么不能用AI完成相关工作。这条要求当时引发了不少讨论。有人觉得这是科技公司拥抱AI的正常操作，也有人担心，它会成为企业减少招聘的理由。但比起那些关于AI取代人类的预测，这项具体的管理要求反而更值得琢磨。它没有说员...... 本文来自微信公众号： 奇点外 ，作者：wiwi 去年，Shopify CEO Tobi Lütke给公司定了一条规矩..."
   }
  ]
 }
