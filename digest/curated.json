@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-13T03:43:20.847305+00:00",
+ "generated_at": "2026-10-13T12:01:31.993111+00:00",
  "stats": {
-  "items": 1629,
-  "clusters": 1308,
-  "noise": 443,
-  "dup": 104,
+  "items": 1083,
+  "clusters": 762,
+  "noise": 460,
+  "dup": 39,
   "history_days": 0,
-  "available_cn": 149,
-  "available_intl": 612,
+  "available_cn": 165,
+  "available_intl": 98,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,105 +16,29 @@
  "items": [
   {
    "rank": 1,
-   "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
+   "title": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.cnbc.com/2026/10/12/tiktok-ceo-bytedance-ai-scientific-breakthroughs.html",
-   "score": 12.5,
+   "url": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
+   "score": 6.0,
    "sources": [
-    "cnbc-tech",
-    "ithome",
-    "tmtpost",
-    "36kr-ai"
+    "ft-tech",
+    "guardian-ai"
    ],
    "titles": [
-    "TikTok CEO sees major scientific breakthroughs from AI within three years",
-    "TikTok CEO 周受资：市场对 AI 短期发展的能力可能有所高估，却低估其长期影响",
-    "TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么",
-    "TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么"
+    "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
+    "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’"
    ],
-   "published_at": "2026-10-12T04:24:33.000000+00:00",
-   "summary": "Chew cautioned that AI's growing capabilities would require stronger safeguards, particularly as autonomous systems become more widely adopted."
+   "published_at": "2026-10-13T03:40:21.000000+00:00",
+   "summary": "Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investment"
   },
   {
    "rank": 2,
-   "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
-   "score": 7.5,
-   "sources": [
-    "apple-ml",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
-    "Agentic Large Language Models"
-   ],
-   "published_at": "2026-10-12T00:00:00.000000+00:00",
-   "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, d..."
-  },
-  {
-   "rank": 3,
-   "title": "Tabular Foundation Models Are Effectively Shallow",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.13253",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Tabular Foundation Models Are Effectively Shallow",
-    "GIST: Generator-state-Informed Supervision for Tabular Foundation Models"
-   ],
-   "published_at": "2026-10-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.13253v1 Announce Type: cross Abstract: In-context-learning Tabular Foundation Models (TFMs) are uniquely suited to scenarios with limited resources or privacy constraints, as they solve new tasks without addit..."
-  },
-  {
-   "rank": 4,
-   "title": "ReplaySSM: Cache SSM Inputs, Not State",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.13778",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-ai",
-    "nvidia-developer"
-   ],
-   "titles": [
-    "ReplaySSM: Cache SSM Inputs, Not State",
-    "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding"
-   ],
-   "published_at": "2026-10-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.13778v1 Announce Type: cross Abstract: State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state manageme..."
-  },
-  {
-   "rank": 5,
-   "title": "Preference-Conditioned Multi-Objective Reinforcement Learning for Tactical Decision Making in Heavy-Duty Vehicles",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2601.18783",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-ai",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Preference-Conditioned Multi-Objective Reinforcement Learning for Tactical Decision Making in Heavy-Duty Vehicles",
-    "MORAD: Reinforcement Learning with Multi-Objective Rewards for RNA Inverse Design"
-   ],
-   "published_at": "2026-10-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2601.18783v3 Announce Type: replace-cross Abstract: A central difficulty in applying reinforcement learning to real-world applications such as autonomous driving is that conventional scalar reward formulations obta..."
-  },
-  {
-   "rank": 6,
    "title": "Simulating student learning for better AI tutoring",
    "lang": "en",
    "region": "intl",
    "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "microsoft-research",
     "baai-hub"
@@ -127,41 +51,7 @@
    "summary": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI..."
   },
   {
-   "rank": 7,
-   "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-   "score": 5.07,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark"
-   ],
-   "published_at": "2026-10-12T17:37:27.000000+00:00",
-   "summary": "text-generation, Model Optimizer, safetensors, qwen3, nvidia, ModelOpt, Nemotron-3.5-Lightning, latent-moe, mtp, DSpark, arxiv:2607.05147, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:quantize..."
-  },
-  {
-   "rank": 8,
-   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-   "score": 5.03,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-    "Intel \"Crescent Island\" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X"
-   ],
-   "published_at": "2026-10-12T21:35:35.000000+00:00",
-   "summary": "Intel GPU D270 is an inference-optimized data center GPU built for agentic AI, long contexts, and high-concurrency serving at practical power and cost."
-  },
-  {
-   "rank": 9,
+   "rank": 3,
    "title": "nvidia/Kumo-Tabular",
    "lang": "en",
    "region": "intl",
@@ -177,28 +67,175 @@
    "summary": "kumo_tabular, tabular-foundation-model, structured-data-models, license:openmdw-1.1, region:us"
   },
   {
-   "rank": 10,
-   "title": "SEEDS: Preview-Guided Evidence Admission for Search Agents",
+   "rank": 4,
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.12932",
-   "score": 4.0,
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
+   "score": 4.57,
    "sources": [
-    "arxiv-cs-cl"
+    "hf-models-intl"
    ],
    "titles": [
-    "SEEDS: Preview-Guided Evidence Admission for Search Agents"
+    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark"
    ],
-   "published_at": "2026-10-12T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.12932v1 Announce Type: new Abstract: Search agents extend large reasoning models with multi-round access to external knowledge, yet most existing systems largely conflate retrieving evidence with consuming it...."
+   "published_at": "2026-10-12T17:37:27.000000+00:00",
+   "summary": "text-generation, Model Optimizer, safetensors, qwen3, nvidia, ModelOpt, Nemotron-3.5-Lightning, latent-moe, mtp, DSpark, arxiv:2607.05147, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16, base_model:quantize..."
+  },
+  {
+   "rank": 5,
+   "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+   "score": 4.53,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+    "Intel \"Crescent Island\" GPU Gets D-Series Name, Supports Up to 480 GB of LPDDR5X"
+   ],
+   "published_at": "2026-10-12T21:35:35.000000+00:00",
+   "summary": "Intel GPU D270 is an inference-optimized data center GPU built for agentic AI, long contexts, and high-concurrency serving at practical power and cost."
+  },
+  {
+   "rank": 6,
+   "title": "Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-13/alibaba-unveils-450-ai-glasses-in-expanding-push-into-gadgets",
+   "score": 3.5,
+   "sources": [
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Alibaba Unveils $450 AI Glasses in Expanding Push Into Gadgets"
+   ],
+   "published_at": "2026-10-13T09:00:46.000000+00:00",
+   "summary": "Alibaba Group Holding Ltd. on Tuesday unveiled the new generation of its smart glasses, deepening its foray into consumer electronics as an extension of its artificial intelligence strategy."
+  },
+  {
+   "rank": 7,
+   "title": "11 year old unsoundness bugs found in Rust borrow checker",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://github.com/rust-lang/rust/issues/164250",
+   "score": 3.06,
+   "sources": [
+    "hackernews-ai"
+   ],
+   "titles": [
+    "11 year old unsoundness bugs found in Rust borrow checker"
+   ],
+   "published_at": "2026-10-13T10:27:00.000000+00:00",
+   "summary": "In the following code: use std::sync::Mutex; static KEPT: Mutex<Vec<Box<dyn std::any::Any + Send>>> = Mutex::new(Vec::new()); struct Q<T: 'static + Send>(Option<T>); impl<T: 'static + Send> Drop fo..."
+  },
+  {
+   "rank": 8,
+   "title": "ThinkDrag: Semantic Drag-Based Image Editing with Visual Reasoning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.13316",
+   "score": 3.0,
+   "sources": [
+    "hf-daily-papers"
+   ],
+   "titles": [
+    "ThinkDrag: Semantic Drag-Based Image Editing with Visual Reasoning"
+   ],
+   "published_at": "2026-10-08T20:00:00.000000+00:00",
+   "summary": "Drag-based image editing provides an intuitive interface for spatially controlled image manipulation by allowing users to specify handle and target points. Existing methods have made substantial progress through optimiza..."
+  },
+  {
+   "rank": 9,
+   "title": "From post-training to production: How TinyFish runs its web-native model on Databricks AI Runtime",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "From post-training to production: How TinyFish runs its web-native model on Databricks AI Runtime"
+   ],
+   "published_at": "2026-10-09T16:32:01.000000+00:00",
+   "summary": "TinyFish builds infrastructure for enterprises that need agents to work across the live web. Its Search, Fetch, Browser..."
+  },
+  {
+   "rank": 10,
+   "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged"
+   ],
+   "published_at": "2026-10-12T00:00:00.000000+00:00",
+   "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, d..."
   },
   {
    "rank": 11,
+   "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+   "score": 3.0,
+   "sources": [
+    "apple-ml"
+   ],
+   "titles": [
+    "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices"
+   ],
+   "published_at": "2026-10-12T00:00:00.000000+00:00",
+   "summary": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited elasticity, and long wait times under resource constraints. At..."
+  },
+  {
+   "rank": 12,
+   "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "score": 3.0,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA"
+   ],
+   "published_at": "2026-10-12T15:00:25.000000+00:00",
+   "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open..."
+  },
+  {
+   "rank": 13,
+   "title": "How Flo Health built safer, more useful open models with Databricks AI Runtime",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "How Flo Health built safer, more useful open models with Databricks AI Runtime"
+   ],
+   "published_at": "2026-10-12T15:13:04.000000+00:00",
+   "summary": "For Flo Health, the bar for generative AI is unusually high. With 81 million monthly..."
+  },
+  {
+   "rank": 14,
    "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
    "lang": "en",
    "region": "intl",
    "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
-   "score": 3.5,
+   "score": 3.0,
    "sources": [
     "aws-ml-blog"
    ],
@@ -209,75 +246,45 @@
    "summary": "This post shows how to deploy one large language model (LLM) across two GPU nodes on Amazon Elastic Kubernetes Service (Amazon EKS) with the multi-node Ray LLM Deep Learning Containers . It uses separate prefill and deco..."
   },
   {
-   "rank": 12,
-   "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
-   "score": 3.5,
-   "sources": [
-    "meta-engineering"
-   ],
-   "titles": [
-    "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations"
-   ],
-   "published_at": "2026-10-12T16:00:50.000000+00:00",
-   "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit..."
-  },
-  {
-   "rank": 13,
-   "title": "Can we change an AI model’s architecture without retraining it from scratch?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
-   "score": 3.5,
-   "sources": [
-    "amazon-science"
-   ],
-   "titles": [
-    "Can we change an AI model’s architecture without retraining it from scratch?"
-   ],
-   "published_at": "2026-10-12T17:36:18.000000+00:00",
-   "summary": "AI agents are rapidly scaling: longer sessions, deeper reasoning chains, more autonomy. But the Transformer architecture underneath them still pays a memory tax that grows with the number of tokens it processes. As agent..."
-  },
-  {
-   "rank": 14,
-   "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-   "score": 3.5,
-   "sources": [
-    "meta-engineering"
-   ],
-   "titles": [
-    "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks"
-   ],
-   "published_at": "2026-10-12T21:19:18.000000+00:00",
-   "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flat..."
-  },
-  {
    "rank": 15,
-   "title": "具身智能下一轮洗牌：大脑终局不超5家，谁的百亿估值站得住？",
+   "title": "字节跳动Seed单独设立大模型安全与对齐部门",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.huxiu.com/article/4896758.html",
-   "score": 10.0,
+   "url": "https://www.36kr.com/newsflashes/4023757995495302",
+   "score": 9.5,
    "sources": [
-    "huxiu",
+    "36kr-newsflash",
+    "ithome",
+    "leiphone"
+   ],
+   "titles": [
+    "字节跳动Seed单独设立大模型安全与对齐部门",
+    "国内首家，字节 Seed 设立单独的大模型安全与对齐部门",
+    "字节跳动 Seed 单独设立大模型安全与对齐部门"
+   ],
+   "published_at": "2026-10-13T03:38:17.000000+00:00",
+   "summary": "字节跳动Seed近日发出内部邮件，宣布将成立“Seed Model-Alignment&Preparedness”部门，由严林负责，汇报给Seed负责人吴永辉。原Responsible AI团队及部分Chat团队成员将转入新部门。该部门的设立旨在加强安全与对齐方向的投入，对齐的核心是让模型的行为与人类意图和安全约束保持一致，从而提升Agent Model（智能体模型）安全能力，以及防范CBRN（化学、生物、放射、核）等前沿能力风险。（财..."
+  },
+  {
+   "rank": 16,
+   "title": "电网设备掀涨停潮，金冠电气20cm涨停只是前菜，5万亿投资落地，真正的金矿在海外",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.tmtpost.com/8166021.html",
+   "score": 7.0,
+   "sources": [
     "tmtpost",
     "36kr-ai"
    ],
    "titles": [
-    "具身智能下一轮洗牌：大脑终局不超5家，谁的百亿估值站得住？",
     "电网设备掀涨停潮，金冠电气20cm涨停只是前菜，5万亿投资落地，真正的金矿在海外",
     "类脑计算再升温：Flourish获5亿美元融资，用脑科学押注下一代AI范式"
    ],
-   "published_at": "2026-10-12T05:07:02.000000+00:00",
-   "summary": "如果给你100亿元，投资具身智能产业链，你会怎么分？刘爽的答案很明确：60亿元投大脑，30亿元投零部件，10亿元投应用。他坚持认为，未来真正头部的具身大脑公司，可能不超过5家。刘爽作为董事长经营的天创机器人，长期深耕电力、石化等工业场景。公司并没有选择从零训练通用基础模型，而是希望把已有的工业数据、场景和交付...... 「一手判断」栏目，是虎嗅访谈 AI 从业者，给出的一线独家见解，首发于小程序“虎嗅嗅”的“AI 100” 本期受访者..."
+   "published_at": "2026-10-13T02:07:00+00:00",
+   "summary": "文 | 预见能源 预见能源(www.yjny2030.com)获悉，10月12日，A股电网设备板块集体上扬。金冠电气开盘后迅速封上20cm涨停，全天成交额4.71亿元，换手率超过16%，远程股份、众业达、长城电工同步直线涨停。 引爆点来自发改委主任郑栅洁10月10日在民营企业座谈会的表态，进一步点燃了此前“十五五”时期新型电网投资预计超过5万亿元，到2030年初步建成新型电网，支撑28亿千瓦以上新能源消纳需求的消息。 这个消息意味着什么..."
   },
   {
-   "rank": 16,
+   "rank": 17,
    "title": "千问升级个人AI助理，推出Personal Agent“千问Go！”",
    "lang": "zh",
    "region": "cn",
@@ -295,77 +302,58 @@
    "summary": "36氪获悉，千问Personal Agent“千问Go！”即将发布。据了解，升级后的千问极大拓展了个人助理的办事范围和能力，需要时，千问可自主查询操作各类授权平台，比较方案、电话联系服务方，完成目标任务。"
   },
   {
-   "rank": 17,
-   "title": "“大模型时代的谷歌，可能永远不会出现”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4023535000178560",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "“大模型时代的谷歌，可能永远不会出现”",
-    "“大模型时代的谷歌，可能永远不会出现”"
-   ],
-   "published_at": "2026-10-13T01:47:02.000000+00:00",
-   "summary": "今年9月最后一周，投资了OpenAI和Anthropic的彼得·蒂尔，在柏林领取 Axel Springer Award，并与马蒂亚斯·德普夫纳做了一场对谈。 他用自己《从零到一》的互联网时代垄断理论，审视今天的模型公司，做出了一个相当逆向的判断： 模型时代的谷歌，那种可以获取垄断价值的公司，在AI时代，可能永远都不会出现。 互联网时代的价值获取规律：网络效应，赢家通吃 如果我们把模型时代和互联网时代对照来看： 互联网刚起来时，很多人以..."
-  },
-  {
    "rank": 18,
-   "title": "王兴兴最新预判：具身智能的转折点，一到两年内就会来",
+   "title": "0.6B起！Jev对手模型来了，开源多模态，登上全球测评榜一",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4023570140829573",
-   "score": 6.0,
+   "url": "https://zhidx.com/p/600073.html",
+   "score": 6.5,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "zhidx",
+    "36kr-ai"
    ],
    "titles": [
-    "王兴兴最新预判：具身智能的转折点，一到两年内就会来",
-    "王兴兴最新预判：具身智能的转折点，一到两年内就会来"
+    "0.6B起！Jev对手模型来了，开源多模态，登上全球测评榜一",
+    "0.6B起，Jev对手模型来了，开源多模态，登上全球测评榜一"
    ],
-   "published_at": "2026-10-13T02:05:34.000000+00:00",
-   "summary": "10月12日，中国国际工业博览会开幕式上，宇树科技创始人王兴兴谈及具身智能的技术拐点时，给了一个比以往更激进的判断：“快的话甚至一两年内就有可能，因为明年GPT-7出来，可能直接把具身智能问题打穿。” 这不是他第一次给出时间表。2025年8月，世界机器人大会，他说“顺利的话一两年或两三年”。今年8月，他改口为“快则两到三年，慢则五到十年”。到了10月，变成“一两年”。 每次有新模型发布，他的时间表就往前拨一次。 GPT-6让宇树测出了什..."
+   "published_at": "2026-10-12T11:15:17+00:00",
+   "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西10月12日消息，昨天，vLLM社区孵化的开源AI基础设施项目vLLM Semantic Router推出并开源 多模态 决策模型 Decision 3.0系列 。该系列模型能够根据输入内容完成 分类、选择、是非判断和评分 等任务，直接返回判断结果和概率， 不生成长篇文本 。 ▲vLLM Semantic Router推出并开源Decision 3.0（图源：X） 这类不生成长文本，专门..."
   },
   {
    "rank": 19,
-   "title": "MiniMax首家官方旗舰店落地天猫",
+   "title": "DeepSeek拟领投前腾讯科学家创办的机器人AI初创公司，估值约4亿美元",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/4023685972480135",
-   "score": 6.0,
+   "url": "https://www.36kr.com/newsflashes/4022866569023362",
+   "score": 6.5,
    "sources": [
     "36kr-newsflash",
     "ithome"
    ],
    "titles": [
-    "MiniMax首家官方旗舰店落地天猫",
-    "MiniMax 入驻天猫开设其首家官方旗舰店，开卖 Token 套餐"
+    "DeepSeek拟领投前腾讯科学家创办的机器人AI初创公司，估值约4亿美元",
+    "消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元"
    ],
-   "published_at": "2026-10-13T02:25:02.000000+00:00",
-   "summary": "36氪获悉，国产大模型厂商MiniMax正式入驻天猫，开设其首家品牌官方旗舰店。目前，店铺已经上架的M Plan订阅套餐，包括Go、Explore、Build三档套餐，支持按月、按年购买。"
+   "published_at": "2026-10-12T12:58:12.000000+00:00",
+   "summary": "DeepSeek计划领投一家成立仅数月、致力于开发机器人AI的初创公司的首轮融资，动用其自身逾120亿美元融资所得资金，押注科技行业增长最快的领域之一。据知情人士透露，这家总部位于杭州的AI研究机构已同意牵头参与Winverse AI规模达数千万美元的种子轮融资。知情人士称，这家尚未公开亮相的初创公司由前腾讯科学家创办，还获得了包括美团旗下Long-Z Investments在内的其他投资者出资承诺，投后估值约为4亿美元。知情人士表示，..."
   },
   {
    "rank": 20,
-   "title": "微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s",
+   "title": "SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/012/115.htm",
-   "score": 5.74,
+   "url": "https://www.ithome.com/1/012/487.htm",
+   "score": 6.1,
    "sources": [
     "ithome",
     "hackernews-ai"
    ],
    "titles": [
-    "微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s",
-    "微软推出 Maia 300 自研 AI 芯片，明年拟部署超百万颗以降低算力成本",
-    "Deep dive into Azure Maia 300 architecture"
+    "SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员",
+    "SpaceXSI: Unified plans across Grok, Cursor, and X Premium"
    ],
-   "published_at": "2026-10-12T14:45:30+00:00",
-   "summary": "IT之家 10 月 12 日消息，微软今天正式发布 Maia 300 人工智能芯片。这款产品配备 288GB HBM4 内存，带宽达到 18TB/s，FP4 算力可达 13.8 PFLOPS，基于台积电 N2P 制程工艺打造，计划 2027 年部署。 IT之家注意到，Maia 300 采用多芯粒设计， 主要计算部分采用台积电 N2P 2 纳米制程 ，集成独立内存芯粒和 I/O 芯粒。 FP4 算力最高可达 13.8 PFLOPS ，FP..."
+   "published_at": "2026-10-13T09:32:28+00:00",
+   "summary": "IT之家 10 月 13 日消息，SpaceXSI 公司今天宣布推出全新订阅服务“X Subscription”， 将 Grok、Grok Bot、Cursor 和 X Premium 等多款产品会员整合到一个订阅体系 。 根据用户选择的订阅档位，X Subscription 将提供 Grok、Grok Bot、Cursor 和 X Premium 使用权限。 其中，个人 Plus 套餐定价 8 美元 （IT之家注：现汇率约合 53.6..."
   }
  ]
 }
