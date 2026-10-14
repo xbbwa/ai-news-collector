@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-14 07:23 CST
-数据窗口：最近 24 小时，974 条原始条目 → 665 个事件；过滤噪音 383 个，排除全部历史已推送的 35 个。
+生成时间：2026-10-14 10:03 CST
+数据窗口：最近 24 小时，1095 条原始条目 → 739 个事件；过滤噪音 444 个，排除全部历史已推送的 43 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,97 +8,96 @@
 
 国外：
 
-## 1. Apple launches HomeView, its first smart display for the home
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、Bloomberg Technology（2 个来源） ｜ 热度：7.0
-- 摘要：The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Apple's long-rumored smart display, the Apple HomeView, has ar...
-- 发布时间：2026-10-13 21:00 CST
-- 链接：https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look
-- 同事件报道：Apple Unveils HomeView Hub as Part of Smart Home Push（Bloomberg Technology）
-
-## 2. Redesigning source control at Anthropic
+## 1. Redesigning source control at Anthropic
 - 地区：国外源 ｜ 语言：en ｜ 来源：Anthropic Engineering、Simon Willison's Weblog（2 个来源） ｜ 热度：6.5
 - 摘要：At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up...
 - 发布时间：2026-10-13 00:00 CST
 - 链接：https://www.anthropic.com/engineering/redesigning-source-control
 - 同事件报道：Redesigning source control at Anthropic（Simon Willison's Weblog）
 
-## 3. OpenAI Says Staffer Arrested for Hidden Recording Device in Office
+## 2. OpenAI Says Staffer Arrested for Hidden Recording Device in Office
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、The Verge — AI（2 个来源） ｜ 热度：6.0
 - 摘要：An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar...
 - 发布时间：2026-10-14 04:13 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office
 - 同事件报道：OpenAI employee arrested for allegedly planting a bug in a conference room（The Verge — AI）
 
-## 4. facebook/UMA
+## 3. facebook/UMA
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：arxiv:2506.23971, license:other, region:us
 - 发布时间：2026-10-14 02:47 CST
 - 链接：https://huggingface.co/facebook/UMA
 
-## 5. allenai/Olmo-3.1-32B-Think
+## 4. allenai/Olmo-3.1-32B-Think
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
 - 摘要：text-generation, transformers, safetensors, olmo3, conversational, en, dataset:allenai/Dolci-Think-RL, arxiv:2512.13961, base_model:allenai/Olmo-3-32B-Think-DPO, base_model:finetune:allenai/Olmo-3-32B-Think-DPO, license:...
 - 发布时间：2026-10-14 05:06 CST
 - 链接：https://huggingface.co/allenai/Olmo-3.1-32B-Think
 
-## 6. Chip stocks slide in wake of ‘casino’ comment by Broadcom boss
+## 5. Chip stocks slide in wake of ‘casino’ comment by Broadcom boss
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、The Guardian — AI（2 个来源） ｜ 热度：5.5
 - 摘要：Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investment
 - 发布时间：2026-10-13 11:40 CST
 - 链接：https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1
 - 同事件报道：Chip stocks slide after Broadcom boss likens AI investing to ‘casino’（The Guardian — AI）
 
-## 7. They war-gamed dimming the Sun. It went even worse than you think.
+## 6. They war-gamed dimming the Sun. It went even worse than you think.
 - 地区：国外源 ｜ 语言：en ｜ 来源：Ars Technica — AI、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
 - 摘要：When it comes to deciding the fate of the planet, Colleen Golja always thought science and reason would have a seat at the table. That was until one morning last September in London, when the climate researcher took part...
 - 发布时间：2026-10-13 23:17 CST
 - 链接：https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/
 - 同事件报道：They War-Gamed Dimming the Sun. It Went Worse Than You Think（Hacker News (AI stories)）
 
-## 8. AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation
+## 7. AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation
 - 地区：国外源 ｜ 语言：en ｜ 来源：CNBC Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.05
 - 摘要：The company said the platform became "costly to develop and grow," in Monday filings to the Delaware District bankruptcy court.
 - 发布时间：2026-10-14 00:13 CST
 - 链接：https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html
 - 同事件报道：Getty Images is filing for Chapter 11 Bankruptcy（Hacker News (AI stories)）
 
-## 9. Janas: Run LLMs larger than RAM by streaming experts from SSD
+## 8. Janas: Run LLMs larger than RAM by streaming experts from SSD
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.1
 - 摘要：37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than y...
 - 发布时间：2026-10-13 06:05 CST
 - 链接：https://github.com/prabanta-dev/janas
 - 同事件报道：Mac mini for running LLMs and AI agents 24/7: Prioritize RAM or CPU/GPU performance?（Reddit AI subreddits (new)）
 
-## 10. The US is fighting over data centers. China is building them fast
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (hot)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.07
+## 9. The US is fighting over data centers. China is building them fast
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (hot)、Hacker News (AI stories)（2 个来源） ｜ 热度：3.57
 - 摘要：Beijing aims to use AI infrastructure to play to its advantages in the race for a technology that could define the 21st century.
 - 发布时间：2026-10-13 20:33 CST
 - 链接：https://www.cnn.com/2026/10/13/china/china-data-centers-ai-race-intl-hnk-dst
 - 同事件报道：China is building AI data centers at speed as the US wrestles with the costs（Hacker News (AI stories)）
 
-## 11. Higgsfield takes AI video from 1 minute to over 10
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
-- 发布时间：2026-10-13 20:00 CST
-- 链接：https://openai.com/index/higgsfield-longer-videos-voice
-
-## 12. Run fast, private agents on-device with LFM2.5-24B-A2B
+## 10. Run fast, private agents on-device with LFM2.5-24B-A2B
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
 - 摘要：A Blog post by Liquid AI on Hugging Face
 - 发布时间：2026-10-14 01:05 CST
 - 链接：https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
 
-## 13. Building agents that transact with Anchor Browser and AgentCore payments
+## 11. Building agents that transact with Anchor Browser and AgentCore payments
 - 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
 - 摘要：AI agents increasingly need to access web resources that are priced per request. For example, premium datasets charge by the query, research APIs meter by the call, and paywalled publishers gate content behind payment. W...
 - 发布时间：2026-10-14 04:10 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/
 
-## 14. How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents
+## 12. How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents
 - 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.5
 - 摘要：Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Age...
 - 发布时间：2026-10-14 05:33 CST
 - 链接：https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/
+
+## 13. Pluto Security raises $42M as AI gives enterprise security teams a new headache
+- 地区：国外源 ｜ 语言：en ｜ 来源：TechCrunch — AI（1 个来源） ｜ 热度：3.5
+- 摘要：The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their system...
+- 发布时间：2026-10-14 01:18 CST
+- 链接：https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/
+
+## 14. UNITAS: A 3D-Native World Action Model for Embodied Manipulation
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Daily Papers（1 个来源） ｜ 热度：3.0
+- 摘要：World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pre...
+- 发布时间：2026-10-08 04:00 CST
+- 链接：https://arxiv.org/abs/2610.12099
 
 国内：
 
@@ -139,9 +138,10 @@
 - 链接：https://www.36kr.com/newsflashes/4023677582708611
 - 同事件报道：阿里千问升级个人 AI 助理，Personal Agent“千问 Go！”即将发布（IT之家）
 
-## 6. TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
-- 摘要：文 | Tech商业 周受资很少在公开场合专门聊科学。 10 月 12 日，新加坡星展银行首届亚洲未来前瞻论坛上，TikTok CEO 穿着一件深色西装走上台，和星展集团零售银行主管许志坤做了一场对谈，主题叫“在 AI 时代释放人类潜能”。 他没有聊短视频，没有聊电商，没有聊地缘政治。他说的是物理学、生物技术、化学和材料科学。 “未来两到三年，我们将在这些领域取得真正的科学突破，而这一切都将得益于 AI。这非常、非常、非常有可能。” 这...
-- 发布时间：2026-10-13 09:47 CST
-- 链接：https://www.tmtpost.com/8166003.html
-- 同事件报道：TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么（36氪 AI 频道）
+## 6. 荣耀 WIN 平板核心配置确认：第五代骁龙 8 至尊版平台、10000mAh 电池，首发 240Hz OLED 电竞屏
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、InfoQ 中文（2 个来源） ｜ 热度：6.5
+- 摘要：IT之家 10 月 13 日现场消息，荣耀官方今日举行了荣耀 WIN 2 媒体沟通会，介绍了正在构建的「荣耀 WIN 宇宙」。 IT之家在沟通会现场率先体验到了系列产品，并在第一时间了解到了大家较为关注的 WIN 小平板核心配置信息。 据介绍， 荣耀 WIN 平板将业界首发 240Hz OLED 电竞屏 ，搭配有荣耀东风涡轮散热系统、10000mAh 大电池及第五代骁龙 8 至尊版芯片，并全新升级极客中心，全开放性能调节，支持玩家自定义...
+- 发布时间：2026-10-13 15:10 CST
+- 链接：https://www.ithome.com/1/012/383.htm
+- 同事件报道：荣耀 WIN2 系列手机至高搭载第六代骁龙 8 超级至尊版芯片，至高 12070mAh 巨无霸青海湖电池（IT之家）
+- 同事件报道：荣耀 WIN 平板开启预约：首发 240Hz OLED 电竞屏，搭载第五代骁龙 8 至尊版（IT之家）
