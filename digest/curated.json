@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-14T07:52:51.629829+00:00",
+ "generated_at": "2026-10-14T13:55:41.188893+00:00",
  "stats": {
-  "items": 3845,
-  "clusters": 2734,
-  "noise": 407,
+  "items": 3804,
+  "clusters": 2707,
+  "noise": 404,
   "dup": 182,
   "history_days": 0,
-  "available_cn": 132,
-  "available_intl": 2013,
+  "available_cn": 104,
+  "available_intl": 2017,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -91,6 +91,44 @@
   },
   {
    "rank": 5,
+   "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+   "score": 8.0,
+   "sources": [
+    "techcrunch-ai",
+    "arstechnica-ai",
+    "reddit-ai-hot"
+   ],
+   "titles": [
+    "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+    "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+    "Character.AI files for bankruptcy, to sell some assets to Disney for $20 million"
+   ],
+   "published_at": "2026-10-13T12:23:42.000000+00:00",
+   "summary": "The startup will sell some of its assets to Disney for $20 million."
+  },
+  {
+   "rank": 6,
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "score": 7.5,
+   "sources": [
+    "huggingface-blog",
+    "marktechpost"
+   ],
+   "titles": [
+    "Run fast, private agents on-device with LFM2.5-24B-A2B",
+    "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents"
+   ],
+   "published_at": "2026-10-13T17:05:48.000000+00:00",
+   "summary": "A Blog post by Liquid AI on Hugging Face"
+  },
+  {
+   "rank": 7,
    "title": "Redesigning source control at Anthropic",
    "lang": "en",
    "region": "intl",
@@ -108,30 +146,12 @@
    "summary": "At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up..."
   },
   {
-   "rank": 6,
-   "title": "Apple launches HomeView, its first smart display for the home",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
-   "score": 6.5,
-   "sources": [
-    "theverge-ai",
-    "bloomberg-tech"
-   ],
-   "titles": [
-    "Apple launches HomeView, its first smart display for the home",
-    "Apple Unveils HomeView Hub as Part of Smart Home Push"
-   ],
-   "published_at": "2026-10-13T13:00:00.000000+00:00",
-   "summary": "The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Apple's long-rumored smart display, the Apple HomeView, has ar..."
-  },
-  {
-   "rank": 7,
+   "rank": 8,
    "title": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
    "lang": "en",
    "region": "intl",
    "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
-   "score": 6.0,
+   "score": 5.5,
    "sources": [
     "bloomberg-tech",
     "theverge-ai"
@@ -144,12 +164,28 @@
    "summary": "An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar..."
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "title": "facebook/UMA",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/facebook/UMA",
+   "score": 5.0,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "facebook/UMA"
+   ],
+   "published_at": "2026-10-13T18:47:04.000000+00:00",
+   "summary": "arxiv:2506.23971, license:other, region:us"
+  },
+  {
+   "rank": 10,
    "title": "allenai/Olmo-3.1-32B-Think",
    "lang": "en",
    "region": "intl",
    "url": "https://huggingface.co/allenai/Olmo-3.1-32B-Think",
-   "score": 5.5,
+   "score": 5.0,
    "sources": [
     "hf-models-intl"
    ],
@@ -160,23 +196,7 @@
    "summary": "text-generation, transformers, safetensors, olmo3, conversational, en, dataset:allenai/Dolci-Think-RL, arxiv:2512.13961, base_model:allenai/Olmo-3-32B-Think-DPO, base_model:finetune:allenai/Olmo-3-32B-Think-DPO, license:..."
   },
   {
-   "rank": 9,
-   "title": "nvidia/ARDY-Core-RP-20FPS-Horizon40",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon40",
-   "score": 5.19,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/ARDY-Core-RP-20FPS-Horizon40"
-   ],
-   "published_at": "2026-10-13T22:23:05.000000+00:00",
-   "summary": "ardy, nvidia, rigplay, license:other, region:us"
-  },
-  {
-   "rank": 10,
+   "rank": 11,
    "title": "They war-gamed dimming the Sun. It went even worse than you think.",
    "lang": "en",
    "region": "intl",
@@ -192,24 +212,6 @@
    ],
    "published_at": "2026-10-13T15:17:59.000000+00:00",
    "summary": "When it comes to deciding the fate of the planet, Colleen Golja always thought science and reason would have a seat at the table. That was until one morning last September in London, when the climate researcher took part..."
-  },
-  {
-   "rank": 11,
-   "title": "Who Decided AI Gets to Have Feelings?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://middlelayer.substack.com/p/who-decided-ai-gets-to-have-feelings",
-   "score": 4.05,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Who Decided AI Gets to Have Feelings?",
-    "If an AI helps discover a drug, who gets credit?"
-   ],
-   "published_at": "2026-10-14T00:58:32.000000+00:00",
-   "summary": ""
   },
   {
    "rank": 12,
@@ -229,92 +231,78 @@
   },
   {
    "rank": 13,
-   "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+   "title": "The US is fighting over data centers. China is building them fast",
    "lang": "en",
    "region": "intl",
-   "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
-   "score": 3.5,
+   "url": "https://www.cnn.com/2026/10/13/china/china-data-centers-ai-race-intl-hnk-dst",
+   "score": 3.57,
    "sources": [
-    "aws-ml-blog"
+    "reddit-ai-hot",
+    "hackernews-ai"
    ],
    "titles": [
-    "Building agents that transact with Anchor Browser and AgentCore payments"
+    "The US is fighting over data centers. China is building them fast",
+    "China is building AI data centers at speed as the US wrestles with the costs"
    ],
-   "published_at": "2026-10-13T20:10:33.000000+00:00",
-   "summary": "AI agents increasingly need to access web resources that are priced per request. For example, premium datasets charge by the query, research APIs meter by the call, and paywalled publishers gate content behind payment. W..."
+   "published_at": "2026-10-13T12:33:23.000000+00:00",
+   "summary": "Beijing aims to use AI infrastructure to play to its advantages in the race for a technology that could define the 21st century."
   },
   {
    "rank": 14,
-   "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+   "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
    "lang": "en",
    "region": "intl",
-   "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
+   "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
    "score": 3.5,
    "sources": [
-    "nvidia-developer"
+    "nvidia-blog"
    ],
    "titles": [
-    "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents"
+    "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations"
    ],
-   "published_at": "2026-10-13T21:33:21.000000+00:00",
-   "summary": "Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Age..."
+   "published_at": "2026-10-14T06:00:28.000000+00:00",
+   "summary": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and inte..."
   },
   {
    "rank": 15,
-   "title": "SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员",
+   "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/012/487.htm",
-   "score": 6.5,
+   "url": "https://www.huxiu.com/article/4897270.html",
+   "score": 9.0,
    "sources": [
-    "ithome",
-    "techcrunch-ai"
+    "huxiu",
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
-    "SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员",
-    "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription"
+    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题"
    ],
-   "published_at": "2026-10-13T09:32:28+00:00",
-   "summary": "IT之家 10 月 13 日消息，SpaceXSI 公司今天宣布推出全新订阅服务“X Subscription”， 将 Grok、Grok Bot、Cursor 和 X Premium 等多款产品会员整合到一个订阅体系 。 根据用户选择的订阅档位，X Subscription 将提供 Grok、Grok Bot、Cursor 和 X Premium 使用权限。 其中，个人 Plus 套餐定价 8 美元 （IT之家注：现汇率约合 53.6..."
+   "published_at": "2026-10-13T14:41:37.000000+00:00",
+   "summary": "一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Ma...... 本文来自微信公众号： 青橙财经 ，作者：青风，编辑：六子 一个月前，Meta推出个人智能体Muse，舆论把它捧成Ch..."
   },
   {
    "rank": 16,
-   "title": "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起",
+   "title": "你的手机能跑35B大模型了！只要3GB内存，还无损",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/012/556.htm",
+   "url": "https://zhidx.com/p/600463.html",
    "score": 6.5,
    "sources": [
-    "ithome",
-    "infoq-cn"
+    "zhidx",
+    "qbitai"
    ],
    "titles": [
-    "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起",
-    "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999"
+    "你的手机能跑35B大模型了！只要3GB内存，还无损",
+    "iPhone断网跑35B多模态！国产开源新模型，只占3G内存"
    ],
-   "published_at": "2026-10-13T12:18:55+00:00",
-   "summary": "IT之家 10 月 13 日消息，阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版今晚正式发布，搭载骁龙 8 系芯片，采用 16GB+256GB 规格方案，软硬模三位一体 全栈价（包含 STEPX Neo 手机本体、StepAOS+Step Studio、Step 系列模型） 3999 元 。新机今日开启预售，将在 10 月 16 日 10:13 正式首销。 据介绍，阶跃终端 STEPX Neo 手机采用“复古未来美学”设计..."
+   "published_at": "2026-10-13T13:40:45+00:00",
+   "summary": "智东西 作者 | 程茜 编辑 | 李水青 智东西10月13日报道，刚刚，面壁智能发布新一代端侧多模态大模型系列MiniCPM-V4.7 ，包含 35B-A3B与1B 两个版本。官方称，这款35B‑A3B模型，是 首个能够在手机端流畅运行、且能力无损的开源大模型 。 具体来看，35B-A3B是MiniCPM-V系列 首款MoE模型 ，总参数350亿、每次推理仅激活30亿，仅约3GB内存即可运行。其在iPad Pro实测数据显示，该模型解码..."
   },
   {
    "rank": 17,
-   "title": "腾讯、字节、阿里的AI墓园，越来越挤了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4897295.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai"
-   ],
-   "titles": [
-    "腾讯、字节、阿里的AI墓园，越来越挤了",
-    "腾讯、字节、阿里的AI墓园，越来越挤了"
-   ],
-   "published_at": "2026-10-13T23:53:05.000000+00:00",
-   "summary": "AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布即将停运。10月8日，腾讯元器发了停服通知：11月9日起，这个零代码智能体平台全部停止服务，用户搭好的智能体全部失效。不少公众号博主用它把历史文章做成知识库、给粉丝做7×24小时自动回复，这下得赶紧搬家了。这已经算不上新闻。两周前，腾讯刚宣布“全网...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布..."
-  },
-  {
-   "rank": 18,
    "title": "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
    "lang": "zh",
    "region": "cn",
@@ -332,40 +320,54 @@
    "summary": "据国家广播电视总局消息，2026年1月开展的“AI魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了9月的处置情况，共清理违规视频近13000条、处置违规账号30余个。据了解，为进一步巩固治理成果，自2026年2月1日起，“AI魔改”视频治理工作通过常态化、制度化长效机制持续开展。广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“AI魔..."
   },
   {
-   "rank": 19,
-   "title": "年轻战时CEO：如何打赢Meta的AI逆转战役",
+   "rank": 18,
+   "title": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4023728414758534",
-   "score": 5.5,
+   "url": "https://www.qbitai.com/2026/10/503198.html",
+   "score": 6.0,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "qbitai",
+    "ithome"
    ],
    "titles": [
-    "年轻战时CEO：如何打赢Meta的AI逆转战役",
-    "年轻战时CEO：如何打赢Meta的AI逆转战役"
+    "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
+    "铭芯启睿首款 1Gb RRAM 芯片“泰山一号”流片：采用 1T4R 存储结构，密度达 30Mb / mm²"
    ],
-   "published_at": "2026-10-13T04:21:52.000000+00:00",
-   "summary": "人工智能的竞争，才刚开始。每一家公司都有机会。大厂纷纷在押注。腾讯的AI带头人是姚顺雨，小米则把宝押在了女科学家罗福莉身上，阿里千问的团队虽然经历了林俊旸卸任的事件，但其他领军人物的综合实力依然不容小视。本人从Meta的AI翻盘故事讲述，看看这些大资本如何押注这些学历顶尖、高度年轻化的AI领军人物的。 2025年春天，Meta内部弥漫着一种被甩下列车的气氛。Llama 4的发布反响惨淡，基准测试被曝存在“不同测试用不同模型”的操作，扎克..."
+   "published_at": "2026-10-14T06:24:00+00:00",
+   "summary": "CMOS标准工艺兼容的1TnR技术路线加速研发。"
+  },
+  {
+   "rank": 19,
+   "title": "inclusionAI/Ming-Image-0.1-Design",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design",
+   "score": 5.5,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "inclusionAI/Ming-Image-0.1-Design"
+   ],
+   "published_at": "2026-10-14T04:22:50.000000+00:00",
+   "summary": "text-to-image, custom, diffusers, safetensors, bailingmm_moe_v2_lite, image-generation, graphic-design, text-rendering, rgba, license:mit, region:us"
   },
   {
    "rank": 20,
-   "title": "Anthropic惊人预警：小模型已有生命迹象，AI蠕虫恐引爆全球物联网灾难",
-   "lang": "zh",
+   "title": "inclusionAI/Ming-Image-0.1-Design-Layer",
+   "lang": "en",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4023779264991107",
+   "url": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design-Layer",
    "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "ifanr"
+    "hf-models-cn"
    ],
    "titles": [
-    "Anthropic惊人预警：小模型已有生命迹象，AI蠕虫恐引爆全球物联网灾难",
-    "AI学会「寄生繁殖」了，Anthropic 用 15台破电视盒子养活大模型"
+    "inclusionAI/Ming-Image-0.1-Design-Layer"
    ],
-   "published_at": "2026-10-13T04:58:00.000000+00:00",
-   "summary": "刚刚，Anthropic的前沿红队发布了一篇重磅报告。 这份报告指出，AI的自我复制，根本不需要昂贵的数据中心。 那些毫无安全防护的商用IoT设备，已经足以成为新型「AI蠕虫」的宿主。 再过几个月，小型 AI 模型可能就强大到能在商用物联网设备上自我复制了！ 如果你家的电视盒子有点卡，可能是被一个AI占据了，它还在用你家的电费和算力孕育下一个AI后代！ 网友惊呼：「就像2024年编码智能体的大爆发一样，我们正在看到『AI蠕虫』显露出早期..."
+   "published_at": "2026-10-14T04:23:47.000000+00:00",
+   "summary": "image-text-to-image, custom, diffusers, safetensors, bailingmm_moe_v2_lite, layer-decomposition, rgba, graphic-design, license:mit, region:us"
   }
  ]
 }
