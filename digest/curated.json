@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-14T18:48:33.744596+00:00",
+ "generated_at": "2026-10-14T22:28:11.237154+00:00",
  "stats": {
-  "items": 4048,
-  "clusters": 2844,
-  "noise": 476,
-  "dup": 191,
+  "items": 3929,
+  "clusters": 2789,
+  "noise": 461,
+  "dup": 182,
   "history_days": 0,
-  "available_cn": 128,
-  "available_intl": 2049,
+  "available_cn": 117,
+  "available_intl": 2029,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -36,6 +36,26 @@
   },
   {
    "rank": 2,
+   "title": "Epic’s new games launcher is ‘vibe coded’",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
+   "score": 9.5,
+   "sources": [
+    "theverge-ai",
+    "arstechnica-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Epic’s new games launcher is ‘vibe coded’",
+    "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+    "Epic Games says it vibe coded new launcher because “programming is hard”"
+   ],
+   "published_at": "2026-10-14T13:55:02.000000+00:00",
+   "summary": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-ass..."
+  },
+  {
+   "rank": 3,
    "title": "An FPGA-Based Spiking Neural Network for Spatiotemporal Pattern Learning and Classification",
    "lang": "en",
    "region": "intl",
@@ -53,45 +73,7 @@
    "summary": "arXiv:2610.17463v1 Announce Type: cross Abstract: Spiking Neural Networks (SNNs) are promising for energy-efficient spatiotemporal pattern recognition at the edge, but efficient deployment and on-device adaptation requir..."
   },
   {
-   "rank": 3,
-   "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-   "score": 8.0,
-   "sources": [
-    "techcrunch-ai",
-    "arstechnica-ai",
-    "reddit-ai-hot"
-   ],
-   "titles": [
-    "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-    "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-    "Character.AI files for bankruptcy, to sell some assets to Disney for $20 million"
-   ],
-   "published_at": "2026-10-13T12:23:42.000000+00:00",
-   "summary": "The startup will sell some of its assets to Disney for $20 million."
-  },
-  {
    "rank": 4,
-   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-   "score": 7.5,
-   "sources": [
-    "huggingface-blog",
-    "marktechpost"
-   ],
-   "titles": [
-    "Run fast, private agents on-device with LFM2.5-24B-A2B",
-    "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents"
-   ],
-   "published_at": "2026-10-13T17:05:48.000000+00:00",
-   "summary": "A Blog post by Liquid AI on Hugging Face"
-  },
-  {
-   "rank": 5,
    "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
    "lang": "en",
    "region": "intl",
@@ -109,7 +91,7 @@
    "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in lar..."
   },
   {
-   "rank": 6,
+   "rank": 5,
    "title": "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
    "lang": "en",
    "region": "intl",
@@ -127,7 +109,7 @@
    "summary": "arXiv:2610.15513v1 Announce Type: new Abstract: Safety-aligned large language models (LLMs) remain vulnerable to adversarial prompts that bypass their safety training. Existing automated red-teaming methods either requir..."
   },
   {
-   "rank": 7,
+   "rank": 6,
    "title": "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
    "lang": "en",
    "region": "intl",
@@ -146,43 +128,7 @@
    "summary": "arXiv:2610.15772v1 Announce Type: new Abstract: Recent focus in agentic reinforcement learning (RL) seeks to improve credit assignment in long-horizon tasks. One promising direction combines reinforcement learning with v..."
   },
   {
-   "rank": 8,
-   "title": "Redesigning source control at Anthropic",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-   "score": 6.5,
-   "sources": [
-    "anthropic-engineering",
-    "simon-willison"
-   ],
-   "titles": [
-    "Redesigning source control at Anthropic",
-    "Redesigning source control at Anthropic"
-   ],
-   "published_at": "2026-10-12T16:00:00.000000+00:00",
-   "summary": "At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up..."
-  },
-  {
-   "rank": 9,
-   "title": "Epic’s new games launcher is ‘vibe coded’",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-   "score": 6.0,
-   "sources": [
-    "theverge-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Epic’s new games launcher is ‘vibe coded’",
-    "Epic Games says it vibe coded new launcher because “programming is hard”"
-   ],
-   "published_at": "2026-10-14T13:55:02.000000+00:00",
-   "summary": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-ass..."
-  },
-  {
-   "rank": 10,
+   "rank": 7,
    "title": "AI is mass decompiling games. That's both awesome and scary.",
    "lang": "en",
    "region": "intl",
@@ -200,7 +146,7 @@
    "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and produ..."
   },
   {
-   "rank": 11,
+   "rank": 8,
    "title": "nvidia/DeepSeek-V4.1-Flash-NVFP4",
    "lang": "en",
    "region": "intl",
@@ -216,7 +162,7 @@
    "summary": "image-text-to-text, Model Optimizer, safetensors, deepseek_v41, nvidia, ModelOpt, DeepSeekV4, quantized, FP4, fp4, base_model:deepseek-ai/DeepSeek-V4.1-Flash, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash, license..."
   },
   {
-   "rank": 12,
+   "rank": 9,
    "title": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
    "lang": "en",
    "region": "intl",
@@ -234,99 +180,91 @@
    "summary": "An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar..."
   },
   {
-   "rank": 13,
-   "title": "ibm-granite/granitelib-guardian-r1.0",
+   "rank": 10,
+   "title": "Why do LLM pelicans look like this?",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granitelib-guardian-r1.0",
-   "score": 5.06,
+   "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+   "score": 5.3,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Why do LLM pelicans look like this?",
+    "How do you get AI video to look like casual phone footage instead of a cinematic shot?"
+   ],
+   "published_at": "2026-10-14T16:33:34.000000+00:00",
+   "summary": "Why do LLM pelicans look so alike? A visual look at diversity collapse and our research on creativity in UI design."
+  },
+  {
+   "rank": 11,
+   "title": "ibm-granite/granitelib-rag-r1.0",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/ibm-granite/granitelib-rag-r1.0",
+   "score": 5.24,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "ibm-granite/granitelib-guardian-r1.0"
+    "ibm-granite/granitelib-rag-r1.0"
    ],
-   "published_at": "2026-10-14T18:09:29.000000+00:00",
-   "summary": "text-generation, granite-library, safetensors, granite, guardian, safety, hallucination, factuality, lora, peft, en, base_model:ibm-granite/granite-4.0-micro, base_model:adapter:ibm-granite/granite-4.0-micro, license:apa..."
+   "published_at": "2026-10-14T21:48:14.000000+00:00",
+   "summary": "granite-library, safetensors, gguf, en, arxiv:2504.12397, base_model:ibm-granite/granite-4.0-micro, base_model:quantized:ibm-granite/granite-4.0-micro, license:apache-2.0, region:us"
   },
   {
-   "rank": 14,
-   "title": "They war-gamed dimming the Sun. It went even worse than you think.",
+   "rank": 12,
+   "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
    "lang": "en",
    "region": "intl",
-   "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-   "score": 4.55,
+   "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+   "score": 4.5,
    "sources": [
-    "arstechnica-ai",
-    "hackernews-ai"
+    "google-cloud-ai"
    ],
    "titles": [
-    "They war-gamed dimming the Sun. It went even worse than you think.",
-    "They War-Gamed Dimming the Sun. It Went Worse Than You Think"
+    "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions"
    ],
-   "published_at": "2026-10-13T15:17:59.000000+00:00",
-   "summary": "When it comes to deciding the fate of the planet, Colleen Golja always thought science and reason would have a seat at the table. That was until one morning last September in London, when the climate researcher took part..."
+   "published_at": "2026-10-14T16:00:00.000000+00:00",
+   "summary": "The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or..."
   },
   {
-   "rank": 15,
-   "title": "你的手机能跑35B大模型了！只要3GB内存，还无损",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://zhidx.com/p/600463.html",
-   "score": 9.0,
+   "rank": 13,
+   "title": "Who Decided AI Gets to Have Feelings?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://middlelayer.substack.com/p/who-decided-ai-gets-to-have-feelings",
+   "score": 3.55,
    "sources": [
-    "zhidx",
-    "qbitai",
+    "hackernews-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "你的手机能跑35B大模型了！只要3GB内存，还无损",
-    "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
-    "A 35B multimodal model running on a phone with ~3GB memory? MiniCPM-V 4.7 demo is pretty wild"
+    "Who Decided AI Gets to Have Feelings?",
+    "If an AI helps discover a drug, who gets credit?"
    ],
-   "published_at": "2026-10-13T13:40:45+00:00",
-   "summary": "智东西 作者 | 程茜 编辑 | 李水青 智东西10月13日报道，刚刚，面壁智能发布新一代端侧多模态大模型系列MiniCPM-V4.7 ，包含 35B-A3B与1B 两个版本。官方称，这款35B‑A3B模型，是 首个能够在手机端流畅运行、且能力无损的开源大模型 。 具体来看，35B-A3B是MiniCPM-V系列 首款MoE模型 ，总参数350亿、每次推理仅激活30亿，仅约3GB内存即可运行。其在iPad Pro实测数据显示，该模型解码..."
+   "published_at": "2026-10-14T00:58:32.000000+00:00",
+   "summary": ""
   },
   {
-   "rank": 16,
-   "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4897270.html",
-   "score": 9.0,
+   "rank": 14,
+   "title": "SentinelOne cuts malware analysis from weeks to hours",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/sentinelone",
+   "score": 3.5,
    "sources": [
-    "huxiu",
-    "36kr-ai",
-    "tmtpost"
+    "openai-news"
    ],
    "titles": [
-    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
-    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
-    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题"
+    "SentinelOne cuts malware analysis from weeks to hours"
    ],
-   "published_at": "2026-10-13T14:41:37.000000+00:00",
-   "summary": "一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Ma...... 本文来自微信公众号： 青橙财经 ，作者：青风，编辑：六子 一个月前，Meta推出个人智能体Muse，舆论把它捧成Ch..."
+   "published_at": "2026-10-14T12:00:00.000000+00:00",
+   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
   },
   {
-   "rank": 17,
-   "title": "万元级人形机器人，只是“赛博玩具”？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4025501512503432",
-   "score": 6.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "万元级人形机器人，只是“赛博玩具”？",
-    "万元级人形机器人，只是“赛博玩具”？"
-   ],
-   "published_at": "2026-10-14T10:11:42.000000+00:00",
-   "summary": "2026 年的消费电子市场里，没有任何一类产品能像人形机器人这样矛盾。 曾经动辄几十万、只出现在展会舞台上的双足人形设备，正在批量上架电商平台，万元级产品打破大众对人形机器人的价格想象。订单在增长、产能在爬坡、发布会轮番登场，厂商不断向公众描绘一个图景：人形机器人即将走入家庭，承接家务、陪护、家政劳动。 是的，2026年，人形机器人真的开始卖了，价格也确实让人意外。但当你兴冲冲把它搬回家，指望它帮你叠衣服、收拾碗筷的时候，大概率会失望。..."
-  },
-  {
-   "rank": 18,
+   "rank": 15,
    "title": "iQOO Neo12 官宣首发 pTSF 技术超冠屏：「天空之镜」发光材料，号称让 185Hz 进入 2K 时代",
    "lang": "zh",
    "region": "cn",
@@ -346,7 +284,7 @@
    "summary": "IT之家 10 月 14 日消息，在今天的维信诺 × iQOO × 清华大学屏幕技术沟通会上，iQOO 宣布， i QOO Neo12 新机拥有三大首发技术 + 七大争锋屏幕体验 + 2K 185Hz 超豪华游戏生态 ，并喊话“让 185Hz 进入 2K 时代”。 据介绍，iQOO Neo12 手机将行业首发搭载 pTSF 技术的 2K 185Hz 超冠屏、 行业首发「天空之镜」发光材料 、行业首发 2K 185Hz 高性能驱动芯片。..."
   },
   {
-   "rank": 19,
+   "rank": 16,
    "title": "被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿",
    "lang": "zh",
    "region": "cn",
@@ -364,7 +302,7 @@
    "summary": "智东西 作者 | 王涵 编辑 | 漠影 智东西10月14日报道，最近，曾与Anthropic签下至多 约450亿美元 （约合人民币3020.11亿元）算力大单的AI算力基建创企Nscale，再次走到了聚光灯下——2026年9月25日，其宣布已通过可转换贷款票据完成 33.6亿美元（约合人民币224.86亿元）融资。 本次融资包括英伟达的10亿美元承诺，资金预计于2026年11月中旬到位。 据Nscale称，本轮是IPO前可转换融资，9月..."
   },
   {
-   "rank": 20,
+   "rank": 17,
    "title": "突发，明星AI独角兽宣布破产",
    "lang": "zh",
    "region": "cn",
@@ -380,6 +318,60 @@
    ],
    "published_at": "2026-10-13T13:43:55+00:00",
    "summary": "智东西 编译 | 程茜 编辑 | 李水青 智东西10月13日消息，今日，硅谷明星AI独角兽 Character.AI宣布已启动破产程序 。迪士尼是其关键资产的第一顺位收购方，已出价 2000万美元（约合人民币1.34亿元） 竞拍部分知识产权和特定债权的非独占永久许可。 这是ChatGPT带动的生成式AI热潮下， 首家走到破产出售阶段的生成式AI独角兽 。去年5月破产的无代码AI生成平台Builder.ai因被曝出大量依靠人工交付，所以不..."
+  },
+  {
+   "rank": 18,
+   "title": "腾讯、字节、阿里的AI墓园，越来越挤了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4897295.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "腾讯、字节、阿里的AI墓园，越来越挤了",
+    "腾讯、字节、阿里的AI墓园，越来越挤了"
+   ],
+   "published_at": "2026-10-13T23:53:05.000000+00:00",
+   "summary": "AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布即将停运。10月8日，腾讯元器发了停服通知：11月9日起，这个零代码智能体平台全部停止服务，用户搭好的智能体全部失效。不少公众号博主用它把历史文章做成知识库、给粉丝做7×24小时自动回复，这下得赶紧搬家了。这已经算不上新闻。两周前，腾讯刚宣布“全网...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布..."
+  },
+  {
+   "rank": 19,
+   "title": "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/4025077621788548",
+   "score": 5.5,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
+    "9 月“AI 魔改”视频治理成果：清理违规视频近 1.3 万条、处置违规账号 30 余个"
+   ],
+   "published_at": "2026-10-14T02:00:41.000000+00:00",
+   "summary": "据国家广播电视总局消息，2026年1月开展的“AI魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了9月的处置情况，共清理违规视频近13000条、处置违规账号30余个。据了解，为进一步巩固治理成果，自2026年2月1日起，“AI魔改”视频治理工作通过常态化、制度化长效机制持续开展。广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“AI魔..."
+  },
+  {
+   "rank": 20,
+   "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4025040292188041",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题"
+   ],
+   "published_at": "2026-10-14T03:35:56.000000+00:00",
+   "summary": "一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Manus也推出个人应用Cue。 一时间“下一代AI入口”的口号铺天盖地，仿佛谁慢半步，就会输掉下一个十年。 但热闹的表象之下，裂痕..."
   }
  ]
 }
