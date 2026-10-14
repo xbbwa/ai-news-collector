@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-14T02:03:25.166378+00:00",
+ "generated_at": "2026-10-14T07:52:51.629829+00:00",
  "stats": {
-  "items": 1095,
-  "clusters": 739,
-  "noise": 444,
-  "dup": 43,
+  "items": 3845,
+  "clusters": 2734,
+  "noise": 407,
+  "dup": 182,
   "history_days": 0,
-  "available_cn": 155,
-  "available_intl": 97,
+  "available_cn": 132,
+  "available_intl": 2013,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,81 @@
  "items": [
   {
    "rank": 1,
+   "title": "Preserving Updates in Low-Bit Recurrent State Quantization",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.15709",
+   "score": 12.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-cv",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "Preserving Updates in Low-Bit Recurrent State Quantization",
+    "Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution",
+    "E8 Lattice Key Quantization for Low-Bit KV-Cache Compression"
+   ],
+   "published_at": "2026-10-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.15709v1 Announce Type: cross Abstract: Linear attention and recurrent models compress past tokens into a fixed-size state that is updated at every step. However, storing these states in high precision incurs s..."
+  },
+  {
+   "rank": 2,
+   "title": "An FPGA-Based Spiking Neural Network for Spatiotemporal Pattern Learning and Classification",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.17463",
+   "score": 9.0,
+   "sources": [
+    "arxiv-cs-lg",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "An FPGA-Based Spiking Neural Network for Spatiotemporal Pattern Learning and Classification",
+    "FPGA-Based Neural Network Accelerators for Space Applications: A Survey"
+   ],
+   "published_at": "2026-10-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.17463v1 Announce Type: cross Abstract: Spiking Neural Networks (SNNs) are promising for energy-efficient spatiotemporal pattern recognition at the edge, but efficient deployment and on-device adaptation requir..."
+  },
+  {
+   "rank": 3,
+   "title": "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.15513",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-ai"
+   ],
+   "titles": [
+    "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
+    "FinRED: An Expert-Guided Benchmark Generation and Evaluation Framework for Financial LLM Red-Teaming"
+   ],
+   "published_at": "2026-10-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.15513v1 Announce Type: new Abstract: Safety-aligned large language models (LLMs) remain vulnerable to adversarial prompts that bypass their safety training. Existing automated red-teaming methods either requir..."
+  },
+  {
+   "rank": 4,
+   "title": "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.15772",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+    "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+    "ReTerm: Recovery Training for Self-Improving Terminal Agents"
+   ],
+   "published_at": "2026-10-14T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.15772v1 Announce Type: new Abstract: Recent focus in agentic reinforcement learning (RL) seeks to improve credit assignment in long-horizon tasks. One promising direction combines reinforcement learning with v..."
+  },
+  {
+   "rank": 5,
    "title": "Redesigning source control at Anthropic",
    "lang": "en",
    "region": "intl",
@@ -33,7 +108,25 @@
    "summary": "At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up..."
   },
   {
-   "rank": 2,
+   "rank": 6,
+   "title": "Apple launches HomeView, its first smart display for the home",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+   "score": 6.5,
+   "sources": [
+    "theverge-ai",
+    "bloomberg-tech"
+   ],
+   "titles": [
+    "Apple launches HomeView, its first smart display for the home",
+    "Apple Unveils HomeView Hub as Part of Smart Home Push"
+   ],
+   "published_at": "2026-10-13T13:00:00.000000+00:00",
+   "summary": "The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Apple's long-rumored smart display, the Apple HomeView, has ar..."
+  },
+  {
+   "rank": 7,
    "title": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
    "lang": "en",
    "region": "intl",
@@ -51,23 +144,7 @@
    "summary": "An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar..."
   },
   {
-   "rank": 3,
-   "title": "facebook/UMA",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/facebook/UMA",
-   "score": 5.5,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "facebook/UMA"
-   ],
-   "published_at": "2026-10-13T18:47:04.000000+00:00",
-   "summary": "arxiv:2506.23971, license:other, region:us"
-  },
-  {
-   "rank": 4,
+   "rank": 8,
    "title": "allenai/Olmo-3.1-32B-Think",
    "lang": "en",
    "region": "intl",
@@ -83,30 +160,28 @@
    "summary": "text-generation, transformers, safetensors, olmo3, conversational, en, dataset:allenai/Dolci-Think-RL, arxiv:2512.13961, base_model:allenai/Olmo-3-32B-Think-DPO, base_model:finetune:allenai/Olmo-3-32B-Think-DPO, license:..."
   },
   {
-   "rank": 5,
-   "title": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
+   "rank": 9,
+   "title": "nvidia/ARDY-Core-RP-20FPS-Horizon40",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-   "score": 5.5,
+   "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon40",
+   "score": 5.19,
    "sources": [
-    "ft-tech",
-    "guardian-ai"
+    "hf-models-intl"
    ],
    "titles": [
-    "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
-    "Chip stocks slide after Broadcom boss likens AI investing to ‘casino’"
+    "nvidia/ARDY-Core-RP-20FPS-Horizon40"
    ],
-   "published_at": "2026-10-13T03:40:21.000000+00:00",
-   "summary": "Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over scale of AI investment"
+   "published_at": "2026-10-13T22:23:05.000000+00:00",
+   "summary": "ardy, nvidia, rigplay, license:other, region:us"
   },
   {
-   "rank": 6,
+   "rank": 10,
    "title": "They war-gamed dimming the Sun. It went even worse than you think.",
    "lang": "en",
    "region": "intl",
    "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-   "score": 5.05,
+   "score": 4.55,
    "sources": [
     "arstechnica-ai",
     "hackernews-ai"
@@ -119,77 +194,41 @@
    "summary": "When it comes to deciding the fate of the planet, Colleen Golja always thought science and reason would have a seat at the table. That was until one morning last September in London, when the climate researcher took part..."
   },
   {
-   "rank": 7,
-   "title": "AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation",
+   "rank": 11,
+   "title": "Who Decided AI Gets to Have Feelings?",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html",
-   "score": 5.05,
-   "sources": [
-    "cnbc-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "AI companion startup Character.ai files for Chapter 11 bankruptcy, citing costs and litigation",
-    "Getty Images is filing for Chapter 11 Bankruptcy"
-   ],
-   "published_at": "2026-10-13T16:13:38.000000+00:00",
-   "summary": "The company said the platform became \"costly to develop and grow,\" in Monday filings to the Delaware District bankruptcy court."
-  },
-  {
-   "rank": 8,
-   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://github.com/prabanta-dev/janas",
-   "score": 4.1,
+   "url": "https://middlelayer.substack.com/p/who-decided-ai-gets-to-have-feelings",
+   "score": 4.05,
    "sources": [
     "hackernews-ai",
     "reddit-ai-new"
    ],
    "titles": [
-    "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-    "Mac mini for running LLMs and AI agents 24/7: Prioritize RAM or CPU/GPU performance?"
+    "Who Decided AI Gets to Have Feelings?",
+    "If an AI helps discover a drug, who gets credit?"
    ],
-   "published_at": "2026-10-12T22:05:43.000000+00:00",
-   "summary": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than y..."
+   "published_at": "2026-10-14T00:58:32.000000+00:00",
+   "summary": ""
   },
   {
-   "rank": 9,
-   "title": "The US is fighting over data centers. China is building them fast",
+   "rank": 12,
+   "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.cnn.com/2026/10/13/china/china-data-centers-ai-race-intl-hnk-dst",
-   "score": 3.57,
+   "url": "https://github.com/android/ndk/issues/2260",
+   "score": 3.95,
    "sources": [
-    "reddit-ai-hot",
     "hackernews-ai"
    ],
    "titles": [
-    "The US is fighting over data centers. China is building them fast",
-    "China is building AI data centers at speed as the US wrestles with the costs"
+    "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs"
    ],
-   "published_at": "2026-10-13T12:33:23.000000+00:00",
-   "summary": "Beijing aims to use AI infrastructure to play to its advantages in the race for a technology that could define the 21st century."
+   "published_at": "2026-10-14T06:18:01.000000+00:00",
+   "summary": "Description On Android 17 builds from September 2026, wcscspn() and wcspbrk() stop at the first character of the string that is >= U+0100 whenever the reject set has two or more characters that are..."
   },
   {
-   "rank": 10,
-   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-   "score": 3.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Run fast, private agents on-device with LFM2.5-24B-A2B"
-   ],
-   "published_at": "2026-10-13T17:05:48.000000+00:00",
-   "summary": "A Blog post by Liquid AI on Hugging Face"
-  },
-  {
-   "rank": 11,
+   "rank": 13,
    "title": "Building agents that transact with Anchor Browser and AgentCore payments",
    "lang": "en",
    "region": "intl",
@@ -205,7 +244,7 @@
    "summary": "AI agents increasingly need to access web resources that are priced per request. For example, premium datasets charge by the query, research APIs meter by the call, and paywalled publishers gate content behind payment. W..."
   },
   {
-   "rank": 12,
+   "rank": 14,
    "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
    "lang": "en",
    "region": "intl",
@@ -221,151 +260,112 @@
    "summary": "Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Age..."
   },
   {
-   "rank": 13,
-   "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
-   "score": 3.5,
-   "sources": [
-    "techcrunch-ai"
-   ],
-   "titles": [
-    "Pluto Security raises $42M as AI gives enterprise security teams a new headache"
-   ],
-   "published_at": "2026-10-13T17:18:25.000000+00:00",
-   "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their system..."
-  },
-  {
-   "rank": 14,
-   "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.12099",
-   "score": 3.0,
-   "sources": [
-    "hf-daily-papers"
-   ],
-   "titles": [
-    "UNITAS: A 3D-Native World Action Model for Embodied Manipulation"
-   ],
-   "published_at": "2026-10-07T20:00:00.000000+00:00",
-   "summary": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pre..."
-  },
-  {
    "rank": 15,
    "title": "SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/012/487.htm",
-   "score": 9.1,
+   "score": 6.5,
    "sources": [
     "ithome",
-    "techcrunch-ai",
-    "hackernews-ai"
+    "techcrunch-ai"
    ],
    "titles": [
     "SpaceX 推出“X Subscription”订阅服务，整合 Grok、Cursor 和 X Premium 会员",
-    "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-    "SpaceXSI: Unified plans across Grok, Cursor, and X Premium"
+    "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription"
    ],
    "published_at": "2026-10-13T09:32:28+00:00",
    "summary": "IT之家 10 月 13 日消息，SpaceXSI 公司今天宣布推出全新订阅服务“X Subscription”， 将 Grok、Grok Bot、Cursor 和 X Premium 等多款产品会员整合到一个订阅体系 。 根据用户选择的订阅档位，X Subscription 将提供 Grok、Grok Bot、Cursor 和 X Premium 使用权限。 其中，个人 Plus 套餐定价 8 美元 （IT之家注：现汇率约合 53.6..."
   },
   {
    "rank": 16,
-   "title": "字节跳动Seed单独设立大模型安全与对齐部门",
+   "title": "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/4023757995495302",
-   "score": 9.0,
-   "sources": [
-    "36kr-newsflash",
-    "ithome",
-    "leiphone"
-   ],
-   "titles": [
-    "字节跳动Seed单独设立大模型安全与对齐部门",
-    "国内首家，字节 Seed 设立单独的大模型安全与对齐部门",
-    "字节跳动 Seed 单独设立大模型安全与对齐部门"
-   ],
-   "published_at": "2026-10-13T03:38:17.000000+00:00",
-   "summary": "字节跳动Seed近日发出内部邮件，宣布将成立“Seed Model-Alignment&Preparedness”部门，由严林负责，汇报给Seed负责人吴永辉。原Responsible AI团队及部分Chat团队成员将转入新部门。该部门的设立旨在加强安全与对齐方向的投入，对齐的核心是让模型的行为与人类意图和安全约束保持一致，从而提升Agent Model（智能体模型）安全能力，以及防范CBRN（化学、生物、放射、核）等前沿能力风险。（财..."
-  },
-  {
-   "rank": 17,
-   "title": "0.6B起！Jev对手模型来了，开源多模态，登上全球测评榜一",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://zhidx.com/p/600073.html",
-   "score": 6.5,
-   "sources": [
-    "zhidx",
-    "36kr-ai"
-   ],
-   "titles": [
-    "0.6B起！Jev对手模型来了，开源多模态，登上全球测评榜一",
-    "0.6B起，Jev对手模型来了，开源多模态，登上全球测评榜一"
-   ],
-   "published_at": "2026-10-12T11:15:17+00:00",
-   "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西10月12日消息，昨天，vLLM社区孵化的开源AI基础设施项目vLLM Semantic Router推出并开源 多模态 决策模型 Decision 3.0系列 。该系列模型能够根据输入内容完成 分类、选择、是非判断和评分 等任务，直接返回判断结果和概率， 不生成长篇文本 。 ▲vLLM Semantic Router推出并开源Decision 3.0（图源：X） 这类不生成长文本，专门..."
-  },
-  {
-   "rank": 18,
-   "title": "电网设备掀涨停潮，金冠电气20cm涨停只是前菜，5万亿投资落地，真正的金矿在海外",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.tmtpost.com/8166021.html",
-   "score": 6.5,
-   "sources": [
-    "tmtpost",
-    "36kr-ai"
-   ],
-   "titles": [
-    "电网设备掀涨停潮，金冠电气20cm涨停只是前菜，5万亿投资落地，真正的金矿在海外",
-    "类脑计算再升温：Flourish获5亿美元融资，用脑科学押注下一代AI范式"
-   ],
-   "published_at": "2026-10-13T02:07:00+00:00",
-   "summary": "文 | 预见能源 预见能源(www.yjny2030.com)获悉，10月12日，A股电网设备板块集体上扬。金冠电气开盘后迅速封上20cm涨停，全天成交额4.71亿元，换手率超过16%，远程股份、众业达、长城电工同步直线涨停。 引爆点来自发改委主任郑栅洁10月10日在民营企业座谈会的表态，进一步点燃了此前“十五五”时期新型电网投资预计超过5万亿元，到2030年初步建成新型电网，支撑28亿千瓦以上新能源消纳需求的消息。 这个消息意味着什么..."
-  },
-  {
-   "rank": 19,
-   "title": "千问升级个人AI助理，推出Personal Agent“千问Go！”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/4023677582708611",
-   "score": 6.5,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "千问升级个人AI助理，推出Personal Agent“千问Go！”",
-    "阿里千问升级个人 AI 助理，Personal Agent“千问 Go！”即将发布"
-   ],
-   "published_at": "2026-10-13T02:16:29.000000+00:00",
-   "summary": "36氪获悉，千问Personal Agent“千问Go！”即将发布。据了解，升级后的千问极大拓展了个人助理的办事范围和能力，需要时，千问可自主查询操作各类授权平台，比较方案、电话联系服务方，完成目标任务。"
-  },
-  {
-   "rank": 20,
-   "title": "荣耀 WIN 平板核心配置确认：第五代骁龙 8 至尊版平台、10000mAh 电池，首发 240Hz OLED 电竞屏",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/012/383.htm",
+   "url": "https://www.ithome.com/1/012/556.htm",
    "score": 6.5,
    "sources": [
     "ithome",
     "infoq-cn"
    ],
    "titles": [
-    "荣耀 WIN 平板核心配置确认：第五代骁龙 8 至尊版平台、10000mAh 电池，首发 240Hz OLED 电竞屏",
-    "荣耀 WIN2 系列手机至高搭载第六代骁龙 8 超级至尊版芯片，至高 12070mAh 巨无霸青海湖电池",
-    "荣耀 WIN 平板开启预约：首发 240Hz OLED 电竞屏，搭载第五代骁龙 8 至尊版",
     "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起",
     "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999"
    ],
-   "published_at": "2026-10-13T07:10:30+00:00",
-   "summary": "IT之家 10 月 13 日现场消息，荣耀官方今日举行了荣耀 WIN 2 媒体沟通会，介绍了正在构建的「荣耀 WIN 宇宙」。 IT之家在沟通会现场率先体验到了系列产品，并在第一时间了解到了大家较为关注的 WIN 小平板核心配置信息。 据介绍， 荣耀 WIN 平板将业界首发 240Hz OLED 电竞屏 ，搭配有荣耀东风涡轮散热系统、10000mAh 大电池及第五代骁龙 8 至尊版芯片，并全新升级极客中心，全开放性能调节，支持玩家自定义..."
+   "published_at": "2026-10-13T12:18:55+00:00",
+   "summary": "IT之家 10 月 13 日消息，阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版今晚正式发布，搭载骁龙 8 系芯片，采用 16GB+256GB 规格方案，软硬模三位一体 全栈价（包含 STEPX Neo 手机本体、StepAOS+Step Studio、Step 系列模型） 3999 元 。新机今日开启预售，将在 10 月 16 日 10:13 正式首销。 据介绍，阶跃终端 STEPX Neo 手机采用“复古未来美学”设计..."
+  },
+  {
+   "rank": 17,
+   "title": "腾讯、字节、阿里的AI墓园，越来越挤了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4897295.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "腾讯、字节、阿里的AI墓园，越来越挤了",
+    "腾讯、字节、阿里的AI墓园，越来越挤了"
+   ],
+   "published_at": "2026-10-13T23:53:05.000000+00:00",
+   "summary": "AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布即将停运。10月8日，腾讯元器发了停服通知：11月9日起，这个零代码智能体平台全部停止服务，用户搭好的智能体全部失效。不少公众号博主用它把历史文章做成知识库、给粉丝做7×24小时自动回复，这下得赶紧搬家了。这已经算不上新闻。两周前，腾讯刚宣布“全网...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布..."
+  },
+  {
+   "rank": 18,
+   "title": "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/newsflashes/4025077621788548",
+   "score": 6.0,
+   "sources": [
+    "36kr-newsflash",
+    "ithome"
+   ],
+   "titles": [
+    "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
+    "9 月“AI 魔改”视频治理成果：清理违规视频近 1.3 万条、处置违规账号 30 余个"
+   ],
+   "published_at": "2026-10-14T02:00:41.000000+00:00",
+   "summary": "据国家广播电视总局消息，2026年1月开展的“AI魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了9月的处置情况，共清理违规视频近13000条、处置违规账号30余个。据了解，为进一步巩固治理成果，自2026年2月1日起，“AI魔改”视频治理工作通过常态化、制度化长效机制持续开展。广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“AI魔..."
+  },
+  {
+   "rank": 19,
+   "title": "年轻战时CEO：如何打赢Meta的AI逆转战役",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4023728414758534",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "年轻战时CEO：如何打赢Meta的AI逆转战役",
+    "年轻战时CEO：如何打赢Meta的AI逆转战役"
+   ],
+   "published_at": "2026-10-13T04:21:52.000000+00:00",
+   "summary": "人工智能的竞争，才刚开始。每一家公司都有机会。大厂纷纷在押注。腾讯的AI带头人是姚顺雨，小米则把宝押在了女科学家罗福莉身上，阿里千问的团队虽然经历了林俊旸卸任的事件，但其他领军人物的综合实力依然不容小视。本人从Meta的AI翻盘故事讲述，看看这些大资本如何押注这些学历顶尖、高度年轻化的AI领军人物的。 2025年春天，Meta内部弥漫着一种被甩下列车的气氛。Llama 4的发布反响惨淡，基准测试被曝存在“不同测试用不同模型”的操作，扎克..."
+  },
+  {
+   "rank": 20,
+   "title": "Anthropic惊人预警：小模型已有生命迹象，AI蠕虫恐引爆全球物联网灾难",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4023779264991107",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "ifanr"
+   ],
+   "titles": [
+    "Anthropic惊人预警：小模型已有生命迹象，AI蠕虫恐引爆全球物联网灾难",
+    "AI学会「寄生繁殖」了，Anthropic 用 15台破电视盒子养活大模型"
+   ],
+   "published_at": "2026-10-13T04:58:00.000000+00:00",
+   "summary": "刚刚，Anthropic的前沿红队发布了一篇重磅报告。 这份报告指出，AI的自我复制，根本不需要昂贵的数据中心。 那些毫无安全防护的商用IoT设备，已经足以成为新型「AI蠕虫」的宿主。 再过几个月，小型 AI 模型可能就强大到能在商用物联网设备上自我复制了！ 如果你家的电视盒子有点卡，可能是被一个AI占据了，它还在用你家的电费和算力孕育下一个AI后代！ 网友惊呼：「就像2024年编码智能体的大爆发一样，我们正在看到『AI蠕虫』显露出早期..."
   }
  ]
 }
