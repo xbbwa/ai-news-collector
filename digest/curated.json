@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-15T20:28:57.518884+00:00",
+ "generated_at": "2026-10-15T23:10:58.127551+00:00",
  "stats": {
-  "items": 1940,
-  "clusters": 1499,
-  "noise": 488,
-  "dup": 132,
+  "items": 1855,
+  "clusters": 1460,
+  "noise": 441,
+  "dup": 127,
   "history_days": 0,
-  "available_cn": 126,
-  "available_intl": 753,
+  "available_cn": 141,
+  "available_intl": 751,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -87,22 +87,6 @@
   },
   {
    "rank": 5,
-   "title": "ibm-granite/granite-switch-4.1-8b-preview",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
-   "score": 6.01,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "ibm-granite/granite-switch-4.1-8b-preview"
-   ],
-   "published_at": "2026-10-15T10:57:09.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
-  },
-  {
-   "rank": 6,
    "title": "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
    "lang": "en",
    "region": "intl",
@@ -118,6 +102,22 @@
    ],
    "published_at": "2026-10-15T14:01:51.000000+00:00",
    "summary": "A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers."
+  },
+  {
+   "rank": 6,
+   "title": "ibm-granite/granite-switch-4.1-30b-preview",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview",
+   "score": 5.96,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "ibm-granite/granite-switch-4.1-30b-preview"
+   ],
+   "published_at": "2026-10-15T13:51:55.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
   },
   {
    "rank": 7,
@@ -157,22 +157,6 @@
   },
   {
    "rank": 9,
-   "title": "Apertus 1.5 Release Notes",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-   "score": 4.5,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Apertus 1.5 Release Notes"
-   ],
-   "published_at": "2026-10-15T09:08:45.000000+00:00",
-   "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
-  },
-  {
-   "rank": 10,
    "title": "Introducing Timestral",
    "lang": "en",
    "region": "intl",
@@ -188,22 +172,38 @@
    "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
   },
   {
-   "rank": 11,
-   "title": "Liquid AI D1-Ultra",
+   "rank": 10,
+   "title": "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.liquid.ai/blog/d1-ultra",
-   "score": 4.06,
+   "url": "https://youtu.be/XtTr87pij54?si=1j92ZlDKhHpWSqf8",
+   "score": 4.14,
    "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "Liquid AI D1-Ultra",
-    "Liquid AI's d1-ultra decision model takes a very strong place on the pareto front"
+    "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
+    "Bringing the magic: Google breaks open a bottleneck in quantum computing"
    ],
-   "published_at": "2026-10-15T17:15:43.000000+00:00",
-   "summary": "d1-ultra, the world's best decision model for text and images, built for hard real-world cases. Available on the Liquid AI API"
+   "published_at": "2026-10-15T18:21:21.000000+00:00",
+   "summary": "Google Quantum AI has demonstratively opened up a key bottleneck in quantum computing: we’ve shown that “magic state cultivation” works in practice on our Willow processor, reducing errors about 40x compared to without i..."
+  },
+  {
+   "rank": 11,
+   "title": "Apertus 1.5 Release Notes",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+   "score": 4.0,
+   "sources": [
+    "huggingface-blog"
+   ],
+   "titles": [
+    "Apertus 1.5 Release Notes"
+   ],
+   "published_at": "2026-10-15T09:08:45.000000+00:00",
+   "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
   },
   {
    "rank": 12,
@@ -255,21 +255,23 @@
   },
   {
    "rank": 15,
-   "title": "Anthropic 抛弃 Git，选择自研版本控制系统 Scion",
+   "title": "Muse起势、大厂谋变，个人智能体激战前夜",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/013/670.htm",
-   "score": 6.67,
+   "url": "https://www.huxiu.com/article/4897714.html",
+   "score": 9.0,
    "sources": [
-    "ithome",
-    "hackernews-ai"
+    "huxiu",
+    "tmtpost",
+    "36kr-ai"
    ],
    "titles": [
-    "Anthropic 抛弃 Git，选择自研版本控制系统 Scion",
-    "Anthropic's Scion is heavily inspired by Mononoke"
+    "Muse起势、大厂谋变，个人智能体激战前夜",
+    "Muse起势、大厂谋变，个人智能体激战前夜",
+    "字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？"
    ],
-   "published_at": "2026-10-15T14:42:13+00:00",
-   "summary": "IT之家 10 月 15 日消息，美国人工智能公司 Anthropic 近日宣布弃用 Git，转为采用自研的版本控制系统 Scion，将大部分源代码管理操作转移至服务器，减少智能体和自动化任务需要下载的数据。 Anthropic 表示，公司 5 月平均每天合并 2500 次代码变更；到了 9 月，这一数字已经超过 3 万次，Git 已经无法满足需求， 为此公司选择自研 Scion 系统 。 Anthropic 宣称， Scion 的 C..."
+   "published_at": "2026-10-15T05:16:58.000000+00:00",
+   "summary": "本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open..."
   },
   {
    "rank": 16,
@@ -291,6 +293,24 @@
   },
   {
    "rank": 17,
+   "title": "特朗普白宫宴会捐款名单曝光：苹果、英伟达各捐 2500 万美元为单笔最高金额",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/013/668.htm",
+   "score": 6.0,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "特朗普白宫宴会捐款名单曝光：苹果、英伟达各捐 2500 万美元为单笔最高金额",
+    "特朗普白宫宴会厅捐款名单曝光：苹果英伟达各2500万美元 特朗普本人未出现"
+   ],
+   "published_at": "2026-10-15T14:31:52+00:00",
+   "summary": "IT之家 10 月 15 日消息，《华盛顿邮报》今日披露了一份白宫内部捐款记录，揭示了美国总统特朗普白宫宴会厅项目的主要捐赠方及具体金额。 记录显示，截至 9 月底共记录 67 笔超过 1 万美元 （现汇率约合 67,065 元人民币） 的捐款，私人捐赠承诺总额约为 3.33 亿美元 （IT之家注：现汇率约合 22.33 亿元人民币） ，其中英伟达和苹果均承诺捐款 2,500 万美元 （现汇率约合 1.68 亿元人民币） ，均为单笔最高..."
+  },
+  {
+   "rank": 18,
    "title": "马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”",
    "lang": "zh",
    "region": "cn",
@@ -308,7 +328,7 @@
    "summary": "IT之家 10 月 15 日消息，当地时间 14 日，据《商业内幕》报道，马斯克出席上周六的 X Takeover 活动，在访谈中大谈 AI 的神奇之处，随后却少有地谈起自己的感受：“我有点‘赛博精神错乱’，其实可能还挺严重。” 他称，过去一年里，自己大概经历了六次“AI / SI 精神错乱”（IT之家注：SI 指的是美国总统特朗普将人工智能改称的“超级智能”）。 “AI 精神错乱”并非正式医学术语，也没有公认的定义。通常指人们 反复使..."
   },
   {
-   "rank": 18,
+   "rank": 19,
    "title": "上市破发，传音被AI坑惨了？",
    "lang": "zh",
    "region": "cn",
@@ -324,24 +344,6 @@
    ],
    "published_at": "2026-10-15T03:19:35.000000+00:00",
    "summary": "本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 低价走量加廉价供应链，不好使了。 定焦One（dingjiaoone）原创 10月15日，非洲手机之王传音控股在港交所挂牌。开盘价34.96港元，比发行价低1%，开盘后继续下跌，跌幅一度超过7%。截至发稿，股价在33.6港元附近。 定价其实已经说明了一些问题。10月13日，传音确定H股发行价为每股35.30港元，在35.30至38.80港元招股区间的下限，香港公开发售..."
-  },
-  {
-   "rank": 19,
-   "title": "Muse起势、大厂谋变，个人智能体激战前夜",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4897714.html",
-   "score": 5.5,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "Muse起势、大厂谋变，个人智能体激战前夜",
-    "Muse起势、大厂谋变，个人智能体激战前夜"
-   ],
-   "published_at": "2026-10-15T05:16:58.000000+00:00",
-   "summary": "本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open..."
   },
   {
    "rank": 20,
