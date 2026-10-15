@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-15T17:15:25.565838+00:00",
+ "generated_at": "2026-10-15T20:28:57.518884+00:00",
  "stats": {
-  "items": 2026,
-  "clusters": 1565,
-  "noise": 513,
-  "dup": 143,
+  "items": 1940,
+  "clusters": 1499,
+  "noise": 488,
+  "dup": 132,
   "history_days": 0,
-  "available_cn": 135,
-  "available_intl": 774,
+  "available_cn": 126,
+  "available_intl": 753,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,65 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Deezer will soon let you filter out AI-generated music",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-   "score": 10.0,
-   "sources": [
-    "techcrunch-ai",
-    "ithome",
-    "arstechnica-ai"
-   ],
-   "titles": [
-    "Deezer will soon let you filter out AI-generated music",
-    "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-    "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”",
-    "Singer or clanker? YouTube Music will tell you with new gen AI labeling."
-   ],
-   "published_at": "2026-10-14T15:16:04.000000+00:00",
-   "summary": "Deezer said that the new toggle will be rolled out by the end of the year."
-  },
-  {
-   "rank": 2,
-   "title": "Epic’s new games launcher is ‘vibe coded’",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-   "score": 9.0,
-   "sources": [
-    "theverge-ai",
-    "arstechnica-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Epic’s new games launcher is ‘vibe coded’",
-    "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-    "Epic Games says it vibe coded new launcher because “programming is hard”"
-   ],
-   "published_at": "2026-10-14T13:55:02.000000+00:00",
-   "summary": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-ass..."
-  },
-  {
-   "rank": 3,
-   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/third-moment-research",
-   "score": 7.5,
-   "sources": [
-    "openai-news",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "How Third Moment Research runs 10,000 agents for 36+ hours",
-    "Long-Range Distillation: Distilling 10,000 Years of Simulated Climate into Long Timestep AI Weather Models"
-   ],
-   "published_at": "2026-10-14T07:00:00.000000+00:00",
-   "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
-  },
-  {
-   "rank": 4,
    "title": "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
    "lang": "en",
    "region": "intl",
@@ -93,7 +34,7 @@
    "summary": "arXiv:2610.20367v1 Announce Type: new Abstract: Retrieving information from visually rich documents requires matching queries against pages that contain complex evidence in tables, figures, and layout-dependent structure..."
   },
   {
-   "rank": 5,
+   "rank": 2,
    "title": "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
    "lang": "en",
    "region": "intl",
@@ -111,7 +52,7 @@
    "summary": "arXiv:2610.20370v1 Announce Type: new Abstract: Hate speech has become increasingly prevalent on social media, raising concerns about its detection, interpretation, and moderation. Persian, a relatively low-resource lang..."
   },
   {
-   "rank": 6,
+   "rank": 3,
    "title": "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
    "lang": "en",
    "region": "intl",
@@ -129,7 +70,7 @@
    "summary": "arXiv:2610.20456v1 Announce Type: new Abstract: The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as..."
   },
   {
-   "rank": 7,
+   "rank": 4,
    "title": "ibm-granite/granite-switch-4.1-3b-preview",
    "lang": "en",
    "region": "intl",
@@ -145,7 +86,7 @@
    "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
   },
   {
-   "rank": 8,
+   "rank": 5,
    "title": "ibm-granite/granite-switch-4.1-8b-preview",
    "lang": "en",
    "region": "intl",
@@ -161,61 +102,61 @@
    "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
   },
   {
-   "rank": 9,
-   "title": "AI is mass decompiling games. That's both awesome and scary.",
+   "rank": 6,
+   "title": "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
    "lang": "en",
    "region": "intl",
-   "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
-   "score": 5.36,
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-risk-gauge-hits-record-pricing-60-odds-of-default",
+   "score": 6.0,
    "sources": [
-    "simon-willison",
+    "bloomberg-tech",
+    "cnbc-tech"
+   ],
+   "titles": [
+    "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
+    "CoreWeave credit default swaps hit distress levels as investors sour on AI debt"
+   ],
+   "published_at": "2026-10-15T14:01:51.000000+00:00",
+   "summary": "A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers."
+  },
+  {
+   "rank": 7,
+   "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1",
+   "score": 5.06,
+   "sources": [
+    "ft-tech",
     "hackernews-ai"
    ],
    "titles": [
-    "AI is mass decompiling games. That's both awesome and scary.",
-    "AI is mass decompiling games. That's both awesome and scary"
+    "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+    "Investors dump data centre bonds as AI borrowers face 'Darwin moment'"
    ],
-   "published_at": "2026-10-14T16:26:53.000000+00:00",
-   "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and produ..."
+   "published_at": "2026-10-15T15:25:47.000000+00:00",
+   "summary": "Debt issued by AI infrastructure providers and neocloud companies has sunk towards stressed territory"
   },
   {
-   "rank": 10,
-   "title": "I build a free, open-source macOS notch app that shows what your AI coding agents are doing",
+   "rank": 8,
+   "title": "German police seize robot after it allegedly groped a teenage girl",
    "lang": "en",
    "region": "intl",
-   "url": "https://v.redd.it/ew9wfwws2gvh1",
-   "score": 4.84,
+   "url": "https://www.youtube.com/watch?v=CVq7GfJYr8E",
+   "score": 4.55,
    "sources": [
     "reddit-ai-new",
     "hackernews-ai"
    ],
    "titles": [
-    "I build a free, open-source macOS notch app that shows what your AI coding agents are doing",
-    "GridSnap – an open-source Divvy-style window snapper for macOS"
+    "German police seize robot after it allegedly groped a teenage girl",
+    "German police launch investigation after robot allegedly gropes teenage girl"
    ],
-   "published_at": "2026-10-14T14:44:29.000000+00:00",
-   "summary": "I built Pip, a small macOS app that lives in the notch and shows what your AI coding agents are doing. It started because I kept running Claude Code in a few terminals and switching between them to see which one was wait..."
+   "published_at": "2026-10-15T04:20:55.000000+00:00",
+   "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
   },
   {
-   "rank": 11,
-   "title": "Why do LLM pelicans look like this?",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-   "score": 4.8,
-   "sources": [
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Why do LLM pelicans look like this?",
-    "How do you get AI video to look like casual phone footage instead of a cinematic shot?"
-   ],
-   "published_at": "2026-10-14T16:33:34.000000+00:00",
-   "summary": "Why do LLM pelicans look so alike? A visual look at diversity collapse and our research on creativity in UI design."
-  },
-  {
-   "rank": 12,
+   "rank": 9,
    "title": "Apertus 1.5 Release Notes",
    "lang": "en",
    "region": "intl",
@@ -231,7 +172,7 @@
    "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
   },
   {
-   "rank": 13,
+   "rank": 10,
    "title": "Introducing Timestral",
    "lang": "en",
    "region": "intl",
@@ -247,40 +188,88 @@
    "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
   },
   {
-   "rank": 14,
-   "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
+   "rank": 11,
+   "title": "Liquid AI D1-Ultra",
    "lang": "en",
    "region": "intl",
-   "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
-   "score": 4.0,
+   "url": "https://www.liquid.ai/blog/d1-ultra",
+   "score": 4.06,
    "sources": [
-    "google-cloud-ai"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions"
+    "Liquid AI D1-Ultra",
+    "Liquid AI's d1-ultra decision model takes a very strong place on the pareto front"
    ],
-   "published_at": "2026-10-14T16:00:00.000000+00:00",
-   "summary": "The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or..."
+   "published_at": "2026-10-15T17:15:43.000000+00:00",
+   "summary": "d1-ultra, the world's best decision model for text and images, built for hard real-world cases. Available on the Liquid AI API"
+  },
+  {
+   "rank": 12,
+   "title": "Teaching students to think and learn through questions",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "score": 3.5,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Teaching students to think and learn through questions"
+   ],
+   "published_at": "2026-10-15T13:00:00.000000+00:00",
+   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+  },
+  {
+   "rank": 13,
+   "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-blog"
+   ],
+   "titles": [
+    "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW"
+   ],
+   "published_at": "2026-10-15T13:00:59.000000+00:00",
+   "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in..."
+  },
+  {
+   "rank": 14,
+   "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+   "score": 3.5,
+   "sources": [
+    "nvidia-developer"
+   ],
+   "titles": [
+    "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning"
+   ],
+   "published_at": "2026-10-15T15:00:00.000000+00:00",
+   "summary": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enter..."
   },
   {
    "rank": 15,
-   "title": "AI陪伴一哥破产，Transformer作者创业公司，2000万贱卖迪士尼",
+   "title": "Anthropic 抛弃 Git，选择自研版本控制系统 Scion",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4025580880187523",
-   "score": 8.0,
+   "url": "https://www.ithome.com/1/013/670.htm",
+   "score": 6.67,
    "sources": [
-    "36kr-ai",
-    "tmtpost",
-    "baai-hub"
+    "ithome",
+    "hackernews-ai"
    ],
    "titles": [
-    "AI陪伴一哥破产，Transformer作者创业公司，2000万贱卖迪士尼",
-    "2000 万月活也救不活，AI 情感陪伴界“纯元”驾崩",
-    "AI陪伴一哥破产！Transformer作者创业公司，2000万贱卖迪士尼"
+    "Anthropic 抛弃 Git，选择自研版本控制系统 Scion",
+    "Anthropic's Scion is heavily inspired by Mononoke"
    ],
-   "published_at": "2026-10-14T11:35:26.000000+00:00",
-   "summary": "Transformer元老创办的AI独角兽，咋就突然要凉凉了？？？ 初代AI陪伴顶流 Character.AI，正式向美国法院申请破产保护 。 更离谱的是，目前愿意接盘的底价只有可怜的 2000万美元 ，不到A轮融资的七分之一（1.5亿美元）。 2000万美元， 就有机会获得Character.AI部分知识产权的永久使用许可。 而且你猜猜，愿意花这笔钱接盘的是谁？ 之前差点打起官司来的迪士尼。。。 也是神了。 最近Muse把个人Agen..."
+   "published_at": "2026-10-15T14:42:13+00:00",
+   "summary": "IT之家 10 月 15 日消息，美国人工智能公司 Anthropic 近日宣布弃用 Git，转为采用自研的版本控制系统 Scion，将大部分源代码管理操作转移至服务器，减少智能体和自动化任务需要下载的数据。 Anthropic 表示，公司 5 月平均每天合并 2500 次代码变更；到了 9 月，这一数字已经超过 3 万次，Git 已经无法满足需求， 为此公司选择自研 Scion 系统 。 Anthropic 宣称， Scion 的 C..."
   },
   {
    "rank": 16,
@@ -302,60 +291,6 @@
   },
   {
    "rank": 17,
-   "title": "Muse起势、大厂谋变，个人智能体激战前夜",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4897714.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "Muse起势、大厂谋变，个人智能体激战前夜",
-    "Muse起势、大厂谋变，个人智能体激战前夜"
-   ],
-   "published_at": "2026-10-15T05:16:58.000000+00:00",
-   "summary": "本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open..."
-  },
-  {
-   "rank": 18,
-   "title": "Anthropic尽调后放弃，亚马逊为何还在追Decart？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4025630372992642",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "Anthropic尽调后放弃，亚马逊为何还在追Decart？",
-    "Anthropic尽调后放弃，亚马逊为何还在追Decart？"
-   ],
-   "published_at": "2026-10-14T11:48:23.000000+00:00",
-   "summary": "据报道，亚马逊正洽谈收购以色列AI初创公司Decart，潜在交易金额约70亿美元。此前，Anthropic也曾以约60亿美元的估值与Decart接触，但在尽调后放弃继续收购；英伟达、Nebius等公司也曾被媒体列入潜在买家名单。 Decart成立于2023年，由三位工程师创办。2026年5月，公司刚完成3亿美元融资，估值接近40亿美元，投资方包括Radical Ventures和英伟达等。 几个月后，市场传出的潜在收购价格已经接近70亿..."
-  },
-  {
-   "rank": 19,
-   "title": "价格从“元”降到“分”，AI视频的下半场开打了",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4025642512896130",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "tmtpost"
-   ],
-   "titles": [
-    "价格从“元”降到“分”，AI视频的下半场开打了",
-    "价格从“元”降到“分”，AI视频的下半场开打了"
-   ],
-   "published_at": "2026-10-14T12:48:51.000000+00:00",
-   "summary": "视频模型的DeepSeek时刻，本质不是低价，而是物美价廉。 9月28日，快手可灵AI的Kling 4.0开启内测，把单次原生视频时长拉到了30秒，画质干到4K，同时首个“轻量版”模型Kling 4.0 Flash上线，主打出视频速度快，价格也要往下走，不过目前其API定价尚未公布。 10月8日，生数科技Vidu Q4 Preview发布，支持15张参考图、3段参考音频、同样4K直出，同时延续了以往“又好又快”的优势——他们把首发价格打..."
-  },
-  {
-   "rank": 20,
    "title": "马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”",
    "lang": "zh",
    "region": "cn",
@@ -371,6 +306,60 @@
    ],
    "published_at": "2026-10-14T23:24:51+00:00",
    "summary": "IT之家 10 月 15 日消息，当地时间 14 日，据《商业内幕》报道，马斯克出席上周六的 X Takeover 活动，在访谈中大谈 AI 的神奇之处，随后却少有地谈起自己的感受：“我有点‘赛博精神错乱’，其实可能还挺严重。” 他称，过去一年里，自己大概经历了六次“AI / SI 精神错乱”（IT之家注：SI 指的是美国总统特朗普将人工智能改称的“超级智能”）。 “AI 精神错乱”并非正式医学术语，也没有公认的定义。通常指人们 反复使..."
+  },
+  {
+   "rank": 18,
+   "title": "上市破发，传音被AI坑惨了？",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4897676.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "上市破发，传音被AI坑惨了？",
+    "上市破发，传音被AI坑惨了？"
+   ],
+   "published_at": "2026-10-15T03:19:35.000000+00:00",
+   "summary": "本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 低价走量加廉价供应链，不好使了。 定焦One（dingjiaoone）原创 10月15日，非洲手机之王传音控股在港交所挂牌。开盘价34.96港元，比发行价低1%，开盘后继续下跌，跌幅一度超过7%。截至发稿，股价在33.6港元附近。 定价其实已经说明了一些问题。10月13日，传音确定H股发行价为每股35.30港元，在35.30至38.80港元招股区间的下限，香港公开发售..."
+  },
+  {
+   "rank": 19,
+   "title": "Muse起势、大厂谋变，个人智能体激战前夜",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4897714.html",
+   "score": 5.5,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "Muse起势、大厂谋变，个人智能体激战前夜",
+    "Muse起势、大厂谋变，个人智能体激战前夜"
+   ],
+   "published_at": "2026-10-15T05:16:58.000000+00:00",
+   "summary": "本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open..."
+  },
+  {
+   "rank": 20,
+   "title": "基元律动宣布开发者入驻超30万，开启双11预售福利",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/10/503501.html",
+   "score": 5.5,
+   "sources": [
+    "qbitai",
+    "leiphone"
+   ],
+   "titles": [
+    "基元律动宣布开发者入驻超30万，开启双11预售福利",
+    "基元律动宣布开发者入驻超30万，开启双11预售福利"
+   ],
+   "published_at": "2026-10-15T06:59:37+00:00",
+   "summary": "基元律动（Token Rhythm）宣布已有超过30万名开发者入驻，同期推出双11预售限时福利。"
   }
  ]
 }
