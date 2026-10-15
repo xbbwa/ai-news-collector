@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-14T22:28:11.237154+00:00",
+ "generated_at": "2026-10-15T00:41:20.523678+00:00",
  "stats": {
-  "items": 3929,
-  "clusters": 2789,
-  "noise": 461,
-  "dup": 182,
+  "items": 3909,
+  "clusters": 2776,
+  "noise": 463,
+  "dup": 175,
   "history_days": 0,
-  "available_cn": 117,
-  "available_intl": 2029,
+  "available_cn": 120,
+  "available_intl": 2018,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -129,6 +129,40 @@
   },
   {
    "rank": 7,
+   "title": "microsoft/UserRepGen-4B",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+   "score": 6.0,
+   "sources": [
+    "hf-models-intl",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "microsoft/UserRepGen-4B",
+    "microsoft/UserRepGen-4B"
+   ],
+   "published_at": "2026-10-14T22:03:45.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, qwen3_5, image-text-to-text, user-representation, user-simulation, simulation, multi-turn, conversational, en, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B,..."
+  },
+  {
+   "rank": 8,
+   "title": "perplexity-ai/pplx-embed-v2-context-9b-preview",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/perplexity-ai/pplx-embed-v2-context-9b-preview",
+   "score": 5.86,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "perplexity-ai/pplx-embed-v2-context-9b-preview"
+   ],
+   "published_at": "2026-10-08T15:07:05.000000+00:00",
+   "summary": "feature-extraction, transformers, safetensors, pplx_contextual_qwen3_5, sentence-similarity, contextual-embeddings, custom_code, multilingual, license:mit, region:us"
+  },
+  {
+   "rank": 9,
    "title": "AI is mass decompiling games. That's both awesome and scary.",
    "lang": "en",
    "region": "intl",
@@ -144,40 +178,6 @@
    ],
    "published_at": "2026-10-14T16:26:53.000000+00:00",
    "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and produ..."
-  },
-  {
-   "rank": 8,
-   "title": "nvidia/DeepSeek-V4.1-Flash-NVFP4",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4",
-   "score": 5.5,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/DeepSeek-V4.1-Flash-NVFP4"
-   ],
-   "published_at": "2026-10-14T16:40:46.000000+00:00",
-   "summary": "image-text-to-text, Model Optimizer, safetensors, deepseek_v41, nvidia, ModelOpt, DeepSeekV4, quantized, FP4, fp4, base_model:deepseek-ai/DeepSeek-V4.1-Flash, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash, license..."
-  },
-  {
-   "rank": 9,
-   "title": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "theverge-ai"
-   ],
-   "titles": [
-    "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
-    "OpenAI employee arrested for allegedly planting a bug in a conference room"
-   ],
-   "published_at": "2026-10-13T20:13:49.000000+00:00",
-   "summary": "An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar..."
   },
   {
    "rank": 10,
@@ -199,22 +199,6 @@
   },
   {
    "rank": 11,
-   "title": "ibm-granite/granitelib-rag-r1.0",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granitelib-rag-r1.0",
-   "score": 5.24,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "ibm-granite/granitelib-rag-r1.0"
-   ],
-   "published_at": "2026-10-14T21:48:14.000000+00:00",
-   "summary": "granite-library, safetensors, gguf, en, arxiv:2504.12397, base_model:ibm-granite/granite-4.0-micro, base_model:quantized:ibm-granite/granite-4.0-micro, license:apache-2.0, region:us"
-  },
-  {
-   "rank": 12,
    "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
    "lang": "en",
    "region": "intl",
@@ -230,7 +214,7 @@
    "summary": "The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or..."
   },
   {
-   "rank": 13,
+   "rank": 12,
    "title": "Who Decided AI Gets to Have Feelings?",
    "lang": "en",
    "region": "intl",
@@ -248,40 +232,59 @@
    "summary": ""
   },
   {
-   "rank": 14,
-   "title": "SentinelOne cuts malware analysis from weeks to hours",
+   "rank": 13,
+   "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/sentinelone",
+   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
    "score": 3.5,
    "sources": [
-    "openai-news"
+    "huggingface-blog"
    ],
    "titles": [
-    "SentinelOne cuts malware analysis from weeks to hours"
+    "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost"
    ],
-   "published_at": "2026-10-14T12:00:00.000000+00:00",
-   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
+   "published_at": "2026-10-14T16:12:42.000000+00:00",
+   "summary": "A Blog post by Ai2 on Hugging Face"
+  },
+  {
+   "rank": 14,
+   "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+   "score": 3.5,
+   "sources": [
+    "google-research"
+   ],
+   "titles": [
+    "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges"
+   ],
+   "published_at": "2026-10-14T16:14:00.000000+00:00",
+   "summary": "Earth AI"
   },
   {
    "rank": 15,
-   "title": "iQOO Neo12 官宣首发 pTSF 技术超冠屏：「天空之镜」发光材料，号称让 185Hz 进入 2K 时代",
+   "title": "一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.ithome.com/1/013/086.htm",
-   "score": 6.0,
+   "url": "https://www.ithome.com/1/012/653.htm",
+   "score": 9.0,
    "sources": [
     "ithome",
-    "zhidx"
+    "36kr-ai",
+    "36kr-newsflash"
    ],
    "titles": [
-    "iQOO Neo12 官宣首发 pTSF 技术超冠屏：「天空之镜」发光材料，号称让 185Hz 进入 2K 时代",
-    "iQOO Neo12 手机官宣“十月底见”：pTSF 技术 2K 185Hz 超冠屏、第五代骁龙 8 至尊版芯片",
-    "刚刚，维信诺亮出全球首款2K 185Hz手机屏，iQOO首发",
-    "荣耀 WIN 平板确认搭载第五代骁龙 8 至尊版满血旗舰芯片"
+    "一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁",
+    "OpenAI高管会议室惊现窃听器，35岁工程师涉案被AI举报送进FBI",
+    "卫生纸包裹的窃听器、背包里的钱包：OpenAI工程师的「窃听风云」荒诞收场",
+    "涉嫌在高管会议室安装窃听设备的 OpenAI 沙特籍工程师，被曝曾计划“逃回老家”",
+    "OpenAI 承诺不使用苹果商业秘密，双方诉讼互指对方窃取机密",
+    "OpenAI承诺不使用苹果所称被窃商业机密，14名员工设备将接受取证"
    ],
-   "published_at": "2026-10-14T12:28:01+00:00",
-   "summary": "IT之家 10 月 14 日消息，在今天的维信诺 × iQOO × 清华大学屏幕技术沟通会上，iQOO 宣布， i QOO Neo12 新机拥有三大首发技术 + 七大争锋屏幕体验 + 2K 185Hz 超豪华游戏生态 ，并喊话“让 185Hz 进入 2K 时代”。 据介绍，iQOO Neo12 手机将行业首发搭载 pTSF 技术的 2K 185Hz 超冠屏、 行业首发「天空之镜」发光材料 、行业首发 2K 185Hz 高性能驱动芯片。..."
+   "published_at": "2026-10-14T00:40:48+00:00",
+   "summary": "IT之家 10 月 14 日消息，美国司法部昨日（10 月 13 日）发布公告， 称 OpenAI 一名沙特籍工程师因涉嫌在旧金山办公室高管会议室安装隐藏录音设备，被逮捕并指控非法拦截口头通信。 该沙特籍工程师现年 35 岁，名为 Abdulrahman Alfozan，已于当地时间 10 月 9 日被逮捕，罪名是非法拦截口头通信。他自 2025 年 7 月起在 OpenAI 工作。若罪名成立，其最高可面临 5 年监禁及 25 万美元..."
   },
   {
    "rank": 16,
@@ -321,6 +324,24 @@
   },
   {
    "rank": 18,
+   "title": "中国视频模型Top 3，开始分道而战",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://zhidx.com/p/600520.html",
+   "score": 5.5,
+   "sources": [
+    "zhidx",
+    "36kr-ai"
+   ],
+   "titles": [
+    "中国视频模型Top 3，开始分道而战",
+    "中国视频模型Top 3，开始分道而战"
+   ],
+   "published_at": "2026-10-13T15:40:34+00:00",
+   "summary": "智东西 作者 | 王涵 编辑 | 漠影 国庆前后，Seedance、可灵和Vidu的连续动作，让中国视频模型的竞争除了一如既往全球遥遥领先，还以三足鼎立之势走出几条路径： 有人把重点放在内容生产的工业化效率，有人押注专业制作所需要的控制力，也有人试图把人物、镜头、视效的表现力，和更低的试错成本放进同一件产品里。 这种路径分化，很快体现在具体产品发布上。 9月28日，可灵AI官宣新一代视频生成模型Kling 4.0；10月8日，生数发布新..."
+  },
+  {
+   "rank": 19,
    "title": "腾讯、字节、阿里的AI墓园，越来越挤了",
    "lang": "zh",
    "region": "cn",
@@ -338,40 +359,22 @@
    "summary": "AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布即将停运。10月8日，腾讯元器发了停服通知：11月9日起，这个零代码智能体平台全部停止服务，用户搭好的智能体全部失效。不少公众号博主用它把历史文章做成知识库、给粉丝做7×24小时自动回复，这下得赶紧搬家了。这已经算不上新闻。两周前，腾讯刚宣布“全网...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布..."
   },
   {
-   "rank": 19,
-   "title": "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/newsflashes/4025077621788548",
-   "score": 5.5,
-   "sources": [
-    "36kr-newsflash",
-    "ithome"
-   ],
-   "titles": [
-    "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
-    "9 月“AI 魔改”视频治理成果：清理违规视频近 1.3 万条、处置违规账号 30 余个"
-   ],
-   "published_at": "2026-10-14T02:00:41.000000+00:00",
-   "summary": "据国家广播电视总局消息，2026年1月开展的“AI魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了9月的处置情况，共清理违规视频近13000条、处置违规账号30余个。据了解，为进一步巩固治理成果，自2026年2月1日起，“AI魔改”视频治理工作通过常态化、制度化长效机制持续开展。广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“AI魔..."
-  },
-  {
    "rank": 20,
-   "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
+   "title": "中国芯片一年卖了2400亿美元，但份额只有6%？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4025040292188041",
+   "url": "https://www.huxiu.com/article/4897305.html",
    "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "huxiu",
+    "36kr-ai"
    ],
    "titles": [
-    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
-    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题"
+    "中国芯片一年卖了2400亿美元，但份额只有6%？",
+    "英伟达与华为的6个百分点：中国AI芯片市场竞争格局生变"
    ],
-   "published_at": "2026-10-14T03:35:56.000000+00:00",
-   "summary": "一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Manus也推出个人应用Cue。 一时间“下一代AI入口”的口号铺天盖地，仿佛谁慢半步，就会输掉下一个十年。 但热闹的表象之下，裂痕..."
+   "published_at": "2026-10-14T00:17:07.000000+00:00",
+   "summary": "9月中旬，黄仁勋在All-In播客上被问了一个问题：中国什么时候能有自己的先进光刻机？老黄回答，2030年。All-In Podcast(at 43:43)完事儿还补了一句，两三年时间，算不了什么。\"They are going to get there by 2030,2030 is just around...... 本文来自微信公众号： TOP创新区研究院 ，作者：新兴产业研究组 9月中旬，黄仁勋在All-In播客上被问了一个问题..."
   }
  ]
 }

@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-15 06:28 CST
-数据窗口：最近 24 小时，3929 条原始条目 → 2789 个事件；过滤噪音 461 个，排除全部历史已推送的 182 个。
+生成时间：2026-10-15 08:41 CST
+数据窗口：最近 24 小时，3909 条原始条目 → 2776 个事件；过滤噪音 463 个，排除全部历史已推送的 175 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -53,25 +53,25 @@
 - 同事件报道：ClawLoop: Self-Improving Agents via Harness-Native Training Loop（arXiv cs.CL）
 - 同事件报道：ReTerm: Recovery Training for Self-Improving Terminal Agents（arXiv cs.LG）
 
-## 7. AI is mass decompiling games. That's both awesome and scary.
+## 7. microsoft/UserRepGen-4B
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：6.0
+- 摘要：text-generation, transformers, safetensors, qwen3_5, image-text-to-text, user-representation, user-simulation, simulation, multi-turn, conversational, en, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B,...
+- 发布时间：2026-10-15 06:03 CST
+- 链接：https://huggingface.co/microsoft/UserRepGen-4B
+- 同事件报道：microsoft/UserRepGen-4B（Reddit AI subreddits (new)）
+
+## 8. perplexity-ai/pplx-embed-v2-context-9b-preview
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.86
+- 摘要：feature-extraction, transformers, safetensors, pplx_contextual_qwen3_5, sentence-similarity, contextual-embeddings, custom_code, multilingual, license:mit, region:us
+- 发布时间：2026-10-08 23:07 CST
+- 链接：https://huggingface.co/perplexity-ai/pplx-embed-v2-context-9b-preview
+
+## 9. AI is mass decompiling games. That's both awesome and scary.
 - 地区：国外源 ｜ 语言：en ｜ 来源：Simon Willison's Weblog、Hacker News (AI stories)（2 个来源） ｜ 热度：5.86
 - 摘要：AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and produ...
 - 发布时间：2026-10-15 00:26 CST
 - 链接：https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/
 - 同事件报道：AI is mass decompiling games. That's both awesome and scary（Hacker News (AI stories)）
-
-## 8. nvidia/DeepSeek-V4.1-Flash-NVFP4
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.5
-- 摘要：image-text-to-text, Model Optimizer, safetensors, deepseek_v41, nvidia, ModelOpt, DeepSeekV4, quantized, FP4, fp4, base_model:deepseek-ai/DeepSeek-V4.1-Flash, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash, license...
-- 发布时间：2026-10-15 00:40 CST
-- 链接：https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4
-
-## 9. OpenAI Says Staffer Arrested for Hidden Recording Device in Office
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、The Verge — AI（2 个来源） ｜ 热度：5.5
-- 摘要：An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Depar...
-- 发布时间：2026-10-14 04:13 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office
-- 同事件报道：OpenAI employee arrested for allegedly planting a bug in a conference room（The Verge — AI）
 
 ## 10. Why do LLM pelicans look like this?
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：5.3
@@ -80,39 +80,39 @@
 - 链接：https://arcfu.com/post/the-emperor-pelican-has-no-clothes/
 - 同事件报道：How do you get AI video to look like casual phone footage instead of a cinematic shot?（Reddit AI subreddits (new)）
 
-## 11. ibm-granite/granitelib-rag-r1.0
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.24
-- 摘要：granite-library, safetensors, gguf, en, arxiv:2504.12397, base_model:ibm-granite/granite-4.0-micro, base_model:quantized:ibm-granite/granite-4.0-micro, license:apache-2.0, region:us
-- 发布时间：2026-10-15 05:48 CST
-- 链接：https://huggingface.co/ibm-granite/granitelib-rag-r1.0
-
-## 12. Predictable AI spend in BigQuery: Introducing cost management for generative AI functions
+## 11. Predictable AI spend in BigQuery: Introducing cost management for generative AI functions
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：4.5
 - 摘要：The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or...
 - 发布时间：2026-10-15 00:00 CST
 - 链接：https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/
 
-## 13. Who Decided AI Gets to Have Feelings?
+## 12. Who Decided AI Gets to Have Feelings?
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.55
 - 发布时间：2026-10-14 08:58 CST
 - 链接：https://middlelayer.substack.com/p/who-decided-ai-gets-to-have-feelings
 - 同事件报道：If an AI helps discover a drug, who gets credit?（Reddit AI subreddits (new)）
 
-## 14. SentinelOne cuts malware analysis from weeks to hours
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.
-- 发布时间：2026-10-14 20:00 CST
-- 链接：https://openai.com/index/sentinelone
+## 13. HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
+- 摘要：A Blog post by Ai2 on Hugging Face
+- 发布时间：2026-10-15 00:12 CST
+- 链接：https://huggingface.co/blog/allenai/hiro-acev2
+
+## 14. Putting Earth AI to work: Geospatial agents for our planet's biggest challenges
+- 地区：国外源 ｜ 语言：en ｜ 来源：Google Research Blog（1 个来源） ｜ 热度：3.5
+- 摘要：Earth AI
+- 发布时间：2026-10-15 00:14 CST
+- 链接：https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/
 
 国内：
 
-## 1. iQOO Neo12 官宣首发 pTSF 技术超冠屏：「天空之镜」发光材料，号称让 185Hz 进入 2K 时代
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、智东西（2 个来源） ｜ 热度：6.0
-- 摘要：IT之家 10 月 14 日消息，在今天的维信诺 × iQOO × 清华大学屏幕技术沟通会上，iQOO 宣布， i QOO Neo12 新机拥有三大首发技术 + 七大争锋屏幕体验 + 2K 185Hz 超豪华游戏生态 ，并喊话“让 185Hz 进入 2K 时代”。 据介绍，iQOO Neo12 手机将行业首发搭载 pTSF 技术的 2K 185Hz 超冠屏、 行业首发「天空之镜」发光材料 、行业首发 2K 185Hz 高性能驱动芯片。...
-- 发布时间：2026-10-14 20:28 CST
-- 链接：https://www.ithome.com/1/013/086.htm
-- 同事件报道：iQOO Neo12 手机官宣“十月底见”：pTSF 技术 2K 185Hz 超冠屏、第五代骁龙 8 至尊版芯片（IT之家）
-- 同事件报道：刚刚，维信诺亮出全球首款2K 185Hz手机屏，iQOO首发（智东西）
+## 1. 一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 AI 频道、36氪 快讯（3 个来源） ｜ 热度：9.0
+- 摘要：IT之家 10 月 14 日消息，美国司法部昨日（10 月 13 日）发布公告， 称 OpenAI 一名沙特籍工程师因涉嫌在旧金山办公室高管会议室安装隐藏录音设备，被逮捕并指控非法拦截口头通信。 该沙特籍工程师现年 35 岁，名为 Abdulrahman Alfozan，已于当地时间 10 月 9 日被逮捕，罪名是非法拦截口头通信。他自 2025 年 7 月起在 OpenAI 工作。若罪名成立，其最高可面临 5 年监禁及 25 万美元...
+- 发布时间：2026-10-14 08:40 CST
+- 链接：https://www.ithome.com/1/012/653.htm
+- 同事件报道：OpenAI高管会议室惊现窃听器，35岁工程师涉案被AI举报送进FBI（36氪 AI 频道）
+- 同事件报道：卫生纸包裹的窃听器、背包里的钱包：OpenAI工程师的「窃听风云」荒诞收场（36氪 AI 频道）
 
 ## 2. 被黄仁勋看中，曾辍学挖矿的他，拿下3000亿AI算力大单，把公司估值做到2300亿
 - 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、虎嗅（2 个来源） ｜ 热度：6.0
@@ -128,23 +128,23 @@
 - 链接：https://zhidx.com/p/600573.html
 - 同事件报道：突发，明星AI独角兽宣布破产（36氪 AI 频道）
 
-## 4. 腾讯、字节、阿里的AI墓园，越来越挤了
+## 4. 中国视频模型Top 3，开始分道而战
+- 地区：国内源 ｜ 语言：zh ｜ 来源：智东西、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：智东西 作者 | 王涵 编辑 | 漠影 国庆前后，Seedance、可灵和Vidu的连续动作，让中国视频模型的竞争除了一如既往全球遥遥领先，还以三足鼎立之势走出几条路径： 有人把重点放在内容生产的工业化效率，有人押注专业制作所需要的控制力，也有人试图把人物、镜头、视效的表现力，和更低的试错成本放进同一件产品里。 这种路径分化，很快体现在具体产品发布上。 9月28日，可灵AI官宣新一代视频生成模型Kling 4.0；10月8日，生数发布新...
+- 发布时间：2026-10-13 23:40 CST
+- 链接：https://zhidx.com/p/600520.html
+- 同事件报道：中国视频模型Top 3，开始分道而战（36氪 AI 频道）
+
+## 5. 腾讯、字节、阿里的AI墓园，越来越挤了
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
 - 摘要：AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布即将停运。10月8日，腾讯元器发了停服通知：11月9日起，这个零代码智能体平台全部停止服务，用户搭好的智能体全部失效。不少公众号博主用它把历史文章做成知识库、给粉丝做7×24小时自动回复，这下得赶紧搬家了。这已经算不上新闻。两周前，腾讯刚宣布“全网...... 本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 AI产品的墓园，可能比你想的大。最近，腾讯又有两款AI产品宣布...
 - 发布时间：2026-10-14 07:53 CST
 - 链接：https://www.huxiu.com/article/4897295.html
 - 同事件报道：腾讯、字节、阿里的AI墓园，越来越挤了（36氪 AI 频道）
 
-## 5. 9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：5.5
-- 摘要：据国家广播电视总局消息，2026年1月开展的“AI魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了9月的处置情况，共清理违规视频近13000条、处置违规账号30余个。据了解，为进一步巩固治理成果，自2026年2月1日起，“AI魔改”视频治理工作通过常态化、制度化长效机制持续开展。广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“AI魔...
-- 发布时间：2026-10-14 10:00 CST
-- 链接：https://www.36kr.com/newsflashes/4025077621788548
-- 同事件报道：9 月“AI 魔改”视频治理成果：清理违规视频近 1.3 万条、处置违规账号 30 余个（IT之家）
-
-## 6. 国内外大厂疯抢Muse入口，但个人Agent仍是伪命题
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Manus也推出个人应用Cue。 一时间“下一代AI入口”的口号铺天盖地，仿佛谁慢半步，就会输掉下一个十年。 但热闹的表象之下，裂痕...
-- 发布时间：2026-10-14 11:35 CST
-- 链接：https://www.36kr.com/p/4025040292188041
-- 同事件报道：国内外大厂疯抢Muse入口，但个人Agent仍是伪命题（钛媒体）
+## 6. 中国芯片一年卖了2400亿美元，但份额只有6%？
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：9月中旬，黄仁勋在All-In播客上被问了一个问题：中国什么时候能有自己的先进光刻机？老黄回答，2030年。All-In Podcast(at 43:43)完事儿还补了一句，两三年时间，算不了什么。"They are going to get there by 2030,2030 is just around...... 本文来自微信公众号： TOP创新区研究院 ，作者：新兴产业研究组 9月中旬，黄仁勋在All-In播客上被问了一个问题...
+- 发布时间：2026-10-14 08:17 CST
+- 链接：https://www.huxiu.com/article/4897305.html
+- 同事件报道：英伟达与华为的6个百分点：中国AI芯片市场竞争格局生变（36氪 AI 频道）
