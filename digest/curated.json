@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-15T06:03:49.108669+00:00",
+ "generated_at": "2026-10-15T11:50:12.290469+00:00",
  "stats": {
-  "items": 4713,
-  "clusters": 2780,
-  "noise": 374,
-  "dup": 161,
+  "items": 1970,
+  "clusters": 1531,
+  "noise": 502,
+  "dup": 127,
   "history_days": 0,
-  "available_cn": 138,
-  "available_intl": 2107,
+  "available_cn": 131,
+  "available_intl": 771,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,26 +16,6 @@
  "items": [
   {
    "rank": 1,
-   "title": "Preserving Updates in Low-Bit Recurrent State Quantization",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.15709",
-   "score": 12.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Preserving Updates in Low-Bit Recurrent State Quantization",
-    "Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution",
-    "E8 Lattice Key Quantization for Low-Bit KV-Cache Compression"
-   ],
-   "published_at": "2026-10-14T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.15709v1 Announce Type: cross Abstract: Linear attention and recurrent models compress past tokens into a fixed-size state that is updated at every step. However, storing these states in high precision incurs s..."
-  },
-  {
-   "rank": 2,
    "title": "Epic’s new games launcher is ‘vibe coded’",
    "lang": "en",
    "region": "intl",
@@ -55,79 +35,62 @@
    "summary": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-ass..."
   },
   {
-   "rank": 3,
-   "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
+   "rank": 2,
+   "title": "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
    "lang": "en",
    "region": "intl",
-   "url": "https://machinelearning.apple.com/research/code-switching-detection",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2610.20367",
+   "score": 8.0,
    "sources": [
-    "apple-ml",
-    "arxiv-cs-cl"
+    "arxiv-cs-cl",
+    "arxiv-cs-cv"
    ],
    "titles": [
-    "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
-    "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models"
+    "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
+    "Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling",
+    "Global Cross-Modal Geo-Localization: A Million-Scale Dataset and a Physical Consistency Learning Framework"
    ],
-   "published_at": "2026-10-14T00:00:00.000000+00:00",
-   "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in lar..."
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.20367v1 Announce Type: new Abstract: Retrieving information from visually rich documents requires matching queries against pages that contain complex evidence in tables, figures, and layout-dependent structure..."
+  },
+  {
+   "rank": 3,
+   "title": "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.20370",
+   "score": 8.0,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-cv"
+   ],
+   "titles": [
+    "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
+    "Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models"
+   ],
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.20370v1 Announce Type: new Abstract: Hate speech has become increasingly prevalent on social media, raising concerns about its detection, interpretation, and moderation. Persian, a relatively low-resource lang..."
   },
   {
    "rank": 4,
-   "title": "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
+   "title": "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.15513",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
-    "FinRED: An Expert-Guided Benchmark Generation and Evaluation Framework for Financial LLM Red-Teaming"
-   ],
-   "published_at": "2026-10-14T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.15513v1 Announce Type: new Abstract: Safety-aligned large language models (LLMs) remain vulnerable to adversarial prompts that bypass their safety training. Existing automated red-teaming methods either requir..."
-  },
-  {
-   "rank": 5,
-   "title": "PAIR: Memory-Efficient and Fast Inference with Reading--Reasoning Fusion",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.16003",
-   "score": 7.5,
+   "url": "https://arxiv.org/abs/2610.20456",
+   "score": 8.0,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-lg"
    ],
    "titles": [
-    "PAIR: Memory-Efficient and Fast Inference with Reading--Reasoning Fusion",
-    "Monarch-Muon: Structure-Aware Muon for Fast and Memory-Efficient Pretraining"
+    "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
+    "Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling"
    ],
-   "published_at": "2026-10-14T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.16003v1 Announce Type: new Abstract: For context-based question answering, using one large model for both evidence extraction and answer reasoning requires substantial memory and computation. Existing approach..."
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.20456v1 Announce Type: new Abstract: The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as..."
   },
   {
-   "rank": 6,
-   "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.14351",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Learning Transferable World-Action Models from Task-Paired Human Videos",
-    "RAP-WAM: Learning World-Action Models through Predictive Rehearsal and Action Perturbations"
-   ],
-   "published_at": "2026-10-14T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.14351v1 Announce Type: new Abstract: World-action models inherit broad visual and physical priors from video pre-training. However, standard within-video next-frame prediction allows them to rely on appearance..."
-  },
-  {
-   "rank": 7,
+   "rank": 5,
    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
    "lang": "en",
    "region": "intl",
@@ -145,7 +108,7 @@
    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
   },
   {
-   "rank": 8,
+   "rank": 6,
    "title": "Deezer will soon let you filter out AI-generated music",
    "lang": "en",
    "region": "intl",
@@ -164,25 +127,23 @@
    "summary": "Deezer said that the new toggle will be rolled out by the end of the year."
   },
   {
-   "rank": 9,
-   "title": "microsoft/UserRepGen-4B",
+   "rank": 7,
+   "title": "ibm-granite/granite-switch-4.1-8b-preview",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/microsoft/UserRepGen-4B",
-   "score": 6.0,
+   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
+   "score": 6.01,
    "sources": [
-    "hf-models-intl",
-    "reddit-ai-new"
+    "hf-models-intl"
    ],
    "titles": [
-    "microsoft/UserRepGen-4B",
-    "microsoft/UserRepGen-4B"
+    "ibm-granite/granite-switch-4.1-8b-preview"
    ],
-   "published_at": "2026-10-14T22:03:45.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, qwen3_5, image-text-to-text, user-representation, user-simulation, simulation, multi-turn, conversational, en, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B,..."
+   "published_at": "2026-10-15T10:57:09.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
   },
   {
-   "rank": 10,
+   "rank": 8,
    "title": "perplexity-ai/pplx-embed-v2-context-9b-preview",
    "lang": "en",
    "region": "intl",
@@ -198,7 +159,7 @@
    "summary": "feature-extraction, transformers, safetensors, pplx_contextual_qwen3_5, sentence-similarity, contextual-embeddings, custom_code, multilingual, license:mit, region:us"
   },
   {
-   "rank": 11,
+   "rank": 9,
    "title": "AI is mass decompiling games. That's both awesome and scary.",
    "lang": "en",
    "region": "intl",
@@ -216,7 +177,25 @@
    "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and produ..."
   },
   {
-   "rank": 12,
+   "rank": 10,
+   "title": "Why do LLM pelicans look like this?",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+   "score": 4.8,
+   "sources": [
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Why do LLM pelicans look like this?",
+    "How do you get AI video to look like casual phone footage instead of a cinematic shot?"
+   ],
+   "published_at": "2026-10-14T16:33:34.000000+00:00",
+   "summary": "Why do LLM pelicans look so alike? A visual look at diversity collapse and our research on creativity in UI design."
+  },
+  {
+   "rank": 11,
    "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
    "lang": "en",
    "region": "intl",
@@ -232,23 +211,7 @@
    "summary": "The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or..."
   },
   {
-   "rank": 13,
-   "title": "Unlock powerful insights and forecasts with Predictive AI Functions",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions",
-   "score": 3.5,
-   "sources": [
-    "databricks-blog"
-   ],
-   "titles": [
-    "Unlock powerful insights and forecasts with Predictive AI Functions"
-   ],
-   "published_at": "2026-10-14T23:30:00.000000+00:00",
-   "summary": "Data teams all get asked the same questions: \"what will sales be next quarter?,\"..."
-  },
-  {
-   "rank": 14,
+   "rank": 12,
    "title": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
    "lang": "en",
    "region": "intl",
@@ -264,29 +227,77 @@
    "summary": "Today, we’re releasing findings from a new YouGov study we commissioned of almost 4,000 small business owners across nine APAC markets: Australia, Singapore, Vietnam, Indonesia, Taiwan, India, Thailand, Japan and Hong Ko..."
   },
   {
-   "rank": 15,
-   "title": "苹果一口气甩12款“果家”新品，HomeView登场：Siri AI接管全屋",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4025056096817028",
-   "score": 12.5,
+   "rank": 13,
+   "title": "Action Jets: Learning the Local Shape of the Action-conditioned Data Manifold",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.19007",
+   "score": 3.5,
    "sources": [
-    "36kr-ai",
-    "ifanr",
-    "huxiu",
-    "ithome"
+    "arxiv-cs-cv"
    ],
    "titles": [
-    "苹果一口气甩12款“果家”新品，HomeView登场：Siri AI接管全屋",
-    "苹果 HomeView 上手汇总：「果家」首秀小惊艳，SiriAI 很聪明",
-    "苹果HomeView 上手汇总：“果家”首秀小惊艳，SiriAI 很聪明",
-    "苹果首款智能家居中枢 HomeView 自带温 / 湿度传感器，能与 LG / 施耐德恒温器同步环境数据"
+    "Action Jets: Learning the Local Shape of the Action-conditioned Data Manifold"
    ],
-   "published_at": "2026-10-14T03:12:00.000000+00:00",
-   "summary": "智东西10月14日报道，昨晚，苹果一口气甩出 4记重磅家居新品 ：带屏智能家居中枢HomeView、最新款电视盒子Apple TV 4K、全新智能音箱HomePod mini以及智能家居配件Home Collection。 其中Apple HomeView搭载Siri AI，可以选择壁挂或放置在桌面上。此外还有只能壁挂的版本，配置相同。 电视盒子Apple TV 4K 搭载A19芯片 与Siri AI，有128GB的存储空间。 Appl..."
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.19007v1 Announce Type: new Abstract: World models are a powerful means of reasoning and planning, but many of these action-conditioned predictive models are high dimensional and computationally expensive. Thes..."
+  },
+  {
+   "rank": 14,
+   "title": "How AI mega-rounds make life harder for VC firms",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.ft.com/content/26db5bb2-9d81-4c62-aeac-c0dfef4c79e6?syn-25a6b1a6=1",
+   "score": 3.5,
+   "sources": [
+    "ft-tech"
+   ],
+   "titles": [
+    "How AI mega-rounds make life harder for VC firms"
+   ],
+   "published_at": "2026-10-15T04:00:29.000000+00:00",
+   "summary": "Fewer-but-bigger deals mean investors are having to put more eggs in a single basket"
+  },
+  {
+   "rank": 15,
+   "title": "AI陪伴一哥破产，Transformer作者创业公司，2000万贱卖迪士尼",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4025580880187523",
+   "score": 8.0,
+   "sources": [
+    "36kr-ai",
+    "tmtpost",
+    "baai-hub"
+   ],
+   "titles": [
+    "AI陪伴一哥破产，Transformer作者创业公司，2000万贱卖迪士尼",
+    "2000 万月活也救不活，AI 情感陪伴界“纯元”驾崩",
+    "AI陪伴一哥破产！Transformer作者创业公司，2000万贱卖迪士尼"
+   ],
+   "published_at": "2026-10-14T11:35:26.000000+00:00",
+   "summary": "Transformer元老创办的AI独角兽，咋就突然要凉凉了？？？ 初代AI陪伴顶流 Character.AI，正式向美国法院申请破产保护 。 更离谱的是，目前愿意接盘的底价只有可怜的 2000万美元 ，不到A轮融资的七分之一（1.5亿美元）。 2000万美元， 就有机会获得Character.AI部分知识产权的永久使用许可。 而且你猜猜，愿意花这笔钱接盘的是谁？ 之前差点打起官司来的迪士尼。。。 也是神了。 最近Muse把个人Agen..."
   },
   {
    "rank": 16,
+   "title": "昆仑万维发布世界首款消费级显卡视频大模型游戏，同步开源",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/013/283.htm",
+   "score": 7.0,
+   "sources": [
+    "ithome",
+    "leiphone"
+   ],
+   "titles": [
+    "昆仑万维发布世界首款消费级显卡视频大模型游戏，同步开源",
+    "昆仑万维诞生世界上第一款消费级显卡视频大模型游戏，同步开源"
+   ],
+   "published_at": "2026-10-15T04:00:28+00:00",
+   "summary": "IT之家 10 月 15 日消息，昆仑万维今日发布世界上第一款运行在单张消费级显卡上的视频大模型游戏 ——Matrix-Game 4.0。 昆仑万维介绍称，“Matrix-Game 4.0 构建起了游戏世界模型的新范式：由游戏引擎维护世界状态与交互规则，由视频生成模型实时呈现精细画面。它把 480p、60 FPS 的实时游戏体验，装进了一张 NVIDIA RTX 5090；从你按下按键，到画面做出反应，延迟低于 150 毫秒。Matri..."
+  },
+  {
+   "rank": 17,
    "title": "上市破发，传音被AI坑惨了？",
    "lang": "zh",
    "region": "cn",
@@ -304,7 +315,7 @@
    "summary": "本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 低价走量加廉价供应链，不好使了。 定焦One（dingjiaoone）原创 10月15日，非洲手机之王传音控股在港交所挂牌。开盘价34.96港元，比发行价低1%，开盘后继续下跌，跌幅一度超过7%。截至发稿，股价在33.6港元附近。 定价其实已经说明了一些问题。10月13日，传音确定H股发行价为每股35.30港元，在35.30至38.80港元招股区间的下限，香港公开发售..."
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "中国科学家首次用中国大模型攻克世界级数学难题，曾困扰学界 30 余年",
    "lang": "zh",
    "region": "cn",
@@ -322,7 +333,25 @@
    "summary": "IT之家 10 月 15 日消息，上海人工智能实验室今日发文，困扰数学界 30 余年的世界级难题 —— 三维 Ghys 猜想 迎来了破解。 上海人工智能实验室访问学者、大湾区大学教授许地生团队依托书生科学多模态大模型 S2（书生-S2），基于“通专融合”技术路径， 通过人机协同完成了三维 Ghys 猜想证明 。 北京大学董彬教授、刘若川院士团队利用其开发的 SHEAF 框架对本次证明完成形式化验证，验证了这一工作的正确性。 这标志着中国..."
   },
   {
-   "rank": 18,
+   "rank": 19,
+   "title": "Muse起势、大厂谋变，个人智能体激战前夜",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4897714.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "tmtpost"
+   ],
+   "titles": [
+    "Muse起势、大厂谋变，个人智能体激战前夜",
+    "Muse起势、大厂谋变，个人智能体激战前夜"
+   ],
+   "published_at": "2026-10-15T05:16:58.000000+00:00",
+   "summary": "本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open..."
+  },
+  {
+   "rank": 20,
    "title": "stepfun-ai/Step-5-Preview-BF16",
    "lang": "en",
    "region": "cn",
@@ -336,42 +365,6 @@
    ],
    "published_at": "2026-10-15T01:31:42.000000+00:00",
    "summary": "safetensors, step5_vl, license:other, region:us"
-  },
-  {
-   "rank": 19,
-   "title": "中国视频模型Top 3，开始分道而战",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://zhidx.com/p/600520.html",
-   "score": 5.5,
-   "sources": [
-    "zhidx",
-    "36kr-ai"
-   ],
-   "titles": [
-    "中国视频模型Top 3，开始分道而战",
-    "中国视频模型Top 3，开始分道而战"
-   ],
-   "published_at": "2026-10-13T15:40:34+00:00",
-   "summary": "智东西 作者 | 王涵 编辑 | 漠影 国庆前后，Seedance、可灵和Vidu的连续动作，让中国视频模型的竞争除了一如既往全球遥遥领先，还以三足鼎立之势走出几条路径： 有人把重点放在内容生产的工业化效率，有人押注专业制作所需要的控制力，也有人试图把人物、镜头、视效的表现力，和更低的试错成本放进同一件产品里。 这种路径分化，很快体现在具体产品发布上。 9月28日，可灵AI官宣新一代视频生成模型Kling 4.0；10月8日，生数发布新..."
-  },
-  {
-   "rank": 20,
-   "title": "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4025040292188041",
-   "score": 5.5,
-   "sources": [
-    "36kr-ai",
-    "huxiu"
-   ],
-   "titles": [
-    "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题",
-    "Muse起势、大厂谋变，个人智能体激战前夜"
-   ],
-   "published_at": "2026-10-14T03:35:56.000000+00:00",
-   "summary": "一个月前，Meta推出个人智能体Muse，舆论把它捧成ChatGPT之后最性感的产品——替你填表、比价、退订、跟客服吵架，关掉App它还在后台替你跑腿。 短短一个月，这场风潮就从硅谷席卷到国内。字节赶工“小豆”，腾讯三条线同时卡位，阿里10月13日刚放出“千问Go！”，蚂蚁内测灵光2.0，连刚融了33亿元的Manus也推出个人应用Cue。 一时间“下一代AI入口”的口号铺天盖地，仿佛谁慢半步，就会输掉下一个十年。 但热闹的表象之下，裂痕..."
   }
  ]
 }
