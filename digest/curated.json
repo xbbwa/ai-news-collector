@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-15T11:50:12.290469+00:00",
+ "generated_at": "2026-10-15T17:15:25.565838+00:00",
  "stats": {
-  "items": 1970,
-  "clusters": 1531,
-  "noise": 502,
-  "dup": 127,
+  "items": 2026,
+  "clusters": 1565,
+  "noise": 513,
+  "dup": 143,
   "history_days": 0,
-  "available_cn": 131,
-  "available_intl": 771,
+  "available_cn": 135,
+  "available_intl": 774,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -16,6 +16,27 @@
  "items": [
   {
    "rank": 1,
+   "title": "Deezer will soon let you filter out AI-generated music",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+   "score": 10.0,
+   "sources": [
+    "techcrunch-ai",
+    "ithome",
+    "arstechnica-ai"
+   ],
+   "titles": [
+    "Deezer will soon let you filter out AI-generated music",
+    "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+    "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”",
+    "Singer or clanker? YouTube Music will tell you with new gen AI labeling."
+   ],
+   "published_at": "2026-10-14T15:16:04.000000+00:00",
+   "summary": "Deezer said that the new toggle will be rolled out by the end of the year."
+  },
+  {
+   "rank": 2,
    "title": "Epic’s new games launcher is ‘vibe coded’",
    "lang": "en",
    "region": "intl",
@@ -35,62 +56,7 @@
    "summary": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-ass..."
   },
   {
-   "rank": 2,
-   "title": "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.20367",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
-    "Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling",
-    "Global Cross-Modal Geo-Localization: A Million-Scale Dataset and a Physical Consistency Learning Framework"
-   ],
-   "published_at": "2026-10-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.20367v1 Announce Type: new Abstract: Retrieving information from visually rich documents requires matching queries against pages that contain complex evidence in tables, figures, and layout-dependent structure..."
-  },
-  {
    "rank": 3,
-   "title": "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.20370",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
-    "Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models"
-   ],
-   "published_at": "2026-10-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.20370v1 Announce Type: new Abstract: Hate speech has become increasingly prevalent on social media, raising concerns about its detection, interpretation, and moderation. Persian, a relatively low-resource lang..."
-  },
-  {
-   "rank": 4,
-   "title": "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.20456",
-   "score": 8.0,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
-    "Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling"
-   ],
-   "published_at": "2026-10-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.20456v1 Announce Type: new Abstract: The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as..."
-  },
-  {
-   "rank": 5,
    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
    "lang": "en",
    "region": "intl",
@@ -108,26 +74,78 @@
    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
   },
   {
-   "rank": 6,
-   "title": "Deezer will soon let you filter out AI-generated music",
+   "rank": 4,
+   "title": "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
    "lang": "en",
    "region": "intl",
-   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-   "score": 6.5,
+   "url": "https://arxiv.org/abs/2610.20367",
+   "score": 7.5,
    "sources": [
-    "techcrunch-ai",
-    "ithome"
+    "arxiv-cs-cl",
+    "arxiv-cs-cv"
    ],
    "titles": [
-    "Deezer will soon let you filter out AI-generated music",
-    "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-    "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”"
+    "Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search",
+    "Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling",
+    "Global Cross-Modal Geo-Localization: A Million-Scale Dataset and a Physical Consistency Learning Framework"
    ],
-   "published_at": "2026-10-14T15:16:04.000000+00:00",
-   "summary": "Deezer said that the new toggle will be rolled out by the end of the year."
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.20367v1 Announce Type: new Abstract: Retrieving information from visually rich documents requires matching queries against pages that contain complex evidence in tables, figures, and layout-dependent structure..."
+  },
+  {
+   "rank": 5,
+   "title": "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.20370",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-cv"
+   ],
+   "titles": [
+    "From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech",
+    "Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models"
+   ],
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.20370v1 Announce Type: new Abstract: Hate speech has become increasingly prevalent on social media, raising concerns about its detection, interpretation, and moderation. Persian, a relatively low-resource lang..."
+  },
+  {
+   "rank": 6,
+   "title": "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://arxiv.org/abs/2610.20456",
+   "score": 7.5,
+   "sources": [
+    "arxiv-cs-cl",
+    "arxiv-cs-lg"
+   ],
+   "titles": [
+    "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
+    "Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling"
+   ],
+   "published_at": "2026-10-15T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.20456v1 Announce Type: new Abstract: The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as..."
   },
   {
    "rank": 7,
+   "title": "ibm-granite/granite-switch-4.1-3b-preview",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
+   "score": 6.07,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "ibm-granite/granite-switch-4.1-3b-preview"
+   ],
+   "published_at": "2026-10-15T13:02:12.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
+  },
+  {
+   "rank": 8,
    "title": "ibm-granite/granite-switch-4.1-8b-preview",
    "lang": "en",
    "region": "intl",
@@ -141,22 +159,6 @@
    ],
    "published_at": "2026-10-15T10:57:09.000000+00:00",
    "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
-  },
-  {
-   "rank": 8,
-   "title": "perplexity-ai/pplx-embed-v2-context-9b-preview",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/perplexity-ai/pplx-embed-v2-context-9b-preview",
-   "score": 5.86,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "perplexity-ai/pplx-embed-v2-context-9b-preview"
-   ],
-   "published_at": "2026-10-08T15:07:05.000000+00:00",
-   "summary": "feature-extraction, transformers, safetensors, pplx_contextual_qwen3_5, sentence-similarity, contextual-embeddings, custom_code, multilingual, license:mit, region:us"
   },
   {
    "rank": 9,
@@ -178,6 +180,24 @@
   },
   {
    "rank": 10,
+   "title": "I build a free, open-source macOS notch app that shows what your AI coding agents are doing",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://v.redd.it/ew9wfwws2gvh1",
+   "score": 4.84,
+   "sources": [
+    "reddit-ai-new",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "I build a free, open-source macOS notch app that shows what your AI coding agents are doing",
+    "GridSnap – an open-source Divvy-style window snapper for macOS"
+   ],
+   "published_at": "2026-10-14T14:44:29.000000+00:00",
+   "summary": "I built Pip, a small macOS app that lives in the notch and shows what your AI coding agents are doing. It started because I kept running Claude Code in a few terminals and switching between them to see which one was wait..."
+  },
+  {
+   "rank": 11,
    "title": "Why do LLM pelicans look like this?",
    "lang": "en",
    "region": "intl",
@@ -195,7 +215,39 @@
    "summary": "Why do LLM pelicans look so alike? A visual look at diversity collapse and our research on creativity in UI design."
   },
   {
-   "rank": 11,
+   "rank": 12,
+   "title": "Apertus 1.5 Release Notes",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+   "score": 4.5,
+   "sources": [
+    "huggingface-blog"
+   ],
+   "titles": [
+    "Apertus 1.5 Release Notes"
+   ],
+   "published_at": "2026-10-15T09:08:45.000000+00:00",
+   "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
+  },
+  {
+   "rank": 13,
+   "title": "Introducing Timestral",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://mistral.ai/news/timestral/",
+   "score": 4.5,
+   "sources": [
+    "mistral-news"
+   ],
+   "titles": [
+    "Introducing Timestral"
+   ],
+   "published_at": "2026-10-15T12:00:00.000000+00:00",
+   "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
+  },
+  {
+   "rank": 14,
    "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
    "lang": "en",
    "region": "intl",
@@ -209,54 +261,6 @@
    ],
    "published_at": "2026-10-14T16:00:00.000000+00:00",
    "summary": "The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or..."
-  },
-  {
-   "rank": 12,
-   "title": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://about.fb.com/news/2026/10/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-but-most-need-more-guidance/",
-   "score": 3.5,
-   "sources": [
-    "meta-newsroom"
-   ],
-   "titles": [
-    "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance"
-   ],
-   "published_at": "2026-10-15T00:50:50.000000+00:00",
-   "summary": "Today, we’re releasing findings from a new YouGov study we commissioned of almost 4,000 small business owners across nine APAC markets: Australia, Singapore, Vietnam, Indonesia, Taiwan, India, Thailand, Japan and Hong Ko..."
-  },
-  {
-   "rank": 13,
-   "title": "Action Jets: Learning the Local Shape of the Action-conditioned Data Manifold",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.19007",
-   "score": 3.5,
-   "sources": [
-    "arxiv-cs-cv"
-   ],
-   "titles": [
-    "Action Jets: Learning the Local Shape of the Action-conditioned Data Manifold"
-   ],
-   "published_at": "2026-10-15T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.19007v1 Announce Type: new Abstract: World models are a powerful means of reasoning and planning, but many of these action-conditioned predictive models are high dimensional and computationally expensive. Thes..."
-  },
-  {
-   "rank": 14,
-   "title": "How AI mega-rounds make life harder for VC firms",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/26db5bb2-9d81-4c62-aeac-c0dfef4c79e6?syn-25a6b1a6=1",
-   "score": 3.5,
-   "sources": [
-    "ft-tech"
-   ],
-   "titles": [
-    "How AI mega-rounds make life harder for VC firms"
-   ],
-   "published_at": "2026-10-15T04:00:29.000000+00:00",
-   "summary": "Fewer-but-bigger deals mean investors are having to put more eggs in a single basket"
   },
   {
    "rank": 15,
@@ -284,7 +288,7 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/013/283.htm",
-   "score": 7.0,
+   "score": 6.5,
    "sources": [
     "ithome",
     "leiphone"
@@ -298,42 +302,6 @@
   },
   {
    "rank": 17,
-   "title": "上市破发，传音被AI坑惨了？",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4897676.html",
-   "score": 6.0,
-   "sources": [
-    "huxiu",
-    "tmtpost"
-   ],
-   "titles": [
-    "上市破发，传音被AI坑惨了？",
-    "上市破发，传音被AI坑惨了？"
-   ],
-   "published_at": "2026-10-15T03:19:35.000000+00:00",
-   "summary": "本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 低价走量加廉价供应链，不好使了。 定焦One（dingjiaoone）原创 10月15日，非洲手机之王传音控股在港交所挂牌。开盘价34.96港元，比发行价低1%，开盘后继续下跌，跌幅一度超过7%。截至发稿，股价在33.6港元附近。 定价其实已经说明了一些问题。10月13日，传音确定H股发行价为每股35.30港元，在35.30至38.80港元招股区间的下限，香港公开发售..."
-  },
-  {
-   "rank": 18,
-   "title": "中国科学家首次用中国大模型攻克世界级数学难题，曾困扰学界 30 余年",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/013/269.htm",
-   "score": 6.0,
-   "sources": [
-    "ithome",
-    "tmtpost"
-   ],
-   "titles": [
-    "中国科学家首次用中国大模型攻克世界级数学难题，曾困扰学界 30 余年",
-    "中国科学家首次以书生科学多模态大模型攻克世界级数学难题"
-   ],
-   "published_at": "2026-10-15T03:23:31+00:00",
-   "summary": "IT之家 10 月 15 日消息，上海人工智能实验室今日发文，困扰数学界 30 余年的世界级难题 —— 三维 Ghys 猜想 迎来了破解。 上海人工智能实验室访问学者、大湾区大学教授许地生团队依托书生科学多模态大模型 S2（书生-S2），基于“通专融合”技术路径， 通过人机协同完成了三维 Ghys 猜想证明 。 北京大学董彬教授、刘若川院士团队利用其开发的 SHEAF 框架对本次证明完成形式化验证，验证了这一工作的正确性。 这标志着中国..."
-  },
-  {
-   "rank": 19,
    "title": "Muse起势、大厂谋变，个人智能体激战前夜",
    "lang": "zh",
    "region": "cn",
@@ -351,20 +319,58 @@
    "summary": "本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open..."
   },
   {
-   "rank": 20,
-   "title": "stepfun-ai/Step-5-Preview-BF16",
-   "lang": "en",
+   "rank": 18,
+   "title": "Anthropic尽调后放弃，亚马逊为何还在追Decart？",
+   "lang": "zh",
    "region": "cn",
-   "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16",
-   "score": 5.9,
+   "url": "https://www.36kr.com/p/4025630372992642",
+   "score": 5.5,
    "sources": [
-    "hf-models-cn"
+    "36kr-ai",
+    "tmtpost"
    ],
    "titles": [
-    "stepfun-ai/Step-5-Preview-BF16"
+    "Anthropic尽调后放弃，亚马逊为何还在追Decart？",
+    "Anthropic尽调后放弃，亚马逊为何还在追Decart？"
    ],
-   "published_at": "2026-10-15T01:31:42.000000+00:00",
-   "summary": "safetensors, step5_vl, license:other, region:us"
+   "published_at": "2026-10-14T11:48:23.000000+00:00",
+   "summary": "据报道，亚马逊正洽谈收购以色列AI初创公司Decart，潜在交易金额约70亿美元。此前，Anthropic也曾以约60亿美元的估值与Decart接触，但在尽调后放弃继续收购；英伟达、Nebius等公司也曾被媒体列入潜在买家名单。 Decart成立于2023年，由三位工程师创办。2026年5月，公司刚完成3亿美元融资，估值接近40亿美元，投资方包括Radical Ventures和英伟达等。 几个月后，市场传出的潜在收购价格已经接近70亿..."
+  },
+  {
+   "rank": 19,
+   "title": "价格从“元”降到“分”，AI视频的下半场开打了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4025642512896130",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "价格从“元”降到“分”，AI视频的下半场开打了",
+    "价格从“元”降到“分”，AI视频的下半场开打了"
+   ],
+   "published_at": "2026-10-14T12:48:51.000000+00:00",
+   "summary": "视频模型的DeepSeek时刻，本质不是低价，而是物美价廉。 9月28日，快手可灵AI的Kling 4.0开启内测，把单次原生视频时长拉到了30秒，画质干到4K，同时首个“轻量版”模型Kling 4.0 Flash上线，主打出视频速度快，价格也要往下走，不过目前其API定价尚未公布。 10月8日，生数科技Vidu Q4 Preview发布，支持15张参考图、3段参考音频、同样4K直出，同时延续了以往“又好又快”的优势——他们把首发价格打..."
+  },
+  {
+   "rank": 20,
+   "title": "马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/013/156.htm",
+   "score": 5.5,
+   "sources": [
+    "ithome",
+    "huxiu"
+   ],
+   "titles": [
+    "马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”",
+    "马斯克：过去1年，经历了6次“AI精神病”"
+   ],
+   "published_at": "2026-10-14T23:24:51+00:00",
+   "summary": "IT之家 10 月 15 日消息，当地时间 14 日，据《商业内幕》报道，马斯克出席上周六的 X Takeover 活动，在访谈中大谈 AI 的神奇之处，随后却少有地谈起自己的感受：“我有点‘赛博精神错乱’，其实可能还挺严重。” 他称，过去一年里，自己大概经历了六次“AI / SI 精神错乱”（IT之家注：SI 指的是美国总统特朗普将人工智能改称的“超级智能”）。 “AI 精神错乱”并非正式医学术语，也没有公认的定义。通常指人们 反复使..."
   }
  ]
 }
