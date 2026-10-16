@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-16T21:30:01.490591+00:00",
+ "generated_at": "2026-10-16T23:46:38.015827+00:00",
  "stats": {
-  "items": 1923,
-  "clusters": 1553,
-  "noise": 448,
-  "dup": 132,
+  "items": 1899,
+  "clusters": 1520,
+  "noise": 446,
+  "dup": 130,
   "history_days": 0,
-  "available_cn": 134,
-  "available_intl": 839,
+  "available_cn": 109,
+  "available_intl": 835,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -111,6 +111,26 @@
   },
   {
    "rank": 6,
+   "title": "Nemotron 3.5 Super VL",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.producthunt.com/products/nvidia",
+   "score": 6.05,
+   "sources": [
+    "producthunt-ai",
+    "hackernews-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Nemotron 3.5 Super VL",
+    "Nvidia Nemotron 3.5 Bolt 74B-A9B",
+    "Nemotron 3.5 Bolt Evaluation using real-world tasks"
+   ],
+   "published_at": "2026-10-15T15:27:13.000000+00:00",
+   "summary": "NVIDIA’s open multimodal model for specialized agents Discussion | Link"
+  },
+  {
+   "rank": 7,
    "title": "Meta’s new terms may allow it to train AI on news sites for free",
    "lang": "en",
    "region": "intl",
@@ -128,7 +148,7 @@
    "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh..."
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Anthropic secured highest junk credit rating in June",
    "lang": "en",
    "region": "intl",
@@ -144,24 +164,6 @@
    ],
    "published_at": "2026-10-16T04:00:18.000000+00:00",
    "summary": "Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status"
-  },
-  {
-   "rank": 8,
-   "title": "ChatGPT can peek at your Chrome tabs now",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-   "score": 5.5,
-   "sources": [
-    "theverge-ai",
-    "the-decoder"
-   ],
-   "titles": [
-    "ChatGPT can peek at your Chrome tabs now",
-    "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs"
-   ],
-   "published_at": "2026-10-15T22:43:23.000000+00:00",
-   "summary": "OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT c..."
   },
   {
    "rank": 9,
@@ -183,22 +185,6 @@
   },
   {
    "rank": 10,
-   "title": "perplexity-ai/pplx-decider-v1-27b",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b",
-   "score": 5.0,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "perplexity-ai/pplx-decider-v1-27b"
-   ],
-   "published_at": "2026-10-12T07:25:57.000000+00:00",
-   "summary": "text-classification, pytorch, safetensors, qwen3_5, classification, multimodal, custom-code, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us"
-  },
-  {
-   "rank": 11,
    "title": "nvidia/PixelUMM",
    "lang": "en",
    "region": "intl",
@@ -214,7 +200,7 @@
    "summary": "any-to-any, multimodal, image-generation, video-generation, image-to-text, video-text-to-text, arxiv:2609.38597, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:other, region:us"
   },
   {
-   "rank": 12,
+   "rank": 11,
    "title": "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages",
    "lang": "en",
    "region": "intl",
@@ -230,7 +216,7 @@
    "summary": "IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]..."
   },
   {
-   "rank": 13,
+   "rank": 12,
    "title": "Four evaluation engineering lessons learned from building agent plugins",
    "lang": "en",
    "region": "intl",
@@ -246,7 +232,7 @@
    "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to..."
   },
   {
-   "rank": 14,
+   "rank": 13,
    "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
    "lang": "en",
    "region": "intl",
@@ -260,6 +246,22 @@
    ],
    "published_at": "2026-10-16T16:00:00.000000+00:00",
    "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology..."
+  },
+  {
+   "rank": 14,
+   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "score": 3.5,
+   "sources": [
+    "google-research"
+   ],
+   "titles": [
+    "Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+   ],
+   "published_at": "2026-10-16T18:11:34.000000+00:00",
+   "summary": "General Science"
   },
   {
    "rank": 15,
@@ -321,55 +323,57 @@
   },
   {
    "rank": 18,
-   "title": "openbmb/MiniCPM-o-4_5",
-   "lang": "en",
+   "title": "为什么 Anthropic 不做 Personal AI",
+   "lang": "zh",
    "region": "cn",
-   "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+   "url": "https://www.36kr.com/p/4027088487223937",
    "score": 5.5,
    "sources": [
-    "hf-models-cn"
+    "36kr-ai",
+    "geekpark"
    ],
    "titles": [
-    "openbmb/MiniCPM-o-4_5"
+    "为什么 Anthropic 不做 Personal AI",
+    "为什么 Anthropic 不做 Personal AI"
    ],
-   "published_at": "2026-10-16T10:30:03.000000+00:00",
-   "summary": "any-to-any, transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o, minicpm-v, multimodal, full-duplex, custom_code, arxiv:2408.01800, license:apache-2.0, region:us"
+   "published_at": "2026-10-15T23:30:31.000000+00:00",
+   "summary": "生活，还是干活，这是个问题。 不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： 「 built to handle everything 」，什么都能接。 三周前的 9..."
   },
   {
    "rank": 19,
-   "title": "辛顿回怼黄仁勋：AI灭绝人类的概率，是10%到20%",
+   "title": "第一款 AI 手机，被半个互联网「拒」了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4026627804370821",
+   "url": "http://www.geekpark.net/news/372436",
    "score": 5.5,
    "sources": [
-    "36kr-ai",
+    "geekpark",
     "tmtpost"
    ],
    "titles": [
-    "辛顿回怼黄仁勋：AI灭绝人类的概率，是10%到20%",
-    "山姆全国第70家门店落地无锡；浴见北京首店开业；⻨⼦妈经销商⼤会释放加速扩张信号；10月20日晚8点天猫双11开卖｜消研所周报"
+    "第一款 AI 手机，被半个互联网「拒」了",
+    "被半个互联网拒绝，豆包手机有解吗？"
    ],
-   "published_at": "2026-10-15T08:40:30.000000+00:00",
-   "summary": "作为当今所有AI的祖师爷，杰弗里·辛顿又一次发出警告了。 在最近接受《卫报》的一次长篇采访里，辛顿表示，黄仁勋以及其他和黄仁勋持相同观点的人“都是错的”。 同时，他还把三个科技圈的顶级人物归成了一类，这其中就有网景（Netscape）联合创始人、硅谷顶级风投a16z（Andreessen Horowitz）的掌门人马克·安德森，PayPal联合创始人、Facebook首位外部投资人、国防大数据公司Palantir的联合创始人彼得·蒂尔，..."
+   "published_at": "2026-10-16T02:18:36+00:00",
+   "summary": "头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手..."
   },
   {
    "rank": 20,
-   "title": "日租金跌至几百元，人形机器人的“打工时代”来了",
+   "title": "当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4026972554547587",
+   "url": "https://www.tmtpost.com/8170778.html",
    "score": 5.5,
    "sources": [
-    "36kr-ai",
-    "tmtpost"
+    "tmtpost",
+    "ifanr"
    ],
    "titles": [
-    "日租金跌至几百元，人形机器人的“打工时代”来了",
-    "日租金跌至几百元，人形机器人的“打工时代”来了"
+    "当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了",
+    "英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由"
    ],
-   "published_at": "2026-10-15T10:53:07.000000+00:00",
-   "summary": "从日租价格几千上万元到几百元，人形机器人的租赁市场所经历的价格雪崩还在继续。 不到一年时间，机器人就从流量、面子、科技感的象征，变成必须真正干活的“钢铁牛马”。刚刚过去的国庆假期，就是这场价值回归的集中展示。 杭州西湖景区，有“杭警智行”交管机器人为路人导航；安徽省合肥市合柴1972文创园，有人形机器人担任“营业员”，在顾客下单后可自主完成商品识别、精准抓取与自动递送等多项任务；广州、桂林、西安、天津等城市，跨维智能的30多个机器人商业..."
+   "published_at": "2026-10-16T04:05:39+00:00",
+   "summary": "图片由WorkBuddy生成 AI进企业这件事，近两年一直卡在一个问题上：它究竟该以什么形态进来？ 这个问题比它听起来要难，模型越来越强，但把AI放进真实企业，绕不开两道关。一道是产品形态，AI应该是一个独立的入口，还是嵌进企业已经在用的工作流？另一道是组织形态，做AI的团队和做协同办公的团队，应该各立门户，还是合成一体。 企业微信在其中的位置一直有点特别。它手里有 国内规模最大的企业组织关系 ，也有 企业与微信客户之间的连接 ，按理说..."
   }
  ]
 }

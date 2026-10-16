@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-17 05:30 CST
-数据窗口：最近 24 小时，1923 条原始条目 → 1553 个事件；过滤噪音 448 个，排除全部历史已推送的 132 个。
+生成时间：2026-10-17 07:46 CST
+数据窗口：最近 24 小时，1899 条原始条目 → 1520 个事件；过滤噪音 446 个，排除全部历史已推送的 130 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -44,26 +44,27 @@
 - 链接：https://arxiv.org/abs/2610.20845
 - 同事件报道：Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine（arXiv cs.AI）
 
-## 6. Meta’s new terms may allow it to train AI on news sites for free
+## 6. Nemotron 3.5 Super VL
+- 地区：国外源 ｜ 语言：en ｜ 来源：Product Hunt — AI、Hacker News (AI stories)、Reddit AI subreddits (new)（3 个来源） ｜ 热度：6.05
+- 摘要：NVIDIA’s open multimodal model for specialized agents Discussion | Link
+- 发布时间：2026-10-15 23:27 CST
+- 链接：https://www.producthunt.com/products/nvidia
+- 同事件报道：Nvidia Nemotron 3.5 Bolt 74B-A9B（Hacker News (AI stories)）
+- 同事件报道：Nemotron 3.5 Bolt Evaluation using real-world tasks（Reddit AI subreddits (new)）
+
+## 7. Meta’s new terms may allow it to train AI on news sites for free
 - 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、Ars Technica — AI（2 个来源） ｜ 热度：6.0
 - 摘要：Meta's new terms appear to give it permission to crawl and scrape websites "associated" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh...
 - 发布时间：2026-10-16 22:02 CST
 - 链接：https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers
 - 同事件报道：Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees（Ars Technica — AI）
 
-## 7. Anthropic secured highest junk credit rating in June
+## 8. Anthropic secured highest junk credit rating in June
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.93
 - 摘要：Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status
 - 发布时间：2026-10-16 12:00 CST
 - 链接：https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1
 - 同事件报道：Anthropic assigned highest junk credit rating in June（Hacker News (AI stories)）
-
-## 8. ChatGPT can peek at your Chrome tabs now
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、The Decoder（2 个来源） ｜ 热度：5.5
-- 摘要：OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT c...
-- 发布时间：2026-10-16 06:43 CST
-- 链接：https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs
-- 同事件报道：ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs（The Decoder）
 
 ## 9. Citi becomes latest US bank to restrict AI agents from accessing accounts
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.07
@@ -72,35 +73,35 @@
 - 链接：https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1
 - 同事件报道：Citi becomes latest US bank to restrict AI agents from accessing accounts（Hacker News (AI stories)）
 
-## 10. perplexity-ai/pplx-decider-v1-27b
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.0
-- 摘要：text-classification, pytorch, safetensors, qwen3_5, classification, multimodal, custom-code, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us
-- 发布时间：2026-10-12 15:25 CST
-- 链接：https://huggingface.co/perplexity-ai/pplx-decider-v1-27b
-
-## 11. nvidia/PixelUMM
+## 10. nvidia/PixelUMM
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.95
 - 摘要：any-to-any, multimodal, image-generation, video-generation, image-to-text, video-text-to-text, arxiv:2609.38597, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:other, region:us
 - 发布时间：2026-10-15 14:07 CST
 - 链接：https://huggingface.co/nvidia/PixelUMM
 
-## 12. Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages
+## 11. Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages
 - 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
 - 摘要：IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]...
 - 发布时间：2026-10-16 23:37 CST
 - 链接：https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages
 
-## 13. Four evaluation engineering lessons learned from building agent plugins
+## 12. Four evaluation engineering lessons learned from building agent plugins
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
 - 摘要：The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to...
 - 发布时间：2026-10-17 00:00 CST
 - 链接：https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/
 
-## 14. Architecting autonomy: A design pattern for high-compute, governed agents in biotech
+## 13. Architecting autonomy: A design pattern for high-compute, governed agents in biotech
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
 - 摘要：In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology...
 - 发布时间：2026-10-17 00:00 CST
 - 链接：https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/
+
+## 14. Grounding AI agents in biological reality: Building blocks for autonomous wet labs
+- 地区：国外源 ｜ 语言：en ｜ 来源：Google Research Blog（1 个来源） ｜ 热度：3.5
+- 摘要：General Science
+- 发布时间：2026-10-17 02:11 CST
+- 链接：https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/
 
 国内：
 
@@ -127,22 +128,23 @@
 - 链接：https://www.qbitai.com/2026/10/503829.html
 - 同事件报道：范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”（InfoQ 中文）
 
-## 4. openbmb/MiniCPM-o-4_5
-- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.5
-- 摘要：any-to-any, transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o, minicpm-v, multimodal, full-duplex, custom_code, arxiv:2408.01800, license:apache-2.0, region:us
-- 发布时间：2026-10-16 18:30 CST
-- 链接：https://huggingface.co/openbmb/MiniCPM-o-4_5
+## 4. 为什么 Anthropic 不做 Personal AI
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、极客公园（2 个来源） ｜ 热度：5.5
+- 摘要：生活，还是干活，这是个问题。 不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： 「 built to handle everything 」，什么都能接。 三周前的 9...
+- 发布时间：2026-10-16 07:30 CST
+- 链接：https://www.36kr.com/p/4027088487223937
+- 同事件报道：为什么 Anthropic 不做 Personal AI（极客公园）
 
-## 5. 辛顿回怼黄仁勋：AI灭绝人类的概率，是10%到20%
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：作为当今所有AI的祖师爷，杰弗里·辛顿又一次发出警告了。 在最近接受《卫报》的一次长篇采访里，辛顿表示，黄仁勋以及其他和黄仁勋持相同观点的人“都是错的”。 同时，他还把三个科技圈的顶级人物归成了一类，这其中就有网景（Netscape）联合创始人、硅谷顶级风投a16z（Andreessen Horowitz）的掌门人马克·安德森，PayPal联合创始人、Facebook首位外部投资人、国防大数据公司Palantir的联合创始人彼得·蒂尔，...
-- 发布时间：2026-10-15 16:40 CST
-- 链接：https://www.36kr.com/p/4026627804370821
-- 同事件报道：山姆全国第70家门店落地无锡；浴见北京首店开业；⻨⼦妈经销商⼤会释放加速扩张信号；10月20日晚8点天猫双11开卖｜消研所周报（钛媒体）
+## 5. 第一款 AI 手机，被半个互联网「拒」了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：极客公园、钛媒体（2 个来源） ｜ 热度：5.5
+- 摘要：头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手...
+- 发布时间：2026-10-16 10:18 CST
+- 链接：http://www.geekpark.net/news/372436
+- 同事件报道：被半个互联网拒绝，豆包手机有解吗？（钛媒体）
 
-## 6. 日租金跌至几百元，人形机器人的“打工时代”来了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：从日租价格几千上万元到几百元，人形机器人的租赁市场所经历的价格雪崩还在继续。 不到一年时间，机器人就从流量、面子、科技感的象征，变成必须真正干活的“钢铁牛马”。刚刚过去的国庆假期，就是这场价值回归的集中展示。 杭州西湖景区，有“杭警智行”交管机器人为路人导航；安徽省合肥市合柴1972文创园，有人形机器人担任“营业员”，在顾客下单后可自主完成商品识别、精准抓取与自动递送等多项任务；广州、桂林、西安、天津等城市，跨维智能的30多个机器人商业...
-- 发布时间：2026-10-15 18:53 CST
-- 链接：https://www.36kr.com/p/4026972554547587
-- 同事件报道：日租金跌至几百元，人形机器人的“打工时代”来了（钛媒体）
+## 6. 当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、爱范儿（2 个来源） ｜ 热度：5.5
+- 摘要：图片由WorkBuddy生成 AI进企业这件事，近两年一直卡在一个问题上：它究竟该以什么形态进来？ 这个问题比它听起来要难，模型越来越强，但把AI放进真实企业，绕不开两道关。一道是产品形态，AI应该是一个独立的入口，还是嵌进企业已经在用的工作流？另一道是组织形态，做AI的团队和做协同办公的团队，应该各立门户，还是合成一体。 企业微信在其中的位置一直有点特别。它手里有 国内规模最大的企业组织关系 ，也有 企业与微信客户之间的连接 ，按理说...
+- 发布时间：2026-10-16 12:05 CST
+- 链接：https://www.tmtpost.com/8170778.html
+- 同事件报道：英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由（爱范儿）
