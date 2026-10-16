@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-16T12:38:04.164015+00:00",
+ "generated_at": "2026-10-16T17:36:32.205547+00:00",
  "stats": {
-  "items": 1984,
-  "clusters": 1554,
-  "noise": 431,
-  "dup": 140,
+  "items": 1945,
+  "clusters": 1536,
+  "noise": 434,
+  "dup": 127,
   "history_days": 0,
-  "available_cn": 133,
-  "available_intl": 850,
+  "available_cn": 135,
+  "available_intl": 840,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,7 +20,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.21011",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-ai"
@@ -38,7 +38,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2603.16122",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cv",
     "arxiv-cs-lg"
@@ -56,7 +56,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.21254",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -74,7 +74,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://arxiv.org/abs/2610.20845",
-   "score": 8.0,
+   "score": 7.5,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
@@ -88,143 +88,74 @@
   },
   {
    "rank": 5,
-   "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+   "title": "China unveils draft export controls on AI technologies and chips",
    "lang": "en",
    "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-   "score": 6.5,
+   "url": "https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf?syn-25a6b1a6=1",
+   "score": 6.0,
    "sources": [
-    "nvidia-blog",
-    "bloomberg-tech"
+    "ft-tech",
+    "reddit-ai-hot"
    ],
    "titles": [
-    "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-    "Nvidia Partner GMI Cloud Calls CoreWeave’s 15% Yield ‘Insane’"
+    "China unveils draft export controls on AI technologies and chips",
+    "China proposes export controls on 23 AI technologies (including large models, agents & clusters); already open-sourced tech is exempted"
    ],
-   "published_at": "2026-10-15T13:00:59.000000+00:00",
-   "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in..."
+   "published_at": "2026-10-16T12:51:49.000000+00:00",
+   "summary": "Expanded restrictions highlight Beijing’s determination to prevent transfer of most advanced technology overseas"
   },
   {
    "rank": 6,
-   "title": "ibm-granite/granite-switch-4.1-3b-preview",
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
-   "score": 5.57,
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "score": 6.0,
    "sources": [
-    "hf-models-intl"
+    "theverge-ai",
+    "arstechnica-ai"
    ],
    "titles": [
-    "ibm-granite/granite-switch-4.1-3b-preview"
+    "Meta’s new terms may allow it to train AI on news sites for free",
+    "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees"
    ],
-   "published_at": "2026-10-15T13:02:12.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
+   "published_at": "2026-10-16T14:02:40.000000+00:00",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh..."
   },
   {
    "rank": 7,
-   "title": "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk",
+   "title": "perplexity-ai/pplx-decider-v1-27b",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.cnbc.com/2026/10/15/5-things-to-know-before-the-stock-market-opens.html",
-   "score": 5.5,
-   "sources": [
-    "cnbc-tech",
-    "ft-tech"
-   ],
-   "titles": [
-    "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk",
-    "Wall Street’s AI wobbles"
-   ],
-   "published_at": "2026-10-15T12:32:10.000000+00:00",
-   "summary": "Here are five key things investors need to know to start the trading day."
-  },
-  {
-   "rank": 8,
-   "title": "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-risk-gauge-hits-record-pricing-60-odds-of-default",
-   "score": 5.5,
-   "sources": [
-    "bloomberg-tech",
-    "cnbc-tech"
-   ],
-   "titles": [
-    "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
-    "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
-    "ARK’s Wood Says CoreWeave Will Overcome Debt Fears on AI Demand"
-   ],
-   "published_at": "2026-10-15T14:01:51.000000+00:00",
-   "summary": "A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers."
-  },
-  {
-   "rank": 9,
-   "title": "ibm-granite/granite-switch-4.1-30b-preview",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview",
-   "score": 5.46,
+   "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b",
+   "score": 5.0,
    "sources": [
     "hf-models-intl"
    ],
    "titles": [
-    "ibm-granite/granite-switch-4.1-30b-preview"
+    "perplexity-ai/pplx-decider-v1-27b"
    ],
-   "published_at": "2026-10-15T13:51:55.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
+   "published_at": "2026-10-12T07:25:57.000000+00:00",
+   "summary": "text-classification, pytorch, safetensors, qwen3_5, classification, multimodal, custom-code, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us"
   },
   {
-   "rank": 10,
-   "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
+   "rank": 8,
+   "title": "nvidia/PixelUMM",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1",
-   "score": 4.56,
+   "url": "https://huggingface.co/nvidia/PixelUMM",
+   "score": 4.95,
    "sources": [
-    "ft-tech",
-    "hackernews-ai"
+    "hf-models-intl"
    ],
    "titles": [
-    "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
-    "Investors dump data centre bonds as AI borrowers face 'Darwin moment'"
+    "nvidia/PixelUMM"
    ],
-   "published_at": "2026-10-15T15:25:47.000000+00:00",
-   "summary": "Debt issued by AI infrastructure providers and neocloud companies has sunk towards stressed territory"
+   "published_at": "2026-10-15T06:07:25.000000+00:00",
+   "summary": "any-to-any, multimodal, image-generation, video-generation, image-to-text, video-text-to-text, arxiv:2609.38597, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:other, region:us"
   },
   {
-   "rank": 11,
-   "title": "Apertus 1.5 Release Notes",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-   "score": 4.0,
-   "sources": [
-    "huggingface-blog"
-   ],
-   "titles": [
-    "Apertus 1.5 Release Notes"
-   ],
-   "published_at": "2026-10-15T09:08:45.000000+00:00",
-   "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
-  },
-  {
-   "rank": 12,
-   "title": "Introducing Timestral",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://mistral.ai/news/timestral/",
-   "score": 4.0,
-   "sources": [
-    "mistral-news"
-   ],
-   "titles": [
-    "Introducing Timestral"
-   ],
-   "published_at": "2026-10-15T12:00:00.000000+00:00",
-   "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
-  },
-  {
-   "rank": 13,
+   "rank": 9,
    "title": "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
    "lang": "en",
    "region": "intl",
@@ -236,53 +167,97 @@
    ],
    "titles": [
     "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
-    "Bringing the magic: Google breaks open a bottleneck in quantum computing"
+    "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+    "Magic state cultivation on a superconducting quantum processor"
    ],
    "published_at": "2026-10-15T18:21:21.000000+00:00",
    "summary": "Google Quantum AI has demonstratively opened up a key bottleneck in quantum computing: we’ve shown that “magic state cultivation” works in practice on our Willow processor, reducing errors about 40x compared to without i..."
   },
   {
-   "rank": 14,
-   "title": "Agent Vault",
+   "rank": 10,
+   "title": "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.producthunt.com/products/agent-vault-2",
-   "score": 3.57,
+   "url": "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages",
+   "score": 3.5,
    "sources": [
-    "producthunt-ai",
-    "hackernews-ai"
+    "databricks-blog"
    ],
    "titles": [
-    "Agent Vault",
-    "Agent Vault"
+    "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages"
    ],
-   "published_at": "2026-10-14T23:12:59.000000+00:00",
-   "summary": "Superpowers for your Agents Discussion | Link"
+   "published_at": "2026-10-16T15:37:00.000000+00:00",
+   "summary": "IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]..."
+  },
+  {
+   "rank": 11,
+   "title": "Four evaluation engineering lessons learned from building agent plugins",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/",
+   "score": 3.5,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "Four evaluation engineering lessons learned from building agent plugins"
+   ],
+   "published_at": "2026-10-16T16:00:00.000000+00:00",
+   "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to..."
+  },
+  {
+   "rank": 12,
+   "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/",
+   "score": 3.5,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "Architecting autonomy: A design pattern for high-compute, governed agents in biotech"
+   ],
+   "published_at": "2026-10-16T16:00:00.000000+00:00",
+   "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology..."
+  },
+  {
+   "rank": 13,
+   "title": "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.reddit.com/gallery/1x6xkya",
+   "score": 3.5,
+   "sources": [
+    "reddit-ai-hot",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
+    "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
+    "Researchers discovered a rogue Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes."
+   ],
+   "published_at": "2026-10-15T21:04:35.000000+00:00",
+   "summary": ""
+  },
+  {
+   "rank": 14,
+   "title": "An update on independent evaluators",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "score": 3.0,
+   "sources": [
+    "anthropic-news"
+   ],
+   "titles": [
+    "An update on independent evaluators"
+   ],
+   "published_at": "2026-10-14T16:00:00.000000+00:00",
+   "summary": "Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with indepen..."
   },
   {
    "rank": 15,
-   "title": "Git不够用了？Anthropic 7人团队重造源代码控制系统，5个月完成迁移",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4026993729720711",
-   "score": 13.42,
-   "sources": [
-    "36kr-ai",
-    "ithome",
-    "leiphone",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Git不够用了？Anthropic 7人团队重造源代码控制系统，5个月完成迁移",
-    "Anthropic 抛弃 Git，选择自研版本控制系统 Scion",
-    "5 年前的机密文档被泄露：Anthropic 的所有胜利，早在 2021 年就写好了",
-    "More on Anthropic's Scion ripping off Mononoke"
-   ],
-   "published_at": "2026-10-15T10:53:39.000000+00:00",
-   "summary": "2005 年，Linus Torvalds 开始开发 Git。谁也没想到，这个最初由他启动的项目，后来会成为几乎所有开发者都离不开的版本控制工具，一用就是 20 多年。 但如今 AI 写代码的速度越来越快，Git 也开始面临新的挑战。代码可以由 AI 在短时间内大量生成，可这些代码如何存储、合并和管理版本，背后的基础设施同样需要跟上。对于代码变更量快速增长的 Anthropic 来说，现有的 Git 架构已经难以满足内部开发需求。 于是..."
-  },
-  {
-   "rank": 16,
    "title": "快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒",
    "lang": "zh",
    "region": "cn",
@@ -302,27 +277,7 @@
    "summary": "IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表..."
   },
   {
-   "rank": 17,
-   "title": "为什么Anthropic不做Personal AI",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.huxiu.com/article/4897847.html",
-   "score": 9.0,
-   "sources": [
-    "huxiu",
-    "36kr-ai",
-    "geekpark"
-   ],
-   "titles": [
-    "为什么Anthropic不做Personal AI",
-    "为什么 Anthropic 不做 Personal AI",
-    "为什么 Anthropic 不做 Personal AI"
-   ],
-   "published_at": "2026-10-15T13:09:37.000000+00:00",
-   "summary": "本文来自微信公众号： 极客公园 ，作者：宇航猿，编辑：靖宇，题图来自：AI生成 不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： “built to handle ev..."
-  },
-  {
-   "rank": 18,
+   "rank": 16,
    "title": "看懂 WorkBuddy 打通企微，上下文只是前菜",
    "lang": "zh",
    "region": "cn",
@@ -342,7 +297,7 @@
    "summary": "前脚，Google 在 Gemini at Work 大会上宣布可以为 AI 分配独立的企业账号，让员工在聊天中直接 @它、给它派活；紧接着，腾讯也宣布了一个整合动作。 10 月 14 日，企业微信与 WorkBuddy 联合发布新版本。WorkBuddy 正式以可对话机器人的身份切入企业微信联系人列表，双方打通账号体系，并在企业授权范围内开放了消息、文档、会议、网盘等多项底层能力。 这两件事指向了同一个明确的行业拐点，Agent 正在..."
   },
   {
-   "rank": 19,
+   "rank": 17,
    "title": "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
    "lang": "zh",
    "region": "cn",
@@ -360,22 +315,57 @@
    "summary": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。"
   },
   {
-   "rank": 20,
-   "title": "第一款 AI 手机，被半个互联网「拒」了",
+   "rank": 18,
+   "title": "openbmb/MiniCPM-o-4_5",
+   "lang": "en",
+   "region": "cn",
+   "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+   "score": 5.5,
+   "sources": [
+    "hf-models-cn"
+   ],
+   "titles": [
+    "openbmb/MiniCPM-o-4_5"
+   ],
+   "published_at": "2026-10-16T10:30:03.000000+00:00",
+   "summary": "any-to-any, transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o, minicpm-v, multimodal, full-duplex, custom_code, arxiv:2408.01800, license:apache-2.0, region:us"
+  },
+  {
+   "rank": 19,
+   "title": "基元律动宣布开发者入驻超30万，开启双11预售福利",
    "lang": "zh",
    "region": "cn",
-   "url": "http://www.geekpark.net/news/372436",
-   "score": 6.0,
+   "url": "https://www.qbitai.com/2026/10/503501.html",
+   "score": 5.5,
    "sources": [
-    "geekpark",
+    "qbitai",
+    "ithome"
+   ],
+   "titles": [
+    "基元律动宣布开发者入驻超30万，开启双11预售福利",
+    "阿里云虚拟数字人启动退市：11 月 30 日停止新购服务，明年 11 月底全面停止",
+    "荣耀开启 MagicOS 11 第三批机型内测招募，覆盖 Robot Phone 等近 30 款机型"
+   ],
+   "published_at": "2026-10-15T06:59:37+00:00",
+   "summary": "基元律动（Token Rhythm）宣布已有超过30万名开发者入驻，同期推出双11预售限时福利。"
+  },
+  {
+   "rank": 20,
+   "title": "日租金跌至几百元，人形机器人的“打工时代”来了",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4026972554547587",
+   "score": 5.5,
+   "sources": [
+    "36kr-ai",
     "tmtpost"
    ],
    "titles": [
-    "第一款 AI 手机，被半个互联网「拒」了",
-    "被半个互联网拒绝，豆包手机有解吗？"
+    "日租金跌至几百元，人形机器人的“打工时代”来了",
+    "日租金跌至几百元，人形机器人的“打工时代”来了"
    ],
-   "published_at": "2026-10-16T02:18:36+00:00",
-   "summary": "头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手..."
+   "published_at": "2026-10-15T10:53:07.000000+00:00",
+   "summary": "从日租价格几千上万元到几百元，人形机器人的租赁市场所经历的价格雪崩还在继续。 不到一年时间，机器人就从流量、面子、科技感的象征，变成必须真正干活的“钢铁牛马”。刚刚过去的国庆假期，就是这场价值回归的集中展示。 杭州西湖景区，有“杭警智行”交管机器人为路人导航；安徽省合肥市合柴1972文创园，有人形机器人担任“营业员”，在顾客下单后可自主完成商品识别、精准抓取与自动递送等多项任务；广州、桂林、西安、天津等城市，跨维智能的30多个机器人商业..."
   }
  ]
 }
