@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-16T07:25:05.974577+00:00",
+ "generated_at": "2026-10-16T12:38:04.164015+00:00",
  "stats": {
-  "items": 2017,
-  "clusters": 1590,
-  "noise": 460,
-  "dup": 144,
+  "items": 1984,
+  "clusters": 1554,
+  "noise": 431,
+  "dup": 140,
   "history_days": 0,
-  "available_cn": 127,
-  "available_intl": 859,
+  "available_cn": 133,
+  "available_intl": 850,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -70,21 +70,21 @@
   },
   {
    "rank": 4,
-   "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+   "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
    "lang": "en",
    "region": "intl",
-   "url": "https://arxiv.org/abs/2610.22174",
+   "url": "https://arxiv.org/abs/2610.20845",
    "score": 8.0,
    "sources": [
     "arxiv-cs-cl",
     "arxiv-cs-ai"
    ],
    "titles": [
-    "Mosaic: Multi-Session Agentic Reinforcement Learning",
-    "X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning"
+    "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+    "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine"
    ],
    "published_at": "2026-10-16T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.22174v1 Announce Type: new Abstract: Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, ag..."
+   "summary": "arXiv:2610.20845v1 Announce Type: cross Abstract: Skill-policy co-evolution, in which an agent's policy model and its skill bank improve each other during training, is a promising paradigm for self-improving agents. Curr..."
   },
   {
    "rank": 5,
@@ -122,19 +122,21 @@
   },
   {
    "rank": 7,
-   "title": "ibm-granite/granite-switch-4.1-8b-preview",
+   "title": "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview",
-   "score": 5.51,
+   "url": "https://www.cnbc.com/2026/10/15/5-things-to-know-before-the-stock-market-opens.html",
+   "score": 5.5,
    "sources": [
-    "hf-models-intl"
+    "cnbc-tech",
+    "ft-tech"
    ],
    "titles": [
-    "ibm-granite/granite-switch-4.1-8b-preview"
+    "Wall Street's latest AI spook, Netflix layoffs, 'good debt' and more in Morning Squawk",
+    "Wall Street’s AI wobbles"
    ],
-   "published_at": "2026-10-15T10:57:09.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
+   "published_at": "2026-10-15T12:32:10.000000+00:00",
+   "summary": "Here are five key things investors need to know to start the trading day."
   },
   {
    "rank": 8,
@@ -149,13 +151,30 @@
    ],
    "titles": [
     "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
-    "CoreWeave credit default swaps hit distress levels as investors sour on AI debt"
+    "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+    "ARK’s Wood Says CoreWeave Will Overcome Debt Fears on AI Demand"
    ],
    "published_at": "2026-10-15T14:01:51.000000+00:00",
    "summary": "A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers."
   },
   {
    "rank": 9,
+   "title": "ibm-granite/granite-switch-4.1-30b-preview",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview",
+   "score": 5.46,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "ibm-granite/granite-switch-4.1-30b-preview"
+   ],
+   "published_at": "2026-10-15T13:51:55.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
+  },
+  {
+   "rank": 10,
    "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
    "lang": "en",
    "region": "intl",
@@ -173,7 +192,7 @@
    "summary": "Debt issued by AI infrastructure providers and neocloud companies has sunk towards stressed territory"
   },
   {
-   "rank": 10,
+   "rank": 11,
    "title": "Apertus 1.5 Release Notes",
    "lang": "en",
    "region": "intl",
@@ -189,7 +208,7 @@
    "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
   },
   {
-   "rank": 11,
+   "rank": 12,
    "title": "Introducing Timestral",
    "lang": "en",
    "region": "intl",
@@ -205,64 +224,70 @@
    "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
   },
   {
-   "rank": 12,
-   "title": "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.reddit.com/gallery/1x6xkya",
-   "score": 4.0,
-   "sources": [
-    "reddit-ai-hot",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
-    "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes."
-   ],
-   "published_at": "2026-10-15T21:04:35.000000+00:00",
-   "summary": ""
-  },
-  {
    "rank": 13,
-   "title": "**DeepSeek-V4-Flash-0731 on 4x Radeon AI PRO R9700 with affinity: the \"refused\" 4-card config works, ~79 tok/s on real cards**",
+   "title": "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
    "lang": "en",
    "region": "intl",
-   "url": "https://i.redd.it/fd8iddwcppvh1.jpeg",
-   "score": 4.0,
+   "url": "https://youtu.be/XtTr87pij54?si=1j92ZlDKhHpWSqf8",
+   "score": 3.64,
    "sources": [
-    "reddit-ai-hot",
-    "reddit-ai-new"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "**DeepSeek-V4-Flash-0731 on 4x Radeon AI PRO R9700 with affinity: the \"refused\" 4-card config works, ~79 tok/s on real cards**",
-    "Trying to upgrade my gaming PC to be able to also do compute, mainly coding/RP RPGs. Looking between a second RTX5070ti (CUDA, compat, speed), Arc Pro B70 (size, cost), and R9700 (size, compat)."
+    "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
+    "Bringing the magic: Google breaks open a bottleneck in quantum computing"
    ],
-   "published_at": "2026-10-15T23:06:40.000000+00:00",
-   "summary": "Follow-up to u/neuromacmd 's post from a few weeks back ( https://www.reddit.com/r/LocalLLaMA/comments/1wod07t/ ). The affinity engine ( https://codeberg.org/StillDeadcode/affinity ) refuses to start on more than two car..."
+   "published_at": "2026-10-15T18:21:21.000000+00:00",
+   "summary": "Google Quantum AI has demonstratively opened up a key bottleneck in quantum computing: we’ve shown that “magic state cultivation” works in practice on our Willow processor, reducing errors about 40x compared to without i..."
   },
   {
    "rank": 14,
-   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+   "title": "Agent Vault",
    "lang": "en",
    "region": "intl",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-   "score": 3.5,
+   "url": "https://www.producthunt.com/products/agent-vault-2",
+   "score": 3.57,
    "sources": [
-    "huggingface-blog"
+    "producthunt-ai",
+    "hackernews-ai"
    ],
    "titles": [
-    "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
+    "Agent Vault",
+    "Agent Vault"
    ],
-   "published_at": "2026-10-15T20:34:01.000000+00:00",
-   "summary": "A Blog post by IBM Granite on Hugging Face"
+   "published_at": "2026-10-14T23:12:59.000000+00:00",
+   "summary": "Superpowers for your Agents Discussion | Link"
   },
   {
    "rank": 15,
+   "title": "Git不够用了？Anthropic 7人团队重造源代码控制系统，5个月完成迁移",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4026993729720711",
+   "score": 13.42,
+   "sources": [
+    "36kr-ai",
+    "ithome",
+    "leiphone",
+    "hackernews-ai"
+   ],
+   "titles": [
+    "Git不够用了？Anthropic 7人团队重造源代码控制系统，5个月完成迁移",
+    "Anthropic 抛弃 Git，选择自研版本控制系统 Scion",
+    "5 年前的机密文档被泄露：Anthropic 的所有胜利，早在 2021 年就写好了",
+    "More on Anthropic's Scion ripping off Mononoke"
+   ],
+   "published_at": "2026-10-15T10:53:39.000000+00:00",
+   "summary": "2005 年，Linus Torvalds 开始开发 Git。谁也没想到，这个最初由他启动的项目，后来会成为几乎所有开发者都离不开的版本控制工具，一用就是 20 多年。 但如今 AI 写代码的速度越来越快，Git 也开始面临新的挑战。代码可以由 AI 在短时间内大量生成，可这些代码如何存储、合并和管理版本，背后的基础设施同样需要跟上。对于代码变更量快速增长的 Anthropic 来说，现有的 Git 架构已经难以满足内部开发需求。 于是..."
+  },
+  {
+   "rank": 16,
    "title": "快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒",
    "lang": "zh",
    "region": "cn",
    "url": "https://www.ithome.com/1/013/715.htm",
-   "score": 10.5,
+   "score": 10.0,
    "sources": [
     "ithome",
     "36kr-newsflash",
@@ -275,26 +300,6 @@
    ],
    "published_at": "2026-10-16T00:22:37+00:00",
    "summary": "IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表..."
-  },
-  {
-   "rank": 16,
-   "title": "基元律动宣布开发者入驻超30万，开启双11预售福利",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/503501.html",
-   "score": 9.0,
-   "sources": [
-    "qbitai",
-    "leiphone",
-    "ithome"
-   ],
-   "titles": [
-    "基元律动宣布开发者入驻超30万，开启双11预售福利",
-    "基元律动宣布开发者入驻超30万，开启双11预售福利",
-    "阿里云虚拟数字人启动退市：11 月 30 日停止新购服务，明年 11 月底全面停止"
-   ],
-   "published_at": "2026-10-15T06:59:37+00:00",
-   "summary": "基元律动（Token Rhythm）宣布已有超过30万名开发者入驻，同期推出双11预售限时福利。"
   },
   {
    "rank": 17,
@@ -322,53 +327,55 @@
    "lang": "zh",
    "region": "cn",
    "url": "https://www.36kr.com/p/4027090155149191",
-   "score": 6.0,
+   "score": 9.0,
    "sources": [
     "36kr-ai",
-    "tmtpost"
+    "tmtpost",
+    "huxiu"
    ],
    "titles": [
     "看懂 WorkBuddy 打通企微，上下文只是前菜",
-    "看懂 WorkBuddy 打通企微，上下文只是前菜"
+    "看懂 WorkBuddy 打通企微，上下文只是前菜",
+    "WorkBuddy连企微：AI可算进了真实工作流"
    ],
    "published_at": "2026-10-15T23:36:51.000000+00:00",
    "summary": "前脚，Google 在 Gemini at Work 大会上宣布可以为 AI 分配独立的企业账号，让员工在聊天中直接 @它、给它派活；紧接着，腾讯也宣布了一个整合动作。 10 月 14 日，企业微信与 WorkBuddy 联合发布新版本。WorkBuddy 正式以可对话机器人的身份切入企业微信联系人列表，双方打通账号体系，并在企业授权范围内开放了消息、文档、会议、网盘等多项底层能力。 这两件事指向了同一个明确的行业拐点，Agent 正在..."
   },
   {
    "rank": 19,
-   "title": "人形机器人最尴尬的事：长了一双腿，却只能定住干活",
+   "title": "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4026619117933185",
-   "score": 5.5,
+   "url": "https://www.qbitai.com/2026/10/503829.html",
+   "score": 7.0,
    "sources": [
-    "36kr-ai",
-    "geekpark"
+    "qbitai",
+    "infoq-cn"
    ],
    "titles": [
-    "人形机器人最尴尬的事：长了一双腿，却只能定住干活",
-    "人形机器人最尴尬的事：长了一双腿，却只能定住干活"
+    "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
+    "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”"
    ],
-   "published_at": "2026-10-15T07:46:58.000000+00:00",
-   "summary": "长得像人，但是只能跳舞表演，根本没法真正干活。 这大概是过去几年人形机器人最尴尬的一幕。 人形机器人最初拿到天量关注，底层逻辑其实很直接：现实世界本来就是围绕人类身体设计的。楼梯、橱柜、货架、工位甚至门把手，全都有现成尺寸。理论上，机器人完全可以用下肢越过障碍，直接用上肢拿起工具工作。 逻辑听起来无懈可击，但行业演进了几年，我们看到的却往往是另一副模样。 视频里的人形机器人，主要是在跑跑跳跳、翻跟头；哪怕真有一些干活的演示，也大多老老实..."
+   "published_at": "2026-10-16T07:16:11+00:00",
+   "summary": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。"
   },
   {
    "rank": 20,
-   "title": "Muse起势、大厂谋变，个人智能体激战前夜",
+   "title": "第一款 AI 手机，被半个互联网「拒」了",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8169751.html",
-   "score": 5.5,
+   "url": "http://www.geekpark.net/news/372436",
+   "score": 6.0,
    "sources": [
-    "tmtpost",
-    "36kr-ai"
+    "geekpark",
+    "tmtpost"
    ],
    "titles": [
-    "Muse起势、大厂谋变，个人智能体激战前夜",
-    "字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？"
+    "第一款 AI 手机，被半个互联网「拒」了",
+    "被半个互联网拒绝，豆包手机有解吗？"
    ],
-   "published_at": "2026-10-15T08:26:57+00:00",
-   "summary": "文 | 来咖智库 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初OpenClaw带动的“龙虾智能体”热潮不同，这一轮个人智能体的玩家明显更集..."
+   "published_at": "2026-10-16T02:18:36+00:00",
+   "summary": "头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手..."
   }
  ]
 }
