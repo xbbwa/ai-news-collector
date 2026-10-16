@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-16 07:10 CST
-数据窗口：最近 24 小时，1855 条原始条目 → 1460 个事件；过滤噪音 441 个，排除全部历史已推送的 127 个。
+生成时间：2026-10-16 09:34 CST
+数据窗口：最近 24 小时，1833 条原始条目 → 1459 个事件；过滤噪音 427 个，排除全部历史已推送的 140 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -30,24 +30,24 @@
 - 链接：https://arxiv.org/abs/2610.20456
 - 同事件报道：Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling（arXiv cs.LG）
 
-## 4. ibm-granite/granite-switch-4.1-3b-preview
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：6.07
-- 摘要：text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us
-- 发布时间：2026-10-15 21:02 CST
-- 链接：https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview
-
-## 5. CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans
+## 4. CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans
 - 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：6.0
 - 摘要：A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers.
 - 发布时间：2026-10-15 22:01 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-15/coreweave-risk-gauge-hits-record-pricing-60-odds-of-default
 - 同事件报道：CoreWeave credit default swaps hit distress levels as investors sour on AI debt（CNBC Technology）
 
-## 6. ibm-granite/granite-switch-4.1-30b-preview
+## 5. ibm-granite/granite-switch-4.1-30b-preview
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.96
 - 摘要：text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us
 - 发布时间：2026-10-15 21:51 CST
 - 链接：https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview
+
+## 6. ibm-granite/granite-switch-4.1-3b-preview
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.57
+- 摘要：text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us
+- 发布时间：2026-10-15 21:02 CST
+- 链接：https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview
 
 ## 7. Investors dump data centre bonds as AI borrowers face ‘Darwin moment’
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.06
@@ -63,42 +63,42 @@
 - 链接：https://www.youtube.com/watch?v=CVq7GfJYr8E
 - 同事件报道：German police launch investigation after robot allegedly gropes teenage girl（Hacker News (AI stories)）
 
-## 9. Introducing Timestral
-- 地区：国外源 ｜ 语言：en ｜ 来源：Mistral AI News（1 个来源） ｜ 热度：4.5
-- 摘要：State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.
-- 发布时间：2026-10-15 20:00 CST
-- 链接：https://mistral.ai/news/timestral/
+## 9. Liquid AI D1-Ultra
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.06
+- 摘要：d1-ultra, the world's best decision model for text and images, built for hard real-world cases. Available on the Liquid AI API
+- 发布时间：2026-10-16 01:15 CST
+- 链接：https://www.liquid.ai/blog/d1-ultra
+- 同事件报道：Liquid AI's d1-ultra decision model takes a very strong place on the pareto front（Reddit AI subreddits (new)）
 
-## 10. Google breaks open a bottleneck in quantum computing with "Magic State Cultivation"
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.14
-- 摘要：Google Quantum AI has demonstratively opened up a key bottleneck in quantum computing: we’ve shown that “magic state cultivation” works in practice on our Willow processor, reducing errors about 40x compared to without i...
-- 发布时间：2026-10-16 02:21 CST
-- 链接：https://youtu.be/XtTr87pij54?si=1j92ZlDKhHpWSqf8
-- 同事件报道：Bringing the magic: Google breaks open a bottleneck in quantum computing（Hacker News (AI stories)）
-
-## 11. Apertus 1.5 Release Notes
+## 10. Apertus 1.5 Release Notes
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：4.0
 - 摘要：A Blog post by Swiss AI Initiative on Hugging Face
 - 发布时间：2026-10-15 17:08 CST
 - 链接：https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes
 
-## 12. Teaching students to think and learn through questions
-- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
-- 摘要：Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.
-- 发布时间：2026-10-15 21:00 CST
-- 链接：https://openai.com/index/teaching-students-to-think-and-learn-through-questions
+## 11. Introducing Timestral
+- 地区：国外源 ｜ 语言：en ｜ 来源：Mistral AI News（1 个来源） ｜ 热度：4.0
+- 摘要：State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.
+- 发布时间：2026-10-15 20:00 CST
+- 链接：https://mistral.ai/news/timestral/
 
-## 13. Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW
-- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog（1 个来源） ｜ 热度：3.5
-- 摘要：Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in...
-- 发布时间：2026-10-15 21:00 CST
-- 链接：https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/
-
-## 14. NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning
+## 12. NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning
 - 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.5
 - 摘要：Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enter...
 - 发布时间：2026-10-15 23:00 CST
 - 链接：https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/
+
+## 13. Trust in Depth: Giving agents more autonomy without losing control
+- 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
+- 摘要：In every conversation I have with enterprise leaders, they say the same thing. They want agents to do more, but they don’t trust them to do it right all the time. That’s fair. The same creativity and autonomy that makes...
+- 发布时间：2026-10-15 23:05 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/
+
+## 14. What the Gemini agent means for startups
+- 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
+- 摘要：Small teams, short runway, and constant pressure to ship faster — it’s the reality we see every day among the founders we work with at Google for Startups. When you are building a company from the ground up, every hour s...
+- 发布时间：2026-10-16 00:00 CST
+- 链接：https://cloud.google.com/blog/topics/startups/what-the-gemini-agent-means-for-startups/
 
 国内：
 
@@ -110,26 +110,26 @@
 - 同事件报道：Muse起势、大厂谋变，个人智能体激战前夜（钛媒体）
 - 同事件报道：字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？（36氪 AI 频道）
 
-## 2. 昆仑万维发布世界首款消费级显卡视频大模型游戏，同步开源
+## 2. 快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：7.0
+- 摘要：IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表...
+- 发布时间：2026-10-16 08:22 CST
+- 链接：https://www.ithome.com/1/013/715.htm
+- 同事件报道：可灵AI上线Kling 4.0：支持10-bit HDR、30秒原生直出 刷新视频模型新基准（36氪 快讯）
+
+## 3. 昆仑万维发布世界首款消费级显卡视频大模型游戏，同步开源
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、雷峰网（2 个来源） ｜ 热度：6.5
 - 摘要：IT之家 10 月 15 日消息，昆仑万维今日发布世界上第一款运行在单张消费级显卡上的视频大模型游戏 ——Matrix-Game 4.0。 昆仑万维介绍称，“Matrix-Game 4.0 构建起了游戏世界模型的新范式：由游戏引擎维护世界状态与交互规则，由视频生成模型实时呈现精细画面。它把 480p、60 FPS 的实时游戏体验，装进了一张 NVIDIA RTX 5090；从你按下按键，到画面做出反应，延迟低于 150 毫秒。Matri...
 - 发布时间：2026-10-15 12:00 CST
 - 链接：https://www.ithome.com/1/013/283.htm
 - 同事件报道：昆仑万维诞生世界上第一款消费级显卡视频大模型游戏，同步开源（雷峰网）
 
-## 3. 特朗普白宫宴会捐款名单曝光：苹果、英伟达各捐 2500 万美元为单笔最高金额
+## 4. 特朗普白宫宴会捐款名单曝光：苹果、英伟达各捐 2500 万美元为单笔最高金额
 - 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.0
 - 摘要：IT之家 10 月 15 日消息，《华盛顿邮报》今日披露了一份白宫内部捐款记录，揭示了美国总统特朗普白宫宴会厅项目的主要捐赠方及具体金额。 记录显示，截至 9 月底共记录 67 笔超过 1 万美元 （现汇率约合 67,065 元人民币） 的捐款，私人捐赠承诺总额约为 3.33 亿美元 （IT之家注：现汇率约合 22.33 亿元人民币） ，其中英伟达和苹果均承诺捐款 2,500 万美元 （现汇率约合 1.68 亿元人民币） ，均为单笔最高...
 - 发布时间：2026-10-15 22:31 CST
 - 链接：https://www.ithome.com/1/013/668.htm
 - 同事件报道：特朗普白宫宴会厅捐款名单曝光：苹果英伟达各2500万美元 特朗普本人未出现（36氪 快讯）
-
-## 4. 马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、虎嗅（2 个来源） ｜ 热度：5.5
-- 摘要：IT之家 10 月 15 日消息，当地时间 14 日，据《商业内幕》报道，马斯克出席上周六的 X Takeover 活动，在访谈中大谈 AI 的神奇之处，随后却少有地谈起自己的感受：“我有点‘赛博精神错乱’，其实可能还挺严重。” 他称，过去一年里，自己大概经历了六次“AI / SI 精神错乱”（IT之家注：SI 指的是美国总统特朗普将人工智能改称的“超级智能”）。 “AI 精神错乱”并非正式医学术语，也没有公认的定义。通常指人们 反复使...
-- 发布时间：2026-10-15 07:24 CST
-- 链接：https://www.ithome.com/1/013/156.htm
-- 同事件报道：马斯克：过去1年，经历了6次“AI精神病”（虎嗅）
 
 ## 5. 上市破发，传音被AI坑惨了？
 - 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：5.5

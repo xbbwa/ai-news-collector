@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-15T23:10:58.127551+00:00",
+ "generated_at": "2026-10-16T01:34:31.349441+00:00",
  "stats": {
-  "items": 1855,
-  "clusters": 1460,
-  "noise": 441,
-  "dup": 127,
+  "items": 1833,
+  "clusters": 1459,
+  "noise": 427,
+  "dup": 140,
   "history_days": 0,
-  "available_cn": 141,
-  "available_intl": 751,
+  "available_cn": 146,
+  "available_intl": 746,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -71,22 +71,6 @@
   },
   {
    "rank": 4,
-   "title": "ibm-granite/granite-switch-4.1-3b-preview",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
-   "score": 6.07,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "ibm-granite/granite-switch-4.1-3b-preview"
-   ],
-   "published_at": "2026-10-15T13:02:12.000000+00:00",
-   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
-  },
-  {
-   "rank": 5,
    "title": "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans",
    "lang": "en",
    "region": "intl",
@@ -104,7 +88,7 @@
    "summary": "A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers."
   },
   {
-   "rank": 6,
+   "rank": 5,
    "title": "ibm-granite/granite-switch-4.1-30b-preview",
    "lang": "en",
    "region": "intl",
@@ -117,6 +101,22 @@
     "ibm-granite/granite-switch-4.1-30b-preview"
    ],
    "published_at": "2026-10-15T13:51:55.000000+00:00",
+   "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
+  },
+  {
+   "rank": 6,
+   "title": "ibm-granite/granite-switch-4.1-3b-preview",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview",
+   "score": 5.57,
+   "sources": [
+    "hf-models-intl"
+   ],
+   "titles": [
+    "ibm-granite/granite-switch-4.1-3b-preview"
+   ],
+   "published_at": "2026-10-15T13:02:12.000000+00:00",
    "summary": "text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us"
   },
   {
@@ -157,40 +157,24 @@
   },
   {
    "rank": 9,
-   "title": "Introducing Timestral",
+   "title": "Liquid AI D1-Ultra",
    "lang": "en",
    "region": "intl",
-   "url": "https://mistral.ai/news/timestral/",
-   "score": 4.5,
+   "url": "https://www.liquid.ai/blog/d1-ultra",
+   "score": 4.06,
    "sources": [
-    "mistral-news"
+    "hackernews-ai",
+    "reddit-ai-new"
    ],
    "titles": [
-    "Introducing Timestral"
+    "Liquid AI D1-Ultra",
+    "Liquid AI's d1-ultra decision model takes a very strong place on the pareto front"
    ],
-   "published_at": "2026-10-15T12:00:00.000000+00:00",
-   "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
+   "published_at": "2026-10-15T17:15:43.000000+00:00",
+   "summary": "d1-ultra, the world's best decision model for text and images, built for hard real-world cases. Available on the Liquid AI API"
   },
   {
    "rank": 10,
-   "title": "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://youtu.be/XtTr87pij54?si=1j92ZlDKhHpWSqf8",
-   "score": 4.14,
-   "sources": [
-    "reddit-ai-new",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Google breaks open a bottleneck in quantum computing with \"Magic State Cultivation\"",
-    "Bringing the magic: Google breaks open a bottleneck in quantum computing"
-   ],
-   "published_at": "2026-10-15T18:21:21.000000+00:00",
-   "summary": "Google Quantum AI has demonstratively opened up a key bottleneck in quantum computing: we’ve shown that “magic state cultivation” works in practice on our Willow processor, reducing errors about 40x compared to without i..."
-  },
-  {
-   "rank": 11,
    "title": "Apertus 1.5 Release Notes",
    "lang": "en",
    "region": "intl",
@@ -206,39 +190,23 @@
    "summary": "A Blog post by Swiss AI Initiative on Hugging Face"
   },
   {
+   "rank": 11,
+   "title": "Introducing Timestral",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://mistral.ai/news/timestral/",
+   "score": 4.0,
+   "sources": [
+    "mistral-news"
+   ],
+   "titles": [
+    "Introducing Timestral"
+   ],
+   "published_at": "2026-10-15T12:00:00.000000+00:00",
+   "summary": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready."
+  },
+  {
    "rank": 12,
-   "title": "Teaching students to think and learn through questions",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-   "score": 3.5,
-   "sources": [
-    "openai-news"
-   ],
-   "titles": [
-    "Teaching students to think and learn through questions"
-   ],
-   "published_at": "2026-10-15T13:00:00.000000+00:00",
-   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
-  },
-  {
-   "rank": 13,
-   "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-   "score": 3.5,
-   "sources": [
-    "nvidia-blog"
-   ],
-   "titles": [
-    "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW"
-   ],
-   "published_at": "2026-10-15T13:00:59.000000+00:00",
-   "summary": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in..."
-  },
-  {
-   "rank": 14,
    "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
    "lang": "en",
    "region": "intl",
@@ -252,6 +220,38 @@
    ],
    "published_at": "2026-10-15T15:00:00.000000+00:00",
    "summary": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enter..."
+  },
+  {
+   "rank": 13,
+   "title": "Trust in Depth: Giving agents more autonomy without losing control",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+   "score": 3.5,
+   "sources": [
+    "aws-ml-blog"
+   ],
+   "titles": [
+    "Trust in Depth: Giving agents more autonomy without losing control"
+   ],
+   "published_at": "2026-10-15T15:05:35.000000+00:00",
+   "summary": "In every conversation I have with enterprise leaders, they say the same thing. They want agents to do more, but they don’t trust them to do it right all the time. That’s fair. The same creativity and autonomy that makes..."
+  },
+  {
+   "rank": 14,
+   "title": "What the Gemini agent means for startups",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/startups/what-the-gemini-agent-means-for-startups/",
+   "score": 3.5,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "What the Gemini agent means for startups"
+   ],
+   "published_at": "2026-10-15T16:00:00.000000+00:00",
+   "summary": "Small teams, short runway, and constant pressure to ship faster — it’s the reality we see every day among the founders we work with at Google for Startups. When you are building a company from the ground up, every hour s..."
   },
   {
    "rank": 15,
@@ -275,6 +275,24 @@
   },
   {
    "rank": 16,
+   "title": "快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/013/715.htm",
+   "score": 7.0,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒",
+    "可灵AI上线Kling 4.0：支持10-bit HDR、30秒原生直出 刷新视频模型新基准"
+   ],
+   "published_at": "2026-10-16T00:22:37+00:00",
+   "summary": "IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表..."
+  },
+  {
+   "rank": 17,
    "title": "昆仑万维发布世界首款消费级显卡视频大模型游戏，同步开源",
    "lang": "zh",
    "region": "cn",
@@ -292,7 +310,7 @@
    "summary": "IT之家 10 月 15 日消息，昆仑万维今日发布世界上第一款运行在单张消费级显卡上的视频大模型游戏 ——Matrix-Game 4.0。 昆仑万维介绍称，“Matrix-Game 4.0 构建起了游戏世界模型的新范式：由游戏引擎维护世界状态与交互规则，由视频生成模型实时呈现精细画面。它把 480p、60 FPS 的实时游戏体验，装进了一张 NVIDIA RTX 5090；从你按下按键，到画面做出反应，延迟低于 150 毫秒。Matri..."
   },
   {
-   "rank": 17,
+   "rank": 18,
    "title": "特朗普白宫宴会捐款名单曝光：苹果、英伟达各捐 2500 万美元为单笔最高金额",
    "lang": "zh",
    "region": "cn",
@@ -308,24 +326,6 @@
    ],
    "published_at": "2026-10-15T14:31:52+00:00",
    "summary": "IT之家 10 月 15 日消息，《华盛顿邮报》今日披露了一份白宫内部捐款记录，揭示了美国总统特朗普白宫宴会厅项目的主要捐赠方及具体金额。 记录显示，截至 9 月底共记录 67 笔超过 1 万美元 （现汇率约合 67,065 元人民币） 的捐款，私人捐赠承诺总额约为 3.33 亿美元 （IT之家注：现汇率约合 22.33 亿元人民币） ，其中英伟达和苹果均承诺捐款 2,500 万美元 （现汇率约合 1.68 亿元人民币） ，均为单笔最高..."
-  },
-  {
-   "rank": 18,
-   "title": "马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/013/156.htm",
-   "score": 5.5,
-   "sources": [
-    "ithome",
-    "huxiu"
-   ],
-   "titles": [
-    "马斯克自曝：过去一年里，我大概经历了六次“赛博精神病”",
-    "马斯克：过去1年，经历了6次“AI精神病”"
-   ],
-   "published_at": "2026-10-14T23:24:51+00:00",
-   "summary": "IT之家 10 月 15 日消息，当地时间 14 日，据《商业内幕》报道，马斯克出席上周六的 X Takeover 活动，在访谈中大谈 AI 的神奇之处，随后却少有地谈起自己的感受：“我有点‘赛博精神错乱’，其实可能还挺严重。” 他称，过去一年里，自己大概经历了六次“AI / SI 精神错乱”（IT之家注：SI 指的是美国总统特朗普将人工智能改称的“超级智能”）。 “AI 精神错乱”并非正式医学术语，也没有公认的定义。通常指人们 反复使..."
   },
   {
    "rank": 19,
