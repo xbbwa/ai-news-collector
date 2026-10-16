@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-17 01:36 CST
+生成时间：2026-10-17 05:30 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -7,25 +7,6 @@
 > 摘要为原文节选（未翻译、未清洗）；英文条目请在推送时翻译成中文。
 
 # Tier 1 — 一手来源（实验室 / 公司 / 论文）
-
-## Anthropic News（anthropic-news，en，本窗口共 1 条）
-
-### 1. An update on independent evaluators
-- 摘要：Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started...
-- 发布时间：2026-10-15 00:00 CST
-- 链接：https://www.anthropic.com/news/an-update-on-independent-evaluators
-
-## Apple Machine Learning Research（apple-ml，en，本窗口共 2 条）
-
-### 1. Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents
-- 摘要：Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection...
-- 发布时间：2026-10-15 08:00 CST
-- 链接：https://machinelearning.apple.com/research/selection-structured-reasoning
-
-### 2. Plan or Retrieve First? A Scale Study of Tool Discovery Architectures
-- 摘要：Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we term Retrieve-then-Plan (RtP), embeds the user query and retrieves similar tools...
-- 发布时间：2026-10-15 08:00 CST
-- 链接：https://machinelearning.apple.com/research/plan-retrieve-tool-discovery
 
 ## arXiv cs.AI（arxiv-cs-ai，en，本窗口共 264 条）
 
@@ -109,17 +90,17 @@
 
 ## AWS Machine Learning Blog（aws-ml-blog，en，本窗口共 2 条）
 
-### 1. Introducing Reflection Beam: an open-weight model for agentic coding on AWS
+### 1. Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore
+- 摘要：The North Star Every organization racing to deploy AI agents faces the same reckoning: an agent that demos beautifully can quietly degrade in production, and by the time a human notices, the trust is already broken. Where traditional software fails loudly, agents fail softly. They return an answer t...
+- 作者：Rui Li
+- 发布时间：2026-10-17 04:48 CST
+- 链接：https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/
+
+### 2. Introducing Reflection Beam: an open-weight model for agentic coding on AWS
 - 摘要：Reflection AI introduced Beam, an open-weight model for agentic coding and long-horizon tasks such as maintaining code, using tools, interpreting results, and completing multi-step workflows. The open-weight release gives developers and researchers control over the runtime, deployment environment, a...
 - 作者：Clement Perrot
 - 发布时间：2026-10-16 23:23 CST
 - 链接：https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/
-
-### 2. Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart
-- 摘要：Muse Spark Open, Meta’s coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart , the machine learning (ML) hub of Amazon SageMaker AI . The model was trained on real developer workflows, such as multi-file refactors and long debugging sessions, and it supports a context w...
-- 作者：Aris Tsakpinis
-- 发布时间：2026-10-16 01:43 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/
 
 ## Databricks Blog（databricks-blog，en，本窗口共 2 条）
 
@@ -135,15 +116,9 @@
 - 发布时间：2026-10-16 05:37 CST
 - 链接：https://www.databricks.com/blog/how-our-ai-research-team-uses-ai-runtime
 
-## GitHub Blog（github-blog，en，本窗口共 2 条）
+## GitHub Blog（github-blog，en，本窗口共 1 条）
 
-### 1. The next developer interface is ambient intelligence
-- 摘要：For most of my career, building software started with the same setup: keyboard, mouse, editor, terminal, browser, and an impressive number of tabs I was definitely going to look at later. The tools changed, but the relationship did not. Like most developers, I learned commands, memorized shortcuts,...
-- 作者：Martin Woodward
-- 发布时间：2026-10-16 03:39 CST
-- 链接：https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/
-
-### 2. Staying Evergreen: How we automated secure access and repo hygiene in a shared org
+### 1. Staying Evergreen: How we automated secure access and repo hygiene in a shared org
 - 摘要：Working with outside collaborators can add more work for a repository owner. You need to confirm who still needs access, change permissions as projects evolve, and archive repositories once they’ve served their purpose. To keep up, repository owners need to track collaborators, deadlines, and follow...
 - 作者：Greg Mohler
 - 发布时间：2026-10-16 02:00 CST
@@ -163,7 +138,14 @@
 - 发布时间：2026-10-17 00:00 CST
 - 链接：https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/
 
-## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 6 条）
+## Google Research Blog（google-research，en，本窗口共 1 条）
+
+### 1. Grounding AI agents in biological reality: Building blocks for autonomous wet labs
+- 摘要：General Science
+- 发布时间：2026-10-17 02:11 CST
+- 链接：https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/
+
+## Hugging Face Daily Papers（hf-daily-papers，en，本窗口共 5 条）
 
 ### 1. SWE-at-Scale: Scalable Issue Synthesis from Historical Bug Fixes
 - 摘要：As coding agents become increasingly capable, robust evaluation requires a broader and more diverse supply of verifiable software engineering (SWE) tasks. However, real-world tasks are constrained by the natural frequency of issue reporting and the substantial cost of manual curation. Furthermore, e...
@@ -171,17 +153,17 @@
 - 发布时间：2026-10-15 04:00 CST
 - 链接：https://arxiv.org/abs/2610.21359
 
-### 2. Lluna: Collaborative Unimodal Models for Missing-Modality Inference
-- 摘要：Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this setting using fixed surviving-model anchors and find that collaborative gains c...
-- 作者：Haoyue Bai, Yinyi Luo, Heqing Huang, Xiaoyuan Yi, James Evans, Jindong Wang
-- 发布时间：2026-10-14 04:00 CST
-- 链接：https://arxiv.org/abs/2610.20526
-
-### 3. CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation
+### 2. CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation
 - 摘要：Reasoning distillation requires chain-of-thought (CoT) data with correct answers, but obtaining such data efficiently remains challenging. Forward CoT generation (FCG) followed by rejection sampling (RS) produces verified, question-only responses, yet may require many teacher calls for difficult pro...
 - 作者：Zinan Tang, Zhuoshi Pan, Kairui Chen, Ze Yan, Shaomian Zheng, Yukun Zhang, Gang...
 - 发布时间：2026-10-14 04:00 CST
 - 链接：https://arxiv.org/abs/2610.20828
+
+### 3. SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning
+- 摘要：Long-horizon agentic RL is constrained by the futures visited by the current policy. When rollouts fail to reach useful behaviors, improved credit assignment cannot provide supervision for states and actions that were never encountered. On-policy distillation (OPD) introduces teacher guidance on pol...
+- 作者：Dingyi Rong, Yue Shi, Chaofan Ma, Zongrui Wang, Jiezhang Cao, Yixin Cao, Liang H...
+- 发布时间：2026-10-14 04:00 CST
+- 链接：https://arxiv.org/abs/2610.19397
 
 ## Hugging Face — model releases (Chinese labs)（hf-models-cn，en，本窗口共 3 条）
 
@@ -203,27 +185,27 @@
 - 发布时间：2026-10-16 10:33 CST
 - 链接：https://huggingface.co/internlm/Intern-Decision-4B
 
-## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 17 条）
+## Hugging Face — model releases (international labs)（hf-models-intl，en，本窗口共 16 条）
 
-### 1. nvidia/Kumo-Anomaly
+### 1. nvidia/GLM-5.3-Flash-FP4-Local
+- 摘要：image-text-to-text, Model Optimizer, safetensors, glm5_next, nvidia, ModelOpt, GLM-5, quantized, FP4, fp4, conversational, base_model:zai-org/GLM-5.3-Flash, base_model:quantized:zai-org/GLM-5.3-Flash, license:other, 8-bit, modelopt, region:us
+- 作者：nvidia
+- 发布时间：2026-10-17 04:28 CST
+- 链接：https://huggingface.co/nvidia/GLM-5.3-Flash-FP4-Local
+
+### 2. nvidia/Kumo-Anomaly
 - 摘要：Kumo-TS, en, arxiv:2307.00754, license:apache-2.0, region:us
 - 作者：nvidia
 - 发布时间：2026-10-17 01:28 CST
 - 链接：https://huggingface.co/nvidia/Kumo-Anomaly
 
-### 2. perplexity-ai/pplx-decider-flash-v1.2
+### 3. perplexity-ai/pplx-decider-flash-v1.2
 - 摘要：text-classification, pytorch, safetensors, qwen3_5, classification, multimodal, custom-code, decider, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-2.0, region:us
 - 作者：perplexity-ai
 - 发布时间：2026-10-17 00:07 CST
 - 链接：https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2
 
-### 3. perplexity-ai/pplx-decider-v1.2
-- 摘要：text-classification, pytorch, safetensors, qwen3_5, classification, multimodal, custom-code, decider, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B, license:apache-2.0, region:us
-- 作者：perplexity-ai
-- 发布时间：2026-10-17 00:07 CST
-- 链接：https://huggingface.co/perplexity-ai/pplx-decider-v1.2
-
-## Hugging Face Blog（huggingface-blog，en，本窗口共 4 条）
+## Hugging Face Blog（huggingface-blog，en，本窗口共 3 条）
 
 ### 1. Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline
 - 摘要：A Blog post by NVIDIA on Hugging Face
@@ -243,21 +225,7 @@
 - 发布时间：2026-10-16 04:34 CST
 - 链接：https://huggingface.co/blog/ibm-granite/granite-switch-4-1
 
-## Engineering at Meta（meta-engineering，en，本窗口共 2 条）
-
-### 1. How Meta Built Forum With AI-Native Engineering
-- 摘要：Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic A...
-- 作者：Shengbo Guo; Bohou Luo; Shubhojeet Sarkar; Vivian Qu; Max Fan; Prerna Jain; Mike...
-- 发布时间：2026-10-16 03:00 CST
-- 链接：https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/
-
-### 2. 2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale
-- 摘要：Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than...
-- 作者：Syamla Bandla; Vincent Mauge; Michael Stella; Deniz Hastorun; Francois Richard;...
-- 发布时间：2026-10-16 02:30 CST
-- 链接：https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/
-
-## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 2 条）
+## NVIDIA Technical Blog（nvidia-developer，en，本窗口共 1 条）
 
 ### 1. Code, Test, and Deploy on One Machine with NVIDIA RTX Spark
 - 摘要：AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As... AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that wr...
@@ -265,39 +233,44 @@
 - 发布时间：2026-10-17 01:00 CST
 - 链接：https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/
 
-### 2. Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72
-- 摘要：Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on... Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window...
-- 作者：Tanya Lenz
-- 发布时间：2026-10-16 02:00 CST
-- 链接：https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/
+## OpenAI News（openai-news，en，本窗口共 3 条）
 
-## OpenAI News（openai-news，en，本窗口共 2 条）
+### 1. Stack Overflow for Agents triples signups with ChatGPT plugin
+- 摘要：Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.
+- 发布时间：2026-10-16 08:00 CST
+- 链接：https://openai.com/index/stack-overflow-chatgpt-plugin
 
-### 1. Bringing GPT-Rosalind to academic research labs
+### 2. Bringing GPT-Rosalind to academic research labs
 - 摘要：Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.
 - 发布时间：2026-10-16 03:00 CST
 - 链接：https://openai.com/index/introducing-the-rosalind-academic-plan
 
-### 2. Sullivan & Cromwell brings legal expertise into agreement review
+### 3. Sullivan & Cromwell brings legal expertise into agreement review
 - 摘要：In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.
 - 发布时间：2026-10-15 08:00 CST
 - 链接：https://openai.com/index/sullivan-cromwell
 
 # Tier 2 — 专业媒体
 
-## Ars Technica — AI（arstechnica-ai，en，本窗口共 2 条）
+## Ars Technica — AI（arstechnica-ai，en，本窗口共 4 条）
 
-### 1. Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees
+### 1. OpenAI models hacked a crypto wallet and breached more websites
+- 摘要：OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. T...
+- 作者：Dan Goodin
+- 发布时间：2026-10-17 04:59 CST
+- 链接：https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/
+
+### 2. “thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops
+- 摘要：New Jersey’s deputy attorney general, Brian Richard Fitzgerald, was arrested on “felony charges related to AI-generated child sexual abuse material (CSAM),” Bucks County Detectives said in a press release Thursday. In the US, cops have vowed to crack down on AI CSAM since at least 2024, when the Dep...
+- 作者：Ashley Belanger
+- 发布时间：2026-10-17 04:20 CST
+- 链接：https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/
+
+### 3. Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees
 - 摘要：Legal experts are sounding alarms that Meta will soon update its commercial terms to require business accounts to allow Meta to train AI on their linked website content, not just their social media posts. Kicking in on October 30, the TOS update won’t allow businesses to opt out, instead suggesting...
 - 作者：Ashley Belanger
 - 发布时间：2026-10-16 23:41 CST
 - 链接：https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/
-
-### 2. Super Scam Me documentary shows what it takes to catch a romance scammer
-- 摘要：If you got a DM from an unverified Jon Bon Jovi account after commenting on one of his official Instagram posts, what would it take to make you believe it was really the rock star hoping to connect? And at what point when he starts asking you to send money—like lose-your-house kind of money—would yo...
-- 作者：Ashley Belanger
-- 发布时间：2026-10-16 22:00 CST
-- 链接：https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/
 
 ## Axios（axios，en，本窗口共 5 条）
 
@@ -319,24 +292,26 @@
 - 发布时间：2026-10-16 17:15 CST
 - 链接：https://www.axios.com/2026/10/16/geothermal-rare-political-sweet-spot-ai-boom
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 39 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 38 条）
 
-### 1. Big Tech Earnings and AI Anxiety
-- 摘要：Get a jump start on the US trading day with Dani Burger on "Bloomberg Open Interest." Fed Chair Kevin Warsh stays silent on rates, fueling bets the Fed holds steady this month. Big Tech earnings kick into high gear as AI anxiety rattles investors. Plus, Tesla’s Roadster takes flight using SpaceX tec...
-- 发布时间：2026-10-17 00:52 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-16/open-interest-10-16-2026-video
+### 1. Nvidia CEO on AI Market Turmoil: ‘All of This Is Going to Pass’
+- 摘要：Nvidia Corp. Chief Executive Officer Jensen Huang took a sanguine view toward the latest AI stock-market rout, saying the benefits of the technology will soon outweigh the concerns of investors.
+- 作者：Ian King
+- 发布时间：2026-10-17 04:33 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-16/nvidia-ceo-on-ai-market-turmoil-all-of-this-is-going-to-pass
 
-### 2. We are Only 'Third Inning Relative to this AI Game,' Says Dan Ives
-- 摘要：Three CoreWeave Inc. co-founders have sold $3.3 billion in company shares since last year’s initial public offering, taking money off the table as rising credit risks and investor wariness around AI spending spark volatility in the stock. Dan Ives, Partner at Yorkville & Ives, discusses volatility r...
-- 发布时间：2026-10-17 00:13 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-16/only-third-inning-relative-to-this-ai-game-says-ives-video
+### 2. 'Difficult to Overstate' Volatility of White House AI Messaging, Says Greg Allen
+- 摘要：Greg Allen, Founder and CEO of Decision Tree Research and former AI strategy official at the Department of Defense, said that it is 'extremely difficult to overstate' how volatile the Trump administration's messaging has been on artificial intelligence regulations as it swings between dismissing AI...
+- 发布时间：2026-10-17 02:50 CST
+- 链接：https://www.bloomberg.com/news/videos/2026-10-16/hard-to-overstate-volatility-of-wh-ai-messaging-allen-video
 
-### 3. Debt Worries Keep Driving Down CoreWeave Stock
-- 摘要：CoreWeave's stock dropped 20% during the first three trading sessions of this week, then Nvidia CEO Jensen Huang stepped in to say he had confidence in the company. But will that be enough to prop up the stock? Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)
-- 发布时间：2026-10-16 23:21 CST
-- 链接：https://www.bloomberg.com/news/videos/2026-10-16/debt-worries-keep-driving-down-coreweave-stock-video
+### 3. SoftBank Is Said to Weigh Buying Top US Security Firm Allied
+- 摘要：SoftBank Group Corp. is considering an acquisition of Allied Universal, the largest security services company in the US, people familiar with the matter said, as founder Masayoshi Son explores ways to deploy AI-powered robots across industries.
+- 作者：Carmen Arroyo, Min Jeong Lee, Manuel Baigorri and Paula Sambo
+- 发布时间：2026-10-17 02:50 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-16/softbank-is-said-to-weigh-buying-largest-us-security-firm-allied
 
-## CNBC Technology（cnbc-tech，en，本窗口共 5 条）
+## CNBC Technology（cnbc-tech，en，本窗口共 4 条）
 
 ### 1. OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton
 - 摘要：AI "amplifies" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on "Squawk Box."
@@ -356,22 +331,22 @@
 - 发布时间：2026-10-16 06:16 CST
 - 链接：https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html
 
-## Financial Times — Technology（ft-tech，en，本窗口共 14 条）
+## Financial Times — Technology（ft-tech，en，本窗口共 13 条）
 
-### 1. Can consultants reinvent themselves once again?
+### 1. Big Tech stocks suffer biggest weekly drop since ‘liberation day’
+- 摘要：AI trade jitters send investors scrambling for government debt in a move that halts a months-long Treasury sell-off
+- 发布时间：2026-10-17 04:42 CST
+- 链接：https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1
+
+### 2. Alexandr Wang, Meta’s AI wunderkind
+- 摘要：The 29-year-old in charge of the company’s Superintelligence Labs is being touted as a potential successor to Mark Zuckerberg
+- 发布时间：2026-10-17 00:31 CST
+- 链接：https://www.ft.com/content/7477e462-c899-4841-a5cf-c01706e23982?syn-25a6b1a6=1
+
+### 3. Can consultants reinvent themselves once again?
 - 摘要：As AI becomes more capable, human advisers must find new ways to prove their worth
 - 发布时间：2026-10-17 00:11 CST
 - 链接：https://www.ft.com/content/ff9756a6-6339-47ca-ae9b-efd00e019fe3?syn-25a6b1a6=1
-
-### 2. Citi becomes latest US bank to restrict AI agents from accessing accounts
-- 摘要：US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts
-- 发布时间：2026-10-16 22:58 CST
-- 链接：https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1
-
-### 3. China unveils draft export controls on AI technologies and chips
-- 摘要：Expanded restrictions highlight Beijing’s determination to prevent transfer of most advanced technology overseas
-- 发布时间：2026-10-16 20:51 CST
-- 链接：https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf?syn-25a6b1a6=1
 
 ## The Guardian — AI（guardian-ai，en，本窗口共 2 条）
 
@@ -386,6 +361,14 @@
 - 作者：Agence France-Presse
 - 发布时间：2026-10-16 08:34 CST
 - 链接：https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model
+
+## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 1 条）
+
+### 1. Simulation App Speeds Up Electric Truck Battery Design
+- 摘要：This article is brought to you by COMSOL . These days, no one blinks an eye at two-day, one-day, and even same-day package deliveries. Despite the plethora of localized fulfillment and distributi on centers that have cropped up to meet the demand, delivery trucks still need to make considerably long...
+- 作者：Brianne Costa
+- 发布时间：2026-10-17 00:49 CST
+- 链接：https://spectrum.ieee.org/electric-truck-battery-design-simulation
 
 ## Latent Space（latent-space，en，本窗口共 1 条）
 
@@ -415,69 +398,65 @@
 - 发布时间：2026-10-16 03:53 CST
 - 链接：https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/
 
-## Nature — Machine Learning（nature-ml，en，本窗口共 1 条）
+## MIT Technology Review — AI（mit-tech-review，en，本窗口共 1 条）
+
+### 1. Roundtables: A Conversation With the Creator of AI-Designed Viruses
+- 摘要：Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c...
+- 作者：MIT Technology Review
+- 发布时间：2026-10-17 02:00 CST
+- 链接：https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/
+
+## Nature — Machine Learning（nature-ml，en，本窗口共 2 条）
 
 ### 1. PhD students who write dissertation with AI less likely to stay in academia
 - 发布时间：2026-10-16 08:00 CST
 - 链接：https://www.nature.com/articles/d41586-026-03253-2
 
-## SemiAnalysis（semianalysis，en，本窗口共 1 条）
+### 2. LitGene: an interpretable transformer model integrating text and ontology for gene representation learning
+- 发布时间：2026-10-16 08:00 CST
+- 链接：https://www.nature.com/articles/s41467-026-78454-4
 
-### 1. ASML Is Building a Hybrid Bonding Tool!
-- 摘要：ASML has not announced anything yet, but its patent filings, a news report and its own roadmap all suggest so. We believe it will start with a die-to-wafer (D2W) hybrid bonding (HB) tool. This is harder to build than wafer-to-wafer but is where ASML could gain an edge. We see the move as a natural e...
-- 作者：Sherry Zhang
-- 发布时间：2026-10-16 03:27 CST
-- 链接：https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding
+## TechCrunch — AI（techcrunch-ai，en，本窗口共 10 条）
 
-## Simon Willison's Weblog（simon-willison，en，本窗口共 1 条）
+### 1. Replit is no longer working with Anthropic, CEO says
+- 摘要：Replit CEO and co-founder Amjad Masad made the comments during TechCrunch Disrupt 2026.
+- 作者：Lucas Ropek, Kirsten Korosec
+- 发布时间：2026-10-17 05:22 CST
+- 链接：https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/
 
-### 1. Chirp Pong
-- 摘要：Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use t...
-- 作者：Simon Willison
-- 发布时间：2026-10-16 03:47 CST
-- 链接：https://simonwillison.net/2026/Oct/15/chirp-pong/
+### 2. India becomes the latest country to report rogue AI agent activity
+- 摘要：The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.
+- 作者：Aditya Mehta
+- 发布时间：2026-10-17 01:52 CST
+- 链接：https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/
 
-## TechCrunch — AI（techcrunch-ai，en，本窗口共 13 条）
-
-### 1. Physical AI is more than robots, says the Nvidia veteran now investing in it
+### 3. Physical AI is more than robots, says the Nvidia veteran now investing in it
 - 摘要：Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who beli...
 - 作者：Theresa Loconsolo, Dominic-Madori Davis
 - 发布时间：2026-10-17 00:30 CST
 - 链接：https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/
 
-### 2. An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet
-- 摘要：Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who beli...
-- 作者：Theresa Loconsolo
-- 发布时间：2026-10-17 00:30 CST
-- 链接：https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/
+## The Decoder（the-decoder，en，本窗口共 6 条）
 
-### 3. Elorian’s first AI model wants to reason with images, not just about them
-- 摘要：According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.
-- 作者：Aditya Mehta
-- 发布时间：2026-10-17 00:01 CST
-- 链接：https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/
+### 1. ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs
+- 摘要：OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use "Computer Use" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on...
+- 作者：Matthias Bastian
+- 发布时间：2026-10-17 02:10 CST
+- 链接：https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/
 
-## The Decoder（the-decoder，en，本窗口共 5 条）
+### 2. China plans to tighten export controls on open-weight models and 23 key AI technologies
+- 摘要：China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Wester...
+- 作者：Matthias Bastian
+- 发布时间：2026-10-17 01:42 CST
+- 链接：https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/
 
-### 1. Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months
+### 3. Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months
 - 摘要：Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals i...
 - 作者：Matthias Bastian
 - 发布时间：2026-10-16 23:03 CST
 - 链接：https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/
 
-### 2. Is AI interpretability close to a breakthrough? A new essay has researchers divided
-- 摘要：Neural networks may be much easier to read than researchers assumed, with about 90 percent of neurons serving a clear function. That would be big news for AI safety research, since deception or dangerous behavior could be spotted directly in a model's circuits. Researchers are still debating whether...
-- 作者：Maximilian Schreiner
-- 发布时间：2026-10-16 21:48 CST
-- 链接：https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/
-
-### 3. OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year
-- 摘要：OpenAI is launching the Rosalind Academic Plan, a free offering that's currently open only to research labs at US universities without an enterprise contract. The article OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year appeared first on The Decoder .
-- 作者：Maximilian Schreiner
-- 发布时间：2026-10-16 21:15 CST
-- 链接：https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/
-
-## The Verge — AI（theverge-ai，en，本窗口共 8 条）
+## The Verge — AI（theverge-ai，en，本窗口共 6 条）
 
 ### 1. A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops
 - 摘要：Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful lap...
@@ -505,38 +484,43 @@
 - 发布时间：2026-10-16 08:00 CST
 - 链接：https://tldr.tech/ai/2026-10-16
 
-## VentureBeat（venturebeat，en，本窗口共 2 条）
+## VentureBeat（venturebeat，en，本窗口共 4 条）
 
-### 1. Reflection's Beam aims to undercut Chinese open models with fewer tokens, not cheaper tokens
+### 1. A new framework teaches AI models to audit and repair each other’s reasoning, improving accuracy
+- 摘要：Enterprise multi-agent workflows typically use rigid, pre-scripted pipelines or simple voting mechanisms to aggregate the responses of multiple agents. These approaches break down when complex problems cannot be divided into neat subtasks in advance or none of the models in the AI system has the com...
+- 作者：bendee983@gmail.com (Ben Dickson)
+- 发布时间：2026-10-17 02:07 CST
+- 链接：https://venturebeat.com/orchestration/a-new-framework-teaches-ai-models-to-audit-and-repair-each-others-reasoning-improving-accuracy
+
+### 2. Up to 60% of GPU compute goes to recomputing context. Flash storage can put that capacity back to work
+- 摘要：GPUs running large language model inference can spend up to 60% of their compute recalculating context they already processed, says Alan McSeveney, field CTO at WEKA. Speaking with VentureBeat lead analyst Rob Strechay at the latest stop in the VentureBeat AI Impact Series, McSeveney said the waste...
+- 发布时间：2026-10-17 01:37 CST
+- 链接：https://venturebeat.com/infrastructure/up-to-60-of-gpu-compute-goes-to-recomputing-context-flash-storage-can-put-that-capacity-back-to-work
+
+### 3. Reflection's Beam aims to undercut Chinese open models with fewer tokens, not cheaper tokens
 - 摘要：Reflection AI today released the weights of Beam, its first open model, and is pitching it against the Chinese open models that many U.S. companies are already embracing because of their lower costs. Read more
 - 发布时间：2026-10-16 21:00 CST
 - 链接：https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens
 
-### 2. Meta unveils Muse Spark Open, the new top U.S. open weights model — and it runs on two paired Mac desktops
-- 摘要：Chinese labs have become a go-to source for AI models businesses can download, customize and run on their own infrastructure. Alibaba’s Qwen, DeepSeek and Moonshot AI’s Kimi help set the competitive standard for open-weight systems, giving developers alternatives to proprietary models accessed throu...
-- 作者：carl.franzen@venturebeat.com (Carl Franzen)
-- 发布时间：2026-10-16 03:05 CST
-- 链接：https://venturebeat.com/technology/meta-unveils-muse-spark-open-the-new-top-u-s-open-weights-model-and-it-runs-on-two-paired-mac-desktops
+## WIRED — AI（wired-ai，en，本窗口共 5 条）
 
-## WIRED — AI（wired-ai，en，本窗口共 4 条）
+### 1. Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds
+- 摘要：The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.
+- 作者：Tess Owen, Tim Marchman
+- 发布时间：2026-10-17 04:05 CST
+- 链接：https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds/
 
-### 1. Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’
+### 2. Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’
 - 摘要：MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.
 - 作者：Steven Levy
 - 发布时间：2026-10-16 23:00 CST
 - 链接：https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/
 
-### 2. AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content
+### 3. AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content
 - 摘要：A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.
 - 作者：Ej Dickson
 - 发布时间：2026-10-16 19:00 CST
 - 链接：https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/
-
-### 3. We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView
-- 摘要：This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.
-- 作者：Brian Barrett, Leah Feiger, Reece Rogers
-- 发布时间：2026-10-16 05:18 CST
-- 链接：https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/
 
 ## 36氪 AI 频道（36kr-ai，zh，本窗口共 47 条）
 
@@ -707,7 +691,7 @@
 - 发布时间：2026-10-16 18:01 CST
 - 链接：https://www.oschina.net/news/503062
 
-## 量子位（qbitai，zh，本窗口共 21 条）
+## 量子位（qbitai，zh，本窗口共 12 条）
 
 ### 1. 清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型
 - 摘要：从搭载物理建模能力的世界模型切入
@@ -796,24 +780,25 @@
 
 ## Hacker News (AI stories)（hackernews-ai，en，本窗口共 98 条）
 
-### 1. 90% of US working hours are spent on tasks not covered well by AI benchmarks
-- 摘要：The US Benchmark Map places AI benchmarks across the American economy, measuring which parts of the labor force are covered by unsaturated, public, agentic benchmarks.
-- 作者：speckx
-- 发布时间：2026-10-17 01:08 CST
-- 链接：https://www.mercor.com/research/labor-index/benchmark-map/
+### 1. Tell HN: Anthropic found 36 bugs (6 CVEs) in Pion, OpenAI missed them
+- 摘要：We added Pion DTLS to Anthropic's OSS scanner last week (https://github.com/anthropics/oss-scanner/pull/93), and today we woke up to a report with 36 bugs, including 6 security vulnerabilities: 2 critical, 3 high, and 1 moderate. Four of them affect WebRTC. Some of these vulnerabilities have been si...
+- 作者：JoTurk
+- 发布时间：2026-10-17 04:59 CST
+- 链接：https://news.ycombinator.com/item?id=50124600
 
-### 2. Post About Recreating Adobe Tools Using AI Banned per Adobe Request
-- 作者：joering2
-- 发布时间：2026-10-17 00:55 CST
-- 链接：https://www.reddit.com/r/Bard/comments/1wxmqpt/ive_created_open_source_100_rust_cleanroom/
+### 2. I never authorized an integration that scans my secrets
+- 摘要：Type of issue Other (issue in content formatting, broken link or image, non-working widget) Problem description This is a pretty severe invasion of privacy. I never authorized any integrations or p...
+- 作者：trvrprkr
+- 发布时间：2026-10-17 04:33 CST
+- 链接：https://github.com/home-assistant/home-assistant.io/issues/49314
 
-### 3. Inside Polymarket's paid quote-retweet esports program
-- 摘要："This needs to look organic," wrote a Polymarket rep in an internal Discord server for the program.
-- 作者：paimapi
-- 发布时间：2026-10-16 23:56 CST
-- 链接：https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation
+### 3. Taco Bell drive-thru AI bot increased employee retention by making jobs easier
+- 摘要：“I'm seeing all the data center noise and all the things that people worry about with AI, and there's that constant tension,” Yum! Brands Chief Legal Officer Erika Burkhardt said.
+- 作者：TMWNN
+- 发布时间：2026-10-17 03:37 CST
+- 链接：https://fortune.com/2026/10/14/yum-brands-executive-data-center-hate-ai-tools-improvement/
 
-## Product Hunt — AI（producthunt-ai，en，本窗口共 20 条）
+## Product Hunt — AI（producthunt-ai，en，本窗口共 18 条）
 
 ### 1. GBrain Tools
 - 摘要：A password manager for AI Discussion | Link
@@ -833,7 +818,7 @@
 - 发布时间：2026-10-16 00:36 CST
 - 链接：https://www.producthunt.com/products/toad-4
 
-## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 20 条）
+## Reddit AI subreddits (hot)（reddit-ai-hot，en，本窗口共 19 条）
 
 ### 1. Why do we have models under 15b so rarely anymore?
 - 摘要：Basically title. All labs seem to have agreed 24-27b is the minimum size they will go, nothing below that. I wonder when will we get the next sub 14b model from a SOTA lab
@@ -853,25 +838,25 @@
 - 发布时间：2026-10-16 21:22 CST
 - 链接：https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 359 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 358 条）
 
-### 1. Excuse me Flux.3 Klein, I had some other intention.
-- 摘要：F2K 9B is superior to F3K _|_B. Evolving backward. Faak you Black Forest Labs. I tried upscaling, T2I, texture upgrade, N-SFW, SFW, Anime.. Pleased to announce, F3K sucks in everything, Cheers.
-- 作者：RadioQuick6509
-- 发布时间：2026-10-17 01:33 CST
-- 链接：https://i.redd.it/tzswezck7vvh1.jpeg
+### 1. Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion...
+- 摘要：Tracked my first run of MiMo Pro on a Jetson AGX Thor at a scorching 0.646 tokens/sec,.. but it DID technically load and run, so it counts. Every decoder layer, routed expert, SSD read (..a good bit more) traced and replayable step by step. Here we can't what-now?.. it's ~566GB of model (FP8), at th...
+- 作者：Oswald_Hydrabot
+- 发布时间：2026-10-17 05:18 CST
+- 链接：https://v.redd.it/a0tyd4pmbwvh1
 
-### 2. Isn’t alignment impossible?
-- 摘要：When AI development is cheap enough (ie… doable on a laptop), couldnt some mentally ill person just train an evil-aligned AI?
-- 作者：roykingtree
-- 发布时间：2026-10-17 01:32 CST
-- 链接：https://www.reddit.com/r/singularity/comments/1x7mjdd/isnt_alignment_impossible/
+### 2. Qwen3.8-Flash-Next-GSQ-RCO (IQ3_S): ~40-50 tok/sec decode & 1300-1500 tok/sec prefill at 131k ctx on 12GB VRAM + 32GB RAM + NVME
+- 摘要：I got Qwen3.8-Flash-Next-GSQ-RCO-Abliterated running at IQ3_S with just 12GB VRAM + 32GB RAM + NVME, achieving 40-50 tok/sec decode & 1300-1500 tok/sec prefill @ 131k context (44k thinking budget), on a custom fork of Strata. This fork has tonnes of architectural changes, all are very experimental....
+- 作者：bodhi371
+- 发布时间：2026-10-17 05:18 CST
+- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1x7sbdc/qwen38flashnextgsqrco_iq3_s_4050_toksec_decode/
 
-### 3. Nemotron 3.5 Bolt Evaluation using real-world tasks
-- 摘要：I evaluate new models by giving them actual work tasks that have already been completed by a trusted model and then comparing the results. My typical workflow is to plan tasks/requests in Gemini and create a markdown spec-sheet that outlines the work that needs to be done along with acceptance crite...
-- 作者：CulturalKing5623
-- 发布时间：2026-10-17 01:31 CST
-- 链接：https://www.reddit.com/r/LocalLLaMA/comments/1x7mig3/nemotron_35_bolt_evaluation_using_realworld_tasks/
+### 3. Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more
+- 摘要：Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.
+- 作者：Distinct-Question-16
+- 发布时间：2026-10-17 05:15 CST
+- 链接：https://www.anthropic.com/research/designing-efficient-quantum-circuits
 
 ## 智源社区（baai-hub，zh，本窗口共 21 条）
 
@@ -894,7 +879,7 @@
 - 链接：https://hub.baai.ac.cn/view/58738
 
 ---
-共列出 134 条（窗口内采集总数 1954 条，来自 53 个信源）
+共列出 132 条（窗口内采集总数 1932 条，来自 51 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
