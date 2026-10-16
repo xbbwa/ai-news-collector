@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-16 09:34 CST
-数据窗口：最近 24 小时，1833 条原始条目 → 1459 个事件；过滤噪音 427 个，排除全部历史已推送的 140 个。
+生成时间：2026-10-16 15:25 CST
+数据窗口：最近 24 小时，2017 条原始条目 → 1590 个事件；过滤噪音 460 个，排除全部历史已推送的 144 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -8,40 +8,40 @@
 
 国外：
 
-## 1. Cascaded Retrieval with Cross-Modal Query Refinement for Efficient Visual Document Search
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.CV（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.20367v1 Announce Type: new Abstract: Retrieving information from visually rich documents requires matching queries against pages that contain complex evidence in tables, figures, and layout-dependent structure...
-- 发布时间：2026-10-15 12:00 CST
-- 链接：https://arxiv.org/abs/2610.20367
-- 同事件报道：Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling（arXiv cs.CV）
-- 同事件报道：Global Cross-Modal Geo-Localization: A Million-Scale Dataset and a Physical Consistency Learning Framework（arXiv cs.CV）
+## 1. Audio-Visual Dog Identification and Tracking in Real-World Videos
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2610.21011v1 Announce Type: new Abstract: Identifying individual dogs from barks in real-world videos remains challenging and largely unexplored. Solving this problem would enable long-term behavioral analysis, vet...
+- 发布时间：2026-10-16 12:00 CST
+- 链接：https://arxiv.org/abs/2610.21011
+- 同事件报道：CF-AVSS: A Coarse-to-Fine Audio-Visual Speech Separation Framework with Target-Speaker Refinement and Post-Fusion for Re...（arXiv cs.AI）
 
-## 2. From Triage to Impact: A Multi-Hop Reasoning Benchmark for Explainable Persian Hate Speech
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.CV（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.20370v1 Announce Type: new Abstract: Hate speech has become increasingly prevalent on social media, raising concerns about its detection, interpretation, and moderation. Persian, a relatively low-resource lang...
-- 发布时间：2026-10-15 12:00 CST
-- 链接：https://arxiv.org/abs/2610.20370
-- 同事件报道：Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models（arXiv cs.CV）
+## 2. Out-of-Distribution Object Detection in Street Scenes via Synthetic Outlier Exposure and Transfer Learning
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CV、arXiv cs.LG（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2603.16122v2 Announce Type: replace Abstract: Out-of-distribution (OOD) objects are often silently overlooked by object detectors, which produce no detection for them, leaving downstream modules with nothing to act...
+- 发布时间：2026-10-16 12:00 CST
+- 链接：https://arxiv.org/abs/2603.16122
+- 同事件报道：TASTE: Task-Aware Out-of-Distribution Detection via Stein Operators（arXiv cs.LG）
 
-## 3. The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation
-- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.LG（2 个来源） ｜ 热度：7.5
-- 摘要：arXiv:2610.20456v1 Announce Type: new Abstract: The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as...
-- 发布时间：2026-10-15 12:00 CST
-- 链接：https://arxiv.org/abs/2610.20456
-- 同事件报道：Decoupled Marginal Sharpening for Training-Free Inference-Time Scaling（arXiv cs.LG）
+## 3. LLM-Based Weak Annotation for Cybersecurity Tweet Classification: A Teacher-Student Framework
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2610.21254v1 Announce Type: new Abstract: Cyber threat intelligence (CTI) relies on the timely identification of emerging threats, enabling organizations and security analysts to support situational awareness and d...
+- 发布时间：2026-10-16 12:00 CST
+- 链接：https://arxiv.org/abs/2610.21254
+- 同事件报道：Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection（arXiv cs.AI）
 
-## 4. CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans
-- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：6.0
-- 摘要：A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers.
-- 发布时间：2026-10-15 22:01 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-15/coreweave-risk-gauge-hits-record-pricing-60-odds-of-default
-- 同事件报道：CoreWeave credit default swaps hit distress levels as investors sour on AI debt（CNBC Technology）
+## 4. Mosaic: Multi-Session Agentic Reinforcement Learning
+- 地区：国外源 ｜ 语言：en ｜ 来源：arXiv cs.CL、arXiv cs.AI（2 个来源） ｜ 热度：8.0
+- 摘要：arXiv:2610.22174v1 Announce Type: new Abstract: Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, ag...
+- 发布时间：2026-10-16 12:00 CST
+- 链接：https://arxiv.org/abs/2610.22174
+- 同事件报道：X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning（arXiv cs.AI）
 
-## 5. ibm-granite/granite-switch-4.1-30b-preview
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.96
-- 摘要：text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us
-- 发布时间：2026-10-15 21:51 CST
-- 链接：https://huggingface.co/ibm-granite/granite-switch-4.1-30b-preview
+## 5. Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW
+- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Blog、Bloomberg Technology（2 个来源） ｜ 热度：6.5
+- 摘要：Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS 4.5 controls give GeForce NOW members more choice over how supported games look and perform in the cloud, even without the latest hardware. Then, step in...
+- 发布时间：2026-10-15 21:00 CST
+- 链接：https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/
+- 同事件报道：Nvidia Partner GMI Cloud Calls CoreWeave’s 15% Yield ‘Insane’（Bloomberg Technology）
 
 ## 6. ibm-granite/granite-switch-4.1-3b-preview
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.57
@@ -49,26 +49,25 @@
 - 发布时间：2026-10-15 21:02 CST
 - 链接：https://huggingface.co/ibm-granite/granite-switch-4.1-3b-preview
 
-## 7. Investors dump data centre bonds as AI borrowers face ‘Darwin moment’
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.06
+## 7. ibm-granite/granite-switch-4.1-8b-preview
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：5.51
+- 摘要：text-generation, transformers, safetensors, granite_switch, language, granite-switch, granite-4.1, conversational, license:apache-2.0, endpoints_compatible, region:us
+- 发布时间：2026-10-15 18:57 CST
+- 链接：https://huggingface.co/ibm-granite/granite-switch-4.1-8b-preview
+
+## 8. CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans
+- 地区：国外源 ｜ 语言：en ｜ 来源：Bloomberg Technology、CNBC Technology（2 个来源） ｜ 热度：5.5
+- 摘要：A measure of CoreWeave Inc.’s credit risk climbed to an all-time high Thursday as its high-yield bonds extended declines, rattled by the AI cloud-computing company’s talk of tapping vast pools of capital from insurers.
+- 发布时间：2026-10-15 22:01 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-15/coreweave-risk-gauge-hits-record-pricing-60-odds-of-default
+- 同事件报道：CoreWeave credit default swaps hit distress levels as investors sour on AI debt（CNBC Technology）
+
+## 9. Investors dump data centre bonds as AI borrowers face ‘Darwin moment’
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.56
 - 摘要：Debt issued by AI infrastructure providers and neocloud companies has sunk towards stressed territory
 - 发布时间：2026-10-15 23:25 CST
 - 链接：https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1
 - 同事件报道：Investors dump data centre bonds as AI borrowers face 'Darwin moment'（Hacker News (AI stories)）
-
-## 8. German police seize robot after it allegedly groped a teenage girl
-- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Hacker News (AI stories)（2 个来源） ｜ 热度：4.55
-- 摘要：Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
-- 发布时间：2026-10-15 12:20 CST
-- 链接：https://www.youtube.com/watch?v=CVq7GfJYr8E
-- 同事件报道：German police launch investigation after robot allegedly gropes teenage girl（Hacker News (AI stories)）
-
-## 9. Liquid AI D1-Ultra
-- 地区：国外源 ｜ 语言：en ｜ 来源：Hacker News (AI stories)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.06
-- 摘要：d1-ultra, the world's best decision model for text and images, built for hard real-world cases. Available on the Liquid AI API
-- 发布时间：2026-10-16 01:15 CST
-- 链接：https://www.liquid.ai/blog/d1-ultra
-- 同事件报道：Liquid AI's d1-ultra decision model takes a very strong place on the pareto front（Reddit AI subreddits (new)）
 
 ## 10. Apertus 1.5 Release Notes
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：4.0
@@ -82,65 +81,68 @@
 - 发布时间：2026-10-15 20:00 CST
 - 链接：https://mistral.ai/news/timestral/
 
-## 12. NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning
-- 地区：国外源 ｜ 语言：en ｜ 来源：NVIDIA Technical Blog（1 个来源） ｜ 热度：3.5
-- 摘要：Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enter...
-- 发布时间：2026-10-15 23:00 CST
-- 链接：https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/
+## 12. Researchers discovered a Chinese swarm: "This is the first time researchers have ever made contact with a rogue agent fleet in the wild." The agents escaped from Tencent and claim to be Claudes.
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (hot)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.0
+- 发布时间：2026-10-16 05:04 CST
+- 链接：https://www.reddit.com/gallery/1x6xkya
+- 同事件报道：Researchers discovered a Chinese swarm: "This is the first time researchers have ever made contact with a rogue agent fl...（Reddit AI subreddits (new)）
 
-## 13. Trust in Depth: Giving agents more autonomy without losing control
-- 地区：国外源 ｜ 语言：en ｜ 来源：AWS Machine Learning Blog（1 个来源） ｜ 热度：3.5
-- 摘要：In every conversation I have with enterprise leaders, they say the same thing. They want agents to do more, but they don’t trust them to do it right all the time. That’s fair. The same creativity and autonomy that makes...
-- 发布时间：2026-10-15 23:05 CST
-- 链接：https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/
+## 13. **DeepSeek-V4-Flash-0731 on 4x Radeon AI PRO R9700 with affinity: the "refused" 4-card config works, ~79 tok/s on real cards**
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (hot)、Reddit AI subreddits (new)（2 个来源） ｜ 热度：4.0
+- 摘要：Follow-up to u/neuromacmd 's post from a few weeks back ( https://www.reddit.com/r/LocalLLaMA/comments/1wod07t/ ). The affinity engine ( https://codeberg.org/StillDeadcode/affinity ) refuses to start on more than two car...
+- 发布时间：2026-10-16 07:06 CST
+- 链接：https://i.redd.it/fd8iddwcppvh1.jpeg
+- 同事件报道：Trying to upgrade my gaming PC to be able to also do compute, mainly coding/RP RPGs. Looking between a second RTX5070ti...（Reddit AI subreddits (new)）
 
-## 14. What the Gemini agent means for startups
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
-- 摘要：Small teams, short runway, and constant pressure to ship faster — it’s the reality we see every day among the founders we work with at Google for Startups. When you are building a company from the ground up, every hour s...
-- 发布时间：2026-10-16 00:00 CST
-- 链接：https://cloud.google.com/blog/topics/startups/what-the-gemini-agent-means-for-startups/
+## 14. Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint
+- 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face Blog（1 个来源） ｜ 热度：3.5
+- 摘要：A Blog post by IBM Granite on Hugging Face
+- 发布时间：2026-10-16 04:34 CST
+- 链接：https://huggingface.co/blog/ibm-granite/granite-switch-4-1
 
 国内：
 
-## 1. Muse起势、大厂谋变，个人智能体激战前夜
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体、36氪 AI 频道（3 个来源） ｜ 热度：9.0
-- 摘要：本文来自微信公众号： 来咖智库 ，作者：龚岩，编辑：G3007 新玩法和老问题并存。 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初Open...
-- 发布时间：2026-10-15 13:16 CST
-- 链接：https://www.huxiu.com/article/4897714.html
-- 同事件报道：Muse起势、大厂谋变，个人智能体激战前夜（钛媒体）
-- 同事件报道：字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？（36氪 AI 频道）
-
-## 2. 快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：7.0
+## 1. 快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯、雷峰网（3 个来源） ｜ 热度：10.5
 - 摘要：IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表...
 - 发布时间：2026-10-16 08:22 CST
 - 链接：https://www.ithome.com/1/013/715.htm
 - 同事件报道：可灵AI上线Kling 4.0：支持10-bit HDR、30秒原生直出 刷新视频模型新基准（36氪 快讯）
+- 同事件报道：Kling 4.0正式上线：10-bit HDR、30秒原生直出 刷新视频模型新基准（雷峰网）
 
-## 3. 昆仑万维发布世界首款消费级显卡视频大模型游戏，同步开源
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、雷峰网（2 个来源） ｜ 热度：6.5
-- 摘要：IT之家 10 月 15 日消息，昆仑万维今日发布世界上第一款运行在单张消费级显卡上的视频大模型游戏 ——Matrix-Game 4.0。 昆仑万维介绍称，“Matrix-Game 4.0 构建起了游戏世界模型的新范式：由游戏引擎维护世界状态与交互规则，由视频生成模型实时呈现精细画面。它把 480p、60 FPS 的实时游戏体验，装进了一张 NVIDIA RTX 5090；从你按下按键，到画面做出反应，延迟低于 150 毫秒。Matri...
-- 发布时间：2026-10-15 12:00 CST
-- 链接：https://www.ithome.com/1/013/283.htm
-- 同事件报道：昆仑万维诞生世界上第一款消费级显卡视频大模型游戏，同步开源（雷峰网）
-
-## 4. 特朗普白宫宴会捐款名单曝光：苹果、英伟达各捐 2500 万美元为单笔最高金额
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.0
-- 摘要：IT之家 10 月 15 日消息，《华盛顿邮报》今日披露了一份白宫内部捐款记录，揭示了美国总统特朗普白宫宴会厅项目的主要捐赠方及具体金额。 记录显示，截至 9 月底共记录 67 笔超过 1 万美元 （现汇率约合 67,065 元人民币） 的捐款，私人捐赠承诺总额约为 3.33 亿美元 （IT之家注：现汇率约合 22.33 亿元人民币） ，其中英伟达和苹果均承诺捐款 2,500 万美元 （现汇率约合 1.68 亿元人民币） ，均为单笔最高...
-- 发布时间：2026-10-15 22:31 CST
-- 链接：https://www.ithome.com/1/013/668.htm
-- 同事件报道：特朗普白宫宴会厅捐款名单曝光：苹果英伟达各2500万美元 特朗普本人未出现（36氪 快讯）
-
-## 5. 上市破发，传音被AI坑惨了？
-- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：本文来自微信公众号： 定焦One ，作者：定焦One团队，编辑：魏佳 低价走量加廉价供应链，不好使了。 定焦One（dingjiaoone）原创 10月15日，非洲手机之王传音控股在港交所挂牌。开盘价34.96港元，比发行价低1%，开盘后继续下跌，跌幅一度超过7%。截至发稿，股价在33.6港元附近。 定价其实已经说明了一些问题。10月13日，传音确定H股发行价为每股35.30港元，在35.30至38.80港元招股区间的下限，香港公开发售...
-- 发布时间：2026-10-15 11:19 CST
-- 链接：https://www.huxiu.com/article/4897676.html
-- 同事件报道：上市破发，传音被AI坑惨了？（钛媒体）
-
-## 6. 基元律动宣布开发者入驻超30万，开启双11预售福利
-- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、雷峰网（2 个来源） ｜ 热度：5.5
+## 2. 基元律动宣布开发者入驻超30万，开启双11预售福利
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、雷峰网、IT之家（3 个来源） ｜ 热度：9.0
 - 摘要：基元律动（Token Rhythm）宣布已有超过30万名开发者入驻，同期推出双11预售限时福利。
 - 发布时间：2026-10-15 14:59 CST
 - 链接：https://www.qbitai.com/2026/10/503501.html
 - 同事件报道：基元律动宣布开发者入驻超30万，开启双11预售福利（雷峰网）
+- 同事件报道：阿里云虚拟数字人启动退市：11 月 30 日停止新购服务，明年 11 月底全面停止（IT之家）
+
+## 3. 为什么Anthropic不做Personal AI
+- 地区：国内源 ｜ 语言：zh ｜ 来源：虎嗅、36氪 AI 频道、极客公园（3 个来源） ｜ 热度：9.0
+- 摘要：本文来自微信公众号： 极客公园 ，作者：宇航猿，编辑：靖宇，题图来自：AI生成 不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： “built to handle ev...
+- 发布时间：2026-10-15 21:09 CST
+- 链接：https://www.huxiu.com/article/4897847.html
+- 同事件报道：为什么 Anthropic 不做 Personal AI（36氪 AI 频道）
+- 同事件报道：为什么 Anthropic 不做 Personal AI（极客公园）
+
+## 4. 看懂 WorkBuddy 打通企微，上下文只是前菜
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体（2 个来源） ｜ 热度：6.0
+- 摘要：前脚，Google 在 Gemini at Work 大会上宣布可以为 AI 分配独立的企业账号，让员工在聊天中直接 @它、给它派活；紧接着，腾讯也宣布了一个整合动作。 10 月 14 日，企业微信与 WorkBuddy 联合发布新版本。WorkBuddy 正式以可对话机器人的身份切入企业微信联系人列表，双方打通账号体系，并在企业授权范围内开放了消息、文档、会议、网盘等多项底层能力。 这两件事指向了同一个明确的行业拐点，Agent 正在...
+- 发布时间：2026-10-16 07:36 CST
+- 链接：https://www.36kr.com/p/4027090155149191
+- 同事件报道：看懂 WorkBuddy 打通企微，上下文只是前菜（钛媒体）
+
+## 5. 人形机器人最尴尬的事：长了一双腿，却只能定住干活
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、极客公园（2 个来源） ｜ 热度：5.5
+- 摘要：长得像人，但是只能跳舞表演，根本没法真正干活。 这大概是过去几年人形机器人最尴尬的一幕。 人形机器人最初拿到天量关注，底层逻辑其实很直接：现实世界本来就是围绕人类身体设计的。楼梯、橱柜、货架、工位甚至门把手，全都有现成尺寸。理论上，机器人完全可以用下肢越过障碍，直接用上肢拿起工具工作。 逻辑听起来无懈可击，但行业演进了几年，我们看到的却往往是另一副模样。 视频里的人形机器人，主要是在跑跑跳跳、翻跟头；哪怕真有一些干活的演示，也大多老老实...
+- 发布时间：2026-10-15 15:46 CST
+- 链接：https://www.36kr.com/p/4026619117933185
+- 同事件报道：人形机器人最尴尬的事：长了一双腿，却只能定住干活（极客公园）
+
+## 6. Muse起势、大厂谋变，个人智能体激战前夜
+- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、36氪 AI 频道（2 个来源） ｜ 热度：5.5
+- 摘要：文 | 来咖智库 个人智能体，正在迎来新的开局。 自一个月前，Meta推出个人智能体Muse，并且登顶美加iOS免费榜后，中国大厂也再次上演神级反应。字节跳动加速推进代号“Spell”的个人助理项目，腾讯上线LightVela，阿里千问即将发布“千问Go！”，蚂蚁“灵光”开启小范围内测对标Muse，另外还有独角兽Manus推出的独立个人智能体应用Cue。 与年初OpenClaw带动的“龙虾智能体”热潮不同，这一轮个人智能体的玩家明显更集...
+- 发布时间：2026-10-15 16:26 CST
+- 链接：https://www.tmtpost.com/8169751.html
+- 同事件报道：字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？（36氪 AI 频道）
