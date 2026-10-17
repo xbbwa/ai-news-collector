@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-17T04:46:01.816058+00:00",
+ "generated_at": "2026-10-17T09:33:49.332696+00:00",
  "stats": {
-  "items": 1922,
-  "clusters": 1535,
-  "noise": 472,
-  "dup": 122,
+  "items": 911,
+  "clusters": 651,
+  "noise": 433,
+  "dup": 45,
   "history_days": 0,
-  "available_cn": 105,
-  "available_intl": 836,
+  "available_cn": 102,
+  "available_intl": 71,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -39,96 +39,6 @@
   },
   {
    "rank": 2,
-   "title": "Audio-Visual Dog Identification and Tracking in Real-World Videos",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.21011",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Audio-Visual Dog Identification and Tracking in Real-World Videos",
-    "CF-AVSS: A Coarse-to-Fine Audio-Visual Speech Separation Framework with Target-Speaker Refinement and Post-Fusion for Real-World AVSE Challenge"
-   ],
-   "published_at": "2026-10-16T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.21011v1 Announce Type: new Abstract: Identifying individual dogs from barks in real-world videos remains challenging and largely unexplored. Solving this problem would enable long-term behavioral analysis, vet..."
-  },
-  {
-   "rank": 3,
-   "title": "Out-of-Distribution Object Detection in Street Scenes via Synthetic Outlier Exposure and Transfer Learning",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2603.16122",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cv",
-    "arxiv-cs-lg"
-   ],
-   "titles": [
-    "Out-of-Distribution Object Detection in Street Scenes via Synthetic Outlier Exposure and Transfer Learning",
-    "TASTE: Task-Aware Out-of-Distribution Detection via Stein Operators"
-   ],
-   "published_at": "2026-10-16T04:00:00.000000+00:00",
-   "summary": "arXiv:2603.16122v2 Announce Type: replace Abstract: Out-of-distribution (OOD) objects are often silently overlooked by object detectors, which produce no detection for them, leaving downstream modules with nothing to act..."
-  },
-  {
-   "rank": 4,
-   "title": "LLM-Based Weak Annotation for Cybersecurity Tweet Classification: A Teacher-Student Framework",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.21254",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "LLM-Based Weak Annotation for Cybersecurity Tweet Classification: A Teacher-Student Framework",
-    "Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection"
-   ],
-   "published_at": "2026-10-16T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.21254v1 Announce Type: new Abstract: Cyber threat intelligence (CTI) relies on the timely identification of emerging threats, enabling organizations and security analysts to support situational awareness and d..."
-  },
-  {
-   "rank": 5,
-   "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://arxiv.org/abs/2610.20845",
-   "score": 7.5,
-   "sources": [
-    "arxiv-cs-cl",
-    "arxiv-cs-ai"
-   ],
-   "titles": [
-    "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
-    "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine"
-   ],
-   "published_at": "2026-10-16T04:00:00.000000+00:00",
-   "summary": "arXiv:2610.20845v1 Announce Type: cross Abstract: Skill-policy co-evolution, in which an agent's policy model and its skill bank improve each other during training, is a promising paradigm for self-improving agents. Curr..."
-  },
-  {
-   "rank": 6,
-   "title": "Anthropic secured highest junk credit rating in June",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
-   "score": 5.93,
-   "sources": [
-    "ft-tech",
-    "hackernews-ai"
-   ],
-   "titles": [
-    "Anthropic secured highest junk credit rating in June",
-    "Anthropic assigned highest junk credit rating in June"
-   ],
-   "published_at": "2026-10-16T04:00:18.000000+00:00",
-   "summary": "Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status"
-  },
-  {
-   "rank": 7,
    "title": "Meta’s new terms may allow it to train AI on news sites for free",
    "lang": "en",
    "region": "intl",
@@ -146,23 +56,7 @@
    "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh..."
   },
   {
-   "rank": 8,
-   "title": "nvidia/PixelUMM",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://huggingface.co/nvidia/PixelUMM",
-   "score": 4.95,
-   "sources": [
-    "hf-models-intl"
-   ],
-   "titles": [
-    "nvidia/PixelUMM"
-   ],
-   "published_at": "2026-10-15T06:07:25.000000+00:00",
-   "summary": "any-to-any, multimodal, image-generation, video-generation, image-to-text, video-text-to-text, arxiv:2609.38597, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:other, region:us"
-  },
-  {
-   "rank": 9,
+   "rank": 3,
    "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
    "lang": "en",
    "region": "intl",
@@ -180,39 +74,41 @@
    "summary": "US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts"
   },
   {
-   "rank": 10,
-   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "rank": 4,
+   "title": "Where to follow what people do w/ AI",
    "lang": "en",
    "region": "intl",
-   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
-   "score": 3.5,
+   "url": "https://www.reddit.com/r/artificial/comments/1x7epak/where_to_follow_what_people_do_w_ai/",
+   "score": 3.55,
    "sources": [
-    "google-research"
+    "reddit-ai-new",
+    "hackernews-ai"
    ],
    "titles": [
-    "Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+    "Where to follow what people do w/ AI",
+    "Do people prefer stories written by AI?"
    ],
-   "published_at": "2026-10-16T18:11:34.000000+00:00",
-   "summary": "General Science"
+   "published_at": "2026-10-16T12:19:34.000000+00:00",
+   "summary": "Hi everyone, sorry for few English mistzkes i'm French. Post here because i want to know where you all get your informations from. I would like to keep in track with what peoples are doing with ai, like they did with ble..."
   },
   {
-   "rank": 11,
-   "title": "How Itaú is building generative AI for its entire customer base",
+   "rank": 5,
+   "title": "CompMat-Bench: Benchmarking AI Agents for Computational Materials Science",
    "lang": "en",
    "region": "intl",
-   "url": "https://openai.com/index/itau-generative-ai",
+   "url": "https://arxiv.org/abs/2610.00636",
    "score": 3.5,
    "sources": [
-    "openai-news"
+    "arxiv-cs-ai"
    ],
    "titles": [
-    "How Itaú is building generative AI for its entire customer base"
+    "CompMat-Bench: Benchmarking AI Agents for Computational Materials Science"
    ],
-   "published_at": "2026-10-16T19:00:00.000000+00:00",
-   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+   "published_at": "2026-10-17T04:00:00.000000+00:00",
+   "summary": "arXiv:2610.00636v2 Announce Type: replace Abstract: Evaluating AI agents on scientific research tasks is constrained by the time and resources required for the underlying experiments or calculations. In computational mat..."
   },
   {
-   "rank": 12,
+   "rank": 6,
    "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
    "lang": "en",
    "region": "intl",
@@ -228,61 +124,176 @@
    "summary": "Perplexity has open-sourced SPACE , the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are cont..."
   },
   {
-   "rank": 13,
-   "title": "Nemotron 3.5 Super VL",
+   "rank": 7,
+   "title": "FLUX.3 Klein is disappointing for image generation, but AMAZING for consistent photo editing",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.producthunt.com/products/nvidia",
+   "url": "https://www.reddit.com/gallery/1x7fx0m",
    "score": 3.5,
    "sources": [
-    "producthunt-ai",
+    "reddit-ai-hot",
     "reddit-ai-new"
    ],
    "titles": [
-    "Nemotron 3.5 Super VL",
-    "Nemotron 3.5 Bolt Evaluation using real-world tasks"
+    "FLUX.3 Klein is disappointing for image generation, but AMAZING for consistent photo editing",
+    "Excuse me Flux.3 Klein, I had some other intention.",
+    "Flux.3 Klein really can do direct straight-through edits at 4096x4096"
    ],
-   "published_at": "2026-10-15T15:27:13.000000+00:00",
-   "summary": "NVIDIA’s open multimodal model for specialized agents Discussion | Link"
+   "published_at": "2026-10-16T13:14:19.000000+00:00",
+   "summary": "FLUX.3 Klein has been pretty underwhelming for image generation, but when it comes to editing while preserving consistency, pose, and camera angle, I've found it to be almost PERFECT. With FLUX.2 Klein and Qwen 2.1, I st..."
+  },
+  {
+   "rank": 8,
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Stack Overflow for Agents triples signups with ChatGPT plugin"
+   ],
+   "published_at": "2026-10-16T00:00:00.000000+00:00",
+   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
+  },
+  {
+   "rank": 9,
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "score": 3.0,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "Benefit Street Partners answers questions faster with Codex"
+   ],
+   "published_at": "2026-10-16T00:00:00.000000+00:00",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
+  },
+  {
+   "rank": 10,
+   "title": "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages",
+   "score": 3.0,
+   "sources": [
+    "databricks-blog"
+   ],
+   "titles": [
+    "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages"
+   ],
+   "published_at": "2026-10-16T15:37:00.000000+00:00",
+   "summary": "IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]..."
+  },
+  {
+   "rank": 11,
+   "title": "Four evaluation engineering lessons learned from building agent plugins",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/",
+   "score": 3.0,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "Four evaluation engineering lessons learned from building agent plugins"
+   ],
+   "published_at": "2026-10-16T16:00:00.000000+00:00",
+   "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to..."
+  },
+  {
+   "rank": 12,
+   "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/",
+   "score": 3.0,
+   "sources": [
+    "google-cloud-ai"
+   ],
+   "titles": [
+    "Architecting autonomy: A design pattern for high-compute, governed agents in biotech"
+   ],
+   "published_at": "2026-10-16T16:00:00.000000+00:00",
+   "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology..."
+  },
+  {
+   "rank": 13,
+   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "score": 3.0,
+   "sources": [
+    "google-research"
+   ],
+   "titles": [
+    "Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+   ],
+   "published_at": "2026-10-16T18:11:34.000000+00:00",
+   "summary": "General Science"
   },
   {
    "rank": 14,
-   "title": "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
+   "title": "How Itaú is building generative AI for its entire customer base",
    "lang": "en",
    "region": "intl",
-   "url": "https://i.redd.it/qf3guufznrvh1.png",
-   "score": 3.5,
+   "url": "https://openai.com/index/itau-generative-ai",
+   "score": 3.0,
    "sources": [
-    "reddit-ai-new",
-    "reddit-ai-hot"
+    "openai-news"
    ],
    "titles": [
-    "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
-    "Researchers discovered a rogue Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes."
+    "How Itaú is building generative AI for its entire customer base"
    ],
-   "published_at": "2026-10-16T05:38:53.000000+00:00",
-   "summary": "https://swarmcha.se/posts/chinese-agent-fleet-full-report"
+   "published_at": "2026-10-16T19:00:00.000000+00:00",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
   },
   {
    "rank": 15,
-   "title": "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
+   "title": "Kling 4.0发布，可灵AI的估值凭什么反超母体快手？",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/503829.html",
-   "score": 6.5,
+   "url": "https://www.36kr.com/p/4028394336393095",
+   "score": 9.0,
    "sources": [
-    "qbitai",
-    "infoq-cn"
+    "36kr-ai",
+    "tmtpost",
+    "baai-hub"
    ],
    "titles": [
-    "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
-    "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”"
+    "Kling 4.0发布，可灵AI的估值凭什么反超母体快手？",
+    "Kling 4.0发布，可灵AI的估值凭什么反超母体快手？",
+    "可灵4.0一手实测！奥特曼大战达里奥，30秒拍出硅谷《窃听风云》"
    ],
-   "published_at": "2026-10-16T07:16:11+00:00",
-   "summary": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。"
+   "published_at": "2026-10-16T12:50:55.000000+00:00",
+   "summary": "180亿美元 VS 156亿美元，引发的思考。 千呼万唤始出来。10月15日深夜，可灵AI新一代视频生成模型Kling 4.0正式上线。 10月16日，可灵AI的“母体”快手股价应声大涨快手股价开盘 大涨超5% ，回到30港元上方； 稍早前的10月13日，快手股价一度跌到28.5港元， 创历史新低 ，总市值1226.68亿港元（约合156.31亿美元），低于可灵独立融资的投后估值180亿美元。 这样的反差对比，不免让人不生疑惑： 作为从..."
   },
   {
    "rank": 16,
+   "title": "夹在字节缝隙中的AI融资明星们",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.36kr.com/p/4028410847319684",
+   "score": 6.5,
+   "sources": [
+    "36kr-ai",
+    "tmtpost"
+   ],
+   "titles": [
+    "夹在字节缝隙中的AI融资明星们",
+    "夹在字节缝隙中的AI融资明星们"
+   ],
+   "published_at": "2026-10-16T12:23:09.000000+00:00",
+   "summary": "移动互联网时期，创投圈流传的一个段子是：你这个产品，腾讯下场了怎么办？那时，腾讯的社交生态是多数创业者的噩梦。 现在，AI视频创业者正在遇到这个问题的字节版本。 今年以来，生数科技和演语科技被报道进入20亿美元以上估值区间，演语科技新一轮融资目标估值约30亿美元；爱诗科技宣布整体C轮累计融资29.8亿元后，被媒体曝出投后估值超过20亿美元；Flova则公开披露累计融资超过8000万美元。 作为今年独立AI视频企业的融资明星，其中爱诗科技..."
+  },
+  {
+   "rank": 17,
    "title": "黄仁勋谈AI市场震荡：“这一切都会过去”",
    "lang": "zh",
    "region": "cn",
@@ -300,7 +311,25 @@
    "summary": "据报道，对于人工智能股票最近一轮大跌，英伟达CEO黄仁勋表现出乐观态度，称这项技术带来的好处很快就会化解投资者的担忧。黄仁勋在柏林举行的一场活动期间表示：“这一切都会过去，原因非常简单。人工智能将带来变革。它将以非常积极的方式影响每一个行业和每一个国家。毫无疑问，这种影响将会持续下去，而我们正处于这个进程的开端。”（界面）"
   },
   {
-   "rank": 17,
+   "rank": 18,
+   "title": "《心灵捕手》里的数学天才应该让本·阿弗莱克来演，他做了家AI 公司，还卖给了Netflix",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.huxiu.com/article/4898221.html",
+   "score": 6.0,
+   "sources": [
+    "huxiu",
+    "36kr-ai"
+   ],
+   "titles": [
+    "《心灵捕手》里的数学天才应该让本·阿弗莱克来演，他做了家AI 公司，还卖给了Netflix",
+    "《心灵捕手》里的数学天才应该让本·阿弗莱克来演，他做了家AI公司，还卖给了Netflix"
+   ],
+   "published_at": "2026-10-17T02:13:05.000000+00:00",
+   "summary": "本文来自微信公众号： 果壳 ，制图：AI，作者：本一，编辑：马文，原文标题：《《心灵捕手》里的数学天才应该让本·阿弗莱克来演，他做了家 AI 公司，还卖给了 Netflix》 本·阿弗莱克（Ben Affleck）最出名的形象，是《心灵捕手》里那个陪天才朋友晃荡的波士顿小子，以及后来披上斗篷的蝙蝠侠。 上周，他在GQ的访谈节目“One More Question”里，一改往日形象。大聊特聊张量、卷积神经网络、边缘检测，还说自己会写Pyt..."
+  },
+  {
+   "rank": 19,
    "title": "OpenAI 再挖马斯克墙角，聘请 xAI 前销售负责人承担网安业务销售工作",
    "lang": "zh",
    "region": "cn",
@@ -318,54 +347,22 @@
    "summary": "IT之家 10 月 17 日消息，据彭博社今天（17 日）早间报道，OpenAI 聘请了 SpaceX 旗下 xAI 的前销售负责人格雷厄姆 · 西曼斯，负责 网络安全业务的销售工作 。这是 OpenAI 近期从埃隆 · 马斯克旗下 AI 业务挖角的最新动作。 西曼斯自 2025 年 8 月起领导 xAI 销售团队，参与了该公司新一轮面向华尔街客户推广 Grok 聊天机器人的工作。他透露，自己将加入 OpenAI 的网络安全团队，成为..."
   },
   {
-   "rank": 18,
-   "title": "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
+   "rank": 20,
+   "title": "跌去95%，她卖掉上市公司",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.qbitai.com/2026/10/503782.html",
-   "score": 5.5,
+   "url": "https://www.36kr.com/p/4029680047510149",
+   "score": 6.0,
    "sources": [
-    "qbitai",
-    "baai-hub"
+    "36kr-ai",
+    "huxiu"
    ],
    "titles": [
-    "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
-    "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户"
+    "跌去95%，她卖掉上市公司",
+    "跌去95%，她卖掉上市公司"
    ],
-   "published_at": "2026-10-16T06:17:53+00:00",
-   "summary": "9.8万元起售，冲刺万台量产"
-  },
-  {
-   "rank": 19,
-   "title": "openbmb/MiniCPM-o-4_5",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
-   "score": 5.0,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "openbmb/MiniCPM-o-4_5"
-   ],
-   "published_at": "2026-10-16T10:30:03.000000+00:00",
-   "summary": "any-to-any, transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o, minicpm-v, multimodal, full-duplex, custom_code, arxiv:2408.01800, license:apache-2.0, region:us"
-  },
-  {
-   "rank": 20,
-   "title": "internlm/Intern-Decision-4B",
-   "lang": "en",
-   "region": "cn",
-   "url": "https://huggingface.co/internlm/Intern-Decision-4B",
-   "score": 4.94,
-   "sources": [
-    "hf-models-cn"
-   ],
-   "titles": [
-    "internlm/Intern-Decision-4B"
-   ],
-   "published_at": "2026-10-16T02:33:28.000000+00:00",
-   "summary": "image-text-to-text, transformers, safetensors, qwen3_5, decision-making, multimodal, structured-prediction, decision-model, conversational, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-..."
+   "published_at": "2026-10-17T08:05:47.000000+00:00",
+   "summary": "单身男女的生意，不好做了。 本周，约会软件巨头Bumble宣布，将被Ithaca Holdings以全现金交易收购，估值13亿美元（约超80亿元人民币）。 这是一款流行于留学生、大厂和外企白领圈的社交App。2014年，曾参与搭建Tinder的Whitney Wolfe Herd出走创办了Bumble，迅速出圈——它是当时唯一一款“女性优先”的约会平台，还引来了黑石的投资。 2021年上市后，Bumble市值一度冲上140亿美元（近10..."
   }
  ]
 }
