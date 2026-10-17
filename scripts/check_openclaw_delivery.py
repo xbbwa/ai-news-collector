@@ -128,7 +128,32 @@ def notify(text: str) -> None:
         print(f"operator notification failed: {(proc.stderr or proc.stdout).strip()}", file=sys.stderr)
 
 
-def record_delivered_history() -> bool:
+def backfill_delivered_summary(
+    entry: dict | None,
+    curated_path: Path,
+    *,
+    out_path: Path | None = None,
+) -> Path | None:
+    """If the cron run entry carries the LLM-rendered summary text, deterministically backfill
+    canonical URLs from curated.json and persist to data/pushed-latest.md."""
+    summary_text = (entry or {}).get("summary") or ""
+    if not summary_text.strip() or not curated_path.exists():
+        return None
+    try:
+        from curate_digest import backfill_links, write_atomic
+
+        curated_data = json.loads(curated_path.read_text(encoding="utf-8"))
+        enriched = backfill_links(summary_text, curated_data, style="line")
+        target = out_path or (ROOT / "data/pushed-latest.md")
+        write_atomic(target, enriched + ("\n" if not enriched.endswith("\n") else ""))
+        return target
+    except Exception as exc:  # pragma: no cover - non-fatal enrichment step
+        print(f"link backfill skipped: {exc}", file=sys.stderr)
+        return None
+
+
+
+def record_delivered_history(entry: dict | None = None) -> bool:
     """Persist only content that has an actual successful group delivery receipt."""
     curated = ROOT / "data/curated.json"
     history_dir = ROOT / "archive/digest"
@@ -136,6 +161,7 @@ def record_delivered_history() -> bool:
     if not curated.exists():
         print(f"cannot mark delivery: {curated} is missing", file=sys.stderr)
         return False
+    backfill_delivered_summary(entry, curated)
     history_dir.mkdir(parents=True, exist_ok=True)
     commands = [
         [
@@ -197,7 +223,7 @@ def main() -> int:
         before = latest_run(args.job_id)
         fresh, freshness = curated_fresh(ROOT / "data/curated.json", today)
         if delivered(before, today) and fresh:
-            if record_delivered_history():
+            if record_delivered_history(before):
                 print(f"{today}: push receipt verified and recorded ({summarize(before)}; {freshness})")
                 return 0
             notify("⚠️ Daily AI News 已送达群，但去重历史写回 GitHub 失败，请检查服务器日志。")
@@ -242,7 +268,7 @@ def main() -> int:
             break
 
         if delivered(latest, today):
-            if not record_delivered_history():
+            if not record_delivered_history(latest):
                 notify("⚠️ Daily AI News 已补推到群，但去重历史写回 GitHub 失败，请检查服务器日志。")
                 return 1
             notify("✅ Daily AI News 已自动补推到群，真实投递回执为 delivered。")
@@ -252,6 +278,7 @@ def main() -> int:
         notify(f"❌ Daily AI News 自动补推仍失败，请人工处理。\n{summarize(latest)}")
         print(f"{today}: retry failed ({summarize(latest)})", file=sys.stderr)
         return 1
+
 
 
 if __name__ == "__main__":

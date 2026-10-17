@@ -89,6 +89,16 @@ FAMILY_CAPS = {
     "model-releases": 2,
     "social-discovery": 2,
 }
+GIANT_CORPS = {
+    "google", "meta", "microsoft", "apple", "amazon", "aws", "alibaba", "tencent", "bytedance", "nvidia",
+}
+BOILERPLATE_RE = re.compile(
+    r"^(?:share this|subscribe|related posts?|read more|copyright|all rights reserved|"
+    r"sign up for|follow us|advertisement|sponsored|"
+    r"延伸阅读|相关阅读|责编|编辑[:：]|本文来自|未经允许|欢迎关注|点击阅读原文)",
+    re.I,
+)
+STEM_RE = re.compile(r"^([a-z]{3,})[-_.]?v?\d", re.I)
 
 
 def tokens(title: str) -> frozenset[str]:
@@ -280,6 +290,9 @@ def load_history(path: Path | None, days: int) -> list[dict]:
                 actions |= action_tokens(title)
             out.append(
                 {
+                    "pushed_on": entry.get("pushed_on", ""),
+                    "title": history_titles[0] if history_titles else "",
+                    "titles": history_titles,
                     "url": (entry.get("url") or "").rstrip("/"),
                     "tokens": frozenset(tk),
                     "entities": frozenset(entities),
@@ -304,6 +317,265 @@ def was_pushed(c: Cluster, history: list[dict]) -> bool:
         ):
             return True
     return False
+
+
+def _entity_stems(entities: frozenset[str]) -> frozenset[str]:
+    """Extract base family stems from versioned entities (e.g. 'gpt-6' -> 'gpt', 'qwen2.5' -> 'qwen')."""
+    stems: set[str] = set()
+    for ent in entities:
+        m = STEM_RE.match(ent)
+        if m:
+            stems.add(m.group(1).lower())
+        elif ent in KNOWN_ENTITIES:
+            stems.add(ent)
+    return frozenset(stems)
+
+
+def find_history_callback(
+    c: Cluster,
+    history: list[dict],
+    *,
+    callback_days: int = 30,
+    now: datetime | None = None,
+) -> dict | None:
+    """Find the most relevant prior story in pushed-history that shares specific entities/model stems
+    with this cluster without being the exact same event."""
+    if callback_days <= 0 or not history or not c.entities:
+        return None
+    current = now or datetime.now(timezone.utc)
+    cutoff = (current - timedelta(days=callback_days)).date().isoformat()
+    urls = {(item.get("url") or "").rstrip("/") for item in c.items}
+    c_stems = _entity_stems(c.entities)
+
+    best_score = 0.0
+    best_date = ""
+    best_entry: dict | None = None
+    best_anchors: set[str] = set()
+
+    for old in history:
+        old_url = (old.get("url") or "").rstrip("/")
+        if old_url and old_url in urls:
+            continue
+        pushed_on = old.get("pushed_on") or ""
+        if pushed_on and pushed_on < cutoff:
+            continue
+        old_tokens = old.get("tokens") or frozenset()
+        old_entities = old.get("entities") or frozenset()
+        old_actions = old.get("actions") or frozenset()
+        if same_event(c.tokens, old_tokens, c.entities, old_entities, c.actions, old_actions):
+            continue
+
+        common_entities = set(c.entities & old_entities)
+        common_stems = set((c_stems & _entity_stems(old_entities)) - GIANT_CORPS)
+        anchors = common_entities | common_stems
+        if not anchors:
+            continue
+
+        specific = anchors - GIANT_CORPS
+        shared_actions = c.actions & old_actions
+        meaningful_common = (c.tokens & old_tokens) - ENTITY_STOP - anchors
+
+        if specific:
+            ultra_specific = {e for e in specific if e not in KNOWN_ENTITIES}
+            rel_score = len(ultra_specific) * 3.5 + len(specific - ultra_specific) * 2.0
+            rel_score += len(meaningful_common) * 1.5 + (1.0 if shared_actions else 0.0)
+        else:
+            # Giant tech conglomerate alone only triggers a callback when paired with shared action or topic token
+            if not (shared_actions or meaningful_common):
+                continue
+            rel_score = 1.0 + len(meaningful_common) * 1.5 + (0.5 if shared_actions else 0.0)
+
+        if (rel_score, pushed_on) > (best_score, best_date):
+            best_score = rel_score
+            best_date = pushed_on
+            best_entry = old
+            best_anchors = specific or anchors
+
+    if best_entry is None:
+        return None
+    title = best_entry.get("title") or (best_entry.get("titles") or [""])[0]
+    if not title:
+        return None
+    return {
+        "pushed_on": best_entry.get("pushed_on", ""),
+        "title": title,
+        "url": best_entry.get("url", ""),
+        "entities": sorted(best_anchors),
+    }
+
+
+def _overlaps_summary(paragraph: str, summary: str, title: str) -> bool:
+    """Return True when a paragraph mostly repeats the RSS summary or headline."""
+    p_low = " ".join(paragraph.lower().split())
+    for ref in (summary, title):
+        if not ref:
+            continue
+        r_low = " ".join(ref.lower().split()).rstrip(".")
+        if len(r_low) >= 25 and (p_low.startswith(r_low[:50]) or r_low.startswith(p_low[:50])):
+            return True
+        p_tk = tokens(paragraph)
+        r_tk = tokens(ref)
+        if p_tk and r_tk and len(p_tk & r_tk) / min(len(p_tk), len(r_tk)) >= 0.7:
+            return True
+    return False
+
+
+def sample_content_excerpt(c: Cluster, summary: str = "", limit: int = 360) -> str:
+    """Sample head (problem/method) + tail (conclusion/metrics) from full-text `content` for a
+    selected cluster, skipping leading paragraphs that merely repeat `summary`."""
+    if limit <= 0:
+        return ""
+    candidates = [c.rep, *(it for it in c.items if it is not c.rep)]
+    raw_content = ""
+    for it in candidates:
+        text = (it.get("content") or "").strip()
+        if len(text) >= 200:
+            raw_content = text
+            break
+        if len(text) > len(raw_content):
+            raw_content = text
+    if not raw_content or len(" ".join(raw_content.split())) < 100:
+        return ""
+
+    raw_blocks = [
+        " ".join(b.split())
+        for b in re.split(r"\n+", raw_content)
+        if len(" ".join(b.split())) >= 30 and not BOILERPLATE_RE.search(" ".join(b.split()))
+    ]
+    if len(raw_blocks) <= 1:
+        # Single-paragraph full text: split into sentence groups
+        sentences = [
+            s.strip()
+            for s in re.split(r"(?<=[.!?。！？])\s+", " ".join(raw_content.split()))
+            if len(s.strip()) >= 20 and not BOILERPLATE_RE.search(s.strip())
+        ]
+        raw_blocks = sentences if sentences else raw_blocks
+
+    title = c.rep.get("title") or ""
+    blocks = [b for b in raw_blocks if not _overlaps_summary(b, summary, title)]
+    if not blocks:
+        return ""
+
+    joined = " ".join(blocks)
+    if len(joined) <= limit:
+        return joined
+
+    if len(blocks) == 1:
+        text = blocks[0]
+        head_budget = int(limit * 0.55)
+        tail_budget = max(limit - head_budget - 3, 40)
+        head = one_line(text, head_budget)
+        tail = text[-tail_budget:].lstrip()
+        return f"{head} … {tail}"
+
+    head_budget = int(limit * 0.55)
+    head_src = blocks[0] if len(blocks[0]) >= 60 or len(blocks) == 2 else f"{blocks[0]} {blocks[1]}"
+    head = one_line(head_src, head_budget)
+    tail_budget = max(limit - len(head) - 3, 60)
+    tail_src = blocks[-1] if len(blocks[-1]) >= 50 or len(blocks) == 2 else f"{blocks[-2]} {blocks[-1]}"
+    tail = one_line(tail_src, tail_budget)
+    if head == tail or _overlaps_summary(tail, head, ""):
+        return one_line(joined, limit)
+    return f"{head} … {tail}"
+
+
+def parse_curated_md_items(md: str) -> list[dict]:
+    """Extract ordered ({region, url, title}) items from a curated.md string."""
+    items: list[dict] = []
+    region = "intl"
+    current: dict | None = None
+    for raw_line in md.splitlines():
+        line = raw_line.strip()
+        if line in ("国外：", "国外:", "国际：", "国际:"):
+            region = "intl"
+        elif line in ("国内：", "国内:"):
+            region = "cn"
+        elif line.startswith("## "):
+            if current and current.get("url"):
+                items.append(current)
+            title = re.sub(r"^##\s*\d+\.\s*", "", line)
+            current = {"region": region, "title": title, "url": ""}
+        elif current is not None and line.startswith("- 链接："):
+            current["url"] = line.split("：", 1)[1].strip()
+    if current and current.get("url"):
+        items.append(current)
+    return items
+
+
+def backfill_links(
+    text: str,
+    curated: dict | list[dict] | str,
+    *,
+    style: str = "line",
+) -> str:
+    """Deterministically inject canonical source URLs into an LLM-rendered Daily AI News text
+    without requiring the LLM to generate or copy URLs during inference."""
+    if isinstance(curated, str):
+        raw_items = parse_curated_md_items(curated)
+    elif isinstance(curated, dict):
+        raw_items = list(curated.get("items") or [])
+    else:
+        raw_items = list(curated)
+
+    by_region: dict[str, list[dict]] = {"intl": [], "cn": []}
+    for it in raw_items:
+        reg = it.get("region") or "intl"
+        by_region.setdefault(reg, []).append(it)
+
+    lines = text.splitlines()
+    out: list[str] = []
+    current_region: str | None = None
+    active_url: str = ""
+
+    def flush_link() -> None:
+        nonlocal active_url
+        if not active_url:
+            return
+        if style == "inline" and out:
+            if active_url not in out[-1] and "http://" not in out[-1] and "https://" not in out[-1]:
+                out[-1] = f"{out[-1]}｜🔗 {active_url}"
+        else:
+            out.append(f"   🔗 {active_url}")
+        active_url = ""
+
+    item_header_re = re.compile(r"^\s*(\d+)\.\s*【")
+    region_intl_re = re.compile(r"^\s*(?:国外|国际)\s*[：:]\s*$")
+    region_cn_re = re.compile(r"^\s*国内\s*[：:]\s*$")
+
+    for raw_line in lines:
+        if region_intl_re.match(raw_line):
+            flush_link()
+            current_region = "intl"
+            out.append(raw_line)
+            continue
+        if region_cn_re.match(raw_line):
+            flush_link()
+            current_region = "cn"
+            out.append(raw_line)
+            continue
+
+        m = item_header_re.match(raw_line)
+        if m:
+            flush_link()
+            idx = int(m.group(1)) - 1
+            pool = by_region.get(current_region or "", []) if current_region else raw_items
+            if not pool and current_region:
+                pool = raw_items
+            active_url = (pool[idx].get("url") or "").strip() if 0 <= idx < len(pool) else ""
+            out.append(raw_line)
+            continue
+
+        if not raw_line.strip():
+            flush_link()
+            out.append(raw_line)
+            continue
+
+        if active_url and (active_url in raw_line or "🔗" in raw_line or "http://" in raw_line or "https://" in raw_line):
+            active_url = ""
+        out.append(raw_line)
+
+    flush_link()
+    return "\n".join(out)
 
 
 def cluster_region(c: Cluster, regions: dict[str, str]) -> str:
@@ -364,6 +636,10 @@ def build_markdown(
     now: datetime,
     stats: dict,
     summary_chars: int,
+    *,
+    excerpt_chars: int = 360,
+    history: list[dict] | None = None,
+    callback_days: int = 30,
 ) -> str:
     history_scope = "全部历史" if stats["history_days"] == 0 else f"前 {stats['history_days']} 天"
     lines = [
@@ -400,6 +676,16 @@ def build_markdown(
         summary = one_line(rep.get("summary") or rep.get("content"), summary_chars)
         if summary:
             lines.append(f"- 摘要：{summary}")
+        excerpt = sample_content_excerpt(c, summary=summary, limit=excerpt_chars)
+        if excerpt:
+            lines.append(f"- 正文抽样：{excerpt}")
+        if history:
+            callback = find_history_callback(c, history, callback_days=callback_days, now=now)
+            if callback:
+                cb_date = callback.get("pushed_on") or "此前"
+                cb_entities = "、".join(callback.get("entities") or [])
+                suffix = f"（关联实体：{cb_entities}）" if cb_entities else ""
+                lines.append(f"- 历史关联：{cb_date} 曾报道《{one_line(callback['title'], 120)}》{suffix}")
         lines.append(f"- 发布时间：{local_time(rep.get('published_at') or rep.get('fetched_at'))}")
         lines.append(f"- 链接：{rep['url']}")
         others = [it for it in c.items if it is not rep][:2]
@@ -430,6 +716,12 @@ def main() -> int:
         default=0,
         help="fuzzy history window in days; 0 compares all retained history (default)",
     )
+    ap.add_argument(
+        "--callback-days",
+        type=int,
+        default=30,
+        help="window in days for matching related prior stories via entity callbacks (0 disables)",
+    )
     ap.add_argument("--hours", type=int, default=24)
     ap.add_argument("--max-items", type=int, default=20)
     ap.add_argument(
@@ -439,6 +731,12 @@ def main() -> int:
     )
     ap.add_argument("--per-source-cap", type=int, default=3)
     ap.add_argument("--summary-chars", type=int, default=220)
+    ap.add_argument(
+        "--excerpt-chars",
+        type=int,
+        default=360,
+        help="head+tail full-text excerpt length for selected Top-N items (0 disables)",
+    )
     ap.add_argument(
         "--exclude-source",
         action="append",
@@ -491,23 +789,40 @@ def main() -> int:
     }
     write_atomic(
         args.out_md,
-        build_markdown(chosen, names, langs, regions, now, stats, args.summary_chars),
+        build_markdown(
+            chosen,
+            names,
+            langs,
+            regions,
+            now,
+            stats,
+            args.summary_chars,
+            excerpt_chars=args.excerpt_chars,
+            history=history,
+            callback_days=args.callback_days,
+        ),
     )
-    payload = [
-        {
-            "rank": i,
-            "title": c.rep["title"],
-            "lang": c.rep.get("lang") or langs.get(c.rep["source_id"], "en"),
-            "region": cluster_region(c, regions),
-            "url": c.rep["url"],
-            "score": score(c, now),
-            "sources": c.sources,
-            "titles": [it["title"] for it in c.items],
-            "published_at": c.rep.get("published_at"),
-            "summary": one_line(c.rep.get("summary") or c.rep.get("content"), args.summary_chars),
-        }
-        for i, c in enumerate(chosen, 1)
-    ]
+    payload = []
+    for i, c in enumerate(chosen, 1):
+        summary = one_line(c.rep.get("summary") or c.rep.get("content"), args.summary_chars)
+        excerpt = sample_content_excerpt(c, summary=summary, limit=args.excerpt_chars)
+        callback = find_history_callback(c, history, callback_days=args.callback_days, now=now) if history else None
+        payload.append(
+            {
+                "rank": i,
+                "title": c.rep["title"],
+                "lang": c.rep.get("lang") or langs.get(c.rep["source_id"], "en"),
+                "region": cluster_region(c, regions),
+                "url": c.rep["url"],
+                "score": score(c, now),
+                "sources": c.sources,
+                "titles": [it["title"] for it in c.items],
+                "published_at": c.rep.get("published_at"),
+                "summary": summary,
+                "excerpt": excerpt,
+                "history_callback": callback,
+            }
+        )
     write_atomic(args.out_json, json.dumps({"generated_at": now.isoformat(), "stats": stats, "items": payload}, ensure_ascii=False, indent=1))
     print(
         f"curated {len(chosen)} of {len(clusters)} clusters from {len(items)} items "
@@ -520,3 +835,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
