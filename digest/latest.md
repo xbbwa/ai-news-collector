@@ -1,5 +1,5 @@
 # Daily AI News（原文采集，国内外）
-生成时间：2026-10-17 21:51 CST
+生成时间：2026-10-18 01:25 CST
 时间窗口：最近 24 小时内采集到的条目；每个信源最多列 3 条，按发布时间倒序。
 
 > 本文件由 ai-news-collector 自动生成（github.com/xbbwa/ai-news-collector，data 分支），每小时覆盖更新。
@@ -168,34 +168,40 @@
 - 发布时间：2026-10-16 23:50 CST
 - 链接：https://www.axios.com/2026/10/16/that-y2k-feeling-why-todays-economy-resembles-2000
 
-## Bloomberg Technology（bloomberg-tech，en，本窗口共 18 条）
+## Bloomberg Technology（bloomberg-tech，en，本窗口共 19 条）
 
-### 1. AI Selloff Tests Investor Confidence
+### 1. DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner
+- 摘要：DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company’s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai
+- 作者：Saritha Rai
+- 发布时间：2026-10-17 21:47 CST
+- 链接：https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner
+
+### 2. AI Selloff Tests Investor Confidence
 - 摘要：Ritholtz Wealth Management Chairman and Chief Investment Officer Barry Ritholtz tells Bloomberg This Weekend that AI remains a transformational technology, but investors face a difficult task determining which companies will ultimately emerge as winners and losers. Speaking with hosts David Gura and...
 - 发布时间：2026-10-17 21:05 CST
 - 链接：https://www.bloomberg.com/news/videos/2026-10-17/ai-selloff-tests-investor-confidence-video
 
-### 2. Arrested OpenAI Engineer Seeks Bail, Denies Planning to Flee
+### 3. Arrested OpenAI Engineer Seeks Bail, Denies Planning to Flee
 - 摘要：The OpenAI software engineer charged with using a hidden recording device in one of the company’s offices asked to be freed from custody and denied his purchase of a one-way plane ticket to his native Saudi Arabia was part of a plan to flee US justice.
 - 作者：Peter Blumberg
 - 发布时间：2026-10-17 11:55 CST
 - 链接：https://www.bloomberg.com/news/articles/2026-10-17/arrested-openai-engineer-seeks-bail-denies-he-planned-to-flee
 
-### 3. Anthropic Pitches AI Safety Bill to Lawmakers
-- 摘要：Anthropic PBC has presented its own draft bill to US lawmakers with a plan for regulating artificial intelligence safety and security, in a moment of heightened concern about the potential risks of the rapidly advancing technology.
-- 作者：Shirin Ghaffary and Samantha Oltman
-- 发布时间：2026-10-17 06:25 CST
-- 链接：https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says
+## CNBC Technology（cnbc-tech，en，本窗口共 3 条）
 
-## CNBC Technology（cnbc-tech，en，本窗口共 2 条）
+### 1. AI stocks plunge. Inflation heats up. Where we're still finding opportunities
+- 摘要：The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism.
+- 作者：Alexa LoMonaco
+- 发布时间：2026-10-17 23:42 CST
+- 链接：https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html
 
-### 1. Some companies give AI to everyone. This CEO is doing the opposite
+### 2. Some companies give AI to everyone. This CEO is doing the opposite
 - 摘要：Paysend CEO Ben Chisell limits AI tools to top performers as other U.K. companies push broader workplace rollouts.
 - 作者：Lindsay Dodgson
 - 发布时间：2026-10-17 13:00 CST
 - 链接：https://www.cnbc.com/2026/10/17/ai-workplace-tokenmaxxing-paysend.html
 
-### 2. OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton
+### 3. OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton
 - 摘要：AI "amplifies" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on "Squawk Box."
 - 作者：Kevin Breuninger
 - 发布时间：2026-10-17 00:27 CST
@@ -218,25 +224,25 @@
 - 发布时间：2026-10-17 12:00 CST
 - 链接：https://www.ft.com/content/2c21c250-d186-44e1-822c-f65436d213f4
 
-## The Guardian — AI（guardian-ai，en，本窗口共 6 条）
+## The Guardian — AI（guardian-ai，en，本窗口共 7 条）
 
-### 1. Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California
+### 1. Why Britain should reject the lure of cheap – and scary – Chinese AI
+- 摘要：In the west the technology comes with at least some effort to provide security and a benign intent – not so from China There is much to fear from artificial intelligence developed in China and handed to businesses and governments in the west almost free of charge. Every month Chinese AI developers s...
+- 作者：Phillip Inman
+- 发布时间：2026-10-17 23:00 CST
+- 链接：https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai
+
+### 2. Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California
 - 摘要：A modern-day prospector promised rural Imperial thousands of jobs and millions in tax revenue – but his plan has set off a firestorm of resistance Sebastian Rucci zoomed in on a map in late 2024, looking closely at a large block of brown earth. The barren plot sandwiched between sprawling alfalfa fi...
 - 作者：Dara Kerr and Gabrielle Canon
 - 发布时间：2026-10-17 21:00 CST
 - 链接：https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial
 
-### 2. The power of AI is worrying senior Labour figures – as is the fear of ‘falling behind the public’
+### 3. The power of AI is worrying senior Labour figures – as is the fear of ‘falling behind the public’
 - 摘要：Westminster appears to be waking up to warnings over AI safety, with concerns over its use by extremist groups and bad actors “I have this sense that, within a few months, AI is going to be all anyone is talking about,” said one cabinet minister, with an ominous stare. It was Labour conference, with...
 - 作者：Rowena Mason and Dan Milmo
 - 发布时间：2026-10-17 19:33 CST
 - 链接：https://www.theguardian.com/technology/2026/oct/17/artificial-intelligence-ai-labour-government-safety-uk-extremism
-
-### 3. Fake Linda and me: the Agatha Christie-worthy mystery of the fraudster who stole my byline
-- 摘要：How a string of bizarre events led writer Linda Geddes to don her sleuthing cap and dig into a world of shadowy impersonators It started with an entirely ordinary interaction on LinkedIn. Someone had tagged me in a post, saying how much they’d enjoyed contributing to a New York Post article I’d writ...
-- 作者：Linda Geddes
-- 发布时间：2026-10-17 19:00 CST
-- 链接：https://www.theguardian.com/technology/2026/oct/17/fake-linda-and-me-mystery-fraudster-stole-my-byline
 
 ## IEEE Spectrum — AI（ieee-spectrum-ai，en，本窗口共 1 条）
 
@@ -245,6 +251,14 @@
 - 作者：Brianne Costa
 - 发布时间：2026-10-17 00:49 CST
 - 链接：https://spectrum.ieee.org/electric-truck-battery-design-simulation
+
+## Interconnects (Nathan Lambert)（interconnects，en，本窗口共 1 条）
+
+### 1. Meta shakes up the frontiers, open and closed
+- 摘要：This has been a week where the balance of American open-weight models took a step change back toward the frontier. Meta took the lead of this charge with Muse Spark Open , which is now the strongest American-made open model by quite some margin, but the addition of Reflection’s first model Beam is a...
+- 作者：Nathan Lambert
+- 发布时间：2026-10-17 22:06 CST
+- 链接：https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open
 
 ## Latent Space（latent-space，en，本窗口共 1 条）
 
@@ -326,45 +340,45 @@
 - 发布时间：2026-10-17 00:30 CST
 - 链接：https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/
 
-## The Decoder（the-decoder，en，本窗口共 9 条）
+## The Decoder（the-decoder，en，本窗口共 11 条）
 
-### 1. Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs
+### 1. An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet
+- 摘要：OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downloaded 24 years of hospital data without mentioning the unauth...
+- 作者：Matthias Bastian
+- 发布时间：2026-10-17 23:36 CST
+- 链接：https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/
+
+### 2. Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes
+- 摘要：Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the...
+- 作者：Matthias Bastian
+- 发布时间：2026-10-17 22:42 CST
+- 链接：https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/
+
+### 3. Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs
 - 摘要：Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in too...
 - 作者：Matthias Bastian
 - 发布时间：2026-10-17 18:33 CST
 - 链接：https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/
 
-### 2. AI models hide mistakes in their own work reports, but one sentence in your prompt can help
-- 摘要：AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your p...
-- 作者：Jonathan Kemper
-- 发布时间：2026-10-17 17:54 CST
-- 链接：https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/
+## The Verge — AI（theverge-ai，en，本窗口共 4 条）
 
-### 3. Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof
-- 摘要：OpenAI submitted a 166-page solution to the Navier-Stokes problem but apparently doesn't fully understand its own proof. Several groups of experts dispute the claimed methodology, saying the actual approach differs from what OpenAI described. And because language models are black boxes, where the un...
-- 作者：Manuel Uth
-- 发布时间：2026-10-17 17:00 CST
-- 链接：https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/
+### 1. Meta removes language that may have allowed it to scrape news sites
+- 摘要：After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page : … Meta may use any content from such domains, web pages,...
+- 作者：Terrence O’Brien
+- 发布时间：2026-10-17 23:04 CST
+- 链接：https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites
 
-## The Verge — AI（theverge-ai，en，本窗口共 3 条）
-
-### 1. Websites are closing their doors to AI agents
+### 2. Websites are closing their doors to AI agents
 - 摘要：Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't...
 - 作者：Emma Roth
 - 发布时间：2026-10-17 21:00 CST
 - 链接：https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
 
-### 2. A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops
+### 3. A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops
 - 摘要：Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful lap...
 - 作者：Tom Warren
 - 发布时间：2026-10-16 23:00 CST
 - 链接：https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions
-
-### 3. Meta’s new terms may allow it to train AI on news sites for free
-- 摘要：Meta's new terms appear to give it permission to crawl and scrape websites "associated" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , which go into effect on October 30th, say Meta can use this outside content to "de...
-- 作者：Emma Roth
-- 发布时间：2026-10-16 22:02 CST
-- 链接：https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers
 
 ## TLDR AI（tldr-ai，en，本窗口共 1 条）
 
@@ -457,25 +471,25 @@
 - 发布时间：2026-10-17 08:22 CST
 - 链接：http://www.geekpark.net/news/372488
 
-## 虎嗅（huxiu，zh，本窗口共 48 条）
+## 虎嗅（huxiu，zh，本窗口共 55 条）
 
-### 1. 东京没有孔乙己：一边是 4 个 Offer，一边是第 142 版 Excel
-- 摘要：本文来自微信公众号： 霓虹电波局 ，作者：霓虹电波局，原文标题：《东京没有孔乙己：一边是 4 个 Offer，一边是第 142 版 Excel》 “ 同一片东海两岸，一边在挑工作，一边在等通知。 ——霓虹电波局 前阵子，我去了一趟东京。 晚上在新宿西口的一家居酒屋里喝酒，被隔壁桌几个穿黑西装的日本年轻人给看呆了。 每年10月，正是日本各大企业为明年春季入职的应届生举办正式“内定式”（录用仪式）的日子。那几个年轻人刚参加完企业的内定恳亲会出来，白衬衫领口微敞，领带扯得歪歪扭扭，桌上摆着几扎生啤。其中一个微醺的小伙子正对着同伴大吐苦水，大意是：手头已经拿了四家公司的“内定”（Offer），现在特别...
-- 作者：霓虹电波局
-- 发布时间：2026-10-17 21:48 CST
-- 链接：https://www.huxiu.com/article/4898331.html
+### 1. 小红书的AI，开始和自己的生意算账
+- 摘要：本文来自微信公众号： 奇帆商业 ，编辑：陆垚，作者：小钱 不到半年，小红书重新安排了两次AI部门的职责。 4月30日，小红书将Dots提升为AI一级部门，把模型研发、基础设施、工程和产品集中到同一个组织中。到了9月，产品团队和部分工程团队被划转至社区，Dots转而聚焦底层模型。 10月16日，公司又宣布将Dots与核心基础设施团队Infra打通。 一个刚刚获得独立地位的AI部门，很快就被重新划分了工作范围。 最新的全员信对此给出了一种解释。小红书强调，自己是一家科技应用公司，与云厂商投入模型研发的逻辑存在根本不同。模型能力需要与具体产品形成更紧密的联系，技术投入也需要考虑实际应用价值。 这轮调...
+- 作者：奇帆商业
+- 发布时间：2026-10-18 00:58 CST
+- 链接：https://www.huxiu.com/article/4898344.html
 
-### 2. 高手解读政策，重点看这4个地方
-- 摘要：本文来自微信公众号： 人神共奋 ，作者：思想钢印 1/4 政策解读技巧一：比较法 10月9日，高层联合发布一份顶层文件《关于发展新质生产力的意见》，共五个方面、19项举措。 文件标题是"发展"（不是"大力发展"），但文件最长、最重要的一段篇幅，给了"三个不能、一个严禁"： "不能脱实向虚、贪大求全、搞泡沫化，不能出现产业空心化或产业断层现象，不能盲目求新、顾此失彼。各级领导干部要树立和践行正确政绩观，结合实际探索发展路径，严禁借发展新质生产力之名违规滥用政策，对一哄而上、盲目投资等造成重大损失的严肃追究责任。" ——10月9日中共中央、国务院印发的《关于发展新质生产力的意见》 多数人的反应是"...
-- 作者：人神共奋
-- 发布时间：2026-10-17 20:35 CST
-- 链接：https://www.huxiu.com/article/4898318.html
+### 2. 他们不交社保了，还准备把储蓄都花光
+- 摘要：本文来自微信公众号： 不懂经 ，作者：不懂经也叔的Rust 最近看到一件很有意思的事，说硅谷一些年轻的AI研究员，原本不抽烟的，现在纷纷抽起烟来。为什么，因为他们判断，再过几年，AI就能够治愈癌症了。 可能很多人会觉得很扯，但考虑到这是硅谷，也就见怪不怪了。 最近社保的话题很火。让我想起之前发的一篇文章，想再分享一下。翻出来一看，发现都快两年了。 这大概是ChatGPT-4o发布的时候，现在它已经下架了。AI给人的感觉太强了，一个美国妇女，带着哭腔发了一条推文，让她妈不要再为未来存钱了，因为她们现在所设想的未来已经不存在了，一切都将不一样了。 她用了一个很形象的说法，就像诊断出一种无法治愈的癌...
+- 作者：不懂经©
+- 发布时间：2026-10-17 23:47 CST
+- 链接：https://www.huxiu.com/article/4898343.html
 
-### 3. 百度，最担心的事情发生了
-- 摘要：本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 说实话，这些年用百度搜索，有时候挺考验技术的。 想找一篇教程，搜索结果翻了好几页，点进去发现都是复制粘贴的内容；想查个产品，得先研究哪些是推广、哪些是正常结果；好不容易找到一篇看起来有用的文章，往下一拉，前面800字还在介绍行业背景。 明明只是想找个答案，硬是被迫做了一轮信息鉴别。 以前大家说“百度一下，你就知道”。 现在有时候是“百度一下，你先猜猜哪个是真的”。 最绝的是那些SEO网站，文章标题一个比一个精准，内容一个比一个敷衍。为了抢搜索排名，同一个问题能换着花样写出几十篇文章。 搜索引擎收录得挺勤快，用户找答案找得挺崩溃。 中国用户，...
-- 作者：人人都是产品经理
-- 发布时间：2026-10-17 20:07 CST
-- 链接：https://www.huxiu.com/article/4898316.html
+### 3. 巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润
+- 摘要：本文来自微信公众号： 偏科声 ，作者：李小年，原文标题：《巨头自研 AI 芯片：靠推理突围，抢回算力垄断利润》 随着微软全新自研AI芯片Maia 300的发布，微软和谷歌、亚马逊走上了同一条算力突围之路。科技巨头们不再盲目内卷商用高端训练赛道，转而集中资源倾斜推理场景、主攻商业化落地。这一战略取舍的背后，是技术门槛、商业化效率与产业链利润分配的深度重构。 2023年11月，微软推出初代Maia 100，正式入局自研算力赛道。这款芯片采用训推一体的通用架构，核心价值是完成自研硬件与AI生态的适配验证。今年1月，第二代产品Maia 200迭代落地，芯片保留轻度训练能力，但整体架构、精度设计、调度逻...
+- 作者：偏科声
+- 发布时间：2026-10-17 22:54 CST
+- 链接：https://www.huxiu.com/article/4898339.html
 
 ## 爱范儿（ifanr，zh，本窗口共 1 条）
 
@@ -501,27 +515,32 @@
 
 ## IT之家（ithome，zh，本窗口共 72 条）
 
-### 1. 广汽埃安 Ray7 开启预售：华为 DriveONE 多合一电驱，12.88 万元起
-- 摘要：IT之家 10 月 17 日消息，广汽埃安 Ray7 纯电轿车今日开启预售，共 5 款车型，预售价 12.88 万元起。 IT之家附价格信息如下： 530 后驱驾趣版 12.88 万元 530 后驱激光版 13.88 万元 702 后驱驾趣宁德版 13.88 万元 702 后驱激光宁德版 14.88 万元 702 后驱 EMB 激光宁德版 15.88 万元 该车提供 仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝 车色，定位“大 5 米超级纯电轿车”，配备 3.6m 量子星环贯穿前后 LED 灯。 该车提供炽光竞驰、云纱暖米、极速赛道内饰，一体式运动座椅，前排一键 / 语音舒躺，配备高...
+### 1. 12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单
+- 摘要：IT之家 10 月 17 日消息，广汽埃安刚刚宣布 Ray7 预售开启仅 2 小时，订单达 6817 单。该车于今晚开启预售，共 5 款车型，价格为 12.88 万元起。 车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。座舱配备高通骁龙 8295P 座舱芯片 +24GB LPDDR4 运存 +128GB UFS 闪存，15.6 英寸 2.5K 高清中控屏 + 车手互联全覆盖。 此外，该车搭载华为 DriveONE 多合一电驱，配合埃安全新热管理系统和 28 合一热管理模块，CLTC 百公里电耗仅为...
 - 作者：作者： 浩渺
-- 发布时间：2026-10-17 21:06 CST
-- 链接：https://www.ithome.com/1/014/398.htm
+- 发布时间：2026-10-17 23:01 CST
+- 链接：https://www.ithome.com/1/014/410.htm
 
-### 2. 消息称三星正开发全新 Galaxy OS 系统，预计于 2028 年随 Galaxy S28 系列手机亮相
-- 摘要：IT之家 10 月 17 日消息，消息源 Phonefuturist 在 X 平台发文，透露三星正开发全新的（基于安卓的）Galaxy OS，相应系统深度集成 AI 功能，预计将在 2028 年随 Galaxy S28 系列手机亮相，届时也恰逢 One UI 推出 10 周年。 此外，Phonefuturist 还驳斥了部分外媒援引其消息进行的曲解，称 Galaxy OS 是一套新版系统，与 One UI 并行开发，三星后续并不会让 Galaxy OS“退休”。 除此之外，Phonefuturist 还透露新系统将迎来重大改版，还将引入“付费第三方服务集成”，预计这里指的是 AI 功能。 公开...
-- 作者：作者： 漾仔
-- 发布时间：2026-10-17 20:47 CST
-- 链接：https://www.ithome.com/1/014/397.htm
+### 2. 网易《逆水寒：新世界》首个大型资料片【苗疆蛊事】官宣，首次采用双线更新框架
+- 摘要：IT之家 10 月 17 日消息，网易逆水寒官宣，10 月 30 日，《逆水寒：新世界》首个大型资料片【 苗疆蛊事 】正式开启，将首次采用双线更新的框架。 根据官方介绍，苗寨会在月色渐显时展示出另一幅面孔。而当血月升起，刚刚流连的山水，也有了让人忍不住追问的秘密。 循着蛊影深入，在 【祈梦月见岭】与阿初一同直面姬玄霜 ； 月相轮转，下一次又会遇见怎样的挑战？ 无更暗市里，异闻百相真假难辨 ，就连熟悉的菠萝农场，也被一群夜晚的不速之客找上了门…… 《逆水寒：新世界》首个大型资料片【苗疆蛊事】将带来全新地图【月见岭】、大理正传终章剧情、月见岭正传楔章、全新团本【祈梦月见岭】、全新月相机制。 新资料...
+- 作者：作者： 汪淼
+- 发布时间：2026-10-17 22:43 CST
+- 链接：https://www.ithome.com/1/014/409.htm
 
-### 3. 华硕推出旗下首款英特尔 Arc Pro B70 显卡：32GB ECC 显存，AI 算力达 367 TOPS
-- 摘要：IT之家 10 月 17 日消息，据 Wccftech 今日报道，华硕推出了旗下首款英特尔 Arc Pro B70 显卡，面向 AI 推理及工作站市场。华硕此前缺席了英特尔 Arc 独立显卡的多个世代，此次推出新品意味着其再次加入英特尔独立显卡产品阵营。 华硕这款产品名为 UGen Intel Arc Pro B70 32GB GDDR6，采用英特尔 X e 2 架构的 Big Battlemage GPU，配备 32GB GDDR6 ECC 显存、32 个 X e 核心和 256 个 XMX AI 引擎，INT8 AI 算力最高可达 367 TOPS，典型板卡功耗 310W。 该卡采用双槽设...
+### 3. 英伟达否认 RTX 5090 停产传闻，承认供应链产能受限
+- 摘要：IT之家 10 月 17 日消息，英伟达个人计算业务高级副总裁 Jeff Fisher 昨日在台北出席 RTX Spark 相关活动时回应了 RTX 5090 停产相关传闻，明确表示相关消息不属实。 他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。 此前，消息人士 MEGAsizeGPU (@Zed__Wang) 10 月 10 日爆料称，英伟达将不再向 GeForce RTX 50 系列游戏显卡分配 GB202，并将原本用于该卡的 GB202 芯片转向 RTX PRO 专业卡。 相关传闻还提到，英伟达可能...
 - 作者：作者： 问舟
-- 发布时间：2026-10-17 19:56 CST
-- 链接：https://www.ithome.com/1/014/390.htm
+- 发布时间：2026-10-17 22:33 CST
+- 链接：https://www.ithome.com/1/014/407.htm
 
-## 雷峰网（leiphone，zh，本窗口共 1 条）
+## 雷峰网（leiphone，zh，本窗口共 2 条）
 
-### 1. 抖音商城双11首日数据：消费券带动破千万商家数同比增长74%
+### 1. 12.88万起、华为电驱+L4同源智驾，Ray7能成为埃安年轻化的答卷吗？
+- 摘要：10月17日，埃安轿跑Ray7正式开启预售，预售价12.88 万起。新车车长4.9米，轴距2.9米，车头部分搭配3.25米的超长双环灯带，是埃安10年焕新的家族式标识。 新车采用宁德时代电池以及广汽自研的弹匣电池2.0技术，能够在充分释放续航能力的同时，监控电池健康状态。提供45.58kWh和62.98kWh两种规格，续航可达702公里，整车风阻系数 Cd 低至 0.22。 Ray7搭载华为DriveONE多合一电驱，以及华为DriveONE芯片级驱制融合架构，百公里制动仅为32.8米。 底盘方面，Ray7搭载高性能前后稳定杆和后五连杆悬架，过弯极限更高，滤振更干净。 智能化上， Ray7搭载...
+- 发布时间：2026-10-17 22:42 CST
+- 链接：https://www.leiphone.com/category/transportation/F3nQwjeqDO0BtrQ0.html
+
+### 2. 抖音商城双11首日数据：消费券带动破千万商家数同比增长74%
 - 摘要：10月15日，2026抖音商城双11好物节正式开启。今年双11覆盖服饰、美妆个护、快消耐消等重点类目，横跨秋冬换季、囤货等消费节点，通过多场景、多节点助力商家把握年末增长机遇，实现销量与生意规模的持续提升。 大促开启首日，「立减折扣/一件直降」与「消费券」等多重补贴叠加发力，抖音商城双11增长势头强劲：消费券带动成交额破千万元商家数量同比增长74%，首次参加双11成交额突破百万达人数量同比增长30%，商品卡成交额破百万商家数量同比增长103%，搜索带动成交额破百万商家数量同比增长111%。 与此同时，直播间种草的特色源头好物和风味特产迎来集中爆发，农产品生鲜行业成交额过百万商家数量同比增长20...
 - 发布时间：2026-10-17 12:16 CST
 - 链接：https://www.leiphone.com/category/industrynews/JjzV775vQhP9EgGN.html
@@ -543,7 +562,27 @@
 - 发布时间：2026-10-16 22:09 CST
 - 链接：https://www.oschina.net/news/503066/nocobase-updated
 
-## 钛媒体（tmtpost，zh，本窗口共 21 条）
+## 量子位（qbitai，zh，本窗口共 5 条）
+
+### 1. 突发！DeepSeek新模型发布，超级性价比斩杀一切
+- 摘要：新版本V4.1-Flash-1017，还开放了自研搜索API
+- 作者：鹭羽
+- 发布时间：2026-10-17 20:21 CST
+- 链接：https://www.qbitai.com/2026/10/504067.html
+
+### 2. 智谱新模型，懂法方面全球第一了
+- 摘要：AI的风还是刮到了法律圈
+- 作者：文婷
+- 发布时间：2026-10-17 20:13 CST
+- 链接：https://www.qbitai.com/2026/10/503965.html
+
+### 3. 清华开源！智能体操作系统任务成本降83%，AI记忆可查可改
+- 摘要：整套系统原生支持MCP
+- 作者：梦瑶
+- 发布时间：2026-10-17 20:10 CST
+- 链接：https://www.qbitai.com/2026/10/503935.html
+
+## 钛媒体（tmtpost，zh，本窗口共 20 条）
 
 ### 1. 上下文争夺，为何成了办公AI新战场？
 - 摘要：文 / 吴绛枫 最近，谷歌发布了面向企业办公的 Gemini Agent。 驱动这款智能体的，既有谷歌自家的 Gemini，也有对家 Anthropic 的 Claude。 谷歌对此解释得很直接：领先模型可能每隔几个月就会更换，企业长期积累的上下文、技能和数据才是关键。 显然，模型不再是长期壁垒，办公 AI 的竞争开始转向上下文争夺。 10月14日，企业微信与 WorkBuddy 也宣布深度联合。 WorkBuddy 正式以可对话机器人的身份，进入企业微信联系人列表。双方打通账号体系，并在企业授权范围内开放消息、文档、会议、网盘等多项底层能力。 一个是国内服务用户规模最大的协同办公平台，一个是...
@@ -565,11 +604,11 @@
 
 ## 智东西（zhidx，zh，本窗口共 2 条）
 
-### 1. 端侧跑通超千亿大模型！29999元起，联想YOGA Pro 15 RTX Spark超级AIPC发售
-- 摘要：智东西10月16日消息，今日，联想YOGA Pro 15 RTX Spark超级AIPC全渠道正式开售，官方售价29999元起，这也是全球首批搭载NVIDIA RTX Spark N1X超级芯片的本地智能体AIPC。 联想YOGA Pro 15 RTX Spark超级AIPC由NVIDIA RTX Spark驱动，将NVIDIA AI与RTX图形技术集成到其中，专为创作、开发和游戏而设计。 一、NVIDIA RTX Spark驱动，集成6144核 这台AIPC搭载的芯片内部集成高达6144-core的NVIDIA Blackwell RTX GPU与高达20-core的NVIDIA Grace...
-- 作者：程茜
-- 发布时间：2026-10-16 21:18 CST
-- 链接：https://zhidx.com/p/601884.html
+### 1. 梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临
+- 摘要：智东西 作者 | 杨京丽 编辑 | 李水青 智东西10月17日报道，刚刚，DeepSeek V4.1 Flash更新至 V4.1-Flash-1017版本 ，官方网页端、App与API已同步更新至新模型，模型权重也已在HuggingFace和ModelScope开放下载。DeepSeek还向公众开放自研搜索引擎的 Search（搜索）与Fetch（抓取）API ，两个接口均定价为 5元/千次 。 此次更新距离该模型发布仅过去一个多月。9月10日， DeepSeek正式推出V4.1-Flash ，在性能上超越了DeepSeek-V4-Pro。 开源地址： HuggingFace: https:/...
+- 作者：杨 京丽
+- 发布时间：2026-10-17 18:03 CST
+- 链接：https://zhidx.com/p/601905.html
 
 ### 2. 美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD
 - 摘要：智东西 编译 | 黄菲 编辑 | 江宇 智东西10月16日消息，据路透社报道，10月15日，美国芯片设计初创公司Bolt Graphics正寻求融资约1亿美元（约合人民币6.72亿元），该公司目前估值约为7亿美元（约合人民币47.04亿元）。 该公司计划开发能够与英伟达和AMD竞争的GPU，重点面向高性能计算、专业渲染和游戏图形等领域。 目前，本轮融资仍在进行中，Bolt Graphics首席执行官达尔维什·辛格（Darwesh Singh）拒绝透露具体融资金额和条款，但称融资进展顺利。 与英伟达、AMD持续加码AI芯片不同，Bolt Graphics试图通过差异化的产品路线寻找市场机会。该公...
@@ -596,25 +635,25 @@
 - 发布时间：2026-10-17 17:32 CST
 - 链接：https://github.com/hmjz100/LinkSwift
 
-## Hacker News (AI stories)（hackernews-ai，en，本窗口共 99 条）
+## Hacker News (AI stories)（hackernews-ai，en，本窗口共 109 条）
 
-### 1. Show HN: Which Mac runs which LLM, and how fast
-- 摘要：Which Apple Silicon Mac runs which model, how much unified memory it takes, and the generation speed to expect. M1 through M6, validated on measurements from two machines.
-- 作者：bagdaerdev
-- 发布时间：2026-10-17 20:15 CST
-- 链接：https://macyou.co/mac-llm-calculator
+### 1. AI lab offers free plumbing and HVAC repairs to train AI robots
+- 摘要：Is AI coming for blue-collar jobs, too?
+- 作者：brunomarsjams
+- 发布时间：2026-10-18 00:35 CST
+- 链接：https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning
 
-### 2. DeepSeek-v4.1-Flash-1017 is here
-- 摘要：🚀 DeepSeek-V4.1-Flash-1017 is here! Stronger benchmark performance, faster task completion, and shorter outputs than the previous version—a Pareto improvement in performance and cost. Now live on our website, app, and API. 🛠️ Optimized for @DeepSeekHarness, Tencent CodeBuddy, WorkBuddy, and mor…
-- 作者：theanonymousone
-- 发布时间：2026-10-17 16:39 CST
-- 链接：https://twitter.com/deepseek_ai/status/2111375640717033777
+### 2. OpenAI discloses four more rogue incidents
+- 摘要：The company flagged two new incidents as “critical,” yet did not discover or disclose them until months later.
+- 作者：DASD
+- 发布时间：2026-10-18 00:31 CST
+- 链接：https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/
 
-### 3. DeepSeek: DeepSeek v4.1 Flash 1017
-- 摘要：DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.
-- 作者：theanonymousone
-- 发布时间：2026-10-17 16:37 CST
-- 链接：https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017
+### 3. GNOME OS Preview
+- 摘要：Try the latest and greatest GNOME software
+- 作者：saikatsg
+- 发布时间：2026-10-18 00:18 CST
+- 链接：https://os.gnome.org/
 
 ## Product Hunt — AI（producthunt-ai，en，本窗口共 7 条）
 
@@ -656,25 +695,25 @@
 - 发布时间：2026-10-16 21:22 CST
 - 链接：https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/
 
-## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 404 条）
+## Reddit AI subreddits (new)（reddit-ai-new，en，本窗口共 484 条）
 
-### 1. MOSSing around in 4K
-- 摘要：I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors v...
-- 作者：RauschCraft
-- 发布时间：2026-10-17 21:49 CST
-- 链接：https://www.reddit.com/gallery/1x8apux
+### 1. anthropic cofounder Jack Clark “we are in the singularity”
+- 摘要：Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+- 作者：Efficient-Opinion-92
+- 发布时间：2026-10-18 01:23 CST
+- 链接：https://youtu.be/K-TWH-otxrI?is=1gjHZbouG4HmKWPk
 
-### 2. Fizgig Lora Isolation - A new process for more powerful LoRAs
-- 摘要：Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand toget...
-- 作者：shootthesound
-- 发布时间：2026-10-17 21:48 CST
-- 链接：https://v.redd.it/890r57c381wh1
+### 2. How the Claude Code team reviews 30,000+ changes a day, and the token cost question nobody has answered yet
+- 摘要：I made a 2-min explainer of Anthropic's Oct 15 post on how the Claude Code team does code review at agent speed. The short version: The agent shows its test output before a PR exists AI review, security review and CI all have to clear Humans approve by risk: docs can need zero, the riskiest code nee...
+- 作者：procodernet
+- 发布时间：2026-10-18 01:16 CST
+- 链接：https://v.redd.it/x9bhb2o892wh1
 
-### 3. "Flying car" drives on moon 50 years ago
-- 摘要：For those who think Elon's publicity stunt is in any way significant. Strapping rockets to an object isn't new or particularly revolutionary at this point.
-- 作者：Much-Ad-2554
-- 发布时间：2026-10-17 21:46 CST
-- 链接：https://i.redd.it/79b4o82y71wh1.jpeg
+### 3. Propose: Paid resets
+- 摘要：I think it’d be great if we had paid resets ability. Let’s say 1/10 for 5h and 1/4 for weekly or so. Sometimes you hit the limit just once a month and instead of struggling with several accounts, I’d personally pay for the reset.
+- 作者：akuma-i
+- 发布时间：2026-10-18 01:14 CST
+- 链接：https://www.reddit.com/r/ClaudeAI/comments/1x8foi8/propose_paid_resets/
 
 ## 智源社区（baai-hub，zh，本窗口共 23 条）
 
@@ -697,7 +736,7 @@
 - 链接：https://hub.baai.ac.cn/view/58767
 
 ---
-共列出 103 条（窗口内采集总数 845 条，来自 45 个信源）
+共列出 109 条（窗口内采集总数 954 条，来自 47 个信源）
 
 ## OpenClaw 推送提示
 请基于本文件生成中文 Daily AI News 推送，不要联网，不要抓原文，不要扩展搜索。
