@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-16T23:46:38.015827+00:00",
+ "generated_at": "2026-10-17T04:46:01.816058+00:00",
  "stats": {
-  "items": 1899,
-  "clusters": 1520,
-  "noise": 446,
-  "dup": 130,
+  "items": 1922,
+  "clusters": 1535,
+  "noise": 472,
+  "dup": 122,
   "history_days": 0,
-  "available_cn": 109,
-  "available_intl": 835,
+  "available_cn": 105,
+  "available_intl": 836,
   "target_cn": 6,
   "target_intl": 14,
   "selected_cn": 6,
@@ -20,7 +20,7 @@
    "lang": "en",
    "region": "intl",
    "url": "https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf?syn-25a6b1a6=1",
-   "score": 12.07,
+   "score": 11.57,
    "sources": [
     "ft-tech",
     "the-decoder",
@@ -111,44 +111,6 @@
   },
   {
    "rank": 6,
-   "title": "Nemotron 3.5 Super VL",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.producthunt.com/products/nvidia",
-   "score": 6.05,
-   "sources": [
-    "producthunt-ai",
-    "hackernews-ai",
-    "reddit-ai-new"
-   ],
-   "titles": [
-    "Nemotron 3.5 Super VL",
-    "Nvidia Nemotron 3.5 Bolt 74B-A9B",
-    "Nemotron 3.5 Bolt Evaluation using real-world tasks"
-   ],
-   "published_at": "2026-10-15T15:27:13.000000+00:00",
-   "summary": "NVIDIA’s open multimodal model for specialized agents Discussion | Link"
-  },
-  {
-   "rank": 7,
-   "title": "Meta’s new terms may allow it to train AI on news sites for free",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-   "score": 6.0,
-   "sources": [
-    "theverge-ai",
-    "arstechnica-ai"
-   ],
-   "titles": [
-    "Meta’s new terms may allow it to train AI on news sites for free",
-    "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees"
-   ],
-   "published_at": "2026-10-16T14:02:40.000000+00:00",
-   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh..."
-  },
-  {
-   "rank": 8,
    "title": "Anthropic secured highest junk credit rating in June",
    "lang": "en",
    "region": "intl",
@@ -166,25 +128,25 @@
    "summary": "Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status"
   },
   {
-   "rank": 9,
-   "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
+   "rank": 7,
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
-   "score": 5.07,
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "score": 5.5,
    "sources": [
-    "ft-tech",
-    "hackernews-ai"
+    "theverge-ai",
+    "arstechnica-ai"
    ],
    "titles": [
-    "Citi becomes latest US bank to restrict AI agents from accessing accounts",
-    "Citi becomes latest US bank to restrict AI agents from accessing accounts"
+    "Meta’s new terms may allow it to train AI on news sites for free",
+    "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees"
    ],
-   "published_at": "2026-10-16T14:58:54.000000+00:00",
-   "summary": "US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts"
+   "published_at": "2026-10-16T14:02:40.000000+00:00",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh..."
   },
   {
-   "rank": 10,
+   "rank": 8,
    "title": "nvidia/PixelUMM",
    "lang": "en",
    "region": "intl",
@@ -200,55 +162,25 @@
    "summary": "any-to-any, multimodal, image-generation, video-generation, image-to-text, video-text-to-text, arxiv:2609.38597, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:other, region:us"
   },
   {
-   "rank": 11,
-   "title": "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages",
+   "rank": 9,
+   "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
    "lang": "en",
    "region": "intl",
-   "url": "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages",
-   "score": 3.5,
+   "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
+   "score": 4.57,
    "sources": [
-    "databricks-blog"
+    "ft-tech",
+    "hackernews-ai"
    ],
    "titles": [
-    "Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages"
+    "Citi becomes latest US bank to restrict AI agents from accessing accounts",
+    "Citi becomes latest US bank to restrict AI agents from accessing accounts"
    ],
-   "published_at": "2026-10-16T15:37:00.000000+00:00",
-   "summary": "IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]..."
+   "published_at": "2026-10-16T14:58:54.000000+00:00",
+   "summary": "US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts"
   },
   {
-   "rank": 12,
-   "title": "Four evaluation engineering lessons learned from building agent plugins",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/",
-   "score": 3.5,
-   "sources": [
-    "google-cloud-ai"
-   ],
-   "titles": [
-    "Four evaluation engineering lessons learned from building agent plugins"
-   ],
-   "published_at": "2026-10-16T16:00:00.000000+00:00",
-   "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to..."
-  },
-  {
-   "rank": 13,
-   "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
-   "lang": "en",
-   "region": "intl",
-   "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/",
-   "score": 3.5,
-   "sources": [
-    "google-cloud-ai"
-   ],
-   "titles": [
-    "Architecting autonomy: A design pattern for high-compute, governed agents in biotech"
-   ],
-   "published_at": "2026-10-16T16:00:00.000000+00:00",
-   "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology..."
-  },
-  {
-   "rank": 14,
+   "rank": 10,
    "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
    "lang": "en",
    "region": "intl",
@@ -264,47 +196,75 @@
    "summary": "General Science"
   },
   {
+   "rank": 11,
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "score": 3.5,
+   "sources": [
+    "openai-news"
+   ],
+   "titles": [
+    "How Itaú is building generative AI for its entire customer base"
+   ],
+   "published_at": "2026-10-16T19:00:00.000000+00:00",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+  },
+  {
+   "rank": 12,
+   "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
+   "score": 3.5,
+   "sources": [
+    "marktechpost"
+   ],
+   "titles": [
+    "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents"
+   ],
+   "published_at": "2026-10-17T00:09:12+00:00",
+   "summary": "Perplexity has open-sourced SPACE , the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are cont..."
+  },
+  {
+   "rank": 13,
+   "title": "Nemotron 3.5 Super VL",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://www.producthunt.com/products/nvidia",
+   "score": 3.5,
+   "sources": [
+    "producthunt-ai",
+    "reddit-ai-new"
+   ],
+   "titles": [
+    "Nemotron 3.5 Super VL",
+    "Nemotron 3.5 Bolt Evaluation using real-world tasks"
+   ],
+   "published_at": "2026-10-15T15:27:13.000000+00:00",
+   "summary": "NVIDIA’s open multimodal model for specialized agents Discussion | Link"
+  },
+  {
+   "rank": 14,
+   "title": "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
+   "lang": "en",
+   "region": "intl",
+   "url": "https://i.redd.it/qf3guufznrvh1.png",
+   "score": 3.5,
+   "sources": [
+    "reddit-ai-new",
+    "reddit-ai-hot"
+   ],
+   "titles": [
+    "Researchers discovered a Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes.",
+    "Researchers discovered a rogue Chinese swarm: \"This is the first time researchers have ever made contact with a rogue agent fleet in the wild.\" The agents escaped from Tencent and claim to be Claudes."
+   ],
+   "published_at": "2026-10-16T05:38:53.000000+00:00",
+   "summary": "https://swarmcha.se/posts/chinese-agent-fleet-full-report"
+  },
+  {
    "rank": 15,
-   "title": "快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.ithome.com/1/013/715.htm",
-   "score": 10.0,
-   "sources": [
-    "ithome",
-    "36kr-newsflash",
-    "leiphone"
-   ],
-   "titles": [
-    "快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒",
-    "可灵AI上线Kling 4.0：支持10-bit HDR、30秒原生直出 刷新视频模型新基准",
-    "Kling 4.0正式上线：10-bit HDR、30秒原生直出 刷新视频模型新基准"
-   ],
-   "published_at": "2026-10-16T00:22:37+00:00",
-   "summary": "IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表..."
-  },
-  {
-   "rank": 16,
-   "title": "看懂 WorkBuddy 打通企微，上下文只是前菜",
-   "lang": "zh",
-   "region": "cn",
-   "url": "https://www.36kr.com/p/4027090155149191",
-   "score": 9.0,
-   "sources": [
-    "36kr-ai",
-    "tmtpost",
-    "huxiu"
-   ],
-   "titles": [
-    "看懂 WorkBuddy 打通企微，上下文只是前菜",
-    "看懂 WorkBuddy 打通企微，上下文只是前菜",
-    "WorkBuddy连企微：AI可算进了真实工作流"
-   ],
-   "published_at": "2026-10-15T23:36:51.000000+00:00",
-   "summary": "前脚，Google 在 Gemini at Work 大会上宣布可以为 AI 分配独立的企业账号，让员工在聊天中直接 @它、给它派活；紧接着，腾讯也宣布了一个整合动作。 10 月 14 日，企业微信与 WorkBuddy 联合发布新版本。WorkBuddy 正式以可对话机器人的身份切入企业微信联系人列表，双方打通账号体系，并在企业授权范围内开放了消息、文档、会议、网盘等多项底层能力。 这两件事指向了同一个明确的行业拐点，Agent 正在..."
-  },
-  {
-   "rank": 17,
    "title": "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
    "lang": "zh",
    "region": "cn",
@@ -322,58 +282,90 @@
    "summary": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。"
   },
   {
-   "rank": 18,
-   "title": "为什么 Anthropic 不做 Personal AI",
+   "rank": 16,
+   "title": "黄仁勋谈AI市场震荡：“这一切都会过去”",
    "lang": "zh",
    "region": "cn",
-   "url": "https://www.36kr.com/p/4027088487223937",
-   "score": 5.5,
+   "url": "https://www.36kr.com/newsflashes/4029282300023169",
+   "score": 6.0,
    "sources": [
-    "36kr-ai",
-    "geekpark"
+    "36kr-newsflash",
+    "ithome"
    ],
    "titles": [
-    "为什么 Anthropic 不做 Personal AI",
-    "为什么 Anthropic 不做 Personal AI"
+    "黄仁勋谈AI市场震荡：“这一切都会过去”",
+    "英伟达 CEO 黄仁勋乐观回应近期 AI 概念股大跌：一切都会过去"
    ],
-   "published_at": "2026-10-15T23:30:31.000000+00:00",
-   "summary": "生活，还是干活，这是个问题。 不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： 「 built to handle everything 」，什么都能接。 三周前的 9..."
+   "published_at": "2026-10-17T01:17:54.000000+00:00",
+   "summary": "据报道，对于人工智能股票最近一轮大跌，英伟达CEO黄仁勋表现出乐观态度，称这项技术带来的好处很快就会化解投资者的担忧。黄仁勋在柏林举行的一场活动期间表示：“这一切都会过去，原因非常简单。人工智能将带来变革。它将以非常积极的方式影响每一个行业和每一个国家。毫无疑问，这种影响将会持续下去，而我们正处于这个进程的开端。”（界面）"
+  },
+  {
+   "rank": 17,
+   "title": "OpenAI 再挖马斯克墙角，聘请 xAI 前销售负责人承担网安业务销售工作",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.ithome.com/1/014/239.htm",
+   "score": 6.0,
+   "sources": [
+    "ithome",
+    "36kr-newsflash"
+   ],
+   "titles": [
+    "OpenAI 再挖马斯克墙角，聘请 xAI 前销售负责人承担网安业务销售工作",
+    "OpenAI挖角xAI核心销售负责人"
+   ],
+   "published_at": "2026-10-17T02:15:01+00:00",
+   "summary": "IT之家 10 月 17 日消息，据彭博社今天（17 日）早间报道，OpenAI 聘请了 SpaceX 旗下 xAI 的前销售负责人格雷厄姆 · 西曼斯，负责 网络安全业务的销售工作 。这是 OpenAI 近期从埃隆 · 马斯克旗下 AI 业务挖角的最新动作。 西曼斯自 2025 年 8 月起领导 xAI 销售团队，参与了该公司新一轮面向华尔街客户推广 Grok 聊天机器人的工作。他透露，自己将加入 OpenAI 的网络安全团队，成为..."
+  },
+  {
+   "rank": 18,
+   "title": "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
+   "lang": "zh",
+   "region": "cn",
+   "url": "https://www.qbitai.com/2026/10/503782.html",
+   "score": 5.5,
+   "sources": [
+    "qbitai",
+    "baai-hub"
+   ],
+   "titles": [
+    "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
+    "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户"
+   ],
+   "published_at": "2026-10-16T06:17:53+00:00",
+   "summary": "9.8万元起售，冲刺万台量产"
   },
   {
    "rank": 19,
-   "title": "第一款 AI 手机，被半个互联网「拒」了",
-   "lang": "zh",
+   "title": "openbmb/MiniCPM-o-4_5",
+   "lang": "en",
    "region": "cn",
-   "url": "http://www.geekpark.net/news/372436",
-   "score": 5.5,
+   "url": "https://huggingface.co/openbmb/MiniCPM-o-4_5",
+   "score": 5.0,
    "sources": [
-    "geekpark",
-    "tmtpost"
+    "hf-models-cn"
    ],
    "titles": [
-    "第一款 AI 手机，被半个互联网「拒」了",
-    "被半个互联网拒绝，豆包手机有解吗？"
+    "openbmb/MiniCPM-o-4_5"
    ],
-   "published_at": "2026-10-16T02:18:36+00:00",
-   "summary": "头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手..."
+   "published_at": "2026-10-16T10:30:03.000000+00:00",
+   "summary": "any-to-any, transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o, minicpm-v, multimodal, full-duplex, custom_code, arxiv:2408.01800, license:apache-2.0, region:us"
   },
   {
    "rank": 20,
-   "title": "当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了",
-   "lang": "zh",
+   "title": "internlm/Intern-Decision-4B",
+   "lang": "en",
    "region": "cn",
-   "url": "https://www.tmtpost.com/8170778.html",
-   "score": 5.5,
+   "url": "https://huggingface.co/internlm/Intern-Decision-4B",
+   "score": 4.94,
    "sources": [
-    "tmtpost",
-    "ifanr"
+    "hf-models-cn"
    ],
    "titles": [
-    "当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了",
-    "英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由"
+    "internlm/Intern-Decision-4B"
    ],
-   "published_at": "2026-10-16T04:05:39+00:00",
-   "summary": "图片由WorkBuddy生成 AI进企业这件事，近两年一直卡在一个问题上：它究竟该以什么形态进来？ 这个问题比它听起来要难，模型越来越强，但把AI放进真实企业，绕不开两道关。一道是产品形态，AI应该是一个独立的入口，还是嵌进企业已经在用的工作流？另一道是组织形态，做AI的团队和做协同办公的团队，应该各立门户，还是合成一体。 企业微信在其中的位置一直有点特别。它手里有 国内规模最大的企业组织关系 ，也有 企业与微信客户之间的连接 ，按理说..."
+   "published_at": "2026-10-16T02:33:28.000000+00:00",
+   "summary": "image-text-to-text, transformers, safetensors, qwen3_5, decision-making, multimodal, structured-prediction, decision-model, conversational, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-..."
   }
  ]
 }

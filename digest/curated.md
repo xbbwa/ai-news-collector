@@ -1,6 +1,6 @@
 # Daily AI News 候选清单（国外 14｜国内 6）
-生成时间：2026-10-17 07:46 CST
-数据窗口：最近 24 小时，1899 条原始条目 → 1520 个事件；过滤噪音 446 个，排除全部历史已推送的 130 个。
+生成时间：2026-10-17 12:46 CST
+数据窗口：最近 24 小时，1922 条原始条目 → 1535 个事件；过滤噪音 472 个，排除全部历史已推送的 122 个。
 强制配额：国外源 14/14，国内源 6/6；国外全部在前，国内全部在后。
 
 > 给 OpenClaw：本文件已完成跨源合并、跨天去重和排序。不要再筛选、不要联网、不要读其他文件，
@@ -9,7 +9,7 @@
 国外：
 
 ## 1. China unveils draft export controls on AI technologies and chips
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、The Decoder、Reddit AI subreddits (hot)、Hacker News (AI stories)（4 个来源） ｜ 热度：12.07
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、The Decoder、Reddit AI subreddits (hot)、Hacker News (AI stories)（4 个来源） ｜ 热度：11.57
 - 摘要：Expanded restrictions highlight Beijing’s determination to prevent transfer of most advanced technology overseas
 - 发布时间：2026-10-16 20:51 CST
 - 链接：https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf?syn-25a6b1a6=1
@@ -44,107 +44,103 @@
 - 链接：https://arxiv.org/abs/2610.20845
 - 同事件报道：Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine（arXiv cs.AI）
 
-## 6. Nemotron 3.5 Super VL
-- 地区：国外源 ｜ 语言：en ｜ 来源：Product Hunt — AI、Hacker News (AI stories)、Reddit AI subreddits (new)（3 个来源） ｜ 热度：6.05
-- 摘要：NVIDIA’s open multimodal model for specialized agents Discussion | Link
-- 发布时间：2026-10-15 23:27 CST
-- 链接：https://www.producthunt.com/products/nvidia
-- 同事件报道：Nvidia Nemotron 3.5 Bolt 74B-A9B（Hacker News (AI stories)）
-- 同事件报道：Nemotron 3.5 Bolt Evaluation using real-world tasks（Reddit AI subreddits (new)）
-
-## 7. Meta’s new terms may allow it to train AI on news sites for free
-- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、Ars Technica — AI（2 个来源） ｜ 热度：6.0
-- 摘要：Meta's new terms appear to give it permission to crawl and scrape websites "associated" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh...
-- 发布时间：2026-10-16 22:02 CST
-- 链接：https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers
-- 同事件报道：Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees（Ars Technica — AI）
-
-## 8. Anthropic secured highest junk credit rating in June
+## 6. Anthropic secured highest junk credit rating in June
 - 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.93
 - 摘要：Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status
 - 发布时间：2026-10-16 12:00 CST
 - 链接：https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1
 - 同事件报道：Anthropic assigned highest junk credit rating in June（Hacker News (AI stories)）
 
-## 9. Citi becomes latest US bank to restrict AI agents from accessing accounts
-- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：5.07
-- 摘要：US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts
-- 发布时间：2026-10-16 22:58 CST
-- 链接：https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1
-- 同事件报道：Citi becomes latest US bank to restrict AI agents from accessing accounts（Hacker News (AI stories)）
+## 7. Meta’s new terms may allow it to train AI on news sites for free
+- 地区：国外源 ｜ 语言：en ｜ 来源：The Verge — AI、Ars Technica — AI（2 个来源） ｜ 热度：5.5
+- 摘要：Meta's new terms appear to give it permission to crawl and scrape websites "associated" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab . The new terms , wh...
+- 发布时间：2026-10-16 22:02 CST
+- 链接：https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers
+- 同事件报道：Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees（Ars Technica — AI）
 
-## 10. nvidia/PixelUMM
+## 8. nvidia/PixelUMM
 - 地区：国外源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (international labs)（1 个来源） ｜ 热度：4.95
 - 摘要：any-to-any, multimodal, image-generation, video-generation, image-to-text, video-text-to-text, arxiv:2609.38597, base_model:Qwen/Qwen3-8B, base_model:finetune:Qwen/Qwen3-8B, license:other, region:us
 - 发布时间：2026-10-15 14:07 CST
 - 链接：https://huggingface.co/nvidia/PixelUMM
 
-## 11. Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages
-- 地区：国外源 ｜ 语言：en ｜ 来源：Databricks Blog（1 个来源） ｜ 热度：3.5
-- 摘要：IntroductionSupply chain attacks on package registries have grown in volume and sophistication [1]...
-- 发布时间：2026-10-16 23:37 CST
-- 链接：https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages
+## 9. Citi becomes latest US bank to restrict AI agents from accessing accounts
+- 地区：国外源 ｜ 语言：en ｜ 来源：Financial Times — Technology、Hacker News (AI stories)（2 个来源） ｜ 热度：4.57
+- 摘要：US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts
+- 发布时间：2026-10-16 22:58 CST
+- 链接：https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1
+- 同事件报道：Citi becomes latest US bank to restrict AI agents from accessing accounts（Hacker News (AI stories)）
 
-## 12. Four evaluation engineering lessons learned from building agent plugins
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
-- 摘要：The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to...
-- 发布时间：2026-10-17 00:00 CST
-- 链接：https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/
-
-## 13. Architecting autonomy: A design pattern for high-compute, governed agents in biotech
-- 地区：国外源 ｜ 语言：en ｜ 来源：Google Cloud Blog — AI & ML（1 个来源） ｜ 热度：3.5
-- 摘要：In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology...
-- 发布时间：2026-10-17 00:00 CST
-- 链接：https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/
-
-## 14. Grounding AI agents in biological reality: Building blocks for autonomous wet labs
+## 10. Grounding AI agents in biological reality: Building blocks for autonomous wet labs
 - 地区：国外源 ｜ 语言：en ｜ 来源：Google Research Blog（1 个来源） ｜ 热度：3.5
 - 摘要：General Science
 - 发布时间：2026-10-17 02:11 CST
 - 链接：https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/
 
+## 11. How Itaú is building generative AI for its entire customer base
+- 地区：国外源 ｜ 语言：en ｜ 来源：OpenAI News（1 个来源） ｜ 热度：3.5
+- 摘要：With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.
+- 发布时间：2026-10-17 03:00 CST
+- 链接：https://openai.com/index/itau-generative-ai
+
+## 12. Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents
+- 地区：国外源 ｜ 语言：en ｜ 来源：MarkTechPost（1 个来源） ｜ 热度：3.5
+- 摘要：Perplexity has open-sourced SPACE , the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are cont...
+- 发布时间：2026-10-17 08:09 CST
+- 链接：https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/
+
+## 13. Nemotron 3.5 Super VL
+- 地区：国外源 ｜ 语言：en ｜ 来源：Product Hunt — AI、Reddit AI subreddits (new)（2 个来源） ｜ 热度：3.5
+- 摘要：NVIDIA’s open multimodal model for specialized agents Discussion | Link
+- 发布时间：2026-10-15 23:27 CST
+- 链接：https://www.producthunt.com/products/nvidia
+- 同事件报道：Nemotron 3.5 Bolt Evaluation using real-world tasks（Reddit AI subreddits (new)）
+
+## 14. Researchers discovered a Chinese swarm: "This is the first time researchers have ever made contact with a rogue agent fleet in the wild." The agents escaped from Tencent and claim to be Claudes.
+- 地区：国外源 ｜ 语言：en ｜ 来源：Reddit AI subreddits (new)、Reddit AI subreddits (hot)（2 个来源） ｜ 热度：3.5
+- 摘要：https://swarmcha.se/posts/chinese-agent-fleet-full-report
+- 发布时间：2026-10-16 13:38 CST
+- 链接：https://i.redd.it/qf3guufznrvh1.png
+- 同事件报道：Researchers discovered a rogue Chinese swarm: "This is the first time researchers have ever made contact with a rogue ag...（Reddit AI subreddits (hot)）
+
 国内：
 
-## 1. 快手可灵 AI 模型 Kling 4.0 全量上线，单次生成视频最长可达 30 秒
-- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯、雷峰网（3 个来源） ｜ 热度：10.0
-- 摘要：IT之家 10 月 16 日消息，快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com 。 4K、1080p 的 10-bit HDR 格式输出即将上线 创作页面同步全面升级，提供更灵活、更自由的创作体验 Kling 4.0 能力接入 MCP / CLI，走向更多创作场景 面向企业客户与开发者的 API 服务将于近期开放 据介绍，Kling 4.0 的画面真实感、创意可控性、叙事完整度都有大幅提升，在视听表...
-- 发布时间：2026-10-16 08:22 CST
-- 链接：https://www.ithome.com/1/013/715.htm
-- 同事件报道：可灵AI上线Kling 4.0：支持10-bit HDR、30秒原生直出 刷新视频模型新基准（36氪 快讯）
-- 同事件报道：Kling 4.0正式上线：10-bit HDR、30秒原生直出 刷新视频模型新基准（雷峰网）
-
-## 2. 看懂 WorkBuddy 打通企微，上下文只是前菜
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、钛媒体、虎嗅（3 个来源） ｜ 热度：9.0
-- 摘要：前脚，Google 在 Gemini at Work 大会上宣布可以为 AI 分配独立的企业账号，让员工在聊天中直接 @它、给它派活；紧接着，腾讯也宣布了一个整合动作。 10 月 14 日，企业微信与 WorkBuddy 联合发布新版本。WorkBuddy 正式以可对话机器人的身份切入企业微信联系人列表，双方打通账号体系，并在企业授权范围内开放了消息、文档、会议、网盘等多项底层能力。 这两件事指向了同一个明确的行业拐点，Agent 正在...
-- 发布时间：2026-10-16 07:36 CST
-- 链接：https://www.36kr.com/p/4027090155149191
-- 同事件报道：看懂 WorkBuddy 打通企微，上下文只是前菜（钛媒体）
-- 同事件报道：WorkBuddy连企微：AI可算进了真实工作流（虎嗅）
-
-## 3. 范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”
+## 1. 范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”
 - 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、InfoQ 中文（2 个来源） ｜ 热度：6.5
 - 摘要：范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。
 - 发布时间：2026-10-16 15:16 CST
 - 链接：https://www.qbitai.com/2026/10/503829.html
 - 同事件报道：范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”（InfoQ 中文）
 
-## 4. 为什么 Anthropic 不做 Personal AI
-- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 AI 频道、极客公园（2 个来源） ｜ 热度：5.5
-- 摘要：生活，还是干活，这是个问题。 不久前，9 月 29 日的 OpenAI DevDay 开发者日，舞台上飘出了几个圆滚滚的小气泡。 它们叫 dots，是 OpenAI 最新的个人 agent。每个 dot 跑在 GPT-6 Astra 上，拥有一台独立的云端电脑和浏览器，用户关掉 ChatGPT 之后，它还在后台继续干活。OpenAI 对它的描述是： 「 built to handle everything 」，什么都能接。 三周前的 9...
-- 发布时间：2026-10-16 07:30 CST
-- 链接：https://www.36kr.com/p/4027088487223937
-- 同事件报道：为什么 Anthropic 不做 Personal AI（极客公园）
+## 2. 黄仁勋谈AI市场震荡：“这一切都会过去”
+- 地区：国内源 ｜ 语言：zh ｜ 来源：36氪 快讯、IT之家（2 个来源） ｜ 热度：6.0
+- 摘要：据报道，对于人工智能股票最近一轮大跌，英伟达CEO黄仁勋表现出乐观态度，称这项技术带来的好处很快就会化解投资者的担忧。黄仁勋在柏林举行的一场活动期间表示：“这一切都会过去，原因非常简单。人工智能将带来变革。它将以非常积极的方式影响每一个行业和每一个国家。毫无疑问，这种影响将会持续下去，而我们正处于这个进程的开端。”（界面）
+- 发布时间：2026-10-17 09:17 CST
+- 链接：https://www.36kr.com/newsflashes/4029282300023169
+- 同事件报道：英伟达 CEO 黄仁勋乐观回应近期 AI 概念股大跌：一切都会过去（IT之家）
 
-## 5. 第一款 AI 手机，被半个互联网「拒」了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：极客公园、钛媒体（2 个来源） ｜ 热度：5.5
-- 摘要：头图来源： chatgpt 生成 10 月 14 日，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）正式结束 30 天公示期。随之公布的拒绝名单显示，已有 155 款第三方应用明确关上了 AI 自动化操作的大门。名单当日经两轮更新，首批发布为 153 款，最终补全长尾应用后共计 155 款。 腾讯旗下 66 款、阿里旗下 23 款、美团 11 款、快手...
-- 发布时间：2026-10-16 10:18 CST
-- 链接：http://www.geekpark.net/news/372436
-- 同事件报道：被半个互联网拒绝，豆包手机有解吗？（钛媒体）
+## 3. OpenAI 再挖马斯克墙角，聘请 xAI 前销售负责人承担网安业务销售工作
+- 地区：国内源 ｜ 语言：zh ｜ 来源：IT之家、36氪 快讯（2 个来源） ｜ 热度：6.0
+- 摘要：IT之家 10 月 17 日消息，据彭博社今天（17 日）早间报道，OpenAI 聘请了 SpaceX 旗下 xAI 的前销售负责人格雷厄姆 · 西曼斯，负责 网络安全业务的销售工作 。这是 OpenAI 近期从埃隆 · 马斯克旗下 AI 业务挖角的最新动作。 西曼斯自 2025 年 8 月起领导 xAI 销售团队，参与了该公司新一轮面向华尔街客户推广 Grok 聊天机器人的工作。他透露，自己将加入 OpenAI 的网络安全团队，成为...
+- 发布时间：2026-10-17 10:15 CST
+- 链接：https://www.ithome.com/1/014/239.htm
+- 同事件报道：OpenAI挖角xAI核心销售负责人（36氪 快讯）
 
-## 6. 当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了
-- 地区：国内源 ｜ 语言：zh ｜ 来源：钛媒体、爱范儿（2 个来源） ｜ 热度：5.5
-- 摘要：图片由WorkBuddy生成 AI进企业这件事，近两年一直卡在一个问题上：它究竟该以什么形态进来？ 这个问题比它听起来要难，模型越来越强，但把AI放进真实企业，绕不开两道关。一道是产品形态，AI应该是一个独立的入口，还是嵌进企业已经在用的工作流？另一道是组织形态，做AI的团队和做协同办公的团队，应该各立门户，还是合成一体。 企业微信在其中的位置一直有点特别。它手里有 国内规模最大的企业组织关系 ，也有 企业与微信客户之间的连接 ，按理说...
-- 发布时间：2026-10-16 12:05 CST
-- 链接：https://www.tmtpost.com/8170778.html
-- 同事件报道：英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由（爱范儿）
+## 4. 超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户
+- 地区：国内源 ｜ 语言：zh ｜ 来源：量子位、智源社区（2 个来源） ｜ 热度：5.5
+- 摘要：9.8万元起售，冲刺万台量产
+- 发布时间：2026-10-16 14:17 CST
+- 链接：https://www.qbitai.com/2026/10/503782.html
+- 同事件报道：超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户（智源社区）
+
+## 5. openbmb/MiniCPM-o-4_5
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：5.0
+- 摘要：any-to-any, transformers, onnx, safetensors, minicpmo, feature-extraction, minicpm-o, minicpm-v, multimodal, full-duplex, custom_code, arxiv:2408.01800, license:apache-2.0, region:us
+- 发布时间：2026-10-16 18:30 CST
+- 链接：https://huggingface.co/openbmb/MiniCPM-o-4_5
+
+## 6. internlm/Intern-Decision-4B
+- 地区：国内源 ｜ 语言：en ｜ 来源：Hugging Face — model releases (Chinese labs)（1 个来源） ｜ 热度：4.94
+- 摘要：image-text-to-text, transformers, safetensors, qwen3_5, decision-making, multimodal, structured-prediction, decision-model, conversational, base_model:Qwen/Qwen3.5-4B, base_model:finetune:Qwen/Qwen3.5-4B, license:apache-...
+- 发布时间：2026-10-16 10:33 CST
+- 链接：https://huggingface.co/internlm/Intern-Decision-4B
